@@ -1,0 +1,24 @@
+Use case: scientific-educational.
+Create a tall, narrow Chinese educational infographic DRAFT for Holo-M, portrait ratio about 1:2.2, designed for mobile reading. Cream white background, navy typography, amber and teal panel accents, readable large short labels. This is an explanatory diagram, never an experimental photograph.
+Top 15%: a detailed modest 3D-style conceptual humanoid at a tabletop, translucent colored token cards floating near its arms and base; no text in this top illustration strip. Keep full robot silhouette and table in the strip. Illustrative not a real robot benchmark.
+Below the strip draw this exact computation and teaching layout with generous legible type:
+Title: “Holo-M：动作如何变成词”
+Panel1 “训练：数据不齐，也能一起学”
+“EgoDex 人类视频 → EEF”
+“HE 遥操作 / SIMPLE → 可用动作组”
+“缺失的组不计损失”
+Panel2 “动作：四组固定长度 token”
+“EEF 100 → Body 62 → Hand 32 → Kin. 14”
+“1秒动作块 / 30步 / 96维表示”
+“DCT 保留2个低频系数 + 4级RVQ残差”
+Panel3 “推理：组内并行，组间顺序”
+“图像 + 指令 + setup + 状态 → Qwen3-VL-2B”
+“每组8轮去 mask：总计32轮”
+“208个token，不等于208次串行推理”
+Use a simple masked token grid illustration here (teal tiles and pale masked squares).
+Panel4 “落地：预测还要赶上控制”
+“解码动作 → WBC → 机器人”
+“每500ms看一次，预测1秒动作”
+Show an old chunk and next chunk as two simple timeline strips, no fabricated measurements.
+Bottom small visible “AI 生成 · DrawPaper skill”.
+Scientifically preserve these distinctions: EEF is auxiliary shared training representation, 96 represents overlapping canonical channels not 96 physical degrees of freedom; four groups decode sequentially and tokens within group in parallel; low-level controller remains outside VLM; no chain-of-thought claim, no world-model claim, no experimental score plots. This is a draft later scientifically corrected in editable TikZ. No logos.

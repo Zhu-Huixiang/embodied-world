@@ -1,0 +1,127 @@
+{
+  "slug": "holo-m-2609.35709",
+  "title": "全身动作写成208个token，机器人就懂了吗？",
+  "topics": [
+    "vla",
+    "locomotion",
+    "manipulation",
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "Humanoid Loco-Manipulation With Discrete VLA Model",
+    "arxiv_id": "2609.35709",
+    "version": "v1",
+    "first_publication": "2026-09-28",
+    "pdf_sha256": "fedcfc74ba23e5e6af0d414d00ae792b7b1be961ff291272aa266e09dd715431",
+    "url": "https://arxiv.org/abs/2609.35709v1",
+    "project_url": "https://horizonrobotics.github.io/gail/Holo-M/",
+    "code_url": null,
+    "authors": [
+      "Wenxin Shao",
+      "Siqi Chai",
+      "Kun Li",
+      "Kerou Zhang",
+      "Xinzhou Jiang",
+      "Wei Xu",
+      "Qiang Liu"
+    ],
+    "institutions": [
+      "Horizon Robotics"
+    ]
+  },
+  "venue": {
+    "status": "preprint",
+    "name": null,
+    "url": "https://arxiv.org/abs/2609.35709v1",
+    "checked_at": "2026-10-09",
+    "explanation": "原文、arXiv元数据与官方项目页未给出Holo-M投稿或录用会刊；不把参考文献中的刊会归给本文。arXiv不等于同行评审录用。"
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "kind": "original",
+      "file": "figures/original/fig1-original.png",
+      "caption": "论文原图 · Fig. 1 · PDF 第 3 页 · arXiv v1。注意底部的 Whole-Body Controller：语言模型没有独自接管平衡与所有电机控制。",
+      "pdf_page": 3,
+      "figure_id": "Fig. 1",
+      "source_url": "https://arxiv.org/pdf/2609.35709v1",
+      "source_pdf_sha256": "fedcfc74ba23e5e6af0d414d00ae792b7b1be961ff291272aa266e09dd715431",
+      "bbox": [
+        177.2989959716797,
+        71.999267578125,
+        434.72021484375,
+        335.1409912109375
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "arXiv non-exclusive distribution license is not CC reuse permission. Two necessary small figures cited in original analytical commentary with attribution; all original author rights reserved. No full PDF or full figure set republished.",
+      "ai_assistance_disclosed_by_authors": true,
+      "extraction": "complete embedded original; no figure text/arrow overlays on PDF page; original English caption retained in private page crop and PDF"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig3-original.png",
+      "caption": "论文原图 · Fig. 3 · PDF 第 10 页 · arXiv v1。横轴是控制 tick；新观测到来后仍有推理等待，不能把图里的 500 ms 当作每个电机的控制周期。",
+      "pdf_page": 10,
+      "figure_id": "Fig. 3",
+      "source_url": "https://arxiv.org/pdf/2609.35709v1",
+      "source_pdf_sha256": "fedcfc74ba23e5e6af0d414d00ae792b7b1be961ff291272aa266e09dd715431",
+      "bbox": [
+        118.79900360107422,
+        71.99580383300781,
+        493.19793701171875,
+        175.260009765625
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "arXiv non-exclusive distribution license is not CC reuse permission. Two necessary small figures cited in original analytical commentary with attribution; all original author rights reserved. No full PDF or full figure set republished.",
+      "ai_assistance_disclosed_by_authors": true,
+      "extraction": "complete embedded original; no figure text/arrow overlays on PDF page; original English caption retained in private page crop and PDF"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig3-takeover-original-detail.png",
+      "caption": "论文原图局部 · Fig. 3 · PDF 第 10 页 · arXiv v1；仅裁切放大，未重绘。从上到下是旧块 k、新块 k+1、实际发送的动作。紫色是等待期间未使用的新块前段，蓝色是发出的动作；0.5 s 处，新块从标为 15 的位置接管。",
+      "pdf_page": 10,
+      "figure_id": "Fig. 3",
+      "source_url": "https://arxiv.org/pdf/2609.35709v1",
+      "source_pdf_sha256": "fedcfc74ba23e5e6af0d414d00ae792b7b1be961ff291272aa266e09dd715431",
+      "bbox": [
+        255.16070848543202,
+        99.7977054302509,
+        383.57901308526414,
+        147.4581081683819
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "arXiv non-exclusive distribution license is not CC reuse permission. Two necessary small figures cited in original analytical commentary with attribution; all original author rights reserved. No full PDF or full figure set republished.",
+      "ai_assistance_disclosed_by_authors": true,
+      "extraction": "unmodified PDF-rendered crop; only the 0..0.5s takeover region shown; full Fig.3 immediately above in article",
+      "supplemental_detail": true
+    },
+    {
+      "kind": "drawpaper",
+      "file": "figures/drawpaper/holo-m-method-v2.png",
+      "caption": "AI 生成示意图，使用 DrawPaper skill 绘制；经原文核对，不是论文实验图。插画来自内置生图草稿，文字、公式与计算连线经 TikZ 精排；图中的同时执行/推理为概念时序。",
+      "source_url": "https://arxiv.org/pdf/2609.35709v1",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "reviewed": true,
+      "tex": "figures/drawpaper/holo-m-method-v2.tex",
+      "pdf": "figures/drawpaper/holo-m-method-v2.pdf",
+      "prompt": "figures/drawpaper/prompt.txt",
+      "layout": "hybrid: generated illustration strip plus editable TikZ text, equations and computation arrows",
+      "upload_file": "figures/drawpaper/holo-m-method-upload.jpg"
+    }
+  ],
+  "cover_info": {
+    "ai_generated": true,
+    "generator": "imagegen built-in",
+    "source": "Built-in imagegen original cover and typography revision; conceptual illustration, not experimental photo",
+    "prompt": "figures/cover/prompt.txt",
+    "caption": "AI 生成封面；概念插画，不是论文实机实验画面。",
+    "reviewed": true,
+    "square_crop": "375×375 isolated Chrome screenshot; object-position:60% center; headline, robot head/hand/cup and AI marker visually verified",
+    "upload_file": "figures/cover/cover-upload.jpg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "managed_paths": [
+    "README.md",
+    "articles/holo-m-2609.35709/README.md",
+    "articles/holo-m-2609.35709/article.json",
+    "articles/holo-m-2609.35709/cover.png",
+    "articles/holo-m-2609.35709/evidence.json",
+    "articles/holo-m-2609.35709/figures/cover/cover-upload.jpg",
+    "articles/holo-m-2609.35709/figures/cover/prompt.txt",
+    "articles/holo-m-2609.35709/figures/drawpaper/README.md",
+    "articles/holo-m-2609.35709/figures/drawpaper/content-spec.md",
+    "articles/holo-m-2609.35709/figures/drawpaper/holo-m-imagegen-draft.png",
+    "articles/holo-m-2609.35709/figures/drawpaper/holo-m-method-upload.jpg",
+    "articles/holo-m-2609.35709/figures/drawpaper/holo-m-method-v2.pdf",
+    "articles/holo-m-2609.35709/figures/drawpaper/holo-m-method-v2.png",
+    "articles/holo-m-2609.35709/figures/drawpaper/holo-m-method-v2.tex",
+    "articles/holo-m-2609.35709/figures/drawpaper/prompt.txt",
+    "articles/holo-m-2609.35709/figures/original/fig1-original.png",
+    "articles/holo-m-2609.35709/figures/original/fig3-original.png",
+    "articles/holo-m-2609.35709/figures/original/fig3-takeover-original-detail.png",
+    "assets/wechat-qr.jpg",
+    "directions/diffusion-transformer.md",
+    "directions/locomotion.md",
+    "directions/manipulation.md",
+    "directions/reinforcement-learning.md",
+    "directions/video-action.md",
+    "directions/video-generation.md",
+    "directions/vla.md",
+    "directions/world-action-model.md",
+    "directions/world-model.md"
+  ]
+}
