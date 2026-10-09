@@ -4,3 +4,6 @@ Visual idea: one conceptual full-body humanoid reaching toward a plain cup while
 
 
 REVISION: Edit this Chinese editorial cover, keeping the same wide 2.35:1 canvas, cream/navy/amber style, full-body robot, cup, colored token ribbon and AI label. Adjust the typography and composition so the central square crop retains the full question. Put the exact headline in two lines centered in the upper middle: line1 ‘会说动作，’, line2 ‘就会做吗？’. Entire headline must fit within the central 35% of canvas width, using balanced large type. Put the subtitle ‘Holo-M · 全身 VLA’ centered directly below, also within central square. Keep the robot mainly in left-middle and reaching hand and cup in central-middle so the square crop remains recognizable. Bottom ‘AI 生成封面’ centered within square safe area. Preserve conceptual illustration nature, no logo, no experiment or metrics. Improve balance, do not add new text.
+
+
+REVISION 2026-10-09: Edit the existing cover only. Remove the bottom-center text “AI 生成封面” and the adjoining short decorative gold lines. Restore the cream background and subtle texture in that small area. Preserve all other typography, robot, cup, token ribbon, proportions and composition. Do not add any generation label.

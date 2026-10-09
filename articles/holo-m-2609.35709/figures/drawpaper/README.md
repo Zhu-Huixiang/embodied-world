@@ -1,8 +1,8 @@
 # Holo-M 的 DrawPaper 配图
 
-AI 生成示意图，使用 DrawPaper skill 绘制；经原文核对，不是论文实验图。
+本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。
 
-终稿使用内置生图草稿中的概念机器人插画，方法文字、公式、训练/推理连线及控制时钟由 TikZ 独立排版。图中的机器人与同时执行/推理条形时序是教学示意；实验数值以正文及证据索引为准。
+终稿使用内置生图草稿中的概念机器人插画，方法文字、公式、训练/推理连线及控制时钟由 TikZ 独立排版。图中的时钟带讲解推理与执行如何衔接。
 
 - [论文原图 Fig. 1](../original/fig1-original.png)：原始整体架构，arXiv v1 PDF 第 3 页。
 - [论文原图 Fig. 3](../original/fig3-original.png)：原始部署时序，arXiv v1 PDF 第 10 页；[原图局部](../original/fig3-takeover-original-detail.png)仅裁切放大接管区域。
