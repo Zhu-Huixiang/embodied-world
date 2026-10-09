@@ -151,7 +151,7 @@
     },
     {
       "id": "C14",
-      "claim": "specialist Holo-M163/180(90.6%),Ψ0 154/180；baseline数值来自SIMPLE原表",
+      "claim": "specialist Holo-M163/180(90.6%),Ψ0 154/180；baseline数值来自SIMPLE原表; MobileP&P Holo-M25/30 versus Ψ018/30",
       "source_url": "https://arxiv.org/pdf/2609.35709v1",
       "pdf_page": 9,
       "locator": "Table4 caption，§4.3",
@@ -165,7 +165,7 @@
     },
     {
       "id": "C15",
-      "claim": "G1-comp,Dex3,RealSense,RTX5090；500ms观测，1secondchunk,执行旧块时推理新块",
+      "claim": "G1-comp,Dex3,RealSense,RTX5090；500ms观测，1secondchunk,执行旧块时推理新块; state31 upperbody angles; first chunk begins immediately; later chunks skip hold steps",
       "source_url": "https://arxiv.org/pdf/2609.35709v1",
       "pdf_page": 10,
       "locator": "§4.5 Hardware and Control loop；p9末段",
@@ -174,7 +174,7 @@
     },
     {
       "id": "C16",
-      "claim": "8iterations latency476.8±16.9ms;hold500ms；2/4iterations175.8/275.7ms，未给逐步数实机成功率",
+      "claim": "8iterations latency476.8±16.9ms;hold500ms；2/4iterations175.8/275.7ms，未给逐步数实机成功率;2/4/8 iterations hold233/333/500ms;2/4 iteration std11.5/9.3ms",
       "source_url": "https://arxiv.org/pdf/2609.35709v1",
       "pdf_page": 10,
       "locator": "Table6、Fig3、§4.5 Control loop",
@@ -203,6 +203,51 @@
       "baseline": "no real-robot comparative baseline inTable7",
       "unit": "successful rollouts",
       "sample_size": "10 per task;20 total;100trainingepisodes per task"
+    },
+    {
+      "id": "C18",
+      "claim": "§2.1-2.4 compare continuous/discrete VLA, FAST tokenization, WBC and masked discrete diffusion",
+      "source_url": "https://arxiv.org/abs/2609.35709v1",
+      "pdf_page": 2,
+      "locator": "§2; continued p3",
+      "verified": true,
+      "type": "qualitative"
+    },
+    {
+      "id": "C19",
+      "claim": "RVQ codebooks fitted by k-means, 4 stages per group, editor expands standard residual recurrence and summation decoding",
+      "source_url": "https://arxiv.org/abs/2609.35709v1",
+      "pdf_page": 4,
+      "locator": "§3.1 FAST-RVQ; teaching expansion explicitly identified",
+      "verified": true,
+      "type": "qualitative"
+    },
+    {
+      "id": "C20",
+      "claim": "pg random masking; Mg masked valid positions, Ng valid count; loss normalized by expected pgNg; current block bidirectional and preceding groups causal",
+      "source_url": "https://arxiv.org/abs/2609.35709v1",
+      "pdf_page": 5,
+      "locator": "Eq11-12; Eq12 on p6",
+      "verified": true,
+      "type": "qualitative"
+    },
+    {
+      "id": "C21",
+      "claim": "AR loss normalized by valid token count; diffusion normalized group losses then weighted valid-group average",
+      "source_url": "https://arxiv.org/abs/2609.35709v1",
+      "pdf_page": 7,
+      "locator": "Eq14; Eq12-13 p6",
+      "verified": true,
+      "type": "qualitative"
+    },
+    {
+      "id": "C22",
+      "claim": "context image/task/setup/state; joint angles clipped [-pi,pi], divided by pi and quantized256 bins",
+      "source_url": "https://arxiv.org/abs/2609.35709v1",
+      "pdf_page": 5,
+      "locator": "§3.2 Eq9-10",
+      "verified": true,
+      "type": "qualitative"
     }
   ]
 }

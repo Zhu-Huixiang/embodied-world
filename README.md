@@ -1,14 +1,25 @@
 <h1 align="center">具身智能的 World</h1>
 
-<p align="center"><strong>从一个具体问题出发，读懂机器人为什么这样做</strong></p>
+<p align="center"><strong>从论文里的一个问题，走到机器人实际计算的那一步</strong></p>
 
-每篇解读从论文挑战的假设开始，提出三个问题，再沿机制、实验与边界逐步回答。这里保存公众号文章的完整图、证据索引与延伸阅读。
+这里与同名公众号一起读具身智能论文。每篇先交代技术分歧，提出三个问题，再沿原文目录拆输入、表示、公式、训练信号与闭环实验。公众号适合顺着主线阅读；GitHub 留下高清图、公式源文件、证据位置和继续读的入口。
 
-## 论文目录
+## 四个入口
+
+| 功能 | 从这里开始 | 能找到什么 |
+| --- | --- | --- |
+| 论文解读 | [已完成稿件](#论文解读) | 原创中文解读、论文原图、公式与 DrawPaper 图源 |
+| 具身论文地图 | [研究问题与阅读路线](paper-map/README.md) | 首批 30 篇；世界模型、WAM、视频动作、VLA、RL、操作与运动控制 |
+| 顶会顶刊集锦 | [按正式出处查论文](venues/README.md) | RSS、CoRL、ICRA、ICLR、ICML、NeurIPS、CVPR、ICCV、Nature、Science Robotics、SIGGRAPH / TOG |
+| 解读日程 | [未来一周的拟定选题](calendar/README.md) | 每天准备细讲哪篇、带着什么问题读、当前进度 |
+
+## 论文解读
 
 - [全身动作写成208个token，机器人就懂了吗？](articles/holo-m-2609.35709/README.md)
 
-## 研究方向
+公众号文章链接在公开发表后加入各篇页面。Holo-M 目前可读 GitHub 全稿，公众号稿仍待质量评阅与后台发表。
+
+## 已完成解读的方向索引
 
 - [世界模型](directions/world-model.md)（0 篇）
 - [世界动作模型](directions/world-action-model.md)（0 篇）
@@ -20,10 +31,12 @@
 - [Manipulation](directions/manipulation.md)（1 篇）
 - [Diffusion / Transformer](directions/diffusion-transformer.md)（1 篇）
 
-## 来源与更正
+## 一起读，也一起纠错
 
-论文来源和数据位置见各篇证据索引，DrawPaper 图源可以下载。发现错误可在 Issues 附上原文位置与证据。
+想追一条路线，从[论文地图](paper-map/README.md)开始；想找正式原文，从[刊会集锦](venues/README.md)进入。若发现公式、数字或解释有问题，请在 Issues 留下原文位置，便于修订。
 
-配套公众号名：**具身智能的 World**。永久文章链接在人工公开发表后补充；当前未取得永久链接的文章明确标记状态。
+阅读和方法图工具：[ReadPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/readpaper) · [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper)。
+
+配套公众号：**具身智能的 World**。GitHub 保存关注入口，公众号底部“阅读原文”返回本篇解读。
 
 ![关注公众号：具身智能的 World](assets/wechat-qr.jpg)
