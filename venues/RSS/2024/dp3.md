@@ -10,4 +10,4 @@
 
 阅读问题：简洁点云表示怎样改变操作策略的泛化？
 
-[本刊会目录](../README.md) · [论文地图](../../../paper-map/README.md)
+[本刊会介绍与目录](../README.md) · [论文地图](../../../paper-map/README.md)

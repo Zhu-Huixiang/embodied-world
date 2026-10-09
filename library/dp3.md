@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/dp3/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/dp3/README.md)
 
 机制简析：以简洁点云编码器提供三维条件，用扩散生成动作，观察几何表示对泛化的影响。
 <!-- discovery:end -->

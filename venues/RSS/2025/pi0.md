@@ -10,4 +10,4 @@
 
 阅读问题：Flow Matching 动作专家怎样接收视觉语言条件？
 
-[本刊会目录](../README.md) · [论文地图](../../../paper-map/README.md)
+[本刊会介绍与目录](../README.md) · [论文地图](../../../paper-map/README.md)

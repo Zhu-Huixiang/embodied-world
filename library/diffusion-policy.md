@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/diffusion-policy/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/diffusion-policy/README.md)
 
 机制简析：对多步动作条件去噪，用视觉观测约束动作分布，滚动执行一段后再次观测与重规划。
 <!-- discovery:end -->

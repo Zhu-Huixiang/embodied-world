@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/dreamzero/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/dreamzero/README.md)
 
 机制简析：联合建模未来视频与动作，将大规模视觉动态先验用于未见任务的闭环策略。
 <!-- discovery:end -->

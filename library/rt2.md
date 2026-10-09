@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/rt2/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/rt2/README.md)
 
 机制简析：把机器人动作写成语言模型词表内的编号，将机器人示范与视觉语言任务共同训练以迁移网络语义。
 <!-- discovery:end -->

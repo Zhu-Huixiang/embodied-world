@@ -1,40 +1,47 @@
 {
-  "checked_at": "2026-10-09T18:35:28+08:00",
+  "checked_at": "2026-10-09",
+  "venue_profiles": "../venues/profiles.json",
   "dimensions": [
+    {
+      "key": "venue",
+      "label": "刊会质量",
+      "weight": 30,
+      "maximum": 100
+    },
     {
       "key": "innovation",
       "label": "创新性",
-      "weight": 25,
+      "weight": 20,
       "maximum": 100
     },
     {
       "key": "evidence",
       "label": "实验与证据",
-      "weight": 25,
+      "weight": 20,
       "maximum": 100
     },
     {
       "key": "influence",
       "label": "学术影响",
-      "weight": 20,
+      "weight": 10,
       "maximum": 100
     },
     {
       "key": "attention",
       "label": "近期关注",
-      "weight": 10,
+      "weight": 5,
       "maximum": 100
     },
     {
       "key": "reuse",
       "label": "复用价值",
-      "weight": 10,
+      "weight": 8,
       "maximum": 100
     },
     {
       "key": "reading",
       "label": "阅读价值",
-      "weight": 10,
+      "weight": 7,
       "maximum": 100
     }
   ],
@@ -49,6 +56,7 @@
         "evidence": 91,
         "reuse": 94,
         "reading": 92,
+        "venue": 95.0,
         "influence": 95.3,
         "attention": 100
       },
@@ -96,6 +104,42 @@
         "mechanism": "在图像潜表示的patch序列上用Transformer做扩散去噪，考察计算规模和条件注入。",
         "reason": "生成架构影响力和实现复用突出；作为视频/动作模型前置，保留图像任务范围。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "ICCV",
+        "venue_status": "published",
+        "publication_evidence_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "ICCV",
+          "name": "IEEE/CVF International Conference on Computer Vision",
+          "kind": "conference",
+          "scope": "计算机视觉方法、表征、三维与生成建模；通常两年举办一次。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "视觉领域主要主会；DiT 等图像生成基础为后续视频动作架构提供前置知识。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://iccv.thecvf.com/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://iccv.thecvf.com/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -107,11 +151,12 @@
         "evidence": 91,
         "reuse": 95,
         "reading": 98,
+        "venue": 95.0,
         "influence": 78.1,
         "attention": 96.6
       },
-      "score_lower": 91.3,
-      "score_upper": 91.3,
+      "score_lower": 93.0,
+      "score_upper": 93.0,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "diffusion-policy",
@@ -154,6 +199,452 @@
         "mechanism": "对多步动作条件去噪，用视觉观测约束动作分布，滚动执行一段后再次观测与重规划。",
         "reason": "动作分布与闭环执行的清楚范式；丰富任务对照和可复用代码是阅读优势。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "RSS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.roboticsproceedings.org/rss19/p026.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "RSS",
+          "name": "Robotics: Science and Systems",
+          "kind": "conference",
+          "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+          "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
+          },
+          "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://roboticsconference.org/information/cfp/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://roboticsconference.org/information/cfp/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dreamerv3",
+      "title": "Mastering diverse control tasks through world models",
+      "year": 2025,
+      "scores": {
+        "innovation": 94,
+        "evidence": 96,
+        "reuse": 95,
+        "reading": 98,
+        "venue": 96.8,
+        "influence": 63.8,
+        "attention": 82.2
+      },
+      "score_lower": 92.0,
+      "score_upper": 92.0,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dreamerv3",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4409147637",
+        "matched_title": "Mastering diverse control tasks through world models",
+        "doi": "https://doi.org/10.1038/s41586-025-08744-2",
+        "publication_date": "2025-04-02",
+        "edition": "正式刊会版本",
+        "citation_count": 165,
+        "recent_citation_count": 165,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 121
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 44
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4409147637"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 94,
+          "evidence": 96,
+          "reuse": 95,
+          "reading": 98
+        },
+        "mechanism": "以统一的世界模型、奖励价值尺度处理和优化设计覆盖多类控制任务，减少逐任务调参。",
+        "reason": "跨域控制证据充分，代码与训练配方利于复用；正式Nature版本单独计量。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "Nature",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.nature.com/articles/s41586-025-08744-2",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "Nature",
+          "name": "Nature",
+          "kind": "journal",
+          "scope": "综合科学期刊，面向跨领域科学读者；本仓从世界模型工作读跨任务的共同结论。",
+          "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+          "community": {
+            "score": 100,
+            "label": "编辑对领域定位的判断",
+            "reason": "综合科学领域影响广的研究期刊；选入本仓的控制论文仍须检查任务、数据与方法证据。"
+          },
+          "distinction": "Nature 主刊与 Nature 子刊是不同期刊。JIF 和分区按准确刊名核对。",
+          "ccf": {
+            "tier": null,
+            "status": "not_used_for_this_journal"
+          },
+          "jif": {
+            "value": 56.1,
+            "metric_year": 2025,
+            "release_year": 2026,
+            "source_id": "nature_metrics",
+            "page": null
+          },
+          "jcr": {
+            "quartile": "Q1",
+            "metric_year": 2025,
+            "release_year": 2026,
+            "index": "SCIE",
+            "category": null,
+            "source_id": "jcr",
+            "page": 1,
+            "verification": "institutional_table; category not supplied"
+          },
+          "cas": null,
+          "official_url": "https://www.nature.com/nature/",
+          "sources": [
+            {
+              "title": "期刊官方入口",
+              "url": "https://www.nature.com/nature/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "act",
+      "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+      "year": 2023,
+      "scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 80.5,
+        "attention": 100
+      },
+      "score_lower": 91.9,
+      "score_upper": 91.9,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "act",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4385430674",
+        "matched_title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+        "doi": "https://doi.org/10.15607/rss.2023.xix.016",
+        "publication_date": "2023-07-10",
+        "edition": "正式刊会版本",
+        "citation_count": 630,
+        "recent_citation_count": 544,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 243
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 301
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 85
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 1
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4385430674"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 92,
+          "evidence": 89,
+          "reuse": 93,
+          "reading": 96
+        },
+        "mechanism": "把一段动作联合预测，条件变分自编码器吸收示范差异，时间集成融合重叠预测减轻误差积累。",
+        "reason": "低成本双臂硬件与动作分块相互支撑，适合同时读数据系统和策略。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "RSS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "RSS",
+          "name": "Robotics: Science and Systems",
+          "kind": "conference",
+          "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+          "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
+          },
+          "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://roboticsconference.org/information/cfp/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://roboticsconference.org/information/cfp/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rma",
+      "title": "RMA: Rapid Motor Adaptation for Legged Robots",
+      "year": 2021,
+      "scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 88,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 77.9,
+        "attention": 89.6
+      },
+      "score_lower": 91.7,
+      "score_upper": 91.7,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "rma",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W3175254947",
+        "matched_title": "RMA: Rapid Motor Adaptation for Legged Robots",
+        "doi": "https://doi.org/10.15607/rss.2021.xvii.011",
+        "publication_date": "2021-06-27",
+        "edition": "正式刊会版本",
+        "citation_count": 511,
+        "recent_citation_count": 262,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 91
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 171
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 115
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 6
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W3175254947"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 95,
+          "evidence": 91,
+          "reuse": 88,
+          "reading": 96
+        },
+        "mechanism": "训练利用特权环境信息的基础策略，部署用状态动作历史估计环境编码，在线适配腿足控制。",
+        "reason": "特权信息到历史估计的接口影响大；适合追环境变化与适应延迟。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "RSS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.roboticsproceedings.org/rss17/p011.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "RSS",
+          "name": "Robotics: Science and Systems",
+          "kind": "conference",
+          "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+          "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
+          },
+          "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://roboticsconference.org/information/cfp/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://roboticsconference.org/information/cfp/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "perceptive-loco",
+      "title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
+      "year": 2022,
+      "scores": {
+        "innovation": 93,
+        "evidence": 95,
+        "reuse": 77,
+        "reading": 92,
+        "venue": 92.7,
+        "influence": 83.7,
+        "attention": 95.9
+      },
+      "score_lower": 91.2,
+      "score_upper": 91.2,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "perceptive-loco",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4205430897",
+        "matched_title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
+        "doi": "https://doi.org/10.1126/scirobotics.abk2822",
+        "publication_date": "2022-01-19",
+        "edition": "正式刊会版本",
+        "citation_count": 812,
+        "recent_citation_count": 387,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 148
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 239
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 209
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 149
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 67
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4205430897"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 93,
+          "evidence": 95,
+          "reuse": 77,
+          "reading": 92
+        },
+        "mechanism": "让地形感知与本体反馈共同支持腿足策略，在复杂户外地形中考察感知失效和控制鲁棒性。",
+        "reason": "真实环境证据与感知鲁棒性突出；硬件复现成本较高。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "Science-Robotics",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "Sci. Robot.",
+          "name": "Science Robotics",
+          "kind": "journal",
+          "scope": "机器人科学与工程的专业期刊，连接机器人系统、学习、控制与真实环境。",
+          "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人专业研究的重要期刊；系统约束、实验场景和失败条件是本仓的主要阅读线索。"
+          },
+          "distinction": "Science Robotics 与 Science 主刊、Science Advances 分别统计；不能套用主刊指标。",
+          "ccf": {
+            "tier": null,
+            "status": "not_used_for_this_journal"
+          },
+          "jif": {
+            "value": 25.5,
+            "metric_year": 2025,
+            "release_year": 2026,
+            "source_id": "jcr",
+            "page": 4
+          },
+          "jcr": {
+            "quartile": "Q1",
+            "metric_year": 2025,
+            "release_year": 2026,
+            "index": "SCIE",
+            "category": null,
+            "source_id": "jcr",
+            "page": 4,
+            "verification": "institutional_table; category not supplied"
+          },
+          "cas": null,
+          "official_url": "https://www.science.org/journal/scirobotics",
+          "sources": [
+            {
+              "title": "期刊官方入口",
+              "url": "https://www.science.org/journal/scirobotics",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -165,11 +656,12 @@
         "evidence": 88,
         "reuse": 93,
         "reading": 95,
+        "venue": 90.4,
         "influence": 85.1,
         "attention": 85.8
       },
-      "score_lower": 90.4,
-      "score_upper": 90.4,
+      "score_lower": 90.8,
+      "score_upper": 90.8,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "deepmimic",
@@ -232,242 +724,65 @@
         "mechanism": "任务奖励与参考动作跟踪奖励共同训练物理角色策略，使动作技能能在动态扰动后恢复。",
         "reason": "示范驱动物理控制的基础路线；公开实现利于机制实验。",
         "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "act",
-      "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
-      "year": 2023,
-      "scores": {
-        "innovation": 92,
-        "evidence": 89,
-        "reuse": 93,
-        "reading": 96,
-        "influence": 80.5,
-        "attention": 100
       },
-      "score_lower": 90.3,
-      "score_upper": 90.3,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "act",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4385430674",
-        "matched_title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
-        "doi": "https://doi.org/10.15607/rss.2023.xix.016",
-        "publication_date": "2023-07-10",
-        "edition": "正式刊会版本",
-        "citation_count": 630,
-        "recent_citation_count": 544,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 243
+      "venue_record": {
+        "venue": "SIGGRAPH-TOG",
+        "venue_status": "published",
+        "publication_evidence_url": "https://xbpeng.github.io/projects/DeepMimic/",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "SIGGRAPH / TOG",
+          "name": "SIGGRAPH / ACM Transactions on Graphics",
+          "kind": "journal_conference",
+          "scope": "计算机图形学、视觉计算、动画与物理角色控制；角色控制可作为机器人动作先验的基础。",
+          "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "图形学核心发表入口；物理角色控制里的先验、模仿和技能表征对具身控制有方法价值。"
           },
-          {
-            "year": 2025,
-            "cited_by_count": 301
+          "distinction": "SIGGRAPH 是会议，TOG 是期刊；SIGGRAPH 有期刊论文与会议论文等不同轨道。本仓 DeepMimic、AMP、ASE 为 TOG 论文并在 SIGGRAPH 展示，按 TOG 路线评分。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 44,
+            "conference_page": 47,
+            "source_id": "ccf",
+            "note": "TOG期刊与SIGGRAPH会议均A；此档案采用TOG期刊指标。"
           },
-          {
-            "year": 2024,
-            "cited_by_count": 85
+          "jif": {
+            "value": 13.0,
+            "metric_year": 2025,
+            "release_year": 2026,
+            "source_id": "jcr",
+            "page": 14
           },
-          {
-            "year": 2023,
-            "cited_by_count": 1
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4385430674"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 92,
-          "evidence": 89,
-          "reuse": 93,
-          "reading": 96
-        },
-        "mechanism": "把一段动作联合预测，条件变分自编码器吸收示范差异，时间集成融合重叠预测减轻误差积累。",
-        "reason": "低成本双臂硬件与动作分块相互支撑，适合同时读数据系统和策略。",
-        "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "perceptive-loco",
-      "title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
-      "year": 2022,
-      "scores": {
-        "innovation": 93,
-        "evidence": 95,
-        "reuse": 77,
-        "reading": 92,
-        "influence": 83.7,
-        "attention": 95.9
-      },
-      "score_lower": 90.2,
-      "score_upper": 90.2,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "perceptive-loco",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4205430897",
-        "matched_title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
-        "doi": "https://doi.org/10.1126/scirobotics.abk2822",
-        "publication_date": "2022-01-19",
-        "edition": "正式刊会版本",
-        "citation_count": 812,
-        "recent_citation_count": 387,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 148
+          "jcr": {
+            "quartile": "Q1",
+            "metric_year": 2025,
+            "release_year": 2026,
+            "index": "SCIE",
+            "category": null,
+            "source_id": "jcr",
+            "page": 14,
+            "verification": "institutional_table; category not supplied"
           },
-          {
-            "year": 2025,
-            "cited_by_count": 239
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 209
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 149
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 67
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4205430897"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 93,
-          "evidence": 95,
-          "reuse": 77,
-          "reading": 92
-        },
-        "mechanism": "让地形感知与本体反馈共同支持腿足策略，在复杂户外地形中考察感知失效和控制鲁棒性。",
-        "reason": "真实环境证据与感知鲁棒性突出；硬件复现成本较高。",
-        "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "rma",
-      "title": "RMA: Rapid Motor Adaptation for Legged Robots",
-      "year": 2021,
-      "scores": {
-        "innovation": 95,
-        "evidence": 91,
-        "reuse": 88,
-        "reading": 96,
-        "influence": 77.9,
-        "attention": 89.6
-      },
-      "score_lower": 89.4,
-      "score_upper": 89.4,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "rma",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W3175254947",
-        "matched_title": "RMA: Rapid Motor Adaptation for Legged Robots",
-        "doi": "https://doi.org/10.15607/rss.2021.xvii.011",
-        "publication_date": "2021-06-27",
-        "edition": "正式刊会版本",
-        "citation_count": 511,
-        "recent_citation_count": 262,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 91
-          },
-          {
-            "year": 2025,
-            "cited_by_count": 171
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 115
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 88
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 40
-          },
-          {
-            "year": 2021,
-            "cited_by_count": 6
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W3175254947"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 95,
-          "evidence": 91,
-          "reuse": 88,
-          "reading": 96
-        },
-        "mechanism": "训练利用特权环境信息的基础策略，部署用状态动作历史估计环境编码，在线适配腿足控制。",
-        "reason": "特权信息到历史估计的接口影响大；适合追环境变化与适应延迟。",
-        "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "dreamerv3",
-      "title": "Mastering diverse control tasks through world models",
-      "year": 2025,
-      "scores": {
-        "innovation": 94,
-        "evidence": 96,
-        "reuse": 95,
-        "reading": 98,
-        "influence": 63.8,
-        "attention": 82.2
-      },
-      "score_lower": 87.8,
-      "score_upper": 87.8,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "dreamerv3",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4409147637",
-        "matched_title": "Mastering diverse control tasks through world models",
-        "doi": "https://doi.org/10.1038/s41586-025-08744-2",
-        "publication_date": "2025-04-02",
-        "edition": "正式刊会版本",
-        "citation_count": 165,
-        "recent_citation_count": 165,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 121
-          },
-          {
-            "year": 2025,
-            "cited_by_count": 44
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4409147637"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 94,
-          "evidence": 96,
-          "reuse": 95,
-          "reading": 98
-        },
-        "mechanism": "以统一的世界模型、奖励价值尺度处理和优化设计覆盖多类控制任务，减少逐任务调参。",
-        "reason": "跨域控制证据充分，代码与训练配方利于复用；正式Nature版本单独计量。",
-        "review_depth": "选题初读"
+          "cas": null,
+          "official_url": "https://dl.acm.org/journal/tog",
+          "sources": [
+            {
+              "title": "期刊官方入口",
+              "url": "https://dl.acm.org/journal/tog",
+              "evidence_type": "primary"
+            },
+            {
+              "title": "ACM 2026 JCR announcement",
+              "url": "https://www.acm.org/media-center/2026/july/impact-factors-2026",
+              "evidence_type": "publisher_search_index",
+              "note": "官方新闻检索摘要给出TOG13.0；正文访问403。与机构表交叉核对。"
+            }
+          ]
+        }
       }
     },
     {
@@ -479,11 +794,12 @@
         "evidence": 88,
         "reuse": 90,
         "reading": 97,
+        "venue": 90.4,
         "influence": 74.7,
         "attention": 83.4
       },
-      "score_lower": 87.5,
-      "score_upper": 87.5,
+      "score_lower": 89.2,
+      "score_upper": 89.2,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "amp",
@@ -538,6 +854,65 @@
         "mechanism": "判别器区分参考与策略动作转移，把模仿先验变成奖励，减少逐帧跟踪的限制。",
         "reason": "动作先验与任务奖励的解耦影响后续控制，原作任务仍是物理角色。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "SIGGRAPH-TOG",
+        "venue_status": "published",
+        "publication_evidence_url": "https://xbpeng.github.io/projects/AMP/",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "SIGGRAPH / TOG",
+          "name": "SIGGRAPH / ACM Transactions on Graphics",
+          "kind": "journal_conference",
+          "scope": "计算机图形学、视觉计算、动画与物理角色控制；角色控制可作为机器人动作先验的基础。",
+          "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "图形学核心发表入口；物理角色控制里的先验、模仿和技能表征对具身控制有方法价值。"
+          },
+          "distinction": "SIGGRAPH 是会议，TOG 是期刊；SIGGRAPH 有期刊论文与会议论文等不同轨道。本仓 DeepMimic、AMP、ASE 为 TOG 论文并在 SIGGRAPH 展示，按 TOG 路线评分。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 44,
+            "conference_page": 47,
+            "source_id": "ccf",
+            "note": "TOG期刊与SIGGRAPH会议均A；此档案采用TOG期刊指标。"
+          },
+          "jif": {
+            "value": 13.0,
+            "metric_year": 2025,
+            "release_year": 2026,
+            "source_id": "jcr",
+            "page": 14
+          },
+          "jcr": {
+            "quartile": "Q1",
+            "metric_year": 2025,
+            "release_year": 2026,
+            "index": "SCIE",
+            "category": null,
+            "source_id": "jcr",
+            "page": 14,
+            "verification": "institutional_table; category not supplied"
+          },
+          "cas": null,
+          "official_url": "https://dl.acm.org/journal/tog",
+          "sources": [
+            {
+              "title": "期刊官方入口",
+              "url": "https://dl.acm.org/journal/tog",
+              "evidence_type": "primary"
+            },
+            {
+              "title": "ACM 2026 JCR announcement",
+              "url": "https://www.acm.org/media-center/2026/july/impact-factors-2026",
+              "evidence_type": "publisher_search_index",
+              "note": "官方新闻检索摘要给出TOG13.0；正文访问403。与机构表交叉核对。"
+            }
+          ]
+        }
       }
     },
     {
@@ -549,11 +924,12 @@
         "evidence": 94,
         "reuse": 83,
         "reading": 84,
+        "venue": 92.7,
         "influence": 74.0,
         "attention": 83.5
       },
-      "score_lower": 86.4,
-      "score_upper": 86.4,
+      "score_lower": 89.1,
+      "score_upper": 89.1,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "agile-flight",
@@ -604,6 +980,55 @@
         "mechanism": "利用仿真专家监督视觉导航策略，再转移到高速野外飞行，连接感知、轨迹规划与实际反应。",
         "reason": "真实高速闭环有阅读价值；任务是飞行，与操作基准分别比较。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "Science-Robotics",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.science.org/doi/10.1126/scirobotics.abg5810",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "Sci. Robot.",
+          "name": "Science Robotics",
+          "kind": "journal",
+          "scope": "机器人科学与工程的专业期刊，连接机器人系统、学习、控制与真实环境。",
+          "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人专业研究的重要期刊；系统约束、实验场景和失败条件是本仓的主要阅读线索。"
+          },
+          "distinction": "Science Robotics 与 Science 主刊、Science Advances 分别统计；不能套用主刊指标。",
+          "ccf": {
+            "tier": null,
+            "status": "not_used_for_this_journal"
+          },
+          "jif": {
+            "value": 25.5,
+            "metric_year": 2025,
+            "release_year": 2026,
+            "source_id": "jcr",
+            "page": 4
+          },
+          "jcr": {
+            "quartile": "Q1",
+            "metric_year": 2025,
+            "release_year": 2026,
+            "index": "SCIE",
+            "category": null,
+            "source_id": "jcr",
+            "page": 4,
+            "verification": "institutional_table; category not supplied"
+          },
+          "cas": null,
+          "official_url": "https://www.science.org/journal/scirobotics",
+          "sources": [
+            {
+              "title": "期刊官方入口",
+              "url": "https://www.science.org/journal/scirobotics",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -615,11 +1040,12 @@
         "evidence": 87,
         "reuse": 88,
         "reading": 95,
+        "venue": 95.0,
         "influence": 69.5,
         "attention": 89.5
       },
-      "score_lower": 85.4,
-      "score_upper": 85.4,
+      "score_lower": 89.0,
+      "score_upper": 89.0,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "pi0",
@@ -654,60 +1080,42 @@
         "mechanism": "视觉语言骨干提供语义条件，Flow Matching 动作专家生成连续动作块，再按闭环观测更新。",
         "reason": "通用VLA与连续动作块的重要接口；适合逐项拆多本体数据和任务协议。",
         "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "dp3",
-      "title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
-      "year": 2024,
-      "scores": {
-        "innovation": 84,
-        "evidence": 84,
-        "reuse": 90,
-        "reading": 89,
-        "influence": 67.0,
-        "attention": 85.7
       },
-      "score_lower": 81.9,
-      "score_upper": 81.9,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "dp3",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4402354045",
-        "matched_title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
-        "doi": "https://doi.org/10.15607/rss.2024.xx.067",
-        "publication_date": "2024-07-15",
-        "edition": "正式刊会版本",
-        "citation_count": 213,
-        "recent_citation_count": 205,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 97
+      "venue_record": {
+        "venue": "RSS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.roboticsproceedings.org/rss21/p010.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "RSS",
+          "name": "Robotics: Science and Systems",
+          "kind": "conference",
+          "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+          "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
           },
-          {
-            "year": 2025,
-            "cited_by_count": 108
+          "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
           },
-          {
-            "year": 2024,
-            "cited_by_count": 8
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4402354045"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 84,
-          "evidence": 84,
-          "reuse": 90,
-          "reading": 89
-        },
-        "mechanism": "以简洁点云编码器提供三维条件，用扩散生成动作，观察几何表示对泛化的影响。",
-        "reason": "三维条件表示与动作生成分工容易拆；任务、点云处理与泛化协议需一起读。",
-        "review_depth": "选题初读"
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://roboticsconference.org/information/cfp/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://roboticsconference.org/information/cfp/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -719,11 +1127,12 @@
         "evidence": 89,
         "reuse": 94,
         "reading": 98,
+        "venue": 95.0,
         "influence": 61.0,
         "attention": 38.6
       },
-      "score_lower": 81.8,
-      "score_upper": 81.8,
+      "score_lower": 88.1,
+      "score_upper": 88.1,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "dreamer",
@@ -778,6 +1187,220 @@
         "mechanism": "学习潜动力学世界模型，在想象轨迹里以价值反馈优化actor，把像素预测转成决策训练信号。",
         "reason": "潜空间想象连接模型与策略的基础工作；代码和后续路线利于复用。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "ICLR",
+        "venue_status": "published",
+        "publication_evidence_url": "https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "ICLR",
+          "name": "International Conference on Learning Representations",
+          "kind": "conference",
+          "scope": "学习表征与深度学习；包括生成建模、强化学习和控制方法。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。ICLR 使用 OpenReview 公开评审与讨论。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "学习表征和深度学习方法的重要主会，公开讨论可帮助跟踪方法争议。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://iclr.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://iclr.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dp3",
+      "title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
+      "year": 2024,
+      "scores": {
+        "innovation": 84,
+        "evidence": 84,
+        "reuse": 90,
+        "reading": 89,
+        "venue": 95.0,
+        "influence": 67.0,
+        "attention": 85.7
+      },
+      "score_lower": 86.5,
+      "score_upper": 86.5,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dp3",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4402354045",
+        "matched_title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
+        "doi": "https://doi.org/10.15607/rss.2024.xx.067",
+        "publication_date": "2024-07-15",
+        "edition": "正式刊会版本",
+        "citation_count": 213,
+        "recent_citation_count": 205,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 97
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 108
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 8
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4402354045"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 84,
+          "evidence": 84,
+          "reuse": 90,
+          "reading": 89
+        },
+        "mechanism": "以简洁点云编码器提供三维条件，用扩散生成动作，观察几何表示对泛化的影响。",
+        "reason": "三维条件表示与动作生成分工容易拆；任务、点云处理与泛化协议需一起读。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "RSS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.roboticsproceedings.org/rss20/p067.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "RSS",
+          "name": "Robotics: Science and Systems",
+          "kind": "conference",
+          "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+          "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
+          },
+          "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://roboticsconference.org/information/cfp/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://roboticsconference.org/information/cfp/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "diffusion-forcing",
+      "title": "Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion",
+      "year": 2024,
+      "scores": {
+        "innovation": 95,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 49.1,
+        "attention": 63.2
+      },
+      "score_lower": 86.3,
+      "score_upper": 86.3,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "diffusion-forcing",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4415798523",
+        "matched_title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
+        "doi": "https://doi.org/10.52202/079017-0759",
+        "publication_date": "2024-01-01",
+        "edition": "正式刊会版本",
+        "citation_count": 50,
+        "recent_citation_count": 50,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 15
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4415798523"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 95,
+          "evidence": 86,
+          "reuse": 90,
+          "reading": 91
+        },
+        "mechanism": "让序列各位置带不同噪声等级，把下一步预测与整段扩散连接，支持因果生成和引导。",
+        "reason": "噪声安排与时序条件具有方法创新；机器人用途需看具体规划实验。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "NeurIPS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/2aee1c4159e48407d68fe16ae8e6e49e-Abstract-Conference.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "NeurIPS",
+          "name": "Conference on Neural Information Processing Systems",
+          "kind": "conference",
+          "scope": "机器学习与计算神经科学交叉；包括生成、序列建模、学习与决策。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器学习主要主会；序列生成结果和真实机器人证据需要分别读。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://neurips.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://neurips.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -789,11 +1412,12 @@
         "evidence": 83,
         "reuse": 68,
         "reading": 91,
+        "venue": 90.0,
         "influence": 69.8,
         "attention": 75.5
       },
-      "score_lower": 81.7,
-      "score_upper": 81.7,
+      "score_lower": 85.0,
+      "score_upper": 85.0,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "rt2",
@@ -836,114 +1460,42 @@
         "mechanism": "把机器人动作写成语言模型词表内的编号，将机器人示范与视觉语言任务共同训练以迁移网络语义。",
         "reason": "把网络知识接入动作的早期路线；跨任务结果有启发，实施门槛较高。",
         "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "dreamwaq",
-      "title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
-      "year": 2023,
-      "scores": {
-        "innovation": 86,
-        "evidence": 87,
-        "reuse": 83,
-        "reading": 93,
-        "influence": 63.4,
-        "attention": 77.9
       },
-      "score_lower": 81.3,
-      "score_upper": 81.3,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "dreamwaq",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4383108274",
-        "matched_title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
-        "doi": "https://doi.org/10.1109/icra48891.2023.10161144",
-        "publication_date": "2023-05-29",
-        "edition": "正式刊会版本",
-        "citation_count": 159,
-        "recent_citation_count": 126,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 45
+      "venue_record": {
+        "venue": "CoRL",
+        "venue_status": "published",
+        "publication_evidence_url": "https://proceedings.mlr.press/v229/zitkovich23a.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "CoRL",
+          "name": "Conference on Robot Learning",
+          "kind": "conference",
+          "scope": "机器人学习，连接机器学习方法、机器人数据、策略与真实系统。",
+          "review": "主会研究论文同行评审；官方作者指南列出贡献、证据、复现与评审要求。",
+          "community": {
+            "score": 90,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人学习的专门会议，对策略、数据与泛化路线有直接参考价值。90是编辑判断，未冒充CCF等级。"
           },
-          {
-            "year": 2025,
-            "cited_by_count": 81
+          "distinction": "CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版年份可能晚一年。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
           },
-          {
-            "year": 2024,
-            "cited_by_count": 29
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 4
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4383108274"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 86,
-          "evidence": 87,
-          "reuse": 83,
-          "reading": 93
-        },
-        "mechanism": "从本体历史估计速度和隐环境表示，将其送给策略；训练时以重建/特权监督组织环境编码。",
-        "reason": "盲行走的历史表征与actor连接清楚；越障和地形条件是精读重点。",
-        "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "diffusion-forcing",
-      "title": "Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion",
-      "year": 2024,
-      "scores": {
-        "innovation": 95,
-        "evidence": 86,
-        "reuse": 90,
-        "reading": 91,
-        "influence": 49.1,
-        "attention": 63.2
-      },
-      "score_lower": 79.5,
-      "score_upper": 79.5,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "diffusion-forcing",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4415798523",
-        "matched_title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
-        "doi": "https://doi.org/10.52202/079017-0759",
-        "publication_date": "2024-01-01",
-        "edition": "正式刊会版本",
-        "citation_count": 50,
-        "recent_citation_count": 50,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 35
-          },
-          {
-            "year": 2025,
-            "cited_by_count": 15
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4415798523"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 95,
-          "evidence": 86,
-          "reuse": 90,
-          "reading": 91
-        },
-        "mechanism": "让序列各位置带不同噪声等级，把下一步预测与整段扩散连接，支持因果生成和引导。",
-        "reason": "噪声安排与时序条件具有方法创新；机器人用途需看具体规划实验。",
-        "review_depth": "选题初读"
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://www.corl.org/contributions/instruction-for-authors",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://www.corl.org/contributions/instruction-for-authors",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -955,11 +1507,12 @@
         "evidence": 83,
         "reuse": 85,
         "reading": 93,
+        "venue": 95.0,
         "influence": 51.9,
         "attention": 66.9
       },
-      "score_lower": 77.9,
-      "score_upper": 77.9,
+      "score_lower": 84.7,
+      "score_upper": 84.7,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "fast",
@@ -994,60 +1547,42 @@
         "mechanism": "时间 DCT 提取动作频率系数，再量化和字节对编码，减少高频轨迹逐时刻离散产生的长序列。",
         "reason": "压缩动作的表示选择清楚，跨策略应用与效率值得读；是Holo-M的直接前置。",
         "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "openvla",
-      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
-      "year": 2024,
-      "scores": {
-        "innovation": 83,
-        "evidence": 86,
-        "reuse": 93,
-        "reading": 92,
-        "influence": 47.8,
-        "attention": 60.5
       },
-      "score_lower": 76.4,
-      "score_upper": 76.4,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "openvla",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4399695759",
-        "matched_title": "OpenVLA: An Open-Source Vision-Language-Action Model",
-        "doi": "https://doi.org/10.48550/arxiv.2406.09246",
-        "publication_date": "2024-06-13",
-        "edition": "作者预印本",
-        "citation_count": 45,
-        "recent_citation_count": 42,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 11
+      "venue_record": {
+        "venue": "RSS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.roboticsproceedings.org/rss21/p012.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "RSS",
+          "name": "Robotics: Science and Systems",
+          "kind": "conference",
+          "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+          "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
           },
-          {
-            "year": 2025,
-            "cited_by_count": 31
+          "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
           },
-          {
-            "year": 2024,
-            "cited_by_count": 3
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4399695759"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 83,
-          "evidence": 86,
-          "reuse": 93,
-          "reading": 92
-        },
-        "mechanism": "把预训练视觉语言骨干适配到机器人示范，输出离散动作编号，并提供高效微调路线。",
-        "reason": "公开模型/适配生态便于复用；是离散VLA入门的重要对照。",
-        "review_depth": "选题初读"
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://roboticsconference.org/information/cfp/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://roboticsconference.org/information/cfp/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -1059,11 +1594,12 @@
         "evidence": 84,
         "reuse": 87,
         "reading": 86,
+        "venue": 95.0,
         "influence": 44.4,
         "attention": 57.2
       },
-      "score_lower": 75.7,
-      "score_upper": 75.7,
+      "score_lower": 83.8,
+      "score_upper": 83.8,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "self-forcing",
@@ -1094,56 +1630,42 @@
         "mechanism": "使用模型自己的历史滚动来训练自回归视频生成，减少教师历史与部署历史的分布差异。",
         "reason": "训练部署差异的处理明确；属于视频生成基础，与机器人性能分别记录。",
         "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "cot-vla",
-      "title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
-      "year": 2025,
-      "scores": {
-        "innovation": 86,
-        "evidence": 79,
-        "reuse": 73,
-        "reading": 87,
-        "influence": 52.1,
-        "attention": 67.1
       },
-      "score_lower": 74.4,
-      "score_upper": 74.4,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "cot-vla",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4413156213",
-        "matched_title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
-        "doi": "https://doi.org/10.1109/cvpr52734.2025.00166",
-        "publication_date": "2025-06-10",
-        "edition": "正式刊会版本",
-        "citation_count": 64,
-        "recent_citation_count": 64,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 51
+      "venue_record": {
+        "venue": "NeurIPS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "NeurIPS",
+          "name": "Conference on Neural Information Processing Systems",
+          "kind": "conference",
+          "scope": "机器学习与计算神经科学交叉；包括生成、序列建模、学习与决策。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器学习主要主会；序列生成结果和真实机器人证据需要分别读。"
           },
-          {
-            "year": 2025,
-            "cited_by_count": 13
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4413156213"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 86,
-          "evidence": 79,
-          "reuse": 73,
-          "reading": 87
-        },
-        "mechanism": "先预测具有任务意图的未来视觉子目标，再以它为条件生成动作，把视觉推理接入控制。",
-        "reason": "未来图像作为中间目标的机制值得看；初读应追图像预测与动作性能的消融。",
-        "review_depth": "选题初读"
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://neurips.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://neurips.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -1155,11 +1677,12 @@
         "evidence": 86,
         "reuse": 91,
         "reading": 94,
+        "venue": 95.0,
         "influence": 41.2,
         "attention": 28.8
       },
-      "score_lower": 73.9,
-      "score_upper": 73.9,
+      "score_lower": 83.3,
+      "score_upper": 83.3,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "td-mpc",
@@ -1202,56 +1725,42 @@
         "mechanism": "学习用于奖励和值预测的潜动力学，结合短期模型预测控制与终端价值选择连续动作。",
         "reason": "规划而不重建像素的任务相关表示值得对照Dreamer。",
         "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "consistency-policy",
-      "title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
-      "year": 2024,
-      "scores": {
-        "innovation": 81,
-        "evidence": 80,
-        "reuse": 82,
-        "reading": 86,
-        "influence": 49.8,
-        "attention": 64.2
       },
-      "score_lower": 73.4,
-      "score_upper": 73.4,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "consistency-policy",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W4402354007",
-        "matched_title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
-        "doi": "https://doi.org/10.15607/rss.2024.xx.071",
-        "publication_date": "2024-07-15",
-        "edition": "正式刊会版本",
-        "citation_count": 53,
-        "recent_citation_count": 53,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 24
+      "venue_record": {
+        "venue": "ICML",
+        "venue_status": "published",
+        "publication_evidence_url": "https://proceedings.mlr.press/v162/hansen22a.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "ICML",
+          "name": "International Conference on Machine Learning",
+          "kind": "conference",
+          "scope": "机器学习理论、算法、表征与应用；本仓重点看模型强化学习和潜空间控制。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器学习主要主会，适合追踪方法的算法前提和对照设计。"
           },
-          {
-            "year": 2025,
-            "cited_by_count": 29
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W4402354007"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 81,
-          "evidence": 80,
-          "reuse": 82,
-          "reading": 86
-        },
-        "mechanism": "将多步扩散动作策略蒸馏为较少步的一致性策略，以减少推理步骤保留动作分布。",
-        "reason": "速度/成功率取舍明确；作为控制时钟的对照非常合适。",
-        "review_depth": "选题初读"
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://icml.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://icml.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -1263,11 +1772,12 @@
         "evidence": 92,
         "reuse": 94,
         "reading": 95,
+        "venue": 95.0,
         "influence": 27.4,
         "attention": 33.4
       },
-      "score_lower": 73.0,
-      "score_upper": 73.0,
+      "score_lower": 83.3,
+      "score_upper": 83.3,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "td-mpc2",
@@ -1302,6 +1812,228 @@
         "mechanism": "共享潜世界模型、价值和规划结构跨多任务学习，处理不同奖励尺度与动作空间。",
         "reason": "大范围连续控制与复用实现有优势；重要的是任务配置和计算预算。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "ICLR",
+        "venue_status": "published",
+        "publication_evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "ICLR",
+          "name": "International Conference on Learning Representations",
+          "kind": "conference",
+          "scope": "学习表征与深度学习；包括生成建模、强化学习和控制方法。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。ICLR 使用 OpenReview 公开评审与讨论。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "学习表征和深度学习方法的重要主会，公开讨论可帮助跟踪方法争议。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://iclr.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://iclr.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dreamwaq",
+      "title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
+      "year": 2023,
+      "scores": {
+        "innovation": 86,
+        "evidence": 87,
+        "reuse": 83,
+        "reading": 93,
+        "venue": 83.0,
+        "influence": 63.4,
+        "attention": 77.9
+      },
+      "score_lower": 82.9,
+      "score_upper": 82.9,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dreamwaq",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4383108274",
+        "matched_title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
+        "doi": "https://doi.org/10.1109/icra48891.2023.10161144",
+        "publication_date": "2023-05-29",
+        "edition": "正式刊会版本",
+        "citation_count": 159,
+        "recent_citation_count": 126,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 45
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 81
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 29
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 4
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4383108274"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 86,
+          "evidence": 87,
+          "reuse": 83,
+          "reading": 93
+        },
+        "mechanism": "从本体历史估计速度和隐环境表示，将其送给策略；训练时以重建/特权监督组织环境编码。",
+        "reason": "盲行走的历史表征与actor连接清楚；越障和地形条件是精读重点。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "ICRA",
+        "venue_status": "published",
+        "publication_evidence_url": "https://ieeexplore.ieee.org/abstract/document/10161144/",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "ICRA",
+          "name": "IEEE International Conference on Robotics and Automation",
+          "kind": "conference",
+          "scope": "机器人与自动化：控制、感知、规划、操作、机构设计与系统。",
+          "review": "IEEE RAS 机器人会议；研究论文经同行评审，正式论文集通常由 IEEE Xplore 收录。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人领域覆盖广、长期积累强的主要会议；机器人社区定位与CCF计算机目录的B类并列解释。"
+          },
+          "distinction": "本仓收录主会论文；workshop、会议报告及期刊论文展示采用各自的实际出版出处。",
+          "ccf": {
+            "tier": "B",
+            "edition": 2026,
+            "page": 58,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "openvla",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "year": 2024,
+      "scores": {
+        "innovation": 83,
+        "evidence": 86,
+        "reuse": 93,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 47.8,
+        "attention": 60.5
+      },
+      "score_lower": 82.5,
+      "score_upper": 82.5,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "openvla",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4399695759",
+        "matched_title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+        "doi": "https://doi.org/10.48550/arxiv.2406.09246",
+        "publication_date": "2024-06-13",
+        "edition": "作者预印本",
+        "citation_count": 45,
+        "recent_citation_count": 42,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 3
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4399695759"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 83,
+          "evidence": 86,
+          "reuse": 93,
+          "reading": 92
+        },
+        "mechanism": "把预训练视觉语言骨干适配到机器人示范，输出离散动作编号，并提供高效微调路线。",
+        "reason": "公开模型/适配生态便于复用；是离散VLA入门的重要对照。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "CoRL",
+        "venue_status": "published",
+        "publication_evidence_url": "https://proceedings.mlr.press/v270/kim25c.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "CoRL",
+          "name": "Conference on Robot Learning",
+          "kind": "conference",
+          "scope": "机器人学习，连接机器学习方法、机器人数据、策略与真实系统。",
+          "review": "主会研究论文同行评审；官方作者指南列出贡献、证据、复现与评审要求。",
+          "community": {
+            "score": 90,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人学习的专门会议，对策略、数据与泛化路线有直接参考价值。90是编辑判断，未冒充CCF等级。"
+          },
+          "distinction": "CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版年份可能晚一年。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://www.corl.org/contributions/instruction-for-authors",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://www.corl.org/contributions/instruction-for-authors",
+              "evidence_type": "primary"
+            }
+          ]
+        }
       }
     },
     {
@@ -1313,11 +2045,12 @@
         "evidence": 89,
         "reuse": 91,
         "reading": 91,
+        "venue": 95.0,
         "influence": 39.2,
         "attention": 17.7
       },
-      "score_lower": 72.1,
-      "score_upper": 72.1,
+      "score_lower": 82.4,
+      "score_upper": 82.4,
       "weight_coverage": 100,
       "metrics": {
         "paper_id": "dreamerv2",
@@ -1368,6 +2101,394 @@
         "mechanism": "将世界模型潜状态换成离散表示，利用想象轨迹训练策略，重点检查Atari学习表现。",
         "reason": "离散表征和优化设计有清楚前后对照；任务范围保留Atari。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "ICLR",
+        "venue_status": "published",
+        "publication_evidence_url": "https://research.google/pubs/mastering-atari-with-discrete-world-models/",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "ICLR",
+          "name": "International Conference on Learning Representations",
+          "kind": "conference",
+          "scope": "学习表征与深度学习；包括生成建模、强化学习和控制方法。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。ICLR 使用 OpenReview 公开评审与讨论。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "学习表征和深度学习方法的重要主会，公开讨论可帮助跟踪方法争议。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://iclr.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://iclr.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cot-vla",
+      "title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
+      "year": 2025,
+      "scores": {
+        "innovation": 86,
+        "evidence": 79,
+        "reuse": 73,
+        "reading": 87,
+        "venue": 95.0,
+        "influence": 52.1,
+        "attention": 67.1
+      },
+      "score_lower": 82.0,
+      "score_upper": 82.0,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "cot-vla",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4413156213",
+        "matched_title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.00166",
+        "publication_date": "2025-06-10",
+        "edition": "正式刊会版本",
+        "citation_count": 64,
+        "recent_citation_count": 64,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 13
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4413156213"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 86,
+          "evidence": 79,
+          "reuse": 73,
+          "reading": 87
+        },
+        "mechanism": "先预测具有任务意图的未来视觉子目标，再以它为条件生成动作，把视觉推理接入控制。",
+        "reason": "未来图像作为中间目标的机制值得看；初读应追图像预测与动作性能的消融。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "CVPR",
+        "venue_status": "published",
+        "publication_evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "CVPR",
+          "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+          "kind": "conference",
+          "scope": "计算机视觉、视觉表征、三维感知与图像/视频生成。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "视觉领域主要主会；视觉动作论文能否执行，需要继续查机器人实验。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://cvpr.thecvf.com/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://cvpr.thecvf.com/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "consistency-policy",
+      "title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
+      "year": 2024,
+      "scores": {
+        "innovation": 81,
+        "evidence": 80,
+        "reuse": 82,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 49.8,
+        "attention": 64.2
+      },
+      "score_lower": 81.5,
+      "score_upper": 81.5,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "consistency-policy",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4402354007",
+        "matched_title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
+        "doi": "https://doi.org/10.15607/rss.2024.xx.071",
+        "publication_date": "2024-07-15",
+        "edition": "正式刊会版本",
+        "citation_count": 53,
+        "recent_citation_count": 53,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 24
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 29
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4402354007"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 81,
+          "evidence": 80,
+          "reuse": 82,
+          "reading": 86
+        },
+        "mechanism": "将多步扩散动作策略蒸馏为较少步的一致性策略，以减少推理步骤保留动作分布。",
+        "reason": "速度/成功率取舍明确；作为控制时钟的对照非常合适。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "RSS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://www.roboticsproceedings.org/rss20/p071.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "RSS",
+          "name": "Robotics: Science and Systems",
+          "kind": "conference",
+          "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+          "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
+          },
+          "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://roboticsconference.org/information/cfp/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://roboticsconference.org/information/cfp/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "videovla",
+      "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+      "year": 2025,
+      "scores": {
+        "innovation": 88,
+        "evidence": 82,
+        "reuse": 80,
+        "reading": 90,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "score_lower": 78.0,
+      "score_upper": 78.0,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "videovla",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W7196952124",
+        "matched_title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+        "doi": "https://doi.org/10.52202/085713-3197",
+        "publication_date": "2025-01-01",
+        "edition": "正式刊会版本",
+        "citation_count": 3,
+        "recent_citation_count": 3,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 3
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W7196952124"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 88,
+          "evidence": 82,
+          "reuse": 80,
+          "reading": 90
+        },
+        "mechanism": "以视频生成器的时空动态先验联合预测未来画面与机器人动作，考察未见操作泛化。",
+        "reason": "未来视觉与动作的对应关系值得拆；按正式NeurIPS原作范围阅读。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "NeurIPS",
+        "venue_status": "published",
+        "publication_evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "NeurIPS",
+          "name": "Conference on Neural Information Processing Systems",
+          "kind": "conference",
+          "scope": "机器学习与计算神经科学交叉；包括生成、序列建模、学习与决策。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器学习主要主会；序列生成结果和真实机器人证据需要分别读。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://neurips.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://neurips.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ase",
+      "title": "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters",
+      "year": 2022,
+      "scores": {
+        "innovation": 90,
+        "evidence": 86,
+        "reuse": 88,
+        "reading": 91,
+        "venue": 90.4,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 75.7,
+      "score_upper": 90.7,
+      "weight_coverage": 85,
+      "metrics": {
+        "paper_id": "ase",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 90,
+          "evidence": 86,
+          "reuse": 88,
+          "reading": 91
+        },
+        "mechanism": "将潜技能条件与对抗动作先验联合训练，再让高层策略选择可复用的技能嵌入。",
+        "reason": "可复用技能接口值得与机器人动作latent比较；初读分清训练奖励和高层控制。",
+        "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": "SIGGRAPH-TOG",
+        "venue_status": "published",
+        "publication_evidence_url": "https://xbpeng.github.io/projects/ASE/",
+        "checked_at": "2026-10-09",
+        "profile": {
+          "abbreviation": "SIGGRAPH / TOG",
+          "name": "SIGGRAPH / ACM Transactions on Graphics",
+          "kind": "journal_conference",
+          "scope": "计算机图形学、视觉计算、动画与物理角色控制；角色控制可作为机器人动作先验的基础。",
+          "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "图形学核心发表入口；物理角色控制里的先验、模仿和技能表征对具身控制有方法价值。"
+          },
+          "distinction": "SIGGRAPH 是会议，TOG 是期刊；SIGGRAPH 有期刊论文与会议论文等不同轨道。本仓 DeepMimic、AMP、ASE 为 TOG 论文并在 SIGGRAPH 展示，按 TOG 路线评分。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 44,
+            "conference_page": 47,
+            "source_id": "ccf",
+            "note": "TOG期刊与SIGGRAPH会议均A；此档案采用TOG期刊指标。"
+          },
+          "jif": {
+            "value": 13.0,
+            "metric_year": 2025,
+            "release_year": 2026,
+            "source_id": "jcr",
+            "page": 14
+          },
+          "jcr": {
+            "quartile": "Q1",
+            "metric_year": 2025,
+            "release_year": 2026,
+            "index": "SCIE",
+            "category": null,
+            "source_id": "jcr",
+            "page": 14,
+            "verification": "institutional_table; category not supplied"
+          },
+          "cas": null,
+          "official_url": "https://dl.acm.org/journal/tog",
+          "sources": [
+            {
+              "title": "期刊官方入口",
+              "url": "https://dl.acm.org/journal/tog",
+              "evidence_type": "primary"
+            },
+            {
+              "title": "ACM 2026 JCR announcement",
+              "url": "https://www.acm.org/media-center/2026/july/impact-factors-2026",
+              "evidence_type": "publisher_search_index",
+              "note": "官方新闻检索摘要给出TOG13.0；正文访问403。与机构表交叉核对。"
+            }
+          ]
+        }
       }
     },
     {
@@ -1379,12 +2500,13 @@
         "evidence": 84,
         "reuse": 80,
         "reading": 93,
+        "venue": null,
         "influence": 17.3,
         "attention": 22.3
       },
-      "score_lower": 66.0,
-      "score_upper": 66.0,
-      "weight_coverage": 100,
+      "score_lower": 50.2,
+      "score_upper": 80.2,
+      "weight_coverage": 70,
       "metrics": {
         "paper_id": "pi05",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1418,87 +2540,13 @@
         "mechanism": "连接跨本体、跨环境操作数据与高层任务语义，训练面对新家庭环境的分层动作策略。",
         "reason": "开放环境泛化问题直接，阅读时要拆语义任务与低层动作各自的监督。",
         "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "videovla",
-      "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
-      "year": 2025,
-      "scores": {
-        "innovation": 88,
-        "evidence": 82,
-        "reuse": 80,
-        "reading": 90,
-        "influence": 17.3,
-        "attention": 22.3
       },
-      "score_lower": 65.2,
-      "score_upper": 65.2,
-      "weight_coverage": 100,
-      "metrics": {
-        "paper_id": "videovla",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "matched",
-        "openalex_id": "https://openalex.org/W7196952124",
-        "matched_title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
-        "doi": "https://doi.org/10.52202/085713-3197",
-        "publication_date": "2025-01-01",
-        "edition": "正式刊会版本",
-        "citation_count": 3,
-        "recent_citation_count": 3,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 3
-          }
-        ],
-        "api_url": "https://api.openalex.org/works/W7196952124"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 88,
-          "evidence": 82,
-          "reuse": 80,
-          "reading": 90
-        },
-        "mechanism": "以视频生成器的时空动态先验联合预测未来画面与机器人动作，考察未见操作泛化。",
-        "reason": "未来视觉与动作的对应关系值得拆；按正式NeurIPS原作范围阅读。",
-        "review_depth": "选题初读"
-      }
-    },
-    {
-      "id": "ase",
-      "title": "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters",
-      "year": 2022,
-      "scores": {
-        "innovation": 90,
-        "evidence": 86,
-        "reuse": 88,
-        "reading": 91,
-        "influence": null,
-        "attention": null
-      },
-      "score_lower": 61.9,
-      "score_upper": 91.9,
-      "weight_coverage": 70,
-      "metrics": {
-        "paper_id": "ase",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "status": "unmatched",
-        "citation_count": null,
-        "recent_citation_count": null,
-        "reason": "无与当前版本可确认对应的计量记录"
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 90,
-          "evidence": 86,
-          "reuse": 88,
-          "reading": 91
-        },
-        "mechanism": "将潜技能条件与对抗动作先验联合训练，再让高层策略选择可复用的技能嵌入。",
-        "reason": "可复用技能接口值得与机器人动作latent比较；初读分清训练奖励和高层控制。",
-        "review_depth": "选题初读"
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2504.16054",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1510,12 +2558,13 @@
         "evidence": 82,
         "reuse": 79,
         "reading": 95,
+        "venue": null,
         "influence": 0.0,
         "attention": 0.0
       },
-      "score_lower": 61.2,
-      "score_upper": 61.2,
-      "weight_coverage": 100,
+      "score_lower": 48.0,
+      "score_upper": 78.0,
+      "weight_coverage": 70,
       "metrics": {
         "paper_id": "dreamzero",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1540,6 +2589,13 @@
         "mechanism": "联合建模未来视频与动作，将大规模视觉动态先验用于未见任务的闭环策略。",
         "reason": "WAM零样本任务分歧清楚；初读仍要按数据、未见任务划分和控制时钟拆证据。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2602.15922",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1551,12 +2607,13 @@
         "evidence": 82,
         "reuse": 82,
         "reading": 93,
+        "venue": null,
         "influence": 0.0,
         "attention": 0.0
       },
-      "score_lower": 60.3,
-      "score_upper": 60.3,
-      "weight_coverage": 100,
+      "score_lower": 47.3,
+      "score_upper": 77.3,
+      "weight_coverage": 70,
       "metrics": {
         "paper_id": "cosmos-policy",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1581,6 +2638,13 @@
         "mechanism": "微调视频基础模型，把动作、未来视觉状态和规划信号放进共同生成过程。",
         "reason": "视频先验到控制的接口值得看；精读需追训练条件和规划/策略消融。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2601.16163",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1592,12 +2656,13 @@
         "evidence": 81,
         "reuse": 79,
         "reading": 90,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 59.2,
-      "score_upper": 89.2,
-      "weight_coverage": 70,
+      "score_lower": 46.4,
+      "score_upper": 91.4,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "lingbot-va",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1616,6 +2681,13 @@
         "mechanism": "用因果式视频与动作建模支持闭环控制，使滚动生成的条件更接近实际部署。",
         "reason": "因果时序和视频动作联合预测形成清楚问题；初读重点是滚动误差与延迟。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2601.21998",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1627,12 +2699,13 @@
         "evidence": 79,
         "reuse": 65,
         "reading": 94,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 58.4,
-      "score_upper": 88.4,
-      "weight_coverage": 70,
+      "score_lower": 45.8,
+      "score_upper": 90.8,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "viola",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1651,6 +2724,13 @@
         "mechanism": "VLA 预测身体与手部运动 latent，预训练控制器负责执行；运动编码器把人类示范映射到同一空间，扩大可监督动作池。",
         "reason": "跨数据监督和动作空间转换直接对上 Holo-M；初读关注零样本协议、控制器预训练与总数据规模。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.12435v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1662,12 +2742,13 @@
         "evidence": 76,
         "reuse": 64,
         "reading": 94,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 57.6,
-      "score_upper": 87.6,
-      "weight_coverage": 70,
+      "score_lower": 45.1,
+      "score_upper": 90.1,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "lewam",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1686,6 +2767,13 @@
         "mechanism": "在不重建图像的 JEPA 表征上联合学前向、后向、逆动力学和策略；MPC 在策略噪声空间采样，降低规划钻动力学模型空子的机会。",
         "reason": "潜世界动作模型与噪声空间规划贴合本仓路线；有同编码器/规模对照线索，优先追规划消融。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.12407v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1697,12 +2785,13 @@
         "evidence": 78,
         "reuse": 65,
         "reading": 90,
+        "venue": null,
         "influence": 0.0,
         "attention": 0.0
       },
-      "score_lower": 56.5,
-      "score_upper": 56.5,
-      "weight_coverage": 100,
+      "score_lower": 44.3,
+      "score_upper": 74.3,
+      "weight_coverage": 70,
       "metrics": {
         "paper_id": "holo-m",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1727,6 +2816,13 @@
         "mechanism": "DCT低频系数与四级残差码固定组长；缺失组监督连接人类/机器人数据，分组恢复接上重叠控制。",
         "reason": "固定组长、跨来源有效损失与并行恢复的组合清楚；SIMPLE总分、难格子、消融和两项实机均已逐项读过；实现复用仍需后续跟进。",
         "review_depth": "全文精读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2609.35709v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1738,12 +2834,13 @@
         "evidence": 76,
         "reuse": 65,
         "reading": 91,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 56.4,
-      "score_upper": 86.4,
-      "weight_coverage": 70,
+      "score_lower": 44.2,
+      "score_upper": 89.2,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "arc",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1762,6 +2859,13 @@
         "mechanism": "给现有示范自动添“下一动作为什么合适、会造成什么”的推理轨迹，再按 VLA/WAM 架构适配推理与动作输出。",
         "reason": "推理与控制的明确接口；初读关注自动标注质量、不同基础策略的匹配训练和零样本条件。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.12386v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1773,12 +2877,13 @@
         "evidence": 76,
         "reuse": 65,
         "reading": 89,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 56.4,
-      "score_upper": 86.4,
-      "weight_coverage": 70,
+      "score_lower": 44.2,
+      "score_upper": 89.2,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "dex-one2many",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1797,6 +2902,13 @@
         "mechanism": "把单视频压成顺序场景关系图，以图约束重置状态、阶段奖励，指导 RL 搜索更广的抓取与物体配置。",
         "reason": "单视频灵巧操作；摘要给出五项任务、对照与实机转移；优先检查重置采样和奖励消融。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.12470v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1808,12 +2920,13 @@
         "evidence": 77,
         "reuse": 68,
         "reading": 89,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 56.2,
-      "score_upper": 86.2,
-      "weight_coverage": 70,
+      "score_lower": 44.1,
+      "score_upper": 89.1,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "balanced-data-diet",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1832,6 +2945,13 @@
         "mechanism": "Success Guided Sampling 根据当前成功率把重置分布推向能力边缘，减少超简单或暂时学不会的采样，再蒸馏视觉操作策略转实机。",
         "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.12465v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1843,12 +2963,13 @@
         "evidence": 74,
         "reuse": 62,
         "reading": 91,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 55.6,
-      "score_upper": 85.6,
-      "weight_coverage": 70,
+      "score_lower": 43.5,
+      "score_upper": 88.5,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "dreamtrue",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1867,6 +2988,13 @@
         "mechanism": "将动作轨迹渲染进图像条件并校准，改变轨迹生成反事实未来，再用人标视频缺陷训练奖励模型指导后训练。",
         "reason": "动作忠实性与失败覆盖形成清楚分歧；初读优先看校准、反事实和奖励各自的对照。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.12468v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     },
     {
@@ -1878,12 +3006,13 @@
         "evidence": 75,
         "reuse": 63,
         "reading": 89,
+        "venue": null,
         "influence": null,
         "attention": null
       },
-      "score_lower": 55.0,
-      "score_upper": 85.0,
-      "weight_coverage": 70,
+      "score_lower": 43.1,
+      "score_upper": 88.1,
+      "weight_coverage": 55,
       "metrics": {
         "paper_id": "plaw-vla",
         "checked_at": "2026-10-09T18:35:28+08:00",
@@ -1902,6 +3031,13 @@
         "mechanism": "预测面向任务的未来潜表示，再用结构化因果注意力让动作生成读取历史、任务和未来状态，减少无关像素重建。",
         "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
         "review_depth": "选题初读"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.12285v1",
+        "checked_at": "2026-10-09",
+        "profile": null
       }
     }
   ]

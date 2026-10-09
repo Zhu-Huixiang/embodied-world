@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/dreamwaq/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/dreamwaq/README.md)
 
 机制简析：从本体历史估计速度和隐环境表示，将其送给策略；训练时以重建/特权监督组织环境编码。
 <!-- discovery:end -->

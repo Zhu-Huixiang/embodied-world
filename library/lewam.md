@@ -13,5 +13,5 @@
 进度：新作初读，完整解读候选。
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/lewam/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/lewam/README.md)
 <!-- discovery:end -->

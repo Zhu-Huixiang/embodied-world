@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/rma/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/rma/README.md)
 
 机制简析：训练利用特权环境信息的基础策略，部署用状态动作历史估计环境编码，在线适配腿足控制。
 <!-- discovery:end -->

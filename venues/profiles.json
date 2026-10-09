@@ -1,0 +1,415 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-09",
+  "scope": "Current venue snapshot; not historical publication-year ranks",
+  "sources": {
+    "ccf": {
+      "title": "中国计算机学会推荐国际学术会议和期刊目录（2026）",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+      "mirror_url": "https://dengpingfan.github.io/papers/CCF-Recommend-2026.pdf",
+      "evidence_type": "original_directory_via_mirror",
+      "note": "CCF 官方入口遇验证页；核对原目录镜像全文72页。分类为当前目录快照，不追溯为论文发表当年的级别。",
+      "sha256": "e3abf1844d602d4b2302b3dfad0779ac7de89a03b1c7fd15737030ff59b965fb"
+    },
+    "jcr": {
+      "title": "2026年发布的 JCR 指标公开机构表",
+      "url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf",
+      "evidence_type": "institutional_secondary_table",
+      "note": "表头用发布年 JIF2026；对应2025指标年。分区未提供具体学科类别，仅保留表中Q1，不宣称完成Clarivate账户逐学科核验。",
+      "sha256": "2a525e49239015e2b5b06ee66a435986cb6d4aaf4f6a9dc63cb387069c124bce"
+    },
+    "nature_metrics": {
+      "title": "Nature Portfolio 2025 Journal Metrics",
+      "url": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+      "evidence_type": "publisher_primary",
+      "note": "Nature 2025指标56.1，2026发布。"
+    },
+    "acm_metrics": {
+      "title": "ACM 2026 JCR announcement",
+      "url": "https://www.acm.org/media-center/2026/july/impact-factors-2026",
+      "evidence_type": "publisher_search_index",
+      "note": "官方新闻检索摘要给出TOG13.0；正文访问403。与机构表交叉核对。"
+    }
+  },
+  "profiles": {
+    "RSS": {
+      "abbreviation": "RSS",
+      "name": "Robotics: Science and Systems",
+      "kind": "conference",
+      "scope": "机器人科学与系统；覆盖感知、规划、控制、学习与真实机器人。",
+      "review": "主会研究论文同行评审，征稿说明对问题、技术贡献与实验论证的要求。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。"
+      },
+      "distinction": "RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会正式论文集归档。",
+      "ccf": {
+        "tier": null,
+        "edition": 2026,
+        "status": "not_listed_in_checked_directory",
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://roboticsconference.org/information/cfp/",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://roboticsconference.org/information/cfp/",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "CoRL": {
+      "abbreviation": "CoRL",
+      "name": "Conference on Robot Learning",
+      "kind": "conference",
+      "scope": "机器人学习，连接机器学习方法、机器人数据、策略与真实系统。",
+      "review": "主会研究论文同行评审；官方作者指南列出贡献、证据、复现与评审要求。",
+      "community": {
+        "score": 90,
+        "label": "编辑对领域定位的判断",
+        "reason": "机器人学习的专门会议，对策略、数据与泛化路线有直接参考价值。90是编辑判断，未冒充CCF等级。"
+      },
+      "distinction": "CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版年份可能晚一年。",
+      "ccf": {
+        "tier": null,
+        "edition": 2026,
+        "status": "not_listed_in_checked_directory",
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://www.corl.org/contributions/instruction-for-authors",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://www.corl.org/contributions/instruction-for-authors",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "ICRA": {
+      "abbreviation": "ICRA",
+      "name": "IEEE International Conference on Robotics and Automation",
+      "kind": "conference",
+      "scope": "机器人与自动化：控制、感知、规划、操作、机构设计与系统。",
+      "review": "IEEE RAS 机器人会议；研究论文经同行评审，正式论文集通常由 IEEE Xplore 收录。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "机器人领域覆盖广、长期积累强的主要会议；机器人社区定位与CCF计算机目录的B类并列解释。"
+      },
+      "distinction": "本仓收录主会论文；workshop、会议报告及期刊论文展示采用各自的实际出版出处。",
+      "ccf": {
+        "tier": "B",
+        "edition": 2026,
+        "page": 58,
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "ICLR": {
+      "abbreviation": "ICLR",
+      "name": "International Conference on Learning Representations",
+      "kind": "conference",
+      "scope": "学习表征与深度学习；包括生成建模、强化学习和控制方法。",
+      "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。ICLR 使用 OpenReview 公开评审与讨论。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "学习表征和深度学习方法的重要主会，公开讨论可帮助跟踪方法争议。"
+      },
+      "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+      "ccf": {
+        "tier": "A",
+        "edition": 2026,
+        "page": 57,
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://iclr.cc/",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://iclr.cc/",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "ICML": {
+      "abbreviation": "ICML",
+      "name": "International Conference on Machine Learning",
+      "kind": "conference",
+      "scope": "机器学习理论、算法、表征与应用；本仓重点看模型强化学习和潜空间控制。",
+      "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "机器学习主要主会，适合追踪方法的算法前提和对照设计。"
+      },
+      "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+      "ccf": {
+        "tier": "A",
+        "edition": 2026,
+        "page": 57,
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://icml.cc/",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://icml.cc/",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "NeurIPS": {
+      "abbreviation": "NeurIPS",
+      "name": "Conference on Neural Information Processing Systems",
+      "kind": "conference",
+      "scope": "机器学习与计算神经科学交叉；包括生成、序列建模、学习与决策。",
+      "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "机器学习主要主会；序列生成结果和真实机器人证据需要分别读。"
+      },
+      "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+      "ccf": {
+        "tier": "A",
+        "edition": 2026,
+        "page": 57,
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://neurips.cc/",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://neurips.cc/",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "CVPR": {
+      "abbreviation": "CVPR",
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "kind": "conference",
+      "scope": "计算机视觉、视觉表征、三维感知与图像/视频生成。",
+      "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "视觉领域主要主会；视觉动作论文能否执行，需要继续查机器人实验。"
+      },
+      "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+      "ccf": {
+        "tier": "A",
+        "edition": 2026,
+        "page": 57,
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://cvpr.thecvf.com/",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://cvpr.thecvf.com/",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "ICCV": {
+      "abbreviation": "ICCV",
+      "name": "IEEE/CVF International Conference on Computer Vision",
+      "kind": "conference",
+      "scope": "计算机视觉方法、表征、三维与生成建模；通常两年举办一次。",
+      "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "视觉领域主要主会；DiT 等图像生成基础为后续视频动作架构提供前置知识。"
+      },
+      "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+      "ccf": {
+        "tier": "A",
+        "edition": 2026,
+        "page": 57,
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://iccv.thecvf.com/",
+      "sources": [
+        {
+          "title": "官方会议入口 / 征稿与评审说明",
+          "url": "https://iccv.thecvf.com/",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "Nature": {
+      "abbreviation": "Nature",
+      "name": "Nature",
+      "kind": "journal",
+      "scope": "综合科学期刊，面向跨领域科学读者；本仓从世界模型工作读跨任务的共同结论。",
+      "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+      "community": {
+        "score": 100,
+        "label": "编辑对领域定位的判断",
+        "reason": "综合科学领域影响广的研究期刊；选入本仓的控制论文仍须检查任务、数据与方法证据。"
+      },
+      "distinction": "Nature 主刊与 Nature 子刊是不同期刊。JIF 和分区按准确刊名核对。",
+      "ccf": {
+        "tier": null,
+        "status": "not_used_for_this_journal"
+      },
+      "jif": {
+        "value": 56.1,
+        "metric_year": 2025,
+        "release_year": 2026,
+        "source_id": "nature_metrics",
+        "page": null
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "metric_year": 2025,
+        "release_year": 2026,
+        "index": "SCIE",
+        "category": null,
+        "source_id": "jcr",
+        "page": 1,
+        "verification": "institutional_table; category not supplied"
+      },
+      "cas": null,
+      "official_url": "https://www.nature.com/nature/",
+      "sources": [
+        {
+          "title": "期刊官方入口",
+          "url": "https://www.nature.com/nature/",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "Science-Robotics": {
+      "abbreviation": "Sci. Robot.",
+      "name": "Science Robotics",
+      "kind": "journal",
+      "scope": "机器人科学与工程的专业期刊，连接机器人系统、学习、控制与真实环境。",
+      "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "机器人专业研究的重要期刊；系统约束、实验场景和失败条件是本仓的主要阅读线索。"
+      },
+      "distinction": "Science Robotics 与 Science 主刊、Science Advances 分别统计；不能套用主刊指标。",
+      "ccf": {
+        "tier": null,
+        "status": "not_used_for_this_journal"
+      },
+      "jif": {
+        "value": 25.5,
+        "metric_year": 2025,
+        "release_year": 2026,
+        "source_id": "jcr",
+        "page": 4
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "metric_year": 2025,
+        "release_year": 2026,
+        "index": "SCIE",
+        "category": null,
+        "source_id": "jcr",
+        "page": 4,
+        "verification": "institutional_table; category not supplied"
+      },
+      "cas": null,
+      "official_url": "https://www.science.org/journal/scirobotics",
+      "sources": [
+        {
+          "title": "期刊官方入口",
+          "url": "https://www.science.org/journal/scirobotics",
+          "evidence_type": "primary"
+        }
+      ]
+    },
+    "SIGGRAPH-TOG": {
+      "abbreviation": "SIGGRAPH / TOG",
+      "name": "SIGGRAPH / ACM Transactions on Graphics",
+      "kind": "journal_conference",
+      "scope": "计算机图形学、视觉计算、动画与物理角色控制；角色控制可作为机器人动作先验的基础。",
+      "review": "编辑筛选后进行同行评审；研究论文、评论和新闻等文章类型分别核对，不能仅凭刊名判断文种。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "图形学核心发表入口；物理角色控制里的先验、模仿和技能表征对具身控制有方法价值。"
+      },
+      "distinction": "SIGGRAPH 是会议，TOG 是期刊；SIGGRAPH 有期刊论文与会议论文等不同轨道。本仓 DeepMimic、AMP、ASE 为 TOG 论文并在 SIGGRAPH 展示，按 TOG 路线评分。",
+      "ccf": {
+        "tier": "A",
+        "edition": 2026,
+        "page": 44,
+        "conference_page": 47,
+        "source_id": "ccf",
+        "note": "TOG期刊与SIGGRAPH会议均A；此档案采用TOG期刊指标。"
+      },
+      "jif": {
+        "value": 13.0,
+        "metric_year": 2025,
+        "release_year": 2026,
+        "source_id": "jcr",
+        "page": 14
+      },
+      "jcr": {
+        "quartile": "Q1",
+        "metric_year": 2025,
+        "release_year": 2026,
+        "index": "SCIE",
+        "category": null,
+        "source_id": "jcr",
+        "page": 14,
+        "verification": "institutional_table; category not supplied"
+      },
+      "cas": null,
+      "official_url": "https://dl.acm.org/journal/tog",
+      "sources": [
+        {
+          "title": "期刊官方入口",
+          "url": "https://dl.acm.org/journal/tog",
+          "evidence_type": "primary"
+        },
+        {
+          "title": "ACM 2026 JCR announcement",
+          "url": "https://www.acm.org/media-center/2026/july/impact-factors-2026",
+          "evidence_type": "publisher_search_index",
+          "note": "官方新闻检索摘要给出TOG13.0；正文访问403。与机构表交叉核对。"
+        }
+      ]
+    }
+  }
+}

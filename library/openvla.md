@@ -15,7 +15,7 @@ CoRL 2024；PMLR 270 论文集出版年份为 2025。
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/openvla/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/openvla/README.md)
 
 机制简析：把预训练视觉语言骨干适配到机器人示范，输出离散动作编号，并提供高效微调路线。
 <!-- discovery:end -->

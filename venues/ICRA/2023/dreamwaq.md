@@ -10,4 +10,4 @@
 
 阅读问题：盲行走时，历史本体信息怎样形成环境表征并进入 actor？
 
-[本刊会目录](../README.md) · [论文地图](../../../paper-map/README.md)
+[本刊会介绍与目录](../README.md) · [论文地图](../../../paper-map/README.md)

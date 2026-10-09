@@ -10,4 +10,4 @@
 
 阅读问题：Action chunking 与时间集成怎样处理示范中的误差累积？
 
-[本刊会目录](../README.md) · [论文地图](../../../paper-map/README.md)
+[本刊会介绍与目录](../README.md) · [论文地图](../../../paper-map/README.md)

@@ -10,4 +10,4 @@
 
 阅读问题：RSSM 如何从观测和动作建模未来，actor 又怎样在潜空间学习？
 
-[本刊会目录](../README.md) · [论文地图](../../../paper-map/README.md)
+[本刊会介绍与目录](../README.md) · [论文地图](../../../paper-map/README.md)

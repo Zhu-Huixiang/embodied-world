@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/holo-m/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/holo-m/README.md)
 
 机制简析：DCT低频系数与四级残差码固定组长；缺失组监督连接人类/机器人数据，分组恢复接上重叠控制。
 <!-- discovery:end -->

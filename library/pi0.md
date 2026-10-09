@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/pi0/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/pi0/README.md)
 
 机制简析：视觉语言骨干提供语义条件，Flow Matching 动作专家生成连续动作块，再按闭环观测更新。
 <!-- discovery:end -->

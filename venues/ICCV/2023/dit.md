@@ -10,4 +10,4 @@
 
 阅读问题：Transformer 怎样在潜空间去噪，条件又怎样进入各层？
 
-[本刊会目录](../README.md) · [论文地图](../../../paper-map/README.md)
+[本刊会介绍与目录](../README.md) · [论文地图](../../../paper-map/README.md)

@@ -15,7 +15,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/amp/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/amp/README.md)
 
 机制简析：判别器区分参考与策略动作转移，把模仿先验变成奖励，减少逐帧跟踪的限制。
 <!-- discovery:end -->

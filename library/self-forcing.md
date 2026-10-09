@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/self-forcing/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/self-forcing/README.md)
 
 机制简析：使用模型自己的历史滚动来训练自回归视频生成，减少教师历史与部署历史的分布差异。
 <!-- discovery:end -->

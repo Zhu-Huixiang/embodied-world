@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/dreamerv2/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/dreamerv2/README.md)
 
 机制简析：将世界模型潜状态换成离散表示，利用想象轨迹训练策略，重点检查Atari学习表现。
 <!-- discovery:end -->

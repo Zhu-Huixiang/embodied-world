@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/td-mpc/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/td-mpc/README.md)
 
 机制简析：学习用于奖励和值预测的潜动力学，结合短期模型预测控制与终端价值选择连续动作。
 <!-- discovery:end -->

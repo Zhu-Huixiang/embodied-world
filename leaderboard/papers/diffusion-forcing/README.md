@@ -1,6 +1,6 @@
 # Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion
 
-本版阅读优先顺序：15；综合分：79.5 / 100；已评分权重：100%。
+本版阅读优先顺序：13；综合分：86.3 / 100；已评分权重：100%。
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2aee1c4159e48407d68fe16ae8e6e49e-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/2aee1c4159e48407d68fe16ae8e6e49e-Paper-Conference.pdf) · [阅读卡片](../../../library/diffusion-forcing.md)
 
@@ -12,18 +12,24 @@
 
 初读判断：噪声安排与时序条件具有方法创新；机器人用途需看具体规划实验。
 
-## 六维评分
+## 七维评分
 
-![六维雷达](radar.svg)
+![七维雷达：加载时展开一次，随后静止](radar.gif)
+
+打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 创新性 | 95 | 25% |
-| 实验与证据 | 86 | 25% |
-| 学术影响 | 49.1 | 20% |
-| 近期关注 | 63.2 | 10% |
-| 复用价值 | 90 | 10% |
-| 阅读价值 | 91 | 10% |
+| 刊会质量 | 95.0 | 30% |
+| 创新性 | 95 | 20% |
+| 实验与证据 | 86 | 20% |
+| 学术影响 | 49.1 | 10% |
+| 近期关注 | 63.2 | 5% |
+| 复用价值 | 90 | 8% |
+| 阅读价值 | 91 | 7% |
+
+刊会依据：[NeurIPS 2024](../../../venues/NeurIPS/README.md)，正式出处见[出版/原文记录](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2aee1c4159e48407d68fe16ae8e6e49e-Abstract-Conference.html)；采用2026-10-09刊会快照。
+
 
 编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
 

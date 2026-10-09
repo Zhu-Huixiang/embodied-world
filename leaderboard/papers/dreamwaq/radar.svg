@@ -1,34 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="510" viewBox="0 0 480 510" role="img">
-<title>DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning 六维评分</title>
-<rect width="480" height="510" fill="#fff"/>
-<g font-family="sans-serif" font-size="13" fill="#173347">
-<polygon points="240.0,209.2 266.7,224.6 266.7,255.4 240.0,270.8 213.3,255.4 213.3,224.6" fill="none" stroke="#d9e2e5"/>
-<text x="244" y="206.2">20</text>
-<polygon points="240.0,178.4 293.3,209.2 293.3,270.8 240.0,301.6 186.7,270.8 186.7,209.2" fill="none" stroke="#d9e2e5"/>
-<text x="244" y="175.4">40</text>
-<polygon points="240.0,147.6 320.0,193.8 320.0,286.2 240.0,332.4 160.0,286.2 160.0,193.8" fill="none" stroke="#d9e2e5"/>
-<text x="244" y="144.6">60</text>
-<polygon points="240.0,116.8 346.7,178.4 346.7,301.6 240.0,363.2 133.3,301.6 133.3,178.4" fill="none" stroke="#d9e2e5"/>
-<text x="244" y="113.8">80</text>
-<polygon points="240.0,86.0 373.4,163.0 373.4,317.0 240.0,394.0 106.6,317.0 106.6,163.0" fill="none" stroke="#d9e2e5"/>
-<text x="244" y="83.0">100</text>
-<line x1="240" y1="240" x2="240.0" y2="86.0" stroke="#bdcbd1"/>
-<text x="240.0" y="52.1" text-anchor="middle">创新性</text><text x="240.0" y="69.1" text-anchor="middle">86 / 100</text>
-<line x1="240" y1="240" x2="373.4" y2="163.0" stroke="#bdcbd1"/>
-<text x="402.7" y="146.1" text-anchor="start">实验与证据</text><text x="402.7" y="163.1" text-anchor="start">87 / 100</text>
-<line x1="240" y1="240" x2="373.4" y2="317.0" stroke="#bdcbd1"/>
-<text x="402.7" y="333.9" text-anchor="start">学术影响</text><text x="402.7" y="350.9" text-anchor="start">63.4 / 100</text>
-<line x1="240" y1="240" x2="240.0" y2="394.0" stroke="#bdcbd1"/>
-<text x="240.0" y="427.9" text-anchor="middle">近期关注</text><text x="240.0" y="444.9" text-anchor="middle">77.9 / 100</text>
-<line x1="240" y1="240" x2="106.6" y2="317.0" stroke="#bdcbd1"/>
-<text x="77.3" y="333.9" text-anchor="end">复用价值</text><text x="77.3" y="350.9" text-anchor="end">83 / 100</text>
-<line x1="240" y1="240" x2="106.6" y2="163.0" stroke="#bdcbd1"/>
-<text x="77.3" y="146.1" text-anchor="end">阅读价值</text><text x="77.3" y="163.1" text-anchor="end">93 / 100</text>
-<polygon points="240.0,107.6 356.0,173.0 324.6,288.8 240.0,360.0 129.3,303.9 116.0,168.4" fill="#28758b" fill-opacity=".15" stroke="#28758b" stroke-width="2"/>
-<circle cx="240.0" cy="107.6" r="4" fill="#28758b"/>
-<circle cx="356.0" cy="173.0" r="4" fill="#28758b"/>
-<circle cx="324.6" cy="288.8" r="4" fill="#28758b"/>
-<circle cx="240.0" cy="360.0" r="4" fill="#28758b"/>
-<circle cx="129.3" cy="303.9" r="4" fill="#28758b"/>
-<circle cx="116.0" cy="168.4" r="4" fill="#28758b"/>
-<text x="240" y="488" text-anchor="middle">空缺轴等待计量；各轴满分100</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="755" viewBox="0 0 760 755" role="img">
+<title>DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning 七维评分；缺项留空</title>
+<rect width="760" height="755" fill="#fff"/>
+<g font-family="sans-serif" font-size="28" fill="#173347">
+<polygon points="380.0,312.0 413.6,328.2 421.9,364.6 398.7,393.7 361.3,393.7 338.1,364.6 346.4,328.2" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="307.0" font-size="20">20</text>
+<polygon points="380.0,269.0 447.2,301.4 463.8,374.1 417.3,432.5 342.7,432.5 296.2,374.1 312.8,301.4" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="264.0" font-size="20">40</text>
+<polygon points="380.0,226.0 480.9,274.6 505.8,383.7 436.0,471.2 324.0,471.2 254.2,383.7 279.1,274.6" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="221.0" font-size="20">60</text>
+<polygon points="380.0,183.0 514.5,247.8 547.7,393.3 454.6,510.0 305.4,510.0 212.3,393.3 245.5,247.8" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="178.0" font-size="20">80</text>
+<polygon points="380.0,140.0 548.1,220.9 589.6,402.8 473.3,548.7 286.7,548.7 170.4,402.8 211.9,220.9" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="135.0" font-size="20">100</text>
+<line x1="380" y1="355" x2="380.0" y2="140.0" stroke="#bdcbd1" stroke-width="2"/>
+<text x="380.0" y="64.4" text-anchor="middle">刊会质量</text><text x="380.0" y="98.4" font-size="26" text-anchor="middle">83 · 30%</text>
+<line x1="380" y1="355" x2="548.1" y2="220.9" stroke="#bdcbd1" stroke-width="2"/>
+<text x="600.2" y="170.4" text-anchor="middle">创新性</text><text x="600.2" y="204.4" font-size="26" text-anchor="middle">86 · 20%</text>
+<line x1="380" y1="355" x2="589.6" y2="402.8" stroke="#bdcbd1" stroke-width="2"/>
+<text x="654.6" y="408.7" text-anchor="middle">实验与证据</text><text x="654.6" y="442.7" font-size="26" text-anchor="middle">87 · 20%</text>
+<line x1="380" y1="355" x2="473.3" y2="548.7" stroke="#bdcbd1" stroke-width="2"/>
+<text x="502.2" y="599.8" text-anchor="middle">学术影响</text><text x="502.2" y="633.8" font-size="26" text-anchor="middle">63.4 · 10%</text>
+<line x1="380" y1="355" x2="286.7" y2="548.7" stroke="#bdcbd1" stroke-width="2"/>
+<text x="257.8" y="599.8" text-anchor="middle">近期关注</text><text x="257.8" y="633.8" font-size="26" text-anchor="middle">77.9 · 5%</text>
+<line x1="380" y1="355" x2="170.4" y2="402.8" stroke="#bdcbd1" stroke-width="2"/>
+<text x="105.4" y="408.7" text-anchor="middle">复用价值</text><text x="105.4" y="442.7" font-size="26" text-anchor="middle">83 · 8%</text>
+<line x1="380" y1="355" x2="211.9" y2="220.9" stroke="#bdcbd1" stroke-width="2"/>
+<text x="159.8" y="170.4" text-anchor="middle">阅读价值</text><text x="159.8" y="204.4" font-size="26" text-anchor="middle">93 · 7%</text>
+<polygon points="380.0,176.6 524.6,239.7 562.4,396.6 439.1,477.8 307.3,505.9 206.0,394.7 223.7,230.3" fill="#28758b" fill-opacity=".15" stroke="#28758b" stroke-width="3"/>
+<circle cx="380.0" cy="176.6" r="4" fill="#28758b"/>
+<circle cx="524.6" cy="239.7" r="4" fill="#28758b"/>
+<circle cx="562.4" cy="396.6" r="4" fill="#28758b"/>
+<circle cx="439.1" cy="477.8" r="4" fill="#28758b"/>
+<circle cx="307.3" cy="505.9" r="4" fill="#28758b"/>
+<circle cx="206.0" cy="394.7" r="4" fill="#28758b"/>
+<circle cx="223.7" cy="230.3" r="4" fill="#28758b"/>
+<text x="380" y="710" font-size="26" text-anchor="middle">各轴满分100；空缺轴等待核验</text></g></svg>

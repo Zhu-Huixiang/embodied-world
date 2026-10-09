@@ -13,7 +13,7 @@
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/lingbot-va/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/lingbot-va/README.md)
 
 机制简析：用因果式视频与动作建模支持闭环控制，使滚动生成的条件更接近实际部署。
 <!-- discovery:end -->

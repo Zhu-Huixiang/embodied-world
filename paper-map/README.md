@@ -122,5 +122,5 @@
 - [ARC: A Reasoning Recipe for Robot Foundation Models](../library/arc.md)：推理文字怎样成为动作条件，而不是另一段好看的解说？
 - [PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../library/plaw-vla.md)：怎样证明预测的未来表征真的帮助长程动作？
 
-[按日期追新作](../arxiv/README.md) · [六维阅读优先榜](../leaderboard/README.md)
+[按日期追新作](../arxiv/README.md) · [七维阅读优先榜](../leaderboard/README.md)
 <!-- discovery:end -->

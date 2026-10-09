@@ -13,5 +13,5 @@ Success Guided Sampling 根据当前成功率把重置分布推向能力边缘�
 进度：新作初读，完整解读候选。
 
 <!-- discovery:start -->
-[机制简析、六维评分与雷达](../leaderboard/papers/balanced-data-diet/README.md)
+[机制简析、七维评分与雷达](../leaderboard/papers/balanced-data-diet/README.md)
 <!-- discovery:end -->
