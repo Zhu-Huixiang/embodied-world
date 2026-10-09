@@ -11,3 +11,6 @@
 - [实际提示词](prompt.txt)、[科学内容规格](content-spec.md)：来源与图中模块对应关系。
 
 重编译时将本目录保留完整，用 XeLaTeX 编译 holo-m-method-v2.tex。源码引用同目录生图草稿；不需要联网调用生图 API。源码字体设置为 macOS PingFang SC 与 Helvetica；PDF 内字体名称可能显示为 PingFangHK。其他系统需在源码 fontspec/xeCJK 设置处替换为已安装的中英文字体，再重新核验换行和遮挡；本包不分发字体文件。
+
+
+当前正文入口：holo-m-method-v3.png。对应可编译holo-m-method-v3.tex和holo-m-method-v3.pdf，依赖同目录holo-m-imagegen-draft.png。六区覆盖训练、编码、观测、生成、监督与执行，制作署名在文章图旁。

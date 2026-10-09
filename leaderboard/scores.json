@@ -1,0 +1,1908 @@
+{
+  "checked_at": "2026-10-09T18:35:28+08:00",
+  "dimensions": [
+    {
+      "key": "innovation",
+      "label": "创新性",
+      "weight": 25,
+      "maximum": 100
+    },
+    {
+      "key": "evidence",
+      "label": "实验与证据",
+      "weight": 25,
+      "maximum": 100
+    },
+    {
+      "key": "influence",
+      "label": "学术影响",
+      "weight": 20,
+      "maximum": 100
+    },
+    {
+      "key": "attention",
+      "label": "近期关注",
+      "weight": 10,
+      "maximum": 100
+    },
+    {
+      "key": "reuse",
+      "label": "复用价值",
+      "weight": 10,
+      "maximum": 100
+    },
+    {
+      "key": "reading",
+      "label": "阅读价值",
+      "weight": 10,
+      "maximum": 100
+    }
+  ],
+  "ranking": "score_lower desc; coverage desc; id asc",
+  "papers": [
+    {
+      "id": "dit",
+      "title": "Scalable Diffusion Models with Transformers",
+      "year": 2023,
+      "scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 92,
+        "influence": 95.3,
+        "attention": 100
+      },
+      "score_lower": 94.2,
+      "score_upper": 94.2,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dit",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4390872297",
+        "matched_title": "Scalable Diffusion Models with Transformers",
+        "doi": "https://doi.org/10.1109/iccv51070.2023.00387",
+        "publication_date": "2023-10-01",
+        "edition": "正式刊会版本",
+        "citation_count": 2065,
+        "recent_citation_count": 1742,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 850
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 892
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 289
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 34
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4390872297"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 95,
+          "evidence": 91,
+          "reuse": 94,
+          "reading": 92
+        },
+        "mechanism": "在图像潜表示的patch序列上用Transformer做扩散去噪，考察计算规模和条件注入。",
+        "reason": "生成架构影响力和实现复用突出；作为视频/动作模型前置，保留图像任务范围。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "diffusion-policy",
+      "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+      "year": 2023,
+      "scores": {
+        "innovation": 96,
+        "evidence": 91,
+        "reuse": 95,
+        "reading": 98,
+        "influence": 78.1,
+        "attention": 96.6
+      },
+      "score_lower": 91.3,
+      "score_upper": 91.3,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "diffusion-policy",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4385403811",
+        "matched_title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+        "doi": "https://doi.org/10.15607/rss.2023.xix.026",
+        "publication_date": "2023-07-10",
+        "edition": "正式刊会版本",
+        "citation_count": 517,
+        "recent_citation_count": 405,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 142
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 263
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 107
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 5
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4385403811"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 96,
+          "evidence": 91,
+          "reuse": 95,
+          "reading": 98
+        },
+        "mechanism": "对多步动作条件去噪，用视觉观测约束动作分布，滚动执行一段后再次观测与重规划。",
+        "reason": "动作分布与闭环执行的清楚范式；丰富任务对照和可复用代码是阅读优势。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "deepmimic",
+      "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
+      "year": 2018,
+      "scores": {
+        "innovation": 96,
+        "evidence": 88,
+        "reuse": 93,
+        "reading": 95,
+        "influence": 85.1,
+        "attention": 85.8
+      },
+      "score_lower": 90.4,
+      "score_upper": 90.4,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "deepmimic",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W2796290181",
+        "matched_title": "DeepMimic",
+        "doi": "https://doi.org/10.1145/3197517.3201311",
+        "publication_date": "2018-07-30",
+        "edition": "正式刊会版本",
+        "citation_count": 906,
+        "recent_citation_count": 206,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 76
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 130
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 124
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 119
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 110
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 125
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 99
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 96
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 27
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W2796290181"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 96,
+          "evidence": 88,
+          "reuse": 93,
+          "reading": 95
+        },
+        "mechanism": "任务奖励与参考动作跟踪奖励共同训练物理角色策略，使动作技能能在动态扰动后恢复。",
+        "reason": "示范驱动物理控制的基础路线；公开实现利于机制实验。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "act",
+      "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+      "year": 2023,
+      "scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "influence": 80.5,
+        "attention": 100
+      },
+      "score_lower": 90.3,
+      "score_upper": 90.3,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "act",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4385430674",
+        "matched_title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+        "doi": "https://doi.org/10.15607/rss.2023.xix.016",
+        "publication_date": "2023-07-10",
+        "edition": "正式刊会版本",
+        "citation_count": 630,
+        "recent_citation_count": 544,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 243
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 301
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 85
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 1
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4385430674"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 92,
+          "evidence": 89,
+          "reuse": 93,
+          "reading": 96
+        },
+        "mechanism": "把一段动作联合预测，条件变分自编码器吸收示范差异，时间集成融合重叠预测减轻误差积累。",
+        "reason": "低成本双臂硬件与动作分块相互支撑，适合同时读数据系统和策略。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "perceptive-loco",
+      "title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
+      "year": 2022,
+      "scores": {
+        "innovation": 93,
+        "evidence": 95,
+        "reuse": 77,
+        "reading": 92,
+        "influence": 83.7,
+        "attention": 95.9
+      },
+      "score_lower": 90.2,
+      "score_upper": 90.2,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "perceptive-loco",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4205430897",
+        "matched_title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
+        "doi": "https://doi.org/10.1126/scirobotics.abk2822",
+        "publication_date": "2022-01-19",
+        "edition": "正式刊会版本",
+        "citation_count": 812,
+        "recent_citation_count": 387,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 148
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 239
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 209
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 149
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 67
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4205430897"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 93,
+          "evidence": 95,
+          "reuse": 77,
+          "reading": 92
+        },
+        "mechanism": "让地形感知与本体反馈共同支持腿足策略，在复杂户外地形中考察感知失效和控制鲁棒性。",
+        "reason": "真实环境证据与感知鲁棒性突出；硬件复现成本较高。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "rma",
+      "title": "RMA: Rapid Motor Adaptation for Legged Robots",
+      "year": 2021,
+      "scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 88,
+        "reading": 96,
+        "influence": 77.9,
+        "attention": 89.6
+      },
+      "score_lower": 89.4,
+      "score_upper": 89.4,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "rma",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W3175254947",
+        "matched_title": "RMA: Rapid Motor Adaptation for Legged Robots",
+        "doi": "https://doi.org/10.15607/rss.2021.xvii.011",
+        "publication_date": "2021-06-27",
+        "edition": "正式刊会版本",
+        "citation_count": 511,
+        "recent_citation_count": 262,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 91
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 171
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 115
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 6
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W3175254947"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 95,
+          "evidence": 91,
+          "reuse": 88,
+          "reading": 96
+        },
+        "mechanism": "训练利用特权环境信息的基础策略，部署用状态动作历史估计环境编码，在线适配腿足控制。",
+        "reason": "特权信息到历史估计的接口影响大；适合追环境变化与适应延迟。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dreamerv3",
+      "title": "Mastering diverse control tasks through world models",
+      "year": 2025,
+      "scores": {
+        "innovation": 94,
+        "evidence": 96,
+        "reuse": 95,
+        "reading": 98,
+        "influence": 63.8,
+        "attention": 82.2
+      },
+      "score_lower": 87.8,
+      "score_upper": 87.8,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dreamerv3",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4409147637",
+        "matched_title": "Mastering diverse control tasks through world models",
+        "doi": "https://doi.org/10.1038/s41586-025-08744-2",
+        "publication_date": "2025-04-02",
+        "edition": "正式刊会版本",
+        "citation_count": 165,
+        "recent_citation_count": 165,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 121
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 44
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4409147637"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 94,
+          "evidence": 96,
+          "reuse": 95,
+          "reading": 98
+        },
+        "mechanism": "以统一的世界模型、奖励价值尺度处理和优化设计覆盖多类控制任务，减少逐任务调参。",
+        "reason": "跨域控制证据充分，代码与训练配方利于复用；正式Nature版本单独计量。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "amp",
+      "title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
+      "year": 2021,
+      "scores": {
+        "innovation": 94,
+        "evidence": 88,
+        "reuse": 90,
+        "reading": 97,
+        "influence": 74.7,
+        "attention": 83.4
+      },
+      "score_lower": 87.5,
+      "score_upper": 87.5,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "amp",
+        "checked_at": "2026-10-09T18:48:09+08:00",
+        "status": "matched",
+        "citation_count": 394,
+        "recent_citation_count": 177,
+        "openalex_id": "https://openalex.org/W3147968035",
+        "matched_title": "AMP",
+        "doi": "https://doi.org/10.1145/3450626.3459670",
+        "publication_date": "2021-07-19",
+        "edition": "正式刊会版本",
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 61
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 116
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 87
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 64
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 32
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 33
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 1
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W3147968035"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 94,
+          "evidence": 88,
+          "reuse": 90,
+          "reading": 97
+        },
+        "mechanism": "判别器区分参考与策略动作转移，把模仿先验变成奖励，减少逐帧跟踪的限制。",
+        "reason": "动作先验与任务奖励的解耦影响后续控制，原作任务仍是物理角色。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "agile-flight",
+      "title": "Learning high-speed flight in the wild",
+      "year": 2021,
+      "scores": {
+        "innovation": 92,
+        "evidence": 94,
+        "reuse": 83,
+        "reading": 84,
+        "influence": 74.0,
+        "attention": 83.5
+      },
+      "score_lower": 86.4,
+      "score_upper": 86.4,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "agile-flight",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W3202883604",
+        "matched_title": "Learning high-speed flight in the wild",
+        "doi": "https://doi.org/10.1126/scirobotics.abg5810",
+        "publication_date": "2021-10-13",
+        "edition": "正式刊会版本",
+        "citation_count": 372,
+        "recent_citation_count": 179,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 83
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 96
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 86
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 65
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 2
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W3202883604"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 92,
+          "evidence": 94,
+          "reuse": 83,
+          "reading": 84
+        },
+        "mechanism": "利用仿真专家监督视觉导航策略，再转移到高速野外飞行，连接感知、轨迹规划与实际反应。",
+        "reason": "真实高速闭环有阅读价值；任务是飞行，与操作基准分别比较。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "pi0",
+      "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+      "year": 2025,
+      "scores": {
+        "innovation": 90,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 95,
+        "influence": 69.5,
+        "attention": 89.5
+      },
+      "score_lower": 85.4,
+      "score_upper": 85.4,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "pi0",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4414079054",
+        "matched_title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+        "doi": "https://doi.org/10.15607/rss.2025.xxi.010",
+        "publication_date": "2025-06-21",
+        "edition": "正式刊会版本",
+        "citation_count": 260,
+        "recent_citation_count": 260,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 177
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 83
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4414079054"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 90,
+          "evidence": 87,
+          "reuse": 88,
+          "reading": 95
+        },
+        "mechanism": "视觉语言骨干提供语义条件，Flow Matching 动作专家生成连续动作块，再按闭环观测更新。",
+        "reason": "通用VLA与连续动作块的重要接口；适合逐项拆多本体数据和任务协议。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dp3",
+      "title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
+      "year": 2024,
+      "scores": {
+        "innovation": 84,
+        "evidence": 84,
+        "reuse": 90,
+        "reading": 89,
+        "influence": 67.0,
+        "attention": 85.7
+      },
+      "score_lower": 81.9,
+      "score_upper": 81.9,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dp3",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4402354045",
+        "matched_title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
+        "doi": "https://doi.org/10.15607/rss.2024.xx.067",
+        "publication_date": "2024-07-15",
+        "edition": "正式刊会版本",
+        "citation_count": 213,
+        "recent_citation_count": 205,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 97
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 108
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 8
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4402354045"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 84,
+          "evidence": 84,
+          "reuse": 90,
+          "reading": 89
+        },
+        "mechanism": "以简洁点云编码器提供三维条件，用扩散生成动作，观察几何表示对泛化的影响。",
+        "reason": "三维条件表示与动作生成分工容易拆；任务、点云处理与泛化协议需一起读。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dreamer",
+      "title": "Dream to Control: Learning Behaviors by Latent Imagination",
+      "year": 2020,
+      "scores": {
+        "innovation": 97,
+        "evidence": 89,
+        "reuse": 94,
+        "reading": 98,
+        "influence": 61.0,
+        "attention": 38.6
+      },
+      "score_lower": 81.8,
+      "score_upper": 81.8,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dreamer",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W2992977009",
+        "matched_title": "Dream to Control: Learning Behaviors by Latent Imagination",
+        "doi": "https://doi.org/10.48550/arxiv.1912.01603",
+        "publication_date": "2019-12-03",
+        "edition": "作者预印本",
+        "citation_count": 131,
+        "recent_citation_count": 10,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 10
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 18
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 23
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 16
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 2
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W2992977009"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 97,
+          "evidence": 89,
+          "reuse": 94,
+          "reading": 98
+        },
+        "mechanism": "学习潜动力学世界模型，在想象轨迹里以价值反馈优化actor，把像素预测转成决策训练信号。",
+        "reason": "潜空间想象连接模型与策略的基础工作；代码和后续路线利于复用。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "rt2",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "year": 2023,
+      "scores": {
+        "innovation": 94,
+        "evidence": 83,
+        "reuse": 68,
+        "reading": 91,
+        "influence": 69.8,
+        "attention": 75.5
+      },
+      "score_lower": 81.7,
+      "score_upper": 81.7,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "rt2",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4385473486",
+        "matched_title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+        "doi": "https://doi.org/10.48550/arxiv.2307.15818",
+        "publication_date": "2023-07-28",
+        "edition": "作者预印本",
+        "citation_count": 267,
+        "recent_citation_count": 108,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 12
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 96
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 149
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 9
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4385473486"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 94,
+          "evidence": 83,
+          "reuse": 68,
+          "reading": 91
+        },
+        "mechanism": "把机器人动作写成语言模型词表内的编号，将机器人示范与视觉语言任务共同训练以迁移网络语义。",
+        "reason": "把网络知识接入动作的早期路线；跨任务结果有启发，实施门槛较高。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dreamwaq",
+      "title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
+      "year": 2023,
+      "scores": {
+        "innovation": 86,
+        "evidence": 87,
+        "reuse": 83,
+        "reading": 93,
+        "influence": 63.4,
+        "attention": 77.9
+      },
+      "score_lower": 81.3,
+      "score_upper": 81.3,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dreamwaq",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4383108274",
+        "matched_title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
+        "doi": "https://doi.org/10.1109/icra48891.2023.10161144",
+        "publication_date": "2023-05-29",
+        "edition": "正式刊会版本",
+        "citation_count": 159,
+        "recent_citation_count": 126,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 45
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 81
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 29
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 4
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4383108274"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 86,
+          "evidence": 87,
+          "reuse": 83,
+          "reading": 93
+        },
+        "mechanism": "从本体历史估计速度和隐环境表示，将其送给策略；训练时以重建/特权监督组织环境编码。",
+        "reason": "盲行走的历史表征与actor连接清楚；越障和地形条件是精读重点。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "diffusion-forcing",
+      "title": "Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion",
+      "year": 2024,
+      "scores": {
+        "innovation": 95,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 91,
+        "influence": 49.1,
+        "attention": 63.2
+      },
+      "score_lower": 79.5,
+      "score_upper": 79.5,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "diffusion-forcing",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4415798523",
+        "matched_title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
+        "doi": "https://doi.org/10.52202/079017-0759",
+        "publication_date": "2024-01-01",
+        "edition": "正式刊会版本",
+        "citation_count": 50,
+        "recent_citation_count": 50,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 15
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4415798523"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 95,
+          "evidence": 86,
+          "reuse": 90,
+          "reading": 91
+        },
+        "mechanism": "让序列各位置带不同噪声等级，把下一步预测与整段扩散连接，支持因果生成和引导。",
+        "reason": "噪声安排与时序条件具有方法创新；机器人用途需看具体规划实验。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "fast",
+      "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+      "year": 2025,
+      "scores": {
+        "innovation": 89,
+        "evidence": 83,
+        "reuse": 85,
+        "reading": 93,
+        "influence": 51.9,
+        "attention": 66.9
+      },
+      "score_lower": 77.9,
+      "score_upper": 77.9,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "fast",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4414051084",
+        "matched_title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+        "doi": "https://doi.org/10.15607/rss.2025.xxi.012",
+        "publication_date": "2025-06-21",
+        "edition": "正式刊会版本",
+        "citation_count": 63,
+        "recent_citation_count": 63,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 14
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4414051084"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 89,
+          "evidence": 83,
+          "reuse": 85,
+          "reading": 93
+        },
+        "mechanism": "时间 DCT 提取动作频率系数，再量化和字节对编码，减少高频轨迹逐时刻离散产生的长序列。",
+        "reason": "压缩动作的表示选择清楚，跨策略应用与效率值得读；是Holo-M的直接前置。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "openvla",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "year": 2024,
+      "scores": {
+        "innovation": 83,
+        "evidence": 86,
+        "reuse": 93,
+        "reading": 92,
+        "influence": 47.8,
+        "attention": 60.5
+      },
+      "score_lower": 76.4,
+      "score_upper": 76.4,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "openvla",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4399695759",
+        "matched_title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+        "doi": "https://doi.org/10.48550/arxiv.2406.09246",
+        "publication_date": "2024-06-13",
+        "edition": "作者预印本",
+        "citation_count": 45,
+        "recent_citation_count": 42,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 3
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4399695759"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 83,
+          "evidence": 86,
+          "reuse": 93,
+          "reading": 92
+        },
+        "mechanism": "把预训练视觉语言骨干适配到机器人示范，输出离散动作编号，并提供高效微调路线。",
+        "reason": "公开模型/适配生态便于复用；是离散VLA入门的重要对照。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "self-forcing",
+      "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+      "year": 2025,
+      "scores": {
+        "innovation": 91,
+        "evidence": 84,
+        "reuse": 87,
+        "reading": 86,
+        "influence": 44.4,
+        "attention": 57.2
+      },
+      "score_lower": 75.7,
+      "score_upper": 75.7,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "self-forcing",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4417136857",
+        "matched_title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+        "doi": "https://doi.org/10.52202/085713-5576",
+        "publication_date": "2025-01-01",
+        "edition": "正式刊会版本",
+        "citation_count": 34,
+        "recent_citation_count": 34,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 34
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4417136857"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 91,
+          "evidence": 84,
+          "reuse": 87,
+          "reading": 86
+        },
+        "mechanism": "使用模型自己的历史滚动来训练自回归视频生成，减少教师历史与部署历史的分布差异。",
+        "reason": "训练部署差异的处理明确；属于视频生成基础，与机器人性能分别记录。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "cot-vla",
+      "title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
+      "year": 2025,
+      "scores": {
+        "innovation": 86,
+        "evidence": 79,
+        "reuse": 73,
+        "reading": 87,
+        "influence": 52.1,
+        "attention": 67.1
+      },
+      "score_lower": 74.4,
+      "score_upper": 74.4,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "cot-vla",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4413156213",
+        "matched_title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.00166",
+        "publication_date": "2025-06-10",
+        "edition": "正式刊会版本",
+        "citation_count": 64,
+        "recent_citation_count": 64,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 13
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4413156213"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 86,
+          "evidence": 79,
+          "reuse": 73,
+          "reading": 87
+        },
+        "mechanism": "先预测具有任务意图的未来视觉子目标，再以它为条件生成动作，把视觉推理接入控制。",
+        "reason": "未来图像作为中间目标的机制值得看；初读应追图像预测与动作性能的消融。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "td-mpc",
+      "title": "Temporal Difference Learning for Model Predictive Control",
+      "year": 2022,
+      "scores": {
+        "innovation": 91,
+        "evidence": 86,
+        "reuse": 91,
+        "reading": 94,
+        "influence": 41.2,
+        "attention": 28.8
+      },
+      "score_lower": 73.9,
+      "score_upper": 73.9,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "td-mpc",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4221164079",
+        "matched_title": "Temporal Difference Learning for Model Predictive Control",
+        "doi": "https://doi.org/10.48550/arxiv.2203.04955",
+        "publication_date": "2022-03-09",
+        "edition": "作者预印本",
+        "citation_count": 26,
+        "recent_citation_count": 5,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 2
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4221164079"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 91,
+          "evidence": 86,
+          "reuse": 91,
+          "reading": 94
+        },
+        "mechanism": "学习用于奖励和值预测的潜动力学，结合短期模型预测控制与终端价值选择连续动作。",
+        "reason": "规划而不重建像素的任务相关表示值得对照Dreamer。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "consistency-policy",
+      "title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
+      "year": 2024,
+      "scores": {
+        "innovation": 81,
+        "evidence": 80,
+        "reuse": 82,
+        "reading": 86,
+        "influence": 49.8,
+        "attention": 64.2
+      },
+      "score_lower": 73.4,
+      "score_upper": 73.4,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "consistency-policy",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4402354007",
+        "matched_title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
+        "doi": "https://doi.org/10.15607/rss.2024.xx.071",
+        "publication_date": "2024-07-15",
+        "edition": "正式刊会版本",
+        "citation_count": 53,
+        "recent_citation_count": 53,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 24
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 29
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4402354007"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 81,
+          "evidence": 80,
+          "reuse": 82,
+          "reading": 86
+        },
+        "mechanism": "将多步扩散动作策略蒸馏为较少步的一致性策略，以减少推理步骤保留动作分布。",
+        "reason": "速度/成功率取舍明确；作为控制时钟的对照非常合适。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "td-mpc2",
+      "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+      "year": 2024,
+      "scores": {
+        "innovation": 89,
+        "evidence": 92,
+        "reuse": 94,
+        "reading": 95,
+        "influence": 27.4,
+        "attention": 33.4
+      },
+      "score_lower": 73.0,
+      "score_upper": 73.0,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "td-mpc2",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4387964172",
+        "matched_title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+        "doi": "https://doi.org/10.48550/arxiv.2310.16828",
+        "publication_date": "2023-10-25",
+        "edition": "作者预印本",
+        "citation_count": 8,
+        "recent_citation_count": 7,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 7
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4387964172"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 89,
+          "evidence": 92,
+          "reuse": 94,
+          "reading": 95
+        },
+        "mechanism": "共享潜世界模型、价值和规划结构跨多任务学习，处理不同奖励尺度与动作空间。",
+        "reason": "大范围连续控制与复用实现有优势；重要的是任务配置和计算预算。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dreamerv2",
+      "title": "Mastering Atari with Discrete World Models",
+      "year": 2021,
+      "scores": {
+        "innovation": 88,
+        "evidence": 89,
+        "reuse": 91,
+        "reading": 91,
+        "influence": 39.2,
+        "attention": 17.7
+      },
+      "score_lower": 72.1,
+      "score_upper": 72.1,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dreamerv2",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W3091507139",
+        "matched_title": "Mastering Atari with Discrete World Models",
+        "doi": "https://doi.org/10.48550/arxiv.2010.02193",
+        "publication_date": "2020-10-05",
+        "edition": "作者预印本",
+        "citation_count": 22,
+        "recent_citation_count": 2,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 7
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 6
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 2
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W3091507139"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 88,
+          "evidence": 89,
+          "reuse": 91,
+          "reading": 91
+        },
+        "mechanism": "将世界模型潜状态换成离散表示，利用想象轨迹训练策略，重点检查Atari学习表现。",
+        "reason": "离散表征和优化设计有清楚前后对照；任务范围保留Atari。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "pi05",
+      "title": "π₀.₅: a Vision-Language-Action Model with Open-World Generalization",
+      "year": 2025,
+      "scores": {
+        "innovation": 88,
+        "evidence": 84,
+        "reuse": 80,
+        "reading": 93,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "score_lower": 66.0,
+      "score_upper": 66.0,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "pi05",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W4414674749",
+        "matched_title": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+        "doi": "https://doi.org/10.48550/arxiv.2504.16054",
+        "publication_date": "2025-04-22",
+        "edition": "作者预印本",
+        "citation_count": 3,
+        "recent_citation_count": 3,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 1
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W4414674749"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 88,
+          "evidence": 84,
+          "reuse": 80,
+          "reading": 93
+        },
+        "mechanism": "连接跨本体、跨环境操作数据与高层任务语义，训练面对新家庭环境的分层动作策略。",
+        "reason": "开放环境泛化问题直接，阅读时要拆语义任务与低层动作各自的监督。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "videovla",
+      "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+      "year": 2025,
+      "scores": {
+        "innovation": 88,
+        "evidence": 82,
+        "reuse": 80,
+        "reading": 90,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "score_lower": 65.2,
+      "score_upper": 65.2,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "videovla",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W7196952124",
+        "matched_title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+        "doi": "https://doi.org/10.52202/085713-3197",
+        "publication_date": "2025-01-01",
+        "edition": "正式刊会版本",
+        "citation_count": 3,
+        "recent_citation_count": 3,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 3
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/W7196952124"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 88,
+          "evidence": 82,
+          "reuse": 80,
+          "reading": 90
+        },
+        "mechanism": "以视频生成器的时空动态先验联合预测未来画面与机器人动作，考察未见操作泛化。",
+        "reason": "未来视觉与动作的对应关系值得拆；按正式NeurIPS原作范围阅读。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "ase",
+      "title": "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters",
+      "year": 2022,
+      "scores": {
+        "innovation": 90,
+        "evidence": 86,
+        "reuse": 88,
+        "reading": 91,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 61.9,
+      "score_upper": 91.9,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "ase",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 90,
+          "evidence": 86,
+          "reuse": 88,
+          "reading": 91
+        },
+        "mechanism": "将潜技能条件与对抗动作先验联合训练，再让高层策略选择可复用的技能嵌入。",
+        "reason": "可复用技能接口值得与机器人动作latent比较；初读分清训练奖励和高层控制。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dreamzero",
+      "title": "World Action Models are Zero-shot Policies",
+      "year": 2026,
+      "scores": {
+        "innovation": 93,
+        "evidence": 82,
+        "reuse": 79,
+        "reading": 95,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score_lower": 61.2,
+      "score_upper": 61.2,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "dreamzero",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W7130552073",
+        "matched_title": "World Action Models are Zero-shot Policies",
+        "doi": "https://doi.org/10.48550/arxiv.2602.15922",
+        "publication_date": "2026-02-17",
+        "edition": "作者预印本",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.openalex.org/works/W7130552073"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 93,
+          "evidence": 82,
+          "reuse": 79,
+          "reading": 95
+        },
+        "mechanism": "联合建模未来视频与动作，将大规模视觉动态先验用于未见任务的闭环策略。",
+        "reason": "WAM零样本任务分歧清楚；初读仍要按数据、未见任务划分和控制时钟拆证据。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "cosmos-policy",
+      "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+      "year": 2026,
+      "scores": {
+        "innovation": 89,
+        "evidence": 82,
+        "reuse": 82,
+        "reading": 93,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score_lower": 60.3,
+      "score_upper": 60.3,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "cosmos-policy",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W7125496427",
+        "matched_title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+        "doi": "https://doi.org/10.48550/arxiv.2601.16163",
+        "publication_date": "2026-01-22",
+        "edition": "作者预印本",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.openalex.org/works/W7125496427"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 89,
+          "evidence": 82,
+          "reuse": 82,
+          "reading": 93
+        },
+        "mechanism": "微调视频基础模型，把动作、未来视觉状态和规划信号放进共同生成过程。",
+        "reason": "视频先验到控制的接口值得看；精读需追训练条件和规划/策略消融。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "lingbot-va",
+      "title": "Causal World Modeling for Robot Control",
+      "year": 2026,
+      "scores": {
+        "innovation": 88,
+        "evidence": 81,
+        "reuse": 79,
+        "reading": 90,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 59.2,
+      "score_upper": 89.2,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "lingbot-va",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 88,
+          "evidence": 81,
+          "reuse": 79,
+          "reading": 90
+        },
+        "mechanism": "用因果式视频与动作建模支持闭环控制，使滚动生成的条件更接近实际部署。",
+        "reason": "因果时序和视频动作联合预测形成清楚问题；初读重点是滚动误差与延迟。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "viola",
+      "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+      "year": 2026,
+      "scores": {
+        "innovation": 91,
+        "evidence": 79,
+        "reuse": 65,
+        "reading": 94,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 58.4,
+      "score_upper": 88.4,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "viola",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 91,
+          "evidence": 79,
+          "reuse": 65,
+          "reading": 94
+        },
+        "mechanism": "VLA 预测身体与手部运动 latent，预训练控制器负责执行；运动编码器把人类示范映射到同一空间，扩大可监督动作池。",
+        "reason": "跨数据监督和动作空间转换直接对上 Holo-M；初读关注零样本协议、控制器预训练与总数据规模。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "lewam",
+      "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+      "year": 2026,
+      "scores": {
+        "innovation": 91,
+        "evidence": 76,
+        "reuse": 64,
+        "reading": 94,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 57.6,
+      "score_upper": 87.6,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "lewam",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 91,
+          "evidence": 76,
+          "reuse": 64,
+          "reading": 94
+        },
+        "mechanism": "在不重建图像的 JEPA 表征上联合学前向、后向、逆动力学和策略；MPC 在策略噪声空间采样，降低规划钻动力学模型空子的机会。",
+        "reason": "潜世界动作模型与噪声空间规划贴合本仓路线；有同编码器/规模对照线索，优先追规划消融。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "holo-m",
+      "title": "Humanoid Loco-Manipulation With Discrete VLA Model",
+      "year": 2026,
+      "scores": {
+        "innovation": 86,
+        "evidence": 78,
+        "reuse": 65,
+        "reading": 90,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score_lower": 56.5,
+      "score_upper": 56.5,
+      "weight_coverage": 100,
+      "metrics": {
+        "paper_id": "holo-m",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "matched",
+        "openalex_id": "https://openalex.org/W7214744941",
+        "matched_title": "Humanoid Loco-Manipulation With Discrete VLA Model",
+        "doi": "https://doi.org/10.48550/arxiv.2609.35709",
+        "publication_date": "2026-09-28",
+        "edition": "作者预印本",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.openalex.org/works/W7214744941"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 86,
+          "evidence": 78,
+          "reuse": 65,
+          "reading": 90
+        },
+        "mechanism": "DCT低频系数与四级残差码固定组长；缺失组监督连接人类/机器人数据，分组恢复接上重叠控制。",
+        "reason": "固定组长、跨来源有效损失与并行恢复的组合清楚；SIMPLE总分、难格子、消融和两项实机均已逐项读过；实现复用仍需后续跟进。",
+        "review_depth": "全文精读"
+      }
+    },
+    {
+      "id": "arc",
+      "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
+      "year": 2026,
+      "scores": {
+        "innovation": 87,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 91,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 56.4,
+      "score_upper": 86.4,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "arc",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 87,
+          "evidence": 76,
+          "reuse": 65,
+          "reading": 91
+        },
+        "mechanism": "给现有示范自动添“下一动作为什么合适、会造成什么”的推理轨迹，再按 VLA/WAM 架构适配推理与动作输出。",
+        "reason": "推理与控制的明确接口；初读关注自动标注质量、不同基础策略的匹配训练和零样本条件。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dex-one2many",
+      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "year": 2026,
+      "scores": {
+        "innovation": 88,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 89,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 56.4,
+      "score_upper": 86.4,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "dex-one2many",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 88,
+          "evidence": 76,
+          "reuse": 65,
+          "reading": 89
+        },
+        "mechanism": "把单视频压成顺序场景关系图，以图约束重置状态、阶段奖励，指导 RL 搜索更广的抓取与物体配置。",
+        "reason": "单视频灵巧操作；摘要给出五项任务、对照与实机转移；优先检查重置采样和奖励消融。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "balanced-data-diet",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "year": 2026,
+      "scores": {
+        "innovation": 85,
+        "evidence": 77,
+        "reuse": 68,
+        "reading": 89,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 56.2,
+      "score_upper": 86.2,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "balanced-data-diet",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 85,
+          "evidence": 77,
+          "reuse": 68,
+          "reading": 89
+        },
+        "mechanism": "Success Guided Sampling 根据当前成功率把重置分布推向能力边缘，减少超简单或暂时学不会的采样，再蒸馏视觉操作策略转实机。",
+        "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "dreamtrue",
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "year": 2026,
+      "scores": {
+        "innovation": 87,
+        "evidence": 74,
+        "reuse": 62,
+        "reading": 91,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 55.6,
+      "score_upper": 85.6,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "dreamtrue",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 87,
+          "evidence": 74,
+          "reuse": 62,
+          "reading": 91
+        },
+        "mechanism": "将动作轨迹渲染进图像条件并校准，改变轨迹生成反事实未来，再用人标视频缺陷训练奖励模型指导后训练。",
+        "reason": "动作忠实性与失败覆盖形成清楚分歧；初读优先看校准、反事实和奖励各自的对照。",
+        "review_depth": "选题初读"
+      }
+    },
+    {
+      "id": "plaw-vla",
+      "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+      "year": 2026,
+      "scores": {
+        "innovation": 84,
+        "evidence": 75,
+        "reuse": 63,
+        "reading": 89,
+        "influence": null,
+        "attention": null
+      },
+      "score_lower": 55.0,
+      "score_upper": 85.0,
+      "weight_coverage": 70,
+      "metrics": {
+        "paper_id": "plaw-vla",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "status": "unmatched",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "reason": "无与当前版本可确认对应的计量记录"
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 84,
+          "evidence": 75,
+          "reuse": 63,
+          "reading": 89
+        },
+        "mechanism": "预测面向任务的未来潜表示，再用结构化因果注意力让动作生成读取历史、任务和未来状态，减少无关像素重建。",
+        "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
+        "review_depth": "选题初读"
+      }
+    }
+  ]
+}

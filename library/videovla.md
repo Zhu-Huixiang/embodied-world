@@ -13,3 +13,9 @@ NeurIPS 2025 主会；按正式论文集归档。
 元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
 
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+
+<!-- discovery:start -->
+[机制简析、六维评分与雷达](../leaderboard/papers/videovla/README.md)
+
+机制简析：以视频生成器的时空动态先验联合预测未来画面与机器人动作，考察未见操作泛化。
+<!-- discovery:end -->

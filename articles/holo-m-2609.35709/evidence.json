@@ -248,6 +248,15 @@
       "locator": "§3.2 Eq9-10",
       "verified": true,
       "type": "qualitative"
+    },
+    {
+      "id": "C23",
+      "type": "mechanism",
+      "claim": "EEF48 是跨来源共享任务空间表示，用于训练；关节与底座目标由控制链执行。",
+      "source_url": "https://arxiv.org/abs/2609.35709v1",
+      "pdf_page": 3,
+      "locator": "§3.1 introductory paragraph; p4 Table1 and Eq1–3; §2.3 WBC",
+      "verified": true
     }
   ]
 }

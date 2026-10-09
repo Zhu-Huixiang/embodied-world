@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="510" viewBox="0 0 480 510" role="img">
+<title>Learning high-speed flight in the wild 六维评分</title>
+<rect width="480" height="510" fill="#fff"/>
+<g font-family="sans-serif" font-size="13" fill="#173347">
+<polygon points="240.0,209.2 266.7,224.6 266.7,255.4 240.0,270.8 213.3,255.4 213.3,224.6" fill="none" stroke="#d9e2e5"/>
+<text x="244" y="206.2">20</text>
+<polygon points="240.0,178.4 293.3,209.2 293.3,270.8 240.0,301.6 186.7,270.8 186.7,209.2" fill="none" stroke="#d9e2e5"/>
+<text x="244" y="175.4">40</text>
+<polygon points="240.0,147.6 320.0,193.8 320.0,286.2 240.0,332.4 160.0,286.2 160.0,193.8" fill="none" stroke="#d9e2e5"/>
+<text x="244" y="144.6">60</text>
+<polygon points="240.0,116.8 346.7,178.4 346.7,301.6 240.0,363.2 133.3,301.6 133.3,178.4" fill="none" stroke="#d9e2e5"/>
+<text x="244" y="113.8">80</text>
+<polygon points="240.0,86.0 373.4,163.0 373.4,317.0 240.0,394.0 106.6,317.0 106.6,163.0" fill="none" stroke="#d9e2e5"/>
+<text x="244" y="83.0">100</text>
+<line x1="240" y1="240" x2="240.0" y2="86.0" stroke="#bdcbd1"/>
+<text x="240.0" y="52.1" text-anchor="middle">创新性</text><text x="240.0" y="69.1" text-anchor="middle">92 / 100</text>
+<line x1="240" y1="240" x2="373.4" y2="163.0" stroke="#bdcbd1"/>
+<text x="402.7" y="146.1" text-anchor="start">实验与证据</text><text x="402.7" y="163.1" text-anchor="start">94 / 100</text>
+<line x1="240" y1="240" x2="373.4" y2="317.0" stroke="#bdcbd1"/>
+<text x="402.7" y="333.9" text-anchor="start">学术影响</text><text x="402.7" y="350.9" text-anchor="start">74.0 / 100</text>
+<line x1="240" y1="240" x2="240.0" y2="394.0" stroke="#bdcbd1"/>
+<text x="240.0" y="427.9" text-anchor="middle">近期关注</text><text x="240.0" y="444.9" text-anchor="middle">83.5 / 100</text>
+<line x1="240" y1="240" x2="106.6" y2="317.0" stroke="#bdcbd1"/>
+<text x="77.3" y="333.9" text-anchor="end">复用价值</text><text x="77.3" y="350.9" text-anchor="end">83 / 100</text>
+<line x1="240" y1="240" x2="106.6" y2="163.0" stroke="#bdcbd1"/>
+<text x="77.3" y="146.1" text-anchor="end">阅读价值</text><text x="77.3" y="163.1" text-anchor="end">84 / 100</text>
+<polygon points="240.0,98.3 365.4,167.6 338.7,297.0 240.0,368.6 129.3,303.9 128.0,175.3" fill="#28758b" fill-opacity=".15" stroke="#28758b" stroke-width="2"/>
+<circle cx="240.0" cy="98.3" r="4" fill="#28758b"/>
+<circle cx="365.4" cy="167.6" r="4" fill="#28758b"/>
+<circle cx="338.7" cy="297.0" r="4" fill="#28758b"/>
+<circle cx="240.0" cy="368.6" r="4" fill="#28758b"/>
+<circle cx="129.3" cy="303.9" r="4" fill="#28758b"/>
+<circle cx="128.0" cy="175.3" r="4" fill="#28758b"/>
+<text x="240" y="488" text-anchor="middle">空缺轴等待计量；各轴满分100</text></g></svg>

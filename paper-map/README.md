@@ -110,3 +110,17 @@
 [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
 元数据核对日期：2026-10-09。
+
+<!-- discovery:start -->
+## 新作阅读支路
+
+- [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](../library/dex-one2many.md)：场景图怎样同时提供探索引导与不锁死姿态的泛化？
+- [DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training](../library/dreamtrue.md)：模型怎样避免把每次接触都预测成成功？
+- [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../library/balanced-data-diet.md)：并行环境堆到很大以后，为什么探索还会卡住？
+- [VioLA: Learning Generalist Humanoid Control Policies from Human Data](../library/viola.md)：人类动作怎样先对齐控制器，再教会人形 VLA？
+- [LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC](../library/lewam.md)：联合表征怎样支持预测、动作生成和闭环规划？
+- [ARC: A Reasoning Recipe for Robot Foundation Models](../library/arc.md)：推理文字怎样成为动作条件，而不是另一段好看的解说？
+- [PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../library/plaw-vla.md)：怎样证明预测的未来表征真的帮助长程动作？
+
+[按日期追新作](../arxiv/README.md) · [六维阅读优先榜](../leaderboard/README.md)
+<!-- discovery:end -->

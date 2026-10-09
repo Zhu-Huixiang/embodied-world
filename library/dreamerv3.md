@@ -13,3 +13,9 @@ Nature 2025 正式论文；arXiv 初始公开于 2023，链接为作者预印本
 元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
 
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+
+<!-- discovery:start -->
+[机制简析、六维评分与雷达](../leaderboard/papers/dreamerv3/README.md)
+
+机制简析：以统一的世界模型、奖励价值尺度处理和优化设计覆盖多类控制任务，减少逐任务调参。
+<!-- discovery:end -->

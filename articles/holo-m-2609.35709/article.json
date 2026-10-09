@@ -41,7 +41,7 @@
     {
       "kind": "original",
       "file": "figures/original/fig1-original.png",
-      "caption": "论文 Fig. 1。沿着箭头往下看：模型生成动作目标，Whole-Body Controller 负责把它变成全身控制。",
+      "caption": "论文 Fig. 1。上半部准备训练答案，下半部从观测一路走到机器人。",
       "pdf_page": 3,
       "figure_id": "Fig. 1",
       "source_url": "https://arxiv.org/pdf/2609.35709v1",
@@ -81,7 +81,7 @@
     {
       "kind": "original",
       "file": "figures/original/fig3-takeover-original-detail.png",
-      "caption": "论文 Fig. 3 局部放大。从上到下是旧块 k、新块 k+1、实际发送的动作。紫色是等待期间跳过的前段，蓝色是发出的动作；0.5 s 处，新块从第 15 步接管。",
+      "caption": "论文 Fig. 3 局部放大。从上到下是旧块 k、新块 k+1、实际发送的动作。紫色表示等待时沿用旧动作或初始姿态，蓝色为发出的动作；0.5 s 处，新块从第 15 步接管。",
       "pdf_page": 10,
       "figure_id": "Fig. 3",
       "source_url": "https://arxiv.org/pdf/2609.35709v1",
@@ -101,17 +101,17 @@
     },
     {
       "kind": "drawpaper",
-      "file": "figures/drawpaper/holo-m-method-v2.png",
+      "file": "figures/drawpaper/holo-m-method-v3.png",
       "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
       "source_url": "https://arxiv.org/pdf/2609.35709v1",
       "generator": "DrawPaper",
       "ai_generated": true,
       "reviewed": true,
-      "tex": "figures/drawpaper/holo-m-method-v2.tex",
-      "pdf": "figures/drawpaper/holo-m-method-v2.pdf",
+      "tex": "figures/drawpaper/holo-m-method-v3.tex",
+      "pdf": "figures/drawpaper/holo-m-method-v3.pdf",
       "prompt": "figures/drawpaper/prompt.txt",
       "layout": "hybrid: generated illustration strip plus editable TikZ text, equations and computation arrows",
-      "upload_file": "figures/drawpaper/holo-m-method-upload.jpg"
+      "upload_file": "figures/drawpaper/holo-m-method-v3-upload.jpg"
     },
     {
       "kind": "formula",
@@ -124,7 +124,8 @@
       "locator": "Eq. 1-3",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 270
     },
     {
       "kind": "formula",
@@ -137,7 +138,8 @@
       "locator": "Eq. 4-5",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 270
     },
     {
       "kind": "formula",
@@ -150,7 +152,8 @@
       "locator": "§3.1; standard RVQ expanded by editor, not a numbered paper equation",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 290
     },
     {
       "kind": "formula",
@@ -163,7 +166,8 @@
       "locator": "Eq. 6-8",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 270
     },
     {
       "kind": "formula",
@@ -176,7 +180,8 @@
       "locator": "Eq. 9-10",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 270
     },
     {
       "kind": "formula",
@@ -189,7 +194,8 @@
       "locator": "Eq. 11-12; loss symbol changed to ell to distinguish length Lg",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 270
     },
     {
       "kind": "formula",
@@ -202,7 +208,8 @@
       "locator": "Eq. 13 and Stage I",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 270
     },
     {
       "kind": "formula",
@@ -215,7 +222,8 @@
       "locator": "Eq. 14",
       "generator": "TeX",
       "ai_generated": false,
-      "reviewed": true
+      "reviewed": true,
+      "display_width": 270
     }
   ],
   "cover_info": {

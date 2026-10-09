@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09",
+  "checked_at": "2026-10-09T18:35:28+08:00",
   "papers": [
     {
       "id": "holo-m",
@@ -450,6 +450,316 @@
       "project_url": null,
       "checked_at": "2026-10-09",
       "editorial_status": "候选选题"
+    },
+    {
+      "arxiv_id": "2610.12470",
+      "version_id": "2610.12470v1",
+      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "published": "2026-10-08T17:59:58Z",
+      "updated": "2026-10-08T17:59:58Z",
+      "authors": [
+        "Jusuk Lee",
+        "Sungha Kim",
+        "Yeonsoo Park",
+        "Jonguk Cheon",
+        "Yoonkyo Jung",
+        "Yongjun You",
+        "H. Jin Kim",
+        "Jia-Bin Huang",
+        "Furong Huang",
+        "Youngseok Jang",
+        "Seungjae Lee"
+      ],
+      "source_url": "https://arxiv.org/abs/2610.12470v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12470v1",
+      "abstract": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in complex, multi-stage tasks. To address these coupled generalization and exploration challenges, we present Dex-One2Many, a real-to-sim-to-real framework that learns a generalizable dexterous manipulation policy from a single human video. Our key insight is to abstract the video into sequential scene graphs that guide RL, enabling efficient exploration while preserving broad generalizability. The graphs serve as generative constraints for sampling diverse reset states and provide dense rewards for each stage. Because the graphs constrain relations rather than exact poses, these reset states cover object poses and grasps beyond the video, while initializing each stage from them with dense rewards keeps exploration short and guided. Trained entirely in simulation, Dex-One2Many transfers zero-shot to a real multi-fingered hand. Across five tool-use and manipulation tasks, Dex-One2Many exceeds baselines by 6.5% in seen configurations, while its robust generalization widens this gap to 71% in unseen scenarios.",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "id": "dex-one2many",
+      "track": "manipulation",
+      "year": 2026,
+      "venue": null,
+      "scope": "机器人学习",
+      "note": "",
+      "project_url": "https://dex-one2many.github.io",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "editorial_status": "新作初读；完整解读候选",
+      "reading_question": "场景图怎样同时提供探索引导与不锁死姿态的泛化？",
+      "mechanism": "把单视频压成顺序场景关系图，以图约束重置状态、阶段奖励，指导 RL 搜索更广的抓取与物体配置。",
+      "affiliations": [
+        "Seoul National University",
+        "University of Maryland, College Park",
+        "KAIST",
+        "All Purpose AI"
+      ],
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.12470v1",
+        "pdf_page": 1
+      },
+      "selection_reason": "单视频灵巧操作；摘要给出五项任务、对照与实机转移；优先检查重置采样和奖励消融。"
+    },
+    {
+      "arxiv_id": "2610.12468",
+      "version_id": "2610.12468v1",
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "published": "2026-10-08T17:59:51Z",
+      "updated": "2026-10-08T17:59:51Z",
+      "authors": [
+        "Junyan Li",
+        "Ruizhi Li",
+        "Yu Liu",
+        "Xiangshuo Liu",
+        "Mingchao Sun",
+        "Hongyu Pan",
+        "Mu Xu",
+        "Lue Fan",
+        "Zhaoxiang Zhang"
+      ],
+      "source_url": "https://arxiv.org/abs/2610.12468v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12468v1",
+      "abstract": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibration to align these conditions with the target videos. To broaden interaction coverage, we introduce counterfactual post-training, modifying recorded action trajectories and generating future videos under a wider range of actions and contact configurations. To provide feedback on these predictions without paired ground-truth futures, we construct a human-annotated video dataset covering robot, object, and interaction defects and use it to train an embodied video reward model. Its scores guide reinforcement-learning post-training toward more physically plausible interaction outcomes. On AgiBot, DreamTrue attains state-of-the-art action following, while reducing the human-assessed interaction defect rate from from 48.12% to 6.25%. Notably, our model ranks first in the world model track of the AgiBot World Challenge 2026. The project page can be found at https://brave-eai.github.io/DreamTrue.",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "id": "dreamtrue",
+      "track": "world-model",
+      "year": 2026,
+      "venue": null,
+      "scope": "机器人学习",
+      "note": "",
+      "project_url": "https://brave-eai.github.io/DreamTrue",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "editorial_status": "新作初读；完整解读候选",
+      "reading_question": "模型怎样避免把每次接触都预测成成功？",
+      "mechanism": "将动作轨迹渲染进图像条件并校准，改变轨迹生成反事实未来，再用人标视频缺陷训练奖励模型指导后训练。",
+      "affiliations": [
+        "CASIA / NLPR",
+        "Amap, Alibaba Group"
+      ],
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.12468v1",
+        "pdf_page": 1
+      },
+      "selection_reason": "动作忠实性与失败覆盖形成清楚分歧；初读优先看校准、反事实和奖励各自的对照。"
+    },
+    {
+      "arxiv_id": "2610.12465",
+      "version_id": "2610.12465v1",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "published": "2026-10-08T17:59:50Z",
+      "updated": "2026-10-08T17:59:50Z",
+      "authors": [
+        "Octi Zhang",
+        "Mateo Guaman Castro",
+        "Patrick Yin",
+        "Ignacio Dagnino",
+        "Abhishek Gupta",
+        "Rosario Scalise",
+        "Byron Boots"
+      ],
+      "source_url": "https://arxiv.org/abs/2610.12465v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12465v1",
+      "abstract": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse simulator resets, combined with massively parallel simulation, can alleviate much of this engineering burden on several manipulation problems. However, we find that naively scaling this paradigm to more precise or dynamic problems remains non-trivial. While simulator resets can help with exploration, uniformly sampling over this distribution wastes a growing fraction of learning experience on task configurations the policy has already mastered or cannot yet attempt. This makes it challenging to see the expected benefits of scaling parallel environments for RL, since much of the learning signal in a batch is wasted during learning. To mitigate this, we introduce Success Guided Sampling (SGS), a simple adaptive sampler that concentrates RL training on task configurations around the frontier of the policy's capabilities. Doing so allows large-scale simulated RL to make the most out of the experience in a batch, enabling much more effective scaling to large-scale parallel simulation. Across experiments using up to $2^{20}$ (over one million) parallel environments, SGS enables RL to solve challenging multi-terrain quadruped locomotion and contact-rich assembly tasks that prior methods fail to solve. Finally, we distill the learned manipulation policies into RGB-based policies and demonstrate zero-shot transfer to several challenging assembly tasks on real hardware. Project website: https://sgs-rl.github.io/.",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "id": "balanced-data-diet",
+      "track": "locomotion",
+      "year": 2026,
+      "venue": null,
+      "scope": "机器人学习",
+      "note": "",
+      "project_url": null,
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "editorial_status": "新作初读；完整解读候选",
+      "reading_question": "并行环境堆到很大以后，为什么探索还会卡住？",
+      "mechanism": "Success Guided Sampling 根据当前成功率把重置分布推向能力边缘，减少超简单或暂时学不会的采样，再蒸馏视觉操作策略转实机。",
+      "affiliations": [
+        "University of Washington",
+        "NVIDIA"
+      ],
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.12465v1",
+        "pdf_page": 1
+      },
+      "selection_reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。"
+    },
+    {
+      "arxiv_id": "2610.12435",
+      "version_id": "2610.12435v1",
+      "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+      "published": "2026-10-08T17:57:27Z",
+      "updated": "2026-10-08T17:57:27Z",
+      "authors": [
+        "Mert Albaba",
+        "Jens Beißwenger",
+        "Anna Manasyan",
+        "Daniel Marta",
+        "Michael J. Black",
+        "Wieland Brendel",
+        "Andreas Krause",
+        "Georg Martius",
+        "Martin Riedmiller"
+      ],
+      "source_url": "https://arxiv.org/abs/2610.12435v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12435v1",
+      "abstract": "Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn. And humanoid demonstrations are scarce, so current humanoid generalist policies do not follow new instructions out of the box and are fine-tuned on teleoperated demonstrations of each task before deployment. Human demonstrations exist in far larger numbers, but a person's motion is not a robot command. We remove both obstacles by changing what the generalist policy predicts. We introduce VioLA, a generalist humanoid policy that predicts body and hand motion latents instead of joint commands. A pretrained body- and hand-controller execute these latents on the robot. Their corresponding motion encoders map human and robot motion into the same latent spaces. A human recording is therefore labeled in the policy's action space, and the training demonstration pool contains 140.6 million frames, 93.2% of them human. As a result, VioLA follows locomotion instructions on the real robot zero-shot, without task-specific fine-tuning, reaching 100% success where GR00T N1.7 and $Ψ_0$ reach 16.7% and 0%, respectively. It also reaches 88.6% manipulation success without task-specific fine-tuning. The same approach works across two VLA and one world-action model backbones. A generalist policy trained on human demonstrations alone performs locomotion tasks on the real robot zero-shot. Code and checkpoints will be released.",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "id": "viola",
+      "track": "vla",
+      "year": 2026,
+      "venue": null,
+      "scope": "机器人学习",
+      "note": "",
+      "project_url": "https://viola.is.tue.mpg.de",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "editorial_status": "新作初读；完整解读候选",
+      "reading_question": "人类动作怎样先对齐控制器，再教会人形 VLA？",
+      "mechanism": "VLA 预测身体与手部运动 latent，预训练控制器负责执行；运动编码器把人类示范映射到同一空间，扩大可监督动作池。",
+      "affiliations": [
+        "ETH Zürich",
+        "MPI-IS",
+        "University of Tuebingen",
+        "ELLIS Institute",
+        "Vesoma"
+      ],
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.12435v1",
+        "pdf_page": 1
+      },
+      "selection_reason": "跨数据监督和动作空间转换直接对上 Holo-M；初读关注零样本协议、控制器预训练与总数据规模。"
+    },
+    {
+      "arxiv_id": "2610.12407",
+      "version_id": "2610.12407v1",
+      "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+      "published": "2026-10-08T17:46:03Z",
+      "updated": "2026-10-08T17:46:03Z",
+      "authors": [
+        "Shashank Hegde",
+        "Alexander Popov",
+        "Elie Aljalbout",
+        "Nikolai Smolyanskiy"
+      ],
+      "source_url": "https://arxiv.org/abs/2610.12407v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12407v1",
+      "abstract": "World action models (WAMs) predict actions and future observations, typically from a reconstruction-based representation that carries noisy, redundant information which can complicate downstream predictions. We introduce LeWAM, a bidirectional transformer for forward, backward, inverse dynamics and policy prediction, on a decoder-free JEPA latent trained end-to-end through all four modes. We see the following benefits: 1) Alignment: linear probes read robot and object state from LeWAM's latent better than from a regular Le World Model (a forward-only JEPA world model), while the latent ignores visual distractors as well as LeWM does and far better than a reconstruction-based WAM. 2) Acting: Closed-loop evaluations of LeWAM match a regular flow-matching policy trained on the same encoder at matched size, while also providing a world model. 3) Planning: Sampling raw actions when planning with WAMs lets MPC exploit dynamics-model inaccuracies; planning in the noise space of the policy head instead improves the closed-loop performance of these WAMs.",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "id": "lewam",
+      "track": "world-action-model",
+      "year": 2026,
+      "venue": null,
+      "scope": "机器人学习",
+      "note": "",
+      "project_url": null,
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "editorial_status": "新作初读；完整解读候选",
+      "reading_question": "联合表征怎样支持预测、动作生成和闭环规划？",
+      "mechanism": "在不重建图像的 JEPA 表征上联合学前向、后向、逆动力学和策略；MPC 在策略噪声空间采样，降低规划钻动力学模型空子的机会。",
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.12407v1",
+        "pdf_page": 1
+      },
+      "selection_reason": "潜世界动作模型与噪声空间规划贴合本仓路线；有同编码器/规模对照线索，优先追规划消融。"
+    },
+    {
+      "arxiv_id": "2610.12386",
+      "version_id": "2610.12386v1",
+      "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
+      "published": "2026-10-08T17:38:04Z",
+      "updated": "2026-10-08T17:38:04Z",
+      "authors": [
+        "Gokul Puthumanaillam",
+        "Tao Sun",
+        "Elie Aljalbout",
+        "Moritz Reuss",
+        "Zhaoshuo Li",
+        "Fabio Ramos",
+        "Ankit Goyal",
+        "Jenai Xuning Yang"
+      ],
+      "source_url": "https://arxiv.org/abs/2610.12386v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12386v1",
+      "abstract": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs. We refer to this recipe as ARC. It consists of three key ingredients: a reasoning trace, a scalable automatic labeling pipeline, and a strategy for adapting pretrained RFMs to use these traces for control. First, we find that effective reasoning traces should be grounded in the robot's next action and explain its causal structure: why the action is appropriate and what effect it should produce. Second, we show that these traces can be generated automatically from existing demonstrations, enabling us to construct ARC-Trace-DROID from DROID without collecting new robot data. Third, we show how state-of-the-art VLAs such as $π_{0.5}$ and WAMs such as Cosmos3-Nano-Policy can learn to use these traces for control, with fine-tuning and inference tailored to each model's architecture and capabilities. Using ARC, we obtain gains in zero-shot RFM performance that, to our knowledge, are unprecedented without additional robot demonstrations or foundation-scale training. The adapted models establish a new state of the art on RoboLab-120 and MolmoSpaces, with gains of up to 50 percentage points on RoboLab-Reasoning-50. On real robots, ARC improves $π_{0.5}$'s task success by 82.2 percentage points. Project website: https://arc-robot-reasoning.github.io/",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "id": "arc",
+      "track": "vla",
+      "year": 2026,
+      "venue": null,
+      "scope": "机器人学习",
+      "note": "",
+      "project_url": null,
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "editorial_status": "新作初读；完整解读候选",
+      "reading_question": "推理文字怎样成为动作条件，而不是另一段好看的解说？",
+      "mechanism": "给现有示范自动添“下一动作为什么合适、会造成什么”的推理轨迹，再按 VLA/WAM 架构适配推理与动作输出。",
+      "affiliations": [
+        "UIUC",
+        "Stanford University",
+        "NVIDIA",
+        "University of Sydney",
+        "Proception"
+      ],
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.12386v1",
+        "pdf_page": 1
+      },
+      "selection_reason": "推理与控制的明确接口；初读关注自动标注质量、不同基础策略的匹配训练和零样本条件。"
+    },
+    {
+      "arxiv_id": "2610.12285",
+      "version_id": "2610.12285v1",
+      "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+      "published": "2026-10-08T16:41:11Z",
+      "updated": "2026-10-08T16:41:11Z",
+      "authors": [
+        "Yu Liu",
+        "Hetian Guo",
+        "Tianlv Huang",
+        "Ziyi Cai",
+        "Wudi Chen",
+        "Hantang Wang",
+        "Qiutong Liu",
+        "Yingzhi Peng",
+        "Wei Han",
+        "Peijun Tang",
+        "Jianan Wang",
+        "Zipei Fan",
+        "Zhiyuan Zha",
+        "Xuan Song"
+      ],
+      "source_url": "https://arxiv.org/abs/2610.12285v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12285v1",
+      "abstract": "Learning to predict how the world evolves can provide vision-language-action (VLA) policies with predictive context for long-horizon control, but its effectiveness depends on what future representation is modeled and how it conditions action generation. We introduce PLaW-VLA, which models task-relevant future states in a pretrained prediction-oriented representation space, reducing the need to predict control-irrelevant visual details. Built on a Mixture-of-Transformers architecture, PLaW-VLA conditions action generation on observation history, current task semantics, and predicted future states through structured causal attention. Experiments show a +11.8 percentage-point (pp) gain over reactive policies on RoboTwin Hard Horizon III and a +1.77 pp gain over reconstruction-oriented latent prediction on zero-shot LIBERO-Plus, supporting improved long-horizon control and generalization under distribution shift, respectively. By avoiding low-level visual reconstruction, PLaW-VLA lowers the burden of future prediction, enabling a lightweight latent world model with parallel future prediction and about 1/19 the inference latency of generative world-action modeling at comparable policy performance.",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "id": "plaw-vla",
+      "track": "video-action",
+      "year": 2026,
+      "venue": null,
+      "scope": "机器人学习",
+      "note": "",
+      "project_url": "https://rainyrobo.github.io/PLaW-VLA",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "editorial_status": "新作初读；完整解读候选",
+      "reading_question": "怎样证明预测的未来表征真的帮助长程动作？",
+      "mechanism": "预测面向任务的未来潜表示，再用结构化因果注意力让动作生成读取历史、任务和未来状态，减少无关像素重建。",
+      "affiliations": [
+        "Jilin University",
+        "Astribot",
+        "Harbin Institute of Technology, Shenzhen",
+        "The Hong Kong Polytechnic University",
+        "The University of Tokyo"
+      ],
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.12285v1",
+        "pdf_page": 1
+      },
+      "selection_reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。"
     }
   ]
 }

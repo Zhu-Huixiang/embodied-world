@@ -1,0 +1,872 @@
+{
+  "checked_at": "2026-10-09T18:35:28+08:00",
+  "provider": "OpenAlex",
+  "rule": "单一版本记录；不累计预印本、会议和扩展期刊版本；计量缺项不补零。",
+  "papers": [
+    {
+      "paper_id": "holo-m",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W7214744941",
+      "matched_title": "Humanoid Loco-Manipulation With Discrete VLA Model",
+      "doi": "https://doi.org/10.48550/arxiv.2609.35709",
+      "publication_date": "2026-09-28",
+      "edition": "作者预印本",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.openalex.org/works/W7214744941"
+    },
+    {
+      "paper_id": "fast",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4414051084",
+      "matched_title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+      "doi": "https://doi.org/10.15607/rss.2025.xxi.012",
+      "publication_date": "2025-06-21",
+      "edition": "正式刊会版本",
+      "citation_count": 63,
+      "recent_citation_count": 63,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 49
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 14
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4414051084"
+    },
+    {
+      "paper_id": "pi0",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4414079054",
+      "matched_title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+      "doi": "https://doi.org/10.15607/rss.2025.xxi.010",
+      "publication_date": "2025-06-21",
+      "edition": "正式刊会版本",
+      "citation_count": 260,
+      "recent_citation_count": 260,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 177
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 83
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4414079054"
+    },
+    {
+      "paper_id": "openvla",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4399695759",
+      "matched_title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "doi": "https://doi.org/10.48550/arxiv.2406.09246",
+      "publication_date": "2024-06-13",
+      "edition": "作者预印本",
+      "citation_count": 45,
+      "recent_citation_count": 42,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 31
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 3
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4399695759"
+    },
+    {
+      "paper_id": "rt2",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4385473486",
+      "matched_title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "doi": "https://doi.org/10.48550/arxiv.2307.15818",
+      "publication_date": "2023-07-28",
+      "edition": "作者预印本",
+      "citation_count": 267,
+      "recent_citation_count": 108,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 96
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 149
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 9
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4385473486"
+    },
+    {
+      "paper_id": "pi05",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4414674749",
+      "matched_title": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+      "doi": "https://doi.org/10.48550/arxiv.2504.16054",
+      "publication_date": "2025-04-22",
+      "edition": "作者预印本",
+      "citation_count": 3,
+      "recent_citation_count": 3,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4414674749"
+    },
+    {
+      "paper_id": "cot-vla",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4413156213",
+      "matched_title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
+      "doi": "https://doi.org/10.1109/cvpr52734.2025.00166",
+      "publication_date": "2025-06-10",
+      "edition": "正式刊会版本",
+      "citation_count": 64,
+      "recent_citation_count": 64,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 51
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 13
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4413156213"
+    },
+    {
+      "paper_id": "diffusion-policy",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4385403811",
+      "matched_title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+      "doi": "https://doi.org/10.15607/rss.2023.xix.026",
+      "publication_date": "2023-07-10",
+      "edition": "正式刊会版本",
+      "citation_count": 517,
+      "recent_citation_count": 405,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 142
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 263
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 107
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4385403811"
+    },
+    {
+      "paper_id": "act",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4385430674",
+      "matched_title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+      "doi": "https://doi.org/10.15607/rss.2023.xix.016",
+      "publication_date": "2023-07-10",
+      "edition": "正式刊会版本",
+      "citation_count": 630,
+      "recent_citation_count": 544,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 243
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 301
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 85
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4385430674"
+    },
+    {
+      "paper_id": "dp3",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4402354045",
+      "matched_title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
+      "doi": "https://doi.org/10.15607/rss.2024.xx.067",
+      "publication_date": "2024-07-15",
+      "edition": "正式刊会版本",
+      "citation_count": 213,
+      "recent_citation_count": 205,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 97
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 108
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 8
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4402354045"
+    },
+    {
+      "paper_id": "consistency-policy",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4402354007",
+      "matched_title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
+      "doi": "https://doi.org/10.15607/rss.2024.xx.071",
+      "publication_date": "2024-07-15",
+      "edition": "正式刊会版本",
+      "citation_count": 53,
+      "recent_citation_count": 53,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 29
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4402354007"
+    },
+    {
+      "paper_id": "rma",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W3175254947",
+      "matched_title": "RMA: Rapid Motor Adaptation for Legged Robots",
+      "doi": "https://doi.org/10.15607/rss.2021.xvii.011",
+      "publication_date": "2021-06-27",
+      "edition": "正式刊会版本",
+      "citation_count": 511,
+      "recent_citation_count": 262,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 91
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 171
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 115
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 88
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 40
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 6
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W3175254947"
+    },
+    {
+      "paper_id": "dreamwaq",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4383108274",
+      "matched_title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
+      "doi": "https://doi.org/10.1109/icra48891.2023.10161144",
+      "publication_date": "2023-05-29",
+      "edition": "正式刊会版本",
+      "citation_count": 159,
+      "recent_citation_count": 126,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 45
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 81
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 29
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4383108274"
+    },
+    {
+      "paper_id": "perceptive-loco",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4205430897",
+      "matched_title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
+      "doi": "https://doi.org/10.1126/scirobotics.abk2822",
+      "publication_date": "2022-01-19",
+      "edition": "正式刊会版本",
+      "citation_count": 812,
+      "recent_citation_count": 387,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 148
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 239
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 209
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 149
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 67
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4205430897"
+    },
+    {
+      "paper_id": "agile-flight",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W3202883604",
+      "matched_title": "Learning high-speed flight in the wild",
+      "doi": "https://doi.org/10.1126/scirobotics.abg5810",
+      "publication_date": "2021-10-13",
+      "edition": "正式刊会版本",
+      "citation_count": 372,
+      "recent_citation_count": 179,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 83
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 96
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 86
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 65
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 40
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W3202883604"
+    },
+    {
+      "paper_id": "deepmimic",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W2796290181",
+      "matched_title": "DeepMimic",
+      "doi": "https://doi.org/10.1145/3197517.3201311",
+      "publication_date": "2018-07-30",
+      "edition": "正式刊会版本",
+      "citation_count": 906,
+      "recent_citation_count": 206,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 76
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 130
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 124
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 119
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 110
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 125
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 99
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 96
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 27
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W2796290181"
+    },
+    {
+      "paper_id": "amp",
+      "checked_at": "2026-10-09T18:48:09+08:00",
+      "status": "matched",
+      "citation_count": 394,
+      "recent_citation_count": 177,
+      "openalex_id": "https://openalex.org/W3147968035",
+      "matched_title": "AMP",
+      "doi": "https://doi.org/10.1145/3450626.3459670",
+      "publication_date": "2021-07-19",
+      "edition": "正式刊会版本",
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 61
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 116
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 87
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 64
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 32
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 33
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W3147968035"
+    },
+    {
+      "paper_id": "ase",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "dreamer",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W2992977009",
+      "matched_title": "Dream to Control: Learning Behaviors by Latent Imagination",
+      "doi": "https://doi.org/10.48550/arxiv.1912.01603",
+      "publication_date": "2019-12-03",
+      "edition": "作者预印本",
+      "citation_count": 131,
+      "recent_citation_count": 10,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 23
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 42
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 20
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 2
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W2992977009"
+    },
+    {
+      "paper_id": "dreamerv2",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W3091507139",
+      "matched_title": "Mastering Atari with Discrete World Models",
+      "doi": "https://doi.org/10.48550/arxiv.2010.02193",
+      "publication_date": "2020-10-05",
+      "edition": "作者预印本",
+      "citation_count": 22,
+      "recent_citation_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 2
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W3091507139"
+    },
+    {
+      "paper_id": "dreamerv3",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4409147637",
+      "matched_title": "Mastering diverse control tasks through world models",
+      "doi": "https://doi.org/10.1038/s41586-025-08744-2",
+      "publication_date": "2025-04-02",
+      "edition": "正式刊会版本",
+      "citation_count": 165,
+      "recent_citation_count": 165,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 121
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 44
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4409147637"
+    },
+    {
+      "paper_id": "td-mpc",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4221164079",
+      "matched_title": "Temporal Difference Learning for Model Predictive Control",
+      "doi": "https://doi.org/10.48550/arxiv.2203.04955",
+      "publication_date": "2022-03-09",
+      "edition": "作者预印本",
+      "citation_count": 26,
+      "recent_citation_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4221164079"
+    },
+    {
+      "paper_id": "td-mpc2",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4387964172",
+      "matched_title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+      "doi": "https://doi.org/10.48550/arxiv.2310.16828",
+      "publication_date": "2023-10-25",
+      "edition": "作者预印本",
+      "citation_count": 8,
+      "recent_citation_count": 7,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4387964172"
+    },
+    {
+      "paper_id": "dreamzero",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W7130552073",
+      "matched_title": "World Action Models are Zero-shot Policies",
+      "doi": "https://doi.org/10.48550/arxiv.2602.15922",
+      "publication_date": "2026-02-17",
+      "edition": "作者预印本",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.openalex.org/works/W7130552073"
+    },
+    {
+      "paper_id": "cosmos-policy",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W7125496427",
+      "matched_title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+      "doi": "https://doi.org/10.48550/arxiv.2601.16163",
+      "publication_date": "2026-01-22",
+      "edition": "作者预印本",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.openalex.org/works/W7125496427"
+    },
+    {
+      "paper_id": "lingbot-va",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "videovla",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W7196952124",
+      "matched_title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+      "doi": "https://doi.org/10.52202/085713-3197",
+      "publication_date": "2025-01-01",
+      "edition": "正式刊会版本",
+      "citation_count": 3,
+      "recent_citation_count": 3,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W7196952124"
+    },
+    {
+      "paper_id": "diffusion-forcing",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4415798523",
+      "matched_title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
+      "doi": "https://doi.org/10.52202/079017-0759",
+      "publication_date": "2024-01-01",
+      "edition": "正式刊会版本",
+      "citation_count": 50,
+      "recent_citation_count": 50,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 35
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 15
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4415798523"
+    },
+    {
+      "paper_id": "self-forcing",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4417136857",
+      "matched_title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+      "doi": "https://doi.org/10.52202/085713-5576",
+      "publication_date": "2025-01-01",
+      "edition": "正式刊会版本",
+      "citation_count": 34,
+      "recent_citation_count": 34,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 34
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4417136857"
+    },
+    {
+      "paper_id": "dit",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4390872297",
+      "matched_title": "Scalable Diffusion Models with Transformers",
+      "doi": "https://doi.org/10.1109/iccv51070.2023.00387",
+      "publication_date": "2023-10-01",
+      "edition": "正式刊会版本",
+      "citation_count": 2065,
+      "recent_citation_count": 1742,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 850
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 892
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 289
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 34
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4390872297"
+    },
+    {
+      "paper_id": "dex-one2many",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "dreamtrue",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "balanced-data-diet",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "viola",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "lewam",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "arc",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "plaw-vla",
+      "checked_at": "2026-10-09T18:35:28+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "reason": "无与当前版本可确认对应的计量记录"
+    }
+  ]
+}

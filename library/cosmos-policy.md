@@ -11,3 +11,9 @@
 元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
 
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+
+<!-- discovery:start -->
+[机制简析、六维评分与雷达](../leaderboard/papers/cosmos-policy/README.md)
+
+机制简析：微调视频基础模型，把动作、未来视觉状态和规划信号放进共同生成过程。
+<!-- discovery:end -->

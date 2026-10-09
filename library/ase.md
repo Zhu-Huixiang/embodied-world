@@ -11,3 +11,9 @@
 元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
 
 [论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+
+<!-- discovery:start -->
+[机制简析、六维评分与雷达](../leaderboard/papers/ase/README.md)
+
+机制简析：将潜技能条件与对抗动作先验联合训练，再让高层策略选择可复用的技能嵌入。
+<!-- discovery:end -->
