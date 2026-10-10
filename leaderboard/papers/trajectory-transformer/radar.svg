@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="755" viewBox="0 0 760 755" role="img">
+<title>Offline Reinforcement Learning as One Big Sequence Modeling Problem 七维评分；缺项留空</title>
+<rect width="760" height="755" fill="#fff"/>
+<g font-family="sans-serif" font-size="28" fill="#173347">
+<polygon points="380.0,312.0 413.6,328.2 421.9,364.6 398.7,393.7 361.3,393.7 338.1,364.6 346.4,328.2" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="307.0" font-size="20">20</text>
+<polygon points="380.0,269.0 447.2,301.4 463.8,374.1 417.3,432.5 342.7,432.5 296.2,374.1 312.8,301.4" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="264.0" font-size="20">40</text>
+<polygon points="380.0,226.0 480.9,274.6 505.8,383.7 436.0,471.2 324.0,471.2 254.2,383.7 279.1,274.6" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="221.0" font-size="20">60</text>
+<polygon points="380.0,183.0 514.5,247.8 547.7,393.3 454.6,510.0 305.4,510.0 212.3,393.3 245.5,247.8" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="178.0" font-size="20">80</text>
+<polygon points="380.0,140.0 548.1,220.9 589.6,402.8 473.3,548.7 286.7,548.7 170.4,402.8 211.9,220.9" fill="none" stroke="#d9e2e5" stroke-width="2"/>
+<text x="387" y="135.0" font-size="20">100</text>
+<line x1="380" y1="355" x2="380.0" y2="140.0" stroke="#bdcbd1" stroke-width="2"/>
+<text x="380.0" y="64.4" text-anchor="middle">刊会质量</text><text x="380.0" y="98.4" font-size="26" text-anchor="middle">95 · 30%</text>
+<line x1="380" y1="355" x2="548.1" y2="220.9" stroke="#bdcbd1" stroke-width="2"/>
+<text x="600.2" y="170.4" text-anchor="middle">创新性</text><text x="600.2" y="204.4" font-size="26" text-anchor="middle">91 · 20%</text>
+<line x1="380" y1="355" x2="589.6" y2="402.8" stroke="#bdcbd1" stroke-width="2"/>
+<text x="654.6" y="408.7" text-anchor="middle">实验与证据</text><text x="654.6" y="442.7" font-size="26" text-anchor="middle">87 · 20%</text>
+<line x1="380" y1="355" x2="473.3" y2="548.7" stroke="#bdcbd1" stroke-width="2"/>
+<text x="502.2" y="599.8" text-anchor="middle">学术影响</text><text x="502.2" y="633.8" font-size="26" text-anchor="middle">46.7 · 10%</text>
+<line x1="380" y1="355" x2="286.7" y2="548.7" stroke="#bdcbd1" stroke-width="2"/>
+<text x="257.8" y="599.8" text-anchor="middle">近期关注</text><text x="257.8" y="633.8" font-size="26" text-anchor="middle">33.4 · 5%</text>
+<line x1="380" y1="355" x2="170.4" y2="402.8" stroke="#bdcbd1" stroke-width="2"/>
+<text x="105.4" y="408.7" text-anchor="middle">复用价值</text><text x="105.4" y="442.7" font-size="26" text-anchor="middle">88 · 8%</text>
+<line x1="380" y1="355" x2="211.9" y2="220.9" stroke="#bdcbd1" stroke-width="2"/>
+<text x="159.8" y="170.4" text-anchor="middle">阅读价值</text><text x="159.8" y="204.4" font-size="26" text-anchor="middle">95 · 7%</text>
+<polygon points="380.0,150.8 533.0,233.0 562.4,396.6 423.6,445.5 348.8,419.7 195.5,397.1 220.3,227.7" fill="#28758b" fill-opacity=".15" stroke="#28758b" stroke-width="3"/>
+<circle cx="380.0" cy="150.8" r="4" fill="#28758b"/>
+<circle cx="533.0" cy="233.0" r="4" fill="#28758b"/>
+<circle cx="562.4" cy="396.6" r="4" fill="#28758b"/>
+<circle cx="423.6" cy="445.5" r="4" fill="#28758b"/>
+<circle cx="348.8" cy="419.7" r="4" fill="#28758b"/>
+<circle cx="195.5" cy="397.1" r="4" fill="#28758b"/>
+<circle cx="220.3" cy="227.7" r="4" fill="#28758b"/>
+<text x="380" y="710" font-size="26" text-anchor="middle">各轴满分100；空缺轴等待核验</text></g></svg>

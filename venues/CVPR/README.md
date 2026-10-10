@@ -10,7 +10,7 @@
 
 视觉领域主要主会；视觉动作论文能否执行，需要继续查机器人实验。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
@@ -33,5 +33,14 @@
 ## 2025
 
 - [CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models](2025/cot-vla.md)
+
+## 2023
+
+- [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](2023/i-jepa.md)
+
+## 2022
+
+- [Masked Autoencoders Are Scalable Vision Learners](2022/mae.md)
+- [High-Resolution Image Synthesis with Latent Diffusion Models](2022/latent-diffusion.md)
 
 [全部刊会](../README.md) · [论文地图](../../paper-map/README.md) · [首页](../../README.md)

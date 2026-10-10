@@ -10,7 +10,7 @@
 
 学习表征和深度学习方法的重要主会，公开讨论可帮助跟踪方法争议。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
@@ -30,13 +30,30 @@
 
 ## 本仓收录论文
 
+## 2025
+
+- [SAM 2: Segment Anything in Images and Videos](2025/sam2.md)
+
 ## 2024
 
 - [TD-MPC2: Scalable, Robust World Models for Continuous Control](2024/td-mpc2.md)
 
+## 2023
+
+- [VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](2023/vip.md)
+- [Flow Matching for Generative Modeling](2023/flow-matching.md)
+- [Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow](2023/rectified-flow.md)
+- [Phenaki: Variable Length Video Generation From Open Domain Textual Descriptions](2023/phenaki.md)
+
+## 2022
+
+- [Offline Reinforcement Learning with Implicit Q-Learning](2022/iql.md)
+
 ## 2021
 
 - [Mastering Atari with Discrete World Models](2021/dreamerv2.md)
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](2021/vit.md)
+- [Denoising Diffusion Implicit Models](2021/ddim.md)
 
 ## 2020
 

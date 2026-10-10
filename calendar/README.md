@@ -1,17 +1,17 @@
 # 论文解读日程
 
-预计每天细讲一篇，先把动作表示这条线读透，再进入世界模型和运动控制。下面是 **2026-10-10 至 2026-10-16（Asia/Shanghai）** 的选题草案，可按审校进度和读者反馈调整。
+正式系列沿具身榜高位向下精讲。Holo-M 留作试水稿。下面是未来七个拟定选题，日期是编辑目标。各篇已定位原文并完成机制初读，全文精讲和审校另行推进；定时任务尚未建立。
 
-| 日期 | 预计解读 | 本篇要讲清的问题 | 进度 |
-| --- | --- | --- | --- |
-| 10 月 10 日，周六 | [Holo-M](../articles/holo-m-2609.35709/README.md) | 一秒全身动作怎样压成 208 个 token，训练和执行怎样接起来？ | 完整稿修订；待质量评阅 |
-| 10 月 11 日，周日 | [FAST](../library/fast.md) | DCT 与序列压缩为何适合高频动作？与 Holo-M 的固定长度改法有何关系？ | 原文已定位，拟精读 |
-| 10 月 12 日，周一 | [π₀](../library/pi0.md) | 视觉语言骨干怎样给 Flow Matching 专家提供条件？连续动作如何生成？ | 原文已定位，拟精读 |
-| 10 月 13 日，周二 | [Diffusion Policy](../library/diffusion-policy.md) | 去噪训练如何得到多模态动作分布，滚动时域又执行哪一段？ | 原文已定位，拟精读 |
-| 10 月 14 日，周三 | [DreamerV3](../library/dreamerv3.md) | 潜世界里怎样训练行为，跨任务尺度变化如何处理？ | 原文已定位，拟精读 |
-| 10 月 15 日，周四 | [DreamZero](../library/dreamzero.md) | 视频和动作共同预测，怎样从生成模型走到零样本策略？ | 原文已定位，拟精读 |
-| 10 月 16 日，周五 | [DreamWaQ](../library/dreamwaq.md) | 只靠本体历史，怎样估计环境并学会盲行走？ | 原文已定位，拟精读 |
+| 拟定日期（上海） | 论文 / 榜单名次 | 本篇要讲清什么 |
+| --- | --- | --- |
+| 2026-10-11 | [CLIP · #1](../leaderboard/papers/clip/README.md) | 图像和一句指令怎样对齐，语义相似为什么还不能直接给出抓取位置？ |
+| 2026-10-12 | [DDPM · #2](../leaderboard/papers/ddpm/README.md) | 加噪声再预测噪声的训练目标，怎样变成一段机器人动作的采样算法？ |
+| 2026-10-13 | [Latent Diffusion · #3](../leaderboard/papers/latent-diffusion/README.md) | 为什么视频或图像模型常先压到 latent 空间，压缩省掉什么、又可能丢掉什么？ |
+| 2026-10-14 | [ViT · #4](../leaderboard/papers/vit/README.md) | 一张图怎样变成 token 序列，机器人策略拿到的视觉特征来自哪一步？ |
+| 2026-10-15 | [MAE · #5](../leaderboard/papers/mae/README.md) | 遮住四分之三的图像后还原像素，怎样帮助机器人把预训练视觉特征用于控制？ |
+| 2026-10-16 | [SAM · #6](../leaderboard/papers/sam/README.md) | 给视觉系统一个点或框，它怎样找到目标轮廓，哪些信息还需要控制策略来补？ |
+| 2026-10-17 | [MuZero · #7](../leaderboard/papers/muzero/README.md) | 用于规划的世界模型，为什么可以只预测奖励、价值和策略，而不重建下一帧？ |
 
-日程中的状态随实际稿件推进更新。GitHub 更新与公众号公开发表分别记录；目前按草稿审校后后台发表的方式运行。
+[完整精讲队列](queue.md) · [具身榜](../leaderboard/README.md) · [论文地图](../paper-map/README.md) · [首页](../README.md)
 
-[更多候选论文](../paper-map/README.md) · [顶会顶刊](../venues/README.md) · [首页](../README.md)
+选题快照：2026-10-10。

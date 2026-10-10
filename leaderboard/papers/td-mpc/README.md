@@ -1,6 +1,6 @@
 # Temporal Difference Learning for Model Predictive Control
 
-本版阅读优先顺序：17；综合分：83.3 / 100；已评分权重：100%。
+本版阅读优先顺序：67；综合分：83.3 / 100；已评分权重：100%。
 
 [原文](https://proceedings.mlr.press/v162/hansen22a.html) · [PDF](https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf) · [阅读卡片](../../../library/td-mpc.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 91 | 8% |
 | 阅读价值 | 94 | 7% |
 
-刊会依据：[ICML 2022](../../../venues/ICML/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v162/hansen22a.html)；采用2026-10-09刊会快照。
+刊会依据：[ICML 2022](../../../venues/ICML/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v162/hansen22a.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：作者预印本；OpenAlex题目：Temporal Difference Learning for Model Predictive Control。累计被引 26，2025–2026 被引 5；快照：2026-10-09T18:35:28+08:00。
 

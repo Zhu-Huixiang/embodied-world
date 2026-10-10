@@ -1,6 +1,6 @@
 # A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control
 
-本版阅读优先顺序：35；综合分：44.1–89.1 / 100；已评分权重：55%。
+本版阅读优先顺序：103；综合分：44.1–89.1 / 100；已评分权重：55%。
 
 [原文](https://arxiv.org/abs/2610.12465v1) · [PDF](https://arxiv.org/pdf/2610.12465v1) · [阅读卡片](../../../library/balanced-data-diet.md)
 
@@ -31,7 +31,7 @@ Success Guided Sampling 根据当前成功率把重置分布推向能力边缘�
 刊会维度等待正式录用/出版的可核验记录；预印本不按目标刊会计分。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量状态：等待可确认对应的记录；两项计量维度保留空白。
 

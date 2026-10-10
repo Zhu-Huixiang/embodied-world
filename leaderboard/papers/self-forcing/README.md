@@ -1,6 +1,6 @@
 # Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion
 
-本版阅读优先顺序：16；综合分：83.8 / 100；已评分权重：100%。
+本版阅读优先顺序：66；综合分：83.8 / 100；已评分权重：100%。
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf) · [阅读卡片](../../../library/self-forcing.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 87 | 8% |
 | 阅读价值 | 86 | 7% |
 
-刊会依据：[NeurIPS 2025](../../../venues/NeurIPS/README.md)，正式出处见[出版/原文记录](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html)；采用2026-10-09刊会快照。
+刊会依据：[NeurIPS 2025](../../../venues/NeurIPS/README.md)，正式出处见[出版/原文记录](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion。累计被引 34，2025–2026 被引 34；快照：2026-10-09T18:35:28+08:00。
 

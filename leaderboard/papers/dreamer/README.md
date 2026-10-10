@@ -1,6 +1,6 @@
 # Dream to Control: Learning Behaviors by Latent Imagination
 
-本版阅读优先顺序：11；综合分：88.1 / 100；已评分权重：100%。
+本版阅读优先顺序：38；综合分：88.1 / 100；已评分权重：100%。
 
 [原文](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/) · [PDF](https://arxiv.org/pdf/1912.01603) · [阅读卡片](../../../library/dreamer.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 94 | 8% |
 | 阅读价值 | 98 | 7% |
 
-刊会依据：[ICLR 2020](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/)；采用2026-10-09刊会快照。
+刊会依据：[ICLR 2020](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：作者预印本；OpenAlex题目：Dream to Control: Learning Behaviors by Latent Imagination。累计被引 131，2025–2026 被引 10；快照：2026-10-09T18:35:28+08:00。
 

@@ -10,14 +10,13 @@
 
 图形学核心发表入口；物理角色控制里的先验、模仿和技能表征对具身控制有方法价值。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
 | CCF | A 类；2026目录，第44页 |
 | 影响因子 JIF | 13.0；2025指标年，2026发布 |
 | SCI收录 / JCR | SCIE；Q1*（2025）；公开机构表未列具体学科类别 |
-| 中科院分区 | 待核；JCR Q1不能推算中科院1区 |
 | 社区定位编辑分 | 95 / 100；编辑对领域定位的判断，非官方等级或口碑调查 |
 | 本版刊会分 | 90.4 / 100；参与具身榜30%权重 |
 
@@ -33,6 +32,14 @@ SIGGRAPH 是会议，TOG 是期刊；SIGGRAPH 有期刊论文与会议论文等�
 - [2026年发布的 JCR 指标公开机构表](https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf)：表头用发布年 JIF2026；对应2025指标年。分区未提供具体学科类别，仅保留表中Q1，不宣称完成Clarivate账户逐学科核验。
 
 ## 本仓收录论文
+
+## 2024
+
+- [MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting](2024/maskedmimic.md)
+
+## 2023
+
+- [3D Gaussian Splatting for Real-Time Radiance Field Rendering](2023/gaussian-splatting.md)
 
 ## 2022
 

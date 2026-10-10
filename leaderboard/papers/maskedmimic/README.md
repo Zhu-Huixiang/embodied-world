@@ -1,0 +1,40 @@
+# MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting
+
+本版阅读优先顺序：56；综合分：85.2 / 100；已评分权重：100%。
+
+[原文](https://dl.acm.org/doi/10.1145/3687951) · [PDF](https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf) · [阅读卡片](../../../library/maskedmimic.md)
+
+## 机制简析
+
+第一阶段用 RL 训练看到完整参考动作与场景的跟踪控制器，得到物理可执行动作。第二阶段随机遮蔽目标，把完全约束教师蒸馏成接受部分关键帧、物体与文字条件的学生，补出其余动作。验证覆盖多种约束、场景交互和任务切换，研究对象是模拟角色。
+
+带着这个问题读：把动作目标遮掉一部分，怎样训练出接受位置、文字和环境条件的统一控制器？
+
+初读判断：TOG/SIGGRAPH Asia 正式论文，统一目标表示与多控制入口实验完整，公开资源为人形控制的动作先验研究提供复用基础。
+
+## 七维评分
+
+![七维雷达：加载时展开一次，随后静止](radar.gif)
+
+打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+
+| 维度 | 分数 / 100 | 权重 |
+| --- | --- | --- |
+| 刊会质量 | 90.4 | 30% |
+| 创新性 | 94 | 20% |
+| 实验与证据 | 88 | 20% |
+| 学术影响 | 46.4 | 10% |
+| 近期关注 | 59.7 | 5% |
+| 复用价值 | 92 | 8% |
+| 阅读价值 | 95 | 7% |
+
+刊会依据：[SIGGRAPH / TOG 2024](../../../venues/SIGGRAPH-TOG/README.md)，正式出处见[出版/原文记录](https://dl.acm.org/doi/10.1145/3687951)；采用2026-10-10刊会快照。
+
+
+编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
+
+计量版本：正式刊会版本；OpenAlex题目：MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting。累计被引 40，2025–2026 被引 40；快照：2026-10-10T09:51:57+08:00。
+
+[指标记录](https://api.openalex.org/works/W4404526366) · [文献计量条目](https://openalex.org/W4404526366)
+
+[评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

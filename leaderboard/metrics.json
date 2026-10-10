@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-09T18:35:28+08:00",
+  "checked_at": "2026-10-10",
   "provider": "OpenAlex",
-  "rule": "单一版本记录；不累计预印本、会议和扩展期刊版本；计量缺项不补零。",
+  "rule": "单一版本记录；不累计预印本、会议和扩展期刊版本；计量缺项不补零。 各条保留实际快照时间；标题/作者/原研究ID/年份核身份，异常合并记录留空。",
   "papers": [
     {
       "paper_id": "holo-m",
@@ -867,6 +867,2864 @@
       "citation_count": null,
       "recent_citation_count": null,
       "reason": "无与当前版本可确认对应的计量记录"
+    },
+    {
+      "paper_id": "rt1",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 651,
+      "recent_citation_count": 464,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 185
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 279
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 142
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 45
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4385430679",
+      "matched_title": "RT-1: Robotics Transformer for Real-World Control at Scale",
+      "doi": "https://doi.org/10.15607/rss.2023.xix.025",
+      "publication_date": "2023-07-10",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4385430679",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2023.xix.025"
+      }
+    },
+    {
+      "paper_id": "saycan",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 515,
+      "recent_citation_count": 133,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 114
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 231
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 143
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 8
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4224912544",
+      "matched_title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      "doi": "https://doi.org/10.48550/arxiv.2204.01691",
+      "publication_date": "2022-04-04",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4224912544",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2204.01691"
+      }
+    },
+    {
+      "paper_id": "palm-e",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 348,
+      "recent_citation_count": 83,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 68
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 189
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 76
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4323572061",
+      "matched_title": "PaLM-E: An Embodied Multimodal Language Model",
+      "doi": "https://doi.org/10.48550/arxiv.2303.03378",
+      "publication_date": "2023-03-06",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4323572061",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2303.03378"
+      }
+    },
+    {
+      "paper_id": "rtx",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 102,
+      "recent_citation_count": 37,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 34
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 60
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4387764390",
+      "matched_title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "doi": "https://doi.org/10.48550/arxiv.2310.08864",
+      "publication_date": "2023-10-13",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4387764390",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2310.08864"
+      }
+    },
+    {
+      "paper_id": "octo",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 113,
+      "recent_citation_count": 110,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 65
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 45
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 3
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4402353985",
+      "matched_title": "Octo: An Open-Source Generalist Robot Policy",
+      "doi": "https://doi.org/10.15607/rss.2024.xx.090",
+      "publication_date": "2024-07-15",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4402353985",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2024.xx.090"
+      }
+    },
+    {
+      "paper_id": "cliport",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 91,
+      "recent_citation_count": 16,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 43
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3203511201",
+      "matched_title": "CLIPort: What and Where Pathways for Robotic Manipulation",
+      "doi": "https://doi.org/10.48550/arxiv.2109.12098",
+      "publication_date": "2021-09-24",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3203511201",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2109.12098"
+      }
+    },
+    {
+      "paper_id": "peract",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 45,
+      "recent_citation_count": 9,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 20
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4297812239",
+      "matched_title": "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation",
+      "doi": "https://doi.org/10.48550/arxiv.2209.05451",
+      "publication_date": "2022-09-12",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4297812239",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2209.05451"
+      }
+    },
+    {
+      "paper_id": "rvt",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 6,
+      "recent_citation_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4382334328",
+      "matched_title": "RVT: Robotic View Transformer for 3D Object Manipulation",
+      "doi": "https://doi.org/10.48550/arxiv.2306.14896",
+      "publication_date": "2023-06-26",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4382334328",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2306.14896"
+      }
+    },
+    {
+      "paper_id": "rvt2",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 48,
+      "recent_citation_count": 48,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 29
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4402354093",
+      "matched_title": "RVT-2: Learning Precise Manipulation from Few Demonstrations",
+      "doi": "https://doi.org/10.15607/rss.2024.xx.055",
+      "publication_date": "2024-07-15",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4402354093",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2024.xx.055"
+      }
+    },
+    {
+      "paper_id": "vima",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 64,
+      "recent_citation_count": 16,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 24
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4303648971",
+      "matched_title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+      "doi": "https://doi.org/10.48550/arxiv.2210.03094",
+      "publication_date": "2022-10-06",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4303648971",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 0.9231,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://authors.library.caltech.edu/118550/1/2210.03094.pdf"
+      }
+    },
+    {
+      "paper_id": "robomimic",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": [],
+      "match_note": "候选条目的标题、年份或身份线索不足，暂留空。"
+    },
+    {
+      "paper_id": "bridge-v2",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 12,
+      "recent_citation_count": 3,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 9
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4386185624",
+      "matched_title": "BridgeData V2: A Dataset for Robot Learning at Scale",
+      "doi": "https://doi.org/10.48550/arxiv.2308.12952",
+      "publication_date": "2023-08-24",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4386185624",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2308.12952"
+      }
+    },
+    {
+      "paper_id": "droid",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 141,
+      "recent_citation_count": 137,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 52
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 85
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4402354047",
+      "matched_title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+      "doi": "https://doi.org/10.15607/rss.2024.xx.120",
+      "publication_date": "2024-07-15",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4402354047",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2024.xx.120"
+      }
+    },
+    {
+      "paper_id": "libero",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 102,
+      "recent_citation_count": 102,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 92
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7133220882",
+      "matched_title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
+      "doi": "https://doi.org/10.52202/075280-1939",
+      "publication_date": "2023-01-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W7133220882",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.52202/075280-1939"
+      }
+    },
+    {
+      "paper_id": "robocasa",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 3,
+      "recent_citation_count": 3,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4399424845",
+      "matched_title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+      "doi": "https://doi.org/10.48550/arxiv.2406.02523",
+      "publication_date": "2024-06-04",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4399424845",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2406.02523"
+      }
+    },
+    {
+      "paper_id": "mobile-aloha",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 30,
+      "recent_citation_count": 15,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 15
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4390635563",
+      "matched_title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation",
+      "doi": "https://doi.org/10.48550/arxiv.2401.02117",
+      "publication_date": "2024-01-04",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4390635563",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 0.9554,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2401.02117"
+      }
+    },
+    {
+      "paper_id": "r3m",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 80,
+      "recent_citation_count": 13,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 37
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 30
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4221159977",
+      "matched_title": "R3M: A Universal Visual Representation for Robot Manipulation",
+      "doi": "https://doi.org/10.48550/arxiv.2203.12601",
+      "publication_date": "2022-03-23",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4221159977",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2203.12601"
+      }
+    },
+    {
+      "paper_id": "vip",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 35,
+      "recent_citation_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 6
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4302010007",
+      "matched_title": "VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training",
+      "doi": "https://doi.org/10.48550/arxiv.2210.00030",
+      "publication_date": "2022-09-30",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4302010007",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2210.00030"
+      }
+    },
+    {
+      "paper_id": "vc1",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 21,
+      "recent_citation_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        }
+      ],
+      "match_note": "OpenAlex访问失败：HTTPStatusError",
+      "openalex_id": "https://openalex.org/W4362514550",
+      "matched_title": "Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?",
+      "doi": "https://doi.org/10.48550/arxiv.2303.18240",
+      "publication_date": "2023-03-31",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4362514550",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2303.18240"
+      }
+    },
+    {
+      "paper_id": "unipi",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 14,
+      "recent_citation_count": 13,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7133231380",
+      "matched_title": "Learning Universal Policies via Text-Guided Video Generation",
+      "doi": "https://doi.org/10.52202/075280-0403",
+      "publication_date": "2023-01-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W7133231380",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.52202/075280-0403"
+      }
+    },
+    {
+      "paper_id": "umi",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 174,
+      "recent_citation_count": 160,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 53
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 107
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 14
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4402354127",
+      "matched_title": "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots",
+      "doi": "https://doi.org/10.15607/rss.2024.xx.045",
+      "publication_date": "2024-07-15",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4402354127",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2024.xx.045"
+      }
+    },
+    {
+      "paper_id": "mimicgen",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 5,
+      "recent_citation_count": 1,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4387994700",
+      "matched_title": "MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations",
+      "doi": "https://doi.org/10.48550/arxiv.2310.17596",
+      "publication_date": "2023-10-26",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4387994700",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2310.17596"
+      }
+    },
+    {
+      "paper_id": "vq-bet",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 3,
+      "recent_citation_count": 3,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4392538920",
+      "matched_title": "Behavior Generation with Latent Actions",
+      "doi": "https://doi.org/10.48550/arxiv.2403.03181",
+      "publication_date": "2024-03-05",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4392538920",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2403.03181"
+      }
+    },
+    {
+      "paper_id": "transporter",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 39,
+      "recent_citation_count": 6,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 5
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3096099141",
+      "matched_title": "Transporter Networks: Rearranging the Visual World for Robotic Manipulation",
+      "doi": "https://doi.org/10.48550/arxiv.2010.14406",
+      "publication_date": "2020-10-27",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3096099141",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2010.14406"
+      }
+    },
+    {
+      "paper_id": "efficientzero",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 39,
+      "recent_citation_count": 4,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 8
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3208460365",
+      "matched_title": "Mastering Atari Games with Limited Data",
+      "doi": "https://doi.org/10.48550/arxiv.2111.00210",
+      "publication_date": "2021-10-30",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3208460365",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2111.00210"
+      }
+    },
+    {
+      "paper_id": "efficientzero-v2",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4392427796",
+      "matched_title": "EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data",
+      "doi": "https://doi.org/10.48550/arxiv.2403.00564",
+      "publication_date": "2024-03-01",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4392427796",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2403.00564"
+      }
+    },
+    {
+      "paper_id": "daydreamer",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 46,
+      "recent_citation_count": 7,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4283721947",
+      "matched_title": "DayDreamer: World Models for Physical Robot Learning",
+      "doi": "https://doi.org/10.48550/arxiv.2206.14176",
+      "publication_date": "2022-06-28",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4283721947",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2206.14176"
+      }
+    },
+    {
+      "paper_id": "iql",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 131,
+      "recent_citation_count": 29,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 53
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 41
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3205794883",
+      "matched_title": "Offline Reinforcement Learning with Implicit Q-Learning",
+      "doi": "https://doi.org/10.48550/arxiv.2110.06169",
+      "publication_date": "2021-10-12",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3205794883",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2110.06169"
+      }
+    },
+    {
+      "paper_id": "td3-bc",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 160,
+      "recent_citation_count": 33,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 31
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 56
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 46
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 12
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3172360140",
+      "matched_title": "A Minimalist Approach to Offline Reinforcement Learning",
+      "doi": "https://doi.org/10.48550/arxiv.2106.06860",
+      "publication_date": "2021-06-12",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3172360140",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2106.06860"
+      }
+    },
+    {
+      "paper_id": "decision-transformer",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 459,
+      "recent_citation_count": 89,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 85
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 131
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 168
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 46
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 25
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3169291081",
+      "matched_title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+      "doi": "https://doi.org/10.48550/arxiv.2106.01345",
+      "publication_date": "2021-06-02",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3169291081",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2106.01345"
+      }
+    },
+    {
+      "paper_id": "trajectory-transformer",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 41,
+      "recent_citation_count": 7,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3213789840",
+      "matched_title": "Offline Reinforcement Learning as One Big Sequence Modeling Problem",
+      "doi": "https://doi.org/10.48550/arxiv.2106.02039",
+      "publication_date": "2021-06-03",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3213789840",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2106.02039"
+      }
+    },
+    {
+      "paper_id": "diffuser",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 58,
+      "recent_citation_count": 14,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 19
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4281398962",
+      "matched_title": "Planning with Diffusion for Flexible Behavior Synthesis",
+      "doi": "https://doi.org/10.48550/arxiv.2205.09991",
+      "publication_date": "2022-05-20",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4281398962",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2205.09991"
+      }
+    },
+    {
+      "paper_id": "cal-ql",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 14,
+      "recent_citation_count": 14,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 14
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7133245541",
+      "matched_title": "Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning",
+      "doi": "https://doi.org/10.52202/075280-2719",
+      "publication_date": "2023-01-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W7133245541",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.52202/075280-2719"
+      }
+    },
+    {
+      "paper_id": "muzero",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 1204,
+      "recent_citation_count": 388,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 165
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 223
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 234
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 217
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 229
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 123
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W2989847975",
+      "matched_title": "Mastering Atari, Go, chess and shogi by planning with a learned model",
+      "doi": "https://doi.org/10.1038/s41586-020-03051-4",
+      "publication_date": "2020-12-23",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W2989847975",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1038/s41586-020-03051-4"
+      }
+    },
+    {
+      "paper_id": "cql",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 554,
+      "recent_citation_count": 79,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 73
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 146
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 126
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 71
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 110
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 22
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3033324992",
+      "matched_title": "Conservative Q-Learning for Offline Reinforcement Learning",
+      "doi": "https://doi.org/10.48550/arxiv.2006.04779",
+      "publication_date": "2020-06-08",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3033324992",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2006.04779"
+      }
+    },
+    {
+      "paper_id": "walk-in-minutes",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 49,
+      "recent_citation_count": 11,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 4
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3200962355",
+      "matched_title": "Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning",
+      "doi": "https://doi.org/10.3929/ethz-b-000554960",
+      "publication_date": "2021-09-24",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3200962355",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://hdl.handle.net/20.500.11850/554960"
+      }
+    },
+    {
+      "paper_id": "walk-these-ways",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 19,
+      "recent_citation_count": 8,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4310886200",
+      "matched_title": "Walk These Ways: Tuning Robot Control for Generalization with Multiplicity of Behavior",
+      "doi": "https://doi.org/10.48550/arxiv.2212.03238",
+      "publication_date": "2022-12-06",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4310886200",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2212.03238"
+      }
+    },
+    {
+      "paper_id": "extreme-parkour",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 170,
+      "recent_citation_count": 136,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 38
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 98
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 34
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4401415792",
+      "matched_title": "Extreme Parkour with Legged Robots",
+      "doi": "https://doi.org/10.1109/icra57147.2024.10610200",
+      "publication_date": "2024-05-13",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4401415792",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/icra57147.2024.10610200"
+      }
+    },
+    {
+      "paper_id": "anymal-parkour",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 261,
+      "recent_citation_count": 209,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 77
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 132
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 51
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4392763392",
+      "matched_title": "ANYmal parkour: Learning agile navigation for quadrupedal robots",
+      "doi": "https://doi.org/10.1126/scirobotics.adi7566",
+      "publication_date": "2024-03-13",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4392763392",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1126/scirobotics.adi7566"
+      }
+    },
+    {
+      "paper_id": "bipedal-soccer",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 171,
+      "recent_citation_count": 132,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 38
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 94
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4394674699",
+      "matched_title": "Learning agile soccer skills for a bipedal robot with deep reinforcement learning",
+      "doi": "https://doi.org/10.1126/scirobotics.adi8022",
+      "publication_date": "2024-04-10",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4394674699",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1126/scirobotics.adi8022"
+      }
+    },
+    {
+      "paper_id": "humanplus",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 5,
+      "recent_citation_count": 3,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4399794218",
+      "matched_title": "HumanPlus: Humanoid Shadowing and Imitation from Humans",
+      "doi": "https://doi.org/10.48550/arxiv.2406.10454",
+      "publication_date": "2024-06-15",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4399794218",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2406.10454"
+      }
+    },
+    {
+      "paper_id": "omnih2o",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4399695336",
+      "matched_title": "OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning",
+      "doi": "https://doi.org/10.48550/arxiv.2406.08858",
+      "publication_date": "2024-06-13",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4399695336",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2406.08858"
+      }
+    },
+    {
+      "paper_id": "asap",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 54,
+      "recent_citation_count": 54,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 30
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 24
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4414051111",
+      "matched_title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
+      "doi": "https://doi.org/10.15607/rss.2025.xxi.066",
+      "publication_date": "2025-06-21",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4414051111",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2025.xxi.066"
+      }
+    },
+    {
+      "paper_id": "maskedmimic",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 40,
+      "recent_citation_count": 40,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 17
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 23
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4404526366",
+      "matched_title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting",
+      "doi": "https://doi.org/10.1145/3687951",
+      "publication_date": "2024-11-19",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4404526366",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1145/3687951"
+      }
+    },
+    {
+      "paper_id": "phc",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 77,
+      "recent_citation_count": 61,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 16
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4390874171",
+      "matched_title": "Perpetual Humanoid Control for Real-time Simulated Avatars",
+      "doi": "https://doi.org/10.1109/iccv51070.2023.01000",
+      "publication_date": "2023-10-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4390874171",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/iccv51070.2023.01000"
+      }
+    },
+    {
+      "paper_id": "deep-whole-body-control",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 26,
+      "recent_citation_count": 6,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4306893292",
+      "matched_title": "Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion",
+      "doi": "https://doi.org/10.48550/arxiv.2210.10044",
+      "publication_date": "2022-10-18",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4306893292",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2210.10044"
+      }
+    },
+    {
+      "paper_id": "exbody",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 90,
+      "recent_citation_count": 77,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 52
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 13
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4402354017",
+      "matched_title": "Expressive Whole-Body Control for Humanoid Robots",
+      "doi": "https://doi.org/10.15607/rss.2024.xx.107",
+      "publication_date": "2024-07-15",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4402354017",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2024.xx.107"
+      }
+    },
+    {
+      "paper_id": "walk-in-the-park",
+      "checked_at": "2026-10-10T09:51:57+08:00",
+      "status": "matched",
+      "citation_count": 51,
+      "recent_citation_count": 23,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 22
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4385430550",
+      "matched_title": "Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning",
+      "doi": "https://doi.org/10.15607/rss.2023.xix.056",
+      "publication_date": "2023-07-10",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4385430550",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2023.xix.056"
+      }
+    },
+    {
+      "paper_id": "attention",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "unmatched",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": [],
+      "match_note": "候选条目的标题、年份或身份线索不足，暂留空。"
+    },
+    {
+      "paper_id": "vit",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 21509,
+      "recent_citation_count": 5613,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 822
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4791
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 6624
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5480
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2625
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1126
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 35
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3094502228",
+      "matched_title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "doi": "https://doi.org/10.48550/arxiv.2010.11929",
+      "publication_date": "2020-10-22",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3094502228",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2010.11929"
+      }
+    },
+    {
+      "paper_id": "clip",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 5256,
+      "recent_citation_count": 1485,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1469
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2313
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 796
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 344
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 312
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 5
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3135367836",
+      "matched_title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "doi": "https://doi.org/10.48550/arxiv.2103.00020",
+      "publication_date": "2021-02-26",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3135367836",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2103.00020"
+      }
+    },
+    {
+      "paper_id": "dino",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 5634,
+      "recent_citation_count": 2664,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1026
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1638
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1517
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 949
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 383
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 120
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3159481202",
+      "matched_title": "Emerging Properties in Self-Supervised Vision Transformers",
+      "doi": "https://doi.org/10.1109/iccv48922.2021.00951",
+      "publication_date": "2021-10-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W3159481202",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/iccv48922.2021.00951"
+      }
+    },
+    {
+      "paper_id": "dinov2",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 1054,
+      "recent_citation_count": 496,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 90
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 406
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 490
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 68
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4366208220",
+      "matched_title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "doi": "https://doi.org/10.48550/arxiv.2304.07193",
+      "publication_date": "2023-04-14",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4366208220",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2304.07193"
+      }
+    },
+    {
+      "paper_id": "mae",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 7952,
+      "recent_citation_count": 3761,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1399
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2362
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2335
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1522
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 331
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4226002507",
+      "matched_title": "Masked Autoencoders Are Scalable Vision Learners",
+      "doi": "https://doi.org/10.1109/cvpr52688.2022.01553",
+      "publication_date": "2022-06-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4226002507",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/cvpr52688.2022.01553"
+      }
+    },
+    {
+      "paper_id": "sam",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 10791,
+      "recent_citation_count": 7657,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2913
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4744
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2809
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 323
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4390874575",
+      "matched_title": "Segment Anything",
+      "doi": "https://doi.org/10.1109/iccv51070.2023.00371",
+      "publication_date": "2023-10-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4390874575",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/iccv51070.2023.00371"
+      }
+    },
+    {
+      "paper_id": "sam2",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 264,
+      "recent_citation_count": 249,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 73
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 176
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 15
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4401307635",
+      "matched_title": "SAM 2: Segment Anything in Images and Videos",
+      "doi": "https://doi.org/10.48550/arxiv.2408.00714",
+      "publication_date": "2024-08-01",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4401307635",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2408.00714"
+      }
+    },
+    {
+      "paper_id": "nerf",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 5156,
+      "recent_citation_count": 1759,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 630
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1129
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1276
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1007
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 620
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 440
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 54
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3109585842",
+      "matched_title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "doi": "https://doi.org/10.1007/978-3-030-58452-8_24",
+      "publication_date": "2020-01-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W3109585842",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1007/978-3-030-58452-8_24"
+      }
+    },
+    {
+      "paper_id": "gaussian-splatting",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 5749,
+      "recent_citation_count": 4734,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2109
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2625
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 993
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 22
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4385318467",
+      "matched_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "doi": "https://doi.org/10.1145/3592433",
+      "publication_date": "2023-07-26",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4385318467",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1145/3592433"
+      }
+    },
+    {
+      "paper_id": "ddpm",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 5512,
+      "recent_citation_count": 1716,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 179
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1537
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2278
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1326
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 105
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 73
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 14
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3036167779",
+      "matched_title": "Denoising Diffusion Probabilistic Models",
+      "doi": "https://doi.org/10.48550/arxiv.2006.11239",
+      "publication_date": "2020-06-19",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3036167779",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2006.11239"
+      }
+    },
+    {
+      "paper_id": "ddim",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 102,
+      "recent_citation_count": 39,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 39
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 28
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 25
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3092442149",
+      "matched_title": "Denoising Diffusion Implicit Models",
+      "doi": "https://doi.org/10.48550/arxiv.2010.02502",
+      "publication_date": "2020-10-06",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3092442149",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2010.02502"
+      }
+    },
+    {
+      "paper_id": "latent-diffusion",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 15913,
+      "recent_citation_count": 9591,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3587
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6004
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4577
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1692
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 52
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4312933868",
+      "matched_title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "doi": "https://doi.org/10.1109/cvpr52688.2022.01042",
+      "publication_date": "2022-06-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4312933868",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/cvpr52688.2022.01042"
+      }
+    },
+    {
+      "paper_id": "edm",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 224,
+      "recent_citation_count": 219,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 190
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 29
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7133244780",
+      "matched_title": "Elucidating the Design Space of Diffusion-Based Generative Models",
+      "doi": "https://doi.org/10.52202/068431-1926",
+      "publication_date": "2022-01-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W7133244780",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.52202/068431-1926"
+      }
+    },
+    {
+      "paper_id": "flow-matching",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 106,
+      "recent_citation_count": 79,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 30
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 49
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 25
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 2
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4303647933",
+      "matched_title": "Flow Matching for Generative Modeling",
+      "doi": "https://doi.org/10.48550/arxiv.2210.02747",
+      "publication_date": "2022-10-06",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4303647933",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2210.02747"
+      }
+    },
+    {
+      "paper_id": "rectified-flow",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 82,
+      "recent_citation_count": 34,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 22
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 37
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4297676498",
+      "matched_title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+      "doi": "https://doi.org/10.48550/arxiv.2209.03003",
+      "publication_date": "2022-09-07",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4297676498",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2209.03003"
+      }
+    },
+    {
+      "paper_id": "consistency-models",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 22,
+      "recent_citation_count": 9,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4323076585",
+      "matched_title": "Consistency Models",
+      "doi": "https://doi.org/10.48550/arxiv.2303.01469",
+      "publication_date": "2023-03-02",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4323076585",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2303.01469"
+      }
+    },
+    {
+      "paper_id": "video-diffusion",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 223,
+      "recent_citation_count": 217,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 181
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7133218093",
+      "matched_title": "Video Diffusion Models",
+      "doi": "https://doi.org/10.52202/068431-0628",
+      "publication_date": "2022-01-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W7133218093",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.52202/068431-0628"
+      }
+    },
+    {
+      "paper_id": "phenaki",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 79,
+      "recent_citation_count": 7,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 31
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 41
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4303441850",
+      "matched_title": "Phenaki: Variable Length Video Generation From Open Domain Textual Description",
+      "doi": "https://doi.org/10.48550/arxiv.2210.02399",
+      "publication_date": "2022-10-05",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4303441850",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 0.9927,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2210.02399"
+      }
+    },
+    {
+      "paper_id": "i-jepa",
+      "checked_at": "2026-10-10T09:50:37+08:00",
+      "status": "matched",
+      "citation_count": 410,
+      "recent_citation_count": 304,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 164
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 140
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 88
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 18
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4386076428",
+      "matched_title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+      "doi": "https://doi.org/10.1109/cvpr52729.2023.01499",
+      "publication_date": "2023-06-01",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4386076428",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/cvpr52729.2023.01499"
+      }
     }
   ]
 }

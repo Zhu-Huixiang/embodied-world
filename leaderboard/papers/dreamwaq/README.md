@@ -1,6 +1,6 @@
 # DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning
 
-本版阅读优先顺序：19；综合分：82.9 / 100；已评分权重：100%。
+本版阅读优先顺序：74；综合分：82.9 / 100；已评分权重：100%。
 
 [原文](https://ieeexplore.ieee.org/abstract/document/10161144/) · [PDF](https://arxiv.org/pdf/2301.10602) · [阅读卡片](../../../library/dreamwaq.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 83 | 8% |
 | 阅读价值 | 93 | 7% |
 
-刊会依据：[ICRA 2023](../../../venues/ICRA/README.md)，正式出处见[出版/原文记录](https://ieeexplore.ieee.org/abstract/document/10161144/)；采用2026-10-09刊会快照。
+刊会依据：[ICRA 2023](../../../venues/ICRA/README.md)，正式出处见[出版/原文记录](https://ieeexplore.ieee.org/abstract/document/10161144/)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning。累计被引 159，2025–2026 被引 126；快照：2026-10-09T18:35:28+08:00。
 

@@ -1,6 +1,6 @@
 # Learning high-speed flight in the wild
 
-本版阅读优先顺序：9；综合分：89.1 / 100；已评分权重：100%。
+本版阅读优先顺序：30；综合分：89.1 / 100；已评分权重：100%。
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [PDF](https://arxiv.org/pdf/2110.05113) · [阅读卡片](../../../library/agile-flight.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 83 | 8% |
 | 阅读价值 | 84 | 7% |
 
-刊会依据：[Sci. Robot. 2021](../../../venues/Science-Robotics/README.md)，正式出处见[出版/原文记录](https://www.science.org/doi/10.1126/scirobotics.abg5810)；采用2026-10-09刊会快照。
+刊会依据：[Sci. Robot. 2021](../../../venues/Science-Robotics/README.md)，正式出处见[出版/原文记录](https://www.science.org/doi/10.1126/scirobotics.abg5810)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：Learning high-speed flight in the wild。累计被引 372，2025–2026 被引 179；快照：2026-10-09T18:35:28+08:00。
 

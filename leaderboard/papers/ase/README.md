@@ -1,6 +1,6 @@
 # ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters
 
-本版阅读优先顺序：25；综合分：75.7–90.7 / 100；已评分权重：85%。
+本版阅读优先顺序：92；综合分：75.7–90.7 / 100；已评分权重：85%。
 
 [原文](https://xbpeng.github.io/projects/ASE/) · [PDF](https://xbpeng.github.io/projects/ASE/ASE_2022.pdf) · [阅读卡片](../../../library/ase.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 88 | 8% |
 | 阅读价值 | 91 | 7% |
 
-刊会依据：[SIGGRAPH / TOG 2022](../../../venues/SIGGRAPH-TOG/README.md)，正式出处见[出版/原文记录](https://xbpeng.github.io/projects/ASE/)；采用2026-10-09刊会快照。
+刊会依据：[SIGGRAPH / TOG 2022](../../../venues/SIGGRAPH-TOG/README.md)，正式出处见[出版/原文记录](https://xbpeng.github.io/projects/ASE/)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量状态：等待可确认对应的记录；两项计量维度保留空白。
 

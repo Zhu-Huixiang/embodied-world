@@ -1,6 +1,6 @@
 # OpenVLA: An Open-Source Vision-Language-Action Model
 
-本版阅读优先顺序：20；综合分：82.5 / 100；已评分权重：100%。
+本版阅读优先顺序：76；综合分：82.5 / 100；已评分权重：100%。
 
 [原文](https://proceedings.mlr.press/v270/kim25c.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf) · [阅读卡片](../../../library/openvla.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 93 | 8% |
 | 阅读价值 | 92 | 7% |
 
-刊会依据：[CoRL 2024](../../../venues/CoRL/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v270/kim25c.html)；采用2026-10-09刊会快照。
+刊会依据：[CoRL 2024](../../../venues/CoRL/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v270/kim25c.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：作者预印本；OpenAlex题目：OpenVLA: An Open-Source Vision-Language-Action Model。累计被引 45，2025–2026 被引 42；快照：2026-10-09T18:35:28+08:00。
 

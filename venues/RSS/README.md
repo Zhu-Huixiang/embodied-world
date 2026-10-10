@@ -10,7 +10,7 @@
 
 机器人核心研究社区的重要主会；本仓优先看方法与机器人系统之间的闭环证据。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
@@ -34,16 +34,25 @@ RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会
 
 - [FAST: Efficient Action Tokenization for Vision-Language-Action Models](2025/fast.md)
 - [π₀: A Vision-Language-Action Flow Model for General Robot Control](2025/pi0.md)
+- [ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills](2025/asap.md)
 
 ## 2024
 
 - [3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations](2024/dp3.md)
 - [Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation](2024/consistency-policy.md)
+- [Octo: An Open-Source Generalist Robot Policy](2024/octo.md)
+- [RVT-2: Learning Precise Manipulation from Few Demonstrations](2024/rvt2.md)
+- [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](2024/droid.md)
+- [RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots](2024/robocasa.md)
+- [Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots](2024/umi.md)
+- [Expressive Whole-Body Control for Humanoid Robots](2024/exbody.md)
 
 ## 2023
 
 - [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](2023/diffusion-policy.md)
 - [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](2023/act.md)
+- [RT-1: Robotics Transformer for Real-World Control at Scale](2023/rt1.md)
+- [Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning](2023/walk-in-the-park.md)
 
 ## 2021
 

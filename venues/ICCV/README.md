@@ -10,7 +10,7 @@
 
 视觉领域主要主会；DiT 等图像生成基础为后续视频动作架构提供前置知识。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
@@ -33,5 +33,11 @@
 ## 2023
 
 - [Scalable Diffusion Models with Transformers](2023/dit.md)
+- [Perpetual Humanoid Control for Real-time Simulated Avatars](2023/phc.md)
+- [Segment Anything](2023/sam.md)
+
+## 2021
+
+- [Emerging Properties in Self-Supervised Vision Transformers](2021/dino.md)
 
 [全部刊会](../README.md) · [论文地图](../../paper-map/README.md) · [首页](../../README.md)

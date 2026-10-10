@@ -1,6 +1,6 @@
 # Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 
-本版阅读优先顺序：2；综合分：93.0 / 100；已评分权重：100%。
+本版阅读优先顺序：11；综合分：93.0 / 100；已评分权重：100%。
 
 [原文](https://www.roboticsproceedings.org/rss19/p026.html) · [PDF](https://www.roboticsproceedings.org/rss19/p026.pdf) · [阅读卡片](../../../library/diffusion-policy.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 95 | 8% |
 | 阅读价值 | 98 | 7% |
 
-刊会依据：[RSS 2023](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss19/p026.html)；采用2026-10-09刊会快照。
+刊会依据：[RSS 2023](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss19/p026.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：Diffusion Policy: Visuomotor Policy Learning via Action Diffusion。累计被引 517，2025–2026 被引 405；快照：2026-10-09T18:35:28+08:00。
 

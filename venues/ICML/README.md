@@ -10,7 +10,7 @@
 
 机器学习主要主会，适合追踪方法的算法前提和对照设计。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
@@ -30,8 +30,24 @@
 
 ## 本仓收录论文
 
+## 2024
+
+- [Behavior Generation with Latent Actions](2024/vq-bet.md)
+- [EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](2024/efficientzero-v2.md)
+
+## 2023
+
+- [PaLM-E: An Embodied Multimodal Language Model](2023/palm-e.md)
+- [VIMA: Robot Manipulation with Multimodal Prompts](2023/vima.md)
+- [Consistency Models](2023/consistency-models.md)
+
 ## 2022
 
 - [Temporal Difference Learning for Model Predictive Control](2022/td-mpc.md)
+- [Planning with Diffusion for Flexible Behavior Synthesis](2022/diffuser.md)
+
+## 2021
+
+- [Learning Transferable Visual Models From Natural Language Supervision](2021/clip.md)
 
 [全部刊会](../README.md) · [论文地图](../../paper-map/README.md) · [首页](../../README.md)

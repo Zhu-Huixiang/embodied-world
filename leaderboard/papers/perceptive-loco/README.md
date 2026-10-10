@@ -1,6 +1,6 @@
 # Learning robust perceptive locomotion for quadrupedal robots in the wild
 
-本版阅读优先顺序：6；综合分：91.2 / 100；已评分权重：100%。
+本版阅读优先顺序：17；综合分：91.2 / 100；已评分权重：100%。
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822) · [PDF](https://arxiv.org/pdf/2201.08117) · [阅读卡片](../../../library/perceptive-loco.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 77 | 8% |
 | 阅读价值 | 92 | 7% |
 
-刊会依据：[Sci. Robot. 2022](../../../venues/Science-Robotics/README.md)，正式出处见[出版/原文记录](https://www.science.org/doi/10.1126/scirobotics.abk2822)；采用2026-10-09刊会快照。
+刊会依据：[Sci. Robot. 2022](../../../venues/Science-Robotics/README.md)，正式出处见[出版/原文记录](https://www.science.org/doi/10.1126/scirobotics.abk2822)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：Learning robust perceptive locomotion for quadrupedal robots in the wild。累计被引 812，2025–2026 被引 387；快照：2026-10-09T18:35:28+08:00。
 

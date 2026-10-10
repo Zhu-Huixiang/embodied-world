@@ -1,6 +1,6 @@
 # π₀.₅: a Vision-Language-Action Model with Open-World Generalization
 
-本版阅读优先顺序：26；综合分：50.2–80.2 / 100；已评分权重：70%。
+本版阅读优先顺序：94；综合分：50.2–80.2 / 100；已评分权重：70%。
 
 [原文](https://arxiv.org/abs/2504.16054) · [PDF](https://arxiv.org/pdf/2504.16054) · [阅读卡片](../../../library/pi05.md)
 
@@ -31,7 +31,7 @@
 刊会维度等待正式录用/出版的可核验记录；预印本不按目标刊会计分。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：作者预印本；OpenAlex题目：$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization。累计被引 3，2025–2026 被引 3；快照：2026-10-09T18:35:28+08:00。
 

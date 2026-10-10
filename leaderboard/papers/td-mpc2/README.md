@@ -1,6 +1,6 @@
 # TD-MPC2: Scalable, Robust World Models for Continuous Control
 
-本版阅读优先顺序：18；综合分：83.3 / 100；已评分权重：100%。
+本版阅读优先顺序：68；综合分：83.3 / 100；已评分权重：100%。
 
 [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [阅读卡片](../../../library/td-mpc2.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 94 | 8% |
 | 阅读价值 | 95 | 7% |
 
-刊会依据：[ICLR 2024](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html)；采用2026-10-09刊会快照。
+刊会依据：[ICLR 2024](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：作者预印本；OpenAlex题目：TD-MPC2: Scalable, Robust World Models for Continuous Control。累计被引 8，2025–2026 被引 7；快照：2026-10-09T18:35:28+08:00。
 

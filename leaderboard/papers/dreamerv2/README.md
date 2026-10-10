@@ -1,6 +1,6 @@
 # Mastering Atari with Discrete World Models
 
-本版阅读优先顺序：21；综合分：82.4 / 100；已评分权重：100%。
+本版阅读优先顺序：77；综合分：82.4 / 100；已评分权重：100%。
 
 [原文](https://research.google/pubs/mastering-atari-with-discrete-world-models/) · [PDF](https://arxiv.org/pdf/2010.02193) · [阅读卡片](../../../library/dreamerv2.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 91 | 8% |
 | 阅读价值 | 91 | 7% |
 
-刊会依据：[ICLR 2021](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://research.google/pubs/mastering-atari-with-discrete-world-models/)；采用2026-10-09刊会快照。
+刊会依据：[ICLR 2021](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://research.google/pubs/mastering-atari-with-discrete-world-models/)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：作者预印本；OpenAlex题目：Mastering Atari with Discrete World Models。累计被引 22，2025–2026 被引 2；快照：2026-10-09T18:35:28+08:00。
 

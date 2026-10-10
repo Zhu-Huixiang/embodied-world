@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at": "2026-10-09",
+  "checked_at": "2026-10-10",
   "scope": "Current venue snapshot; not historical publication-year ranks",
   "sources": {
     "ccf": {
@@ -408,6 +408,67 @@
           "url": "https://www.acm.org/media-center/2026/july/impact-factors-2026",
           "evidence_type": "publisher_search_index",
           "note": "官方新闻检索摘要给出TOG13.0；正文访问403。与机构表交叉核对。"
+        }
+      ]
+    },
+    "ECCV": {
+      "abbreviation": "ECCV",
+      "name": "European Conference on Computer Vision",
+      "kind": "conference",
+      "scope": "计算机视觉与机器学习，含视觉表示、三维重建和生成基础。",
+      "review": "ECVA主办的双年视觉主会，研究论文同行评审，论文集由Springer出版。",
+      "community": {
+        "score": 95,
+        "label": "编辑对领域定位的判断",
+        "reason": "视觉领域主要主会之一，与CVPR、ICCV一起提供机器人感知和场景表示的重要基础。"
+      },
+      "distinction": "主会论文与workshop分开；视觉/重建实验按原任务解读，不替代机器人闭环证据。",
+      "ccf": {
+        "tier": "B",
+        "edition": 2026,
+        "page": 58,
+        "source_id": "ccf"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://eccv.ecva.net/Conferences/2026",
+      "sources": [
+        {
+          "title": "ECVA官方会议介绍",
+          "url": "https://eccv.ecva.net/Conferences/2026",
+          "evidence_type": "primary",
+          "note": "主办方、视觉主会定位、双年举行及Springer出版。"
+        }
+      ]
+    },
+    "TMLR": {
+      "abbreviation": "TMLR",
+      "name": "Transactions on Machine Learning Research",
+      "kind": "journal",
+      "scope": "机器学习方法与表征研究。",
+      "review": "滚动投稿、双盲评审，OpenReview公开评审过程；强调技术正确性与研究论证。ISSN 2835-8856。",
+      "community": {
+        "score": 85,
+        "label": "编辑对领域定位的判断",
+        "reason": "具备公开同行评审的机器学习期刊；采用85分的社区定位判断。DINOv2的收录价值还来自大规模表征与下游复用证据。"
+      },
+      "distinction": "正式录用依据逐篇OpenReview决定及作者刊载原文；本快照仅采用已核实的社区定位，不填未经核验的JIF或分区。",
+      "ccf": {
+        "tier": null,
+        "edition": 2026,
+        "status": "not_adopted"
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://jmlr.org/tmlr/",
+      "sources": [
+        {
+          "title": "TMLR官方介绍与评审规则",
+          "url": "https://jmlr.org/tmlr/",
+          "evidence_type": "primary",
+          "note": "滚动双盲评审、技术正确性、OpenReview及ISSN。"
         }
       ]
     }

@@ -10,7 +10,7 @@
 
 机器人领域覆盖广、长期积累强的主要会议；机器人社区定位与CCF计算机目录的B类并列解释。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
@@ -29,6 +29,11 @@
 - [中国计算机学会推荐国际学术会议和期刊目录（2026）](https://www.ccf.org.cn/Academic_Evaluation/By_category/) · [原目录镜像](https://dengpingfan.github.io/papers/CCF-Recommend-2026.pdf)：CCF 官方入口遇验证页；核对原目录镜像全文72页。分类为当前目录快照，不追溯为论文发表当年的级别。
 
 ## 本仓收录论文
+
+## 2024
+
+- [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](2024/rtx.md)
+- [Extreme Parkour with Legged Robots](2024/extreme-parkour.md)
 
 ## 2023
 

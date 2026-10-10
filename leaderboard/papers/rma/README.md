@@ -1,6 +1,6 @@
 # RMA: Rapid Motor Adaptation for Legged Robots
 
-本版阅读优先顺序：5；综合分：91.7 / 100；已评分权重：100%。
+本版阅读优先顺序：15；综合分：91.7 / 100；已评分权重：100%。
 
 [原文](https://www.roboticsproceedings.org/rss17/p011.html) · [PDF](https://www.roboticsproceedings.org/rss17/p011.pdf) · [阅读卡片](../../../library/rma.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 88 | 8% |
 | 阅读价值 | 96 | 7% |
 
-刊会依据：[RSS 2021](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss17/p011.html)；采用2026-10-09刊会快照。
+刊会依据：[RSS 2021](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss17/p011.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：RMA: Rapid Motor Adaptation for Legged Robots。累计被引 511，2025–2026 被引 262；快照：2026-10-09T18:35:28+08:00。
 

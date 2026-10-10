@@ -1,6 +1,6 @@
 # Mastering diverse control tasks through world models
 
-本版阅读优先顺序：3；综合分：92.0 / 100；已评分权重：100%。
+本版阅读优先顺序：13；综合分：92.0 / 100；已评分权重：100%。
 
 [原文](https://www.nature.com/articles/s41586-025-08744-2) · [PDF](https://arxiv.org/pdf/2301.04104) · [阅读卡片](../../../library/dreamerv3.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 95 | 8% |
 | 阅读价值 | 98 | 7% |
 
-刊会依据：[Nature 2025](../../../venues/Nature/README.md)，正式出处见[出版/原文记录](https://www.nature.com/articles/s41586-025-08744-2)；采用2026-10-09刊会快照。
+刊会依据：[Nature 2025](../../../venues/Nature/README.md)，正式出处见[出版/原文记录](https://www.nature.com/articles/s41586-025-08744-2)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：Mastering diverse control tasks through world models。累计被引 165，2025–2026 被引 165；快照：2026-10-09T18:35:28+08:00。
 

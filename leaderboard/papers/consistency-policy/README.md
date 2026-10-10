@@ -1,6 +1,6 @@
 # Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation
 
-本版阅读优先顺序：23；综合分：81.5 / 100；已评分权重：100%。
+本版阅读优先顺序：81；综合分：81.5 / 100；已评分权重：100%。
 
 [原文](https://www.roboticsproceedings.org/rss20/p071.html) · [PDF](https://www.roboticsproceedings.org/rss20/p071.pdf) · [阅读卡片](../../../library/consistency-policy.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 82 | 8% |
 | 阅读价值 | 86 | 7% |
 
-刊会依据：[RSS 2024](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss20/p071.html)；采用2026-10-09刊会快照。
+刊会依据：[RSS 2024](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss20/p071.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation。累计被引 53，2025–2026 被引 53；快照：2026-10-09T18:35:28+08:00。
 

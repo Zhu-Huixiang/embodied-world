@@ -1,6 +1,6 @@
 # AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control
 
-本版阅读优先顺序：8；综合分：89.2 / 100；已评分权重：100%。
+本版阅读优先顺序：29；综合分：89.2 / 100；已评分权重：100%。
 
 [原文](https://xbpeng.github.io/projects/AMP/) · [PDF](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf) · [阅读卡片](../../../library/amp.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 90 | 8% |
 | 阅读价值 | 97 | 7% |
 
-刊会依据：[SIGGRAPH / TOG 2021](../../../venues/SIGGRAPH-TOG/README.md)，正式出处见[出版/原文记录](https://xbpeng.github.io/projects/AMP/)；采用2026-10-09刊会快照。
+刊会依据：[SIGGRAPH / TOG 2021](../../../venues/SIGGRAPH-TOG/README.md)，正式出处见[出版/原文记录](https://xbpeng.github.io/projects/AMP/)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：AMP。累计被引 394，2025–2026 被引 177；快照：2026-10-09T18:48:09+08:00。
 

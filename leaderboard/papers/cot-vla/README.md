@@ -1,6 +1,6 @@
 # CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
 
-本版阅读优先顺序：22；综合分：82.0 / 100；已评分权重：100%。
+本版阅读优先顺序：79；综合分：82.0 / 100；已评分权重：100%。
 
 [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.pdf) · [阅读卡片](../../../library/cot-vla.md)
 
@@ -28,10 +28,10 @@
 | 复用价值 | 73 | 8% |
 | 阅读价值 | 87 | 7% |
 
-刊会依据：[CVPR 2025](../../../venues/CVPR/README.md)，正式出处见[出版/原文记录](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html)；采用2026-10-09刊会快照。
+刊会依据：[CVPR 2025](../../../venues/CVPR/README.md)，正式出处见[出版/原文记录](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-09T18:35:28+08:00。
+编辑深度：选题初读；评分记录：2026-10-10。
 
 计量版本：正式刊会版本；OpenAlex题目：CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models。累计被引 64，2025–2026 被引 64；快照：2026-10-09T18:35:28+08:00。
 

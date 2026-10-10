@@ -10,7 +10,7 @@
 
 机器学习主要主会；序列生成结果和真实机器人证据需要分别读。
 
-下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-09。
+下面把目录事实、计量快照与编辑判断分开列出。核对日期：2026-10-10。
 
 | 指标 | 本版记录 |
 | --- | --- |
@@ -38,5 +38,33 @@
 ## 2024
 
 - [Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion](2024/diffusion-forcing.md)
+
+## 2023
+
+- [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](2023/libero.md)
+- [Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](2023/vc1.md)
+- [Learning Universal Policies via Text-Guided Video Generation](2023/unipi.md)
+- [Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning](2023/cal-ql.md)
+
+## 2022
+
+- [Elucidating the Design Space of Diffusion-Based Generative Models](2022/edm.md)
+- [Video Diffusion Models](2022/video-diffusion.md)
+
+## 2021
+
+- [Mastering Atari Games with Limited Data](2021/efficientzero.md)
+- [A Minimalist Approach to Offline Reinforcement Learning](2021/td3-bc.md)
+- [Decision Transformer: Reinforcement Learning via Sequence Modeling](2021/decision-transformer.md)
+- [Offline Reinforcement Learning as One Big Sequence Modeling Problem](2021/trajectory-transformer.md)
+
+## 2020
+
+- [Conservative Q-Learning for Offline Reinforcement Learning](2020/cql.md)
+- [Denoising Diffusion Probabilistic Models](2020/ddpm.md)
+
+## 2017
+
+- [Attention Is All You Need](2017/attention.md)
 
 [全部刊会](../README.md) · [论文地图](../../paper-map/README.md) · [首页](../../README.md)
