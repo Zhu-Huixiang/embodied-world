@@ -1,6 +1,6 @@
 # TD-MPC2: Scalable, Robust World Models for Continuous Control
 
-本版阅读优先顺序：68；综合分：83.3 / 100；已评分权重：100%。
+**TD-MPC2** · ICLR 2024 · 本版排名 72 · 综合分 **83.3 / 100**
 
 [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [阅读卡片](../../../library/td-mpc2.md)
 
@@ -14,13 +14,16 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 95.0 | 30% |
+| 发表与刊会 | 95.0 | 30% |
 | 创新性 | 89 | 20% |
 | 实验与证据 | 92 | 20% |
 | 学术影响 | 27.4 | 10% |

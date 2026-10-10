@@ -519,11 +519,39 @@
     },
     {
       "paper_id": "ase",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10T11:39:22+08:00",
+      "status": "matched",
+      "openalex_id": "https://openalex.org/W4229044820",
+      "matched_title": "ASE",
+      "doi": "https://doi.org/10.1145/3528223.3530110",
+      "publication_date": "2022-07-01",
+      "edition": "正式刊会版本",
+      "citation_count": 219,
+      "recent_citation_count": 105,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 27
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 78
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 71
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 7
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/W4229044820",
+      "match_note": "OpenAlex简称ASE，但正式PDF的DOI、五作者Xue Bin Peng/Yunrong Guo/Lina Halper/Sergey Levine/Sanja Fidler、TOG41(4)Article94 July2022和location arXiv2205.01906全部匹配，依据DOI+作者+正式原文核身份。"
     },
     {
       "paper_id": "dreamer",
@@ -714,11 +742,34 @@
     },
     {
       "paper_id": "lingbot-va",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10T11:42:48+08:00",
+      "status": "matched",
+      "citation_count": 2,
+      "recent_citation_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7126180855",
+      "matched_title": "Causal World Modeling for Robot Control",
+      "doi": "https://doi.org/10.15607/rss.2026.xxii.016",
+      "publication_date": "2026-07-13",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W7126180855",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": true,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.15607/rss.2026.xxii.016"
+      }
     },
     {
       "paper_id": "videovla",
@@ -3724,6 +3775,320 @@
         "source_match": false,
         "repost_doi_rejected": false,
         "primary_url": "https://doi.org/10.1109/cvpr52729.2023.01499"
+      }
+    },
+    {
+      "paper_id": "learned-dynamics-review",
+      "checked_at": "2026-10-10T11:44:51+08:00",
+      "status": "matched",
+      "citation_count": 21,
+      "recent_citation_count": 21,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 21
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4414285669",
+      "matched_title": "A review of learning-based dynamics models for robotic manipulation",
+      "doi": "https://doi.org/10.1126/scirobotics.adt1497",
+      "publication_date": "2025-09-17",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4414285669",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": true,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1126/scirobotics.adt1497"
+      }
+    },
+    {
+      "paper_id": "hover",
+      "checked_at": "2026-10-10T11:44:51+08:00",
+      "status": "matched",
+      "citation_count": 24,
+      "recent_citation_count": 24,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 10
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4413918871",
+      "matched_title": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots",
+      "doi": "https://doi.org/10.1109/icra55743.2025.11128549",
+      "publication_date": "2025-05-19",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W4413918871",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": true,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1109/icra55743.2025.11128549"
+      }
+    },
+    {
+      "paper_id": "isaac-gym",
+      "checked_at": "2026-10-10T11:44:51+08:00",
+      "status": "matched",
+      "citation_count": 58,
+      "recent_citation_count": 20,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 6
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W3193576605",
+      "matched_title": "Isaac Gym: High Performance GPU-Based Physics Simulation For Robot Learning",
+      "doi": "https://doi.org/10.48550/arxiv.2108.10470",
+      "publication_date": "2021-08-24",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W3193576605",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2108.10470"
+      }
+    },
+    {
+      "paper_id": "vjepa2",
+      "checked_at": "2026-10-10T11:44:51+08:00",
+      "status": "matched",
+      "citation_count": 5,
+      "recent_citation_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4417261359",
+      "matched_title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "doi": "https://doi.org/10.48550/arxiv.2506.09985",
+      "publication_date": "2025-06-11",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4417261359",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": false,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2506.09985"
+      }
+    },
+    {
+      "paper_id": "lewm",
+      "checked_at": "2026-10-10T11:42:48+08:00",
+      "status": "matched",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7140141371",
+      "matched_title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "doi": "https://doi.org/10.48550/arxiv.2603.19312",
+      "publication_date": "2026-03-13",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W7140141371",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.48550/arxiv.2603.19312"
+      }
+    },
+    {
+      "paper_id": "ctrl-world",
+      "checked_at": "2026-10-10T11:42:48+08:00",
+      "status": "matched",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4415273528",
+      "matched_title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+      "doi": "https://doi.org/10.48550/arxiv.2510.10125",
+      "publication_date": "2025-10-11",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4415273528",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2510.10125"
+      }
+    },
+    {
+      "paper_id": "modar",
+      "checked_at": "2026-10-10T11:42:48+08:00",
+      "status": "matched",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7213403652",
+      "matched_title": "Modality-Autoregressive World-Action Models",
+      "doi": "https://doi.org/10.48550/arxiv.2609.17524",
+      "publication_date": "2026-09-15",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W7213403652",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://arxiv.org/abs/2609.17524"
+      }
+    },
+    {
+      "paper_id": "sonic",
+      "checked_at": "2026-10-10T11:42:48+08:00",
+      "status": "matched",
+      "citation_count": 4,
+      "recent_citation_count": 4,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7202294264",
+      "matched_title": "SONIC: Supersizing motion tracking for natural humanoid whole-body control",
+      "doi": "https://doi.org/10.1126/scirobotics.aed4592",
+      "publication_date": "2026-08-12",
+      "edition": "正式刊会版本",
+      "api_url": "https://api.openalex.org/works/W7202294264",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": false,
+        "doi_match": true,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "https://doi.org/10.1126/scirobotics.aed4592"
+      }
+    },
+    {
+      "paper_id": "gr00t-n1",
+      "checked_at": "2026-10-10T11:42:48+08:00",
+      "status": "matched",
+      "citation_count": 5,
+      "recent_citation_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        }
+      ],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W4414901575",
+      "matched_title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+      "doi": "https://doi.org/10.48550/arxiv.2503.14734",
+      "publication_date": "2025-03-18",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W4414901575",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2503.14734"
+      }
+    },
+    {
+      "paper_id": "egoscale",
+      "checked_at": "2026-10-10T11:42:48+08:00",
+      "status": "matched",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+      "openalex_id": "https://openalex.org/W7130590664",
+      "matched_title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+      "doi": "https://doi.org/10.48550/arxiv.2602.16710",
+      "publication_date": "2026-02-18",
+      "edition": "作者预印本/原研究索引记录",
+      "api_url": "https://api.openalex.org/works/W7130590664",
+      "match_evidence": {
+        "accepted": true,
+        "title_similarity": 1.0,
+        "year_match": true,
+        "arxiv_match": true,
+        "doi_match": false,
+        "author_match": true,
+        "source_match": false,
+        "repost_doi_rejected": false,
+        "primary_url": "http://arxiv.org/abs/2602.16710"
       }
     }
   ]

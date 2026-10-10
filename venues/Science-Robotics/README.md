@@ -31,6 +31,14 @@ Science Robotics 与 Science 主刊、Science Advances 分别统计；不能套�
 
 ## 本仓收录论文
 
+## 2026
+
+- [SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control](2026/sonic.md)
+
+## 2025
+
+- [A review of learning-based dynamics models for robotic manipulation](2025/learned-dynamics-review.md)
+
 ## 2024
 
 - [ANYmal parkour: Learning agile navigation for quadrupedal robots](2024/anymal-parkour.md)

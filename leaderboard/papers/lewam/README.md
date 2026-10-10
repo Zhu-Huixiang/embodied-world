@@ -1,6 +1,6 @@
 # LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC
 
-本版阅读优先顺序：99；综合分：45.1–90.1 / 100；已评分权重：55%。
+**LeWAM** · arXiv 2026 · 本版排名 109 · 综合分 **45.1 / 100**
 
 [原文](https://arxiv.org/abs/2610.12407v1) · [PDF](https://arxiv.org/pdf/2610.12407v1) · [阅读卡片](../../../library/lewam.md)
 
@@ -14,25 +14,33 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 待核验 | 30% |
+| 发表与刊会 | 0 | 30% |
 | 创新性 | 91 | 20% |
 | 实验与证据 | 76 | 20% |
-| 学术影响 | 待核验 | 10% |
-| 近期关注 | 待核验 | 5% |
+| 学术影响 | 0 | 10% |
+| 近期关注 | 0 | 5% |
 | 复用价值 | 64 | 8% |
 | 阅读价值 | 94 | 7% |
 
-刊会维度等待正式录用/出版的可核验记录；预印本不按目标刊会计分。
+发表与刊会：预印本公开，正式发表贡献记0；创新与实验单独计分。
 
 
 编辑深度：选题初读；评分记录：2026-10-10。
 
-计量状态：等待可确认对应的记录；两项计量维度保留空白。
+影响与关注采用独立证据评分：
+
+- **学术影响 0**：本次2026-10-10补查范围内，独立采用证据仍在积累；按证据量表起点计0分。原文方法与作者实验分别进入创新、证据轴。 [依据1](https://arxiv.org/abs/2610.12407v1) · [依据2](https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md)
+- **近期关注 0**：本次2026-10-10补查范围内，2025–2026的独立采用证据仍在积累；按证据量表起点计0分。原文方法与作者实验分别进入创新、证据轴。 [依据1](https://arxiv.org/abs/2610.12407v1) · [依据2](https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md)
+
+原始引用记录与编辑证据分分别保留，计算细则见评分说明。
 
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

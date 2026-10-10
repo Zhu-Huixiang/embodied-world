@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 98 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 108 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -26,6 +26,10 @@
 | [DayDreamer](../library/daydreamer.md) · CoRL 2022 | 世界模型的想象训练怎样接到真实机器人持续在线交互上？ |
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](../library/trajectory-transformer.md) · NeurIPS 2021 | 状态、动作和奖励一起变成 token 后，beam search 为什么可以用来规划？ |
 | [Mastering Atari, Go, chess and shogi by planning with a learned model](../library/muzero.md) · Nature 2020 | 用于规划的世界模型，为什么可以只预测奖励、价值和策略，而不重建下一帧？ |
+| [LeWorldModel](../library/lewm.md) · arXiv 2026 | 两项损失怎样让像素JEPA不坍缩，又把每帧压成一个可规划的token？ |
+| [Ctrl-World](../library/ctrl-world.md) · ICLR 2026 | 怎样让视频生成器按真实动作走，并使想象中的策略排名接近实机？ |
+| [A review of learning-based dynamics models for robotic manipulation](../library/learned-dynamics-review.md) · Science-Robotics 2025 | 世界模型该预测像素、latent、粒子还是物体？换种表示会怎样改写感知与规划的代价？ |
+| [V-JEPA 2](../library/vjepa2.md) · arXiv 2025 | 先看无动作标签视频，再给少量机器人交互，潜空间怎样变成 Franka 规划器？ |
 
 ## 世界动作模型
 
@@ -34,8 +38,9 @@
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
 | [World Action Models are Zero-shot Policies](../library/dreamzero.md) · arXiv 2026 | 视频与动作共同预测，怎样支持未见任务中的控制？ |
-| [Cosmos Policy](../library/cosmos-policy.md) · arXiv 2026 | 视频生成序列怎样容纳动作、未来状态与规划信号？ |
+| [Cosmos Policy](../library/cosmos-policy.md) · ICLR 2026 | 视频生成序列怎样容纳动作、未来状态与规划信号？ |
 | [Planning with Diffusion for Flexible Behavior Synthesis](../library/diffuser.md) · ICML 2022 | 轨迹一起去噪，如何同时承担环境建模、长时序规划与测试时加约束？ |
+| [Modality-Autoregressive World-Action Models](../library/modar.md) · arXiv 2026 | 为什么先预测点轨迹、语义与几何，再给动作，可能比视频动作一起去噪更有效？ |
 
 ## 视频动作模型与视觉推理
 
@@ -44,7 +49,7 @@
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
 | [CoT-VLA](../library/cot-vla.md) · CVPR 2025 | 预测未来图像作为目标，怎样帮助随后的一小段动作？ |
-| [Causal World Modeling for Robot Control](../library/lingbot-va.md) · arXiv 2026 | 因果式视频与动作生成怎样缩小训练和闭环执行的差距？ |
+| [Causal World Modeling for Robot Control](../library/lingbot-va.md) · RSS 2026 | 视频预测具体给动作带来什么，真实反馈怎样写回KV历史，又怎样少去噪而保住控制质量？ |
 | [VideoVLA](../library/videovla.md) · NeurIPS 2025 | 视频生成先验怎样与动作预测一起用于操作泛化？ |
 | [Learning Universal Policies via Text-Guided Video Generation](../library/unipi.md) · NeurIPS 2023 | 先生成机器人会怎么做的视频，再倒推出动作，这条路线解决了什么又把难题搬到了哪里？ |
 
@@ -59,13 +64,14 @@
 | [π₀](../library/pi0.md) · RSS 2025 | Flow Matching 动作专家怎样接收视觉语言条件？ |
 | [OpenVLA](../library/openvla.md) · CoRL 2024 | 视觉特征融合、动作分箱和高效适配各自解决哪一层问题？ |
 | [RT-2](../library/rt2.md) · CoRL 2023 | 文字和动作一起训练，网络知识怎样影响一次操作？ |
-| [π₀.₅](../library/pi05.md) · arXiv 2025 | 跨本体、跨场景数据怎样变成开放环境中的长程操作？ |
+| [π₀.₅](../library/pi05.md) · CoRL 2025 | 跨本体、跨场景数据怎样变成开放环境中的长程操作？ |
 | [RT-1](../library/rt1.md) · RSS 2023 | 大量真实机器人数据究竟需要什么策略结构才能吃进去，TokenLearner 为何是关键？ |
 | [Do As I Can, Not As I Say](../library/saycan.md) · CoRL 2022 | 语言模型觉得该做的事，机器人做得到吗？两个概率相乘到底解决什么？ |
 | [PaLM-E](../library/palm-e.md) · ICML 2023 | 把传感器读数塞进语言模型的 embedding 空间，能带来怎样的机器人推理？ |
 | [Open X-Embodiment](../library/rtx.md) · ICRA 2024 | 不同机器人的动作坐标和观测并不一致，怎样把它们混成能产生正迁移的数据？ |
 | [Octo](../library/octo.md) · RSS 2024 | 通用策略接上新摄像头、新动作空间时，哪些模块可以保留，哪些需要改？ |
 | [VIMA](../library/vima.md) · ICML 2023 | 文字、目标图和示范视频能否作为同一种任务提示交给机器人？ |
+| [GR00T N1](../library/gr00t-n1.md) · arXiv 2025 | Eagle-2视觉语言特征与连续动作流怎样分工，合成视频里的动作标签从哪来，预训练收益又在什么任务上成立？ |
 
 ## 操作与动作块
 
@@ -91,6 +97,7 @@
 | [MimicGen](../library/mimicgen.md) · CoRL 2023 | 把十条示范扩成上千条，什么时候是有用的新数据，什么时候只是机械复制？ |
 | [Behavior Generation with Latent Actions](../library/vq-bet.md) · ICML 2024 | 动作先压成分层离散码，能否保留多种操作方式，同时省掉扩散反复采样？ |
 | [Transporter Networks](../library/transporter.md) · CoRL 2020 | 操作物体不一定要先识别物体？空间特征之间的匹配怎么直接长出动作？ |
+| [EgoScale](../library/egoscale.md) · arXiv 2026 | 人类视频怎样变成机器人可学的手腕和手指动作，为什么大量预训练之后还要一小段人机对齐数据？ |
 
 ## Locomotion 与运动适应
 
@@ -113,6 +120,8 @@
 | [Deep Whole-Body Control](../library/deep-whole-body-control.md) · CoRL 2022 | 手臂和腿一起出动作，怎样避免一边拿东西、一边把身体拽倒？ |
 | [Expressive Whole-Body Control for Humanoid Robots](../library/exbody.md) · RSS 2024 | 上半身想照着人动，下半身还得站稳，这两种目标怎么兼容？ |
 | [Demonstrating A Walk in the Park](../library/walk-in-the-park.md) · RSS 2023 | 没有世界模型和动作模板，如何把实机采样与梯度更新快到足够实用？ |
+| [SONIC](../library/sonic.md) · Science-Robotics 2026 | 动作跟踪为什么能吃进大规模人类动作数据，64维共享运动 token 又怎样让同一控制器接遥操作和全身 VLA？ |
+| [HOVER](../library/hover.md) · ICRA 2025 | 一个全身策略怎样接住关节、身体位置、根速度等不同格式的指令？ |
 
 ## 动作先验与全身技能
 
@@ -137,6 +146,7 @@
 | [Decision Transformer](../library/decision-transformer.md) · NeurIPS 2021 | 把目标回报放进 token 序列，就能把离线控制改写成条件生成吗？ |
 | [Cal-QL](../library/cal-ql.md) · NeurIPS 2023 | 离线训练把 Q 压得太低，为什么一上真环境反而会先忘掉已有技能？ |
 | [Conservative Q-Learning for Offline Reinforcement Learning](../library/cql.md) · NeurIPS 2020 | 离线数据没有覆盖的动作，怎样避免被 Q 函数凭空吹成好动作？ |
+| [Isaac Gym](../library/isaac-gym.md) · NeurIPS-Datasets-Benchmarks 2021 | GPU 仿真、奖励和策略更新怎样连成一条流水线，改变机器人 RL 的试错速度？ |
 
 ## 具身感知与场景表示
 

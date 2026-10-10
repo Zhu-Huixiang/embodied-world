@@ -1,6 +1,6 @@
 # Emerging Properties in Self-Supervised Vision Transformers
 
-本版阅读优先顺序：8；综合分：94.3 / 100；已评分权重：100%。
+**DINO** · ICCV 2021 · 本版排名 9 · 综合分 **94.3 / 100**
 
 [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf) · [阅读卡片](../../../library/dino.md)
 
@@ -14,13 +14,16 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 95.0 | 30% |
+| 发表与刊会 | 95.0 | 30% |
 | 创新性 | 93 | 20% |
 | 实验与证据 | 90 | 20% |
 | 学术影响 | 100 | 10% |

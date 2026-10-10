@@ -471,6 +471,42 @@
           "note": "滚动双盲评审、技术正确性、OpenReview及ISSN。"
         }
       ]
+    },
+    "NeurIPS-Datasets-Benchmarks": {
+      "abbreviation": "NeurIPS D&B",
+      "name": "NeurIPS Datasets and Benchmarks Track",
+      "kind": "conference",
+      "track": "Datasets and Benchmarks",
+      "scope": "数据、评测与研究基础设施；机器人仿真平台在这一轨道归档。",
+      "review": "NeurIPS Datasets and Benchmarks 独立轨道同行评审，有官方论文集。",
+      "community": {
+        "score": 90,
+        "label": "重要数据与基准轨道；编辑分",
+        "reason": "专门评审数据、基准和基础设施的贡献与可复用性；本仓给90分，不套用NeurIPS研究主会分。"
+      },
+      "distinction": "该轨道有独立征稿、评审和论文集。CCF目录没有对这个轨道单独赋级，本仓按轨道定位评分，不借研究主会的A类映射。",
+      "ccf": {
+        "tier": null,
+        "edition": 2026,
+        "page": null,
+        "source_id": null
+      },
+      "jif": null,
+      "jcr": null,
+      "cas": null,
+      "official_url": "https://datasets-benchmarks-proceedings.neurips.cc/",
+      "sources": [
+        {
+          "title": "2021 Datasets and Benchmarks 官方论文集",
+          "url": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021",
+          "evidence_type": "primary"
+        },
+        {
+          "title": "NeurIPS 2021 Datasets and Benchmarks 征稿",
+          "url": "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks",
+          "evidence_type": "primary"
+        }
+      ]
     }
   }
 }

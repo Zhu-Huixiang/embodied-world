@@ -1,6 +1,6 @@
 # Video Diffusion Models
 
-本版阅读优先顺序：27；综合分：89.8 / 100；已评分权重：100%。
+**Video Diffusion** · NeurIPS 2022 · 本版排名 28 · 综合分 **89.8 / 100**
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf) · [阅读卡片](../../../library/video-diffusion.md)
 
@@ -14,13 +14,16 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 95.0 | 30% |
+| 发表与刊会 | 95.0 | 30% |
 | 创新性 | 91 | 20% |
 | 实验与证据 | 91 | 20% |
 | 学术影响 | 67.6 | 10% |

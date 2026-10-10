@@ -30,6 +30,11 @@
 
 ## 本仓收录论文
 
+## 2026
+
+- [Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning](2026/cosmos-policy.md)
+- [Ctrl-World: A Controllable Generative World Model for Robot Manipulation](2026/ctrl-world.md)
+
 ## 2025
 
 - [SAM 2: Segment Anything in Images and Videos](2025/sam2.md)

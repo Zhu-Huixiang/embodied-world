@@ -1,6 +1,6 @@
 # Attention Is All You Need
 
-本版阅读优先顺序：80；综合分：81.8–96.8 / 100；已评分权重：85%。
+**Transformer** · NeurIPS 2017 · 本版排名 8 · 综合分 **94.3 / 100**
 
 [原文](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) · [PDF](https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) · [阅读卡片](../../../library/attention.md)
 
@@ -14,17 +14,20 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 95.0 | 30% |
+| 发表与刊会 | 95.0 | 30% |
 | 创新性 | 99 | 20% |
 | 实验与证据 | 94 | 20% |
-| 学术影响 | 待核验 | 10% |
-| 近期关注 | 待核验 | 5% |
+| 学术影响 | 95 | 10% |
+| 近期关注 | 60 | 5% |
 | 复用价值 | 99 | 8% |
 | 阅读价值 | 97 | 7% |
 
@@ -33,6 +36,11 @@
 
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量状态：等待可确认对应的记录；两项计量维度保留空白。
+影响与关注采用独立证据评分：
+
+- **学术影响 95**：自注意力序列建模成为图像token与机器人动作块的共同架构前置；ACT原文明确采用Transformer并引用Vaswani2017，ViT采用标准Transformer编码器，π₀.₅继续将它用于多模态动作。这些跨表示/控制路线的直接采用支持共同基础档。 [依据1](https://www.roboticsproceedings.org/rss19/p016.pdf) · [依据2](https://arxiv.org/pdf/2010.11929v2) · [依据3](https://arxiv.org/html/2504.16054v1)
+- **近期关注 60**：2025年的π₀.₅使用多模态Transformer和N×N注意力mask，V-JEPA 2采用ViT视频编码器并在位置编码比较中直接引用Vaswani2017；两条独立研究路线继续使用其结构，按多个方法采用档评分。 [依据1](https://arxiv.org/html/2504.16054v1) · [依据2](https://arxiv.org/html/2506.09985v1)
+
+原始引用记录与编辑证据分分别保留，计算细则见评分说明。
 
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

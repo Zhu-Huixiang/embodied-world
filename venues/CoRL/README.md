@@ -30,6 +30,10 @@ CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版
 
 ## 本仓收录论文
 
+## 2025
+
+- [π₀.₅: a Vision-Language-Action Model with Open-World Generalization](2025/pi05.md)
+
 ## 2024
 
 - [OpenVLA: An Open-Source Vision-Language-Action Model](2024/openvla.md)

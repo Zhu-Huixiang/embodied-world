@@ -1,6 +1,6 @@
 # What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
 
-本版阅读优先顺序：90；综合分：77.3–92.3 / 100；已评分权重：85%。
+**robomimic** · CoRL 2021 · 本版排名 58 · 综合分 **85.3 / 100**
 
 [原文](https://proceedings.mlr.press/v164/mandlekar22a.html) · [PDF](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf) · [阅读卡片](../../../library/robomimic.md)
 
@@ -14,17 +14,20 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 90.0 | 30% |
+| 发表与刊会 | 90.0 | 30% |
 | 创新性 | 84 | 20% |
 | 实验与证据 | 95 | 20% |
-| 学术影响 | 待核验 | 10% |
-| 近期关注 | 待核验 | 5% |
+| 学术影响 | 60 | 10% |
+| 近期关注 | 40 | 5% |
 | 复用价值 | 99 | 8% |
 | 阅读价值 | 94 | 7% |
 
@@ -33,6 +36,11 @@
 
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量状态：等待可确认对应的记录；两项计量维度保留空白。
+影响与关注采用独立证据评分：
+
+- **学术影响 60**：Diffusion Policy直接使用robomimic基准与BC-RNN对照，GR00T N1继续将RoboMimic BC-Transformer列为正式基线；跨策略家族的持续采用按多个独立方法档评分。 [依据1](https://arxiv.org/pdf/2303.04137) · [依据2](https://arxiv.org/html/2503.14734v2)
+- **近期关注 40**：2025年GR00T N1的Evaluation/Baselines明确采用RoboMimic BC-Transformer：10帧观测输入、预测10步动作。近期按一个可定位下游对照档评分。 [依据1](https://arxiv.org/html/2503.14734v2)
+
+原始引用记录与编辑证据分分别保留，计算细则见评分说明。
 
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

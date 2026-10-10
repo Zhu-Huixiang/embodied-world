@@ -1,6 +1,6 @@
 # Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation
 
-本版阅读优先顺序：64；综合分：84.0 / 100；已评分权重：100%。
+**PerAct** · CoRL 2022 · 本版排名 68 · 综合分 **84.0 / 100**
 
 [原文](https://proceedings.mlr.press/v205/shridhar23a.html) · [PDF](https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf) · [阅读卡片](../../../library/peract.md)
 
@@ -14,13 +14,16 @@ RGB-D 重建为三维体素网格，体素 patch 与语言向量组成序列；P
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 90.0 | 30% |
+| 发表与刊会 | 90.0 | 30% |
 | 创新性 | 92 | 20% |
 | 实验与证据 | 90 | 20% |
 | 学术影响 | 47.8 | 10% |

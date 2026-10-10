@@ -30,6 +30,10 @@
 
 ## 本仓收录论文
 
+## 2025
+
+- [HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots](2025/hover.md)
+
 ## 2024
 
 - [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](2024/rtx.md)

@@ -1,38 +1,43 @@
 # Causal World Modeling for Robot Control
 
-本版阅读优先顺序：97；综合分：46.4–91.4 / 100；已评分权重：55%。
+**LingBot-VA** · RSS 2026 · 本版排名 95 · 综合分 **79.1 / 100**
 
-[原文](https://arxiv.org/abs/2601.21998) · [PDF](https://arxiv.org/pdf/2601.21998) · [阅读卡片](../../../library/lingbot-va.md)
+[原文](https://www.roboticsproceedings.org/rss22/p016.html) · [PDF](https://www.roboticsproceedings.org/rss22/p016.pdf) · [阅读卡片](../../../library/lingbot-va.md)
 
 ## 机制简析
 
-用因果式视频与动作建模支持闭环控制，使滚动生成的条件更接近实际部署。
+因果视频VAE把观测压到48通道latent；Wan2.2-5B视频stream和动作stream经MoT联合处理，chunk间因果、chunk内并行。T5指令条件、真实obs/action写回KV cache、noisy-latent augmentation支持视频部分去噪后解动作；统一双臂30维动作，5.3B总参数。
 
-带着这个问题读：因果式视频与动作生成怎样缩小训练和闭环执行的差距？
+带着这个问题读：视频预测具体给动作带来什么，真实反馈怎样写回KV历史，又怎样少去噪而保住控制质量？
 
-初读判断：因果时序和视频动作联合预测形成清楚问题；初读重点是滚动误差与延迟。
+初读判断：联合未来预测与动作推断、持久历史和部分去噪控制有可验证机制。RSS版新增action-only/causal ablation、RoboTwin与LIBERO、6项实机 paired trials，证据增强。历史策略在进度被逆转时会退化、视频推理成本高，部分baseline来自他论文，正式主表和消融数值须按定位区别。开源部署、posttrain与权重支持复用，完全重训算力成本限制复用分。
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 待核验 | 30% |
+| 发表与刊会 | 95.0 | 30% |
 | 创新性 | 88 | 20% |
-| 实验与证据 | 81 | 20% |
-| 学术影响 | 待核验 | 10% |
-| 近期关注 | 待核验 | 5% |
-| 复用价值 | 79 | 8% |
-| 阅读价值 | 90 | 7% |
+| 实验与证据 | 87 | 20% |
+| 学术影响 | 13.7 | 10% |
+| 近期关注 | 17.7 | 5% |
+| 复用价值 | 86 | 8% |
+| 阅读价值 | 92 | 7% |
 
-刊会维度等待正式录用/出版的可核验记录；预印本不按目标刊会计分。
+刊会依据：[RSS 2026](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss22/p016.html)；采用2026-10-10刊会快照。
 
 
-编辑深度：选题初读；评分记录：2026-10-10。
+编辑深度：RSS正式原文机制与实验初读；评分记录：2026-10-10。
 
-计量状态：等待可确认对应的记录；两项计量维度保留空白。
+计量版本：作者预印本/原研究索引记录；OpenAlex题目：Causal World Modeling for Robot Control。累计被引 2，2025–2026 被引 2；快照：2026-10-10T11:42:48+08:00。
+
+[指标记录](https://api.openalex.org/works/W7126180855) · [文献计量条目](https://openalex.org/W7126180855)
 
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

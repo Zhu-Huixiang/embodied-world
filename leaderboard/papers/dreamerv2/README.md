@@ -1,6 +1,6 @@
 # Mastering Atari with Discrete World Models
 
-本版阅读优先顺序：77；综合分：82.4 / 100；已评分权重：100%。
+**DreamerV2** · ICLR 2021 · 本版排名 81 · 综合分 **82.4 / 100**
 
 [原文](https://research.google/pubs/mastering-atari-with-discrete-world-models/) · [PDF](https://arxiv.org/pdf/2010.02193) · [阅读卡片](../../../library/dreamerv2.md)
 
@@ -14,13 +14,16 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 95.0 | 30% |
+| 发表与刊会 | 95.0 | 30% |
 | 创新性 | 88 | 20% |
 | 实验与证据 | 89 | 20% |
 | 学术影响 | 39.2 | 10% |

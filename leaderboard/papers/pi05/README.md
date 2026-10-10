@@ -1,8 +1,8 @@
 # π₀.₅: a Vision-Language-Action Model with Open-World Generalization
 
-本版阅读优先顺序：94；综合分：50.2–80.2 / 100；已评分权重：70%。
+**π₀.₅** · CoRL 2025 · 本版排名 97 · 综合分 **77.2 / 100**
 
-[原文](https://arxiv.org/abs/2504.16054) · [PDF](https://arxiv.org/pdf/2504.16054) · [阅读卡片](../../../library/pi05.md)
+[原文](https://proceedings.mlr.press/v305/black25a.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v305/main/assets/black25a/black25a.pdf) · [阅读卡片](../../../library/pi05.md)
 
 ## 机制简析
 
@@ -14,13 +14,16 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 待核验 | 30% |
+| 发表与刊会 | 90.0 | 30% |
 | 创新性 | 88 | 20% |
 | 实验与证据 | 84 | 20% |
 | 学术影响 | 17.3 | 10% |
@@ -28,7 +31,7 @@
 | 复用价值 | 80 | 8% |
 | 阅读价值 | 93 | 7% |
 
-刊会维度等待正式录用/出版的可核验记录；预印本不按目标刊会计分。
+刊会依据：[CoRL 2025](../../../venues/CoRL/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v305/black25a.html)；采用2026-10-10刊会快照。
 
 
 编辑深度：选题初读；评分记录：2026-10-10。

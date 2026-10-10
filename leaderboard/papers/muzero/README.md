@@ -1,6 +1,6 @@
 # Mastering Atari, Go, chess and shogi by planning with a learned model
 
-本版阅读优先顺序：7；综合分：95.1 / 100；已评分权重：100%。
+**MuZero** · Nature 2020 · 本版排名 7 · 综合分 **95.1 / 100**
 
 [原文](https://www.nature.com/articles/s41586-020-03051-4) · [PDF](https://arxiv.org/pdf/1911.08265) · [阅读卡片](../../../library/muzero.md)
 
@@ -14,13 +14,16 @@
 
 ## 七维评分
 
-![七维雷达：加载时展开一次，随后静止](radar.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="radar-dark.gif">
+  <img src="radar.gif" alt="透明七维雷达，展开一次后静止" width="760">
+</picture>
 
-打开时从中心展开一次，结束后保持最终形状。[直接查看静态图](radar.svg)。加载与再次打开的播放时机取决于浏览器缓存。
+[透明静态图](radar.svg) · [深色静态图](radar-dark.svg)
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 刊会质量 | 96.8 | 30% |
+| 发表与刊会 | 96.8 | 30% |
 | 创新性 | 98 | 20% |
 | 实验与证据 | 94 | 20% |
 | 学术影响 | 88.6 | 10% |

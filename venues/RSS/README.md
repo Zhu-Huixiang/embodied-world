@@ -30,6 +30,10 @@ RSS 主会、RSS workshop 与机器人学习子方向要分开。这里按主会
 
 ## 本仓收录论文
 
+## 2026
+
+- [Causal World Modeling for Robot Control](2026/lingbot-va.md)
+
 ## 2025
 
 - [FAST: Efficient Action Tokenization for Vision-Language-Action Models](2025/fast.md)
