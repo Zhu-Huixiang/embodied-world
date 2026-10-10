@@ -4,7 +4,7 @@
 
 研究范围：人形全身低层控制。
 
-[原文入口](https://hover-versatile-humanoid.github.io/) · [原文 PDF](https://arxiv.org/pdf/2410.21229) · [作者项目 / 代码入口](https://hover-versatile-humanoid.github.io/)
+[原文入口](https://hover-versatile-humanoid.github.io/) · [原文 PDF](https://arxiv.org/pdf/2410.21229) · [作者项目 / 代码入口](https://hover-versatile-humanoid.github.io/) · [作者与团队](../leaderboard/origins/papers/hover.md)
 
 ICRA 2025；不是 RSS。统一的是预设低层命令模式，不等于自动高层模式决策。
 

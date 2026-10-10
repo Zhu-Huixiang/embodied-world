@@ -4,7 +4,7 @@
 
 研究范围：粗到细多视图操作、精密插入与系统效率。
 
-[原文入口](https://www.roboticsproceedings.org/rss20/p055.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p055.pdf) · [作者项目 / 代码入口](https://robotic-view-transformer-2.github.io/)
+[原文入口](https://www.roboticsproceedings.org/rss20/p055.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p055.pdf) · [作者项目 / 代码入口](https://robotic-view-transformer-2.github.io/) · [作者与团队](../leaderboard/origins/papers/rvt2.md)
 
 RSS 2024；项目标题 Few Examples 与正式论文 Few Demonstrations 同一工作。不同训练设置的 RLBench 数字应逐表引用。
 

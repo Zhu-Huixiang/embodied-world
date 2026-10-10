@@ -1,0 +1,1890 @@
+{
+  "methodology_version": 2,
+  "checked_at": "2026-10-10",
+  "dimensions": [
+    {
+      "key": "venue",
+      "label": "发表与刊会",
+      "weight": 30,
+      "maximum": 100
+    },
+    {
+      "key": "innovation",
+      "label": "创新性",
+      "weight": 20,
+      "maximum": 100
+    },
+    {
+      "key": "evidence",
+      "label": "实验与证据",
+      "weight": 20,
+      "maximum": 100
+    },
+    {
+      "key": "influence",
+      "label": "学术影响",
+      "weight": 10,
+      "maximum": 100
+    },
+    {
+      "key": "attention",
+      "label": "近期关注",
+      "weight": 5,
+      "maximum": 100
+    },
+    {
+      "key": "reuse",
+      "label": "复用价值",
+      "weight": 8,
+      "maximum": 100
+    },
+    {
+      "key": "reading",
+      "label": "阅读价值",
+      "weight": 7,
+      "maximum": 100
+    }
+  ],
+  "papers": [
+    {
+      "id": "clip",
+      "short_name": "CLIP",
+      "rank": 1,
+      "scores": {
+        "innovation": 96,
+        "evidence": 95,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 96.4,
+      "score_exact": "96.41"
+    },
+    {
+      "id": "ddpm",
+      "short_name": "DDPM",
+      "rank": 2,
+      "scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 99,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 95.9,
+      "score_exact": "95.88"
+    },
+    {
+      "id": "latent-diffusion",
+      "short_name": "Latent Diffusion",
+      "rank": 3,
+      "scores": {
+        "innovation": 94,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 95.8,
+      "score_exact": "95.81"
+    },
+    {
+      "id": "vit",
+      "short_name": "ViT",
+      "rank": 4,
+      "scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 99,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 95.7,
+      "score_exact": "95.74"
+    },
+    {
+      "id": "sam",
+      "short_name": "SAM",
+      "rank": 5,
+      "scores": {
+        "innovation": 90,
+        "evidence": 96,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 95.3,
+      "score_exact": "95.27"
+    },
+    {
+      "id": "mae",
+      "short_name": "MAE",
+      "rank": 6,
+      "scores": {
+        "innovation": 91,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 95.3,
+      "score_exact": "95.26"
+    },
+    {
+      "id": "muzero",
+      "short_name": "MuZero",
+      "rank": 7,
+      "scores": {
+        "innovation": 98,
+        "evidence": 94,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 96.8,
+        "influence": 88.6,
+        "attention": 95.9
+      },
+      "score": 95.1,
+      "score_exact": "95.085"
+    },
+    {
+      "id": "attention",
+      "short_name": "Transformer",
+      "rank": 8,
+      "scores": {
+        "innovation": 99,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 95,
+        "attention": 60
+      },
+      "score": 94.3,
+      "score_exact": "94.31"
+    },
+    {
+      "id": "dino",
+      "short_name": "DINO",
+      "rank": 9,
+      "scores": {
+        "innovation": 93,
+        "evidence": 90,
+        "reuse": 96,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 94.3,
+      "score_exact": "94.29"
+    },
+    {
+      "id": "gaussian-splatting",
+      "short_name": "3DGS",
+      "rank": 10,
+      "scores": {
+        "innovation": 95,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 94.3,
+      "score_exact": "94.29"
+    },
+    {
+      "id": "dit",
+      "short_name": "DiT",
+      "rank": 11,
+      "scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 95.3,
+        "attention": 100
+      },
+      "score": 94.2,
+      "score_exact": "94.19"
+    },
+    {
+      "id": "diffusion-policy",
+      "short_name": "Diffusion Policy",
+      "rank": 12,
+      "scores": {
+        "innovation": 96,
+        "evidence": 91,
+        "reuse": 95,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 78.1,
+        "attention": 96.6
+      },
+      "score": 93.0,
+      "score_exact": "93.00"
+    },
+    {
+      "id": "nerf",
+      "short_name": "NeRF",
+      "rank": 13,
+      "scores": {
+        "innovation": 97,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 83.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "score": 92.4,
+      "score_exact": "92.39"
+    },
+    {
+      "id": "dreamerv3",
+      "short_name": "DreamerV3",
+      "rank": 14,
+      "scores": {
+        "innovation": 94,
+        "evidence": 96,
+        "reuse": 95,
+        "reading": 98,
+        "venue": 96.8,
+        "influence": 63.8,
+        "attention": 82.2
+      },
+      "score": 92.0,
+      "score_exact": "91.99"
+    },
+    {
+      "id": "act",
+      "short_name": "ACT / ALOHA",
+      "rank": 15,
+      "scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 80.5,
+        "attention": 100
+      },
+      "score": 91.9,
+      "score_exact": "91.91"
+    },
+    {
+      "id": "rma",
+      "short_name": "RMA",
+      "rank": 16,
+      "scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 88,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 77.9,
+        "attention": 89.6
+      },
+      "score": 91.7,
+      "score_exact": "91.73"
+    },
+    {
+      "id": "rt1",
+      "short_name": "RT-1",
+      "rank": 17,
+      "scores": {
+        "innovation": 91,
+        "evidence": 92,
+        "reuse": 86,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 80.9,
+        "attention": 98.8
+      },
+      "score": 91.7,
+      "score_exact": "91.66"
+    },
+    {
+      "id": "perceptive-loco",
+      "short_name": "Perceptive Locomotion",
+      "rank": 18,
+      "scores": {
+        "innovation": 93,
+        "evidence": 95,
+        "reuse": 77,
+        "reading": 92,
+        "venue": 92.7,
+        "influence": 83.7,
+        "attention": 95.9
+      },
+      "score": 91.2,
+      "score_exact": "91.175"
+    },
+    {
+      "id": "umi",
+      "short_name": "UMI",
+      "rank": 19,
+      "scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 64.5,
+        "attention": 81.7
+      },
+      "score": 91.1,
+      "score_exact": "91.135"
+    },
+    {
+      "id": "cql",
+      "short_name": "CQL",
+      "rank": 20,
+      "scores": {
+        "innovation": 95,
+        "evidence": 89,
+        "reuse": 97,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 78.9,
+        "attention": 70.5
+      },
+      "score": 91.1,
+      "score_exact": "91.125"
+    },
+    {
+      "id": "deepmimic",
+      "short_name": "DeepMimic",
+      "rank": 21,
+      "scores": {
+        "innovation": 96,
+        "evidence": 88,
+        "reuse": 93,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 85.1,
+        "attention": 85.8
+      },
+      "score": 90.8,
+      "score_exact": "90.81"
+    },
+    {
+      "id": "dinov2",
+      "short_name": "DINOv2",
+      "rank": 22,
+      "scores": {
+        "innovation": 88,
+        "evidence": 96,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 85.0,
+        "influence": 86.9,
+        "attention": 99.9
+      },
+      "score": 90.7,
+      "score_exact": "90.695"
+    },
+    {
+      "id": "edm",
+      "short_name": "EDM",
+      "rank": 23,
+      "scores": {
+        "innovation": 89,
+        "evidence": 95,
+        "reuse": 96,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 67.6,
+        "attention": 86.8
+      },
+      "score": 90.7,
+      "score_exact": "90.66"
+    },
+    {
+      "id": "sam2",
+      "short_name": "SAM 2",
+      "rank": 24,
+      "scores": {
+        "innovation": 87,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 69.7,
+        "attention": 88.8
+      },
+      "score": 90.6,
+      "score_exact": "90.59"
+    },
+    {
+      "id": "i-jepa",
+      "short_name": "I-JEPA",
+      "rank": 25,
+      "scores": {
+        "innovation": 88,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 75.2,
+        "attention": 92.0
+      },
+      "score": 90.1,
+      "score_exact": "90.10"
+    },
+    {
+      "id": "decision-transformer",
+      "short_name": "Decision Transformer",
+      "rank": 26,
+      "scores": {
+        "innovation": 95,
+        "evidence": 84,
+        "reuse": 95,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 76.6,
+        "attention": 72.4
+      },
+      "score": 90.0,
+      "score_exact": "89.97"
+    },
+    {
+      "id": "flow-matching",
+      "short_name": "Flow Matching",
+      "rank": 27,
+      "scores": {
+        "innovation": 95,
+        "evidence": 92,
+        "reuse": 98,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 58.4,
+        "attention": 70.5
+      },
+      "score": 90.0,
+      "score_exact": "89.965"
+    },
+    {
+      "id": "video-diffusion",
+      "short_name": "Video Diffusion",
+      "rank": 28,
+      "scores": {
+        "innovation": 91,
+        "evidence": 91,
+        "reuse": 89,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 67.6,
+        "attention": 86.6
+      },
+      "score": 89.8,
+      "score_exact": "89.83"
+    },
+    {
+      "id": "droid",
+      "short_name": "DROID",
+      "rank": 29,
+      "scores": {
+        "innovation": 88,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 61.9,
+        "attention": 79.3
+      },
+      "score": 89.4,
+      "score_exact": "89.355"
+    },
+    {
+      "id": "amp",
+      "short_name": "AMP",
+      "rank": 30,
+      "scores": {
+        "innovation": 94,
+        "evidence": 88,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 90.4,
+        "influence": 74.7,
+        "attention": 83.4
+      },
+      "score": 89.2,
+      "score_exact": "89.15"
+    },
+    {
+      "id": "agile-flight",
+      "short_name": "Agile Flight",
+      "rank": 31,
+      "scores": {
+        "innovation": 92,
+        "evidence": 94,
+        "reuse": 83,
+        "reading": 84,
+        "venue": 92.7,
+        "influence": 74.0,
+        "attention": 83.5
+      },
+      "score": 89.1,
+      "score_exact": "89.105"
+    },
+    {
+      "id": "pi0",
+      "short_name": "π₀",
+      "rank": 32,
+      "scores": {
+        "innovation": 90,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 69.5,
+        "attention": 89.5
+      },
+      "score": 89.0,
+      "score_exact": "89.015"
+    },
+    {
+      "id": "anymal-parkour",
+      "short_name": "ANYmal Parkour",
+      "rank": 33,
+      "scores": {
+        "innovation": 90,
+        "evidence": 94,
+        "reuse": 82,
+        "reading": 94,
+        "venue": 92.7,
+        "influence": 69.5,
+        "attention": 86.0
+      },
+      "score": 89.0,
+      "score_exact": "89.00"
+    },
+    {
+      "id": "libero",
+      "short_name": "LIBERO",
+      "rank": 34,
+      "scores": {
+        "innovation": 88,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 57.9,
+        "attention": 74.6
+      },
+      "score": 88.7,
+      "score_exact": "88.72"
+    },
+    {
+      "id": "saycan",
+      "short_name": "SayCan",
+      "rank": 35,
+      "scores": {
+        "innovation": 94,
+        "evidence": 89,
+        "reuse": 79,
+        "reading": 96,
+        "venue": 90.0,
+        "influence": 78.0,
+        "attention": 78.8
+      },
+      "score": 88.4,
+      "score_exact": "88.38"
+    },
+    {
+      "id": "bipedal-soccer",
+      "short_name": "Bipedal Soccer",
+      "rank": 36,
+      "scores": {
+        "innovation": 91,
+        "evidence": 93,
+        "reuse": 83,
+        "reading": 96,
+        "venue": 92.7,
+        "influence": 64.3,
+        "attention": 78.7
+      },
+      "score": 88.3,
+      "score_exact": "88.335"
+    },
+    {
+      "id": "octo",
+      "short_name": "Octo",
+      "rank": 37,
+      "scores": {
+        "innovation": 87,
+        "evidence": 91,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 59.2,
+        "attention": 75.8
+      },
+      "score": 88.3,
+      "score_exact": "88.31"
+    },
+    {
+      "id": "dreamer",
+      "short_name": "Dreamer",
+      "rank": 38,
+      "scores": {
+        "innovation": 97,
+        "evidence": 89,
+        "reuse": 94,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 61.0,
+        "attention": 38.6
+      },
+      "score": 88.1,
+      "score_exact": "88.11"
+    },
+    {
+      "id": "ddim",
+      "short_name": "DDIM",
+      "rank": 39,
+      "scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 57.9,
+        "attention": 59.3
+      },
+      "score": 88.1,
+      "score_exact": "88.085"
+    },
+    {
+      "id": "iql",
+      "short_name": "IQL",
+      "rank": 40,
+      "scores": {
+        "innovation": 92,
+        "evidence": 88,
+        "reuse": 96,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 61.0,
+        "attention": 54.7
+      },
+      "score": 87.7,
+      "score_exact": "87.665"
+    },
+    {
+      "id": "phc",
+      "short_name": "PHC",
+      "rank": 41,
+      "scores": {
+        "innovation": 90,
+        "evidence": 90,
+        "reuse": 96,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 54.4,
+        "attention": 66.4
+      },
+      "score": 87.5,
+      "score_exact": "87.52"
+    },
+    {
+      "id": "rectified-flow",
+      "short_name": "Rectified Flow",
+      "rank": 42,
+      "scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 95,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 55.2,
+        "attention": 57.2
+      },
+      "score": 87.4,
+      "score_exact": "87.40"
+    },
+    {
+      "id": "asap",
+      "short_name": "ASAP",
+      "rank": 43,
+      "scores": {
+        "innovation": 91,
+        "evidence": 91,
+        "reuse": 91,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 50.0,
+        "attention": 64.5
+      },
+      "score": 87.1,
+      "score_exact": "87.125"
+    },
+    {
+      "id": "exbody",
+      "short_name": "ExBody",
+      "rank": 44,
+      "scores": {
+        "innovation": 87,
+        "evidence": 89,
+        "reuse": 91,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 56.3,
+        "attention": 70.1
+      },
+      "score": 86.7,
+      "score_exact": "86.695"
+    },
+    {
+      "id": "dp3",
+      "short_name": "DP3",
+      "rank": 45,
+      "scores": {
+        "innovation": 84,
+        "evidence": 84,
+        "reuse": 90,
+        "reading": 89,
+        "venue": 95.0,
+        "influence": 67.0,
+        "attention": 85.7
+      },
+      "score": 86.5,
+      "score_exact": "86.515"
+    },
+    {
+      "id": "palm-e",
+      "short_name": "PaLM-E",
+      "rank": 46,
+      "scores": {
+        "innovation": 92,
+        "evidence": 88,
+        "reuse": 55,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 73.1,
+        "attention": 71.3
+      },
+      "score": 86.4,
+      "score_exact": "86.355"
+    },
+    {
+      "id": "diffusion-forcing",
+      "short_name": "Diffusion Forcing",
+      "rank": 47,
+      "scores": {
+        "innovation": 95,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 49.1,
+        "attention": 63.2
+      },
+      "score": 86.3,
+      "score_exact": "86.34"
+    },
+    {
+      "id": "isaac-gym",
+      "short_name": "Isaac Gym",
+      "rank": 48,
+      "scores": {
+        "innovation": 92,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 50.9,
+        "attention": 49.0
+      },
+      "score": 86.3,
+      "score_exact": "86.31"
+    },
+    {
+      "id": "ase",
+      "short_name": "ASE",
+      "rank": 49,
+      "scores": {
+        "innovation": 90,
+        "evidence": 86,
+        "reuse": 88,
+        "reading": 91,
+        "venue": 90.4,
+        "influence": 67.4,
+        "attention": 75.0
+      },
+      "score": 86.2,
+      "score_exact": "86.22"
+    },
+    {
+      "id": "diffuser",
+      "short_name": "Diffuser",
+      "rank": 50,
+      "scores": {
+        "innovation": 95,
+        "evidence": 85,
+        "reuse": 94,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 50.9,
+        "attention": 43.6
+      },
+      "score": 86.1,
+      "score_exact": "86.08"
+    },
+    {
+      "id": "consistency-models",
+      "short_name": "Consistency Models",
+      "rank": 51,
+      "scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 96,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 39.2,
+        "attention": 37.0
+      },
+      "score": 86.1,
+      "score_exact": "86.07"
+    },
+    {
+      "id": "vima",
+      "short_name": "VIMA",
+      "rank": 52,
+      "scores": {
+        "innovation": 91,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 52.1,
+        "attention": 45.6
+      },
+      "score": 85.8,
+      "score_exact": "85.79"
+    },
+    {
+      "id": "rvt2",
+      "short_name": "RVT-2",
+      "rank": 53,
+      "scores": {
+        "innovation": 86,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 48.6,
+        "attention": 62.6
+      },
+      "score": 85.8,
+      "score_exact": "85.78"
+    },
+    {
+      "id": "rtx",
+      "short_name": "Open X-Embodiment",
+      "rank": 54,
+      "scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 83.0,
+        "influence": 57.9,
+        "attention": 58.5
+      },
+      "score": 85.6,
+      "score_exact": "85.645"
+    },
+    {
+      "id": "td3-bc",
+      "short_name": "TD3+BC",
+      "rank": 55,
+      "scores": {
+        "innovation": 82,
+        "evidence": 87,
+        "reuse": 96,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 63.5,
+        "attention": 56.7
+      },
+      "score": 85.6,
+      "score_exact": "85.605"
+    },
+    {
+      "id": "transporter",
+      "short_name": "Transporter",
+      "rank": 56,
+      "scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 46.1,
+        "attention": 31.3
+      },
+      "score": 85.4,
+      "score_exact": "85.405"
+    },
+    {
+      "id": "walk-in-the-park",
+      "short_name": "Walk in the Park",
+      "rank": 57,
+      "scores": {
+        "innovation": 86,
+        "evidence": 91,
+        "reuse": 91,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 49.3,
+        "attention": 51.1
+      },
+      "score": 85.3,
+      "score_exact": "85.315"
+    },
+    {
+      "id": "robomimic",
+      "short_name": "robomimic",
+      "rank": 58,
+      "scores": {
+        "innovation": 84,
+        "evidence": 95,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 60,
+        "attention": 40
+      },
+      "score": 85.3,
+      "score_exact": "85.30"
+    },
+    {
+      "id": "extreme-parkour",
+      "short_name": "Extreme Parkour",
+      "rank": 59,
+      "scores": {
+        "innovation": 90,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "venue": 83.0,
+        "influence": 64.2,
+        "attention": 79.1
+      },
+      "score": 85.2,
+      "score_exact": "85.235"
+    },
+    {
+      "id": "maskedmimic",
+      "short_name": "MaskedMimic",
+      "rank": 60,
+      "scores": {
+        "innovation": 94,
+        "evidence": 88,
+        "reuse": 92,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 46.4,
+        "attention": 59.7
+      },
+      "score": 85.2,
+      "score_exact": "85.155"
+    },
+    {
+      "id": "cliport",
+      "short_name": "CLIPort",
+      "rank": 61,
+      "scores": {
+        "innovation": 91,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 96,
+        "venue": 90.0,
+        "influence": 56.5,
+        "attention": 45.6
+      },
+      "score": 85.0,
+      "score_exact": "85.01"
+    },
+    {
+      "id": "rt2",
+      "short_name": "RT-2",
+      "rank": 62,
+      "scores": {
+        "innovation": 94,
+        "evidence": 83,
+        "reuse": 68,
+        "reading": 91,
+        "venue": 90.0,
+        "influence": 69.8,
+        "attention": 75.5
+      },
+      "score": 85.0,
+      "score_exact": "84.965"
+    },
+    {
+      "id": "vip",
+      "short_name": "VIP",
+      "rank": 63,
+      "scores": {
+        "innovation": 93,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 44.8,
+        "attention": 28.8
+      },
+      "score": 85.0,
+      "score_exact": "84.96"
+    },
+    {
+      "id": "fast",
+      "short_name": "FAST",
+      "rank": 64,
+      "scores": {
+        "innovation": 89,
+        "evidence": 83,
+        "reuse": 85,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 51.9,
+        "attention": 66.9
+      },
+      "score": 84.7,
+      "score_exact": "84.745"
+    },
+    {
+      "id": "r3m",
+      "short_name": "R3M",
+      "rank": 65,
+      "scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 97,
+        "reading": 93,
+        "venue": 90.0,
+        "influence": 54.9,
+        "attention": 42.5
+      },
+      "score": 84.5,
+      "score_exact": "84.485"
+    },
+    {
+      "id": "trajectory-transformer",
+      "short_name": "Trajectory Transformer",
+      "rank": 66,
+      "scores": {
+        "innovation": 91,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 46.7,
+        "attention": 33.4
+      },
+      "score": 84.1,
+      "score_exact": "84.13"
+    },
+    {
+      "id": "vc1",
+      "short_name": "VC-1",
+      "rank": 67,
+      "scores": {
+        "innovation": 84,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 38.6,
+        "attention": 28.8
+      },
+      "score": 84.1,
+      "score_exact": "84.09"
+    },
+    {
+      "id": "peract",
+      "short_name": "PerAct",
+      "rank": 68,
+      "scores": {
+        "innovation": 92,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 47.8,
+        "attention": 37.0
+      },
+      "score": 84.0,
+      "score_exact": "83.97"
+    },
+    {
+      "id": "walk-in-minutes",
+      "short_name": "Legged Gym",
+      "rank": 69,
+      "scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 98,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 48.9,
+        "attention": 40.0
+      },
+      "score": 83.9,
+      "score_exact": "83.91"
+    },
+    {
+      "id": "self-forcing",
+      "short_name": "Self Forcing",
+      "rank": 70,
+      "scores": {
+        "innovation": 91,
+        "evidence": 84,
+        "reuse": 87,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 44.4,
+        "attention": 57.2
+      },
+      "score": 83.8,
+      "score_exact": "83.78"
+    },
+    {
+      "id": "td-mpc",
+      "short_name": "TD-MPC",
+      "rank": 71,
+      "scores": {
+        "innovation": 91,
+        "evidence": 86,
+        "reuse": 91,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 41.2,
+        "attention": 28.8
+      },
+      "score": 83.3,
+      "score_exact": "83.32"
+    },
+    {
+      "id": "td-mpc2",
+      "short_name": "TD-MPC2",
+      "rank": 72,
+      "scores": {
+        "innovation": 89,
+        "evidence": 92,
+        "reuse": 94,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 27.4,
+        "attention": 33.4
+      },
+      "score": 83.3,
+      "score_exact": "83.28"
+    },
+    {
+      "id": "phenaki",
+      "short_name": "Phenaki",
+      "rank": 73,
+      "scores": {
+        "innovation": 89,
+        "evidence": 87,
+        "reuse": 75,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 54.7,
+        "attention": 33.4
+      },
+      "score": 83.2,
+      "score_exact": "83.21"
+    },
+    {
+      "id": "mobile-aloha",
+      "short_name": "Mobile ALOHA",
+      "rank": 74,
+      "scores": {
+        "innovation": 87,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 42.9,
+        "attention": 44.6
+      },
+      "score": 83.2,
+      "score_exact": "83.15"
+    },
+    {
+      "id": "efficientzero",
+      "short_name": "EfficientZero",
+      "rank": 75,
+      "scores": {
+        "innovation": 89,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 46.1,
+        "attention": 25.9
+      },
+      "score": 83.1,
+      "score_exact": "83.085"
+    },
+    {
+      "id": "unipi",
+      "short_name": "UniPi",
+      "rank": 76,
+      "scores": {
+        "innovation": 93,
+        "evidence": 86,
+        "reuse": 80,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 33.8,
+        "attention": 42.5
+      },
+      "score": 82.9,
+      "score_exact": "82.925"
+    },
+    {
+      "id": "cal-ql",
+      "short_name": "Cal-QL",
+      "rank": 77,
+      "scores": {
+        "innovation": 87,
+        "evidence": 89,
+        "reuse": 90,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 33.8,
+        "attention": 43.6
+      },
+      "score": 82.9,
+      "score_exact": "82.90"
+    },
+    {
+      "id": "dreamwaq",
+      "short_name": "DreamWaQ",
+      "rank": 78,
+      "scores": {
+        "innovation": 86,
+        "evidence": 87,
+        "reuse": 83,
+        "reading": 93,
+        "venue": 83.0,
+        "influence": 63.4,
+        "attention": 77.9
+      },
+      "score": 82.9,
+      "score_exact": "82.885"
+    },
+    {
+      "id": "daydreamer",
+      "short_name": "DayDreamer",
+      "rank": 79,
+      "scores": {
+        "innovation": 87,
+        "evidence": 91,
+        "reuse": 89,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 48.1,
+        "attention": 33.4
+      },
+      "score": 82.9,
+      "score_exact": "82.85"
+    },
+    {
+      "id": "openvla",
+      "short_name": "OpenVLA",
+      "rank": 80,
+      "scores": {
+        "innovation": 83,
+        "evidence": 86,
+        "reuse": 93,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 47.8,
+        "attention": 60.5
+      },
+      "score": 82.5,
+      "score_exact": "82.485"
+    },
+    {
+      "id": "dreamerv2",
+      "short_name": "DreamerV2",
+      "rank": 81,
+      "scores": {
+        "innovation": 88,
+        "evidence": 89,
+        "reuse": 91,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 39.2,
+        "attention": 17.7
+      },
+      "score": 82.4,
+      "score_exact": "82.355"
+    },
+    {
+      "id": "deep-whole-body-control",
+      "short_name": "Deep WBC",
+      "rank": 82,
+      "scores": {
+        "innovation": 89,
+        "evidence": 89,
+        "reuse": 90,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 41.2,
+        "attention": 31.3
+      },
+      "score": 82.1,
+      "score_exact": "82.135"
+    },
+    {
+      "id": "cot-vla",
+      "short_name": "CoT-VLA",
+      "rank": 83,
+      "scores": {
+        "innovation": 86,
+        "evidence": 79,
+        "reuse": 73,
+        "reading": 87,
+        "venue": 95.0,
+        "influence": 52.1,
+        "attention": 67.1
+      },
+      "score": 82.0,
+      "score_exact": "81.995"
+    },
+    {
+      "id": "consistency-policy",
+      "short_name": "Consistency Policy",
+      "rank": 84,
+      "scores": {
+        "innovation": 81,
+        "evidence": 80,
+        "reuse": 82,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 49.8,
+        "attention": 64.2
+      },
+      "score": 81.5,
+      "score_exact": "81.47"
+    },
+    {
+      "id": "walk-these-ways",
+      "short_name": "Walk These Ways",
+      "rank": 85,
+      "scores": {
+        "innovation": 87,
+        "evidence": 87,
+        "reuse": 96,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 37.4,
+        "attention": 35.3
+      },
+      "score": 81.4,
+      "score_exact": "81.425"
+    },
+    {
+      "id": "mimicgen",
+      "short_name": "MimicGen",
+      "rank": 86,
+      "scores": {
+        "innovation": 91,
+        "evidence": 94,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 22.4,
+        "attention": 11.1
+      },
+      "score": 81.3,
+      "score_exact": "81.285"
+    },
+    {
+      "id": "sonic",
+      "short_name": "SONIC",
+      "rank": 87,
+      "scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 92.7,
+        "influence": 20.1,
+        "attention": 25.9
+      },
+      "score": 81.3,
+      "score_exact": "81.255"
+    },
+    {
+      "id": "robocasa",
+      "short_name": "RoboCasa",
+      "rank": 88,
+      "scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 97,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "score": 81.2,
+      "score_exact": "81.215"
+    },
+    {
+      "id": "vq-bet",
+      "short_name": "VQ-BeT",
+      "rank": 89,
+      "scores": {
+        "innovation": 88,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "score": 81.2,
+      "score_exact": "81.175"
+    },
+    {
+      "id": "learned-dynamics-review",
+      "short_name": "Dynamics Review",
+      "rank": 90,
+      "scores": {
+        "innovation": 76,
+        "evidence": 88,
+        "reuse": 91,
+        "reading": 96,
+        "venue": 92.7,
+        "influence": 38.6,
+        "attention": 49.7
+      },
+      "score": 81.0,
+      "score_exact": "80.955"
+    },
+    {
+      "id": "humanplus",
+      "short_name": "HumanPlus",
+      "rank": 91,
+      "scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 22.4,
+        "attention": 22.3
+      },
+      "score": 80.5,
+      "score_exact": "80.545"
+    },
+    {
+      "id": "bridge-v2",
+      "short_name": "BridgeData V2",
+      "rank": 92,
+      "scores": {
+        "innovation": 84,
+        "evidence": 91,
+        "reuse": 99,
+        "reading": 90,
+        "venue": 90.0,
+        "influence": 32.0,
+        "attention": 22.3
+      },
+      "score": 80.5,
+      "score_exact": "80.535"
+    },
+    {
+      "id": "hover",
+      "short_name": "HOVER",
+      "rank": 93,
+      "scores": {
+        "innovation": 88,
+        "evidence": 88,
+        "reuse": 90,
+        "reading": 93,
+        "venue": 83.0,
+        "influence": 40.2,
+        "attention": 51.8
+      },
+      "score": 80.4,
+      "score_exact": "80.42"
+    },
+    {
+      "id": "rvt",
+      "short_name": "RVT",
+      "rank": 94,
+      "scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 90,
+        "venue": 90.0,
+        "influence": 24.3,
+        "attention": 28.8
+      },
+      "score": 80.1,
+      "score_exact": "80.13"
+    },
+    {
+      "id": "lingbot-va",
+      "short_name": "LingBot-VA",
+      "rank": 95,
+      "scores": {
+        "innovation": 88,
+        "evidence": 87,
+        "reuse": 86,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 13.7,
+        "attention": 17.7
+      },
+      "score": 79.1,
+      "score_exact": "79.075"
+    },
+    {
+      "id": "videovla",
+      "short_name": "VideoVLA",
+      "rank": 96,
+      "scores": {
+        "innovation": 88,
+        "evidence": 82,
+        "reuse": 80,
+        "reading": 90,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "score": 78.0,
+      "score_exact": "78.045"
+    },
+    {
+      "id": "pi05",
+      "short_name": "π₀.₅",
+      "rank": 97,
+      "scores": {
+        "innovation": 88,
+        "evidence": 84,
+        "reuse": 80,
+        "reading": 93,
+        "venue": 90.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "score": 77.2,
+      "score_exact": "77.155"
+    },
+    {
+      "id": "ctrl-world",
+      "short_name": "Ctrl-World",
+      "rank": 98,
+      "scores": {
+        "innovation": 87,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 76.9,
+      "score_exact": "76.88"
+    },
+    {
+      "id": "omnih2o",
+      "short_name": "OmniH2O",
+      "rank": 99,
+      "scores": {
+        "innovation": 89,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 76.8,
+      "score_exact": "76.82"
+    },
+    {
+      "id": "cosmos-policy",
+      "short_name": "Cosmos Policy",
+      "rank": 100,
+      "scores": {
+        "innovation": 89,
+        "evidence": 82,
+        "reuse": 82,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 75.8,
+      "score_exact": "75.77"
+    },
+    {
+      "id": "efficientzero-v2",
+      "short_name": "EfficientZero V2",
+      "rank": 101,
+      "scores": {
+        "innovation": 84,
+        "evidence": 87,
+        "reuse": 78,
+        "reading": 87,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 75.0,
+      "score_exact": "75.03"
+    },
+    {
+      "id": "vjepa2",
+      "short_name": "V-JEPA 2",
+      "rank": 102,
+      "scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 97,
+        "venue": 0,
+        "influence": 22.4,
+        "attention": 28.8
+      },
+      "score": 54.1,
+      "score_exact": "54.11"
+    },
+    {
+      "id": "gr00t-n1",
+      "short_name": "GR00T N1",
+      "rank": 103,
+      "scores": {
+        "innovation": 86,
+        "evidence": 86,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 0,
+        "influence": 22.4,
+        "attention": 28.8
+      },
+      "score": 51.9,
+      "score_exact": "51.88"
+    },
+    {
+      "id": "lewm",
+      "short_name": "LeWM",
+      "rank": 104,
+      "scores": {
+        "innovation": 89,
+        "evidence": 83,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 48.2,
+      "score_exact": "48.20"
+    },
+    {
+      "id": "dreamzero",
+      "short_name": "DreamZero",
+      "rank": 105,
+      "scores": {
+        "innovation": 93,
+        "evidence": 82,
+        "reuse": 79,
+        "reading": 95,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 48.0,
+      "score_exact": "47.97"
+    },
+    {
+      "id": "egoscale",
+      "short_name": "EgoScale",
+      "rank": 106,
+      "scores": {
+        "innovation": 89,
+        "evidence": 84,
+        "reuse": 78,
+        "reading": 92,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 47.3,
+      "score_exact": "47.28"
+    },
+    {
+      "id": "modar",
+      "short_name": "ModAR",
+      "rank": 107,
+      "scores": {
+        "innovation": 88,
+        "evidence": 85,
+        "reuse": 72,
+        "reading": 94,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 46.9,
+      "score_exact": "46.94"
+    },
+    {
+      "id": "viola",
+      "short_name": "VIOLA",
+      "rank": 108,
+      "scores": {
+        "innovation": 91,
+        "evidence": 79,
+        "reuse": 65,
+        "reading": 94,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 45.8,
+      "score_exact": "45.78"
+    },
+    {
+      "id": "lewam",
+      "short_name": "LeWAM",
+      "rank": 109,
+      "scores": {
+        "innovation": 91,
+        "evidence": 76,
+        "reuse": 64,
+        "reading": 94,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 45.1,
+      "score_exact": "45.10"
+    },
+    {
+      "id": "holo-m",
+      "short_name": "Holo-M",
+      "rank": 110,
+      "scores": {
+        "innovation": 86,
+        "evidence": 78,
+        "reuse": 65,
+        "reading": 90,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "score": 44.3,
+      "score_exact": "44.3"
+    },
+    {
+      "id": "dex-one2many",
+      "short_name": "Dex-One2Many",
+      "rank": 111,
+      "scores": {
+        "innovation": 88,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 44.2,
+      "score_exact": "44.23"
+    },
+    {
+      "id": "arc",
+      "short_name": "ARC",
+      "rank": 112,
+      "scores": {
+        "innovation": 87,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 91,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 44.2,
+      "score_exact": "44.17"
+    },
+    {
+      "id": "balanced-data-diet",
+      "short_name": "Balanced Data Diet",
+      "rank": 113,
+      "scores": {
+        "innovation": 85,
+        "evidence": 77,
+        "reuse": 68,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 44.1,
+      "score_exact": "44.07"
+    },
+    {
+      "id": "dreamtrue",
+      "short_name": "DreamTrue",
+      "rank": 114,
+      "scores": {
+        "innovation": 87,
+        "evidence": 74,
+        "reuse": 62,
+        "reading": 91,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 43.5,
+      "score_exact": "43.53"
+    },
+    {
+      "id": "plaw-vla",
+      "short_name": "PLaW-VLA",
+      "rank": 115,
+      "scores": {
+        "innovation": 84,
+        "evidence": 75,
+        "reuse": 63,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 43.1,
+      "score_exact": "43.07"
+    }
+  ]
+}

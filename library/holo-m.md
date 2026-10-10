@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://arxiv.org/abs/2609.35709v1) · [原文 PDF](https://arxiv.org/pdf/2609.35709v1) · [作者项目 / 代码入口](https://horizonrobotics.github.io/gail/Holo-M/)
+[原文入口](https://arxiv.org/abs/2609.35709v1) · [原文 PDF](https://arxiv.org/pdf/2609.35709v1) · [作者项目 / 代码入口](https://horizonrobotics.github.io/gail/Holo-M/) · [作者与团队](../leaderboard/origins/papers/holo-m.md)
 
 ## 先看它做了什么
 

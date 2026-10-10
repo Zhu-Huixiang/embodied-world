@@ -4,7 +4,7 @@
 
 研究范围：VQ-BeT、残差向量量化与多模态行为生成。
 
-[原文入口](https://proceedings.mlr.press/v235/lee24y.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf) · [作者项目 / 代码入口](https://sjlee.cc/vq-bet/)
+[原文入口](https://proceedings.mlr.press/v235/lee24y.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf) · [作者项目 / 代码入口](https://sjlee.cc/vq-bet/) · [作者与团队](../leaderboard/origins/papers/vq-bet.md)
 
 ICML 2024 正式版，作者项目记 Spotlight；不是 RSS。原文不同设置的速度比不同，不能把某一速度倍率套全篇。
 

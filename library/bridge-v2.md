@@ -4,7 +4,7 @@
 
 研究范围：多环境真实操作数据、语言/目标条件策略与泛化。
 
-[原文入口](https://proceedings.mlr.press/v229/walke23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/walke23a/walke23a.pdf) · [作者项目 / 代码入口](https://rail-berkeley.github.io/bridgedata/)
+[原文入口](https://proceedings.mlr.press/v229/walke23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/walke23a/walke23a.pdf) · [作者项目 / 代码入口](https://rail-berkeley.github.io/bridgedata/) · [作者与团队](../leaderboard/origins/papers/bridge-v2.md)
 
 PMLR HTML 摘要记 53,896 轨迹，正式 PDF/当前项目页记 60,096；精读固定版并逐项核对，不混抄数据总量。
 

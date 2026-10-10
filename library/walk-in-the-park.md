@@ -4,7 +4,7 @@
 
 研究范围：实机在线 model-free RL；四足行走。
 
-[原文入口](https://www.roboticsproceedings.org/rss19/p056.html) · [原文 PDF](https://www.roboticsproceedings.org/rss19/p056.pdf) · [作者项目 / 代码入口](https://sites.google.com/berkeley.edu/walk-in-the-park)
+[原文入口](https://www.roboticsproceedings.org/rss19/p056.html) · [原文 PDF](https://www.roboticsproceedings.org/rss19/p056.pdf) · [作者项目 / 代码入口](https://sites.google.com/berkeley.edu/walk-in-the-park) · [作者与团队](../leaderboard/origins/papers/walk-in-the-park.md)
 
 RSS 2023 正式篇名含 Demonstrating；不要与题名略异的早期 arXiv 版直接拼接引用。正式 PDF 作者次序 Laura Smith、Ilya Kostrikov、Sergey Levine，proceedings HTML 作者次序不同，计量优先 DOI/正式篇名。
 

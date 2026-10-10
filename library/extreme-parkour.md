@@ -4,7 +4,7 @@
 
 研究范围：视觉四足跑酷与 sim-to-real。
 
-[原文入口](https://ieeexplore.ieee.org/document/10610200) · [原文 PDF](https://extreme-parkour.github.io/resources/parkour.pdf) · [作者项目 / 代码入口](https://extreme-parkour.github.io/)
+[原文入口](https://ieeexplore.ieee.org/document/10610200) · [原文 PDF](https://extreme-parkour.github.io/resources/parkour.pdf) · [作者项目 / 代码入口](https://extreme-parkour.github.io/) · [作者与团队](../leaderboard/origins/papers/extreme-parkour.md)
 
 IEEE 向 Crossref 登记的题名与 DOI 对应 2024 IEEE International Conference on Robotics and Automation (ICRA)，published 日期 2024-05-13；IEEE Xplore document 10610200 对应同一题名。项目所列 CoRL 2023 是 Generalist/Roboletics/Deployable Workshop，不按 CoRL 主会归档。
 

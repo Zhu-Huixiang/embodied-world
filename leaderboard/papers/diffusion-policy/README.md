@@ -1,10 +1,12 @@
 # Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 
-**Diffusion Policy** · RSS 2023 · 本版排名 12 · 综合分 **93.0 / 100**
+**Diffusion Policy** · RSS 2023 · 本版排名 12 · 综合分 **92.6 / 100**
 
 [解读导读](../../../library/diffusion-policy.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
 [原文](https://www.roboticsproceedings.org/rss19/p026.html) · [PDF](https://www.roboticsproceedings.org/rss19/p026.pdf) · [阅读卡片](../../../library/diffusion-policy.md)
+
+论文出处：[Cheng Chi · Shuran Song 原 Columbia Robotics & Embodied AI 团队（历史署名） / Columbia University 等4个出处](../../origins/papers/diffusion-policy.md)
 
 ## 机制简析
 
@@ -25,21 +27,39 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 96 | 20% |
 | 实验与证据 | 91 | 20% |
 | 学术影响 | 78.1 | 10% |
-| 近期关注 | 96.6 | 5% |
+| 近期关注 | 87.8 | 5% |
 | 复用价值 | 95 | 8% |
 | 阅读价值 | 98 | 7% |
 
 刊会依据：[RSS 2023](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss19/p026.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：选题初读；评分记录：2026-10-10。
 
-计量版本：正式刊会版本；OpenAlex题目：Diffusion Policy: Visuomotor Policy Learning via Action Diffusion。累计被引 517，2025–2026 被引 405；快照：2026-10-09T18:35:28+08:00。
+计量来源：OpenAlex；正式刊会版本；匹配题目：Diffusion Policy: Visuomotor Policy Learning via Action Diffusion。累计被引 **517**，2025–2026 被引 **405**；快照：2026-10-09T18:35:28+08:00。
 
 [指标记录](https://api.openalex.org/works/W4385403811) · [文献计量条目](https://openalex.org/W4385403811)
 
+### 影响与关注的计算依据
+
+- **学术影响 78.1**：身份匹配的累计引用C=517，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4385403811)
+- **近期关注 87.8**：huggingface 的论文专属入口：HF 最近30天下载=24473；按100000上限对数压缩。 [依据1](https://huggingface.co/api/datasets/lerobot/pusht) · [依据2](https://huggingface.co/datasets/lerobot/pusht/raw/main/README.md) · [依据3](https://huggingface.co/datasets/lerobot/pusht)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/real-stanford/diffusion_policy) | GitHub Star 4618；GitHub Watch订阅 20；GitHub Fork 853 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/datasets/lerobot/pusht) | HF 最近30天下载 24473；HF 仓库累计点赞 59 | 单篇论文的第三方实现/数据格式转换，按此仓库统计；2026-09-11 至 2026-10-10（API最近30天；含首尾的日期标签，实际滚动边界未公开） / 截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/lerobot/diffusion_pusht) | HF 最近30天下载 8829；HF 仓库累计点赞 65 | 单篇论文的第三方实现/数据格式转换，按此仓库统计；2026-09-11 至 2026-10-10（API最近30天；含首尾的日期标签，实际滚动边界未公开） / 截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2303.04137) | HF 论文累计点赞 6 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

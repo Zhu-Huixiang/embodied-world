@@ -2497,7 +2497,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "π₀ 的连续动作生成采用 flow matching 路线，这篇给出路径、目标速度与回归训练的数学基础，具身联系直接。",
       "evidence_summary": "目标等价关系与路径选择构成明确创新，图像对照和通用实现完善；连续动作流匹配教程需要先把这套对象定义清楚。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "project_label": "后续 Flow Matching Guide 代码库（2024）"
     },
     {
       "id": "rectified-flow",

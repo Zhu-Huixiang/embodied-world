@@ -4,7 +4,7 @@
 
 研究范围：VC-1、CortexBench 与跨具身任务视觉预训练评测。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/022ca1bed6b574b962c48a2856eb207b-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/022ca1bed6b574b962c48a2856eb207b-Paper-Conference.pdf) · [作者项目 / 代码入口](https://eai-vc.github.io/)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/022ca1bed6b574b962c48a2856eb207b-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/022ca1bed6b574b962c48a2856eb207b-Paper-Conference.pdf) · [作者项目 / 代码入口](https://eai-vc.github.io/) · [作者与团队](../leaderboard/origins/papers/vc1.md)
 
 NeurIPS 2023 正式版。项目与论文数据图像总量可能不同，精读使用固定正式版；平均优势与逐任务优势分开。
 

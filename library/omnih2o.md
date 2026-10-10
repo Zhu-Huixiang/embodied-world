@@ -4,7 +4,7 @@
 
 研究范围：人形全身遥操作、控制与自主模仿。
 
-[原文入口](https://proceedings.mlr.press/v270/he25b.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf) · [作者项目 / 代码入口](https://omni.human2humanoid.com/)
+[原文入口](https://proceedings.mlr.press/v270/he25b.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf) · [作者项目 / 代码入口](https://omni.human2humanoid.com/) · [作者与团队](../leaderboard/origins/papers/omnih2o.md)
 
 CoRL 2024；PMLR 270 论文集出版年为 2025。
 

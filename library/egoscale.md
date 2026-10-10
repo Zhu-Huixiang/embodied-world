@@ -4,7 +4,7 @@
 
 研究范围：人类第一视角动作监督、灵巧手操作和跨本体迁移。
 
-[原文入口](https://arxiv.org/abs/2602.16710) · [原文 PDF](https://arxiv.org/pdf/2602.16710v1) · [作者项目 / 代码入口](https://research.nvidia.com/labs/gear/egoscale/)
+[原文入口](https://arxiv.org/abs/2602.16710) · [原文 PDF](https://arxiv.org/pdf/2602.16710v1) · [作者项目 / 代码入口](https://research.nvidia.com/labs/gear/egoscale/) · [作者与团队](../leaderboard/origins/papers/egoscale.md)
 
 独立原研究2602.16710；仅核到预印本。one-shot仍有100条对齐human demos/对象与aligned midtraining，不能写成单条示范裸迁移。G1下肢由独立Homie策略执行，不把上肢VLA当全身端到端控制。
 

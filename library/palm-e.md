@@ -4,7 +4,7 @@
 
 研究范围：连续感知到语言空间的具身多模态推理与高层操作规划。
 
-[原文入口](https://proceedings.mlr.press/v202/driess23a.html) · [原文 PDF](https://proceedings.mlr.press/v202/driess23a/driess23a.pdf) · [作者项目 / 代码入口](https://palm-e.github.io/)
+[原文入口](https://proceedings.mlr.press/v202/driess23a.html) · [原文 PDF](https://proceedings.mlr.press/v202/driess23a/driess23a.pdf) · [作者项目 / 代码入口](https://palm-e.github.io/) · [作者与团队](../leaderboard/origins/papers/palm-e.md)
 
 收录 ICML 2023 正式版。PaLM-E 产生文字计划，勿混写成 RT-2 式直接动作 token 策略。
 

@@ -4,7 +4,7 @@
 
 研究范围：UniPi、视频扩散规划与逆动力学控制。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/1d5b9233ad716a43be5c0d3023cb82d0-Paper-Conference.pdf) · [作者项目 / 代码入口](https://universal-policy.github.io/)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/1d5b9233ad716a43be5c0d3023cb82d0-Paper-Conference.pdf) · [作者项目 / 代码入口](https://universal-policy.github.io/) · [作者与团队](../leaderboard/origins/papers/unipi.md)
 
 NeurIPS 2023。互联网视频迁移段包含视觉计划生成，不能一概写成真实机器人闭环执行证明。项目页此次 Exa fetch 失败，方法与实验使用正式 PDF。
 

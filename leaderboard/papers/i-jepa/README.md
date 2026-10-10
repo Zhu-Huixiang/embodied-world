@@ -1,10 +1,12 @@
 # Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture
 
-**I-JEPA** · CVPR 2023 · 本版排名 25 · 综合分 **90.1 / 100**
+**I-JEPA** · CVPR 2023 · 本版排名 26 · 综合分 **90.0 / 100**
 
 [解读导读](../../../library/i-jepa.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [CVPR集锦](../../../venues/CVPR/README.md)
 
 [原文](https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf) · [阅读卡片](../../../library/i-jepa.md)
+
+论文出处：[Mahmoud Assran · Meta FAIR / McGill University 等4个出处](../../origins/papers/i-jepa.md)
 
 ## 机制简析
 
@@ -25,21 +27,38 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 88 | 20% |
 | 实验与证据 | 89 | 20% |
 | 学术影响 | 75.2 | 10% |
-| 近期关注 | 92.0 | 5% |
+| 近期关注 | 90.8 | 5% |
 | 复用价值 | 92 | 8% |
 | 阅读价值 | 96 | 7% |
 
 刊会依据：[CVPR 2023](../../../venues/CVPR/README.md)，正式出处见[出版/原文记录](https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：正式刊会版本；OpenAlex题目：Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture。累计被引 410，2025–2026 被引 304；快照：2026-10-10T09:50:37+08:00。
+计量来源：OpenAlex；正式刊会版本；匹配题目：Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture。累计被引 **410**，2025–2026 被引 **304**；快照：2026-10-10T09:50:37+08:00。
 
 [指标记录](https://api.openalex.org/works/W4386076428) · [文献计量条目](https://openalex.org/W4386076428)
 
+### 影响与关注的计算依据
+
+- **学术影响 75.2**：身份匹配的累计引用C=410，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4386076428)
+- **近期关注 90.8**：huggingface 的论文专属入口：HF 最近30天下载=34720；按100000上限对数压缩。 [依据1](https://huggingface.co/api/models/facebook/ijepa_vith14_1k) · [依据2](https://huggingface.co/facebook/ijepa_vith14_1k/raw/main/README.md) · [依据3](https://huggingface.co/facebook/ijepa_vith14_1k)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/facebookresearch/ijepa) | GitHub Star 3488；GitHub Watch订阅 9；GitHub Fork 529 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/facebook/ijepa_vith14_1k) | HF 最近30天下载 34720；HF 仓库累计点赞 20 | 单篇原研究权重的HF转换版，按此仓库统计；2026-09-11 至 2026-10-10（API最近30天；含首尾的日期标签，实际滚动边界未公开） / 截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2301.08243) | HF 论文累计点赞 7 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

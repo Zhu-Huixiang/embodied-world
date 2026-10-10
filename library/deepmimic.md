@@ -4,7 +4,7 @@
 
 研究范围：物理仿真角色；动作控制基础。
 
-[原文入口](https://xbpeng.github.io/projects/DeepMimic/) · [原文 PDF](https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf)
+[原文入口](https://xbpeng.github.io/projects/DeepMimic/) · [原文 PDF](https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf) · [作者与团队](../leaderboard/origins/papers/deepmimic.md)
 
 ## 先看它做了什么
 

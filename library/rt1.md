@@ -4,7 +4,7 @@
 
 研究范围：语言条件的多任务真实机器人操作与移动控制。
 
-[原文入口](https://www.roboticsproceedings.org/rss19/p025.html) · [原文 PDF](https://roboticsproceedings.org/rss19/p025.pdf) · [作者项目 / 代码入口](https://robotics-transformer1.github.io/)
+[原文入口](https://www.roboticsproceedings.org/rss19/p025.html) · [原文 PDF](https://roboticsproceedings.org/rss19/p025.pdf) · [作者项目 / 代码入口](https://robotics-transformer1.github.io/) · [作者与团队](../leaderboard/origins/papers/rt1.md)
 
 以 RSS 2023 正式论文为收录版，RT-1 与 RT-2 分条；不是把语言模型直接当低层控制器。
 

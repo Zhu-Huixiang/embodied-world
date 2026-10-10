@@ -4,7 +4,7 @@
 
 研究范围：Atari；模型强化学习基础。
 
-[原文入口](https://research.google/pubs/mastering-atari-with-discrete-world-models/) · [原文 PDF](https://arxiv.org/pdf/2010.02193) · [作者项目 / 代码入口](https://danijar.com/project/dreamerv2/)
+[原文入口](https://research.google/pubs/mastering-atari-with-discrete-world-models/) · [原文 PDF](https://arxiv.org/pdf/2010.02193) · [作者项目 / 代码入口](https://danijar.com/project/dreamerv2/) · [作者与团队](../leaderboard/origins/papers/dreamerv2.md)
 
 ## 先看它做了什么
 

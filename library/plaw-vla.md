@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://arxiv.org/abs/2610.12285v1) · [原文 PDF](https://arxiv.org/pdf/2610.12285v1) · [作者项目 / 代码入口](https://rainyrobo.github.io/PLaW-VLA)
+[原文入口](https://arxiv.org/abs/2610.12285v1) · [原文 PDF](https://arxiv.org/pdf/2610.12285v1) · [作者项目 / 代码入口](https://rainyrobo.github.io/PLaW-VLA) · [作者与团队](../leaderboard/origins/papers/plaw-vla.md)
 
 ## 先看它做了什么
 

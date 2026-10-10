@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，视频世界模型与视频动作模型的时空去噪结构。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf) · [作者项目 / 代码入口](https://video-diffusion.github.io/)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf) · [作者项目 / 代码入口](https://video-diffusion.github.io/) · [作者与团队](../leaderboard/origins/papers/video-diffusion.md)
 
 NeurIPS 2022 正式论文；只记录原始视频生成/预测评测，动作条件和机器人闭环需读下游方法。
 

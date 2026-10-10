@@ -1,10 +1,12 @@
 # LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC
 
-**LeWAM** · arXiv 2026 · 本版排名 109 · 综合分 **45.1 / 100**
+**LeWAM** · arXiv 2026 · 本版排名 110 · 综合分 **63.1 / 100**
 
 [解读导读](../../../library/lewam.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-lewam)
 
 [原文](https://arxiv.org/abs/2610.12407v1) · [PDF](https://arxiv.org/pdf/2610.12407v1) · [阅读卡片](../../../library/lewam.md)
+
+论文出处：[Shashank Hegde · NVIDIA](../../origins/papers/lewam.md)
 
 ## 机制简析
 
@@ -25,7 +27,7 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 0 | 30% |
+| 公开与评审 | 60 | 30% |
 | 创新性 | 91 | 20% |
 | 实验与证据 | 76 | 20% |
 | 学术影响 | 0 | 10% |
@@ -33,16 +35,21 @@
 | 复用价值 | 64 | 8% |
 | 阅读价值 | 94 | 7% |
 
-发表与刊会：预印本公开，正式发表贡献记0；创新与实验单独计分。
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；当前阶段为预印本公开。
 
 
 编辑深度：选题初读；评分记录：2026-10-10。
 
-影响与关注采用独立证据评分：
+计量来源：Semantic Scholar；原研究arXiv ID索引记录（版本合并）；匹配题目：LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC。累计被引 **0**，2025–2026 被引 **0**；快照：2026-10-10。
 
-- **学术影响 0**：本次2026-10-10补查范围内，独立采用证据仍在积累；按证据量表起点计0分。原文方法与作者实验分别进入创新、证据轴。 [依据1](https://arxiv.org/abs/2610.12407v1) · [依据2](https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md)
-- **近期关注 0**：本次2026-10-10补查范围内，2025–2026的独立采用证据仍在积累；按证据量表起点计0分。原文方法与作者实验分别进入创新、证据轴。 [依据1](https://arxiv.org/abs/2610.12407v1) · [依据2](https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md)
+[指标记录](https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12407) · [文献计量条目](https://www.semanticscholar.org/paper/d75db25eda3ce772ceeb52bdd25fb057699c3972)
 
-原始引用记录与编辑证据分分别保留，计算细则见评分说明。
+### 影响与关注的计算依据
 
+- **学术影响 0**：本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。 [依据1](https://arxiv.org/abs/2610.12407v1) · [依据2](https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md)
+- **近期关注 0**：本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。 [依据1](https://arxiv.org/abs/2610.12407v1) · [依据2](https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md)
+
+零分表示本次快照已定位的信号处在量表起点；创新和实验两轴分别评价方法。
+
+[其他计量来源快照](../../metrics.json)分别保留，不相加；本版按登记的身份匹配顺序选源。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

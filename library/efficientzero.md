@@ -4,7 +4,7 @@
 
 研究范围：世界模型与样本高效 RL；游戏和模拟控制基础。
 
-[原文入口](https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper/2021/file/d5eca8dc3820cad9fe56a3bafda65ca1-Paper.pdf) · [作者项目 / 代码入口](https://github.com/YeWR/EfficientZero)
+[原文入口](https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper/2021/file/d5eca8dc3820cad9fe56a3bafda65ca1-Paper.pdf) · [作者项目 / 代码入口](https://github.com/YeWR/EfficientZero) · [作者与团队](../leaderboard/origins/papers/efficientzero.md)
 
 NeurIPS 网页摘要与所读 proceedings PDF 的 Atari 汇总值不同，精讲时固定 PDF 版并逐表核数，当前卡片不引用该差异数字。
 

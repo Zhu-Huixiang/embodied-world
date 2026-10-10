@@ -4,7 +4,7 @@
 
 研究范围：双臂移动操作、全身遥操作与静态/移动数据联合训练。
 
-[原文入口](https://proceedings.mlr.press/v270/fu25b.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25b/fu25b.pdf) · [作者项目 / 代码入口](https://mobile-aloha.github.io/)
+[原文入口](https://proceedings.mlr.press/v270/fu25b.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25b/fu25b.pdf) · [作者项目 / 代码入口](https://mobile-aloha.github.io/) · [作者与团队](../leaderboard/origins/papers/mobile-aloha.md)
 
 CoRL 2024；PMLR 270 于 2025 出版。正式题目 using 与项目/首版 with 为同一工作。
 

@@ -6,6 +6,8 @@
 
 [原文](https://proceedings.mlr.press/v139/radford21a.html) · [PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [阅读卡片](../../../library/clip.md)
 
+论文出处：[Alec Radford / Jong Wook Kim · OpenAI](../../origins/papers/clip.md)
+
 ## 机制简析
 
 图像编码器和文本编码器分别输出向量，经投影与归一化后计算一个批次中全部图文配对的相似度矩阵。对称交叉熵把真实配对拉近，把批内错配分开；测试时用文本描述生成类别向量，从而做零样本分类。原文在三十余个视觉数据集测试迁移，CLIPort 再将其语义特征与空间操作分支融合。
@@ -25,21 +27,38 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 96 | 20% |
 | 实验与证据 | 95 | 20% |
 | 学术影响 | 100 | 10% |
-| 近期关注 | 100 | 5% |
+| 近期关注 | 100.0 | 5% |
 | 复用价值 | 99 | 8% |
 | 阅读价值 | 97 | 7% |
 
 刊会依据：[ICML 2021](../../../venues/ICML/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v139/radford21a.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：作者预印本/原研究索引记录；OpenAlex题目：Learning Transferable Visual Models From Natural Language Supervision。累计被引 5256，2025–2026 被引 1485；快照：2026-10-10T09:50:37+08:00。
+计量来源：OpenAlex；作者预印本/原研究索引记录；匹配题目：Learning Transferable Visual Models From Natural Language Supervision。累计被引 **5256**，2025–2026 被引 **1485**；快照：2026-10-10T09:50:37+08:00。
 
 [指标记录](https://api.openalex.org/works/W3135367836) · [文献计量条目](https://openalex.org/W3135367836)
 
+### 影响与关注的计算依据
+
+- **学术影响 100**：身份匹配的累计引用C=5256，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W3135367836)
+- **近期关注 100.0**：近期已定位引用R=1485；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W3135367836)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/openai/CLIP) | GitHub Star 34434；GitHub Watch订阅 326；GitHub Fork 4058 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/openai/clip-vit-base-patch32) | HF 最近30天下载 19497931；HF 仓库累计点赞 1582 | 单篇原研究权重的HF转换版，按此仓库统计；2026-09-11 至 2026-10-10（API最近30天；含首尾的日期标签，实际滚动边界未公开） / 截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2103.00020) | HF 论文累计点赞 22 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

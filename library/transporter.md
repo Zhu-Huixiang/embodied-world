@@ -4,7 +4,7 @@
 
 研究范围：空间等变、拾取条件放置与 Ravens 操作基准。
 
-[原文入口](https://proceedings.mlr.press/v155/zeng21a.html) · [原文 PDF](https://proceedings.mlr.press/v155/zeng21a/zeng21a.pdf) · [作者项目 / 代码入口](https://transporternets.github.io/)
+[原文入口](https://proceedings.mlr.press/v155/zeng21a.html) · [原文 PDF](https://proceedings.mlr.press/v155/zeng21a/zeng21a.pdf) · [作者项目 / 代码入口](https://transporternets.github.io/) · [作者与团队](../leaderboard/origins/papers/transporter.md)
 
 CoRL 2020，PMLR 155 于 2021-10-04 出版，均早于窗口；明确作为经典基础例外收录。
 

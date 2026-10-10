@@ -4,7 +4,7 @@
 
 研究范围：多域控制；模型强化学习基础。
 
-[原文入口](https://www.nature.com/articles/s41586-025-08744-2) · [原文 PDF](https://arxiv.org/pdf/2301.04104) · [作者项目 / 代码入口](https://danijar.com/project/dreamerv3/)
+[原文入口](https://www.nature.com/articles/s41586-025-08744-2) · [原文 PDF](https://arxiv.org/pdf/2301.04104) · [作者项目 / 代码入口](https://danijar.com/project/dreamerv3/) · [作者与团队](../leaderboard/origins/papers/dreamerv3.md)
 
 Nature 2025 正式论文；arXiv 初始公开于 2023，链接为作者预印本。
 

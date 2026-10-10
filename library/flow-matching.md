@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，π₀ 类连续动作专家的条件流匹配。
 
-[原文入口](https://iclr.cc/virtual/2023/poster/11309) · [原文 PDF](https://arxiv.org/pdf/2210.02747) · [作者项目 / 代码入口](https://github.com/facebookresearch/flow_matching)
+[原文入口](https://iclr.cc/virtual/2023/poster/11309) · [原文 PDF](https://arxiv.org/pdf/2210.02747) · [后续 Flow Matching Guide 代码库（2024）](https://github.com/facebookresearch/flow_matching) · [作者与团队](../leaderboard/origins/papers/flow-matching.md)
 
 ICLR 2023 正式论文；官方会场确认题名和录用，原始论文用图像任务评估。
 

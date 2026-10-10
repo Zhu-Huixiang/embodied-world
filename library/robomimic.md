@@ -4,7 +4,7 @@
 
 研究范围：离线人类示范学习的系统对照与 robomimic 工具基础。
 
-[原文入口](https://proceedings.mlr.press/v164/mandlekar22a.html) · [原文 PDF](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf) · [作者项目 / 代码入口](https://arise-initiative.github.io/robomimic-web/)
+[原文入口](https://proceedings.mlr.press/v164/mandlekar22a.html) · [原文 PDF](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf) · [作者项目 / 代码入口](https://arise-initiative.github.io/robomimic-web/) · [作者与团队](../leaderboard/origins/papers/robomimic.md)
 
 CoRL 2021 主会在五年窗内；PMLR 2022。首公开早于窗口，作为模仿学习基线基础记录。项目网页此次 Exa 抓取为空，方法核验使用正式 PDF。
 

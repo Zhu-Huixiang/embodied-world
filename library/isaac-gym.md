@@ -4,7 +4,7 @@
 
 研究范围：机器人 RL 的 GPU 物理仿真基础设施。
 
-[原文入口](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html) · [原文 PDF](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/28dd2c7955ce926456240b2ff0100bde-Paper-round2.pdf) · [作者项目 / 代码入口](https://research.nvidia.com/labs/srl/publication/makoviychuk-2021-isaac/)
+[原文入口](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html) · [原文 PDF](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/28dd2c7955ce926456240b2ff0100bde-Paper-round2.pdf) · [作者项目 / 代码入口](https://research.nvidia.com/labs/srl/publication/makoviychuk-2021-isaac/) · [作者与团队](../leaderboard/origins/papers/isaac-gym.md)
 
 正式 NeurIPS 2021 Datasets and Benchmarks Track；NVIDIA 官方出版列表 Dec 2021，正式日期在五年窗内。物理仿真工具，不是学习型世界模型。
 

@@ -4,7 +4,7 @@
 
 研究范围：便携数据采集、相对动作与跨硬件策略接口。
 
-[原文入口](https://www.roboticsproceedings.org/rss20/p045.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p045.pdf) · [作者项目 / 代码入口](https://umi-gripper.github.io/)
+[原文入口](https://www.roboticsproceedings.org/rss20/p045.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p045.pdf) · [作者项目 / 代码入口](https://umi-gripper.github.io/) · [作者与团队](../leaderboard/origins/papers/umi.md)
 
 RSS 2024。项目标注 Best Systems Paper finalist，仅写 finalist，不写获奖。
 

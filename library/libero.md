@@ -4,7 +4,7 @@
 
 研究范围：终身机器人学习基准、知识迁移与多任务操作。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) · [作者项目 / 代码入口](https://libero-project.github.io/)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) · [作者项目 / 代码入口](https://libero-project.github.io/) · [作者与团队](../leaderboard/origins/papers/libero.md)
 
 NeurIPS 2023 Datasets and Benchmarks 正式轨；原论文是终身学习问题，后续 VLA 常用多任务成功率不等于原论文完整协议。
 

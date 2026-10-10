@@ -4,7 +4,7 @@
 
 研究范围：物理仿真角色；技能表征基础。
 
-[原文入口](https://xbpeng.github.io/projects/ASE/) · [原文 PDF](https://xbpeng.github.io/projects/ASE/ASE_2022.pdf)
+[原文入口](https://xbpeng.github.io/projects/ASE/) · [原文 PDF](https://xbpeng.github.io/projects/ASE/ASE_2022.pdf) · [作者与团队](../leaderboard/origins/papers/ase.md)
 
 ## 先看它做了什么
 

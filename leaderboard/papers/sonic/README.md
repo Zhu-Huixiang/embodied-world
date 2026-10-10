@@ -1,10 +1,12 @@
 # SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
 
-**SONIC** · Sci. Robot. 2026 · 本版排名 87 · 综合分 **81.3 / 100**
+**SONIC** · Sci. Robot. 2026 · 本版排名 74 · 综合分 **83.4 / 100**
 
 [解读导读](../../../library/sonic.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.aed4592) · [PDF](https://arxiv.org/pdf/2511.07820v4) · [阅读卡片](../../../library/sonic.md)
+
+论文出处：[Zhengyi Luo / Ye Yuan 等5位 · NVIDIA GEAR / NVIDIA](../../origins/papers/sonic.md)
 
 ## 机制简析
 
@@ -25,21 +27,38 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 92.7 | 30% |
+| 公开与评审 | 92.7 | 30% |
 | 创新性 | 92 | 20% |
 | 实验与证据 | 89 | 20% |
 | 学术影响 | 20.1 | 10% |
-| 近期关注 | 25.9 | 5% |
+| 近期关注 | 69.3 | 5% |
 | 复用价值 | 92 | 8% |
 | 阅读价值 | 94 | 7% |
 
 刊会依据：[Sci. Robot. 2026](../../../venues/Science-Robotics/README.md)，正式出处见[出版/原文记录](https://www.science.org/doi/10.1126/scirobotics.aed4592)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文机制与实验初读；评分记录：2026-10-10。
 
-计量版本：正式刊会版本；OpenAlex题目：SONIC: Supersizing motion tracking for natural humanoid whole-body control。累计被引 4，2025–2026 被引 4；快照：2026-10-10T11:42:48+08:00。
+计量来源：OpenAlex；正式刊会版本；匹配题目：SONIC: Supersizing motion tracking for natural humanoid whole-body control。累计被引 **4**，2025–2026 被引 **4**；快照：2026-10-10T11:42:48+08:00。
 
 [指标记录](https://api.openalex.org/works/W7202294264) · [文献计量条目](https://openalex.org/W7202294264)
 
+### 影响与关注的计算依据
+
+- **学术影响 20.1**：身份匹配的累计引用C=4，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W7202294264)
+- **近期关注 69.3**：huggingface 的论文专属入口：HF 最近30天下载=2907；按100000上限对数压缩。 [依据1](https://huggingface.co/api/models/nvidia/GEAR-SONIC) · [依据2](https://huggingface.co/nvidia/GEAR-SONIC/raw/main/README.md) · [依据3](https://huggingface.co/nvidia/GEAR-SONIC)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/NVlabs/GR00T-WholeBodyControl) | GitHub Star 3723；GitHub Watch订阅 28；GitHub Fork 610 | 多论文/多模型共享仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/nvidia/GEAR-SONIC) | HF 最近30天下载 2907；HF 仓库累计点赞 77 | 单篇论文的作者发布资产；2026-09-11 至 2026-10-10（API最近30天；含首尾的日期标签，实际滚动边界未公开） / 截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2511.07820) | HF 论文累计点赞 0 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

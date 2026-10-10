@@ -4,7 +4,7 @@
 
 研究范围：分布式真实机器人数据、跨场景泛化与硬件复用。
 
-[原文入口](https://www.roboticsproceedings.org/rss20/p120.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p120.pdf) · [作者项目 / 代码入口](https://droid-dataset.github.io/)
+[原文入口](https://www.roboticsproceedings.org/rss20/p120.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p120.pdf) · [作者项目 / 代码入口](https://droid-dataset.github.io/) · [作者与团队](../leaderboard/origins/papers/droid.md)
 
 RSS HTML 摘要与最终 PDF/项目轨迹总量不同；当前项目还有 2024/2025 标注、校准更新，原版与更新版分开。
 

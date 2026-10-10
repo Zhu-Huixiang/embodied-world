@@ -4,7 +4,7 @@
 
 研究范围：跨机器人通用策略、扩散动作头与可适配多模态接口。
 
-[原文入口](https://www.roboticsproceedings.org/rss20/p090.html) · [原文 PDF](https://roboticsproceedings.org/rss20/p090.pdf) · [作者项目 / 代码入口](https://octo-models.github.io/)
+[原文入口](https://www.roboticsproceedings.org/rss20/p090.html) · [原文 PDF](https://roboticsproceedings.org/rss20/p090.pdf) · [作者项目 / 代码入口](https://octo-models.github.io/) · [作者与团队](../leaderboard/origins/papers/octo.md)
 
 以 RSS 2024 版本为准；预训练数据、模型大小与微调数据不混为同一实验条件。
 

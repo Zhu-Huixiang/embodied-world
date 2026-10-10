@@ -4,7 +4,7 @@
 
 研究范围：跨机器人数据标准化、RT-1-X/RT-2-X 通用操作策略。
 
-[原文入口](https://ieeexplore.ieee.org/document/10611477) · [原文 PDF](https://arxiv.org/pdf/2310.08864) · [作者项目 / 代码入口](https://robotics-transformer-x.github.io/)
+[原文入口](https://ieeexplore.ieee.org/document/10611477) · [原文 PDF](https://arxiv.org/pdf/2310.08864) · [作者项目 / 代码入口](https://robotics-transformer-x.github.io/) · [作者与团队](../leaderboard/origins/papers/rtx.md)
 
 ICRA 2024 正式发表；PDF 入口为作者 arXiv 版本，精读需固定版本，勿合并项目后续新增数据统计。
 

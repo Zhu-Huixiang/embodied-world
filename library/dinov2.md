@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，OpenVLA 实际采用的 DINOv2 视觉编码器。
 
-[原文入口](https://openreview.net/forum?id=a68SUt6zFt) · [原文 PDF](https://openreview.net/pdf?id=a68SUt6zFt) · [作者项目 / 代码入口](https://github.com/facebookresearch/dinov2)
+[原文入口](https://openreview.net/forum?id=a68SUt6zFt) · [原文 PDF](https://openreview.net/pdf?id=a68SUt6zFt) · [作者项目 / 代码入口](https://github.com/facebookresearch/dinov2) · [作者与团队](../leaderboard/origins/papers/dinov2.md)
 
 TMLR 2024-01 正式论文，arXiv 初始公开于 2023；作者 HAL 存档 PDF 首页明确写 Published in Transactions on Machine Learning Research (01/2024)。OpenReview forum 抓取受验证页影响，PDF 与作者存档可读。
 

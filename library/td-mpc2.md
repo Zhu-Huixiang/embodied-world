@@ -4,7 +4,7 @@
 
 研究范围：连续控制与模型强化学习。
 
-[原文入口](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [原文 PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [作者项目 / 代码入口](https://www.tdmpc2.com/)
+[原文入口](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [原文 PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [作者项目 / 代码入口](https://www.tdmpc2.com/) · [作者与团队](../leaderboard/origins/papers/td-mpc2.md)
 
 ## 先看它做了什么
 

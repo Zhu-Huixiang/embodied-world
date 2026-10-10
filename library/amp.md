@@ -4,7 +4,7 @@
 
 研究范围：物理仿真角色；后续机器人方法的基础。
 
-[原文入口](https://xbpeng.github.io/projects/AMP/) · [原文 PDF](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf)
+[原文入口](https://xbpeng.github.io/projects/AMP/) · [原文 PDF](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf) · [作者与团队](../leaderboard/origins/papers/amp.md)
 
 这里收录 2021 原始 AMP，与后续四足 sim-to-real 应用分开。
 

@@ -4,7 +4,7 @@
 
 研究范围：离线 RL 基础；机器人静态数据学习。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html) · [原文 PDF](https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html) · [原文 PDF](https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf) · [作者与团队](../leaderboard/origins/papers/cql.md)
 
 经典例外；正式 NeurIPS 2020。
 

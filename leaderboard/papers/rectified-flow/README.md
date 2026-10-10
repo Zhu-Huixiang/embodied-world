@@ -1,10 +1,12 @@
 # Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow
 
-**Rectified Flow** · ICLR 2023 · 本版排名 42 · 综合分 **87.4 / 100**
+**Rectified Flow** · ICLR 2023 · 本版排名 44 · 综合分 **86.6 / 100**
 
 [解读导读](../../../library/rectified-flow.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
 
 [原文](https://iclr.cc/virtual/2023/poster/11266) · [PDF](https://openreview.net/pdf?id=gWxpdtQpiYV) · [阅读卡片](../../../library/rectified-flow.md)
+
+论文出处：[Xingchao Liu / Chengyue Gong · The University of Texas at Austin](../../origins/papers/rectified-flow.md)
 
 ## 机制简析
 
@@ -25,21 +27,37 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 92 | 20% |
 | 实验与证据 | 89 | 20% |
 | 学术影响 | 55.2 | 10% |
-| 近期关注 | 57.2 | 5% |
+| 近期关注 | 40.8 | 5% |
 | 复用价值 | 95 | 8% |
 | 阅读价值 | 96 | 7% |
 
 刊会依据：[ICLR 2023](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://iclr.cc/virtual/2023/poster/11266)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：作者预印本/原研究索引记录；OpenAlex题目：Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow。累计被引 82，2025–2026 被引 34；快照：2026-10-10T09:50:37+08:00。
+计量来源：OpenAlex；作者预印本/原研究索引记录；匹配题目：Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow。累计被引 **82**，2025–2026 被引 **34**；快照：2026-10-10T09:50:37+08:00。
 
 [指标记录](https://api.openalex.org/works/W4297676498) · [文献计量条目](https://openalex.org/W4297676498)
 
+### 影响与关注的计算依据
+
+- **学术影响 55.2**：身份匹配的累计引用C=82，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4297676498)
+- **近期关注 40.8**：近期已定位引用R=34；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W4297676498)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/gnobitab/RectifiedFlow) | GitHub Star 1654；GitHub Watch订阅 12；GitHub Fork 103 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2209.03003) | HF 论文累计点赞 4 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

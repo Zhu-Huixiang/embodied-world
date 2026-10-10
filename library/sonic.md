@@ -4,7 +4,7 @@
 
 研究范围：大规模人形动作跟踪、全身低层控制、规划与VLA接口。
 
-[原文入口](https://www.science.org/doi/10.1126/scirobotics.aed4592) · [原文 PDF](https://arxiv.org/pdf/2511.07820v4) · [作者项目 / 代码入口](https://nvlabs.github.io/GEAR-SONIC/)
+[原文入口](https://www.science.org/doi/10.1126/scirobotics.aed4592) · [原文 PDF](https://arxiv.org/pdf/2511.07820v4) · [作者项目 / 代码入口](https://nvlabs.github.io/GEAR-SONIC/) · [作者与团队](../leaderboard/origins/papers/sonic.md)
 
 正式刊文2026-08-12；本文数据按 arXiv v4 对应版本定位。比较跟踪基线时训练数据和重定向管线不同，五项VLA任务只有每项10–20次实机试验。避免把模型版本 SONIC v1.1 当第二篇论文。
 

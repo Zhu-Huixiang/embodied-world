@@ -4,7 +4,7 @@
 
 研究范围：多模态提示、桌面操作与系统化组合泛化评测。
 
-[原文入口](https://proceedings.mlr.press/v202/jiang23b.html) · [原文 PDF](https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf) · [作者项目 / 代码入口](https://vimalabs.github.io/)
+[原文入口](https://proceedings.mlr.press/v202/jiang23b.html) · [原文 PDF](https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf) · [作者项目 / 代码入口](https://vimalabs.github.io/) · [作者与团队](../leaderboard/origins/papers/vima.md)
 
 ICML 2023 正式版；VIMA-Bench 是仿真桌面任务，勿把仿真规模当实机证据。
 

@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，开放词汇机器人感知与语言条件操作的语义先验。
 
-[原文入口](https://proceedings.mlr.press/v139/radford21a.html) · [原文 PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [作者项目 / 代码入口](https://github.com/openai/CLIP)
+[原文入口](https://proceedings.mlr.press/v139/radford21a.html) · [原文 PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [作者项目 / 代码入口](https://github.com/openai/CLIP) · [作者与团队](../leaderboard/origins/papers/clip.md)
 
 ICML 2021，PMLR 139；CLIPort 对 CLIP 语义流的直接使用另列为机器人应用证据。
 

@@ -4,7 +4,7 @@
 
 研究范围：轨迹世界模型与离线规划基础。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html) · [原文 PDF](https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf) · [作者项目 / 代码入口](https://trajectory-transformer.github.io/)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html) · [原文 PDF](https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf) · [作者项目 / 代码入口](https://trajectory-transformer.github.io/) · [作者与团队](../leaderboard/origins/papers/trajectory-transformer.md)
 
 ## 先看它做了什么
 

@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://arxiv.org/abs/2610.12470v1) · [原文 PDF](https://arxiv.org/pdf/2610.12470v1) · [作者项目 / 代码入口](https://dex-one2many.github.io)
+[原文入口](https://arxiv.org/abs/2610.12470v1) · [原文 PDF](https://arxiv.org/pdf/2610.12470v1) · [作者项目 / 代码入口](https://dex-one2many.github.io) · [作者与团队](../leaderboard/origins/papers/dex-one2many.md)
 
 ## 先看它做了什么
 

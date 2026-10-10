@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，具身潜表征预测与 JEPA 世界模型的图像起点。
 
-[原文入口](https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/ijepa)
+[原文入口](https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/ijepa) · [作者与团队](../leaderboard/origins/papers/i-jepa.md)
 
 CVPR 2023 正式论文；I-JEPA 是同一图像内的表征预测，不将其写成已经学习动作条件动力学或机器人控制。
 

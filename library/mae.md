@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，MVP 等机器人视觉预训练的掩码重建算法。
 
-[原文入口](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/mae)
+[原文入口](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/mae) · [作者与团队](../leaderboard/origins/papers/mae.md)
 
 CVPR 2022 正式论文；与机器人实机扩展 MVP 分开记录，后者是 CoRL 2022、论文集 2023。
 

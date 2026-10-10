@@ -15,8 +15,8 @@
 <line x1="380" y1="335" x2="301.9" y2="497.2" stroke="#9aafbd" stroke-width="1"/>
 <line x1="380" y1="335" x2="204.5" y2="375.1" stroke="#9aafbd" stroke-width="1"/>
 <line x1="380" y1="335" x2="239.3" y2="222.8" stroke="#9aafbd" stroke-width="1"/>
-<polygon points="380.0,182.0 503.8,236.2 548.5,373.5 447.9,475.9 302.0,497.0 206.3,374.7 243.5,226.1" fill="#0785a3" fill-opacity=".12" stroke="#0785a3" stroke-width="2.5" stroke-linejoin="round"/>
-<text x="380.0" y="78.6" font-size="24" text-anchor="middle">发表与刊会</text>
+<polygon points="380.0,182.0 503.8,236.2 548.5,373.5 447.9,475.9 301.9,497.2 206.3,374.7 243.5,226.1" fill="#0785a3" fill-opacity=".12" stroke="#0785a3" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="380.0" y="78.6" font-size="24" text-anchor="middle">公开与评审</text>
 <text x="380.0" y="110.6" font-size="27" fill="#0785a3" text-anchor="middle">85</text>
 <circle cx="380.0" cy="182.0" r="4" fill="#0785a3"/>
 <text x="574.2" y="172.1" font-size="24" text-anchor="middle">创新性</text>
@@ -29,8 +29,8 @@
 <text x="487.8" y="582.8" font-size="27" fill="#0785a3" text-anchor="middle">86.9</text>
 <circle cx="447.9" cy="475.9" r="4" fill="#0785a3"/>
 <text x="272.2" y="550.8" font-size="24" text-anchor="middle">近期关注</text>
-<text x="272.2" y="582.8" font-size="27" fill="#0785a3" text-anchor="middle">99.9</text>
-<circle cx="302.0" cy="497.0" r="4" fill="#0785a3"/>
+<text x="272.2" y="582.8" font-size="27" fill="#0785a3" text-anchor="middle">100</text>
+<circle cx="301.9" cy="497.2" r="4" fill="#0785a3"/>
 <text x="137.8" y="382.3" font-size="24" text-anchor="middle">复用价值</text>
 <text x="137.8" y="414.3" font-size="27" fill="#0785a3" text-anchor="middle">99</text>
 <circle cx="206.3" cy="374.7" r="4" fill="#0785a3"/>

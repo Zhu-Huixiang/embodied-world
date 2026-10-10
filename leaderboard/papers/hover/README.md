@@ -1,10 +1,12 @@
 # HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots
 
-**HOVER** · ICRA 2025 · 本版排名 93 · 综合分 **80.4 / 100**
+**HOVER** · ICRA 2025 · 本版排名 100 · 综合分 **79.6 / 100**
 
 [解读导读](../../../library/hover.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
 
 [原文](https://hover-versatile-humanoid.github.io/) · [PDF](https://arxiv.org/pdf/2410.21229) · [阅读卡片](../../../library/hover.md)
+
+论文出处：[Tairan He / Wenli Xiao · NVIDIA GEAR / NVIDIA 等6个出处](../../origins/papers/hover.md)
 
 ## 机制简析
 
@@ -25,21 +27,37 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 83.0 | 30% |
+| 公开与评审 | 83.0 | 30% |
 | 创新性 | 88 | 20% |
 | 实验与证据 | 88 | 20% |
 | 学术影响 | 40.2 | 10% |
-| 近期关注 | 51.8 | 5% |
+| 近期关注 | 35.5 | 5% |
 | 复用价值 | 90 | 8% |
 | 阅读价值 | 93 | 7% |
 
 刊会依据：[ICRA 2025](../../../venues/ICRA/README.md)，正式出处见[出版/原文记录](https://hover-versatile-humanoid.github.io/)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文方法与实验选题初读；非全文精读；评分记录：2026-10-10。
 
-计量版本：正式刊会版本；OpenAlex题目：HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots。累计被引 24，2025–2026 被引 24；快照：2026-10-10T11:44:51+08:00。
+计量来源：OpenAlex；正式刊会版本；匹配题目：HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots。累计被引 **24**，2025–2026 被引 **24**；快照：2026-10-10T11:44:51+08:00。
 
 [指标记录](https://api.openalex.org/works/W4413918871) · [文献计量条目](https://openalex.org/W4413918871)
 
+### 影响与关注的计算依据
+
+- **学术影响 40.2**：身份匹配的累计引用C=24，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4413918871)
+- **近期关注 35.5**：近期已定位引用R=24；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W4413918871)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/NVlabs/HOVER) | GitHub Star 765；GitHub Watch订阅 19；GitHub Fork 91 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2410.21229) | HF 论文累计点赞 5 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，Diffusion Policy 与视频扩散的去噪建模起点。
 
-[原文入口](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) · [作者项目 / 代码入口](https://hojonathanho.github.io/diffusion/)
+[原文入口](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) · [作者项目 / 代码入口](https://hojonathanho.github.io/diffusion/) · [作者与团队](../leaderboard/origins/papers/ddpm.md)
 
 NeurIPS 2020 原始 DDPM；图像生成指标与下游动作成功率各按对应论文记录。
 

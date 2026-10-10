@@ -4,7 +4,7 @@
 
 研究范围：语言条件桌面操作、语义与空间双流结构。
 
-[原文入口](https://proceedings.mlr.press/v164/shridhar22a.html) · [原文 PDF](https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf) · [作者项目 / 代码入口](https://cliport.github.io/)
+[原文入口](https://proceedings.mlr.press/v164/shridhar22a.html) · [原文 PDF](https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf) · [作者项目 / 代码入口](https://cliport.github.io/) · [作者与团队](../leaderboard/origins/papers/cliport.md)
 
 CoRL 2021 主会在五年窗内，PMLR 164 于 2022 出版；首次 arXiv 在 2021 年 9 月，作为边界基础工作记录。
 

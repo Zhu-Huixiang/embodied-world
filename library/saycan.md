@@ -4,7 +4,7 @@
 
 研究范围：语言模型规划、技能可供性与移动操作。
 
-[原文入口](https://proceedings.mlr.press/v205/ichter23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf) · [作者项目 / 代码入口](https://say-can.github.io/)
+[原文入口](https://proceedings.mlr.press/v205/ichter23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf) · [作者项目 / 代码入口](https://say-can.github.io/) · [作者与团队](../leaderboard/origins/papers/saycan.md)
 
 CoRL 2022；PMLR 205 在 2023 年出版，不能按书目年份改成 CoRL 2023。
 

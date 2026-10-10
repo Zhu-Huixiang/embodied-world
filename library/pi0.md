@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://www.roboticsproceedings.org/rss21/p010.html) · [原文 PDF](https://www.roboticsproceedings.org/rss21/p010.pdf) · [作者项目 / 代码入口](https://www.pi.website/blog/pi0)
+[原文入口](https://www.roboticsproceedings.org/rss21/p010.html) · [原文 PDF](https://www.roboticsproceedings.org/rss21/p010.pdf) · [作者项目 / 代码入口](https://www.pi.website/blog/pi0) · [作者与团队](../leaderboard/origins/papers/pi0.md)
 
 ## 先看它做了什么
 

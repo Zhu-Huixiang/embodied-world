@@ -4,7 +4,7 @@
 
 研究范围：离线 RL 基础；操作和导航数据学习。
 
-[原文入口](https://iclr.cc/virtual/2022/poster/5941) · [原文 PDF](https://arxiv.org/pdf/2110.06169) · [作者项目 / 代码入口](https://github.com/ikostrikov/implicit_q_learning)
+[原文入口](https://iclr.cc/virtual/2022/poster/5941) · [原文 PDF](https://arxiv.org/pdf/2110.06169) · [作者项目 / 代码入口](https://github.com/ikostrikov/implicit_q_learning) · [作者与团队](../leaderboard/origins/papers/iql.md)
 
 按 ICLR 2022 正式录用版本归档；arXiv 首稿为 2021。
 

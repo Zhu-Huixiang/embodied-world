@@ -4,7 +4,7 @@
 
 研究范围：层次四足控制、感知与导航。
 
-[原文入口](https://www.science.org/doi/10.1126/scirobotics.adi7566) · [原文 PDF](https://arxiv.org/pdf/2306.14874) · [作者项目 / 代码入口](https://sites.google.com/leggedrobotics.com/agile-navigation)
+[原文入口](https://www.science.org/doi/10.1126/scirobotics.adi7566) · [原文 PDF](https://arxiv.org/pdf/2306.14874) · [作者项目 / 代码入口](https://sites.google.com/leggedrobotics.com/agile-navigation) · [作者与团队](../leaderboard/origins/papers/anymal-parkour.md)
 
 Science Robotics 2024；arXiv 初稿为 2023。
 

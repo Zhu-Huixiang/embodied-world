@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，因果视频 token、长序列生成与视频动作建模的离散路线。
 
-[原文入口](https://openreview.net/forum?id=vOEXS39nOF) · [原文 PDF](https://openreview.net/pdf?id=vOEXS39nOF) · [作者项目 / 代码入口](https://sites.research.google/gr/phenaki/)
+[原文入口](https://openreview.net/forum?id=vOEXS39nOF) · [原文 PDF](https://openreview.net/pdf?id=vOEXS39nOF) · [作者项目 / 代码入口](https://sites.research.google/gr/phenaki/) · [作者与团队](../leaderboard/origins/papers/phenaki.md)
 
 ICLR 2023 正式论文，官方 PDF 首页确认；主要是文本到视频生成基础。
 

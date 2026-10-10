@@ -4,7 +4,7 @@
 
 研究范围：跨本体VLA与实机双臂操作、人类/仿真/生成轨迹混合训练。
 
-[原文入口](https://arxiv.org/abs/2503.14734) · [原文 PDF](https://arxiv.org/pdf/2503.14734v2) · [作者项目 / 代码入口](https://github.com/NVIDIA/Isaac-GR00T)
+[原文入口](https://arxiv.org/abs/2503.14734) · [原文 PDF](https://arxiv.org/pdf/2503.14734v2) · [作者项目 / 代码入口](https://github.com/NVIDIA/Isaac-GR00T) · [作者与团队](../leaderboard/origins/papers/gr00t-n1.md)
 
 原研究2503.14734，不以N1.5/N1.6/N1.7各建一篇。官方研究记录为ArXiv Preprint；预印本初次上传2025-03-18，不误用页面研究发布日03-17或v2更新03-27作为首投日期。
 

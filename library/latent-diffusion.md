@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，潜空间视频世界模型与条件生成的编码/解码链路。
 
-[原文入口](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) · [作者项目 / 代码入口](https://github.com/CompVis/latent-diffusion)
+[原文入口](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) · [作者项目 / 代码入口](https://github.com/CompVis/latent-diffusion) · [作者与团队](../leaderboard/origins/papers/latent-diffusion.md)
 
 CVPR 2022 原始 LDM；后续视频模型与机器人方法使用的具体编码器和条件接口需逐篇再核。
 

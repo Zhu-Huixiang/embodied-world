@@ -1,10 +1,12 @@
 # ANYmal parkour: Learning agile navigation for quadrupedal robots
 
-**ANYmal Parkour** · Sci. Robot. 2024 · 本版排名 33 · 综合分 **89.0 / 100**
+**ANYmal Parkour** · Sci. Robot. 2024 · 本版排名 34 · 综合分 **88.4 / 100**
 
 [解读导读](../../../library/anymal-parkour.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.adi7566) · [PDF](https://arxiv.org/pdf/2306.14874) · [阅读卡片](../../../library/anymal-parkour.md)
+
+论文出处：[David Hoeller / Nikita Rudin · ETH Zurich / NVIDIA](../../origins/papers/anymal-parkour.md)
 
 ## 机制简析
 
@@ -25,21 +27,28 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 92.7 | 30% |
+| 公开与评审 | 92.7 | 30% |
 | 创新性 | 90 | 20% |
 | 实验与证据 | 94 | 20% |
 | 学术影响 | 69.5 | 10% |
-| 近期关注 | 86.0 | 5% |
+| 近期关注 | 73.3 | 5% |
 | 复用价值 | 82 | 8% |
 | 阅读价值 | 94 | 7% |
 
 刊会依据：[Sci. Robot. 2024](../../../venues/Science-Robotics/README.md)，正式出处见[出版/原文记录](https://www.science.org/doi/10.1126/scirobotics.adi7566)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：正式刊会版本；OpenAlex题目：ANYmal parkour: Learning agile navigation for quadrupedal robots。累计被引 261，2025–2026 被引 209；快照：2026-10-10T09:51:57+08:00。
+计量来源：OpenAlex；正式刊会版本；匹配题目：ANYmal parkour: Learning agile navigation for quadrupedal robots。累计被引 **261**，2025–2026 被引 **209**；快照：2026-10-10T09:51:57+08:00。
 
 [指标记录](https://api.openalex.org/works/W4392763392) · [文献计量条目](https://openalex.org/W4392763392)
 
+### 影响与关注的计算依据
+
+- **学术影响 69.5**：身份匹配的累计引用C=261，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4392763392)
+- **近期关注 73.3**：近期已定位引用R=209；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W4392763392)
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

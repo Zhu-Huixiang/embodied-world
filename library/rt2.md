@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://proceedings.mlr.press/v229/zitkovich23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf)
+[原文入口](https://proceedings.mlr.press/v229/zitkovich23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf) · [作者与团队](../leaderboard/origins/papers/rt2.md)
 
 ## 先看它做了什么
 

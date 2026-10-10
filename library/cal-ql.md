@@ -4,7 +4,7 @@
 
 研究范围：离线到在线 RL；视觉操作和导航。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c44a04289beaf0a7d968a94066a1d696-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/c44a04289beaf0a7d968a94066a1d696-Paper-Conference.pdf) · [作者项目 / 代码入口](https://nakamotoo.github.io/Cal-QL)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c44a04289beaf0a7d968a94066a1d696-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/c44a04289beaf0a7d968a94066a1d696-Paper-Conference.pdf) · [作者项目 / 代码入口](https://nakamotoo.github.io/Cal-QL) · [作者与团队](../leaderboard/origins/papers/cal-ql.md)
 
 ## 先看它做了什么
 

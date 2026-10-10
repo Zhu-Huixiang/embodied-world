@@ -1,10 +1,12 @@
 # Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning
 
-**Walk in the Park** · RSS 2023 · 本版排名 57 · 综合分 **85.3 / 100**
+**Walk in the Park** · RSS 2023 · 本版排名 64 · 综合分 **84.5 / 100**
 
 [解读导读](../../../library/walk-in-the-park.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
 
 [原文](https://www.roboticsproceedings.org/rss19/p056.html) · [PDF](https://www.roboticsproceedings.org/rss19/p056.pdf) · [阅读卡片](../../../library/walk-in-the-park.md)
+
+论文出处：[Laura Smith / Ilya Kostrikov · UC Berkeley / UC Berkeley AI Research Lab (BAIR)](../../origins/papers/walk-in-the-park.md)
 
 ## 机制简析
 
@@ -25,21 +27,36 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 86 | 20% |
 | 实验与证据 | 91 | 20% |
 | 学术影响 | 49.3 | 10% |
-| 近期关注 | 51.1 | 5% |
+| 近期关注 | 34.9 | 5% |
 | 复用价值 | 91 | 8% |
 | 阅读价值 | 95 | 7% |
 
 刊会依据：[RSS 2023](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss19/p056.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：作者预印本/原研究索引记录；OpenAlex题目：Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning。累计被引 51，2025–2026 被引 23；快照：2026-10-10T09:51:57+08:00。
+计量来源：OpenAlex；作者预印本/原研究索引记录；匹配题目：Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning。累计被引 **51**，2025–2026 被引 **23**；快照：2026-10-10T09:51:57+08:00。
 
 [指标记录](https://api.openalex.org/works/W4385430550) · [文献计量条目](https://openalex.org/W4385430550)
 
+### 影响与关注的计算依据
+
+- **学术影响 49.3**：身份匹配的累计引用C=51，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4385430550)
+- **近期关注 34.9**：近期已定位引用R=23；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W4385430550)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/ikostrikov/walk_in_the_park) | GitHub Star 284；GitHub Watch订阅 9；GitHub Fork 39 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

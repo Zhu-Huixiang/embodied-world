@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://openreview.net/forum?id=wPEIStHxYH) · [原文 PDF](https://arxiv.org/pdf/2601.16163) · [作者项目 / 代码入口](https://research.nvidia.com/labs/cosmos-lab/cosmos-policy/)
+[原文入口](https://openreview.net/forum?id=wPEIStHxYH) · [原文 PDF](https://arxiv.org/pdf/2601.16163) · [作者项目 / 代码入口](https://research.nvidia.com/labs/cosmos-lab/cosmos-policy/) · [作者与团队](../leaderboard/origins/papers/cosmos-policy.md)
 
 ## 先看它做了什么
 

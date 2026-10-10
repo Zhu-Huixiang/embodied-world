@@ -1,10 +1,12 @@
 # RVT-2: Learning Precise Manipulation from Few Demonstrations
 
-**RVT-2** · RSS 2024 · 本版排名 53 · 综合分 **85.8 / 100**
+**RVT-2** · RSS 2024 · 本版排名 56 · 综合分 **85.0 / 100**
 
 [解读导读](../../../library/rvt2.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
 [原文](https://www.roboticsproceedings.org/rss20/p055.html) · [PDF](https://www.roboticsproceedings.org/rss20/p055.pdf) · [阅读卡片](../../../library/rvt2.md)
+
+论文出处：[Ankit Goyal · NVIDIA](../../origins/papers/rvt2.md)
 
 ## 机制简析
 
@@ -25,21 +27,37 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 86 | 20% |
 | 实验与证据 | 91 | 20% |
 | 学术影响 | 48.6 | 10% |
-| 近期关注 | 62.6 | 5% |
+| 近期关注 | 46.3 | 5% |
 | 复用价值 | 94 | 8% |
 | 阅读价值 | 91 | 7% |
 
 刊会依据：[RSS 2024](../../../venues/RSS/README.md)，正式出处见[出版/原文记录](https://www.roboticsproceedings.org/rss20/p055.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：作者预印本/原研究索引记录；OpenAlex题目：RVT-2: Learning Precise Manipulation from Few Demonstrations。累计被引 48，2025–2026 被引 48；快照：2026-10-10T09:50:37+08:00。
+计量来源：OpenAlex；作者预印本/原研究索引记录；匹配题目：RVT-2: Learning Precise Manipulation from Few Demonstrations。累计被引 **48**，2025–2026 被引 **48**；快照：2026-10-10T09:50:37+08:00。
 
 [指标记录](https://api.openalex.org/works/W4402354093) · [文献计量条目](https://openalex.org/W4402354093)
 
+### 影响与关注的计算依据
+
+- **学术影响 48.6**：身份匹配的累计引用C=48，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4402354093)
+- **近期关注 46.3**：近期已定位引用R=48；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W4402354093)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/nvlabs/rvt) | GitHub Star 409；GitHub Watch订阅 10；GitHub Fork 61 | 多论文/多模型共享仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2406.08545) | HF 论文累计点赞 8 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

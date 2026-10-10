@@ -4,7 +4,7 @@
 
 研究范围：腿足 RL 的训练基础设施与 sim-to-real。
 
-[原文入口](https://proceedings.mlr.press/v164/rudin22a.html) · [原文 PDF](https://proceedings.mlr.press/v164/rudin22a/rudin22a.pdf) · [作者项目 / 代码入口](https://leggedrobotics.github.io/legged_gym/)
+[原文入口](https://proceedings.mlr.press/v164/rudin22a.html) · [原文 PDF](https://proceedings.mlr.press/v164/rudin22a/rudin22a.pdf) · [作者项目 / 代码入口](https://leggedrobotics.github.io/legged_gym/) · [作者与团队](../leaderboard/origins/papers/walk-in-minutes.md)
 
 CoRL 2021；PMLR 164 论文集出版年为 2022。
 

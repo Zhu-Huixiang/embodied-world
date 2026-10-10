@@ -4,7 +4,7 @@
 
 研究范围：视觉控制与模型强化学习基础。
 
-[原文入口](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/) · [原文 PDF](https://arxiv.org/pdf/1912.01603) · [作者项目 / 代码入口](https://dreamrl.github.io/)
+[原文入口](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/) · [原文 PDF](https://arxiv.org/pdf/1912.01603) · [作者项目 / 代码入口](https://dreamrl.github.io/) · [作者与团队](../leaderboard/origins/papers/dreamer.md)
 
 ## 先看它做了什么
 

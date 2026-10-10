@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，机器人视频中的目标跟踪与时序分割。
 
-[原文入口](https://openreview.net/forum?id=Ha6RTeWMd0) · [原文 PDF](https://proceedings.iclr.cc/paper_files/paper/2025/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/sam2)
+[原文入口](https://openreview.net/forum?id=Ha6RTeWMd0) · [原文 PDF](https://proceedings.iclr.cc/paper_files/paper/2025/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/sam2) · [作者与团队](../leaderboard/origins/papers/sam2.md)
 
 ICLR 2025 正式论文，首次预印本 2024；官方 PDF 首页确认 ICLR 2025。
 

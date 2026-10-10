@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，机器人视觉编码器与 VLA 图像 token 的入口。
 
-[原文入口](https://iclr.cc/virtual/2021/poster/3013) · [原文 PDF](https://arxiv.org/pdf/2010.11929v2) · [作者项目 / 代码入口](https://github.com/google-research/vision_transformer)
+[原文入口](https://iclr.cc/virtual/2021/poster/3013) · [原文 PDF](https://arxiv.org/pdf/2010.11929v2) · [作者项目 / 代码入口](https://github.com/google-research/vision_transformer) · [作者与团队](../leaderboard/origins/papers/vit.md)
 
 ICLR 2021 正式论文；此条对应原始 ViT，不将后来的自监督或机器人结果算作本篇实验。
 

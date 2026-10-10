@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://proceedings.mlr.press/v270/kim25c.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf)
+[原文入口](https://proceedings.mlr.press/v270/kim25c.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf) · [作者与团队](../leaderboard/origins/papers/openvla.md)
 
 CoRL 2024；PMLR 270 论文集出版年份为 2025。
 

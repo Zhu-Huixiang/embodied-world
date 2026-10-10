@@ -4,7 +4,7 @@
 
 研究范围：操作世界模型；VLA评估与合成回训。
 
-[原文入口](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html) · [原文 PDF](https://arxiv.org/pdf/2510.10125v1) · [作者项目 / 代码入口](https://ctrl-world.github.io/)
+[原文入口](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html) · [原文 PDF](https://arxiv.org/pdf/2510.10125v1) · [作者项目 / 代码入口](https://ctrl-world.github.io/) · [作者与团队](../leaderboard/origins/papers/ctrl-world.md)
 
 ICLR2026正式论文；作者预印本v1首次公开2025-10-11。合成数据改进的38.7%→83.4%为44.7个百分点。
 

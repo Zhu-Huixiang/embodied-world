@@ -4,7 +4,7 @@
 
 研究范围：飞行机器人；运动控制对照。
 
-[原文入口](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [原文 PDF](https://arxiv.org/pdf/2110.05113) · [作者项目 / 代码入口](https://github.com/uzh-rpg/agile_autonomy)
+[原文入口](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [原文 PDF](https://arxiv.org/pdf/2110.05113) · [作者项目 / 代码入口](https://github.com/uzh-rpg/agile_autonomy) · [作者与团队](../leaderboard/origins/papers/agile-flight.md)
 
 ## 先看它做了什么
 

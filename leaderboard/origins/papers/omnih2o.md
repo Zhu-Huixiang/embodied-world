@@ -1,0 +1,30 @@
+# OmniH2O：作者与研究出处
+
+OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning
+
+**共同第一作者**：Tairan He、Zhengyi Luo、Xialin He。
+
+署名方式：原文明确共同一作。
+
+**论文署名机构**：Carnegie Mellon University；Shanghai Jiao Tong University。
+
+## 继续看这些团队
+
+- [Carnegie Mellon University](../profiles/institution-i74973139.md)：研究方向、学术入口与本仓作品集。
+- [Shanghai Jiao Tong University](../profiles/institution-i183067930.md)：研究方向、学术入口与本仓作品集。
+
+<details><summary>完整署名作者</summary>
+
+Tairan He、Zhengyi Luo、Xialin He、Wenli Xiao、Chong Zhang、Weinan Zhang、Kris Kitani、Changliu Liu、Guanya Shi
+
+</details>
+
+[论文导读 / 完整解读](../../../library/omnih2o.md) · [七维评分](../../papers/omnih2o/README.md) · [原文](https://proceedings.mlr.press/v270/he25b.html)
+
+## 署名来源
+
+- [来源1](https://proceedings.mlr.press/v270/he25b.html)
+- [来源2](https://api.openalex.org/works/W4399695336)
+- [来源3](https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf)
+
+[作者与团队目录](../README.md) · [具身榜](../../README.md)

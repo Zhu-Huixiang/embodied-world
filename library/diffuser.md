@@ -4,7 +4,7 @@
 
 研究范围：扩散轨迹规划基础；模拟控制。
 
-[原文入口](https://proceedings.mlr.press/v162/janner22a.html) · [原文 PDF](https://proceedings.mlr.press/v162/janner22a/janner22a.pdf) · [作者项目 / 代码入口](https://diffusion-planning.github.io/)
+[原文入口](https://proceedings.mlr.press/v162/janner22a.html) · [原文 PDF](https://proceedings.mlr.press/v162/janner22a/janner22a.pdf) · [作者项目 / 代码入口](https://diffusion-planning.github.io/) · [作者与团队](../leaderboard/origins/papers/diffuser.md)
 
 ## 先看它做了什么
 

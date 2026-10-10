@@ -4,7 +4,7 @@
 
 研究范围：机器人操作；学习动力学综述。
 
-[原文入口](https://www.science.org/doi/10.1126/scirobotics.adt1497) · [原文 PDF](https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf) · [作者项目 / 代码入口](https://albertboai.com/)
+[原文入口](https://www.science.org/doi/10.1126/scirobotics.adt1497) · [原文 PDF](https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf) · [作者项目 / 代码入口](https://albertboai.com/) · [作者与团队](../leaderboard/origins/papers/learned-dynamics-review.md)
 
 Science Robotics 10(106), eadt1497；综述分按组织框架与证据综合，不冒充新算法实机结果。
 

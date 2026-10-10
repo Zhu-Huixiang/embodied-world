@@ -4,7 +4,7 @@
 
 研究范围：双足全身 RL 与实机行为组合。
 
-[原文入口](https://www.science.org/doi/10.1126/scirobotics.adi8022) · [原文 PDF](https://arxiv.org/pdf/2304.13653) · [作者项目 / 代码入口](https://deepmind.google/research/publications/31284/)
+[原文入口](https://www.science.org/doi/10.1126/scirobotics.adi8022) · [原文 PDF](https://arxiv.org/pdf/2304.13653) · [作者项目 / 代码入口](https://deepmind.google/research/publications/31284/) · [作者与团队](../leaderboard/origins/papers/bipedal-soccer.md)
 
 Science Robotics 2024；评测对象是低成本小型双足机器人和简化一对一足球。
 

@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://arxiv.org/abs/2602.15922) · [原文 PDF](https://arxiv.org/pdf/2602.15922) · [作者项目 / 代码入口](https://dreamzero0.github.io/)
+[原文入口](https://arxiv.org/abs/2602.15922) · [原文 PDF](https://arxiv.org/pdf/2602.15922) · [作者项目 / 代码入口](https://dreamzero0.github.io/) · [作者与团队](../leaderboard/origins/papers/dreamzero.md)
 
 ## 先看它做了什么
 

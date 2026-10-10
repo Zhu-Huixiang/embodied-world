@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，机器人目标区域、抓取候选与开放词汇感知的分割接口。
 
-[原文入口](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/segment-anything)
+[原文入口](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) · [作者项目 / 代码入口](https://github.com/facebookresearch/segment-anything) · [作者与团队](../leaderboard/origins/papers/sam.md)
 
 ICCV 2023 正式论文；收录提示分割基础，不将原文的图像分割评测解释为机器人控制结果。
 

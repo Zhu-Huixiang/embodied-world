@@ -4,7 +4,7 @@
 
 研究范围：多视图三维操作策略与高效空间表示。
 
-[原文入口](https://proceedings.mlr.press/v229/goyal23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/goyal23a/goyal23a.pdf) · [作者项目 / 代码入口](https://robotic-view-transformer.github.io/)
+[原文入口](https://proceedings.mlr.press/v229/goyal23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/goyal23a/goyal23a.pdf) · [作者项目 / 代码入口](https://robotic-view-transformer.github.io/) · [作者与团队](../leaderboard/origins/papers/rvt.md)
 
 CoRL 2023。论文的 26% 是相对成功率提升，不能写成 26 个百分点。
 

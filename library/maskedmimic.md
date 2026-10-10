@@ -4,7 +4,7 @@
 
 研究范围：物理角色动作先验；为人形控制提供前置机制。
 
-[原文入口](https://dl.acm.org/doi/10.1145/3687951) · [原文 PDF](https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf) · [作者项目 / 代码入口](https://research.nvidia.com/labs/par/maskedmimic/)
+[原文入口](https://dl.acm.org/doi/10.1145/3687951) · [原文 PDF](https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf) · [作者项目 / 代码入口](https://research.nvidia.com/labs/par/maskedmimic/) · [作者与团队](../leaderboard/origins/papers/maskedmimic.md)
 
 ACM 向 Crossref 登记为 ACM Transactions on Graphics 43(6)，DOI 10.1145/3687951，在线发表 2024-11-19、印刷日期 2024-12-19；作者页及正式 PDF 确认 Proc. SIGGRAPH Asia 2024。ACM landing 抓取超时，刊会元数据已由出版商 DOI 登记核验。实验是物理模拟角色。
 

@@ -4,7 +4,7 @@
 
 研究范围：人形表达动作与稳健行走。
 
-[原文入口](https://www.roboticsproceedings.org/rss20/p107.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p107.pdf) · [作者项目 / 代码入口](https://expressive-humanoid.github.io/)
+[原文入口](https://www.roboticsproceedings.org/rss20/p107.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p107.pdf) · [作者项目 / 代码入口](https://expressive-humanoid.github.io/) · [作者与团队](../leaderboard/origins/papers/exbody.md)
 
 RSS 2024 正式主会。
 

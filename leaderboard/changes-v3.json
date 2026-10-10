@@ -1,0 +1,2882 @@
+{
+  "from_version": 2,
+  "to_version": 3,
+  "checked_at": "2026-10-10",
+  "papers": [
+    {
+      "id": "clip",
+      "old_rank": 1,
+      "new_rank": 1,
+      "old_score": 96.4,
+      "new_score": 96.4,
+      "old_scores": {
+        "innovation": 96,
+        "evidence": 95,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 96,
+        "evidence": 95,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "ddpm",
+      "old_rank": 2,
+      "new_rank": 2,
+      "old_score": 95.9,
+      "new_score": 95.9,
+      "old_scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 99,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 99,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "latent-diffusion",
+      "old_rank": 3,
+      "new_rank": 3,
+      "old_score": 95.8,
+      "new_score": 95.8,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "vit",
+      "old_rank": 4,
+      "new_rank": 4,
+      "old_score": 95.7,
+      "new_score": 95.7,
+      "old_scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 99,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 99,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "sam",
+      "old_rank": 5,
+      "new_rank": 5,
+      "old_score": 95.3,
+      "new_score": 95.3,
+      "old_scores": {
+        "innovation": 90,
+        "evidence": 96,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 90,
+        "evidence": 96,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "mae",
+      "old_rank": 6,
+      "new_rank": 6,
+      "old_score": 95.3,
+      "new_score": 95.3,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "muzero",
+      "old_rank": 7,
+      "new_rank": 7,
+      "old_score": 95.1,
+      "new_score": 94.6,
+      "old_scores": {
+        "innovation": 98,
+        "evidence": 94,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 96.8,
+        "influence": 88.6,
+        "attention": 95.9
+      },
+      "new_scores": {
+        "innovation": 98,
+        "evidence": 94,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 96.8,
+        "influence": 88.6,
+        "attention": 85.6
+      }
+    },
+    {
+      "id": "attention",
+      "old_rank": 8,
+      "new_rank": 8,
+      "old_score": 94.3,
+      "new_score": 94.3,
+      "old_scores": {
+        "innovation": 99,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 95,
+        "attention": 60
+      },
+      "new_scores": {
+        "innovation": 99,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 95,
+        "attention": 60
+      }
+    },
+    {
+      "id": "dino",
+      "old_rank": 9,
+      "new_rank": 9,
+      "old_score": 94.3,
+      "new_score": 94.3,
+      "old_scores": {
+        "innovation": 93,
+        "evidence": 90,
+        "reuse": 96,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 93,
+        "evidence": 90,
+        "reuse": 96,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "gaussian-splatting",
+      "old_rank": 10,
+      "new_rank": 10,
+      "old_score": 94.3,
+      "new_score": 94.3,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "dit",
+      "old_rank": 11,
+      "new_rank": 11,
+      "old_score": 94.2,
+      "new_score": 94.2,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 95.3,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 95.3,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "diffusion-policy",
+      "old_rank": 12,
+      "new_rank": 12,
+      "old_score": 93.0,
+      "new_score": 92.6,
+      "old_scores": {
+        "innovation": 96,
+        "evidence": 91,
+        "reuse": 95,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 78.1,
+        "attention": 96.6
+      },
+      "new_scores": {
+        "innovation": 96,
+        "evidence": 91,
+        "reuse": 95,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 78.1,
+        "attention": 87.8
+      }
+    },
+    {
+      "id": "nerf",
+      "old_rank": 13,
+      "new_rank": 13,
+      "old_score": 92.4,
+      "new_score": 92.4,
+      "old_scores": {
+        "innovation": 97,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 83.0,
+        "influence": 100,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 97,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 83.0,
+        "influence": 100,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "act",
+      "old_rank": 15,
+      "new_rank": 14,
+      "old_score": 91.9,
+      "new_score": 91.6,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 80.5,
+        "attention": 100
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 80.5,
+        "attention": 93.5
+      }
+    },
+    {
+      "id": "dreamerv3",
+      "old_rank": 14,
+      "new_rank": 15,
+      "old_score": 92.0,
+      "new_score": 91.4,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 96,
+        "reuse": 95,
+        "reading": 98,
+        "venue": 96.8,
+        "influence": 63.8,
+        "attention": 82.2
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 96,
+        "reuse": 95,
+        "reading": 98,
+        "venue": 96.8,
+        "influence": 63.8,
+        "attention": 70.4
+      }
+    },
+    {
+      "id": "rt1",
+      "old_rank": 17,
+      "new_rank": 16,
+      "old_score": 91.7,
+      "new_score": 91.2,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 92,
+        "reuse": 86,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 80.9,
+        "attention": 98.8
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 92,
+        "reuse": 86,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 80.9,
+        "attention": 89.2
+      }
+    },
+    {
+      "id": "sam2",
+      "old_rank": 24,
+      "new_rank": 17,
+      "old_score": 90.6,
+      "new_score": 91.2,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 69.7,
+        "attention": 88.8
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 69.7,
+        "attention": 100
+      }
+    },
+    {
+      "id": "rma",
+      "old_rank": 16,
+      "new_rank": 18,
+      "old_score": 91.7,
+      "new_score": 91.1,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 88,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 77.9,
+        "attention": 89.6
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 91,
+        "reuse": 88,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 77.9,
+        "attention": 77.8
+      }
+    },
+    {
+      "id": "dinov2",
+      "old_rank": 22,
+      "new_rank": 19,
+      "old_score": 90.7,
+      "new_score": 90.7,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 96,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 85.0,
+        "influence": 86.9,
+        "attention": 99.9
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 96,
+        "reuse": 99,
+        "reading": 97,
+        "venue": 85.0,
+        "influence": 86.9,
+        "attention": 100
+      }
+    },
+    {
+      "id": "perceptive-loco",
+      "old_rank": 18,
+      "new_rank": 20,
+      "old_score": 91.2,
+      "new_score": 90.7,
+      "old_scores": {
+        "innovation": 93,
+        "evidence": 95,
+        "reuse": 77,
+        "reading": 92,
+        "venue": 92.7,
+        "influence": 83.7,
+        "attention": 95.9
+      },
+      "new_scores": {
+        "innovation": 93,
+        "evidence": 95,
+        "reuse": 77,
+        "reading": 92,
+        "venue": 92.7,
+        "influence": 83.7,
+        "attention": 85.6
+      }
+    },
+    {
+      "id": "umi",
+      "old_rank": 19,
+      "new_rank": 21,
+      "old_score": 91.1,
+      "new_score": 90.5,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 64.5,
+        "attention": 81.7
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 64.5,
+        "attention": 68.1
+      }
+    },
+    {
+      "id": "cql",
+      "old_rank": 20,
+      "new_rank": 22,
+      "old_score": 91.1,
+      "new_score": 90.4,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 89,
+        "reuse": 97,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 78.9,
+        "attention": 70.5
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 89,
+        "reuse": 97,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 78.9,
+        "attention": 55.0
+      }
+    },
+    {
+      "id": "deepmimic",
+      "old_rank": 21,
+      "new_rank": 23,
+      "old_score": 90.8,
+      "new_score": 90.2,
+      "old_scores": {
+        "innovation": 96,
+        "evidence": 88,
+        "reuse": 93,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 85.1,
+        "attention": 85.8
+      },
+      "new_scores": {
+        "innovation": 96,
+        "evidence": 88,
+        "reuse": 93,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 85.1,
+        "attention": 73.0
+      }
+    },
+    {
+      "id": "decision-transformer",
+      "old_rank": 26,
+      "new_rank": 24,
+      "old_score": 90.0,
+      "new_score": 90.2,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 84,
+        "reuse": 95,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 76.6,
+        "attention": 72.4
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 84,
+        "reuse": 95,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 76.6,
+        "attention": 76.0
+      }
+    },
+    {
+      "id": "droid",
+      "old_rank": 29,
+      "new_rank": 25,
+      "old_score": 89.4,
+      "new_score": 90.1,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 61.9,
+        "attention": 79.3
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 61.9,
+        "attention": 94.2
+      }
+    },
+    {
+      "id": "i-jepa",
+      "old_rank": 25,
+      "new_rank": 26,
+      "old_score": 90.1,
+      "new_score": 90.0,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 75.2,
+        "attention": 92.0
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 75.2,
+        "attention": 90.8
+      }
+    },
+    {
+      "id": "edm",
+      "old_rank": 23,
+      "new_rank": 27,
+      "old_score": 90.7,
+      "new_score": 90.0,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 95,
+        "reuse": 96,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 67.6,
+        "attention": 86.8
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 95,
+        "reuse": 96,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 67.6,
+        "attention": 74.2
+      }
+    },
+    {
+      "id": "libero",
+      "old_rank": 34,
+      "new_rank": 28,
+      "old_score": 88.7,
+      "new_score": 89.6,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 57.9,
+        "attention": 74.6
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 93,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 57.9,
+        "attention": 91.7
+      }
+    },
+    {
+      "id": "video-diffusion",
+      "old_rank": 28,
+      "new_rank": 29,
+      "old_score": 89.8,
+      "new_score": 89.2,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 91,
+        "reuse": 89,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 67.6,
+        "attention": 86.6
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 91,
+        "reuse": 89,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 67.6,
+        "attention": 74.0
+      }
+    },
+    {
+      "id": "flow-matching",
+      "old_rank": 27,
+      "new_rank": 30,
+      "old_score": 90.0,
+      "new_score": 89.2,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 92,
+        "reuse": 98,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 58.4,
+        "attention": 70.5
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 92,
+        "reuse": 98,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 58.4,
+        "attention": 55.0
+      }
+    },
+    {
+      "id": "pi0",
+      "old_rank": 32,
+      "new_rank": 31,
+      "old_score": 89.0,
+      "new_score": 88.7,
+      "old_scores": {
+        "innovation": 90,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 69.5,
+        "attention": 89.5
+      },
+      "new_scores": {
+        "innovation": 90,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 69.5,
+        "attention": 83.1
+      }
+    },
+    {
+      "id": "amp",
+      "old_rank": 30,
+      "new_rank": 32,
+      "old_score": 89.2,
+      "new_score": 88.5,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 88,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 90.4,
+        "influence": 74.7,
+        "attention": 83.4
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 88,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 90.4,
+        "influence": 74.7,
+        "attention": 70.1
+      }
+    },
+    {
+      "id": "agile-flight",
+      "old_rank": 31,
+      "new_rank": 33,
+      "old_score": 89.1,
+      "new_score": 88.4,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 94,
+        "reuse": 83,
+        "reading": 84,
+        "venue": 92.7,
+        "influence": 74.0,
+        "attention": 83.5
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 94,
+        "reuse": 83,
+        "reading": 84,
+        "venue": 92.7,
+        "influence": 74.0,
+        "attention": 70.2
+      }
+    },
+    {
+      "id": "anymal-parkour",
+      "old_rank": 33,
+      "new_rank": 34,
+      "old_score": 89.0,
+      "new_score": 88.4,
+      "old_scores": {
+        "innovation": 90,
+        "evidence": 94,
+        "reuse": 82,
+        "reading": 94,
+        "venue": 92.7,
+        "influence": 69.5,
+        "attention": 86.0
+      },
+      "new_scores": {
+        "innovation": 90,
+        "evidence": 94,
+        "reuse": 82,
+        "reading": 94,
+        "venue": 92.7,
+        "influence": 69.5,
+        "attention": 73.3
+      }
+    },
+    {
+      "id": "asap",
+      "old_rank": 43,
+      "new_rank": 35,
+      "old_score": 87.1,
+      "new_score": 88.1,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 91,
+        "reuse": 91,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 50.0,
+        "attention": 64.5
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 91,
+        "reuse": 91,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 50.0,
+        "attention": 83.2
+      }
+    },
+    {
+      "id": "saycan",
+      "old_rank": 35,
+      "new_rank": 36,
+      "old_score": 88.4,
+      "new_score": 87.7,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 89,
+        "reuse": 79,
+        "reading": 96,
+        "venue": 90.0,
+        "influence": 78.0,
+        "attention": 78.8
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 89,
+        "reuse": 79,
+        "reading": 96,
+        "venue": 90.0,
+        "influence": 78.0,
+        "attention": 64.6
+      }
+    },
+    {
+      "id": "bipedal-soccer",
+      "old_rank": 36,
+      "new_rank": 37,
+      "old_score": 88.3,
+      "new_score": 87.6,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 93,
+        "reuse": 83,
+        "reading": 96,
+        "venue": 92.7,
+        "influence": 64.3,
+        "attention": 78.7
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 93,
+        "reuse": 83,
+        "reading": 96,
+        "venue": 92.7,
+        "influence": 64.3,
+        "attention": 64.5
+      }
+    },
+    {
+      "id": "octo",
+      "old_rank": 37,
+      "new_rank": 38,
+      "old_score": 88.3,
+      "new_score": 87.6,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 91,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 59.2,
+        "attention": 75.8
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 91,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 59.2,
+        "attention": 61.0
+      }
+    },
+    {
+      "id": "dreamer",
+      "old_rank": 38,
+      "new_rank": 39,
+      "old_score": 88.1,
+      "new_score": 87.4,
+      "old_scores": {
+        "innovation": 97,
+        "evidence": 89,
+        "reuse": 94,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 61.0,
+        "attention": 38.6
+      },
+      "new_scores": {
+        "innovation": 97,
+        "evidence": 89,
+        "reuse": 94,
+        "reading": 98,
+        "venue": 95.0,
+        "influence": 61.0,
+        "attention": 24.2
+      }
+    },
+    {
+      "id": "ddim",
+      "old_rank": 39,
+      "new_rank": 40,
+      "old_score": 88.1,
+      "new_score": 87.3,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 57.9,
+        "attention": 59.3
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 57.9,
+        "attention": 42.9
+      }
+    },
+    {
+      "id": "robomimic",
+      "old_rank": 58,
+      "new_rank": 41,
+      "old_score": 85.3,
+      "new_score": 87.0,
+      "old_scores": {
+        "innovation": 84,
+        "evidence": 95,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 60,
+        "attention": 40
+      },
+      "new_scores": {
+        "innovation": 84,
+        "evidence": 95,
+        "reuse": 99,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 60,
+        "attention": 73.3
+      }
+    },
+    {
+      "id": "iql",
+      "old_rank": 40,
+      "new_rank": 42,
+      "old_score": 87.7,
+      "new_score": 86.8,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 88,
+        "reuse": 96,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 61.0,
+        "attention": 54.7
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 88,
+        "reuse": 96,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 61.0,
+        "attention": 38.3
+      }
+    },
+    {
+      "id": "phc",
+      "old_rank": 41,
+      "new_rank": 43,
+      "old_score": 87.5,
+      "new_score": 86.7,
+      "old_scores": {
+        "innovation": 90,
+        "evidence": 90,
+        "reuse": 96,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 54.4,
+        "attention": 66.4
+      },
+      "new_scores": {
+        "innovation": 90,
+        "evidence": 90,
+        "reuse": 96,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 54.4,
+        "attention": 50.4
+      }
+    },
+    {
+      "id": "rectified-flow",
+      "old_rank": 42,
+      "new_rank": 44,
+      "old_score": 87.4,
+      "new_score": 86.6,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 95,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 55.2,
+        "attention": 57.2
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 95,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 55.2,
+        "attention": 40.8
+      }
+    },
+    {
+      "id": "consistency-models",
+      "old_rank": 51,
+      "new_rank": 45,
+      "old_score": 86.1,
+      "new_score": 86.1,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 96,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 39.2,
+        "attention": 37.0
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 96,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 39.2,
+        "attention": 38.4
+      }
+    },
+    {
+      "id": "vima",
+      "old_rank": 52,
+      "new_rank": 46,
+      "old_score": 85.8,
+      "new_score": 86.0,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 52.1,
+        "attention": 45.6
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 52.1,
+        "attention": 48.8
+      }
+    },
+    {
+      "id": "exbody",
+      "old_rank": 44,
+      "new_rank": 47,
+      "old_score": 86.7,
+      "new_score": 85.9,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 89,
+        "reuse": 91,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 56.3,
+        "attention": 70.1
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 89,
+        "reuse": 91,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 56.3,
+        "attention": 54.5
+      }
+    },
+    {
+      "id": "dp3",
+      "old_rank": 45,
+      "new_rank": 48,
+      "old_score": 86.5,
+      "new_score": 85.9,
+      "old_scores": {
+        "innovation": 84,
+        "evidence": 84,
+        "reuse": 90,
+        "reading": 89,
+        "venue": 95.0,
+        "influence": 67.0,
+        "attention": 85.7
+      },
+      "new_scores": {
+        "innovation": 84,
+        "evidence": 84,
+        "reuse": 90,
+        "reading": 89,
+        "venue": 95.0,
+        "influence": 67.0,
+        "attention": 73.0
+      }
+    },
+    {
+      "id": "palm-e",
+      "old_rank": 46,
+      "new_rank": 49,
+      "old_score": 86.4,
+      "new_score": 85.6,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 88,
+        "reuse": 55,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 73.1,
+        "attention": 71.3
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 88,
+        "reuse": 55,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 73.1,
+        "attention": 55.8
+      }
+    },
+    {
+      "id": "diffusion-forcing",
+      "old_rank": 47,
+      "new_rank": 50,
+      "old_score": 86.3,
+      "new_score": 85.5,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 49.1,
+        "attention": 63.2
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 49.1,
+        "attention": 47.0
+      }
+    },
+    {
+      "id": "isaac-gym",
+      "old_rank": 48,
+      "new_rank": 51,
+      "old_score": 86.3,
+      "new_score": 85.5,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 50.9,
+        "attention": 49.0
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 94,
+        "reuse": 99,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 50.9,
+        "attention": 33.0
+      }
+    },
+    {
+      "id": "ase",
+      "old_rank": 49,
+      "new_rank": 52,
+      "old_score": 86.2,
+      "new_score": 85.5,
+      "old_scores": {
+        "innovation": 90,
+        "evidence": 86,
+        "reuse": 88,
+        "reading": 91,
+        "venue": 90.4,
+        "influence": 67.4,
+        "attention": 75.0
+      },
+      "new_scores": {
+        "innovation": 90,
+        "evidence": 86,
+        "reuse": 88,
+        "reading": 91,
+        "venue": 90.4,
+        "influence": 67.4,
+        "attention": 60.1
+      }
+    },
+    {
+      "id": "self-forcing",
+      "old_rank": 70,
+      "new_rank": 53,
+      "old_score": 83.8,
+      "new_score": 85.4,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 84,
+        "reuse": 87,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 44.4,
+        "attention": 57.2
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 84,
+        "reuse": 87,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 44.4,
+        "attention": 88.7
+      }
+    },
+    {
+      "id": "diffuser",
+      "old_rank": 50,
+      "new_rank": 54,
+      "old_score": 86.1,
+      "new_score": 85.3,
+      "old_scores": {
+        "innovation": 95,
+        "evidence": 85,
+        "reuse": 94,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 50.9,
+        "attention": 43.6
+      },
+      "new_scores": {
+        "innovation": 95,
+        "evidence": 85,
+        "reuse": 94,
+        "reading": 97,
+        "venue": 95.0,
+        "influence": 50.9,
+        "attention": 28.2
+      }
+    },
+    {
+      "id": "fast",
+      "old_rank": 64,
+      "new_rank": 55,
+      "old_score": 84.7,
+      "new_score": 85.2,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 83,
+        "reuse": 85,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 51.9,
+        "attention": 66.9
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 83,
+        "reuse": 85,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 51.9,
+        "attention": 75.9
+      }
+    },
+    {
+      "id": "rvt2",
+      "old_rank": 53,
+      "new_rank": 56,
+      "old_score": 85.8,
+      "new_score": 85.0,
+      "old_scores": {
+        "innovation": 86,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 48.6,
+        "attention": 62.6
+      },
+      "new_scores": {
+        "innovation": 86,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 48.6,
+        "attention": 46.3
+      }
+    },
+    {
+      "id": "vq-bet",
+      "old_rank": 89,
+      "new_rank": 57,
+      "old_score": 81.2,
+      "new_score": 84.9,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 91,
+        "reuse": 94,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 40,
+        "attention": 51.7
+      }
+    },
+    {
+      "id": "rtx",
+      "old_rank": 54,
+      "new_rank": 58,
+      "old_score": 85.6,
+      "new_score": 84.8,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 83.0,
+        "influence": 57.9,
+        "attention": 58.5
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 93,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 83.0,
+        "influence": 57.9,
+        "attention": 42.0
+      }
+    },
+    {
+      "id": "td3-bc",
+      "old_rank": 55,
+      "new_rank": 59,
+      "old_score": 85.6,
+      "new_score": 84.8,
+      "old_scores": {
+        "innovation": 82,
+        "evidence": 87,
+        "reuse": 96,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 63.5,
+        "attention": 56.7
+      },
+      "new_scores": {
+        "innovation": 82,
+        "evidence": 87,
+        "reuse": 96,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 63.5,
+        "attention": 40.2
+      }
+    },
+    {
+      "id": "transporter",
+      "old_rank": 56,
+      "new_rank": 60,
+      "old_score": 85.4,
+      "new_score": 84.8,
+      "old_scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 46.1,
+        "attention": 31.3
+      },
+      "new_scores": {
+        "innovation": 96,
+        "evidence": 92,
+        "reuse": 98,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 46.1,
+        "attention": 18.8
+      }
+    },
+    {
+      "id": "td-mpc2",
+      "old_rank": 72,
+      "new_rank": 61,
+      "old_score": 83.3,
+      "new_score": 84.7,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 92,
+        "reuse": 94,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 27.4,
+        "attention": 33.4
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 92,
+        "reuse": 94,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 27.4,
+        "attention": 62.1
+      }
+    },
+    {
+      "id": "extreme-parkour",
+      "old_rank": 59,
+      "new_rank": 62,
+      "old_score": 85.2,
+      "new_score": 84.5,
+      "old_scores": {
+        "innovation": 90,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "venue": 83.0,
+        "influence": 64.2,
+        "attention": 79.1
+      },
+      "new_scores": {
+        "innovation": 90,
+        "evidence": 89,
+        "reuse": 93,
+        "reading": 96,
+        "venue": 83.0,
+        "influence": 64.2,
+        "attention": 65.0
+      }
+    },
+    {
+      "id": "mimicgen",
+      "old_rank": 86,
+      "new_rank": 63,
+      "old_score": 81.3,
+      "new_score": 84.5,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 94,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 22.4,
+        "attention": 11.1
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 94,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 22.4,
+        "attention": 75.6
+      }
+    },
+    {
+      "id": "walk-in-the-park",
+      "old_rank": 57,
+      "new_rank": 64,
+      "old_score": 85.3,
+      "new_score": 84.5,
+      "old_scores": {
+        "innovation": 86,
+        "evidence": 91,
+        "reuse": 91,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 49.3,
+        "attention": 51.1
+      },
+      "new_scores": {
+        "innovation": 86,
+        "evidence": 91,
+        "reuse": 91,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 49.3,
+        "attention": 34.9
+      }
+    },
+    {
+      "id": "openvla",
+      "old_rank": 80,
+      "new_rank": 65,
+      "old_score": 82.5,
+      "new_score": 84.5,
+      "old_scores": {
+        "innovation": 83,
+        "evidence": 86,
+        "reuse": 93,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 47.8,
+        "attention": 60.5
+      },
+      "new_scores": {
+        "innovation": 83,
+        "evidence": 86,
+        "reuse": 93,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 47.8,
+        "attention": 100
+      }
+    },
+    {
+      "id": "vip",
+      "old_rank": 63,
+      "new_rank": 66,
+      "old_score": 85.0,
+      "new_score": 84.4,
+      "old_scores": {
+        "innovation": 93,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 44.8,
+        "attention": 28.8
+      },
+      "new_scores": {
+        "innovation": 93,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 44.8,
+        "attention": 17.1
+      }
+    },
+    {
+      "id": "maskedmimic",
+      "old_rank": 60,
+      "new_rank": 67,
+      "old_score": 85.2,
+      "new_score": 84.3,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 88,
+        "reuse": 92,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 46.4,
+        "attention": 59.7
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 88,
+        "reuse": 92,
+        "reading": 95,
+        "venue": 90.4,
+        "influence": 46.4,
+        "attention": 43.3
+      }
+    },
+    {
+      "id": "cliport",
+      "old_rank": 61,
+      "new_rank": 68,
+      "old_score": 85.0,
+      "new_score": 84.2,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 96,
+        "venue": 90.0,
+        "influence": 56.5,
+        "attention": 45.6
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 96,
+        "venue": 90.0,
+        "influence": 56.5,
+        "attention": 30.0
+      }
+    },
+    {
+      "id": "rt2",
+      "old_rank": 62,
+      "new_rank": 69,
+      "old_score": 85.0,
+      "new_score": 84.2,
+      "old_scores": {
+        "innovation": 94,
+        "evidence": 83,
+        "reuse": 68,
+        "reading": 91,
+        "venue": 90.0,
+        "influence": 69.8,
+        "attention": 75.5
+      },
+      "new_scores": {
+        "innovation": 94,
+        "evidence": 83,
+        "reuse": 68,
+        "reading": 91,
+        "venue": 90.0,
+        "influence": 69.8,
+        "attention": 60.7
+      }
+    },
+    {
+      "id": "mobile-aloha",
+      "old_rank": 74,
+      "new_rank": 70,
+      "old_score": 83.2,
+      "new_score": 84.1,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 42.9,
+        "attention": 44.6
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 42.9,
+        "attention": 63.7
+      }
+    },
+    {
+      "id": "vc1",
+      "old_rank": 67,
+      "new_rank": 71,
+      "old_score": 84.1,
+      "new_score": 83.9,
+      "old_scores": {
+        "innovation": 84,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 38.6,
+        "attention": 28.8
+      },
+      "new_scores": {
+        "innovation": 84,
+        "evidence": 95,
+        "reuse": 98,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 38.6,
+        "attention": 24.6
+      }
+    },
+    {
+      "id": "r3m",
+      "old_rank": 65,
+      "new_rank": 72,
+      "old_score": 84.5,
+      "new_score": 83.7,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 97,
+        "reading": 93,
+        "venue": 90.0,
+        "influence": 54.9,
+        "attention": 42.5
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 97,
+        "reading": 93,
+        "venue": 90.0,
+        "influence": 54.9,
+        "attention": 27.3
+      }
+    },
+    {
+      "id": "trajectory-transformer",
+      "old_rank": 66,
+      "new_rank": 73,
+      "old_score": 84.1,
+      "new_score": 83.5,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 46.7,
+        "attention": 33.4
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 95,
+        "venue": 95.0,
+        "influence": 46.7,
+        "attention": 20.3
+      }
+    },
+    {
+      "id": "sonic",
+      "old_rank": 87,
+      "new_rank": 74,
+      "old_score": 81.3,
+      "new_score": 83.4,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 92.7,
+        "influence": 20.1,
+        "attention": 25.9
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 89,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 92.7,
+        "influence": 20.1,
+        "attention": 69.3
+      }
+    },
+    {
+      "id": "peract",
+      "old_rank": 68,
+      "new_rank": 75,
+      "old_score": 84.0,
+      "new_score": 83.3,
+      "old_scores": {
+        "innovation": 92,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 47.8,
+        "attention": 37.0
+      },
+      "new_scores": {
+        "innovation": 92,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 47.8,
+        "attention": 23.0
+      }
+    },
+    {
+      "id": "robocasa",
+      "old_rank": 88,
+      "new_rank": 76,
+      "old_score": 81.2,
+      "new_score": 83.2,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 97,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 97,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 62.2
+      }
+    },
+    {
+      "id": "walk-in-minutes",
+      "old_rank": 69,
+      "new_rank": 77,
+      "old_score": 83.9,
+      "new_score": 83.2,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 98,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 48.9,
+        "attention": 40.0
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 98,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 48.9,
+        "attention": 25.3
+      }
+    },
+    {
+      "id": "bridge-v2",
+      "old_rank": 92,
+      "new_rank": 78,
+      "old_score": 80.5,
+      "new_score": 83.1,
+      "old_scores": {
+        "innovation": 84,
+        "evidence": 91,
+        "reuse": 99,
+        "reading": 90,
+        "venue": 90.0,
+        "influence": 32.0,
+        "attention": 22.3
+      },
+      "new_scores": {
+        "innovation": 84,
+        "evidence": 91,
+        "reuse": 99,
+        "reading": 90,
+        "venue": 90.0,
+        "influence": 32.0,
+        "attention": 73.7
+      }
+    },
+    {
+      "id": "td-mpc",
+      "old_rank": 71,
+      "new_rank": 79,
+      "old_score": 83.3,
+      "new_score": 82.7,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 86,
+        "reuse": 91,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 41.2,
+        "attention": 28.8
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 86,
+        "reuse": 91,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 41.2,
+        "attention": 17.1
+      }
+    },
+    {
+      "id": "phenaki",
+      "old_rank": 73,
+      "new_rank": 80,
+      "old_score": 83.2,
+      "new_score": 82.6,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 87,
+        "reuse": 75,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 54.7,
+        "attention": 33.4
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 87,
+        "reuse": 75,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 54.7,
+        "attention": 20.3
+      }
+    },
+    {
+      "id": "efficientzero",
+      "old_rank": 75,
+      "new_rank": 81,
+      "old_score": 83.1,
+      "new_score": 82.5,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 46.1,
+        "attention": 25.9
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 87,
+        "reuse": 88,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 46.1,
+        "attention": 15.1
+      }
+    },
+    {
+      "id": "lingbot-va",
+      "old_rank": 95,
+      "new_rank": 82,
+      "old_score": 79.1,
+      "new_score": 82.3,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 87,
+        "reuse": 86,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 13.7,
+        "attention": 17.7
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 87,
+        "reuse": 86,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 13.7,
+        "attention": 82.1
+      }
+    },
+    {
+      "id": "daydreamer",
+      "old_rank": 79,
+      "new_rank": 83,
+      "old_score": 82.9,
+      "new_score": 82.2,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 91,
+        "reuse": 89,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 48.1,
+        "attention": 33.4
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 91,
+        "reuse": 89,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 48.1,
+        "attention": 20.3
+      }
+    },
+    {
+      "id": "dreamwaq",
+      "old_rank": 78,
+      "new_rank": 84,
+      "old_score": 82.9,
+      "new_score": 82.2,
+      "old_scores": {
+        "innovation": 86,
+        "evidence": 87,
+        "reuse": 83,
+        "reading": 93,
+        "venue": 83.0,
+        "influence": 63.4,
+        "attention": 77.9
+      },
+      "new_scores": {
+        "innovation": 86,
+        "evidence": 87,
+        "reuse": 83,
+        "reading": 93,
+        "venue": 83.0,
+        "influence": 63.4,
+        "attention": 63.6
+      }
+    },
+    {
+      "id": "unipi",
+      "old_rank": 76,
+      "new_rank": 85,
+      "old_score": 82.9,
+      "new_score": 82.2,
+      "old_scores": {
+        "innovation": 93,
+        "evidence": 86,
+        "reuse": 80,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 33.8,
+        "attention": 42.5
+      },
+      "new_scores": {
+        "innovation": 93,
+        "evidence": 86,
+        "reuse": 80,
+        "reading": 96,
+        "venue": 95.0,
+        "influence": 33.8,
+        "attention": 27.3
+      }
+    },
+    {
+      "id": "cal-ql",
+      "old_rank": 77,
+      "new_rank": 86,
+      "old_score": 82.9,
+      "new_score": 82.1,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 89,
+        "reuse": 90,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 33.8,
+        "attention": 43.6
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 89,
+        "reuse": 90,
+        "reading": 92,
+        "venue": 95.0,
+        "influence": 33.8,
+        "attention": 28.2
+      }
+    },
+    {
+      "id": "dreamerv2",
+      "old_rank": 81,
+      "new_rank": 87,
+      "old_score": 82.4,
+      "new_score": 82.0,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 89,
+        "reuse": 91,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 39.2,
+        "attention": 17.7
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 89,
+        "reuse": 91,
+        "reading": 91,
+        "venue": 95.0,
+        "influence": 39.2,
+        "attention": 10.0
+      }
+    },
+    {
+      "id": "vjepa2",
+      "old_rank": 102,
+      "new_rank": 88,
+      "old_score": 54.1,
+      "new_score": 81.9,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 97,
+        "venue": 0,
+        "influence": 22.4,
+        "attention": 28.8
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 97,
+        "venue": 60,
+        "influence": 84.4,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "deep-whole-body-control",
+      "old_rank": 82,
+      "new_rank": 89,
+      "old_score": 82.1,
+      "new_score": 81.5,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 89,
+        "reuse": 90,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 41.2,
+        "attention": 31.3
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 89,
+        "reuse": 90,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 41.2,
+        "attention": 18.8
+      }
+    },
+    {
+      "id": "cot-vla",
+      "old_rank": 83,
+      "new_rank": 90,
+      "old_score": 82.0,
+      "new_score": 81.3,
+      "old_scores": {
+        "innovation": 86,
+        "evidence": 79,
+        "reuse": 73,
+        "reading": 87,
+        "venue": 95.0,
+        "influence": 52.1,
+        "attention": 67.1
+      },
+      "new_scores": {
+        "innovation": 86,
+        "evidence": 79,
+        "reuse": 73,
+        "reading": 87,
+        "venue": 95.0,
+        "influence": 52.1,
+        "attention": 54.0
+      }
+    },
+    {
+      "id": "lewm",
+      "old_rank": 104,
+      "new_rank": 91,
+      "old_score": 48.2,
+      "new_score": 81.2,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 83,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 83,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 70,
+        "influence": 70.4,
+        "attention": 99.8
+      }
+    },
+    {
+      "id": "walk-these-ways",
+      "old_rank": 85,
+      "new_rank": 92,
+      "old_score": 81.4,
+      "new_score": 80.7,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 87,
+        "reuse": 96,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 37.4,
+        "attention": 35.3
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 87,
+        "reuse": 96,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 37.4,
+        "attention": 21.7
+      }
+    },
+    {
+      "id": "consistency-policy",
+      "old_rank": 84,
+      "new_rank": 93,
+      "old_score": 81.5,
+      "new_score": 80.7,
+      "old_scores": {
+        "innovation": 81,
+        "evidence": 80,
+        "reuse": 82,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 49.8,
+        "attention": 64.2
+      },
+      "new_scores": {
+        "innovation": 81,
+        "evidence": 80,
+        "reuse": 82,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 49.8,
+        "attention": 48.0
+      }
+    },
+    {
+      "id": "gr00t-n1",
+      "old_rank": 103,
+      "new_rank": 94,
+      "old_score": 51.9,
+      "new_score": 80.4,
+      "old_scores": {
+        "innovation": 86,
+        "evidence": 86,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 0,
+        "influence": 22.4,
+        "attention": 28.8
+      },
+      "new_scores": {
+        "innovation": 86,
+        "evidence": 86,
+        "reuse": 92,
+        "reading": 92,
+        "venue": 60,
+        "influence": 91.5,
+        "attention": 100.0
+      }
+    },
+    {
+      "id": "learned-dynamics-review",
+      "old_rank": 90,
+      "new_rank": 95,
+      "old_score": 81.0,
+      "new_score": 80.3,
+      "old_scores": {
+        "innovation": 76,
+        "evidence": 88,
+        "reuse": 91,
+        "reading": 96,
+        "venue": 92.7,
+        "influence": 38.6,
+        "attention": 49.7
+      },
+      "new_scores": {
+        "innovation": 76,
+        "evidence": 88,
+        "reuse": 91,
+        "reading": 96,
+        "venue": 92.7,
+        "influence": 38.6,
+        "attention": 37.2
+      }
+    },
+    {
+      "id": "ctrl-world",
+      "old_rank": 98,
+      "new_rank": 96,
+      "old_score": 76.9,
+      "new_score": 80.3,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 86,
+        "reuse": 90,
+        "reading": 94,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 68.9
+      }
+    },
+    {
+      "id": "pi05",
+      "old_rank": 97,
+      "new_rank": 97,
+      "old_score": 77.2,
+      "new_score": 80.3,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 84,
+        "reuse": 80,
+        "reading": 93,
+        "venue": 90.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 84,
+        "reuse": 80,
+        "reading": 93,
+        "venue": 90.0,
+        "influence": 17.3,
+        "attention": 84.6
+      }
+    },
+    {
+      "id": "dreamzero",
+      "old_rank": 105,
+      "new_rank": 98,
+      "old_score": 48.0,
+      "new_score": 80.1,
+      "old_scores": {
+        "innovation": 93,
+        "evidence": 82,
+        "reuse": 79,
+        "reading": 95,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 93,
+        "evidence": 82,
+        "reuse": 79,
+        "reading": 95,
+        "venue": 65,
+        "influence": 77.0,
+        "attention": 99.5
+      }
+    },
+    {
+      "id": "humanplus",
+      "old_rank": 91,
+      "new_rank": 99,
+      "old_score": 80.5,
+      "new_score": 80.1,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 22.4,
+        "attention": 22.3
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 90,
+        "reuse": 90,
+        "reading": 97,
+        "venue": 90.0,
+        "influence": 22.4,
+        "attention": 12.8
+      }
+    },
+    {
+      "id": "hover",
+      "old_rank": 93,
+      "new_rank": 100,
+      "old_score": 80.4,
+      "new_score": 79.6,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 88,
+        "reuse": 90,
+        "reading": 93,
+        "venue": 83.0,
+        "influence": 40.2,
+        "attention": 51.8
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 88,
+        "reuse": 90,
+        "reading": 93,
+        "venue": 83.0,
+        "influence": 40.2,
+        "attention": 35.5
+      }
+    },
+    {
+      "id": "rvt",
+      "old_rank": 94,
+      "new_rank": 101,
+      "old_score": 80.1,
+      "new_score": 79.5,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 90,
+        "venue": 90.0,
+        "influence": 24.3,
+        "attention": 28.8
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 90,
+        "reuse": 92,
+        "reading": 90,
+        "venue": 90.0,
+        "influence": 24.3,
+        "attention": 17.1
+      }
+    },
+    {
+      "id": "videovla",
+      "old_rank": 96,
+      "new_rank": 102,
+      "old_score": 78.0,
+      "new_score": 78.8,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 82,
+        "reuse": 80,
+        "reading": 90,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 22.3
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 82,
+        "reuse": 80,
+        "reading": 90,
+        "venue": 95.0,
+        "influence": 17.3,
+        "attention": 38.0
+      }
+    },
+    {
+      "id": "cosmos-policy",
+      "old_rank": 100,
+      "new_rank": 103,
+      "old_score": 75.8,
+      "new_score": 78.5,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 82,
+        "reuse": 82,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 82,
+        "reuse": 82,
+        "reading": 93,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 54.8
+      }
+    },
+    {
+      "id": "omnih2o",
+      "old_rank": 99,
+      "new_rank": 104,
+      "old_score": 76.8,
+      "new_score": 76.8,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 90,
+        "reuse": 93,
+        "reading": 94,
+        "venue": 90.0,
+        "influence": 0.0,
+        "attention": 0.0
+      }
+    },
+    {
+      "id": "egoscale",
+      "old_rank": 106,
+      "new_rank": 105,
+      "old_score": 47.3,
+      "new_score": 75.6,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 84,
+        "reuse": 78,
+        "reading": 92,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 84,
+        "reuse": 78,
+        "reading": 92,
+        "venue": 60,
+        "influence": 60.3,
+        "attention": 86.4
+      }
+    },
+    {
+      "id": "efficientzero-v2",
+      "old_rank": 101,
+      "new_rank": 106,
+      "old_score": 75.0,
+      "new_score": 75.0,
+      "old_scores": {
+        "innovation": 84,
+        "evidence": 87,
+        "reuse": 78,
+        "reading": 87,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 84,
+        "evidence": 87,
+        "reuse": 78,
+        "reading": 87,
+        "venue": 95.0,
+        "influence": 0.0,
+        "attention": 0.0
+      }
+    },
+    {
+      "id": "modar",
+      "old_rank": 107,
+      "new_rank": 107,
+      "old_score": 46.9,
+      "new_score": 69.6,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 85,
+        "reuse": 72,
+        "reading": 94,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 85,
+        "reuse": 72,
+        "reading": 94,
+        "venue": 60,
+        "influence": 8.7,
+        "attention": 76.5
+      }
+    },
+    {
+      "id": "dreamtrue",
+      "old_rank": 114,
+      "new_rank": 108,
+      "old_score": 43.5,
+      "new_score": 64.1,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 74,
+        "reuse": 62,
+        "reading": 91,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 74,
+        "reuse": 62,
+        "reading": 91,
+        "venue": 60,
+        "influence": 0,
+        "attention": 51.5
+      }
+    },
+    {
+      "id": "viola",
+      "old_rank": 108,
+      "new_rank": 109,
+      "old_score": 45.8,
+      "new_score": 63.8,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 79,
+        "reuse": 65,
+        "reading": 94,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 79,
+        "reuse": 65,
+        "reading": 94,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      }
+    },
+    {
+      "id": "lewam",
+      "old_rank": 109,
+      "new_rank": 110,
+      "old_score": 45.1,
+      "new_score": 63.1,
+      "old_scores": {
+        "innovation": 91,
+        "evidence": 76,
+        "reuse": 64,
+        "reading": 94,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 91,
+        "evidence": 76,
+        "reuse": 64,
+        "reading": 94,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      }
+    },
+    {
+      "id": "holo-m",
+      "old_rank": 110,
+      "new_rank": 111,
+      "old_score": 44.3,
+      "new_score": 62.3,
+      "old_scores": {
+        "innovation": 86,
+        "evidence": 78,
+        "reuse": 65,
+        "reading": 90,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 86,
+        "evidence": 78,
+        "reuse": 65,
+        "reading": 90,
+        "venue": 60,
+        "influence": 0.0,
+        "attention": 0.0
+      }
+    },
+    {
+      "id": "dex-one2many",
+      "old_rank": 111,
+      "new_rank": 112,
+      "old_score": 44.2,
+      "new_score": 62.2,
+      "old_scores": {
+        "innovation": 88,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 88,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 89,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      }
+    },
+    {
+      "id": "arc",
+      "old_rank": 112,
+      "new_rank": 113,
+      "old_score": 44.2,
+      "new_score": 62.2,
+      "old_scores": {
+        "innovation": 87,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 91,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 87,
+        "evidence": 76,
+        "reuse": 65,
+        "reading": 91,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      }
+    },
+    {
+      "id": "balanced-data-diet",
+      "old_rank": 113,
+      "new_rank": 114,
+      "old_score": 44.1,
+      "new_score": 62.1,
+      "old_scores": {
+        "innovation": 85,
+        "evidence": 77,
+        "reuse": 68,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 85,
+        "evidence": 77,
+        "reuse": 68,
+        "reading": 89,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      }
+    },
+    {
+      "id": "plaw-vla",
+      "old_rank": 115,
+      "new_rank": 115,
+      "old_score": 43.1,
+      "new_score": 61.7,
+      "old_scores": {
+        "innovation": 84,
+        "evidence": 75,
+        "reuse": 63,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 84,
+        "evidence": 75,
+        "reuse": 63,
+        "reading": 89,
+        "venue": 60,
+        "influence": 0,
+        "attention": 11.9
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 研究范围：世界模型与连续/离散规划；模拟控制基础。
 
-[原文入口](https://proceedings.mlr.press/v235/wang24at.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24at/wang24at.pdf)
+[原文入口](https://proceedings.mlr.press/v235/wang24at.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24at/wang24at.pdf) · [作者与团队](../leaderboard/origins/papers/efficientzero-v2.md)
 
 ICML 2024 Spotlight 的正式会议信息可在官方 virtual 页面交叉核对。
 

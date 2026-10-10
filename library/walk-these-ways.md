@@ -4,7 +4,7 @@
 
 研究范围：多步态四足控制与测试时调节。
 
-[原文入口](https://proceedings.mlr.press/v205/margolis23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf) · [作者项目 / 代码入口](https://gmargo11.github.io/walk-these-ways/)
+[原文入口](https://proceedings.mlr.press/v205/margolis23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf) · [作者项目 / 代码入口](https://gmargo11.github.io/walk-these-ways/) · [作者与团队](../leaderboard/origins/papers/walk-these-ways.md)
 
 CoRL 2022；PMLR 205 论文集出版年为 2023。
 

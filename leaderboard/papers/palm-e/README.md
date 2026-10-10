@@ -1,10 +1,12 @@
 # PaLM-E: An Embodied Multimodal Language Model
 
-**PaLM-E** · ICML 2023 · 本版排名 46 · 综合分 **86.4 / 100**
+**PaLM-E** · ICML 2023 · 本版排名 49 · 综合分 **85.6 / 100**
 
 [解读导读](../../../library/palm-e.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICML集锦](../../../venues/ICML/README.md)
 
 [原文](https://proceedings.mlr.press/v202/driess23a.html) · [PDF](https://proceedings.mlr.press/v202/driess23a/driess23a.pdf) · [阅读卡片](../../../library/palm-e.md)
+
+论文出处：[Danny Driess · Google Research / TU Berlin](../../origins/papers/palm-e.md)
 
 ## 机制简析
 
@@ -25,21 +27,37 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 92 | 20% |
 | 实验与证据 | 88 | 20% |
 | 学术影响 | 73.1 | 10% |
-| 近期关注 | 71.3 | 5% |
+| 近期关注 | 55.8 | 5% |
 | 复用价值 | 55 | 8% |
 | 阅读价值 | 94 | 7% |
 
 刊会依据：[ICML 2023](../../../venues/ICML/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v202/driess23a.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：作者预印本/原研究索引记录；OpenAlex题目：PaLM-E: An Embodied Multimodal Language Model。累计被引 348，2025–2026 被引 83；快照：2026-10-10T09:50:37+08:00。
+计量来源：OpenAlex；作者预印本/原研究索引记录；匹配题目：PaLM-E: An Embodied Multimodal Language Model。累计被引 **348**，2025–2026 被引 **83**；快照：2026-10-10T09:50:37+08:00。
 
 [指标记录](https://api.openalex.org/works/W4323572061) · [文献计量条目](https://openalex.org/W4323572061)
 
+### 影响与关注的计算依据
+
+- **学术影响 73.1**：身份匹配的累计引用C=348，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W4323572061)
+- **近期关注 55.8**：近期已定位引用R=83；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W4323572061)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/google-research/robotics_transformer) | GitHub Star 1741；GitHub Watch订阅 0；GitHub Fork 205 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2303.03378) | HF 论文累计点赞 0 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

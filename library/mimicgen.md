@@ -4,7 +4,7 @@
 
 研究范围：对象中心轨迹变换与自动机器人示范生成。
 
-[原文入口](https://proceedings.mlr.press/v229/mandlekar23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf) · [作者项目 / 代码入口](https://mimicgen.github.io/)
+[原文入口](https://proceedings.mlr.press/v229/mandlekar23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf) · [作者项目 / 代码入口](https://mimicgen.github.io/) · [作者与团队](../leaderboard/origins/papers/mimicgen.md)
 
 CoRL 2023 正式版；生成需对象位姿及子任务结构假设，不能写成对任意人类视频自由扩增。
 

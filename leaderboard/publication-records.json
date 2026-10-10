@@ -1,0 +1,1271 @@
+{
+  "methodology_version": 3,
+  "checked_at": "2026-10-10",
+  "papers": {
+    "holo-m": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2609.35709v1",
+      "sources": [
+        "https://arxiv.org/abs/2609.35709v1",
+        "https://arxiv.org/pdf/2609.35709v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "fast": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss21/p012.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss21/p012.html",
+        "https://www.roboticsproceedings.org/rss21/p012.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "pi0": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss21/p010.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss21/p010.html",
+        "https://www.roboticsproceedings.org/rss21/p010.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "openvla": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v270/kim25c.html",
+        "https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "rt2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v229/zitkovich23a.html",
+        "https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "pi05": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/black25a/black25a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v305/black25a.html",
+        "https://raw.githubusercontent.com/mlresearch/v305/main/assets/black25a/black25a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "cot-vla": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html",
+        "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "diffusion-policy": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss19/p026.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss19/p026.html",
+        "https://www.roboticsproceedings.org/rss19/p026.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "act": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss19/p016.html",
+        "https://www.roboticsproceedings.org/rss19/p016.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dp3": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss20/p067.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss20/p067.html",
+        "https://www.roboticsproceedings.org/rss20/p067.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "consistency-policy": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss20/p071.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss20/p071.html",
+        "https://www.roboticsproceedings.org/rss20/p071.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "rma": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss17/p011.html",
+        "https://www.roboticsproceedings.org/rss17/p011.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dreamwaq": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2301.10602",
+      "sources": [
+        "https://ieeexplore.ieee.org/abstract/document/10161144/",
+        "https://arxiv.org/pdf/2301.10602"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "perceptive-loco": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2201.08117",
+      "sources": [
+        "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+        "https://arxiv.org/pdf/2201.08117"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "agile-flight": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2110.05113",
+      "sources": [
+        "https://www.science.org/doi/10.1126/scirobotics.abg5810",
+        "https://arxiv.org/pdf/2110.05113"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "deepmimic": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "sources": [
+        "https://xbpeng.github.io/projects/DeepMimic/",
+        "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "amp": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://xbpeng.github.io/projects/AMP/AMP_2021.pdf",
+      "sources": [
+        "https://xbpeng.github.io/projects/AMP/",
+        "https://xbpeng.github.io/projects/AMP/AMP_2021.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "ase": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://xbpeng.github.io/projects/ASE/ASE_2022.pdf",
+      "sources": [
+        "https://xbpeng.github.io/projects/ASE/",
+        "https://xbpeng.github.io/projects/ASE/ASE_2022.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dreamer": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/1912.01603",
+      "sources": [
+        "https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/",
+        "https://arxiv.org/pdf/1912.01603"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dreamerv2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2010.02193",
+      "sources": [
+        "https://research.google/pubs/mastering-atari-with-discrete-world-models/",
+        "https://arxiv.org/pdf/2010.02193"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dreamerv3": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2301.04104",
+      "sources": [
+        "https://www.nature.com/articles/s41586-025-08744-2",
+        "https://arxiv.org/pdf/2301.04104"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "td-mpc": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v162/hansen22a.html",
+        "https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "td-mpc2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dreamzero": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2602.15922",
+      "sources": [
+        "https://arxiv.org/abs/2602.15922",
+        "https://arxiv.org/pdf/2602.15922"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "cosmos-policy": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2601.16163",
+      "sources": [
+        "https://openreview.net/forum?id=wPEIStHxYH",
+        "https://arxiv.org/pdf/2601.16163"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "lingbot-va": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss22/p016.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss22/p016.html",
+        "https://www.roboticsproceedings.org/rss22/p016.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "videovla": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "diffusion-forcing": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/2aee1c4159e48407d68fe16ae8e6e49e-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/2aee1c4159e48407d68fe16ae8e6e49e-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2024/file/2aee1c4159e48407d68fe16ae8e6e49e-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "self-forcing": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dit": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+        "https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "rt1": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://roboticsproceedings.org/rss19/p025.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss19/p025.html",
+        "https://roboticsproceedings.org/rss19/p025.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "saycan": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v205/ichter23a.html",
+        "https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "palm-e": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v202/driess23a/driess23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v202/driess23a.html",
+        "https://proceedings.mlr.press/v202/driess23a/driess23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "rtx": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2310.08864",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/10611477",
+        "https://arxiv.org/pdf/2310.08864"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "octo": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://roboticsproceedings.org/rss20/p090.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss20/p090.html",
+        "https://roboticsproceedings.org/rss20/p090.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "cliport": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v164/shridhar22a.html",
+        "https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "peract": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v205/shridhar23a.html",
+        "https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "rvt": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v229/goyal23a/goyal23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v229/goyal23a.html",
+        "https://proceedings.mlr.press/v229/goyal23a/goyal23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "rvt2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss20/p055.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss20/p055.html",
+        "https://www.roboticsproceedings.org/rss20/p055.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "vima": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v202/jiang23b.html",
+        "https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "robomimic": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v164/mandlekar22a.html",
+        "https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "bridge-v2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v229/walke23a/walke23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v229/walke23a.html",
+        "https://proceedings.mlr.press/v229/walke23a/walke23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "droid": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss20/p120.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss20/p120.html",
+        "https://www.roboticsproceedings.org/rss20/p120.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "libero": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "robocasa": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss20/p050.pdf",
+      "sources": [
+        "https://roboticsproceedings.org/rss20/p050.html",
+        "https://www.roboticsproceedings.org/rss20/p050.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "mobile-aloha": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25b/fu25b.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v270/fu25b.html",
+        "https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25b/fu25b.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "r3m": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v205/nair23a/nair23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v205/nair23a.html",
+        "https://proceedings.mlr.press/v205/nair23a/nair23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "vip": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openreview.net/pdf?id=YJ7o2wetJ2",
+      "sources": [
+        "https://openreview.net/forum?id=YJ7o2wetJ2",
+        "https://openreview.net/pdf?id=YJ7o2wetJ2"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "vc1": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/022ca1bed6b574b962c48a2856eb207b-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/022ca1bed6b574b962c48a2856eb207b-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/022ca1bed6b574b962c48a2856eb207b-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "unipi": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/1d5b9233ad716a43be5c0d3023cb82d0-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/1d5b9233ad716a43be5c0d3023cb82d0-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "umi": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss20/p045.html",
+        "https://www.roboticsproceedings.org/rss20/p045.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "mimicgen": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v229/mandlekar23a.html",
+        "https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "vq-bet": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v235/lee24y.html",
+        "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "transporter": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v155/zeng21a/zeng21a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v155/zeng21a.html",
+        "https://proceedings.mlr.press/v155/zeng21a/zeng21a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "efficientzero": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper/2021/file/d5eca8dc3820cad9fe56a3bafda65ca1-Paper.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html",
+        "https://proceedings.neurips.cc/paper/2021/file/d5eca8dc3820cad9fe56a3bafda65ca1-Paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "efficientzero-v2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24at/wang24at.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v235/wang24at.html",
+        "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24at/wang24at.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "daydreamer": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v205/wu23c/wu23c.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v205/wu23c.html",
+        "https://proceedings.mlr.press/v205/wu23c/wu23c.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "iql": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2110.06169",
+      "sources": [
+        "https://iclr.cc/virtual/2022/poster/5941",
+        "https://arxiv.org/pdf/2110.06169"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "td3-bc": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html",
+        "https://proceedings.neurips.cc/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "decision-transformer": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "trajectory-transformer": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html",
+        "https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "diffuser": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v162/janner22a/janner22a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v162/janner22a.html",
+        "https://proceedings.mlr.press/v162/janner22a/janner22a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "cal-ql": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/c44a04289beaf0a7d968a94066a1d696-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/c44a04289beaf0a7d968a94066a1d696-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/c44a04289beaf0a7d968a94066a1d696-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "muzero": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/1911.08265",
+      "sources": [
+        "https://www.nature.com/articles/s41586-020-03051-4",
+        "https://arxiv.org/pdf/1911.08265"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "cql": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+        "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "walk-in-minutes": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v164/rudin22a/rudin22a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v164/rudin22a.html",
+        "https://proceedings.mlr.press/v164/rudin22a/rudin22a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "walk-these-ways": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v205/margolis23a.html",
+        "https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "extreme-parkour": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://extreme-parkour.github.io/resources/parkour.pdf",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/10610200",
+        "https://extreme-parkour.github.io/resources/parkour.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "anymal-parkour": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2306.14874",
+      "sources": [
+        "https://www.science.org/doi/10.1126/scirobotics.adi7566",
+        "https://arxiv.org/pdf/2306.14874"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "bipedal-soccer": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2304.13653",
+      "sources": [
+        "https://www.science.org/doi/10.1126/scirobotics.adi8022",
+        "https://arxiv.org/pdf/2304.13653"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "humanplus": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25a/fu25a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v270/fu25a.html",
+        "https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25a/fu25a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "omnih2o": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v270/he25b.html",
+        "https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "asap": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://agile.human2humanoid.com/static/asap.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss21/p066.html",
+        "https://agile.human2humanoid.com/static/asap.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "maskedmimic": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf",
+      "sources": [
+        "https://dl.acm.org/doi/10.1145/3687951",
+        "https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "phc": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.html",
+        "https://openaccess.thecvf.com/content/ICCV2023/papers/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "deep-whole-body-control": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v205/fu23a/fu23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v205/fu23a.html",
+        "https://proceedings.mlr.press/v205/fu23a/fu23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "exbody": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss20/p107.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss20/p107.html",
+        "https://www.roboticsproceedings.org/rss20/p107.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "walk-in-the-park": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.roboticsproceedings.org/rss19/p056.pdf",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss19/p056.html",
+        "https://www.roboticsproceedings.org/rss19/p056.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "attention": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+      "sources": [
+        "https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+        "https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "vit": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2010.11929v2",
+      "sources": [
+        "https://iclr.cc/virtual/2021/poster/3013",
+        "https://arxiv.org/pdf/2010.11929v2"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "clip": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v139/radford21a.html",
+        "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dino": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+        "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dinov2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openreview.net/pdf?id=a68SUt6zFt",
+      "sources": [
+        "https://openreview.net/forum?id=a68SUt6zFt",
+        "https://openreview.net/pdf?id=a68SUt6zFt"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "mae": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+        "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "sam": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html",
+        "https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "sam2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf",
+      "sources": [
+        "https://openreview.net/forum?id=Ha6RTeWMd0",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "nerf": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24",
+        "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "gaussian-splatting": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2308.04079",
+      "sources": [
+        "https://dl.acm.org/doi/10.1145/3592433",
+        "https://arxiv.org/pdf/2308.04079"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "ddpm": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+        "https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "ddim": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openreview.net/pdf?id=St1giarCHLP",
+      "sources": [
+        "https://iclr.cc/virtual/2021/poster/2804",
+        "https://openreview.net/pdf?id=St1giarCHLP"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "latent-diffusion": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html",
+        "https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "edm": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/a98846e9d9cc01cfb87eb694d946ce6b-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/a98846e9d9cc01cfb87eb694d946ce6b-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2022/file/a98846e9d9cc01cfb87eb694d946ce6b-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "flow-matching": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2210.02747",
+      "sources": [
+        "https://iclr.cc/virtual/2023/poster/11309",
+        "https://arxiv.org/pdf/2210.02747"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "rectified-flow": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openreview.net/pdf?id=gWxpdtQpiYV",
+      "sources": [
+        "https://iclr.cc/virtual/2023/poster/11266",
+        "https://openreview.net/pdf?id=gWxpdtQpiYV"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "consistency-models": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.mlr.press/v202/song23a/song23a.pdf",
+      "sources": [
+        "https://proceedings.mlr.press/v202/song23a.html",
+        "https://proceedings.mlr.press/v202/song23a/song23a.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "video-diffusion": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "phenaki": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openreview.net/pdf?id=vOEXS39nOF",
+      "sources": [
+        "https://openreview.net/forum?id=vOEXS39nOF",
+        "https://openreview.net/pdf?id=vOEXS39nOF"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "i-jepa": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf",
+      "sources": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html",
+        "https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "lewm": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2603.19312v1",
+      "sources": [
+        "https://arxiv.org/abs/2603.19312v1",
+        "https://arxiv.org/pdf/2603.19312v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "ctrl-world": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2510.10125v1",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html",
+        "https://arxiv.org/pdf/2510.10125v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "modar": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2609.17524v1",
+      "sources": [
+        "https://arxiv.org/abs/2609.17524v1",
+        "https://arxiv.org/pdf/2609.17524v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "sonic": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2511.07820v4",
+      "sources": [
+        "https://www.science.org/doi/10.1126/scirobotics.aed4592",
+        "https://arxiv.org/pdf/2511.07820v4"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "gr00t-n1": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2503.14734v2",
+      "sources": [
+        "https://arxiv.org/abs/2503.14734",
+        "https://arxiv.org/pdf/2503.14734v2"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "egoscale": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2602.16710v1",
+      "sources": [
+        "https://arxiv.org/abs/2602.16710",
+        "https://arxiv.org/pdf/2602.16710v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "learned-dynamics-review": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf",
+      "sources": [
+        "https://www.science.org/doi/10.1126/scirobotics.adt1497",
+        "https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "hover": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2410.21229",
+      "sources": [
+        "https://hover-versatile-humanoid.github.io/",
+        "https://arxiv.org/pdf/2410.21229"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "isaac-gym": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/28dd2c7955ce926456240b2ff0100bde-Paper-round2.pdf",
+      "sources": [
+        "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html",
+        "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/28dd2c7955ce926456240b2ff0100bde-Paper-round2.pdf"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "vjepa2": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2506.09985",
+      "sources": [
+        "https://arxiv.org/abs/2506.09985",
+        "https://arxiv.org/pdf/2506.09985"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dex-one2many": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.12470v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.12470v1",
+        "https://arxiv.org/pdf/2610.12470v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "dreamtrue": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.12468v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.12468v1",
+        "https://arxiv.org/pdf/2610.12468v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "balanced-data-diet": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.12465v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.12465v1",
+        "https://arxiv.org/pdf/2610.12465v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "viola": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.12435v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.12435v1",
+        "https://arxiv.org/pdf/2610.12435v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "lewam": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.12407v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.12407v1",
+        "https://arxiv.org/pdf/2610.12407v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "arc": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.12386v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.12386v1",
+        "https://arxiv.org/pdf/2610.12386v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    },
+    "plaw-vla": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.12285v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.12285v1",
+        "https://arxiv.org/pdf/2610.12285v1"
+      ],
+      "checked_at": "2026-10-10",
+      "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
+      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+    }
+  }
+}

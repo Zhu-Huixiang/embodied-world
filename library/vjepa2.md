@@ -4,7 +4,7 @@
 
 研究范围：视频潜世界模型；动作条件规划与实机操作。
 
-[原文入口](https://arxiv.org/abs/2506.09985) · [原文 PDF](https://arxiv.org/pdf/2506.09985) · [作者项目 / 代码入口](https://ai.meta.com/vjepa/)
+[原文入口](https://arxiv.org/abs/2506.09985) · [原文 PDF](https://arxiv.org/pdf/2506.09985) · [作者项目 / 代码入口](https://ai.meta.com/vjepa/) · [作者与团队](../leaderboard/origins/papers/vjepa2.md)
 
 官方代码 BibTeX 仍为 arXiv preprint；精选预印本观察项，不进入正式刊会队列。
 

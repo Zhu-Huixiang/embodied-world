@@ -4,7 +4,7 @@
 
 研究范围：多模态世界动作模型；双臂操作。
 
-[原文入口](https://arxiv.org/abs/2609.17524v1) · [原文 PDF](https://arxiv.org/pdf/2609.17524v1) · [作者项目 / 代码入口](https://adamhung60.github.io/ModAR/)
+[原文入口](https://arxiv.org/abs/2609.17524v1) · [原文 PDF](https://arxiv.org/pdf/2609.17524v1) · [作者项目 / 代码入口](https://adamhung60.github.io/ModAR/) · [作者与团队](../leaderboard/origins/papers/modar.md)
 
 arXiv v1；官方项目和原文未核到正式会刊。
 

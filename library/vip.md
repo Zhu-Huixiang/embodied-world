@@ -4,7 +4,7 @@
 
 研究范围：人类视频、隐式价值预训练与视觉奖励。
 
-[原文入口](https://openreview.net/forum?id=YJ7o2wetJ2) · [原文 PDF](https://openreview.net/pdf?id=YJ7o2wetJ2) · [作者项目 / 代码入口](https://sites.google.com/view/vip-rl)
+[原文入口](https://openreview.net/forum?id=YJ7o2wetJ2) · [原文 PDF](https://openreview.net/pdf?id=YJ7o2wetJ2) · [作者项目 / 代码入口](https://sites.google.com/view/vip-rl) · [作者与团队](../leaderboard/origins/papers/vip.md)
 
 ICLR 2023 主会见官方 poster 页；OpenReview 当前反爬返回校验页，方法初读使用作者项目与 arXiv。VZIKjcWQxk 是 NeurIPS 2022 workshop 重复入口，不能当 ICLR 录用证据。
 

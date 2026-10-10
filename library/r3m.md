@@ -4,7 +4,7 @@
 
 研究范围：人类视频预训练视觉表征与少样本机器人学习。
 
-[原文入口](https://proceedings.mlr.press/v205/nair23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/nair23a/nair23a.pdf) · [作者项目 / 代码入口](https://sites.google.com/view/robot-r3m/home)
+[原文入口](https://proceedings.mlr.press/v205/nair23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/nair23a/nair23a.pdf) · [作者项目 / 代码入口](https://sites.google.com/view/robot-r3m/home) · [作者与团队](../leaderboard/origins/papers/r3m.md)
 
 CoRL 2022；PMLR 2023。R3M 是冻结视觉表示，不是直接生成机器人动作的 VLA。
 

@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，Consistency Policy 的少步动作生成与蒸馏。
 
-[原文入口](https://proceedings.mlr.press/v202/song23a.html) · [原文 PDF](https://proceedings.mlr.press/v202/song23a/song23a.pdf) · [作者项目 / 代码入口](https://github.com/openai/consistency_models)
+[原文入口](https://proceedings.mlr.press/v202/song23a.html) · [原文 PDF](https://proceedings.mlr.press/v202/song23a/song23a.pdf) · [作者项目 / 代码入口](https://github.com/openai/consistency_models) · [作者与团队](../leaderboard/origins/papers/consistency-models.md)
 
 ICML 2023，PMLR 202；一致性生成基础与 RSS 2024 Consistency Policy 的操作实验证据分开。
 

@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，机器人可编辑场景地图与数字场景重建。
 
-[原文入口](https://dl.acm.org/doi/10.1145/3592433) · [原文 PDF](https://arxiv.org/pdf/2308.04079) · [作者项目 / 代码入口](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
+[原文入口](https://dl.acm.org/doi/10.1145/3592433) · [原文 PDF](https://arxiv.org/pdf/2308.04079) · [作者项目 / 代码入口](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) · [作者与团队](../leaderboard/origins/papers/gaussian-splatting.md)
 
 SIGGRAPH 2023 / ACM TOG 42(4)，ACM 页面给出 2023-07-26；作者项目低清 PDF 含旧模板年份占位，正式年份按 ACM 与项目 BibTeX 核验。
 

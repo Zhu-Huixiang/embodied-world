@@ -4,7 +4,7 @@
 
 研究范围：潜世界模型；无奖励离线视觉规划。
 
-[原文入口](https://arxiv.org/abs/2603.19312v1) · [原文 PDF](https://arxiv.org/pdf/2603.19312v1) · [作者项目 / 代码入口](https://le-wm.github.io/)
+[原文入口](https://arxiv.org/abs/2603.19312v1) · [原文 PDF](https://arxiv.org/pdf/2603.19312v1) · [作者项目 / 代码入口](https://le-wm.github.io/) · [作者与团队](../leaderboard/origins/papers/lewm.md)
 
 官方arXiv Submission history核实v1首投2026-03-13 19:48:14 UTC（上海2026-03-14 03:48:14）；最新已发现v3，当前科学摘录仍读v1。LeWAM是另篇联合世界动作模型，不能按名称合并。
 

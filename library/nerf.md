@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，机器人场景重建、特征场与视觉仿真的连续场表示。
 
-[原文入口](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24) · [原文 PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf) · [作者项目 / 代码入口](https://www.matthewtancik.com/nerf)
+[原文入口](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24) · [原文 PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf) · [作者项目 / 代码入口](https://www.matthewtancik.com/nerf) · [作者与团队](../leaderboard/origins/papers/nerf.md)
 
 ECCV 2020 原始论文；作者项目注明 ECCV 2020 Oral，原文实验是新视角合成。
 

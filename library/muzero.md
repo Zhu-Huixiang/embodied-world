@@ -4,7 +4,7 @@
 
 研究范围：任务导向世界模型与树搜索基础；非实机实验。
 
-[原文入口](https://www.nature.com/articles/s41586-020-03051-4) · [原文 PDF](https://arxiv.org/pdf/1911.08265)
+[原文入口](https://www.nature.com/articles/s41586-020-03051-4) · [原文 PDF](https://arxiv.org/pdf/1911.08265) · [作者与团队](../leaderboard/origins/papers/muzero.md)
 
 经典例外；期刊正式公开日期为 2020-12-23，arXiv 首稿为 2019。
 

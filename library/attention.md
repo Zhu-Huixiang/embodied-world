@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，VLA、动作 Transformer 与视频模型共用的注意力计算。
 
-[原文入口](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) · [原文 PDF](https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) · [作者项目 / 代码入口](https://github.com/tensorflow/tensor2tensor)
+[原文入口](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) · [原文 PDF](https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) · [作者项目 / 代码入口](https://github.com/tensorflow/tensor2tensor) · [作者与团队](../leaderboard/origins/papers/attention.md)
 
 正式出处为 NIPS 2017（现名 NeurIPS）；保留原始会议论文，机器翻译实验与后续机器人应用分开。
 

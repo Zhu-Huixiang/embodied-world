@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，动作/视频流模型的直线路径与少步生成。
 
-[原文入口](https://iclr.cc/virtual/2023/poster/11266) · [原文 PDF](https://openreview.net/pdf?id=gWxpdtQpiYV) · [作者项目 / 代码入口](https://github.com/gnobitab/RectifiedFlow)
+[原文入口](https://iclr.cc/virtual/2023/poster/11266) · [原文 PDF](https://openreview.net/pdf?id=gWxpdtQpiYV) · [作者项目 / 代码入口](https://github.com/gnobitab/RectifiedFlow) · [作者与团队](../leaderboard/origins/papers/rectified-flow.md)
 
 ICLR 2023 正式论文；与 Flow Matching 的目标和 reflow 操作分别说明。
 

@@ -4,7 +4,7 @@
 
 研究范围：语言条件 6-DoF 操作、体素表示与 Perceiver。
 
-[原文入口](https://proceedings.mlr.press/v205/shridhar23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf) · [作者项目 / 代码入口](https://peract.github.io/)
+[原文入口](https://proceedings.mlr.press/v205/shridhar23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf) · [作者项目 / 代码入口](https://peract.github.io/) · [作者与团队](../leaderboard/origins/papers/peract.md)
 
 CoRL 2022；PMLR 书目年份 2023。
 

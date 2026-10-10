@@ -4,7 +4,7 @@
 
 研究范围：四足机械臂统一全身 RL。
 
-[原文入口](https://proceedings.mlr.press/v205/fu23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/fu23a/fu23a.pdf) · [作者项目 / 代码入口](https://manipulation-locomotion.github.io/)
+[原文入口](https://proceedings.mlr.press/v205/fu23a.html) · [原文 PDF](https://proceedings.mlr.press/v205/fu23a/fu23a.pdf) · [作者项目 / 代码入口](https://manipulation-locomotion.github.io/) · [作者与团队](../leaderboard/origins/papers/deep-whole-body-control.md)
 
 CoRL 2022；PMLR 205 论文集出版年为 2023。
 

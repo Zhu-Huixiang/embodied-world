@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://www.roboticsproceedings.org/rss21/p012.html) · [原文 PDF](https://www.roboticsproceedings.org/rss21/p012.pdf)
+[原文入口](https://www.roboticsproceedings.org/rss21/p012.html) · [原文 PDF](https://www.roboticsproceedings.org/rss21/p012.pdf) · [作者与团队](../leaderboard/origins/papers/fast.md)
 
 ## 先看它做了什么
 

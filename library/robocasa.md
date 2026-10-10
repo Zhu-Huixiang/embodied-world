@@ -4,7 +4,7 @@
 
 研究范围：家居操作模拟、程序化资产与大规模合成示范。
 
-[原文入口](https://roboticsproceedings.org/rss20/p050.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p050.pdf) · [作者项目 / 代码入口](https://robocasa.ai/)
+[原文入口](https://roboticsproceedings.org/rss20/p050.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p050.pdf) · [作者项目 / 代码入口](https://robocasa.ai/) · [作者与团队](../leaderboard/origins/papers/robocasa.md)
 
 正式 PDF 题名为 Everyday，RSS HTML/BibTeX 记 Household；同一论文。2026 RoboCasa365 为后续平台更新，不把新规模当作 2024 原版实验。
 

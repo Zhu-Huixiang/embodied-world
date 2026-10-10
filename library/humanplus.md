@@ -4,7 +4,7 @@
 
 研究范围：人形全身控制、遥操作与视觉模仿。
 
-[原文入口](https://proceedings.mlr.press/v270/fu25a.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25a/fu25a.pdf) · [作者项目 / 代码入口](https://humanoid-ai.github.io/)
+[原文入口](https://proceedings.mlr.press/v270/fu25a.html) · [原文 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25a/fu25a.pdf) · [作者项目 / 代码入口](https://humanoid-ai.github.io/) · [作者与团队](../leaderboard/origins/papers/humanplus.md)
 
 CoRL 2024；PMLR 270 论文集出版年为 2025。
 

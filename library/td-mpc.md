@@ -4,7 +4,7 @@
 
 研究范围：连续控制与模型强化学习。
 
-[原文入口](https://proceedings.mlr.press/v162/hansen22a.html) · [原文 PDF](https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf) · [作者项目 / 代码入口](https://td-mpc.github.io/)
+[原文入口](https://proceedings.mlr.press/v162/hansen22a.html) · [原文 PDF](https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf) · [作者项目 / 代码入口](https://td-mpc.github.io/) · [作者与团队](../leaderboard/origins/papers/td-mpc.md)
 
 ## 先看它做了什么
 

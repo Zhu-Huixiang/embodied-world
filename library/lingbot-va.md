@@ -4,7 +4,7 @@
 
 研究范围：因果视频动作生成、持久历史与双臂闭环操作。
 
-[原文入口](https://www.roboticsproceedings.org/rss22/p016.html) · [原文 PDF](https://www.roboticsproceedings.org/rss22/p016.pdf) · [作者项目 / 代码入口](https://technology.robbyant.com/lingbot-va)
+[原文入口](https://www.roboticsproceedings.org/rss22/p016.html) · [原文 PDF](https://www.roboticsproceedings.org/rss22/p016.pdf) · [作者项目 / 代码入口](https://technology.robbyant.com/lingbot-va) · [作者与团队](../leaderboard/origins/papers/lingbot-va.md)
 
 RSS2026正式版；官方HTML摘要保留CauVA旧称，PDF及作者repo为LingBot-VA，同一原研究。RSS主表TableI为92.0/91.1；消融TableIII的baseline92.93属该表条件；不与arxivv2的92.93/91.55混作同一结果。
 

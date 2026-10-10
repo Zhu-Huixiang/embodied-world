@@ -4,7 +4,7 @@
 
 研究范围：真实机器人世界模型；行走、操作与导航。
 
-[原文入口](https://proceedings.mlr.press/v205/wu23c.html) · [原文 PDF](https://proceedings.mlr.press/v205/wu23c/wu23c.pdf) · [作者项目 / 代码入口](https://danijar.com/project/daydreamer/)
+[原文入口](https://proceedings.mlr.press/v205/wu23c.html) · [原文 PDF](https://proceedings.mlr.press/v205/wu23c/wu23c.pdf) · [作者项目 / 代码入口](https://danijar.com/project/daydreamer/) · [作者与团队](../leaderboard/origins/papers/daydreamer.md)
 
 CoRL 2022；PMLR 205 论文集出版年为 2023。
 

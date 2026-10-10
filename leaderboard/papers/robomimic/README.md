@@ -1,10 +1,12 @@
 # What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
 
-**robomimic** · CoRL 2021 · 本版排名 58 · 综合分 **85.3 / 100**
+**robomimic** · CoRL 2021 · 本版排名 41 · 综合分 **87.0 / 100**
 
 [解读导读](../../../library/robomimic.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
 [原文](https://proceedings.mlr.press/v164/mandlekar22a.html) · [PDF](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf) · [阅读卡片](../../../library/robomimic.md)
+
+论文出处：[Ajay Mandlekar · UT Austin Robot Perception and Learning Lab（RPL） / Stanford University 等3个出处](../../origins/papers/robomimic.md)
 
 ## 机制简析
 
@@ -25,24 +27,36 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 90.0 | 30% |
+| 公开与评审 | 90.0 | 30% |
 | 创新性 | 84 | 20% |
 | 实验与证据 | 95 | 20% |
 | 学术影响 | 60 | 10% |
-| 近期关注 | 40 | 5% |
+| 近期关注 | 73.3 | 5% |
 | 复用价值 | 99 | 8% |
 | 阅读价值 | 94 | 7% |
 
 刊会依据：[CoRL 2021](../../../venues/CoRL/README.md)，正式出处见[出版/原文记录](https://proceedings.mlr.press/v164/mandlekar22a.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-影响与关注采用独立证据评分：
+累计引用与近期引用尚未匹配；原始值保留null。下面列出已定位的评分信号。
+
+### 影响与关注的计算依据
 
 - **学术影响 60**：Diffusion Policy直接使用robomimic基准与BC-RNN对照，GR00T N1继续将RoboMimic BC-Transformer列为正式基线；跨策略家族的持续采用按多个独立方法档评分。 [依据1](https://arxiv.org/pdf/2303.04137) · [依据2](https://arxiv.org/html/2503.14734v2)
-- **近期关注 40**：2025年GR00T N1的Evaluation/Baselines明确采用RoboMimic BC-Transformer：10帧观测输入、预测10步动作。近期按一个可定位下游对照档评分。 [依据1](https://arxiv.org/html/2503.14734v2)
+- **近期关注 73.3**：huggingface 的论文专属入口：HF 最近30天下载=4646；按100000上限对数压缩。 [依据1](https://huggingface.co/api/datasets/robomimic/robomimic_datasets) · [依据2](https://huggingface.co/datasets/robomimic/robomimic_datasets/raw/main/README.md) · [依据3](https://huggingface.co/datasets/robomimic/robomimic_datasets)
 
-原始引用记录与编辑证据分分别保留，计算细则见评分说明。
+### 论文公开入口与传播快照
 
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/ARISE-Initiative/robomimic) | GitHub Star 1576；GitHub Watch订阅 15；GitHub Fork 430 | 多论文/多模型共享仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/datasets/robomimic/robomimic_datasets) | HF 最近30天下载 4646；HF 仓库累计点赞 4 | 单篇论文的作者发布资产；2026-09-11 至 2026-10-10（API最近30天；含首尾的日期标签，实际滚动边界未公开） / 截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2108.03298) | HF 论文累计点赞 0；HF 论文讨论评论累计数 0 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

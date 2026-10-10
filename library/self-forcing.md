@@ -4,7 +4,7 @@
 
 研究范围：视频生成基础；机器人部署另看策略论文。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf) · [作者与团队](../leaderboard/origins/papers/self-forcing.md)
 
 ## 先看它做了什么
 

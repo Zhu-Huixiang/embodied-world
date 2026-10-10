@@ -4,7 +4,7 @@
 
 研究范围：物理人形动作跟踪与恢复；模拟角色基础。
 
-[原文入口](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.pdf) · [作者项目 / 代码入口](https://www.zhengyiluo.com/PHC-Site/)
+[原文入口](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.html) · [原文 PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.pdf) · [作者项目 / 代码入口](https://www.zhengyiluo.com/PHC-Site/) · [作者与团队](../leaderboard/origins/papers/phc.md)
 
 ICCV 2023 正式论文；实验对象为模拟 avatar。
 

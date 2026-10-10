@@ -1,0 +1,149 @@
+{
+  "checked_at": "2026-10-10",
+  "window_start": "2025-01-01",
+  "papers": {
+    "dreamzero": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "dreamzero0/dreamzero",
+      "created_at": "2026-01-27T19:37:17Z",
+      "stars": 2699,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/dreamzero0/dreamzero",
+        "https://raw.githubusercontent.com/dreamzero0/dreamzero/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "lingbot-va": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "Robbyant/lingbot-va",
+      "created_at": "2026-01-29T19:20:33Z",
+      "stars": 1927,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/Robbyant/lingbot-va",
+        "https://raw.githubusercontent.com/Robbyant/lingbot-va/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "videovla": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "VideoVLA-Project/VideoVLA",
+      "created_at": "2026-01-19T07:23:54Z",
+      "stars": 32,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/VideoVLA-Project/VideoVLA",
+        "https://raw.githubusercontent.com/VideoVLA-Project/VideoVLA/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "asap": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "LeCAR-Lab/ASAP",
+      "created_at": "2025-01-28T01:06:43Z",
+      "stars": 2121,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/LeCAR-Lab/ASAP",
+        "https://raw.githubusercontent.com/LeCAR-Lab/ASAP/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "lewm": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "lucas-maes/le-wm",
+      "created_at": "2026-03-13T02:56:21Z",
+      "stars": 4508,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/lucas-maes/le-wm",
+        "https://raw.githubusercontent.com/lucas-maes/le-wm/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "ctrl-world": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "Robert-gyj/Ctrl-World",
+      "created_at": "2025-10-09T03:43:45Z",
+      "stars": 568,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/Robert-gyj/Ctrl-World",
+        "https://raw.githubusercontent.com/Robert-gyj/Ctrl-World/main/readme.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "modar": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "adamhung60/ModAR-code",
+      "created_at": "2026-09-21T05:32:37Z",
+      "stars": 14,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/adamhung60/ModAR-code",
+        "https://raw.githubusercontent.com/adamhung60/ModAR-code/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "dreamtrue": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "brave-eai/DreamTrue",
+      "created_at": "2026-10-09T02:35:37Z",
+      "stars": 5,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/brave-eai/DreamTrue",
+        "https://raw.githubusercontent.com/brave-eai/DreamTrue/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "plaw-vla": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "RainyRobo/PLaW-VLA",
+      "created_at": "2026-10-04T16:26:58Z",
+      "stars": 2,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+        "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    },
+    "self-forcing": {
+      "scope": "single_paper",
+      "identity_verified": true,
+      "repository": "guandeh17/Self-Forcing",
+      "created_at": "2025-06-09T05:33:40Z",
+      "stars": 3538,
+      "checked_at": "2026-10-10",
+      "sources": [
+        "https://api.github.com/repos/guandeh17/Self-Forcing",
+        "https://raw.githubusercontent.com/guandeh17/Self-Forcing/main/README.md"
+      ],
+      "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+    }
+  },
+  "excluded": [
+    {
+      "paper_id": "gr00t-n1",
+      "repository": "NVIDIA/Isaac-GR00T",
+      "reason": "多模型版本共享，N1.7总star不能归给N1原论文。"
+    },
+    {
+      "paper_id": "vjepa2",
+      "repository": "facebookresearch/vjepa2",
+      "reason": "V-JEPA2与2.1多论文共享，累计star不归给单篇。"
+    }
+  ],
+  "coverage_note": "115篇入口检查，91个仓库指标回读，10个窗内新建且单篇归属的官方仓库；其他累计量随传播表展示。"
+}

@@ -4,7 +4,7 @@
 
 研究范围：离线 RL 基础；连续控制。
 
-[原文入口](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf)
+[原文入口](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html) · [原文 PDF](https://proceedings.neurips.cc/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf) · [作者与团队](../leaderboard/origins/papers/td3-bc.md)
 
 ## 先看它做了什么
 

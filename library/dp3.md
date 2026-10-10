@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://www.roboticsproceedings.org/rss20/p067.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p067.pdf)
+[原文入口](https://www.roboticsproceedings.org/rss20/p067.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p067.pdf) · [作者与团队](../leaderboard/origins/papers/dp3.md)
 
 ## 先看它做了什么
 

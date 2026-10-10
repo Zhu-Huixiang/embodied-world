@@ -4,7 +4,7 @@
 
 研究范围：人形动作跟踪与数据驱动 sim-to-real。
 
-[原文入口](https://www.roboticsproceedings.org/rss21/p066.html) · [原文 PDF](https://agile.human2humanoid.com/static/asap.pdf) · [作者项目 / 代码入口](https://agile.human2humanoid.com/)
+[原文入口](https://www.roboticsproceedings.org/rss21/p066.html) · [原文 PDF](https://agile.human2humanoid.com/static/asap.pdf) · [作者项目 / 代码入口](https://agile.human2humanoid.com/) · [作者与团队](../leaderboard/origins/papers/asap.md)
 
 RSS 2025；RSS PDF 的 Exa 正文为空，方法与实验初读改用作者正式 PDF。
 

@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf) · [作者项目 / 代码入口](https://videovla-nips2025.github.io/)
+[原文入口](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf) · [作者项目 / 代码入口](https://videovla-nips2025.github.io/) · [作者与团队](../leaderboard/origins/papers/videovla.md)
 
 NeurIPS 2025 主会；按正式论文集归档。
 

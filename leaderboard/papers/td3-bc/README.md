@@ -1,10 +1,12 @@
 # A Minimalist Approach to Offline Reinforcement Learning
 
-**TD3+BC** · NeurIPS 2021 · 本版排名 55 · 综合分 **85.6 / 100**
+**TD3+BC** · NeurIPS 2021 · 本版排名 59 · 综合分 **84.8 / 100**
 
 [解读导读](../../../library/td3-bc.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
 [原文](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf) · [阅读卡片](../../../library/td3-bc.md)
+
+论文出处：[Scott Fujimoto · Mila - Quebec Artificial Intelligence Institute / McGill University 等3个出处](../../origins/papers/td3-bc.md)
 
 ## 机制简析
 
@@ -25,21 +27,28 @@ TD3+BC 保留 TD3 的双 Q 与 actor-critic 框架，在策略目标里同时提
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 82 | 20% |
 | 实验与证据 | 87 | 20% |
 | 学术影响 | 63.5 | 10% |
-| 近期关注 | 56.7 | 5% |
+| 近期关注 | 40.2 | 5% |
 | 复用价值 | 96 | 8% |
 | 阅读价值 | 92 | 7% |
 
 刊会依据：[NeurIPS 2021](../../../venues/NeurIPS/README.md)，正式出处见[出版/原文记录](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：作者预印本/原研究索引记录；OpenAlex题目：A Minimalist Approach to Offline Reinforcement Learning。累计被引 160，2025–2026 被引 33；快照：2026-10-10T09:51:57+08:00。
+计量来源：OpenAlex；作者预印本/原研究索引记录；匹配题目：A Minimalist Approach to Offline Reinforcement Learning。累计被引 **160**，2025–2026 被引 **33**；快照：2026-10-10T09:51:57+08:00。
 
 [指标记录](https://api.openalex.org/works/W3172360140) · [文献计量条目](https://openalex.org/W3172360140)
 
+### 影响与关注的计算依据
+
+- **学术影响 63.5**：身份匹配的累计引用C=160，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W3172360140)
+- **近期关注 40.2**：近期已定位引用R=33；数量与每月引用速度各占一半，有效观察期21.2567个月。 [依据1](https://api.openalex.org/works/W3172360140)
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

@@ -1,21 +1,51 @@
 {
   "checked_at": "2026-10-10",
-  "provider": "OpenAlex",
-  "rule": "单一版本记录；不累计预印本、会议和扩展期刊版本；计量缺项不补零。 各条保留实际快照时间；标题/作者/原研究ID/年份核身份，异常合并记录留空。",
+  "provider": "OpenAlex / Semantic Scholar (per-record)",
+  "rule": "每篇一个原研究记录，不相加版本或数据库。正式刊会沿用已核出版身份的OpenAlex；本次14篇预印本按精确arXiv ID优先Semantic Scholar，再用已核OpenAlex，不按较大数挑源。各条留来源、日期、原值和其他快照。未知引文年份不计近期，R可为下界。",
   "papers": [
     {
       "paper_id": "holo-m",
-      "checked_at": "2026-10-09T18:35:28+08:00",
+      "checked_at": "2026-10-10",
       "status": "matched",
-      "openalex_id": "https://openalex.org/W7214744941",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "8c67b61731a4e5dc87b2b914cfefcf55572c9ebb",
+      "record_url": "https://www.semanticscholar.org/paper/8c67b61731a4e5dc87b2b914cfefcf55572c9ebb",
       "matched_title": "Humanoid Loco-Manipulation With Discrete VLA Model",
-      "doi": "https://doi.org/10.48550/arxiv.2609.35709",
       "publication_date": "2026-09-28",
-      "edition": "作者预印本",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
       "citation_count": 0,
       "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
       "counts_by_year": [],
-      "api_url": "https://api.openalex.org/works/W7214744941"
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2609.35709",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2609.35709"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "holo-m",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "matched",
+          "openalex_id": "https://openalex.org/W7214744941",
+          "matched_title": "Humanoid Loco-Manipulation With Discrete VLA Model",
+          "doi": "https://doi.org/10.48550/arxiv.2609.35709",
+          "publication_date": "2026-09-28",
+          "edition": "作者预印本",
+          "citation_count": 0,
+          "recent_citation_count": 0,
+          "counts_by_year": [],
+          "api_url": "https://api.openalex.org/works/W7214744941"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "fast",
@@ -714,17 +744,56 @@
     },
     {
       "paper_id": "dreamzero",
-      "checked_at": "2026-10-09T18:35:28+08:00",
+      "checked_at": "2026-10-10",
       "status": "matched",
-      "openalex_id": "https://openalex.org/W7130552073",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "badf8adcf2b6a6780a308881de75f148a4cacea0",
+      "record_url": "https://www.semanticscholar.org/paper/badf8adcf2b6a6780a308881de75f148a4cacea0",
       "matched_title": "World Action Models are Zero-shot Policies",
-      "doi": "https://doi.org/10.48550/arxiv.2602.15922",
       "publication_date": "2026-02-17",
-      "edition": "作者预印本",
-      "citation_count": 0,
-      "recent_citation_count": 0,
-      "counts_by_year": [],
-      "api_url": "https://api.openalex.org/works/W7130552073"
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 474,
+      "recent_citation_count": 469,
+      "recent_citation_count_kind": "lower_bound",
+      "recent_year_unknown": 5,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 463
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        }
+      ],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2602.15922",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/badf8adcf2b6a6780a308881de75f148a4cacea0/citations"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "dreamzero",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "matched",
+          "openalex_id": "https://openalex.org/W7130552073",
+          "matched_title": "World Action Models are Zero-shot Policies",
+          "doi": "https://doi.org/10.48550/arxiv.2602.15922",
+          "publication_date": "2026-02-17",
+          "edition": "作者预印本",
+          "citation_count": 0,
+          "recent_citation_count": 0,
+          "counts_by_year": [],
+          "api_url": "https://api.openalex.org/works/W7130552073"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "cosmos-policy",
@@ -865,59 +934,269 @@
     },
     {
       "paper_id": "dex-one2many",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10",
+      "status": "matched",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "50c9fac4af15c05f80944a9e40dd5f3718aea59a",
+      "record_url": "https://www.semanticscholar.org/paper/50c9fac4af15c05f80944a9e40dd5f3718aea59a",
+      "matched_title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "publication_date": "2026-10-08",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12470",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12470"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "dex-one2many",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "unmatched",
+          "citation_count": null,
+          "recent_citation_count": null,
+          "reason": "无与当前版本可确认对应的计量记录"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "dreamtrue",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10",
+      "status": "matched",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "7f2dac6dd12a66fd3596bbb1b3b04996b255eaa3",
+      "record_url": "https://www.semanticscholar.org/paper/7f2dac6dd12a66fd3596bbb1b3b04996b255eaa3",
+      "matched_title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "publication_date": "2026-10-08",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12468",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12468"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "dreamtrue",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "unmatched",
+          "citation_count": null,
+          "recent_citation_count": null,
+          "reason": "无与当前版本可确认对应的计量记录"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "balanced-data-diet",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10",
+      "status": "matched",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "eabed5e5fcc76cab14dc0afc5254a005f710622a",
+      "record_url": "https://www.semanticscholar.org/paper/eabed5e5fcc76cab14dc0afc5254a005f710622a",
+      "matched_title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "publication_date": "2026-10-08",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "balanced-data-diet",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "unmatched",
+          "citation_count": null,
+          "recent_citation_count": null,
+          "reason": "无与当前版本可确认对应的计量记录"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "viola",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10",
+      "status": "matched",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "ce1875ec86d2e7940f6b0035d6dc01b54472a6ef",
+      "record_url": "https://www.semanticscholar.org/paper/ce1875ec86d2e7940f6b0035d6dc01b54472a6ef",
+      "matched_title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+      "publication_date": "2026-10-08",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12435",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12435"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "viola",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "unmatched",
+          "citation_count": null,
+          "recent_citation_count": null,
+          "reason": "无与当前版本可确认对应的计量记录"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "lewam",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10",
+      "status": "matched",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "d75db25eda3ce772ceeb52bdd25fb057699c3972",
+      "record_url": "https://www.semanticscholar.org/paper/d75db25eda3ce772ceeb52bdd25fb057699c3972",
+      "matched_title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+      "publication_date": "2026-10-08",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12407",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12407"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "lewam",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "unmatched",
+          "citation_count": null,
+          "recent_citation_count": null,
+          "reason": "无与当前版本可确认对应的计量记录"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "arc",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10",
+      "status": "matched",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "ac921f84b421bac30c0d27bba5b79d7215062e8d",
+      "record_url": "https://www.semanticscholar.org/paper/ac921f84b421bac30c0d27bba5b79d7215062e8d",
+      "matched_title": "ARC: A Reasoning Recipe for Robot Foundation Models",
+      "publication_date": "2026-10-08",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12386",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12386"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "arc",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "unmatched",
+          "citation_count": null,
+          "recent_citation_count": null,
+          "reason": "无与当前版本可确认对应的计量记录"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "plaw-vla",
-      "checked_at": "2026-10-09T18:35:28+08:00",
-      "status": "unmatched",
-      "citation_count": null,
-      "recent_citation_count": null,
-      "reason": "无与当前版本可确认对应的计量记录"
+      "checked_at": "2026-10-10",
+      "status": "matched",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "cf78191c38ce27bbe2993af31890a205c0f14a85",
+      "record_url": "https://www.semanticscholar.org/paper/cf78191c38ce27bbe2993af31890a205c0f14a85",
+      "matched_title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+      "publication_date": "2026-10-08",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285"
+      ],
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "plaw-vla",
+          "checked_at": "2026-10-09T18:35:28+08:00",
+          "status": "unmatched",
+          "citation_count": null,
+          "recent_citation_count": null,
+          "reason": "无与当前版本可确认对应的计量记录"
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "rt1",
@@ -3892,60 +4171,146 @@
     },
     {
       "paper_id": "vjepa2",
-      "checked_at": "2026-10-10T11:44:51+08:00",
+      "checked_at": "2026-10-10",
       "status": "matched",
-      "citation_count": 5,
-      "recent_citation_count": 5,
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "b202faf38efbffcb26470c702e1140b047d6f6e7",
+      "record_url": "https://www.semanticscholar.org/paper/b202faf38efbffcb26470c702e1140b047d6f6e7",
+      "matched_title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "publication_date": "2025-06-11",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 859,
+      "recent_citation_count": 832,
+      "recent_citation_count_kind": "lower_bound",
+      "recent_year_unknown": 19,
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 5
+          "cited_by_count": 690
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 142
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
         }
       ],
-      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
-      "openalex_id": "https://openalex.org/W4417261359",
-      "matched_title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-      "doi": "https://doi.org/10.48550/arxiv.2506.09985",
-      "publication_date": "2025-06-11",
-      "edition": "作者预印本/原研究索引记录",
-      "api_url": "https://api.openalex.org/works/W4417261359",
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2506.09985",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/b202faf38efbffcb26470c702e1140b047d6f6e7/citations"
+      ],
       "match_evidence": {
-        "accepted": true,
-        "title_similarity": 1.0,
-        "year_match": true,
         "arxiv_match": true,
-        "doi_match": false,
-        "author_match": false,
-        "source_match": false,
-        "repost_doi_rejected": false,
-        "primary_url": "http://arxiv.org/abs/2506.09985"
-      }
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "vjepa2",
+          "checked_at": "2026-10-10T11:44:51+08:00",
+          "status": "matched",
+          "citation_count": 5,
+          "recent_citation_count": 5,
+          "counts_by_year": [
+            {
+              "year": 2026,
+              "cited_by_count": 5
+            }
+          ],
+          "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+          "openalex_id": "https://openalex.org/W4417261359",
+          "matched_title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+          "doi": "https://doi.org/10.48550/arxiv.2506.09985",
+          "publication_date": "2025-06-11",
+          "edition": "作者预印本/原研究索引记录",
+          "api_url": "https://api.openalex.org/works/W4417261359",
+          "match_evidence": {
+            "accepted": true,
+            "title_similarity": 1.0,
+            "year_match": true,
+            "arxiv_match": true,
+            "doi_match": false,
+            "author_match": false,
+            "source_match": false,
+            "repost_doi_rejected": false,
+            "primary_url": "http://arxiv.org/abs/2506.09985"
+          }
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "lewm",
-      "checked_at": "2026-10-10T11:42:48+08:00",
+      "checked_at": "2026-10-10",
       "status": "matched",
-      "citation_count": 0,
-      "recent_citation_count": 0,
-      "counts_by_year": [],
-      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
-      "openalex_id": "https://openalex.org/W7140141371",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
+      "record_url": "https://www.semanticscholar.org/paper/530dab86cb8034bc12a32d21508aaa3f2cc00aa1",
       "matched_title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
-      "doi": "https://doi.org/10.48550/arxiv.2603.19312",
       "publication_date": "2026-03-13",
-      "edition": "作者预印本/原研究索引记录",
-      "api_url": "https://api.openalex.org/works/W7140141371",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 280,
+      "recent_citation_count": 277,
+      "recent_citation_count_kind": "lower_bound",
+      "recent_year_unknown": 3,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 275
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        }
+      ],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2603.19312",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/530dab86cb8034bc12a32d21508aaa3f2cc00aa1/citations"
+      ],
       "match_evidence": {
-        "accepted": true,
-        "title_similarity": 1.0,
-        "year_match": true,
         "arxiv_match": true,
-        "doi_match": false,
-        "author_match": true,
-        "source_match": false,
-        "repost_doi_rejected": false,
-        "primary_url": "https://doi.org/10.48550/arxiv.2603.19312"
-      }
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "lewm",
+          "checked_at": "2026-10-10T11:42:48+08:00",
+          "status": "matched",
+          "citation_count": 0,
+          "recent_citation_count": 0,
+          "counts_by_year": [],
+          "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+          "openalex_id": "https://openalex.org/W7140141371",
+          "matched_title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+          "doi": "https://doi.org/10.48550/arxiv.2603.19312",
+          "publication_date": "2026-03-13",
+          "edition": "作者预印本/原研究索引记录",
+          "api_url": "https://api.openalex.org/works/W7140141371",
+          "match_evidence": {
+            "accepted": true,
+            "title_similarity": 1.0,
+            "year_match": true,
+            "arxiv_match": true,
+            "doi_match": false,
+            "author_match": true,
+            "source_match": false,
+            "repost_doi_rejected": false,
+            "primary_url": "https://doi.org/10.48550/arxiv.2603.19312"
+          }
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "ctrl-world",
@@ -3975,29 +4340,64 @@
     },
     {
       "paper_id": "modar",
-      "checked_at": "2026-10-10T11:42:48+08:00",
+      "checked_at": "2026-10-10",
       "status": "matched",
-      "citation_count": 0,
-      "recent_citation_count": 0,
-      "counts_by_year": [],
-      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
-      "openalex_id": "https://openalex.org/W7213403652",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "3395cd60d241d839df377d379639ca85ca7c1d9f",
+      "record_url": "https://www.semanticscholar.org/paper/3395cd60d241d839df377d379639ca85ca7c1d9f",
       "matched_title": "Modality-Autoregressive World-Action Models",
-      "doi": "https://doi.org/10.48550/arxiv.2609.17524",
       "publication_date": "2026-09-15",
-      "edition": "作者预印本/原研究索引记录",
-      "api_url": "https://api.openalex.org/works/W7213403652",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 1,
+      "recent_citation_count": 1,
+      "recent_citation_count_kind": "complete_citing_years",
+      "recent_year_unknown": 0,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2609.17524",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/3395cd60d241d839df377d379639ca85ca7c1d9f/citations"
+      ],
       "match_evidence": {
-        "accepted": true,
-        "title_similarity": 1.0,
-        "year_match": true,
         "arxiv_match": true,
-        "doi_match": false,
-        "author_match": true,
-        "source_match": false,
-        "repost_doi_rejected": false,
-        "primary_url": "https://arxiv.org/abs/2609.17524"
-      }
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "modar",
+          "checked_at": "2026-10-10T11:42:48+08:00",
+          "status": "matched",
+          "citation_count": 0,
+          "recent_citation_count": 0,
+          "counts_by_year": [],
+          "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+          "openalex_id": "https://openalex.org/W7213403652",
+          "matched_title": "Modality-Autoregressive World-Action Models",
+          "doi": "https://doi.org/10.48550/arxiv.2609.17524",
+          "publication_date": "2026-09-15",
+          "edition": "作者预印本/原研究索引记录",
+          "api_url": "https://api.openalex.org/works/W7213403652",
+          "match_evidence": {
+            "accepted": true,
+            "title_similarity": 1.0,
+            "year_match": true,
+            "arxiv_match": true,
+            "doi_match": false,
+            "author_match": true,
+            "source_match": false,
+            "repost_doi_rejected": false,
+            "primary_url": "https://arxiv.org/abs/2609.17524"
+          }
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "sonic",
@@ -4032,64 +4432,146 @@
     },
     {
       "paper_id": "gr00t-n1",
-      "checked_at": "2026-10-10T11:42:48+08:00",
+      "checked_at": "2026-10-10",
       "status": "matched",
-      "citation_count": 5,
-      "recent_citation_count": 5,
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "731c50b0d6af4c1cb8d95f506541681ea487973b",
+      "record_url": "https://www.semanticscholar.org/paper/731c50b0d6af4c1cb8d95f506541681ea487973b",
+      "matched_title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+      "publication_date": "2025-03-18",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 1513,
+      "recent_citation_count": 1476,
+      "recent_citation_count_kind": "lower_bound",
+      "recent_year_unknown": 26,
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 2
+          "cited_by_count": 1081
         },
         {
           "year": 2025,
-          "cited_by_count": 3
+          "cited_by_count": 395
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
         }
       ],
-      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
-      "openalex_id": "https://openalex.org/W4414901575",
-      "matched_title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
-      "doi": "https://doi.org/10.48550/arxiv.2503.14734",
-      "publication_date": "2025-03-18",
-      "edition": "作者预印本/原研究索引记录",
-      "api_url": "https://api.openalex.org/works/W4414901575",
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2503.14734",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/731c50b0d6af4c1cb8d95f506541681ea487973b/citations"
+      ],
       "match_evidence": {
-        "accepted": true,
-        "title_similarity": 1.0,
-        "year_match": true,
         "arxiv_match": true,
-        "doi_match": false,
-        "author_match": true,
-        "source_match": false,
-        "repost_doi_rejected": false,
-        "primary_url": "http://arxiv.org/abs/2503.14734"
-      }
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "gr00t-n1",
+          "checked_at": "2026-10-10T11:42:48+08:00",
+          "status": "matched",
+          "citation_count": 5,
+          "recent_citation_count": 5,
+          "counts_by_year": [
+            {
+              "year": 2026,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 3
+            }
+          ],
+          "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+          "openalex_id": "https://openalex.org/W4414901575",
+          "matched_title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+          "doi": "https://doi.org/10.48550/arxiv.2503.14734",
+          "publication_date": "2025-03-18",
+          "edition": "作者预印本/原研究索引记录",
+          "api_url": "https://api.openalex.org/works/W4414901575",
+          "match_evidence": {
+            "accepted": true,
+            "title_similarity": 1.0,
+            "year_match": true,
+            "arxiv_match": true,
+            "doi_match": false,
+            "author_match": true,
+            "source_match": false,
+            "repost_doi_rejected": false,
+            "primary_url": "http://arxiv.org/abs/2503.14734"
+          }
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     },
     {
       "paper_id": "egoscale",
-      "checked_at": "2026-10-10T11:42:48+08:00",
+      "checked_at": "2026-10-10",
       "status": "matched",
-      "citation_count": 0,
-      "recent_citation_count": 0,
-      "counts_by_year": [],
-      "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
-      "openalex_id": "https://openalex.org/W7130590664",
+      "provider": "Semantic Scholar",
+      "semantic_scholar_id": "a51ce1a04c9da80f399d81fd5cf4b3e4fd2285e7",
+      "record_url": "https://www.semanticscholar.org/paper/a51ce1a04c9da80f399d81fd5cf4b3e4fd2285e7",
       "matched_title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
-      "doi": "https://doi.org/10.48550/arxiv.2602.16710",
       "publication_date": "2026-02-18",
-      "edition": "作者预印本/原研究索引记录",
-      "api_url": "https://api.openalex.org/works/W7130590664",
+      "edition": "原研究arXiv ID索引记录（版本合并）",
+      "citation_count": 124,
+      "recent_citation_count": 123,
+      "recent_citation_count_kind": "lower_bound",
+      "recent_year_unknown": 1,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 123
+        }
+      ],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2602.16710",
+      "recent_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/a51ce1a04c9da80f399d81fd5cf4b3e4fd2285e7/citations"
+      ],
       "match_evidence": {
-        "accepted": true,
-        "title_similarity": 1.0,
-        "year_match": true,
         "arxiv_match": true,
-        "doi_match": false,
-        "author_match": true,
-        "source_match": false,
-        "repost_doi_rejected": false,
-        "primary_url": "http://arxiv.org/abs/2602.16710"
-      }
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+      "alternate_snapshots": [
+        {
+          "paper_id": "egoscale",
+          "checked_at": "2026-10-10T11:42:48+08:00",
+          "status": "matched",
+          "citation_count": 0,
+          "recent_citation_count": 0,
+          "counts_by_year": [],
+          "match_note": "标题、年份与至少一条原研究身份线索匹配；只采用这一条记录。",
+          "openalex_id": "https://openalex.org/W7130590664",
+          "matched_title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+          "doi": "https://doi.org/10.48550/arxiv.2602.16710",
+          "publication_date": "2026-02-18",
+          "edition": "作者预印本/原研究索引记录",
+          "api_url": "https://api.openalex.org/works/W7130590664",
+          "match_evidence": {
+            "accepted": true,
+            "title_similarity": 1.0,
+            "year_match": true,
+            "arxiv_match": true,
+            "doi_match": false,
+            "author_match": true,
+            "source_match": false,
+            "repost_doi_rejected": false,
+            "primary_url": "http://arxiv.org/abs/2602.16710"
+          }
+        }
+      ],
+      "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
     }
   ]
 }

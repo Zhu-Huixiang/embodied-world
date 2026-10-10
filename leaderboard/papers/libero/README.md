@@ -1,10 +1,12 @@
 # LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning
 
-**LIBERO** · NeurIPS 2023 · 本版排名 34 · 综合分 **88.7 / 100**
+**LIBERO** · NeurIPS 2023 · 本版排名 28 · 综合分 **89.6 / 100**
 
 [解读导读](../../../library/libero.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) · [阅读卡片](../../../library/libero.md)
+
+论文出处：[Bo Liu / Yifeng Zhu 等3位 · UT Austin Robot Perception and Learning Lab（RPL） / The University of Texas at Austin 等4个出处](../../origins/papers/libero.md)
 
 ## 机制简析
 
@@ -25,21 +27,38 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 发表与刊会 | 95.0 | 30% |
+| 公开与评审 | 95.0 | 30% |
 | 创新性 | 88 | 20% |
 | 实验与证据 | 93 | 20% |
 | 学术影响 | 57.9 | 10% |
-| 近期关注 | 74.6 | 5% |
+| 近期关注 | 91.7 | 5% |
 | 复用价值 | 99 | 8% |
 | 阅读价值 | 94 | 7% |
 
 刊会依据：[NeurIPS 2023](../../../venues/NeurIPS/README.md)，正式出处见[出版/原文记录](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html)；采用2026-10-10刊会快照。
 
 
+公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
+
+
 编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
 
-计量版本：正式刊会版本；OpenAlex题目：LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning。累计被引 102，2025–2026 被引 102；快照：2026-10-10T09:50:37+08:00。
+计量来源：OpenAlex；正式刊会版本；匹配题目：LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning。累计被引 **102**，2025–2026 被引 **102**；快照：2026-10-10T09:50:37+08:00。
 
 [指标记录](https://api.openalex.org/works/W7133220882) · [文献计量条目](https://openalex.org/W7133220882)
 
+### 影响与关注的计算依据
+
+- **学术影响 57.9**：身份匹配的累计引用C=102，对数压缩上限3000。 [依据1](https://api.openalex.org/works/W7133220882)
+- **近期关注 91.7**：huggingface 的论文专属入口：HF 最近30天下载=38432；按100000上限对数压缩。 [依据1](https://huggingface.co/api/datasets/physical-intelligence/libero) · [依据2](https://huggingface.co/datasets/physical-intelligence/libero/raw/main/README.md) · [依据3](https://huggingface.co/datasets/physical-intelligence/libero)
+
+### 论文公开入口与传播快照
+
+| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
+| --- | --- | --- | --- |
+| [github](https://github.com/Lifelong-Robot-Learning/LIBERO) | GitHub Star 2404；GitHub Watch订阅 8；GitHub Fork 510 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/datasets/physical-intelligence/libero) | HF 最近30天下载 38432；HF 仓库累计点赞 93 | 单篇论文的第三方实现/数据格式转换，按此仓库统计；2026-09-11 至 2026-10-10（API最近30天；含首尾的日期标签，实际滚动边界未公开） / 截至2026-10-10的累计快照 | 2026-10-10 |
+| [huggingface](https://huggingface.co/papers/2306.03310) | HF 论文累计点赞 3 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |
+
+[传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

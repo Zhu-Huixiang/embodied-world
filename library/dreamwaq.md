@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://ieeexplore.ieee.org/abstract/document/10161144/) · [原文 PDF](https://arxiv.org/pdf/2301.10602)
+[原文入口](https://ieeexplore.ieee.org/abstract/document/10161144/) · [原文 PDF](https://arxiv.org/pdf/2301.10602) · [作者与团队](../leaderboard/origins/papers/dreamwaq.md)
 
 ## 先看它做了什么
 

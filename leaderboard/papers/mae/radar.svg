@@ -16,7 +16,7 @@
 <line x1="380" y1="335" x2="204.5" y2="375.1" stroke="#9aafbd" stroke-width="1"/>
 <line x1="380" y1="335" x2="239.3" y2="222.8" stroke="#9aafbd" stroke-width="1"/>
 <polygon points="380.0,164.0 508.1,232.9 546.7,373.1 458.1,497.2 301.9,497.2 208.0,374.3 244.9,227.3" fill="#0785a3" fill-opacity=".12" stroke="#0785a3" stroke-width="2.5" stroke-linejoin="round"/>
-<text x="380.0" y="78.6" font-size="24" text-anchor="middle">发表与刊会</text>
+<text x="380.0" y="78.6" font-size="24" text-anchor="middle">公开与评审</text>
 <text x="380.0" y="110.6" font-size="27" fill="#0785a3" text-anchor="middle">95</text>
 <circle cx="380.0" cy="164.0" r="4" fill="#0785a3"/>
 <text x="574.2" y="172.1" font-size="24" text-anchor="middle">创新性</text>

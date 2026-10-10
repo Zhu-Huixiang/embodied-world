@@ -4,7 +4,7 @@
 
 研究范围：机器人学习。
 
-[原文入口](https://arxiv.org/abs/2610.12468v1) · [原文 PDF](https://arxiv.org/pdf/2610.12468v1) · [作者项目 / 代码入口](https://brave-eai.github.io/DreamTrue)
+[原文入口](https://arxiv.org/abs/2610.12468v1) · [原文 PDF](https://arxiv.org/pdf/2610.12468v1) · [作者项目 / 代码入口](https://brave-eai.github.io/DreamTrue) · [作者与团队](../leaderboard/origins/papers/dreamtrue.md)
 
 ## 先看它做了什么
 

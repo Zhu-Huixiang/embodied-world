@@ -4,7 +4,7 @@
 
 研究范围：生成/表征基础，动作扩散与视频扩散的少步确定性采样。
 
-[原文入口](https://iclr.cc/virtual/2021/poster/2804) · [原文 PDF](https://openreview.net/pdf?id=St1giarCHLP) · [作者项目 / 代码入口](https://github.com/ermongroup/ddim)
+[原文入口](https://iclr.cc/virtual/2021/poster/2804) · [原文 PDF](https://openreview.net/pdf?id=St1giarCHLP) · [作者项目 / 代码入口](https://github.com/ermongroup/ddim) · [作者与团队](../leaderboard/origins/papers/ddim.md)
 
 ICLR 2021 正式论文；同一 DDPM 训练目标与不同推理路径分开解释。
 
