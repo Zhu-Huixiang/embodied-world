@@ -2,6 +2,8 @@
 
 **Transformer** · NeurIPS 2017 · 本版排名 8 · 综合分 **94.3 / 100**
 
+[解读导读](../../../library/attention.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) · [PDF](https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) · [阅读卡片](../../../library/attention.md)
 
 ## 机制简析

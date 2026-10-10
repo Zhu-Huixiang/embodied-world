@@ -2,6 +2,8 @@
 
 **Trajectory Transformer** · NeurIPS 2021 · 本版排名 66 · 综合分 **84.1 / 100**
 
+[解读导读](../../../library/trajectory-transformer.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html) · [PDF](https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf) · [阅读卡片](../../../library/trajectory-transformer.md)
 
 ## 机制简析

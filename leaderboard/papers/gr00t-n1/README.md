@@ -2,6 +2,8 @@
 
 **GR00T N1** · arXiv 2025 · 本版排名 103 · 综合分 **51.9 / 100**
 
+[解读导读](../../../library/gr00t-n1.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-gr00t-n1)
+
 [原文](https://arxiv.org/abs/2503.14734) · [PDF](https://arxiv.org/pdf/2503.14734v2) · [阅读卡片](../../../library/gr00t-n1.md)
 
 ## 机制简析

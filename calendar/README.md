@@ -4,13 +4,13 @@
 
 | 拟定日期（上海） | 论文 / 榜单名次 | 本篇要讲清什么 |
 | --- | --- | --- |
-| 2026-10-11 | [CLIP · #1](../leaderboard/papers/clip/README.md) | 图像和一句指令怎样对齐，语义相似为什么还不能直接给出抓取位置？ |
-| 2026-10-12 | [DDPM · #2](../leaderboard/papers/ddpm/README.md) | 加噪声再预测噪声的训练目标，怎样变成一段机器人动作的采样算法？ |
-| 2026-10-13 | [Latent Diffusion · #3](../leaderboard/papers/latent-diffusion/README.md) | 为什么视频或图像模型常先压到 latent 空间，压缩省掉什么、又可能丢掉什么？ |
-| 2026-10-14 | [ViT · #4](../leaderboard/papers/vit/README.md) | 一张图怎样变成 token 序列，机器人策略拿到的视觉特征来自哪一步？ |
-| 2026-10-15 | [SAM · #5](../leaderboard/papers/sam/README.md) | 给视觉系统一个点或框，它怎样找到目标轮廓，哪些信息还需要控制策略来补？ |
-| 2026-10-16 | [MAE · #6](../leaderboard/papers/mae/README.md) | 遮住四分之三的图像后还原像素，怎样帮助机器人把预训练视觉特征用于控制？ |
-| 2026-10-17 | [MuZero · #7](../leaderboard/papers/muzero/README.md) | 用于规划的世界模型，为什么可以只预测奖励、价值和策略，而不重建下一帧？ |
+| 2026-10-11 | [CLIP · #1](../library/clip.md) | 图像和一句指令怎样对齐，语义相似为什么还不能直接给出抓取位置？ |
+| 2026-10-12 | [DDPM · #2](../library/ddpm.md) | 加噪声再预测噪声的训练目标，怎样变成一段机器人动作的采样算法？ |
+| 2026-10-13 | [Latent Diffusion · #3](../library/latent-diffusion.md) | 为什么视频或图像模型常先压到 latent 空间，压缩省掉什么、又可能丢掉什么？ |
+| 2026-10-14 | [ViT · #4](../library/vit.md) | 一张图怎样变成 token 序列，机器人策略拿到的视觉特征来自哪一步？ |
+| 2026-10-15 | [SAM · #5](../library/sam.md) | 给视觉系统一个点或框，它怎样找到目标轮廓，哪些信息还需要控制策略来补？ |
+| 2026-10-16 | [MAE · #6](../library/mae.md) | 遮住四分之三的图像后还原像素，怎样帮助机器人把预训练视觉特征用于控制？ |
+| 2026-10-17 | [MuZero · #7](../library/muzero.md) | 用于规划的世界模型，为什么可以只预测奖励、价值和策略，而不重建下一帧？ |
 
 [完整精讲队列](queue.md) · [具身榜](../leaderboard/README.md) · [论文地图](../paper-map/README.md) · [首页](../README.md)
 

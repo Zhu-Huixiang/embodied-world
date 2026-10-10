@@ -2,6 +2,8 @@
 
 **LingBot-VA** · RSS 2026 · 本版排名 95 · 综合分 **79.1 / 100**
 
+[解读导读](../../../library/lingbot-va.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss22/p016.html) · [PDF](https://www.roboticsproceedings.org/rss22/p016.pdf) · [阅读卡片](../../../library/lingbot-va.md)
 
 ## 机制简析

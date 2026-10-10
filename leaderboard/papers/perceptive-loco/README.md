@@ -2,6 +2,8 @@
 
 **Perceptive Locomotion** · Sci. Robot. 2022 · 本版排名 18 · 综合分 **91.2 / 100**
 
+[解读导读](../../../library/perceptive-loco.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
+
 [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822) · [PDF](https://arxiv.org/pdf/2201.08117) · [阅读卡片](../../../library/perceptive-loco.md)
 
 ## 机制简析

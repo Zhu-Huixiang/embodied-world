@@ -2,6 +2,8 @@
 
 **LIBERO** · NeurIPS 2023 · 本版排名 34 · 综合分 **88.7 / 100**
 
+[解读导读](../../../library/libero.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) · [阅读卡片](../../../library/libero.md)
 
 ## 机制简析

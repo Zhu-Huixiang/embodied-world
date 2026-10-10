@@ -2,6 +2,8 @@
 
 **ASAP** · RSS 2025 · 本版排名 43 · 综合分 **87.1 / 100**
 
+[解读导读](../../../library/asap.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss21/p066.html) · [PDF](https://agile.human2humanoid.com/static/asap.pdf) · [阅读卡片](../../../library/asap.md)
 
 ## 机制简析

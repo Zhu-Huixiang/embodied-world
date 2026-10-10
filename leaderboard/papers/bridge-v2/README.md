@@ -2,6 +2,8 @@
 
 **BridgeData V2** · CoRL 2023 · 本版排名 92 · 综合分 **80.5 / 100**
 
+[解读导读](../../../library/bridge-v2.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v229/walke23a.html) · [PDF](https://proceedings.mlr.press/v229/walke23a/walke23a.pdf) · [阅读卡片](../../../library/bridge-v2.md)
 
 ## 机制简析

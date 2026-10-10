@@ -2,6 +2,8 @@
 
 **DeepMimic** · SIGGRAPH / TOG 2018 · 本版排名 21 · 综合分 **90.8 / 100**
 
+[解读导读](../../../library/deepmimic.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
+
 [原文](https://xbpeng.github.io/projects/DeepMimic/) · [PDF](https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf) · [阅读卡片](../../../library/deepmimic.md)
 
 ## 机制简析

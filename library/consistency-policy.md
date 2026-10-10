@@ -1,19 +1,21 @@
 # Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation
 
-出处：RSS 2024。研究范围：机器人学习。
+**解读导读** · RSS 2024 · [操作与动作块](../paper-map/README.md#track-manipulation)
+
+研究范围：机器人学习。
 
 [原文入口](https://www.roboticsproceedings.org/rss20/p071.html) · [原文 PDF](https://www.roboticsproceedings.org/rss20/p071.pdf)
 
-阅读问题：**蒸馏怎样减少去噪步骤，保留怎样的动作分布？**
+## 先看它做了什么
 
-解读进度：候选选题。
+将多步扩散动作策略蒸馏为较少步的一致性策略，以减少推理步骤保留动作分布。
 
-元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
+## 带着什么问题读
 
-[论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+**蒸馏怎样减少去噪步骤，保留怎样的动作分布？**
 
-<!-- discovery:start -->
-[机制简析、七维评分与雷达](../leaderboard/papers/consistency-policy/README.md)
+全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-机制简析：将多步扩散动作策略蒸馏为较少步的一致性策略，以减少推理步骤保留动作分布。
-<!-- discovery:end -->
+[七维评分与雷达](../leaderboard/papers/consistency-policy/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
+
+元数据核对：2026-10-09。

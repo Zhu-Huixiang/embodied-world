@@ -2,6 +2,8 @@
 
 **Extreme Parkour** · ICRA 2024 · 本版排名 59 · 综合分 **85.2 / 100**
 
+[解读导读](../../../library/extreme-parkour.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
+
 [原文](https://ieeexplore.ieee.org/document/10610200) · [PDF](https://extreme-parkour.github.io/resources/parkour.pdf) · [阅读卡片](../../../library/extreme-parkour.md)
 
 ## 机制简析

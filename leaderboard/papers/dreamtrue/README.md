@@ -2,6 +2,8 @@
 
 **DreamTrue** · arXiv 2026 · 本版排名 114 · 综合分 **43.5 / 100**
 
+[解读导读](../../../library/dreamtrue.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [arXiv集锦](../../../arxiv/README.md#paper-dreamtrue)
+
 [原文](https://arxiv.org/abs/2610.12468v1) · [PDF](https://arxiv.org/pdf/2610.12468v1) · [阅读卡片](../../../library/dreamtrue.md)
 
 ## 机制简析

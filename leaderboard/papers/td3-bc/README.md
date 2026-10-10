@@ -2,6 +2,8 @@
 
 **TD3+BC** · NeurIPS 2021 · 本版排名 55 · 综合分 **85.6 / 100**
 
+[解读导读](../../../library/td3-bc.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf) · [阅读卡片](../../../library/td3-bc.md)
 
 ## 机制简析

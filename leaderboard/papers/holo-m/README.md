@@ -2,6 +2,8 @@
 
 **Holo-M** · arXiv 2026 · 本版排名 110 · 综合分 **44.3 / 100**
 
+[完整解读](../../../articles/holo-m-2609.35709/README.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-holo-m)
+
 [原文](https://arxiv.org/abs/2609.35709v1) · [PDF](https://arxiv.org/pdf/2609.35709v1) · [阅读卡片](../../../library/holo-m.md)
 
 [完整中文解读与全篇架构图](../../../articles/holo-m-2609.35709/README.md)

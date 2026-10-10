@@ -2,6 +2,8 @@
 
 **ExBody** · RSS 2024 · 本版排名 44 · 综合分 **86.7 / 100**
 
+[解读导读](../../../library/exbody.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss20/p107.html) · [PDF](https://www.roboticsproceedings.org/rss20/p107.pdf) · [阅读卡片](../../../library/exbody.md)
 
 ## 机制简析

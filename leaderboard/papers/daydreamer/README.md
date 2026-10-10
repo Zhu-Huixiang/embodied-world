@@ -2,6 +2,8 @@
 
 **DayDreamer** · CoRL 2022 · 本版排名 79 · 综合分 **82.9 / 100**
 
+[解读导读](../../../library/daydreamer.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v205/wu23c.html) · [PDF](https://proceedings.mlr.press/v205/wu23c/wu23c.pdf) · [阅读卡片](../../../library/daydreamer.md)
 
 ## 机制简析

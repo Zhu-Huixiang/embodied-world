@@ -2,6 +2,8 @@
 
 **VC-1** · NeurIPS 2023 · 本版排名 67 · 综合分 **84.1 / 100**
 
+[解读导读](../../../library/vc1.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/022ca1bed6b574b962c48a2856eb207b-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/022ca1bed6b574b962c48a2856eb207b-Paper-Conference.pdf) · [阅读卡片](../../../library/vc1.md)
 
 ## 机制简析

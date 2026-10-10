@@ -2,6 +2,8 @@
 
 **DreamWaQ** · ICRA 2023 · 本版排名 78 · 综合分 **82.9 / 100**
 
+[解读导读](../../../library/dreamwaq.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
+
 [原文](https://ieeexplore.ieee.org/abstract/document/10161144/) · [PDF](https://arxiv.org/pdf/2301.10602) · [阅读卡片](../../../library/dreamwaq.md)
 
 ## 机制简析

@@ -2,6 +2,8 @@
 
 **π₀.₅** · CoRL 2025 · 本版排名 97 · 综合分 **77.2 / 100**
 
+[解读导读](../../../library/pi05.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v305/black25a.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v305/main/assets/black25a/black25a.pdf) · [阅读卡片](../../../library/pi05.md)
 
 ## 机制简析

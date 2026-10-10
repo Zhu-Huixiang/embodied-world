@@ -2,6 +2,8 @@
 
 **Latent Diffusion** · CVPR 2022 · 本版排名 3 · 综合分 **95.8 / 100**
 
+[解读导读](../../../library/latent-diffusion.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [CVPR集锦](../../../venues/CVPR/README.md)
+
 [原文](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) · [阅读卡片](../../../library/latent-diffusion.md)
 
 ## 机制简析

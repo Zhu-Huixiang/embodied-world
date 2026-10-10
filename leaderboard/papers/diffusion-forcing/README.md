@@ -2,6 +2,8 @@
 
 **Diffusion Forcing** · NeurIPS 2024 · 本版排名 47 · 综合分 **86.3 / 100**
 
+[解读导读](../../../library/diffusion-forcing.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2aee1c4159e48407d68fe16ae8e6e49e-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/2aee1c4159e48407d68fe16ae8e6e49e-Paper-Conference.pdf) · [阅读卡片](../../../library/diffusion-forcing.md)
 
 ## 机制简析

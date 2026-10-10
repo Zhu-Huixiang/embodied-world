@@ -2,6 +2,8 @@
 
 **HumanPlus** · CoRL 2024 · 本版排名 91 · 综合分 **80.5 / 100**
 
+[解读导读](../../../library/humanplus.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v270/fu25a.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25a/fu25a.pdf) · [阅读卡片](../../../library/humanplus.md)
 
 ## 机制简析

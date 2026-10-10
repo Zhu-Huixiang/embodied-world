@@ -2,6 +2,8 @@
 
 **MaskedMimic** · SIGGRAPH / TOG 2024 · 本版排名 60 · 综合分 **85.2 / 100**
 
+[解读导读](../../../library/maskedmimic.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
+
 [原文](https://dl.acm.org/doi/10.1145/3687951) · [PDF](https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf) · [阅读卡片](../../../library/maskedmimic.md)
 
 ## 机制简析

@@ -2,6 +2,8 @@
 
 **Mobile ALOHA** · CoRL 2024 · 本版排名 74 · 综合分 **83.2 / 100**
 
+[解读导读](../../../library/mobile-aloha.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v270/fu25b.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25b/fu25b.pdf) · [阅读卡片](../../../library/mobile-aloha.md)
 
 ## 机制简析

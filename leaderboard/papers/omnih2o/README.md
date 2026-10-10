@@ -2,6 +2,8 @@
 
 **OmniH2O** · CoRL 2024 · 本版排名 99 · 综合分 **76.8 / 100**
 
+[解读导读](../../../library/omnih2o.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v270/he25b.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf) · [阅读卡片](../../../library/omnih2o.md)
 
 ## 机制简析

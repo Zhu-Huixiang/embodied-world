@@ -2,6 +2,8 @@
 
 **AMP** · SIGGRAPH / TOG 2021 · 本版排名 30 · 综合分 **89.2 / 100**
 
+[解读导读](../../../library/amp.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
+
 [原文](https://xbpeng.github.io/projects/AMP/) · [PDF](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf) · [阅读卡片](../../../library/amp.md)
 
 ## 机制简析

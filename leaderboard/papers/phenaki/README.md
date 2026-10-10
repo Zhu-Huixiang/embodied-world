@@ -2,6 +2,8 @@
 
 **Phenaki** · ICLR 2023 · 本版排名 73 · 综合分 **83.2 / 100**
 
+[解读导读](../../../library/phenaki.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://openreview.net/forum?id=vOEXS39nOF) · [PDF](https://openreview.net/pdf?id=vOEXS39nOF) · [阅读卡片](../../../library/phenaki.md)
 
 ## 机制简析

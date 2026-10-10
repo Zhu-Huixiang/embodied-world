@@ -2,6 +2,8 @@
 
 **TD-MPC** · ICML 2022 · 本版排名 71 · 综合分 **83.3 / 100**
 
+[解读导读](../../../library/td-mpc.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICML集锦](../../../venues/ICML/README.md)
+
 [原文](https://proceedings.mlr.press/v162/hansen22a.html) · [PDF](https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf) · [阅读卡片](../../../library/td-mpc.md)
 
 ## 机制简析

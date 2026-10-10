@@ -2,6 +2,8 @@
 
 **SAM** · ICCV 2023 · 本版排名 5 · 综合分 **95.3 / 100**
 
+[解读导读](../../../library/sam.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICCV集锦](../../../venues/ICCV/README.md)
+
 [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) · [阅读卡片](../../../library/sam.md)
 
 ## 机制简析

@@ -2,6 +2,8 @@
 
 **FAST** · RSS 2025 · 本版排名 64 · 综合分 **84.7 / 100**
 
+[解读导读](../../../library/fast.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss21/p012.html) · [PDF](https://www.roboticsproceedings.org/rss21/p012.pdf) · [阅读卡片](../../../library/fast.md)
 
 ## 机制简析

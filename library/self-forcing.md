@@ -1,19 +1,21 @@
 # Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion
 
-出处：NeurIPS 2025。研究范围：视频生成基础；机器人部署另看策略论文。
+**解读导读** · NeurIPS 2025 · [视频与序列生成](../paper-map/README.md#track-video-generation)
+
+研究范围：视频生成基础；机器人部署另看策略论文。
 
 [原文入口](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) · [原文 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf)
 
-阅读问题：**用模型自己滚出的历史训练，怎样处理自回归误差累积？**
+## 先看它做了什么
 
-解读进度：候选选题。
+使用模型自己的历史滚动来训练自回归视频生成，减少教师历史与部署历史的分布差异。
 
-元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
+## 带着什么问题读
 
-[论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+**用模型自己滚出的历史训练，怎样处理自回归误差累积？**
 
-<!-- discovery:start -->
-[机制简析、七维评分与雷达](../leaderboard/papers/self-forcing/README.md)
+全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-机制简析：使用模型自己的历史滚动来训练自回归视频生成，减少教师历史与部署历史的分布差异。
-<!-- discovery:end -->
+[七维评分与雷达](../leaderboard/papers/self-forcing/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-video-generation) · [首页](../README.md)
+
+元数据核对：2026-10-09。

@@ -2,6 +2,8 @@
 
 **SayCan** · CoRL 2022 · 本版排名 35 · 综合分 **88.4 / 100**
 
+[解读导读](../../../library/saycan.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v205/ichter23a.html) · [PDF](https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf) · [阅读卡片](../../../library/saycan.md)
 
 ## 机制简析

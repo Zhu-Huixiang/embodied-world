@@ -2,6 +2,8 @@
 
 **Legged Gym** · CoRL 2021 · 本版排名 69 · 综合分 **83.9 / 100**
 
+[解读导读](../../../library/walk-in-minutes.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v164/rudin22a.html) · [PDF](https://proceedings.mlr.press/v164/rudin22a/rudin22a.pdf) · [阅读卡片](../../../library/walk-in-minutes.md)
 
 ## 机制简析

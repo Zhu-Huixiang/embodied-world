@@ -2,6 +2,8 @@
 
 **IQL** · ICLR 2022 · 本版排名 40 · 综合分 **87.7 / 100**
 
+[解读导读](../../../library/iql.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://iclr.cc/virtual/2022/poster/5941) · [PDF](https://arxiv.org/pdf/2110.06169) · [阅读卡片](../../../library/iql.md)
 
 ## 机制简析

@@ -2,6 +2,8 @@
 
 **Cal-QL** · NeurIPS 2023 · 本版排名 77 · 综合分 **82.9 / 100**
 
+[解读导读](../../../library/cal-ql.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c44a04289beaf0a7d968a94066a1d696-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/c44a04289beaf0a7d968a94066a1d696-Paper-Conference.pdf) · [阅读卡片](../../../library/cal-ql.md)
 
 ## 机制简析

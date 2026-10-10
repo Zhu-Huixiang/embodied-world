@@ -2,6 +2,8 @@
 
 **EDM** · NeurIPS 2022 · 本版排名 23 · 综合分 **90.7 / 100**
 
+[解读导读](../../../library/edm.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a98846e9d9cc01cfb87eb694d946ce6b-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/a98846e9d9cc01cfb87eb694d946ce6b-Paper-Conference.pdf) · [阅读卡片](../../../library/edm.md)
 
 ## 机制简析

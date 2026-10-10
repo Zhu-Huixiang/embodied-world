@@ -1,19 +1,21 @@
 # RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
 
-出处：CoRL 2023。研究范围：机器人学习。
+**解读导读** · CoRL 2023 · [视觉语言动作模型 VLA](../paper-map/README.md#track-vla)
+
+研究范围：机器人学习。
 
 [原文入口](https://proceedings.mlr.press/v229/zitkovich23a.html) · [原文 PDF](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf)
 
-阅读问题：**文字和动作一起训练，网络知识怎样影响一次操作？**
+## 先看它做了什么
 
-解读进度：候选选题。
+把机器人动作写成语言模型词表内的编号，将机器人示范与视觉语言任务共同训练以迁移网络语义。
 
-元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
+## 带着什么问题读
 
-[论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+**文字和动作一起训练，网络知识怎样影响一次操作？**
 
-<!-- discovery:start -->
-[机制简析、七维评分与雷达](../leaderboard/papers/rt2/README.md)
+全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-机制简析：把机器人动作写成语言模型词表内的编号，将机器人示范与视觉语言任务共同训练以迁移网络语义。
-<!-- discovery:end -->
+[七维评分与雷达](../leaderboard/papers/rt2/README.md) · [CoRL集锦](../venues/CoRL/README.md) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
+
+元数据核对：2026-10-09。

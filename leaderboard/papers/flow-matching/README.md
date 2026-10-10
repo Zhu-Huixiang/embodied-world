@@ -2,6 +2,8 @@
 
 **Flow Matching** · ICLR 2023 · 本版排名 27 · 综合分 **90.0 / 100**
 
+[解读导读](../../../library/flow-matching.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://iclr.cc/virtual/2023/poster/11309) · [PDF](https://arxiv.org/pdf/2210.02747) · [阅读卡片](../../../library/flow-matching.md)
 
 ## 机制简析

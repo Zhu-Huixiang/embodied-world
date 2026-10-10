@@ -2,6 +2,8 @@
 
 **Deep WBC** · CoRL 2022 · 本版排名 82 · 综合分 **82.1 / 100**
 
+[解读导读](../../../library/deep-whole-body-control.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v205/fu23a.html) · [PDF](https://proceedings.mlr.press/v205/fu23a/fu23a.pdf) · [阅读卡片](../../../library/deep-whole-body-control.md)
 
 ## 机制简析

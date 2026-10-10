@@ -2,6 +2,8 @@
 
 **Diffuser** · ICML 2022 · 本版排名 50 · 综合分 **86.1 / 100**
 
+[解读导读](../../../library/diffuser.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [ICML集锦](../../../venues/ICML/README.md)
+
 [原文](https://proceedings.mlr.press/v162/janner22a.html) · [PDF](https://proceedings.mlr.press/v162/janner22a/janner22a.pdf) · [阅读卡片](../../../library/diffuser.md)
 
 ## 机制简析

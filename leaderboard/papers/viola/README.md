@@ -2,6 +2,8 @@
 
 **VIOLA** · arXiv 2026 · 本版排名 108 · 综合分 **45.8 / 100**
 
+[解读导读](../../../library/viola.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-viola)
+
 [原文](https://arxiv.org/abs/2610.12435v1) · [PDF](https://arxiv.org/pdf/2610.12435v1) · [阅读卡片](../../../library/viola.md)
 
 ## 机制简析

@@ -1,19 +1,21 @@
 # Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 
-出处：RSS 2023。研究范围：机器人学习。
+**解读导读** · RSS 2023 · [操作与动作块](../paper-map/README.md#track-manipulation)
+
+研究范围：机器人学习。
 
 [原文入口](https://www.roboticsproceedings.org/rss19/p026.html) · [原文 PDF](https://www.roboticsproceedings.org/rss19/p026.pdf)
 
-阅读问题：**为什么要对一段动作分布去噪，再滚动执行？**
+## 先看它做了什么
 
-解读进度：候选选题。
+对多步动作条件去噪，用视觉观测约束动作分布，滚动执行一段后再次观测与重规划。
 
-元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
+## 带着什么问题读
 
-[论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+**为什么要对一段动作分布去噪，再滚动执行？**
 
-<!-- discovery:start -->
-[机制简析、七维评分与雷达](../leaderboard/papers/diffusion-policy/README.md)
+全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-机制简析：对多步动作条件去噪，用视觉观测约束动作分布，滚动执行一段后再次观测与重规划。
-<!-- discovery:end -->
+[七维评分与雷达](../leaderboard/papers/diffusion-policy/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
+
+元数据核对：2026-10-09。

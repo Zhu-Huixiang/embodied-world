@@ -2,6 +2,8 @@
 
 **ANYmal Parkour** · Sci. Robot. 2024 · 本版排名 33 · 综合分 **89.0 / 100**
 
+[解读导读](../../../library/anymal-parkour.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
+
 [原文](https://www.science.org/doi/10.1126/scirobotics.adi7566) · [PDF](https://arxiv.org/pdf/2306.14874) · [阅读卡片](../../../library/anymal-parkour.md)
 
 ## 机制简析

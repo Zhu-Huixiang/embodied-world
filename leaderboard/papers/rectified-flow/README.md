@@ -2,6 +2,8 @@
 
 **Rectified Flow** · ICLR 2023 · 本版排名 42 · 综合分 **87.4 / 100**
 
+[解读导读](../../../library/rectified-flow.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://iclr.cc/virtual/2023/poster/11266) · [PDF](https://openreview.net/pdf?id=gWxpdtQpiYV) · [阅读卡片](../../../library/rectified-flow.md)
 
 ## 机制简析

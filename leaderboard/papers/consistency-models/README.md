@@ -2,6 +2,8 @@
 
 **Consistency Models** · ICML 2023 · 本版排名 51 · 综合分 **86.1 / 100**
 
+[解读导读](../../../library/consistency-models.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICML集锦](../../../venues/ICML/README.md)
+
 [原文](https://proceedings.mlr.press/v202/song23a.html) · [PDF](https://proceedings.mlr.press/v202/song23a/song23a.pdf) · [阅读卡片](../../../library/consistency-models.md)
 
 ## 机制简析

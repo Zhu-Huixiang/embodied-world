@@ -2,6 +2,8 @@
 
 **RMA** · RSS 2021 · 本版排名 16 · 综合分 **91.7 / 100**
 
+[解读导读](../../../library/rma.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss17/p011.html) · [PDF](https://www.roboticsproceedings.org/rss17/p011.pdf) · [阅读卡片](../../../library/rma.md)
 
 ## 机制简析

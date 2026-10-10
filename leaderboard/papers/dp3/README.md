@@ -2,6 +2,8 @@
 
 **DP3** · RSS 2024 · 本版排名 45 · 综合分 **86.5 / 100**
 
+[解读导读](../../../library/dp3.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss20/p067.html) · [PDF](https://www.roboticsproceedings.org/rss20/p067.pdf) · [阅读卡片](../../../library/dp3.md)
 
 ## 机制简析

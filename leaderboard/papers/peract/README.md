@@ -2,6 +2,8 @@
 
 **PerAct** · CoRL 2022 · 本版排名 68 · 综合分 **84.0 / 100**
 
+[解读导读](../../../library/peract.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v205/shridhar23a.html) · [PDF](https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf) · [阅读卡片](../../../library/peract.md)
 
 ## 机制简析

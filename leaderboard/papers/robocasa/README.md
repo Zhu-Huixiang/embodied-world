@@ -2,6 +2,8 @@
 
 **RoboCasa** · RSS 2024 · 本版排名 88 · 综合分 **81.2 / 100**
 
+[解读导读](../../../library/robocasa.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://roboticsproceedings.org/rss20/p050.html) · [PDF](https://www.roboticsproceedings.org/rss20/p050.pdf) · [阅读卡片](../../../library/robocasa.md)
 
 ## 机制简析

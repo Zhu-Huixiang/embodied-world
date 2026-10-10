@@ -2,6 +2,8 @@
 
 **VideoVLA** · NeurIPS 2025 · 本版排名 96 · 综合分 **78.0 / 100**
 
+[解读导读](../../../library/videovla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf) · [阅读卡片](../../../library/videovla.md)
 
 ## 机制简析

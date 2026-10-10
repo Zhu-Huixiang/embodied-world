@@ -2,6 +2,8 @@
 
 **SAM 2** · ICLR 2025 · 本版排名 24 · 综合分 **90.6 / 100**
 
+[解读导读](../../../library/sam2.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://openreview.net/forum?id=Ha6RTeWMd0) · [PDF](https://proceedings.iclr.cc/paper_files/paper/2025/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) · [阅读卡片](../../../library/sam2.md)
 
 ## 机制简析

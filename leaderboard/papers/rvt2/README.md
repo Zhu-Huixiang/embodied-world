@@ -2,6 +2,8 @@
 
 **RVT-2** · RSS 2024 · 本版排名 53 · 综合分 **85.8 / 100**
 
+[解读导读](../../../library/rvt2.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss20/p055.html) · [PDF](https://www.roboticsproceedings.org/rss20/p055.pdf) · [阅读卡片](../../../library/rvt2.md)
 
 ## 机制简析

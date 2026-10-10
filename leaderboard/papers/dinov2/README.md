@@ -2,6 +2,8 @@
 
 **DINOv2** · TMLR 2024 · 本版排名 22 · 综合分 **90.7 / 100**
 
+[解读导读](../../../library/dinov2.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [TMLR集锦](../../../venues/TMLR/README.md)
+
 [原文](https://openreview.net/forum?id=a68SUt6zFt) · [PDF](https://openreview.net/pdf?id=a68SUt6zFt) · [阅读卡片](../../../library/dinov2.md)
 
 ## 机制简析

@@ -2,6 +2,8 @@
 
 **Dynamics Review** · Sci. Robot. 2025 · 本版排名 90 · 综合分 **81.0 / 100**
 
+[解读导读](../../../library/learned-dynamics-review.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
+
 [原文](https://www.science.org/doi/10.1126/scirobotics.adt1497) · [PDF](https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf) · [阅读卡片](../../../library/learned-dynamics-review.md)
 
 ## 机制简析

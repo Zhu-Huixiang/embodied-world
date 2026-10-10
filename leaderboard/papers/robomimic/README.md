@@ -2,6 +2,8 @@
 
 **robomimic** · CoRL 2021 · 本版排名 58 · 综合分 **85.3 / 100**
 
+[解读导读](../../../library/robomimic.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v164/mandlekar22a.html) · [PDF](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf) · [阅读卡片](../../../library/robomimic.md)
 
 ## 机制简析

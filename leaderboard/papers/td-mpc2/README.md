@@ -2,6 +2,8 @@
 
 **TD-MPC2** · ICLR 2024 · 本版排名 72 · 综合分 **83.3 / 100**
 
+[解读导读](../../../library/td-mpc2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [阅读卡片](../../../library/td-mpc2.md)
 
 ## 机制简析

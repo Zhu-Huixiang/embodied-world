@@ -2,6 +2,8 @@
 
 **CLIP** · ICML 2021 · 本版排名 1 · 综合分 **96.4 / 100**
 
+[解读导读](../../../library/clip.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICML集锦](../../../venues/ICML/README.md)
+
 [原文](https://proceedings.mlr.press/v139/radford21a.html) · [PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [阅读卡片](../../../library/clip.md)
 
 ## 机制简析

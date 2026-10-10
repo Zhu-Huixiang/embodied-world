@@ -2,6 +2,8 @@
 
 **PaLM-E** · ICML 2023 · 本版排名 46 · 综合分 **86.4 / 100**
 
+[解读导读](../../../library/palm-e.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICML集锦](../../../venues/ICML/README.md)
+
 [原文](https://proceedings.mlr.press/v202/driess23a.html) · [PDF](https://proceedings.mlr.press/v202/driess23a/driess23a.pdf) · [阅读卡片](../../../library/palm-e.md)
 
 ## 机制简析

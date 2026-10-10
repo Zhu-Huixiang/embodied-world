@@ -2,6 +2,8 @@
 
 **Walk in the Park** · RSS 2023 · 本版排名 57 · 综合分 **85.3 / 100**
 
+[解读导读](../../../library/walk-in-the-park.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss19/p056.html) · [PDF](https://www.roboticsproceedings.org/rss19/p056.pdf) · [阅读卡片](../../../library/walk-in-the-park.md)
 
 ## 机制简析

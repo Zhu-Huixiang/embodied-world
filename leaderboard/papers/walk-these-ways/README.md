@@ -2,6 +2,8 @@
 
 **Walk These Ways** · CoRL 2022 · 本版排名 85 · 综合分 **81.4 / 100**
 
+[解读导读](../../../library/walk-these-ways.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v205/margolis23a.html) · [PDF](https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf) · [阅读卡片](../../../library/walk-these-ways.md)
 
 ## 机制简析

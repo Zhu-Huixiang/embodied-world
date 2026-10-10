@@ -2,6 +2,8 @@
 
 **VIP** · ICLR 2023 · 本版排名 63 · 综合分 **85.0 / 100**
 
+[解读导读](../../../library/vip.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://openreview.net/forum?id=YJ7o2wetJ2) · [PDF](https://openreview.net/pdf?id=YJ7o2wetJ2) · [阅读卡片](../../../library/vip.md)
 
 ## 机制简析

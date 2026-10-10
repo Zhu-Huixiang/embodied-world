@@ -2,6 +2,8 @@
 
 **PHC** · ICCV 2023 · 本版排名 41 · 综合分 **87.5 / 100**
 
+[解读导读](../../../library/phc.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [ICCV集锦](../../../venues/ICCV/README.md)
+
 [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.pdf) · [阅读卡片](../../../library/phc.md)
 
 ## 机制简析

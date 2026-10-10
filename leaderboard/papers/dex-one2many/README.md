@@ -2,6 +2,8 @@
 
 **Dex-One2Many** · arXiv 2026 · 本版排名 111 · 综合分 **44.2 / 100**
 
+[解读导读](../../../library/dex-one2many.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-dex-one2many)
+
 [原文](https://arxiv.org/abs/2610.12470v1) · [PDF](https://arxiv.org/pdf/2610.12470v1) · [阅读卡片](../../../library/dex-one2many.md)
 
 ## 机制简析

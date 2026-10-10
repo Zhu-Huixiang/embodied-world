@@ -2,6 +2,8 @@
 
 **Isaac Gym** · NeurIPS D&B 2021 · 本版排名 48 · 综合分 **86.3 / 100**
 
+[解读导读](../../../library/isaac-gym.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS D&B集锦](../../../venues/NeurIPS-Datasets-Benchmarks/README.md)
+
 [原文](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html) · [PDF](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/28dd2c7955ce926456240b2ff0100bde-Paper-round2.pdf) · [阅读卡片](../../../library/isaac-gym.md)
 
 ## 机制简析

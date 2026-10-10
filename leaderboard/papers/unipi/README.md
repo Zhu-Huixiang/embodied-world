@@ -2,6 +2,8 @@
 
 **UniPi** · NeurIPS 2023 · 本版排名 76 · 综合分 **82.9 / 100**
 
+[解读导读](../../../library/unipi.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
+
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/1d5b9233ad716a43be5c0d3023cb82d0-Paper-Conference.pdf) · [阅读卡片](../../../library/unipi.md)
 
 ## 机制简析

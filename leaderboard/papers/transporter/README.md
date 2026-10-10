@@ -2,6 +2,8 @@
 
 **Transporter** · CoRL 2020 · 本版排名 56 · 综合分 **85.4 / 100**
 
+[解读导读](../../../library/transporter.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v155/zeng21a.html) · [PDF](https://proceedings.mlr.press/v155/zeng21a/zeng21a.pdf) · [阅读卡片](../../../library/transporter.md)
 
 ## 机制简析

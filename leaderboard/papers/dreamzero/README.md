@@ -2,6 +2,8 @@
 
 **DreamZero** · arXiv 2026 · 本版排名 105 · 综合分 **48.0 / 100**
 
+[解读导读](../../../library/dreamzero.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-dreamzero)
+
 [原文](https://arxiv.org/abs/2602.15922) · [PDF](https://arxiv.org/pdf/2602.15922) · [阅读卡片](../../../library/dreamzero.md)
 
 ## 机制简析

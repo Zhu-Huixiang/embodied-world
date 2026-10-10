@@ -2,6 +2,8 @@
 
 **π₀** · RSS 2025 · 本版排名 32 · 综合分 **89.0 / 100**
 
+[解读导读](../../../library/pi0.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss21/p010.html) · [PDF](https://www.roboticsproceedings.org/rss21/p010.pdf) · [阅读卡片](../../../library/pi0.md)
 
 ## 机制简析

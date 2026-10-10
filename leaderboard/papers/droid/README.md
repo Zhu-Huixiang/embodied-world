@@ -2,6 +2,8 @@
 
 **DROID** · RSS 2024 · 本版排名 29 · 综合分 **89.4 / 100**
 
+[解读导读](../../../library/droid.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss20/p120.html) · [PDF](https://www.roboticsproceedings.org/rss20/p120.pdf) · [阅读卡片](../../../library/droid.md)
 
 ## 机制简析

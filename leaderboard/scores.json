@@ -53,6 +53,17 @@
       "short_name": "CLIP",
       "title": "Learning Transferable Visual Models From Natural Language Supervision",
       "year": 2021,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/clip.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/clip/README.md"
+      },
       "scores": {
         "innovation": 96,
         "evidence": 95,
@@ -221,13 +232,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 1
     },
     {
       "id": "ddpm",
       "short_name": "DDPM",
       "title": "Denoising Diffusion Probabilistic Models",
       "year": 2020,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/ddpm.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/ddpm/README.md"
+      },
       "scores": {
         "innovation": 96,
         "evidence": 92,
@@ -396,13 +419,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 2
     },
     {
       "id": "latent-diffusion",
       "short_name": "Latent Diffusion",
       "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
       "year": 2022,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "CVPR",
+        "venue_key": "CVPR",
+        "venue_path": "venues/CVPR/README.md",
+        "reading_path": "library/latent-diffusion.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/latent-diffusion/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 94,
@@ -567,13 +602,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 3
     },
     {
       "id": "vit",
       "short_name": "ViT",
       "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
       "year": 2021,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/vit.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/vit/README.md"
+      },
       "scores": {
         "innovation": 96,
         "evidence": 92,
@@ -754,13 +801,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 4
     },
     {
       "id": "sam",
       "short_name": "SAM",
       "title": "Segment Anything",
       "year": 2023,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "ICCV",
+        "venue_key": "ICCV",
+        "venue_path": "venues/ICCV/README.md",
+        "reading_path": "library/sam.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/sam/README.md"
+      },
       "scores": {
         "innovation": 90,
         "evidence": 96,
@@ -925,13 +984,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 5
     },
     {
       "id": "mae",
       "short_name": "MAE",
       "title": "Masked Autoencoders Are Scalable Vision Learners",
       "year": 2022,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "CVPR",
+        "venue_key": "CVPR",
+        "venue_path": "venues/CVPR/README.md",
+        "reading_path": "library/mae.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/mae/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 95,
@@ -1096,13 +1167,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 6
     },
     {
       "id": "muzero",
       "short_name": "MuZero",
       "title": "Mastering Atari, Go, chess and shogi by planning with a learned model",
       "year": 2020,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "Nature",
+        "venue_key": "Nature",
+        "venue_path": "venues/Nature/README.md",
+        "reading_path": "library/muzero.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/muzero/README.md"
+      },
       "scores": {
         "innovation": 98,
         "evidence": 94,
@@ -1288,13 +1371,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 7
     },
     {
       "id": "attention",
       "short_name": "Transformer",
       "title": "Attention Is All You Need",
       "year": 2017,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/attention.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/attention/README.md"
+      },
       "scores": {
         "innovation": 99,
         "evidence": 94,
@@ -1422,13 +1517,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 8
     },
     {
       "id": "dino",
       "short_name": "DINO",
       "title": "Emerging Properties in Self-Supervised Vision Transformers",
       "year": 2021,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "ICCV",
+        "venue_key": "ICCV",
+        "venue_path": "venues/ICCV/README.md",
+        "reading_path": "library/dino.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dino/README.md"
+      },
       "scores": {
         "innovation": 93,
         "evidence": 90,
@@ -1597,13 +1704,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 9
     },
     {
       "id": "gaussian-splatting",
       "short_name": "3DGS",
       "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
       "year": 2023,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "SIGGRAPH / TOG",
+        "venue_key": "SIGGRAPH-TOG",
+        "venue_path": "venues/SIGGRAPH-TOG/README.md",
+        "reading_path": "library/gaussian-splatting.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/gaussian-splatting/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 93,
@@ -1783,13 +1902,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 10
     },
     {
       "id": "dit",
       "short_name": "DiT",
       "title": "Scalable Diffusion Models with Transformers",
       "year": 2023,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "ICCV",
+        "venue_key": "ICCV",
+        "venue_path": "venues/ICCV/README.md",
+        "reading_path": "library/dit.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dit/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 91,
@@ -1934,13 +2065,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 11
     },
     {
       "id": "diffusion-policy",
       "short_name": "Diffusion Policy",
       "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
       "year": 2023,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/diffusion-policy.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/diffusion-policy/README.md"
+      },
       "scores": {
         "innovation": 96,
         "evidence": 91,
@@ -2085,13 +2228,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 12
     },
     {
       "id": "nerf",
       "short_name": "NeRF",
       "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
       "year": 2020,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "ECCV",
+        "venue_key": "ECCV",
+        "venue_path": "venues/ECCV/README.md",
+        "reading_path": "library/nerf.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/nerf/README.md"
+      },
       "scores": {
         "innovation": 97,
         "evidence": 93,
@@ -2261,13 +2416,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 13
     },
     {
       "id": "dreamerv3",
       "short_name": "DreamerV3",
       "title": "Mastering diverse control tasks through world models",
       "year": 2025,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "Nature",
+        "venue_key": "Nature",
+        "venue_path": "venues/Nature/README.md",
+        "reading_path": "library/dreamerv3.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dreamerv3/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 96,
@@ -2417,13 +2584,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 14
     },
     {
       "id": "act",
       "short_name": "ACT / ALOHA",
       "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
       "year": 2023,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/act.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/act/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 89,
@@ -2568,13 +2747,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 15
     },
     {
       "id": "rma",
       "short_name": "RMA",
       "title": "RMA: Rapid Motor Adaptation for Legged Robots",
       "year": 2021,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/rma.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/rma/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 91,
@@ -2727,13 +2918,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 16
     },
     {
       "id": "rt1",
       "short_name": "RT-1",
       "title": "RT-1: Robotics Transformer for Real-World Control at Scale",
       "year": 2023,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/rt1.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/rt1/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 92,
@@ -2890,13 +3093,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 17
     },
     {
       "id": "perceptive-loco",
       "short_name": "Perceptive Locomotion",
       "title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
       "year": 2022,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "Sci. Robot.",
+        "venue_key": "Science-Robotics",
+        "venue_path": "venues/Science-Robotics/README.md",
+        "reading_path": "library/perceptive-loco.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/perceptive-loco/README.md"
+      },
       "scores": {
         "innovation": 93,
         "evidence": 95,
@@ -3058,13 +3273,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 18
     },
     {
       "id": "umi",
       "short_name": "UMI",
       "title": "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/umi.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/umi/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 93,
@@ -3217,13 +3444,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 19
     },
     {
       "id": "cql",
       "short_name": "CQL",
       "title": "Conservative Q-Learning for Offline Reinforcement Learning",
       "year": 2020,
+      "navigation": {
+        "track": "reinforcement-learning",
+        "track_label": "强化学习与离线决策",
+        "track_path": "paper-map/README.md#track-reinforcement-learning",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/cql.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/cql/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 89,
@@ -3392,13 +3631,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 20
     },
     {
       "id": "deepmimic",
       "short_name": "DeepMimic",
       "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
       "year": 2018,
+      "navigation": {
+        "track": "motion-priors",
+        "track_label": "动作先验与全身技能",
+        "track_path": "paper-map/README.md#track-motion-priors",
+        "venue_label": "SIGGRAPH / TOG",
+        "venue_key": "SIGGRAPH-TOG",
+        "venue_path": "venues/SIGGRAPH-TOG/README.md",
+        "reading_path": "library/deepmimic.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/deepmimic/README.md"
+      },
       "scores": {
         "innovation": 96,
         "evidence": 88,
@@ -3586,13 +3837,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 21
     },
     {
       "id": "dinov2",
       "short_name": "DINOv2",
       "title": "DINOv2: Learning Robust Visual Features without Supervision",
       "year": 2024,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "TMLR",
+        "venue_key": "TMLR",
+        "venue_path": "venues/TMLR/README.md",
+        "reading_path": "library/dinov2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dinov2/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 96,
@@ -3749,13 +4012,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 22
     },
     {
       "id": "edm",
       "short_name": "EDM",
       "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
       "year": 2022,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/edm.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/edm/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 95,
@@ -3912,13 +4187,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 23
     },
     {
       "id": "sam2",
       "short_name": "SAM 2",
       "title": "SAM 2: Segment Anything in Images and Videos",
       "year": 2025,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/sam2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/sam2/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 95,
@@ -4071,13 +4358,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 24
     },
     {
       "id": "i-jepa",
       "short_name": "I-JEPA",
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "CVPR",
+        "venue_key": "CVPR",
+        "venue_path": "venues/CVPR/README.md",
+        "reading_path": "library/i-jepa.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/i-jepa/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 89,
@@ -4234,13 +4533,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 25
     },
     {
       "id": "decision-transformer",
       "short_name": "Decision Transformer",
       "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
       "year": 2021,
+      "navigation": {
+        "track": "reinforcement-learning",
+        "track_label": "强化学习与离线决策",
+        "track_path": "paper-map/README.md#track-reinforcement-learning",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/decision-transformer.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/decision-transformer/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 84,
@@ -4405,13 +4716,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 26
     },
     {
       "id": "flow-matching",
       "short_name": "Flow Matching",
       "title": "Flow Matching for Generative Modeling",
       "year": 2023,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/flow-matching.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/flow-matching/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 92,
@@ -4568,13 +4891,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 27
     },
     {
       "id": "video-diffusion",
       "short_name": "Video Diffusion",
       "title": "Video Diffusion Models",
       "year": 2022,
+      "navigation": {
+        "track": "video-generation",
+        "track_label": "视频与序列生成",
+        "track_path": "paper-map/README.md#track-video-generation",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/video-diffusion.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/video-diffusion/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 91,
@@ -4731,13 +5066,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 28
     },
     {
       "id": "droid",
       "short_name": "DROID",
       "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/droid.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/droid/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 93,
@@ -4890,13 +5237,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 29
     },
     {
       "id": "amp",
       "short_name": "AMP",
       "title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
       "year": 2021,
+      "navigation": {
+        "track": "motion-priors",
+        "track_label": "动作先验与全身技能",
+        "track_path": "paper-map/README.md#track-motion-priors",
+        "venue_label": "SIGGRAPH / TOG",
+        "venue_key": "SIGGRAPH-TOG",
+        "venue_path": "venues/SIGGRAPH-TOG/README.md",
+        "reading_path": "library/amp.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/amp/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 88,
@@ -5076,13 +5435,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 30
     },
     {
       "id": "agile-flight",
       "short_name": "Agile Flight",
       "title": "Learning high-speed flight in the wild",
       "year": 2021,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "Sci. Robot.",
+        "venue_key": "Science-Robotics",
+        "venue_path": "venues/Science-Robotics/README.md",
+        "reading_path": "library/agile-flight.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/agile-flight/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 94,
@@ -5248,13 +5619,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 31
     },
     {
       "id": "pi0",
       "short_name": "π₀",
       "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
       "year": 2025,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/pi0.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/pi0/README.md"
+      },
       "scores": {
         "innovation": 90,
         "evidence": 87,
@@ -5391,13 +5774,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 32
     },
     {
       "id": "anymal-parkour",
       "short_name": "ANYmal Parkour",
       "title": "ANYmal parkour: Learning agile navigation for quadrupedal robots",
       "year": 2024,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "Sci. Robot.",
+        "venue_key": "Science-Robotics",
+        "venue_path": "venues/Science-Robotics/README.md",
+        "reading_path": "library/anymal-parkour.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/anymal-parkour/README.md"
+      },
       "scores": {
         "innovation": 90,
         "evidence": 94,
@@ -5567,13 +5962,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 33
     },
     {
       "id": "libero",
       "short_name": "LIBERO",
       "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
       "year": 2023,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/libero.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/libero/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 93,
@@ -5722,13 +6129,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 34
     },
     {
       "id": "saycan",
       "short_name": "SayCan",
       "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
       "year": 2022,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/saycan.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/saycan/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 89,
@@ -5889,13 +6308,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 35
     },
     {
       "id": "bipedal-soccer",
       "short_name": "Bipedal Soccer",
       "title": "Learning agile soccer skills for a bipedal robot with deep reinforcement learning",
       "year": 2024,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "Sci. Robot.",
+        "venue_key": "Science-Robotics",
+        "venue_path": "venues/Science-Robotics/README.md",
+        "reading_path": "library/bipedal-soccer.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/bipedal-soccer/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 93,
@@ -6065,13 +6496,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 36
     },
     {
       "id": "octo",
       "short_name": "Octo",
       "title": "Octo: An Open-Source Generalist Robot Policy",
       "year": 2024,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/octo.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/octo/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 91,
@@ -6224,13 +6667,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 37
     },
     {
       "id": "dreamer",
       "short_name": "Dreamer",
       "title": "Dream to Control: Learning Behaviors by Latent Imagination",
       "year": 2020,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/dreamer.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dreamer/README.md"
+      },
       "scores": {
         "innovation": 97,
         "evidence": 89,
@@ -6387,13 +6842,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 38
     },
     {
       "id": "ddim",
       "short_name": "DDIM",
       "title": "Denoising Diffusion Implicit Models",
       "year": 2021,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/ddim.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/ddim/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 90,
@@ -6550,13 +7017,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 39
     },
     {
       "id": "iql",
       "short_name": "IQL",
       "title": "Offline Reinforcement Learning with Implicit Q-Learning",
       "year": 2022,
+      "navigation": {
+        "track": "reinforcement-learning",
+        "track_label": "强化学习与离线决策",
+        "track_path": "paper-map/README.md#track-reinforcement-learning",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/iql.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/iql/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 88,
@@ -6721,13 +7200,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 40
     },
     {
       "id": "phc",
       "short_name": "PHC",
       "title": "Perpetual Humanoid Control for Real-time Simulated Avatars",
       "year": 2023,
+      "navigation": {
+        "track": "motion-priors",
+        "track_label": "动作先验与全身技能",
+        "track_path": "paper-map/README.md#track-motion-priors",
+        "venue_label": "ICCV",
+        "venue_key": "ICCV",
+        "venue_path": "venues/ICCV/README.md",
+        "reading_path": "library/phc.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/phc/README.md"
+      },
       "scores": {
         "innovation": 90,
         "evidence": 90,
@@ -6880,13 +7371,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 41
     },
     {
       "id": "rectified-flow",
       "short_name": "Rectified Flow",
       "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
       "year": 2023,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/rectified-flow.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/rectified-flow/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 89,
@@ -7047,13 +7550,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 42
     },
     {
       "id": "asap",
       "short_name": "ASAP",
       "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
       "year": 2025,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/asap.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/asap/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 91,
@@ -7202,13 +7717,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 43
     },
     {
       "id": "exbody",
       "short_name": "ExBody",
       "title": "Expressive Whole-Body Control for Humanoid Robots",
       "year": 2024,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/exbody.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/exbody/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 89,
@@ -7361,13 +7888,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 44
     },
     {
       "id": "dp3",
       "short_name": "DP3",
       "title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/dp3.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dp3/README.md"
+      },
       "scores": {
         "innovation": 84,
         "evidence": 84,
@@ -7508,13 +8047,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 45
     },
     {
       "id": "palm-e",
       "short_name": "PaLM-E",
       "title": "PaLM-E: An Embodied Multimodal Language Model",
       "year": 2023,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/palm-e.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/palm-e/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 88,
@@ -7671,13 +8222,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 46
     },
     {
       "id": "diffusion-forcing",
       "short_name": "Diffusion Forcing",
       "title": "Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion",
       "year": 2024,
+      "navigation": {
+        "track": "video-generation",
+        "track_label": "视频与序列生成",
+        "track_path": "paper-map/README.md#track-video-generation",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/diffusion-forcing.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/diffusion-forcing/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 86,
@@ -7814,13 +8377,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 47
     },
     {
       "id": "isaac-gym",
       "short_name": "Isaac Gym",
       "title": "Isaac Gym: High Performance GPU Based Physics Simulation For Robot Learning",
       "year": 2021,
+      "navigation": {
+        "track": "reinforcement-learning",
+        "track_label": "强化学习与离线决策",
+        "track_path": "paper-map/README.md#track-reinforcement-learning",
+        "venue_label": "NeurIPS D&B",
+        "venue_key": "NeurIPS-Datasets-Benchmarks",
+        "venue_path": "venues/NeurIPS-Datasets-Benchmarks/README.md",
+        "reading_path": "library/isaac-gym.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/isaac-gym/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 94,
@@ -7987,13 +8562,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 48
     },
     {
       "id": "ase",
       "short_name": "ASE",
       "title": "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters",
       "year": 2022,
+      "navigation": {
+        "track": "motion-priors",
+        "track_label": "动作先验与全身技能",
+        "track_path": "paper-map/README.md#track-motion-priors",
+        "venue_label": "SIGGRAPH / TOG",
+        "venue_key": "SIGGRAPH-TOG",
+        "venue_path": "venues/SIGGRAPH-TOG/README.md",
+        "reading_path": "library/ase.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/ase/README.md"
+      },
       "scores": {
         "innovation": 90,
         "evidence": 86,
@@ -8166,13 +8753,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 49
     },
     {
       "id": "diffuser",
       "short_name": "Diffuser",
       "title": "Planning with Diffusion for Flexible Behavior Synthesis",
       "year": 2022,
+      "navigation": {
+        "track": "world-action-model",
+        "track_label": "世界动作模型",
+        "track_path": "paper-map/README.md#track-world-action-model",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/diffuser.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/diffuser/README.md"
+      },
       "scores": {
         "innovation": 95,
         "evidence": 85,
@@ -8329,13 +8928,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 50
     },
     {
       "id": "consistency-models",
       "short_name": "Consistency Models",
       "title": "Consistency Models",
       "year": 2023,
+      "navigation": {
+        "track": "diffusion-transformer",
+        "track_label": "Diffusion / Transformer 基础",
+        "track_path": "paper-map/README.md#track-diffusion-transformer",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/consistency-models.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/consistency-models/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 93,
@@ -8492,13 +9103,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 51
     },
     {
       "id": "vima",
       "short_name": "VIMA",
       "title": "VIMA: Robot Manipulation with Multimodal Prompts",
       "year": 2023,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/vima.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/vima/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 89,
@@ -8651,13 +9274,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 52
     },
     {
       "id": "rvt2",
       "short_name": "RVT-2",
       "title": "RVT-2: Learning Precise Manipulation from Few Demonstrations",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/rvt2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/rvt2/README.md"
+      },
       "scores": {
         "innovation": 86,
         "evidence": 91,
@@ -8806,13 +9441,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 53
     },
     {
       "id": "rtx",
       "short_name": "Open X-Embodiment",
       "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
       "year": 2024,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "ICRA",
+        "venue_key": "ICRA",
+        "venue_path": "venues/ICRA/README.md",
+        "reading_path": "library/rtx.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/rtx/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 93,
@@ -8973,13 +9620,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 54
     },
     {
       "id": "td3-bc",
       "short_name": "TD3+BC",
       "title": "A Minimalist Approach to Offline Reinforcement Learning",
       "year": 2021,
+      "navigation": {
+        "track": "reinforcement-learning",
+        "track_label": "强化学习与离线决策",
+        "track_path": "paper-map/README.md#track-reinforcement-learning",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/td3-bc.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/td3-bc/README.md"
+      },
       "scores": {
         "innovation": 82,
         "evidence": 87,
@@ -9144,13 +9803,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 55
     },
     {
       "id": "transporter",
       "short_name": "Transporter",
       "title": "Transporter Networks: Rearranging the Visual World for Robotic Manipulation",
       "year": 2020,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/transporter.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/transporter/README.md"
+      },
       "scores": {
         "innovation": 96,
         "evidence": 92,
@@ -9311,13 +9982,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 56
     },
     {
       "id": "walk-in-the-park",
       "short_name": "Walk in the Park",
       "title": "Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning",
       "year": 2023,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/walk-in-the-park.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/walk-in-the-park/README.md"
+      },
       "scores": {
         "innovation": 86,
         "evidence": 91,
@@ -9478,13 +10161,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 57
     },
     {
       "id": "robomimic",
       "short_name": "robomimic",
       "title": "What Matters in Learning from Offline Human Demonstrations for Robot Manipulation",
       "year": 2021,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/robomimic.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/robomimic/README.md"
+      },
       "scores": {
         "innovation": 84,
         "evidence": 95,
@@ -9610,13 +10305,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 58
     },
     {
       "id": "extreme-parkour",
       "short_name": "Extreme Parkour",
       "title": "Extreme Parkour with Legged Robots",
       "year": 2024,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "ICRA",
+        "venue_key": "ICRA",
+        "venue_path": "venues/ICRA/README.md",
+        "reading_path": "library/extreme-parkour.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/extreme-parkour/README.md"
+      },
       "scores": {
         "innovation": 90,
         "evidence": 89,
@@ -9769,13 +10476,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 59
     },
     {
       "id": "maskedmimic",
       "short_name": "MaskedMimic",
       "title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting",
       "year": 2024,
+      "navigation": {
+        "track": "motion-priors",
+        "track_label": "动作先验与全身技能",
+        "track_path": "paper-map/README.md#track-motion-priors",
+        "venue_label": "SIGGRAPH / TOG",
+        "venue_key": "SIGGRAPH-TOG",
+        "venue_path": "venues/SIGGRAPH-TOG/README.md",
+        "reading_path": "library/maskedmimic.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/maskedmimic/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 88,
@@ -9947,13 +10666,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 60
     },
     {
       "id": "cliport",
       "short_name": "CLIPort",
       "title": "CLIPort: What and Where Pathways for Robotic Manipulation",
       "year": 2021,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/cliport.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/cliport/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 89,
@@ -10118,13 +10849,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 61
     },
     {
       "id": "rt2",
       "short_name": "RT-2",
       "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
       "year": 2023,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/rt2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/rt2/README.md"
+      },
       "scores": {
         "innovation": 94,
         "evidence": 83,
@@ -10269,13 +11012,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 62
     },
     {
       "id": "vip",
       "short_name": "VIP",
       "title": "VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training",
       "year": 2023,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/vip.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/vip/README.md"
+      },
       "scores": {
         "innovation": 93,
         "evidence": 90,
@@ -10428,13 +11183,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 63
     },
     {
       "id": "fast",
       "short_name": "FAST",
       "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
       "year": 2025,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/fast.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/fast/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 83,
@@ -10571,13 +11338,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 64
     },
     {
       "id": "r3m",
       "short_name": "R3M",
       "title": "R3M: A Universal Visual Representation for Robot Manipulation",
       "year": 2022,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/r3m.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/r3m/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 90,
@@ -10730,13 +11509,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 65
     },
     {
       "id": "trajectory-transformer",
       "short_name": "Trajectory Transformer",
       "title": "Offline Reinforcement Learning as One Big Sequence Modeling Problem",
       "year": 2021,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/trajectory-transformer.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/trajectory-transformer/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 87,
@@ -10897,13 +11688,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 66
     },
     {
       "id": "vc1",
       "short_name": "VC-1",
       "title": "Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?",
       "year": 2023,
+      "navigation": {
+        "track": "embodied-perception",
+        "track_label": "具身感知与场景表示",
+        "track_path": "paper-map/README.md#track-embodied-perception",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/vc1.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/vc1/README.md"
+      },
       "scores": {
         "innovation": 84,
         "evidence": 95,
@@ -11056,13 +11859,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 67
     },
     {
       "id": "peract",
       "short_name": "PerAct",
       "title": "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation",
       "year": 2022,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/peract.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/peract/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 90,
@@ -11219,13 +12034,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 68
     },
     {
       "id": "walk-in-minutes",
       "short_name": "Legged Gym",
       "title": "Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning",
       "year": 2021,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/walk-in-minutes.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/walk-in-minutes/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 90,
@@ -11386,13 +12213,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 69
     },
     {
       "id": "self-forcing",
       "short_name": "Self Forcing",
       "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
       "year": 2025,
+      "navigation": {
+        "track": "video-generation",
+        "track_label": "视频与序列生成",
+        "track_path": "paper-map/README.md#track-video-generation",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/self-forcing.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/self-forcing/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 84,
@@ -11525,13 +12364,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 70
     },
     {
       "id": "td-mpc",
       "short_name": "TD-MPC",
       "title": "Temporal Difference Learning for Model Predictive Control",
       "year": 2022,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/td-mpc.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/td-mpc/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 86,
@@ -11676,13 +12527,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 71
     },
     {
       "id": "td-mpc2",
       "short_name": "TD-MPC2",
       "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
       "year": 2024,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/td-mpc2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/td-mpc2/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 92,
@@ -11819,13 +12682,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 72
     },
     {
       "id": "phenaki",
       "short_name": "Phenaki",
       "title": "Phenaki: Variable Length Video Generation From Open Domain Textual Descriptions",
       "year": 2023,
+      "navigation": {
+        "track": "video-generation",
+        "track_label": "视频与序列生成",
+        "track_path": "paper-map/README.md#track-video-generation",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/phenaki.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/phenaki/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 87,
@@ -11982,13 +12857,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 73
     },
     {
       "id": "mobile-aloha",
       "short_name": "Mobile ALOHA",
       "title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation using Low-Cost Whole-Body Teleoperation",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/mobile-aloha.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/mobile-aloha/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 90,
@@ -12141,13 +13028,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 74
     },
     {
       "id": "efficientzero",
       "short_name": "EfficientZero",
       "title": "Mastering Atari Games with Limited Data",
       "year": 2021,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/efficientzero.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/efficientzero/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 87,
@@ -12304,13 +13203,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 75
     },
     {
       "id": "unipi",
       "short_name": "UniPi",
       "title": "Learning Universal Policies via Text-Guided Video Generation",
       "year": 2023,
+      "navigation": {
+        "track": "video-action",
+        "track_label": "视频动作模型与视觉推理",
+        "track_path": "paper-map/README.md#track-video-action",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/unipi.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/unipi/README.md"
+      },
       "scores": {
         "innovation": 93,
         "evidence": 86,
@@ -12459,13 +13370,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 76
     },
     {
       "id": "cal-ql",
       "short_name": "Cal-QL",
       "title": "Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning",
       "year": 2023,
+      "navigation": {
+        "track": "reinforcement-learning",
+        "track_label": "强化学习与离线决策",
+        "track_path": "paper-map/README.md#track-reinforcement-learning",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/cal-ql.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/cal-ql/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 89,
@@ -12610,13 +13533,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 77
     },
     {
       "id": "dreamwaq",
       "short_name": "DreamWaQ",
       "title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
       "year": 2023,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "ICRA",
+        "venue_key": "ICRA",
+        "venue_path": "venues/ICRA/README.md",
+        "reading_path": "library/dreamwaq.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dreamwaq/README.md"
+      },
       "scores": {
         "innovation": 86,
         "evidence": 87,
@@ -12761,13 +13696,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 78
     },
     {
       "id": "daydreamer",
       "short_name": "DayDreamer",
       "title": "DayDreamer: World Models for Physical Robot Learning",
       "year": 2022,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/daydreamer.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/daydreamer/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 91,
@@ -12928,13 +13875,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 79
     },
     {
       "id": "openvla",
       "short_name": "OpenVLA",
       "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
       "year": 2024,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/openvla.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/openvla/README.md"
+      },
       "scores": {
         "innovation": 83,
         "evidence": 86,
@@ -13075,13 +14034,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 80
     },
     {
       "id": "dreamerv2",
       "short_name": "DreamerV2",
       "title": "Mastering Atari with Discrete World Models",
       "year": 2021,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/dreamerv2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dreamerv2/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 89,
@@ -13234,13 +14205,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 81
     },
     {
       "id": "deep-whole-body-control",
       "short_name": "Deep WBC",
       "title": "Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion",
       "year": 2022,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/deep-whole-body-control.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/deep-whole-body-control/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 89,
@@ -13401,13 +14384,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 82
     },
     {
       "id": "cot-vla",
       "short_name": "CoT-VLA",
       "title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
       "year": 2025,
+      "navigation": {
+        "track": "video-action",
+        "track_label": "视频动作模型与视觉推理",
+        "track_path": "paper-map/README.md#track-video-action",
+        "venue_label": "CVPR",
+        "venue_key": "CVPR",
+        "venue_path": "venues/CVPR/README.md",
+        "reading_path": "library/cot-vla.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/cot-vla/README.md"
+      },
       "scores": {
         "innovation": 86,
         "evidence": 79,
@@ -13544,13 +14539,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 83
     },
     {
       "id": "consistency-policy",
       "short_name": "Consistency Policy",
       "title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/consistency-policy.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/consistency-policy/README.md"
+      },
       "scores": {
         "innovation": 81,
         "evidence": 80,
@@ -13687,13 +14694,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 84
     },
     {
       "id": "walk-these-ways",
       "short_name": "Walk These Ways",
       "title": "Walk These Ways: Tuning Robot Control for Generalization with Multiplicity of Behavior",
       "year": 2022,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/walk-these-ways.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/walk-these-ways/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 87,
@@ -13850,13 +14869,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 85
     },
     {
       "id": "mimicgen",
       "short_name": "MimicGen",
       "title": "MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations",
       "year": 2023,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/mimicgen.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/mimicgen/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 94,
@@ -14005,13 +15036,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 86
     },
     {
       "id": "sonic",
       "short_name": "SONIC",
       "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
       "year": 2026,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "Sci. Robot.",
+        "venue_key": "Science-Robotics",
+        "venue_path": "venues/Science-Robotics/README.md",
+        "reading_path": "library/sonic.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/sonic/README.md"
+      },
       "scores": {
         "innovation": 92,
         "evidence": 89,
@@ -14169,13 +15212,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 87
     },
     {
       "id": "robocasa",
       "short_name": "RoboCasa",
       "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/robocasa.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/robocasa/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 90,
@@ -14320,13 +15375,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 88
     },
     {
       "id": "vq-bet",
       "short_name": "VQ-BeT",
       "title": "Behavior Generation with Latent Actions",
       "year": 2024,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/vq-bet.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/vq-bet/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 91,
@@ -14471,13 +15538,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 89
     },
     {
       "id": "learned-dynamics-review",
       "short_name": "Dynamics Review",
       "title": "A review of learning-based dynamics models for robotic manipulation",
       "year": 2025,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "Sci. Robot.",
+        "venue_key": "Science-Robotics",
+        "venue_path": "venues/Science-Robotics/README.md",
+        "reading_path": "library/learned-dynamics-review.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/learned-dynamics-review/README.md"
+      },
       "scores": {
         "innovation": 76,
         "evidence": 88,
@@ -14635,13 +15714,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 90
     },
     {
       "id": "humanplus",
       "short_name": "HumanPlus",
       "title": "HumanPlus: Humanoid Shadowing and Imitation from Humans",
       "year": 2024,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/humanplus.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/humanplus/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 90,
@@ -14790,13 +15881,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 91
     },
     {
       "id": "bridge-v2",
       "short_name": "BridgeData V2",
       "title": "BridgeData V2: A Dataset for Robot Learning at Scale",
       "year": 2023,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/bridge-v2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/bridge-v2/README.md"
+      },
       "scores": {
         "innovation": 84,
         "evidence": 91,
@@ -14945,13 +16048,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 92
     },
     {
       "id": "hover",
       "short_name": "HOVER",
       "title": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots",
       "year": 2025,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "ICRA",
+        "venue_key": "ICRA",
+        "venue_path": "venues/ICRA/README.md",
+        "reading_path": "library/hover.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/hover/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 88,
@@ -15100,13 +16215,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 93
     },
     {
       "id": "rvt",
       "short_name": "RVT",
       "title": "RVT: Robotic View Transformer for 3D Object Manipulation",
       "year": 2023,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/rvt.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/rvt/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 90,
@@ -15255,13 +16382,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 94
     },
     {
       "id": "lingbot-va",
       "short_name": "LingBot-VA",
       "title": "Causal World Modeling for Robot Control",
       "year": 2026,
+      "navigation": {
+        "track": "video-action",
+        "track_label": "视频动作模型与视觉推理",
+        "track_path": "paper-map/README.md#track-video-action",
+        "venue_label": "RSS",
+        "venue_key": "RSS",
+        "venue_path": "venues/RSS/README.md",
+        "reading_path": "library/lingbot-va.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/lingbot-va/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 87,
@@ -15406,13 +16545,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 95
     },
     {
       "id": "videovla",
       "short_name": "VideoVLA",
       "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
       "year": 2025,
+      "navigation": {
+        "track": "video-action",
+        "track_label": "视频动作模型与视觉推理",
+        "track_path": "paper-map/README.md#track-video-action",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/videovla.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/videovla/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 82,
@@ -15545,13 +16696,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 96
     },
     {
       "id": "pi05",
       "short_name": "π₀.₅",
       "title": "π₀.₅: a Vision-Language-Action Model with Open-World Generalization",
       "year": 2025,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/pi05.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/pi05/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 84,
@@ -15688,13 +16851,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 97
     },
     {
       "id": "ctrl-world",
       "short_name": "Ctrl-World",
       "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
       "year": 2026,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/ctrl-world.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/ctrl-world/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 86,
@@ -15834,13 +17009,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 98
     },
     {
       "id": "omnih2o",
       "short_name": "OmniH2O",
       "title": "OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning",
       "year": 2024,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/omnih2o.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/omnih2o/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 90,
@@ -15980,13 +17167,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 99
     },
     {
       "id": "cosmos-policy",
       "short_name": "Cosmos Policy",
       "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
       "year": 2026,
+      "navigation": {
+        "track": "world-action-model",
+        "track_label": "世界动作模型",
+        "track_path": "paper-map/README.md#track-world-action-model",
+        "venue_label": "ICLR",
+        "venue_key": "ICLR",
+        "venue_path": "venues/ICLR/README.md",
+        "reading_path": "library/cosmos-policy.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/cosmos-policy/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 82,
@@ -16114,13 +17313,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 100
     },
     {
       "id": "efficientzero-v2",
       "short_name": "EfficientZero V2",
       "title": "EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data",
       "year": 2024,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "ICML",
+        "venue_key": "ICML",
+        "venue_path": "venues/ICML/README.md",
+        "reading_path": "library/efficientzero-v2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/efficientzero-v2/README.md"
+      },
       "scores": {
         "innovation": 84,
         "evidence": 87,
@@ -16260,13 +17471,25 @@
             }
           ]
         }
-      }
+      },
+      "rank": 101
     },
     {
       "id": "vjepa2",
       "short_name": "V-JEPA 2",
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-vjepa2",
+        "reading_path": "library/vjepa2.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/vjepa2/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 90,
@@ -16382,13 +17605,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2506.09985",
         "checked_at": "2026-10-10",
         "profile": null
-      }
+      },
+      "rank": 102
     },
     {
       "id": "gr00t-n1",
       "short_name": "GR00T N1",
       "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
       "year": 2025,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-gr00t-n1",
+        "reading_path": "library/gr00t-n1.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/gr00t-n1/README.md"
+      },
       "scores": {
         "innovation": 86,
         "evidence": 86,
@@ -16508,13 +17743,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2503.14734",
         "checked_at": "2026-10-10",
         "profile": null
-      }
+      },
+      "rank": 103
     },
     {
       "id": "lewm",
       "short_name": "LeWM",
       "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
       "year": 2026,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-lewm",
+        "reading_path": "library/lewm.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/lewm/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 83,
@@ -16625,13 +17872,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2603.19312v1",
         "checked_at": "2026-10-10",
         "profile": null
-      }
+      },
+      "rank": 104
     },
     {
       "id": "dreamzero",
       "short_name": "DreamZero",
       "title": "World Action Models are Zero-shot Policies",
       "year": 2026,
+      "navigation": {
+        "track": "world-action-model",
+        "track_label": "世界动作模型",
+        "track_path": "paper-map/README.md#track-world-action-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-dreamzero",
+        "reading_path": "library/dreamzero.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dreamzero/README.md"
+      },
       "scores": {
         "innovation": 93,
         "evidence": 82,
@@ -16730,13 +17989,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2602.15922",
         "checked_at": "2026-10-10",
         "profile": null
-      }
+      },
+      "rank": 105
     },
     {
       "id": "egoscale",
       "short_name": "EgoScale",
       "title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
       "year": 2026,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-egoscale",
+        "reading_path": "library/egoscale.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/egoscale/README.md"
+      },
       "scores": {
         "innovation": 89,
         "evidence": 84,
@@ -16847,13 +18118,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2602.16710",
         "checked_at": "2026-10-10",
         "profile": null
-      }
+      },
+      "rank": 106
     },
     {
       "id": "modar",
       "short_name": "ModAR",
       "title": "Modality-Autoregressive World-Action Models",
       "year": 2026,
+      "navigation": {
+        "track": "world-action-model",
+        "track_label": "世界动作模型",
+        "track_path": "paper-map/README.md#track-world-action-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-modar",
+        "reading_path": "library/modar.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/modar/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 85,
@@ -16964,13 +18247,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2609.17524v1",
         "checked_at": "2026-10-10",
         "profile": null
-      }
+      },
+      "rank": 107
     },
     {
       "id": "viola",
       "short_name": "VIOLA",
       "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
       "year": 2026,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-viola",
+        "reading_path": "library/viola.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/viola/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 79,
@@ -17069,13 +18364,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2610.12435v1",
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
-      }
+      },
+      "rank": 108
     },
     {
       "id": "lewam",
       "short_name": "LeWAM",
       "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
       "year": 2026,
+      "navigation": {
+        "track": "world-action-model",
+        "track_label": "世界动作模型",
+        "track_path": "paper-map/README.md#track-world-action-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-lewam",
+        "reading_path": "library/lewam.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/lewam/README.md"
+      },
       "scores": {
         "innovation": 91,
         "evidence": 76,
@@ -17174,13 +18481,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2610.12407v1",
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
-      }
+      },
+      "rank": 109
     },
     {
       "id": "holo-m",
       "short_name": "Holo-M",
       "title": "Humanoid Loco-Manipulation With Discrete VLA Model",
       "year": 2026,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-holo-m",
+        "reading_path": "articles/holo-m-2609.35709/README.md",
+        "reading_status": "完整解读",
+        "card_path": "leaderboard/papers/holo-m/README.md"
+      },
       "scores": {
         "innovation": 86,
         "evidence": 78,
@@ -17279,13 +18598,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2609.35709v1",
         "checked_at": "2026-10-09",
         "profile": null
-      }
+      },
+      "rank": 110
     },
     {
       "id": "dex-one2many",
       "short_name": "Dex-One2Many",
       "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
       "year": 2026,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-dex-one2many",
+        "reading_path": "library/dex-one2many.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dex-one2many/README.md"
+      },
       "scores": {
         "innovation": 88,
         "evidence": 76,
@@ -17384,13 +18715,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2610.12470v1",
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
-      }
+      },
+      "rank": 111
     },
     {
       "id": "arc",
       "short_name": "ARC",
       "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
       "year": 2026,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-arc",
+        "reading_path": "library/arc.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/arc/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 76,
@@ -17489,13 +18832,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2610.12386v1",
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
-      }
+      },
+      "rank": 112
     },
     {
       "id": "balanced-data-diet",
       "short_name": "Balanced Data Diet",
       "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
       "year": 2026,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-balanced-data-diet",
+        "reading_path": "library/balanced-data-diet.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/balanced-data-diet/README.md"
+      },
       "scores": {
         "innovation": 85,
         "evidence": 77,
@@ -17594,13 +18949,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2610.12465v1",
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
-      }
+      },
+      "rank": 113
     },
     {
       "id": "dreamtrue",
       "short_name": "DreamTrue",
       "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
       "year": 2026,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-dreamtrue",
+        "reading_path": "library/dreamtrue.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/dreamtrue/README.md"
+      },
       "scores": {
         "innovation": 87,
         "evidence": 74,
@@ -17699,13 +19066,25 @@
         "publication_evidence_url": "https://arxiv.org/abs/2610.12468v1",
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
-      }
+      },
+      "rank": 114
     },
     {
       "id": "plaw-vla",
       "short_name": "PLaW-VLA",
       "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
       "year": 2026,
+      "navigation": {
+        "track": "video-action",
+        "track_label": "视频动作模型与视觉推理",
+        "track_path": "paper-map/README.md#track-video-action",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-plaw-vla",
+        "reading_path": "library/plaw-vla.md",
+        "reading_status": "解读导读",
+        "card_path": "leaderboard/papers/plaw-vla/README.md"
+      },
       "scores": {
         "innovation": 84,
         "evidence": 75,
@@ -17804,7 +19183,8 @@
         "publication_evidence_url": "https://arxiv.org/abs/2610.12285v1",
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
-      }
+      },
+      "rank": 115
     }
   ]
 }

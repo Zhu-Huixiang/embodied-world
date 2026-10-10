@@ -2,6 +2,8 @@
 
 **CoT-VLA** · CVPR 2025 · 本版排名 83 · 综合分 **82.0 / 100**
 
+[解读导读](../../../library/cot-vla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [CVPR集锦](../../../venues/CVPR/README.md)
+
 [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.pdf) · [阅读卡片](../../../library/cot-vla.md)
 
 ## 机制简析

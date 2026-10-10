@@ -2,6 +2,8 @@
 
 **VIMA** · ICML 2023 · 本版排名 52 · 综合分 **85.8 / 100**
 
+[解读导读](../../../library/vima.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICML集锦](../../../venues/ICML/README.md)
+
 [原文](https://proceedings.mlr.press/v202/jiang23b.html) · [PDF](https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf) · [阅读卡片](../../../library/vima.md)
 
 ## 机制简析

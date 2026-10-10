@@ -2,6 +2,8 @@
 
 **Octo** · RSS 2024 · 本版排名 37 · 综合分 **88.3 / 100**
 
+[解读导读](../../../library/octo.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss20/p090.html) · [PDF](https://roboticsproceedings.org/rss20/p090.pdf) · [阅读卡片](../../../library/octo.md)
 
 ## 机制简析

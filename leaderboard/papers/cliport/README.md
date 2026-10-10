@@ -2,6 +2,8 @@
 
 **CLIPort** · CoRL 2021 · 本版排名 61 · 综合分 **85.0 / 100**
 
+[解读导读](../../../library/cliport.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v164/shridhar22a.html) · [PDF](https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf) · [阅读卡片](../../../library/cliport.md)
 
 ## 机制简析

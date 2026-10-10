@@ -2,6 +2,8 @@
 
 **ViT** · ICLR 2021 · 本版排名 4 · 综合分 **95.7 / 100**
 
+[解读导读](../../../library/vit.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://iclr.cc/virtual/2021/poster/3013) · [PDF](https://arxiv.org/pdf/2010.11929v2) · [阅读卡片](../../../library/vit.md)
 
 ## 机制简析

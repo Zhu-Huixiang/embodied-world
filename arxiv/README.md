@@ -8,13 +8,59 @@
 
 ## [2026-10-09](2026/10/09.md)
 
+<a id="paper-dex-one2many"></a>
+
 - [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](../library/dex-one2many.md) — Seoul National University, University of Maryland, College Park, KAIST
+<a id="paper-dreamtrue"></a>
+
 - [DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training](../library/dreamtrue.md) — CASIA / NLPR, Amap, Alibaba Group
+<a id="paper-balanced-data-diet"></a>
+
 - [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../library/balanced-data-diet.md) — University of Washington, NVIDIA
+<a id="paper-viola"></a>
+
 - [VioLA: Learning Generalist Humanoid Control Policies from Human Data](../library/viola.md) — ETH Zürich, MPI-IS, University of Tuebingen
+<a id="paper-lewam"></a>
+
 - [LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC](../library/lewam.md) — NVIDIA
+<a id="paper-arc"></a>
+
 - [ARC: A Reasoning Recipe for Robot Foundation Models](../library/arc.md) — UIUC, Stanford University, NVIDIA
+<a id="paper-plaw-vla"></a>
+
 - [PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../library/plaw-vla.md) — Jilin University, Astribot, Harbin Institute of Technology, Shenzhen
+
+## 其他已收录预印本
+
+这些工作已在地图和榜单中，保留原文与导读入口。
+
+<a id="paper-dreamzero"></a>
+
+- [World Action Models are Zero-shot Policies](../library/dreamzero.md) · 2026 · [arXiv原文](https://arxiv.org/abs/2602.15922)
+
+<a id="paper-egoscale"></a>
+
+- [EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](../library/egoscale.md) · 2026 · [arXiv原文](https://arxiv.org/abs/2602.16710)
+
+<a id="paper-holo-m"></a>
+
+- [Humanoid Loco-Manipulation With Discrete VLA Model](../library/holo-m.md) · 2026 · [arXiv原文](https://arxiv.org/abs/2609.35709v1)
+
+<a id="paper-lewm"></a>
+
+- [LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](../library/lewm.md) · 2026 · [arXiv原文](https://arxiv.org/abs/2603.19312v1)
+
+<a id="paper-modar"></a>
+
+- [Modality-Autoregressive World-Action Models](../library/modar.md) · 2026 · [arXiv原文](https://arxiv.org/abs/2609.17524v1)
+
+<a id="paper-gr00t-n1"></a>
+
+- [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](../library/gr00t-n1.md) · 2025 · [arXiv原文](https://arxiv.org/abs/2503.14734)
+
+<a id="paper-vjepa2"></a>
+
+- [V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](../library/vjepa2.md) · 2025 · [arXiv原文](https://arxiv.org/abs/2506.09985)
 
 ## 每日收集的步骤
 

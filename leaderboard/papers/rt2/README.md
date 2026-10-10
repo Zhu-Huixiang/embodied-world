@@ -2,6 +2,8 @@
 
 **RT-2** · CoRL 2023 · 本版排名 62 · 综合分 **85.0 / 100**
 
+[解读导读](../../../library/rt2.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
+
 [原文](https://proceedings.mlr.press/v229/zitkovich23a.html) · [PDF](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf) · [阅读卡片](../../../library/rt2.md)
 
 ## 机制简析

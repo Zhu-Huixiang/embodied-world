@@ -2,6 +2,8 @@
 
 **Balanced Data Diet** · arXiv 2026 · 本版排名 113 · 综合分 **44.1 / 100**
 
+[解读导读](../../../library/balanced-data-diet.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [arXiv集锦](../../../arxiv/README.md#paper-balanced-data-diet)
+
 [原文](https://arxiv.org/abs/2610.12465v1) · [PDF](https://arxiv.org/pdf/2610.12465v1) · [阅读卡片](../../../library/balanced-data-diet.md)
 
 ## 机制简析

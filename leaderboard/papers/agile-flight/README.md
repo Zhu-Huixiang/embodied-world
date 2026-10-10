@@ -2,6 +2,8 @@
 
 **Agile Flight** · Sci. Robot. 2021 · 本版排名 31 · 综合分 **89.1 / 100**
 
+[解读导读](../../../library/agile-flight.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
+
 [原文](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [PDF](https://arxiv.org/pdf/2110.05113) · [阅读卡片](../../../library/agile-flight.md)
 
 ## 机制简析

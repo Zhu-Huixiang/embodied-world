@@ -2,6 +2,8 @@
 
 **HOVER** · ICRA 2025 · 本版排名 93 · 综合分 **80.4 / 100**
 
+[解读导读](../../../library/hover.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
+
 [原文](https://hover-versatile-humanoid.github.io/) · [PDF](https://arxiv.org/pdf/2410.21229) · [阅读卡片](../../../library/hover.md)
 
 ## 机制简析

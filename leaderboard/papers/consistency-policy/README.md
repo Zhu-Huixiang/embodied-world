@@ -2,6 +2,8 @@
 
 **Consistency Policy** · RSS 2024 · 本版排名 84 · 综合分 **81.5 / 100**
 
+[解读导读](../../../library/consistency-policy.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+
 [原文](https://www.roboticsproceedings.org/rss20/p071.html) · [PDF](https://www.roboticsproceedings.org/rss20/p071.pdf) · [阅读卡片](../../../library/consistency-policy.md)
 
 ## 机制简析

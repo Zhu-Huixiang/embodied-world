@@ -1,6 +1,7 @@
 {
   "schema": 1,
   "managed_paths": [
+    ".nojekyll",
     "README.md",
     "articles/holo-m-2609.35709/README.md",
     "articles/holo-m-2609.35709/article.json",
@@ -62,7 +63,10 @@
     "directions/vla.md",
     "directions/world-action-model.md",
     "directions/world-model.md",
+    "index.html",
     "leaderboard/README.md",
+    "leaderboard/guide.md",
+    "leaderboard/index.html",
     "leaderboard/methodology.md",
     "leaderboard/metrics.json",
     "leaderboard/papers/act/README.md",

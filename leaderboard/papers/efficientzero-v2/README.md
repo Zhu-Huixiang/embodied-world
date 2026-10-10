@@ -2,6 +2,8 @@
 
 **EfficientZero V2** · ICML 2024 · 本版排名 101 · 综合分 **75.0 / 100**
 
+[解读导读](../../../library/efficientzero-v2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICML集锦](../../../venues/ICML/README.md)
+
 [原文](https://proceedings.mlr.press/v235/wang24at.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24at/wang24at.pdf) · [阅读卡片](../../../library/efficientzero-v2.md)
 
 ## 机制简析

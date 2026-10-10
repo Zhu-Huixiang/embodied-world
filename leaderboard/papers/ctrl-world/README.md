@@ -2,6 +2,8 @@
 
 **Ctrl-World** · ICLR 2026 · 本版排名 98 · 综合分 **76.9 / 100**
 
+[解读导读](../../../library/ctrl-world.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
+
 [原文](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html) · [PDF](https://arxiv.org/pdf/2510.10125v1) · [阅读卡片](../../../library/ctrl-world.md)
 
 ## 机制简析

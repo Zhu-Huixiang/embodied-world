@@ -2,6 +2,8 @@
 
 **NeRF** · ECCV 2020 · 本版排名 13 · 综合分 **92.4 / 100**
 
+[解读导读](../../../library/nerf.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ECCV集锦](../../../venues/ECCV/README.md)
+
 [原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24) · [PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf) · [阅读卡片](../../../library/nerf.md)
 
 ## 机制简析

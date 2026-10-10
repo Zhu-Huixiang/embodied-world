@@ -2,6 +2,8 @@
 
 **V-JEPA 2** · arXiv 2025 · 本版排名 102 · 综合分 **54.1 / 100**
 
+[解读导读](../../../library/vjepa2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [arXiv集锦](../../../arxiv/README.md#paper-vjepa2)
+
 [原文](https://arxiv.org/abs/2506.09985) · [PDF](https://arxiv.org/pdf/2506.09985) · [阅读卡片](../../../library/vjepa2.md)
 
 ## 机制简析

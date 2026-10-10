@@ -1,19 +1,21 @@
 # DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning
 
-出处：ICRA 2023。研究范围：机器人学习。
+**解读导读** · ICRA 2023 · [Locomotion 与运动适应](../paper-map/README.md#track-locomotion)
+
+研究范围：机器人学习。
 
 [原文入口](https://ieeexplore.ieee.org/abstract/document/10161144/) · [原文 PDF](https://arxiv.org/pdf/2301.10602)
 
-阅读问题：**盲行走时，历史本体信息怎样形成环境表征并进入 actor？**
+## 先看它做了什么
 
-解读进度：候选选题。
+从本体历史估计速度和隐环境表示，将其送给策略；训练时以重建/特权监督组织环境编码。
 
-元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
+## 带着什么问题读
 
-[论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+**盲行走时，历史本体信息怎样形成环境表征并进入 actor？**
 
-<!-- discovery:start -->
-[机制简析、七维评分与雷达](../leaderboard/papers/dreamwaq/README.md)
+全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-机制简析：从本体历史估计速度和隐环境表示，将其送给策略；训练时以重建/特权监督组织环境编码。
-<!-- discovery:end -->
+[七维评分与雷达](../leaderboard/papers/dreamwaq/README.md) · [ICRA集锦](../venues/ICRA/README.md) · [地图方向](../paper-map/README.md#track-locomotion) · [首页](../README.md)
+
+元数据核对：2026-10-09。

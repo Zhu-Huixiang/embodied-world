@@ -1,19 +1,21 @@
 # Learning high-speed flight in the wild
 
-出处：Science-Robotics 2021。研究范围：飞行机器人；运动控制对照。
+**解读导读** · Sci. Robot. 2021 · [Locomotion 与运动适应](../paper-map/README.md#track-locomotion)
+
+研究范围：飞行机器人；运动控制对照。
 
 [原文入口](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [原文 PDF](https://arxiv.org/pdf/2110.05113) · [作者项目 / 代码入口](https://github.com/uzh-rpg/agile_autonomy)
 
-阅读问题：**高速运动中的视觉规划，怎样跨越仿真与真实环境？**
+## 先看它做了什么
 
-解读进度：候选选题。
+利用仿真专家监督视觉导航策略，再转移到高速野外飞行，连接感知、轨迹规划与实际反应。
 
-元数据核对：2026-10-09；按原文、作者页或正式论文集记录。
+## 带着什么问题读
 
-[论文地图](../paper-map/README.md) · [刊会索引](../venues/README.md) · [首页](../README.md)
+**高速运动中的视觉规划，怎样跨越仿真与真实环境？**
 
-<!-- discovery:start -->
-[机制简析、七维评分与雷达](../leaderboard/papers/agile-flight/README.md)
+全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-机制简析：利用仿真专家监督视觉导航策略，再转移到高速野外飞行，连接感知、轨迹规划与实际反应。
-<!-- discovery:end -->
+[七维评分与雷达](../leaderboard/papers/agile-flight/README.md) · [Sci. Robot.集锦](../venues/Science-Robotics/README.md) · [地图方向](../paper-map/README.md#track-locomotion) · [首页](../README.md)
+
+元数据核对：2026-10-09。

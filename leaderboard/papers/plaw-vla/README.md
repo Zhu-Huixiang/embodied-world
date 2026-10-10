@@ -2,6 +2,8 @@
 
 **PLaW-VLA** · arXiv 2026 · 本版排名 115 · 综合分 **43.1 / 100**
 
+[解读导读](../../../library/plaw-vla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [arXiv集锦](../../../arxiv/README.md#paper-plaw-vla)
+
 [原文](https://arxiv.org/abs/2610.12285v1) · [PDF](https://arxiv.org/pdf/2610.12285v1) · [阅读卡片](../../../library/plaw-vla.md)
 
 ## 机制简析
