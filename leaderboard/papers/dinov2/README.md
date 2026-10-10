@@ -6,7 +6,7 @@
 
 [原文](https://openreview.net/forum?id=a68SUt6zFt) · [PDF](https://openreview.net/pdf?id=a68SUt6zFt) · [阅读卡片](../../../library/dinov2.md)
 
-论文出处：[Maxime Oquab / Timothée Darcet 等3位 · Meta FAIR / Institut national de recherche en sciences et technologies du numérique 等4个出处](../../origins/papers/dinov2.md)
+论文出处：[**Maxime Oquab / Timothée Darcet 等3位**](../../origins/papers/dinov2.md)<br>[Meta FAIR 研究院 / 法国 Inria 研究所 · 另2个机构](../../origins/papers/dinov2.md)
 
 ## 机制简析
 

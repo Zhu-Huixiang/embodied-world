@@ -1,8 +1,10 @@
-# Hong Kong University of Science and Technology
+# 香港科技大学
 
 本仓已收录工作主要涉及：视频动作模型与视觉推理、Locomotion 与运动适应。
 
 **类型**：研究机构。
+
+**英文名称**：Hong Kong University of Science and Technology
 
 ## 官方与学术入口
 

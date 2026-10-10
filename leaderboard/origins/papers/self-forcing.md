@@ -2,20 +2,34 @@
 
 Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion
 
-**首署名 / 贡献标记作者**：Xun Huang。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Xun Huang
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Adobe Research；UT Austin。
+## 论文署名机构
+
+- **Adobe 研究院**
+- **得克萨斯大学奥斯汀分校**
 
 ## 继续看这些团队
 
-- [Adobe Research](../profiles/organization-df7951e6811c.md)：研究方向、学术入口与本仓作品集。
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
+- [**Adobe 研究院**](../profiles/organization-df7951e6811c.md)
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
 
 <details><summary>完整署名作者</summary>
 
 Xun Huang、Zhengqi Li、Guande He、Mingyuan Zhou、Eli Shechtman
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Adobe Research
+- UT Austin
 
 </details>
 

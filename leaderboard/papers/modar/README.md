@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2609.17524v1) · [PDF](https://arxiv.org/pdf/2609.17524v1) · [阅读卡片](../../../library/modar.md)
 
-论文出处：[Adam Hung · Carnegie Mellon University](../../origins/papers/modar.md)
+论文出处：[**Adam Hung**](../../origins/papers/modar.md)<br>[卡内基梅隆大学](../../origins/papers/modar.md)
 
 ## 机制简析
 

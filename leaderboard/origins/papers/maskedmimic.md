@@ -2,21 +2,37 @@
 
 MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting
 
-**首署名 / 贡献标记作者**：Chen Tessler。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Chen Tessler
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：NVIDIA；Bar-Ilan University；Simon Fraser University。
+## 论文署名机构
+
+- **英伟达研究院**
+- **巴伊兰大学**
+- **西蒙弗雷泽大学**
 
 ## 继续看这些团队
 
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [Bar-Ilan University](../profiles/organization-9d736e5b8263.md)：研究方向、学术入口与本仓作品集。
-- [Simon Fraser University](../profiles/organization-044760088b92.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**巴伊兰大学**](../profiles/organization-9d736e5b8263.md)
+- [**西蒙弗雷泽大学**](../profiles/organization-044760088b92.md)
 
 <details><summary>完整署名作者</summary>
 
 Chen Tessler、Yunrong Guo、Ofir Nabati、Gal Chechik、Xue Bin Peng
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
+- Bar-Ilan University
+- Simon Fraser University
 
 </details>
 

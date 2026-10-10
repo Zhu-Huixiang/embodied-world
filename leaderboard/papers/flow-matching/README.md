@@ -6,7 +6,7 @@
 
 [原文](https://iclr.cc/virtual/2023/poster/11309) · [PDF](https://arxiv.org/pdf/2210.02747) · [阅读卡片](../../../library/flow-matching.md)
 
-论文出处：[Yaron Lipman · Meta FAIR / Weizmann Institute of Science](../../origins/papers/flow-matching.md)
+论文出处：[**Yaron Lipman**](../../origins/papers/flow-matching.md)<br>[Meta FAIR 研究院 / 魏茨曼科学研究所](../../origins/papers/flow-matching.md)
 
 ## 机制简析
 

@@ -2,21 +2,37 @@
 
 RMA: Rapid Motor Adaptation for Legged Robots
 
-**首署名 / 贡献标记作者**：Ashish Kumar。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Ashish Kumar
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：UC Berkeley；Carnegie Mellon University；Facebook。
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **卡内基梅隆大学**
+- **Meta**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [Carnegie Mellon University](../profiles/institution-i74973139.md)：研究方向、学术入口与本仓作品集。
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**卡内基梅隆大学**](../profiles/institution-i74973139.md)
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
 
 <details><summary>完整署名作者</summary>
 
 Ashish Kumar、Zipeng Fu、Deepak Pathak、Jitendra Malik
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- Carnegie Mellon University
+- Facebook
 
 </details>
 

@@ -6,7 +6,7 @@
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.aed4592) · [PDF](https://arxiv.org/pdf/2511.07820v4) · [阅读卡片](../../../library/sonic.md)
 
-论文出处：[Zhengyi Luo / Ye Yuan 等5位 · NVIDIA GEAR / NVIDIA](../../origins/papers/sonic.md)
+论文出处：[**Zhengyi Luo / Ye Yuan 等5位**](../../origins/papers/sonic.md)<br>[英伟达 GEAR 研究团队 / 英伟达](../../origins/papers/sonic.md)
 
 ## 机制简析
 

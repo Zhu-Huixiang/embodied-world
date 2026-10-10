@@ -2,23 +2,39 @@
 
 Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
 
-**共同第一作者**：Tony Z. Zhao。
+## 作者
+
+**共同第一作者**
+
+- Tony Z. Zhao
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：Stanford University；UC Berkeley；Meta。
+## 论文署名机构
+
+- **斯坦福大学**
+- **加州大学伯克利分校**
+- **Meta**
 
 ## 继续看这些团队
 
-- [Stanford IRIS（Intelligence through Robotic Interaction at Scale）](../profiles/stanford-iris.md)：研究方向、学术入口与本仓作品集。
-- [UC Berkeley RAIL](../profiles/berkeley-rail.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [Meta](../profiles/organization-4f749de7c24f.md)：研究方向、学术入口与本仓作品集。
+- [**斯坦福大学 IRIS 实验室**](../profiles/stanford-iris.md)
+- [**加州大学伯克利分校机器人与人工智能实验室（RAIL）**](../profiles/berkeley-rail.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**Meta**](../profiles/organization-4f749de7c24f.md)
 
 <details><summary>完整署名作者</summary>
 
 Tony Z. Zhao、Vikash Kumar、Sergey Levine、Chelsea Finn
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- UC Berkeley
+- Meta
 
 </details>
 

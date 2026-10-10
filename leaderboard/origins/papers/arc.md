@@ -2,23 +2,43 @@
 
 ARC: A Reasoning Recipe for Robot Foundation Models
 
-**首署名 / 贡献标记作者**：Gokul Puthumanaillam。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Gokul Puthumanaillam
 
 署名方式：精确论文ID的作者列表。
 
-**论文署名机构**：University of Illinois Urbana-Champaign；Stanford University；NVIDIA；University of Sydney；Proception。
+## 论文署名机构
+
+- **伊利诺伊大学厄巴纳-香槟分校**
+- **斯坦福大学**
+- **英伟达研究院**
+- **悉尼大学**
+- **Proception**
 
 ## 继续看这些团队
 
-- [University of Illinois Urbana-Champaign](../profiles/organization-79eb2923dfd7.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [University of Sydney](../profiles/organization-c2e86c609cce.md)：研究方向、学术入口与本仓作品集。
-- [Proception](../profiles/organization-670410a1e889.md)：研究方向、学术入口与本仓作品集。
+- [**伊利诺伊大学厄巴纳-香槟分校**](../profiles/organization-79eb2923dfd7.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**悉尼大学**](../profiles/organization-c2e86c609cce.md)
+- [**Proception**](../profiles/organization-670410a1e889.md)
 
 <details><summary>完整署名作者</summary>
 
 Gokul Puthumanaillam、Tao Sun、Elie Aljalbout、Moritz Reuss、Zhaoshuo Li、Fabio Ramos、Ankit Goyal、Jenai Xuning Yang
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- University of Illinois Urbana-Champaign
+- Stanford University
+- NVIDIA
+- University of Sydney
+- Proception
 
 </details>
 

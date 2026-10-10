@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss20/p055.html) · [PDF](https://www.roboticsproceedings.org/rss20/p055.pdf) · [阅读卡片](../../../library/rvt2.md)
 
-论文出处：[Ankit Goyal · NVIDIA](../../origins/papers/rvt2.md)
+论文出处：[**Ankit Goyal**](../../origins/papers/rvt2.md)<br>[英伟达](../../origins/papers/rvt2.md)
 
 ## 机制简析
 

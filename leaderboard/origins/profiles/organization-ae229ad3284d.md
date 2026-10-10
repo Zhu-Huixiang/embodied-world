@@ -1,8 +1,10 @@
-# University of Alberta
+# 阿尔伯塔大学
 
 本仓已收录工作主要涉及：视频动作模型与视觉推理。
 
 **类型**：论文署名机构。
+
+**英文名称**：University of Alberta
 
 ## 官方与学术入口
 

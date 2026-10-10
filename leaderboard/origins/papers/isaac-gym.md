@@ -2,19 +2,31 @@
 
 Isaac Gym: High Performance GPU Based Physics Simulation For Robot Learning
 
-**首署名 / 贡献标记作者**：Viktor Makoviychuk。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Viktor Makoviychuk
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：NVIDIA。
+## 论文署名机构
+
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Viktor Makoviychuk、Lukasz Wawrzyniak、Yunrong Guo、Michelle Lu、Kier Storey、Miles Macklin、David Hoeller、Nikita Rudin、Arthur Allshire、Ankur Handa、Gavriel State
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
 
 </details>
 

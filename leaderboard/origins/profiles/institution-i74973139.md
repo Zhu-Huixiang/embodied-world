@@ -1,8 +1,10 @@
-# Carnegie Mellon University
+# 卡内基梅隆大学
 
 本仓已收录工作主要涉及：Locomotion 与运动适应、操作与动作块、视觉语言动作模型 VLA、动作先验与全身技能、世界动作模型。
 
 **类型**：大学。
+
+**英文名称**：Carnegie Mellon University
 
 ## 官方与学术入口
 

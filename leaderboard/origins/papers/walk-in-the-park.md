@@ -2,20 +2,35 @@
 
 Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning
 
-**共同第一作者**：Laura Smith、Ilya Kostrikov。
+## 作者
+
+**共同第一作者**
+
+- Laura Smith
+- Ilya Kostrikov
 
 署名方式：原文明确共同一作。
 
-**论文署名机构**：UC Berkeley；Berkeley AI Research。
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **加州大学伯克利分校人工智能研究实验室（BAIR）**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [UC Berkeley AI Research Lab (BAIR)](../profiles/berkeley-bair.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**加州大学伯克利分校人工智能研究实验室（BAIR）**](../profiles/berkeley-bair.md)
 
 <details><summary>完整署名作者</summary>
 
 Laura Smith、Ilya Kostrikov、Sergey Levine
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- Berkeley AI Research
 
 </details>
 

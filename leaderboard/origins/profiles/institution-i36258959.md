@@ -1,8 +1,10 @@
-# University of California San Diego
+# 加州大学圣迭戈分校
 
 本仓已收录工作主要涉及：世界模型与模型强化学习、Locomotion 与运动适应、操作与动作块、具身感知与场景表示。
 
 **类型**：大学。
+
+**英文名称**：University of California San Diego
 
 ## 官方与学术入口
 

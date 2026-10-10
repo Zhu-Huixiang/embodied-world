@@ -1,8 +1,10 @@
-# Robotics and Artificial Intelligence Lab, KAIST
+# 韩国科学技术院机器人与人工智能实验室（RAI）
 
 本仓已收录工作主要涉及：Locomotion 与运动适应。
 
 **类型**：论文署名机构。
+
+**英文名称**：Robotics and Artificial Intelligence Lab, KAIST
 
 ## 官方与学术入口
 

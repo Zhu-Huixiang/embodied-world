@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2506.09985) · [PDF](https://arxiv.org/pdf/2506.09985) · [阅读卡片](../../../library/vjepa2.md)
 
-论文出处：[Mahmoud Assran · Meta FAIR / Mila - Quebec Artificial Intelligence Institute 等3个出处](../../origins/papers/vjepa2.md)
+论文出处：[**Mahmoud Assran**](../../origins/papers/vjepa2.md)<br>[Meta FAIR 研究院 / 魁北克人工智能研究所（Mila） · 另1个机构](../../origins/papers/vjepa2.md)
 
 ## 机制简析
 

@@ -6,7 +6,7 @@
 
 [原文](https://hover-versatile-humanoid.github.io/) · [PDF](https://arxiv.org/pdf/2410.21229) · [阅读卡片](../../../library/hover.md)
 
-论文出处：[Tairan He / Wenli Xiao · NVIDIA GEAR / NVIDIA 等6个出处](../../origins/papers/hover.md)
+论文出处：[**Tairan He / Wenli Xiao**](../../origins/papers/hover.md)<br>[英伟达 GEAR 研究团队 / 英伟达 · 另4个机构](../../origins/papers/hover.md)
 
 ## 机制简析
 

@@ -1,8 +1,10 @@
-# Shanghai Qi Zhi Institute
+# 上海期智研究院
 
 本仓已收录工作主要涉及：世界模型与模型强化学习、操作与动作块。
 
 **类型**：研究机构。
+
+**英文名称**：Shanghai Qi Zhi Institute
 
 ## 官方与学术入口
 

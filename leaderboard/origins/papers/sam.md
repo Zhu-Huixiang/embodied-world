@@ -2,21 +2,40 @@
 
 Segment Anything
 
-**共同第一作者**：Alexander Kirillov、Eric Mintun、Nikhila Ravi、Hanzi Mao。
+## 作者
+
+**共同第一作者**
+
+- Alexander Kirillov
+- Eric Mintun
+- Nikhila Ravi
+- Hanzi Mao
 
 署名方式：原文明确共同第一作者。
 
-**另列等贡献作者**：Chloe Rolland、Laura Gustafson、Tete Xiao。
+**另列等贡献作者**
 
-**论文署名机构**：Meta AI Research, FAIR。
+- Chloe Rolland
+- Laura Gustafson
+- Tete Xiao
+
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
 
 <details><summary>完整署名作者</summary>
 
 Alexander Kirillov、Eric Mintun、Nikhila Ravi、Hanzi Mao、Chloe Rolland、Laura Gustafson、Tete Xiao、Spencer Whitehead、Alexander C. Berg、Wan-Yen Lo、Piotr Dollár、Ross Girshick
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Meta AI Research, FAIR
 
 </details>
 

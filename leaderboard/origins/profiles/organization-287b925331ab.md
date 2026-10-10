@@ -1,8 +1,10 @@
-# NLPR, Institute of Automation, Chinese Academy of Sciences
+# 中国科学院自动化研究所模式识别国家重点实验室（NLPR）
 
 本仓已收录工作主要涉及：世界模型与模型强化学习。
 
 **类型**：论文署名机构。
+
+**英文名称**：NLPR, Institute of Automation, Chinese Academy of Sciences
 
 ## 官方与学术入口
 

@@ -2,22 +2,40 @@
 
 EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data
 
-**共同第一作者**：Ruijie Zheng、Dantong Niu、Yuqi Xie。
+## 作者
+
+**共同第一作者**
+
+- Ruijie Zheng
+- Dantong Niu
+- Yuqi Xie
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：NVIDIA；University of California, Berkeley；University of Maryland。
+## 论文署名机构
+
+- **英伟达研究院**
+- **加州大学伯克利分校**
+- **马里兰大学**
 
 ## 继续看这些团队
 
-- [NVIDIA GEAR](../profiles/nvidia-gear.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [University of Maryland](../profiles/organization-86954201c780.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达 GEAR 研究团队**](../profiles/nvidia-gear.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**马里兰大学**](../profiles/organization-86954201c780.md)
 
 <details><summary>完整署名作者</summary>
 
 Ruijie Zheng、Dantong Niu、Yuqi Xie、Jing Wang、Mengda Xu、Yunfan Jiang、Fernando Castañeda、Fengyuan Hu、You Liang Tan、Letian Fu、Trevor Darrell、Furong Huang、Yuke Zhu、Danfei Xu、Linxi Fan
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
+- University of California, Berkeley
+- University of Maryland
 
 </details>
 

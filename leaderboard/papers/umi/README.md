@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss20/p045.html) · [PDF](https://www.roboticsproceedings.org/rss20/p045.pdf) · [阅读卡片](../../../library/umi.md)
 
-论文出处：[Cheng Chi / Zhenjia Xu · Stanford University / Columbia University 等3个出处](../../origins/papers/umi.md)
+论文出处：[**Cheng Chi / Zhenjia Xu**](../../origins/papers/umi.md)<br>[斯坦福大学 / 哥伦比亚大学 · 另1个机构](../../origins/papers/umi.md)
 
 ## 机制简析
 

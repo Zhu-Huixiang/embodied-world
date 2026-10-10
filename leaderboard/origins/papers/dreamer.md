@@ -2,21 +2,37 @@
 
 Dream to Control: Learning Behaviors by Latent Imagination
 
-**首署名 / 贡献标记作者**：Danijar Hafner。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Danijar Hafner
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：University of Toronto；Google Brain；DeepMind。
+## 论文署名机构
+
+- **多伦多大学**
+- **谷歌研究院 / Brain 团队**
+- **谷歌 DeepMind**
 
 ## 继续看这些团队
 
-- [University of Toronto](../profiles/institution-i185261750.md)：研究方向、学术入口与本仓作品集。
-- [Google Research / Brain Team](../profiles/google-research-brain.md)：研究方向、学术入口与本仓作品集。
-- [Google DeepMind](../profiles/google-deepmind.md)：研究方向、学术入口与本仓作品集。
+- [**多伦多大学**](../profiles/institution-i185261750.md)
+- [**谷歌研究院 / Brain 团队**](../profiles/google-research-brain.md)
+- [**谷歌 DeepMind**](../profiles/google-deepmind.md)
 
 <details><summary>完整署名作者</summary>
 
 Danijar Hafner、Timothy Lillicrap、Jimmy Ba、Mohammad Norouzi
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- University of Toronto
+- Google Brain
+- DeepMind
 
 </details>
 

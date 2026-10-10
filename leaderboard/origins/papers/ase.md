@@ -2,21 +2,37 @@
 
 ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters
 
-**首署名 / 贡献标记作者**：Xue Bin Peng。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Xue Bin Peng
 
 署名方式：精确论文ID的作者列表。
 
-**论文署名机构**：UC Berkeley；NVIDIA；University of Toronto。
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **英伟达研究院**
+- **多伦多大学**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [University of Toronto](../profiles/institution-i185261750.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**多伦多大学**](../profiles/institution-i185261750.md)
 
 <details><summary>完整署名作者</summary>
 
 Xue Bin Peng、Yunrong Guo、Lina Halper、Sergey Levine、Sanja Fidler
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- NVIDIA
+- University of Toronto
 
 </details>
 

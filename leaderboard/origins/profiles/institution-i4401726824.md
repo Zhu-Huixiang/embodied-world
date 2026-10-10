@@ -1,8 +1,10 @@
-# Horizon Robotics (China)
+# 地平线机器人
 
 本仓已收录工作主要涉及：视觉语言动作模型 VLA。
 
 **类型**：研究机构。
+
+**英文名称**：Horizon Robotics (China)
 
 ## 官方与学术入口
 

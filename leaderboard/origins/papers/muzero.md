@@ -2,24 +2,45 @@
 
 Mastering Atari, Go, chess and shogi by planning with a learned model
 
-**首署名 / 贡献标记作者**：Julian Schrittwieser。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Julian Schrittwieser
 
 署名方式：原文首署名作者；另有等贡献作者组。
 
-**另列等贡献作者**：Julian Schrittwieser、Ioannis Antonoglou、Thomas Hubert、David Silver。
+**另列等贡献作者**
 
-**通讯作者**：David Silver。
+- Julian Schrittwieser
+- Ioannis Antonoglou
+- Thomas Hubert
+- David Silver
 
-**论文署名机构**：DeepMind, London, UK；University College London, London, UK。
+**通讯作者**
+
+- David Silver
+
+## 论文署名机构
+
+- **谷歌 DeepMind**
+- **伦敦大学学院**
 
 ## 继续看这些团队
 
-- [Google DeepMind](../profiles/google-deepmind.md)：研究方向、学术入口与本仓作品集。
-- [University College London](../profiles/institution-i45129253.md)：研究方向、学术入口与本仓作品集。
+- [**谷歌 DeepMind**](../profiles/google-deepmind.md)
+- [**伦敦大学学院**](../profiles/institution-i45129253.md)
 
 <details><summary>完整署名作者</summary>
 
 Julian Schrittwieser、Ioannis Antonoglou、Thomas Hubert、Karen Simonyan、Laurent Sifre、Simon Schmitt、Arthur Guez、Edward Lockhart、Demis Hassabis、Thore Graepel、Timothy Lillicrap、David Silver
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- DeepMind, London, UK
+- University College London, London, UK
 
 </details>
 

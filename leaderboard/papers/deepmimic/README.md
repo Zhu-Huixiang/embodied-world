@@ -6,7 +6,7 @@
 
 [原文](https://xbpeng.github.io/projects/DeepMimic/) · [PDF](https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf) · [阅读卡片](../../../library/deepmimic.md)
 
-论文出处：[Xue Bin Peng · UC Berkeley / University of British Columbia](../../origins/papers/deepmimic.md)
+论文出处：[**Xue Bin Peng**](../../origins/papers/deepmimic.md)<br>[加州大学伯克利分校 / 不列颠哥伦比亚大学](../../origins/papers/deepmimic.md)
 
 ## 机制简析
 

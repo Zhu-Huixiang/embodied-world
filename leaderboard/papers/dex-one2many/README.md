@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2610.12470v1) · [PDF](https://arxiv.org/pdf/2610.12470v1) · [阅读卡片](../../../library/dex-one2many.md)
 
-论文出处：[Jusuk Lee · Seoul National University / University of Maryland 等4个出处](../../origins/papers/dex-one2many.md)
+论文出处：[**Jusuk Lee**](../../origins/papers/dex-one2many.md)<br>[首尔大学 / 马里兰大学 · 另2个机构](../../origins/papers/dex-one2many.md)
 
 ## 机制简析
 

@@ -1,8 +1,10 @@
-# Google DeepMind
+# 谷歌 DeepMind
 
 研究通用学习与推理、强化学习、世界模型、机器人与交互式智能体。
 
 **类型**：研究机构。
+
+**英文名称**：Google DeepMind
 
 ## 官方与学术入口
 

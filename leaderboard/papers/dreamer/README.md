@@ -6,7 +6,7 @@
 
 [原文](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/) · [PDF](https://arxiv.org/pdf/1912.01603) · [阅读卡片](../../../library/dreamer.md)
 
-论文出处：[Danijar Hafner · University of Toronto / Google Research / Brain Team 等3个出处](../../origins/papers/dreamer.md)
+论文出处：[**Danijar Hafner**](../../origins/papers/dreamer.md)<br>[多伦多大学 / 谷歌研究院 / Brain 团队 · 另1个机构](../../origins/papers/dreamer.md)
 
 ## 机制简析
 

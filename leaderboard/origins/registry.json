@@ -24,7 +24,13 @@
         "https://openalex.org/I4401726824",
         "https://api.openalex.org/institutions/I4401726824"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "地平线机器人",
+      "short_display_name": "地平线机器人",
+      "aliases": [
+        "Horizon Robotics (China)",
+        "地平线机器人"
+      ]
     },
     "institution-i95457486": {
       "id": "institution-i95457486",
@@ -47,9 +53,12 @@
       "aliases": [
         "伯克利",
         "加州大学伯克利分校",
-        "UC Berkeley"
+        "UC Berkeley",
+        "University of California, Berkeley"
       ],
-      "short_name": "UC Berkeley"
+      "short_name": "UC Berkeley",
+      "display_name": "加州大学伯克利分校",
+      "short_display_name": "加州大学伯克利分校"
     },
     "institution-i97018004": {
       "id": "institution-i97018004",
@@ -76,8 +85,12 @@
       "checked_at": "2026-10-10",
       "aliases": [
         "斯坦福",
-        "Stanford"
-      ]
+        "Stanford",
+        "Stanford University",
+        "斯坦福大学"
+      ],
+      "display_name": "斯坦福大学",
+      "short_display_name": "斯坦福大学"
     },
     "institution-i63966007": {
       "id": "institution-i63966007",
@@ -99,9 +112,13 @@
       "checked_at": "2026-10-10",
       "aliases": [
         "麻省理工",
-        "MIT"
+        "MIT",
+        "Massachusetts Institute of Technology",
+        "麻省理工学院"
       ],
-      "short_name": "MIT"
+      "short_name": "MIT",
+      "display_name": "麻省理工学院",
+      "short_display_name": "麻省理工学院"
     },
     "institution-i78577930": {
       "id": "institution-i78577930",
@@ -125,7 +142,13 @@
         "https://openalex.org/I78577930",
         "https://api.openalex.org/institutions/I78577930"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "哥伦比亚大学",
+      "short_display_name": "哥伦比亚大学",
+      "aliases": [
+        "Columbia University",
+        "哥伦比亚大学"
+      ]
     },
     "institution-i4391768151": {
       "id": "institution-i4391768151",
@@ -149,7 +172,13 @@
         "https://openalex.org/I4391768151",
         "https://api.openalex.org/institutions/I4391768151"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "丰田研究院",
+      "short_display_name": "丰田研究院",
+      "aliases": [
+        "Toyota Research Institute",
+        "丰田研究院"
+      ]
     },
     "institution-i20089843": {
       "id": "institution-i20089843",
@@ -173,7 +202,13 @@
         "https://openalex.org/I20089843",
         "https://api.openalex.org/institutions/I20089843"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "普林斯顿大学",
+      "short_display_name": "普林斯顿大学",
+      "aliases": [
+        "Princeton University",
+        "普林斯顿大学"
+      ]
     },
     "institution-i157485424": {
       "id": "institution-i157485424",
@@ -197,7 +232,13 @@
         "https://openalex.org/I157485424",
         "https://api.openalex.org/institutions/I157485424"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "韩国科学技术院（KAIST）",
+      "short_display_name": "韩国科学技术院（KAIST）",
+      "aliases": [
+        "Korea Advanced Institute of Science and Technology",
+        "韩国科学技术院（KAIST）"
+      ]
     },
     "institution-i35440088": {
       "id": "institution-i35440088",
@@ -224,9 +265,13 @@
       "checked_at": "2026-10-10",
       "aliases": [
         "苏黎世联邦理工",
-        "ETH"
+        "ETH",
+        "ETH Zurich",
+        "苏黎世联邦理工学院"
       ],
-      "short_name": "ETH Zurich"
+      "short_name": "ETH Zurich",
+      "display_name": "苏黎世联邦理工学院",
+      "short_display_name": "苏黎世联邦理工学院"
     },
     "institution-i202697423": {
       "id": "institution-i202697423",
@@ -250,7 +295,13 @@
         "https://openalex.org/I202697423",
         "https://api.openalex.org/institutions/I202697423"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "苏黎世大学",
+      "short_display_name": "苏黎世大学",
+      "aliases": [
+        "University of Zurich",
+        "苏黎世大学"
+      ]
     },
     "institution-i141945490": {
       "id": "institution-i141945490",
@@ -274,7 +325,13 @@
         "https://openalex.org/I141945490",
         "https://api.openalex.org/institutions/I141945490"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "不列颠哥伦比亚大学",
+      "short_display_name": "不列颠哥伦比亚大学",
+      "aliases": [
+        "University of British Columbia",
+        "不列颠哥伦比亚大学"
+      ]
     },
     "institution-i183067930": {
       "id": "institution-i183067930",
@@ -298,7 +355,13 @@
         "https://openalex.org/I183067930",
         "https://api.openalex.org/institutions/I183067930"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "上海交通大学",
+      "short_display_name": "上海交通大学",
+      "aliases": [
+        "Shanghai Jiao Tong University",
+        "上海交通大学"
+      ]
     },
     "institution-i185261750": {
       "id": "institution-i185261750",
@@ -322,7 +385,13 @@
         "https://openalex.org/I185261750",
         "https://api.openalex.org/institutions/I185261750"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "多伦多大学",
+      "short_display_name": "多伦多大学",
+      "aliases": [
+        "University of Toronto",
+        "多伦多大学"
+      ]
     },
     "institution-i45129253": {
       "id": "institution-i45129253",
@@ -346,7 +415,13 @@
         "https://openalex.org/I45129253",
         "https://api.openalex.org/institutions/I45129253"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "伦敦大学学院",
+      "short_display_name": "伦敦大学学院",
+      "aliases": [
+        "University College London",
+        "伦敦大学学院"
+      ]
     },
     "institution-i36258959": {
       "id": "institution-i36258959",
@@ -370,7 +445,13 @@
         "https://openalex.org/I36258959",
         "https://api.openalex.org/institutions/I36258959"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "加州大学圣迭戈分校",
+      "short_display_name": "加州大学圣迭戈分校",
+      "aliases": [
+        "University of California San Diego",
+        "加州大学圣迭戈分校"
+      ]
     },
     "institution-i889458895": {
       "id": "institution-i889458895",
@@ -394,7 +475,13 @@
         "https://openalex.org/I889458895",
         "https://api.openalex.org/institutions/I889458895"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "香港大学",
+      "short_display_name": "香港大学",
+      "aliases": [
+        "University of Hong Kong",
+        "香港大学"
+      ]
     },
     "institution-i76130692": {
       "id": "institution-i76130692",
@@ -418,7 +505,13 @@
         "https://openalex.org/I76130692",
         "https://api.openalex.org/institutions/I76130692"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "浙江大学",
+      "short_display_name": "浙江大学",
+      "aliases": [
+        "Zhejiang University",
+        "浙江大学"
+      ]
     },
     "institution-i157773358": {
       "id": "institution-i157773358",
@@ -442,7 +535,13 @@
         "https://openalex.org/I157773358",
         "https://api.openalex.org/institutions/I157773358"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "中山大学",
+      "short_display_name": "中山大学",
+      "aliases": [
+        "Sun Yat-sen University",
+        "中山大学"
+      ]
     },
     "institution-i99065089": {
       "id": "institution-i99065089",
@@ -469,8 +568,12 @@
       "checked_at": "2026-10-10",
       "aliases": [
         "清华",
-        "Tsinghua"
-      ]
+        "Tsinghua",
+        "Tsinghua University",
+        "清华大学"
+      ],
+      "display_name": "清华大学",
+      "short_display_name": "清华大学"
     },
     "institution-i3045169105": {
       "id": "institution-i3045169105",
@@ -494,7 +597,13 @@
         "https://openalex.org/I3045169105",
         "https://api.openalex.org/institutions/I3045169105"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "南方科技大学",
+      "short_display_name": "南方科技大学",
+      "aliases": [
+        "Southern University of Science and Technology",
+        "南方科技大学"
+      ]
     },
     "institution-i114027177": {
       "id": "institution-i114027177",
@@ -513,7 +622,13 @@
       "sources": [
         "https://openalex.org/I114027177"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "北卡罗来纳大学教堂山分校",
+      "short_display_name": "北卡罗来纳大学教堂山分校",
+      "aliases": [
+        "University of North Carolina at Chapel Hill",
+        "北卡罗来纳大学教堂山分校"
+      ]
     },
     "institution-i200769079": {
       "id": "institution-i200769079",
@@ -532,7 +647,13 @@
       "sources": [
         "https://openalex.org/I200769079"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "香港科技大学",
+      "short_display_name": "香港科技大学",
+      "aliases": [
+        "Hong Kong University of Science and Technology",
+        "香港科技大学"
+      ]
     },
     "institution-i4210113369": {
       "id": "institution-i4210113369",
@@ -556,7 +677,13 @@
         "https://openalex.org/I4210113369",
         "https://api.openalex.org/institutions/I4210113369"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "微软亚洲研究院",
+      "short_display_name": "微软亚洲研究院",
+      "aliases": [
+        "Microsoft Research Asia (China)",
+        "微软亚洲研究院"
+      ]
     },
     "institution-i24943067": {
       "id": "institution-i24943067",
@@ -580,7 +707,13 @@
         "https://openalex.org/I24943067",
         "https://api.openalex.org/institutions/I24943067"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "复旦大学",
+      "short_display_name": "复旦大学",
+      "aliases": [
+        "Fudan University",
+        "复旦大学"
+      ]
     },
     "institution-i86519309": {
       "id": "institution-i86519309",
@@ -604,7 +737,13 @@
         "https://openalex.org/I86519309",
         "https://api.openalex.org/institutions/I86519309"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "得克萨斯大学奥斯汀分校",
+      "short_display_name": "得克萨斯大学奥斯汀分校",
+      "aliases": [
+        "The University of Texas at Austin",
+        "得克萨斯大学奥斯汀分校"
+      ]
     },
     "institution-i57206974": {
       "id": "institution-i57206974",
@@ -628,7 +767,13 @@
         "https://openalex.org/I57206974",
         "https://api.openalex.org/institutions/I57206974"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "纽约大学",
+      "short_display_name": "纽约大学",
+      "aliases": [
+        "New York University",
+        "纽约大学"
+      ]
     },
     "institution-i98677209": {
       "id": "institution-i98677209",
@@ -652,7 +797,13 @@
         "https://openalex.org/I98677209",
         "https://api.openalex.org/institutions/I98677209"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "爱丁堡大学",
+      "short_display_name": "爱丁堡大学",
+      "aliases": [
+        "University of Edinburgh",
+        "爱丁堡大学"
+      ]
     },
     "institution-i201448701": {
       "id": "institution-i201448701",
@@ -676,7 +827,13 @@
         "https://openalex.org/I201448701",
         "https://api.openalex.org/institutions/I201448701"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "华盛顿大学",
+      "short_display_name": "华盛顿大学",
+      "aliases": [
+        "University of Washington",
+        "华盛顿大学"
+      ]
     },
     "institution-i74973139": {
       "id": "institution-i74973139",
@@ -703,8 +860,12 @@
       "checked_at": "2026-10-10",
       "aliases": [
         "卡内基梅隆",
-        "CMU"
-      ]
+        "CMU",
+        "Carnegie Mellon University",
+        "卡内基梅隆大学"
+      ],
+      "display_name": "卡内基梅隆大学",
+      "short_display_name": "卡内基梅隆大学"
     },
     "institution-i130701444": {
       "id": "institution-i130701444",
@@ -728,7 +889,13 @@
         "https://openalex.org/I130701444",
         "https://api.openalex.org/institutions/I130701444"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "佐治亚理工学院",
+      "short_display_name": "佐治亚理工学院",
+      "aliases": [
+        "Georgia Institute of Technology",
+        "佐治亚理工学院"
+      ]
     },
     "institution-i79576946": {
       "id": "institution-i79576946",
@@ -752,7 +919,13 @@
         "https://openalex.org/I79576946",
         "https://api.openalex.org/institutions/I79576946"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "宾夕法尼亚大学",
+      "short_display_name": "宾夕法尼亚大学",
+      "aliases": [
+        "University of Pennsylvania",
+        "宾夕法尼亚大学"
+      ]
     },
     "institution-i70931966": {
       "id": "institution-i70931966",
@@ -776,7 +949,13 @@
         "https://openalex.org/I70931966",
         "https://api.openalex.org/institutions/I70931966"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "蒙特利尔大学",
+      "short_display_name": "蒙特利尔大学",
+      "aliases": [
+        "Université de Montréal",
+        "蒙特利尔大学"
+      ]
     },
     "institution-i122411786": {
       "id": "institution-i122411786",
@@ -800,7 +979,13 @@
         "https://openalex.org/I122411786",
         "https://api.openalex.org/institutions/I122411786"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "加州理工学院",
+      "short_display_name": "加州理工学院",
+      "aliases": [
+        "California Institute of Technology",
+        "加州理工学院"
+      ]
     },
     "institution-i74801974": {
       "id": "institution-i74801974",
@@ -824,7 +1009,13 @@
         "https://openalex.org/I74801974",
         "https://api.openalex.org/institutions/I74801974"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "东京大学",
+      "short_display_name": "东京大学",
+      "aliases": [
+        "The University of Tokyo",
+        "东京大学"
+      ]
     },
     "institution-i4405259049": {
       "id": "institution-i4405259049",
@@ -848,7 +1039,13 @@
         "https://openalex.org/I4405259049",
         "https://api.openalex.org/institutions/I4405259049"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "上海期智研究院",
+      "short_display_name": "上海期智研究院",
+      "aliases": [
+        "Shanghai Qi Zhi Institute",
+        "上海期智研究院"
+      ]
     },
     "institution-i1326498283": {
       "id": "institution-i1326498283",
@@ -872,7 +1069,14 @@
         "https://openalex.org/I1326498283",
         "https://api.openalex.org/institutions/I1326498283"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "法国国家信息与自动化研究所（Inria）",
+      "short_display_name": "法国 Inria 研究所",
+      "aliases": [
+        "Institut national de recherche en sciences et technologies du numérique",
+        "法国国家信息与自动化研究所（Inria）",
+        "法国 Inria 研究所"
+      ]
     },
     "institution-i899635006": {
       "id": "institution-i899635006",
@@ -896,7 +1100,13 @@
         "https://openalex.org/I899635006",
         "https://api.openalex.org/institutions/I899635006"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "格勒诺布尔阿尔卑斯大学",
+      "short_display_name": "格勒诺布尔阿尔卑斯大学",
+      "aliases": [
+        "Université Grenoble Alpes",
+        "格勒诺布尔阿尔卑斯大学"
+      ]
     },
     "institution-i201841394": {
       "id": "institution-i201841394",
@@ -920,7 +1130,13 @@
         "https://openalex.org/I201841394",
         "https://api.openalex.org/institutions/I201841394"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "蔚蓝海岸大学",
+      "short_display_name": "蔚蓝海岸大学",
+      "aliases": [
+        "Université Côte d'Azur",
+        "蔚蓝海岸大学"
+      ]
     },
     "institution-i4210109712": {
       "id": "institution-i4210109712",
@@ -944,7 +1160,13 @@
         "https://openalex.org/I4210109712",
         "https://api.openalex.org/institutions/I4210109712"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "马克斯·普朗克信息学研究所",
+      "short_display_name": "马克斯·普朗克信息学研究所",
+      "aliases": [
+        "Max Planck Institute for Informatics",
+        "马克斯·普朗克信息学研究所"
+      ]
     },
     "institution-i4210164802": {
       "id": "institution-i4210164802",
@@ -968,7 +1190,13 @@
         "https://openalex.org/I4210164802",
         "https://api.openalex.org/institutions/I4210164802"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "魁北克人工智能研究所（Mila）",
+      "short_display_name": "魁北克人工智能研究所（Mila）",
+      "aliases": [
+        "Mila - Quebec Artificial Intelligence Institute",
+        "魁北克人工智能研究所（Mila）"
+      ]
     },
     "institution-i5023651": {
       "id": "institution-i5023651",
@@ -992,7 +1220,13 @@
         "https://openalex.org/I5023651",
         "https://api.openalex.org/institutions/I5023651"
       ],
-      "checked_at": "2026-10-10"
+      "checked_at": "2026-10-10",
+      "display_name": "麦吉尔大学",
+      "short_display_name": "麦吉尔大学",
+      "aliases": [
+        "McGill University",
+        "麦吉尔大学"
+      ]
     },
     "openai": {
       "id": "openai",
@@ -1013,7 +1247,12 @@
       "sources": [
         "https://openai.com/research/"
       ],
-      "checked_at": "2026-10-10T15:47:00+08:00"
+      "checked_at": "2026-10-10T15:47:00+08:00",
+      "display_name": "OpenAI",
+      "short_display_name": "OpenAI",
+      "aliases": [
+        "OpenAI"
+      ]
     },
     "google-research-brain": {
       "id": "google-research-brain",
@@ -1036,7 +1275,13 @@
         "https://deepmind.google/discover/blog/announcing-google-deepmind/",
         "https://arxiv.org/pdf/2010.11929v2"
       ],
-      "checked_at": "2026-10-10T15:47:00+08:00"
+      "checked_at": "2026-10-10T15:47:00+08:00",
+      "display_name": "谷歌研究院 / Brain 团队",
+      "short_display_name": "谷歌研究院 / Brain 团队",
+      "aliases": [
+        "Google Research / Brain Team",
+        "谷歌研究院 / Brain 团队"
+      ]
     },
     "meta-fair": {
       "id": "meta-fair",
@@ -1070,7 +1315,14 @@
         "https://ai.meta.com//",
         "https://research.meta.ai/"
       ],
-      "checked_at": "2026-10-10T16:05:27.589506+08:00"
+      "checked_at": "2026-10-10T16:05:27.589506+08:00",
+      "display_name": "Meta 人工智能研究院（FAIR）",
+      "short_display_name": "Meta FAIR 研究院",
+      "aliases": [
+        "Meta FAIR",
+        "Meta 人工智能研究院（FAIR）",
+        "Meta FAIR 研究院"
+      ]
     },
     "compvis-lmu": {
       "id": "compvis-lmu",
@@ -1092,7 +1344,13 @@
         "https://ommer-lab.com/",
         "https://ommer-lab.com/research/latent-diffusion-models/"
       ],
-      "checked_at": "2026-10-10T15:47:00+08:00"
+      "checked_at": "2026-10-10T15:47:00+08:00",
+      "display_name": "慕尼黑大学 CompVis 实验室",
+      "short_display_name": "慕尼黑大学 CompVis 实验室",
+      "aliases": [
+        "CompVis（LMU Munich）",
+        "慕尼黑大学 CompVis 实验室"
+      ]
     },
     "physical-intelligence": {
       "id": "physical-intelligence",
@@ -1118,7 +1376,12 @@
         "https://www.pi.website/",
         "https://www.pi.website/blog/pi05"
       ],
-      "checked_at": "2026-10-10T15:47:00+08:00"
+      "checked_at": "2026-10-10T15:47:00+08:00",
+      "display_name": "Physical Intelligence",
+      "short_display_name": "Physical Intelligence",
+      "aliases": [
+        "Physical Intelligence"
+      ]
     },
     "stanford-iris": {
       "id": "stanford-iris",
@@ -1140,8 +1403,13 @@
       "notes": "作品页明确收录 ACT、OpenVLA、DROID、Open X-Embodiment 和 Octo。论文仍按原文保留多机构署名。",
       "aliases": [
         "斯坦福",
-        "IRIS"
-      ]
+        "IRIS",
+        "Stanford IRIS（Intelligence through Robotic Interaction at Scale）",
+        "斯坦福大学 IRIS 实验室",
+        "斯坦福 IRIS 实验室"
+      ],
+      "display_name": "斯坦福大学 IRIS 实验室",
+      "short_display_name": "斯坦福 IRIS 实验室"
     },
     "stanford-real": {
       "id": "stanford-real",
@@ -1168,8 +1436,13 @@
       "notes": "当前官网明确 REAL @ Stanford；不能据当前入口改写 Diffusion Policy 的 RSS 2023 Columbia 署名。",
       "aliases": [
         "斯坦福",
-        "REAL"
-      ]
+        "REAL",
+        "Stanford Robotics and Embodied Artificial Intelligence Lab（REAL）",
+        "斯坦福大学机器人与具身智能实验室（REAL）",
+        "斯坦福 REAL 实验室"
+      ],
+      "display_name": "斯坦福大学机器人与具身智能实验室（REAL）",
+      "short_display_name": "斯坦福 REAL 实验室"
     },
     "berkeley-rail": {
       "id": "berkeley-rail",
@@ -1203,8 +1476,13 @@
       "checked_at": "2026-10-10T16:05:27.589506+08:00",
       "aliases": [
         "伯克利",
-        "RAIL"
-      ]
+        "RAIL",
+        "UC Berkeley RAIL",
+        "加州大学伯克利分校机器人与人工智能实验室（RAIL）",
+        "伯克利 RAIL 实验室"
+      ],
+      "display_name": "加州大学伯克利分校机器人与人工智能实验室（RAIL）",
+      "short_display_name": "伯克利 RAIL 实验室"
     },
     "berkeley-bair": {
       "id": "berkeley-bair",
@@ -1234,8 +1512,13 @@
       "checked_at": "2026-10-10T16:05:27.589506+08:00",
       "aliases": [
         "伯克利",
-        "BAIR"
-      ]
+        "BAIR",
+        "UC Berkeley AI Research Lab (BAIR)",
+        "加州大学伯克利分校人工智能研究实验室（BAIR）",
+        "伯克利 BAIR 实验室"
+      ],
+      "display_name": "加州大学伯克利分校人工智能研究实验室（BAIR）",
+      "short_display_name": "伯克利 BAIR 实验室"
     },
     "columbia-real-historical": {
       "id": "columbia-real-historical",
@@ -1260,7 +1543,14 @@
         "https://real.stanford.edu/"
       ],
       "checked_at": "2026-10-10T16:00:00+08:00",
-      "notes": "旧 cair.cs.columbia.edu 域名当前展示 REAL @ Stanford。未核迁移年月，不把旧域名当现 Columbia 团队，不与其他 Columbia 机器人实验室混同。"
+      "notes": "旧 cair.cs.columbia.edu 域名当前展示 REAL @ Stanford。未核迁移年月，不把旧域名当现 Columbia 团队，不与其他 Columbia 机器人实验室混同。",
+      "display_name": "哥伦比亚大学机器人与具身智能团队（历史署名）",
+      "short_display_name": "哥伦比亚大学具身智能团队",
+      "aliases": [
+        "Shuran Song 原 Columbia Robotics & Embodied AI 团队（历史署名）",
+        "哥伦比亚大学机器人与具身智能团队（历史署名）",
+        "哥伦比亚大学具身智能团队"
+      ]
     },
     "tsinghua-embodied-ai": {
       "id": "tsinghua-embodied-ai",
@@ -1282,8 +1572,13 @@
       "notes": "官方组页明确列 DP3。未核到 MARS 别名，当前 profile 不使用该别名。",
       "aliases": [
         "清华",
-        "具身智能实验室"
-      ]
+        "具身智能实验室",
+        "Tsinghua Embodied AI Lab／清华具身智能实验室",
+        "清华大学具身智能实验室",
+        "清华具身智能实验室"
+      ],
+      "display_name": "清华大学具身智能实验室",
+      "short_display_name": "清华具身智能实验室"
     },
     "robbyant-embodied-research": {
       "id": "robbyant-embodied-research",
@@ -1302,7 +1597,13 @@
         "https://technology.robbyant.com/lingbot-va"
       ],
       "checked_at": "2026-10-10T16:00:00+08:00",
-      "notes": "官网明确属 Ant Group。当前官网的 LingBot-VA 2.0 与本次原 RSS 2026 论文分开，不混合作者或指标。"
+      "notes": "官网明确属 Ant Group。当前官网的 LingBot-VA 2.0 与本次原 RSS 2026 论文分开，不混合作者或指标。",
+      "display_name": "蚂蚁灵波具身研究团队",
+      "short_display_name": "蚂蚁灵波具身研究团队",
+      "aliases": [
+        "Robbyant／蚂蚁灵波具身研究",
+        "蚂蚁灵波具身研究团队"
+      ]
     },
     "ut-austin-rpl": {
       "id": "ut-austin-rpl",
@@ -1331,7 +1632,14 @@
         "https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf"
       ],
       "checked_at": "2026-10-10T16:00:00+08:00",
-      "notes": "三篇连接依据为原论文 Yuke Zhu 署名与 RPL 官方身份，只表示参与团队。当前 RoboCasa 365 页面与 RSS 2024 原版分开。robomimic 项目链接由原 PDF 明示，批量页面提取未获得该项目正文。"
+      "notes": "三篇连接依据为原论文 Yuke Zhu 署名与 RPL 官方身份，只表示参与团队。当前 RoboCasa 365 页面与 RSS 2024 原版分开。robomimic 项目链接由原 PDF 明示，批量页面提取未获得该项目正文。",
+      "display_name": "得克萨斯大学奥斯汀分校机器人感知与学习实验室（RPL）",
+      "short_display_name": "得克萨斯大学奥斯汀分校 RPL 实验室",
+      "aliases": [
+        "UT Austin Robot Perception and Learning Lab（RPL）",
+        "得克萨斯大学奥斯汀分校机器人感知与学习实验室（RPL）",
+        "得克萨斯大学奥斯汀分校 RPL 实验室"
+      ]
     },
     "uw-rse": {
       "id": "uw-rse",
@@ -1350,7 +1658,14 @@
         "https://homes.cs.washington.edu/~fox/"
       ],
       "checked_at": "2026-10-10T16:00:00+08:00",
-      "notes": "负责人官方主页当前为 UW/Ai2；CLIPort、PerAct 原文中的 NVIDIA 属论文当时署名，不改写成当前任职。"
+      "notes": "负责人官方主页当前为 UW/Ai2；CLIPort、PerAct 原文中的 NVIDIA 属论文当时署名，不改写成当前任职。",
+      "display_name": "华盛顿大学机器人与状态估计实验室（RSE）",
+      "short_display_name": "华盛顿大学 RSE 实验室",
+      "aliases": [
+        "University of Washington Robotics and State Estimation Lab（RSE）",
+        "华盛顿大学机器人与状态估计实验室（RSE）",
+        "华盛顿大学 RSE 实验室"
+      ]
     },
     "open-x-embodiment": {
       "id": "open-x-embodiment",
@@ -1369,7 +1684,13 @@
         "https://arxiv.org/abs/2310.08864"
       ],
       "checked_at": "2026-10-10T16:00:00+08:00",
-      "notes": "跨机构协作，不独归单个实验室。本轮署名检查使用 arXiv v9（2025-05-14），并非直接读取 ICRA 2024 正式 PDF。"
+      "notes": "跨机构协作，不独归单个实验室。本轮署名检查使用 arXiv v9（2025-05-14），并非直接读取 ICRA 2024 正式 PDF。",
+      "display_name": "Open X-Embodiment 联合研究团队",
+      "short_display_name": "Open X-Embodiment 联合研究团队",
+      "aliases": [
+        "Open X-Embodiment Collaboration",
+        "Open X-Embodiment 联合研究团队"
+      ]
     },
     "eth-rsl": {
       "id": "eth-rsl",
@@ -1400,7 +1721,14 @@
         "https://rsl.ethz.ch/research/researchtopics/legged-locomotion.html",
         "https://rsl.ethz.ch/"
       ],
-      "checked_at": "2026-10-10T16:05:27.589506+08:00"
+      "checked_at": "2026-10-10T16:05:27.589506+08:00",
+      "display_name": "苏黎世联邦理工学院机器人系统实验室（RSL）",
+      "short_display_name": "苏黎世联邦理工 RSL 实验室",
+      "aliases": [
+        "ETH Zurich Robotic Systems Lab",
+        "苏黎世联邦理工学院机器人系统实验室（RSL）",
+        "苏黎世联邦理工 RSL 实验室"
+      ]
     },
     "cmu-lecar": {
       "id": "cmu-lecar",
@@ -1430,7 +1758,14 @@
         "https://lecar-lab.github.io/",
         "https://lecar-lab.github.io/publications.html"
       ],
-      "checked_at": "2026-10-10T16:05:27.589506+08:00"
+      "checked_at": "2026-10-10T16:05:27.589506+08:00",
+      "display_name": "卡内基梅隆大学 LeCAR 实验室",
+      "short_display_name": "卡内基梅隆 LeCAR 实验室",
+      "aliases": [
+        "CMU LeCAR Lab",
+        "卡内基梅隆大学 LeCAR 实验室",
+        "卡内基梅隆 LeCAR 实验室"
+      ]
     },
     "nvidia-gear": {
       "id": "nvidia-gear",
@@ -1463,8 +1798,12 @@
       "checked_at": "2026-10-10T16:05:27.589506+08:00",
       "aliases": [
         "英伟达",
-        "GEAR"
-      ]
+        "GEAR",
+        "NVIDIA GEAR",
+        "英伟达 GEAR 研究团队"
+      ],
+      "display_name": "英伟达 GEAR 研究团队",
+      "short_display_name": "英伟达 GEAR 研究团队"
     },
     "horizon-gail": {
       "id": "horizon-gail",
@@ -1493,8 +1832,12 @@
       "checked_at": "2026-10-10T16:05:27.589506+08:00",
       "aliases": [
         "地平线",
-        "GAIL"
-      ]
+        "GAIL",
+        "Horizon Robotics GAIL",
+        "地平线 GAIL 研究团队"
+      ],
+      "display_name": "地平线 GAIL 研究团队",
+      "short_display_name": "地平线 GAIL 研究团队"
     },
     "google-deepmind": {
       "id": "google-deepmind",
@@ -1516,7 +1859,13 @@
         "https://deepmind.google/research/",
         "https://deepmind.google/about/"
       ],
-      "checked_at": "2026-10-10T16:05:27.589506+08:00"
+      "checked_at": "2026-10-10T16:05:27.589506+08:00",
+      "display_name": "谷歌 DeepMind",
+      "short_display_name": "谷歌 DeepMind",
+      "aliases": [
+        "Google DeepMind",
+        "谷歌 DeepMind"
+      ]
     },
     "nvidia": {
       "id": "nvidia",
@@ -1537,7 +1886,15 @@
       "sources": [
         "https://research.nvidia.com/labs/gear/"
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "英伟达研究院",
+      "short_display_name": "英伟达",
+      "aliases": [
+        "NVIDIA Research",
+        "NVIDIA",
+        "英伟达研究院",
+        "英伟达"
+      ]
     },
     "mit-csail": {
       "id": "mit-csail",
@@ -1553,6 +1910,13 @@
           "label": "团队主页",
           "url": "https://www.csail.mit.edu/"
         }
+      ],
+      "display_name": "麻省理工学院计算机科学与人工智能实验室（CSAIL）",
+      "short_display_name": "麻省理工 CSAIL 实验室",
+      "aliases": [
+        "MIT CSAIL",
+        "麻省理工学院计算机科学与人工智能实验室（CSAIL）",
+        "麻省理工 CSAIL 实验室"
       ]
     },
     "uzh-rpg": {
@@ -1569,6 +1933,13 @@
           "label": "团队主页",
           "url": "https://rpg.ifi.uzh.ch/"
         }
+      ],
+      "display_name": "苏黎世大学机器人与感知团队（RPG）",
+      "short_display_name": "苏黎世大学 RPG 团队",
+      "aliases": [
+        "UZH Robotics and Perception Group",
+        "苏黎世大学机器人与感知团队（RPG）",
+        "苏黎世大学 RPG 团队"
       ]
     },
     "organization-4f749de7c24f": {
@@ -1591,7 +1962,12 @@
           "url": "https://www.roboticsproceedings.org/rss19/p016.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Meta",
+      "short_display_name": "Meta",
+      "aliases": [
+        "Meta"
+      ]
     },
     "organization-111ccd579379": {
       "id": "organization-111ccd579379",
@@ -1611,7 +1987,13 @@
           "url": "https://www.roboticsproceedings.org/rss20/p067.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "清华大学交叉信息研究院",
+      "short_display_name": "清华大学交叉信息研究院",
+      "aliases": [
+        "Tsinghua University, IIIS",
+        "清华大学交叉信息研究院"
+      ]
     },
     "organization-b73486098693": {
       "id": "organization-b73486098693",
@@ -1628,7 +2010,13 @@
           "url": "https://www.science.org/doi/10.1126/scirobotics.abk2822"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "韩国科学技术院机器人与人工智能实验室（RAI）",
+      "short_display_name": "韩国科学技术院机器人与人工智能实验室（RAI）",
+      "aliases": [
+        "Robotics and Artificial Intelligence Lab, KAIST",
+        "韩国科学技术院机器人与人工智能实验室（RAI）"
+      ]
     },
     "organization-cccbeaadc92f": {
       "id": "organization-cccbeaadc92f",
@@ -1645,7 +2033,13 @@
           "url": "https://www.science.org/doi/10.1126/scirobotics.abk2822"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "英特尔智能系统实验室",
+      "short_display_name": "英特尔智能系统实验室",
+      "aliases": [
+        "Intelligent Systems Lab, Intel",
+        "英特尔智能系统实验室"
+      ]
     },
     "organization-16e42e479e4e": {
       "id": "organization-16e42e479e4e",
@@ -1663,7 +2057,13 @@
           "url": "https://research.google/pubs/mastering-atari-with-discrete-world-models/"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "谷歌研究院",
+      "short_display_name": "谷歌研究院",
+      "aliases": [
+        "Google Research",
+        "谷歌研究院"
+      ]
     },
     "organization-8fecd433b4f5": {
       "id": "organization-8fecd433b4f5",
@@ -1682,7 +2082,13 @@
           "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "西安交通大学人工智能与机器人研究所",
+      "short_display_name": "西安交通大学人工智能与机器人研究所",
+      "aliases": [
+        "IAIR, Xi’an Jiaotong University",
+        "西安交通大学人工智能与机器人研究所"
+      ]
     },
     "organization-bc6fc762326c": {
       "id": "organization-bc6fc762326c",
@@ -1700,7 +2106,13 @@
           "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/2aee1c4159e48407d68fe16ae8e6e49e-Abstract-Conference.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "慕尼黑工业大学",
+      "short_display_name": "慕尼黑工业大学",
+      "aliases": [
+        "Technical University of Munich",
+        "慕尼黑工业大学"
+      ]
     },
     "organization-df7951e6811c": {
       "id": "organization-df7951e6811c",
@@ -1718,7 +2130,13 @@
           "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Adobe 研究院",
+      "short_display_name": "Adobe 研究院",
+      "aliases": [
+        "Adobe Research",
+        "Adobe 研究院"
+      ]
     },
     "organization-f9a072c07918": {
       "id": "organization-f9a072c07918",
@@ -1736,7 +2154,13 @@
           "url": "https://www.roboticsproceedings.org/rss19/p025.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "谷歌机器人研究团队",
+      "short_display_name": "谷歌机器人研究团队",
+      "aliases": [
+        "Robotics at Google",
+        "谷歌机器人研究团队"
+      ]
     },
     "organization-cf530caa8e92": {
       "id": "organization-cf530caa8e92",
@@ -1754,7 +2178,12 @@
           "url": "https://www.roboticsproceedings.org/rss19/p025.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Everyday Robots",
+      "short_display_name": "Everyday Robots",
+      "aliases": [
+        "Everyday Robots"
+      ]
     },
     "organization-9e53ca15a892": {
       "id": "organization-9e53ca15a892",
@@ -1772,7 +2201,13 @@
           "url": "https://proceedings.mlr.press/v202/driess23a.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "柏林工业大学",
+      "short_display_name": "柏林工业大学",
+      "aliases": [
+        "TU Berlin",
+        "柏林工业大学"
+      ]
     },
     "organization-53a251c2303c": {
       "id": "organization-53a251c2303c",
@@ -1790,7 +2225,13 @@
           "url": "https://proceedings.mlr.press/v202/jiang23b.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "麦卡莱斯特学院",
+      "short_display_name": "麦卡莱斯特学院",
+      "aliases": [
+        "Macalester College",
+        "麦卡莱斯特学院"
+      ]
     },
     "organization-14ceb33ea08c": {
       "id": "organization-14ceb33ea08c",
@@ -1816,7 +2257,13 @@
           "url": "https://www.roboticsproceedings.org/rss20/p120.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "加州大学戴维斯分校",
+      "short_display_name": "加州大学戴维斯分校",
+      "aliases": [
+        "UC Davis",
+        "加州大学戴维斯分校"
+      ]
     },
     "organization-a49c368d010d": {
       "id": "organization-a49c368d010d",
@@ -1842,7 +2289,13 @@
           "url": "https://www.roboticsproceedings.org/rss20/p120.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "延世大学",
+      "short_display_name": "延世大学",
+      "aliases": [
+        "Yonsei University",
+        "延世大学"
+      ]
     },
     "organization-a1423391b9ee": {
       "id": "organization-a1423391b9ee",
@@ -1864,7 +2317,13 @@
           "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "索尼 AI",
+      "short_display_name": "索尼 AI",
+      "aliases": [
+        "Sony AI",
+        "索尼 AI"
+      ]
     },
     "organization-ae229ad3284d": {
       "id": "organization-ae229ad3284d",
@@ -1882,7 +2341,13 @@
           "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "阿尔伯塔大学",
+      "short_display_name": "阿尔伯塔大学",
+      "aliases": [
+        "University of Alberta",
+        "阿尔伯塔大学"
+      ]
     },
     "organization-7bc89900498b": {
       "id": "organization-7bc89900498b",
@@ -1900,7 +2365,13 @@
           "url": "https://proceedings.mlr.press/v235/lee24y.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "首尔大学",
+      "short_display_name": "首尔大学",
+      "aliases": [
+        "Seoul National University",
+        "首尔大学"
+      ]
     },
     "organization-c16524fc0e5c": {
       "id": "organization-c16524fc0e5c",
@@ -1918,7 +2389,13 @@
           "url": "https://proceedings.mlr.press/v235/wang24at.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "得克萨斯农工大学",
+      "short_display_name": "得克萨斯农工大学",
+      "aliases": [
+        "Texas A&M University",
+        "得克萨斯农工大学"
+      ]
     },
     "organization-097f98bc9e89": {
       "id": "organization-097f98bc9e89",
@@ -1935,7 +2412,13 @@
           "url": "https://proceedings.mlr.press/v205/margolis23a.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "麻省理工学院 Improbable AI 实验室",
+      "short_display_name": "麻省理工学院 Improbable AI 实验室",
+      "aliases": [
+        "Improbable AI Lab, MIT",
+        "麻省理工学院 Improbable AI 实验室"
+      ]
     },
     "organization-9d736e5b8263": {
       "id": "organization-9d736e5b8263",
@@ -1953,7 +2436,13 @@
           "url": "https://dl.acm.org/doi/10.1145/3687951"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "巴伊兰大学",
+      "short_display_name": "巴伊兰大学",
+      "aliases": [
+        "Bar-Ilan University",
+        "巴伊兰大学"
+      ]
     },
     "organization-044760088b92": {
       "id": "organization-044760088b92",
@@ -1971,7 +2460,13 @@
           "url": "https://dl.acm.org/doi/10.1145/3687951"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "西蒙弗雷泽大学",
+      "short_display_name": "西蒙弗雷泽大学",
+      "aliases": [
+        "Simon Fraser University",
+        "西蒙弗雷泽大学"
+      ]
     },
     "organization-154d2b7ece3c": {
       "id": "organization-154d2b7ece3c",
@@ -1989,7 +2484,13 @@
           "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Luo_Perpetual_Humanoid_Control_for_Real-time_Simulated_Avatars_ICCV_2023_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Meta Reality Labs 研究团队",
+      "short_display_name": "Meta Reality Labs 研究团队",
+      "aliases": [
+        "Reality Labs Research, Meta",
+        "Meta Reality Labs 研究团队"
+      ]
     },
     "organization-43245336ed8d": {
       "id": "organization-43245336ed8d",
@@ -2007,7 +2508,13 @@
           "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "索邦大学",
+      "short_display_name": "索邦大学",
+      "aliases": [
+        "Sorbonne University",
+        "索邦大学"
+      ]
     },
     "organization-0db43ae22a55": {
       "id": "organization-0db43ae22a55",
@@ -2025,7 +2532,13 @@
           "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "法国国家科学研究中心（CNRS）",
+      "short_display_name": "法国国家科学研究中心（CNRS）",
+      "aliases": [
+        "CNRS",
+        "法国国家科学研究中心（CNRS）"
+      ]
     },
     "organization-0873faf01479": {
       "id": "organization-0873faf01479",
@@ -2043,7 +2556,13 @@
           "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "格勒诺布尔理工学院",
+      "short_display_name": "格勒诺布尔理工学院",
+      "aliases": [
+        "Grenoble INP",
+        "格勒诺布尔理工学院"
+      ]
     },
     "organization-0725245cd3d5": {
       "id": "organization-0725245cd3d5",
@@ -2061,7 +2580,13 @@
           "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "让·孔茨曼实验室（LJK）",
+      "short_display_name": "让·孔茨曼实验室（LJK）",
+      "aliases": [
+        "LJK",
+        "让·孔茨曼实验室（LJK）"
+      ]
     },
     "organization-83741b5c53d7": {
       "id": "organization-83741b5c53d7",
@@ -2079,7 +2604,13 @@
           "url": "https://openreview.net/forum?id=a68SUt6zFt"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "巴黎萨克雷大学",
+      "short_display_name": "巴黎萨克雷大学",
+      "aliases": [
+        "Université Paris Saclay",
+        "巴黎萨克雷大学"
+      ]
     },
     "organization-bd4519f34c7f": {
       "id": "organization-bd4519f34c7f",
@@ -2097,7 +2628,13 @@
           "url": "https://openreview.net/forum?id=a68SUt6zFt"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "巴黎高等师范学院（ENS-PSL）",
+      "short_display_name": "巴黎高等师范学院（ENS-PSL）",
+      "aliases": [
+        "ENS-PSL",
+        "巴黎高等师范学院（ENS-PSL）"
+      ]
     },
     "organization-5c475a175e30": {
       "id": "organization-5c475a175e30",
@@ -2116,7 +2653,13 @@
           "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "慕尼黑大学",
+      "short_display_name": "慕尼黑大学",
+      "aliases": [
+        "Ludwig Maximilian University of Munich",
+        "慕尼黑大学"
+      ]
     },
     "organization-a119309dd18b": {
       "id": "organization-a119309dd18b",
@@ -2135,7 +2678,14 @@
           "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "海德堡大学跨学科科学计算研究中心（IWR）",
+      "short_display_name": "海德堡大学 IWR 研究中心",
+      "aliases": [
+        "IWR, Heidelberg University",
+        "海德堡大学跨学科科学计算研究中心（IWR）",
+        "海德堡大学 IWR 研究中心"
+      ]
     },
     "organization-7b51eba7b517": {
       "id": "organization-7b51eba7b517",
@@ -2154,7 +2704,13 @@
           "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Runway",
+      "short_display_name": "Runway",
+      "aliases": [
+        "Runway ML",
+        "Runway"
+      ]
     },
     "organization-9bf9b55ec0a7": {
       "id": "organization-9bf9b55ec0a7",
@@ -2172,7 +2728,13 @@
           "url": "https://iclr.cc/virtual/2023/poster/11309"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "魏茨曼科学研究所",
+      "short_display_name": "魏茨曼科学研究所",
+      "aliases": [
+        "Weizmann Institute of Science",
+        "魏茨曼科学研究所"
+      ]
     },
     "organization-79621155f9fe": {
       "id": "organization-79621155f9fe",
@@ -2190,7 +2752,13 @@
           "url": "https://openreview.net/forum?id=vOEXS39nOF"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "密歇根大学",
+      "short_display_name": "密歇根大学",
+      "aliases": [
+        "University of Michigan",
+        "密歇根大学"
+      ]
     },
     "organization-5809bcbdd797": {
       "id": "organization-5809bcbdd797",
@@ -2208,7 +2776,13 @@
           "url": "https://arxiv.org/abs/2603.19312v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "三星 AI 实验室（SAIL）",
+      "short_display_name": "三星 AI 实验室（SAIL）",
+      "aliases": [
+        "Samsung SAIL",
+        "三星 AI 实验室（SAIL）"
+      ]
     },
     "organization-758dffc272f5": {
       "id": "organization-758dffc272f5",
@@ -2226,7 +2800,13 @@
           "url": "https://arxiv.org/abs/2603.19312v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "布朗大学",
+      "short_display_name": "布朗大学",
+      "aliases": [
+        "Brown University",
+        "布朗大学"
+      ]
     },
     "organization-86954201c780": {
       "id": "organization-86954201c780",
@@ -2245,7 +2825,13 @@
           "url": "https://arxiv.org/abs/2602.16710"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "马里兰大学",
+      "short_display_name": "马里兰大学",
+      "aliases": [
+        "University of Maryland",
+        "马里兰大学"
+      ]
     },
     "organization-1479c8d4fb3b": {
       "id": "organization-1479c8d4fb3b",
@@ -2262,7 +2848,14 @@
           "url": "https://www.science.org/doi/10.1126/scirobotics.adt1497"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "新加坡科技研究局前沿人工智能研究中心（CFAR）",
+      "short_display_name": "新加坡 CFAR 研究中心",
+      "aliases": [
+        "Centre for Frontier AI Research, A*STAR",
+        "新加坡科技研究局前沿人工智能研究中心（CFAR）",
+        "新加坡 CFAR 研究中心"
+      ]
     },
     "organization-8f8bbad70c52": {
       "id": "organization-8f8bbad70c52",
@@ -2279,7 +2872,12 @@
           "url": "https://www.science.org/doi/10.1126/scirobotics.adt1497"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Hillbot",
+      "short_display_name": "Hillbot",
+      "aliases": [
+        "Hillbot"
+      ]
     },
     "organization-bcfbc314f1ca": {
       "id": "organization-bcfbc314f1ca",
@@ -2297,7 +2895,13 @@
           "url": "https://arxiv.org/abs/2506.09985"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "蒙特利尔理工学院",
+      "short_display_name": "蒙特利尔理工学院",
+      "aliases": [
+        "Polytechnique Montréal",
+        "蒙特利尔理工学院"
+      ]
     },
     "organization-00045ff5f4dd": {
       "id": "organization-00045ff5f4dd",
@@ -2314,7 +2918,12 @@
           "url": "https://arxiv.org/abs/2610.12470v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "All Purpose AI",
+      "short_display_name": "All Purpose AI",
+      "aliases": [
+        "All Purpose AI"
+      ]
     },
     "organization-287b925331ab": {
       "id": "organization-287b925331ab",
@@ -2331,7 +2940,14 @@
           "url": "https://arxiv.org/abs/2610.12468v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "中国科学院自动化研究所模式识别国家重点实验室（NLPR）",
+      "short_display_name": "中科院自动化所 NLPR 实验室",
+      "aliases": [
+        "NLPR, Institute of Automation, Chinese Academy of Sciences",
+        "中国科学院自动化研究所模式识别国家重点实验室（NLPR）",
+        "中科院自动化所 NLPR 实验室"
+      ]
     },
     "organization-3447d292443b": {
       "id": "organization-3447d292443b",
@@ -2348,7 +2964,13 @@
           "url": "https://arxiv.org/abs/2610.12468v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "阿里巴巴高德",
+      "short_display_name": "阿里巴巴高德",
+      "aliases": [
+        "Amap, Alibaba Group",
+        "阿里巴巴高德"
+      ]
     },
     "organization-b4dfd0ebfaf1": {
       "id": "organization-b4dfd0ebfaf1",
@@ -2365,7 +2987,12 @@
           "url": "https://arxiv.org/abs/2610.12435v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Vesoma",
+      "short_display_name": "Vesoma",
+      "aliases": [
+        "Vesoma"
+      ]
     },
     "organization-595d930f30ef": {
       "id": "organization-595d930f30ef",
@@ -2382,7 +3009,13 @@
           "url": "https://arxiv.org/abs/2610.12435v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "马克斯·普朗克智能系统研究所",
+      "short_display_name": "马克斯·普朗克智能系统研究所",
+      "aliases": [
+        "Max Planck Institute for Intelligent Systems",
+        "马克斯·普朗克智能系统研究所"
+      ]
     },
     "organization-54a81dd68bb5": {
       "id": "organization-54a81dd68bb5",
@@ -2399,7 +3032,13 @@
           "url": "https://arxiv.org/abs/2610.12435v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "图宾根大学",
+      "short_display_name": "图宾根大学",
+      "aliases": [
+        "University of Tuebingen",
+        "图宾根大学"
+      ]
     },
     "organization-db8e97f5d17a": {
       "id": "organization-db8e97f5d17a",
@@ -2416,7 +3055,13 @@
           "url": "https://arxiv.org/abs/2610.12435v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "ELLIS 研究所",
+      "short_display_name": "ELLIS 研究所",
+      "aliases": [
+        "ELLIS Institute",
+        "ELLIS 研究所"
+      ]
     },
     "organization-79eb2923dfd7": {
       "id": "organization-79eb2923dfd7",
@@ -2433,7 +3078,13 @@
           "url": "https://arxiv.org/abs/2610.12386v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "伊利诺伊大学厄巴纳-香槟分校",
+      "short_display_name": "伊利诺伊大学厄巴纳-香槟分校",
+      "aliases": [
+        "University of Illinois Urbana-Champaign",
+        "伊利诺伊大学厄巴纳-香槟分校"
+      ]
     },
     "organization-c2e86c609cce": {
       "id": "organization-c2e86c609cce",
@@ -2450,7 +3101,13 @@
           "url": "https://arxiv.org/abs/2610.12386v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "悉尼大学",
+      "short_display_name": "悉尼大学",
+      "aliases": [
+        "University of Sydney",
+        "悉尼大学"
+      ]
     },
     "organization-670410a1e889": {
       "id": "organization-670410a1e889",
@@ -2467,7 +3124,12 @@
           "url": "https://arxiv.org/abs/2610.12386v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "Proception",
+      "short_display_name": "Proception",
+      "aliases": [
+        "Proception"
+      ]
     },
     "organization-3c8d9a5bb5be": {
       "id": "organization-3c8d9a5bb5be",
@@ -2484,7 +3146,13 @@
           "url": "https://arxiv.org/abs/2610.12285v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "吉林大学",
+      "short_display_name": "吉林大学",
+      "aliases": [
+        "Jilin University",
+        "吉林大学"
+      ]
     },
     "organization-1cc2f28748e4": {
       "id": "organization-1cc2f28748e4",
@@ -2501,7 +3169,13 @@
           "url": "https://arxiv.org/abs/2610.12285v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "星尘智能",
+      "short_display_name": "星尘智能",
+      "aliases": [
+        "Astribot",
+        "星尘智能"
+      ]
     },
     "organization-dbf270476b28": {
       "id": "organization-dbf270476b28",
@@ -2518,7 +3192,13 @@
           "url": "https://arxiv.org/abs/2610.12285v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "哈尔滨工业大学（深圳）",
+      "short_display_name": "哈尔滨工业大学（深圳）",
+      "aliases": [
+        "Harbin Institute of Technology, Shenzhen",
+        "哈尔滨工业大学（深圳）"
+      ]
     },
     "organization-56be85fd98d1": {
       "id": "organization-56be85fd98d1",
@@ -2535,7 +3215,13 @@
           "url": "https://arxiv.org/abs/2610.12285v1"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "香港理工大学",
+      "short_display_name": "香港理工大学",
+      "aliases": [
+        "The Hong Kong Polytechnic University",
+        "香港理工大学"
+      ]
     },
     "shanghai-ai-lab": {
       "id": "shanghai-ai-lab",
@@ -2559,7 +3245,13 @@
           "url": "https://www.roboticsproceedings.org/rss20/p067.html"
         }
       ],
-      "focus": null
+      "focus": null,
+      "display_name": "上海人工智能实验室",
+      "short_display_name": "上海人工智能实验室",
+      "aliases": [
+        "Shanghai AI Lab",
+        "上海人工智能实验室"
+      ]
     }
   },
   "papers": {
@@ -8114,5 +8806,144 @@
     "primary_affiliations": 115,
     "correspondence": 25,
     "profiles": 118
+  },
+  "affiliation_labels": {
+    "Adobe Research": "Adobe 研究院",
+    "All Purpose AI": "All Purpose AI",
+    "Amap, Alibaba Group": "阿里巴巴高德",
+    "Astribot": "星尘智能",
+    "Bar-Ilan University": "巴伊兰大学",
+    "Berkeley AI Research": "加州大学伯克利分校人工智能研究实验室（BAIR）",
+    "Brown University": "布朗大学",
+    "CNRS": "法国国家科学研究中心（CNRS）",
+    "Caltech": "加州理工学院",
+    "Carnegie Mellon University": "卡内基梅隆大学",
+    "Carnegie Mellon University (CMU)": "卡内基梅隆大学",
+    "Centre for Frontier AI Research, A*STAR": "新加坡科技研究局前沿人工智能研究中心（CFAR）",
+    "Columbia University": "哥伦比亚大学",
+    "DeepMind": "谷歌 DeepMind",
+    "DeepMind, London, UK": "谷歌 DeepMind",
+    "ELLIS Institute": "ELLIS 研究所",
+    "ENS-PSL": "巴黎高等师范学院（ENS-PSL）",
+    "ETH Zurich": "苏黎世联邦理工学院",
+    "Everyday Robots": "Everyday Robots",
+    "FAIR at Meta": "Meta 人工智能研究院（FAIR）",
+    "Facebook": "Meta",
+    "Facebook AI Research": "Meta 人工智能研究院（FAIR）",
+    "Facebook AI Research (FAIR)": "Meta 人工智能研究院（FAIR）",
+    "Fudan University": "复旦大学",
+    "Georgia Tech": "佐治亚理工学院",
+    "Google Brain": "谷歌研究院 / Brain 团队",
+    "Google DeepMind": "谷歌 DeepMind",
+    "Google DeepMind, San Francisco, CA, USA": "谷歌 DeepMind",
+    "Google Research": "谷歌研究院",
+    "Google Research, Brain Team": "谷歌研究院 / Brain 团队",
+    "Grenoble INP": "格勒诺布尔理工学院",
+    "Harbin Institute of Technology, Shenzhen": "哈尔滨工业大学（深圳）",
+    "Hillbot": "Hillbot",
+    "Hong Kong University of Science and Technology": "香港科技大学",
+    "Horizon Robotics": "地平线机器人",
+    "IAIR, Xi’an Jiaotong University": "西安交通大学人工智能与机器人研究所",
+    "IWR, Heidelberg University": "海德堡大学跨学科科学计算研究中心（IWR）",
+    "Improbable AI Lab, MIT": "麻省理工学院 Improbable AI 实验室",
+    "Inria": "法国国家信息与自动化研究所（Inria）",
+    "Intelligent Systems Lab, Intel": "英特尔智能系统实验室",
+    "Jilin University": "吉林大学",
+    "KAIST": "韩国科学技术院（KAIST）",
+    "LJK": "让·孔茨曼实验室（LJK）",
+    "Ludwig Maximilian University of Munich": "慕尼黑大学",
+    "MIT": "麻省理工学院",
+    "MIT CSAIL": "麻省理工学院计算机科学与人工智能实验室（CSAIL）",
+    "Macalester College": "麦卡莱斯特学院",
+    "Max Planck Institute for Informatics": "马克斯·普朗克信息学研究所",
+    "Max Planck Institute for Intelligent Systems": "马克斯·普朗克智能系统研究所",
+    "McGill University": "麦吉尔大学",
+    "Meta": "Meta",
+    "Meta AI": "Meta 人工智能研究院（FAIR）",
+    "Meta AI Research": "Meta 人工智能研究院（FAIR）",
+    "Meta AI Research, FAIR": "Meta 人工智能研究院（FAIR）",
+    "Meta FAIR": "Meta 人工智能研究院（FAIR）",
+    "Microsoft Research Asia": "微软亚洲研究院",
+    "Mila": "魁北克人工智能研究所（Mila）",
+    "Mila & Université de Montréal": "魁北克人工智能研究所（Mila）与蒙特利尔大学",
+    "Mila – Quebec AI Institute": "魁北克人工智能研究所（Mila）",
+    "NLPR, Institute of Automation, Chinese Academy of Sciences": "中国科学院自动化研究所模式识别国家重点实验室（NLPR）",
+    "NVIDIA": "英伟达研究院",
+    "NVIDIA Research": "英伟达研究院",
+    "NVIDIA, Santa Clara, CA, USA": "英伟达研究院",
+    "New York University": "纽约大学",
+    "OpenAI": "OpenAI",
+    "Physical Intelligence": "Physical Intelligence",
+    "Polytechnique Montréal": "蒙特利尔理工学院",
+    "Princeton University": "普林斯顿大学",
+    "Proception": "Proception",
+    "Reality Labs Research, Meta": "Meta Reality Labs 研究团队",
+    "Robbyant": "蚂蚁灵波具身研究团队",
+    "Robotic Systems Lab, ETH Zurich": "苏黎世联邦理工学院机器人系统实验室（RSL）",
+    "Robotics and Artificial Intelligence Lab, KAIST": "韩国科学技术院机器人与人工智能实验室（RAI）",
+    "Robotics and Perception Group, UZH": "苏黎世大学机器人与感知团队（RPG）",
+    "Robotics at Google": "谷歌机器人研究团队",
+    "Runway ML": "Runway",
+    "Samsung SAIL": "三星 AI 实验室（SAIL）",
+    "School of Electrical Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Republic of Korea": "韩国科学技术院（KAIST）电气工程学院",
+    "Seoul National University": "首尔大学",
+    "Shanghai AI Lab": "上海人工智能实验室",
+    "Shanghai AI Laboratory": "上海人工智能实验室",
+    "Shanghai Jiao Tong University": "上海交通大学",
+    "Shanghai Qi Zhi Institute": "上海期智研究院",
+    "Shanghai Qizhi Institute": "上海期智研究院",
+    "Simon Fraser University": "西蒙弗雷泽大学",
+    "Sony AI": "索尼 AI",
+    "Sorbonne University": "索邦大学",
+    "Southern University of Science and Technology": "南方科技大学",
+    "Stanford University": "斯坦福大学",
+    "Sun Yat-Sen University": "中山大学",
+    "TU Berlin": "柏林工业大学",
+    "Technical University of Munich": "慕尼黑工业大学",
+    "Texas A&M University": "得克萨斯农工大学",
+    "The Hong Kong Polytechnic University": "香港理工大学",
+    "The University of Hong Kong": "香港大学",
+    "Toyota Research Institute": "丰田研究院",
+    "Tsinghua University": "清华大学",
+    "Tsinghua University, IIIS": "清华大学交叉信息研究院",
+    "UC Berkeley": "加州大学伯克利分校",
+    "UC Davis": "加州大学戴维斯分校",
+    "UC San Diego": "加州大学圣迭戈分校",
+    "UT Austin": "得克萨斯大学奥斯汀分校",
+    "University College London": "伦敦大学学院",
+    "University College London, London, UK": "伦敦大学学院",
+    "University of Alberta": "阿尔伯塔大学",
+    "University of British Columbia": "不列颠哥伦比亚大学",
+    "University of California, Berkeley": "加州大学伯克利分校",
+    "University of California, Berkeley (UC Berkeley)": "加州大学伯克利分校",
+    "University of California, San Diego (UC San Diego)": "加州大学圣迭戈分校",
+    "University of Edinburgh": "爱丁堡大学",
+    "University of Illinois Urbana-Champaign": "伊利诺伊大学厄巴纳-香槟分校",
+    "University of Maryland": "马里兰大学",
+    "University of Michigan": "密歇根大学",
+    "University of Montreal": "蒙特利尔大学",
+    "University of North Carolina at Chapel Hill": "北卡罗来纳大学教堂山分校",
+    "University of Pennsylvania": "宾夕法尼亚大学",
+    "University of Sydney": "悉尼大学",
+    "University of Texas at Austin (UT Austin)": "得克萨斯大学奥斯汀分校",
+    "University of Texas, Austin": "得克萨斯大学奥斯汀分校",
+    "University of Tokyo": "东京大学",
+    "University of Toronto": "多伦多大学",
+    "University of Toronto, Toronto, Ontario, Canada": "多伦多大学",
+    "University of Tuebingen": "图宾根大学",
+    "University of Washington": "华盛顿大学",
+    "University of Zurich": "苏黎世大学",
+    "Université Côte d’Azur": "蔚蓝海岸大学",
+    "Université Grenoble Alpes": "格勒诺布尔阿尔卑斯大学",
+    "Université Paris Saclay": "巴黎萨克雷大学",
+    "Vesoma": "Vesoma",
+    "Weizmann Institute of Science": "魏茨曼科学研究所",
+    "Yonsei University": "延世大学",
+    "Zhejiang University": "浙江大学"
+  },
+  "display_policy": {
+    "people": "original English names",
+    "institutions": "Chinese display names with useful brand/lab acronyms; original affiliations and profile names preserved",
+    "display_checked_at": "2026-10-10"
   }
 }

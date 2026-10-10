@@ -6,7 +6,7 @@
 
 [原文](https://www.nature.com/articles/s41586-020-03051-4) · [PDF](https://arxiv.org/pdf/1911.08265) · [阅读卡片](../../../library/muzero.md)
 
-论文出处：[Julian Schrittwieser · Google DeepMind / University College London](../../origins/papers/muzero.md)
+论文出处：[**Julian Schrittwieser**](../../origins/papers/muzero.md)<br>[谷歌 DeepMind / 伦敦大学学院](../../origins/papers/muzero.md)
 
 ## 机制简析
 

@@ -2,22 +2,38 @@
 
 Humanoid Loco-Manipulation With Discrete VLA Model
 
-**共同第一作者**：Wenxin Shao、Siqi Chai、Kun Li。
+## 作者
+
+**共同第一作者**
+
+- Wenxin Shao
+- Siqi Chai
+- Kun Li
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**通讯作者**：Qiang Liu。
+**通讯作者**
 
-**论文署名机构**：Horizon Robotics。
+- Qiang Liu
+
+## 论文署名机构
+
+- **地平线机器人**
 
 ## 继续看这些团队
 
-- [Horizon Robotics GAIL](../profiles/horizon-gail.md)：研究方向、学术入口与本仓作品集。
-- [Horizon Robotics (China)](../profiles/institution-i4401726824.md)：研究方向、学术入口与本仓作品集。
+- [**地平线 GAIL 研究团队**](../profiles/horizon-gail.md)
+- [**地平线机器人**](../profiles/institution-i4401726824.md)
 
 <details><summary>完整署名作者</summary>
 
 Wenxin Shao、Siqi Chai、Kun Li、Kerou Zhang、Xinzhou Jiang、Wei Xu、Qiang Liu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Horizon Robotics
 
 </details>
 

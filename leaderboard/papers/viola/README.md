@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2610.12435v1) · [PDF](https://arxiv.org/pdf/2610.12435v1) · [阅读卡片](../../../library/viola.md)
 
-论文出处：[Mert Albaba · Vesoma / ETH Zurich 等5个出处](../../origins/papers/viola.md)
+论文出处：[**Mert Albaba**](../../origins/papers/viola.md)<br>[Vesoma / 苏黎世联邦理工学院 · 另3个机构](../../origins/papers/viola.md)
 
 ## 机制简析
 

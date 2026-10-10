@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v162/hansen22a.html) · [PDF](https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf) · [阅读卡片](../../../library/td-mpc.md)
 
-论文出处：[Nicklas Hansen · University of California San Diego](../../origins/papers/td-mpc.md)
+论文出处：[**Nicklas Hansen**](../../origins/papers/td-mpc.md)<br>[加州大学圣迭戈分校](../../origins/papers/td-mpc.md)
 
 ## 机制简析
 

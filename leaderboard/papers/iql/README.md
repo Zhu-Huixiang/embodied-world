@@ -6,7 +6,7 @@
 
 [原文](https://iclr.cc/virtual/2022/poster/5941) · [PDF](https://arxiv.org/pdf/2110.06169) · [阅读卡片](../../../library/iql.md)
 
-论文出处：[Ilya Kostrikov · UC Berkeley](../../origins/papers/iql.md)
+论文出处：[**Ilya Kostrikov**](../../origins/papers/iql.md)<br>[加州大学伯克利分校](../../origins/papers/iql.md)
 
 ## 机制简析
 

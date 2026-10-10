@@ -1,8 +1,10 @@
-# Weizmann Institute of Science
+# 魏茨曼科学研究所
 
 本仓已收录工作主要涉及：Diffusion / Transformer 基础。
 
 **类型**：论文署名机构。
+
+**英文名称**：Weizmann Institute of Science
 
 ## 官方与学术入口
 

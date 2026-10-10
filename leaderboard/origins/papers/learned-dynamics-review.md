@@ -2,26 +2,51 @@
 
 A review of learning-based dynamics models for robotic manipulation
 
-**首署名 / 贡献标记作者**：Bo Ai。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Bo Ai
 
 署名方式：精确论文ID的作者列表。
 
-**通讯作者**：Bo Ai、Yunzhu Li。
+**通讯作者**
 
-**论文署名机构**：UC San Diego；Stanford University；Columbia University；Google DeepMind；Centre for Frontier AI Research, A*STAR；Hillbot。
+- Bo Ai
+- Yunzhu Li
+
+## 论文署名机构
+
+- **加州大学圣迭戈分校**
+- **斯坦福大学**
+- **哥伦比亚大学**
+- **谷歌 DeepMind**
+- **新加坡科技研究局前沿人工智能研究中心（CFAR）**
+- **Hillbot**
 
 ## 继续看这些团队
 
-- [University of California San Diego](../profiles/institution-i36258959.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [Columbia University](../profiles/institution-i78577930.md)：研究方向、学术入口与本仓作品集。
-- [Google DeepMind](../profiles/google-deepmind.md)：研究方向、学术入口与本仓作品集。
-- [Centre for Frontier AI Research, A*STAR](../profiles/organization-1479c8d4fb3b.md)：研究方向、学术入口与本仓作品集。
-- [Hillbot](../profiles/organization-8f8bbad70c52.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学圣迭戈分校**](../profiles/institution-i36258959.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**哥伦比亚大学**](../profiles/institution-i78577930.md)
+- [**谷歌 DeepMind**](../profiles/google-deepmind.md)
+- [**新加坡科技研究局前沿人工智能研究中心（CFAR）**](../profiles/organization-1479c8d4fb3b.md)
+- [**Hillbot**](../profiles/organization-8f8bbad70c52.md)
 
 <details><summary>完整署名作者</summary>
 
 Bo Ai、Stephen Tian、Haochen Shi、Yong Wang、Tobias Pfaff、Cheston Tan、Henrik I. Christensen、Hao Su、Jiajun Wu、Yunzhu Li
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC San Diego
+- Stanford University
+- Columbia University
+- Google DeepMind
+- Centre for Frontier AI Research, A*STAR
+- Hillbot
 
 </details>
 

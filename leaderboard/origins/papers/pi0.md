@@ -2,19 +2,31 @@
 
 π₀: A Vision-Language-Action Flow Model for General Robot Control
 
-**首署名 / 贡献标记作者**：Physical Intelligence。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Physical Intelligence
 
 署名方式：原文采用团队集体署名。
 
-**论文署名机构**：Physical Intelligence。
+## 论文署名机构
+
+- **Physical Intelligence**
 
 ## 继续看这些团队
 
-- [Physical Intelligence](../profiles/physical-intelligence.md)：研究方向、学术入口与本仓作品集。
+- [**Physical Intelligence**](../profiles/physical-intelligence.md)
 
 <details><summary>完整署名作者</summary>
 
 Kevin Black、Noah Brown、Danny Driess、Adnan Esmail、Michael Equi、Chelsea Finn、Niccolo Fusai、Lachy Groom、Karol Hausman、Brian Ichter、Szymon Jakubczak、Tim Jones、Liyiming Ke、Sergey Levine、Adrian Li-Bell、Mohith Mothukuri、Suraj Nair、Karl Pertsch、Lucy Xiaoyang Shi、James Tanner、Quan Vuong、Anna Walling、Haohuan Wang、Ury Zhilinsky
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Physical Intelligence
 
 </details>
 

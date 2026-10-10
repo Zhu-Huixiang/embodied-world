@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2603.19312v1) · [PDF](https://arxiv.org/pdf/2603.19312v1) · [阅读卡片](../../../library/lewm.md)
 
-论文出处：[Lucas Maes / Quentin Le Lidec · Mila - Quebec Artificial Intelligence Institute / New York University 等4个出处](../../origins/papers/lewm.md)
+论文出处：[**Lucas Maes / Quentin Le Lidec**](../../origins/papers/lewm.md)<br>[魁北克人工智能研究所（Mila） / 纽约大学 · 另2个机构](../../origins/papers/lewm.md)
 
 ## 机制简析
 

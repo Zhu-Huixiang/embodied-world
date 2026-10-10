@@ -2,24 +2,46 @@
 
 EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data
 
-**共同第一作者**：Shengjie Wang、Shaohuai Liu、Weirui Ye。
+## 作者
+
+**共同第一作者**
+
+- Shengjie Wang
+- Shaohuai Liu
+- Weirui Ye
 
 署名方式：原文明确共同一作。
 
-**通讯作者**：Yang Gao。
+**通讯作者**
 
-**论文署名机构**：Tsinghua University；Shanghai Qi Zhi Institute；Shanghai AI Laboratory；Texas A&M University。
+- Yang Gao
+
+## 论文署名机构
+
+- **清华大学**
+- **上海期智研究院**
+- **上海人工智能实验室**
+- **得克萨斯农工大学**
 
 ## 继续看这些团队
 
-- [Tsinghua University](../profiles/institution-i99065089.md)：研究方向、学术入口与本仓作品集。
-- [Shanghai Qi Zhi Institute](../profiles/institution-i4405259049.md)：研究方向、学术入口与本仓作品集。
-- [Shanghai AI Lab](../profiles/shanghai-ai-lab.md)：研究方向、学术入口与本仓作品集。
-- [Texas A&M University](../profiles/organization-c16524fc0e5c.md)：研究方向、学术入口与本仓作品集。
+- [**清华大学**](../profiles/institution-i99065089.md)
+- [**上海期智研究院**](../profiles/institution-i4405259049.md)
+- [**上海人工智能实验室**](../profiles/shanghai-ai-lab.md)
+- [**得克萨斯农工大学**](../profiles/organization-c16524fc0e5c.md)
 
 <details><summary>完整署名作者</summary>
 
 Shengjie Wang、Shaohuai Liu、Weirui Ye、Jiacheng You、Yang Gao
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Tsinghua University
+- Shanghai Qi Zhi Institute
+- Shanghai AI Laboratory
+- Texas A&M University
 
 </details>
 

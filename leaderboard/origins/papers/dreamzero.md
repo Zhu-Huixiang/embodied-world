@@ -2,20 +2,32 @@
 
 World Action Models are Zero-shot Policies
 
-**共同第一作者**：Seonghyeon Ye。
+## 作者
+
+**共同第一作者**
+
+- Seonghyeon Ye
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：NVIDIA。
+## 论文署名机构
+
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [NVIDIA GEAR](../profiles/nvidia-gear.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达 GEAR 研究团队**](../profiles/nvidia-gear.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Seonghyeon Ye、Yunhao Ge、Kaiyuan Zheng、Shenyuan Gao、Sihyun Yu、George Kurian、Suneel Indupuru、You Liang Tan、Chuning Zhu、Jiannan Xiang、Ayaan Malik、Kyungmin Lee、William Liang、Nadun Ranawaka、Jiasheng Gu、Yinzhen Xu、Guanzhi Wang、Fengyuan Hu、Avnish Narayan、Johan Bjorck、Jing Wang、Gwanghyun Kim、Dantong Niu、Ruijie Zheng、Yuqi Xie、Jimmy Wu、Qi Wang、Ryan Julian、Danfei Xu、Yilun Du、Yevgen Chebotar、Scott Reed、Jan Kautz、Yuke Zhu、Linxi "Jim" Fan、Joel Jang
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
 
 </details>
 

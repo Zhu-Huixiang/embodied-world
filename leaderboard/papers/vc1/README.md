@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/022ca1bed6b574b962c48a2856eb207b-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/022ca1bed6b574b962c48a2856eb207b-Paper-Conference.pdf) · [阅读卡片](../../../library/vc1.md)
 
-论文出处：[Arjun Majumdar · Georgia Institute of Technology / Meta FAIR 等5个出处](../../origins/papers/vc1.md)
+论文出处：[**Arjun Majumdar**](../../origins/papers/vc1.md)<br>[佐治亚理工学院 / Meta FAIR 研究院 · 另3个机构](../../origins/papers/vc1.md)
 
 ## 机制简析
 

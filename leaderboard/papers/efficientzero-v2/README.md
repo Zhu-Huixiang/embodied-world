@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v235/wang24at.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24at/wang24at.pdf) · [阅读卡片](../../../library/efficientzero-v2.md)
 
-论文出处：[Shengjie Wang / Shaohuai Liu 等3位 · Tsinghua University / Shanghai Qi Zhi Institute 等4个出处](../../origins/papers/efficientzero-v2.md)
+论文出处：[**Shengjie Wang / Shaohuai Liu 等3位**](../../origins/papers/efficientzero-v2.md)<br>[清华大学 / 上海期智研究院 · 另2个机构](../../origins/papers/efficientzero-v2.md)
 
 ## 机制简析
 

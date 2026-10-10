@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf) · [阅读卡片](../../../library/td3-bc.md)
 
-论文出处：[Scott Fujimoto · Mila - Quebec Artificial Intelligence Institute / McGill University 等3个出处](../../origins/papers/td3-bc.md)
+论文出处：[**Scott Fujimoto**](../../origins/papers/td3-bc.md)<br>[魁北克人工智能研究所（Mila） / 麦吉尔大学 · 另1个机构](../../origins/papers/td3-bc.md)
 
 ## 机制简析
 

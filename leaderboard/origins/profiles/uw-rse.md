@@ -1,8 +1,10 @@
-# University of Washington Robotics and State Estimation Lab（RSE）
+# 华盛顿大学机器人与状态估计实验室（RSE）
 
 研究感知、控制、状态估计、导航、操作与机器人交互。
 
 **类型**：大学实验室。
+
+**英文名称**：University of Washington Robotics and State Estimation Lab（RSE）
 
 ## 官方与学术入口
 

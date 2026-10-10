@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss20/p071.html) · [PDF](https://www.roboticsproceedings.org/rss20/p071.pdf) · [阅读卡片](../../../library/consistency-policy.md)
 
-论文出处：[Aaditya Prasad · Stanford University / Princeton University](../../origins/papers/consistency-policy.md)
+论文出处：[**Aaditya Prasad**](../../origins/papers/consistency-policy.md)<br>[斯坦福大学 / 普林斯顿大学](../../origins/papers/consistency-policy.md)
 
 ## 机制简析
 

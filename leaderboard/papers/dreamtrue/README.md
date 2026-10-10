@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2610.12468v1) · [PDF](https://arxiv.org/pdf/2610.12468v1) · [阅读卡片](../../../library/dreamtrue.md)
 
-论文出处：[Junyan Li · NLPR, Institute of Automation, Chinese Academy of Sciences / Amap, Alibaba Group](../../origins/papers/dreamtrue.md)
+论文出处：[**Junyan Li**](../../origins/papers/dreamtrue.md)<br>[中科院自动化所 NLPR 实验室 / 阿里巴巴高德](../../origins/papers/dreamtrue.md)
 
 ## 机制简析
 

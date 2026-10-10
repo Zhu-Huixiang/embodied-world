@@ -1,8 +1,10 @@
-# Université Paris Saclay
+# 巴黎萨克雷大学
 
 本仓已收录工作主要涉及：具身感知与场景表示。
 
 **类型**：论文署名机构。
+
+**英文名称**：Université Paris Saclay
 
 ## 官方与学术入口
 

@@ -2,20 +2,32 @@
 
 GR00T N1: An Open Foundation Model for Generalist Humanoid Robots
 
-**共同第一作者**：NVIDIA。
+## 作者
+
+**共同第一作者**
+
+- NVIDIA
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：NVIDIA。
+## 论文署名机构
+
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [NVIDIA GEAR](../profiles/nvidia-gear.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达 GEAR 研究团队**](../profiles/nvidia-gear.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 NVIDIA、Johan Bjorck、Fernando Castañeda、Nikita Cherniadev、Xingye Da、Runyu Ding、Linxi "Jim" Fan、Yu Fang、Dieter Fox、Fengyuan Hu、Spencer Huang、Joel Jang、Zhenyu Jiang、Jan Kautz、Kaushil Kundalia、Lawrence Lao、Zhiqi Li、Zongyu Lin、Kevin Lin、Guilin Liu、Edith Llontop、Loic Magne、Ajay Mandlekar、Avnish Narayan、Soroush Nasiriany、Scott Reed、You Liang Tan、Guanzhi Wang、Zu Wang、Jing Wang、Qi Wang、Jiannan Xiang、Yuqi Xie、Yinzhen Xu、Zhenjia Xu、Seonghyeon Ye、Zhiding Yu、Ao Zhang、Hao Zhang、Yizhou Zhao、Ruijie Zheng、Yuke Zhu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
 
 </details>
 

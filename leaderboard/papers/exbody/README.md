@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss20/p107.html) · [PDF](https://www.roboticsproceedings.org/rss20/p107.pdf) · [阅读卡片](../../../library/exbody.md)
 
-论文出处：[Xuxin Cheng / Yandong Ji · University of California San Diego / MIT 等3个出处](../../origins/papers/exbody.md)
+论文出处：[**Xuxin Cheng / Yandong Ji**](../../origins/papers/exbody.md)<br>[加州大学圣迭戈分校 / 麻省理工学院 · 另1个机构](../../origins/papers/exbody.md)
 
 ## 机制简析
 

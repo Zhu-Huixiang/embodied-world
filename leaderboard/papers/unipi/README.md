@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/1d5b9233ad716a43be5c0d3023cb82d0-Paper-Conference.pdf) · [阅读卡片](../../../library/unipi.md)
 
-论文出处：[Yilun Du · MIT / Google DeepMind 等5个出处](../../origins/papers/unipi.md)
+论文出处：[**Yilun Du**](../../origins/papers/unipi.md)<br>[麻省理工学院 / 谷歌 DeepMind · 另3个机构](../../origins/papers/unipi.md)
 
 ## 机制简析
 

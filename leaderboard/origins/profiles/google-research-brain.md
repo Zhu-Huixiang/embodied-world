@@ -1,8 +1,10 @@
-# Google Research / Brain Team
+# 谷歌研究院 / Brain 团队
 
 机器学习基础、注意力模型与视觉表征；Brain Team 保留为论文发表时期的署名。
 
 **类型**：研究团队。
+
+**英文名称**：Google Research / Brain Team
 
 ## 官方与学术入口
 

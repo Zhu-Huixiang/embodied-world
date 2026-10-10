@@ -1,8 +1,10 @@
-# Microsoft Research Asia (China)
+# 微软亚洲研究院
 
 本仓已收录工作主要涉及：视频动作模型与视觉推理。
 
 **类型**：研究机构。
+
+**英文名称**：Microsoft Research Asia (China)
 
 ## 官方与学术入口
 

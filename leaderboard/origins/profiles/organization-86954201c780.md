@@ -1,8 +1,10 @@
-# University of Maryland
+# 马里兰大学
 
 本仓已收录工作主要涉及：操作与动作块。
 
 **类型**：论文署名机构。
+
+**英文名称**：University of Maryland
 
 ## 官方与学术入口
 

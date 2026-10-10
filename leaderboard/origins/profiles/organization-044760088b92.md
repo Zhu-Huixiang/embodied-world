@@ -1,8 +1,10 @@
-# Simon Fraser University
+# 西蒙弗雷泽大学
 
 本仓已收录工作主要涉及：动作先验与全身技能。
 
 **类型**：论文署名机构。
+
+**英文名称**：Simon Fraser University
 
 ## 官方与学术入口
 

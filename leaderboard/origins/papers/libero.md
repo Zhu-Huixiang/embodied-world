@@ -2,22 +2,40 @@
 
 LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning
 
-**共同第一作者**：Bo Liu、Yifeng Zhu、Chongkai Gao。
+## 作者
+
+**共同第一作者**
+
+- Bo Liu
+- Yifeng Zhu
+- Chongkai Gao
 
 署名方式：原文明确共同第一作者。
 
-**论文署名机构**：UT Austin；Sony AI；Tsinghua University。
+## 论文署名机构
+
+- **得克萨斯大学奥斯汀分校**
+- **索尼 AI**
+- **清华大学**
 
 ## 继续看这些团队
 
-- [UT Austin Robot Perception and Learning Lab（RPL）](../profiles/ut-austin-rpl.md)：研究方向、学术入口与本仓作品集。
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
-- [Sony AI](../profiles/organization-a1423391b9ee.md)：研究方向、学术入口与本仓作品集。
-- [Tsinghua University](../profiles/institution-i99065089.md)：研究方向、学术入口与本仓作品集。
+- [**得克萨斯大学奥斯汀分校机器人感知与学习实验室（RPL）**](../profiles/ut-austin-rpl.md)
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
+- [**索尼 AI**](../profiles/organization-a1423391b9ee.md)
+- [**清华大学**](../profiles/institution-i99065089.md)
 
 <details><summary>完整署名作者</summary>
 
 Bo Liu、Yifeng Zhu、Chongkai Gao、Yihao Feng、Qiang Liu、Yuke Zhu、Peter Stone
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UT Austin
+- Sony AI
+- Tsinghua University
 
 </details>
 

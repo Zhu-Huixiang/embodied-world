@@ -2,21 +2,35 @@
 
 What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
 
-**共同第一作者**：Ajay Mandlekar。
+## 作者
+
+**共同第一作者**
+
+- Ajay Mandlekar
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：Stanford University；UT Austin。
+## 论文署名机构
+
+- **斯坦福大学**
+- **得克萨斯大学奥斯汀分校**
 
 ## 继续看这些团队
 
-- [UT Austin Robot Perception and Learning Lab（RPL）](../profiles/ut-austin-rpl.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
+- [**得克萨斯大学奥斯汀分校机器人感知与学习实验室（RPL）**](../profiles/ut-austin-rpl.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
 
 <details><summary>完整署名作者</summary>
 
 Ajay Mandlekar、Danfei Xu、Josiah Wong、Soroush Nasiriany、Chen Wang、Rohun Kulkarni、Li Fei-Fei、Silvio Savarese、Yuke Zhu、Roberto Martín-Martín
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- UT Austin
 
 </details>
 

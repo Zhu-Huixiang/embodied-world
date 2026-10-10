@@ -6,7 +6,7 @@
 
 [原文](https://www.nature.com/articles/s41586-025-08744-2) · [PDF](https://arxiv.org/pdf/2301.04104) · [阅读卡片](../../../library/dreamerv3.md)
 
-论文出处：[Danijar Hafner · Google DeepMind / University of Toronto](../../origins/papers/dreamerv3.md)
+论文出处：[**Danijar Hafner**](../../origins/papers/dreamerv3.md)<br>[谷歌 DeepMind / 多伦多大学](../../origins/papers/dreamerv3.md)
 
 ## 机制简析
 

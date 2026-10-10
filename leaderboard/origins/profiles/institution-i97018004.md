@@ -1,8 +1,10 @@
-# Stanford University
+# 斯坦福大学
 
 本仓已收录工作主要涉及：操作与动作块、视觉语言动作模型 VLA、具身感知与场景表示、世界模型与模型强化学习、视频动作模型与视觉推理、世界动作模型、强化学习与离线决策、Locomotion 与运动适应、Diffusion / Transformer 基础。
 
 **类型**：大学。
+
+**英文名称**：Stanford University
 
 ## 官方与学术入口
 

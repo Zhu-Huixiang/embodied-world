@@ -2,23 +2,43 @@
 
 Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?
 
-**首署名 / 贡献标记作者**：Arjun Majumdar。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Arjun Majumdar
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Georgia Tech；Meta AI；University of Pennsylvania；Stanford University；UC Berkeley。
+## 论文署名机构
+
+- **佐治亚理工学院**
+- **Meta 人工智能研究院（FAIR）**
+- **宾夕法尼亚大学**
+- **斯坦福大学**
+- **加州大学伯克利分校**
 
 ## 继续看这些团队
 
-- [Georgia Institute of Technology](../profiles/institution-i130701444.md)：研究方向、学术入口与本仓作品集。
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [University of Pennsylvania](../profiles/institution-i79576946.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
+- [**佐治亚理工学院**](../profiles/institution-i130701444.md)
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**宾夕法尼亚大学**](../profiles/institution-i79576946.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
 
 <details><summary>完整署名作者</summary>
 
 Arjun Majumdar、Karmesh Yadav、Sergio Arnaud、Yecheng Jason Ma、Claire Chen、Sneha Silwal、Aryan Jain、Vincent-Pierre Berges、Pieter Abbeel、Jitendra Malik、Dhruv Batra、Yixin Lin、Oleksandr Maksymets、Aravind Rajeswaran、Franziska Meier
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Georgia Tech
+- Meta AI
+- University of Pennsylvania
+- Stanford University
+- UC Berkeley
 
 </details>
 

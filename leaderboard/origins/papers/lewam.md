@@ -2,19 +2,31 @@
 
 LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC
 
-**首署名 / 贡献标记作者**：Shashank Hegde。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Shashank Hegde
 
 署名方式：精确论文ID的作者列表。
 
-**论文署名机构**：NVIDIA。
+## 论文署名机构
+
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Shashank Hegde、Alexander Popov、Elie Aljalbout、Nikolai Smolyanskiy
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
 
 </details>
 

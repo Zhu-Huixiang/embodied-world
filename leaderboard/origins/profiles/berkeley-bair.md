@@ -1,8 +1,10 @@
-# UC Berkeley AI Research Lab (BAIR)
+# 加州大学伯克利分校人工智能研究实验室（BAIR）
 
 研究机器学习、视觉、语言、规划控制与机器人等跨方向问题。
 
 **类型**：研究团队。
+
+**英文名称**：UC Berkeley AI Research Lab (BAIR)
 
 ## 官方与学术入口
 

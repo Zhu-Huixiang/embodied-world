@@ -6,7 +6,7 @@
 
 [原文](https://openreview.net/forum?id=wPEIStHxYH) · [PDF](https://arxiv.org/pdf/2601.16163) · [阅读卡片](../../../library/cosmos-policy.md)
 
-论文出处：[Moo Jin Kim · NVIDIA / Stanford University](../../origins/papers/cosmos-policy.md)
+论文出处：[**Moo Jin Kim**](../../origins/papers/cosmos-policy.md)<br>[英伟达 / 斯坦福大学](../../origins/papers/cosmos-policy.md)
 
 ## 机制简析
 

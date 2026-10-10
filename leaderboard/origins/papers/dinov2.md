@@ -2,24 +2,49 @@
 
 DINOv2: Learning Robust Visual Features without Supervision
 
-**首署名 / 贡献标记作者**：Maxime Oquab、Timothée Darcet、Théo Moutakanni。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Maxime Oquab
+- Timothée Darcet
+- Théo Moutakanni
 
 署名方式：原文明确标记等贡献。
 
-**通讯作者**：Timothée Darcet、Théo Moutakanni、Armand Joulin、Piotr Bojanowski。
+**通讯作者**
 
-**论文署名机构**：Meta AI Research；Inria；Université Paris Saclay；ENS-PSL。
+- Timothée Darcet
+- Théo Moutakanni
+- Armand Joulin
+- Piotr Bojanowski
+
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
+- **法国国家信息与自动化研究所（Inria）**
+- **巴黎萨克雷大学**
+- **巴黎高等师范学院（ENS-PSL）**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [Institut national de recherche en sciences et technologies du numérique](../profiles/institution-i1326498283.md)：研究方向、学术入口与本仓作品集。
-- [Université Paris Saclay](../profiles/organization-83741b5c53d7.md)：研究方向、学术入口与本仓作品集。
-- [ENS-PSL](../profiles/organization-bd4519f34c7f.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**法国国家信息与自动化研究所（Inria）**](../profiles/institution-i1326498283.md)
+- [**巴黎萨克雷大学**](../profiles/organization-83741b5c53d7.md)
+- [**巴黎高等师范学院（ENS-PSL）**](../profiles/organization-bd4519f34c7f.md)
 
 <details><summary>完整署名作者</summary>
 
 Maxime Oquab、Timothée Darcet、Théo Moutakanni、Huy Vo、Marc Szafraniec、Vasil Khalidov、Pierre Fernandez、Daniel Haziza、Francisco Massa、Alaaeldin El-Nouby、Mahmoud Assran、Nicolas Ballas、Wojciech Galuba、Russell Howes、Po-Yao Huang、Shang-Wen Li、Ishan Misra、Michael Rabbat、Vasu Sharma、Gabriel Synnaeve、Hu Xu、Hervé Jegou、Julien Mairal、Patrick Labatut、Armand Joulin、Piotr Bojanowski
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Meta AI Research
+- Inria
+- Université Paris Saclay
+- ENS-PSL
 
 </details>
 

@@ -2,27 +2,53 @@
 
 Emerging Properties in Self-Supervised Vision Transformers
 
-**首署名 / 贡献标记作者**：Mathilde Caron。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Mathilde Caron
 
 署名方式：原文首署名作者。
 
-**通讯作者**：Mathilde Caron。
+**通讯作者**
 
-**论文署名机构**：Facebook AI Research；Inria；Sorbonne University；Université Grenoble Alpes；CNRS；Grenoble INP；LJK。
+- Mathilde Caron
+
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
+- **法国国家信息与自动化研究所（Inria）**
+- **索邦大学**
+- **格勒诺布尔阿尔卑斯大学**
+- **法国国家科学研究中心（CNRS）**
+- **格勒诺布尔理工学院**
+- **让·孔茨曼实验室（LJK）**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [Institut national de recherche en sciences et technologies du numérique](../profiles/institution-i1326498283.md)：研究方向、学术入口与本仓作品集。
-- [Sorbonne University](../profiles/organization-43245336ed8d.md)：研究方向、学术入口与本仓作品集。
-- [Université Grenoble Alpes](../profiles/institution-i899635006.md)：研究方向、学术入口与本仓作品集。
-- [CNRS](../profiles/organization-0db43ae22a55.md)：研究方向、学术入口与本仓作品集。
-- [Grenoble INP](../profiles/organization-0873faf01479.md)：研究方向、学术入口与本仓作品集。
-- [LJK](../profiles/organization-0725245cd3d5.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**法国国家信息与自动化研究所（Inria）**](../profiles/institution-i1326498283.md)
+- [**索邦大学**](../profiles/organization-43245336ed8d.md)
+- [**格勒诺布尔阿尔卑斯大学**](../profiles/institution-i899635006.md)
+- [**法国国家科学研究中心（CNRS）**](../profiles/organization-0db43ae22a55.md)
+- [**格勒诺布尔理工学院**](../profiles/organization-0873faf01479.md)
+- [**让·孔茨曼实验室（LJK）**](../profiles/organization-0725245cd3d5.md)
 
 <details><summary>完整署名作者</summary>
 
 Mathilde Caron、Hugo Touvron、Ishan Misra、Hervé Jégou、Julien Mairal、Piotr Bojanowski、Armand Joulin
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Facebook AI Research
+- Inria
+- Sorbonne University
+- Université Grenoble Alpes
+- CNRS
+- Grenoble INP
+- LJK
 
 </details>
 

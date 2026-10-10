@@ -6,7 +6,7 @@
 
 [原文](https://roboticsproceedings.org/rss20/p050.html) · [PDF](https://www.roboticsproceedings.org/rss20/p050.pdf) · [阅读卡片](../../../library/robocasa.md)
 
-论文出处：[Soroush Nasiriany · UT Austin Robot Perception and Learning Lab（RPL） / The University of Texas at Austin 等3个出处](../../origins/papers/robocasa.md)
+论文出处：[**Soroush Nasiriany**](../../origins/papers/robocasa.md)<br>[得克萨斯大学奥斯汀分校 RPL 实验室 / 英伟达](../../origins/papers/robocasa.md)
 
 ## 机制简析
 

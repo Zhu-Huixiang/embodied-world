@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [阅读卡片](../../../library/td-mpc2.md)
 
-论文出处：[Nicklas Hansen · University of California San Diego](../../origins/papers/td-mpc2.md)
+论文出处：[**Nicklas Hansen**](../../origins/papers/td-mpc2.md)<br>[加州大学圣迭戈分校](../../origins/papers/td-mpc2.md)
 
 ## 机制简析
 

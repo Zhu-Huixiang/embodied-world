@@ -2,20 +2,34 @@
 
 Walk These Ways: Tuning Robot Control for Generalization with Multiplicity of Behavior
 
-**首署名 / 贡献标记作者**：Gabriel B. Margolis。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Gabriel B. Margolis
 
 署名方式：精确论文ID的作者列表。
 
-**论文署名机构**：MIT；Improbable AI Lab, MIT。
+## 论文署名机构
+
+- **麻省理工学院**
+- **麻省理工学院 Improbable AI 实验室**
 
 ## 继续看这些团队
 
-- [Massachusetts Institute of Technology](../profiles/institution-i63966007.md)：研究方向、学术入口与本仓作品集。
-- [Improbable AI Lab, MIT](../profiles/organization-097f98bc9e89.md)：研究方向、学术入口与本仓作品集。
+- [**麻省理工学院**](../profiles/institution-i63966007.md)
+- [**麻省理工学院 Improbable AI 实验室**](../profiles/organization-097f98bc9e89.md)
 
 <details><summary>完整署名作者</summary>
 
 Gabriel B. Margolis、Pulkit Agrawal
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- MIT
+- Improbable AI Lab, MIT
 
 </details>
 

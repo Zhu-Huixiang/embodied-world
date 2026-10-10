@@ -2,20 +2,34 @@
 
 Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation
 
-**首署名 / 贡献标记作者**：Aaditya Prasad。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Aaditya Prasad
 
 署名方式：精确论文ID的作者列表。
 
-**论文署名机构**：Stanford University；Princeton University。
+## 论文署名机构
+
+- **斯坦福大学**
+- **普林斯顿大学**
 
 ## 继续看这些团队
 
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [Princeton University](../profiles/institution-i20089843.md)：研究方向、学术入口与本仓作品集。
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**普林斯顿大学**](../profiles/institution-i20089843.md)
 
 <details><summary>完整署名作者</summary>
 
 Aaditya Prasad、Kevin Lin、Jimmy Wu、Linqi Zhou、Jeannette Bohg
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- Princeton University
 
 </details>
 

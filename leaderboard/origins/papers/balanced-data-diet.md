@@ -2,20 +2,34 @@
 
 A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control
 
-**首署名 / 贡献标记作者**：Octi Zhang。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Octi Zhang
 
 署名方式：精确论文ID的作者列表。
 
-**论文署名机构**：University of Washington；NVIDIA。
+## 论文署名机构
+
+- **华盛顿大学**
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [University of Washington](../profiles/institution-i201448701.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**华盛顿大学**](../profiles/institution-i201448701.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Octi Zhang、Mateo Guaman Castro、Patrick Yin、Ignacio Dagnino、Abhishek Gupta、Rosario Scalise、Byron Boots
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- University of Washington
+- NVIDIA
 
 </details>
 

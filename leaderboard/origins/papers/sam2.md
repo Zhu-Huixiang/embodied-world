@@ -2,19 +2,31 @@
 
 SAM 2: Segment Anything in Images and Videos
 
-**首署名 / 贡献标记作者**：Nikhila Ravi。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Nikhila Ravi
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Meta FAIR。
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
 
 <details><summary>完整署名作者</summary>
 
 Nikhila Ravi、Valentin Gabeur、Yuan-Ting Hu、Ronghang Hu、Chaitanya Ryali、Tengyu Ma、Haitham Khedr、Roman Rädle、Chloe Rolland、Laura Gustafson、Eric Mintun、Junting Pan、Kalyan Vasudev Alwala、Nicolas Carion、Chao-Yuan Wu、Ross Girshick、Piotr Dollár、Christoph Feichtenhofer
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Meta FAIR
 
 </details>
 

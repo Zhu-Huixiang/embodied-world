@@ -1,8 +1,10 @@
-# Google Research
+# 谷歌研究院
 
 本仓已收录工作主要涉及：视觉语言动作模型 VLA、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频与序列生成。
 
 **类型**：论文署名机构。
+
+**英文名称**：Google Research
 
 ## 官方与学术入口
 

@@ -1,8 +1,10 @@
-# Ludwig Maximilian University of Munich
+# 慕尼黑大学
 
 本仓已收录工作主要涉及：Diffusion / Transformer 基础。
 
 **类型**：论文署名机构。
+
+**英文名称**：Ludwig Maximilian University of Munich
 
 ## 官方与学术入口
 

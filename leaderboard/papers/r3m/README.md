@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v205/nair23a.html) · [PDF](https://proceedings.mlr.press/v205/nair23a/nair23a.pdf) · [阅读卡片](../../../library/r3m.md)
 
-论文出处：[Suraj Nair · Stanford University / Meta FAIR](../../origins/papers/r3m.md)
+论文出处：[**Suraj Nair**](../../origins/papers/r3m.md)<br>[斯坦福大学 / Meta FAIR 研究院](../../origins/papers/r3m.md)
 
 ## 机制简析
 

@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss21/p066.html) · [PDF](https://agile.human2humanoid.com/static/asap.pdf) · [阅读卡片](../../../library/asap.md)
 
-论文出处：[Tairan He / Jiawei Gao 等4位 · CMU LeCAR Lab / NVIDIA GEAR 等4个出处](../../origins/papers/asap.md)
+论文出处：[**Tairan He / Jiawei Gao 等4位**](../../origins/papers/asap.md)<br>[卡内基梅隆 LeCAR 实验室 / 英伟达 GEAR 研究团队 · 另1个机构](../../origins/papers/asap.md)
 
 ## 机制简析
 

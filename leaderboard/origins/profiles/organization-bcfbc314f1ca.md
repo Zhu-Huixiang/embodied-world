@@ -1,8 +1,10 @@
-# Polytechnique Montréal
+# 蒙特利尔理工学院
 
 本仓已收录工作主要涉及：世界模型与模型强化学习。
 
 **类型**：论文署名机构。
+
+**英文名称**：Polytechnique Montréal
 
 ## 官方与学术入口
 

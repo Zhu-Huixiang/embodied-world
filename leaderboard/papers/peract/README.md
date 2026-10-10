@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v205/shridhar23a.html) · [PDF](https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf) · [阅读卡片](../../../library/peract.md)
 
-论文出处：[Mohit Shridhar · University of Washington Robotics and State Estimation Lab（RSE） / University of Washington 等3个出处](../../origins/papers/peract.md)
+论文出处：[**Mohit Shridhar**](../../origins/papers/peract.md)<br>[华盛顿大学 RSE 实验室 / 英伟达](../../origins/papers/peract.md)
 
 ## 机制简析
 

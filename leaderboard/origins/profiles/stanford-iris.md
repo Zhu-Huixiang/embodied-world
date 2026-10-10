@@ -1,8 +1,10 @@
-# Stanford IRIS（Intelligence through Robotic Interaction at Scale）
+# 斯坦福大学 IRIS 实验室
 
 研究机器人与机器学习，通过学习和物理交互形成可泛化的智能行为。
 
 **类型**：大学实验室。
+
+**英文名称**：Stanford IRIS（Intelligence through Robotic Interaction at Scale）
 
 ## 官方与学术入口
 

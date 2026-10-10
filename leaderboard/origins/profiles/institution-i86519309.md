@@ -1,8 +1,10 @@
-# The University of Texas at Austin
+# 得克萨斯大学奥斯汀分校
 
 本仓已收录工作主要涉及：操作与动作块、视觉语言动作模型 VLA、视频与序列生成、Diffusion / Transformer 基础、Locomotion 与运动适应。
 
 **类型**：大学。
+
+**英文名称**：The University of Texas at Austin
 
 ## 官方与学术入口
 

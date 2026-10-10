@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v270/fu25a.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25a/fu25a.pdf) · [阅读卡片](../../../library/humanplus.md)
 
-论文出处：[Zipeng Fu · Stanford University](../../origins/papers/humanplus.md)
+论文出处：[**Zipeng Fu**](../../origins/papers/humanplus.md)<br>[斯坦福大学](../../origins/papers/humanplus.md)
 
 ## 机制简析
 

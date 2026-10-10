@@ -2,23 +2,42 @@
 
 V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning
 
-**首署名 / 贡献标记作者**：Mahmoud Assran。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Mahmoud Assran
 
 署名方式：原文首署名作者。
 
-**通讯作者**：Nicolas Ballas、Michael Rabbat。
+**通讯作者**
 
-**论文署名机构**：FAIR at Meta；Mila – Quebec AI Institute；Polytechnique Montréal。
+- Nicolas Ballas
+- Michael Rabbat
+
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
+- **魁北克人工智能研究所（Mila）**
+- **蒙特利尔理工学院**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [Mila - Quebec Artificial Intelligence Institute](../profiles/institution-i4210164802.md)：研究方向、学术入口与本仓作品集。
-- [Polytechnique Montréal](../profiles/organization-bcfbc314f1ca.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**魁北克人工智能研究所（Mila）**](../profiles/institution-i4210164802.md)
+- [**蒙特利尔理工学院**](../profiles/organization-bcfbc314f1ca.md)
 
 <details><summary>完整署名作者</summary>
 
 Mido Assran、Adrien Bardes、David Fan、Quentin Garrido、Russell Howes、Mojtaba、Komeili、Matthew Muckley、Ammar Rizvi、Claire Roberts、Koustuv Sinha、Artem Zholus、Sergio Arnaud、Abha Gejji、Ada Martin、Francois Robert Hogan、Daniel Dugas、Piotr Bojanowski、Vasil Khalidov、Patrick Labatut、Francisco Massa、Marc Szafraniec、Kapil Krishnakumar、Yong Li、Xiaodong Ma、Sarath Chandar、Franziska Meier、Yann LeCun、Michael Rabbat、Nicolas Ballas
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- FAIR at Meta
+- Mila – Quebec AI Institute
+- Polytechnique Montréal
 
 </details>
 

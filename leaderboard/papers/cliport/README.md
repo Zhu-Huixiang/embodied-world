@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v164/shridhar22a.html) · [PDF](https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf) · [阅读卡片](../../../library/cliport.md)
 
-论文出处：[Mohit Shridhar · University of Washington Robotics and State Estimation Lab（RSE） / University of Washington 等3个出处](../../origins/papers/cliport.md)
+论文出处：[**Mohit Shridhar**](../../origins/papers/cliport.md)<br>[华盛顿大学 RSE 实验室 / 英伟达](../../origins/papers/cliport.md)
 
 ## 机制简析
 

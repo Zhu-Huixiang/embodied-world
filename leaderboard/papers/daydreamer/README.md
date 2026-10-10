@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v205/wu23c.html) · [PDF](https://proceedings.mlr.press/v205/wu23c/wu23c.pdf) · [阅读卡片](../../../library/daydreamer.md)
 
-论文出处：[Philipp Wu / Alejandro Escontrela 等3位 · UC Berkeley](../../origins/papers/daydreamer.md)
+论文出处：[**Philipp Wu / Alejandro Escontrela 等3位**](../../origins/papers/daydreamer.md)<br>[加州大学伯克利分校](../../origins/papers/daydreamer.md)
 
 ## 机制简析
 

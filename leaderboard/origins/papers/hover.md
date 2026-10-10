@@ -2,24 +2,45 @@
 
 HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots
 
-**共同第一作者**：Tairan He、Wenli Xiao。
+## 作者
+
+**共同第一作者**
+
+- Tairan He
+- Wenli Xiao
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：NVIDIA；Carnegie Mellon University (CMU)；University of California, Berkeley (UC Berkeley)；University of Texas at Austin (UT Austin)；University of California, San Diego (UC San Diego)。
+## 论文署名机构
+
+- **英伟达研究院**
+- **卡内基梅隆大学**
+- **加州大学伯克利分校**
+- **得克萨斯大学奥斯汀分校**
+- **加州大学圣迭戈分校**
 
 ## 继续看这些团队
 
-- [NVIDIA GEAR](../profiles/nvidia-gear.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [Carnegie Mellon University](../profiles/institution-i74973139.md)：研究方向、学术入口与本仓作品集。
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
-- [University of California San Diego](../profiles/institution-i36258959.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达 GEAR 研究团队**](../profiles/nvidia-gear.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**卡内基梅隆大学**](../profiles/institution-i74973139.md)
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
+- [**加州大学圣迭戈分校**](../profiles/institution-i36258959.md)
 
 <details><summary>完整署名作者</summary>
 
 Tairan He、Wenli Xiao、Toru Lin、Zhengyi Luo、Zhenjia Xu、Zhenyu Jiang、Jan Kautz、Changliu Liu、Guanya Shi、Xiaolong Wang、Linxi Fan、Yuke Zhu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
+- Carnegie Mellon University (CMU)
+- University of California, Berkeley (UC Berkeley)
+- University of Texas at Austin (UT Austin)
+- University of California, San Diego (UC San Diego)
 
 </details>
 

@@ -6,7 +6,7 @@
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [PDF](https://arxiv.org/pdf/2110.05113) · [阅读卡片](../../../library/agile-flight.md)
 
-论文出处：[Antonio Loquercio / Elia Kaufmann · University of Zurich / UZH Robotics and Perception Group 等3个出处](../../origins/papers/agile-flight.md)
+论文出处：[**Antonio Loquercio / Elia Kaufmann**](../../origins/papers/agile-flight.md)<br>[苏黎世大学 RPG 团队 / 英特尔智能系统实验室](../../origins/papers/agile-flight.md)
 
 ## 机制简析
 

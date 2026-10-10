@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss20/p090.html) · [PDF](https://roboticsproceedings.org/rss20/p090.pdf) · [阅读卡片](../../../library/octo.md)
 
-论文出处：[Dibya Ghosh / Homer Walke 等5位 · Stanford IRIS（Intelligence through Robotic Interaction at Scale） / UC Berkeley RAIL 等6个出处](../../origins/papers/octo.md)
+论文出处：[**Dibya Ghosh / Homer Walke 等5位**](../../origins/papers/octo.md)<br>[斯坦福 IRIS 实验室 / 伯克利 RAIL 实验室 · 另2个机构](../../origins/papers/octo.md)
 
 ## 机制简析
 

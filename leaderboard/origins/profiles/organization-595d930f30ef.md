@@ -1,8 +1,10 @@
-# Max Planck Institute for Intelligent Systems
+# 马克斯·普朗克智能系统研究所
 
 本仓已收录工作主要涉及：视觉语言动作模型 VLA。
 
 **类型**：论文署名机构。
+
+**英文名称**：Max Planck Institute for Intelligent Systems
 
 ## 官方与学术入口
 

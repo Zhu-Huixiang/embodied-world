@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2609.35709v1) · [PDF](https://arxiv.org/pdf/2609.35709v1) · [阅读卡片](../../../library/holo-m.md)
 
-论文出处：[Wenxin Shao / Siqi Chai 等3位 · Horizon Robotics GAIL / Horizon Robotics (China)](../../origins/papers/holo-m.md)
+论文出处：[**Wenxin Shao / Siqi Chai 等3位**](../../origins/papers/holo-m.md)<br>[地平线 GAIL 研究团队 / 地平线机器人](../../origins/papers/holo-m.md)
 
 [完整中文解读与全篇架构图](../../../articles/holo-m-2609.35709/README.md)
 

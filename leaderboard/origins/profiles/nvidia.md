@@ -1,8 +1,10 @@
-# NVIDIA Research
+# 英伟达研究院
 
 本仓已收录工作主要涉及：操作与动作块、Locomotion 与运动适应、视觉语言动作模型 VLA、世界动作模型、动作先验与全身技能、视频动作模型与视觉推理、Diffusion / Transformer 基础、强化学习与离线决策。
 
 **类型**：研究机构。
+
+**英文名称**：NVIDIA Research
 
 ## 官方与学术入口
 

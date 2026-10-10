@@ -2,20 +2,35 @@
 
 Ctrl-World: A Controllable Generative World Model for Robot Manipulation
 
-**首署名 / 贡献标记作者**：Yanjiang Guo、Lucy Xiaoyang Shi。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Yanjiang Guo
+- Lucy Xiaoyang Shi
 
 署名方式：官方项目署名的共同贡献标记；原文作者脚注互证。
 
-**论文署名机构**：Stanford University；Tsinghua University。
+## 论文署名机构
+
+- **斯坦福大学**
+- **清华大学**
 
 ## 继续看这些团队
 
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [Tsinghua University](../profiles/institution-i99065089.md)：研究方向、学术入口与本仓作品集。
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**清华大学**](../profiles/institution-i99065089.md)
 
 <details><summary>完整署名作者</summary>
 
 Yanjiang Guo、Lucy Xiaoyang Shi、Jianyu Chen、Chelsea Finn
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- Tsinghua University
 
 </details>
 

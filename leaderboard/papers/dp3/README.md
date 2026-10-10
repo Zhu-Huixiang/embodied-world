@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss20/p067.html) · [PDF](https://www.roboticsproceedings.org/rss20/p067.pdf) · [阅读卡片](../../../library/dp3.md)
 
-论文出处：[Yanjie Ze / Gu Zhang · Tsinghua Embodied AI Lab／清华具身智能实验室 / Shanghai Qi Zhi Institute 等5个出处](../../origins/papers/dp3.md)
+论文出处：[**Yanjie Ze / Gu Zhang**](../../origins/papers/dp3.md)<br>[清华具身智能实验室 / 上海期智研究院 · 另3个机构](../../origins/papers/dp3.md)
 
 ## 机制简析
 

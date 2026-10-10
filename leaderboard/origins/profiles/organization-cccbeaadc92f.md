@@ -1,8 +1,10 @@
-# Intelligent Systems Lab, Intel
+# 英特尔智能系统实验室
 
 本仓已收录工作主要涉及：Locomotion 与运动适应。
 
 **类型**：论文署名机构。
+
+**英文名称**：Intelligent Systems Lab, Intel
 
 ## 官方与学术入口
 

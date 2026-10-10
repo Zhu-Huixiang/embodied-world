@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2610.12285v1) · [PDF](https://arxiv.org/pdf/2610.12285v1) · [阅读卡片](../../../library/plaw-vla.md)
 
-论文出处：[Yu Liu / Hetian Guo · Jilin University / Astribot 等5个出处](../../origins/papers/plaw-vla.md)
+论文出处：[**Yu Liu / Hetian Guo**](../../origins/papers/plaw-vla.md)<br>[吉林大学 / 星尘智能 · 另3个机构](../../origins/papers/plaw-vla.md)
 
 ## 机制简析
 

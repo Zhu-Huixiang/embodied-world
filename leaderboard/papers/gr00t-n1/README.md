@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2503.14734) · [PDF](https://arxiv.org/pdf/2503.14734v2) · [阅读卡片](../../../library/gr00t-n1.md)
 
-论文出处：[NVIDIA · NVIDIA GEAR / NVIDIA](../../origins/papers/gr00t-n1.md)
+论文出处：[**NVIDIA**](../../origins/papers/gr00t-n1.md)<br>[英伟达 GEAR 研究团队 / 英伟达](../../origins/papers/gr00t-n1.md)
 
 ## 机制简析
 

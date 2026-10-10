@@ -6,7 +6,7 @@
 
 [原文](https://ieeexplore.ieee.org/abstract/document/10161144/) · [PDF](https://arxiv.org/pdf/2301.10602) · [阅读卡片](../../../library/dreamwaq.md)
 
-论文出处：[I Made Aswin Nahrendra · Korea Advanced Institute of Science and Technology](../../origins/papers/dreamwaq.md)
+论文出处：[**I Made Aswin Nahrendra**](../../origins/papers/dreamwaq.md)<br>[韩国科学技术院（KAIST）](../../origins/papers/dreamwaq.md)
 
 ## 机制简析
 

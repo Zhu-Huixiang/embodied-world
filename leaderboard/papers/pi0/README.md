@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss21/p010.html) · [PDF](https://www.roboticsproceedings.org/rss21/p010.pdf) · [阅读卡片](../../../library/pi0.md)
 
-论文出处：[Physical Intelligence · Physical Intelligence](../../origins/papers/pi0.md)
+论文出处：[**Physical Intelligence**](../../origins/papers/pi0.md)<br>[Physical Intelligence](../../origins/papers/pi0.md)
 
 ## 机制简析
 

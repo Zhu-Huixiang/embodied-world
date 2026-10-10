@@ -1,8 +1,10 @@
-# UT Austin Robot Perception and Learning Lab（RPL）
+# 得克萨斯大学奥斯汀分校机器人感知与学习实验室（RPL）
 
 研究机器人与具身智能的感知行动闭环及通用机器人自主性。
 
 **类型**：大学实验室。
+
+**英文名称**：UT Austin Robot Perception and Learning Lab（RPL）
 
 ## 官方与学术入口
 

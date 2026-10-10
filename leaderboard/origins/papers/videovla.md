@@ -2,23 +2,43 @@
 
 VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
 
-**首署名 / 贡献标记作者**：Yichao Shen。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Yichao Shen
 
 署名方式：原文首署名 Yichao Shen；†标实习生，‡标通讯作者。
 
-**通讯作者**：Fangyun Wei、Jiaolong Yang、Nanning Zheng。
+**通讯作者**
 
-**论文署名机构**：IAIR, Xi’an Jiaotong University；Microsoft Research Asia；Fudan University。
+- Fangyun Wei
+- Jiaolong Yang
+- Nanning Zheng
+
+## 论文署名机构
+
+- **西安交通大学人工智能与机器人研究所**
+- **微软亚洲研究院**
+- **复旦大学**
 
 ## 继续看这些团队
 
-- [IAIR, Xi’an Jiaotong University](../profiles/organization-8fecd433b4f5.md)：研究方向、学术入口与本仓作品集。
-- [Microsoft Research Asia (China)](../profiles/institution-i4210113369.md)：研究方向、学术入口与本仓作品集。
-- [Fudan University](../profiles/institution-i24943067.md)：研究方向、学术入口与本仓作品集。
+- [**西安交通大学人工智能与机器人研究所**](../profiles/organization-8fecd433b4f5.md)
+- [**微软亚洲研究院**](../profiles/institution-i4210113369.md)
+- [**复旦大学**](../profiles/institution-i24943067.md)
 
 <details><summary>完整署名作者</summary>
 
 Yichao Shen、Fangyun Wei、Zhiying Du、Yaobo Liang、Yan Lu、Jiaolong Yang、Nanning Zheng、Baining Guo
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- IAIR, Xi’an Jiaotong University
+- Microsoft Research Asia
+- Fudan University
 
 </details>
 

@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss19/p056.html) · [PDF](https://www.roboticsproceedings.org/rss19/p056.pdf) · [阅读卡片](../../../library/walk-in-the-park.md)
 
-论文出处：[Laura Smith / Ilya Kostrikov · UC Berkeley / UC Berkeley AI Research Lab (BAIR)](../../origins/papers/walk-in-the-park.md)
+论文出处：[**Laura Smith / Ilya Kostrikov**](../../origins/papers/walk-in-the-park.md)<br>[伯克利 BAIR 实验室](../../origins/papers/walk-in-the-park.md)
 
 ## 机制简析
 

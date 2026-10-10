@@ -6,7 +6,7 @@
 
 [原文](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) · [PDF](https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) · [阅读卡片](../../../library/attention.md)
 
-论文出处：[Ashish Vaswani / Noam Shazeer 等8位 · Google Research / Brain Team / Google Research 等3个出处](../../origins/papers/attention.md)
+论文出处：[**Ashish Vaswani / Noam Shazeer 等8位**](../../origins/papers/attention.md)<br>[谷歌研究院 / Brain 团队 / 多伦多大学](../../origins/papers/attention.md)
 
 ## 机制简析
 

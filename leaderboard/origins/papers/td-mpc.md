@@ -2,21 +2,35 @@
 
 Temporal Difference Learning for Model Predictive Control
 
-**首署名 / 贡献标记作者**：Nicklas Hansen。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Nicklas Hansen
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**通讯作者**：Nicklas Hansen。
+**通讯作者**
 
-**论文署名机构**：UC San Diego。
+- Nicklas Hansen
+
+## 论文署名机构
+
+- **加州大学圣迭戈分校**
 
 ## 继续看这些团队
 
-- [University of California San Diego](../profiles/institution-i36258959.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学圣迭戈分校**](../profiles/institution-i36258959.md)
 
 <details><summary>完整署名作者</summary>
 
 Nicklas Hansen、Xiaolong Wang、Hao Su
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC San Diego
 
 </details>
 

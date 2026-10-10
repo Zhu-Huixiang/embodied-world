@@ -1,8 +1,10 @@
-# Korea Advanced Institute of Science and Technology
+# 韩国科学技术院（KAIST）
 
 本仓已收录工作主要涉及：Locomotion 与运动适应、操作与动作块。
 
 **类型**：大学。
+
+**英文名称**：Korea Advanced Institute of Science and Technology
 
 ## 官方与学术入口
 

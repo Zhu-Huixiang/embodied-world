@@ -2,21 +2,35 @@
 
 CLIPort: What and Where Pathways for Robotic Manipulation
 
-**共同第一作者**：Mohit Shridhar。
+## 作者
+
+**共同第一作者**
+
+- Mohit Shridhar
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：University of Washington；NVIDIA。
+## 论文署名机构
+
+- **华盛顿大学**
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [University of Washington Robotics and State Estimation Lab（RSE）](../profiles/uw-rse.md)：研究方向、学术入口与本仓作品集。
-- [University of Washington](../profiles/institution-i201448701.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**华盛顿大学机器人与状态估计实验室（RSE）**](../profiles/uw-rse.md)
+- [**华盛顿大学**](../profiles/institution-i201448701.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Mohit Shridhar、Lucas Manuelli、Dieter Fox
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- University of Washington
+- NVIDIA
 
 </details>
 

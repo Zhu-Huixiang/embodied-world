@@ -1,8 +1,10 @@
-# University of Sydney
+# 悉尼大学
 
 本仓已收录工作主要涉及：视觉语言动作模型 VLA。
 
 **类型**：论文署名机构。
+
+**英文名称**：University of Sydney
 
 ## 官方与学术入口
 

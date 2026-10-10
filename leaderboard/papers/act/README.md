@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss19/p016.html) · [PDF](https://www.roboticsproceedings.org/rss19/p016.pdf) · [阅读卡片](../../../library/act.md)
 
-论文出处：[Tony Z. Zhao · Stanford IRIS（Intelligence through Robotic Interaction at Scale） / UC Berkeley RAIL 等5个出处](../../origins/papers/act.md)
+论文出处：[**Tony Z. Zhao**](../../origins/papers/act.md)<br>[斯坦福 IRIS 实验室 / 伯克利 RAIL 实验室 · 另1个机构](../../origins/papers/act.md)
 
 ## 机制简析
 

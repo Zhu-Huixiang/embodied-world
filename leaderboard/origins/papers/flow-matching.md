@@ -2,20 +2,34 @@
 
 Flow Matching for Generative Modeling
 
-**首署名 / 贡献标记作者**：Yaron Lipman。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Yaron Lipman
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Meta FAIR；Weizmann Institute of Science。
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
+- **魏茨曼科学研究所**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [Weizmann Institute of Science](../profiles/organization-9bf9b55ec0a7.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**魏茨曼科学研究所**](../profiles/organization-9bf9b55ec0a7.md)
 
 <details><summary>完整署名作者</summary>
 
 Yaron Lipman、Ricky T. Q. Chen、Heli Ben-Hamu、Maximilian Nickel、Matt Le
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Meta FAIR
+- Weizmann Institute of Science
 
 </details>
 

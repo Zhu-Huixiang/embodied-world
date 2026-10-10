@@ -2,22 +2,41 @@
 
 Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning
 
-**共同第一作者**：Mitsuhiko Nakamoto、Yuexiang Zhai。
+## 作者
+
+**共同第一作者**
+
+- Mitsuhiko Nakamoto
+- Yuexiang Zhai
 
 署名方式：原文明确共同一作。
 
-**通讯作者**：Mitsuhiko Nakamoto、Yuexiang Zhai、Aviral Kumar。
+**通讯作者**
 
-**论文署名机构**：UC Berkeley；Stanford University。
+- Mitsuhiko Nakamoto
+- Yuexiang Zhai
+- Aviral Kumar
+
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **斯坦福大学**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
 
 <details><summary>完整署名作者</summary>
 
 Mitsuhiko Nakamoto、Simon Zhai、Anikait Singh、Max Sobol Mark、Yi Ma、Chelsea Finn、Aviral Kumar、Sergey Levine
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- Stanford University
 
 </details>
 

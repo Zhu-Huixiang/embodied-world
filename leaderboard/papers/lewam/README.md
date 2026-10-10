@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2610.12407v1) · [PDF](https://arxiv.org/pdf/2610.12407v1) · [阅读卡片](../../../library/lewam.md)
 
-论文出处：[Shashank Hegde · NVIDIA](../../origins/papers/lewam.md)
+论文出处：[**Shashank Hegde**](../../origins/papers/lewam.md)<br>[英伟达](../../origins/papers/lewam.md)
 
 ## 机制简析
 

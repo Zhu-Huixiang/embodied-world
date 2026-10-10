@@ -2,20 +2,34 @@
 
 VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
 
-**首署名 / 贡献标记作者**：Yecheng Jason Ma。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Yecheng Jason Ma
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Meta AI；University of Pennsylvania。
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
+- **宾夕法尼亚大学**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [University of Pennsylvania](../profiles/institution-i79576946.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**宾夕法尼亚大学**](../profiles/institution-i79576946.md)
 
 <details><summary>完整署名作者</summary>
 
 Yecheng Jason Ma、Shagun Sodhani、Dinesh Jayaraman、Osbert Bastani、Vikash Kumar、Amy Zhang
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Meta AI
+- University of Pennsylvania
 
 </details>
 

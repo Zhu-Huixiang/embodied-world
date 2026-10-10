@@ -2,22 +2,39 @@
 
 ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills
 
-**共同第一作者**：Tairan He、Jiawei Gao、Wenli Xiao、Yuanhang Zhang。
+## 作者
+
+**共同第一作者**
+
+- Tairan He
+- Jiawei Gao
+- Wenli Xiao
+- Yuanhang Zhang
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：Carnegie Mellon University；NVIDIA。
+## 论文署名机构
+
+- **卡内基梅隆大学**
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [CMU LeCAR Lab](../profiles/cmu-lecar.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA GEAR](../profiles/nvidia-gear.md)：研究方向、学术入口与本仓作品集。
-- [Carnegie Mellon University](../profiles/institution-i74973139.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**卡内基梅隆大学 LeCAR 实验室**](../profiles/cmu-lecar.md)
+- [**英伟达 GEAR 研究团队**](../profiles/nvidia-gear.md)
+- [**卡内基梅隆大学**](../profiles/institution-i74973139.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Tairan He、Jiawei Gao、Wenli Xiao、Yuanhang Zhang、Zi Wang、Jiashun Wang、Zhengyi Luo、Guanqi He、Nikhil Sobanbab、Chaoyi Pan、Zeji Yi、Guannan Qu、Kris Kitani、Jessica Hodgins、Linxi "Jim" Fan、Yuke Zhu、Changliu Liu、Guanya Shi
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Carnegie Mellon University
+- NVIDIA
 
 </details>
 

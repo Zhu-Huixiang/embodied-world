@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v139/radford21a.html) · [PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [阅读卡片](../../../library/clip.md)
 
-论文出处：[Alec Radford / Jong Wook Kim · OpenAI](../../origins/papers/clip.md)
+论文出处：[**Alec Radford / Jong Wook Kim**](../../origins/papers/clip.md)<br>[OpenAI](../../origins/papers/clip.md)
 
 ## 机制简析
 

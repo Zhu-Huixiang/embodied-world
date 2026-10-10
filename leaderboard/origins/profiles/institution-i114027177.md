@@ -1,8 +1,10 @@
-# University of North Carolina at Chapel Hill
+# 北卡罗来纳大学教堂山分校
 
 本仓已收录工作主要涉及：视频动作模型与视觉推理。
 
 **类型**：研究机构。
+
+**英文名称**：University of North Carolina at Chapel Hill
 
 ## 官方与学术入口
 

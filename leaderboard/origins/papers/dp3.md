@@ -2,23 +2,42 @@
 
 3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations
 
-**共同第一作者**：Yanjie Ze、Gu Zhang。
+## 作者
+
+**共同第一作者**
+
+- Yanjie Ze
+- Gu Zhang
 
 署名方式：原文明确共同第一作者。
 
-**论文署名机构**：Shanghai Qizhi Institute；Shanghai Jiao Tong University；Tsinghua University, IIIS；Shanghai AI Lab。
+## 论文署名机构
+
+- **上海期智研究院**
+- **上海交通大学**
+- **清华大学交叉信息研究院**
+- **上海人工智能实验室**
 
 ## 继续看这些团队
 
-- [Tsinghua Embodied AI Lab／清华具身智能实验室](../profiles/tsinghua-embodied-ai.md)：研究方向、学术入口与本仓作品集。
-- [Shanghai Qi Zhi Institute](../profiles/institution-i4405259049.md)：研究方向、学术入口与本仓作品集。
-- [Shanghai Jiao Tong University](../profiles/institution-i183067930.md)：研究方向、学术入口与本仓作品集。
-- [Tsinghua University, IIIS](../profiles/organization-111ccd579379.md)：研究方向、学术入口与本仓作品集。
-- [Shanghai AI Lab](../profiles/shanghai-ai-lab.md)：研究方向、学术入口与本仓作品集。
+- [**清华大学具身智能实验室**](../profiles/tsinghua-embodied-ai.md)
+- [**上海期智研究院**](../profiles/institution-i4405259049.md)
+- [**上海交通大学**](../profiles/institution-i183067930.md)
+- [**清华大学交叉信息研究院**](../profiles/organization-111ccd579379.md)
+- [**上海人工智能实验室**](../profiles/shanghai-ai-lab.md)
 
 <details><summary>完整署名作者</summary>
 
 Yanjie Ze、Gu Zhang、Kangning Zhang、Chenyuan Hu、Muhan Wang、Huazhe Xu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Shanghai Qizhi Institute
+- Shanghai Jiao Tong University
+- Tsinghua University, IIIS
+- Shanghai AI Lab
 
 </details>
 

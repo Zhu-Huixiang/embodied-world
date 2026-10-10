@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2021/file/d5eca8dc3820cad9fe56a3bafda65ca1-Paper.pdf) · [阅读卡片](../../../library/efficientzero.md)
 
-论文出处：[Weirui Ye · Tsinghua University / UC Berkeley 等3个出处](../../origins/papers/efficientzero.md)
+论文出处：[**Weirui Ye**](../../origins/papers/efficientzero.md)<br>[清华大学 / 加州大学伯克利分校 · 另1个机构](../../origins/papers/efficientzero.md)
 
 ## 机制简析
 

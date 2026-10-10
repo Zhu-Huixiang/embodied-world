@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2610.12386v1) · [PDF](https://arxiv.org/pdf/2610.12386v1) · [阅读卡片](../../../library/arc.md)
 
-论文出处：[Gokul Puthumanaillam · University of Illinois Urbana-Champaign / Stanford University 等5个出处](../../origins/papers/arc.md)
+论文出处：[**Gokul Puthumanaillam**](../../origins/papers/arc.md)<br>[伊利诺伊大学厄巴纳-香槟分校 / 斯坦福大学 · 另3个机构](../../origins/papers/arc.md)
 
 ## 机制简析
 

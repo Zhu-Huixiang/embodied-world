@@ -1,8 +1,10 @@
-# ETH Zurich Robotic Systems Lab
+# 苏黎世联邦理工学院机器人系统实验室（RSL）
 
 在复杂地形中研究腿足与移动操作机器人的机构设计、运动控制、学习及感知导航。
 
 **类型**：大学实验室。
+
+**英文名称**：ETH Zurich Robotic Systems Lab
 
 ## 官方与学术入口
 

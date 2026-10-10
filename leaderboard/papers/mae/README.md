@@ -6,7 +6,7 @@
 
 [原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf) · [阅读卡片](../../../library/mae.md)
 
-论文出处：[Kaiming He / Xinlei Chen · Meta FAIR](../../origins/papers/mae.md)
+论文出处：[**Kaiming He / Xinlei Chen**](../../origins/papers/mae.md)<br>[Meta FAIR 研究院](../../origins/papers/mae.md)
 
 ## 机制简析
 

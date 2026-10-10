@@ -2,20 +2,34 @@
 
 PaLM-E: An Embodied Multimodal Language Model
 
-**首署名 / 贡献标记作者**：Danny Driess。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Danny Driess
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Google Research；TU Berlin。
+## 论文署名机构
+
+- **谷歌研究院**
+- **柏林工业大学**
 
 ## 继续看这些团队
 
-- [Google Research](../profiles/organization-16e42e479e4e.md)：研究方向、学术入口与本仓作品集。
-- [TU Berlin](../profiles/organization-9e53ca15a892.md)：研究方向、学术入口与本仓作品集。
+- [**谷歌研究院**](../profiles/organization-16e42e479e4e.md)
+- [**柏林工业大学**](../profiles/organization-9e53ca15a892.md)
 
 <details><summary>完整署名作者</summary>
 
 Danny Driess、Fei Xia、Mehdi S. M. Sajjadi、Corey Lynch、Aakanksha Chowdhery、Brian Ichter、Ayzaan Wahid、Jonathan Tompson、Quan Vuong、Tianhe Yu、Wenlong Huang、Yevgen Chebotar、Pierre Sermanet、Daniel Duckworth、Sergey Levine、Vincent Vanhoucke、Karol Hausman、Marc Toussaint、Klaus Greff、Andy Zeng、Igor Mordatch、Pete Florence
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Google Research
+- TU Berlin
 
 </details>
 

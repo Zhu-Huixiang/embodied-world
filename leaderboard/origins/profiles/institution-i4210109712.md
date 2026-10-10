@@ -1,8 +1,10 @@
-# Max Planck Institute for Informatics
+# 马克斯·普朗克信息学研究所
 
 本仓已收录工作主要涉及：具身感知与场景表示。
 
 **类型**：研究机构。
+
+**英文名称**：Max Planck Institute for Informatics
 
 ## 官方与学术入口
 

@@ -6,7 +6,7 @@
 
 [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf) · [阅读卡片](../../../library/dit.md)
 
-论文出处：[William Peebles · Meta FAIR / UC Berkeley 等3个出处](../../origins/papers/dit.md)
+论文出处：[**William Peebles**](../../origins/papers/dit.md)<br>[Meta FAIR 研究院 / 加州大学伯克利分校 · 另1个机构](../../origins/papers/dit.md)
 
 ## 机制简析
 

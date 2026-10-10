@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2610.12465v1) · [PDF](https://arxiv.org/pdf/2610.12465v1) · [阅读卡片](../../../library/balanced-data-diet.md)
 
-论文出处：[Octi Zhang · University of Washington / NVIDIA](../../origins/papers/balanced-data-diet.md)
+论文出处：[**Octi Zhang**](../../origins/papers/balanced-data-diet.md)<br>[华盛顿大学 / 英伟达](../../origins/papers/balanced-data-diet.md)
 
 ## 机制简析
 

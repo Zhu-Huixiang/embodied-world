@@ -1,8 +1,10 @@
-# Open X-Embodiment Collaboration
+# Open X-Embodiment 联合研究团队
 
 汇集跨机器人本体的数据，研究可迁移的 RT-X 通用机器人策略。
 
 **类型**：联合研究。
+
+**英文名称**：Open X-Embodiment Collaboration
 
 ## 官方与学术入口
 

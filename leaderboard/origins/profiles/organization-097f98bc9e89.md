@@ -1,8 +1,10 @@
-# Improbable AI Lab, MIT
+# 麻省理工学院 Improbable AI 实验室
 
 本仓已收录工作主要涉及：Locomotion 与运动适应。
 
 **类型**：论文署名机构。
+
+**英文名称**：Improbable AI Lab, MIT
 
 ## 官方与学术入口
 

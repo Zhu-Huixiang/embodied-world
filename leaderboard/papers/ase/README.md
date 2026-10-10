@@ -6,7 +6,7 @@
 
 [原文](https://xbpeng.github.io/projects/ASE/) · [PDF](https://xbpeng.github.io/projects/ASE/ASE_2022.pdf) · [阅读卡片](../../../library/ase.md)
 
-论文出处：[Xue Bin Peng · UC Berkeley / NVIDIA 等3个出处](../../origins/papers/ase.md)
+论文出处：[**Xue Bin Peng**](../../origins/papers/ase.md)<br>[加州大学伯克利分校 / 英伟达 · 另1个机构](../../origins/papers/ase.md)
 
 ## 机制简析
 

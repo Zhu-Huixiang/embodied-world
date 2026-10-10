@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v235/lee24y.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf) · [阅读卡片](../../../library/vq-bet.md)
 
-论文出处：[Seungjae Lee · New York University / Seoul National University](../../origins/papers/vq-bet.md)
+论文出处：[**Seungjae Lee**](../../origins/papers/vq-bet.md)<br>[纽约大学 / 首尔大学](../../origins/papers/vq-bet.md)
 
 ## 机制简析
 

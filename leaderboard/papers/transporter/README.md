@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v155/zeng21a.html) · [PDF](https://proceedings.mlr.press/v155/zeng21a/zeng21a.pdf) · [阅读卡片](../../../library/transporter.md)
 
-论文出处：[Andy Zeng · Robotics at Google](../../origins/papers/transporter.md)
+论文出处：[**Andy Zeng**](../../origins/papers/transporter.md)<br>[谷歌机器人研究团队](../../origins/papers/transporter.md)
 
 ## 机制简析
 

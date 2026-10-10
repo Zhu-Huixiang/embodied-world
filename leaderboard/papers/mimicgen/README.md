@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v229/mandlekar23a.html) · [PDF](https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf) · [阅读卡片](../../../library/mimicgen.md)
 
-论文出处：[Ajay Mandlekar · NVIDIA / The University of Texas at Austin](../../origins/papers/mimicgen.md)
+论文出处：[**Ajay Mandlekar**](../../origins/papers/mimicgen.md)<br>[英伟达 / 得克萨斯大学奥斯汀分校](../../origins/papers/mimicgen.md)
 
 ## 机制简析
 

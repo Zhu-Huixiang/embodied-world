@@ -2,19 +2,32 @@
 
 Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow
 
-**共同第一作者**：Xingchao Liu、Chengyue Gong。
+## 作者
+
+**共同第一作者**
+
+- Xingchao Liu
+- Chengyue Gong
 
 署名方式：原文明确共同一作。
 
-**论文署名机构**：UT Austin。
+## 论文署名机构
+
+- **得克萨斯大学奥斯汀分校**
 
 ## 继续看这些团队
 
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
 
 <details><summary>完整署名作者</summary>
 
 Xingchao Liu、Chengyue Gong、Qiang Liu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UT Austin
 
 </details>
 

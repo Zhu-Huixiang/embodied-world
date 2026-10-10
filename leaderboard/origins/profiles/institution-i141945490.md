@@ -1,8 +1,10 @@
-# University of British Columbia
+# 不列颠哥伦比亚大学
 
 本仓已收录工作主要涉及：动作先验与全身技能。
 
 **类型**：大学。
+
+**英文名称**：University of British Columbia
 
 ## 官方与学术入口
 

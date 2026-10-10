@@ -2,19 +2,31 @@
 
 Modality-Autoregressive World-Action Models
 
-**首署名 / 贡献标记作者**：Adam Hung。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Adam Hung
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Carnegie Mellon University。
+## 论文署名机构
+
+- **卡内基梅隆大学**
 
 ## 继续看这些团队
 
-- [Carnegie Mellon University](../profiles/institution-i74973139.md)：研究方向、学术入口与本仓作品集。
+- [**卡内基梅隆大学**](../profiles/institution-i74973139.md)
 
 <details><summary>完整署名作者</summary>
 
 Adam Hung、Bardienus P. Duisterhof、Deva Ramanan、Jeffrey Ichnowski
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Carnegie Mellon University
 
 </details>
 

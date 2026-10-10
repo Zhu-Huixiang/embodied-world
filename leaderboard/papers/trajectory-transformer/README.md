@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html) · [PDF](https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf) · [阅读卡片](../../../library/trajectory-transformer.md)
 
-论文出处：[Michael Janner · UC Berkeley](../../origins/papers/trajectory-transformer.md)
+论文出处：[**Michael Janner**](../../origins/papers/trajectory-transformer.md)<br>[加州大学伯克利分校](../../origins/papers/trajectory-transformer.md)
 
 ## 机制简析
 

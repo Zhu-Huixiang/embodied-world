@@ -2,21 +2,37 @@
 
 Learning Transferable Visual Models From Natural Language Supervision
 
-**首署名 / 贡献标记作者**：Alec Radford、Jong Wook Kim。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Alec Radford
+- Jong Wook Kim
 
 署名方式：原文明确标记等贡献。
 
-**通讯作者**：Alec Radford、Jong Wook Kim。
+**通讯作者**
 
-**论文署名机构**：OpenAI。
+- Alec Radford
+- Jong Wook Kim
+
+## 论文署名机构
+
+- **OpenAI**
 
 ## 继续看这些团队
 
-- [OpenAI](../profiles/openai.md)：研究方向、学术入口与本仓作品集。
+- [**OpenAI**](../profiles/openai.md)
 
 <details><summary>完整署名作者</summary>
 
 Alec Radford、Jong Wook Kim、Chris Hallacy、Aditya Ramesh、Gabriel Goh、Sandhini Agarwal、Girish Sastry、Amanda Askell、Pamela Mishkin、Jack Clark、Gretchen Krueger、Ilya Sutskever
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- OpenAI
 
 </details>
 

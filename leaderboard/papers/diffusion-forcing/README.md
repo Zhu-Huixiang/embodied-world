@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2aee1c4159e48407d68fe16ae8e6e49e-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/2aee1c4159e48407d68fe16ae8e6e49e-Paper-Conference.pdf) · [阅读卡片](../../../library/diffusion-forcing.md)
 
-论文出处：[Boyuan Chen · MIT / MIT CSAIL 等3个出处](../../origins/papers/diffusion-forcing.md)
+论文出处：[**Boyuan Chen**](../../origins/papers/diffusion-forcing.md)<br>[麻省理工 CSAIL 实验室 / 慕尼黑工业大学](../../origins/papers/diffusion-forcing.md)
 
 ## 机制简析
 

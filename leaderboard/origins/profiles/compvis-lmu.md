@@ -1,8 +1,10 @@
-# CompVis（LMU Munich）
+# 慕尼黑大学 CompVis 实验室
 
 图像与视频理解、视觉生成、表征学习和自监督学习。
 
 **类型**：研究团队。
+
+**英文名称**：CompVis（LMU Munich）
 
 ## 官方与学术入口
 

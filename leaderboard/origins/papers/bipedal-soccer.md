@@ -2,22 +2,42 @@
 
 Learning agile soccer skills for a bipedal robot with deep reinforcement learning
 
-**共同第一作者**：Tuomas Haarnoja、Ben Moran、Guy Lever、Sandy H. Huang。
+## 作者
+
+**共同第一作者**
+
+- Tuomas Haarnoja
+- Ben Moran
+- Guy Lever
+- Sandy H. Huang
 
 署名方式：原文明确共同一作；现任 Oxford / Google / Isomorphic Labs 按脚注区分。
 
-**通讯作者**：Tuomas Haarnoja、Guy Lever。
+**通讯作者**
 
-**论文署名机构**：Google DeepMind；University College London。
+- Tuomas Haarnoja
+- Guy Lever
+
+## 论文署名机构
+
+- **谷歌 DeepMind**
+- **伦敦大学学院**
 
 ## 继续看这些团队
 
-- [Google DeepMind](../profiles/google-deepmind.md)：研究方向、学术入口与本仓作品集。
-- [University College London](../profiles/institution-i45129253.md)：研究方向、学术入口与本仓作品集。
+- [**谷歌 DeepMind**](../profiles/google-deepmind.md)
+- [**伦敦大学学院**](../profiles/institution-i45129253.md)
 
 <details><summary>完整署名作者</summary>
 
 Tuomas Haarnoja、Ben Moran、Guy Lever、Sandy H. Huang、Dhruva Tirumala、Jan Humplik、Markus Wulfmeier、Saran Tunyasuvunakool、Noah Siegel、Roland Hafner、Michael Bloesch、Kristian Hartikainen、Arunkumar Byravan、Leonard Hasenclever、Yuval Tassa、Fereshteh Sadeghi、Nathan Batchelor、Federico Casarini、Stefano Saliceti、Charles Game、Neil Sreendra、Kushal Patel、Marlon Gwira、Andrea Huber、Nicole Hurley、Francesco Nori、Raia T. Hadsell、Nicolas Heess
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Google DeepMind
+- University College London
 
 </details>
 

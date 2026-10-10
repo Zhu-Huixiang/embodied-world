@@ -2,20 +2,36 @@
 
 OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning
 
-**共同第一作者**：Tairan He、Zhengyi Luo、Xialin He。
+## 作者
+
+**共同第一作者**
+
+- Tairan He
+- Zhengyi Luo
+- Xialin He
 
 署名方式：原文明确共同一作。
 
-**论文署名机构**：Carnegie Mellon University；Shanghai Jiao Tong University。
+## 论文署名机构
+
+- **卡内基梅隆大学**
+- **上海交通大学**
 
 ## 继续看这些团队
 
-- [Carnegie Mellon University](../profiles/institution-i74973139.md)：研究方向、学术入口与本仓作品集。
-- [Shanghai Jiao Tong University](../profiles/institution-i183067930.md)：研究方向、学术入口与本仓作品集。
+- [**卡内基梅隆大学**](../profiles/institution-i74973139.md)
+- [**上海交通大学**](../profiles/institution-i183067930.md)
 
 <details><summary>完整署名作者</summary>
 
 Tairan He、Zhengyi Luo、Xialin He、Wenli Xiao、Chong Zhang、Weinan Zhang、Kris Kitani、Changliu Liu、Guanya Shi
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Carnegie Mellon University
+- Shanghai Jiao Tong University
 
 </details>
 

@@ -2,23 +2,42 @@
 
 Learning high-speed flight in the wild
 
-**共同第一作者**：Antonio Loquercio、Elia Kaufmann。
+## 作者
+
+**共同第一作者**
+
+- Antonio Loquercio
+- Elia Kaufmann
 
 署名方式：原文明确共同一作。
 
-**通讯作者**：Antonio Loquercio。
+**通讯作者**
 
-**论文署名机构**：University of Zurich；Robotics and Perception Group, UZH；Intelligent Systems Lab, Intel。
+- Antonio Loquercio
+
+## 论文署名机构
+
+- **苏黎世大学**
+- **苏黎世大学机器人与感知团队（RPG）**
+- **英特尔智能系统实验室**
 
 ## 继续看这些团队
 
-- [University of Zurich](../profiles/institution-i202697423.md)：研究方向、学术入口与本仓作品集。
-- [UZH Robotics and Perception Group](../profiles/uzh-rpg.md)：研究方向、学术入口与本仓作品集。
-- [Intelligent Systems Lab, Intel](../profiles/organization-cccbeaadc92f.md)：研究方向、学术入口与本仓作品集。
+- [**苏黎世大学**](../profiles/institution-i202697423.md)
+- [**苏黎世大学机器人与感知团队（RPG）**](../profiles/uzh-rpg.md)
+- [**英特尔智能系统实验室**](../profiles/organization-cccbeaadc92f.md)
 
 <details><summary>完整署名作者</summary>
 
 Antonio Loquercio、Elia Kaufmann、René Ranftl、Matthias Müller、Vladlen Koltun、Davide Scaramuzza
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- University of Zurich
+- Robotics and Perception Group, UZH
+- Intelligent Systems Lab, Intel
 
 </details>
 

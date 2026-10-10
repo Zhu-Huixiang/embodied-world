@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v205/margolis23a.html) · [PDF](https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf) · [阅读卡片](../../../library/walk-these-ways.md)
 
-论文出处：[Gabriel B. Margolis · MIT / Improbable AI Lab, MIT](../../origins/papers/walk-these-ways.md)
+论文出处：[**Gabriel B. Margolis**](../../origins/papers/walk-these-ways.md)<br>[麻省理工学院 Improbable AI 实验室](../../origins/papers/walk-these-ways.md)
 
 ## 机制简析
 

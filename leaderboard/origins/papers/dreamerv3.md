@@ -2,22 +2,38 @@
 
 Mastering diverse control tasks through world models
 
-**共同第一作者**：Danijar Hafner。
+## 作者
+
+**共同第一作者**
+
+- Danijar Hafner
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**通讯作者**：Danijar Hafner。
+**通讯作者**
 
-**论文署名机构**：Google DeepMind, San Francisco, CA, USA；University of Toronto, Toronto, Ontario, Canada。
+- Danijar Hafner
+
+## 论文署名机构
+
+- **谷歌 DeepMind**
+- **多伦多大学**
 
 ## 继续看这些团队
 
-- [Google DeepMind](../profiles/google-deepmind.md)：研究方向、学术入口与本仓作品集。
-- [University of Toronto](../profiles/institution-i185261750.md)：研究方向、学术入口与本仓作品集。
+- [**谷歌 DeepMind**](../profiles/google-deepmind.md)
+- [**多伦多大学**](../profiles/institution-i185261750.md)
 
 <details><summary>完整署名作者</summary>
 
 Danijar Hafner、Jurgis Pasukonis、Jimmy Ba、Timothy Lillicrap
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Google DeepMind, San Francisco, CA, USA
+- University of Toronto, Toronto, Ontario, Canada
 
 </details>
 

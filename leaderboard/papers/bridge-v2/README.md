@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v229/walke23a.html) · [PDF](https://proceedings.mlr.press/v229/walke23a/walke23a.pdf) · [阅读卡片](../../../library/bridge-v2.md)
 
-论文出处：[Homer Walke · UC Berkeley / Stanford University 等4个出处](../../origins/papers/bridge-v2.md)
+论文出处：[**Homer Walke**](../../origins/papers/bridge-v2.md)<br>[加州大学伯克利分校 / 斯坦福大学 · 另2个机构](../../origins/papers/bridge-v2.md)
 
 ## 机制简析
 

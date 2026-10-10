@@ -6,7 +6,7 @@
 
 [原文](https://dl.acm.org/doi/10.1145/3592433) · [PDF](https://arxiv.org/pdf/2308.04079) · [阅读卡片](../../../library/gaussian-splatting.md)
 
-论文出处：[Bernhard Kerbl / Georgios Kopanas · Institut national de recherche en sciences et technologies du numérique / Université Côte d'Azur 等3个出处](../../origins/papers/gaussian-splatting.md)
+论文出处：[**Bernhard Kerbl / Georgios Kopanas**](../../origins/papers/gaussian-splatting.md)<br>[法国 Inria 研究所 / 蔚蓝海岸大学 · 另1个机构](../../origins/papers/gaussian-splatting.md)
 
 ## 机制简析
 

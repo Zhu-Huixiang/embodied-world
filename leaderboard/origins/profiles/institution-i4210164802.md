@@ -1,8 +1,10 @@
-# Mila - Quebec Artificial Intelligence Institute
+# 魁北克人工智能研究所（Mila）
 
 本仓已收录工作主要涉及：世界模型与模型强化学习、强化学习与离线决策、具身感知与场景表示。
 
 **类型**：研究机构。
+
+**英文名称**：Mila - Quebec Artificial Intelligence Institute
 
 ## 官方与学术入口
 

@@ -2,20 +2,34 @@
 
 R3M: A Universal Visual Representation for Robot Manipulation
 
-**首署名 / 贡献标记作者**：Suraj Nair。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Suraj Nair
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Stanford University；Meta AI。
+## 论文署名机构
+
+- **斯坦福大学**
+- **Meta 人工智能研究院（FAIR）**
 
 ## 继续看这些团队
 
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
 
 <details><summary>完整署名作者</summary>
 
 Suraj Nair、Aravind Rajeswaran、Vikash Kumar、Chelsea Finn、Abhinav Gupta
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- Meta AI
 
 </details>
 

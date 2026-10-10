@@ -1,8 +1,10 @@
-# University College London
+# 伦敦大学学院
 
 本仓已收录工作主要涉及：世界模型与模型强化学习、Locomotion 与运动适应、视频与序列生成。
 
 **类型**：大学。
+
+**英文名称**：University College London
 
 ## 官方与学术入口
 

@@ -1,8 +1,10 @@
-# UZH Robotics and Perception Group
+# 苏黎世大学机器人与感知团队（RPG）
 
 研究视觉驱动的自主导航、机器人与计算机视觉，重点关注依靠机载相机和计算的自主飞行。
 
 **类型**：大学实验室。
+
+**英文名称**：UZH Robotics and Perception Group
 
 ## 官方与学术入口
 

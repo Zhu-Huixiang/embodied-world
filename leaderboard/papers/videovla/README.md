@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf) · [阅读卡片](../../../library/videovla.md)
 
-论文出处：[Yichao Shen · IAIR, Xi’an Jiaotong University / Microsoft Research Asia (China) 等3个出处](../../origins/papers/videovla.md)
+论文出处：[**Yichao Shen**](../../origins/papers/videovla.md)<br>[西安交通大学人工智能与机器人研究所 / 微软亚洲研究院 · 另1个机构](../../origins/papers/videovla.md)
 
 ## 机制简析
 

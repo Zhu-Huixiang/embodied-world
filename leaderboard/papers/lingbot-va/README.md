@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss22/p016.html) · [PDF](https://www.roboticsproceedings.org/rss22/p016.pdf) · [阅读卡片](../../../library/lingbot-va.md)
 
-论文出处：[Lin Li / Qihang Zhang 等3位 · Robbyant／蚂蚁灵波具身研究 / Hong Kong University of Science and Technology 等8个出处](../../origins/papers/lingbot-va.md)
+论文出处：[**Lin Li / Qihang Zhang 等3位**](../../origins/papers/lingbot-va.md)<br>[蚂蚁灵波具身研究团队 / 香港科技大学 · 另6个机构](../../origins/papers/lingbot-va.md)
 
 ## 机制简析
 

@@ -2,21 +2,37 @@
 
 CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
 
-**首署名 / 贡献标记作者**：Qingqing Zhao。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Qingqing Zhao
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：NVIDIA；Stanford University；MIT。
+## 论文署名机构
+
+- **英伟达研究院**
+- **斯坦福大学**
+- **麻省理工学院**
 
 ## 继续看这些团队
 
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [Massachusetts Institute of Technology](../profiles/institution-i63966007.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**麻省理工学院**](../profiles/institution-i63966007.md)
 
 <details><summary>完整署名作者</summary>
 
 Qingqing Zhao、Yao Lu、Moo Jin Kim、Zipeng Fu、Zhuoyang Zhang、Yecheng Wu、Zhaoshuo Li、Qianli Ma、Song Han、Chelsea Finn、Ankur Handa、Ming-Yu Liu、Donglai Xiang、Gordon Wetzstein、Tsung-Yi Lin
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
+- Stanford University
+- MIT
 
 </details>
 

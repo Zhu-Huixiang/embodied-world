@@ -2,21 +2,37 @@
 
 Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion
 
-**首署名 / 贡献标记作者**：Boyuan Chen。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Boyuan Chen
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：MIT；MIT CSAIL；Technical University of Munich。
+## 论文署名机构
+
+- **麻省理工学院**
+- **麻省理工学院计算机科学与人工智能实验室（CSAIL）**
+- **慕尼黑工业大学**
 
 ## 继续看这些团队
 
-- [Massachusetts Institute of Technology](../profiles/institution-i63966007.md)：研究方向、学术入口与本仓作品集。
-- [MIT CSAIL](../profiles/mit-csail.md)：研究方向、学术入口与本仓作品集。
-- [Technical University of Munich](../profiles/organization-bc6fc762326c.md)：研究方向、学术入口与本仓作品集。
+- [**麻省理工学院**](../profiles/institution-i63966007.md)
+- [**麻省理工学院计算机科学与人工智能实验室（CSAIL）**](../profiles/mit-csail.md)
+- [**慕尼黑工业大学**](../profiles/organization-bc6fc762326c.md)
 
 <details><summary>完整署名作者</summary>
 
 Boyuan Chen、Diego Marti Monso、Yilun Du、Max Simchowitz、Russ Tedrake、Vincent Sitzmann
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- MIT
+- MIT CSAIL
+- Technical University of Munich
 
 </details>
 

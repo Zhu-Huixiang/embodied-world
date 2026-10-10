@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a98846e9d9cc01cfb87eb694d946ce6b-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/a98846e9d9cc01cfb87eb694d946ce6b-Paper-Conference.pdf) · [阅读卡片](../../../library/edm.md)
 
-论文出处：[Tero Karras · NVIDIA](../../origins/papers/edm.md)
+论文出处：[**Tero Karras**](../../origins/papers/edm.md)<br>[英伟达](../../origins/papers/edm.md)
 
 ## 机制简析
 

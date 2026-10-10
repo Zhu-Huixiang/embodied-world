@@ -2,21 +2,38 @@
 
 Decision Transformer: Reinforcement Learning via Sequence Modeling
 
-**共同第一作者**：Lili Chen、Kevin Lu。
+## 作者
+
+**共同第一作者**
+
+- Lili Chen
+- Kevin Lu
 
 署名方式：原文明确共同一作；equal advising 单独作为指导角色。
 
-**论文署名机构**：UC Berkeley；Facebook AI Research；Google Brain。
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **Meta 人工智能研究院（FAIR）**
+- **谷歌研究院 / Brain 团队**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [Google Research / Brain Team](../profiles/google-research-brain.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**谷歌研究院 / Brain 团队**](../profiles/google-research-brain.md)
 
 <details><summary>完整署名作者</summary>
 
 Lili Chen、Kevin Lu、Aravind Rajeswaran、Kimin Lee、Aditya Grover、Michael Laskin、Pieter Abbeel、Aravind Srinivas、Igor Mordatch
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- Facebook AI Research
+- Google Brain
 
 </details>
 

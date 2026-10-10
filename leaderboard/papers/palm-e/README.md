@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v202/driess23a.html) · [PDF](https://proceedings.mlr.press/v202/driess23a/driess23a.pdf) · [阅读卡片](../../../library/palm-e.md)
 
-论文出处：[Danny Driess · Google Research / TU Berlin](../../origins/papers/palm-e.md)
+论文出处：[**Danny Driess**](../../origins/papers/palm-e.md)<br>[谷歌研究院 / 柏林工业大学](../../origins/papers/palm-e.md)
 
 ## 机制简析
 

@@ -1,8 +1,10 @@
-# Shanghai Jiao Tong University
+# 上海交通大学
 
 本仓已收录工作主要涉及：操作与动作块、动作先验与全身技能、Locomotion 与运动适应。
 
 **类型**：大学。
+
+**英文名称**：Shanghai Jiao Tong University
 
 ## 官方与学术入口
 

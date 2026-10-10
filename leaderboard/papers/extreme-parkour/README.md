@@ -6,7 +6,7 @@
 
 [原文](https://ieeexplore.ieee.org/document/10610200) · [PDF](https://extreme-parkour.github.io/resources/parkour.pdf) · [阅读卡片](../../../library/extreme-parkour.md)
 
-论文出处：[Xuxin Cheng / Kexin Shi · Carnegie Mellon University](../../origins/papers/extreme-parkour.md)
+论文出处：[**Xuxin Cheng / Kexin Shi**](../../origins/papers/extreme-parkour.md)<br>[卡内基梅隆大学](../../origins/papers/extreme-parkour.md)
 
 ## 机制简析
 

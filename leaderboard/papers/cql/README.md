@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html) · [PDF](https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf) · [阅读卡片](../../../library/cql.md)
 
-论文出处：[Aviral Kumar · UC Berkeley / Google Research / Brain Team](../../origins/papers/cql.md)
+论文出处：[**Aviral Kumar**](../../origins/papers/cql.md)<br>[加州大学伯克利分校 / 谷歌研究院 / Brain 团队](../../origins/papers/cql.md)
 
 ## 机制简析
 

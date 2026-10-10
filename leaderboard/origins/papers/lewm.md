@@ -2,22 +2,41 @@
 
 LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels
 
-**共同第一作者**：Lucas Maes、Quentin Le Lidec。
+## 作者
+
+**共同第一作者**
+
+- Lucas Maes
+- Quentin Le Lidec
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：Mila & Université de Montréal；New York University；Samsung SAIL；Brown University。
+## 论文署名机构
+
+- **魁北克人工智能研究所（Mila）与蒙特利尔大学**
+- **纽约大学**
+- **三星 AI 实验室（SAIL）**
+- **布朗大学**
 
 ## 继续看这些团队
 
-- [Mila - Quebec Artificial Intelligence Institute](../profiles/institution-i4210164802.md)：研究方向、学术入口与本仓作品集。
-- [New York University](../profiles/institution-i57206974.md)：研究方向、学术入口与本仓作品集。
-- [Samsung SAIL](../profiles/organization-5809bcbdd797.md)：研究方向、学术入口与本仓作品集。
-- [Brown University](../profiles/organization-758dffc272f5.md)：研究方向、学术入口与本仓作品集。
+- [**魁北克人工智能研究所（Mila）**](../profiles/institution-i4210164802.md)
+- [**纽约大学**](../profiles/institution-i57206974.md)
+- [**三星 AI 实验室（SAIL）**](../profiles/organization-5809bcbdd797.md)
+- [**布朗大学**](../profiles/organization-758dffc272f5.md)
 
 <details><summary>完整署名作者</summary>
 
 Lucas Maes、Quentin Le Lidec、Damien Scieur、Yann LeCun、Randall Balestriero
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Mila & Université de Montréal
+- New York University
+- Samsung SAIL
+- Brown University
 
 </details>
 

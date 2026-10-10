@@ -1,8 +1,10 @@
-# University of Michigan
+# 密歇根大学
 
 本仓已收录工作主要涉及：视频与序列生成。
 
 **类型**：论文署名机构。
+
+**英文名称**：University of Michigan
 
 ## 官方与学术入口
 

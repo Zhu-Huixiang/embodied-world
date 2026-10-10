@@ -2,22 +2,40 @@
 
 Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
 
-**首署名 / 贡献标记作者**：Michael Ahn。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Michael Ahn
 
 署名方式：原文按字母顺序署名；首署名不表示贡献排序。
 
-**通讯作者**：Brian Ichter、Fei Xia、Karol Hausman。
+**通讯作者**
 
-**论文署名机构**：Robotics at Google；Everyday Robots。
+- Brian Ichter
+- Fei Xia
+- Karol Hausman
+
+## 论文署名机构
+
+- **谷歌机器人研究团队**
+- **Everyday Robots**
 
 ## 继续看这些团队
 
-- [Robotics at Google](../profiles/organization-f9a072c07918.md)：研究方向、学术入口与本仓作品集。
-- [Everyday Robots](../profiles/organization-cf530caa8e92.md)：研究方向、学术入口与本仓作品集。
+- [**谷歌机器人研究团队**](../profiles/organization-f9a072c07918.md)
+- [**Everyday Robots**](../profiles/organization-cf530caa8e92.md)
 
 <details><summary>完整署名作者</summary>
 
 Michael Ahn、Anthony Brohan、Noah Brown、Yevgen Chebotar、Omar Cortes、Byron David、Chelsea Finn、Chuyuan Fu、Keerthana Gopalakrishnan、Karol Hausman、Alex Herzog、Daniel Ho、Jasmine Hsu、Julian Ibarz、Brian Ichter、Alex Irpan、Eric Jang、Rosario Jauregui Ruano、Kyle Jeffrey、Sally Jesmonth、Nikhil J Joshi、Ryan Julian、Dmitry Kalashnikov、Yuheng Kuang、Kuang-Huei Lee、Sergey Levine、Yao Lu、Linda Luu、Carolina Parada、Peter Pastor、Jornell Quiambao、Kanishka Rao、Jarek Rettinghouse、Diego Reyes、Pierre Sermanet、Nicolas Sievers、Clayton Tan、Alexander Toshev、Vincent Vanhoucke、Fei Xia、Ted Xiao、Peng Xu、Sichun Xu、Mengyuan Yan、Andy Zeng
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Robotics at Google
+- Everyday Robots
 
 </details>
 

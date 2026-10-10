@@ -6,7 +6,7 @@
 
 [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf) · [阅读卡片](../../../library/dino.md)
 
-论文出处：[Mathilde Caron · Meta FAIR / Institut national de recherche en sciences et technologies du numérique 等7个出处](../../origins/papers/dino.md)
+论文出处：[**Mathilde Caron**](../../origins/papers/dino.md)<br>[Meta FAIR 研究院 / 法国 Inria 研究所 · 另5个机构](../../origins/papers/dino.md)
 
 ## 机制简析
 

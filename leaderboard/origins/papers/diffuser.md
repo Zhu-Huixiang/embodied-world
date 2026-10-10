@@ -2,22 +2,40 @@
 
 Planning with Diffusion for Flexible Behavior Synthesis
 
-**共同第一作者**：Michael Janner、Yilun Du。
+## 作者
+
+**共同第一作者**
+
+- Michael Janner
+- Yilun Du
 
 署名方式：原文明确共同一作。
 
-**通讯作者**：Michael Janner、Yilun Du。
+**通讯作者**
 
-**论文署名机构**：UC Berkeley；MIT。
+- Michael Janner
+- Yilun Du
+
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **麻省理工学院**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [Massachusetts Institute of Technology](../profiles/institution-i63966007.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**麻省理工学院**](../profiles/institution-i63966007.md)
 
 <details><summary>完整署名作者</summary>
 
 Michael Janner、Yilun Du、Joshua B. Tenenbaum、Sergey Levine
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- MIT
 
 </details>
 

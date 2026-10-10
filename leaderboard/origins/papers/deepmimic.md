@@ -2,20 +2,34 @@
 
 DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills
 
-**首署名 / 贡献标记作者**：Xue Bin Peng。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Xue Bin Peng
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：UC Berkeley；University of British Columbia。
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **不列颠哥伦比亚大学**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [University of British Columbia](../profiles/institution-i141945490.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**不列颠哥伦比亚大学**](../profiles/institution-i141945490.md)
 
 <details><summary>完整署名作者</summary>
 
 Xue Bin Peng、Pieter Abbeel、Sergey Levine、Michiel van de Panne
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- University of British Columbia
 
 </details>
 

@@ -6,7 +6,7 @@
 
 [原文](https://openreview.net/forum?id=YJ7o2wetJ2) · [PDF](https://openreview.net/pdf?id=YJ7o2wetJ2) · [阅读卡片](../../../library/vip.md)
 
-论文出处：[Yecheng Jason Ma · Meta FAIR / University of Pennsylvania](../../origins/papers/vip.md)
+论文出处：[**Yecheng Jason Ma**](../../origins/papers/vip.md)<br>[Meta FAIR 研究院 / 宾夕法尼亚大学](../../origins/papers/vip.md)
 
 ## 机制简析
 

@@ -1,8 +1,10 @@
-# Stanford Robotics and Embodied Artificial Intelligence Lab（REAL）
+# 斯坦福大学机器人与具身智能实验室（REAL）
 
 研究系统如何从物理世界交互中学习，以执行复杂操作与感知行动任务。
 
 **类型**：大学实验室。
+
+**英文名称**：Stanford Robotics and Embodied Artificial Intelligence Lab（REAL）
 
 ## 官方与学术入口
 

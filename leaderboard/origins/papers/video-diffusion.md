@@ -2,19 +2,31 @@
 
 Video Diffusion Models
 
-**首署名 / 贡献标记作者**：Jonathan Ho。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Jonathan Ho
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Google Research。
+## 论文署名机构
+
+- **谷歌研究院**
 
 ## 继续看这些团队
 
-- [Google Research](../profiles/organization-16e42e479e4e.md)：研究方向、学术入口与本仓作品集。
+- [**谷歌研究院**](../profiles/organization-16e42e479e4e.md)
 
 <details><summary>完整署名作者</summary>
 
 Jonathan Ho、Tim Salimans、Alexey Gritsenko、William Chan、Mohammad Norouzi、David J. Fleet
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Google Research
 
 </details>
 

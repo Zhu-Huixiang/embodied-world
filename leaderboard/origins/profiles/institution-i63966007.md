@@ -1,8 +1,10 @@
-# Massachusetts Institute of Technology
+# 麻省理工学院
 
 本仓已收录工作主要涉及：视频动作模型与视觉推理、Locomotion 与运动适应、视觉语言动作模型 VLA、操作与动作块、视频与序列生成、世界动作模型。
 
 **类型**：研究机构。
+
+**英文名称**：Massachusetts Institute of Technology
 
 ## 官方与学术入口
 

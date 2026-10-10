@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v202/song23a.html) · [PDF](https://proceedings.mlr.press/v202/song23a/song23a.pdf) · [阅读卡片](../../../library/consistency-models.md)
 
-论文出处：[Yang Song · OpenAI](../../origins/papers/consistency-models.md)
+论文出处：[**Yang Song**](../../origins/papers/consistency-models.md)<br>[OpenAI](../../origins/papers/consistency-models.md)
 
 ## 机制简析
 

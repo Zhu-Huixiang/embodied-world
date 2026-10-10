@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v162/janner22a.html) · [PDF](https://proceedings.mlr.press/v162/janner22a/janner22a.pdf) · [阅读卡片](../../../library/diffuser.md)
 
-论文出处：[Michael Janner / Yilun Du · UC Berkeley / MIT](../../origins/papers/diffuser.md)
+论文出处：[**Michael Janner / Yilun Du**](../../origins/papers/diffuser.md)<br>[加州大学伯克利分校 / 麻省理工学院](../../origins/papers/diffuser.md)
 
 ## 机制简析
 

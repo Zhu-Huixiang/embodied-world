@@ -1,8 +1,10 @@
-# Toyota Research Institute
+# 丰田研究院
 
 本仓已收录工作主要涉及：操作与动作块、视觉语言动作模型 VLA。
 
 **类型**：研究机构。
+
+**英文名称**：Toyota Research Institute
 
 ## 官方与学术入口
 

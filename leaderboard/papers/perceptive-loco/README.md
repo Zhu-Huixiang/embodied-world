@@ -6,7 +6,7 @@
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822) · [PDF](https://arxiv.org/pdf/2201.08117) · [阅读卡片](../../../library/perceptive-loco.md)
 
-论文出处：[Takahiro Miki · ETH Zurich / ETH Zurich Robotic Systems Lab 等5个出处](../../origins/papers/perceptive-loco.md)
+论文出处：[**Takahiro Miki**](../../origins/papers/perceptive-loco.md)<br>[苏黎世联邦理工 RSL 实验室 / 韩国科学技术院（KAIST） · 另2个机构](../../origins/papers/perceptive-loco.md)
 
 ## 机制简析
 

@@ -1,8 +1,10 @@
-# Tsinghua University, IIIS
+# 清华大学交叉信息研究院
 
 本仓已收录工作主要涉及：操作与动作块。
 
 **类型**：论文署名机构。
+
+**英文名称**：Tsinghua University, IIIS
 
 ## 官方与学术入口
 

@@ -6,7 +6,7 @@
 
 [原文](https://ieeexplore.ieee.org/document/10611477) · [PDF](https://arxiv.org/pdf/2310.08864) · [阅读卡片](../../../library/rtx.md)
 
-论文出处：[Open X-Embodiment Collaboration · Open X-Embodiment Collaboration / Stanford IRIS（Intelligence through Robotic Interaction at Scale） 等12个出处](../../origins/papers/rtx.md)
+论文出处：[**Open X-Embodiment Collaboration**](../../origins/papers/rtx.md)<br>[Open X-Embodiment 联合研究团队 / 斯坦福 IRIS 实验室 · 另8个机构](../../origins/papers/rtx.md)
 
 ## 机制简析
 

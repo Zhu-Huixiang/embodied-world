@@ -1,8 +1,10 @@
-# Institut national de recherche en sciences et technologies du numérique
+# 法国国家信息与自动化研究所（Inria）
 
 本仓已收录工作主要涉及：具身感知与场景表示。
 
 **类型**：研究机构。
+
+**英文名称**：Institut national de recherche en sciences et technologies du numérique
 
 ## 官方与学术入口
 

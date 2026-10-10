@@ -1,8 +1,10 @@
-# Southern University of Science and Technology
+# 南方科技大学
 
 本仓已收录工作主要涉及：视频动作模型与视觉推理。
 
 **类型**：大学。
+
+**英文名称**：Southern University of Science and Technology
 
 ## 官方与学术入口
 

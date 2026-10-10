@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v270/kim25c.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf) · [阅读卡片](../../../library/openvla.md)
 
-论文出处：[Moo Jin Kim / Karl Pertsch 等3位 · Stanford IRIS（Intelligence through Robotic Interaction at Scale） / UC Berkeley RAIL 等8个出处](../../origins/papers/openvla.md)
+论文出处：[**Moo Jin Kim / Karl Pertsch 等3位**](../../origins/papers/openvla.md)<br>[斯坦福 IRIS 实验室 / 伯克利 RAIL 实验室 · 另4个机构](../../origins/papers/openvla.md)
 
 ## 机制简析
 

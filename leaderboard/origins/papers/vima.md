@@ -2,24 +2,46 @@
 
 VIMA: Robot Manipulation with Multimodal Prompts
 
-**首署名 / 贡献标记作者**：Yunfan Jiang。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Yunfan Jiang
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Stanford University；Macalester College；NVIDIA；Caltech；Tsinghua University；UT Austin。
+## 论文署名机构
+
+- **斯坦福大学**
+- **麦卡莱斯特学院**
+- **英伟达研究院**
+- **加州理工学院**
+- **清华大学**
+- **得克萨斯大学奥斯汀分校**
 
 ## 继续看这些团队
 
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [Macalester College](../profiles/organization-53a251c2303c.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [California Institute of Technology](../profiles/institution-i122411786.md)：研究方向、学术入口与本仓作品集。
-- [Tsinghua University](../profiles/institution-i99065089.md)：研究方向、学术入口与本仓作品集。
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**麦卡莱斯特学院**](../profiles/organization-53a251c2303c.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**加州理工学院**](../profiles/institution-i122411786.md)
+- [**清华大学**](../profiles/institution-i99065089.md)
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
 
 <details><summary>完整署名作者</summary>
 
 Yunfan Jiang、Agrim Gupta、Zichen Zhang、Guanzhi Wang、Yongqiang Dou、Yanjun Chen、Li Fei-Fei、Anima Anandkumar、Yuke Zhu、Linxi Fan
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- Macalester College
+- NVIDIA
+- Caltech
+- Tsinghua University
+- UT Austin
 
 </details>
 

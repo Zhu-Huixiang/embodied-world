@@ -1,8 +1,10 @@
-# Horizon Robotics GAIL
+# 地平线 GAIL 研究团队
 
 研究强化学习、生成式仿真到现实 VLA，以及腿足移动操作。
 
 **类型**：研究团队。
+
+**英文名称**：Horizon Robotics GAIL
 
 ## 官方与学术入口
 

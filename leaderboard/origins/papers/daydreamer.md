@@ -2,19 +2,33 @@
 
 DayDreamer: World Models for Physical Robot Learning
 
-**共同第一作者**：Philipp Wu、Alejandro Escontrela、Danijar Hafner。
+## 作者
+
+**共同第一作者**
+
+- Philipp Wu
+- Alejandro Escontrela
+- Danijar Hafner
 
 署名方式：原文明确共同一作。
 
-**论文署名机构**：UC Berkeley。
+## 论文署名机构
+
+- **加州大学伯克利分校**
 
 ## 继续看这些团队
 
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
 
 <details><summary>完整署名作者</summary>
 
 Philipp Wu、Alejandro Escontrela、Danijar Hafner、Ken Goldberg、Pieter Abbeel
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
 
 </details>
 

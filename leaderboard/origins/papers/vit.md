@@ -2,21 +2,41 @@
 
 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
-**首署名 / 贡献标记作者**：Alexey Dosovitskiy、Lucas Beyer、Alexander Kolesnikov、Dirk Weissenborn、Xiaohua Zhai、Neil Houlsby。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Alexey Dosovitskiy
+- Lucas Beyer
+- Alexander Kolesnikov
+- Dirk Weissenborn
+- Xiaohua Zhai
+- Neil Houlsby
 
 署名方式：原文明确标记同等技术贡献。
 
-**指导角色**：Alexey Dosovitskiy、Neil Houlsby。
+**指导角色**
 
-**论文署名机构**：Google Research, Brain Team。
+- Alexey Dosovitskiy
+- Neil Houlsby
+
+## 论文署名机构
+
+- **谷歌研究院 / Brain 团队**
 
 ## 继续看这些团队
 
-- [Google Research / Brain Team](../profiles/google-research-brain.md)：研究方向、学术入口与本仓作品集。
+- [**谷歌研究院 / Brain 团队**](../profiles/google-research-brain.md)
 
 <details><summary>完整署名作者</summary>
 
 Alexey Dosovitskiy、Lucas Beyer、Alexander Kolesnikov、Dirk Weissenborn、Xiaohua Zhai、Thomas Unterthiner、Mostafa Dehghani、Matthias Minderer、Georg Heigold、Sylvain Gelly、Jakob Uszkoreit、Neil Houlsby
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Google Research, Brain Team
 
 </details>
 

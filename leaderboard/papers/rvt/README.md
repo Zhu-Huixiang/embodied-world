@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v229/goyal23a.html) · [PDF](https://proceedings.mlr.press/v229/goyal23a/goyal23a.pdf) · [阅读卡片](../../../library/rvt.md)
 
-论文出处：[Ankit Goyal · NVIDIA](../../origins/papers/rvt.md)
+论文出处：[**Ankit Goyal**](../../origins/papers/rvt.md)<br>[英伟达](../../origins/papers/rvt.md)
 
 ## 机制简析
 

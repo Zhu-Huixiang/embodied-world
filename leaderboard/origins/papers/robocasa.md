@@ -2,23 +2,40 @@
 
 RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots
 
-**共同第一作者**：Soroush Nasiriany。
+## 作者
+
+**共同第一作者**
+
+- Soroush Nasiriany
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**另列等贡献作者**：Abhiram Maddukuri、Lance Zhang。
+**另列等贡献作者**
 
-**论文署名机构**：UT Austin；NVIDIA Research。
+- Abhiram Maddukuri
+- Lance Zhang
+
+## 论文署名机构
+
+- **得克萨斯大学奥斯汀分校**
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [UT Austin Robot Perception and Learning Lab（RPL）](../profiles/ut-austin-rpl.md)：研究方向、学术入口与本仓作品集。
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**得克萨斯大学奥斯汀分校机器人感知与学习实验室（RPL）**](../profiles/ut-austin-rpl.md)
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Soroush Nasiriany、Abhiram Maddukuri、Lance Zhang、Adeet Parikh、Aaron Lo、Abhishek Joshi、Ajay Mandlekar、Yuke Zhu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UT Austin
+- NVIDIA Research
 
 </details>
 

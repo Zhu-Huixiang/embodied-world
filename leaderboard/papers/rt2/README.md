@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v229/zitkovich23a.html) · [PDF](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf) · [阅读卡片](../../../library/rt2.md)
 
-论文出处：[Anthony Brohan · Google DeepMind](../../origins/papers/rt2.md)
+论文出处：[**Anthony Brohan**](../../origins/papers/rt2.md)<br>[谷歌 DeepMind](../../origins/papers/rt2.md)
 
 ## 机制简析
 

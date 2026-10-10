@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) · [阅读卡片](../../../library/ddpm.md)
 
-论文出处：[Jonathan Ho · UC Berkeley](../../origins/papers/ddpm.md)
+论文出处：[**Jonathan Ho**](../../origins/papers/ddpm.md)<br>[加州大学伯克利分校](../../origins/papers/ddpm.md)
 
 ## 机制简析
 

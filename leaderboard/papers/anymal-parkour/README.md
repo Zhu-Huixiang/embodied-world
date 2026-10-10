@@ -6,7 +6,7 @@
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.adi7566) · [PDF](https://arxiv.org/pdf/2306.14874) · [阅读卡片](../../../library/anymal-parkour.md)
 
-论文出处：[David Hoeller / Nikita Rudin · ETH Zurich / NVIDIA](../../origins/papers/anymal-parkour.md)
+论文出处：[**David Hoeller / Nikita Rudin**](../../origins/papers/anymal-parkour.md)<br>[苏黎世联邦理工学院 / 英伟达](../../origins/papers/anymal-parkour.md)
 
 ## 机制简析
 

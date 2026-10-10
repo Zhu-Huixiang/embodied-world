@@ -6,7 +6,7 @@
 
 [原文](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html) · [PDF](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/28dd2c7955ce926456240b2ff0100bde-Paper-round2.pdf) · [阅读卡片](../../../library/isaac-gym.md)
 
-论文出处：[Viktor Makoviychuk · NVIDIA](../../origins/papers/isaac-gym.md)
+论文出处：[**Viktor Makoviychuk**](../../origins/papers/isaac-gym.md)<br>[英伟达](../../origins/papers/isaac-gym.md)
 
 ## 机制简析
 

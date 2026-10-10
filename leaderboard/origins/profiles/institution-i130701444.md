@@ -1,8 +1,10 @@
-# Georgia Institute of Technology
+# 佐治亚理工学院
 
 本仓已收录工作主要涉及：具身感知与场景表示、视频动作模型与视觉推理。
 
 **类型**：大学。
+
+**英文名称**：Georgia Institute of Technology
 
 ## 官方与学术入口
 

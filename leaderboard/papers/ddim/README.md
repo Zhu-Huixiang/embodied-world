@@ -6,7 +6,7 @@
 
 [原文](https://iclr.cc/virtual/2021/poster/2804) · [PDF](https://openreview.net/pdf?id=St1giarCHLP) · [阅读卡片](../../../library/ddim.md)
 
-论文出处：[Jiaming Song · Stanford University](../../origins/papers/ddim.md)
+论文出处：[**Jiaming Song**](../../origins/papers/ddim.md)<br>[斯坦福大学](../../origins/papers/ddim.md)
 
 ## 机制简析
 

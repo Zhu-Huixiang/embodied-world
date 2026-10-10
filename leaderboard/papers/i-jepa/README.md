@@ -6,7 +6,7 @@
 
 [原文](https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.pdf) · [阅读卡片](../../../library/i-jepa.md)
 
-论文出处：[Mahmoud Assran · Meta FAIR / McGill University 等4个出处](../../origins/papers/i-jepa.md)
+论文出处：[**Mahmoud Assran**](../../origins/papers/i-jepa.md)<br>[Meta FAIR 研究院 / 麦吉尔大学 · 另2个机构](../../origins/papers/i-jepa.md)
 
 ## 机制简析
 

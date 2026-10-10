@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss19/p025.html) · [PDF](https://roboticsproceedings.org/rss19/p025.pdf) · [阅读卡片](../../../library/rt1.md)
 
-论文出处：[Anthony Brohan · Robotics at Google / Everyday Robots 等3个出处](../../origins/papers/rt1.md)
+论文出处：[**Anthony Brohan**](../../origins/papers/rt1.md)<br>[谷歌机器人研究团队 / Everyday Robots · 另1个机构](../../origins/papers/rt1.md)
 
 ## 机制简析
 

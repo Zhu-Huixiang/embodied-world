@@ -2,19 +2,32 @@
 
 Masked Autoencoders Are Scalable Vision Learners
 
-**首署名 / 贡献标记作者**：Kaiming He、Xinlei Chen。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Kaiming He
+- Xinlei Chen
 
 署名方式：原文明确标记同等技术贡献。
 
-**论文署名机构**：Facebook AI Research (FAIR)。
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
 
 <details><summary>完整署名作者</summary>
 
 Kaiming He、Xinlei Chen、Saining Xie、Yanghao Li、Piotr Dollár、Ross Girshick
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Facebook AI Research (FAIR)
 
 </details>
 

@@ -2,20 +2,34 @@
 
 Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning
 
-**首署名 / 贡献标记作者**：Moo Jin Kim。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Moo Jin Kim
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：NVIDIA；Stanford University。
+## 论文署名机构
+
+- **英伟达研究院**
+- **斯坦福大学**
 
 ## 继续看这些团队
 
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
 
 <details><summary>完整署名作者</summary>
 
 Moo Jin Kim、Yihuai Gao、Tsung-Yi Lin、Yen-Chen Lin、Yunhao Ge、Grace Lam、Percy Liang、Shuran Song、Ming-Yu Liu、Chelsea Finn、Jinwei Gu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
+- Stanford University
 
 </details>
 

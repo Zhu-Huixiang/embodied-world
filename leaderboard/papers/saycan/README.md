@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v205/ichter23a.html) · [PDF](https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf) · [阅读卡片](../../../library/saycan.md)
 
-论文出处：[Michael Ahn · Robotics at Google / Everyday Robots](../../origins/papers/saycan.md)
+论文出处：[**Michael Ahn**](../../origins/papers/saycan.md)<br>[谷歌机器人研究团队 / Everyday Robots](../../origins/papers/saycan.md)
 
 ## 机制简析
 

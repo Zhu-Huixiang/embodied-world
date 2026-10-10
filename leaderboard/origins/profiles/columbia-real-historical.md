@@ -1,8 +1,10 @@
-# Shuran Song 原 Columbia Robotics & Embodied AI 团队（历史署名）
+# 哥伦比亚大学机器人与具身智能团队（历史署名）
 
 以视觉运动学习与操作为研究背景；此处用于索引 Diffusion Policy 的 RSS 2023 历史团队署名。
 
 **类型**：历史实验室署名。
+
+**英文名称**：Shuran Song 原 Columbia Robotics & Embodied AI 团队（历史署名）
 
 ## 官方与学术入口
 

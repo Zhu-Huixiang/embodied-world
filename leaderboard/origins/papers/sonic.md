@@ -2,20 +2,36 @@
 
 SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
 
-**共同第一作者**：Zhengyi Luo、Ye Yuan、Tingwu Wang、Chenran Li、Fernando Castañeda。
+## 作者
+
+**共同第一作者**
+
+- Zhengyi Luo
+- Ye Yuan
+- Tingwu Wang
+- Chenran Li
+- Fernando Castañeda
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：NVIDIA, Santa Clara, CA, USA。
+## 论文署名机构
+
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [NVIDIA GEAR](../profiles/nvidia-gear.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达 GEAR 研究团队**](../profiles/nvidia-gear.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 Zhengyi Luo、Ye Yuan、Tingwu Wang、Chenran Li、Sirui Chen、Fernando Castañeda、Zi-Ang Cao、Jiefeng Li、David Minor、Qingwei Ben、Xingye Da、Runyu Ding、Cyrus Hogg、Lina Song、Edy Lim、Eugene Jeong、Tairan He、Haoru Xue、Wenli Xiao、Zi Wang、Simon Yuen、Jan Kautz、Yan Chang、Umar Iqbal、Linxi "Jim" Fan、Yuke Zhu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA, Santa Clara, CA, USA
 
 </details>
 

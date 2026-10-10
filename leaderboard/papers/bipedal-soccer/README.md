@@ -6,7 +6,7 @@
 
 [原文](https://www.science.org/doi/10.1126/scirobotics.adi8022) · [PDF](https://arxiv.org/pdf/2304.13653) · [阅读卡片](../../../library/bipedal-soccer.md)
 
-论文出处：[Tuomas Haarnoja / Ben Moran 等4位 · Google DeepMind / University College London](../../origins/papers/bipedal-soccer.md)
+论文出处：[**Tuomas Haarnoja / Ben Moran 等4位**](../../origins/papers/bipedal-soccer.md)<br>[谷歌 DeepMind / 伦敦大学学院](../../origins/papers/bipedal-soccer.md)
 
 ## 机制简析
 

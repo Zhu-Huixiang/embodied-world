@@ -2,20 +2,35 @@
 
 ANYmal parkour: Learning agile navigation for quadrupedal robots
 
-**首署名 / 贡献标记作者**：David Hoeller、Nikita Rudin。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- David Hoeller
+- Nikita Rudin
 
 署名方式：原文前两位作者明确标记等贡献。
 
-**论文署名机构**：ETH Zurich；NVIDIA。
+## 论文署名机构
+
+- **苏黎世联邦理工学院**
+- **英伟达研究院**
 
 ## 继续看这些团队
 
-- [ETH Zurich](../profiles/institution-i35440088.md)：研究方向、学术入口与本仓作品集。
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
+- [**苏黎世联邦理工学院**](../profiles/institution-i35440088.md)
+- [**英伟达研究院**](../profiles/nvidia.md)
 
 <details><summary>完整署名作者</summary>
 
 David Hoeller、Nikita Rudin、Dhionis Sako、Marco Hutter
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- ETH Zurich
+- NVIDIA
 
 </details>
 

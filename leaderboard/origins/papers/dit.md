@@ -2,21 +2,35 @@
 
 Scalable Diffusion Models with Transformers
 
-**首署名 / 贡献标记作者**：William Peebles。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- William Peebles
 
 署名方式：原文首署名作者。
 
-**论文署名机构**：UC Berkeley；New York University。
+## 论文署名机构
+
+- **加州大学伯克利分校**
+- **纽约大学**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [New York University](../profiles/institution-i57206974.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**纽约大学**](../profiles/institution-i57206974.md)
 
 <details><summary>完整署名作者</summary>
 
 William Peebles、Saining Xie
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- UC Berkeley
+- New York University
 
 </details>
 

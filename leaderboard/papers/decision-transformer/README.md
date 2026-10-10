@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf) · [阅读卡片](../../../library/decision-transformer.md)
 
-论文出处：[Lili Chen / Kevin Lu · UC Berkeley / Meta FAIR 等3个出处](../../origins/papers/decision-transformer.md)
+论文出处：[**Lili Chen / Kevin Lu**](../../origins/papers/decision-transformer.md)<br>[加州大学伯克利分校 / Meta FAIR 研究院 · 另1个机构](../../origins/papers/decision-transformer.md)
 
 ## 机制简析
 

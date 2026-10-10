@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v305/black25a.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v305/main/assets/black25a/black25a.pdf) · [阅读卡片](../../../library/pi05.md)
 
-论文出处：[Physical Intelligence · Physical Intelligence](../../origins/papers/pi05.md)
+论文出处：[**Physical Intelligence**](../../origins/papers/pi05.md)<br>[Physical Intelligence](../../origins/papers/pi05.md)
 
 ## 机制简析
 

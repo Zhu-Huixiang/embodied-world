@@ -2,21 +2,37 @@
 
 A Minimalist Approach to Offline Reinforcement Learning
 
-**首署名 / 贡献标记作者**：Scott Fujimoto。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Scott Fujimoto
 
 署名方式：精确论文ID的作者列表。
 
-**论文署名机构**：Mila；McGill University；Google Brain。
+## 论文署名机构
+
+- **魁北克人工智能研究所（Mila）**
+- **麦吉尔大学**
+- **谷歌研究院 / Brain 团队**
 
 ## 继续看这些团队
 
-- [Mila - Quebec Artificial Intelligence Institute](../profiles/institution-i4210164802.md)：研究方向、学术入口与本仓作品集。
-- [McGill University](../profiles/institution-i5023651.md)：研究方向、学术入口与本仓作品集。
-- [Google Research / Brain Team](../profiles/google-research-brain.md)：研究方向、学术入口与本仓作品集。
+- [**魁北克人工智能研究所（Mila）**](../profiles/institution-i4210164802.md)
+- [**麦吉尔大学**](../profiles/institution-i5023651.md)
+- [**谷歌研究院 / Brain 团队**](../profiles/google-research-brain.md)
 
 <details><summary>完整署名作者</summary>
 
 Scott Fujimoto、Shixiang Gu
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Mila
+- McGill University
+- Google Brain
 
 </details>
 

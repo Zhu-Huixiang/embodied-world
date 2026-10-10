@@ -2,26 +2,42 @@
 
 Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 
-**共同第一作者**：Cheng Chi。
+## 作者
+
+**共同第一作者**
+
+- Cheng Chi
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**论文署名机构**：Columbia University；Toyota Research Institute；MIT。
+## 论文署名机构
+
+- **哥伦比亚大学**
+- **丰田研究院**
+- **麻省理工学院**
 
 ## 继续看这些团队
 
-- [Shuran Song 原 Columbia Robotics & Embodied AI 团队（历史署名）](../profiles/columbia-real-historical.md)：研究方向、学术入口与本仓作品集。
-- [Columbia University](../profiles/institution-i78577930.md)：研究方向、学术入口与本仓作品集。
-- [Toyota Research Institute](../profiles/institution-i4391768151.md)：研究方向、学术入口与本仓作品集。
-- [Massachusetts Institute of Technology](../profiles/institution-i63966007.md)：研究方向、学术入口与本仓作品集。
+- [**哥伦比亚大学机器人与具身智能团队（历史署名）**](../profiles/columbia-real-historical.md)
+- [**哥伦比亚大学**](../profiles/institution-i78577930.md)
+- [**丰田研究院**](../profiles/institution-i4391768151.md)
+- [**麻省理工学院**](../profiles/institution-i63966007.md)
 
 ## 当前团队入口
 
-- [Stanford Robotics and Embodied Artificial Intelligence Lab（REAL）](../profiles/stanford-real.md)
+- [斯坦福大学机器人与具身智能实验室（REAL）](../profiles/stanford-real.md)
 
 <details><summary>完整署名作者</summary>
 
 Cheng Chi、Siyuan Feng、Yilun Du、Zhenjia Xu、Eric Cousineau、Benjamin Burchfiel、Shuran Song
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Columbia University
+- Toyota Research Institute
+- MIT
 
 </details>
 

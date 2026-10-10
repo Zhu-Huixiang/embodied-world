@@ -2,20 +2,34 @@
 
 MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations
 
-**首署名 / 贡献标记作者**：Ajay Mandlekar。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Ajay Mandlekar
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：NVIDIA；UT Austin。
+## 论文署名机构
+
+- **英伟达研究院**
+- **得克萨斯大学奥斯汀分校**
 
 ## 继续看这些团队
 
-- [NVIDIA Research](../profiles/nvidia.md)：研究方向、学术入口与本仓作品集。
-- [The University of Texas at Austin](../profiles/institution-i86519309.md)：研究方向、学术入口与本仓作品集。
+- [**英伟达研究院**](../profiles/nvidia.md)
+- [**得克萨斯大学奥斯汀分校**](../profiles/institution-i86519309.md)
 
 <details><summary>完整署名作者</summary>
 
 Ajay Mandlekar、Soroush Nasiriany、Bowen Wen、Iretiayo Akinola、Yashraj Narang、Linxi Fan、Yuke Zhu、Dieter Fox
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- NVIDIA
+- UT Austin
 
 </details>
 

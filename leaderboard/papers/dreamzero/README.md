@@ -6,7 +6,7 @@
 
 [原文](https://arxiv.org/abs/2602.15922) · [PDF](https://arxiv.org/pdf/2602.15922) · [阅读卡片](../../../library/dreamzero.md)
 
-论文出处：[Seonghyeon Ye · NVIDIA GEAR / NVIDIA](../../origins/papers/dreamzero.md)
+论文出处：[**Seonghyeon Ye**](../../origins/papers/dreamzero.md)<br>[英伟达 GEAR 研究团队 / 英伟达](../../origins/papers/dreamzero.md)
 
 ## 机制简析
 

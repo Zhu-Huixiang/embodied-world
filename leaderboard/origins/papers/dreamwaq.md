@@ -2,21 +2,35 @@
 
 DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning
 
-**共同第一作者**：I Made Aswin Nahrendra。
+## 作者
+
+**共同第一作者**
+
+- I Made Aswin Nahrendra
 
 署名方式：原文首署名；共同一作只按明确标记。
 
-**通讯作者**：Hyun Myung。
+**通讯作者**
 
-**论文署名机构**：School of Electrical Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Republic of Korea。
+- Hyun Myung
+
+## 论文署名机构
+
+- **韩国科学技术院（KAIST）电气工程学院**
 
 ## 继续看这些团队
 
-- [Korea Advanced Institute of Science and Technology](../profiles/institution-i157485424.md)：研究方向、学术入口与本仓作品集。
+- [**韩国科学技术院（KAIST）**](../profiles/institution-i157485424.md)
 
 <details><summary>完整署名作者</summary>
 
 I Made Aswin Nahrendra、Byeongho Yu、Hyun Myung
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- School of Electrical Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Republic of Korea
 
 </details>
 

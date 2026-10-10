@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.mlr.press/v205/fu23a.html) · [PDF](https://proceedings.mlr.press/v205/fu23a/fu23a.pdf) · [阅读卡片](../../../library/deep-whole-body-control.md)
 
-论文出处：[Zipeng Fu / Xuxin Cheng · Carnegie Mellon University](../../origins/papers/deep-whole-body-control.md)
+论文出处：[**Zipeng Fu / Xuxin Cheng**](../../origins/papers/deep-whole-body-control.md)<br>[卡内基梅隆大学](../../origins/papers/deep-whole-body-control.md)
 
 ## 机制简析
 

@@ -2,19 +2,32 @@
 
 Extreme Parkour with Legged Robots
 
-**共同第一作者**：Xuxin Cheng、Kexin Shi。
+## 作者
+
+**共同第一作者**
+
+- Xuxin Cheng
+- Kexin Shi
 
 署名方式：原文明确共同一作。
 
-**论文署名机构**：Carnegie Mellon University。
+## 论文署名机构
+
+- **卡内基梅隆大学**
 
 ## 继续看这些团队
 
-- [Carnegie Mellon University](../profiles/institution-i74973139.md)：研究方向、学术入口与本仓作品集。
+- [**卡内基梅隆大学**](../profiles/institution-i74973139.md)
 
 <details><summary>完整署名作者</summary>
 
 Xuxin Cheng、Kexin Shi、Ananye Agarwal、Deepak Pathak
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Carnegie Mellon University
 
 </details>
 

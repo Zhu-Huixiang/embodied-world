@@ -2,21 +2,38 @@
 
 Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots
 
-**共同第一作者**：Cheng Chi、Zhenjia Xu。
+## 作者
+
+**共同第一作者**
+
+- Cheng Chi
+- Zhenjia Xu
 
 署名方式：原文明确共同一作。
 
-**论文署名机构**：Stanford University；Columbia University；Toyota Research Institute。
+## 论文署名机构
+
+- **斯坦福大学**
+- **哥伦比亚大学**
+- **丰田研究院**
 
 ## 继续看这些团队
 
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [Columbia University](../profiles/institution-i78577930.md)：研究方向、学术入口与本仓作品集。
-- [Toyota Research Institute](../profiles/institution-i4391768151.md)：研究方向、学术入口与本仓作品集。
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**哥伦比亚大学**](../profiles/institution-i78577930.md)
+- [**丰田研究院**](../profiles/institution-i4391768151.md)
 
 <details><summary>完整署名作者</summary>
 
 Cheng Chi、Zhenjia Xu、Chuer Pan、Eric Cousineau、Benjamin Burchfiel、Siyuan Feng、Russ Tedrake、Shuran Song
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- Columbia University
+- Toyota Research Institute
 
 </details>
 

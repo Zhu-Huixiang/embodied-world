@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss20/p120.html) · [PDF](https://www.roboticsproceedings.org/rss20/p120.pdf) · [阅读卡片](../../../library/droid.md)
 
-论文出处：[Alexander Khazatsky / Karl Pertsch · Stanford IRIS（Intelligence through Robotic Interaction at Scale） / UC Berkeley RAIL 等19个出处](../../origins/papers/droid.md)
+论文出处：[**Alexander Khazatsky / Karl Pertsch**](../../origins/papers/droid.md)<br>[斯坦福 IRIS 实验室 / 伯克利 RAIL 实验室 · 另14个机构](../../origins/papers/droid.md)
 
 ## 机制简析
 

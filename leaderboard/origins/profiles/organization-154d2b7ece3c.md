@@ -1,8 +1,10 @@
-# Reality Labs Research, Meta
+# Meta Reality Labs 研究团队
 
 本仓已收录工作主要涉及：动作先验与全身技能。
 
 **类型**：论文署名机构。
+
+**英文名称**：Reality Labs Research, Meta
 
 ## 官方与学术入口
 

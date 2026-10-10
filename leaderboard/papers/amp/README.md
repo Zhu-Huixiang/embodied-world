@@ -6,7 +6,7 @@
 
 [原文](https://xbpeng.github.io/projects/AMP/) · [PDF](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf) · [阅读卡片](../../../library/amp.md)
 
-论文出处：[Xue Bin Peng / Ze Ma · UC Berkeley / Shanghai Jiao Tong University](../../origins/papers/amp.md)
+论文出处：[**Xue Bin Peng / Ze Ma**](../../origins/papers/amp.md)<br>[加州大学伯克利分校 / 上海交通大学](../../origins/papers/amp.md)
 
 ## 机制简析
 

@@ -6,7 +6,7 @@
 
 [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) · [阅读卡片](../../../library/sam.md)
 
-论文出处：[Alexander Kirillov / Eric Mintun 等4位 · Meta FAIR](../../origins/papers/sam.md)
+论文出处：[**Alexander Kirillov / Eric Mintun 等4位**](../../origins/papers/sam.md)<br>[Meta FAIR 研究院](../../origins/papers/sam.md)
 
 ## 机制简析
 

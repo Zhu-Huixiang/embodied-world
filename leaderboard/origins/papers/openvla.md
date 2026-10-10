@@ -2,28 +2,56 @@
 
 OpenVLA: An Open-Source Vision-Language-Action Model
 
-**共同第一作者**：Moo Jin Kim、Karl Pertsch、Siddharth Karamcheti。
+## 作者
+
+**共同第一作者**
+
+- Moo Jin Kim
+- Karl Pertsch
+- Siddharth Karamcheti
 
 署名方式：原文明确共同第一作者，并明示同组通讯作者。
 
-**通讯作者**：Moo Jin Kim、Karl Pertsch、Siddharth Karamcheti。
+**通讯作者**
 
-**论文署名机构**：Stanford University；UC Berkeley；Toyota Research Institute；Google DeepMind；Physical Intelligence；MIT。
+- Moo Jin Kim
+- Karl Pertsch
+- Siddharth Karamcheti
+
+## 论文署名机构
+
+- **斯坦福大学**
+- **加州大学伯克利分校**
+- **丰田研究院**
+- **谷歌 DeepMind**
+- **Physical Intelligence**
+- **麻省理工学院**
 
 ## 继续看这些团队
 
-- [Stanford IRIS（Intelligence through Robotic Interaction at Scale）](../profiles/stanford-iris.md)：研究方向、学术入口与本仓作品集。
-- [UC Berkeley RAIL](../profiles/berkeley-rail.md)：研究方向、学术入口与本仓作品集。
-- [Stanford University](../profiles/institution-i97018004.md)：研究方向、学术入口与本仓作品集。
-- [University of California, Berkeley](../profiles/institution-i95457486.md)：研究方向、学术入口与本仓作品集。
-- [Toyota Research Institute](../profiles/institution-i4391768151.md)：研究方向、学术入口与本仓作品集。
-- [Google DeepMind](../profiles/google-deepmind.md)：研究方向、学术入口与本仓作品集。
-- [Physical Intelligence](../profiles/physical-intelligence.md)：研究方向、学术入口与本仓作品集。
-- [Massachusetts Institute of Technology](../profiles/institution-i63966007.md)：研究方向、学术入口与本仓作品集。
+- [**斯坦福大学 IRIS 实验室**](../profiles/stanford-iris.md)
+- [**加州大学伯克利分校机器人与人工智能实验室（RAIL）**](../profiles/berkeley-rail.md)
+- [**斯坦福大学**](../profiles/institution-i97018004.md)
+- [**加州大学伯克利分校**](../profiles/institution-i95457486.md)
+- [**丰田研究院**](../profiles/institution-i4391768151.md)
+- [**谷歌 DeepMind**](../profiles/google-deepmind.md)
+- [**Physical Intelligence**](../profiles/physical-intelligence.md)
+- [**麻省理工学院**](../profiles/institution-i63966007.md)
 
 <details><summary>完整署名作者</summary>
 
 Moo Jin Kim、Karl Pertsch、Siddharth Karamcheti、Ted Xiao、Ashwin Balakrishna、Suraj Nair、Rafael Rafailov、Ethan Foster、Grace Lam、Pannag Sanketi、Quan Vuong、Thomas Kollar、Benjamin Burchfiel、Russ Tedrake、Dorsa Sadigh、Sergey Levine、Percy Liang、Chelsea Finn
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Stanford University
+- UC Berkeley
+- Toyota Research Institute
+- Google DeepMind
+- Physical Intelligence
+- MIT
 
 </details>
 

@@ -6,7 +6,7 @@
 
 [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c44a04289beaf0a7d968a94066a1d696-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/c44a04289beaf0a7d968a94066a1d696-Paper-Conference.pdf) · [阅读卡片](../../../library/cal-ql.md)
 
-论文出处：[Mitsuhiko Nakamoto / Yuexiang Zhai · UC Berkeley / Stanford University](../../origins/papers/cal-ql.md)
+论文出处：[**Mitsuhiko Nakamoto / Yuexiang Zhai**](../../origins/papers/cal-ql.md)<br>[加州大学伯克利分校 / 斯坦福大学](../../origins/papers/cal-ql.md)
 
 ## 机制简析
 

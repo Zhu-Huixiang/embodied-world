@@ -2,22 +2,40 @@
 
 Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture
 
-**首署名 / 贡献标记作者**：Mahmoud Assran。
+## 作者
+
+**首署名 / 贡献标记作者**
+
+- Mahmoud Assran
 
 署名方式：精确论文ID的作者列表；与身份已核出版索引互证。
 
-**论文署名机构**：Meta FAIR；McGill University；Mila；New York University。
+## 论文署名机构
+
+- **Meta 人工智能研究院（FAIR）**
+- **麦吉尔大学**
+- **魁北克人工智能研究所（Mila）**
+- **纽约大学**
 
 ## 继续看这些团队
 
-- [Meta FAIR](../profiles/meta-fair.md)：研究方向、学术入口与本仓作品集。
-- [McGill University](../profiles/institution-i5023651.md)：研究方向、学术入口与本仓作品集。
-- [Mila - Quebec Artificial Intelligence Institute](../profiles/institution-i4210164802.md)：研究方向、学术入口与本仓作品集。
-- [New York University](../profiles/institution-i57206974.md)：研究方向、学术入口与本仓作品集。
+- [**Meta 人工智能研究院（FAIR）**](../profiles/meta-fair.md)
+- [**麦吉尔大学**](../profiles/institution-i5023651.md)
+- [**魁北克人工智能研究所（Mila）**](../profiles/institution-i4210164802.md)
+- [**纽约大学**](../profiles/institution-i57206974.md)
 
 <details><summary>完整署名作者</summary>
 
 Mahmoud Assran、Quentin Duval、Ishan Misra、Piotr Bojanowski、Pascal Vincent、Michael Rabbat、Yann LeCun、Nicolas Ballas
+
+</details>
+
+<details><summary>原文机构署名</summary>
+
+- Meta FAIR
+- McGill University
+- Mila
+- New York University
 
 </details>
 

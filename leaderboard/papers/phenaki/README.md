@@ -6,7 +6,7 @@
 
 [原文](https://openreview.net/forum?id=vOEXS39nOF) · [PDF](https://openreview.net/pdf?id=vOEXS39nOF) · [阅读卡片](../../../library/phenaki.md)
 
-论文出处：[Ruben Villegas · Google Research / Brain Team / University of Michigan 等3个出处](../../origins/papers/phenaki.md)
+论文出处：[**Ruben Villegas**](../../origins/papers/phenaki.md)<br>[谷歌研究院 / Brain 团队 / 密歇根大学 · 另1个机构](../../origins/papers/phenaki.md)
 
 ## 机制简析
 

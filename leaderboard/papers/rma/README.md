@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss17/p011.html) · [PDF](https://www.roboticsproceedings.org/rss17/p011.pdf) · [阅读卡片](../../../library/rma.md)
 
-论文出处：[Ashish Kumar · UC Berkeley / Carnegie Mellon University 等3个出处](../../origins/papers/rma.md)
+论文出处：[**Ashish Kumar**](../../origins/papers/rma.md)<br>[加州大学伯克利分校 / 卡内基梅隆大学 · 另1个机构](../../origins/papers/rma.md)
 
 ## 机制简析
 

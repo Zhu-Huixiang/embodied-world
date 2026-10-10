@@ -6,7 +6,7 @@
 
 [原文](https://www.roboticsproceedings.org/rss21/p012.html) · [PDF](https://www.roboticsproceedings.org/rss21/p012.pdf) · [阅读卡片](../../../library/fast.md)
 
-论文出处：[Karl Pertsch · Physical Intelligence / UC Berkeley 等3个出处](../../origins/papers/fast.md)
+论文出处：[**Karl Pertsch**](../../origins/papers/fast.md)<br>[Physical Intelligence / 加州大学伯克利分校 · 另1个机构](../../origins/papers/fast.md)
 
 ## 机制简析
 
