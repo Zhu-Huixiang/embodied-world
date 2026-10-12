@@ -6,7 +6,7 @@
 
 [评分维度与公式](methodology.md) · [可重算数据](scores.json) · [v2→v3逐篇变化](changes-v3.md) · [补查与收录决定](selection-2026-10-10.md)
 
-[打开交互筛选榜](https://zhu-huixiang.github.io/embodied-world/leaderboard/) · [离线交互页](index.html) · [筛选用法与下载方式](guide.md) · [作者与团队目录](origins/README.md)
+[打开交互筛选榜](https://zhu-huixiang.github.io/embodied-world/leaderboard/) · [知识点宇宙](../universe/README.md) · [离线交互页](index.html) · [筛选用法与下载方式](guide.md) · [作者与团队目录](origins/README.md)
 
 交互榜支持八列组合筛选、升降序排序、分享筛选链接与导出结果。数字栏可填 `1-20,40,60-80`，刊会、方向和作者/团队可多选。简称进入评分卡，完整题目进入解读或导读；发表刊会和方向分别进入集锦与地图。论文出处进入作者、署名机构、团队与工作集锦。
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/peract.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v205/shridhar23a.html) · [PDF](https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf) · [阅读卡片](../../../library/peract.md)
+[知识星系](../../../universe/papers/peract.md) · [原文](https://proceedings.mlr.press/v205/shridhar23a.html) · [PDF](https://proceedings.mlr.press/v205/shridhar23a/shridhar23a.pdf) · [阅读卡片](../../../library/peract.md)
 
 论文出处：[**Mohit Shridhar**](../../origins/papers/peract.md)<br>[华盛顿大学 RSE 实验室 / 英伟达](../../origins/papers/peract.md)
 

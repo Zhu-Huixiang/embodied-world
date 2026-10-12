@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/sonic.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
-[原文](https://www.science.org/doi/10.1126/scirobotics.aed4592) · [PDF](https://arxiv.org/pdf/2511.07820v4) · [阅读卡片](../../../library/sonic.md)
+[知识星系](../../../universe/papers/sonic.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.aed4592) · [PDF](https://arxiv.org/pdf/2511.07820v4) · [阅读卡片](../../../library/sonic.md)
 
 论文出处：[**Zhengyi Luo / Ye Yuan 等5位**](../../origins/papers/sonic.md)<br>[英伟达 GEAR 研究团队 / 英伟达](../../origins/papers/sonic.md)
 

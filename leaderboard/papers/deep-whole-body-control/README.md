@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/deep-whole-body-control.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v205/fu23a.html) · [PDF](https://proceedings.mlr.press/v205/fu23a/fu23a.pdf) · [阅读卡片](../../../library/deep-whole-body-control.md)
+[知识星系](../../../universe/papers/deep-whole-body-control.md) · [原文](https://proceedings.mlr.press/v205/fu23a.html) · [PDF](https://proceedings.mlr.press/v205/fu23a/fu23a.pdf) · [阅读卡片](../../../library/deep-whole-body-control.md)
 
 论文出处：[**Zipeng Fu / Xuxin Cheng**](../../origins/papers/deep-whole-body-control.md)<br>[卡内基梅隆大学](../../origins/papers/deep-whole-body-control.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/iql.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://iclr.cc/virtual/2022/poster/5941) · [PDF](https://arxiv.org/pdf/2110.06169) · [阅读卡片](../../../library/iql.md)
+[知识星系](../../../universe/papers/iql.md) · [原文](https://iclr.cc/virtual/2022/poster/5941) · [PDF](https://arxiv.org/pdf/2110.06169) · [阅读卡片](../../../library/iql.md)
 
 论文出处：[**Ilya Kostrikov**](../../origins/papers/iql.md)<br>[加州大学伯克利分校](../../origins/papers/iql.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/plaw-vla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [arXiv集锦](../../../arxiv/README.md#paper-plaw-vla)
 
-[原文](https://arxiv.org/abs/2610.12285v1) · [PDF](https://arxiv.org/pdf/2610.12285v1) · [阅读卡片](../../../library/plaw-vla.md)
+[知识星系](../../../universe/papers/plaw-vla.md) · [原文](https://arxiv.org/abs/2610.12285v1) · [PDF](https://arxiv.org/pdf/2610.12285v1) · [阅读卡片](../../../library/plaw-vla.md)
 
 论文出处：[**Yu Liu / Hetian Guo**](../../origins/papers/plaw-vla.md)<br>[吉林大学 / 星尘智能 · 另3个机构](../../origins/papers/plaw-vla.md)
 

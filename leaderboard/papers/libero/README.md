@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/libero.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) · [阅读卡片](../../../library/libero.md)
+[知识星系](../../../universe/papers/libero.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) · [阅读卡片](../../../library/libero.md)
 
 论文出处：[**Bo Liu / Yifeng Zhu 等3位**](../../origins/papers/libero.md)<br>[得克萨斯大学奥斯汀分校 RPL 实验室 / 索尼 AI · 另1个机构](../../origins/papers/libero.md)
 

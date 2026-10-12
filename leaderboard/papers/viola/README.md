@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/viola.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-viola)
 
-[原文](https://arxiv.org/abs/2610.12435v1) · [PDF](https://arxiv.org/pdf/2610.12435v1) · [阅读卡片](../../../library/viola.md)
+[知识星系](../../../universe/papers/viola.md) · [原文](https://arxiv.org/abs/2610.12435v1) · [PDF](https://arxiv.org/pdf/2610.12435v1) · [阅读卡片](../../../library/viola.md)
 
 论文出处：[**Mert Albaba**](../../origins/papers/viola.md)<br>[Vesoma / 苏黎世联邦理工学院 · 另3个机构](../../origins/papers/viola.md)
 

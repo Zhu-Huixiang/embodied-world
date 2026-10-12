@@ -295,3 +295,5 @@ Table 6 的“±”是延迟标准差，表示测试中的波动。八轮平均�
 ![公众号二维码](../../assets/wechat-qr.jpg)
 
 [原论文](https://arxiv.org/abs/2609.35709v1) · [证据索引](evidence.json)
+
+[本篇知识星系](../../universe/papers/holo-m.md) · [知识点宇宙](../../universe/README.md)

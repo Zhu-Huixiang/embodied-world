@@ -26,6 +26,6 @@ NeurIPS 2023 Datasets and Benchmarks 正式轨；原论文是终身学习问题�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/libero/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
+[知识星系](../universe/papers/libero.md) · [七维评分与雷达](../leaderboard/papers/libero/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
 
 元数据核对：2026-10-10。

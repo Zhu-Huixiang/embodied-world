@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/perceptive-loco.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
-[原文](https://www.science.org/doi/10.1126/scirobotics.abk2822) · [PDF](https://arxiv.org/pdf/2201.08117) · [阅读卡片](../../../library/perceptive-loco.md)
+[知识星系](../../../universe/papers/perceptive-loco.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822) · [PDF](https://arxiv.org/pdf/2201.08117) · [阅读卡片](../../../library/perceptive-loco.md)
 
 论文出处：[**Takahiro Miki**](../../origins/papers/perceptive-loco.md)<br>[苏黎世联邦理工 RSL 实验室 / 韩国科学技术院（KAIST） · 另2个机构](../../origins/papers/perceptive-loco.md)
 

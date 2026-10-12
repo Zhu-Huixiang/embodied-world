@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/bridge-v2.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v229/walke23a.html) · [PDF](https://proceedings.mlr.press/v229/walke23a/walke23a.pdf) · [阅读卡片](../../../library/bridge-v2.md)
+[知识星系](../../../universe/papers/bridge-v2.md) · [原文](https://proceedings.mlr.press/v229/walke23a.html) · [PDF](https://proceedings.mlr.press/v229/walke23a/walke23a.pdf) · [阅读卡片](../../../library/bridge-v2.md)
 
 论文出处：[**Homer Walke**](../../origins/papers/bridge-v2.md)<br>[加州大学伯克利分校 / 斯坦福大学 · 另2个机构](../../origins/papers/bridge-v2.md)
 

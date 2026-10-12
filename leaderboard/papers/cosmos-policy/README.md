@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/cosmos-policy.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://openreview.net/forum?id=wPEIStHxYH) · [PDF](https://arxiv.org/pdf/2601.16163) · [阅读卡片](../../../library/cosmos-policy.md)
+[知识星系](../../../universe/papers/cosmos-policy.md) · [原文](https://openreview.net/forum?id=wPEIStHxYH) · [PDF](https://arxiv.org/pdf/2601.16163) · [阅读卡片](../../../library/cosmos-policy.md)
 
 论文出处：[**Moo Jin Kim**](../../origins/papers/cosmos-policy.md)<br>[英伟达 / 斯坦福大学](../../origins/papers/cosmos-policy.md)
 

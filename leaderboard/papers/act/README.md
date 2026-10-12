@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/act.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss19/p016.html) · [PDF](https://www.roboticsproceedings.org/rss19/p016.pdf) · [阅读卡片](../../../library/act.md)
+[知识星系](../../../universe/papers/act.md) · [原文](https://www.roboticsproceedings.org/rss19/p016.html) · [PDF](https://www.roboticsproceedings.org/rss19/p016.pdf) · [阅读卡片](../../../library/act.md)
 
 论文出处：[**Tony Z. Zhao**](../../origins/papers/act.md)<br>[斯坦福 IRIS 实验室 / 伯克利 RAIL 实验室 · 另1个机构](../../origins/papers/act.md)
 

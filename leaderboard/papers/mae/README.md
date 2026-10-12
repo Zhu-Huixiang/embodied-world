@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/mae.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [CVPR集锦](../../../venues/CVPR/README.md)
 
-[原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf) · [阅读卡片](../../../library/mae.md)
+[知识星系](../../../universe/papers/mae.md) · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf) · [阅读卡片](../../../library/mae.md)
 
 论文出处：[**Kaiming He / Xinlei Chen**](../../origins/papers/mae.md)<br>[Meta FAIR 研究院](../../origins/papers/mae.md)
 

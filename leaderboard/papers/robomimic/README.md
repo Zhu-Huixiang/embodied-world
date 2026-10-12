@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/robomimic.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v164/mandlekar22a.html) · [PDF](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf) · [阅读卡片](../../../library/robomimic.md)
+[知识星系](../../../universe/papers/robomimic.md) · [原文](https://proceedings.mlr.press/v164/mandlekar22a.html) · [PDF](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf) · [阅读卡片](../../../library/robomimic.md)
 
 论文出处：[**Ajay Mandlekar**](../../origins/papers/robomimic.md)<br>[得克萨斯大学奥斯汀分校 RPL 实验室 / 斯坦福大学](../../origins/papers/robomimic.md)
 

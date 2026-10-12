@@ -4,7 +4,7 @@
 
 [完整解读](../../../articles/clip-2103.00020/README.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICML集锦](../../../venues/ICML/README.md)
 
-[原文](https://proceedings.mlr.press/v139/radford21a.html) · [PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [阅读卡片](../../../library/clip.md)
+[知识星系](../../../universe/papers/clip.md) · [原文](https://proceedings.mlr.press/v139/radford21a.html) · [PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [阅读卡片](../../../library/clip.md)
 
 论文出处：[**Alec Radford / Jong Wook Kim**](../../origins/papers/clip.md)<br>[OpenAI](../../origins/papers/clip.md)
 

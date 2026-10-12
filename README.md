@@ -4,7 +4,7 @@
 
 这里与同名公众号一起读具身智能论文。每篇先交代技术分歧，提出三个问题，再沿原文目录拆输入、表示、公式、训练信号与闭环实验。公众号适合顺着主线阅读；GitHub 留下高清图、公式源文件、证据位置和继续读的入口。
 
-## 六个入口
+## 七个入口
 
 | 功能 | 从这里开始 | 能找到什么 |
 | --- | --- | --- |
@@ -14,6 +14,8 @@
 | 解读日程 | [未来一周的拟定选题](calendar/README.md) | 每天准备细讲哪篇、带着什么问题读、当前进度 |
 | arXiv 新作集锦 | [按日期追论文](arxiv/README.md) | 带首投/收录时间与已核实机构；重点实验室与具体研究贡献一起筛 |
 | 具身榜 | [七维阅读优先榜](leaderboard/README.md) · [交互筛选榜](https://zhu-huixiang.github.io/embodied-world/leaderboard/) · [作者与团队](leaderboard/origins/README.md) | 每篇机制简析、雷达、引用与跨平台信号；按八列组合筛选和排序，沿作者、实验室与大学继续读相关工作 |
+
+| 知识点宇宙 | [论文与知识点图谱](universe/README.md) · [交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) | 从论文到方法、模块和共享技术；已精讲的节点点亮，可沿关联查讲解与使用它的论文 |
 
 正式公众号精讲按具身榜顺序推进，优先影响力与证据扎实的论文。Holo-M 是试水稿。[高影响论文清单与收录理由](paper-map/curated-2026-10-10.md)列出正式出处、具身关联和经典破例理由；[完整精讲队列](calendar/queue.md)随榜单更新。[补查与收录决定](leaderboard/selection-2026-10-10.md)记录近期新加入、正式出处更新和暂缓项。
 

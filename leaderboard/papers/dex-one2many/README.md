@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/dex-one2many.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-dex-one2many)
 
-[原文](https://arxiv.org/abs/2610.12470v1) · [PDF](https://arxiv.org/pdf/2610.12470v1) · [阅读卡片](../../../library/dex-one2many.md)
+[知识星系](../../../universe/papers/dex-one2many.md) · [原文](https://arxiv.org/abs/2610.12470v1) · [PDF](https://arxiv.org/pdf/2610.12470v1) · [阅读卡片](../../../library/dex-one2many.md)
 
 论文出处：[**Jusuk Lee**](../../origins/papers/dex-one2many.md)<br>[首尔大学 / 马里兰大学 · 另2个机构](../../origins/papers/dex-one2many.md)
 

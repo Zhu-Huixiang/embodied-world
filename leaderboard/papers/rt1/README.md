@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/rt1.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss19/p025.html) · [PDF](https://roboticsproceedings.org/rss19/p025.pdf) · [阅读卡片](../../../library/rt1.md)
+[知识星系](../../../universe/papers/rt1.md) · [原文](https://www.roboticsproceedings.org/rss19/p025.html) · [PDF](https://roboticsproceedings.org/rss19/p025.pdf) · [阅读卡片](../../../library/rt1.md)
 
 论文出处：[**Anthony Brohan**](../../origins/papers/rt1.md)<br>[谷歌机器人研究团队 / Everyday Robots · 另1个机构](../../origins/papers/rt1.md)
 

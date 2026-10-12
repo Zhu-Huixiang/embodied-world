@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/rvt.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v229/goyal23a.html) · [PDF](https://proceedings.mlr.press/v229/goyal23a/goyal23a.pdf) · [阅读卡片](../../../library/rvt.md)
+[知识星系](../../../universe/papers/rvt.md) · [原文](https://proceedings.mlr.press/v229/goyal23a.html) · [PDF](https://proceedings.mlr.press/v229/goyal23a/goyal23a.pdf) · [阅读卡片](../../../library/rvt.md)
 
 论文出处：[**Ankit Goyal**](../../origins/papers/rvt.md)<br>[英伟达](../../origins/papers/rvt.md)
 

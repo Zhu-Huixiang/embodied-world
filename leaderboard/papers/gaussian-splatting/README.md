@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/gaussian-splatting.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 
-[原文](https://dl.acm.org/doi/10.1145/3592433) · [PDF](https://arxiv.org/pdf/2308.04079) · [阅读卡片](../../../library/gaussian-splatting.md)
+[知识星系](../../../universe/papers/gaussian-splatting.md) · [原文](https://dl.acm.org/doi/10.1145/3592433) · [PDF](https://arxiv.org/pdf/2308.04079) · [阅读卡片](../../../library/gaussian-splatting.md)
 
 论文出处：[**Bernhard Kerbl / Georgios Kopanas**](../../origins/papers/gaussian-splatting.md)<br>[法国 Inria 研究所 / 蔚蓝海岸大学 · 另1个机构](../../origins/papers/gaussian-splatting.md)
 

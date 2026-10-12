@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/phenaki.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://openreview.net/forum?id=vOEXS39nOF) · [PDF](https://openreview.net/pdf?id=vOEXS39nOF) · [阅读卡片](../../../library/phenaki.md)
+[知识星系](../../../universe/papers/phenaki.md) · [原文](https://openreview.net/forum?id=vOEXS39nOF) · [PDF](https://openreview.net/pdf?id=vOEXS39nOF) · [阅读卡片](../../../library/phenaki.md)
 
 论文出处：[**Ruben Villegas**](../../origins/papers/phenaki.md)<br>[谷歌研究院 / Brain 团队 / 密歇根大学 · 另1个机构](../../origins/papers/phenaki.md)
 

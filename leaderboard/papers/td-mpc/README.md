@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/td-mpc.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICML集锦](../../../venues/ICML/README.md)
 
-[原文](https://proceedings.mlr.press/v162/hansen22a.html) · [PDF](https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf) · [阅读卡片](../../../library/td-mpc.md)
+[知识星系](../../../universe/papers/td-mpc.md) · [原文](https://proceedings.mlr.press/v162/hansen22a.html) · [PDF](https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf) · [阅读卡片](../../../library/td-mpc.md)
 
 论文出处：[**Nicklas Hansen**](../../origins/papers/td-mpc.md)<br>[加州大学圣迭戈分校](../../origins/papers/td-mpc.md)
 

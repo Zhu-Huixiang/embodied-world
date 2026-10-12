@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/consistency-policy.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss20/p071.html) · [PDF](https://www.roboticsproceedings.org/rss20/p071.pdf) · [阅读卡片](../../../library/consistency-policy.md)
+[知识星系](../../../universe/papers/consistency-policy.md) · [原文](https://www.roboticsproceedings.org/rss20/p071.html) · [PDF](https://www.roboticsproceedings.org/rss20/p071.pdf) · [阅读卡片](../../../library/consistency-policy.md)
 
 论文出处：[**Aaditya Prasad**](../../origins/papers/consistency-policy.md)<br>[斯坦福大学 / 普林斯顿大学](../../origins/papers/consistency-policy.md)
 

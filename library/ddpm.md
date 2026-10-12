@@ -28,6 +28,6 @@ NeurIPS 2020 原始 DDPM；图像生成指标与下游动作成功率各按对�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/ddpm/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
+[知识星系](../universe/papers/ddpm.md) · [七维评分与雷达](../leaderboard/papers/ddpm/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
 
 元数据核对：2026-10-10。

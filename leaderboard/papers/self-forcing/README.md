@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/self-forcing.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf) · [阅读卡片](../../../library/self-forcing.md)
+[知识星系](../../../universe/papers/self-forcing.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf) · [阅读卡片](../../../library/self-forcing.md)
 
 论文出处：[**Xun Huang**](../../origins/papers/self-forcing.md)<br>[Adobe 研究院 / 得克萨斯大学奥斯汀分校](../../origins/papers/self-forcing.md)
 

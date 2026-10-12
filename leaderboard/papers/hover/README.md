@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/hover.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
 
-[原文](https://hover-versatile-humanoid.github.io/) · [PDF](https://arxiv.org/pdf/2410.21229) · [阅读卡片](../../../library/hover.md)
+[知识星系](../../../universe/papers/hover.md) · [原文](https://hover-versatile-humanoid.github.io/) · [PDF](https://arxiv.org/pdf/2410.21229) · [阅读卡片](../../../library/hover.md)
 
 论文出处：[**Tairan He / Wenli Xiao**](../../origins/papers/hover.md)<br>[英伟达 GEAR 研究团队 / 英伟达 · 另4个机构](../../origins/papers/hover.md)
 

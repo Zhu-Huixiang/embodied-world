@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/deepmimic.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 
-[原文](https://xbpeng.github.io/projects/DeepMimic/) · [PDF](https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf) · [阅读卡片](../../../library/deepmimic.md)
+[知识星系](../../../universe/papers/deepmimic.md) · [原文](https://xbpeng.github.io/projects/DeepMimic/) · [PDF](https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf) · [阅读卡片](../../../library/deepmimic.md)
 
 论文出处：[**Xue Bin Peng**](../../origins/papers/deepmimic.md)<br>[加州大学伯克利分校 / 不列颠哥伦比亚大学](../../origins/papers/deepmimic.md)
 

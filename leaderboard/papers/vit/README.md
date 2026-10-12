@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/vit.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://iclr.cc/virtual/2021/poster/3013) · [PDF](https://arxiv.org/pdf/2010.11929v2) · [阅读卡片](../../../library/vit.md)
+[知识星系](../../../universe/papers/vit.md) · [原文](https://iclr.cc/virtual/2021/poster/3013) · [PDF](https://arxiv.org/pdf/2010.11929v2) · [阅读卡片](../../../library/vit.md)
 
 论文出处：[**Alexey Dosovitskiy / Lucas Beyer 等6位**](../../origins/papers/vit.md)<br>[谷歌研究院 / Brain 团队](../../origins/papers/vit.md)
 

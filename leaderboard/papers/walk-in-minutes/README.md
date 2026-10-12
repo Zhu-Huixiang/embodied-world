@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/walk-in-minutes.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v164/rudin22a.html) · [PDF](https://proceedings.mlr.press/v164/rudin22a/rudin22a.pdf) · [阅读卡片](../../../library/walk-in-minutes.md)
+[知识星系](../../../universe/papers/walk-in-minutes.md) · [原文](https://proceedings.mlr.press/v164/rudin22a.html) · [PDF](https://proceedings.mlr.press/v164/rudin22a/rudin22a.pdf) · [阅读卡片](../../../library/walk-in-minutes.md)
 
 论文出处：[**Nikita Rudin**](../../origins/papers/walk-in-minutes.md)<br>[苏黎世联邦理工学院 / 英伟达](../../origins/papers/walk-in-minutes.md)
 

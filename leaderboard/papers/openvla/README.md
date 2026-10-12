@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/openvla.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v270/kim25c.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf) · [阅读卡片](../../../library/openvla.md)
+[知识星系](../../../universe/papers/openvla.md) · [原文](https://proceedings.mlr.press/v270/kim25c.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf) · [阅读卡片](../../../library/openvla.md)
 
 论文出处：[**Moo Jin Kim / Karl Pertsch 等3位**](../../origins/papers/openvla.md)<br>[斯坦福 IRIS 实验室 / 伯克利 RAIL 实验室 · 另4个机构](../../origins/papers/openvla.md)
 

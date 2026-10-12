@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/balanced-data-diet.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [arXiv集锦](../../../arxiv/README.md#paper-balanced-data-diet)
 
-[原文](https://arxiv.org/abs/2610.12465v1) · [PDF](https://arxiv.org/pdf/2610.12465v1) · [阅读卡片](../../../library/balanced-data-diet.md)
+[知识星系](../../../universe/papers/balanced-data-diet.md) · [原文](https://arxiv.org/abs/2610.12465v1) · [PDF](https://arxiv.org/pdf/2610.12465v1) · [阅读卡片](../../../library/balanced-data-diet.md)
 
 论文出处：[**Octi Zhang**](../../origins/papers/balanced-data-diet.md)<br>[华盛顿大学 / 英伟达](../../origins/papers/balanced-data-diet.md)
 

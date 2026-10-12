@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/rma.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss17/p011.html) · [PDF](https://www.roboticsproceedings.org/rss17/p011.pdf) · [阅读卡片](../../../library/rma.md)
+[知识星系](../../../universe/papers/rma.md) · [原文](https://www.roboticsproceedings.org/rss17/p011.html) · [PDF](https://www.roboticsproceedings.org/rss17/p011.pdf) · [阅读卡片](../../../library/rma.md)
 
 论文出处：[**Ashish Kumar**](../../origins/papers/rma.md)<br>[加州大学伯克利分校 / 卡内基梅隆大学 · 另1个机构](../../origins/papers/rma.md)
 

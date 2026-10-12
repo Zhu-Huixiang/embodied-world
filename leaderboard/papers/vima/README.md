@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/vima.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICML集锦](../../../venues/ICML/README.md)
 
-[原文](https://proceedings.mlr.press/v202/jiang23b.html) · [PDF](https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf) · [阅读卡片](../../../library/vima.md)
+[知识星系](../../../universe/papers/vima.md) · [原文](https://proceedings.mlr.press/v202/jiang23b.html) · [PDF](https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf) · [阅读卡片](../../../library/vima.md)
 
 论文出处：[**Yunfan Jiang**](../../origins/papers/vima.md)<br>[斯坦福大学 / 麦卡莱斯特学院 · 另4个机构](../../origins/papers/vima.md)
 

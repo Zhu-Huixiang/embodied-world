@@ -26,6 +26,6 @@ ICLR 2023 主会见官方 poster 页；OpenReview 当前反爬返回校验页，
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/vip/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
+[知识星系](../universe/papers/vip.md) · [七维评分与雷达](../leaderboard/papers/vip/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 
 元数据核对：2026-10-10。

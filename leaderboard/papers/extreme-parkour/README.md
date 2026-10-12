@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/extreme-parkour.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
 
-[原文](https://ieeexplore.ieee.org/document/10610200) · [PDF](https://extreme-parkour.github.io/resources/parkour.pdf) · [阅读卡片](../../../library/extreme-parkour.md)
+[知识星系](../../../universe/papers/extreme-parkour.md) · [原文](https://ieeexplore.ieee.org/document/10610200) · [PDF](https://extreme-parkour.github.io/resources/parkour.pdf) · [阅读卡片](../../../library/extreme-parkour.md)
 
 论文出处：[**Xuxin Cheng / Kexin Shi**](../../origins/papers/extreme-parkour.md)<br>[卡内基梅隆大学](../../origins/papers/extreme-parkour.md)
 

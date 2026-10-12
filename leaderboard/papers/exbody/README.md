@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/exbody.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss20/p107.html) · [PDF](https://www.roboticsproceedings.org/rss20/p107.pdf) · [阅读卡片](../../../library/exbody.md)
+[知识星系](../../../universe/papers/exbody.md) · [原文](https://www.roboticsproceedings.org/rss20/p107.html) · [PDF](https://www.roboticsproceedings.org/rss20/p107.pdf) · [阅读卡片](../../../library/exbody.md)
 
 论文出处：[**Xuxin Cheng / Yandong Ji**](../../origins/papers/exbody.md)<br>[加州大学圣迭戈分校 / 麻省理工学院 · 另1个机构](../../origins/papers/exbody.md)
 

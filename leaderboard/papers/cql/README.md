@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/cql.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html) · [PDF](https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf) · [阅读卡片](../../../library/cql.md)
+[知识星系](../../../universe/papers/cql.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html) · [PDF](https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf) · [阅读卡片](../../../library/cql.md)
 
 论文出处：[**Aviral Kumar**](../../origins/papers/cql.md)<br>[加州大学伯克利分校 / 谷歌研究院 / Brain 团队](../../origins/papers/cql.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/egoscale.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-egoscale)
 
-[原文](https://arxiv.org/abs/2602.16710) · [PDF](https://arxiv.org/pdf/2602.16710v1) · [阅读卡片](../../../library/egoscale.md)
+[知识星系](../../../universe/papers/egoscale.md) · [原文](https://arxiv.org/abs/2602.16710) · [PDF](https://arxiv.org/pdf/2602.16710v1) · [阅读卡片](../../../library/egoscale.md)
 
 论文出处：[**Ruijie Zheng / Dantong Niu 等3位**](../../origins/papers/egoscale.md)<br>[英伟达 GEAR 研究团队 / 英伟达 · 另2个机构](../../origins/papers/egoscale.md)
 

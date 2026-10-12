@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/agile-flight.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
-[原文](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [PDF](https://arxiv.org/pdf/2110.05113) · [阅读卡片](../../../library/agile-flight.md)
+[知识星系](../../../universe/papers/agile-flight.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.abg5810) · [PDF](https://arxiv.org/pdf/2110.05113) · [阅读卡片](../../../library/agile-flight.md)
 
 论文出处：[**Antonio Loquercio / Elia Kaufmann**](../../origins/papers/agile-flight.md)<br>[苏黎世大学 RPG 团队 / 英特尔智能系统实验室](../../origins/papers/agile-flight.md)
 

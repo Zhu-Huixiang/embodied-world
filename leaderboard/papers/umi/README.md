@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/umi.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss20/p045.html) · [PDF](https://www.roboticsproceedings.org/rss20/p045.pdf) · [阅读卡片](../../../library/umi.md)
+[知识星系](../../../universe/papers/umi.md) · [原文](https://www.roboticsproceedings.org/rss20/p045.html) · [PDF](https://www.roboticsproceedings.org/rss20/p045.pdf) · [阅读卡片](../../../library/umi.md)
 
 论文出处：[**Cheng Chi / Zhenjia Xu**](../../origins/papers/umi.md)<br>[斯坦福大学 / 哥伦比亚大学 · 另1个机构](../../origins/papers/umi.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/arc.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-arc)
 
-[原文](https://arxiv.org/abs/2610.12386v1) · [PDF](https://arxiv.org/pdf/2610.12386v1) · [阅读卡片](../../../library/arc.md)
+[知识星系](../../../universe/papers/arc.md) · [原文](https://arxiv.org/abs/2610.12386v1) · [PDF](https://arxiv.org/pdf/2610.12386v1) · [阅读卡片](../../../library/arc.md)
 
 论文出处：[**Gokul Puthumanaillam**](../../origins/papers/arc.md)<br>[伊利诺伊大学厄巴纳-香槟分校 / 斯坦福大学 · 另3个机构](../../origins/papers/arc.md)
 

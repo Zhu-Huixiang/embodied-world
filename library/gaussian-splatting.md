@@ -26,6 +26,6 @@ Splat-MOVER 正式 CoRL 2024 原文直接把可编辑 Gaussian Splatting 用于�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/gaussian-splatting/README.md) · [SIGGRAPH / TOG集锦](../venues/SIGGRAPH-TOG/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
+[知识星系](../universe/papers/gaussian-splatting.md) · [七维评分与雷达](../leaderboard/papers/gaussian-splatting/README.md) · [SIGGRAPH / TOG集锦](../venues/SIGGRAPH-TOG/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 
 元数据核对：2026-10-10。

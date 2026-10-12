@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/td-mpc2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [阅读卡片](../../../library/td-mpc2.md)
+[知识星系](../../../universe/papers/td-mpc2.md) · [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html) · [PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf) · [阅读卡片](../../../library/td-mpc2.md)
 
 论文出处：[**Nicklas Hansen**](../../origins/papers/td-mpc2.md)<br>[加州大学圣迭戈分校](../../origins/papers/td-mpc2.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/pi05.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v305/black25a.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v305/main/assets/black25a/black25a.pdf) · [阅读卡片](../../../library/pi05.md)
+[知识星系](../../../universe/papers/pi05.md) · [原文](https://proceedings.mlr.press/v305/black25a.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v305/main/assets/black25a/black25a.pdf) · [阅读卡片](../../../library/pi05.md)
 
 论文出处：[**Physical Intelligence**](../../origins/papers/pi05.md)<br>[Physical Intelligence](../../origins/papers/pi05.md)
 

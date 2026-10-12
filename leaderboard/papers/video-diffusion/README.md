@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/video-diffusion.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf) · [阅读卡片](../../../library/video-diffusion.md)
+[知识星系](../../../universe/papers/video-diffusion.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf) · [阅读卡片](../../../library/video-diffusion.md)
 
 论文出处：[**Jonathan Ho**](../../origins/papers/video-diffusion.md)<br>[谷歌研究院](../../origins/papers/video-diffusion.md)
 

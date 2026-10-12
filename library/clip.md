@@ -28,6 +28,6 @@ CLIPort 公开原文直接将冻结 CLIP 图文特征接入操作策略；此基
 
 [完整解读](../articles/clip-2103.00020/README.md)
 
-[七维评分与雷达](../leaderboard/papers/clip/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
+[知识星系](../universe/papers/clip.md) · [七维评分与雷达](../leaderboard/papers/clip/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 
 元数据核对：2026-10-10。

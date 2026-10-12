@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/bipedal-soccer.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
-[原文](https://www.science.org/doi/10.1126/scirobotics.adi8022) · [PDF](https://arxiv.org/pdf/2304.13653) · [阅读卡片](../../../library/bipedal-soccer.md)
+[知识星系](../../../universe/papers/bipedal-soccer.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.adi8022) · [PDF](https://arxiv.org/pdf/2304.13653) · [阅读卡片](../../../library/bipedal-soccer.md)
 
 论文出处：[**Tuomas Haarnoja / Ben Moran 等4位**](../../origins/papers/bipedal-soccer.md)<br>[谷歌 DeepMind / 伦敦大学学院](../../origins/papers/bipedal-soccer.md)
 

@@ -28,6 +28,6 @@ CQL 在 Bellman 误差外增加正则：压低策略或广泛采样动作的 Q �
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/cql/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-reinforcement-learning) · [首页](../README.md)
+[知识星系](../universe/papers/cql.md) · [七维评分与雷达](../leaderboard/papers/cql/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-reinforcement-learning) · [首页](../README.md)
 
 元数据核对：2026-10-10。

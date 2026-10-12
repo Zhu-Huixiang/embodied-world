@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/learned-dynamics-review.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
-[原文](https://www.science.org/doi/10.1126/scirobotics.adt1497) · [PDF](https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf) · [阅读卡片](../../../library/learned-dynamics-review.md)
+[知识星系](../../../universe/papers/learned-dynamics-review.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.adt1497) · [PDF](https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf) · [阅读卡片](../../../library/learned-dynamics-review.md)
 
 论文出处：[**Bo Ai**](../../origins/papers/learned-dynamics-review.md)<br>[加州大学圣迭戈分校 / 斯坦福大学 · 另4个机构](../../origins/papers/learned-dynamics-review.md)
 

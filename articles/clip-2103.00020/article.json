@@ -64,7 +64,7 @@
       ],
       "reviewed": true,
       "rights_checked": true,
-      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. PMLR author publication agreement §2–3 specifies CC BY 4.0 and original-publication link attribution. Only three figures plus two unmodified detail crops used in analytical commentary; full PDF is not exported.",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported.",
       "rights_source": "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
       "supplemental_detail": false,
       "extraction": "PDF page rendered at 4x; complete figure region or clearly labelled unmodified detail crop; original caption retained in read-only PDF and internal page image."
@@ -72,7 +72,7 @@
     {
       "kind": "original",
       "file": "figures/original/fig2-original.png",
-      "caption": "论文 Fig. 2。沿横轴看训练处理了多少图像，沿纵轴看 ImageNet 零样本准确率。",
+      "caption": "论文 Fig. 2。这张图要回答：同样拿配文学视觉，哪种训练题目更省样本？先看绿线，它更早达到相同准确率。",
       "pdf_page": 3,
       "figure_id": "Fig. 2",
       "source_url": "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf",
@@ -80,12 +80,12 @@
       "bbox": [
         49,
         62,
-        288,
+        300,
         245
       ],
       "reviewed": true,
       "rights_checked": true,
-      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. PMLR author publication agreement §2–3 specifies CC BY 4.0 and original-publication link attribution. Only three figures plus two unmodified detail crops used in analytical commentary; full PDF is not exported.",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported.",
       "rights_source": "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
       "supplemental_detail": false,
       "extraction": "PDF page rendered at 4x; complete figure region or clearly labelled unmodified detail crop; original caption retained in read-only PDF and internal page image."
@@ -106,7 +106,7 @@
       ],
       "reviewed": true,
       "rights_checked": true,
-      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. PMLR author publication agreement §2–3 specifies CC BY 4.0 and original-publication link attribution. Only three figures plus two unmodified detail crops used in analytical commentary; full PDF is not exported.",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported.",
       "rights_source": "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
       "supplemental_detail": false,
       "extraction": "PDF page rendered at 4x; complete figure region or clearly labelled unmodified detail crop; original caption retained in read-only PDF and internal page image.",
@@ -128,7 +128,7 @@
       ],
       "reviewed": true,
       "rights_checked": true,
-      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. PMLR author publication agreement §2–3 specifies CC BY 4.0 and original-publication link attribution. Only three figures plus two unmodified detail crops used in analytical commentary; full PDF is not exported.",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported.",
       "rights_source": "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
       "supplemental_detail": true,
       "extraction": "PDF page rendered at 4x; complete figure region or clearly labelled unmodified detail crop; original caption retained in read-only PDF and internal page image."
@@ -136,7 +136,7 @@
     {
       "kind": "original",
       "file": "figures/original/fig7-right-original-detail.png",
-      "caption": "论文 Fig. 7 右图放大。每一行是一种测试分布，香蕉图片示范变化，右侧比较整个对应测试集。",
+      "caption": "论文 Fig. 7 右图放大。每一行是一种测试分布，香蕉图片示范变化，右侧比较整个对应测试集。别把这张香蕉当成全场 MVP：右侧数字统计的是整套测试题，香蕉只负责示范画风。",
       "pdf_page": 8,
       "figure_id": "Fig. 7",
       "source_url": "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf",
@@ -149,7 +149,7 @@
       ],
       "reviewed": true,
       "rights_checked": true,
-      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. PMLR author publication agreement §2–3 specifies CC BY 4.0 and original-publication link attribution. Only three figures plus two unmodified detail crops used in analytical commentary; full PDF is not exported.",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported.",
       "rights_source": "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
       "supplemental_detail": true,
       "extraction": "PDF page rendered at 4x; complete figure region or clearly labelled unmodified detail crop; original caption retained in read-only PDF and internal page image.",
@@ -254,6 +254,126 @@
       "ai_generated": false,
       "reviewed": true,
       "display_width": 290
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table1-original.png",
+      "figure_id": "TABLE1",
+      "pdf_page": 4,
+      "bbox": [
+        320,
+        74,
+        528,
+        130
+      ],
+      "caption": "论文 Table 1。零样本方法在三套任务上的准确率（%）。",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "rights_checked": true,
+      "rights": "PMLR published ICML2021 paper, CC BY4.0; original author attribution and selected commentary crops retained.",
+      "reviewed": true,
+      "extraction": "whole-page raster at 3x, selected complete figure/table or labelled detail",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig4-original.png",
+      "figure_id": "Fig. 4",
+      "pdf_page": 5,
+      "bbox": [
+        54,
+        63,
+        289,
+        335
+      ],
+      "caption": "论文 Fig. 4。向右是 CLIP 更高，向左是 ResNet-50 线性探测更高；长度是百分点差。",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "rights_checked": true,
+      "rights": "PMLR published ICML2021 paper, CC BY4.0; original author attribution and selected commentary crops retained.",
+      "reviewed": true,
+      "extraction": "whole-page raster at 3x, selected complete figure/table or labelled detail",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig5-original.png",
+      "figure_id": "Fig. 5",
+      "pdf_page": 6,
+      "bbox": [
+        53,
+        62,
+        294,
+        232
+      ],
+      "caption": "论文 Fig. 5。横轴每类标注图数，纵轴 20 个数据集的平均分；零样本点在最左边。",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "rights_checked": true,
+      "rights": "PMLR published ICML2021 paper, CC BY4.0; original author attribution and selected commentary crops retained.",
+      "reviewed": true,
+      "extraction": "whole-page raster at 3x, selected complete figure/table or labelled detail",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig6-original.png",
+      "figure_id": "Fig. 6",
+      "pdf_page": 7,
+      "bbox": [
+        54,
+        62,
+        559,
+        380
+      ],
+      "caption": "论文 Fig. 6。左边平均 12 个数据集，右边平均 27 个；横轴计算量，纵轴线性探测得分。",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "rights_checked": true,
+      "rights": "PMLR published ICML2021 paper, CC BY4.0; original author attribution and selected commentary crops retained.",
+      "reviewed": true,
+      "extraction": "whole-page raster at 3x, selected complete figure/table or labelled detail",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig6-left-original.png",
+      "figure_id": "Fig. 6 left detail",
+      "pdf_page": 7,
+      "bbox": [
+        54,
+        62,
+        301,
+        313
+      ],
+      "caption": "论文 Fig. 6 左图放大：12 个数据集。",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "rights_checked": true,
+      "rights": "PMLR published ICML2021 paper, CC BY4.0; original author attribution and selected commentary crops retained.",
+      "reviewed": true,
+      "extraction": "whole-page raster at 3x, selected complete figure/table or labelled detail",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig6-right-original.png",
+      "figure_id": "Fig. 6 right detail",
+      "pdf_page": 7,
+      "bbox": [
+        305,
+        62,
+        559,
+        313
+      ],
+      "caption": "论文 Fig. 6 右图放大：27 个数据集。",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "rights_checked": true,
+      "rights": "PMLR published ICML2021 paper, CC BY4.0; original author attribution and selected commentary crops retained.",
+      "reviewed": true,
+      "extraction": "whole-page raster at 3x, selected complete figure/table or labelled detail",
+      "rights_note": "Radford et al., ICML 2021, PMLR 139:8748–8763. CC BY 4.0 per PMLR author publication agreement; complete figures 1,2,4,5,6,7 and Table1 with necessary detail crops accompany analytical commentary. Full PDF is not exported."
     }
   ],
   "cover_info": {

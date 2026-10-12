@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/sam.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICCV集锦](../../../venues/ICCV/README.md)
 
-[原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) · [阅读卡片](../../../library/sam.md)
+[知识星系](../../../universe/papers/sam.md) · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html) · [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) · [阅读卡片](../../../library/sam.md)
 
 论文出处：[**Alexander Kirillov / Eric Mintun 等4位**](../../origins/papers/sam.md)<br>[Meta FAIR 研究院](../../origins/papers/sam.md)
 

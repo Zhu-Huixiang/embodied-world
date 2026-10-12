@@ -26,6 +26,6 @@ Science Robotics 正式综述；用表示选择贯通感知、动作条件动力
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/learned-dynamics-review/README.md) · [Sci. Robot.集锦](../venues/Science-Robotics/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
+[知识星系](../universe/papers/learned-dynamics-review.md) · [七维评分与雷达](../leaderboard/papers/learned-dynamics-review/README.md) · [Sci. Robot.集锦](../venues/Science-Robotics/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
 
 元数据核对：2026-10-10。

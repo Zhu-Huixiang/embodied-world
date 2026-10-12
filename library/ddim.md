@@ -28,6 +28,6 @@ ICLR 2021 正式论文；同一 DDPM 训练目标与不同推理路径分开解�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/ddim/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
+[知识星系](../universe/papers/ddim.md) · [七维评分与雷达](../leaderboard/papers/ddim/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
 
 元数据核对：2026-10-10。

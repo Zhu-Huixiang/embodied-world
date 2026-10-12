@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/rectified-flow.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://iclr.cc/virtual/2023/poster/11266) · [PDF](https://openreview.net/pdf?id=gWxpdtQpiYV) · [阅读卡片](../../../library/rectified-flow.md)
+[知识星系](../../../universe/papers/rectified-flow.md) · [原文](https://iclr.cc/virtual/2023/poster/11266) · [PDF](https://openreview.net/pdf?id=gWxpdtQpiYV) · [阅读卡片](../../../library/rectified-flow.md)
 
 论文出处：[**Xingchao Liu / Chengyue Gong**](../../origins/papers/rectified-flow.md)<br>[得克萨斯大学奥斯汀分校](../../origins/papers/rectified-flow.md)
 

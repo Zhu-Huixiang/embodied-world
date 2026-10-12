@@ -26,6 +26,6 @@ masked video encoder/EMA目标先学表征；冻结编码器后训300M block-cau
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/vjepa2/README.md) · [arXiv集锦](../arxiv/README.md#paper-vjepa2) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
+[知识星系](../universe/papers/vjepa2.md) · [七维评分与雷达](../leaderboard/papers/vjepa2/README.md) · [arXiv集锦](../arxiv/README.md#paper-vjepa2) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
 
 元数据核对：2026-10-10。

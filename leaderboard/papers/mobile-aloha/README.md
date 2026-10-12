@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/mobile-aloha.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v270/fu25b.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25b/fu25b.pdf) · [阅读卡片](../../../library/mobile-aloha.md)
+[知识星系](../../../universe/papers/mobile-aloha.md) · [原文](https://proceedings.mlr.press/v270/fu25b.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25b/fu25b.pdf) · [阅读卡片](../../../library/mobile-aloha.md)
 
 论文出处：[**Zipeng Fu**](../../origins/papers/mobile-aloha.md)<br>[斯坦福大学](../../origins/papers/mobile-aloha.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/vq-bet.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [ICML集锦](../../../venues/ICML/README.md)
 
-[原文](https://proceedings.mlr.press/v235/lee24y.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf) · [阅读卡片](../../../library/vq-bet.md)
+[知识星系](../../../universe/papers/vq-bet.md) · [原文](https://proceedings.mlr.press/v235/lee24y.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf) · [阅读卡片](../../../library/vq-bet.md)
 
 论文出处：[**Seungjae Lee**](../../origins/papers/vq-bet.md)<br>[纽约大学 / 首尔大学](../../origins/papers/vq-bet.md)
 

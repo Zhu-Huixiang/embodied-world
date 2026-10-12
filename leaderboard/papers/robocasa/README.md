@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/robocasa.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://roboticsproceedings.org/rss20/p050.html) · [PDF](https://www.roboticsproceedings.org/rss20/p050.pdf) · [阅读卡片](../../../library/robocasa.md)
+[知识星系](../../../universe/papers/robocasa.md) · [原文](https://roboticsproceedings.org/rss20/p050.html) · [PDF](https://www.roboticsproceedings.org/rss20/p050.pdf) · [阅读卡片](../../../library/robocasa.md)
 
 论文出处：[**Soroush Nasiriany**](../../origins/papers/robocasa.md)<br>[得克萨斯大学奥斯汀分校 RPL 实验室 / 英伟达](../../origins/papers/robocasa.md)
 

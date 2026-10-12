@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/fast.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss21/p012.html) · [PDF](https://www.roboticsproceedings.org/rss21/p012.pdf) · [阅读卡片](../../../library/fast.md)
+[知识星系](../../../universe/papers/fast.md) · [原文](https://www.roboticsproceedings.org/rss21/p012.html) · [PDF](https://www.roboticsproceedings.org/rss21/p012.pdf) · [阅读卡片](../../../library/fast.md)
 
 论文出处：[**Karl Pertsch**](../../origins/papers/fast.md)<br>[Physical Intelligence / 加州大学伯克利分校 · 另1个机构](../../origins/papers/fast.md)
 

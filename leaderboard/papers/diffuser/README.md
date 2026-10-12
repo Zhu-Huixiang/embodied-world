@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/diffuser.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [ICML集锦](../../../venues/ICML/README.md)
 
-[原文](https://proceedings.mlr.press/v162/janner22a.html) · [PDF](https://proceedings.mlr.press/v162/janner22a/janner22a.pdf) · [阅读卡片](../../../library/diffuser.md)
+[知识星系](../../../universe/papers/diffuser.md) · [原文](https://proceedings.mlr.press/v162/janner22a.html) · [PDF](https://proceedings.mlr.press/v162/janner22a/janner22a.pdf) · [阅读卡片](../../../library/diffuser.md)
 
 论文出处：[**Michael Janner / Yilun Du**](../../origins/papers/diffuser.md)<br>[加州大学伯克利分校 / 麻省理工学院](../../origins/papers/diffuser.md)
 

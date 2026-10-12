@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/vip.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://openreview.net/forum?id=YJ7o2wetJ2) · [PDF](https://openreview.net/pdf?id=YJ7o2wetJ2) · [阅读卡片](../../../library/vip.md)
+[知识星系](../../../universe/papers/vip.md) · [原文](https://openreview.net/forum?id=YJ7o2wetJ2) · [PDF](https://openreview.net/pdf?id=YJ7o2wetJ2) · [阅读卡片](../../../library/vip.md)
 
 论文出处：[**Yecheng Jason Ma**](../../origins/papers/vip.md)<br>[Meta FAIR 研究院 / 宾夕法尼亚大学](../../origins/papers/vip.md)
 

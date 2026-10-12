@@ -26,6 +26,6 @@ RSS HTML 摘要与最终 PDF/项目轨迹总量不同；当前项目还有 2024/
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/droid/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
+[知识星系](../universe/papers/droid.md) · [七维评分与雷达](../leaderboard/papers/droid/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
 
 元数据核对：2026-10-10。

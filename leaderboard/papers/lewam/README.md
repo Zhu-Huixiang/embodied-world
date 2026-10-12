@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/lewam.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-lewam)
 
-[原文](https://arxiv.org/abs/2610.12407v1) · [PDF](https://arxiv.org/pdf/2610.12407v1) · [阅读卡片](../../../library/lewam.md)
+[知识星系](../../../universe/papers/lewam.md) · [原文](https://arxiv.org/abs/2610.12407v1) · [PDF](https://arxiv.org/pdf/2610.12407v1) · [阅读卡片](../../../library/lewam.md)
 
 论文出处：[**Shashank Hegde**](../../origins/papers/lewam.md)<br>[英伟达](../../origins/papers/lewam.md)
 

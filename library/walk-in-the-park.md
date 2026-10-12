@@ -26,6 +26,6 @@ RSS 2023 正式篇名含 Demonstrating；不要与题名略异的早期 arXiv �
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/walk-in-the-park/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-locomotion) · [首页](../README.md)
+[知识星系](../universe/papers/walk-in-the-park.md) · [七维评分与雷达](../leaderboard/papers/walk-in-the-park/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-locomotion) · [首页](../README.md)
 
 元数据核对：2026-10-10。

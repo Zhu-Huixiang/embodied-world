@@ -26,6 +26,6 @@ RSS 2024。项目标注 Best Systems Paper finalist，仅写 finalist，不写�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/umi/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
+[知识星系](../universe/papers/umi.md) · [七维评分与雷达](../leaderboard/papers/umi/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
 
 元数据核对：2026-10-10。

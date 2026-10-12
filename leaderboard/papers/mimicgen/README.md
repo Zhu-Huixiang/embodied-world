@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/mimicgen.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v229/mandlekar23a.html) · [PDF](https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf) · [阅读卡片](../../../library/mimicgen.md)
+[知识星系](../../../universe/papers/mimicgen.md) · [原文](https://proceedings.mlr.press/v229/mandlekar23a.html) · [PDF](https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf) · [阅读卡片](../../../library/mimicgen.md)
 
 论文出处：[**Ajay Mandlekar**](../../origins/papers/mimicgen.md)<br>[英伟达 / 得克萨斯大学奥斯汀分校](../../origins/papers/mimicgen.md)
 

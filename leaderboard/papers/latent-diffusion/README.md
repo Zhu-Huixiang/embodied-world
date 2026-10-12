@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/latent-diffusion.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [CVPR集锦](../../../venues/CVPR/README.md)
 
-[原文](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) · [阅读卡片](../../../library/latent-diffusion.md)
+[知识星系](../../../universe/papers/latent-diffusion.md) · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) · [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) · [阅读卡片](../../../library/latent-diffusion.md)
 
 论文出处：[**Robin Rombach / Andreas Blattmann**](../../origins/papers/latent-diffusion.md)<br>[慕尼黑大学 CompVis 实验室 / 海德堡大学 IWR 研究中心 · 另1个机构](../../origins/papers/latent-diffusion.md)
 

@@ -26,6 +26,6 @@ ICML 2024 Spotlight 的正式会议信息可在官方 virtual 页面交叉核对
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/efficientzero-v2/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
+[知识星系](../universe/papers/efficientzero-v2.md) · [七维评分与雷达](../leaderboard/papers/efficientzero-v2/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
 
 元数据核对：2026-10-10。

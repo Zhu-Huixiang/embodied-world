@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/flow-matching.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://iclr.cc/virtual/2023/poster/11309) · [PDF](https://arxiv.org/pdf/2210.02747) · [阅读卡片](../../../library/flow-matching.md)
+[知识星系](../../../universe/papers/flow-matching.md) · [原文](https://iclr.cc/virtual/2023/poster/11309) · [PDF](https://arxiv.org/pdf/2210.02747) · [阅读卡片](../../../library/flow-matching.md)
 
 论文出处：[**Yaron Lipman**](../../origins/papers/flow-matching.md)<br>[Meta FAIR 研究院 / 魏茨曼科学研究所](../../origins/papers/flow-matching.md)
 

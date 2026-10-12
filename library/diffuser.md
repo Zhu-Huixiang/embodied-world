@@ -24,6 +24,6 @@ Diffuser 学习整段状态—动作轨迹的去噪过程，反复修正所有�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/diffuser/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-world-action-model) · [首页](../README.md)
+[知识星系](../universe/papers/diffuser.md) · [七维评分与雷达](../leaderboard/papers/diffuser/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-world-action-model) · [首页](../README.md)
 
 元数据核对：2026-10-10。

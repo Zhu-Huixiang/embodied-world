@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/ase.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 
-[原文](https://xbpeng.github.io/projects/ASE/) · [PDF](https://xbpeng.github.io/projects/ASE/ASE_2022.pdf) · [阅读卡片](../../../library/ase.md)
+[知识星系](../../../universe/papers/ase.md) · [原文](https://xbpeng.github.io/projects/ASE/) · [PDF](https://xbpeng.github.io/projects/ASE/ASE_2022.pdf) · [阅读卡片](../../../library/ase.md)
 
 论文出处：[**Xue Bin Peng**](../../origins/papers/ase.md)<br>[加州大学伯克利分校 / 英伟达 · 另1个机构](../../origins/papers/ase.md)
 

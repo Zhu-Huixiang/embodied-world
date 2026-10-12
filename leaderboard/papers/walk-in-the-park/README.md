@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/walk-in-the-park.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss19/p056.html) · [PDF](https://www.roboticsproceedings.org/rss19/p056.pdf) · [阅读卡片](../../../library/walk-in-the-park.md)
+[知识星系](../../../universe/papers/walk-in-the-park.md) · [原文](https://www.roboticsproceedings.org/rss19/p056.html) · [PDF](https://www.roboticsproceedings.org/rss19/p056.pdf) · [阅读卡片](../../../library/walk-in-the-park.md)
 
 论文出处：[**Laura Smith / Ilya Kostrikov**](../../origins/papers/walk-in-the-park.md)<br>[伯克利 BAIR 实验室](../../origins/papers/walk-in-the-park.md)
 

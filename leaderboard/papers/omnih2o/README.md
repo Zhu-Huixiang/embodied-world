@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/omnih2o.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v270/he25b.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf) · [阅读卡片](../../../library/omnih2o.md)
+[知识星系](../../../universe/papers/omnih2o.md) · [原文](https://proceedings.mlr.press/v270/he25b.html) · [PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/he25b/he25b.pdf) · [阅读卡片](../../../library/omnih2o.md)
 
 论文出处：[**Tairan He / Zhengyi Luo 等3位**](../../origins/papers/omnih2o.md)<br>[卡内基梅隆大学 / 上海交通大学](../../origins/papers/omnih2o.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/rt2.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v229/zitkovich23a.html) · [PDF](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf) · [阅读卡片](../../../library/rt2.md)
+[知识星系](../../../universe/papers/rt2.md) · [原文](https://proceedings.mlr.press/v229/zitkovich23a.html) · [PDF](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf) · [阅读卡片](../../../library/rt2.md)
 
 论文出处：[**Anthony Brohan**](../../origins/papers/rt2.md)<br>[谷歌 DeepMind](../../origins/papers/rt2.md)
 

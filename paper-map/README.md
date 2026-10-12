@@ -238,6 +238,6 @@
 | [Flow Straight and Fast](../library/rectified-flow.md) · [ICLR 2023](../venues/ICLR/README.md) | 训练速度场和把轨迹拉直有什么区别，为什么直一点就能少算几步？ |
 | [Consistency Models](../library/consistency-models.md) · [ICML 2023](../venues/ICML/README.md) | 沿同一条去噪轨迹的不同点，怎样被一个模型直接映射回同一样本？ |
 
-[高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
+[知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
 元数据核对日期：2026-10-10。

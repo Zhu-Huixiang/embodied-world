@@ -26,6 +26,6 @@ Eagle-2视觉语言middle-layer tokens→DiT交叉注意力；embodiment-specifi
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/gr00t-n1/README.md) · [arXiv集锦](../arxiv/README.md#paper-gr00t-n1) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
+[知识星系](../universe/papers/gr00t-n1.md) · [七维评分与雷达](../leaderboard/papers/gr00t-n1/README.md) · [arXiv集锦](../arxiv/README.md#paper-gr00t-n1) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
 
 元数据核对：2026-10-10。

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/dreamerv2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://research.google/pubs/mastering-atari-with-discrete-world-models/) · [PDF](https://arxiv.org/pdf/2010.02193) · [阅读卡片](../../../library/dreamerv2.md)
+[知识星系](../../../universe/papers/dreamerv2.md) · [原文](https://research.google/pubs/mastering-atari-with-discrete-world-models/) · [PDF](https://arxiv.org/pdf/2010.02193) · [阅读卡片](../../../library/dreamerv2.md)
 
 论文出处：[**Danijar Hafner**](../../origins/papers/dreamerv2.md)<br>[谷歌研究院 / 谷歌 DeepMind · 另1个机构](../../origins/papers/dreamerv2.md)
 

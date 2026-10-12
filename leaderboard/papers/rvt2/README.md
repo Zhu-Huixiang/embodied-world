@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/rvt2.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss20/p055.html) · [PDF](https://www.roboticsproceedings.org/rss20/p055.pdf) · [阅读卡片](../../../library/rvt2.md)
+[知识星系](../../../universe/papers/rvt2.md) · [原文](https://www.roboticsproceedings.org/rss20/p055.html) · [PDF](https://www.roboticsproceedings.org/rss20/p055.pdf) · [阅读卡片](../../../library/rvt2.md)
 
 论文出处：[**Ankit Goyal**](../../origins/papers/rvt2.md)<br>[英伟达](../../origins/papers/rvt2.md)
 

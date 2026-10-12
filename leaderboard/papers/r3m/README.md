@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/r3m.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v205/nair23a.html) · [PDF](https://proceedings.mlr.press/v205/nair23a/nair23a.pdf) · [阅读卡片](../../../library/r3m.md)
+[知识星系](../../../universe/papers/r3m.md) · [原文](https://proceedings.mlr.press/v205/nair23a.html) · [PDF](https://proceedings.mlr.press/v205/nair23a/nair23a.pdf) · [阅读卡片](../../../library/r3m.md)
 
 论文出处：[**Suraj Nair**](../../origins/papers/r3m.md)<br>[斯坦福大学 / Meta FAIR 研究院](../../origins/papers/r3m.md)
 

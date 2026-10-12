@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/rtx.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICRA集锦](../../../venues/ICRA/README.md)
 
-[原文](https://ieeexplore.ieee.org/document/10611477) · [PDF](https://arxiv.org/pdf/2310.08864) · [阅读卡片](../../../library/rtx.md)
+[知识星系](../../../universe/papers/rtx.md) · [原文](https://ieeexplore.ieee.org/document/10611477) · [PDF](https://arxiv.org/pdf/2310.08864) · [阅读卡片](../../../library/rtx.md)
 
 论文出处：[**Open X-Embodiment Collaboration**](../../origins/papers/rtx.md)<br>[Open X-Embodiment 联合研究团队 / 斯坦福 IRIS 实验室 · 另8个机构](../../origins/papers/rtx.md)
 

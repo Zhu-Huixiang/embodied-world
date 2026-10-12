@@ -18,6 +18,6 @@ Nature 2025 正式论文；arXiv 初始公开于 2023，链接为作者预印本
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/dreamerv3/README.md) · [Nature集锦](../venues/Nature/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
+[知识星系](../universe/papers/dreamerv3.md) · [七维评分与雷达](../leaderboard/papers/dreamerv3/README.md) · [Nature集锦](../venues/Nature/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
 
 元数据核对：2026-10-10。

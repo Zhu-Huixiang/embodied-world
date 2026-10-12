@@ -68,7 +68,8 @@
       "conditions": "same Fig2 training-goal comparison on ImageNet zero-shot evaluation",
       "baseline": "Transformer language generation; bag-of-words prediction",
       "unit": "multiplicative training image count efficiency",
-      "sample_size": "unknown exact runs/seeds; plotted 2M–400M processed images; cannot infer wall-clock/inference speed"
+      "sample_size": "unknown exact runs/seeds; plotted 2M–400M processed images; cannot infer wall-clock/inference speed",
+      "axis_audit": "Fig.2 x axis is linear, 2M–400M processed images; rightmost 400M label retained after expanded crop."
     },
     {
       "id": "C06",
@@ -317,6 +318,70 @@
       "verified": true,
       "type": "qualitative",
       "checked_at": "2026-10-12T14:33:58+08:00"
+    },
+    {
+      "id": "C24",
+      "claim": "aYahoo 72.4/98.4, ImageNet 11.5/76.2, SUN 23.0/58.5; accuracy %. Difference 64.7 is editorial arithmetic.",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "pdf_page": 4,
+      "locator": "Table 1 and §3.1, comparison with Visual N-Grams",
+      "verified": true,
+      "type": "quantitative",
+      "checked_at": "2026-10-12T16:07:58+08:00",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "metric": "accuracy",
+      "unit": "percentage points for differences; percent for absolute scores",
+      "conditions": "zero-shot classifiers; three datasets; different data/models/compute across generations",
+      "baseline": "Visual N-Grams",
+      "sample_size": "three datasets; per-dataset test counts: unknown in this table"
+    },
+    {
+      "id": "C25",
+      "claim": "27 dataset score difference, CLIP minus frozen supervised ResNet50 linear probe; percentage points; green positive/blue negative.",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "pdf_page": 5,
+      "locator": "Fig. 4 and caption; §3.2 zero-shot evaluation",
+      "verified": true,
+      "type": "quantitative",
+      "checked_at": "2026-10-12T16:07:58+08:00",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "metric": "dataset score difference",
+      "unit": "percentage points for differences; percent for absolute scores",
+      "conditions": "27 datasets; CLIP zero-shot vs supervised ImageNet ResNet-50 frozen features with downstream linear classifier",
+      "baseline": "supervised ImageNet ResNet-50 linear probe",
+      "sample_size": "27 datasets; per-dataset evaluation counts see original dataset protocols"
+    },
+    {
+      "id": "C26",
+      "claim": "20 datasets with >=16 samples/class; x labeled images/class and y average score; purple zero-shot point and purple CLIP linear-probe curve; blue BiT-M, orange SimCLRv2, green ResNet50.",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "pdf_page": 6,
+      "locator": "Fig. 5 and caption; §3.2 few-shot comparison",
+      "verified": true,
+      "type": "quantitative",
+      "checked_at": "2026-10-12T16:07:58+08:00",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "metric": "average score",
+      "unit": "percentage points for differences; percent for absolute scores",
+      "conditions": "20 datasets with at least 16 examples/class; linear classifiers trained with 1/2/4/8/16 labeled examples per class; zero-shot CLIP at x=0",
+      "baseline": "BiT-M, SimCLRv2, ResNet-50 and CLIP linear probes",
+      "sample_size": "20 datasets; labeled examples/class 1,2,4,8,16"
+    },
+    {
+      "id": "C27",
+      "claim": "x forward GFLOPs per image, logarithmic; y average linear probe score on 12/27 datasets; star red filled CLIP ViT and unfilled CLIP ResNet; dotted segments higher-resolution fine-tune/evaluation.",
+      "source_url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "pdf_page": 7,
+      "locator": "Fig. 6 complete panel, legend and caption; §3.3 linear probe",
+      "verified": true,
+      "type": "quantitative",
+      "checked_at": "2026-10-12T16:07:58+08:00",
+      "source_pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+      "metric": "average linear probe score vs forward compute",
+      "unit": "percentage points for differences; percent for absolute scores",
+      "conditions": "frozen image encoders; linear probe over 12 and 27 datasets; x log-scale GFLOPs per image; model family size and resolution vary",
+      "baseline": "supervised/self-supervised model families; Noisy Student EfficientNet-L2",
+      "sample_size": "12 and 27 datasets; per-dataset evaluation counts see original dataset protocols"
     }
   ]
 }

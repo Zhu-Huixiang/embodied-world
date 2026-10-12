@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/modar.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-modar)
 
-[原文](https://arxiv.org/abs/2609.17524v1) · [PDF](https://arxiv.org/pdf/2609.17524v1) · [阅读卡片](../../../library/modar.md)
+[知识星系](../../../universe/papers/modar.md) · [原文](https://arxiv.org/abs/2609.17524v1) · [PDF](https://arxiv.org/pdf/2609.17524v1) · [阅读卡片](../../../library/modar.md)
 
 论文出处：[**Adam Hung**](../../origins/papers/modar.md)<br>[卡内基梅隆大学](../../origins/papers/modar.md)
 

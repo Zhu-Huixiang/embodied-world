@@ -26,6 +26,6 @@ OpenVLA 正式原文明确融合 DINOv2 与 SigLIP 特征，具身用途已由�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/dinov2/README.md) · [TMLR集锦](../venues/TMLR/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
+[知识星系](../universe/papers/dinov2.md) · [七维评分与雷达](../leaderboard/papers/dinov2/README.md) · [TMLR集锦](../venues/TMLR/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 
 元数据核对：2026-10-10。

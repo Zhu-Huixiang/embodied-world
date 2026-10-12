@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/dreamwaq.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
 
-[原文](https://ieeexplore.ieee.org/abstract/document/10161144/) · [PDF](https://arxiv.org/pdf/2301.10602) · [阅读卡片](../../../library/dreamwaq.md)
+[知识星系](../../../universe/papers/dreamwaq.md) · [原文](https://ieeexplore.ieee.org/abstract/document/10161144/) · [PDF](https://arxiv.org/pdf/2301.10602) · [阅读卡片](../../../library/dreamwaq.md)
 
 论文出处：[**I Made Aswin Nahrendra**](../../origins/papers/dreamwaq.md)<br>[韩国科学技术院（KAIST）](../../origins/papers/dreamwaq.md)
 

@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/efficientzero.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2021/file/d5eca8dc3820cad9fe56a3bafda65ca1-Paper.pdf) · [阅读卡片](../../../library/efficientzero.md)
+[知识星系](../../../universe/papers/efficientzero.md) · [原文](https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2021/file/d5eca8dc3820cad9fe56a3bafda65ca1-Paper.pdf) · [阅读卡片](../../../library/efficientzero.md)
 
 论文出处：[**Weirui Ye**](../../origins/papers/efficientzero.md)<br>[清华大学 / 加州大学伯克利分校 · 另1个机构](../../origins/papers/efficientzero.md)
 

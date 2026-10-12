@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/dinov2.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [TMLR集锦](../../../venues/TMLR/README.md)
 
-[原文](https://openreview.net/forum?id=a68SUt6zFt) · [PDF](https://openreview.net/pdf?id=a68SUt6zFt) · [阅读卡片](../../../library/dinov2.md)
+[知识星系](../../../universe/papers/dinov2.md) · [原文](https://openreview.net/forum?id=a68SUt6zFt) · [PDF](https://openreview.net/pdf?id=a68SUt6zFt) · [阅读卡片](../../../library/dinov2.md)
 
 论文出处：[**Maxime Oquab / Timothée Darcet 等3位**](../../origins/papers/dinov2.md)<br>[Meta FAIR 研究院 / 法国 Inria 研究所 · 另2个机构](../../origins/papers/dinov2.md)
 

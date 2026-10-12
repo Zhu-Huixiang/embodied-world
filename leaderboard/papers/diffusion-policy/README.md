@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/diffusion-policy.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss19/p026.html) · [PDF](https://www.roboticsproceedings.org/rss19/p026.pdf) · [阅读卡片](../../../library/diffusion-policy.md)
+[知识星系](../../../universe/papers/diffusion-policy.md) · [原文](https://www.roboticsproceedings.org/rss19/p026.html) · [PDF](https://www.roboticsproceedings.org/rss19/p026.pdf) · [阅读卡片](../../../library/diffusion-policy.md)
 
 论文出处：[**Cheng Chi**](../../origins/papers/diffusion-policy.md)<br>[哥伦比亚大学具身智能团队 / 丰田研究院 · 另1个机构](../../origins/papers/diffusion-policy.md)
 

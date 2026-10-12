@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/consistency-models.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICML集锦](../../../venues/ICML/README.md)
 
-[原文](https://proceedings.mlr.press/v202/song23a.html) · [PDF](https://proceedings.mlr.press/v202/song23a/song23a.pdf) · [阅读卡片](../../../library/consistency-models.md)
+[知识星系](../../../universe/papers/consistency-models.md) · [原文](https://proceedings.mlr.press/v202/song23a.html) · [PDF](https://proceedings.mlr.press/v202/song23a/song23a.pdf) · [阅读卡片](../../../library/consistency-models.md)
 
 论文出处：[**Yang Song**](../../origins/papers/consistency-models.md)<br>[OpenAI](../../origins/papers/consistency-models.md)
 

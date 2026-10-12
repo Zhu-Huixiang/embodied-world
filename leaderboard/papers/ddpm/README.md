@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/ddpm.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) · [阅读卡片](../../../library/ddpm.md)
+[知识星系](../../../universe/papers/ddpm.md) · [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) · [阅读卡片](../../../library/ddpm.md)
 
 论文出处：[**Jonathan Ho**](../../origins/papers/ddpm.md)<br>[加州大学伯克利分校](../../origins/papers/ddpm.md)
 

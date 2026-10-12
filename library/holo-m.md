@@ -16,6 +16,6 @@ DCT低频系数与四级残差码固定组长；缺失组监督连接人类/机�
 
 [完整解读](../articles/holo-m-2609.35709/README.md)
 
-[七维评分与雷达](../leaderboard/papers/holo-m/README.md) · [arXiv集锦](../arxiv/README.md#paper-holo-m) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
+[知识星系](../universe/papers/holo-m.md) · [七维评分与雷达](../leaderboard/papers/holo-m/README.md) · [arXiv集锦](../arxiv/README.md#paper-holo-m) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
 
 元数据核对：2026-10-09。

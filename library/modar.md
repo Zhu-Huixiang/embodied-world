@@ -26,6 +26,6 @@ arXiv v1；官方项目和原文未核到正式会刊。
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/modar/README.md) · [arXiv集锦](../arxiv/README.md#paper-modar) · [地图方向](../paper-map/README.md#track-world-action-model) · [首页](../README.md)
+[知识星系](../universe/papers/modar.md) · [七维评分与雷达](../leaderboard/papers/modar/README.md) · [arXiv集锦](../arxiv/README.md#paper-modar) · [地图方向](../paper-map/README.md#track-world-action-model) · [首页](../README.md)
 
 元数据核对：2026-10-10。

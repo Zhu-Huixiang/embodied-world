@@ -1,0 +1,11 @@
+# 遮蔽预测 · I-JEPA
+
+隐藏部分输入，训练模型恢复像素、token 或表征。恢复什么决定监督重点。
+
+MAE 恢复像素，JEPA 类方法预测表征。
+
+继续拆：[表征预测 JEPA](jepa.md)。
+
+[跨论文技术入口](../../concepts/masking.md)
+
+[本篇星系](../i-jepa.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/i-jepa.md) · [原文依据](https://openaccess.thecvf.com/content/CVPR2023/html/Assran_Self-Supervised_Learning_From_Images_With_a_Joint-Embedding_Predictive_Architecture_CVPR_2023_paper.html)

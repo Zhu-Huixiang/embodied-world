@@ -26,6 +26,6 @@ ICCV 2021，会议为 2021-10-10 至 2021-10-17，正式会议日期位于五年
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/dino/README.md) · [ICCV集锦](../venues/ICCV/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
+[知识星系](../universe/papers/dino.md) · [七维评分与雷达](../leaderboard/papers/dino/README.md) · [ICCV集锦](../venues/ICCV/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 
 元数据核对：2026-10-10。

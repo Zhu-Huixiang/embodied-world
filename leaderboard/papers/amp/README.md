@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/amp.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 
-[原文](https://xbpeng.github.io/projects/AMP/) · [PDF](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf) · [阅读卡片](../../../library/amp.md)
+[知识星系](../../../universe/papers/amp.md) · [原文](https://xbpeng.github.io/projects/AMP/) · [PDF](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf) · [阅读卡片](../../../library/amp.md)
 
 论文出处：[**Xue Bin Peng / Ze Ma**](../../origins/papers/amp.md)<br>[加州大学伯克利分校 / 上海交通大学](../../origins/papers/amp.md)
 

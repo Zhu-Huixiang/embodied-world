@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/cliport.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v164/shridhar22a.html) · [PDF](https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf) · [阅读卡片](../../../library/cliport.md)
+[知识星系](../../../universe/papers/cliport.md) · [原文](https://proceedings.mlr.press/v164/shridhar22a.html) · [PDF](https://proceedings.mlr.press/v164/shridhar22a/shridhar22a.pdf) · [阅读卡片](../../../library/cliport.md)
 
 论文出处：[**Mohit Shridhar**](../../origins/papers/cliport.md)<br>[华盛顿大学 RSE 实验室 / 英伟达](../../origins/papers/cliport.md)
 

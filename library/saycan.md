@@ -26,6 +26,6 @@ CoRL 2022；PMLR 205 在 2023 年出版，不能按书目年份改成 CoRL 2023�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/saycan/README.md) · [CoRL集锦](../venues/CoRL/README.md) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
+[知识星系](../universe/papers/saycan.md) · [七维评分与雷达](../leaderboard/papers/saycan/README.md) · [CoRL集锦](../venues/CoRL/README.md) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
 
 元数据核对：2026-10-10。

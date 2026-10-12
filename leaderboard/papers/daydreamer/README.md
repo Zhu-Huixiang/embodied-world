@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/daydreamer.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v205/wu23c.html) · [PDF](https://proceedings.mlr.press/v205/wu23c/wu23c.pdf) · [阅读卡片](../../../library/daydreamer.md)
+[知识星系](../../../universe/papers/daydreamer.md) · [原文](https://proceedings.mlr.press/v205/wu23c.html) · [PDF](https://proceedings.mlr.press/v205/wu23c/wu23c.pdf) · [阅读卡片](../../../library/daydreamer.md)
 
 论文出处：[**Philipp Wu / Alejandro Escontrela 等3位**](../../origins/papers/daydreamer.md)<br>[加州大学伯克利分校](../../origins/papers/daydreamer.md)
 

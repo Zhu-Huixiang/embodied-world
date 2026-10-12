@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/decision-transformer.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf) · [阅读卡片](../../../library/decision-transformer.md)
+[知识星系](../../../universe/papers/decision-transformer.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html) · [PDF](https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf) · [阅读卡片](../../../library/decision-transformer.md)
 
 论文出处：[**Lili Chen / Kevin Lu**](../../origins/papers/decision-transformer.md)<br>[加州大学伯克利分校 / Meta FAIR 研究院 · 另1个机构](../../origins/papers/decision-transformer.md)
 

@@ -28,6 +28,6 @@ ECCV 2020 原始论文；作者项目注明 ECCV 2020 Oral，原文实验是新�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/nerf/README.md) · [ECCV集锦](../venues/ECCV/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
+[知识星系](../universe/papers/nerf.md) · [七维评分与雷达](../leaderboard/papers/nerf/README.md) · [ECCV集锦](../venues/ECCV/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 
 元数据核对：2026-10-10。

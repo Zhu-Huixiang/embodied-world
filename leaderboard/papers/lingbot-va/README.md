@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/lingbot-va.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss22/p016.html) · [PDF](https://www.roboticsproceedings.org/rss22/p016.pdf) · [阅读卡片](../../../library/lingbot-va.md)
+[知识星系](../../../universe/papers/lingbot-va.md) · [原文](https://www.roboticsproceedings.org/rss22/p016.html) · [PDF](https://www.roboticsproceedings.org/rss22/p016.pdf) · [阅读卡片](../../../library/lingbot-va.md)
 
 论文出处：[**Lin Li / Qihang Zhang 等3位**](../../origins/papers/lingbot-va.md)<br>[蚂蚁灵波具身研究团队 / 香港科技大学 · 另6个机构](../../origins/papers/lingbot-va.md)
 

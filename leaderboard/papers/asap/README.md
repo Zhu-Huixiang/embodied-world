@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/asap.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss21/p066.html) · [PDF](https://agile.human2humanoid.com/static/asap.pdf) · [阅读卡片](../../../library/asap.md)
+[知识星系](../../../universe/papers/asap.md) · [原文](https://www.roboticsproceedings.org/rss21/p066.html) · [PDF](https://agile.human2humanoid.com/static/asap.pdf) · [阅读卡片](../../../library/asap.md)
 
 论文出处：[**Tairan He / Jiawei Gao 等4位**](../../origins/papers/asap.md)<br>[卡内基梅隆 LeCAR 实验室 / 英伟达 GEAR 研究团队 · 另1个机构](../../origins/papers/asap.md)
 

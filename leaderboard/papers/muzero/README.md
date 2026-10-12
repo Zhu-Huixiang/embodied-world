@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/muzero.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Nature集锦](../../../venues/Nature/README.md)
 
-[原文](https://www.nature.com/articles/s41586-020-03051-4) · [PDF](https://arxiv.org/pdf/1911.08265) · [阅读卡片](../../../library/muzero.md)
+[知识星系](../../../universe/papers/muzero.md) · [原文](https://www.nature.com/articles/s41586-020-03051-4) · [PDF](https://arxiv.org/pdf/1911.08265) · [阅读卡片](../../../library/muzero.md)
 
 论文出处：[**Julian Schrittwieser**](../../origins/papers/muzero.md)<br>[谷歌 DeepMind / 伦敦大学学院](../../origins/papers/muzero.md)
 

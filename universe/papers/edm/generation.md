@@ -1,0 +1,11 @@
+# 条件生成 · EDM
+
+从一个条件生成多个可能输出，学习图像、视频或动作的分布而非只给一个均值。
+
+条件可以是当前图、语言、目标状态或历史。
+
+继续拆：[扩散去噪](diffusion.md)。
+
+[跨论文技术入口](../../concepts/generation.md)
+
+[本篇星系](../edm.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/edm.md) · [原文依据](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a98846e9d9cc01cfb87eb694d946ce6b-Abstract-Conference.html)

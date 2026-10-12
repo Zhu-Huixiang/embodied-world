@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/dreamer.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/) · [PDF](https://arxiv.org/pdf/1912.01603) · [阅读卡片](../../../library/dreamer.md)
+[知识星系](../../../universe/papers/dreamer.md) · [原文](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/) · [PDF](https://arxiv.org/pdf/1912.01603) · [阅读卡片](../../../library/dreamer.md)
 
 论文出处：[**Danijar Hafner**](../../origins/papers/dreamer.md)<br>[多伦多大学 / 谷歌研究院 / Brain 团队 · 另1个机构](../../origins/papers/dreamer.md)
 

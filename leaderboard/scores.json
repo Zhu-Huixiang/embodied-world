@@ -62,6 +62,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "articles/clip-2103.00020/README.md",
         "reading_status": "完整解读",
+        "universe_path": "universe/papers/clip.md",
         "card_path": "leaderboard/papers/clip/README.md"
       },
       "origin": {
@@ -609,6 +610,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/ddpm.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/ddpm.md",
         "card_path": "leaderboard/papers/ddpm/README.md"
       },
       "origin": {
@@ -1096,6 +1098,7 @@
         "venue_path": "venues/CVPR/README.md",
         "reading_path": "library/latent-diffusion.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/latent-diffusion.md",
         "card_path": "leaderboard/papers/latent-diffusion/README.md"
       },
       "origin": {
@@ -1588,6 +1591,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/vit.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/vit.md",
         "card_path": "leaderboard/papers/vit/README.md"
       },
       "origin": {
@@ -2074,6 +2078,7 @@
         "venue_path": "venues/ICCV/README.md",
         "reading_path": "library/sam.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/sam.md",
         "card_path": "leaderboard/papers/sam/README.md"
       },
       "origin": {
@@ -2564,6 +2569,7 @@
         "venue_path": "venues/CVPR/README.md",
         "reading_path": "library/mae.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/mae.md",
         "card_path": "leaderboard/papers/mae/README.md"
       },
       "origin": {
@@ -3144,6 +3150,7 @@
         "venue_path": "venues/Nature/README.md",
         "reading_path": "library/muzero.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/muzero.md",
         "card_path": "leaderboard/papers/muzero/README.md"
       },
       "origin": {
@@ -3503,6 +3510,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/attention.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/attention.md",
         "card_path": "leaderboard/papers/attention/README.md"
       },
       "origin": {
@@ -3842,6 +3850,7 @@
         "venue_path": "venues/ICCV/README.md",
         "reading_path": "library/dino.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dino.md",
         "card_path": "leaderboard/papers/dino/README.md"
       },
       "origin": {
@@ -4352,6 +4361,7 @@
         "venue_path": "venues/SIGGRAPH-TOG/README.md",
         "reading_path": "library/gaussian-splatting.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/gaussian-splatting.md",
         "card_path": "leaderboard/papers/gaussian-splatting/README.md"
       },
       "origin": {
@@ -4779,6 +4789,7 @@
         "venue_path": "venues/ICCV/README.md",
         "reading_path": "library/dit.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dit.md",
         "card_path": "leaderboard/papers/dit/README.md"
       },
       "origin": {
@@ -5182,6 +5193,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/diffusion-policy.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/diffusion-policy.md",
         "card_path": "leaderboard/papers/diffusion-policy/README.md"
       },
       "origin": {
@@ -5835,6 +5847,7 @@
         "venue_path": "venues/ECCV/README.md",
         "reading_path": "library/nerf.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/nerf.md",
         "card_path": "leaderboard/papers/nerf/README.md"
       },
       "origin": {
@@ -6252,6 +6265,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/act.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/act.md",
         "card_path": "leaderboard/papers/act/README.md"
       },
       "origin": {
@@ -6899,6 +6913,7 @@
         "venue_path": "venues/Nature/README.md",
         "reading_path": "library/dreamerv3.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamerv3.md",
         "card_path": "leaderboard/papers/dreamerv3/README.md"
       },
       "origin": {
@@ -7282,6 +7297,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/rt1.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/rt1.md",
         "card_path": "leaderboard/papers/rt1/README.md"
       },
       "origin": {
@@ -7687,6 +7703,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/sam2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/sam2.md",
         "card_path": "leaderboard/papers/sam2/README.md"
       },
       "origin": {
@@ -8159,6 +8176,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/rma.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/rma.md",
         "card_path": "leaderboard/papers/rma/README.md"
       },
       "origin": {
@@ -8491,6 +8509,7 @@
         "venue_path": "venues/TMLR/README.md",
         "reading_path": "library/dinov2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dinov2.md",
         "card_path": "leaderboard/papers/dinov2/README.md"
       },
       "origin": {
@@ -9066,6 +9085,7 @@
         "venue_path": "venues/Science-Robotics/README.md",
         "reading_path": "library/perceptive-loco.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/perceptive-loco.md",
         "card_path": "leaderboard/papers/perceptive-loco/README.md"
       },
       "origin": {
@@ -9388,6 +9408,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/umi.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/umi.md",
         "card_path": "leaderboard/papers/umi/README.md"
       },
       "origin": {
@@ -9792,6 +9813,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/cql.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/cql.md",
         "card_path": "leaderboard/papers/cql/README.md"
       },
       "origin": {
@@ -10172,6 +10194,7 @@
         "venue_path": "venues/SIGGRAPH-TOG/README.md",
         "reading_path": "library/deepmimic.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/deepmimic.md",
         "card_path": "leaderboard/papers/deepmimic/README.md"
       },
       "origin": {
@@ -10684,6 +10707,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/decision-transformer.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/decision-transformer.md",
         "card_path": "leaderboard/papers/decision-transformer/README.md"
       },
       "origin": {
@@ -11113,6 +11137,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/droid.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/droid.md",
         "card_path": "leaderboard/papers/droid/README.md"
       },
       "origin": {
@@ -11809,6 +11834,7 @@
         "venue_path": "venues/CVPR/README.md",
         "reading_path": "library/i-jepa.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/i-jepa.md",
         "card_path": "leaderboard/papers/i-jepa/README.md"
       },
       "origin": {
@@ -12295,6 +12321,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/edm.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/edm.md",
         "card_path": "leaderboard/papers/edm/README.md"
       },
       "origin": {
@@ -12763,6 +12790,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/libero.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/libero.md",
         "card_path": "leaderboard/papers/libero/README.md"
       },
       "origin": {
@@ -13397,6 +13425,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/video-diffusion.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/video-diffusion.md",
         "card_path": "leaderboard/papers/video-diffusion/README.md"
       },
       "origin": {
@@ -13721,6 +13750,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/flow-matching.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/flow-matching.md",
         "card_path": "leaderboard/papers/flow-matching/README.md"
       },
       "origin": {
@@ -14118,6 +14148,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/pi0.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/pi0.md",
         "card_path": "leaderboard/papers/pi0/README.md"
       },
       "origin": {
@@ -14621,6 +14652,7 @@
         "venue_path": "venues/SIGGRAPH-TOG/README.md",
         "reading_path": "library/amp.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/amp.md",
         "card_path": "leaderboard/papers/amp/README.md"
       },
       "origin": {
@@ -15125,6 +15157,7 @@
         "venue_path": "venues/Science-Robotics/README.md",
         "reading_path": "library/agile-flight.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/agile-flight.md",
         "card_path": "leaderboard/papers/agile-flight/README.md"
       },
       "origin": {
@@ -15499,6 +15532,7 @@
         "venue_path": "venues/Science-Robotics/README.md",
         "reading_path": "library/anymal-parkour.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/anymal-parkour.md",
         "card_path": "leaderboard/papers/anymal-parkour/README.md"
       },
       "origin": {
@@ -15811,6 +15845,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/asap.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/asap.md",
         "card_path": "leaderboard/papers/asap/README.md"
       },
       "origin": {
@@ -16319,6 +16354,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/saycan.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/saycan.md",
         "card_path": "leaderboard/papers/saycan/README.md"
       },
       "origin": {
@@ -16717,6 +16753,7 @@
         "venue_path": "venues/Science-Robotics/README.md",
         "reading_path": "library/bipedal-soccer.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/bipedal-soccer.md",
         "card_path": "leaderboard/papers/bipedal-soccer/README.md"
       },
       "origin": {
@@ -17029,6 +17066,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/octo.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/octo.md",
         "card_path": "leaderboard/papers/octo/README.md"
       },
       "origin": {
@@ -17520,6 +17558,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/dreamer.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamer.md",
         "card_path": "leaderboard/papers/dreamer/README.md"
       },
       "origin": {
@@ -17916,6 +17955,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/ddim.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/ddim.md",
         "card_path": "leaderboard/papers/ddim/README.md"
       },
       "origin": {
@@ -18303,6 +18343,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/robomimic.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/robomimic.md",
         "card_path": "leaderboard/papers/robomimic/README.md"
       },
       "origin": {
@@ -18763,6 +18804,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/iql.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/iql.md",
         "card_path": "leaderboard/papers/iql/README.md"
       },
       "origin": {
@@ -19154,6 +19196,7 @@
         "venue_path": "venues/ICCV/README.md",
         "reading_path": "library/phc.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/phc.md",
         "card_path": "leaderboard/papers/phc/README.md"
       },
       "origin": {
@@ -19552,6 +19595,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/rectified-flow.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/rectified-flow.md",
         "card_path": "leaderboard/papers/rectified-flow/README.md"
       },
       "origin": {
@@ -19939,6 +19983,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "library/consistency-models.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/consistency-models.md",
         "card_path": "leaderboard/papers/consistency-models/README.md"
       },
       "origin": {
@@ -20427,6 +20472,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "library/vima.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/vima.md",
         "card_path": "leaderboard/papers/vima/README.md"
       },
       "origin": {
@@ -21069,6 +21115,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/exbody.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/exbody.md",
         "card_path": "leaderboard/papers/exbody/README.md"
       },
       "origin": {
@@ -21461,6 +21508,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/dp3.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dp3.md",
         "card_path": "leaderboard/papers/dp3/README.md"
       },
       "origin": {
@@ -22112,6 +22160,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "library/palm-e.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/palm-e.md",
         "card_path": "leaderboard/papers/palm-e/README.md"
       },
       "origin": {
@@ -22511,6 +22560,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/diffusion-forcing.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/diffusion-forcing.md",
         "card_path": "leaderboard/papers/diffusion-forcing/README.md"
       },
       "origin": {
@@ -22948,6 +22998,7 @@
         "venue_path": "venues/NeurIPS-Datasets-Benchmarks/README.md",
         "reading_path": "library/isaac-gym.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/isaac-gym.md",
         "card_path": "leaderboard/papers/isaac-gym/README.md"
       },
       "origin": {
@@ -23282,6 +23333,7 @@
         "venue_path": "venues/SIGGRAPH-TOG/README.md",
         "reading_path": "library/ase.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/ase.md",
         "card_path": "leaderboard/papers/ase/README.md"
       },
       "origin": {
@@ -23754,6 +23806,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/self-forcing.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/self-forcing.md",
         "card_path": "leaderboard/papers/self-forcing/README.md"
       },
       "origin": {
@@ -24323,6 +24376,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "library/diffuser.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/diffuser.md",
         "card_path": "leaderboard/papers/diffuser/README.md"
       },
       "origin": {
@@ -24732,6 +24786,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/fast.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/fast.md",
         "card_path": "leaderboard/papers/fast/README.md"
       },
       "origin": {
@@ -25273,6 +25328,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/rvt2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/rvt2.md",
         "card_path": "leaderboard/papers/rvt2/README.md"
       },
       "origin": {
@@ -25650,6 +25706,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "library/vq-bet.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/vq-bet.md",
         "card_path": "leaderboard/papers/vq-bet/README.md"
       },
       "origin": {
@@ -26227,6 +26284,7 @@
         "venue_path": "venues/ICRA/README.md",
         "reading_path": "library/rtx.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/rtx.md",
         "card_path": "leaderboard/papers/rtx/README.md"
       },
       "origin": {
@@ -26710,6 +26768,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/td3-bc.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/td3-bc.md",
         "card_path": "leaderboard/papers/td3-bc/README.md"
       },
       "origin": {
@@ -27023,6 +27082,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/transporter.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/transporter.md",
         "card_path": "leaderboard/papers/transporter/README.md"
       },
       "origin": {
@@ -27415,6 +27475,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/td-mpc2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/td-mpc2.md",
         "card_path": "leaderboard/papers/td-mpc2/README.md"
       },
       "origin": {
@@ -27947,6 +28008,7 @@
         "venue_path": "venues/ICRA/README.md",
         "reading_path": "library/extreme-parkour.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/extreme-parkour.md",
         "card_path": "leaderboard/papers/extreme-parkour/README.md"
       },
       "origin": {
@@ -28339,6 +28401,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/mimicgen.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/mimicgen.md",
         "card_path": "leaderboard/papers/mimicgen/README.md"
       },
       "origin": {
@@ -28818,6 +28881,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/walk-in-the-park.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/walk-in-the-park.md",
         "card_path": "leaderboard/papers/walk-in-the-park/README.md"
       },
       "origin": {
@@ -29186,6 +29250,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/openvla.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/openvla.md",
         "card_path": "leaderboard/papers/openvla/README.md"
       },
       "origin": {
@@ -29779,6 +29844,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/vip.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/vip.md",
         "card_path": "leaderboard/papers/vip/README.md"
       },
       "origin": {
@@ -30177,6 +30243,7 @@
         "venue_path": "venues/SIGGRAPH-TOG/README.md",
         "reading_path": "library/maskedmimic.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/maskedmimic.md",
         "card_path": "leaderboard/papers/maskedmimic/README.md"
       },
       "origin": {
@@ -30616,6 +30683,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/cliport.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/cliport.md",
         "card_path": "leaderboard/papers/cliport/README.md"
       },
       "origin": {
@@ -31024,6 +31092,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/rt2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/rt2.md",
         "card_path": "leaderboard/papers/rt2/README.md"
       },
       "origin": {
@@ -31336,6 +31405,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/mobile-aloha.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/mobile-aloha.md",
         "card_path": "leaderboard/papers/mobile-aloha/README.md"
       },
       "origin": {
@@ -31877,6 +31947,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/vc1.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/vc1.md",
         "card_path": "leaderboard/papers/vc1/README.md"
       },
       "origin": {
@@ -32378,6 +32449,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/r3m.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/r3m.md",
         "card_path": "leaderboard/papers/r3m/README.md"
       },
       "origin": {
@@ -32768,6 +32840,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/trajectory-transformer.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/trajectory-transformer.md",
         "card_path": "leaderboard/papers/trajectory-transformer/README.md"
       },
       "origin": {
@@ -33160,6 +33233,7 @@
         "venue_path": "venues/Science-Robotics/README.md",
         "reading_path": "library/sonic.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/sonic.md",
         "card_path": "leaderboard/papers/sonic/README.md"
       },
       "origin": {
@@ -33696,6 +33770,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/peract.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/peract.md",
         "card_path": "leaderboard/papers/peract/README.md"
       },
       "origin": {
@@ -34066,6 +34141,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/robocasa.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/robocasa.md",
         "card_path": "leaderboard/papers/robocasa/README.md"
       },
       "origin": {
@@ -34590,6 +34666,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/walk-in-minutes.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/walk-in-minutes.md",
         "card_path": "leaderboard/papers/walk-in-minutes/README.md"
       },
       "origin": {
@@ -34984,6 +35061,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/bridge-v2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/bridge-v2.md",
         "card_path": "leaderboard/papers/bridge-v2/README.md"
       },
       "origin": {
@@ -35489,6 +35567,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "library/td-mpc.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/td-mpc.md",
         "card_path": "leaderboard/papers/td-mpc/README.md"
       },
       "origin": {
@@ -35801,6 +35880,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/phenaki.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/phenaki.md",
         "card_path": "leaderboard/papers/phenaki/README.md"
       },
       "origin": {
@@ -36137,6 +36217,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/efficientzero.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/efficientzero.md",
         "card_path": "leaderboard/papers/efficientzero/README.md"
       },
       "origin": {
@@ -36528,6 +36609,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/lingbot-va.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/lingbot-va.md",
         "card_path": "leaderboard/papers/lingbot-va/README.md"
       },
       "origin": {
@@ -37157,6 +37239,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/daydreamer.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/daydreamer.md",
         "card_path": "leaderboard/papers/daydreamer/README.md"
       },
       "origin": {
@@ -37553,6 +37636,7 @@
         "venue_path": "venues/ICRA/README.md",
         "reading_path": "library/dreamwaq.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamwaq.md",
         "card_path": "leaderboard/papers/dreamwaq/README.md"
       },
       "origin": {
@@ -38038,6 +38122,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/unipi.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/unipi.md",
         "card_path": "leaderboard/papers/unipi/README.md"
       },
       "origin": {
@@ -38378,6 +38463,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/cal-ql.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/cal-ql.md",
         "card_path": "leaderboard/papers/cal-ql/README.md"
       },
       "origin": {
@@ -38738,6 +38824,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/dreamerv2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamerv2.md",
         "card_path": "leaderboard/papers/dreamerv2/README.md"
       },
       "origin": {
@@ -39270,6 +39357,7 @@
         "venue_path": "arxiv/README.md#paper-vjepa2",
         "reading_path": "library/vjepa2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/vjepa2.md",
         "card_path": "leaderboard/papers/vjepa2/README.md"
       },
       "origin": {
@@ -40179,6 +40267,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/deep-whole-body-control.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/deep-whole-body-control.md",
         "card_path": "leaderboard/papers/deep-whole-body-control/README.md"
       },
       "origin": {
@@ -40545,6 +40634,7 @@
         "venue_path": "venues/CVPR/README.md",
         "reading_path": "library/cot-vla.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/cot-vla.md",
         "card_path": "leaderboard/papers/cot-vla/README.md"
       },
       "origin": {
@@ -40887,6 +40977,7 @@
         "venue_path": "arxiv/README.md#paper-lewm",
         "reading_path": "library/lewm.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/lewm.md",
         "card_path": "leaderboard/papers/lewm/README.md"
       },
       "origin": {
@@ -42768,6 +42859,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/walk-these-ways.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/walk-these-ways.md",
         "card_path": "leaderboard/papers/walk-these-ways/README.md"
       },
       "origin": {
@@ -43216,6 +43308,7 @@
         "venue_path": "venues/RSS/README.md",
         "reading_path": "library/consistency-policy.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/consistency-policy.md",
         "card_path": "leaderboard/papers/consistency-policy/README.md"
       },
       "origin": {
@@ -43495,6 +43588,7 @@
         "venue_path": "arxiv/README.md#paper-gr00t-n1",
         "reading_path": "library/gr00t-n1.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/gr00t-n1.md",
         "card_path": "leaderboard/papers/gr00t-n1/README.md"
       },
       "origin": {
@@ -44319,6 +44413,7 @@
         "venue_path": "venues/Science-Robotics/README.md",
         "reading_path": "library/learned-dynamics-review.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/learned-dynamics-review.md",
         "card_path": "leaderboard/papers/learned-dynamics-review/README.md"
       },
       "origin": {
@@ -44634,6 +44729,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/ctrl-world.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/ctrl-world.md",
         "card_path": "leaderboard/papers/ctrl-world/README.md"
       },
       "origin": {
@@ -45220,6 +45316,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/pi05.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/pi05.md",
         "card_path": "leaderboard/papers/pi05/README.md"
       },
       "origin": {
@@ -45749,6 +45846,7 @@
         "venue_path": "arxiv/README.md#paper-dreamzero",
         "reading_path": "library/dreamzero.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamzero.md",
         "card_path": "leaderboard/papers/dreamzero/README.md"
       },
       "origin": {
@@ -46824,6 +46922,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/humanplus.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/humanplus.md",
         "card_path": "leaderboard/papers/humanplus/README.md"
       },
       "origin": {
@@ -47200,6 +47299,7 @@
         "venue_path": "venues/ICRA/README.md",
         "reading_path": "library/hover.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/hover.md",
         "card_path": "leaderboard/papers/hover/README.md"
       },
       "origin": {
@@ -47606,6 +47706,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/rvt.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/rvt.md",
         "card_path": "leaderboard/papers/rvt/README.md"
       },
       "origin": {
@@ -47987,6 +48088,7 @@
         "venue_path": "venues/NeurIPS/README.md",
         "reading_path": "library/videovla.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/videovla.md",
         "card_path": "leaderboard/papers/videovla/README.md"
       },
       "origin": {
@@ -48566,6 +48668,7 @@
         "venue_path": "venues/ICLR/README.md",
         "reading_path": "library/cosmos-policy.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/cosmos-policy.md",
         "card_path": "leaderboard/papers/cosmos-policy/README.md"
       },
       "origin": {
@@ -49109,6 +49212,7 @@
         "venue_path": "venues/CoRL/README.md",
         "reading_path": "library/omnih2o.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/omnih2o.md",
         "card_path": "leaderboard/papers/omnih2o/README.md"
       },
       "origin": {
@@ -49460,6 +49564,7 @@
         "venue_path": "arxiv/README.md#paper-egoscale",
         "reading_path": "library/egoscale.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/egoscale.md",
         "card_path": "leaderboard/papers/egoscale/README.md"
       },
       "origin": {
@@ -50058,6 +50163,7 @@
         "venue_path": "venues/ICML/README.md",
         "reading_path": "library/efficientzero-v2.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/efficientzero-v2.md",
         "card_path": "leaderboard/papers/efficientzero-v2/README.md"
       },
       "origin": {
@@ -50456,6 +50562,7 @@
         "venue_path": "arxiv/README.md#paper-modar",
         "reading_path": "library/modar.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/modar.md",
         "card_path": "leaderboard/papers/modar/README.md"
       },
       "origin": {
@@ -51259,6 +51366,7 @@
         "venue_path": "arxiv/README.md#paper-dreamtrue",
         "reading_path": "library/dreamtrue.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamtrue.md",
         "card_path": "leaderboard/papers/dreamtrue/README.md"
       },
       "origin": {
@@ -51823,6 +51931,7 @@
         "venue_path": "arxiv/README.md#paper-viola",
         "reading_path": "library/viola.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/viola.md",
         "card_path": "leaderboard/papers/viola/README.md"
       },
       "origin": {
@@ -52189,6 +52298,7 @@
         "venue_path": "arxiv/README.md#paper-lewam",
         "reading_path": "library/lewam.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/lewam.md",
         "card_path": "leaderboard/papers/lewam/README.md"
       },
       "origin": {
@@ -52476,6 +52586,7 @@
         "venue_path": "arxiv/README.md#paper-holo-m",
         "reading_path": "articles/holo-m-2609.35709/README.md",
         "reading_status": "完整解读",
+        "universe_path": "universe/papers/holo-m.md",
         "card_path": "leaderboard/papers/holo-m/README.md"
       },
       "origin": {
@@ -52818,6 +52929,7 @@
         "venue_path": "arxiv/README.md#paper-dex-one2many",
         "reading_path": "library/dex-one2many.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/dex-one2many.md",
         "card_path": "leaderboard/papers/dex-one2many/README.md"
       },
       "origin": {
@@ -53178,6 +53290,7 @@
         "venue_path": "arxiv/README.md#paper-arc",
         "reading_path": "library/arc.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/arc.md",
         "card_path": "leaderboard/papers/arc/README.md"
       },
       "origin": {
@@ -53544,6 +53657,7 @@
         "venue_path": "arxiv/README.md#paper-balanced-data-diet",
         "reading_path": "library/balanced-data-diet.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/balanced-data-diet.md",
         "card_path": "leaderboard/papers/balanced-data-diet/README.md"
       },
       "origin": {
@@ -53892,6 +54006,7 @@
         "venue_path": "arxiv/README.md#paper-plaw-vla",
         "reading_path": "library/plaw-vla.md",
         "reading_status": "解读导读",
+        "universe_path": "universe/papers/plaw-vla.md",
         "card_path": "leaderboard/papers/plaw-vla/README.md"
       },
       "origin": {

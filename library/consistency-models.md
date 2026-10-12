@@ -26,6 +26,6 @@ ICML 2023，PMLR 202；一致性生成基础与 RSS 2024 Consistency Policy 的�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/consistency-models/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
+[知识星系](../universe/papers/consistency-models.md) · [七维评分与雷达](../leaderboard/papers/consistency-models/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
 
 元数据核对：2026-10-10。

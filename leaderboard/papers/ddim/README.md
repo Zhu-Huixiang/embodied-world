@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/ddim.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
 
-[原文](https://iclr.cc/virtual/2021/poster/2804) · [PDF](https://openreview.net/pdf?id=St1giarCHLP) · [阅读卡片](../../../library/ddim.md)
+[知识星系](../../../universe/papers/ddim.md) · [原文](https://iclr.cc/virtual/2021/poster/2804) · [PDF](https://openreview.net/pdf?id=St1giarCHLP) · [阅读卡片](../../../library/ddim.md)
 
 论文出处：[**Jiaming Song**](../../origins/papers/ddim.md)<br>[斯坦福大学](../../origins/papers/ddim.md)
 

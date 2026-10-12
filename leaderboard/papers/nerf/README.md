@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/nerf.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ECCV集锦](../../../venues/ECCV/README.md)
 
-[原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24) · [PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf) · [阅读卡片](../../../library/nerf.md)
+[知识星系](../../../universe/papers/nerf.md) · [原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24) · [PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf) · [阅读卡片](../../../library/nerf.md)
 
 论文出处：[**Ben Mildenhall**](../../origins/papers/nerf.md)<br>[加州大学伯克利分校 / 谷歌研究院 · 另1个机构](../../origins/papers/nerf.md)
 

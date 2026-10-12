@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/gr00t-n1.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-gr00t-n1)
 
-[原文](https://arxiv.org/abs/2503.14734) · [PDF](https://arxiv.org/pdf/2503.14734v2) · [阅读卡片](../../../library/gr00t-n1.md)
+[知识星系](../../../universe/papers/gr00t-n1.md) · [原文](https://arxiv.org/abs/2503.14734) · [PDF](https://arxiv.org/pdf/2503.14734v2) · [阅读卡片](../../../library/gr00t-n1.md)
 
 论文出处：[**NVIDIA**](../../origins/papers/gr00t-n1.md)<br>[英伟达 GEAR 研究团队 / 英伟达](../../origins/papers/gr00t-n1.md)
 

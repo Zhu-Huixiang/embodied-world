@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/pi0.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss21/p010.html) · [PDF](https://www.roboticsproceedings.org/rss21/p010.pdf) · [阅读卡片](../../../library/pi0.md)
+[知识星系](../../../universe/papers/pi0.md) · [原文](https://www.roboticsproceedings.org/rss21/p010.html) · [PDF](https://www.roboticsproceedings.org/rss21/p010.pdf) · [阅读卡片](../../../library/pi0.md)
 
 论文出处：[**Physical Intelligence**](../../origins/papers/pi0.md)<br>[Physical Intelligence](../../origins/papers/pi0.md)
 

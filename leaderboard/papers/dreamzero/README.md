@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/dreamzero.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-dreamzero)
 
-[原文](https://arxiv.org/abs/2602.15922) · [PDF](https://arxiv.org/pdf/2602.15922) · [阅读卡片](../../../library/dreamzero.md)
+[知识星系](../../../universe/papers/dreamzero.md) · [原文](https://arxiv.org/abs/2602.15922) · [PDF](https://arxiv.org/pdf/2602.15922) · [阅读卡片](../../../library/dreamzero.md)
 
 论文出处：[**Seonghyeon Ye**](../../origins/papers/dreamzero.md)<br>[英伟达 GEAR 研究团队 / 英伟达](../../origins/papers/dreamzero.md)
 

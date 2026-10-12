@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/maskedmimic.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 
-[原文](https://dl.acm.org/doi/10.1145/3687951) · [PDF](https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf) · [阅读卡片](../../../library/maskedmimic.md)
+[知识星系](../../../universe/papers/maskedmimic.md) · [原文](https://dl.acm.org/doi/10.1145/3687951) · [PDF](https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_2024.pdf) · [阅读卡片](../../../library/maskedmimic.md)
 
 论文出处：[**Chen Tessler**](../../origins/papers/maskedmimic.md)<br>[英伟达 / 巴伊兰大学 · 另1个机构](../../origins/papers/maskedmimic.md)
 

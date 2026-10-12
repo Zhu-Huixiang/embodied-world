@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/trajectory-transformer.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 
-[原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html) · [PDF](https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf) · [阅读卡片](../../../library/trajectory-transformer.md)
+[知识星系](../../../universe/papers/trajectory-transformer.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html) · [PDF](https://papers.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf) · [阅读卡片](../../../library/trajectory-transformer.md)
 
 论文出处：[**Michael Janner**](../../origins/papers/trajectory-transformer.md)<br>[加州大学伯克利分校](../../origins/papers/trajectory-transformer.md)
 

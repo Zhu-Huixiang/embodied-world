@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/droid.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss20/p120.html) · [PDF](https://www.roboticsproceedings.org/rss20/p120.pdf) · [阅读卡片](../../../library/droid.md)
+[知识星系](../../../universe/papers/droid.md) · [原文](https://www.roboticsproceedings.org/rss20/p120.html) · [PDF](https://www.roboticsproceedings.org/rss20/p120.pdf) · [阅读卡片](../../../library/droid.md)
 
 论文出处：[**Alexander Khazatsky / Karl Pertsch**](../../origins/papers/droid.md)<br>[斯坦福 IRIS 实验室 / 伯克利 RAIL 实验室 · 另14个机构](../../origins/papers/droid.md)
 

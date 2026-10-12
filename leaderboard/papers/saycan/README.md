@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/saycan.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v205/ichter23a.html) · [PDF](https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf) · [阅读卡片](../../../library/saycan.md)
+[知识星系](../../../universe/papers/saycan.md) · [原文](https://proceedings.mlr.press/v205/ichter23a.html) · [PDF](https://proceedings.mlr.press/v205/ichter23a/ichter23a.pdf) · [阅读卡片](../../../library/saycan.md)
 
 论文出处：[**Michael Ahn**](../../origins/papers/saycan.md)<br>[谷歌机器人研究团队 / Everyday Robots](../../origins/papers/saycan.md)
 

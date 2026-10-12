@@ -26,6 +26,6 @@ RGB-D 重建为三维体素网格，体素 patch 与语言向量组成序列；P
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/peract/README.md) · [CoRL集锦](../venues/CoRL/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
+[知识星系](../universe/papers/peract.md) · [七维评分与雷达](../leaderboard/papers/peract/README.md) · [CoRL集锦](../venues/CoRL/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
 
 元数据核对：2026-10-10。

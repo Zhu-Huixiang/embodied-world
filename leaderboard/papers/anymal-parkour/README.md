@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/anymal-parkour.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 
-[原文](https://www.science.org/doi/10.1126/scirobotics.adi7566) · [PDF](https://arxiv.org/pdf/2306.14874) · [阅读卡片](../../../library/anymal-parkour.md)
+[知识星系](../../../universe/papers/anymal-parkour.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.adi7566) · [PDF](https://arxiv.org/pdf/2306.14874) · [阅读卡片](../../../library/anymal-parkour.md)
 
 论文出处：[**David Hoeller / Nikita Rudin**](../../origins/papers/anymal-parkour.md)<br>[苏黎世联邦理工学院 / 英伟达](../../origins/papers/anymal-parkour.md)
 

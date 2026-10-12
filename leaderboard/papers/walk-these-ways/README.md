@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/walk-these-ways.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 
-[原文](https://proceedings.mlr.press/v205/margolis23a.html) · [PDF](https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf) · [阅读卡片](../../../library/walk-these-ways.md)
+[知识星系](../../../universe/papers/walk-these-ways.md) · [原文](https://proceedings.mlr.press/v205/margolis23a.html) · [PDF](https://proceedings.mlr.press/v205/margolis23a/margolis23a.pdf) · [阅读卡片](../../../library/walk-these-ways.md)
 
 论文出处：[**Gabriel B. Margolis**](../../origins/papers/walk-these-ways.md)<br>[麻省理工学院 Improbable AI 实验室](../../origins/papers/walk-these-ways.md)
 

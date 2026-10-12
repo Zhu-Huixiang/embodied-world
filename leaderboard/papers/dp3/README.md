@@ -4,7 +4,7 @@
 
 [解读导读](../../../library/dp3.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
-[原文](https://www.roboticsproceedings.org/rss20/p067.html) · [PDF](https://www.roboticsproceedings.org/rss20/p067.pdf) · [阅读卡片](../../../library/dp3.md)
+[知识星系](../../../universe/papers/dp3.md) · [原文](https://www.roboticsproceedings.org/rss20/p067.html) · [PDF](https://www.roboticsproceedings.org/rss20/p067.pdf) · [阅读卡片](../../../library/dp3.md)
 
 论文出处：[**Yanjie Ze / Gu Zhang**](../../origins/papers/dp3.md)<br>[清华具身智能实验室 / 上海期智研究院 · 另3个机构](../../origins/papers/dp3.md)
 

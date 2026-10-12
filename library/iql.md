@@ -26,6 +26,6 @@ IQL 在数据动作的 Q 值上做非对称 expectile 回归，拟合偏向较�
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[七维评分与雷达](../leaderboard/papers/iql/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-reinforcement-learning) · [首页](../README.md)
+[知识星系](../universe/papers/iql.md) · [七维评分与雷达](../leaderboard/papers/iql/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-reinforcement-learning) · [首页](../README.md)
 
 元数据核对：2026-10-10。
