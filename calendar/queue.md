@@ -4,7 +4,7 @@
 
 | 队列顺序 | 具身榜名次 | 论文 | 出处 | 综合分 |
 | --- | --- | --- | --- | --- |
-| 1 | 1 | [Learning Transferable Visual Models From Natural Language Supervision](../library/clip.md) | [ICML 2021](../venues/ICML/README.md) | 96.4 |
+| 1 | 1 | [Learning Transferable Visual Models From Natural Language Supervision](../articles/clip-2103.00020/README.md) | [ICML 2021](../venues/ICML/README.md) | 96.4 |
 | 2 | 2 | [Denoising Diffusion Probabilistic Models](../library/ddpm.md) | [NeurIPS 2020](../venues/NeurIPS/README.md) | 95.9 |
 | 3 | 3 | [High-Resolution Image Synthesis with Latent Diffusion Models](../library/latent-diffusion.md) | [CVPR 2022](../venues/CVPR/README.md) | 95.8 |
 | 4 | 4 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](../library/vit.md) | [ICLR 2021](../venues/ICLR/README.md) | 95.7 |

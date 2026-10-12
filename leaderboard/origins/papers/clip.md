@@ -36,7 +36,7 @@ Alec Radford、Jong Wook Kim、Chris Hallacy、Aditya Ramesh、Gabriel Goh、San
 
 </details>
 
-[论文导读 / 完整解读](../../../library/clip.md) · [七维评分](../../papers/clip/README.md) · [原文](https://proceedings.mlr.press/v139/radford21a.html)
+[论文导读 / 完整解读](../../../articles/clip-2103.00020/README.md) · [七维评分](../../papers/clip/README.md) · [原文](https://proceedings.mlr.press/v139/radford21a.html)
 
 ## 署名来源
 

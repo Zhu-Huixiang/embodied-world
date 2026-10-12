@@ -60,8 +60,8 @@
         "venue_label": "ICML",
         "venue_key": "ICML",
         "venue_path": "venues/ICML/README.md",
-        "reading_path": "library/clip.md",
-        "reading_status": "解读导读",
+        "reading_path": "articles/clip-2103.00020/README.md",
+        "reading_status": "完整解读",
         "card_path": "leaderboard/papers/clip/README.md"
       },
       "origin": {
@@ -99,7 +99,7 @@
           "sources": [
             "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf"
           ],
-          "review_depth": "原文摘要/方法与实验初读"
+          "review_depth": "ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行"
         },
         "evidence": {
           "method": "editorial",
@@ -107,7 +107,7 @@
           "sources": [
             "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf"
           ],
-          "review_depth": "原文摘要/方法与实验初读"
+          "review_depth": "ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行"
         },
         "reuse": {
           "method": "editorial",
@@ -115,7 +115,7 @@
           "sources": [
             "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf"
           ],
-          "review_depth": "原文摘要/方法与实验初读"
+          "review_depth": "ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行"
         },
         "reading": {
           "method": "editorial",
@@ -123,7 +123,7 @@
           "sources": [
             "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf"
           ],
-          "review_depth": "原文摘要/方法与实验初读"
+          "review_depth": "ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行"
         },
         "venue": {
           "method": "public_review_stage",
@@ -554,7 +554,7 @@
         },
         "mechanism": "图像编码器和文本编码器分别输出向量，经投影与归一化后计算一个批次中全部图文配对的相似度矩阵。对称交叉熵把真实配对拉近，把批内错配分开；测试时用文本描述生成类别向量，从而做零样本分类。原文在三十余个视觉数据集测试迁移，CLIPort 再将其语义特征与空间操作分支融合。",
         "reason": "图文训练目标和零样本接口清楚，多数据集迁移实验充分，官方模型公开；机器人引用关系已由 CLIPort 原文核实。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行"
       },
       "venue_record": {
         "venue": "ICML",

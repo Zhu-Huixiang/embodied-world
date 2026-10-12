@@ -2,7 +2,7 @@
 
 **CLIP** · ICML 2021 · 本版排名 1 · 综合分 **96.4 / 100**
 
-[解读导读](../../../library/clip.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICML集锦](../../../venues/ICML/README.md)
+[完整解读](../../../articles/clip-2103.00020/README.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICML集锦](../../../venues/ICML/README.md)
 
 [原文](https://proceedings.mlr.press/v139/radford21a.html) · [PDF](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) · [阅读卡片](../../../library/clip.md)
 
@@ -41,7 +41,7 @@
 公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。
 
 
-编辑深度：原文摘要/方法与实验初读；评分记录：2026-10-10。
+编辑深度：ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行；评分记录：2026-10-10。
 
 计量来源：OpenAlex；作者预印本/原研究索引记录；匹配题目：Learning Transferable Visual Models From Natural Language Supervision。累计被引 **5256**，2025–2026 被引 **1485**；快照：2026-10-10T09:50:37+08:00。
 

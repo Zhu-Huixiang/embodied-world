@@ -13,7 +13,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [CLIP · Learning Transferable Visual Models From Natural Language Supervision](../../../library/clip.md) | 2021 / [ICML](../../../venues/ICML/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [96.4](../../papers/clip/README.md) |
+| [CLIP · Learning Transferable Visual Models From Natural Language Supervision](../../../articles/clip-2103.00020/README.md) | 2021 / [ICML](../../../venues/ICML/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [96.4](../../papers/clip/README.md) |
 | [Consistency Models · Consistency Models](../../../library/consistency-models.md) | 2023 / [ICML](../../../venues/ICML/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [86.1](../../papers/consistency-models/README.md) |
 
 ## 署名与来源

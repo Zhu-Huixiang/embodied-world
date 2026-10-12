@@ -2149,7 +2149,9 @@
       "classic_exception_reason": "ICML 2021 早于 2021-10-10，因图文对齐已经直接用于 CLIPort 等机器人方法，作为经典例外。",
       "embodied_relevance": "CLIPort 公开原文直接将冻结 CLIP 图文特征接入操作策略；此基础论文解释网络语义如何进入具身系统，关系明确。",
       "evidence_summary": "图文训练目标和零样本接口清楚，多数据集迁移实验充分，官方模型公开；机器人引用关系已由 CLIPort 原文核实。",
-      "selection_window": "classic_exception"
+      "selection_window": "classic_exception",
+      "article_slug": "clip-2103.00020",
+      "editorial_status_label": "完整解读已成稿，待用户评阅"
     },
     {
       "id": "dino",

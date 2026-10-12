@@ -26,7 +26,7 @@ CLIPort 公开原文直接将冻结 CLIP 图文特征接入操作策略；此基
 
 经典保留理由：ICML 2021 早于 2021-10-10，因图文对齐已经直接用于 CLIPort 等机器人方法，作为经典例外。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/clip-2103.00020/README.md)
 
 [七维评分与雷达](../leaderboard/papers/clip/README.md) · [ICML集锦](../venues/ICML/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 
