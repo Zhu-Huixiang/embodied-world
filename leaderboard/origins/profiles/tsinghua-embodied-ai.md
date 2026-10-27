@@ -24,6 +24,6 @@
 - [来源1](https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Tsinghua_Embodied_AI_Lab.htm)
 - [来源2](https://iiis.tsinghua.edu.cn/en/People/Faculty/XuHuazhe.htm)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

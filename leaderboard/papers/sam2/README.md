@@ -35,7 +35,7 @@
 | 复用价值 | 98 | 8% |
 | 阅读价值 | 92 | 7% |
 
-刊会依据：[ICLR 2025](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://openreview.net/forum?id=Ha6RTeWMd0)；采用2026-10-10刊会快照。
+刊会依据：[ICLR 2025](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://openreview.net/pdf?id=Ha6RTeWMd0)；采用2026-10-10刊会快照。
 
 
 公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。

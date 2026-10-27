@@ -10,16 +10,16 @@
 | [LeWM](papers/lewm/README.md) | 0→70 | 0.0→70.4 | 0.0→99.8 | 280 | 48.2→81.2 | 104→91 |
 | [GR00T N1](papers/gr00t-n1/README.md) | 0→60 | 22.4→91.5 | 28.8→100.0 | 1513 | 51.9→80.4 | 103→94 |
 | [DreamZero](papers/dreamzero/README.md) | 0→65 | 0.0→77.0 | 0.0→99.5 | 474 | 48.0→80.1 | 105→98 |
-| [EgoScale](papers/egoscale/README.md) | 0→60 | 0.0→60.3 | 0.0→86.4 | 124 | 47.3→75.6 | 106→105 |
-| [ModAR](papers/modar/README.md) | 0→60 | 0.0→8.7 | 0.0→76.5 | 1 | 46.9→69.6 | 107→107 |
-| [DreamTrue](papers/dreamtrue/README.md) | 0→60 | 0→0 | 0→51.5 | 0 | 43.5→64.1 | 114→108 |
-| [VIOLA](papers/viola/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.8→63.8 | 108→109 |
-| [LeWAM](papers/lewam/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.1→63.1 | 109→110 |
-| [Holo-M](papers/holo-m/README.md) | 0→60 | 0.0→0.0 | 0.0→0.0 | 0 | 44.3→62.3 | 110→111 |
-| [Dex-One2Many](papers/dex-one2many/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 111→112 |
-| [ARC](papers/arc/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 112→113 |
-| [Balanced Data Diet](papers/balanced-data-diet/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.1→62.1 | 113→114 |
-| [PLaW-VLA](papers/plaw-vla/README.md) | 0→60 | 0→0 | 0→11.9 | 0 | 43.1→61.7 | 115→115 |
+| [EgoScale](papers/egoscale/README.md) | 0→60 | 0.0→60.3 | 0.0→86.4 | 124 | 47.3→75.6 | 106→106 |
+| [ModAR](papers/modar/README.md) | 0→60 | 0.0→8.7 | 0.0→76.5 | 1 | 46.9→69.6 | 107→108 |
+| [DreamTrue](papers/dreamtrue/README.md) | 0→60 | 0→0 | 0→51.5 | 0 | 43.5→64.1 | 114→109 |
+| [VIOLA](papers/viola/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.8→63.8 | 108→110 |
+| [LeWAM](papers/lewam/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.1→63.1 | 109→111 |
+| [Holo-M](papers/holo-m/README.md) | 0→60 | 0.0→0.0 | 0.0→0.0 | 0 | 44.3→62.3 | 110→112 |
+| [Dex-One2Many](papers/dex-one2many/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 111→113 |
+| [ARC](papers/arc/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 112→114 |
+| [Balanced Data Diet](papers/balanced-data-diet/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.1→62.1 | 113→115 |
+| [PLaW-VLA](papers/plaw-vla/README.md) | 0→60 | 0→0 | 0→11.9 | 0 | 43.1→61.7 | 115→116 |
 
 [旧版分数快照](scores-v2.json) · [逐篇变化JSON](changes-v3.json) · [当前具身榜](README.md)
 

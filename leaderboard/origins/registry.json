@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10",
+  "checked_at": "2026-10-27",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3251,6 +3251,37 @@
       "aliases": [
         "Shanghai AI Lab",
         "上海人工智能实验室"
+      ]
+    },
+    "berkeley-hybrid-robotics": {
+      "id": "berkeley-hybrid-robotics",
+      "name": "Hybrid Robotics, UC Berkeley",
+      "display_name": "加州大学伯克利分校混合机器人实验室",
+      "short_display_name": "伯克利混合机器人实验室",
+      "short_name": "Berkeley Hybrid Robotics",
+      "kind": "research_lab",
+      "official_url": "https://hybrid-robotics.berkeley.edu/",
+      "identity_url": "https://hybrid-robotics.berkeley.edu/",
+      "focus": "非线性控制与混合动力学；足式/空中机器人、动态双足运动与全身控制。",
+      "links": [
+        {
+          "label": "实验室主页与研究方向",
+          "url": "https://hybrid-robotics.berkeley.edu/"
+        },
+        {
+          "label": "SuperMimic原文",
+          "url": "https://hybrid-robotics.berkeley.edu/publications/CoRL2026_SuperMimic.pdf"
+        }
+      ],
+      "sources": [
+        "https://hybrid-robotics.berkeley.edu/",
+        "https://hybrid-robotics.berkeley.edu/publications/CoRL2026_SuperMimic.pdf"
+      ],
+      "checked_at": "2026-10-27T14:35:45+08:00",
+      "aliases": [
+        "Hybrid Robotics",
+        "Koushil Sreenath",
+        "伯克利混合机器人"
       ]
     }
   },
@@ -8796,6 +8827,53 @@
           "url": "https://arxiv.org/pdf/2610.12285v1",
           "locator": "第一页 Correspondence / corresponding author 标记与邮箱",
           "claim": "原文姓名及邮箱明确对应通讯角色"
+        }
+      ]
+    },
+    "supermimic": {
+      "first_authors": [
+        "Qiayuan Liao"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Qiayuan Liao",
+        "Yiyang Shao",
+        "Junfeng Long",
+        "Kevin Zakka",
+        "Roberto Horowitz",
+        "Pieter Abbeel",
+        "Koushil Sreenath"
+      ],
+      "profile_ids": [
+        "institution-i95457486",
+        "berkeley-hybrid-robotics"
+      ],
+      "affiliations": [
+        "UC Berkeley"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.28480v1",
+        "https://qiayuanl.github.io/",
+        "https://hybrid-robotics.berkeley.edu/",
+        "https://2026.corl.org/program/accepted-papers"
+      ],
+      "checked_at": "2026-10-27T14:35:45+08:00",
+      "author_basis": "原文首署名为Qiayuan Liao",
+      "equal_contributors": [
+        "Yiyang Shao",
+        "Junfeng Long"
+      ],
+      "advising_authors": [
+        "Pieter Abbeel",
+        "Koushil Sreenath"
+      ],
+      "affiliation_basis": "原文首页UC Berkeley；实验室官方publication路径存放本篇原文，团队关注点取自实验室官方首页。",
+      "primary_author_source": "https://arxiv.org/pdf/2610.28480v1",
+      "authorship_notes": "*只标在Yiyang Shao、Junfeng Long后，对应Equal contribution；†为Equal advising，不登记通讯作者。",
+      "author_links": [
+        {
+          "label": "Qiayuan Liao主页、工作与学术入口",
+          "url": "https://qiayuanl.github.io/"
         }
       ]
     }

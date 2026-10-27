@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-115 篇论文是恒星，各自有自己的知识行星与卫星：共 507 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 2 篇有完整解读，59 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+116 篇论文是恒星，各自有自己的知识行星与卫星：共 525 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 2 篇有完整解读，59 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -110,6 +110,7 @@
 | [SayCan](papers/saycan.md) | 导读 | [分层技能与计划](concepts/skills.md) · [价值估计与校准](concepts/value.md) · [零样本任务接口](concepts/zero-shot.md) |
 | [Self Forcing](papers/self-forcing.md) | 导读 | [视频时序生成](concepts/video.md) · [因果序列建模](concepts/causal.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [SONIC](papers/sonic.md) | 导读 | [离散编码与量化](concepts/quantization.md) · [全身控制与执行](concepts/wbc.md) · [PPO 与并行模拟](concepts/ppo.md) |
+| [SuperMimic](papers/supermimic.md) | 导读 | [世界模型](concepts/world.md) · [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [策略与价值学习](concepts/actor-critic.md) · [全身控制与执行](concepts/wbc.md) · [仿真到实机](concepts/sim2real.md) · [运动重定向](concepts/retarget.md) |
 | [TD-MPC](papers/td-mpc.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [模型预测控制 MPC](concepts/mpc.md) · [价值估计与校准](concepts/value.md) |
 | [TD-MPC2](papers/td-mpc2.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [模型预测控制 MPC](concepts/mpc.md) · [价值估计与校准](concepts/value.md) |
 | [TD3+BC](papers/td3-bc.md) | 导读 | [离线强化学习](concepts/offline.md) · [策略与价值学习](concepts/actor-critic.md) · [行为克隆](concepts/bc.md) |

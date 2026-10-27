@@ -30,6 +30,10 @@ CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版
 
 ## 本仓收录论文
 
+## 2026
+
+- [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](2026/supermimic.md)
+
 ## 2025
 
 - [π₀.₅: a Vision-Language-Action Model with Open-World Generalization](2025/pi05.md)

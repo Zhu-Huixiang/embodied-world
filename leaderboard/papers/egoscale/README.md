@@ -1,6 +1,6 @@
 # EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data
 
-**EgoScale** · arXiv 2026 · 本版排名 105 · 综合分 **75.6 / 100**
+**EgoScale** · arXiv 2026 · 本版排名 106 · 综合分 **75.6 / 100**
 
 [解读导读](../../../library/egoscale.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-egoscale)
 

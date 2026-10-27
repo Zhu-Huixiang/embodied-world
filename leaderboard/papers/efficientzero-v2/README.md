@@ -1,6 +1,6 @@
 # EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data
 
-**EfficientZero V2** · ICML 2024 · 本版排名 106 · 综合分 **75.0 / 100**
+**EfficientZero V2** · ICML 2024 · 本版排名 107 · 综合分 **75.0 / 100**
 
 [解读导读](../../../library/efficientzero-v2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICML集锦](../../../venues/ICML/README.md)
 

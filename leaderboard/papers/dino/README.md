@@ -35,7 +35,7 @@
 | 复用价值 | 96 | 8% |
 | 阅读价值 | 93 | 7% |
 
-刊会依据：[ICCV 2021](../../../venues/ICCV/README.md)，正式出处见[出版/原文记录](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)；采用2026-10-10刊会快照。
+刊会依据：[ICCV 2021](../../../venues/ICCV/README.md)，正式出处见[出版/原文记录](https://ieeexplore.ieee.org/document/9709990)；采用2026-10-10刊会快照。
 
 
 公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。

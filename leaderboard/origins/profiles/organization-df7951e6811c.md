@@ -25,6 +25,6 @@
 - [来源3](https://api.openalex.org/works/W4417136857)
 - [来源4](https://proceedings.neurips.cc/paper_files/paper/2025/file/f4823f831af67a3ef15e41a85434422a-Paper-Conference.pdf)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

@@ -35,7 +35,7 @@ C-ViViT 用因果时间注意力把可变长度视频压成离散 token，兼顾
 | 复用价值 | 75 | 8% |
 | 阅读价值 | 91 | 7% |
 
-刊会依据：[ICLR 2023](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://openreview.net/forum?id=vOEXS39nOF)；采用2026-10-10刊会快照。
+刊会依据：[ICLR 2023](../../../venues/ICLR/README.md)，正式出处见[出版/原文记录](https://openreview.net/pdf?id=vOEXS39nOF)；采用2026-10-10刊会快照。
 
 
 公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；正式刊会按登记量表计分，取较高阶段。

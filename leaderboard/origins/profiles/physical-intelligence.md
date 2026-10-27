@@ -26,6 +26,6 @@
 - [来源1](https://www.pi.website/)
 - [来源2](https://www.pi.website/blog/pi05)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

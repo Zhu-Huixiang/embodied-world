@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10",
+  "checked_at": "2026-10-27",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -50,6 +50,7 @@
   "papers": [
     {
       "id": "clip",
+      "checked_at": "2026-10-10",
       "short_name": "CLIP",
       "title": "Learning Transferable Visual Models From Natural Language Supervision",
       "year": 2021,
@@ -555,7 +556,8 @@
         },
         "mechanism": "图像编码器和文本编码器分别输出向量，经投影与归一化后计算一个批次中全部图文配对的相似度矩阵。对称交叉熵把真实配对拉近，把批内错配分开；测试时用文本描述生成类别向量，从而做零样本分类。原文在三十余个视觉数据集测试迁移，CLIPort 再将其语义特征与空间操作分支融合。",
         "reason": "图文训练目标和零样本接口清楚，多数据集迁移实验充分，官方模型公开；机器人引用关系已由 CLIPort 原文核实。",
-        "review_depth": "ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行"
+        "review_depth": "ICML 2021 正式版16页及补充25页精读；官方实现/CLIPort接口核对；完整解读成稿，用户八题验收未进行",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -598,6 +600,7 @@
     },
     {
       "id": "ddpm",
+      "checked_at": "2026-10-10",
       "short_name": "DDPM",
       "title": "Denoising Diffusion Probabilistic Models",
       "year": 2020,
@@ -1043,7 +1046,8 @@
         },
         "mechanism": "正向过程逐步给数据加高斯噪声，训练时随机抽噪声时刻，让网络预测混入的噪声。反向生成从纯噪声开始，多步使用网络估计均值并采样，得到图像或换成动作序列后的条件样本。原文给出变分目标与简化去噪目标的联系，在 CIFAR-10 和 LSUN 评估图像生成质量。",
         "reason": "概率建模与易训练目标的连接清楚，生成基准与目标消融可读，官方代码公开；其动作建模继承关系直接。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -1086,6 +1090,7 @@
     },
     {
       "id": "latent-diffusion",
+      "checked_at": "2026-10-10",
       "short_name": "Latent Diffusion",
       "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
       "year": 2022,
@@ -1536,7 +1541,8 @@
         },
         "mechanism": "先训练自动编码器，把高分辨率图像压成空间 latent；再在 latent 上训练扩散网络，最后解码为图像。文本或布局由条件编码器产生 token，并通过交叉注意力进入去噪网络。原文比较压缩程度、图像质量和计算成本，并评估文生图、修复与超分辨率。",
         "reason": "表示压缩与生成训练拆得清楚，跨任务和压缩消融丰富，官方代码及权重可用；能帮助读者分析潜空间生成世界模型。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CVPR",
@@ -1579,6 +1585,7 @@
     },
     {
       "id": "vit",
+      "checked_at": "2026-10-10",
       "short_name": "ViT",
       "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
       "year": 2021,
@@ -2023,7 +2030,8 @@
         },
         "mechanism": "将图像切成固定大小的 patch，每块展平后线性投影为 token，再加入位置编码送进标准 Transformer。原文以大规模监督预训练和小规模下游微调测试数据规模与视觉归纳偏置的关系。实验覆盖 ImageNet、CIFAR 和 VTAB，机器人中的视觉 backbone 是这条表示路线的后续应用。",
         "reason": "架构变化直接，数据规模与 CNN 对照有解释力，权重与微调实现公开；先读能减少后续 VLA 编码器的理解负担。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -2066,6 +2074,7 @@
     },
     {
       "id": "sam",
+      "checked_at": "2026-10-10",
       "short_name": "SAM",
       "title": "Segment Anything",
       "year": 2023,
@@ -2514,7 +2523,8 @@
         },
         "mechanism": "图像编码器先算一次图像特征，点、框或已有掩码由提示编码器表达，轻量掩码解码器联合两者预测目标区域。一次图像编码可以服务多次交互，模型同时输出多个候选以应对提示歧义。数据引擎让模型辅助人工标注再改进模型，原文以零样本图像分割和不同提示任务验证迁移。",
         "reason": "任务、模型和数据闭环连得清楚，大规模公开数据与跨域实验充足；读者能看懂分割接口怎样进入机器人感知链。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICCV",
@@ -2557,6 +2567,7 @@
     },
     {
       "id": "mae",
+      "checked_at": "2026-10-10",
       "short_name": "MAE",
       "title": "Masked Autoencoders Are Scalable Vision Learners",
       "year": 2022,
@@ -3095,7 +3106,8 @@
         },
         "mechanism": "随机遮住大部分图像 patch，编码器只处理可见部分，轻量解码器再接入 mask token 还原缺失像素。非对称结构减少昂贵编码器的计算，高遮挡比例让补全任务需要理解物体和场景。原文比较分类、检测、分割迁移；MVP 将同类编码器冻结后接到可训练控制模块。",
         "reason": "方法和计算节省能直接从结构理解，视觉迁移实验完整，官方实现公开；机器人实机继承关系有 MVP 原文佐证。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CVPR",
@@ -3138,6 +3150,7 @@
     },
     {
       "id": "muzero",
+      "checked_at": "2026-10-10",
       "short_name": "MuZero",
       "title": "Mastering Atari, Go, chess and shogi by planning with a learned model",
       "year": 2020,
@@ -3442,7 +3455,8 @@
         },
         "mechanism": "表示网络从观测历史得到潜状态，动力学网络在动作条件下预测下一潜状态和奖励，预测网络给出策略先验和值。MCTS 在这些潜状态里展开候选动作，搜索产生的策略和值再监督网络。Nature 论文比较棋类与 Atari；这里关注的是规划表征，而不是实机机器人结论。",
         "reason": "Nature 正式论文、跨棋类和 Atari 的完整实验、公开伪代码；EfficientZero 的直接继承为路线影响提供可核实依据。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Nature",
@@ -3498,6 +3512,7 @@
     },
     {
       "id": "attention",
+      "checked_at": "2026-10-10",
       "short_name": "Transformer",
       "title": "Attention Is All You Need",
       "year": 2017,
@@ -3795,7 +3810,8 @@
         },
         "mechanism": "输入 token 先做词嵌入和位置编码，再由多头注意力计算每个位置该从哪些位置取信息。编码器使用全序列自注意力；解码器用因果遮罩阻止读取未来 token，并通过交叉注意力接收编码器输出。原文在两项 WMT 翻译任务比较质量、训练成本与不同注意力配置。",
         "reason": "纯注意力替代循环网络的计算改动清晰，翻译对照和结构消融完整，官方实现公开；具身价值来自下游共享结构。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -3838,6 +3854,7 @@
     },
     {
       "id": "dino",
+      "checked_at": "2026-10-10",
       "short_name": "DINO",
       "title": "Emerging Properties in Self-Supervised Vision Transformers",
       "year": 2021,
@@ -4306,13 +4323,14 @@
         },
         "mechanism": "同一图像的不同裁剪分别进入学生和教师，学生用交叉熵拟合教师输出的概率分布。教师参数由学生参数的指数滑动平均更新，中心化与温度锐化防止两者退化成常量。原文比较 ViT 与卷积网络，检查 k-NN、线性分类和注意力中出现的物体区域结构。",
         "reason": "动量教师、裁剪与防坍塌措施能逐项分析，视觉迁移和空间结构有原始实验支撑，官方实现可复用。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICCV",
         "venue_status": "published",
         "track": null,
-        "publication_evidence_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+        "publication_evidence_url": "https://ieeexplore.ieee.org/document/9709990",
         "checked_at": "2026-10-10",
         "profile": {
           "abbreviation": "ICCV",
@@ -4349,6 +4367,7 @@
     },
     {
       "id": "gaussian-splatting",
+      "checked_at": "2026-10-10",
       "short_name": "3DGS",
       "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
       "year": 2023,
@@ -4711,7 +4730,8 @@
         },
         "mechanism": "从相机标定产生的稀疏点初始化三维高斯，优化位置、各向异性形状、不透明度与颜色。可微 splatting 渲染器把高斯投到图像平面，按可见性排序混合；训练中交替优化参数和增删高斯。原文比较多套真实场景的新视角质量、训练时间和渲染速度，后续机器人系统利用同类表示做语义掩码与场景编辑。",
         "reason": "显式表示与高效渲染共同改变场景构建成本，标准场景对照充分，参考实现公开；CoRL 应用提供直接具身联系。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "SIGGRAPH-TOG",
@@ -4777,6 +4797,7 @@
     },
     {
       "id": "dit",
+      "checked_at": "2026-10-10",
       "short_name": "DiT",
       "title": "Scalable Diffusion Models with Transformers",
       "year": 2023,
@@ -5138,7 +5159,8 @@
         },
         "mechanism": "在图像潜表示的patch序列上用Transformer做扩散去噪，考察计算规模和条件注入。",
         "reason": "生成架构影响力和实现复用突出；作为视频/动作模型前置，保留图像任务范围。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICCV",
@@ -5181,6 +5203,7 @@
     },
     {
       "id": "diffusion-policy",
+      "checked_at": "2026-10-10",
       "short_name": "Diffusion Policy",
       "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
       "year": 2023,
@@ -5792,7 +5815,8 @@
         },
         "mechanism": "对多步动作条件去噪，用视觉观测约束动作分布，滚动执行一段后再次观测与重规划。",
         "reason": "动作分布与闭环执行的清楚范式；丰富任务对照和可复用代码是阅读优势。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -5835,6 +5859,7 @@
     },
     {
       "id": "nerf",
+      "checked_at": "2026-10-10",
       "short_name": "NeRF",
       "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
       "year": 2020,
@@ -6209,7 +6234,8 @@
         },
         "mechanism": "给多层感知机输入三维位置与观察方向，输出体密度和视角相关颜色。沿每条相机射线查询多个点，体渲染把颜色与密度累积成像，再由多视角重建误差更新场景网络。位置编码保留高频细节，分层采样减少无效查询；原文比较真实与合成场景的新视角质量。",
         "reason": "表示、渲染和监督链路具有奠基价值，标准数据集对照明确，作者代码公开；后续机器人场景表示用途有公开机器人论文支撑。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ECCV",
@@ -6253,6 +6279,7 @@
     },
     {
       "id": "act",
+      "checked_at": "2026-10-10",
       "short_name": "ACT / ALOHA",
       "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
       "year": 2023,
@@ -6858,7 +6885,8 @@
         },
         "mechanism": "把一段动作联合预测，条件变分自编码器吸收示范差异，时间集成融合重叠预测减轻误差积累。",
         "reason": "低成本双臂硬件与动作分块相互支撑，适合同时读数据系统和策略。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -6901,6 +6929,7 @@
     },
     {
       "id": "dreamerv3",
+      "checked_at": "2026-10-10",
       "short_name": "DreamerV3",
       "title": "Mastering diverse control tasks through world models",
       "year": 2025,
@@ -7229,7 +7258,8 @@
         },
         "mechanism": "以统一的世界模型、奖励价值尺度处理和优化设计覆盖多类控制任务，减少逐任务调参。",
         "reason": "跨域控制证据充分，代码与训练配方利于复用；正式Nature版本单独计量。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Nature",
@@ -7285,6 +7315,7 @@
     },
     {
       "id": "rt1",
+      "checked_at": "2026-10-10",
       "short_name": "RT-1",
       "title": "RT-1: Robotics Transformer for Real-World Control at Scale",
       "year": 2023,
@@ -7648,7 +7679,8 @@
         },
         "mechanism": "图像先经语言条件的 EfficientNet 提取特征，再由 TokenLearner 压成少量视觉 token；Transformer 融合短时历史并输出离散动作。动作同时覆盖机械臂、底盘和停止模式，策略以闭环方式反复读取图像。原文分别检验新指令、干扰物、新背景以及跨机器人数据混合的效果。",
         "reason": "RSS 正式 PDF 与项目页给出 BC-Z、Gato 对照、数据量/数据多样性消融和真实厨房评估，证据丰富；开源模型和数据提供复用入口。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -7691,6 +7723,7 @@
     },
     {
       "id": "sam2",
+      "checked_at": "2026-10-10",
       "short_name": "SAM 2",
       "title": "SAM 2: Segment Anything in Images and Videos",
       "year": 2025,
@@ -8121,13 +8154,14 @@
         },
         "mechanism": "逐帧图像特征通过记忆注意力读取之前的目标提示与掩码信息，再与当前提示一起预测本帧掩码。记忆编码器把当前预测存入记忆，下一帧继续使用；静态图像相当于记忆为空的视频。原文比较交互次数、速度以及图像和视频分割基准。",
         "reason": "流式记忆和对象持续性问题直接，跨数据集与交互成本评估较完整，代码、模型及视频分割数据公开。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
         "venue_status": "published",
         "track": null,
-        "publication_evidence_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+        "publication_evidence_url": "https://openreview.net/pdf?id=Ha6RTeWMd0",
         "checked_at": "2026-10-10",
         "profile": {
           "abbreviation": "ICLR",
@@ -8164,6 +8198,7 @@
     },
     {
       "id": "rma",
+      "checked_at": "2026-10-10",
       "short_name": "RMA",
       "title": "RMA: Rapid Motor Adaptation for Legged Robots",
       "year": 2021,
@@ -8454,7 +8489,8 @@
         },
         "mechanism": "训练利用特权环境信息的基础策略，部署用状态动作历史估计环境编码，在线适配腿足控制。",
         "reason": "特权信息到历史估计的接口影响大；适合追环境变化与适应延迟。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -8497,6 +8533,7 @@
     },
     {
       "id": "dinov2",
+      "checked_at": "2026-10-10",
       "short_name": "DINOv2",
       "title": "DINOv2: Learning Robust Visual Features without Supervision",
       "year": 2024,
@@ -9030,13 +9067,14 @@
         },
         "mechanism": "在大规模筛选图像上扩展图像级与 patch 级自监督学习，再把大 ViT 教师蒸馏为不同尺寸的编码器。下游可以冻结 backbone，用轻量预测头读取分类、分割或深度相关信息。原文比较多种图像与像素任务；OpenVLA 的视觉输入实际将 DINOv2 特征与 SigLIP 特征拼接后映射给语言模型。",
         "reason": "广泛冻结特征评估、数据与规模设计及开放权重形成很强复用价值；与机器人策略的连接由 OpenVLA 原文确认。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "TMLR",
         "venue_status": "published",
         "track": null,
-        "publication_evidence_url": "https://openreview.net/forum?id=a68SUt6zFt",
+        "publication_evidence_url": "https://hal.science/hal-04376640v2/file/CVPR_2023_dinov2%2520%25284%2529.pdf",
         "checked_at": "2026-10-10",
         "profile": {
           "abbreviation": "TMLR",
@@ -9073,6 +9111,7 @@
     },
     {
       "id": "perceptive-loco",
+      "checked_at": "2026-10-10",
       "short_name": "Perceptive Locomotion",
       "title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
       "year": 2022,
@@ -9340,7 +9379,8 @@
         },
         "mechanism": "让地形感知与本体反馈共同支持腿足策略，在复杂户外地形中考察感知失效和控制鲁棒性。",
         "reason": "真实环境证据与感知鲁棒性突出；硬件复现成本较高。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Science-Robotics",
@@ -9396,6 +9436,7 @@
     },
     {
       "id": "umi",
+      "checked_at": "2026-10-10",
       "short_name": "UMI",
       "title": "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots",
       "year": 2024,
@@ -9758,7 +9799,8 @@
         },
         "mechanism": "手持夹爪上的相机与位姿追踪记录人类示范，政策学习使用相对末端轨迹而非绑定某机器人底座的绝对坐标。部署时匹配观测与动作延迟，双臂任务再加入夹爪之间的相对位置，以保证示范和执行接口一致。抛掷、杯子摆放、衣物折叠与洗碗实验分别检验这些设计。",
         "reason": "RSS 正式版与项目包含延迟匹配、相对动作、双夹爪信息的消融和跨硬件实机任务，开放硬件与软件教程，兼具创新和传播价值。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -9801,6 +9843,7 @@
     },
     {
       "id": "cql",
+      "checked_at": "2026-10-10",
       "short_name": "CQL",
       "title": "Conservative Q-Learning for Offline Reinforcement Learning",
       "year": 2020,
@@ -10139,7 +10182,8 @@
         },
         "mechanism": "CQL 在 Bellman 误差外增加正则：压低策略或广泛采样动作的 Q 值，相对抬高数据动作的 Q 值。得到的保守值函数用于策略改进，从而减少数据外动作被过高估计的风险。原文同时给出值下界分析、离散与连续控制实验及复杂数据分布比较。",
         "reason": "理论与跨域实验支持核心机制，多个后续正式论文作为基线或直接扩展，复用与路线价值充分。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -10182,6 +10226,7 @@
     },
     {
       "id": "deepmimic",
+      "checked_at": "2026-10-10",
       "short_name": "DeepMimic",
       "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
       "year": 2018,
@@ -10629,7 +10674,8 @@
         },
         "mechanism": "任务奖励与参考动作跟踪奖励共同训练物理角色策略，使动作技能能在动态扰动后恢复。",
         "reason": "示范驱动物理控制的基础路线；公开实现利于机制实验。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "SIGGRAPH-TOG",
@@ -10695,6 +10741,7 @@
     },
     {
       "id": "decision-transformer",
+      "checked_at": "2026-10-10",
       "short_name": "Decision Transformer",
       "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
       "year": 2021,
@@ -11082,7 +11129,8 @@
         },
         "mechanism": "把未来目标回报、状态和动作按时间交错成序列，因果 Transformer 用过去上下文预测当前动作。训练直接拟合数据动作；执行后减去已经获得的奖励，再把更新后的目标回报与新状态送回模型。实验用 Atari、Gym 与长时序任务检验这个条件生成式策略。",
         "reason": "方法提出清晰的新决策表述，正式论文跨离散与连续域，后续 Trajectory Transformer 对其优缺点作直接比较。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -11125,6 +11173,7 @@
     },
     {
       "id": "droid",
+      "checked_at": "2026-10-10",
       "short_name": "DROID",
       "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
       "year": 2024,
@@ -11779,7 +11828,8 @@
         },
         "mechanism": "不同机构使用一致的机械臂、相机与遥操作平台，把设备移到大量真实场景收集示范，保存同步视觉、动作、语言及相机标定。训练时混入这些跨场景经验，再测试任务性能、鲁棒性与泛化。可迁移的核心不只是轨迹数量，而是场景、相机与交互位置覆盖。",
         "reason": "RSS 论文与项目给出跨环境数据分布、策略训练证据、开放数据/硬件及校准更新，具备实质可复用基础设施；数据贡献与算法创新分开评价。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -11822,6 +11872,7 @@
     },
     {
       "id": "i-jepa",
+      "checked_at": "2026-10-10",
       "short_name": "I-JEPA",
       "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
       "year": 2023,
@@ -12266,7 +12317,8 @@
         },
         "mechanism": "上下文编码器读取图像可见块，预测器根据目标位置预测多个缺失区域的表征，目标编码器生成需要拟合的监督向量。目标块足够大、上下文空间分布足够丰富，让任务偏向语义结构而非局部纹理补全。原文比较分类、目标计数、深度预测和掩码策略，后续时序 JEPA 再扩展预测对象。",
         "reason": "监督目标与掩码选择有可辨认机制，跨任务和设计消融扎实，官方代码公开；适合讲清具身世界模型里预测什么这一分歧。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CVPR",
@@ -12309,6 +12361,7 @@
     },
     {
       "id": "edm",
+      "checked_at": "2026-10-10",
       "short_name": "EDM",
       "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
       "year": 2022,
@@ -12735,7 +12788,8 @@
         },
         "mechanism": "把扩散过程的噪声参数化、采样求解器和网络预处理分别定义，减少不同实现之间的隐性差异。网络输入、输出和训练损失按噪声尺度预调节，推理使用更合适的时间离散与高阶求解。原文同时重用旧模型更换采样器、重训网络，比较质量与网络调用次数。",
         "reason": "模块化贡献配有重用旧网络和重新训练的对照，速度质量证据扎实，官方实现让设计取舍可操作。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -12778,6 +12832,7 @@
     },
     {
       "id": "libero",
+      "checked_at": "2026-10-10",
       "short_name": "LIBERO",
       "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
       "year": 2023,
@@ -13370,7 +13425,8 @@
         },
         "mechanism": "程序化构造物体、空间、目标和长任务不同组合，把迁移对象拆成概念知识与执行知识；模型按任务顺序学习，在新任务上只能有限访问旧数据。评测分别检查前向迁移、遗忘、任务顺序和预训练作用。原文比较顺序微调、回放和保留参数等办法，发现某些防遗忘方法会压制新任务学习。",
         "reason": "NeurIPS 正式 PDF 给出四套任务、人类示范、架构/终身算法/顺序/预训练研究，复用广且评测设计有清楚科学问题；不能只把它理解成榜单分母。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -13413,6 +13469,7 @@
     },
     {
       "id": "video-diffusion",
+      "checked_at": "2026-10-10",
       "short_name": "Video Diffusion",
       "title": "Video Diffusion Models",
       "year": 2022,
@@ -13695,7 +13752,8 @@
         },
         "mechanism": "把图像扩散 U-Net 扩成空间与时间分解的网络，空间卷积处理每帧内容，时间注意力在对应位置之间传信息。图像与视频联合训练共享视觉能力，再以条件采样扩展时间和空间范围。原文在视频预测、无条件视频与文本条件视频任务比较生成质量和时序一致性。",
         "reason": "时空结构和联合训练的设计明确，跨生成任务有原始对照；作者演示公开，复用分低于完整开放训练权重的基础项目。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -13738,6 +13796,7 @@
     },
     {
       "id": "flow-matching",
+      "checked_at": "2026-10-10",
       "short_name": "Flow Matching",
       "title": "Flow Matching for Generative Modeling",
       "year": 2023,
@@ -14093,7 +14152,8 @@
         },
         "mechanism": "给噪声与数据之间指定一个条件概率路径，直接回归该路径的目标速度场，训练时不用数值模拟完整 ODE。条件流匹配的目标在梯度层面对应难直接计算的边缘流目标；生成时才用求解器沿学习的速度场从噪声走向数据。原文比较扩散型路径与最优传输型插值，在 ImageNet 检查样本质量、似然和速度。",
         "reason": "目标等价关系与路径选择构成明确创新，图像对照和通用实现完善；连续动作流匹配教程需要先把这套对象定义清楚。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -14136,6 +14196,7 @@
     },
     {
       "id": "pi0",
+      "checked_at": "2026-10-10",
       "short_name": "π₀",
       "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
       "year": 2025,
@@ -14597,7 +14658,8 @@
         },
         "mechanism": "视觉语言骨干提供语义条件，Flow Matching 动作专家生成连续动作块，再按闭环观测更新。",
         "reason": "通用VLA与连续动作块的重要接口；适合逐项拆多本体数据和任务协议。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -14640,6 +14702,7 @@
     },
     {
       "id": "amp",
+      "checked_at": "2026-10-10",
       "short_name": "AMP",
       "title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
       "year": 2021,
@@ -15079,7 +15142,8 @@
         },
         "mechanism": "判别器区分参考与策略动作转移，把模仿先验变成奖励，减少逐帧跟踪的限制。",
         "reason": "动作先验与任务奖励的解耦影响后续控制，原作任务仍是物理角色。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "SIGGRAPH-TOG",
@@ -15145,6 +15209,7 @@
     },
     {
       "id": "agile-flight",
+      "checked_at": "2026-10-10",
       "short_name": "Agile Flight",
       "title": "Learning high-speed flight in the wild",
       "year": 2021,
@@ -15464,7 +15529,8 @@
         },
         "mechanism": "利用仿真专家监督视觉导航策略，再转移到高速野外飞行，连接感知、轨迹规划与实际反应。",
         "reason": "真实高速闭环有阅读价值；任务是飞行，与操作基准分别比较。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Science-Robotics",
@@ -15520,6 +15586,7 @@
     },
     {
       "id": "anymal-parkour",
+      "checked_at": "2026-10-10",
       "short_name": "ANYmal Parkour",
       "title": "ANYmal parkour: Learning agile navigation for quadrupedal robots",
       "year": 2024,
@@ -15777,7 +15844,8 @@
         },
         "mechanism": "先训练跳、爬、蹲和行走等低层策略，高层导航策略依据感知重建的环境选择技能和目标。感知模块从遮挡、噪声输入重建障碍，使高层决策了解各技能可完成的动作范围。原文在连续障碍的实机导航中验证模拟训练链路。",
         "reason": "正式 Science Robotics，具备层次模块、噪声感知、连续实机障碍和对照，科学问题与读图素材都适合精讲。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Science-Robotics",
@@ -15833,6 +15901,7 @@
     },
     {
       "id": "asap",
+      "checked_at": "2026-10-10",
       "short_name": "ASAP",
       "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
       "year": 2025,
@@ -16299,7 +16368,8 @@
         },
         "mechanism": "先在模拟里训练人类动作跟踪策略，再在实机执行并记录轨迹。用真实轨迹训练 delta action 模型，找出能让模拟运动贴近真实运动的动作修正，把它接回模拟器后微调跟踪策略。原文比较跨模拟器和 Unitree G1 实机迁移，并对照系统辨识、域随机化与动力学残差。",
         "reason": "正式 RSS、两阶段数据链路明确，跨模拟器和实机与多种差距补偿基线比较；追读时能细讲残差学习而非只看动作视频。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -16342,6 +16412,7 @@
     },
     {
       "id": "saycan",
+      "checked_at": "2026-10-10",
       "short_name": "SayCan",
       "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
       "year": 2022,
@@ -16698,7 +16769,8 @@
         },
         "mechanism": "高层指令与已执行步骤送给语言模型，为每个候选技能估计它对任务的适用性；技能价值函数再估计当前场景下的执行成功可能。两者合并后选择技能、实际执行并把步骤加入上下文，直到选出结束。原文分开报告计划与执行，因而能看清语言推理和物理技能各自卡在哪里。",
         "reason": "PMLR 正式论文与项目页给出真实厨房任务、语言模型替换、可供性约束实例及开源桌面版；创新是接口与组合机制，低层技能仍是独立预训练模块。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -16741,6 +16813,7 @@
     },
     {
       "id": "bipedal-soccer",
+      "checked_at": "2026-10-10",
       "short_name": "Bipedal Soccer",
       "title": "Learning agile soccer skills for a bipedal robot with deep reinforcement learning",
       "year": 2024,
@@ -16998,7 +17071,8 @@
         },
         "mechanism": "先学习起身和足球等技能，再训练能在比赛状态下组合动作的策略；底层动作为二十维关节位置目标。MPO 更新策略和值函数，系统辨识、针对性的动力学随机化和扰动帮助模拟策略迁移到真实机器人。论文用一对一足球与脚本控制器对比行走、转向、起身和踢球表现。",
         "reason": "正式 Science Robotics，真实硬件与脚本基线、多技能指标和训练设计实验，比单段炫技视频有更完整证据。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Science-Robotics",
@@ -17054,6 +17128,7 @@
     },
     {
       "id": "octo",
+      "checked_at": "2026-10-10",
       "short_name": "Octo",
       "title": "Octo: An Open-Source Generalist Robot Policy",
       "year": 2024,
@@ -17503,7 +17578,8 @@
         },
         "mechanism": "各类任务、图像和本体感觉先由模态 tokenizer 转成 token，Transformer 主干处理后由读取头和扩散解码器产生动作块。更换机器人时，输入或输出适配器可改变，而主干保留预训练知识并微调。项目在不同平台上区分零样本运行与小数据微调，还单独检验新力传感输入和关节控制空间。",
         "reason": "RSS 论文与项目给出九个平台的评估、结构和数据消融、完整开放训练及微调资源；方法创新主要在可扩展接口和组合设计，证据与复用价值突出。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -17546,6 +17622,7 @@
     },
     {
       "id": "dreamer",
+      "checked_at": "2026-10-10",
       "short_name": "Dreamer",
       "title": "Dream to Control: Learning Behaviors by Latent Imagination",
       "year": 2020,
@@ -17900,7 +17977,8 @@
         },
         "mechanism": "学习潜动力学世界模型，在想象轨迹里以价值反馈优化actor，把像素预测转成决策训练信号。",
         "reason": "潜空间想象连接模型与策略的基础工作；代码和后续路线利于复用。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -17943,6 +18021,7 @@
     },
     {
       "id": "ddim",
+      "checked_at": "2026-10-10",
       "short_name": "DDIM",
       "title": "Denoising Diffusion Implicit Models",
       "year": 2021,
@@ -18288,7 +18367,8 @@
         },
         "mechanism": "构造共享相同加噪边缘分布的非马尔可夫过程，使训练仍然使用 DDPM 的噪声预测目标。推理则选择子时间序列和相应更新规则，确定性情形可以少步从噪声映射到数据。原文比较不同步数的生成速度、质量、插值和重建，揭示采样器改动无需等同于重新训练模型。",
         "reason": "采样与训练的解耦具有明确算法价值，速度质量曲线和重建实验具体，公开实现很适合具身推理教程。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -18331,6 +18411,7 @@
     },
     {
       "id": "robomimic",
+      "checked_at": "2026-10-10",
       "short_name": "robomimic",
       "title": "What Matters in Learning from Offline Human Demonstrations for Robot Manipulation",
       "year": 2021,
@@ -18749,7 +18830,8 @@
         },
         "mechanism": "同一组操作任务上更换算法、单人或多人示范、低维或图像观测，并控制训练和评估流程，观察各因素独立造成的差异。带历史的行为克隆能处理人类动作的时序相关性；离线 RL 在机器生成数据上的表现不能直接搬到人类数据。它还检验验证损失与执行成功率不一致时，选模型会发生什么。",
         "reason": "正式 PDF 给出六类算法、仿真/真实多阶段任务、多随机种子及示范质量研究，开源数据与统一实现支撑公平对照；系统证据价值高于单个新网络模块。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -18792,6 +18874,7 @@
     },
     {
       "id": "iql",
+      "checked_at": "2026-10-10",
       "short_name": "IQL",
       "title": "Offline Reinforcement Learning with Implicit Q-Learning",
       "year": 2022,
@@ -19141,7 +19224,8 @@
         },
         "mechanism": "IQL 在数据动作的 Q 值上做非对称 expectile 回归，拟合偏向较好动作的状态值 V。Q 用奖励加下一状态 V 做 Bellman 更新，策略再按优势加权回归数据中的动作。这个过程把值学习与策略提取拆开，实验用 D4RL 与在线微调检查拼接和改善能力。",
         "reason": "算法简洁、公开实现，多域离线基准及微调实验；后续正式论文把它作为比较对象与 Q 引导组件，复用证据明确。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -19184,6 +19268,7 @@
     },
     {
       "id": "phc",
+      "checked_at": "2026-10-10",
       "short_name": "PHC",
       "title": "Perpetual Humanoid Control for Real-time Simulated Avatars",
       "year": 2023,
@@ -19540,7 +19625,8 @@
         },
         "mechanism": "目标条件的物理控制器接收参考姿态或关键点，输出仿真动作以保持平衡并跟踪。渐进乘性策略按难动作扩展容量，保留已有跟踪技能，再加入失败状态恢复，避免新增任务覆盖旧技能。实验对比大规模动作跟踪、噪声姿态与跌倒恢复。",
         "reason": "正式 ICCV，多数据集、无外部稳定力条件与恢复消融明确；后续人形全身控制继续引用和使用其评测脉络。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICCV",
@@ -19583,6 +19669,7 @@
     },
     {
       "id": "rectified-flow",
+      "checked_at": "2026-10-10",
       "short_name": "Rectified Flow",
       "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
       "year": 2023,
@@ -19928,7 +20015,8 @@
         },
         "mechanism": "从两个分布采样端点，用连接端点的线性插值训练速度场，让网络按当前位置估计路径速度。再用已有流生成配对数据重新训练，逐步减少轨迹弯曲，使粗时间步的数值积分更准确。原文给出传输代价性质，并在图像生成和域迁移中比较一步与多步效果。",
         "reason": "线性路径、传输性质与反复拉直的机制可单独解释，官方代码公开；适合比较连续动作生成里少步求解的理论和代价。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -19971,6 +20059,7 @@
     },
     {
       "id": "consistency-models",
+      "checked_at": "2026-10-10",
       "short_name": "Consistency Models",
       "title": "Consistency Models",
       "year": 2023,
@@ -20417,7 +20506,8 @@
         },
         "mechanism": "学习一个映射，使概率流 ODE 同一轨迹上的不同噪声点都输出同一个干净样本。蒸馏版由教师扩散模型和求解器产生相邻轨迹点，训练版则直接通过相邻噪声尺度的一致性约束学习。原文在标准图像数据集比较一步、少步生成和编辑，机器人策略将同类映射用于压缩动作采样延迟。",
         "reason": "一条轨迹的自一致性定义清楚，蒸馏与独立训练都有对照，官方实现公开；与 Consistency Policy 的知识链紧密。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -20460,6 +20550,7 @@
     },
     {
       "id": "vima",
+      "checked_at": "2026-10-10",
       "short_name": "VIMA",
       "title": "VIMA: Robot Manipulation with Multimodal Prompts",
       "year": 2023,
@@ -21060,7 +21151,8 @@
         },
         "mechanism": "对象图像 token 与文字交错构成任务提示，再经 T5 编码；因果 Transformer 通过交叉注意力读取提示，并结合交互历史自回归输出动作。程序化生成任务按不同泛化难度拆开测试，避免只看训练分布平均成功率。原文对对象 tokenizer、提示接入方式、模型规模和数据量分别消融。",
         "reason": "ICML 正式版与项目给出四级泛化协议、数据/规模研究和对象 token 消融，公开基准便于后续方法比较；实机证据弱于 RT-1，证据评分体现这一点。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -21103,6 +21195,7 @@
     },
     {
       "id": "exbody",
+      "checked_at": "2026-10-10",
       "short_name": "ExBody",
       "title": "Expressive Whole-Body Control for Humanoid Robots",
       "year": 2024,
@@ -21453,7 +21546,8 @@
         },
         "mechanism": "从人类动作库筛选并重定向姿态，训练时要求机器人上半身跟随关节和关键点目标。下半身放松逐关节模仿约束，改为跟随根速度和姿态命令，以留出平衡和行走空间。原文对照完整身体跟踪、分开策略与初始化方式，实机展示行走和表达动作。",
         "reason": "正式 RSS，核心约束改动与完整跟踪基线直接比较，sim-to-real 与实机动作支持其科学问题。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -21496,6 +21590,7 @@
     },
     {
       "id": "dp3",
+      "checked_at": "2026-10-10",
       "short_name": "DP3",
       "title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
       "year": 2024,
@@ -22105,7 +22200,8 @@
         },
         "mechanism": "以简洁点云编码器提供三维条件，用扩散生成动作，观察几何表示对泛化的影响。",
         "reason": "三维条件表示与动作生成分工容易拆；任务、点云处理与泛化协议需一起读。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -22148,6 +22244,7 @@
     },
     {
       "id": "palm-e",
+      "checked_at": "2026-10-10",
       "short_name": "PaLM-E",
       "title": "PaLM-E: An Embodied Multimodal Language Model",
       "year": 2023,
@@ -22505,7 +22602,8 @@
         },
         "mechanism": "视觉和连续状态由编码器变成与语言 token 等维的向量，和文本交错组成多模态句子，再交给 decoder-only 语言模型生成文字。训练同时覆盖机器人任务、视觉问答和图文任务，以检验知识是否产生正迁移。机器人演示中，文字计划交给底层策略执行，后续视觉反馈再进入模型。",
         "reason": "ICML 原文与项目页包含多种输入模态、多个具身平台、跨任务联合训练及规模研究；完整大模型未提供可直接复现实验的开放训练资源，因此复用分低于 Octo。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -22548,6 +22646,7 @@
     },
     {
       "id": "diffusion-forcing",
+      "checked_at": "2026-10-10",
       "short_name": "Diffusion Forcing",
       "title": "Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion",
       "year": 2024,
@@ -22943,7 +23042,8 @@
         },
         "mechanism": "让序列各位置带不同噪声等级，把下一步预测与整段扩散连接，支持因果生成和引导。",
         "reason": "噪声安排与时序条件具有方法创新；机器人用途需看具体规划实验。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -22986,6 +23086,7 @@
     },
     {
       "id": "isaac-gym",
+      "checked_at": "2026-10-10",
       "short_name": "Isaac Gym",
       "title": "Isaac Gym: High Performance GPU Based Physics Simulation For Robot Learning",
       "year": 2021,
@@ -23272,7 +23373,8 @@
         },
         "mechanism": "GPU PhysX 缓冲包装为 PyTorch tensor；观测、奖励、动作、并行 rollout 与 PPO 保持 GPU，省去 CPU↔GPU 往返。",
         "reason": "八类环境和资源/训练时间有证据，公开流程复用价值极高；不同旧系统资源配置按各自条件讲。",
-        "review_depth": "原文方法与实验选题初读；非全文精读"
+        "review_depth": "原文方法与实验选题初读；非全文精读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS-Datasets-Benchmarks",
@@ -23321,6 +23423,7 @@
     },
     {
       "id": "ase",
+      "checked_at": "2026-10-10",
       "short_name": "ASE",
       "title": "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters",
       "year": 2022,
@@ -23728,7 +23831,8 @@
         },
         "mechanism": "将潜技能条件与对抗动作先验联合训练，再让高层策略选择可复用的技能嵌入。",
         "reason": "可复用技能接口值得与机器人动作latent比较；初读分清训练奖励和高层控制。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "SIGGRAPH-TOG",
@@ -23794,6 +23898,7 @@
     },
     {
       "id": "self-forcing",
+      "checked_at": "2026-10-10",
       "short_name": "Self Forcing",
       "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
       "year": 2025,
@@ -24321,7 +24426,8 @@
         },
         "mechanism": "使用模型自己的历史滚动来训练自回归视频生成，减少教师历史与部署历史的分布差异。",
         "reason": "训练部署差异的处理明确；属于视频生成基础，与机器人性能分别记录。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -24364,6 +24470,7 @@
     },
     {
       "id": "diffuser",
+      "checked_at": "2026-10-10",
       "short_name": "Diffuser",
       "title": "Planning with Diffusion for Flexible Behavior Synthesis",
       "year": 2022,
@@ -24731,7 +24838,8 @@
         },
         "mechanism": "Diffuser 学习整段状态—动作轨迹的去噪过程，反复修正所有规划时刻，而不是单步滚动一个动力学模型。奖励梯度可以引导去噪，固定起点或终点则像图像补全那样锁住轨迹部分。论文在长时序与灵活测试条件下比较规划效果，并区分扩散步和环境时间步。",
         "reason": "提出可组合的生成式规划框架，有长时序控制及条件变化实验，正式 ICML 论文和官方项目可复核。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -24774,6 +24882,7 @@
     },
     {
       "id": "fast",
+      "checked_at": "2026-10-10",
       "short_name": "FAST",
       "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
       "year": 2025,
@@ -25273,7 +25382,8 @@
         },
         "mechanism": "时间 DCT 提取动作频率系数，再量化和字节对编码，减少高频轨迹逐时刻离散产生的长序列。",
         "reason": "压缩动作的表示选择清楚，跨策略应用与效率值得读；是Holo-M的直接前置。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -25316,6 +25426,7 @@
     },
     {
       "id": "rvt2",
+      "checked_at": "2026-10-10",
       "short_name": "RVT-2",
       "title": "RVT-2: Learning Precise Manipulation from Few Demonstrations",
       "year": 2024,
@@ -25651,7 +25762,8 @@
         },
         "mechanism": "第一阶段在全场景虚拟视图中估计目标，第二阶段放大局部区域后预测更精确的位置；旋转预测改用目标位置附近特征，避免同场景多个物体方向冲突。凸上采样、较少视图和高效点云渲染控制计算成本。原文分别做这些部件的消融，并用插头和不同孔径 peg 的实机任务检验精度。",
         "reason": "RSS PDF 提供粗到细结构、位置条件旋转和系统优化消融，以及十示范量级的实机精密任务；属于高质量迭代而非全新范式，因此创新分适度。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -25694,6 +25806,7 @@
     },
     {
       "id": "vq-bet",
+      "checked_at": "2026-10-10",
       "short_name": "VQ-BeT",
       "title": "Behavior Generation with Latent Actions",
       "year": 2024,
@@ -26229,7 +26342,8 @@
         },
         "mechanism": "第一阶段用残差向量量化编码器把连续动作或动作块压成分层码，解码器还原动作；第二阶段 Transformer 根据观测与可选目标预测这些离散码和修正量。一次前向生成替代扩散多步去噪，同时保留行为分布的多种模式。原文比较条件/无条件任务、仿真和真实长程操作，以及推理时延。",
         "reason": "ICML 正式稿与项目提供与 BeT、Diffusion Policy 的多任务和速度对照，真实长程任务与开放实现支撑复用；部分任务没有优势，评分以整体机制和证据覆盖为准。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -26272,6 +26386,7 @@
     },
     {
       "id": "rtx",
+      "checked_at": "2026-10-10",
       "short_name": "Open X-Embodiment",
       "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
       "year": 2024,
@@ -26713,7 +26828,8 @@
         },
         "mechanism": "先把各实验室的轨迹变成统一数据格式，并以夹爪参考系中的位置、姿态和夹爪开合统一动作接口；未使用的动作分量按数据约定处理。RT-1-X 和 RT-2-X 在这个混合数据上训练，再与各机器人自己的专用数据策略比较。它检验的不是同一机器人多收点数据，而是别的机器人经验能否改善当前机器人。",
         "reason": "IEEE 正式入口确认 ICRA，官方奖项页确认获奖，原项目给出多平台正迁移及 RT-2-X 新技能测试；标准化数据和开放代码具有直接复用价值。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICRA",
@@ -26756,6 +26872,7 @@
     },
     {
       "id": "td3-bc",
+      "checked_at": "2026-10-10",
       "short_name": "TD3+BC",
       "title": "A Minimalist Approach to Offline Reinforcement Learning",
       "year": 2021,
@@ -27027,7 +27144,8 @@
         },
         "mechanism": "TD3+BC 保留 TD3 的双 Q 与 actor-critic 框架，在策略目标里同时提高 Q 值并拉近策略动作和数据动作。状态标准化稳定输入尺度，Q 值归一化的系数平衡价值追求与行为克隆。原文在 D4RL 连续控制中重跑部分基线，并报告性能与计算成本。",
         "reason": "贡献集中且容易实现；固定数据基准、基线重跑和性能/成本比较支持其基线价值，后续离线到在线研究明确复用。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -27070,6 +27188,7 @@
     },
     {
       "id": "transporter",
+      "checked_at": "2026-10-10",
       "short_name": "Transporter",
       "title": "Transporter Networks: Rearranging the Visual World for Robotic Manipulation",
       "year": 2020,
@@ -27420,7 +27539,8 @@
         },
         "mechanism": "网络先在 RGB-D 视觉空间中预测拾取区域，取出局部深层特征，再将它与整幅场景特征互相关来确定放置位置和旋转。动作输出与输入空间对应，平移和旋转结构被模型直接利用，不先构建对象姿态或分割。原文覆盖刚体、绳索和堆物推动，比较样本效率，并扩展到六自由度拾放和真实机器人。",
         "reason": "CoRL 正式版给出多种操作任务和真实验证，作者开放 Ravens、数据、模型及代码；CLIPort 原文和项目明确继承这一机制，可追溯的路线影响足以支持年限例外。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -27463,6 +27583,7 @@
     },
     {
       "id": "td-mpc2",
+      "checked_at": "2026-10-10",
       "short_name": "TD-MPC2",
       "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
       "year": 2024,
@@ -27953,7 +28074,8 @@
         },
         "mechanism": "共享潜世界模型、价值和规划结构跨多任务学习，处理不同奖励尺度与动作空间。",
         "reason": "大范围连续控制与复用实现有优势；重要的是任务配置和计算预算。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -27996,6 +28118,7 @@
     },
     {
       "id": "extreme-parkour",
+      "checked_at": "2026-10-10",
       "short_name": "Extreme Parkour",
       "title": "Extreme Parkour with Legged Robots",
       "year": 2024,
@@ -28346,13 +28469,14 @@
         },
         "mechanism": "先在模拟中用特权地形训练策略，再把运动控制和行进方向一起蒸馏到深度图像学生。统一奖励让不同障碍上的动作自行形成，深度网络给策略提供地形潜变量与目标方向，本体策略输出关节命令。实机验证跨沟、上箱、斜坡等任务，并消融方向蒸馏与净空奖励。",
         "reason": "闭环视觉到关节控制、实机障碍课程和关键组件消融具备扎实证据；正式 ICRA 与公开项目支持追读。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICRA",
         "venue_status": "published",
         "track": null,
-        "publication_evidence_url": "https://ieeexplore.ieee.org/document/10610200",
+        "publication_evidence_url": "https://api.crossref.org/works/10.1109/icra57147.2024.10610200",
         "checked_at": "2026-10-10",
         "profile": {
           "abbreviation": "ICRA",
@@ -28389,6 +28513,7 @@
     },
     {
       "id": "mimicgen",
+      "checked_at": "2026-10-10",
       "short_name": "MimicGen",
       "title": "MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations",
       "year": 2023,
@@ -28826,7 +28951,8 @@
         },
         "mechanism": "源示范按对象中心子任务切段；新场景中选择源段，按对象的新位姿变换末端轨迹，再拼接并实际执行。执行成功才把状态和动作加入生成数据，而不是只复制一组数学坐标。原文逐步扩大初始状态分布、替换物体与机械臂，并比较生成示范和追加同量人类示范的策略表现。",
         "reason": "CoRL PDF 明确动作和对象假设，提供跨任务/模拟器/硬件生成、初始分布和示范质量研究；项目公开生成代码、数据和环境，复用价值很高。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -28869,6 +28995,7 @@
     },
     {
       "id": "walk-in-the-park",
+      "checked_at": "2026-10-10",
       "short_name": "Walk in the Park",
       "title": "Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning",
       "year": 2023,
@@ -29195,7 +29322,8 @@
         },
         "mechanism": "基于 SAC/DroQ 的 actor-critic 从实机回放数据学习，用较高更新比、Dropout 和归一化稳定值函数。策略直接输出关节目标，本体传感器提供状态和奖励，异步采样训练与仔细的动作空间设计减少等待。论文在室内外多种地面验证从头学走路，并在模拟中分析设计选择。",
         "reason": "RSS 正式论文，有真实在线学习、多地面实验和算法/系统设计分析；可与世界模型实机路线作有条件的技术比较。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -29238,6 +29366,7 @@
     },
     {
       "id": "openvla",
+      "checked_at": "2026-10-10",
       "short_name": "OpenVLA",
       "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
       "year": 2024,
@@ -29789,7 +29918,8 @@
         },
         "mechanism": "把预训练视觉语言骨干适配到机器人示范，输出离散动作编号，并提供高效微调路线。",
         "reason": "公开模型/适配生态便于复用；是离散VLA入门的重要对照。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -29832,6 +29962,7 @@
     },
     {
       "id": "vip",
+      "checked_at": "2026-10-10",
       "short_name": "VIP",
       "title": "VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training",
       "year": 2023,
@@ -30188,13 +30319,14 @@
         },
         "mechanism": "把无动作视频看成目标条件价值学习，再从离线 RL 的对偶目标导出仅需要画面序列的预训练损失。价值隐式地由当前图像与目标图像的嵌入距离表达，因而距离变化能提供稠密视觉奖励。原文检验轨迹优化、在线 RL 与少量真实轨迹的离线 RL，强调表征和奖励同时影响控制。",
         "reason": "ICLR 官方页面确认主会，原项目与作者稿提供推导、平滑奖励、控制方法和真实任务对照；代码及 TorchRL 接入给出复用路径。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
         "venue_status": "published",
         "track": null,
-        "publication_evidence_url": "https://openreview.net/forum?id=YJ7o2wetJ2",
+        "publication_evidence_url": "https://iclr.cc/virtual/2023/poster/11127",
         "checked_at": "2026-10-10",
         "profile": {
           "abbreviation": "ICLR",
@@ -30231,6 +30363,7 @@
     },
     {
       "id": "maskedmimic",
+      "checked_at": "2026-10-10",
       "short_name": "MaskedMimic",
       "title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting",
       "year": 2024,
@@ -30605,13 +30738,14 @@
         },
         "mechanism": "第一阶段用 RL 训练看到完整参考动作与场景的跟踪控制器，得到物理可执行动作。第二阶段随机遮蔽目标，把完全约束教师蒸馏成接受部分关键帧、物体与文字条件的学生，补出其余动作。验证覆盖多种约束、场景交互和任务切换，研究对象是模拟角色。",
         "reason": "TOG/SIGGRAPH Asia 正式论文，统一目标表示与多控制入口实验完整，公开资源为人形控制的动作先验研究提供复用基础。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "SIGGRAPH-TOG",
         "venue_status": "published",
         "track": null,
-        "publication_evidence_url": "https://dl.acm.org/doi/10.1145/3687951",
+        "publication_evidence_url": "https://api.crossref.org/works/10.1145/3687951",
         "checked_at": "2026-10-10",
         "profile": {
           "abbreviation": "SIGGRAPH / TOG",
@@ -30671,6 +30805,7 @@
     },
     {
       "id": "cliport",
+      "checked_at": "2026-10-10",
       "short_name": "CLIPort",
       "title": "CLIPort: What and Where Pathways for Robotic Manipulation",
       "year": 2021,
@@ -31037,7 +31172,8 @@
         },
         "mechanism": "语义支路用 CLIP 提取 RGB 与指令概念，空间支路从 RGB-D 学习保持位置结构的特征；两路信息进入 Transporter 的拾取与放置预测。拾取位置先决定裁出哪块特征，再用互相关找到合适的放置区域。原文在多任务仿真和真实桌面上检验新物体、语义概念与少量示范。",
         "reason": "PMLR 正式版与作者项目提供双流结构、语义泛化以及真实多任务评估，公开代码支持复用；主题冲突具体且容易讲清。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -31080,6 +31216,7 @@
     },
     {
       "id": "rt2",
+      "checked_at": "2026-10-10",
       "short_name": "RT-2",
       "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
       "year": 2023,
@@ -31350,7 +31487,8 @@
         },
         "mechanism": "把机器人动作写成语言模型词表内的编号，将机器人示范与视觉语言任务共同训练以迁移网络语义。",
         "reason": "把网络知识接入动作的早期路线；跨任务结果有启发，实施门槛较高。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -31393,6 +31531,7 @@
     },
     {
       "id": "mobile-aloha",
+      "checked_at": "2026-10-10",
       "short_name": "Mobile ALOHA",
       "title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation using Low-Cost Whole-Body Teleoperation",
       "year": 2024,
@@ -31892,7 +32031,8 @@
         },
         "mechanism": "把双臂关节位置与底盘线/角速度拼成统一动作，遥操作同时记录手臂与底盘；行为克隆直接预测整套动作。训练混入已有静态 ALOHA 示范，检验不同任务、臂安装位置和场景之间的正迁移。原文把自治策略执行与人类遥操作采集分开，比较联合训练和只用移动数据的任务表现。",
         "reason": "CoRL 正式稿与首版方法给出真实长程移动任务和联合训练对照，开放软硬件便于复用；视觉演示具有传播价值，评分仍以自治任务评估而非视频震撼程度为依据。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -31935,6 +32075,7 @@
     },
     {
       "id": "vc1",
+      "checked_at": "2026-10-10",
       "short_name": "VC-1",
       "title": "Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?",
       "year": 2023,
@@ -32394,7 +32535,8 @@
         },
         "mechanism": "先把导航、移动操作、灵巧操作和运动控制纳入 CortexBench，统一比较不同预训练视觉模型。固定 MAE 目标后变化视频来源、数据规模和 ViT 容量，再检验同一编码器能否处处占优。VC-1 的平均提升和任务适配提升分别报告，暴露视觉预训练的任务差异。",
         "reason": "NeurIPS 正式版明确是系统评估而非新算法，跨领域任务、数据/容量研究、硬件实验和公开模型构成强证据；榜单应奖励研究设计而非包装新模块。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -32437,6 +32579,7 @@
     },
     {
       "id": "r3m",
+      "checked_at": "2026-10-10",
       "short_name": "R3M",
       "title": "R3M: A Universal Visual Representation for Robot Manipulation",
       "year": 2022,
@@ -32785,7 +32928,8 @@
         },
         "mechanism": "在人类视频上联合时间对比、视频语言对齐和稀疏约束，让编码器同时记住场景变化与任务语义。下游冻结编码器，把图像向量交给机器人策略，只用少量机器人示范学习动作。原文比较从零训练、CLIP、MoCo 等视觉初始化，并在真实公寓中测试操作。",
         "reason": "CoRL 正式版提供三种目标、多个仿真任务和真实少示范对照，公开预训练模型；后续 VC-1 系统研究把 R3M 列为核心对照。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -32828,6 +32972,7 @@
     },
     {
       "id": "trajectory-transformer",
+      "checked_at": "2026-10-10",
       "short_name": "Trajectory Transformer",
       "title": "Offline Reinforcement Learning as One Big Sequence Modeling Problem",
       "year": 2021,
@@ -33178,7 +33323,8 @@
         },
         "mechanism": "把状态和动作各维离散化，与奖励串成 token，Transformer 联合学习整段轨迹的概率。规划时用 beam search 保留高回报候选轨迹，执行第一步后重新搜索；稀疏长时序任务还可以接 IQL 的 Q 值做搜索启发。原文同时检查长预测误差、模仿、目标到达与离线 RL。",
         "reason": "完整模型/规划链路与多个控制设定，直接比较 DT、CQL 和 IQL；后续 Diffuser 改变生成方式但延续整轨迹规划问题。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -33221,6 +33367,7 @@
     },
     {
       "id": "sonic",
+      "checked_at": "2026-10-10",
       "short_name": "SONIC",
       "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
       "year": 2026,
@@ -33702,7 +33849,8 @@
         },
         "mechanism": "机器人/人体/稀疏混合命令分别编码到 FSQ 共享运动 token；同一控制解码器结合10步本体历史输出29关节目标，由PD执行。PPO与运动重建、token对齐和cycle损失联合训练；上游实时运动规划或VLA预测64维token与14维手关节。",
         "reason": "创新是可扩动作跟踪与统一控制接口的完整系统，而非参数大本身。原文三轴消融、跨数据测试、124段实机跟踪和动作空间消融较强；数据未匹配的baseline比较、10–20次任务试验和极端动作/长期安全问题限制证据分。已开训练、模型、C++/TensorRT部署与BONES-SEED子集，但21k GPU小时重训门槛仍高。",
-        "review_depth": "原文机制与实验初读"
+        "review_depth": "原文机制与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Science-Robotics",
@@ -33758,6 +33906,7 @@
     },
     {
       "id": "peract",
+      "checked_at": "2026-10-10",
       "short_name": "PerAct",
       "title": "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation",
       "year": 2022,
@@ -34086,7 +34235,8 @@
         },
         "mechanism": "RGB-D 重建为三维体素网格，体素 patch 与语言向量组成序列；Perceiver 用少量 latent 承接长输入。输出逐体素特征后检测下一关键动作的位置，并预测离散旋转、夹爪及碰撞选项，交由运动规划器执行。网格把观测位置和动作位置对齐，原文再比较图像回归、3D 卷积与多任务少示范性能。",
         "reason": "PMLR 正式 PDF 与项目给出完整体素/动作接口、RLBench 和真实平台对照，并有单 GPU 教程；计算成本也形成后续 RVT 的明确研究问题。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -34129,6 +34279,7 @@
     },
     {
       "id": "robocasa",
+      "checked_at": "2026-10-10",
       "short_name": "RoboCasa",
       "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
       "year": 2024,
@@ -34611,7 +34762,8 @@
         },
         "mechanism": "在厨房仿真中同时扩展可交互家具、物体、布局与视觉纹理，再把基础技能组合成长任务。人类示范与自动轨迹生成共同提供训练数据，模型在不同数据规模和任务条件下学习。原文的重点是模拟多样性和合成数据是否形成可测的性能增长，并探索向真实任务迁移。",
         "reason": "RSS PDF 提供场景/资产/任务/数据四支柱、规模实验与真实迁移线索，平台公开且持续维护；主干证据为仿真，真实迁移仍需逐项精读。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -34654,6 +34806,7 @@
     },
     {
       "id": "walk-in-minutes",
+      "checked_at": "2026-10-10",
       "short_name": "Legged Gym",
       "title": "Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning",
       "year": 2021,
@@ -35006,7 +35159,8 @@
         },
         "mechanism": "物理仿真和 PPO 训练都留在 GPU 上，用大量并行环境快速组成更新批次。地形课程根据机器人前进表现升降难度，任务课程逐步扩大命令范围。原文分析大并行下训练组件并把 ANYmal 策略转到实机，公开 legged_gym。",
         "reason": "有训练设置分析、课程与 sim-to-real 实验；公开代码是复用入口，后续 Extreme Parkour 原文直接比较该工作。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -35049,6 +35203,7 @@
     },
     {
       "id": "bridge-v2",
+      "checked_at": "2026-10-10",
       "short_name": "BridgeData V2",
       "title": "BridgeData V2: A Dataset for Robot Learning at Scale",
       "year": 2023,
@@ -35512,7 +35667,8 @@
         },
         "mechanism": "统一低成本机械臂平台收集语言标注轨迹，同时主动变化物体、相机、场景和工作台位置。策略可按目标图或自然语言训练，测试再拆开已见任务的视觉变化与新物体、新环境泛化。不同离线学习方法、数据规模和模型容量在同一数据上比较，让数据多样性的作用有可检查的落点。",
         "reason": "CoRL 正式版与项目提供多环境数据、多个离线算法及数据/容量研究，开放数据、预训练模型和硬件指南复用价值很高；贡献主要在可泛化数据基础设施。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -35555,6 +35711,7 @@
     },
     {
       "id": "td-mpc",
+      "checked_at": "2026-10-10",
       "short_name": "TD-MPC",
       "title": "Temporal Difference Learning for Model Predictive Control",
       "year": 2022,
@@ -35825,7 +35982,8 @@
         },
         "mechanism": "学习用于奖励和值预测的潜动力学，结合短期模型预测控制与终端价值选择连续动作。",
         "reason": "规划而不重建像素的任务相关表示值得对照Dreamer。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -35868,6 +36026,7 @@
     },
     {
       "id": "phenaki",
+      "checked_at": "2026-10-10",
       "short_name": "Phenaki",
       "title": "Phenaki: Variable Length Video Generation From Open Domain Textual Descriptions",
       "year": 2023,
@@ -36162,13 +36321,14 @@
         },
         "mechanism": "C-ViViT 用因果时间注意力把可变长度视频压成离散 token，兼顾空间与时间压缩。文本特征条件化双向掩码 Transformer，逐轮补齐视频 token 后再解码；继续生成时复用已有上下文。原文检查视频压缩、时序质量和图文/视频联合训练，并展示随文本故事变化的长视频。",
         "reason": "可变时长编码与离散生成链路具体，对照能回答 token 预算和时序一致性；公开代码/权重覆盖不如完全开源项目，复用分相应较低。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
         "venue_status": "published",
         "track": null,
-        "publication_evidence_url": "https://openreview.net/forum?id=vOEXS39nOF",
+        "publication_evidence_url": "https://openreview.net/pdf?id=vOEXS39nOF",
         "checked_at": "2026-10-10",
         "profile": {
           "abbreviation": "ICLR",
@@ -36205,6 +36365,7 @@
     },
     {
       "id": "efficientzero",
+      "checked_at": "2026-10-10",
       "short_name": "EfficientZero",
       "title": "Mastering Atari Games with Limited Data",
       "year": 2021,
@@ -36554,7 +36715,8 @@
         },
         "mechanism": "编码器把图像变成潜状态，动力学网络预测下一潜状态，MCTS 在这个模型里比较动作。EfficientZero 用预测潜状态与真实下一帧编码的一致性补强动力学监督，预测累计价值前缀，并重分析旧数据来缓解离策略目标偏差。它测试的是有限交互预算下的游戏与模拟控制效率。",
         "reason": "有多任务小样本基准、MuZero 对照及组件消融；代码和后续 EfficientZero V2 构成可追踪的复用路线。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -36597,6 +36759,7 @@
     },
     {
       "id": "lingbot-va",
+      "checked_at": "2026-10-10",
       "short_name": "LingBot-VA",
       "title": "Causal World Modeling for Robot Control",
       "year": 2026,
@@ -37184,7 +37347,8 @@
         },
         "mechanism": "因果视频VAE把观测压到48通道latent；Wan2.2-5B视频stream和动作stream经MoT联合处理，chunk间因果、chunk内并行。T5指令条件、真实obs/action写回KV cache、noisy-latent augmentation支持视频部分去噪后解动作；统一双臂30维动作，5.3B总参数。",
         "reason": "联合未来预测与动作推断、持久历史和部分去噪控制有可验证机制。RSS版新增action-only/causal ablation、RoboTwin与LIBERO、6项实机 paired trials，证据增强。历史策略在进度被逆转时会退化、视频推理成本高，部分baseline来自他论文，正式主表和消融数值须按定位区别。开源部署、posttrain与权重支持复用，完全重训算力成本限制复用分。",
-        "review_depth": "RSS正式原文机制与实验初读"
+        "review_depth": "RSS正式原文机制与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -37227,6 +37391,7 @@
     },
     {
       "id": "daydreamer",
+      "checked_at": "2026-10-10",
       "short_name": "DayDreamer",
       "title": "DayDreamer: World Models for Physical Robot Learning",
       "year": 2022,
@@ -37581,7 +37746,8 @@
         },
         "mechanism": "真实机器人持续把轨迹写入经验回放，学习线程更新潜空间世界模型，再用模型想象的轨迹训练策略和值函数。异步 actor 与 learner 把快速执行和较慢训练拆开，避免每次梯度更新卡住机器人控制。原文用四足、两种机械臂和轮式机器人检查同一算法的在线学习能力。",
         "reason": "有多平台实机闭环与明确训练时间、学习曲线和基线；公开基础设施，使世界模型精讲能落到真实采样链路。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -37624,6 +37790,7 @@
     },
     {
       "id": "dreamwaq",
+      "checked_at": "2026-10-10",
       "short_name": "DreamWaQ",
       "title": "DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning",
       "year": 2023,
@@ -38067,7 +38234,8 @@
         },
         "mechanism": "从本体历史估计速度和隐环境表示，将其送给策略；训练时以重建/特权监督组织环境编码。",
         "reason": "盲行走的历史表征与actor连接清楚；越障和地形条件是精读重点。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICRA",
@@ -38110,6 +38278,7 @@
     },
     {
       "id": "unipi",
+      "checked_at": "2026-10-10",
       "short_name": "UniPi",
       "title": "Learning Universal Policies via Text-Guided Video Generation",
       "year": 2023,
@@ -38408,7 +38577,8 @@
         },
         "mechanism": "当前图像和文字任务条件送入视频扩散模型，生成未来画面序列作为计划；逆动力学模型再从相邻或计划帧回归环境专用动作。计划能先生成稀疏关键帧再细化，也可在采样时施加额外约束。原文在组合泛化、多任务与层级规划上评估，并探索互联网视频知识迁移。",
         "reason": "NeurIPS PDF 定义统一预测决策过程、视频到动作接口和分层采样，并分别评估组合与跨任务能力；控制与可见视频计划要分层看，实机证据评分较谨慎。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -38451,6 +38621,7 @@
     },
     {
       "id": "cal-ql",
+      "checked_at": "2026-10-10",
       "short_name": "Cal-QL",
       "title": "Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning",
       "year": 2023,
@@ -38769,7 +38940,8 @@
         },
         "mechanism": "Cal-QL 保留 CQL 的保守价值学习，同时把学习策略的价值锚定在一个可估计参考策略的价值之上。这样在线新数据进入时，低估的旧 Q 不至于诱导策略先丢掉离线技能。原文分别分析初期遗忘、价值尺度变化，并在导航、操作和图像输入微调任务上比较。",
         "reason": "先诊断再设计算法，含多个离线到在线域、理论条件、基线和校准消融，适合作为机器人预训练后的 RL 入门。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -38812,6 +38984,7 @@
     },
     {
       "id": "dreamerv2",
+      "checked_at": "2026-10-10",
       "short_name": "DreamerV2",
       "title": "Mastering Atari with Discrete World Models",
       "year": 2021,
@@ -39302,7 +39475,8 @@
         },
         "mechanism": "将世界模型潜状态换成离散表示，利用想象轨迹训练策略，重点检查Atari学习表现。",
         "reason": "离散表征和优化设计有清楚前后对照；任务范围保留Atari。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -39345,6 +39519,7 @@
     },
     {
       "id": "vjepa2",
+      "checked_at": "2026-10-10",
       "short_name": "V-JEPA 2",
       "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
       "year": 2025,
@@ -40241,7 +40416,8 @@
         },
         "mechanism": "masked video encoder/EMA目标先学表征；冻结编码器后训300M block-causal 动作 predictor，自回归预测未来 latent；MPC 最小化目标图 latent L1。",
         "reason": "22M视频预训练与62小时DROID交互分工清楚；两实验室Franka与摄像机/步长敏感性有证据。",
-        "review_depth": "原文方法与实验选题初读；非全文精读"
+        "review_depth": "原文方法与实验选题初读；非全文精读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -40255,6 +40431,7 @@
     },
     {
       "id": "deep-whole-body-control",
+      "checked_at": "2026-10-10",
       "short_name": "Deep WBC",
       "title": "Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion",
       "year": 2022,
@@ -40579,7 +40756,8 @@
         },
         "mechanism": "同一个网络接收底盘、腿、手臂状态和任务命令，输出六维手臂与十二维腿部关节目标，再由 PD 转为力矩。Advantage Mixing 把移动和操作的收益联系起来，Regularized Online Adaptation 对齐历史估计与训练环境信息。实验比较分开的控制器、未协调策略和适应方法，并在四足机械臂上验证。",
         "reason": "有统一与分离策略直接对照、关键训练机制消融和完整实机系统，能具体说明全身控制为什么需要协同。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -40622,6 +40800,7 @@
     },
     {
       "id": "cot-vla",
+      "checked_at": "2026-10-10",
       "short_name": "CoT-VLA",
       "title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
       "year": 2025,
@@ -40922,7 +41101,8 @@
         },
         "mechanism": "先预测具有任务意图的未来视觉子目标，再以它为条件生成动作，把视觉推理接入控制。",
         "reason": "未来图像作为中间目标的机制值得看；初读应追图像预测与动作性能的消融。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CVPR",
@@ -40965,6 +41145,7 @@
     },
     {
       "id": "lewm",
+      "checked_at": "2026-10-10",
       "short_name": "LeWM",
       "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
       "year": 2026,
@@ -42833,7 +43014,8 @@
         },
         "mechanism": "ViT将每帧变成192维CLS表征；动作AdaLN条件的Transformer预测下个latent。MSE预测+SIGReg随机投影高斯正则共同训练，无EMA/stop-gradient/重建。部署用latent目标距离和CEM选动作，再MPC重规划。",
         "reason": "把原本依赖冻结基础视觉模型或多项正则的像素JEPA简化成清晰防坍缩目标；4个仿真环境、速度/固定预算、latent物理probe和消融充分。实机与长程控制覆盖仍窄，证据分不按基础模型规模或作者名抬高；开源资源完整。",
-        "review_depth": "选题初读（方法、实验、相关附录）"
+        "review_depth": "选题初读（方法、实验、相关附录）",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -42847,6 +43029,7 @@
     },
     {
       "id": "walk-these-ways",
+      "checked_at": "2026-10-10",
       "short_name": "Walk These Ways",
       "title": "Walk These Ways: Tuning Robot Control for Generalization with Multiplicity of Behavior",
       "year": 2022,
@@ -43253,7 +43436,8 @@
         },
         "mechanism": "一个策略同时接收三维速度命令和八维行为参数，后者控制足端相位、频率、身体姿态与抬脚等走法。历史本体观测与这些命令共同输入网络，输出十二个关节的位置目标。测试时人可以调整行为参数，在不重训情况下为新任务挑选合适步态。",
         "reason": "可调参数定义清楚，有实机多行为、能耗和分布外任务比较，公开控制器使读者能够继续实验。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -43296,6 +43480,7 @@
     },
     {
       "id": "consistency-policy",
+      "checked_at": "2026-10-10",
       "short_name": "Consistency Policy",
       "title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
       "year": 2024,
@@ -43533,7 +43718,8 @@
         },
         "mechanism": "将多步扩散动作策略蒸馏为较少步的一致性策略，以减少推理步骤保留动作分布。",
         "reason": "速度/成功率取舍明确；作为控制时钟的对照非常合适。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "RSS",
@@ -43576,6 +43762,7 @@
     },
     {
       "id": "gr00t-n1",
+      "checked_at": "2026-10-10",
       "short_name": "GR00T N1",
       "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
       "year": 2025,
@@ -44387,7 +44574,8 @@
         },
         "mechanism": "Eagle-2视觉语言middle-layer tokens→DiT交叉注意力；embodiment-specific MLP编码state与noisy action、解码H=16连续动作块，flow-matching训练、K=4步采样。人类latent-action、real robot、DexMimicGen模拟和生成视频IDM/LAPA伪动作组成数据金字塔。",
         "reason": "多本体、异源动作监督和公开系统是贡献，dual-system+flow action结构不是首创。24/9/24项仿真协议、GR-1实机与数据规模/神经轨迹消融可核；主任务短程tabletop，不代表全身loco-manipulation泛化，合成轨迹物理真实性与posttrain遗忘有代价。正式刊会未核，按原论文观察。",
-        "review_depth": "原文机制与实验初读"
+        "review_depth": "原文机制与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -44401,6 +44589,7 @@
     },
     {
       "id": "learned-dynamics-review",
+      "checked_at": "2026-10-10",
       "short_name": "Dynamics Review",
       "title": "A review of learning-based dynamics models for robotic manipulation",
       "year": 2025,
@@ -44661,7 +44850,8 @@
         },
         "mechanism": "以 POMDP/控制目标为入口，按像素、latent、粒子、关键点、物体中心表示比较动力学；再讨论感知和控制接口。",
         "reason": "统一比较表达能力、样本效率、泛化和感知代价；不将引用的实验当成本综述自有实验。",
-        "review_depth": "原文方法与实验选题初读；非全文精读"
+        "review_depth": "原文方法与实验选题初读；非全文精读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "Science-Robotics",
@@ -44717,6 +44907,7 @@
     },
     {
       "id": "ctrl-world",
+      "checked_at": "2026-10-10",
       "short_name": "Ctrl-World",
       "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
       "year": 2026,
@@ -45261,7 +45452,8 @@
         },
         "mechanism": "1.5B SVD初始化，多相机token联合生成；稀疏历史图像带机器人姿态通过逐帧cross-attention检索；未来动作转换笛卡尔姿态后逐帧条件化。策略在模型里闭环rollout，人工筛成功轨迹再微调VLA。",
         "reason": "不是只展示漂亮视频：三模块消融、256条十秒片段、三种公开策略七类任务和真实回训建立了闭环价值。模型对碰撞、滑动、旋转和重试仍有偏差，人工成功筛选的成本须计入；复用有官方实现支撑。",
-        "review_depth": "选题初读（方法、实验与局限）"
+        "review_depth": "选题初读（方法、实验与局限）",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -45304,6 +45496,7 @@
     },
     {
       "id": "pi05",
+      "checked_at": "2026-10-10",
       "short_name": "π₀.₅",
       "title": "π₀.₅: a Vision-Language-Action Model with Open-World Generalization",
       "year": 2025,
@@ -45791,7 +45984,8 @@
         },
         "mechanism": "连接跨本体、跨环境操作数据与高层任务语义，训练面对新家庭环境的分层动作策略。",
         "reason": "开放环境泛化问题直接，阅读时要拆语义任务与低层动作各自的监督。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -45834,6 +46028,7 @@
     },
     {
       "id": "dreamzero",
+      "checked_at": "2026-10-10",
       "short_name": "DreamZero",
       "title": "World Action Models are Zero-shot Policies",
       "year": 2026,
@@ -46896,7 +47091,8 @@
         },
         "mechanism": "联合建模未来视频与动作，将大规模视觉动态先验用于未见任务的闭环策略。",
         "reason": "WAM零样本任务分歧清楚；初读仍要按数据、未见任务划分和控制时钟拆证据。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -46910,6 +47106,7 @@
     },
     {
       "id": "humanplus",
+      "checked_at": "2026-10-10",
       "short_name": "HumanPlus",
       "title": "HumanPlus: Humanoid Shadowing and Imitation from Humans",
       "year": 2024,
@@ -47244,7 +47441,8 @@
         },
         "mechanism": "用人类运动重定向数据在模拟里训练姿态条件的低层控制，再用单 RGB 相机估计操作者姿态，让实机实时跟随。跟随过程中记录机器人双目视觉和全身动作，随后用 Humanoid Imitation Transformer 做监督模仿，得到自主任务策略。原文分别评估遥操作、抗扰和多项自主任务。",
         "reason": "正式 CoRL，有真实人形、遥操作对照和任务成功率；同时覆盖全身控制与数据采集，适合正式公众号的系统解读。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -47287,6 +47485,7 @@
     },
     {
       "id": "hover",
+      "checked_at": "2026-10-10",
       "short_name": "HOVER",
       "title": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots",
       "year": 2025,
@@ -47651,7 +47850,8 @@
         },
         "mechanism": "先训练全身 motion oracle；上/下身模式与稀疏 mask 改写任务命令，本体观测 mask 改写状态；DAgger 用 oracle 动作监督学生访问状态，得到一个统一低层策略。",
         "reason": "19-DOF 人形和15种以上命令模式有 specialist 对照；预设模式覆盖与自动高层任务规划分开。",
-        "review_depth": "原文方法与实验选题初读；非全文精读"
+        "review_depth": "原文方法与实验选题初读；非全文精读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICRA",
@@ -47694,6 +47894,7 @@
     },
     {
       "id": "rvt",
+      "checked_at": "2026-10-10",
       "short_name": "RVT",
       "title": "RVT: Robotic View Transformer for 3D Object Manipulation",
       "year": 2023,
@@ -48033,7 +48234,8 @@
         },
         "mechanism": "RGB-D 先变成点云，再从机器人工作区周围的虚拟相机重渲染多张视图；Transformer 在视图内及视图间聚合信息。多视图动作热图反投影得到夹爪位置，其他头预测姿态与夹爪状态。原文把成功率、训练达到相同性能所需时间和推理速度分别与 PerAct 对比，并展示真实少示范操作。",
         "reason": "PMLR 正式页给出 RLBench 与实机证据、PerAct 速度及成功率对照，代码和模型开放；新增表示的作用可通过直接对照讲清。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -48076,6 +48278,7 @@
     },
     {
       "id": "videovla",
+      "checked_at": "2026-10-10",
       "short_name": "VideoVLA",
       "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
       "year": 2025,
@@ -48613,7 +48816,8 @@
         },
         "mechanism": "以视频生成器的时空动态先验联合预测未来画面与机器人动作，考察未见操作泛化。",
         "reason": "未来视觉与动作的对应关系值得拆；按正式NeurIPS原作范围阅读。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "NeurIPS",
@@ -48656,6 +48860,7 @@
     },
     {
       "id": "cosmos-policy",
+      "checked_at": "2026-10-10",
       "short_name": "Cosmos Policy",
       "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
       "year": 2026,
@@ -49157,7 +49362,8 @@
         },
         "mechanism": "微调视频基础模型，把动作、未来视觉状态和规划信号放进共同生成过程。",
         "reason": "视频先验到控制的接口值得看；精读需追训练条件和规划/策略消融。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICLR",
@@ -49199,7 +49405,320 @@
       "rank": 103
     },
     {
+      "id": "supermimic",
+      "checked_at": "2026-10-27",
+      "short_name": "SuperMimic",
+      "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+      "year": 2026,
+      "navigation": {
+        "track": "motion-priors",
+        "track_label": "动作先验与全身技能",
+        "track_path": "paper-map/README.md#track-motion-priors",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/supermimic.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/supermimic.md",
+        "card_path": "leaderboard/papers/supermimic/README.md"
+      },
+      "origin": {
+        "label": "Qiayuan Liao · 伯克利混合机器人实验室",
+        "author_label": "Qiayuan Liao",
+        "institution_label": "伯克利混合机器人实验室",
+        "search": "Qiayuan Liao Qiayuan Liao Yiyang Shao Junfeng Long Kevin Zakka Roberto Horowitz Pieter Abbeel Koushil Sreenath UC Berkeley 加州大学伯克利分校 伯克利混合机器人实验室 加州大学伯克利分校 University of California, Berkeley 伯克利 加州大学伯克利分校 UC Berkeley University of California, Berkeley Hybrid Robotics, UC Berkeley Hybrid Robotics Koushil Sreenath 伯克利混合机器人",
+        "keys": [
+          "institution-i95457486",
+          "berkeley-hybrid-robotics"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i95457486",
+            "label": "加州大学伯克利分校",
+            "search": "University of California, Berkeley 伯克利 加州大学伯克利分校 UC Berkeley University of California, Berkeley"
+          },
+          {
+            "key": "berkeley-hybrid-robotics",
+            "label": "加州大学伯克利分校混合机器人实验室",
+            "search": "Hybrid Robotics, UC Berkeley Hybrid Robotics Koushil Sreenath 伯克利混合机器人"
+          }
+        ],
+        "path": "leaderboard/origins/papers/supermimic.md"
+      },
+      "scores": {
+        "innovation": 92,
+        "evidence": 87,
+        "reuse": 70,
+        "reading": 96,
+        "venue": 90.0,
+        "influence": 0.0,
+        "attention": 60.4
+      },
+      "score": 78.1,
+      "score_exact": "78.14",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "共享物理动力学加短段解析梯度，直接切中大规模动作跟踪的训练成本，给创新92。主文有PPO-Sim/PPO-WM、数据规模、想象长度与critic等对照，并展示G1实机，给证据87；129,514条评测来自动作训练库、每条一次确定性播放，GPU比较硬件/数据不同，结论限定为训练动作覆盖与报告成本。附录给算法、奖励、观测和超参，官方网页有交互demo，复用70；当前项目页没有指向作者训练代码，第三方实现另列。它连接世界模型、BPTT和全身控制，阅读96。引用与传播另按当日真实快照计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.28480v1"
+          ],
+          "review_depth": "arXiv v1主文与相关附录机制/实验初读，非完整精讲"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "共享物理动力学加短段解析梯度，直接切中大规模动作跟踪的训练成本，给创新92。主文有PPO-Sim/PPO-WM、数据规模、想象长度与critic等对照，并展示G1实机，给证据87；129,514条评测来自动作训练库、每条一次确定性播放，GPU比较硬件/数据不同，结论限定为训练动作覆盖与报告成本。附录给算法、奖励、观测和超参，官方网页有交互demo，复用70；当前项目页没有指向作者训练代码，第三方实现另列。它连接世界模型、BPTT和全身控制，阅读96。引用与传播另按当日真实快照计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.28480v1"
+          ],
+          "review_depth": "arXiv v1主文与相关附录机制/实验初读，非完整精讲"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "共享物理动力学加短段解析梯度，直接切中大规模动作跟踪的训练成本，给创新92。主文有PPO-Sim/PPO-WM、数据规模、想象长度与critic等对照，并展示G1实机，给证据87；129,514条评测来自动作训练库、每条一次确定性播放，GPU比较硬件/数据不同，结论限定为训练动作覆盖与报告成本。附录给算法、奖励、观测和超参，官方网页有交互demo，复用70；当前项目页没有指向作者训练代码，第三方实现另列。它连接世界模型、BPTT和全身控制，阅读96。引用与传播另按当日真实快照计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.28480v1"
+          ],
+          "review_depth": "arXiv v1主文与相关附录机制/实验初读，非完整精讲"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "共享物理动力学加短段解析梯度，直接切中大规模动作跟踪的训练成本，给创新92。主文有PPO-Sim/PPO-WM、数据规模、想象长度与critic等对照，并展示G1实机，给证据87；129,514条评测来自动作训练库、每条一次确定性播放，GPU比较硬件/数据不同，结论限定为训练动作覆盖与报告成本。附录给算法、奖励、观测和超参，官方网页有交互demo，复用70；当前项目页没有指向作者训练代码，第三方实现另列。它连接世界模型、BPTT和全身控制，阅读96。引用与传播另按当日真实快照计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.28480v1"
+          ],
+          "review_depth": "arXiv v1主文与相关附录机制/实验初读，非完整精讲"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": 90.0,
+          "external_review_credit": null,
+          "reason": "v1完整公开且身份、作者、时间可追溯；CoRL 2026官方录用名单含该篇，按CoRL既有90分量表取较高阶段，Oral不加分。；正式刊会按登记量表计分，取较高阶段。",
+          "sources": [
+            "https://arxiv.org/abs/2610.28480",
+            "https://arxiv.org/pdf/2610.28480v1",
+            "https://2026.corl.org/program/accepted-papers",
+            "https://supermimic.github.io/"
+          ]
+        },
+        "influence": {
+          "method": "citation_log",
+          "score": 0.0,
+          "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+          "sources": [
+            "https://api.openalex.org/works/W7223142413"
+          ],
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "citation_log",
+              "score": 0.0,
+              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+              "sources": [
+                "https://api.openalex.org/works/W7223142413"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "platform_attention",
+          "score": 60.4,
+          "reason": "github 的论文专属入口：第三方复现仓库star=259；按10000上限对数压缩。",
+          "sources": [
+            "https://api.github.com/repos/CuboiLeo/SuperMimic-Reproduced",
+            "https://github.com/CuboiLeo/SuperMimic-Reproduced"
+          ],
+          "snapshot": {
+            "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
+            "platform": "github",
+            "metric": "stars",
+            "label": "第三方复现仓库star",
+            "count": 259,
+            "checked_at": "2026-10-27T14:35:45+08:00",
+            "window_kind": "cumulative",
+            "window_start": "2026-10-21",
+            "window_end": "2026-10-27",
+            "window_label": "近期新建入口截至2026-10-27的累计快照",
+            "eligible_academic_impact": false
+          },
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "recent_volume_velocity",
+              "score": 0.0,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-10-27",
+                "first_public_date": "2026-10-20",
+                "date_origin": "first_arxiv_submission",
+                "date_precision": "day",
+                "effective_months": 3,
+                "citations_per_month": 0.0,
+                "volume_score": 0.0,
+                "velocity_score": 0.0,
+                "recent_count_kind": "counts_by_year"
+              },
+              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
+              "sources": [
+                "https://api.openalex.org/works/W7223142413"
+              ]
+            },
+            {
+              "method": "platform_attention",
+              "score": 60.4,
+              "reason": "github 的论文专属入口：第三方复现仓库star=259；按10000上限对数压缩。",
+              "sources": [
+                "https://api.github.com/repos/CuboiLeo/SuperMimic-Reproduced",
+                "https://github.com/CuboiLeo/SuperMimic-Reproduced"
+              ],
+              "snapshot": {
+                "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
+                "platform": "github",
+                "metric": "stars",
+                "label": "第三方复现仓库star",
+                "count": 259,
+                "checked_at": "2026-10-27T14:35:45+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-21",
+                "window_end": "2026-10-27",
+                "window_label": "近期新建入口截至2026-10-27的累计快照",
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "supermimic",
+        "checked_at": "2026-10-27T14:35:45+08:00",
+        "status": "matched",
+        "provider": "OpenAlex",
+        "openalex_id": "https://openalex.org/W7223142413",
+        "record_url": "https://openalex.org/W7223142413",
+        "matched_title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+        "doi": "https://doi.org/10.48550/arxiv.2610.28480",
+        "publication_date": "2026-10-20",
+        "edition": "原研究arXiv v1索引记录；正式会议尚未出版",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.openalex.org/works/W7223142413",
+        "recent_sources": [
+          "https://api.openalex.org/works/W7223142413"
+        ],
+        "recent_citation_count_kind": "counts_by_year",
+        "match_evidence": {
+          "arxiv_match": true,
+          "exact_title": true,
+          "first_author_match": true,
+          "year_match": true
+        },
+        "match_note": "Semantic Scholar精确ARXIV请求429，按既定顺序使用OpenAlex；arXiv DOI、题名、2026及Qiayuan Liao匹配。2006生物学同名SuperMimic被排除。",
+        "source_selection_rule": "exact_arxiv_semantic_scholar_then_verified_openalex"
+      },
+      "social": {
+        "checked_at": "2026-10-27T14:35:45+08:00",
+        "resources": [
+          {
+            "platform": "project",
+            "url": "https://supermimic.github.io/",
+            "scope": "single_paper",
+            "scope_label": "作者官方单篇项目页；交互demo",
+            "identity_verified": true,
+            "sources": [
+              "https://supermimic.github.io/",
+              "https://arxiv.org/pdf/2610.28480v1"
+            ],
+            "metrics": [],
+            "availability_note": "官方页面可读，未见可核阅读计数或作者训练代码入口。"
+          },
+          {
+            "platform": "github",
+            "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
+            "api_url": "https://api.github.com/repos/CuboiLeo/SuperMimic-Reproduced",
+            "resource_kind": "third_party_reproduction",
+            "scope": "single_paper",
+            "scope_label": "第三方单论文复现仓库，非作者官方代码",
+            "identity_verified": true,
+            "identity_basis": "仓库描述与README明确绑定arXiv:2610.28480；计量只作该论文复现入口关注。",
+            "created_at": "2026-10-21T23:36:13Z",
+            "sources": [
+              "https://api.github.com/repos/CuboiLeo/SuperMimic-Reproduced",
+              "https://github.com/CuboiLeo/SuperMimic-Reproduced"
+            ],
+            "metrics": [
+              {
+                "metric": "stars",
+                "label": "第三方复现仓库star",
+                "count": 259,
+                "checked_at": "2026-10-27T14:35:45+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-21",
+                "window_end": "2026-10-27",
+                "window_label": "近期新建入口截至2026-10-27的累计快照",
+                "eligible_academic_impact": false
+              }
+            ]
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "第三方README列有观测口径/动作库/硬件偏离，未据此认证原文结论的同口径复现。作者独立性未充分核实，暂不计独立学术采用或外部评审阶段；star仅进近期关注。"
+      },
+      "editorial": {
+        "checked_at": "2026-10-27",
+        "scores": {
+          "innovation": 92,
+          "evidence": 87,
+          "reuse": 70,
+          "reading": 96
+        },
+        "mechanism": "先让当前策略在 MuJoCo Warp 中收集状态、动作与下一状态，存进回放池；一个共享可微动力学模型用8步自回归窗口拟合这些转移。策略更新时暂时固定模型参数，在模型里展开32步想象轨迹，把跟踪奖励经动作和状态的雅可比反传给策略，末端价值函数补上短视野外的回报。模拟器采样、世界模型拟合与策略改进交替进行，最终将跟踪策略部署到 Unitree G1。世界模型服务训练，不替换实机执行反馈。",
+        "reason": "共享物理动力学加短段解析梯度，直接切中大规模动作跟踪的训练成本，给创新92。主文有PPO-Sim/PPO-WM、数据规模、想象长度与critic等对照，并展示G1实机，给证据87；129,514条评测来自动作训练库、每条一次确定性播放，GPU比较硬件/数据不同，结论限定为训练动作覆盖与报告成本。附录给算法、奖励、观测和超参，官方网页有交互demo，复用70；当前项目页没有指向作者训练代码，第三方实现另列。它连接世界模型、BPTT和全身控制，阅读96。引用与传播另按当日真实快照计。",
+        "review_depth": "arXiv v1主文与相关附录机制/实验初读，非完整精讲"
+      },
+      "venue_record": {
+        "venue": "CoRL",
+        "venue_status": "accepted",
+        "track": null,
+        "publication_evidence_url": "https://2026.corl.org/program/accepted-papers",
+        "checked_at": "2026-10-27",
+        "profile": {
+          "abbreviation": "CoRL",
+          "name": "Conference on Robot Learning",
+          "kind": "conference",
+          "scope": "机器人学习，连接机器学习方法、机器人数据、策略与真实系统。",
+          "review": "主会研究论文同行评审；官方作者指南列出贡献、证据、复现与评审要求。",
+          "community": {
+            "score": 90,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人学习的专门会议，对策略、数据与泛化路线有直接参考价值。90是编辑判断，未冒充CCF等级。"
+          },
+          "distinction": "CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版年份可能晚一年。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://www.corl.org/contributions/instruction-for-authors",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://www.corl.org/contributions/instruction-for-authors",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      },
+      "rank": 104
+    },
+    {
       "id": "omnih2o",
+      "checked_at": "2026-10-10",
       "short_name": "OmniH2O",
       "title": "OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning",
       "year": 2024,
@@ -49509,7 +50028,8 @@
         },
         "mechanism": "把不同遥操作方式转换成运动学姿态目标，再交给跟踪控制器。特权教师在模拟中学大规模动作，学生用本体历史与稀疏目标通过 DAgger 模仿教师，输出可部署的动作；手部另接姿态到关节控制。原文验证模拟和实机跟踪、不同控制入口及采集示范后的自主技能。",
         "reason": "有大规模跟踪、实机指标与 DAgger/历史/目标点消融，统一接口和公开数据支持后续复用。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "CoRL",
@@ -49548,10 +50068,11 @@
           ]
         }
       },
-      "rank": 104
+      "rank": 105
     },
     {
       "id": "egoscale",
+      "checked_at": "2026-10-10",
       "short_name": "EgoScale",
       "title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
       "year": 2026,
@@ -50137,7 +50658,8 @@
         },
         "mechanism": "从第一视角human videos提取相对SE(3)腕部轨迹与重定向22DoF手关节，pretrain flow-based VLA；少量paired human/robot play midtraining对齐视觉和motor接口，再任务posttrain。统一腕部action、embodiment-specific hand/state adapters迁移至G1 7DoF手，下肢独立Homie。",
         "reason": "动作级human supervision、规模规律与aligned transfer组合有价值。五项实机、1k–20k小时五档规模、表示/两阶段消融和跨手型证据较丰富，但有限seed/trials、专有大数据与未全面开源、one-shot附加human supervision限制证据和复用分；R²是五个规模点内fit，不预测全域能力。",
-        "review_depth": "原文机制与实验初读"
+        "review_depth": "原文机制与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -50147,10 +50669,11 @@
         "checked_at": "2026-10-10",
         "profile": null
       },
-      "rank": 105
+      "rank": 106
     },
     {
       "id": "efficientzero-v2",
+      "checked_at": "2026-10-10",
       "short_name": "EfficientZero V2",
       "title": "EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data",
       "year": 2024,
@@ -50507,7 +51030,8 @@
         },
         "mechanism": "表示函数得到潜状态，动力学函数接收动作并预测潜状态与奖励，策略和值网络为搜索提供先验。连续动作下先采样候选动作，再用基于 Gumbel 的树搜索改善策略，并用搜索产生价值目标以利用旧经验。实验按有限交互预算比较离散和连续、图像和低维输入任务。",
         "reason": "正式 ICML Spotlight，原文跨三类基准并比较 DreamerV3；连续树搜索与价值估计分别有消融，初读评分保留为编辑判断。",
-        "review_depth": "原文摘要/方法与实验初读"
+        "review_depth": "原文摘要/方法与实验初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": "ICML",
@@ -50546,10 +51070,11 @@
           ]
         }
       },
-      "rank": 106
+      "rank": 107
     },
     {
       "id": "modar",
+      "checked_at": "2026-10-10",
       "short_name": "ModAR",
       "title": "Modality-Autoregressive World-Action Models",
       "year": 2026,
@@ -51340,7 +51865,8 @@
         },
         "mechanism": "共享DiT把当前DINO/深度/RGB和配置/任务条件融合，按点轨迹→DINO→深度→RGB块自回归去噪，动作最后生成；上下文加噪避免前一模态误差层层放大。实机去掉收益最小的未来RGB。",
         "reason": "新意在模态顺序和可控比较，独立IDM、匹配40采样步、模态/顺序/上下文噪声消融支撑机制。实机3任务90rollouts每模型，总体外推有限；仅比较一个反序，按best checkpoint在同批held-out条件报数，不能当跨域无偏评估。代码可复用情况未完整核，reuse不按想象给高分。",
-        "review_depth": "选题初读（方法、实验与消融）"
+        "review_depth": "选题初读（方法、实验与消融）",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -51350,10 +51876,11 @@
         "checked_at": "2026-10-10",
         "profile": null
       },
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "dreamtrue",
+      "checked_at": "2026-10-10",
       "short_name": "DreamTrue",
       "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
       "year": 2026,
@@ -51905,7 +52432,8 @@
         },
         "mechanism": "将动作轨迹渲染进图像条件并校准，改变轨迹生成反事实未来，再用人标视频缺陷训练奖励模型指导后训练。",
         "reason": "动作忠实性与失败覆盖形成清楚分歧；初读优先看校准、反事实和奖励各自的对照。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -51915,10 +52443,11 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "viola",
+      "checked_at": "2026-10-10",
       "short_name": "VIOLA",
       "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
       "year": 2026,
@@ -52272,7 +52801,8 @@
         },
         "mechanism": "VLA 预测身体与手部运动 latent，预训练控制器负责执行；运动编码器把人类示范映射到同一空间，扩大可监督动作池。",
         "reason": "跨数据监督和动作空间转换直接对上 Holo-M；初读关注零样本协议、控制器预训练与总数据规模。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -52282,10 +52812,11 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 109
+      "rank": 110
     },
     {
       "id": "lewam",
+      "checked_at": "2026-10-10",
       "short_name": "LeWAM",
       "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
       "year": 2026,
@@ -52560,7 +53091,8 @@
         },
         "mechanism": "在不重建图像的 JEPA 表征上联合学前向、后向、逆动力学和策略；MPC 在策略噪声空间采样，降低规划钻动力学模型空子的机会。",
         "reason": "潜世界动作模型与噪声空间规划贴合本仓路线；有同编码器/规模对照线索，优先追规划消融。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -52570,10 +53102,11 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 110
+      "rank": 111
     },
     {
       "id": "holo-m",
+      "checked_at": "2026-10-10",
       "short_name": "Holo-M",
       "title": "Humanoid Loco-Manipulation With Discrete VLA Model",
       "year": 2026,
@@ -52903,7 +53436,8 @@
         },
         "mechanism": "DCT低频系数与四级残差码固定组长；缺失组监督连接人类/机器人数据，分组恢复接上重叠控制。",
         "reason": "固定组长、跨来源有效损失与并行恢复的组合清楚；SIMPLE总分、难格子、消融和两项实机均已逐项读过；实现复用仍需后续跟进。",
-        "review_depth": "全文精读"
+        "review_depth": "全文精读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -52913,10 +53447,11 @@
         "checked_at": "2026-10-09",
         "profile": null
       },
-      "rank": 111
+      "rank": 112
     },
     {
       "id": "dex-one2many",
+      "checked_at": "2026-10-10",
       "short_name": "Dex-One2Many",
       "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
       "year": 2026,
@@ -53264,7 +53799,8 @@
         },
         "mechanism": "把单视频压成顺序场景关系图，以图约束重置状态、阶段奖励，指导 RL 搜索更广的抓取与物体配置。",
         "reason": "单视频灵巧操作；摘要给出五项任务、对照与实机转移；优先检查重置采样和奖励消融。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -53274,10 +53810,11 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 112
+      "rank": 113
     },
     {
       "id": "arc",
+      "checked_at": "2026-10-10",
       "short_name": "ARC",
       "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
       "year": 2026,
@@ -53631,7 +54168,8 @@
         },
         "mechanism": "给现有示范自动添“下一动作为什么合适、会造成什么”的推理轨迹，再按 VLA/WAM 架构适配推理与动作输出。",
         "reason": "推理与控制的明确接口；初读关注自动标注质量、不同基础策略的匹配训练和零样本条件。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -53641,10 +54179,11 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 113
+      "rank": 114
     },
     {
       "id": "balanced-data-diet",
+      "checked_at": "2026-10-10",
       "short_name": "Balanced Data Diet",
       "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
       "year": 2026,
@@ -53980,7 +54519,8 @@
         },
         "mechanism": "Success Guided Sampling 根据当前成功率把重置分布推向能力边缘，减少超简单或暂时学不会的采样，再蒸馏视觉操作策略转实机。",
         "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -53990,10 +54530,11 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 114
+      "rank": 115
     },
     {
       "id": "plaw-vla",
+      "checked_at": "2026-10-10",
       "short_name": "PLaW-VLA",
       "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
       "year": 2026,
@@ -54497,7 +55038,8 @@
         },
         "mechanism": "预测面向任务的未来潜表示，再用结构化因果注意力让动作生成读取历史、任务和未来状态，减少无关像素重建。",
         "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
-        "review_depth": "选题初读"
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
       },
       "venue_record": {
         "venue": null,
@@ -54507,7 +55049,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 115
+      "rank": 116
     }
   ]
 }

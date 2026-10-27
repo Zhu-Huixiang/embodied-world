@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10",
+  "checked_at": "2026-10-27",
   "provider": "OpenAlex / Semantic Scholar (per-record)",
   "rule": "每篇一个原研究记录，不相加版本或数据库。正式刊会沿用已核出版身份的OpenAlex；本次14篇预印本按精确arXiv ID优先Semantic Scholar，再用已核OpenAlex，不按较大数挑源。各条留来源、日期、原值和其他快照。未知引文年份不计近期，R可为下界。",
   "papers": [
@@ -4572,6 +4572,34 @@
         }
       ],
       "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
+    },
+    {
+      "paper_id": "supermimic",
+      "checked_at": "2026-10-27T14:35:45+08:00",
+      "status": "matched",
+      "provider": "OpenAlex",
+      "openalex_id": "https://openalex.org/W7223142413",
+      "record_url": "https://openalex.org/W7223142413",
+      "matched_title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+      "doi": "https://doi.org/10.48550/arxiv.2610.28480",
+      "publication_date": "2026-10-20",
+      "edition": "原研究arXiv v1索引记录；正式会议尚未出版",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.openalex.org/works/W7223142413",
+      "recent_sources": [
+        "https://api.openalex.org/works/W7223142413"
+      ],
+      "recent_citation_count_kind": "counts_by_year",
+      "match_evidence": {
+        "arxiv_match": true,
+        "exact_title": true,
+        "first_author_match": true,
+        "year_match": true
+      },
+      "match_note": "Semantic Scholar精确ARXIV请求429，按既定顺序使用OpenAlex；arXiv DOI、题名、2026及Qiayuan Liao匹配。2006生物学同名SuperMimic被排除。",
+      "source_selection_rule": "exact_arxiv_semantic_scholar_then_verified_openalex"
     }
   ]
 }

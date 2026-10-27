@@ -32,9 +32,10 @@
 | [伊利诺伊大学厄巴纳-香槟分校](profiles/organization-79eb2923dfd7.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
 | [伦敦大学学院](profiles/institution-i45129253.md) | 大学 | 3 | 世界模型与模型强化学习、Locomotion 与运动适应、视频与序列生成 |
 | [佐治亚理工学院](profiles/institution-i130701444.md) | 大学 | 2 | 具身感知与场景表示、视频动作模型与视觉推理 |
-| [加州大学伯克利分校](profiles/institution-i95457486.md) | 研究机构 | 27 | 视觉语言动作模型 VLA、操作与动作块、强化学习与离线决策、Locomotion 与运动适应、动作先验与全身技能、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
+| [加州大学伯克利分校](profiles/institution-i95457486.md) | 研究机构 | 28 | 视觉语言动作模型 VLA、操作与动作块、动作先验与全身技能、强化学习与离线决策、Locomotion 与运动适应、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
 | [加州大学伯克利分校人工智能研究实验室（BAIR）](profiles/berkeley-bair.md) | 研究团队 | 1 | Locomotion 与运动适应 |
 | [加州大学伯克利分校机器人与人工智能实验室（RAIL）](profiles/berkeley-rail.md) | 大学实验室 | 5 | 视觉语言动作模型 VLA、操作与动作块 |
+| [加州大学伯克利分校混合机器人实验室](profiles/berkeley-hybrid-robotics.md) | 大学实验室 | 1 | 动作先验与全身技能 |
 | [加州大学圣迭戈分校](profiles/institution-i36258959.md) | 大学 | 7 | 世界模型与模型强化学习、Locomotion 与运动适应、操作与动作块、具身感知与场景表示 |
 | [加州大学戴维斯分校](profiles/organization-14ceb33ea08c.md) | 论文署名机构 | 1 | 操作与动作块 |
 | [加州理工学院](profiles/institution-i122411786.md) | 大学 | 1 | 视觉语言动作模型 VLA |
@@ -125,4 +126,4 @@
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-核验日期：2026-10-10。
+核验日期：2026-10-27。

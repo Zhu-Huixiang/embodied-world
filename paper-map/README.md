@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 115 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 116 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -18,7 +18,7 @@
 - [视觉语言动作模型 VLA](#track-vla) · 15 篇
 - [操作与动作块](#track-manipulation) · 20 篇
 - [Locomotion 与运动适应](#track-locomotion) · 18 篇
-- [动作先验与全身技能](#track-motion-priors) · 5 篇
+- [动作先验与全身技能](#track-motion-priors) · 6 篇
 - [强化学习与离线决策](#track-reinforcement-learning) · 6 篇
 - [具身感知与场景表示](#track-embodied-perception) · 13 篇
 - [视频与序列生成](#track-video-generation) · 4 篇
@@ -169,6 +169,7 @@
 | [ASE](../library/ase.md) · [SIGGRAPH / TOG 2022](../venues/SIGGRAPH-TOG/README.md) | 连续技能潜变量怎样组织可重复使用的动作？ |
 | [MaskedMimic](../library/maskedmimic.md) · [SIGGRAPH / TOG 2024](../venues/SIGGRAPH-TOG/README.md) | 把动作目标遮掉一部分，怎样训练出接受位置、文字和环境条件的统一控制器？ |
 | [Perpetual Humanoid Control for Real-time Simulated Avatars](../library/phc.md) · [ICCV 2023](../venues/ICCV/README.md) | 动作库越来越大，跟踪控制器怎样扩容、处理噪声并在摔倒后接着跑？ |
+| [SuperMimic](../library/supermimic.md) · [CoRL 2026](../venues/CoRL/README.md) | 接触动力学不光滑，为什么8步拟合的世界模型仍能给32步想象策略提供好用梯度？训练动作全覆盖又与新动作泛化差在哪里？ |
 
 <a id="track-reinforcement-learning"></a>
 
@@ -240,4 +241,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-10-10。
+元数据核对日期：2026-10-27。

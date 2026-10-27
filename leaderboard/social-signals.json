@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10",
+  "checked_at": "2026-10-27",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -21374,6 +21374,54 @@
           "status": "not_in_targeted_web_subset"
         }
       }
+    },
+    "supermimic": {
+      "checked_at": "2026-10-27T14:35:45+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "url": "https://supermimic.github.io/",
+          "scope": "single_paper",
+          "scope_label": "作者官方单篇项目页；交互demo",
+          "identity_verified": true,
+          "sources": [
+            "https://supermimic.github.io/",
+            "https://arxiv.org/pdf/2610.28480v1"
+          ],
+          "metrics": [],
+          "availability_note": "官方页面可读，未见可核阅读计数或作者训练代码入口。"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
+          "api_url": "https://api.github.com/repos/CuboiLeo/SuperMimic-Reproduced",
+          "resource_kind": "third_party_reproduction",
+          "scope": "single_paper",
+          "scope_label": "第三方单论文复现仓库，非作者官方代码",
+          "identity_verified": true,
+          "identity_basis": "仓库描述与README明确绑定arXiv:2610.28480；计量只作该论文复现入口关注。",
+          "created_at": "2026-10-21T23:36:13Z",
+          "sources": [
+            "https://api.github.com/repos/CuboiLeo/SuperMimic-Reproduced",
+            "https://github.com/CuboiLeo/SuperMimic-Reproduced"
+          ],
+          "metrics": [
+            {
+              "metric": "stars",
+              "label": "第三方复现仓库star",
+              "count": 259,
+              "checked_at": "2026-10-27T14:35:45+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-21",
+              "window_end": "2026-10-27",
+              "window_label": "近期新建入口截至2026-10-27的累计快照",
+              "eligible_academic_impact": false
+            }
+          ]
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "第三方README列有观测口径/动作库/硬件偏离，未据此认证原文结论的同口径复现。作者独立性未充分核实，暂不计独立学术采用或外部评审阶段；star仅进近期关注。"
     }
   },
   "excluded_candidates": [

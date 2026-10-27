@@ -24,6 +24,6 @@
 - [来源1](https://robotics-transformer-x.github.io/)
 - [来源2](https://arxiv.org/abs/2310.08864)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

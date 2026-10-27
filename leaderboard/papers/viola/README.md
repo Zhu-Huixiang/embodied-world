@@ -1,6 +1,6 @@
 # VioLA: Learning Generalist Humanoid Control Policies from Human Data
 
-**VIOLA** · arXiv 2026 · 本版排名 109 · 综合分 **63.8 / 100**
+**VIOLA** · arXiv 2026 · 本版排名 110 · 综合分 **63.8 / 100**
 
 [解读导读](../../../library/viola.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-viola)
 

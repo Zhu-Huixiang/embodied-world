@@ -22,6 +22,6 @@
 - [来源2](https://api.openalex.org/works/W4414285669)
 - [来源3](https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

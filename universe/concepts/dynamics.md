@@ -24,6 +24,7 @@
 - [Ctrl-World](../papers/ctrl-world.md) · 机制导读 · [原文](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html)
 - [Dynamics Review](../papers/learned-dynamics-review.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.adt1497)
 - [V-JEPA 2](../papers/vjepa2.md) · 机制导读 · [原文](https://arxiv.org/abs/2506.09985)
+- [SuperMimic](../papers/supermimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.28480)
 - [DreamTrue](../papers/dreamtrue.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12468v1)
 - [LeWAM](../papers/lewam.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12407v1)
 

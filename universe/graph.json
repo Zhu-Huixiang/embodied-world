@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-12T16:07:58+08:00",
+  "checked_at": "2026-10-27",
   "nodes": [
     {
       "id": "paper:act",
@@ -1833,6 +1833,29 @@
       "source_url": "https://www.science.org/doi/10.1126/scirobotics.aed4592"
     },
     {
+      "id": "paper:supermimic",
+      "key": "supermimic",
+      "kind": "paper",
+      "title": "SuperMimic",
+      "subtitle": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+      "track": "motion-priors",
+      "track_label": "动作先验与全身技能",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/supermimic.md",
+      "concepts": [
+        "world",
+        "dynamics",
+        "imagination",
+        "actor-critic",
+        "wbc",
+        "sim2real",
+        "retarget"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.28480"
+    },
+    {
       "id": "paper:td-mpc",
       "key": "td-mpc",
       "kind": "paper",
@@ -2916,7 +2939,8 @@
         "humanplus",
         "asap",
         "exbody",
-        "egoscale"
+        "egoscale",
+        "supermimic"
       ],
       "explainers": []
     },
@@ -2941,7 +2965,8 @@
         "deep-whole-body-control",
         "exbody",
         "sonic",
-        "hover"
+        "hover",
+        "supermimic"
       ],
       "explainers": [
         {
@@ -2961,7 +2986,9 @@
       "depth": 0,
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/world.md",
-      "papers": [],
+      "papers": [
+        "supermimic"
+      ],
       "explainers": []
     },
     {
@@ -2990,6 +3017,7 @@
         "ctrl-world",
         "learned-dynamics-review",
         "vjepa2",
+        "supermimic",
         "dreamtrue",
         "lewam"
       ],
@@ -3030,7 +3058,8 @@
         "dreamer",
         "dreamerv2",
         "dreamerv3",
-        "daydreamer"
+        "daydreamer",
+        "supermimic"
       ],
       "explainers": []
     },
@@ -3132,7 +3161,8 @@
         "cal-ql",
         "cql",
         "bipedal-soccer",
-        "walk-in-the-park"
+        "walk-in-the-park",
+        "supermimic"
       ],
       "explainers": []
     },
@@ -3365,7 +3395,8 @@
         "extreme-parkour",
         "anymal-parkour",
         "bipedal-soccer",
-        "asap"
+        "asap",
+        "supermimic"
       ],
       "explainers": []
     },
@@ -10269,6 +10300,276 @@
       "explainers": []
     },
     {
+      "id": "local:supermimic:world",
+      "key": "world",
+      "kind": "local",
+      "paper": "supermimic",
+      "canonical": "world",
+      "title": "世界模型",
+      "subtitle": "学习状态随动作或时间如何变化，用于预测、计划或训练策略。",
+      "detail": "预测对象可以是像素、latent、奖励或与决策相关的潜状态。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/world.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:dynamics",
+      "key": "dynamics",
+      "kind": "local",
+      "paper": "supermimic",
+      "canonical": "dynamics",
+      "title": "动作条件动力学",
+      "subtitle": "以当前状态和动作预测下一状态或分布，建立“做这个动作会发生什么”的计算接口。",
+      "detail": "不能把无动作的视频预测直接当成可干预的动力学。",
+      "parent_node": "local:supermimic:world",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/dynamics.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:imagination",
+      "key": "imagination",
+      "kind": "local",
+      "paper": "supermimic",
+      "canonical": "imagination",
+      "title": "想象轨迹训练",
+      "subtitle": "在学到的动力学里滚动状态，用预测奖励和值训练策略，从而增加决策训练数据。",
+      "detail": "模型误差会影响训练信号，真实反馈仍用于更新世界模型。",
+      "parent_node": "local:supermimic:world",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/imagination.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:actor-critic",
+      "key": "actor-critic",
+      "kind": "local",
+      "paper": "supermimic",
+      "canonical": "actor-critic",
+      "title": "策略与价值学习",
+      "subtitle": "actor 产生动作，critic 估计长期收益；价值估计为策略改进提供方向。",
+      "detail": "在真实或想象轨迹上训练，会面对不同的误差来源。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/actor-critic.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:wbc",
+      "key": "wbc",
+      "kind": "local",
+      "paper": "supermimic",
+      "canonical": "wbc",
+      "title": "全身控制与执行",
+      "subtitle": "将运动目标、机器人状态和约束转成关节目标或力矩，协调腿、手臂与底盘。",
+      "detail": "生成了目标之后，还要沿实际控制接口看反馈。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/wbc.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:sim2real",
+      "key": "sim2real",
+      "kind": "local",
+      "paper": "supermimic",
+      "canonical": "sim2real",
+      "title": "仿真到实机",
+      "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
+      "detail": "实机结果必须按机器人与任务条件解释。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/sim2real.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:retarget",
+      "key": "retarget",
+      "kind": "local",
+      "paper": "supermimic",
+      "canonical": "retarget",
+      "title": "运动重定向",
+      "subtitle": "把人或另一种机器人的运动转换到目标本体的关节、末端与可达范围。",
+      "detail": "相似姿态不自动满足目标机器人的平衡和动力学。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/retarget.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "本篇方法链路",
+      "subtitle": "先让当前策略在 MuJoCo Warp 中收集状态、动作与下一状态，存进回放池；一个共享可微动力学模型用8步自回归窗口拟合这些转移。策略更新时暂时固定模型参数，在模型里展开32步想象轨迹，把跟踪奖励经动作和状态的雅可比反传给策略，末端价值函数补上短视野外的回报。模拟器采样、世界模型拟合与策略改进交替进行，最终将跟踪策略部署到 Unitree G1。世界模型服务训练，不替换实机执行反馈。",
+      "detail": "先让当前策略在 MuJoCo Warp 中收集状态、动作与下一状态，存进回放池；一个共享可微动力学模型用8步自回归窗口拟合这些转移。策略更新时暂时固定模型参数，在模型里展开32步想象轨迹，把跟踪奖励经动作和状态的雅可比反传给策略，末端价值函数补上短视野外的回报。模拟器采样、世界模型拟合与策略改进交替进行，最终将跟踪策略部署到 Unitree G1。世界模型服务训练，不替换实机执行反馈。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:loop",
+      "key": "loop",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "模拟器—模型—策略交替训练",
+      "subtitle": "真实物理模拟器产生训练转移，模型和策略在同一循环中轮流更新。",
+      "detail": "当前策略→MuJoCo Warp→回放池→世界模型拟合→模型内策略改进，循环重复。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/loop.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§3; Algorithm A.1",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:replay",
+      "key": "replay",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "回放池与8步模型拟合",
+      "subtitle": "用模拟器记录的状态和动作监督未来状态预测。",
+      "detail": "一次读取k=8的自回归窗口，后续预测接着使用模型自己的前一步状态；世界模型并非只做单步回归。",
+      "parent_node": "local:supermimic:loop",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/replay.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§3.2; Appendix C/D",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:context",
+      "key": "context",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "随机化环境上下文",
+      "subtitle": "用环境物理条件约束动力学预测。",
+      "detail": "训练时模型接收仿真上下文，策略靠可部署观测行动；动力学训练输入和实机策略观测不能混为一组。",
+      "parent_node": "local:supermimic:replay",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/context.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§3.2; Appendix A",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:bptt",
+      "key": "bptt",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "32步想象与时间反传",
+      "subtitle": "沿可微模型展开H=32步，把后续奖励对当前动作的导数传回策略。",
+      "detail": "策略更新内固定模型参数，但仍保留对状态和动作的梯度；接触模拟器本身不参与微分。",
+      "parent_node": "local:supermimic:loop",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/bptt.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§3; Eq.2; Algorithm A.1",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:critic",
+      "key": "critic",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "末端价值与短段想象",
+      "subtitle": "用价值函数估计32步以后还会得到的回报。",
+      "detail": "critic补长程回报，短想象控制滚动模型误差；原文比较想象长度与critic的影响。",
+      "parent_node": "local:supermimic:bptt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/critic.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§3; §4 ablations",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:motion",
+      "key": "motion",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "动作条件的全身跟踪",
+      "subtitle": "策略读取本体状态与参考动作表示，输出关节目标。",
+      "detail": "同一个模型共享各动作的物理动力学；运动编码器提供目标，PD回路执行关节目标。",
+      "parent_node": "local:supermimic:loop",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/motion.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§3; Appendix A",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:coverage",
+      "key": "coverage",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "训练动作库覆盖评测",
+      "subtitle": "逐条播放训练库中的动作，看是否触发终止条件。",
+      "detail": "Appendix F统一评测129,514条训练动作，每条一次、确定性播放；1GPU/3h模型失败25条，2GPU/9.8h失败0条，SONIC179条。",
+      "parent_node": "paper:supermimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/coverage.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "Appendix F; Table A.8",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:compute",
+      "key": "compute",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "GPU小时与比较条件",
+      "subtitle": "把设备数乘训练时长得到报告的GPU小时成本。",
+      "detail": "SuperMimic用1张H100训练3小时；SONIC报告128张L40训练168小时，数据量也不同。该比值描述这两套报告配置的成本。",
+      "parent_node": "local:supermimic:coverage",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/compute.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§4.1; Fig.3; Appendix F",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:transfer",
+      "key": "transfer",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "G1实机迁移",
+      "subtitle": "把仿真中训练好的跟踪策略部署到物理机器人。",
+      "detail": "实机展示多类动作和腾空动作；本文训练与评测环境是平地，物体交互和地形扩展另作后续问题。",
+      "parent_node": "local:supermimic:motion",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/transfer.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§4; §5; real-world demonstrations",
+      "explainers": []
+    },
+    {
+      "id": "local:supermimic:velocity",
+      "key": "velocity",
+      "kind": "local",
+      "paper": "supermimic",
+      "title": "速度命令接口",
+      "subtitle": "用速度命令编码替换整段参考动作的接口。",
+      "detail": "比较强化学习微调和蒸馏；672个速度阶跃响应，4次/命令，单训练种子，属于初步扩展实验。",
+      "parent_node": "local:supermimic:motion",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/supermimic/velocity.md",
+      "source_url": "https://arxiv.org/pdf/2610.28480v1",
+      "locator": "§4.5; Appendix G",
+      "explainers": []
+    },
+    {
       "id": "local:td-mpc:dynamics",
       "key": "dynamics",
       "kind": "local",
@@ -16076,6 +16377,156 @@
       "lit": false
     },
     {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:world",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:world",
+      "to": "concept:world",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:world",
+      "to": "local:supermimic:dynamics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:dynamics",
+      "to": "concept:dynamics",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:world",
+      "to": "local:supermimic:imagination",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:imagination",
+      "to": "concept:imagination",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:actor-critic",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:actor-critic",
+      "to": "concept:actor-critic",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:wbc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:wbc",
+      "to": "concept:wbc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:sim2real",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:sim2real",
+      "to": "concept:sim2real",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:retarget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:retarget",
+      "to": "concept:retarget",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:loop",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:loop",
+      "to": "local:supermimic:replay",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:replay",
+      "to": "local:supermimic:context",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:loop",
+      "to": "local:supermimic:bptt",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:bptt",
+      "to": "local:supermimic:critic",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:loop",
+      "to": "local:supermimic:motion",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:supermimic",
+      "to": "local:supermimic:coverage",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:coverage",
+      "to": "local:supermimic:compute",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:motion",
+      "to": "local:supermimic:transfer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:supermimic:motion",
+      "to": "local:supermimic:velocity",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:td-mpc",
       "to": "local:td-mpc:dynamics",
       "kind": "contains",
@@ -16877,9 +17328,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 115,
+    "papers": 116,
     "concepts": 59,
-    "local_topics": 507,
+    "local_topics": 525,
     "lit_papers": 2,
     "lit_concepts": 16,
     "lit_local_topics": 59

@@ -24,6 +24,6 @@
 - [来源2](https://huggingface.co/api/papers/2610.12468)
 - [来源3](https://arxiv.org/pdf/2610.12468v1)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

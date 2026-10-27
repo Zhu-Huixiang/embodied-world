@@ -15,6 +15,7 @@ actor 产生动作，critic 估计长期收益；价值估计为策略改进提�
 - [CQL](../papers/cql.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html)
 - [Bipedal Soccer](../papers/bipedal-soccer.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.adi8022)
 - [Walk in the Park](../papers/walk-in-the-park.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p056.html)
+- [SuperMimic](../papers/supermimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.28480)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

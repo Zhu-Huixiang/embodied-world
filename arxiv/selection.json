@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09T18:35:28+08:00",
+  "checked_at": "2026-10-27",
   "scan": {
     "scanned_at": "2026-10-09T18:28:55+08:00",
     "as_of": "2026-10-09",
@@ -329,6 +329,71 @@
         "pdf_page": 1
       },
       "selection_reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。"
+    },
+    {
+      "id": "supermimic",
+      "short_name": "SuperMimic",
+      "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+      "arxiv_id": "2610.28480",
+      "first_author": "Qiayuan Liao",
+      "authors": [
+        "Qiayuan Liao",
+        "Yiyang Shao",
+        "Junfeng Long",
+        "Kevin Zakka",
+        "Roberto Horowitz",
+        "Pieter Abbeel",
+        "Koushil Sreenath"
+      ],
+      "affiliations": [
+        "UC Berkeley"
+      ],
+      "track": "motion-priors",
+      "year": 2026,
+      "venue_status": "accepted",
+      "venue": "CoRL",
+      "venue_evidence_url": "https://2026.corl.org/program/accepted-papers",
+      "source_url": "https://arxiv.org/abs/2610.28480",
+      "pdf_url": "https://arxiv.org/pdf/2610.28480v1",
+      "project_url": "https://supermimic.github.io/",
+      "code_url": null,
+      "published": "2026-10-20T16:29:30Z",
+      "first_arxiv_submission": "2026-10-20T16:29:30Z",
+      "first_arxiv_submission_shanghai": "2026-10-21T00:29:30+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-10-27",
+      "scope": "模型强化学习驱动的人形全身动作跟踪；平地动作库与G1实机迁移",
+      "reading_question": "接触动力学不光滑，为什么8步拟合的世界模型仍能给32步想象策略提供好用梯度？训练动作全覆盖又与新动作泛化差在哪里？",
+      "note": "CoRL 2026已录用，官方名单Oral O7、poster 217；展示形式不额外加分。",
+      "selection_reason": "用共享可微动力学把全身动作跟踪的训练成本降下来；策略梯度来源、模型/策略交替、数据扩展与覆盖评测都有可定位实验，适合作为世界模型接入底层控制的重点案例。",
+      "evidence_summary": "§4.1/Fig.3：1 H100训练3h回报超过已发布SONIC；Appendix F/Table A.8：同一129,514训练动作库SONIC失败179、SuperMimic 1GPU/3h失败25、2GPU/9.8h失败0。硬件与训练数据不同；这组是训练库覆盖，不是未见动作测试。",
+      "embodied_relevance": "共享动力学、短段想象和价值引导直接用于G1动作跟踪及实机迁移。",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Oral O7",
+        "poster_number": 217,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://openreview.net/forum?id=psNqjklVOK",
+          "https://arxiv.org/abs/2610.28480"
+        ],
+        "checked_at": "2026-10-27T14:35:45+08:00",
+        "basis": "会议官方页面内嵌录用名单含精确标题与OpenReview链接；arXiv comments和作者首页交叉核对。"
+      },
+      "version_id": "2610.28480v1",
+      "updated": "2026-10-20T16:29:30Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.28480v1",
+        "pdf_page": 1
+      },
+      "mechanism": "先让当前策略在 MuJoCo Warp 中收集状态、动作与下一状态，存进回放池；一个共享可微动力学模型用8步自回归窗口拟合这些转移。策略更新时暂时固定模型参数，在模型里展开32步想象轨迹，把跟踪奖励经动作和状态的雅可比反传给策略，末端价值函数补上短视野外的回报。模拟器采样、世界模型拟合与策略改进交替进行，最终将跟踪策略部署到 Unitree G1。世界模型服务训练，不替换实机执行反馈。",
+      "abstract": "A shared learned differentiable world model and short imagined policy rollouts scale humanoid whole-body motion tracking.",
+      "selection_origin": "2026-10-27用户提名后定向核原文、会议官方名单和公开计量；不是整批arXiv扫描结果。"
     }
   ],
   "screening": {
@@ -336,5 +401,18 @@
     "selected": 7,
     "pending": 84,
     "rule": "先题目/摘要初筛，再读原文机制、对照和首页署名；其余留在候选池，不作质量判决。"
-  }
+  },
+  "supplemental_checks": [
+    {
+      "id": "supermimic",
+      "checked_at": "2026-10-27T14:35:45+08:00",
+      "kind": "targeted_primary_source_review",
+      "sources": [
+        "https://arxiv.org/abs/2610.28480",
+        "https://arxiv.org/pdf/2610.28480v1",
+        "https://2026.corl.org/program/accepted-papers",
+        "https://supermimic.github.io/"
+      ]
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 # Modality-Autoregressive World-Action Models
 
-**ModAR** · arXiv 2026 · 本版排名 107 · 综合分 **69.6 / 100**
+**ModAR** · arXiv 2026 · 本版排名 108 · 综合分 **69.6 / 100**
 
 [解读导读](../../../library/modar.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-modar)
 

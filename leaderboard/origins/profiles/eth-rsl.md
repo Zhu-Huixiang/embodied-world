@@ -27,6 +27,6 @@
 - [来源2](https://rsl.ethz.ch/research/researchtopics/legged-locomotion.html)
 - [来源3](https://rsl.ethz.ch/)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

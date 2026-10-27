@@ -44,6 +44,6 @@
 - [来源5](https://ai.meta.com//)
 - [来源6](https://research.meta.ai/)
 
-资料核验：2026-10-10。
+资料核验：2026-10-27。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

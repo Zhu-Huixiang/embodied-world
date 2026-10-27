@@ -103,7 +103,8 @@
 | 97 | 101 | [RVT: Robotic View Transformer for 3D Object Manipulation](../library/rvt.md) | [CoRL 2023](../venues/CoRL/README.md) | 79.5 |
 | 98 | 102 | [VideoVLA: Video Generators Can Be Generalizable Robot Manipulators](../library/videovla.md) | [NeurIPS 2025](../venues/NeurIPS/README.md) | 78.8 |
 | 99 | 103 | [Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning](../library/cosmos-policy.md) | [ICLR 2026](../venues/ICLR/README.md) | 78.5 |
-| 100 | 104 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](../library/omnih2o.md) | [CoRL 2024](../venues/CoRL/README.md) | 76.8 |
-| 101 | 106 | [EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](../library/efficientzero-v2.md) | [ICML 2024](../venues/ICML/README.md) | 75.0 |
+| 100 | 104 | [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](../library/supermimic.md) | [CoRL 2026](../venues/CoRL/README.md) | 78.1 |
+| 101 | 105 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](../library/omnih2o.md) | [CoRL 2024](../venues/CoRL/README.md) | 76.8 |
+| 102 | 107 | [EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](../library/efficientzero-v2.md) | [ICML 2024](../venues/ICML/README.md) | 75.0 |
 
 [未来七日](README.md) · [评分方法](../leaderboard/methodology.md)
