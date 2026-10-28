@@ -1,6 +1,6 @@
 # A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control
 
-**Balanced Data Diet** · arXiv 2026 · 本版排名 115 · 综合分 **62.1 / 100**
+**Balanced Data Diet** · arXiv 2026 · 本版排名 117 · 综合分 **62.1 / 100**
 
 [解读导读](../../../library/balanced-data-diet.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [arXiv集锦](../../../arxiv/README.md#paper-balanced-data-diet)
 
@@ -55,8 +55,7 @@ Success Guided Sampling 根据当前成功率把重置分布推向能力边缘�
 
 ### 论文公开入口与传播快照
 
-| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
-| --- | --- | --- | --- |
+- [project 入口](https://sgs-rl.github.io/)
 
 [传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

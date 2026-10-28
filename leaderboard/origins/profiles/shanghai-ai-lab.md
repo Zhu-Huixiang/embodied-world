@@ -32,6 +32,6 @@
 - [来源9](https://api.openalex.org/works/W4392427796)
 - [来源10](https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24at/wang24at.pdf)
 
-资料核验：2026-10-27。
+资料核验：2026-10-28。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

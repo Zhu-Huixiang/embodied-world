@@ -27,6 +27,6 @@
 - [来源3](https://api.openalex.org/works/W4385430679)
 - [来源4](https://roboticsproceedings.org/rss19/p025.pdf)
 
-资料核验：2026-10-27。
+资料核验：2026-10-28。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

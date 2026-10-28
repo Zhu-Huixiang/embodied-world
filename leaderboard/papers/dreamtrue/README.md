@@ -1,6 +1,6 @@
 # DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training
 
-**DreamTrue** · arXiv 2026 · 本版排名 109 · 综合分 **64.1 / 100**
+**DreamTrue** · arXiv 2026 · 本版排名 110 · 综合分 **64.1 / 100**
 
 [解读导读](../../../library/dreamtrue.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [arXiv集锦](../../../arxiv/README.md#paper-dreamtrue)
 
@@ -54,6 +54,8 @@
 [其他计量来源快照](../../metrics.json)分别保留，不相加；本版按登记的身份匹配顺序选源。
 
 ### 论文公开入口与传播快照
+
+- [project 入口](https://brave-eai.github.io/DreamTrue/)
 
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |

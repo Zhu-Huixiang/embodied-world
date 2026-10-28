@@ -32,6 +32,6 @@
 - [来源2](https://deepmind.google/discover/blog/announcing-google-deepmind/)
 - [来源3](https://arxiv.org/pdf/2010.11929v2)
 
-资料核验：2026-10-27。
+资料核验：2026-10-28。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

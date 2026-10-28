@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27",
+  "checked_at": "2026-10-28",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -51879,6 +51879,208 @@
       "rank": 108
     },
     {
+      "id": "diffcontact",
+      "checked_at": "2026-10-28",
+      "short_name": "DiffContact",
+      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "year": 2026,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-diffcontact",
+        "reading_path": "library/diffcontact.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/diffcontact.md",
+        "card_path": "leaderboard/papers/diffcontact/README.md"
+      },
+      "origin": {
+        "label": "Gijeong Kim · 韩国科学技术院（KAIST）",
+        "author_label": "Gijeong Kim",
+        "institution_label": "韩国科学技术院（KAIST）",
+        "search": "Gijeong Kim Gijeong Kim Seungbin Oh Dongyun Kang Hae-Won Park Department of Mechanical Engineering, KAIST 韩国科学技术院（KAIST） 韩国科学技术院（KAIST）机械工程系 Korea Advanced Institute of Science and Technology Korea Advanced Institute of Science and Technology 韩国科学技术院（KAIST）",
+        "keys": [
+          "institution-i157485424"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i157485424",
+            "label": "韩国科学技术院（KAIST）",
+            "search": "Korea Advanced Institute of Science and Technology Korea Advanced Institute of Science and Technology 韩国科学技术院（KAIST）"
+          }
+        ],
+        "path": "leaderboard/origins/papers/diffcontact.md"
+      },
+      "scores": {
+        "innovation": 90,
+        "evidence": 88,
+        "reuse": 70,
+        "reading": 94,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 65.8,
+      "score_exact": "65.78",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35852v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35852v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35852v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35852v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "arXiv v1完整公开，稳定论文身份、作者和时间可追溯，按完整公开阶段60计；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.35852v1",
+            "https://arxiv.org/html/2610.35852v1"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次有界补查未核到独立研究采用，按独立采用量表起点0计；引用接口受限/尚未匹配，原始引用为null，这个分数不等于被引0。",
+          "sources": [
+            "https://arxiv.org/abs/2610.35852v1",
+            "https://api.github.com/search/repositories?q=2610.35852&per_page=10",
+            "https://huggingface.co/api/papers/2610.35852"
+          ],
+          "checked_at": "2026-10-28T09:14:23+08:00",
+          "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次有界补查未核到独立研究采用，按独立采用量表起点0计；引用接口受限/尚未匹配，原始引用为null，这个分数不等于被引0。",
+              "sources": [
+                "https://arxiv.org/abs/2610.35852v1",
+                "https://api.github.com/search/repositories?q=2610.35852&per_page=10",
+                "https://huggingface.co/api/papers/2610.35852"
+              ],
+              "checked_at": "2026-10-28T09:14:23+08:00",
+              "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次未取得可核的单篇平台计数或近期独立技术采用，按证据量表起点0计；自动摘要转载与共享索引不赋关注分，不能据此说论文无人关注。",
+          "sources": [
+            "https://arxiv.org/abs/2610.35852v1",
+            "https://api.github.com/search/repositories?q=2610.35852&per_page=10",
+            "https://huggingface.co/api/papers/2610.35852"
+          ],
+          "checked_at": "2026-10-28T09:14:23+08:00",
+          "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次未取得可核的单篇平台计数或近期独立技术采用，按证据量表起点0计；自动摘要转载与共享索引不赋关注分，不能据此说论文无人关注。",
+              "sources": [
+                "https://arxiv.org/abs/2610.35852v1",
+                "https://api.github.com/search/repositories?q=2610.35852&per_page=10",
+                "https://huggingface.co/api/papers/2610.35852"
+              ],
+              "checked_at": "2026-10-28T09:14:23+08:00",
+              "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。"
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "diffcontact",
+        "checked_at": "2026-10-28T09:14:23+08:00",
+        "status": "unmatched",
+        "provider": "Semantic Scholar / OpenAlex",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.35852",
+        "match_note": "精确arXiv请求Semantic Scholar429；OpenAlex精确DOI404，标题搜索返回5条均非本研究，不借用相似题目的引用。原始计量保留null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.35852",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.35852",
+          "https://api.openalex.org/works?search=Differentiable+Contact+Dynamics+for+Legged+Locomotion%3A+Policy+Learning+and+Contact-Implicit+Trajectory+Optimization&per-page=5"
+        ]
+      },
+      "social": {
+        "checked_at": "2026-10-28T09:14:23+08:00",
+        "resources": [
+          {
+            "platform": "project",
+            "url": "https://diffcontact.github.io",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2610.35852v1",
+              "https://arxiv.org/html/2610.35852v1"
+            ],
+            "metrics": [],
+            "availability_note": "原文绑定单篇项目入口；本次连接失败，未核页面内容或计数。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "GitHub精确arXiv ID仓库检索200/0结果仅代表本次查询；HF论文API404。补查网页只见自动索引/摘要和共享daily仓库，不构成独立技术采用，仓库总star不分摊给论文。未核X/HF/博客单篇计数，不填0。"
+      },
+      "editorial": {
+        "checked_at": "2026-10-28",
+        "scores": {
+          "innovation": 90,
+          "evidence": 88,
+          "reuse": 70,
+          "reading": 94
+        },
+        "mechanism": "前向继续用硬接触模拟器生成轨迹，只在反向替换接触冲量的敏感度。方法对含de Saxcé修正的库仑摩擦二阶锥互补条件做完整锥中心路径松弛，从硬接触解出发用Newton迭代找到反向求导的评估点，组装状态/动作转移Jacobian，再供BPTT更新策略或DDP/iLQR优化轨迹。法向与切向一起松弛，梯度才有机会指向离地、粘住和滑动这些邻近模式；松弛参数趋零时回到固定接触模式的精确敏感度。",
+        "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
+        "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.35852v1",
+        "checked_at": "2026-10-28",
+        "profile": null
+      },
+      "rank": 109
+    },
+    {
       "id": "dreamtrue",
       "checked_at": "2026-10-10",
       "short_name": "DreamTrue",
@@ -52443,7 +52645,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 109
+      "rank": 110
     },
     {
       "id": "viola",
@@ -52812,7 +53014,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 110
+      "rank": 111
     },
     {
       "id": "lewam",
@@ -53102,7 +53304,227 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 111
+      "rank": 112
+    },
+    {
+      "id": "flore",
+      "checked_at": "2026-10-28",
+      "short_name": "FLoRe",
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "year": 2026,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-flore",
+        "reading_path": "library/flore.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/flore.md",
+        "card_path": "leaderboard/papers/flore/README.md"
+      },
+      "origin": {
+        "label": "Sihang Li · 亚马逊前沿人工智能与机器人团队 / 纽约大学 · 另2个机构",
+        "author_label": "Sihang Li",
+        "institution_label": "亚马逊前沿人工智能与机器人团队 / 纽约大学 · 另2个机构",
+        "search": "Sihang Li Sihang Li Xiaofeng Guo Jinkun Cao Charlie Cheng Ruihan Yang Chen Feng Guanya Shi Haozhi Qi Amazon FAR (Frontier AI & Robotics) New York University Carnegie Mellon University University of Chicago 亚马逊前沿人工智能与机器人团队 纽约大学 卡内基梅隆大学 芝加哥大学 亚马逊前沿人工智能与机器人团队 纽约大学 卡内基梅隆大学 芝加哥大学 Amazon FAR (Frontier AI & Robotics) Amazon FAR (Frontier AI & Robotics) 亚马逊前沿人工智能与机器人团队 New York University New York University 纽约大学 Carnegie Mellon University 卡内基梅隆 CMU Carnegie Mellon University 卡内基梅隆大学 University of Chicago University of Chicago 芝加哥大学",
+        "keys": [
+          "amazon-far",
+          "institution-i57206974",
+          "institution-i74973139",
+          "university-of-chicago"
+        ],
+        "profiles": [
+          {
+            "key": "amazon-far",
+            "label": "亚马逊前沿人工智能与机器人团队",
+            "search": "Amazon FAR (Frontier AI & Robotics) Amazon FAR (Frontier AI & Robotics) 亚马逊前沿人工智能与机器人团队"
+          },
+          {
+            "key": "institution-i57206974",
+            "label": "纽约大学",
+            "search": "New York University New York University 纽约大学"
+          },
+          {
+            "key": "institution-i74973139",
+            "label": "卡内基梅隆大学",
+            "search": "Carnegie Mellon University 卡内基梅隆 CMU Carnegie Mellon University 卡内基梅隆大学"
+          },
+          {
+            "key": "university-of-chicago",
+            "label": "芝加哥大学",
+            "search": "University of Chicago University of Chicago 芝加哥大学"
+          }
+        ],
+        "path": "leaderboard/origins/papers/flore.md"
+      },
+      "scores": {
+        "innovation": 86,
+        "evidence": 82,
+        "reuse": 66,
+        "reading": 88,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 63.0,
+      "score_exact": "63.04",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新86：核心是力标注示范、高层力输入/输出与混合顺应全身控制的贯通，建立明确的可操作接口。证据82：两条力通道的消融、同架构/数据/日程位置基线、仿真跟踪与G1实机均可定位；任务仅三类、每条件30次总rollout，去力观测的20/30到24/30不外推成显著结论。复用66：方法和控制接口清楚，采集硬件、F/T传感与每任务训练有工程成本。阅读88：适合拆解“会走会摆手”到“接触时怎样调力”的差距。影响与关注另按独立证据和计量评分。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35862v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新86：核心是力标注示范、高层力输入/输出与混合顺应全身控制的贯通，建立明确的可操作接口。证据82：两条力通道的消融、同架构/数据/日程位置基线、仿真跟踪与G1实机均可定位；任务仅三类、每条件30次总rollout，去力观测的20/30到24/30不外推成显著结论。复用66：方法和控制接口清楚，采集硬件、F/T传感与每任务训练有工程成本。阅读88：适合拆解“会走会摆手”到“接触时怎样调力”的差距。影响与关注另按独立证据和计量评分。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35862v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新86：核心是力标注示范、高层力输入/输出与混合顺应全身控制的贯通，建立明确的可操作接口。证据82：两条力通道的消融、同架构/数据/日程位置基线、仿真跟踪与G1实机均可定位；任务仅三类、每条件30次总rollout，去力观测的20/30到24/30不外推成显著结论。复用66：方法和控制接口清楚，采集硬件、F/T传感与每任务训练有工程成本。阅读88：适合拆解“会走会摆手”到“接触时怎样调力”的差距。影响与关注另按独立证据和计量评分。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35862v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新86：核心是力标注示范、高层力输入/输出与混合顺应全身控制的贯通，建立明确的可操作接口。证据82：两条力通道的消融、同架构/数据/日程位置基线、仿真跟踪与G1实机均可定位；任务仅三类、每条件30次总rollout，去力观测的20/30到24/30不外推成显著结论。复用66：方法和控制接口清楚，采集硬件、F/T传感与每任务训练有工程成本。阅读88：适合拆解“会走会摆手”到“接触时怎样调力”的差距。影响与关注另按独立证据和计量评分。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.35862v1"
+          ],
+          "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "arXiv v1完整公开，稳定论文身份、作者和时间可追溯，按完整公开阶段60计；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.35862v1",
+            "https://arxiv.org/html/2610.35862v1"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次有界补查未核到独立研究采用，按独立采用量表起点0计；引用接口受限/尚未匹配，原始引用为null，这个分数不等于被引0。",
+          "sources": [
+            "https://arxiv.org/abs/2610.35862v1",
+            "https://api.github.com/search/repositories?q=2610.35862&per_page=10",
+            "https://huggingface.co/api/papers/2610.35862"
+          ],
+          "checked_at": "2026-10-28T09:14:23+08:00",
+          "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次有界补查未核到独立研究采用，按独立采用量表起点0计；引用接口受限/尚未匹配，原始引用为null，这个分数不等于被引0。",
+              "sources": [
+                "https://arxiv.org/abs/2610.35862v1",
+                "https://api.github.com/search/repositories?q=2610.35862&per_page=10",
+                "https://huggingface.co/api/papers/2610.35862"
+              ],
+              "checked_at": "2026-10-28T09:14:23+08:00",
+              "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次未取得可核的单篇平台计数或近期独立技术采用，按证据量表起点0计；自动摘要转载与共享索引不赋关注分，不能据此说论文无人关注。",
+          "sources": [
+            "https://arxiv.org/abs/2610.35862v1",
+            "https://api.github.com/search/repositories?q=2610.35862&per_page=10",
+            "https://huggingface.co/api/papers/2610.35862"
+          ],
+          "checked_at": "2026-10-28T09:14:23+08:00",
+          "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次未取得可核的单篇平台计数或近期独立技术采用，按证据量表起点0计；自动摘要转载与共享索引不赋关注分，不能据此说论文无人关注。",
+              "sources": [
+                "https://arxiv.org/abs/2610.35862v1",
+                "https://api.github.com/search/repositories?q=2610.35862&per_page=10",
+                "https://huggingface.co/api/papers/2610.35862"
+              ],
+              "checked_at": "2026-10-28T09:14:23+08:00",
+              "audit_scope": "原站及官方项目；S2精确ID、OpenAlex精确DOI与标题前5、GitHub精确ID前10、HF单篇API；网页标题/ID补查。"
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "flore",
+        "checked_at": "2026-10-28T09:14:23+08:00",
+        "status": "unmatched",
+        "provider": "Semantic Scholar / OpenAlex",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.35862",
+        "match_note": "精确arXiv请求Semantic Scholar429；OpenAlex精确DOI404，标题搜索返回5条均非本研究，不借用相似题目的引用。原始计量保留null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.35862",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.35862",
+          "https://api.openalex.org/works?search=Learning+Force-Reactive+Humanoid+Loco-Manipulation&per-page=5"
+        ]
+      },
+      "social": {
+        "checked_at": "2026-10-28T09:14:23+08:00",
+        "resources": [
+          {
+            "platform": "project",
+            "url": "https://louis-leee.github.io/FLoRe/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2610.35862v1",
+              "https://arxiv.org/html/2610.35862v1"
+            ],
+            "metrics": [],
+            "availability_note": "原文绑定的单篇项目入口；本次项目页可读、无可核计数。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "GitHub精确arXiv ID仓库检索200/0结果仅代表本次查询；HF论文API404。补查网页只见自动索引/摘要和共享daily仓库，不构成独立技术采用，仓库总star不分摊给论文。未核X/HF/博客单篇计数，不填0。"
+      },
+      "editorial": {
+        "checked_at": "2026-10-28",
+        "scores": {
+          "innovation": 86,
+          "evidence": 82,
+          "reuse": 66,
+          "reading": 88
+        },
+        "mechanism": "双手持夹爪记录腕部图像、六轴接触力/力矩和身体运动，先做无机器人示范，再补成机器人可跟踪的全身参考。每任务一套扩散策略读取两张224×224腕图、14维相对状态和双手wrench历史，同时生成运动关键点与每手力指令；高层动作块交给低层全身控制器。低层将力误差积分换成手部位置目标偏移：命令方向持续调力，其余方向保持顺应，真实腕部传感器闭合反馈环。力不是只在训练时当标签，而是从示范、策略输入/输出一路接到执行。",
+        "reason": "创新86：核心是力标注示范、高层力输入/输出与混合顺应全身控制的贯通，建立明确的可操作接口。证据82：两条力通道的消融、同架构/数据/日程位置基线、仿真跟踪与G1实机均可定位；任务仅三类、每条件30次总rollout，去力观测的20/30到24/30不外推成显著结论。复用66：方法和控制接口清楚，采集硬件、F/T传感与每任务训练有工程成本。阅读88：适合拆解“会走会摆手”到“接触时怎样调力”的差距。影响与关注另按独立证据和计量评分。",
+        "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.35862v1",
+        "checked_at": "2026-10-28",
+        "profile": null
+      },
+      "rank": 113
     },
     {
       "id": "holo-m",
@@ -53447,7 +53869,7 @@
         "checked_at": "2026-10-09",
         "profile": null
       },
-      "rank": 112
+      "rank": 114
     },
     {
       "id": "dex-one2many",
@@ -53810,7 +54232,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 113
+      "rank": 115
     },
     {
       "id": "arc",
@@ -54179,7 +54601,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 114
+      "rank": 116
     },
     {
       "id": "balanced-data-diet",
@@ -54530,7 +54952,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 115
+      "rank": 117
     },
     {
       "id": "plaw-vla",
@@ -55049,7 +55471,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 116
+      "rank": 118
     }
   ]
 }

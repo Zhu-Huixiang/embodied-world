@@ -31,6 +31,6 @@
 - [来源2](https://rail.eecs.berkeley.edu/people.html)
 - [来源3](http://rail.eecs.berkeley.edu/)
 
-资料核验：2026-10-27。
+资料核验：2026-10-28。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

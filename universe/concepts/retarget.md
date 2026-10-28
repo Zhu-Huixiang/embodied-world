@@ -15,6 +15,7 @@
 - [ExBody](../papers/exbody.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p107.html)
 - [EgoScale](../papers/egoscale.md) · 机制导读 · [原文](https://arxiv.org/abs/2602.16710)
 - [SuperMimic](../papers/supermimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.28480)
+- [FLoRe](../papers/flore.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35862v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

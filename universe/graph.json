@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-27",
+  "checked_at": "2026-10-28",
   "nodes": [
     {
       "id": "paper:act",
@@ -521,6 +521,27 @@
       "source_url": "https://arxiv.org/abs/2610.12470v1"
     },
     {
+      "id": "paper:diffcontact",
+      "key": "diffcontact",
+      "kind": "paper",
+      "title": "DiffContact",
+      "subtitle": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "track": "locomotion",
+      "track_label": "Locomotion 与运动适应",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/diffcontact.md",
+      "concepts": [
+        "dynamics",
+        "rl",
+        "rollout",
+        "ppo",
+        "sim2real"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.35852v1"
+    },
+    {
       "id": "paper:diffuser",
       "key": "diffuser",
       "kind": "paper",
@@ -918,6 +939,30 @@
       ],
       "scope": "mechanism",
       "source_url": "https://www.roboticsproceedings.org/rss21/p012.html"
+    },
+    {
+      "id": "paper:flore",
+      "key": "flore",
+      "kind": "paper",
+      "title": "FLoRe",
+      "subtitle": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/flore.md",
+      "concepts": [
+        "imitation",
+        "diffusion",
+        "chunk",
+        "wbc",
+        "sim2real",
+        "retarget",
+        "action",
+        "data"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.35862v1"
     },
     {
       "id": "paper:flow-matching",
@@ -2721,7 +2766,8 @@
         "ddim",
         "latent-diffusion",
         "edm",
-        "video-diffusion"
+        "video-diffusion",
+        "flore"
       ],
       "explainers": []
     },
@@ -2821,6 +2867,7 @@
         "diffuser",
         "walk-these-ways",
         "walk-in-the-park",
+        "flore",
         "arc",
         "plaw-vla"
       ],
@@ -2845,7 +2892,8 @@
         "dp3",
         "consistency-policy",
         "octo",
-        "mobile-aloha"
+        "mobile-aloha",
+        "flore"
       ],
       "explainers": [
         {
@@ -2940,7 +2988,8 @@
         "asap",
         "exbody",
         "egoscale",
-        "supermimic"
+        "supermimic",
+        "flore"
       ],
       "explainers": []
     },
@@ -2966,7 +3015,8 @@
         "exbody",
         "sonic",
         "hover",
-        "supermimic"
+        "supermimic",
+        "flore"
       ],
       "explainers": [
         {
@@ -3018,6 +3068,7 @@
         "learned-dynamics-review",
         "vjepa2",
         "supermimic",
+        "diffcontact",
         "dreamtrue",
         "lewam"
       ],
@@ -3138,6 +3189,7 @@
         "vip",
         "deep-whole-body-control",
         "isaac-gym",
+        "diffcontact",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -3226,7 +3278,8 @@
       "papers": [
         "walk-in-minutes",
         "sonic",
-        "isaac-gym"
+        "isaac-gym",
+        "diffcontact"
       ],
       "explainers": []
     },
@@ -3243,7 +3296,8 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/imitation.md",
       "papers": [
         "cliport",
-        "humanplus"
+        "humanplus",
+        "flore"
       ],
       "explainers": []
     },
@@ -3396,7 +3450,9 @@
         "anymal-parkour",
         "bipedal-soccer",
         "asap",
-        "supermimic"
+        "supermimic",
+        "flore",
+        "diffcontact"
       ],
       "explainers": []
     },
@@ -3418,6 +3474,7 @@
         "libero",
         "robocasa",
         "mimicgen",
+        "flore",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -3519,7 +3576,8 @@
         "daydreamer",
         "walk-in-the-park",
         "sam2",
-        "ctrl-world"
+        "ctrl-world",
+        "diffcontact"
       ],
       "explainers": []
     },
@@ -5935,6 +5993,276 @@
       "explainers": []
     },
     {
+      "id": "local:diffcontact:dynamics",
+      "key": "dynamics",
+      "kind": "local",
+      "paper": "diffcontact",
+      "canonical": "dynamics",
+      "title": "动作条件动力学",
+      "subtitle": "以当前状态和动作预测下一状态或分布，建立“做这个动作会发生什么”的计算接口。",
+      "detail": "不能把无动作的视频预测直接当成可干预的动力学。",
+      "parent_node": "paper:diffcontact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/dynamics.md",
+      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "diffcontact",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:diffcontact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/rl.md",
+      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:rollout",
+      "key": "rollout",
+      "kind": "local",
+      "paper": "diffcontact",
+      "canonical": "rollout",
+      "title": "闭环滚动与历史偏移",
+      "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
+      "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
+      "parent_node": "paper:diffcontact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/rollout.md",
+      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:ppo",
+      "key": "ppo",
+      "kind": "local",
+      "paper": "diffcontact",
+      "canonical": "ppo",
+      "title": "PPO 与并行模拟",
+      "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
+      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "parent_node": "local:diffcontact:rl",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/ppo.md",
+      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:sim2real",
+      "key": "sim2real",
+      "kind": "local",
+      "paper": "diffcontact",
+      "canonical": "sim2real",
+      "title": "仿真到实机",
+      "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
+      "detail": "实机结果必须按机器人与任务条件解释。",
+      "parent_node": "paper:diffcontact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/sim2real.md",
+      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "本篇方法链路",
+      "subtitle": "前向继续用硬接触模拟器生成轨迹，只在反向替换接触冲量的敏感度。方法对含de Saxcé修正的库仑摩擦二阶锥互补条件做完整锥中心路径松弛，从硬接触解出发用Newton迭代找到反向求导的评估点，组装状态/动作转移Jacobian，再供BPTT更新策略或DDP/iLQR优化轨迹。法向与切向一起松弛，梯度才有机会指向离地、粘住和滑动这些邻近模式；松弛参数趋零时回到固定接触模式的精确敏感度。",
+      "detail": "前向继续用硬接触模拟器生成轨迹，只在反向替换接触冲量的敏感度。方法对含de Saxcé修正的库仑摩擦二阶锥互补条件做完整锥中心路径松弛，从硬接触解出发用Newton迭代找到反向求导的评估点，组装状态/动作转移Jacobian，再供BPTT更新策略或DDP/iLQR优化轨迹。法向与切向一起松弛，梯度才有机会指向离地、粘住和滑动这些邻近模式；松弛参数趋零时回到固定接触模式的精确敏感度。",
+      "parent_node": "paper:diffcontact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:modes",
+      "key": "modes",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "分离、粘着与滑动",
+      "subtitle": "库仑摩擦接触有不同模式，每种模式的局部敏感度不同。",
+      "detail": "当前模式的精确一阶导数可能没有朝邻近模式变化的信息；问题不只是优化器算得慢。",
+      "parent_node": "paper:diffcontact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/modes.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§III–IV; Fig.1–2",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:hard",
+      "key": "hard",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "保留硬接触前向",
+      "subtitle": "模拟器仍按硬接触求解并推进实际训练轨迹。",
+      "detail": "RaiSim以1ms子步前向推进，控制步25ms；松弛用于反向评估，不能说硬接触物理本身已被变光滑。",
+      "parent_node": "local:diffcontact:modes",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/hard.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§IV–VI",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:cone",
+      "key": "cone",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "完整摩擦锥中心路径",
+      "subtitle": "同时松弛法向和切向耦合的二阶锥互补条件。",
+      "detail": "de Saxcé修正配合完整锥松弛，在分离/粘着/滑动之间构造平滑敏感度；仅Signorini法向松弛不能补齐切向线索。",
+      "parent_node": "local:diffcontact:modes",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/cone.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§IV–V; Appendix A–B",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:newton",
+      "key": "newton",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "从硬接触解求反向评估点",
+      "subtitle": "Newton迭代先解松弛关系，再在该点求敏感度。",
+      "detail": "从硬接触解初始化，正则化与偏移改善收敛；每接触点3维，多个接触联合求解。",
+      "parent_node": "local:diffcontact:cone",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/newton.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§V; Algorithm 1",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:jacobian",
+      "key": "jacobian",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "冲量敏感度与转移Jacobian",
+      "subtitle": "将接触冲量对状态/动作的变化组装为动力学导数。",
+      "detail": "配合Pinocchio刚体解析导数形成f_x和f_u，分别供BPTT和DDP/iLQR反传。",
+      "parent_node": "local:diffcontact:newton",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/jacobian.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§V–VI",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:bptt",
+      "key": "bptt",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "20步短段策略反传",
+      "subtitle": "沿20个控制步把代价梯度传回策略参数。",
+      "detail": "H=20覆盖0.5s，无末端critic；37维状态含nq=19、nv=18，12维关节力矩，策略以PD关节目标接入。",
+      "parent_node": "local:diffcontact:jacobian",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/bptt.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§VI-B",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:ablate",
+      "key": "ablate",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "同前向三种梯度对照",
+      "subtitle": "把前向和任务固定，仅换反向接触敏感度。",
+      "detail": "精确、仅法向松弛和完整锥松弛跨四任务、10种子比较，另测摩擦分布外摔倒；用于定位梯度设计收益。",
+      "parent_node": "local:diffcontact:bptt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/ablate.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§VII-A; Fig.6",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:hardware",
+      "key": "hardware",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "短时训练后上四足实机",
+      "subtitle": "仿真学习的策略直接部署到45kg四足。",
+      "detail": "trot与pace各100k控制步/108s，gait-free160k/172s；碎石、14次推扰和约0.25摩擦测试各自定位，不能合并为任意地形保证。",
+      "parent_node": "local:diffcontact:bptt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/hardware.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§VII-B; Fig.7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:method-ppo",
+      "key": "method-ppo",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "PPO样本和时间对照",
+      "subtitle": "比较同观测/动作/模拟设置下两类策略学习方法。",
+      "detail": "最小能学trot配置是BPTT1环境对PPO128环境，1.8对17.7min；BPTT确定性短段目标和PPO随机策略/critic仍是不同估计器。",
+      "parent_node": "local:diffcontact:bptt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/method-ppo.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§VII-C; Fig.9–10; Appendix C",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:feasible",
+      "key": "feasible",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "Newton残差与锥可行性",
+      "subtitle": "残差小还要核反向根是否满足摩擦锥。",
+      "detail": "99.95%评估在8次Newton内达到残差容差；稳定项共同开启时非物理解0.0058%，失败transition的Jacobian置零。",
+      "parent_node": "local:diffcontact:newton",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/feasible.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§VII-D; Fig.11",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:cito",
+      "key": "cito",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "接触隐式轨迹优化",
+      "subtitle": "不预设接触模式序列，用动力学导数优化动作轨迹。",
+      "detail": "DDP/iLQR比较平移、偏航、俯仰目标与外拉恢复；这部分结果来自仿真，和前面的实机policy评估分开。",
+      "parent_node": "local:diffcontact:jacobian",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/cito.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§VIII; Fig.12–14",
+      "explainers": []
+    },
+    {
+      "id": "local:diffcontact:geometry",
+      "key": "geometry",
+      "kind": "local",
+      "paper": "diffcontact",
+      "title": "点足与接触几何的边界",
+      "subtitle": "当前碰撞几何以平地点足接触建模。",
+      "detail": "拓展到任意接触形状还需要碰撞检测的导数，当前实机扰动展示不替代这一建模要求。",
+      "parent_node": "local:diffcontact:hard",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/geometry.md",
+      "source_url": "https://arxiv.org/html/2610.35852v1",
+      "locator": "§IX",
+      "explainers": []
+    },
+    {
       "id": "local:diffuser:diffusion",
       "key": "diffusion",
       "kind": "local",
@@ -7192,6 +7520,291 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/fast/method-chain.md",
       "source_url": "https://www.roboticsproceedings.org/rss21/p012.html",
       "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/imitation.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:diffusion",
+      "key": "diffusion",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "diffusion",
+      "title": "扩散去噪",
+      "subtitle": "训练网络从带噪对象估计噪声或干净目标，生成时从噪声开始迭代恢复样本。",
+      "detail": "扩散采样步骤和机器人环境时间步是两种时间。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/diffusion.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:flore:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/chunk.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:wbc",
+      "key": "wbc",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "wbc",
+      "title": "全身控制与执行",
+      "subtitle": "将运动目标、机器人状态和约束转成关节目标或力矩，协调腿、手臂与底盘。",
+      "detail": "生成了目标之后，还要沿实际控制接口看反馈。",
+      "parent_node": "local:flore:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/wbc.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:sim2real",
+      "key": "sim2real",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "sim2real",
+      "title": "仿真到实机",
+      "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
+      "detail": "实机结果必须按机器人与任务条件解释。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/sim2real.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:retarget",
+      "key": "retarget",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "retarget",
+      "title": "运动重定向",
+      "subtitle": "把人或另一种机器人的运动转换到目标本体的关节、末端与可达范围。",
+      "detail": "相似姿态不自动满足目标机器人的平衡和动力学。",
+      "parent_node": "local:flore:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/retarget.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/action.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "flore",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/data.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "flore",
+      "title": "本篇方法链路",
+      "subtitle": "双手持夹爪记录腕部图像、六轴接触力/力矩和身体运动，先做无机器人示范，再补成机器人可跟踪的全身参考。每任务一套扩散策略读取两张224×224腕图、14维相对状态和双手wrench历史，同时生成运动关键点与每手力指令；高层动作块交给低层全身控制器。低层将力误差积分换成手部位置目标偏移：命令方向持续调力，其余方向保持顺应，真实腕部传感器闭合反馈环。力不是只在训练时当标签，而是从示范、策略输入/输出一路接到执行。",
+      "detail": "双手持夹爪记录腕部图像、六轴接触力/力矩和身体运动，先做无机器人示范，再补成机器人可跟踪的全身参考。每任务一套扩散策略读取两张224×224腕图、14维相对状态和双手wrench历史，同时生成运动关键点与每手力指令；高层动作块交给低层全身控制器。低层将力误差积分换成手部位置目标偏移：命令方向持续调力，其余方向保持顺应，真实腕部传感器闭合反馈环。力不是只在训练时当标签，而是从示范、策略输入/输出一路接到执行。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:demo",
+      "key": "demo",
+      "kind": "local",
+      "paper": "flore",
+      "title": "带力示范采集",
+      "subtitle": "把人的运动与接触wrench同时记录成示范。",
+      "detail": "两只UMI式手持夹爪含腕相机、六轴F/T传感和VIVE；胸/脚踝trackers补身体运动，采集时不需要机器人。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/demo.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "§III-B; Fig.2",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:method-retarget",
+      "key": "method-retarget",
+      "kind": "local",
+      "paper": "flore",
+      "title": "示范补全与运动参考",
+      "subtitle": "将人的稀疏身体/手部记录补成机器人可跟踪的参考。",
+      "detail": "补全运动与接触力保留各自角色；示范姿态经过转换，真实执行再由低层全身控制处理平衡。",
+      "parent_node": "local:flore:demo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/method-retarget.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "§III-B",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:observation",
+      "key": "observation",
+      "kind": "local",
+      "paper": "flore",
+      "title": "图像、14维状态与wrench历史",
+      "subtitle": "高层策略观察视觉、相对本体状态和双手接触量。",
+      "detail": "两张224×224腕图经CLIP初始化ViT-B/16；相对位置、手姿和夹爪宽度组成14维状态，wrench历史用因果卷积编码。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/observation.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "§III-C; §IV-A",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:method-diffusion",
+      "key": "method-diffusion",
+      "kind": "local",
+      "paper": "flore",
+      "title": "运动与力的联合扩散输出",
+      "subtitle": "在条件观测下去噪得到运动关键点和每手力命令。",
+      "detail": "时间U-Net用FiLM接条件，DDPM训练、16步DDIM采样；H=50覆盖约1.67s，每任务单独policy。",
+      "parent_node": "local:flore:observation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/method-diffusion.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "§III-C; §IV-A",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:integral",
+      "key": "integral",
+      "kind": "local",
+      "paper": "flore",
+      "title": "力误差积分到位置偏移",
+      "subtitle": "把力命令误差积起来，再转换成手部位置目标偏移。",
+      "detail": "目标含参考位置、命令力除刚度和积分项除刚度；以真实F/T反力反馈持续修正，平衡时测得反力与命令符号相反。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/integral.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "§III-A",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:compliance",
+      "key": "compliance",
+      "kind": "local",
+      "paper": "flore",
+      "title": "命令方向跟力与其他方向顺应",
+      "subtitle": "同一控制器在指定方向调力，在未命令方向让手随外力退让。",
+      "detail": "训练含随机虚拟平面接触和扰动，策略观测控制修正量；实机外部拉动不是另加一套手工接管模式。",
+      "parent_node": "local:flore:integral",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/compliance.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "§III-A; Fig.4",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:sim",
+      "key": "sim",
+      "kind": "local",
+      "paper": "flore",
+      "title": "跟力精度与运动误差的取舍",
+      "subtitle": "在留出的动作集合检查全身运动与力跟踪。",
+      "detail": "Table I两动作集跟力误差约1N，相比SONIC外加admittance约7.9N；root和腕位置有代价，不能合并说成全部指标提升。",
+      "parent_node": "local:flore:integral",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/sim.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "Table I; §IV-B",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:hardware",
+      "key": "hardware",
+      "kind": "local",
+      "paper": "flore",
+      "title": "三类G1接触任务",
+      "subtitle": "在真实人形机器人上评估推架、转箱、擦板。",
+      "detail": "每任务每policy10次，测试条件配对；FLoRe为7/10、9/10、8/10，总24/30，位置DP为2/10、3/10、3/10。",
+      "parent_node": "paper:flore",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/hardware.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "Table II; §IV-C–E",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:ablation",
+      "key": "ablation",
+      "kind": "local",
+      "paper": "flore",
+      "title": "力命令与力观测的分路消融",
+      "subtitle": "分别关闭执行力命令和输入力观测，区分两条通道的作用。",
+      "detail": "去命令11/30、去观测20/30；前者与24/30的比较p=0.001，后者不沿用同一个显著性结论。",
+      "parent_node": "local:flore:hardware",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/ablation.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "Table II; §IV-F",
+      "explainers": []
+    },
+    {
+      "id": "local:flore:response",
+      "key": "response",
+      "kind": "local",
+      "paper": "flore",
+      "title": "实机跟力响应时间",
+      "subtitle": "通过独立力计检查手部施力的稳态与响应。",
+      "detail": "x方向约达到命令幅值91%，平均稳态误差约1.1N，平均1.8s进入±1N带；读控制效果时要同时看速度。",
+      "parent_node": "local:flore:integral",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/flore/response.md",
+      "source_url": "https://arxiv.org/html/2610.35862v1",
+      "locator": "Fig.5; §IV-B",
       "explainers": []
     },
     {
@@ -13413,6 +14026,144 @@
       "lit": false
     },
     {
+      "from": "paper:diffcontact",
+      "to": "local:diffcontact:dynamics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:dynamics",
+      "to": "concept:dynamics",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:diffcontact",
+      "to": "local:diffcontact:rl",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:diffcontact",
+      "to": "local:diffcontact:rollout",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:rollout",
+      "to": "concept:rollout",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:rl",
+      "to": "local:diffcontact:ppo",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:ppo",
+      "to": "concept:ppo",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:diffcontact",
+      "to": "local:diffcontact:sim2real",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:sim2real",
+      "to": "concept:sim2real",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:diffcontact",
+      "to": "local:diffcontact:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:diffcontact",
+      "to": "local:diffcontact:modes",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:modes",
+      "to": "local:diffcontact:hard",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:modes",
+      "to": "local:diffcontact:cone",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:cone",
+      "to": "local:diffcontact:newton",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:newton",
+      "to": "local:diffcontact:jacobian",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:jacobian",
+      "to": "local:diffcontact:bptt",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:bptt",
+      "to": "local:diffcontact:ablate",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:bptt",
+      "to": "local:diffcontact:hardware",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:bptt",
+      "to": "local:diffcontact:method-ppo",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:newton",
+      "to": "local:diffcontact:feasible",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:jacobian",
+      "to": "local:diffcontact:cito",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:diffcontact:hard",
+      "to": "local:diffcontact:geometry",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:diffuser",
       "to": "local:diffuser:diffusion",
       "kind": "contains",
@@ -14291,6 +15042,168 @@
     {
       "from": "paper:fast",
       "to": "local:fast:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:diffusion",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:diffusion",
+      "to": "concept:diffusion",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:flore:action",
+      "to": "local:flore:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:flore:action",
+      "to": "local:flore:wbc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:wbc",
+      "to": "concept:wbc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:sim2real",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:sim2real",
+      "to": "concept:sim2real",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:flore:action",
+      "to": "local:flore:retarget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:retarget",
+      "to": "concept:retarget",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:demo",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:demo",
+      "to": "local:flore:method-retarget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:observation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:observation",
+      "to": "local:flore:method-diffusion",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:integral",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:integral",
+      "to": "local:flore:compliance",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:integral",
+      "to": "local:flore:sim",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:flore",
+      "to": "local:flore:hardware",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:hardware",
+      "to": "local:flore:ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:flore:integral",
+      "to": "local:flore:response",
       "kind": "contains",
       "lit": false
     },
@@ -17328,9 +18241,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 116,
+    "papers": 118,
     "concepts": 59,
-    "local_topics": 525,
+    "local_topics": 562,
     "lit_papers": 2,
     "lit_concepts": 16,
     "lit_local_topics": 59

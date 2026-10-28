@@ -53,6 +53,8 @@
 
 ### 论文公开入口与传播快照
 
+- [project 入口](https://dreamzero0.github.io/)
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [github](https://github.com/dreamzero0/dreamzero) | GitHub Star 2699；GitHub Watch订阅 17；GitHub Fork 243 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |

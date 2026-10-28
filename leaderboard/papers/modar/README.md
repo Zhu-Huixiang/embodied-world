@@ -53,6 +53,8 @@
 
 ### 论文公开入口与传播快照
 
+- [project 入口](https://adamhung60.github.io/ModAR/)
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [github](https://github.com/adamhung60/ModAR-code) | GitHub Star 14；GitHub Watch订阅 0；GitHub Fork 2 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |

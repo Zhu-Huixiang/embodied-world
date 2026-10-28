@@ -53,6 +53,9 @@ masked video encoder/EMA目标先学表征；冻结编码器后训300M block-cau
 
 ### 论文公开入口与传播快照
 
+- [blog 入口](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)
+- [project 入口](https://ai.meta.com/research/vjepa/)
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [github](https://github.com/facebookresearch/jepa) | GitHub Star 4173；GitHub Watch订阅 52；GitHub Fork 423 | 其他研究入口；截至2026-10-10的累计快照 | 2026-10-10 |

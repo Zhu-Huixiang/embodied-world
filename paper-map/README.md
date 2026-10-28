@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 116 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 118 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -16,8 +16,8 @@
 - [世界动作模型](#track-world-action-model) · 5 篇
 - [视频动作模型与视觉推理](#track-video-action) · 5 篇
 - [视觉语言动作模型 VLA](#track-vla) · 15 篇
-- [操作与动作块](#track-manipulation) · 20 篇
-- [Locomotion 与运动适应](#track-locomotion) · 18 篇
+- [操作与动作块](#track-manipulation) · 21 篇
+- [Locomotion 与运动适应](#track-locomotion) · 19 篇
 - [动作先验与全身技能](#track-motion-priors) · 6 篇
 - [强化学习与离线决策](#track-reinforcement-learning) · 6 篇
 - [具身感知与场景表示](#track-embodied-perception) · 13 篇
@@ -127,6 +127,7 @@
 | [Behavior Generation with Latent Actions](../library/vq-bet.md) · [ICML 2024](../venues/ICML/README.md) | 动作先压成分层离散码，能否保留多种操作方式，同时省掉扩散反复采样？ |
 | [Transporter Networks](../library/transporter.md) · [CoRL 2020](../venues/CoRL/README.md) | 操作物体不一定要先识别物体？空间特征之间的匹配怎么直接长出动作？ |
 | [EgoScale](../library/egoscale.md) · [arXiv 2026](../arxiv/README.md#paper-egoscale) | 人类视频怎样变成机器人可学的手腕和手指动作，为什么大量预训练之后还要一小段人机对齐数据？ |
+| [Learning Force-Reactive Humanoid Loco-Manipulation](../library/flore.md) · [arXiv 2026](../arxiv/README.md#paper-flore) | 位置轨迹为什么还不够？力观测、力指令与全身控制各自解决哪一步，关闭一条通道会怎样？ |
 | [Dex-One2Many](../library/dex-one2many.md) · [arXiv 2026](../arxiv/README.md#paper-dex-one2many) | 场景图怎样同时提供探索引导与不锁死姿态的泛化？ |
 
 <a id="track-locomotion"></a>
@@ -154,6 +155,7 @@
 | [Demonstrating A Walk in the Park](../library/walk-in-the-park.md) · [RSS 2023](../venues/RSS/README.md) | 没有世界模型和动作模板，如何把实机采样与梯度更新快到足够实用？ |
 | [SONIC](../library/sonic.md) · [Sci. Robot. 2026](../venues/Science-Robotics/README.md) | 动作跟踪为什么能吃进大规模人类动作数据，64维共享运动 token 又怎样让同一控制器接遥操作和全身 VLA？ |
 | [HOVER](../library/hover.md) · [ICRA 2025](../venues/ICRA/README.md) | 一个全身策略怎样接住关节、身体位置、根速度等不同格式的指令？ |
+| [Differentiable Contact Dynamics for Legged Locomotion](../library/diffcontact.md) · [arXiv 2026](../arxiv/README.md#paper-diffcontact) | 脚从粘地到滑动，精确梯度为何可能指不出路？保留硬接触前向、只松弛反向梯度，能换来什么又付出什么？ |
 | [A Balanced Data Diet](../library/balanced-data-diet.md) · [arXiv 2026](../arxiv/README.md#paper-balanced-data-diet) | 并行环境堆到很大以后，为什么探索还会卡住？ |
 
 <a id="track-motion-priors"></a>
@@ -241,4 +243,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-10-27。
+元数据核对日期：2026-10-28。

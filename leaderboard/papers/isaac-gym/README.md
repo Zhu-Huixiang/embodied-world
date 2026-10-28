@@ -54,6 +54,7 @@ GPU PhysX 缓冲包装为 PyTorch tensor；观测、奖励、动作、并行 rol
 
 ### 论文公开入口与传播快照
 
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [huggingface](https://huggingface.co/papers/2108.10470) | HF 论文累计点赞 0 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |

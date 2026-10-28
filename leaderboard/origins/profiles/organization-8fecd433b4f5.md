@@ -26,6 +26,6 @@
 - [来源4](https://videovla-nips2025.github.io/)
 - [来源5](https://proceedings.neurips.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf)
 
-资料核验：2026-10-27。
+资料核验：2026-10-28。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

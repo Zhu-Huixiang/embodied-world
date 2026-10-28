@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27",
+  "checked_at": "2026-10-28",
   "scan": {
     "scanned_at": "2026-10-09T18:28:55+08:00",
     "as_of": "2026-10-09",
@@ -394,6 +394,107 @@
       "mechanism": "先让当前策略在 MuJoCo Warp 中收集状态、动作与下一状态，存进回放池；一个共享可微动力学模型用8步自回归窗口拟合这些转移。策略更新时暂时固定模型参数，在模型里展开32步想象轨迹，把跟踪奖励经动作和状态的雅可比反传给策略，末端价值函数补上短视野外的回报。模拟器采样、世界模型拟合与策略改进交替进行，最终将跟踪策略部署到 Unitree G1。世界模型服务训练，不替换实机执行反馈。",
       "abstract": "A shared learned differentiable world model and short imagined policy rollouts scale humanoid whole-body motion tracking.",
       "selection_origin": "2026-10-27用户提名后定向核原文、会议官方名单和公开计量；不是整批arXiv扫描结果。"
+    },
+    {
+      "id": "flore",
+      "short_name": "FLoRe",
+      "arxiv_id": "2610.35862",
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "authors": [
+        "Sihang Li",
+        "Xiaofeng Guo",
+        "Jinkun Cao",
+        "Charlie Cheng",
+        "Ruihan Yang",
+        "Chen Feng",
+        "Guanya Shi",
+        "Haozhi Qi"
+      ],
+      "affiliations": [
+        "Amazon FAR (Frontier AI & Robotics)",
+        "New York University",
+        "Carnegie Mellon University",
+        "University of Chicago"
+      ],
+      "track": "manipulation",
+      "published": "2026-10-26T17:59:11Z",
+      "project_url": "https://louis-leee.github.io/FLoRe/",
+      "scope": "力反馈示范学习、双手接触操作与人形全身控制；G1三类指定接触任务",
+      "reading_question": "位置轨迹为什么还不够？力观测、力指令与全身控制各自解决哪一步，关闭一条通道会怎样？",
+      "selection_reason": "把力标注示范、预测力指令和真实全身执行串成可检验的接口；位置基线、去力命令和去力观测分别对照，能区分到底哪条力通道有用。",
+      "evidence_summary": "Table II：三任务、每条件每任务10次，FLoRe共24/30成功，位置DP为8/30；去力命令11/30，去力观测20/30。架构、示范数据和训练日程匹配；每任务单独训练。Table I显示跟力收益同时伴随部分root/腕位置误差增加；实机x向跟力约1.1N稳态误差、1.8s进入±1N带。",
+      "embodied_relevance": "将接触反馈与全身平衡接在同一执行链，直接服务推、转、擦等人形机器人操作。",
+      "first_author": "Sihang Li",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.35862v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35862v1",
+      "code_url": null,
+      "first_arxiv_submission": "2026-10-26T17:59:11Z",
+      "first_arxiv_submission_shanghai": "2026-10-27T01:59:11+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-10-28",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "version_id": "2610.35862v1",
+      "updated": "2026-10-26T17:59:11Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/html/2610.35862v1",
+        "section": "front matter / affiliations"
+      },
+      "mechanism": "双手持夹爪记录腕部图像、六轴接触力/力矩和身体运动，先做无机器人示范，再补成机器人可跟踪的全身参考。每任务一套扩散策略读取两张224×224腕图、14维相对状态和双手wrench历史，同时生成运动关键点与每手力指令；高层动作块交给低层全身控制器。低层将力误差积分换成手部位置目标偏移：命令方向持续调力，其余方向保持顺应，真实腕部传感器闭合反馈环。力不是只在训练时当标签，而是从示范、策略输入/输出一路接到执行。",
+      "selection_origin": "2026-10-28每日有界扫描后，读取arXiv v1完整HTML并核相关附录。"
+    },
+    {
+      "id": "diffcontact",
+      "short_name": "DiffContact",
+      "arxiv_id": "2610.35852",
+      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "authors": [
+        "Gijeong Kim",
+        "Seungbin Oh",
+        "Dongyun Kang",
+        "Hae-Won Park"
+      ],
+      "affiliations": [
+        "Department of Mechanical Engineering, KAIST"
+      ],
+      "track": "locomotion",
+      "published": "2026-10-26T17:57:14Z",
+      "project_url": "https://diffcontact.github.io",
+      "scope": "解析接触梯度、BPTT足式策略学习与接触隐式轨迹优化；45kg四足点足接触模型及实机策略",
+      "reading_question": "脚从粘地到滑动，精确梯度为何可能指不出路？保留硬接触前向、只松弛反向梯度，能换来什么又付出什么？",
+      "selection_reason": "在同一硬接触前向与任务目标下，直接比较精确、仅法向松弛和完整摩擦锥三种反向梯度；机制推导、数值可行性、学习对照和实机部署互相照应。",
+      "evidence_summary": "Fig.7：单仿真环境BPTT，trot/pace各100,000控制步、108s训练后无微调上45kg四足；gait-free另为160,000步、172s。Fig.9–10最小能学trot配置：BPTT1环境约1e5样本/1.8min，PPO128环境约1e7/17.7min；两者学习估计器不同。Fig.11检查Newton收敛和摩擦锥可行性；CITO的base-pose与拉扰恢复比较属于仿真。",
+      "embodied_relevance": "给接触丰富的足式学习和轨迹优化提供可解析反传的控制接口，重点解决接触模式边界附近的训练信号。",
+      "first_author": "Gijeong Kim",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.35852v1",
+      "code_url": null,
+      "first_arxiv_submission": "2026-10-26T17:57:14Z",
+      "first_arxiv_submission_shanghai": "2026-10-27T01:57:14+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-10-28",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "version_id": "2610.35852v1",
+      "updated": "2026-10-26T17:57:14Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/html/2610.35852v1",
+        "section": "front matter / affiliations"
+      },
+      "mechanism": "前向继续用硬接触模拟器生成轨迹，只在反向替换接触冲量的敏感度。方法对含de Saxcé修正的库仑摩擦二阶锥互补条件做完整锥中心路径松弛，从硬接触解出发用Newton迭代找到反向求导的评估点，组装状态/动作转移Jacobian，再供BPTT更新策略或DDP/iLQR优化轨迹。法向与切向一起松弛，梯度才有机会指向离地、粘住和滑动这些邻近模式；松弛参数趋零时回到固定接触模式的精确敏感度。",
+      "selection_origin": "2026-10-28每日有界扫描后，读取arXiv v1完整HTML并核相关附录。"
     }
   ],
   "screening": {
@@ -412,6 +513,26 @@
         "https://arxiv.org/pdf/2610.28480v1",
         "https://2026.corl.org/program/accepted-papers",
         "https://supermimic.github.io/"
+      ]
+    },
+    {
+      "id": "flore",
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2610.35862v1",
+        "https://arxiv.org/html/2610.35862v1",
+        "https://louis-leee.github.io/FLoRe/"
+      ]
+    },
+    {
+      "id": "diffcontact",
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2610.35852v1",
+        "https://arxiv.org/html/2610.35852v1",
+        "https://diffcontact.github.io"
       ]
     }
   ]

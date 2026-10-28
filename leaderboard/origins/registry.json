@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27",
+  "checked_at": "2026-10-28",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3282,6 +3282,54 @@
         "Hybrid Robotics",
         "Koushil Sreenath",
         "伯克利混合机器人"
+      ]
+    },
+    "amazon-far": {
+      "id": "amazon-far",
+      "name": "Amazon FAR (Frontier AI & Robotics)",
+      "display_name": "亚马逊前沿人工智能与机器人团队",
+      "short_display_name": "亚马逊前沿人工智能与机器人团队",
+      "kind": "industry_research_team",
+      "identity_url": "https://louis-leee.github.io/FLoRe/",
+      "focus": "本篇工作涉及力反馈示范学习、人形机器人双手操作与全身接触控制。",
+      "links": [
+        {
+          "label": "FLoRe官方项目与署名",
+          "url": "https://louis-leee.github.io/FLoRe/"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/html/2610.35862v1",
+        "https://louis-leee.github.io/FLoRe/"
+      ],
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "aliases": [
+        "Amazon FAR (Frontier AI & Robotics)",
+        "亚马逊前沿人工智能与机器人团队"
+      ]
+    },
+    "university-of-chicago": {
+      "id": "university-of-chicago",
+      "name": "University of Chicago",
+      "display_name": "芝加哥大学",
+      "short_display_name": "芝加哥大学",
+      "kind": "university",
+      "identity_url": "https://louis-leee.github.io/FLoRe/",
+      "focus": "本仓当前收录涉及人形接触操作与学习控制的研究；这不是学校全部研究方向。",
+      "links": [
+        {
+          "label": "FLoRe官方项目与署名",
+          "url": "https://louis-leee.github.io/FLoRe/"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/html/2610.35862v1",
+        "https://louis-leee.github.io/FLoRe/"
+      ],
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "aliases": [
+        "University of Chicago",
+        "芝加哥大学"
       ]
     }
   },
@@ -8876,6 +8924,69 @@
           "url": "https://qiayuanl.github.io/"
         }
       ]
+    },
+    "flore": {
+      "first_authors": [
+        "Sihang Li"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Sihang Li",
+        "Xiaofeng Guo",
+        "Jinkun Cao",
+        "Charlie Cheng",
+        "Ruihan Yang",
+        "Chen Feng",
+        "Guanya Shi",
+        "Haozhi Qi"
+      ],
+      "profile_ids": [
+        "amazon-far",
+        "institution-i57206974",
+        "institution-i74973139",
+        "university-of-chicago"
+      ],
+      "affiliations": [
+        "Amazon FAR (Frontier AI & Robotics)",
+        "New York University",
+        "Carnegie Mellon University",
+        "University of Chicago"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2610.35862v1",
+        "https://louis-leee.github.io/FLoRe/"
+      ],
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "author_basis": "原文作者顺序与第一署名",
+      "affiliation_basis": "原文首页全部署名；FLoRe机构对应另经官方项目页核对。",
+      "primary_author_source": "https://arxiv.org/html/2610.35862v1",
+      "authorship_notes": "原文†为Amazon FAR team co-lead，§为实习说明；不据此登记通讯作者。作者机构对应从官方项目页和原文署名核。"
+    },
+    "diffcontact": {
+      "first_authors": [
+        "Gijeong Kim"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Gijeong Kim",
+        "Seungbin Oh",
+        "Dongyun Kang",
+        "Hae-Won Park"
+      ],
+      "profile_ids": [
+        "institution-i157485424"
+      ],
+      "affiliations": [
+        "Department of Mechanical Engineering, KAIST"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2610.35852v1"
+      ],
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "author_basis": "原文作者顺序与第一署名",
+      "affiliation_basis": "原文四位作者均列KAIST机械工程系。",
+      "primary_author_source": "https://arxiv.org/html/2610.35852v1",
+      "authorship_notes": "原文四位作者均署KAIST机械工程系；未按末作者或已有他篇实验室归属补通讯角色。DiffContact为本仓编辑简称。"
     }
   },
   "coverage": {
@@ -9017,7 +9128,10 @@
     "Vesoma": "Vesoma",
     "Weizmann Institute of Science": "魏茨曼科学研究所",
     "Yonsei University": "延世大学",
-    "Zhejiang University": "浙江大学"
+    "Zhejiang University": "浙江大学",
+    "Amazon FAR (Frontier AI & Robotics)": "亚马逊前沿人工智能与机器人团队",
+    "University of Chicago": "芝加哥大学",
+    "Department of Mechanical Engineering, KAIST": "韩国科学技术院（KAIST）机械工程系"
   },
   "display_policy": {
     "people": "original English names",

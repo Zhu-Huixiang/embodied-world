@@ -1,6 +1,6 @@
 # Humanoid Loco-Manipulation With Discrete VLA Model
 
-**Holo-M** · arXiv 2026 · 本版排名 112 · 综合分 **62.3 / 100**
+**Holo-M** · arXiv 2026 · 本版排名 114 · 综合分 **62.3 / 100**
 
 [完整解读](../../../articles/holo-m-2609.35709/README.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-holo-m)
 
@@ -57,8 +57,7 @@ DCT低频系数与四级残差码固定组长；缺失组监督连接人类/机�
 
 ### 论文公开入口与传播快照
 
-| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
-| --- | --- | --- | --- |
+- [project 入口](https://horizonrobotics.github.io/gail/Holo-M/)
 
 [传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

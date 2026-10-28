@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-116 篇论文是恒星，各自有自己的知识行星与卫星：共 525 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 2 篇有完整解读，59 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+118 篇论文是恒星，各自有自己的知识行星与卫星：共 562 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 2 篇有完整解读，59 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -41,6 +41,7 @@
 | [Deep WBC](papers/deep-whole-body-control.md) | 导读 | [全身控制与执行](concepts/wbc.md) · [环境适应](concepts/adaptation.md) · [强化学习](concepts/rl.md) |
 | [DeepMimic](papers/deepmimic.md) | 导读 | [动作先验](concepts/motion-prior.md) · [强化学习](concepts/rl.md) · [全身控制与执行](concepts/wbc.md) |
 | [Dex-One2Many](papers/dex-one2many.md) | 导读 | [空间表示](concepts/spatial.md) · [强化学习](concepts/rl.md) · [机器人数据与评测](concepts/data.md) |
+| [DiffContact](papers/diffcontact.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [强化学习](concepts/rl.md) · [闭环滚动与历史偏移](concepts/rollout.md) · [PPO 与并行模拟](concepts/ppo.md) · [仿真到实机](concepts/sim2real.md) |
 | [Diffuser](papers/diffuser.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [树搜索与轨迹搜索](concepts/search.md) · [动作表示](concepts/action.md) |
 | [Diffusion Forcing](papers/diffusion-forcing.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [因果序列建模](concepts/causal.md) · [视频时序生成](concepts/video.md) |
 | [Diffusion Policy](papers/diffusion-policy.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
@@ -62,6 +63,7 @@
 | [ExBody](papers/exbody.md) | 导读 | [运动重定向](concepts/retarget.md) · [全身控制与执行](concepts/wbc.md) · [动作先验](concepts/motion-prior.md) |
 | [Extreme Parkour](papers/extreme-parkour.md) | 导读 | [特权训练信息](concepts/privileged.md) · [教师学生蒸馏](concepts/distill.md) · [仿真到实机](concepts/sim2real.md) |
 | [FAST](papers/fast.md) | 导读 | [DCT 频率系数](concepts/dct.md) · [离散编码与量化](concepts/quantization.md) · [因果序列建模](concepts/causal.md) |
+| [FLoRe](papers/flore.md) | 导读 | [示范模仿](concepts/imitation.md) · [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) · [全身控制与执行](concepts/wbc.md) · [仿真到实机](concepts/sim2real.md) · [运动重定向](concepts/retarget.md) · [动作表示](concepts/action.md) · [机器人数据与评测](concepts/data.md) |
 | [Flow Matching](papers/flow-matching.md) | 导读 | [Flow Matching](concepts/flow.md) · [条件生成](concepts/generation.md) |
 | [3DGS](papers/gaussian-splatting.md) | 导读 | [新视角场景表示](concepts/radiance.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) |
 | [GR00T N1](papers/gr00t-n1.md) | 导读 | [Flow Matching](concepts/flow.md) · [Diffusion Transformer](concepts/dit.md) · [跨本体数据](concepts/cross-body.md) |

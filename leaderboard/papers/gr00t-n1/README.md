@@ -53,6 +53,9 @@ Eagle-2视觉语言middle-layer tokens→DiT交叉注意力；embodiment-specifi
 
 ### 论文公开入口与传播快照
 
+- [blog 入口](https://developer.nvidia.com/blog/accelerate-generalist-humanoid-robot-development-with-nvidia-isaac-gr00t-n1/)
+- [blog 入口](https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks)
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [github](https://github.com/NVIDIA/Isaac-GR00T) | GitHub Star 8183；GitHub Watch订阅 74；GitHub Fork 1489 | 多论文/多模型共享仓库；截至2026-10-10的累计快照 | 2026-10-10 |

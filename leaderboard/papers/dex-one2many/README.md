@@ -1,6 +1,6 @@
 # Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration
 
-**Dex-One2Many** · arXiv 2026 · 本版排名 113 · 综合分 **62.2 / 100**
+**Dex-One2Many** · arXiv 2026 · 本版排名 115 · 综合分 **62.2 / 100**
 
 [解读导读](../../../library/dex-one2many.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-dex-one2many)
 
@@ -55,8 +55,7 @@
 
 ### 论文公开入口与传播快照
 
-| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
-| --- | --- | --- | --- |
+- [project 入口](https://dex-one2many.github.io/)
 
 [传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

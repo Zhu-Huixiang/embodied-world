@@ -56,6 +56,8 @@
 
 ### 论文公开入口与传播快照
 
+- [project 入口](https://supermimic.github.io/)
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [github](https://github.com/CuboiLeo/SuperMimic-Reproduced) | 第三方复现仓库star 259 | 第三方单论文复现仓库，非作者官方代码；近期新建入口截至2026-10-27的累计快照 | 2026-10-27T14:35:45+08:00 |

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27",
+  "checked_at": "2026-10-28",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -21422,6 +21422,44 @@
       ],
       "adoption_evidence": [],
       "audit_note": "第三方README列有观测口径/动作库/硬件偏离，未据此认证原文结论的同口径复现。作者独立性未充分核实，暂不计独立学术采用或外部评审阶段；star仅进近期关注。"
+    },
+    "flore": {
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "url": "https://louis-leee.github.io/FLoRe/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.35862v1",
+            "https://arxiv.org/html/2610.35862v1"
+          ],
+          "metrics": [],
+          "availability_note": "原文绑定的单篇项目入口；本次项目页可读、无可核计数。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "GitHub精确arXiv ID仓库检索200/0结果仅代表本次查询；HF论文API404。补查网页只见自动索引/摘要和共享daily仓库，不构成独立技术采用，仓库总star不分摊给论文。未核X/HF/博客单篇计数，不填0。"
+    },
+    "diffcontact": {
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "url": "https://diffcontact.github.io",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.35852v1",
+            "https://arxiv.org/html/2610.35852v1"
+          ],
+          "metrics": [],
+          "availability_note": "原文绑定单篇项目入口；本次连接失败，未核页面内容或计数。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "GitHub精确arXiv ID仓库检索200/0结果仅代表本次查询；HF论文API404。补查网页只见自动索引/摘要和共享daily仓库，不构成独立技术采用，仓库总star不分摊给论文。未核X/HF/博客单篇计数，不填0。"
     }
   },
   "excluded_candidates": [

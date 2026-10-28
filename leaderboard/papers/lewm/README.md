@@ -53,6 +53,8 @@ ViT将每帧变成192维CLS表征；动作AdaLN条件的Transformer预测下个l
 
 ### 论文公开入口与传播快照
 
+- [project 入口](https://le-wm.github.io/)
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [github](https://github.com/lucas-maes/le-wm) | GitHub Star 4508；GitHub Watch订阅 50；GitHub Fork 664 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |

@@ -18,6 +18,7 @@
 - [Diffuser](../papers/diffuser.md) · 机制导读 · [原文](https://proceedings.mlr.press/v162/janner22a.html)
 - [Walk These Ways](../papers/walk-these-ways.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/margolis23a.html)
 - [Walk in the Park](../papers/walk-in-the-park.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p056.html)
+- [FLoRe](../papers/flore.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35862v1)
 - [ARC](../papers/arc.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12386v1)
 - [PLaW-VLA](../papers/plaw-vla.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12285v1)
 

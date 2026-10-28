@@ -25,6 +25,7 @@
 - [Dynamics Review](../papers/learned-dynamics-review.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.adt1497)
 - [V-JEPA 2](../papers/vjepa2.md) · 机制导读 · [原文](https://arxiv.org/abs/2506.09985)
 - [SuperMimic](../papers/supermimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.28480)
+- [DiffContact](../papers/diffcontact.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35852v1)
 - [DreamTrue](../papers/dreamtrue.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12468v1)
 - [LeWAM](../papers/lewam.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12407v1)
 

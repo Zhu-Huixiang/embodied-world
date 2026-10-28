@@ -1,6 +1,6 @@
 # ARC: A Reasoning Recipe for Robot Foundation Models
 
-**ARC** · arXiv 2026 · 本版排名 114 · 综合分 **62.2 / 100**
+**ARC** · arXiv 2026 · 本版排名 116 · 综合分 **62.2 / 100**
 
 [解读导读](../../../library/arc.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-arc)
 
@@ -55,8 +55,7 @@
 
 ### 论文公开入口与传播快照
 
-| 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
-| --- | --- | --- | --- |
+- [project 入口](https://arc-robot-reasoning.github.io/)
 
 [传播数据与采用依据](../../social-signals.json)保留归属、统计窗口与计分信号。
 [评分说明](../../methodology.md) · [返回具身榜](../../README.md) · [论文地图](../../../paper-map/README.md)

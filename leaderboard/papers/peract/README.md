@@ -54,6 +54,7 @@ RGB-D 重建为三维体素网格，体素 patch 与语言向量组成序列；P
 
 ### 论文公开入口与传播快照
 
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [github](https://github.com/peract/peract) | GitHub Star 498；GitHub Watch订阅 12；GitHub Fork 75 | 单篇论文仓库；截至2026-10-10的累计快照 | 2026-10-10 |

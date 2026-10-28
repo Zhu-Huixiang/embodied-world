@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-10-27",
+  "checked_at": "2026-10-28",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1279,6 +1279,30 @@
       "checked_at": "2026-10-27T14:35:45+08:00",
       "verification_basis": "v1原文首页、arXiv版本历史、CoRL官方内嵌录用名单精确标题/Oral O7/No.217。",
       "reason": "v1完整公开且身份、作者、时间可追溯；CoRL 2026官方录用名单含该篇，按CoRL既有90分量表取较高阶段，Oral不加分。"
+    },
+    "flore": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/html/2610.35862v1",
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.35862v1",
+        "https://arxiv.org/html/2610.35862v1"
+      ],
+      "verification_basis": "已读原站v1全文、首页作者/机构、版本历史；逐篇内部出处记录见今日research。",
+      "reason": "arXiv v1完整公开，稳定论文身份、作者和时间可追溯，按完整公开阶段60计"
+    },
+    "diffcontact": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/html/2610.35852v1",
+      "checked_at": "2026-10-28T09:14:23+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.35852v1",
+        "https://arxiv.org/html/2610.35852v1"
+      ],
+      "verification_basis": "已读原站v1全文、首页作者/机构、版本历史；逐篇内部出处记录见今日research。",
+      "reason": "arXiv v1完整公开，稳定论文身份、作者和时间可追溯，按完整公开阶段60计",
+      "submission_target": "IEEE Transactions on Robotics",
+      "submission_status": "submitted"
     }
   }
 }

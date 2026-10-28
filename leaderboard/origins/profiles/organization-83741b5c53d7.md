@@ -25,6 +25,6 @@
 - [来源3](https://api.openalex.org/works/W4366208220)
 - [来源4](https://arxiv.org/html/2304.07193v2)
 
-资料核验：2026-10-27。
+资料核验：2026-10-28。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

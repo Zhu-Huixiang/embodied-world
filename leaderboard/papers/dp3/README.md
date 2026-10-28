@@ -54,6 +54,8 @@
 
 ### 论文公开入口与传播快照
 
+- [project 入口](https://3d-diffusion-policy.github.io/)
+
 | 平台 / 入口 | 公开计量 | 统计范围 | 快照 |
 | --- | --- | --- | --- |
 | [huggingface](https://huggingface.co/papers/2403.03954) | HF 论文累计点赞 13 | 按精确arXiv ID核对的单篇论文页；截至2026-10-10的累计快照 | 2026-10-10 |

@@ -14,6 +14,7 @@
 - [LIBERO](../papers/libero.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html)
 - [RoboCasa](../papers/robocasa.md) · 机制导读 · [原文](https://roboticsproceedings.org/rss20/p050.html)
 - [MimicGen](../papers/mimicgen.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/mandlekar23a.html)
+- [FLoRe](../papers/flore.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35862v1)
 - [Dex-One2Many](../papers/dex-one2many.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12470v1)
 - [Balanced Data Diet](../papers/balanced-data-diet.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12465v1)
 

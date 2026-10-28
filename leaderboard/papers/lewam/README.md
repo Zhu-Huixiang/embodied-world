@@ -1,6 +1,6 @@
 # LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC
 
-**LeWAM** · arXiv 2026 · 本版排名 111 · 综合分 **63.1 / 100**
+**LeWAM** · arXiv 2026 · 本版排名 112 · 综合分 **63.1 / 100**
 
 [解读导读](../../../library/lewam.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-lewam)
 

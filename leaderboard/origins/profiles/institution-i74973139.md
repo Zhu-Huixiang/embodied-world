@@ -26,6 +26,7 @@
 | [HOVER · HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots](../../../library/hover.md) | 2025 / [ICRA](../../../venues/ICRA/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [79.6](../../papers/hover/README.md) |
 | [OmniH2O · OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](../../../library/omnih2o.md) | 2024 / [CoRL](../../../venues/CoRL/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [76.8](../../papers/omnih2o/README.md) |
 | [ModAR · Modality-Autoregressive World-Action Models](../../../library/modar.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-modar) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [69.6](../../papers/modar/README.md) |
+| [FLoRe · Learning Force-Reactive Humanoid Loco-Manipulation](../../../library/flore.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-flore) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [63.0](../../papers/flore/README.md) |
 
 ## 署名与来源
 
@@ -34,6 +35,6 @@
 - [来源1](https://openalex.org/I74973139)
 - [来源2](https://api.openalex.org/institutions/I74973139)
 
-资料核验：2026-10-27。
+资料核验：2026-10-28。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)
