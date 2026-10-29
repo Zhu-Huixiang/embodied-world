@@ -8,6 +8,10 @@
 
 继续拆：[因果序列建模](causal.md)。
 
+## 在完整解读里看计算与例子
+
+- [DDPM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#36-打开-b-区u-net-里面怎样处理图像和时间)
+
 ## 哪些论文用到或讨论它
 
 - [π₀](../papers/pi0.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss21/p010.html)
@@ -21,6 +25,7 @@
 - [ViT](../papers/vit.md) · 机制导读 · [原文](https://iclr.cc/virtual/2021/poster/3013)
 - [SAM](../papers/sam.md) · 机制导读 · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
 - [SAM 2](../papers/sam2.md) · 机制导读 · [原文](https://openreview.net/forum?id=Ha6RTeWMd0)
+- [DDPM](../papers/ddpm.md) · 已精讲 · [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
 - [Latent Diffusion](../papers/latent-diffusion.md) · 机制导读 · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)
 - [Video Diffusion](../papers/video-diffusion.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html)
 

@@ -22,6 +22,7 @@
 ## 论文解读
 
 - [CLIP：把分类器写成一句话，凭什么管用？](articles/clip-2103.00020/README.md)
+- [DDPM：只学预测噪声，怎么就能画画了？](articles/ddpm-2006.11239/README.md)
 - [全身动作写成208个token，机器人就懂了吗？](articles/holo-m-2609.35709/README.md)
 
 公众号文章链接在公开发表后加入各篇页面。Holo-M 目前可读 GitHub 全稿，公众号稿仍待质量评阅与后台发表。
@@ -31,12 +32,12 @@
 - [世界模型](directions/world-model.md)（0 篇）
 - [世界动作模型](directions/world-action-model.md)（0 篇）
 - [视频动作模型](directions/video-action.md)（0 篇）
-- [视频生成](directions/video-generation.md)（0 篇）
+- [视频生成](directions/video-generation.md)（1 篇）
 - [VLA](directions/vla.md)（2 篇）
 - [强化学习](directions/reinforcement-learning.md)（0 篇）
 - [运动控制与 Locomotion](directions/locomotion.md)（1 篇）
 - [Manipulation](directions/manipulation.md)（2 篇）
-- [Diffusion / Transformer](directions/diffusion-transformer.md)（1 篇）
+- [Diffusion / Transformer](directions/diffusion-transformer.md)（2 篇）
 
 ## 一起读，也一起纠错
 

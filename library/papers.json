@@ -2383,7 +2383,9 @@
       "classic_exception_reason": "2020 年经典例外：现代动作扩散及视频扩散直接建立在 DDPM 类型的噪声预测和反向采样上。",
       "embodied_relevance": "动作扩散和视频扩散共享前向加噪、条件噪声预测及反向采样这条核心链路，先读能解释具身策略到底在优化什么。",
       "evidence_summary": "概率建模与易训练目标的连接清楚，生成基准与目标消融可读，官方代码公开；其动作建模继承关系直接。",
-      "selection_window": "classic_exception"
+      "selection_window": "classic_exception",
+      "article_slug": "ddpm-2006.11239",
+      "editorial_status_label": "完整解读"
     },
     {
       "id": "ddim",

@@ -30,7 +30,7 @@ Jonathan Ho、Ajay Jain、Pieter Abbeel
 
 </details>
 
-[论文导读 / 完整解读](../../../library/ddpm.md) · [七维评分](../../papers/ddpm/README.md) · [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
+[论文导读 / 完整解读](../../../articles/ddpm-2006.11239/README.md) · [七维评分](../../papers/ddpm/README.md) · [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
 
 ## 署名来源
 

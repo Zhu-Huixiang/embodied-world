@@ -235,7 +235,7 @@
 | --- | --- |
 | [DIT](../library/dit.md) · [ICCV 2023](../venues/ICCV/README.md) | Transformer 怎样在潜空间去噪，条件又怎样进入各层？ |
 | [Attention Is All You Need](../library/attention.md) · [NeurIPS 2017](../venues/NeurIPS/README.md) | Q、K、V 到底在计算什么，为什么这套序列计算能连接视觉、语言和动作？ |
-| [Denoising Diffusion Probabilistic Models](../library/ddpm.md) · [NeurIPS 2020](../venues/NeurIPS/README.md) | 加噪声再预测噪声的训练目标，怎样变成一段机器人动作的采样算法？ |
+| [Denoising Diffusion Probabilistic Models](../articles/ddpm-2006.11239/README.md) · [NeurIPS 2020](../venues/NeurIPS/README.md) | 加噪声再预测噪声的训练目标，怎样变成一段机器人动作的采样算法？ |
 | [Denoising Diffusion Implicit Models](../library/ddim.md) · [ICLR 2021](../venues/ICLR/README.md) | 去噪训练目标不变，为什么推理时能跳步，延迟与样本质量该怎样交换？ |
 | [High-Resolution Image Synthesis with Latent Diffusion Models](../library/latent-diffusion.md) · [CVPR 2022](../venues/CVPR/README.md) | 为什么视频或图像模型常先压到 latent 空间，压缩省掉什么、又可能丢掉什么？ |
 | [Elucidating the Design Space of Diffusion-Based Generative Models](../library/edm.md) · [NeurIPS 2022](../venues/NeurIPS/README.md) | 同样是扩散，噪声尺度、网络预处理和数值求解器各改变了哪一层？ |

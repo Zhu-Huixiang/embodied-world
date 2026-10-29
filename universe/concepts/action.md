@@ -6,6 +6,10 @@
 
 继续拆：[动作块](chunk.md) · [离散编码与量化](quantization.md) · [DCT 频率系数](dct.md) · [运动重定向](retarget.md) · [全身控制与执行](wbc.md)。
 
+## 在完整解读里看计算与例子
+
+- [DDPM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上)
+
 ## 哪些论文用到或讨论它
 
 - [CoT-VLA](../papers/cot-vla.md) · 机制导读 · [原文](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html)
@@ -18,6 +22,7 @@
 - [Diffuser](../papers/diffuser.md) · 机制导读 · [原文](https://proceedings.mlr.press/v162/janner22a.html)
 - [Walk These Ways](../papers/walk-these-ways.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/margolis23a.html)
 - [Walk in the Park](../papers/walk-in-the-park.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p056.html)
+- [DDPM](../papers/ddpm.md) · 已精讲 · [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
 - [FLoRe](../papers/flore.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35862v1)
 - [JAM](../papers/jam.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.37219v1)
 - [TOPS](../papers/tops.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.36694v1)

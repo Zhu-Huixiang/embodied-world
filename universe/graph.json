@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-29",
+  "checked_at": "2026-10-29T10:25:57+08:00",
   "nodes": [
     {
       "id": "paper:act",
@@ -434,12 +434,15 @@
       "subtitle": "Denoising Diffusion Probabilistic Models",
       "track": "diffusion-transformer",
       "track_label": "Diffusion / Transformer 基础",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/ddpm.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md",
       "concepts": [
         "diffusion",
-        "generation"
+        "generation",
+        "attention",
+        "action",
+        "chunk"
       ],
       "scope": "mechanism",
       "source_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html"
@@ -2633,7 +2636,7 @@
       "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
       "parent": "transformer",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/attention.md",
       "papers": [
         "pi0",
@@ -2647,10 +2650,16 @@
         "vit",
         "sam",
         "sam2",
+        "ddpm",
         "latent-diffusion",
         "video-diffusion"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#36-打开-b-区u-net-里面怎样处理图像和时间"
+        }
+      ]
     },
     {
       "id": "concept:causal",
@@ -2782,7 +2791,7 @@
       "detail": "条件可以是当前图、语言、目标状态或历史。",
       "parent": null,
       "depth": 0,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/generation.md",
       "papers": [
         "ddpm",
@@ -2792,7 +2801,12 @@
         "rectified-flow",
         "consistency-models"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        }
+      ]
     },
     {
       "id": "concept:diffusion",
@@ -2803,7 +2817,7 @@
       "detail": "扩散采样步骤和机器人环境时间步是两种时间。",
       "parent": "generation",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/diffusion.md",
       "papers": [
         "diffusion-policy",
@@ -2821,7 +2835,12 @@
         "video-diffusion",
         "flore"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#22-加噪公式里为什么还要把原图缩小"
+        }
+      ]
     },
     {
       "id": "concept:flow",
@@ -2909,7 +2928,7 @@
       "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
       "parent": null,
       "depth": 0,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/action.md",
       "papers": [
         "cot-vla",
@@ -2922,13 +2941,19 @@
         "diffuser",
         "walk-these-ways",
         "walk-in-the-park",
+        "ddpm",
         "flore",
         "jam",
         "tops",
         "arc",
         "plaw-vla"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        }
+      ]
     },
     {
       "id": "concept:chunk",
@@ -2950,11 +2975,16 @@
         "consistency-policy",
         "octo",
         "mobile-aloha",
+        "ddpm",
         "flore",
         "jam",
         "tops"
       ],
       "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        },
         {
           "paper": "holo-m",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#31-统一动作编码208究竟怎么算出来的"
@@ -5779,10 +5809,15 @@
       "subtitle": "训练网络从带噪对象估计噪声或干净目标，生成时从噪声开始迭代恢复样本。",
       "detail": "扩散采样步骤和机器人环境时间步是两种时间。",
       "parent_node": "local:ddpm:generation",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/diffusion.md",
       "source_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#22-加噪公式里为什么还要把原图缩小"
+        }
+      ]
     },
     {
       "id": "local:ddpm:generation",
@@ -5794,10 +5829,75 @@
       "subtitle": "从一个条件生成多个可能输出，学习图像、视频或动作的分布而非只给一个均值。",
       "detail": "条件可以是当前图、语言、目标状态或历史。",
       "parent_node": "paper:ddpm",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/generation.md",
       "source_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "ddpm",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/attention.md",
+      "source_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#36-打开-b-区u-net-里面怎样处理图像和时间"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "ddpm",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/action.md",
+      "source_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "ddpm",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:ddpm:action",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/chunk.md",
+      "source_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        }
+      ]
     },
     {
       "id": "local:ddpm:method-chain",
@@ -5808,11 +5908,636 @@
       "subtitle": "正向过程逐步给数据加高斯噪声，训练时随机抽噪声时刻，让网络预测混入的噪声。反向生成从纯噪声开始，多步使用网络估计均值并采样，得到图像或换成动作序列后的条件样本。原文给出变分目标与简化去噪目标的联系，在 CIFAR-10 和 LSUN 评估图像生成质量。",
       "detail": "正向过程逐步给数据加高斯噪声，训练时随机抽噪声时刻，让网络预测混入的噪声。反向生成从纯噪声开始，多步使用网络估计均值并采样，得到图像或换成动作序列后的条件样本。原文给出变分目标与简化去噪目标的联系，在 CIFAR-10 和 LSUN 评估图像生成质量。",
       "parent_node": "paper:ddpm",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/method-chain.md",
       "source_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#3-方法输出噪声怎么就等于在学反向生成"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:problem",
+      "key": "problem",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "从高概率到好看的样本",
+      "subtitle": "DDPM问扩散概率链能否生成高质量图像。",
+      "detail": "沿2015扩散与得分匹配路线展开，不把作者写成公开反驳某人。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/problem.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§1",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#1-引言先把图毁了再谈生成"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:markov",
+      "key": "markov",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "前向与反向马尔可夫链",
+      "subtitle": "每次转移只依赖当前状态。",
+      "detail": "q按固定规则从0到T；pθ从T到0，要学反向高斯均值。图中左右位置不决定时间方向。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/markov.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§2 Eqs1–2 Fig2",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#21-两条链先别把箭头看反"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:shapes",
+      "key": "shapes",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "图像、噪声与批形状",
+      "subtitle": "RGB图像与噪声同形，CIFAR10为32×32×3。",
+      "detail": "摊平成3072坐标；批训练前置B，网络输出保持同形；这里的潜变量仍是带噪图。",
+      "parent_node": "local:ddpm:markov",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/shapes.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§2 Eqs1–4; Appendix B",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#21-两条链先别把箭头看反"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:schedule",
+      "key": "schedule",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "固定β日程",
+      "subtitle": "T1000，β线性从1e−4到.02。",
+      "detail": "α=1−β，αbar连乘；终点信号系数约.00635。C只更新θ，不学习出题日程。",
+      "parent_node": "local:ddpm:markov",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/schedule.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§3.1",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#31-固定前向过程先别让出题人一起乱跑"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:variance",
+      "key": "variance",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "缩信号与控方差",
+      "subtitle": "每步先乘sqrt(1−β)再加sqrt(β)ε。",
+      "detail": "输入坐标方差若为1且噪声独立，输出方差仍1；是尺度计算，不假定图像分布本身是标准高斯。",
+      "parent_node": "local:ddpm:schedule",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/variance.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§2 Eq2",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#22-加噪公式里为什么还要把原图缩小"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:marginal",
+      "key": "marginal",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "直达任意噪声等级",
+      "subtitle": "xt=sqrt(αbar)x0+sqrt(1−αbar)ε。",
+      "detail": "闭式让训练直接抽t，不需逐次前向加噪；标量例.5/.64/−1得到−.2。",
+      "parent_node": "local:ddpm:markov",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/marginal.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§2 Eq4",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#22-加噪公式里为什么还要把原图缩小"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:posterior",
+      "key": "posterior",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "已知x0的高斯后验",
+      "subtitle": "训练已知x0时q(xt−1|xt,x0)可算。",
+      "detail": "后验均值是x0与xt的加权和、系数标量；生成时x0不可见，用μθ给出反向分布。",
+      "parent_node": "local:ddpm:markov",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/posterior.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§2 Eqs6–7",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#23-训练知道原图生成不知道正好差在这里"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:elbo",
+      "key": "elbo",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "变分账本的三部分",
+      "subtitle": "负对数似然上界分成LT、各步KL、L0。",
+      "detail": "固定前向令LT与θ无关；中间转移比较高斯；末端对应离散像素概率。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/elbo.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§2 Eq5; Appendix A",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#31-固定前向过程先别让出题人一起乱跑"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:gaussian-kl",
+      "key": "gaussian-kl",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "高斯KL与时间权重",
+      "subtitle": "固定协方差下KL可化成加权噪声平方误差。",
+      "detail": "wt含β²/[2σ²α(1−αbar)]，随时间变化；去权重会改变训练重心。",
+      "parent_node": "local:ddpm:elbo",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/gaussian-kl.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§3.2 Eq12",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#34-简化损失删掉权重训练重点跟着变了"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:noise-param",
+      "key": "noise-param",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "从预测噪声到反向均值",
+      "subtitle": "网络εθ经解析系数换算为μθ。",
+      "detail": "均方误差最优输出是噪声条件均值，不从纯噪声找某张照片的前世；张量仍H×W×3。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/noise-param.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§3.2 Eq11",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#32-反向均值把难猜的对象换一种写法"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:score",
+      "key": "score",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "噪声条件均值与score",
+      "subtitle": "score是噪声分布log密度对输入的梯度。",
+      "detail": "−E[ε|xt]/sqrt(1−αbar)给出score；负号和尺度都要保留。",
+      "parent_node": "local:ddpm:noise-param",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/score.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§3.2; Appendix C",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#32-反向均值把难猜的对象换一种写法"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:decoder",
+      "key": "decoder",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "离散像素的高斯积分",
+      "subtitle": "8位整数像素概率由高斯在对应区间积分。",
+      "detail": "缩放到−1…1，间距2/255、半宽1/255，边界延伸无穷；不是直接用点密度当概率。",
+      "parent_node": "local:ddpm:elbo",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/decoder.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§3.3 Eq13",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#33-最后一脚连续数值怎么落回像素"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:simple",
+      "key": "simple",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "Lsimple重分配训练权重",
+      "subtitle": "均匀抽t，对εθ与ε做平方误差。",
+      "detail": "相对VLB降低小t微量噪声题权重；样本提升来自参数化和目标组合。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/simple.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§3.4 Eq14",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#34-简化损失删掉权重训练重点跟着变了"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:gradient",
+      "key": "gradient",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "已知答案与预测值的梯度",
+      "subtitle": "ε是亲手采样的目标，εθ是预测。",
+      "detail": "两坐标(.3,−.8)对(.1,−.4)平方和.20，梯度(−.4,.8)，仅作代数教学。",
+      "parent_node": "local:ddpm:simple",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/gradient.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Eq14; article teaching example",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#34-简化损失删掉权重训练重点跟着变了"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:sampling",
+      "key": "sampling",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "共享网络的反向采样",
+      "subtitle": "从标准高斯逐步求μθ并加σz。",
+      "detail": "每步新z不同于训练ε；t1取z0；1000次共享参数调用，不是1000套网络。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/sampling.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Algorithms1–2",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#35-把算法摊开训练一题生成一整套"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:runtime",
+      "key": "runtime",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "采样硬件与批量账单",
+      "subtitle": "训练一步抽题，生成一批执行完整链。",
+      "detail": "TPUv3-8上256张CIFAR约17秒、128张256²约300秒，不能跨批量写成单图延迟。",
+      "parent_node": "local:ddpm:sampling",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/runtime.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Appendix B",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#42-消融光把输出改成噪声还不够"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:unet",
+      "key": "unet",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "U-Net特征尺度与跳连",
+      "subtitle": "下采样后上采样，并连接同分辨率早期特征。",
+      "detail": "CIFAR32/16/8/4空间尺度，最后回3通道；跳连与残差是不同层面的连接。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/unet.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Appendix B",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#36-打开-b-区u-net-里面怎样处理图像和时间"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:time",
+      "key": "time",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "正弦时间嵌入",
+      "subtitle": "标量t编码后进入各残差块。",
+      "detail": "提示当前噪声等级，同一张外观近似噪声图在不同t有不同处理系数。",
+      "parent_node": "local:ddpm:unet",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/time.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Appendix B",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#36-打开-b-区u-net-里面怎样处理图像和时间"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:residual",
+      "key": "residual",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "卷积残差块与GroupNorm",
+      "subtitle": "块学习修正量再与输入相加，通道分组归一化。",
+      "detail": "GroupNorm控制特征尺度，区别共享概念中的向量L2归一化，不挪用其ID。",
+      "parent_node": "local:ddpm:unet",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/residual.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Appendix B",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#36-打开-b-区u-net-里面怎样处理图像和时间"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:spatial-attention",
+      "key": "spatial-attention",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "16×16空间注意力",
+      "subtitle": "256个位置产生Q/K/V并互相汇总。",
+      "detail": "教学单头Q/K/V为256×d，匹配矩阵256×256；d不冒充原文给定超参。",
+      "parent_node": "local:ddpm:unet",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/spatial-attention.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Appendix B; standard attention teaching",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#36-打开-b-区u-net-里面怎样处理图像和时间"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:metrics",
+      "key": "metrics",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "IS、FID与NLL上界",
+      "subtitle": "视觉分布指标和概率编码量有不同偏好。",
+      "detail": "DDPM的≤是变分上界；FID3.17对训练集、测试集5.24；条件/无条件先分开。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/metrics.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Table1; §4.1",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#41-样本质量fid-317先读条件再激动"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:large-image",
+      "key": "large-image",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "分辨率与数据集条件",
+      "subtitle": "256²LSUN不同列是不同数据集。",
+      "detail": "Bedroom普通6.36/大4.90，不跨Church或CIFAR列比较；基线来源和大模型条件保留。",
+      "parent_node": "local:ddpm:metrics",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/large-image.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Appendix B Table3",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#41-样本质量fid-317先读条件再激动"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:ablation",
+      "key": "ablation",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "参数化与损失分开看",
+      "subtitle": "原目标固定方差下均值13.22与噪声13.51相近。",
+      "detail": "噪声+简化目标3.17；学习方差或无权重均值失败行不是有效零分。",
+      "parent_node": "local:ddpm:metrics",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/ablation.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Table2",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#42-消融光把输出改成噪声还不够"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:estimate",
+      "key": "estimate",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "xhat0不是下一步状态",
+      "subtitle": "由当前xt与噪声预测估计最终干净图。",
+      "detail": "诊断进度用，不能替代xt−1；高噪声时小分母放大预测误差。",
+      "parent_node": "local:ddpm:sampling",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/estimate.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Eq15 Fig6",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#43-逐步编码为什么先有轮廓后有细节"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:progress",
+      "key": "progress",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "反向步数下的质量",
+      "subtitle": "横轴T−t，纵轴分别IS与FID。",
+      "detail": "展示不同进度的xhat0质量变化；横轴不是秒，蓝点不是误差棒。",
+      "parent_node": "local:ddpm:estimate",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/progress.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Appendix B Fig10",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#43-逐步编码为什么先有轮廓后有细节"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:rate",
+      "key": "rate",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "逐步编码与码率失真",
+      "subtitle": "rate按bits/dim，重建失真图用像素RMSE。",
+      "detail": "Fig5横轴T−t与Table4首列T−t+1区分；理论高维随机编码尚不实用。",
+      "parent_node": "local:ddpm:elbo",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/rate.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§4.3 Fig5 Table4; Appendix D",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#43-逐步编码为什么先有轮廓后有细节"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:late-bits",
+      "key": "late-bits",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "最后细节的编码成本",
+      "subtitle": "900→1000累计码率多1.65587 bits/dim。",
+      "detail": "约最终累计值93.2%；1.97 bits/dim失真项是负log编码量，不是RMSE。",
+      "parent_node": "local:ddpm:rate",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/late-bits.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Table4; §4.3",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#43-逐步编码为什么先有轮廓后有细节"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:fork",
+      "key": "fork",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "共享中间状态再随机分叉",
+      "subtitle": "前四组从x1000/750/500/250继续采样。",
+      "detail": "右下固定、另三格生成；第五组x0为成图对照。初始噪声后还有每步随机z。",
+      "parent_node": "local:ddpm:sampling",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/fork.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "Fig7; Appendix D",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#43-逐步编码为什么先有轮廓后有细节"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:autoregressive",
+      "key": "autoregressive",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "信息恢复顺序与自回归",
+      "subtitle": "前向逐坐标遮蔽可导出逐坐标恢复。",
+      "detail": "高斯破坏整图，反向按粗到细信息恢复，不按像素位置从左到右画。",
+      "parent_node": "local:ddpm:rate",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/autoregressive.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§4.3",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#43-逐步编码为什么先有轮廓后有细节"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:interpolation",
+      "key": "interpolation",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "带噪状态插值",
+      "subtitle": "两源图加噪到同t后混合并反向生成。",
+      "detail": "λ控制混合比例；先扩散再混合比直接像素叠图能重组结构，不许诺每个语义属性独立控制。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/interpolation.md",
+      "source_url": "https://arxiv.org/pdf/2006.11239v2",
+      "locator": "§4.4 Fig8; Appendix D",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#44-插值直接叠两张脸为什么容易叠出双影"
+        }
+      ]
+    },
+    {
+      "id": "local:ddpm:downstream",
+      "key": "downstream",
+      "kind": "local",
+      "paper": "ddpm",
+      "title": "动作扩散接口与执行时间",
+      "subtitle": "把图像数组换动作块并加入观测条件。",
+      "detail": "教学K×da动作块，扩散时间t与机器人执行时间分开；图像FID不替动作闭环成功率。",
+      "parent_node": "paper:ddpm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ddpm/downstream.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p026.pdf",
+      "locator": "Diffusion Policy RSS2023 §II.C p3 Fig3 Eqs4–5",
+      "explainers": [
+        {
+          "paper": "ddpm",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        }
+      ]
     },
     {
       "id": "local:decision-transformer:causal",
@@ -13083,7 +13808,7 @@
       "from": "concept:generation",
       "to": "concept:diffusion",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:generation",
@@ -13113,7 +13838,7 @@
       "from": "concept:action",
       "to": "concept:chunk",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:action",
@@ -13125,7 +13850,7 @@
       "from": "concept:action",
       "to": "concept:dct",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:quantization",
@@ -13143,7 +13868,7 @@
       "from": "concept:action",
       "to": "concept:wbc",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:world",
@@ -14478,31 +15203,253 @@
       "from": "local:ddpm:generation",
       "to": "local:ddpm:diffusion",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:ddpm:diffusion",
       "to": "concept:diffusion",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "paper:ddpm",
       "to": "local:ddpm:generation",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:ddpm:generation",
       "to": "concept:generation",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:attention",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:action",
+      "to": "local:ddpm:chunk",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:ddpm",
       "to": "local:ddpm:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:problem",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:markov",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:markov",
+      "to": "local:ddpm:shapes",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:markov",
+      "to": "local:ddpm:schedule",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:schedule",
+      "to": "local:ddpm:variance",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:markov",
+      "to": "local:ddpm:marginal",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:markov",
+      "to": "local:ddpm:posterior",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:elbo",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:elbo",
+      "to": "local:ddpm:gaussian-kl",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:noise-param",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:noise-param",
+      "to": "local:ddpm:score",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:elbo",
+      "to": "local:ddpm:decoder",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:simple",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:simple",
+      "to": "local:ddpm:gradient",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:sampling",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:sampling",
+      "to": "local:ddpm:runtime",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:unet",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:unet",
+      "to": "local:ddpm:time",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:unet",
+      "to": "local:ddpm:residual",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:unet",
+      "to": "local:ddpm:spatial-attention",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:metrics",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:metrics",
+      "to": "local:ddpm:large-image",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:metrics",
+      "to": "local:ddpm:ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:sampling",
+      "to": "local:ddpm:estimate",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:estimate",
+      "to": "local:ddpm:progress",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:elbo",
+      "to": "local:ddpm:rate",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:rate",
+      "to": "local:ddpm:late-bits",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:sampling",
+      "to": "local:ddpm:fork",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:ddpm:rate",
+      "to": "local:ddpm:autoregressive",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:interpolation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:ddpm",
+      "to": "local:ddpm:downstream",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:decision-transformer",
@@ -19214,9 +20161,9 @@
   "stats": {
     "papers": 120,
     "concepts": 59,
-    "local_topics": 601,
-    "lit_papers": 2,
-    "lit_concepts": 16,
-    "lit_local_topics": 59
+    "local_topics": 635,
+    "lit_papers": 3,
+    "lit_concepts": 20,
+    "lit_local_topics": 96
   }
 }

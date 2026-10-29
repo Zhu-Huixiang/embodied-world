@@ -8,6 +8,10 @@
 
 继续拆：[Diffusion Transformer](dit.md) · [一致性生成](consistency.md) · [去噪网络预条件化](preconditioning.md)。
 
+## 在完整解读里看计算与例子
+
+- [DDPM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#22-加噪公式里为什么还要把原图缩小)
+
 ## 哪些论文用到或讨论它
 
 - [Diffusion Policy](../papers/diffusion-policy.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
@@ -18,7 +22,7 @@
 - [Octo](../papers/octo.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p090.html)
 - [UniPi](../papers/unipi.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1d5b9233ad716a43be5c0d3023cb82d0-Abstract-Conference.html)
 - [Diffuser](../papers/diffuser.md) · 机制导读 · [原文](https://proceedings.mlr.press/v162/janner22a.html)
-- [DDPM](../papers/ddpm.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
+- [DDPM](../papers/ddpm.md) · 已精讲 · [原文](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
 - [DDIM](../papers/ddim.md) · 机制导读 · [原文](https://iclr.cc/virtual/2021/poster/2804)
 - [Latent Diffusion](../papers/latent-diffusion.md) · 机制导读 · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)
 - [EDM](../papers/edm.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a98846e9d9cc01cfb87eb694d946ce6b-Abstract-Conference.html)
