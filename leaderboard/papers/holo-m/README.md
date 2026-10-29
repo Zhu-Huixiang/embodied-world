@@ -1,6 +1,6 @@
 # Humanoid Loco-Manipulation With Discrete VLA Model
 
-**Holo-M** · arXiv 2026 · 本版排名 114 · 综合分 **62.3 / 100**
+**Holo-M** · arXiv 2026 · 本版排名 116 · 综合分 **62.3 / 100**
 
 [完整解读](../../../articles/holo-m-2609.35709/README.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-holo-m)
 

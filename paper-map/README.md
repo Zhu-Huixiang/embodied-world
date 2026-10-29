@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 118 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 120 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -15,8 +15,8 @@
 - [世界模型与模型强化学习](#track-world-model) · 15 篇
 - [世界动作模型](#track-world-action-model) · 5 篇
 - [视频动作模型与视觉推理](#track-video-action) · 5 篇
-- [视觉语言动作模型 VLA](#track-vla) · 15 篇
-- [操作与动作块](#track-manipulation) · 21 篇
+- [视觉语言动作模型 VLA](#track-vla) · 16 篇
+- [操作与动作块](#track-manipulation) · 22 篇
 - [Locomotion 与运动适应](#track-locomotion) · 19 篇
 - [动作先验与全身技能](#track-motion-priors) · 6 篇
 - [强化学习与离线决策](#track-reinforcement-learning) · 6 篇
@@ -97,6 +97,7 @@
 | [Octo](../library/octo.md) · [RSS 2024](../venues/RSS/README.md) | 通用策略接上新摄像头、新动作空间时，哪些模块可以保留，哪些需要改？ |
 | [VIMA](../library/vima.md) · [ICML 2023](../venues/ICML/README.md) | 文字、目标图和示范视频能否作为同一种任务提示交给机器人？ |
 | [GR00T N1](../library/gr00t-n1.md) · [arXiv 2025](../arxiv/README.md#paper-gr00t-n1) | Eagle-2视觉语言特征与连续动作流怎样分工，合成视频里的动作标签从哪来，预训练收益又在什么任务上成立？ |
+| [Vision-Language-Action or World-Action? Just Action Models](../library/jam.md) · [arXiv 2026](../arxiv/README.md#paper-jam) | VLA和WAM到底差在预训练起点，还是怎样利用未来？把未来监督留下、把视觉生成删掉，控制还会好吗？ |
 | [VioLA](../library/viola.md) · [arXiv 2026](../arxiv/README.md#paper-viola) | 人类动作怎样先对齐控制器，再教会人形 VLA？ |
 | [ARC](../library/arc.md) · [arXiv 2026](../arxiv/README.md#paper-arc) | 推理文字怎样成为动作条件，而不是另一段好看的解说？ |
 
@@ -128,6 +129,7 @@
 | [Transporter Networks](../library/transporter.md) · [CoRL 2020](../venues/CoRL/README.md) | 操作物体不一定要先识别物体？空间特征之间的匹配怎么直接长出动作？ |
 | [EgoScale](../library/egoscale.md) · [arXiv 2026](../arxiv/README.md#paper-egoscale) | 人类视频怎样变成机器人可学的手腕和手指动作，为什么大量预训练之后还要一小段人机对齐数据？ |
 | [Learning Force-Reactive Humanoid Loco-Manipulation](../library/flore.md) · [arXiv 2026](../arxiv/README.md#paper-flore) | 位置轨迹为什么还不够？力观测、力指令与全身控制各自解决哪一步，关闭一条通道会怎样？ |
+| [TOPS](../library/tops.md) · [arXiv 2026](../arxiv/README.md#paper-tops) | 多任务动作流为什么都要从同一个高斯出发、沿同一条直线走？换出发点和速度安排，能否少算几次网络？ |
 | [Dex-One2Many](../library/dex-one2many.md) · [arXiv 2026](../arxiv/README.md#paper-dex-one2many) | 场景图怎样同时提供探索引导与不锁死姿态的泛化？ |
 
 <a id="track-locomotion"></a>
@@ -243,4 +245,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-10-28。
+元数据核对日期：2026-10-29。

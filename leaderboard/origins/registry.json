@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-10-29",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3330,6 +3330,54 @@
       "aliases": [
         "University of Chicago",
         "芝加哥大学"
+      ]
+    },
+    "japan-nii": {
+      "id": "japan-nii",
+      "name": "National Institute of Informatics",
+      "display_name": "日本国立信息学研究所",
+      "short_display_name": "日本国立信息学研究所",
+      "kind": "research_organization",
+      "identity_url": "https://y0uroy.github.io/JAM/",
+      "focus": "本仓本篇涉及视觉表征、未来监督与机器人动作学习；这里仅概括已核作品。",
+      "links": [
+        {
+          "label": "本篇官方项目与作者入口",
+          "url": "https://y0uroy.github.io/JAM/"
+        }
+      ],
+      "sources": [
+        "https://y0uroy.github.io/JAM/",
+        "https://arxiv.org/pdf/2610.37219v1"
+      ],
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "aliases": [
+        "National Institute of Informatics",
+        "日本国立信息学研究所"
+      ]
+    },
+    "ntu-mars": {
+      "id": "ntu-mars",
+      "name": "MARS Lab, Nanyang Technological University",
+      "display_name": "南洋理工大学 MARS 实验室",
+      "short_display_name": "南洋理工大学 MARS 实验室",
+      "kind": "research_lab",
+      "identity_url": "https://ntumars.github.io/TOPS/",
+      "focus": "本仓本篇涉及多任务机器人操作、flow策略、动作生成路径与少步推理。",
+      "links": [
+        {
+          "label": "本篇官方项目与作者入口",
+          "url": "https://ntumars.github.io/TOPS/"
+        }
+      ],
+      "sources": [
+        "https://ntumars.github.io/TOPS/",
+        "https://arxiv.org/pdf/2610.36694v1"
+      ],
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "aliases": [
+        "MARS Lab, Nanyang Technological University",
+        "南洋理工大学 MARS 实验室"
       ]
     }
   },
@@ -8987,6 +9035,86 @@
       "affiliation_basis": "原文四位作者均列KAIST机械工程系。",
       "primary_author_source": "https://arxiv.org/html/2610.35852v1",
       "authorship_notes": "原文四位作者均署KAIST机械工程系；未按末作者或已有他篇实验室归属补通讯角色。DiffContact为本仓编辑简称。"
+    },
+    "jam": {
+      "first_authors": [
+        "Yonghao Yu"
+      ],
+      "corresponding_authors": [
+        "Lang Huang"
+      ],
+      "authors": [
+        "Yonghao Yu",
+        "Lang Huang",
+        "Runyi Li",
+        "Toshihiko Yamasaki"
+      ],
+      "profile_ids": [
+        "institution-i74801974",
+        "japan-nii"
+      ],
+      "affiliations": [
+        "The University of Tokyo",
+        "National Institute of Informatics"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.37219v1",
+        "https://y0uroy.github.io/JAM/"
+      ],
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "author_basis": "PDF首页署名顺序与明确通讯标记",
+      "affiliation_basis": "PDF首页逐作者署名，项目交叉核验",
+      "primary_author_source": "https://arxiv.org/pdf/2610.37219v1",
+      "authorship_notes": "PDF首页星号明确Lang Huang为通讯作者；其署名机构为National Institute of Informatics，其余三人为东京大学。",
+      "corresponding_evidence": [
+        {
+          "url": "https://arxiv.org/pdf/2610.37219v1",
+          "kind": "primary_or_official",
+          "locator": "PDF p1 title block / correspondence footnote",
+          "claim": "PDF首页星号明确Lang Huang为通讯作者；其署名机构为National Institute of Informatics，其余三人为东京大学。"
+        }
+      ]
+    },
+    "tops": {
+      "first_authors": [
+        "Tuo An"
+      ],
+      "corresponding_authors": [
+        "Jindou Jia",
+        "Jianfei Yang"
+      ],
+      "authors": [
+        "Tuo An",
+        "Chuhao Zhou",
+        "Jiahua Dong",
+        "Jingliang Li",
+        "Jiaqi Bai",
+        "Jindou Jia",
+        "Jianfei Yang"
+      ],
+      "profile_ids": [
+        "ntu-mars"
+      ],
+      "affiliations": [
+        "MARS Lab, Nanyang Technological University"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.36694v1",
+        "https://ntumars.github.io/TOPS/"
+      ],
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "author_basis": "PDF首页署名顺序与明确通讯标记",
+      "affiliation_basis": "PDF首页逐作者署名，项目交叉核验",
+      "primary_author_source": "https://arxiv.org/pdf/2610.36694v1",
+      "authorship_notes": "原文首页注明共同通讯Jindou Jia和Jianfei Yang；全体作者署MARS Lab, Nanyang Technological University。",
+      "corresponding_evidence": [
+        {
+          "url": "https://arxiv.org/pdf/2610.36694v1",
+          "kind": "primary_or_official",
+          "locator": "PDF p1 title block / correspondence footnote",
+          "claim": "原文首页注明共同通讯Jindou Jia和Jianfei Yang；全体作者署MARS Lab, Nanyang Technological University。"
+        }
+      ]
     }
   },
   "coverage": {
@@ -9131,7 +9259,10 @@
     "Zhejiang University": "浙江大学",
     "Amazon FAR (Frontier AI & Robotics)": "亚马逊前沿人工智能与机器人团队",
     "University of Chicago": "芝加哥大学",
-    "Department of Mechanical Engineering, KAIST": "韩国科学技术院（KAIST）机械工程系"
+    "Department of Mechanical Engineering, KAIST": "韩国科学技术院（KAIST）机械工程系",
+    "The University of Tokyo": "东京大学",
+    "National Institute of Informatics": "日本国立信息学研究所",
+    "MARS Lab, Nanyang Technological University": "南洋理工大学 MARS 实验室"
   },
   "display_policy": {
     "people": "original English names",

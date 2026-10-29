@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-10-29",
   "scan": {
     "scanned_at": "2026-10-09T18:28:55+08:00",
     "as_of": "2026-10-09",
@@ -495,6 +495,104 @@
       },
       "mechanism": "前向继续用硬接触模拟器生成轨迹，只在反向替换接触冲量的敏感度。方法对含de Saxcé修正的库仑摩擦二阶锥互补条件做完整锥中心路径松弛，从硬接触解出发用Newton迭代找到反向求导的评估点，组装状态/动作转移Jacobian，再供BPTT更新策略或DDP/iLQR优化轨迹。法向与切向一起松弛，梯度才有机会指向离地、粘住和滑动这些邻近模式；松弛参数趋零时回到固定接触模式的精确敏感度。",
       "selection_origin": "2026-10-28每日有界扫描后，读取arXiv v1完整HTML并核相关附录。"
+    },
+    {
+      "id": "jam",
+      "short_name": "JAM",
+      "arxiv_id": "2610.37219",
+      "title": "Vision-Language-Action or World-Action? Just Action Models",
+      "authors": [
+        "Yonghao Yu",
+        "Lang Huang",
+        "Runyi Li",
+        "Toshihiko Yamasaki"
+      ],
+      "affiliations": [
+        "The University of Tokyo",
+        "National Institute of Informatics"
+      ],
+      "track": "vla",
+      "published": "2026-10-27T13:29:28Z",
+      "project_url": "https://y0uroy.github.io/JAM/",
+      "code_url": "https://github.com/y0urOy/JAM",
+      "scope": "训练期未来表征监督与动作策略；LIBERO、LIBEROPlus及RoboTwin仿真",
+      "reading_question": "VLA和WAM到底差在预训练起点，还是怎样利用未来？把未来监督留下、把视觉生成删掉，控制还会好吗？",
+      "selection_reason": "把生成式骨干与视觉语言骨干放进同一动作学习框架，做目标设计、跨骨干、扰动、成本与训练种子检查，能追问未来监督究竟在帮哪一步。",
+      "evidence_summary": "Table 1：Wan的LIBERO/LIBEROPlus由FastWAM的97.00/55.31变为JAM的98.15/64.54；Ovis由ImageWAM的92.90/65.27变为96.75/79.95。LIBERO为40任务各50次；LIBEROPlus是共享的1506任务固定子集各一次。Table 9：缓存后Wan在线训练FLOPs由15.52降至4.19 TFLOPs/sample/update，约73%，不含一次目标提取；所profile算子GPU时间0.789→0.258秒。Table 20任务bootstrap与Table 21三训练run补不确定度。全部控制实验为仿真。",
+      "embodied_relevance": "直接检查机器人动作策略怎样利用视觉预训练和未来监督，为VLA/WAM的训练设计提供可拆分的比较。",
+      "first_author": "Yonghao Yu",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37219v1",
+      "first_arxiv_submission": "2026-10-27T13:29:28Z",
+      "first_arxiv_submission_shanghai": "2026-10-27T21:29:28+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-10-29",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "version_id": "2610.37219v1",
+      "updated": "2026-10-27T13:29:28Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.37219v1",
+        "section": "PDF p1 / affiliations"
+      },
+      "mechanism": "JAM把骨干初始化、未来监督和部署模块拆开：当前图像/语言经骨干提供视觉token，动作专家结合状态生成动作块。训练时，记录的未来只送入冻结anchor得到目标；一个额外prediction head从当前特征预测这些目标，以逐token/时间偏移的余弦距离加动作flow-matching损失训练，目标停止梯度。部署删除anchor和prediction head，动作路径不读未来，也不生成未来图像。固定未来目标可提前缓存；Wan配置以VAE直接编码目标最好，Ovis配置则用Yak特征，不能把结论简化成越大的未来模型越好。",
+      "selection_origin": "2026-10-29每日有界扫描后，核读主文与相关附录。"
+    },
+    {
+      "id": "tops",
+      "short_name": "TOPS",
+      "arxiv_id": "2610.36694",
+      "title": "TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation",
+      "authors": [
+        "Tuo An",
+        "Chuhao Zhou",
+        "Jiahua Dong",
+        "Jingliang Li",
+        "Jiaqi Bai",
+        "Jindou Jia",
+        "Jianfei Yang"
+      ],
+      "affiliations": [
+        "MARS Lab, Nanyang Technological University"
+      ],
+      "track": "manipulation",
+      "published": "2026-10-27T06:11:55Z",
+      "project_url": "https://ntumars.github.io/TOPS/",
+      "code_url": null,
+      "scope": "按已知任务重塑flow源分布与输运时序；LIBERO/CALVIN与固定身体单臂实机",
+      "reading_question": "多任务动作流为什么都要从同一个高斯出发、沿同一条直线走？换出发点和速度安排，能否少算几次网络？",
+      "selection_reason": "直接重设计生成策略的源分布、训练路径和数值求解，提供逐模块消融、匹配NFE、π0.5迁移及实机多任务比较。",
+      "evidence_summary": "Table 1主实验三训练run：LIBERO-10从标准FM的53.44±2.93到TOPS69.67±0.61；每policy call延迟49.4→8.2ms（RTX PRO 6000），对应NFE20→2。LIBEROPlus27.11→35.29，口径为排除全0 Camera类的2100变体。π0.5相同14K训练预算下LIBEROPlus64.4→69.0、CALVIN ABC→D 3.033→3.744，为单checkpoint。实机八任务各20次，TOPS124/160=77.50%，FM82/160=51.25%，仅用Galaxea R1 Lite右臂和夹爪，其他身体固定。",
+      "embodied_relevance": "服务低延迟多任务操作策略，研究动作生成路径对成功率和网络求值预算的影响。",
+      "first_author": "Tuo An",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36694v1",
+      "first_arxiv_submission": "2026-10-27T06:11:55Z",
+      "first_arxiv_submission_shanghai": "2026-10-27T14:11:55+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-10-29",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "version_id": "2610.36694v1",
+      "updated": "2026-10-27T06:11:55Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.36694v1",
+        "section": "PDF p1 / affiliations"
+      },
+      "mechanism": "先用标准flow matching暖启动，把专家动作块沿逆流拉回噪声空间，按训练任务建立bank，再以低秩协方差高斯混合MPPCA拟合任务源。根据源/动作协方差的高斯最优输运方向识别需要扩张的轴，只在这些方向采用先慢后快插值，其他方向保留线性。固定源和schedule继续训练同一速度网络；语言selector选已知任务源。推理的一步采用依序两次网络求值的schedule-aware两半步方法，即NFE=2，不是一次前向。",
+      "selection_origin": "2026-10-29每日有界扫描后，核读主文与相关附录。"
     }
   ],
   "screening": {
@@ -533,6 +631,26 @@
         "https://arxiv.org/abs/2610.35852v1",
         "https://arxiv.org/html/2610.35852v1",
         "https://diffcontact.github.io"
+      ]
+    },
+    {
+      "id": "jam",
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2610.37219v1",
+        "https://arxiv.org/html/2610.37219v1",
+        "https://y0uroy.github.io/JAM/"
+      ]
+    },
+    {
+      "id": "tops",
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2610.36694v1",
+        "https://arxiv.org/html/2610.36694v1",
+        "https://ntumars.github.io/TOPS/"
       ]
     }
   ]

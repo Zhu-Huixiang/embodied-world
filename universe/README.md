@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-118 篇论文是恒星，各自有自己的知识行星与卫星：共 562 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 2 篇有完整解读，59 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+120 篇论文是恒星，各自有自己的知识行星与卫星：共 601 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 2 篇有完整解读，59 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -73,6 +73,7 @@
 | [I-JEPA](papers/i-jepa.md) | 导读 | [表征预测 JEPA](concepts/jepa.md) · [遮蔽预测](concepts/masking.md) · [表征空间](concepts/representation.md) |
 | [IQL](papers/iql.md) | 导读 | [离线强化学习](concepts/offline.md) · [价值估计与校准](concepts/value.md) · [行为克隆](concepts/bc.md) |
 | [Isaac Gym](papers/isaac-gym.md) | 导读 | [PPO 与并行模拟](concepts/ppo.md) · [强化学习](concepts/rl.md) |
+| [JAM](papers/jam.md) | 导读 | [表征空间](concepts/representation.md) · [表征预测 JEPA](concepts/jepa.md) · [余弦相似度](concepts/cosine.md) · [Flow Matching](concepts/flow.md) · [动作块](concepts/chunk.md) · [变分自编码器 VAE](concepts/vae.md) · [动作表示](concepts/action.md) · [分布偏移](concepts/shift.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [Latent Diffusion](papers/latent-diffusion.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [注意力](concepts/attention.md) · [表征空间](concepts/representation.md) |
 | [Dynamics Review](papers/learned-dynamics-review.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) |
 | [LeWAM](papers/lewam.md) | 导读 | [表征预测 JEPA](concepts/jepa.md) · [动作条件动力学](concepts/dynamics.md) · [逆动力学](concepts/inverse.md) · [模型预测控制 MPC](concepts/mpc.md) |
@@ -116,6 +117,7 @@
 | [TD-MPC](papers/td-mpc.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [模型预测控制 MPC](concepts/mpc.md) · [价值估计与校准](concepts/value.md) |
 | [TD-MPC2](papers/td-mpc2.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [模型预测控制 MPC](concepts/mpc.md) · [价值估计与校准](concepts/value.md) |
 | [TD3+BC](papers/td3-bc.md) | 导读 | [离线强化学习](concepts/offline.md) · [策略与价值学习](concepts/actor-critic.md) · [行为克隆](concepts/bc.md) |
+| [TOPS](papers/tops.md) | 导读 | [Flow Matching](concepts/flow.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) · [示范模仿](concepts/imitation.md) · [泛化评测与遗忘](concepts/benchmark.md) · [分布偏移](concepts/shift.md) |
 | [Trajectory Transformer](papers/trajectory-transformer.md) | 导读 | [因果序列建模](concepts/causal.md) · [离散编码与量化](concepts/quantization.md) · [树搜索与轨迹搜索](concepts/search.md) |
 | [Transporter](papers/transporter.md) | 导读 | [空间表示](concepts/spatial.md) · [行为克隆](concepts/bc.md) · [动作表示](concepts/action.md) |
 | [UMI](papers/umi.md) | 导读 | [运动重定向](concepts/retarget.md) · [动作表示](concepts/action.md) · [行为克隆](concepts/bc.md) |

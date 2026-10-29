@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-10-29",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -21460,6 +21460,134 @@
       ],
       "adoption_evidence": [],
       "audit_note": "GitHub精确arXiv ID仓库检索200/0结果仅代表本次查询；HF论文API404。补查网页只见自动索引/摘要和共享daily仓库，不构成独立技术采用，仓库总star不分摊给论文。未核X/HF/博客单篇计数，不填0。"
+    },
+    "jam": {
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "url": "https://y0uroy.github.io/JAM/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.37219v1",
+            "https://arxiv.org/pdf/2610.37219v1",
+            "https://y0uroy.github.io/JAM/"
+          ],
+          "metrics": [],
+          "availability_note": "单篇官方项目可读，本次未取得可核访问量。官方代码入口已回读。"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/y0urOy/JAM",
+          "api_url": "https://api.github.com/repos/y0urOy/JAM",
+          "scope": "single_paper",
+          "scope_label": "官方单篇代码仓库",
+          "ownership": "official_paper_repository",
+          "identity_verified": true,
+          "created_at": "2026-10-24T06:29:17Z",
+          "sources": [
+            "https://y0uroy.github.io/JAM/",
+            "https://api.github.com/repos/y0urOy/JAM",
+            "https://raw.githubusercontent.com/y0urOy/JAM/main/README.md"
+          ],
+          "identity_basis": "官方项目Code链接与README完整标题、作者、arXiv ID一致。",
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 2,
+              "checked_at": "2026-10-29",
+              "sampled_at": "2026-10-29T08:33:16+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-24",
+              "window_end": "2026-10-29",
+              "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+              "label": "GitHub Star",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "subscribers",
+              "count": 0,
+              "checked_at": "2026-10-29",
+              "sampled_at": "2026-10-29T08:33:16+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-24",
+              "window_end": "2026-10-29",
+              "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+              "label": "GitHub Watch订阅",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "forks",
+              "count": 0,
+              "checked_at": "2026-10-29",
+              "sampled_at": "2026-10-29T08:33:16+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-24",
+              "window_end": "2026-10-29",
+              "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+              "label": "GitHub Fork",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            }
+          ],
+          "sampled_at_basis": "本机保存原始GitHub插件GET回执的文件mtime，后续核验不刷新计数。"
+        },
+        {
+          "platform": "huggingface",
+          "resource_kind": "paper",
+          "url": "https://huggingface.co/papers/2610.37219",
+          "api_url": "https://huggingface.co/api/papers/2610.37219",
+          "scope": "single_paper",
+          "scope_label": "精确arXiv ID单篇论文页",
+          "identity_verified": true,
+          "created_at": "2026-10-27T00:00:00.000Z",
+          "sources": [
+            "https://huggingface.co/api/papers/2610.37219",
+            "https://arxiv.org/abs/2610.37219v1"
+          ],
+          "identity_basis": "ID、完整标题与作者匹配；publishedAt为论文公开时间，submittedOnDailyAt为首次进入HF Daily的2026-10-28。",
+          "metrics": [
+            {
+              "metric": "upvotes",
+              "count": 3,
+              "checked_at": "2026-10-29",
+              "sampled_at": "2026-10-29T08:32:36+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-27",
+              "window_end": "2026-10-29",
+              "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+              "label": "HF论文点赞",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            }
+          ]
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确ID/API与官方项目补查；自动摘要、索引和review不作独立技术采用。作者/实验室账号总关注不归单篇；未核X浏览量不填0。"
+    },
+    "tops": {
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "url": "https://ntumars.github.io/TOPS/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.36694v1",
+            "https://arxiv.org/pdf/2610.36694v1",
+            "https://ntumars.github.io/TOPS/"
+          ],
+          "metrics": [],
+          "availability_note": "单篇官方项目可读，本次未取得可核访问量。Code按钮href为#，不登记为已公开代码。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确ID/API与官方项目补查；自动摘要、索引和review不作独立技术采用。作者/实验室账号总关注不归单篇；未核X浏览量不填0。"
     }
   },
   "excluded_candidates": [

@@ -25,6 +25,6 @@
 - [来源1](https://horizonrobotics.github.io/gail/)
 - [来源2](https://horizonrobotics.github.io/gail/Holo-M/)
 
-资料核验：2026-10-28。
+资料核验：2026-10-29。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

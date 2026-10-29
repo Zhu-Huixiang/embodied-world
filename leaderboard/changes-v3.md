@@ -12,14 +12,14 @@
 | [DreamZero](papers/dreamzero/README.md) | 0→65 | 0.0→77.0 | 0.0→99.5 | 474 | 48.0→80.1 | 105→98 |
 | [EgoScale](papers/egoscale/README.md) | 0→60 | 0.0→60.3 | 0.0→86.4 | 124 | 47.3→75.6 | 106→106 |
 | [ModAR](papers/modar/README.md) | 0→60 | 0.0→8.7 | 0.0→76.5 | 1 | 46.9→69.6 | 107→108 |
-| [DreamTrue](papers/dreamtrue/README.md) | 0→60 | 0→0 | 0→51.5 | 0 | 43.5→64.1 | 114→110 |
-| [VIOLA](papers/viola/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.8→63.8 | 108→111 |
-| [LeWAM](papers/lewam/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.1→63.1 | 109→112 |
-| [Holo-M](papers/holo-m/README.md) | 0→60 | 0.0→0.0 | 0.0→0.0 | 0 | 44.3→62.3 | 110→114 |
-| [Dex-One2Many](papers/dex-one2many/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 111→115 |
-| [ARC](papers/arc/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 112→116 |
-| [Balanced Data Diet](papers/balanced-data-diet/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.1→62.1 | 113→117 |
-| [PLaW-VLA](papers/plaw-vla/README.md) | 0→60 | 0→0 | 0→11.9 | 0 | 43.1→61.7 | 115→118 |
+| [DreamTrue](papers/dreamtrue/README.md) | 0→60 | 0→0 | 0→51.5 | 0 | 43.5→64.1 | 114→112 |
+| [VIOLA](papers/viola/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.8→63.8 | 108→113 |
+| [LeWAM](papers/lewam/README.md) | 0→60 | 0→0 | 0→0 | 0 | 45.1→63.1 | 109→114 |
+| [Holo-M](papers/holo-m/README.md) | 0→60 | 0.0→0.0 | 0.0→0.0 | 0 | 44.3→62.3 | 110→116 |
+| [Dex-One2Many](papers/dex-one2many/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 111→117 |
+| [ARC](papers/arc/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.2→62.2 | 112→118 |
+| [Balanced Data Diet](papers/balanced-data-diet/README.md) | 0→60 | 0→0 | 0→0 | 0 | 44.1→62.1 | 113→119 |
+| [PLaW-VLA](papers/plaw-vla/README.md) | 0→60 | 0→0 | 0→11.9 | 0 | 43.1→61.7 | 115→120 |
 
 [旧版分数快照](scores-v2.json) · [逐篇变化JSON](changes-v3.json) · [当前具身榜](README.md)
 

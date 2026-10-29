@@ -28,6 +28,6 @@
 - [来源1](https://openalex.org/I185261750)
 - [来源2](https://api.openalex.org/institutions/I185261750)
 
-资料核验：2026-10-28。
+资料核验：2026-10-29。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

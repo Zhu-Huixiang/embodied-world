@@ -31,6 +31,6 @@
 - [来源3](https://www.roboticsproceedings.org/rss20/p050.pdf)
 - [来源4](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf)
 
-资料核验：2026-10-28。
+资料核验：2026-10-29。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-10-29",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -51879,6 +51879,406 @@
       "rank": 108
     },
     {
+      "id": "jam",
+      "checked_at": "2026-10-29",
+      "short_name": "JAM",
+      "title": "Vision-Language-Action or World-Action? Just Action Models",
+      "year": 2026,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-jam",
+        "reading_path": "library/jam.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/jam.md",
+        "card_path": "leaderboard/papers/jam/README.md"
+      },
+      "origin": {
+        "label": "Yonghao Yu · 东京大学 / 日本国立信息学研究所",
+        "author_label": "Yonghao Yu",
+        "institution_label": "东京大学 / 日本国立信息学研究所",
+        "search": "Yonghao Yu Yonghao Yu Lang Huang Runyi Li Toshihiko Yamasaki Lang Huang The University of Tokyo National Institute of Informatics 东京大学 日本国立信息学研究所 东京大学 日本国立信息学研究所 The University of Tokyo The University of Tokyo 东京大学 National Institute of Informatics National Institute of Informatics 日本国立信息学研究所",
+        "keys": [
+          "institution-i74801974",
+          "japan-nii"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i74801974",
+            "label": "东京大学",
+            "search": "The University of Tokyo The University of Tokyo 东京大学"
+          },
+          {
+            "key": "japan-nii",
+            "label": "日本国立信息学研究所",
+            "search": "National Institute of Informatics National Institute of Informatics 日本国立信息学研究所"
+          }
+        ],
+        "path": "leaderboard/origins/papers/jam.md"
+      },
+      "scores": {
+        "innovation": 87,
+        "evidence": 88,
+        "reuse": 80,
+        "reading": 94,
+        "venue": 60,
+        "influence": 0,
+        "attention": 20.1
+      },
+      "score": 67.0,
+      "score_exact": "66.985",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新87：主要贡献是拆开三种设计选择并用可丢弃的未来表征预测统一两类骨干，未来预测本身有既有路线。证据88：两类骨干、固定LIBEROPlus子集、RoboTwin、七组目标/损失消融、任务bootstrap及三训练run互相支撑；控制评估仍是仿真，扰动类别并非全部提升。复用80：官方仓库提供训练/评估命令、十种recipe、checkpoint manifest和LIBERO权重入口，尚未执行复现；缓存有额外准备成本。阅读94：适合拆开“需要未来监督”与“必须生成未来画面”这两件事。影响与关注依逐篇外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.37219v1"
+          ],
+          "review_depth": "arXiv v1主文方法/全部实验及Appendix A–E初读，非完整精讲"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新87：主要贡献是拆开三种设计选择并用可丢弃的未来表征预测统一两类骨干，未来预测本身有既有路线。证据88：两类骨干、固定LIBEROPlus子集、RoboTwin、七组目标/损失消融、任务bootstrap及三训练run互相支撑；控制评估仍是仿真，扰动类别并非全部提升。复用80：官方仓库提供训练/评估命令、十种recipe、checkpoint manifest和LIBERO权重入口，尚未执行复现；缓存有额外准备成本。阅读94：适合拆开“需要未来监督”与“必须生成未来画面”这两件事。影响与关注依逐篇外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.37219v1"
+          ],
+          "review_depth": "arXiv v1主文方法/全部实验及Appendix A–E初读，非完整精讲"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新87：主要贡献是拆开三种设计选择并用可丢弃的未来表征预测统一两类骨干，未来预测本身有既有路线。证据88：两类骨干、固定LIBEROPlus子集、RoboTwin、七组目标/损失消融、任务bootstrap及三训练run互相支撑；控制评估仍是仿真，扰动类别并非全部提升。复用80：官方仓库提供训练/评估命令、十种recipe、checkpoint manifest和LIBERO权重入口，尚未执行复现；缓存有额外准备成本。阅读94：适合拆开“需要未来监督”与“必须生成未来画面”这两件事。影响与关注依逐篇外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.37219v1"
+          ],
+          "review_depth": "arXiv v1主文方法/全部实验及Appendix A–E初读，非完整精讲"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新87：主要贡献是拆开三种设计选择并用可丢弃的未来表征预测统一两类骨干，未来预测本身有既有路线。证据88：两类骨干、固定LIBEROPlus子集、RoboTwin、七组目标/损失消融、任务bootstrap及三训练run互相支撑；控制评估仍是仿真，扰动类别并非全部提升。复用80：官方仓库提供训练/评估命令、十种recipe、checkpoint manifest和LIBERO权重入口，尚未执行复现；缓存有额外准备成本。阅读94：适合拆开“需要未来监督”与“必须生成未来画面”这两件事。影响与关注依逐篇外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.37219v1"
+          ],
+          "review_depth": "arXiv v1主文方法/全部实验及Appendix A–E初读，非完整精讲"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "arXiv v1完整公开，稳定身份、版本与作者可追溯，按公开阶段60计。；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.37219v1",
+            "https://arxiv.org/pdf/2610.37219v1",
+            "https://y0uroy.github.io/JAM/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次有界补查未核到独立技术采用，按证据量表起点0；原始引用未匹配为null，非实测零引用。",
+          "sources": [
+            "https://arxiv.org/abs/2610.37219v1",
+            "https://y0uroy.github.io/JAM/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.37219?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.37219",
+            "https://api.openalex.org/works?search=Vision-Language-Action+or+World-Action%3F+Just+Action+Models&per-page=5",
+            "https://huggingface.co/api/papers/2610.37219",
+            "https://api.github.com/search/repositories?q=2610.37219&per_page=10"
+          ],
+          "checked_at": "2026-10-29T08:39:29+08:00",
+          "audit_scope": "S2精确ID、OpenAlex精确DOI/标题前5、GitHub精确ID前10、HF单篇、官方项目及有界网页补查。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次有界补查未核到独立技术采用，按证据量表起点0；原始引用未匹配为null，非实测零引用。",
+              "sources": [
+                "https://arxiv.org/abs/2610.37219v1",
+                "https://y0uroy.github.io/JAM/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.37219?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.37219",
+                "https://api.openalex.org/works?search=Vision-Language-Action+or+World-Action%3F+Just+Action+Models&per-page=5",
+                "https://huggingface.co/api/papers/2610.37219",
+                "https://api.github.com/search/repositories?q=2610.37219&per_page=10"
+              ],
+              "checked_at": "2026-10-29T08:39:29+08:00",
+              "audit_scope": "S2精确ID、OpenAlex精确DOI/标题前5、GitHub精确ID前10、HF单篇、官方项目及有界网页补查。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "platform_attention",
+          "score": 20.1,
+          "reason": "huggingface 的论文专属入口：HF论文点赞=3；按1000上限对数压缩。",
+          "sources": [
+            "https://huggingface.co/api/papers/2610.37219",
+            "https://arxiv.org/abs/2610.37219v1",
+            "https://huggingface.co/papers/2610.37219"
+          ],
+          "snapshot": {
+            "url": "https://huggingface.co/papers/2610.37219",
+            "platform": "huggingface",
+            "metric": "upvotes",
+            "count": 3,
+            "checked_at": "2026-10-29",
+            "sampled_at": "2026-10-29T08:32:36+08:00",
+            "window_kind": "cumulative",
+            "window_start": "2026-10-27",
+            "window_end": "2026-10-29",
+            "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+            "label": "HF论文点赞",
+            "eligible_recent_attention": true,
+            "eligible_academic_impact": false
+          },
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "独立采用关注起点0；另取得同日官方单篇GitHub 2 stars和HF论文3 upvotes，平台分由既有量表取最高值，不相加，不因预印本清零。",
+              "sources": [
+                "https://arxiv.org/abs/2610.37219v1",
+                "https://y0uroy.github.io/JAM/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.37219?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.37219",
+                "https://api.openalex.org/works?search=Vision-Language-Action+or+World-Action%3F+Just+Action+Models&per-page=5",
+                "https://huggingface.co/api/papers/2610.37219",
+                "https://api.github.com/search/repositories?q=2610.37219&per_page=10"
+              ],
+              "checked_at": "2026-10-29T08:39:29+08:00",
+              "audit_scope": "S2精确ID、OpenAlex精确DOI/标题前5、GitHub精确ID前10、HF单篇、官方项目及有界网页补查。"
+            },
+            {
+              "method": "platform_attention",
+              "score": 11.9,
+              "reason": "github 的论文专属入口：GitHub Star=2；按10000上限对数压缩。",
+              "sources": [
+                "https://y0uroy.github.io/JAM/",
+                "https://api.github.com/repos/y0urOy/JAM",
+                "https://raw.githubusercontent.com/y0urOy/JAM/main/README.md",
+                "https://github.com/y0urOy/JAM"
+              ],
+              "snapshot": {
+                "url": "https://github.com/y0urOy/JAM",
+                "platform": "github",
+                "metric": "stars",
+                "count": 2,
+                "checked_at": "2026-10-29",
+                "sampled_at": "2026-10-29T08:33:16+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-24",
+                "window_end": "2026-10-29",
+                "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+                "label": "GitHub Star",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "github 的论文专属入口：GitHub Watch订阅=0；按1000上限对数压缩。",
+              "sources": [
+                "https://y0uroy.github.io/JAM/",
+                "https://api.github.com/repos/y0urOy/JAM",
+                "https://raw.githubusercontent.com/y0urOy/JAM/main/README.md",
+                "https://github.com/y0urOy/JAM"
+              ],
+              "snapshot": {
+                "url": "https://github.com/y0urOy/JAM",
+                "platform": "github",
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-10-29",
+                "sampled_at": "2026-10-29T08:33:16+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-24",
+                "window_end": "2026-10-29",
+                "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+                "label": "GitHub Watch订阅",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 20.1,
+              "reason": "huggingface 的论文专属入口：HF论文点赞=3；按1000上限对数压缩。",
+              "sources": [
+                "https://huggingface.co/api/papers/2610.37219",
+                "https://arxiv.org/abs/2610.37219v1",
+                "https://huggingface.co/papers/2610.37219"
+              ],
+              "snapshot": {
+                "url": "https://huggingface.co/papers/2610.37219",
+                "platform": "huggingface",
+                "metric": "upvotes",
+                "count": 3,
+                "checked_at": "2026-10-29",
+                "sampled_at": "2026-10-29T08:32:36+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-27",
+                "window_end": "2026-10-29",
+                "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+                "label": "HF论文点赞",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "jam",
+        "checked_at": "2026-10-29T08:39:29+08:00",
+        "status": "unmatched",
+        "provider": "Semantic Scholar / OpenAlex",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.37219?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+        "match_note": "S2精确arXiv ID429；OpenAlex精确DOI404，标题前5均不匹配本研究，原始引用保留null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.37219?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.37219",
+          "https://api.openalex.org/works?search=Vision-Language-Action+or+World-Action%3F+Just+Action+Models&per-page=5"
+        ]
+      },
+      "social": {
+        "checked_at": "2026-10-29T08:39:29+08:00",
+        "resources": [
+          {
+            "platform": "project",
+            "url": "https://y0uroy.github.io/JAM/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2610.37219v1",
+              "https://arxiv.org/pdf/2610.37219v1",
+              "https://y0uroy.github.io/JAM/"
+            ],
+            "metrics": [],
+            "availability_note": "单篇官方项目可读，本次未取得可核访问量。官方代码入口已回读。"
+          },
+          {
+            "platform": "github",
+            "url": "https://github.com/y0urOy/JAM",
+            "api_url": "https://api.github.com/repos/y0urOy/JAM",
+            "scope": "single_paper",
+            "scope_label": "官方单篇代码仓库",
+            "ownership": "official_paper_repository",
+            "identity_verified": true,
+            "created_at": "2026-10-24T06:29:17Z",
+            "sources": [
+              "https://y0uroy.github.io/JAM/",
+              "https://api.github.com/repos/y0urOy/JAM",
+              "https://raw.githubusercontent.com/y0urOy/JAM/main/README.md"
+            ],
+            "identity_basis": "官方项目Code链接与README完整标题、作者、arXiv ID一致。",
+            "metrics": [
+              {
+                "metric": "stars",
+                "count": 2,
+                "checked_at": "2026-10-29",
+                "sampled_at": "2026-10-29T08:33:16+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-24",
+                "window_end": "2026-10-29",
+                "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+                "label": "GitHub Star",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-10-29",
+                "sampled_at": "2026-10-29T08:33:16+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-24",
+                "window_end": "2026-10-29",
+                "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+                "label": "GitHub Watch订阅",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "forks",
+                "count": 0,
+                "checked_at": "2026-10-29",
+                "sampled_at": "2026-10-29T08:33:16+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-24",
+                "window_end": "2026-10-29",
+                "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+                "label": "GitHub Fork",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            ],
+            "sampled_at_basis": "本机保存原始GitHub插件GET回执的文件mtime，后续核验不刷新计数。"
+          },
+          {
+            "platform": "huggingface",
+            "resource_kind": "paper",
+            "url": "https://huggingface.co/papers/2610.37219",
+            "api_url": "https://huggingface.co/api/papers/2610.37219",
+            "scope": "single_paper",
+            "scope_label": "精确arXiv ID单篇论文页",
+            "identity_verified": true,
+            "created_at": "2026-10-27T00:00:00.000Z",
+            "sources": [
+              "https://huggingface.co/api/papers/2610.37219",
+              "https://arxiv.org/abs/2610.37219v1"
+            ],
+            "identity_basis": "ID、完整标题与作者匹配；publishedAt为论文公开时间，submittedOnDailyAt为首次进入HF Daily的2026-10-28。",
+            "metrics": [
+              {
+                "metric": "upvotes",
+                "count": 3,
+                "checked_at": "2026-10-29",
+                "sampled_at": "2026-10-29T08:32:36+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-27",
+                "window_end": "2026-10-29",
+                "window_label": "截至2026-10-29的累计快照（近期新建入口）",
+                "label": "HF论文点赞",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            ]
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "精确ID/API与官方项目补查；自动摘要、索引和review不作独立技术采用。作者/实验室账号总关注不归单篇；未核X浏览量不填0。"
+      },
+      "editorial": {
+        "checked_at": "2026-10-29",
+        "scores": {
+          "innovation": 87,
+          "evidence": 88,
+          "reuse": 80,
+          "reading": 94
+        },
+        "mechanism": "JAM把骨干初始化、未来监督和部署模块拆开：当前图像/语言经骨干提供视觉token，动作专家结合状态生成动作块。训练时，记录的未来只送入冻结anchor得到目标；一个额外prediction head从当前特征预测这些目标，以逐token/时间偏移的余弦距离加动作flow-matching损失训练，目标停止梯度。部署删除anchor和prediction head，动作路径不读未来，也不生成未来图像。固定未来目标可提前缓存；Wan配置以VAE直接编码目标最好，Ovis配置则用Yak特征，不能把结论简化成越大的未来模型越好。",
+        "reason": "创新87：主要贡献是拆开三种设计选择并用可丢弃的未来表征预测统一两类骨干，未来预测本身有既有路线。证据88：两类骨干、固定LIBEROPlus子集、RoboTwin、七组目标/损失消融、任务bootstrap及三训练run互相支撑；控制评估仍是仿真，扰动类别并非全部提升。复用80：官方仓库提供训练/评估命令、十种recipe、checkpoint manifest和LIBERO权重入口，尚未执行复现；缓存有额外准备成本。阅读94：适合拆开“需要未来监督”与“必须生成未来画面”这两件事。影响与关注依逐篇外部证据另计。",
+        "review_depth": "arXiv v1主文方法/全部实验及Appendix A–E初读，非完整精讲"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.37219v1",
+        "checked_at": "2026-10-29",
+        "profile": null
+      },
+      "rank": 109
+    },
+    {
       "id": "diffcontact",
       "checked_at": "2026-10-28",
       "short_name": "DiffContact",
@@ -52078,7 +52478,227 @@
         "checked_at": "2026-10-28",
         "profile": null
       },
-      "rank": 109
+      "rank": 110
+    },
+    {
+      "id": "tops",
+      "checked_at": "2026-10-29",
+      "short_name": "TOPS",
+      "title": "TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation",
+      "year": 2026,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-tops",
+        "reading_path": "library/tops.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/tops.md",
+        "card_path": "leaderboard/papers/tops/README.md"
+      },
+      "origin": {
+        "label": "Tuo An · 南洋理工大学 MARS 实验室",
+        "author_label": "Tuo An",
+        "institution_label": "南洋理工大学 MARS 实验室",
+        "search": "Tuo An Tuo An Chuhao Zhou Jiahua Dong Jingliang Li Jiaqi Bai Jindou Jia Jianfei Yang Jindou Jia Jianfei Yang MARS Lab, Nanyang Technological University 南洋理工大学 MARS 实验室 南洋理工大学 MARS 实验室 MARS Lab, Nanyang Technological University MARS Lab, Nanyang Technological University 南洋理工大学 MARS 实验室",
+        "keys": [
+          "ntu-mars"
+        ],
+        "profiles": [
+          {
+            "key": "ntu-mars",
+            "label": "南洋理工大学 MARS 实验室",
+            "search": "MARS Lab, Nanyang Technological University MARS Lab, Nanyang Technological University 南洋理工大学 MARS 实验室"
+          }
+        ],
+        "path": "leaderboard/origins/papers/tops.md"
+      },
+      "scores": {
+        "innovation": 88,
+        "evidence": 87,
+        "reuse": 70,
+        "reading": 92,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 65.0,
+      "score_exact": "65.04",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新88：将逆流任务源、协方差方向时序和专用两阶段求解器连接起来，网络结构不变；高斯端点理论只支持限定模型下的风险上界分析。证据87：主表三训练run、source/path消融、匹配NFE诊断、π0.5迁移和八类实机任务覆盖较完整；已知任务集合、π0.5单checkpoint与固定身体单臂范围需保留，主表与诊断的混合成分数不同。复用70：算法、超参、实现细节和推导可追溯，项目Code按钮仍为占位，离线source/schedule准备有成本。阅读92：适合解释动作生成中起点、路径和求解器三者如何共同影响少步采样。影响与近期关注依外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.36694v1"
+          ],
+          "review_depth": "arXiv v1主文方法/实验及相关附录初读；A9长证明未逐行验算，非完整精讲"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新88：将逆流任务源、协方差方向时序和专用两阶段求解器连接起来，网络结构不变；高斯端点理论只支持限定模型下的风险上界分析。证据87：主表三训练run、source/path消融、匹配NFE诊断、π0.5迁移和八类实机任务覆盖较完整；已知任务集合、π0.5单checkpoint与固定身体单臂范围需保留，主表与诊断的混合成分数不同。复用70：算法、超参、实现细节和推导可追溯，项目Code按钮仍为占位，离线source/schedule准备有成本。阅读92：适合解释动作生成中起点、路径和求解器三者如何共同影响少步采样。影响与近期关注依外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.36694v1"
+          ],
+          "review_depth": "arXiv v1主文方法/实验及相关附录初读；A9长证明未逐行验算，非完整精讲"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新88：将逆流任务源、协方差方向时序和专用两阶段求解器连接起来，网络结构不变；高斯端点理论只支持限定模型下的风险上界分析。证据87：主表三训练run、source/path消融、匹配NFE诊断、π0.5迁移和八类实机任务覆盖较完整；已知任务集合、π0.5单checkpoint与固定身体单臂范围需保留，主表与诊断的混合成分数不同。复用70：算法、超参、实现细节和推导可追溯，项目Code按钮仍为占位，离线source/schedule准备有成本。阅读92：适合解释动作生成中起点、路径和求解器三者如何共同影响少步采样。影响与近期关注依外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.36694v1"
+          ],
+          "review_depth": "arXiv v1主文方法/实验及相关附录初读；A9长证明未逐行验算，非完整精讲"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新88：将逆流任务源、协方差方向时序和专用两阶段求解器连接起来，网络结构不变；高斯端点理论只支持限定模型下的风险上界分析。证据87：主表三训练run、source/path消融、匹配NFE诊断、π0.5迁移和八类实机任务覆盖较完整；已知任务集合、π0.5单checkpoint与固定身体单臂范围需保留，主表与诊断的混合成分数不同。复用70：算法、超参、实现细节和推导可追溯，项目Code按钮仍为占位，离线source/schedule准备有成本。阅读92：适合解释动作生成中起点、路径和求解器三者如何共同影响少步采样。影响与近期关注依外部证据另计。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.36694v1"
+          ],
+          "review_depth": "arXiv v1主文方法/实验及相关附录初读；A9长证明未逐行验算，非完整精讲"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "arXiv v1完整公开，稳定身份、版本与作者可追溯，按公开阶段60计。；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.36694v1",
+            "https://arxiv.org/pdf/2610.36694v1",
+            "https://ntumars.github.io/TOPS/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次有界补查未核到独立技术采用，按证据量表起点0；原始引用未匹配为null，非实测零引用。",
+          "sources": [
+            "https://arxiv.org/abs/2610.36694v1",
+            "https://ntumars.github.io/TOPS/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.36694",
+            "https://api.openalex.org/works?search=TOPS%3A+Reshaping+Flow+Source+and+Transport+for+Multi-Task+Robot+Manipulation&per-page=5",
+            "https://huggingface.co/api/papers/2610.36694",
+            "https://api.github.com/search/repositories?q=2610.36694&per_page=10"
+          ],
+          "checked_at": "2026-10-29T08:39:29+08:00",
+          "audit_scope": "S2精确ID、OpenAlex精确DOI/标题前5、GitHub精确ID前10、HF单篇、官方项目及有界网页补查。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次有界补查未核到独立技术采用，按证据量表起点0；原始引用未匹配为null，非实测零引用。",
+              "sources": [
+                "https://arxiv.org/abs/2610.36694v1",
+                "https://ntumars.github.io/TOPS/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.36694",
+                "https://api.openalex.org/works?search=TOPS%3A+Reshaping+Flow+Source+and+Transport+for+Multi-Task+Robot+Manipulation&per-page=5",
+                "https://huggingface.co/api/papers/2610.36694",
+                "https://api.github.com/search/repositories?q=2610.36694&per_page=10"
+              ],
+              "checked_at": "2026-10-29T08:39:29+08:00",
+              "audit_scope": "S2精确ID、OpenAlex精确DOI/标题前5、GitHub精确ID前10、HF单篇、官方项目及有界网页补查。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次未取得可核单篇计数或近期独立采用，按证据量表起点0；实际取得的平台量仍按量表另取较高值。",
+          "sources": [
+            "https://arxiv.org/abs/2610.36694v1",
+            "https://ntumars.github.io/TOPS/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.36694",
+            "https://api.openalex.org/works?search=TOPS%3A+Reshaping+Flow+Source+and+Transport+for+Multi-Task+Robot+Manipulation&per-page=5",
+            "https://huggingface.co/api/papers/2610.36694",
+            "https://api.github.com/search/repositories?q=2610.36694&per_page=10"
+          ],
+          "checked_at": "2026-10-29T08:39:29+08:00",
+          "audit_scope": "S2精确ID、OpenAlex精确DOI/标题前5、GitHub精确ID前10、HF单篇、官方项目及有界网页补查。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次未取得可核单篇计数或近期独立采用，按证据量表起点0；实际取得的平台量仍按量表另取较高值。",
+              "sources": [
+                "https://arxiv.org/abs/2610.36694v1",
+                "https://ntumars.github.io/TOPS/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.36694",
+                "https://api.openalex.org/works?search=TOPS%3A+Reshaping+Flow+Source+and+Transport+for+Multi-Task+Robot+Manipulation&per-page=5",
+                "https://huggingface.co/api/papers/2610.36694",
+                "https://api.github.com/search/repositories?q=2610.36694&per_page=10"
+              ],
+              "checked_at": "2026-10-29T08:39:29+08:00",
+              "audit_scope": "S2精确ID、OpenAlex精确DOI/标题前5、GitHub精确ID前10、HF单篇、官方项目及有界网页补查。"
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "tops",
+        "checked_at": "2026-10-29T08:39:29+08:00",
+        "status": "unmatched",
+        "provider": "Semantic Scholar / OpenAlex",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+        "match_note": "S2精确arXiv ID429；OpenAlex精确DOI404，标题前5均不匹配本研究，原始引用保留null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.36694",
+          "https://api.openalex.org/works?search=TOPS%3A+Reshaping+Flow+Source+and+Transport+for+Multi-Task+Robot+Manipulation&per-page=5"
+        ]
+      },
+      "social": {
+        "checked_at": "2026-10-29T08:39:29+08:00",
+        "resources": [
+          {
+            "platform": "project",
+            "url": "https://ntumars.github.io/TOPS/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2610.36694v1",
+              "https://arxiv.org/pdf/2610.36694v1",
+              "https://ntumars.github.io/TOPS/"
+            ],
+            "metrics": [],
+            "availability_note": "单篇官方项目可读，本次未取得可核访问量。Code按钮href为#，不登记为已公开代码。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "精确ID/API与官方项目补查；自动摘要、索引和review不作独立技术采用。作者/实验室账号总关注不归单篇；未核X浏览量不填0。"
+      },
+      "editorial": {
+        "checked_at": "2026-10-29",
+        "scores": {
+          "innovation": 88,
+          "evidence": 87,
+          "reuse": 70,
+          "reading": 92
+        },
+        "mechanism": "先用标准flow matching暖启动，把专家动作块沿逆流拉回噪声空间，按训练任务建立bank，再以低秩协方差高斯混合MPPCA拟合任务源。根据源/动作协方差的高斯最优输运方向识别需要扩张的轴，只在这些方向采用先慢后快插值，其他方向保留线性。固定源和schedule继续训练同一速度网络；语言selector选已知任务源。推理的一步采用依序两次网络求值的schedule-aware两半步方法，即NFE=2，不是一次前向。",
+        "reason": "创新88：将逆流任务源、协方差方向时序和专用两阶段求解器连接起来，网络结构不变；高斯端点理论只支持限定模型下的风险上界分析。证据87：主表三训练run、source/path消融、匹配NFE诊断、π0.5迁移和八类实机任务覆盖较完整；已知任务集合、π0.5单checkpoint与固定身体单臂范围需保留，主表与诊断的混合成分数不同。复用70：算法、超参、实现细节和推导可追溯，项目Code按钮仍为占位，离线source/schedule准备有成本。阅读92：适合解释动作生成中起点、路径和求解器三者如何共同影响少步采样。影响与近期关注依外部证据另计。",
+        "review_depth": "arXiv v1主文方法/实验及相关附录初读；A9长证明未逐行验算，非完整精讲"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.36694v1",
+        "checked_at": "2026-10-29",
+        "profile": null
+      },
+      "rank": 111
     },
     {
       "id": "dreamtrue",
@@ -52645,7 +53265,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 110
+      "rank": 112
     },
     {
       "id": "viola",
@@ -53014,7 +53634,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 111
+      "rank": 113
     },
     {
       "id": "lewam",
@@ -53304,7 +53924,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 112
+      "rank": 114
     },
     {
       "id": "flore",
@@ -53524,7 +54144,7 @@
         "checked_at": "2026-10-28",
         "profile": null
       },
-      "rank": 113
+      "rank": 115
     },
     {
       "id": "holo-m",
@@ -53869,7 +54489,7 @@
         "checked_at": "2026-10-09",
         "profile": null
       },
-      "rank": 114
+      "rank": 116
     },
     {
       "id": "dex-one2many",
@@ -54232,7 +54852,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 115
+      "rank": 117
     },
     {
       "id": "arc",
@@ -54601,7 +55221,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 116
+      "rank": 118
     },
     {
       "id": "balanced-data-diet",
@@ -54952,7 +55572,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 117
+      "rank": 119
     },
     {
       "id": "plaw-vla",
@@ -55471,7 +56091,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 118
+      "rank": 120
     }
   ]
 }

@@ -24,6 +24,6 @@
 - [来源1](https://openalex.org/I70931966)
 - [来源2](https://api.openalex.org/institutions/I70931966)
 
-资料核验：2026-10-28。
+资料核验：2026-10-29。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

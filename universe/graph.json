@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-10-29",
   "nodes": [
     {
       "id": "paper:act",
@@ -1136,6 +1136,31 @@
       "source_url": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html"
     },
     {
+      "id": "paper:jam",
+      "key": "jam",
+      "kind": "paper",
+      "title": "JAM",
+      "subtitle": "Vision-Language-Action or World-Action? Just Action Models",
+      "track": "vla",
+      "track_label": "视觉语言动作模型 VLA",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/jam.md",
+      "concepts": [
+        "representation",
+        "jepa",
+        "cosine",
+        "flow",
+        "chunk",
+        "vae",
+        "action",
+        "shift",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.37219v1"
+    },
+    {
       "id": "paper:latent-diffusion",
       "key": "latent-diffusion",
       "kind": "paper",
@@ -1958,6 +1983,28 @@
       "source_url": "https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html"
     },
     {
+      "id": "paper:tops",
+      "key": "tops",
+      "kind": "paper",
+      "title": "TOPS",
+      "subtitle": "TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/tops.md",
+      "concepts": [
+        "flow",
+        "action",
+        "chunk",
+        "imitation",
+        "benchmark",
+        "shift"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.36694v1"
+    },
+    {
       "id": "paper:trajectory-transformer",
       "key": "trajectory-transformer",
       "kind": "paper",
@@ -2288,6 +2335,7 @@
         "latent-diffusion",
         "i-jepa",
         "learned-dynamics-review",
+        "jam",
         "viola"
       ],
       "explainers": []
@@ -2348,7 +2396,8 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/cosine.md",
       "papers": [
-        "clip"
+        "clip",
+        "jam"
       ],
       "explainers": [
         {
@@ -2477,7 +2526,9 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/shift.md",
       "papers": [
-        "clip"
+        "clip",
+        "jam",
+        "tops"
       ],
       "explainers": [
         {
@@ -2716,6 +2767,7 @@
         "i-jepa",
         "lewm",
         "vjepa2",
+        "jam",
         "lewam",
         "plaw-vla"
       ],
@@ -2788,7 +2840,9 @@
         "flow-matching",
         "rectified-flow",
         "gr00t-n1",
-        "egoscale"
+        "egoscale",
+        "jam",
+        "tops"
       ],
       "explainers": []
     },
@@ -2824,7 +2878,8 @@
       "papers": [
         "act",
         "dreamwaq",
-        "lingbot-va"
+        "lingbot-va",
+        "jam"
       ],
       "explainers": []
     },
@@ -2868,6 +2923,8 @@
         "walk-these-ways",
         "walk-in-the-park",
         "flore",
+        "jam",
+        "tops",
         "arc",
         "plaw-vla"
       ],
@@ -2893,7 +2950,9 @@
         "consistency-policy",
         "octo",
         "mobile-aloha",
-        "flore"
+        "flore",
+        "jam",
+        "tops"
       ],
       "explainers": [
         {
@@ -3297,7 +3356,8 @@
       "papers": [
         "cliport",
         "humanplus",
-        "flore"
+        "flore",
+        "tops"
       ],
       "explainers": []
     },
@@ -3528,7 +3588,9 @@
         "bridge-v2",
         "libero",
         "robocasa",
-        "vc1"
+        "vc1",
+        "jam",
+        "tops"
       ],
       "explainers": []
     },
@@ -8558,6 +8620,306 @@
       "explainers": []
     },
     {
+      "id": "local:jam:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/representation.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:jepa",
+      "key": "jepa",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "jepa",
+      "title": "表征预测 JEPA",
+      "subtitle": "在表征空间预测目标而不是逐像素重建；防止表征坍缩仍需要相应设计。",
+      "detail": "不同论文的 EMA、stop-gradient 或正则方案不能互相借用。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/jepa.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:cosine",
+      "key": "cosine",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "cosine",
+      "title": "余弦相似度",
+      "subtitle": "两个向量点积再除以各自长度。单位向量的点积直接等于余弦相似度。",
+      "detail": "它衡量方向接近，不自动代表物体位置相同或图片身份相同。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/cosine.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/flow.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:jam:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/chunk.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:vae",
+      "key": "vae",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "vae",
+      "title": "变分自编码器 VAE",
+      "subtitle": "编码器描述潜变量分布，解码器从潜变量重建样本，用重建与分布正则共同训练。",
+      "detail": "ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/vae.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/action.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:shift",
+      "key": "shift",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "shift",
+      "title": "分布偏移",
+      "subtitle": "测试场景的画风、视角、背景或对象组合发生变化，模型习惯的视觉线索随之改变。",
+      "detail": "CLIP Fig.7 横向匹配常规分数，再看偏移分布的高度。",
+      "parent_node": "local:jam:representation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/shift.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "jam",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "jam",
+      "title": "本篇方法链路",
+      "subtitle": "JAM把骨干初始化、未来监督和部署模块拆开：当前图像/语言经骨干提供视觉token，动作专家结合状态生成动作块。训练时，记录的未来只送入冻结anchor得到目标；一个额外prediction head从当前特征预测这些目标，以逐token/时间偏移的余弦距离加动作flow-matching损失训练，目标停止梯度。部署删除anchor和prediction head，动作路径不读未来，也不生成未来图像。固定未来目标可提前缓存；Wan配置以VAE直接编码目标最好，Ovis配置则用Yak特征，不能把结论简化成越大的未来模型越好。",
+      "detail": "JAM把骨干初始化、未来监督和部署模块拆开：当前图像/语言经骨干提供视觉token，动作专家结合状态生成动作块。训练时，记录的未来只送入冻结anchor得到目标；一个额外prediction head从当前特征预测这些目标，以逐token/时间偏移的余弦距离加动作flow-matching损失训练，目标停止梯度。部署删除anchor和prediction head，动作路径不读未来，也不生成未来图像。固定未来目标可提前缓存；Wan配置以VAE直接编码目标最好，Ovis配置则用Yak特征，不能把结论简化成越大的未来模型越好。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.37219v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:choices",
+      "key": "choices",
+      "kind": "local",
+      "paper": "jam",
+      "title": "骨干、目标与部署的三项选择",
+      "subtitle": "将常被捆绑比较的三项设计拆开。",
+      "detail": "初始化来自VLM或视觉生成器；未来监督可以生成像素也可以预测特征；是否部署未来生成模块是另一项决定。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/choices.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "§1–3; Fig.1",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:current",
+      "key": "current",
+      "kind": "local",
+      "paper": "jam",
+      "title": "当前观测到动作上下文",
+      "subtitle": "骨干编码当前帧与指令，动作专家另接本体状态。",
+      "detail": "Wan当前视觉token为98×3072，Ovis为392×1536；动作专家读取骨干上下文，在flow-matching中预测动作块。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/current.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "§3.2; Appendix A; Tables 7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:anchor",
+      "key": "anchor",
+      "kind": "local",
+      "paper": "jam",
+      "title": "冻结未来目标分支",
+      "subtitle": "记录的未来观测只在训练目标分支编码。",
+      "detail": "冻结anchor输出按时间偏移对齐的目标token；stop-gradient阻断目标分支更新，未来不进入动作输入路径。",
+      "parent_node": "local:jam:current",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/anchor.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "§3.2; Fig.2; Eq.4",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:head",
+      "key": "head",
+      "kind": "local",
+      "paper": "jam",
+      "title": "当前token预测未来特征",
+      "subtitle": "训练期小预测头把当前token映射到未来目标空间。",
+      "detail": "两层token-mixing transformer和每offset线性readout；Wan/Ovis头宽1536/768，余弦损失在token和时间偏移上平均。",
+      "parent_node": "local:jam:anchor",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/head.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "§3.2; Appendix A; Table 8",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:loss",
+      "key": "loss",
+      "kind": "local",
+      "paper": "jam",
+      "title": "动作损失与预见损失",
+      "subtitle": "用加权未来特征误差辅助动作学习。",
+      "detail": "总目标为动作flow-matching损失加lambda乘未来特征余弦损失；梯度通过预测头回到当前骨干，而不是把未来喂给策略。",
+      "parent_node": "local:jam:head",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/loss.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "Eq.3–4; §3.2",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:deploy",
+      "key": "deploy",
+      "kind": "local",
+      "paper": "jam",
+      "title": "删除训练期分支",
+      "subtitle": "部署仅保留当前观测骨干与动作专家。",
+      "detail": "删除anchor和head；没有未来图像生成或潜在rollout规划器，不额外加未来生成的推理开销。",
+      "parent_node": "local:jam:head",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/deploy.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "Fig.2; §3.2",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:targets",
+      "key": "targets",
+      "kind": "local",
+      "paper": "jam",
+      "title": "未来目标取什么表征",
+      "subtitle": "不同骨干对未来目标的偏好需要实验。",
+      "detail": "Wan在LIBEROPlus用VAE直接目标64.54，预训练anchor55.58、随机anchor58.63；Ovis最佳采用Yak。",
+      "parent_node": "local:jam:anchor",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/targets.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "Table 1; Appendix C",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:robustness",
+      "key": "robustness",
+      "kind": "local",
+      "paper": "jam",
+      "title": "匹配子集上的扰动评估",
+      "subtitle": "在固定任务与扰动集比较同骨干的监督目标。",
+      "detail": "LIBERO40任务各50rollout，LIBEROPlus固定1506任务各一次；Wan提升9.23个百分点、Ovis提升14.67，不和TOPS的2100变体口径直接排名。",
+      "parent_node": "paper:jam",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/robustness.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "§4; Table 1; Appendix A",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:cost",
+      "key": "cost",
+      "kind": "local",
+      "paper": "jam",
+      "title": "缓存后的在线训练成本",
+      "subtitle": "提前提取固定未来目标，减少每次更新的目标计算。",
+      "detail": "Wan估算FLOPs为15.52→4.19 TFLOPs/sample/update；所profile算子GPU时间0.789→0.258秒，不含一次提取，也省略部分算子与优化器成本。",
+      "parent_node": "local:jam:anchor",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/cost.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "Appendix B; Table 9",
+      "explainers": []
+    },
+    {
+      "id": "local:jam:uncertainty",
+      "key": "uncertainty",
+      "kind": "local",
+      "paper": "jam",
+      "title": "任务bootstrap与重复训练",
+      "subtitle": "区分任务抽样不确定度与训练随机性。",
+      "detail": "Wan/Ovis在LIBEROPlus提升的task-bootstrap95%区间分别为[6.84,11.69]/[12.15,17.13]个百分点；三训练run的成功率64.61±0.37/79.92±0.43另报。",
+      "parent_node": "local:jam:robustness",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jam/uncertainty.md",
+      "source_url": "https://arxiv.org/html/2610.37219v1",
+      "locator": "Tables 20–21",
+      "explainers": []
+    },
+    {
       "id": "local:latent-diffusion:diffusion",
       "key": "diffusion",
       "kind": "local",
@@ -11360,6 +11722,291 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/td3-bc/method-chain.md",
       "source_url": "https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html",
       "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "tops",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/flow.md",
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "tops",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/action.md",
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "tops",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:tops:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/chunk.md",
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "tops",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/imitation.md",
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "tops",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:shift",
+      "key": "shift",
+      "kind": "local",
+      "paper": "tops",
+      "canonical": "shift",
+      "title": "分布偏移",
+      "subtitle": "测试场景的画风、视角、背景或对象组合发生变化，模型习惯的视觉线索随之改变。",
+      "detail": "CLIP Fig.7 横向匹配常规分数，再看偏移分布的高度。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/shift.md",
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "tops",
+      "title": "本篇方法链路",
+      "subtitle": "先用标准flow matching暖启动，把专家动作块沿逆流拉回噪声空间，按训练任务建立bank，再以低秩协方差高斯混合MPPCA拟合任务源。根据源/动作协方差的高斯最优输运方向识别需要扩张的轴，只在这些方向采用先慢后快插值，其他方向保留线性。固定源和schedule继续训练同一速度网络；语言selector选已知任务源。推理的一步采用依序两次网络求值的schedule-aware两半步方法，即NFE=2，不是一次前向。",
+      "detail": "先用标准flow matching暖启动，把专家动作块沿逆流拉回噪声空间，按训练任务建立bank，再以低秩协方差高斯混合MPPCA拟合任务源。根据源/动作协方差的高斯最优输运方向识别需要扩张的轴，只在这些方向采用先慢后快插值，其他方向保留线性。固定源和schedule继续训练同一速度网络；语言selector选已知任务源。推理的一步采用依序两次网络求值的schedule-aware两半步方法，即NFE=2，不是一次前向。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.36694v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:warmup",
+      "key": "warmup",
+      "kind": "local",
+      "paper": "tops",
+      "title": "标准FM暖启动",
+      "subtitle": "先训练共享速度网络，再分析专家动作的逆流。",
+      "detail": "不是从零直接给每个任务任意指定先验；基础策略为之后的任务source拟合提供逆映射。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/warmup.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§4.1; Appendix A11",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:reverse-bank",
+      "key": "reverse-bank",
+      "kind": "local",
+      "paper": "tops",
+      "title": "专家动作逆映射的任务bank",
+      "subtitle": "把示范动作块沿暖启动流逆推回源空间。",
+      "detail": "按训练任务汇集逆像，仿真动作16×10=160维、实机16×7=112维；逆向生成额外准备数据。",
+      "parent_node": "local:tops:warmup",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/reverse-bank.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§4.1; Appendix A2,A11",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:mppca",
+      "key": "mppca",
+      "kind": "local",
+      "paper": "tops",
+      "title": "低秩高斯混合源",
+      "subtitle": "用多个低秩协方差高斯拟合每个任务bank。",
+      "detail": "MPPCA将任务的多模态逆像表达为混合分量，降低高维完整协方差拟合负担；主LIBERO-10默认两分量。",
+      "parent_node": "local:tops:reverse-bank",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/mppca.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§4.1; Fig.1; Appendix A2",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:selector",
+      "key": "selector",
+      "kind": "local",
+      "paper": "tops",
+      "title": "语言选择已知任务源",
+      "subtitle": "将指令映射到训练任务身份再抽取源样本。",
+      "detail": "MiniLM后接五层MLP选择既有source；这项实验不测试未见任务身份的自由扩展。",
+      "parent_node": "local:tops:mppca",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/selector.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§4.1; Appendix A2",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:covariance",
+      "key": "covariance",
+      "kind": "local",
+      "paper": "tops",
+      "title": "协方差与扩张方向",
+      "subtitle": "依据源和专家动作协方差找出需要拉伸的特征方向。",
+      "detail": "高斯最优输运的方向分解提供schedule设计依据；不把高斯端点理论直接称作真实任意分布的最优解。",
+      "parent_node": "local:tops:mppca",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/covariance.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§3–4; Appendix A9–A10",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:schedule",
+      "key": "schedule",
+      "kind": "local",
+      "paper": "tops",
+      "title": "扩张轴先慢后快插值",
+      "subtitle": "只调整扩张方向的运输时序，其他方向用线性插值。",
+      "detail": "从源到动作的路径和条件速度目标一起改变，再训练同一速度网络；源和schedule固定。",
+      "parent_node": "local:tops:covariance",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/schedule.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§4.2; Fig.2; Appendix A11",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:solver",
+      "key": "solver",
+      "kind": "local",
+      "paper": "tops",
+      "title": "一次积分步与两次网络求值",
+      "subtitle": "用匹配时序的两半步求解动作轨迹。",
+      "detail": "one step依次调用两次速度网络，NFE=2；K=0时退化成两次Euler半步，为一阶方法，不是学得ODE的精确解。",
+      "parent_node": "local:tops:schedule",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/solver.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§4.3; Appendix A8",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:benchmark-budget",
+      "key": "benchmark-budget",
+      "kind": "local",
+      "paper": "tops",
+      "title": "同训练run与推理预算比较",
+      "subtitle": "同时读成功率、网络求值数和单次策略延迟。",
+      "detail": "主表三训练run；标准FM十midpoint步NFE20、TOPS一步NFE2，LIBERO-10为53.44→69.67，49.4→8.2ms。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/benchmark-budget.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "Table 1; §5.1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:ood-protocol",
+      "key": "ood-protocol",
+      "kind": "local",
+      "paper": "tops",
+      "title": "扰动与跨环境评估",
+      "subtitle": "在各自固定测试口径检查少步生成。",
+      "detail": "LIBEROPlus2100变体排除全0的Camera类；CALVIN ABC→D检查跨环境链长，不能和JAM的1506子集直接比较。",
+      "parent_node": "local:tops:benchmark-budget",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/ood-protocol.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§5.1; Appendix A1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:transfer",
+      "key": "transfer",
+      "kind": "local",
+      "paper": "tops",
+      "title": "π0.5迁移",
+      "subtitle": "在大型预训练策略中替换源、路径与采样器。",
+      "detail": "总14K步预算，6K时建source后继续；π0.5基线十Euler步NFE10，对比TOPSNFE2，这部分仅单checkpoint。",
+      "parent_node": "local:tops:schedule",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/transfer.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§5.1.3; Fig.4; Appendix A1",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:hardware",
+      "key": "hardware",
+      "kind": "local",
+      "paper": "tops",
+      "title": "固定身体的八类单臂任务",
+      "subtitle": "真实机器人右臂和夹爪执行抽屉、颜色匹配与蔬菜拾取。",
+      "detail": "Galaxea R1 Lite的底盘/躯干/左臂固定；八任务每条件各20次，124/160对82/160，不当全身移动操作。",
+      "parent_node": "paper:tops",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/hardware.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§5.2; Fig.5; Appendix A3",
+      "explainers": []
+    },
+    {
+      "id": "local:tops:component-ablation",
+      "key": "component-ablation",
+      "kind": "local",
+      "paper": "tops",
+      "title": "源、路径和求解器的联合消融",
+      "subtitle": "用source-only和匹配NFE进一步定位收益。",
+      "detail": "source-only固定M为59.17、完整69.67；Table 6的M=3诊断在NFE2时通用Euler/midpoint为0、专用solver68.33，与主表M=2分开。",
+      "parent_node": "local:tops:solver",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tops/component-ablation.md",
+      "source_url": "https://arxiv.org/html/2610.36694v1",
+      "locator": "§5.3; Fig.6; Table 6",
       "explainers": []
     },
     {
@@ -15640,6 +16287,180 @@
       "lit": false
     },
     {
+      "from": "paper:jam",
+      "to": "local:jam:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:jepa",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:jepa",
+      "to": "concept:jepa",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:cosine",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:cosine",
+      "to": "concept:cosine",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:jam:action",
+      "to": "local:jam:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:vae",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:vae",
+      "to": "concept:vae",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:jam:representation",
+      "to": "local:jam:shift",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:shift",
+      "to": "concept:shift",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:choices",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:current",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:current",
+      "to": "local:jam:anchor",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:anchor",
+      "to": "local:jam:head",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:head",
+      "to": "local:jam:loss",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:head",
+      "to": "local:jam:deploy",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:anchor",
+      "to": "local:jam:targets",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:jam",
+      "to": "local:jam:robustness",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:anchor",
+      "to": "local:jam:cost",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jam:robustness",
+      "to": "local:jam:uncertainty",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:latent-diffusion",
       "to": "local:latent-diffusion:diffusion",
       "kind": "contains",
@@ -17566,6 +18387,156 @@
       "lit": false
     },
     {
+      "from": "paper:tops",
+      "to": "local:tops:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:tops:action",
+      "to": "local:tops:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:shift",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:shift",
+      "to": "concept:shift",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:warmup",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:warmup",
+      "to": "local:tops:reverse-bank",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:reverse-bank",
+      "to": "local:tops:mppca",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:mppca",
+      "to": "local:tops:selector",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:mppca",
+      "to": "local:tops:covariance",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:covariance",
+      "to": "local:tops:schedule",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:schedule",
+      "to": "local:tops:solver",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:benchmark-budget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:benchmark-budget",
+      "to": "local:tops:ood-protocol",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:schedule",
+      "to": "local:tops:transfer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tops",
+      "to": "local:tops:hardware",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tops:solver",
+      "to": "local:tops:component-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:trajectory-transformer",
       "to": "local:trajectory-transformer:causal",
       "kind": "contains",
@@ -18241,9 +19212,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 118,
+    "papers": 120,
     "concepts": 59,
-    "local_topics": 562,
+    "local_topics": 601,
     "lit_papers": 2,
     "lit_concepts": 16,
     "lit_local_topics": 59

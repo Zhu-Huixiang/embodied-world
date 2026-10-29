@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-10-29",
   "provider": "OpenAlex / Semantic Scholar (per-record)",
   "rule": "每篇一个原研究记录，不相加版本或数据库。正式刊会沿用已核出版身份的OpenAlex；本次14篇预印本按精确arXiv ID优先Semantic Scholar，再用已核OpenAlex，不按较大数挑源。各条留来源、日期、原值和其他快照。未知引文年份不计近期，R可为下界。",
   "papers": [
@@ -4631,6 +4631,38 @@
         "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.35852",
         "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.35852",
         "https://api.openalex.org/works?search=Differentiable+Contact+Dynamics+for+Legged+Locomotion%3A+Policy+Learning+and+Contact-Implicit+Trajectory+Optimization&per-page=5"
+      ]
+    },
+    {
+      "paper_id": "jam",
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "status": "unmatched",
+      "provider": "Semantic Scholar / OpenAlex",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.37219?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+      "match_note": "S2精确arXiv ID429；OpenAlex精确DOI404，标题前5均不匹配本研究，原始引用保留null。",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.37219?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.37219",
+        "https://api.openalex.org/works?search=Vision-Language-Action+or+World-Action%3F+Just+Action+Models&per-page=5"
+      ]
+    },
+    {
+      "paper_id": "tops",
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "status": "unmatched",
+      "provider": "Semantic Scholar / OpenAlex",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+      "match_note": "S2精确arXiv ID429；OpenAlex精确DOI404，标题前5均不匹配本研究，原始引用保留null。",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.36694?fields=title,authors,year,externalIds,citationCount,citations.paperId,citations.year",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2610.36694",
+        "https://api.openalex.org/works?search=TOPS%3A+Reshaping+Flow+Source+and+Transport+for+Multi-Task+Robot+Manipulation&per-page=5"
       ]
     }
   ]

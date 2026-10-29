@@ -14,6 +14,8 @@
 - [Rectified Flow](../papers/rectified-flow.md) · 机制导读 · [原文](https://iclr.cc/virtual/2023/poster/11266)
 - [GR00T N1](../papers/gr00t-n1.md) · 机制导读 · [原文](https://arxiv.org/abs/2503.14734)
 - [EgoScale](../papers/egoscale.md) · 机制导读 · [原文](https://arxiv.org/abs/2602.16710)
+- [JAM](../papers/jam.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.37219v1)
+- [TOPS](../papers/tops.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.36694v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-10-29",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1303,6 +1303,30 @@
       "reason": "arXiv v1完整公开，稳定论文身份、作者和时间可追溯，按完整公开阶段60计",
       "submission_target": "IEEE Transactions on Robotics",
       "submission_status": "submitted"
+    },
+    "jam": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/html/2610.37219v1",
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.37219v1",
+        "https://arxiv.org/pdf/2610.37219v1",
+        "https://y0uroy.github.io/JAM/"
+      ],
+      "verification_basis": "原站v1、版本历史、PDF首页与官方项目核验；仅登记完整公开阶段。",
+      "reason": "arXiv v1完整公开，稳定身份、版本与作者可追溯，按公开阶段60计。"
+    },
+    "tops": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/html/2610.36694v1",
+      "checked_at": "2026-10-29T08:39:29+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.36694v1",
+        "https://arxiv.org/pdf/2610.36694v1",
+        "https://ntumars.github.io/TOPS/"
+      ],
+      "verification_basis": "原站v1、版本历史、PDF首页与官方项目核验；仅登记完整公开阶段。",
+      "reason": "arXiv v1完整公开，稳定身份、版本与作者可追溯，按公开阶段60计。"
     }
   }
 }

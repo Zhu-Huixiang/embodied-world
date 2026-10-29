@@ -25,7 +25,7 @@
 | [上海人工智能实验室](profiles/shanghai-ai-lab.md) | 论文署名机构 | 2 | 操作与动作块、世界模型与模型强化学习 |
 | [上海期智研究院](profiles/institution-i4405259049.md) | 研究机构 | 3 | 世界模型与模型强化学习、操作与动作块 |
 | [不列颠哥伦比亚大学](profiles/institution-i141945490.md) | 大学 | 1 | 动作先验与全身技能 |
-| [东京大学](profiles/institution-i74801974.md) | 大学 | 1 | 视频动作模型与视觉推理 |
+| [东京大学](profiles/institution-i74801974.md) | 大学 | 2 | 视频动作模型与视觉推理、视觉语言动作模型 VLA |
 | [中国科学院自动化研究所模式识别国家重点实验室（NLPR）](profiles/organization-287b925331ab.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
 | [中山大学](profiles/institution-i157773358.md) | 大学 | 1 | 视频动作模型与视觉推理 |
 | [丰田研究院](profiles/institution-i4391768151.md) | 研究机构 | 5 | 操作与动作块、视觉语言动作模型 VLA |
@@ -44,6 +44,7 @@
 | [华盛顿大学](profiles/institution-i201448701.md) | 大学 | 4 | 操作与动作块、Locomotion 与运动适应 |
 | [华盛顿大学机器人与状态估计实验室（RSE）](profiles/uw-rse.md) | 大学实验室 | 2 | 操作与动作块 |
 | [南方科技大学](profiles/institution-i3045169105.md) | 大学 | 1 | 视频动作模型与视觉推理 |
+| [南洋理工大学 MARS 实验室](profiles/ntu-mars.md) | 大学实验室 | 1 | 操作与动作块 |
 | [卡内基梅隆大学](profiles/institution-i74973139.md) | 大学 | 12 | Locomotion 与运动适应、操作与动作块、视觉语言动作模型 VLA、动作先验与全身技能、世界动作模型 |
 | [卡内基梅隆大学 LeCAR 实验室](profiles/cmu-lecar.md) | 大学实验室 | 1 | Locomotion 与运动适应 |
 | [吉林大学](profiles/organization-3c8d9a5bb5be.md) | 论文署名机构 | 1 | 视频动作模型与视觉推理 |
@@ -74,6 +75,7 @@
 | [斯坦福大学 IRIS 实验室](profiles/stanford-iris.md) | 大学实验室 | 5 | 视觉语言动作模型 VLA、操作与动作块 |
 | [斯坦福大学机器人与具身智能实验室（REAL）](profiles/stanford-real.md) | 大学实验室 | 0 |  |
 | [新加坡科技研究局前沿人工智能研究中心（CFAR）](profiles/organization-1479c8d4fb3b.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
+| [日本国立信息学研究所](profiles/japan-nii.md) | 研究机构 | 1 | 视觉语言动作模型 VLA |
 | [星尘智能](profiles/organization-1cc2f28748e4.md) | 论文署名机构 | 1 | 视频动作模型与视觉推理 |
 | [普林斯顿大学](profiles/institution-i20089843.md) | 大学 | 2 | 操作与动作块 |
 | [柏林工业大学](profiles/organization-9e53ca15a892.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
@@ -128,4 +130,4 @@
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-核验日期：2026-10-28。
+核验日期：2026-10-29。

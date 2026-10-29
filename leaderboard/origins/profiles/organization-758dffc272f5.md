@@ -25,6 +25,6 @@
 - [来源3](https://api.openalex.org/works/W7140141371)
 - [来源4](https://le-wm.github.io/)
 
-资料核验：2026-10-28。
+资料核验：2026-10-29。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

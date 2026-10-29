@@ -1,6 +1,6 @@
 # 东京大学
 
-本仓已收录工作主要涉及：视频动作模型与视觉推理。
+本仓已收录工作主要涉及：视频动作模型与视觉推理、视觉语言动作模型 VLA。
 
 **类型**：大学。
 
@@ -15,6 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
+| [JAM · Vision-Language-Action or World-Action? Just Action Models](../../../library/jam.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-jam) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [67.0](../../papers/jam/README.md) |
 | [PLaW-VLA · PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../../../library/plaw-vla.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-plaw-vla) | [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) | [61.7](../../papers/plaw-vla/README.md) |
 
 ## 署名与来源
@@ -24,6 +25,6 @@
 - [来源1](https://openalex.org/I74801974)
 - [来源2](https://api.openalex.org/institutions/I74801974)
 
-资料核验：2026-10-28。
+资料核验：2026-10-29。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)
