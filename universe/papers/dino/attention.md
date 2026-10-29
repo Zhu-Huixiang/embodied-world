@@ -1,0 +1,11 @@
+# 注意力 · DINO
+
+按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。
+
+自注意力在同一序列内读；交叉注意力读取另一组条件。
+
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#42-表示的新性质从找同类到找物体)
+
+[跨论文技术入口](../../concepts/attention.md)
+
+[本篇星系](../dino.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md) · [原文依据](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)

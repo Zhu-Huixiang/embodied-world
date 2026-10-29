@@ -26,7 +26,7 @@
 
 经典保留理由：2017 年经典例外：用户明确举例允许；Transformer 的 Q/K/V、多头注意力和因果建模是现代具身视觉语言动作模型的共同基础。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/attention-1706.03762/README.md)
 
 [知识星系](../universe/papers/attention.md) · [七维评分与雷达](../leaderboard/papers/attention/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
 

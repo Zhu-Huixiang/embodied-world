@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- |
 | 1 | 1 | [Learning Transferable Visual Models From Natural Language Supervision](../articles/clip-2103.00020/README.md) | [ICML 2021](../venues/ICML/README.md) | 96.4 |
 | 2 | 2 | [Denoising Diffusion Probabilistic Models](../articles/ddpm-2006.11239/README.md) | [NeurIPS 2020](../venues/NeurIPS/README.md) | 95.9 |
-| 3 | 3 | [High-Resolution Image Synthesis with Latent Diffusion Models](../library/latent-diffusion.md) | [CVPR 2022](../venues/CVPR/README.md) | 95.8 |
-| 4 | 4 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](../library/vit.md) | [ICLR 2021](../venues/ICLR/README.md) | 95.7 |
-| 5 | 5 | [Segment Anything](../library/sam.md) | [ICCV 2023](../venues/ICCV/README.md) | 95.3 |
-| 6 | 6 | [Masked Autoencoders Are Scalable Vision Learners](../library/mae.md) | [CVPR 2022](../venues/CVPR/README.md) | 95.3 |
-| 7 | 7 | [Mastering Atari, Go, chess and shogi by planning with a learned model](../library/muzero.md) | [Nature 2020](../venues/Nature/README.md) | 94.6 |
-| 8 | 8 | [Attention Is All You Need](../library/attention.md) | [NeurIPS 2017](../venues/NeurIPS/README.md) | 94.3 |
-| 9 | 9 | [Emerging Properties in Self-Supervised Vision Transformers](../library/dino.md) | [ICCV 2021](../venues/ICCV/README.md) | 94.3 |
-| 10 | 10 | [3D Gaussian Splatting for Real-Time Radiance Field Rendering](../library/gaussian-splatting.md) | [SIGGRAPH / TOG 2023](../venues/SIGGRAPH-TOG/README.md) | 94.3 |
-| 11 | 11 | [Scalable Diffusion Models with Transformers](../library/dit.md) | [ICCV 2023](../venues/ICCV/README.md) | 94.2 |
-| 12 | 12 | [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../library/diffusion-policy.md) | [RSS 2023](../venues/RSS/README.md) | 92.6 |
+| 3 | 3 | [High-Resolution Image Synthesis with Latent Diffusion Models](../articles/latent-diffusion-2112.10752/README.md) | [CVPR 2022](../venues/CVPR/README.md) | 95.8 |
+| 4 | 4 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](../articles/vit-2010.11929/README.md) | [ICLR 2021](../venues/ICLR/README.md) | 95.7 |
+| 5 | 5 | [Segment Anything](../articles/sam-2304.02643/README.md) | [ICCV 2023](../venues/ICCV/README.md) | 95.3 |
+| 6 | 6 | [Masked Autoencoders Are Scalable Vision Learners](../articles/mae-2111.06377/README.md) | [CVPR 2022](../venues/CVPR/README.md) | 95.3 |
+| 7 | 7 | [Mastering Atari, Go, chess and shogi by planning with a learned model](../articles/muzero-1911.08265/README.md) | [Nature 2020](../venues/Nature/README.md) | 94.6 |
+| 8 | 8 | [Attention Is All You Need](../articles/attention-1706.03762/README.md) | [NeurIPS 2017](../venues/NeurIPS/README.md) | 94.3 |
+| 9 | 9 | [Emerging Properties in Self-Supervised Vision Transformers](../articles/dino-2104.14294/README.md) | [ICCV 2021](../venues/ICCV/README.md) | 94.3 |
+| 10 | 10 | [3D Gaussian Splatting for Real-Time Radiance Field Rendering](../articles/gaussian-splatting-2308.04079/README.md) | [SIGGRAPH / TOG 2023](../venues/SIGGRAPH-TOG/README.md) | 94.3 |
+| 11 | 11 | [Scalable Diffusion Models with Transformers](../articles/dit-2212.09748/README.md) | [ICCV 2023](../venues/ICCV/README.md) | 94.2 |
+| 12 | 12 | [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../articles/diffusion-policy-2303.04137/README.md) | [RSS 2023](../venues/RSS/README.md) | 92.6 |
 | 13 | 13 | [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](../library/nerf.md) | [ECCV 2020](../venues/ECCV/README.md) | 92.4 |
 | 14 | 14 | [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../library/act.md) | [RSS 2023](../venues/RSS/README.md) | 91.6 |
 | 15 | 15 | [Mastering diverse control tasks through world models](../library/dreamerv3.md) | [Nature 2025](../venues/Nature/README.md) | 91.4 |

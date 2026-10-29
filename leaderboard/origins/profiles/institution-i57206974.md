@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [DiT · Scalable Diffusion Models with Transformers](../../../library/dit.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.2](../../papers/dit/README.md) |
+| [DiT · Scalable Diffusion Models with Transformers](../../../articles/dit-2212.09748/README.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.2](../../papers/dit/README.md) |
 | [I-JEPA · Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](../../../library/i-jepa.md) | 2023 / [CVPR](../../../venues/CVPR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [90.0](../../papers/i-jepa/README.md) |
 | [VQ-BeT · Behavior Generation with Latent Actions](../../../library/vq-bet.md) | 2024 / [ICML](../../../venues/ICML/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [84.9](../../papers/vq-bet/README.md) |
 | [LeWM · LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](../../../library/lewm.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-lewm) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [81.2](../../papers/lewm/README.md) |

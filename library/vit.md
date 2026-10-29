@@ -26,7 +26,7 @@ ViT 的图像 patch 序列成为 DINOv2、MAE 及多种 VLA 视觉编码器的�
 
 经典保留理由：ICLR 2021 早于 2021-10-10，作为图像 token 化的经典例外；后续机器人视觉预训练和 VLA 明确采用其结构。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/vit-2010.11929/README.md)
 
 [知识星系](../universe/papers/vit.md) · [七维评分与雷达](../leaderboard/papers/vit/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 

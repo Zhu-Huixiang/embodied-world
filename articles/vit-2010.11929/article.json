@@ -1,0 +1,342 @@
+{
+  "slug": "vit-2010.11929",
+  "title": "ViT：把图片切碎，怎么就打过了卷积？",
+  "topics": [
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "arxiv_id": "2010.11929",
+    "version": "arXiv v2, 2021-06-03; ICLR camera-ready with corrected FLOPs",
+    "first_publication": "2020-10-22",
+    "pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+    "url": "https://arxiv.org/abs/2010.11929v2",
+    "project_url": "https://github.com/google-research/vision_transformer",
+    "code_url": "https://github.com/google-research/vision_transformer",
+    "authors": [
+      "Alexey Dosovitskiy",
+      "Lucas Beyer",
+      "Alexander Kolesnikov",
+      "Dirk Weissenborn",
+      "Xiaohua Zhai",
+      "Thomas Unterthiner",
+      "Mostafa Dehghani",
+      "Matthias Minderer",
+      "Georg Heigold",
+      "Sylvain Gelly",
+      "Jakob Uszkoreit",
+      "Neil Houlsby"
+    ],
+    "institutions": [
+      "Google Research Brain Team"
+    ],
+    "source_checked_at": "2026-10-30T00:31:23+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "ICLR 2021",
+    "url": "https://iclr.cc/virtual/2021/poster/3013",
+    "checked_at": "2026-10-30T00:31:23+08:00",
+    "explanation": "Official ICLR 2021 poster entry opened; authors and paper title matched. Official arXiv v2 describes camera-ready changes. Main conference representation-learning paper, not a robotics experiment."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/vit-method.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "ViT 全篇架构",
+      "reviewed": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/vit-method.tex",
+      "pdf": "figures/drawpaper/vit-method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "source_paper_url": "https://arxiv.org/pdf/2010.11929v2",
+      "regions": [
+        "A patches and positions",
+        "B pre-LN encoder",
+        "C CLS classifier",
+        "D supervised training",
+        "E transfer and resolution"
+      ],
+      "provenance": "Built-in imagegen illustrated draft, preserved via graphicx cropped viewports in five regions. Scientific labels and equations typeset independently with XeLaTeX; source prompt and draft retained."
+    },
+    {
+      "file": "figures/original/fig1-original.png",
+      "caption": "论文 Fig. 1。沿左侧图片块、线性投影、位置编号往上读；右侧展开一个 Transformer 编码器块。",
+      "alt": "论文 ViT 架构",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 3,
+      "figure_id": "Fig. 1",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        105,
+        68,
+        507,
+        255
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/formulas/01-token.png",
+      "caption": "公式 1｜原文 Eq. (1)：图像块投影、CLS 和位置嵌入共同组成输入序列。",
+      "alt": "切块与 token 公式",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/01-token.tex",
+      "pdf": "figures/formulas/01-token.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/03-attention.png",
+      "caption": "公式 2｜原文附录 A Eqs. (5)–(7)：相似度先变成权重，再加权汇总内容。",
+      "alt": "自注意力计算",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/03-attention.tex",
+      "pdf": "figures/formulas/03-attention.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/06-attention-example.png",
+      "caption": "公式 3｜教学例子：一行注意力权重怎样把三个值汇成一个数。",
+      "alt": "注意力教学例子",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/06-attention-example.tex",
+      "pdf": "figures/formulas/06-attention-example.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-block.png",
+      "caption": "公式 4｜原文 Eqs. (2)–(4)：两次“归一化—计算—残差”，最后读 CLS。",
+      "alt": "编码器与分类表示",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/02-block.tex",
+      "pdf": "figures/formulas/02-block.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/04-mlp.png",
+      "caption": "公式 5｜对原文 MLP 的教学展开：扩宽通道，做非线性变换，再回到残差所需的宽度。",
+      "alt": "MLP 计算",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/04-mlp.tex",
+      "pdf": "figures/formulas/04-mlp.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/05-loss.png",
+      "caption": "公式 6｜监督分类的教学展开：正确类别概率越低，损失越大。",
+      "alt": "分类监督",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/05-loss.tex",
+      "pdf": "figures/formulas/05-loss.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/07-resolution.png",
+      "caption": "公式 7｜教学配置：从 224 到 384，固定 16 像素块后的序列增长。",
+      "alt": "分辨率与注意力规模",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/07-resolution.tex",
+      "pdf": "figures/formulas/07-resolution.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/table2-original.png",
+      "caption": "论文 Table 2。先按列确定预训练模型，再沿行比较同一数据集；底行单列预训练计算成本。",
+      "alt": "主要结果原表",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 6,
+      "figure_id": "Table 2",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        105,
+        77,
+        507,
+        201
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig3-original.png",
+      "caption": "论文 Fig. 3。横轴是预训练数据集，纵轴是 ImageNet Top-1；不同颜色或形状区分模型。",
+      "alt": "数据规模与模型对比",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "Fig. 3",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        106,
+        76,
+        300,
+        221
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig4-original.png",
+      "caption": "论文 Fig. 4。横轴是 JFT 预训练图像数量，纵轴是冻结表示后的 ImageNet 5-shot 准确率。",
+      "alt": "JFT 子集规模研究",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "Fig. 4",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        307,
+        76,
+        504,
+        221
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig5-original.png",
+      "caption": "论文 Fig. 5。横轴是预训练计算量，左图纵轴是五个数据集平均准确率，右图是 ImageNet 准确率。",
+      "alt": "计算预算与迁移效果",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "Fig. 5",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        109,
+        302,
+        505,
+        470
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig7-original.png",
+      "caption": "论文 Fig. 7。左边看块投影，中间看位置相似性，右边看不同注意力头的信息跨度。",
+      "alt": "ViT 学到的结构",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 9,
+      "figure_id": "Fig. 7",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        105,
+        83,
+        506,
+        214
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig7-position-detail.png",
+      "caption": "论文 Fig. 7 中间局部。大网格选一个位置，每张小热图显示它与所有位置嵌入的余弦相似度。",
+      "alt": "位置嵌入局部",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 9,
+      "figure_id": "Fig. 7 middle detail",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        267,
+        83,
+        389,
+        214
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": true
+    },
+    {
+      "file": "figures/original/fig7-distance-detail.png",
+      "caption": "论文 Fig. 7 右侧局部。横轴为网络深度，纵轴为平均注意力距离，单位是输入像素。",
+      "alt": "注意力距离局部",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2010.11929v2",
+      "kind": "original",
+      "pdf_page": 9,
+      "figure_id": "Fig. 7 right detail",
+      "source_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+      "bbox": [
+        395,
+        83,
+        506,
+        214
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright remains with paper authors. arXiv nonexclusive distribution licence checked; only necessary figures and one results table reproduced for substantive criticism, with detailed interpretation and attribution. Full paper not exported.",
+      "rights_source": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "extraction": "Whole PDF page rendered at 4x then geometrically cropped, preserving labels/legend/axes. Explicit details are supplementary to full Fig. 7.",
+      "supplemental_detail": true
+    }
+  ],
+  "cover_info": {
+    "source": "built-in imagegen",
+    "generator": "imagegen",
+    "ai_generated": true,
+    "prompt": "notes/cover-prompt.md",
+    "reviewed": true,
+    "caption": "切块，也能看懂？ · ViT"
+  }
+}

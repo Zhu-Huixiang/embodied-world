@@ -2,7 +2,7 @@
 
 **3DGS** · SIGGRAPH / TOG 2023 · 本版排名 10 · 综合分 **94.3 / 100**
 
-[解读导读](../../../library/gaussian-splatting.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
+[完整解读](../../../articles/gaussian-splatting-2308.04079/README.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 
 [知识星系](../../../universe/papers/gaussian-splatting.md) · [原文](https://dl.acm.org/doi/10.1145/3592433) · [PDF](https://arxiv.org/pdf/2308.04079) · [阅读卡片](../../../library/gaussian-splatting.md)
 

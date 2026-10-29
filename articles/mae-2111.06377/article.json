@@ -1,0 +1,376 @@
+{
+  "slug": "mae-2111.06377",
+  "title": "MAE：把图遮掉四分之三，为什么反而学会了看？",
+  "topics": [
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "Masked Autoencoders Are Scalable Vision Learners",
+    "arxiv_id": "2111.06377",
+    "version": "CVPR 2022 accepted main PDF; CVF official supplement",
+    "first_publication": "2021-11-11",
+    "pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+    "url": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+    "project_url": "https://github.com/facebookresearch/mae",
+    "code_url": "https://github.com/facebookresearch/mae",
+    "authors": [
+      "Kaiming He",
+      "Xinlei Chen",
+      "Saining Xie",
+      "Yanghao Li",
+      "Piotr Dollár",
+      "Ross Girshick"
+    ],
+    "institutions": [
+      "FAIR"
+    ],
+    "source_checked_at": "2026-10-30T01:00:46+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "CVPR 2022",
+    "url": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+    "checked_at": "2026-10-30T01:00:46+08:00",
+    "explanation": "Official CVF HTML fetched HTTP200 via httpx after web tool403; title/authors/pages matched. CVF says accepted version apart from watermark, copyright retained."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/mae-method.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "MAE全篇架构，随机遮块、可见块编码、轻解码、像素监督与下游迁移",
+      "reviewed": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/mae-method.tex",
+      "pdf": "figures/drawpaper/mae-method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "source_paper_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "provenance": "Actual builtinimagegen draft visuals retained across5panels; exact scientificlabels/equations independently typeset inXeLaTeX."
+    },
+    {
+      "file": "figures/original/fig2-original.png",
+      "caption": "论文 Fig. 2：按“残缺图→重建→原图”三张一组看，重点比较主体结构与具体纹理。",
+      "alt": "MAE在ImageNet验证图上的输入重建与原图",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 2,
+      "figure_id": "fig2-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        50,
+        65,
+        548,
+        235
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/formulas/01-visible.png",
+      "caption": "MAE可见块与编码器输入的形状",
+      "alt": "MAE可见块与编码器输入的形状",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/01-visible.tex",
+      "pdf": "figures/formulas/01-visible.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-decode.png",
+      "caption": "MAE解码器投影补位与像素输出",
+      "alt": "MAE解码器投影补位与像素输出",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/02-decode.tex",
+      "pdf": "figures/formulas/02-decode.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/fig1-original.png",
+      "caption": "论文 Fig. 1：顺着左边稀疏图块、重编码器、中间补齐的序列、轻解码器和右边重建结果看。",
+      "alt": "MAE论文原始架构图",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 1,
+      "figure_id": "fig1-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        307,
+        200,
+        548,
+        333
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/formulas/03-loss.png",
+      "caption": "教学展开，对应论文 §3 的重建目标。外层在被遮挡的块之间平均，内层在一个块的像素元素之间平均。",
+      "alt": "MAE遮挡像素均方误差及每块归一化目标",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/03-loss.tex",
+      "pdf": "figures/formulas/03-loss.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/04-example.png",
+      "caption": "四元素教学例子，不是论文测量结果。",
+      "alt": "MAE像素归一化与误差的四元素教学例子",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/04-example.tex",
+      "pdf": "figures/formulas/04-example.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/fig5-original.png",
+      "caption": "论文 Fig. 5：上下两幅共用遮挡比例横轴，上图看完整微调，下图看冻结特征的线性探测。",
+      "alt": "MAE遮挡比例与微调线性探测准确率",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 4,
+      "figure_id": "fig5-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        315,
+        63,
+        544,
+        191
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table1-original.png",
+      "caption": "论文 Table 1：按子表逐个看；灰行是默认配置，别把不同子表的变化合成同一个模型。",
+      "alt": "MAE六组消融实验",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 5,
+      "figure_id": "table1-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        49,
+        63,
+        545,
+        231
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table1-mask-detail.png",
+      "caption": "论文 Table 1(c) 局部：w/ [M] 表示编码器包含 mask，w/o [M] 表示把它们移走。",
+      "alt": "MAE有无mask token进入编码器的局部对照",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 5,
+      "figure_id": "table1-mask-detail",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        396,
+        63,
+        545,
+        109
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": true
+    },
+    {
+      "file": "figures/original/fig6-original.png",
+      "caption": "论文 Fig. 6：从左到右是随机、整片块状、规则网格遮挡；每种都给输入与重建对照。",
+      "alt": "随机块状和网格遮挡的重建示例",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 6,
+      "figure_id": "fig6-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        49,
+        70,
+        288,
+        166
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/formulas/05-cost.png",
+      "caption": "教学计算与论文 Table 2 的实测时间并列：矩阵元素比例与端到端耗时是两种指标。",
+      "alt": "MAE注意力元素数和实际训练时间的区别",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/05-cost.tex",
+      "pdf": "figures/formulas/05-cost.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/table2-original.png",
+      "caption": "论文 Table 2：固定 800 个 epoch、128 个 TPU-v3 核与 TensorFlow，比较真实预训练耗时。",
+      "alt": "MAE实测训练时间",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 5,
+      "figure_id": "table2-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        316,
+        287,
+        544,
+        363
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig8-original.png",
+      "caption": "论文 Fig. 8：横轴是参数量，纵轴是微调后的 ImageNet 准确率；蓝色曲线是 MAE，其他线是不同监督训练方案。",
+      "alt": "MAE不同模型规模下与监督预训练的比较",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "fig8-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        49,
+        228,
+        286,
+        351
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig9-original.png",
+      "caption": "论文 Fig. 9：横轴是允许微调的 Transformer 层数，纵轴是 ImageNet 准确率；0 层就是线性探测，24 层就是完整微调。",
+      "alt": "MAE部分微调层数与准确率",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "fig9-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        315,
+        63,
+        544,
+        174
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table4-original.png",
+      "caption": "论文 Table 4：Aᴾ_box 是检测框平均精度，Aᴾ_mask 是实例掩码平均精度；同一种 ViT 大小内比较预训练方案。",
+      "alt": "MAE在COCO检测与实例分割上的结果",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 8,
+      "figure_id": "table4-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        49,
+        54,
+        286,
+        121
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table5-original.png",
+      "caption": "论文 Table 5：ADE20K 的语义分割 mIoU，按 ViT-B、ViT-L 分列。",
+      "alt": "MAE在ADE20K语义分割上的结果",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+      "kind": "original",
+      "pdf_page": 8,
+      "figure_id": "table5-original",
+      "source_pdf_sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+      "bbox": [
+        325,
+        65,
+        546,
+        121
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    }
+  ],
+  "cover_info": {
+    "source": "built-in imagegen",
+    "generator": "imagegen",
+    "ai_generated": true,
+    "prompt": "notes/cover-prompt.md",
+    "reviewed": true,
+    "caption": "藏起75%，还能看懂？ · MAE"
+  }
+}

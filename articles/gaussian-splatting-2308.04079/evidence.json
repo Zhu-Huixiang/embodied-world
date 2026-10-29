@@ -1,0 +1,233 @@
+{
+  "paper_version": "arXiv 2308.04079v1 (2023-08-08)",
+  "pdf_sha256": "f4c0c9f27e2d02b0265017f66049d471eb66cb50203bc918f51ba07d20cbbe11",
+  "checked_at": "2026-10-30T00:45:06.967979+08:00",
+  "claims": [
+    {
+      "id": "C01",
+      "type": "qualitative",
+      "claim": "静态多视角新视角合成；表示/优化/可微光栅化联合，质量训练渲染目标。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 1,
+      "locator": "Abstract; §1",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C02",
+      "type": "qualitative",
+      "claim": "作者机构、SIGGRAPH2023 TOG42(4)，arxivv1日期；arxiv日非全球首次发表日。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 1,
+      "locator": "Title; official project and DOI",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C03",
+      "type": "qualitative",
+      "claim": "NeRF volume compositing与point splatting关系，历史工作非全新部件。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 2,
+      "locator": "§2 and Eq1–3 p3",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C04",
+      "type": "qualitative",
+      "claim": "SfM cameras/sparse cloud初始化，每轮相机渲染+loss更新。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 4,
+      "locator": "§3; Fig2 p5",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C05",
+      "type": "qualitative",
+      "claim": "μ3、Σ3×3、scale3/quat4、sigmoidopacity exp scales；Gaussian数值教学。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 4,
+      "locator": "Eqs4,6; §4–5.1",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C06",
+      "type": "qualitative",
+      "claim": "三维协方差局部透视映射；二维J2×3/W3×3教学展开、数值投影例。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 4,
+      "locator": "Eq5; AppendixA",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C07",
+      "type": "qualitative",
+      "claim": "四SH bands逐1000steps引入；16basis48RGB系数是标准维数展开。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 8,
+      "locator": "§7.1 Optimization details",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C08",
+      "type": "qualitative",
+      "claim": "alpha compositing、剩余transmittance；红蓝数例顺序影响。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 3,
+      "locator": "Eq3; §4",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C09",
+      "type": "qualitative",
+      "claim": "大位置梯度.0002，small clone/large split2，尺度÷1.6位置按原高斯采样。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 5,
+      "locator": "§5.2; Fig4 p6",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C10",
+      "type": "qualitative",
+      "claim": "100步densification，3000步opacityreset，低opacity与过大prune。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 5,
+      "locator": "§5.2 pp5–6",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C11",
+      "type": "qualitative",
+      "claim": "16²tile、frustumcull、duplicate+tiledepth key radixsort、sharedload、fronttoback earlystop。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 6,
+      "locator": "§6; AppendixC p14",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C12",
+      "type": "qualitative",
+      "claim": "一次图元深度排序近似、反向逆序列表恢复，非限制前N个梯度。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 6,
+      "locator": "§6; AppendixC",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C13",
+      "type": "qualitative",
+      "claim": "PyTorch/CUDA/SIBR；低res warmup、SH bands；three real datasets，every8th test。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 8,
+      "locator": "§7.1–7.2",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C14",
+      "type": "quantitative",
+      "claim": "SSIM.792/.815、PSNR27.69/27.21、LPIPS.237/.214；dagger质量引用原文。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 8,
+      "locator": "Table1 Mip-NeRF360 block",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "SSIM / PSNR / LPIPS",
+      "conditions": "Mip-NeRF360 dataset, original comparison scope",
+      "baseline": "Mip-NeRF360 vs ours30K",
+      "unit": "SSIM / dB / LPIPS",
+      "sample_size": "9 scenes"
+    },
+    {
+      "id": "C15",
+      "type": "quantitative",
+      "claim": "FPS.06/134、storage8.6/734MB；48 GPU-hours=4A100×12h而非同机wallclock；ours41m33s A6000。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 8,
+      "locator": "Table1; p9 footnote2",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "FPS / storage / training",
+      "conditions": "hardware and accounting differ as stated",
+      "baseline": "Mip-NeRF360 vs ours30K",
+      "unit": "FPS / MB / time",
+      "sample_size": "9 scene dataset mean"
+    },
+    {
+      "id": "C16",
+      "type": "quantitative",
+      "claim": "7K6m25s160FPS25.60PSNR；30K41m33s134FPS27.21。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 8,
+      "locator": "Table1",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "training / FPS / PSNR",
+      "conditions": "same Mip-NeRF360 dataset",
+      "baseline": "7K vs30K",
+      "unit": "time / FPS / dB",
+      "sample_size": "9 scenes"
+    },
+    {
+      "id": "C17",
+      "type": "quantitative",
+      "claim": "Synthetic100K randominit；PSNRours33.32PointNeRF33.30INGPbase33.18。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 8,
+      "locator": "Table2; §7.2",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "PSNR",
+      "conditions": "Synthetic NeRF/Blender benchmark",
+      "baseline": "Point-NeRF and INGP-Base",
+      "unit": "dB",
+      "sample_size": "8 scenes"
+    },
+    {
+      "id": "C18",
+      "type": "quantitative",
+      "claim": "30K三场景平均Full26.05 NoSplit23.90 NoClone25.91 Isotropic25.23 NoSH25.35 Random20.42LimitedBW19.19；独立downsample配置。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 9,
+      "locator": "Table3",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "PSNR",
+      "conditions": "same Table3 ablation setup",
+      "baseline": "full method",
+      "unit": "dB",
+      "sample_size": "3 scenes at30K"
+    },
+    {
+      "id": "C19",
+      "type": "qualitative",
+      "claim": "实际上到下NoSplit/NoClone/Full，5K；局部视觉差异不等同Table3 30K。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 10,
+      "locator": "Fig8",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C20",
+      "type": "qualitative",
+      "claim": "少覆盖伪影、大高斯和排序popping、存储、超大场景位置lr；静态外观非物理模型。",
+      "source_url": "https://arxiv.org/pdf/2308.04079v1",
+      "pdf_page": 10,
+      "locator": "§7.4; §8 p11",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    }
+  ],
+  "source_uncertainties": []
+}

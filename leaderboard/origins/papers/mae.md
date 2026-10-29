@@ -31,7 +31,7 @@ Kaiming He、Xinlei Chen、Saining Xie、Yanghao Li、Piotr Dollár、Ross Girsh
 
 </details>
 
-[论文导读 / 完整解读](../../../library/mae.md) · [七维评分](../../papers/mae/README.md) · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html)
+[论文导读 / 完整解读](../../../articles/mae-2111.06377/README.md) · [七维评分](../../papers/mae/README.md) · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html)
 
 ## 署名来源
 

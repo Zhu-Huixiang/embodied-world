@@ -1,0 +1,291 @@
+{
+  "slug": "sam-2304.02643",
+  "title": "SAM：点一下就能抠图，它真知道你想要什么吗？",
+  "topics": [
+    "vla"
+  ],
+  "paper": {
+    "title": "Segment Anything",
+    "arxiv_id": "2304.02643",
+    "version": "arXiv 2304.02643v1 (2023-04-05)",
+    "first_publication": "2023-04-05",
+    "pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+    "url": "https://arxiv.org/abs/2304.02643v1",
+    "project_url": "https://segment-anything.com/",
+    "code_url": "https://github.com/facebookresearch/segment-anything",
+    "authors": [
+      "Alexander Kirillov",
+      "Eric Mintun",
+      "Nikhila Ravi",
+      "Hanzi Mao",
+      "Chloe Rolland",
+      "Laura Gustafson",
+      "Tete Xiao",
+      "Spencer Whitehead",
+      "Alexander C. Berg",
+      "Wan-Yen Lo",
+      "Piotr Dollár",
+      "Ross Girshick"
+    ],
+    "institutions": [
+      "Meta FAIR"
+    ],
+    "source_checked_at": "2026-10-30T00:45:06.967979+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "ICCV 2023",
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html",
+    "checked_at": "2026-10-30T00:45:06.967979+08:00",
+    "explanation": "Official proceedings/project record and source PDF checked; institutions reflect original paper affiliation."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/method.png",
+      "kind": "drawpaper",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "全篇架构",
+      "reviewed": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "source_paper_url": "https://arxiv.org/pdf/2304.02643v1",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/method.tex",
+      "pdf": "figures/drawpaper/method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "file": "figures/original/fig4.png",
+      "kind": "original",
+      "caption": "论文 Fig. 4。左边重算一次图像，右边轻量处理不同提示。",
+      "alt": "Fig. 4",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 5,
+      "figure_id": "Fig. 4",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        49,
+        70,
+        547,
+        174
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported."
+    },
+    {
+      "file": "figures/original/fig14.png",
+      "kind": "original",
+      "caption": "论文 Fig. 14。双向注意力先更新提示，再让提示反过来更新图像。",
+      "alt": "Fig. 14",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 16,
+      "figure_id": "Fig. 14",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        307,
+        69,
+        547,
+        156
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported."
+    },
+    {
+      "file": "figures/original/fig3.png",
+      "kind": "original",
+      "caption": "论文 Fig. 3。同一列共享一个绿点，三行是三种合理的分割范围。",
+      "alt": "Fig. 3",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 4,
+      "figure_id": "Fig. 3",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        307,
+        69,
+        547,
+        330
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported."
+    },
+    {
+      "file": "figures/original/fig9.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9。先看左侧单点差距，再看右下多点交互曲线。",
+      "alt": "Fig. 9",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 9,
+      "figure_id": "Fig. 9",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        49,
+        248,
+        547,
+        421
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported."
+    },
+    {
+      "file": "figures/original/table5.png",
+      "kind": "original",
+      "caption": "论文 Table 5。固定 ViTDet 检测框，比较后续分割的 AP。",
+      "alt": "Table 5",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 11,
+      "figure_id": "Table 5",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        49,
+        69,
+        288,
+        129
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported."
+    },
+    {
+      "file": "figures/original/fig13.png",
+      "kind": "original",
+      "caption": "论文 Fig. 13。依次拿数据阶段、数据量和编码器规模做消融。",
+      "alt": "Fig. 13",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 12,
+      "figure_id": "Fig. 13",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        49,
+        69,
+        547,
+        153
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported."
+    },
+    {
+      "file": "figures/formulas/01-mask.png",
+      "kind": "formula",
+      "caption": "公式 1｜依据附录 A 展开的掩码计算：每个输出 token 变成一组逐像素读出权重。",
+      "alt": "01-mask",
+      "source_url": "https://arxiv.org/abs/2304.02643",
+      "reviewed": true,
+      "generator": "TeX",
+      "tex": "figures/formulas/01-mask.tex",
+      "pdf": "figures/formulas/01-mask.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-select.png",
+      "kind": "formula",
+      "caption": "公式 2｜附录 A 的训练规则：含糊提示给出三个候选，只用掩码误差最小的候选更新掩码预测。",
+      "alt": "02-select",
+      "source_url": "https://arxiv.org/abs/2304.02643",
+      "reviewed": true,
+      "generator": "TeX",
+      "tex": "figures/formulas/02-select.tex",
+      "pdf": "figures/formulas/02-select.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/03-iou.png",
+      "kind": "formula",
+      "caption": "公式 3｜教学例子：预测 80 个像素、真值 70 个，重合 60 个时 IoU 为 2/3。",
+      "alt": "03-iou",
+      "source_url": "https://arxiv.org/abs/2304.02643",
+      "reviewed": true,
+      "generator": "TeX",
+      "tex": "figures/formulas/03-iou.tex",
+      "pdf": "figures/formulas/03-iou.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/fig9a.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9a 局部。横轴为单点 mIoU 相对 RITM 的百分点差，右侧更好。",
+      "alt": "Fig. 9a",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 9,
+      "figure_id": "Fig. 9a",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        49,
+        248,
+        304,
+        421
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported.",
+      "supplemental_detail": true
+    },
+    {
+      "file": "figures/original/fig9cd.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9c–d 局部。横轴增加点击次数，纵轴观察平均 IoU 的变化。",
+      "alt": "Fig. 9c–d",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 9,
+      "figure_id": "Fig. 9c–d",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        305,
+        330,
+        547,
+        421
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported.",
+      "supplemental_detail": true
+    },
+    {
+      "file": "figures/original/fig13bc.png",
+      "kind": "original",
+      "caption": "论文 Fig. 13 中、右局部。图像数量和编码器规模扩大后，收益逐步变小。",
+      "alt": "Fig. 13 中、右",
+      "source_url": "https://arxiv.org/pdf/2304.02643v1",
+      "pdf_page": 12,
+      "figure_id": "Fig. 13 中、右",
+      "source_pdf_sha256": "c6ca524e47200c3e542587ca76ac1dbc89cc67340f948c819250d16fdbd90cfb",
+      "bbox": [
+        218,
+        69,
+        547,
+        153
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited figure/table excerpts necessary to detailed scholarly commentary; complete paper not redistributed. Attention v7 explicitly permits tables and figures for journalistic or scholarly works with attribution; SAM/3DGS retain author rights and source attribution. No full-image set exported.",
+      "supplemental_detail": true
+    }
+  ],
+  "cover_info": {
+    "source": "Built-in imagegen",
+    "generator": "built-in imagegen",
+    "ai_generated": true,
+    "prompt": "figures/cover/imagegen-v2-prompt.md",
+    "caption": "论文机制概念封面",
+    "reviewed": true,
+    "crop_review": {
+      "wide": "Full v2 approximately2.35:1 inspected; title legible, illustration preserved",
+      "square": "375×375 centered object-fit cover screenshot personally inspected; all title glyphs remain visible",
+      "checked_at": "2026-10-30T01:06:14.475879+08:00",
+      "proof": "qa/cover-square-375.png"
+    },
+    "version": "v2"
+  }
+}

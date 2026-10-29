@@ -37,7 +37,7 @@ Bernhard Kerbl、Georgios Kopanas、Thomas Leimkühler、George Drettakis
 
 </details>
 
-[论文导读 / 完整解读](../../../library/gaussian-splatting.md) · [七维评分](../../papers/gaussian-splatting/README.md) · [原文](https://dl.acm.org/doi/10.1145/3592433)
+[论文导读 / 完整解读](../../../articles/gaussian-splatting-2308.04079/README.md) · [七维评分](../../papers/gaussian-splatting/README.md) · [原文](https://dl.acm.org/doi/10.1145/3592433)
 
 ## 署名来源
 

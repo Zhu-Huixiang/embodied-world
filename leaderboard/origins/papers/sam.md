@@ -39,7 +39,7 @@ Alexander Kirillov、Eric Mintun、Nikhila Ravi、Hanzi Mao、Chloe Rolland、La
 
 </details>
 
-[论文导读 / 完整解读](../../../library/sam.md) · [七维评分](../../papers/sam/README.md) · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
+[论文导读 / 完整解读](../../../articles/sam-2304.02643/README.md) · [七维评分](../../papers/sam/README.md) · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
 
 ## 署名来源
 

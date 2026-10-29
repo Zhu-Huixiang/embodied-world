@@ -4,6 +4,8 @@
 
 IQL 的 expectile、CQL 的保守项、Cal-QL 的校准目标各有对象。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络)
+
 [跨论文技术入口](../../concepts/value.md)
 
-[本篇星系](../muzero.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/muzero.md) · [原文依据](https://www.nature.com/articles/s41586-020-03051-4)
+[本篇星系](../muzero.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md) · [原文依据](https://www.nature.com/articles/s41586-020-03051-4)

@@ -6,8 +6,13 @@
 
 继续拆：[跨本体数据](cross-body.md) · [泛化评测与遗忘](benchmark.md)。
 
+## 在完整解读里看计算与例子
+
+- [Diffusion Policy：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#vi-realworld-evaluation到了桌上还能不能顺手)
+
 ## 哪些论文用到或讨论它
 
+- [Diffusion Policy](../papers/diffusion-policy.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
 - [Open X-Embodiment](../papers/rtx.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/document/10611477)
 - [robomimic](../papers/robomimic.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/mandlekar22a.html)
 - [DROID](../papers/droid.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p120.html)

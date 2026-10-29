@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [Diffusion Policy · Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../../../library/diffusion-policy.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [92.6](../../papers/diffusion-policy/README.md) |
+| [Diffusion Policy · Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../../../articles/diffusion-policy-2303.04137/README.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [92.6](../../papers/diffusion-policy/README.md) |
 | [UMI · Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots](../../../library/umi.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.5](../../papers/umi/README.md) |
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
 | [Dynamics Review · A review of learning-based dynamics models for robotic manipulation](../../../library/learned-dynamics-review.md) | 2025 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [80.3](../../papers/learned-dynamics-review/README.md) |

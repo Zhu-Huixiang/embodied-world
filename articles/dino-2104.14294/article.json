@@ -1,0 +1,327 @@
+{
+  "slug": "dino-2104.14294",
+  "title": "DINO：没人教它认狗，注意力却把狗圈了出来？",
+  "topics": [
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "Emerging Properties in Self-Supervised Vision Transformers",
+    "arxiv_id": "2104.14294",
+    "version": "ICCV 2021 accepted main PDF; arXiv v2 appendix",
+    "first_publication": "2021-04-29",
+    "pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+    "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+    "project_url": "https://github.com/facebookresearch/dino",
+    "code_url": "https://github.com/facebookresearch/dino",
+    "authors": [
+      "Mathilde Caron",
+      "Hugo Touvron",
+      "Ishan Misra",
+      "Hervé Jégou",
+      "Julien Mairal",
+      "Piotr Bojanowski",
+      "Armand Joulin"
+    ],
+    "institutions": [
+      "FAIR",
+      "Inria",
+      "Sorbonne University",
+      "Université Grenoble Alpes / CNRS / Grenoble INP / LJK"
+    ],
+    "source_checked_at": "2026-10-30T01:00:46+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "ICCV 2021",
+    "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+    "checked_at": "2026-10-30T01:00:46+08:00",
+    "explanation": "Official CVF HTML fetched HTTP200 via httpx after web tool403; title/authors/pages matched. CVF says accepted version apart from watermark, copyright retained."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/dino-method.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "DINO全篇架构，从多视图到学生教师再到视觉表示",
+      "reviewed": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/dino-method.tex",
+      "pdf": "figures/drawpaper/dino-method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "source_paper_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "provenance": "Actual builtinimagegen draft visuals retained across5panels; exact scientificlabels/equations independently typeset inXeLaTeX."
+    },
+    {
+      "file": "figures/original/fig1-original.png",
+      "caption": "论文 Fig. 1：每张原图旁边是对应的末层注意力图，先看物体区域是否比背景更集中。",
+      "alt": "DINO论文首页的图像与自注意力对照",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 1,
+      "figure_id": "fig1-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        49,
+        224,
+        547,
+        352
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/formulas/01-prob.png",
+      "caption": "论文 Eq. 1 的学生分布，以及结合中心化操作展开的教师分布。",
+      "alt": "DINO学生和教师概率分布",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/01-prob.tex",
+      "pdf": "figures/formulas/01-prob.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-loss.png",
+      "caption": "论文 Eqs. 2–3 的训练关系；外层遍历两张教师全局视图，内层遍历学生视图，排除与教师完全相同的那张裁剪。",
+      "alt": "DINO跨视图交叉熵训练目标",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/02-loss.tex",
+      "pdf": "figures/formulas/02-loss.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/04-example.png",
+      "caption": "三维教学计算；真实训练头有 65536 维。",
+      "alt": "DINO交叉熵的三维教学例子",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/04-example.tex",
+      "pdf": "figures/formulas/04-example.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/03-updates.png",
+      "caption": "论文 Eqs. 4–5 与优化步骤合并展示；θ_s、θ_t 是参数，c 是输出统计，三者不要混成同一个“平均”。",
+      "alt": "DINO学生教师和输出中心的三种更新",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/03-updates.tex",
+      "pdf": "figures/formulas/03-updates.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/fig2-original.png",
+      "caption": "论文 Fig. 2：从底部 x 分成 x₁、x₂ 向上读，左右网络之间的 ema 是参数平均，不是把图片传过去。",
+      "alt": "DINO原始双网络训练架构",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 2,
+      "figure_id": "fig2-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        350,
+        74,
+        500,
+        219
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/formulas/05-knn.png",
+      "caption": "附录 F.1 的加权 k-NN 读出；温度 0.07，20 个邻居。",
+      "alt": "DINO加权近邻分类",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/05-knn.tex",
+      "pdf": "figures/formulas/05-knn.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/table2-original.png",
+      "caption": "论文 Table 2：先选同一模型列与评估方式，再比较方法；参数量、吞吐和骨干大小一起看。",
+      "alt": "DINO与其他自监督方法的分类比较",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 5,
+      "figure_id": "table2-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        307,
+        169,
+        548,
+        489
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig3-original.png",
+      "caption": "论文 Fig. 3：每个原图旁边叠放多个注意力头的响应，不同颜色区分不同头关注的位置。",
+      "alt": "DINO多注意力头覆盖不同区域",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "fig3-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        49,
+        295,
+        286,
+        479
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig4-original.png",
+      "caption": "论文 Fig. 4：上排是监督训练，下排是 DINO；下方表格量化注意力掩码和真实前景的重合程度。",
+      "alt": "监督ViT和DINO的注意力掩码比较",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "fig4-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        306,
+        71,
+        547,
+        247
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table5-original.png",
+      "caption": "论文 Table 5：J 衡量区域重合，F 衡量边界质量，第一列结果是两者平均；按同样骨干和协议读。",
+      "alt": "DINO冻结特征在DAVIS视频对象分割中的结果",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 7,
+      "figure_id": "table5-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        49,
+        135,
+        287,
+        285
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table7-original.png",
+      "caption": "论文 Table 7：全部在 ViT-S/16、300 epoch 设置下比较，k-NN 和 Lin. 两列分开读。",
+      "alt": "DINO关键组件消融",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 8,
+      "figure_id": "table7-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        307,
+        171,
+        548,
+        306
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig5-original.png",
+      "caption": "论文 Fig. 5：横轴是每秒处理图像数，向右越快；纵轴是 k-NN top-1，向上越准，横轴使用对数刻度。",
+      "alt": "DINO图块大小和吞吐准确率权衡",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "original",
+      "pdf_page": 8,
+      "figure_id": "fig5-original",
+      "source_pdf_sha256": "fa218769e59512c0f2ffc73f2280ddfa2a2d23821837833082510b51b991daac",
+      "bbox": [
+        310,
+        349,
+        447,
+        466
+      ],
+      "rights_checked": true,
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html",
+      "rights_note": "CVF copyright statement read; copyright remains with authors/holders. Selected figures/table excerpts only for substantive criticism with attribution. No fullPDF or unrelated images exported.",
+      "extraction": "Whole PDF page rasterized at4x, then cropped with original axes/legends intact.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/formulas/06-patches.png",
+      "caption": "教学计算：197 到 785 个 token，单头注意力元素数约增至 15.88 倍。",
+      "alt": "DINO小图块带来的注意力长度增长",
+      "reviewed": true,
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/06-patches.tex",
+      "pdf": "figures/formulas/06-patches.pdf",
+      "display_width": 290
+    }
+  ],
+  "cover_info": {
+    "source": "built-in imagegen",
+    "generator": "imagegen",
+    "ai_generated": true,
+    "prompt": "notes/cover-prompt.md",
+    "reviewed": true,
+    "caption": "没教认狗，却圈出了狗？ · DINO"
+  }
+}

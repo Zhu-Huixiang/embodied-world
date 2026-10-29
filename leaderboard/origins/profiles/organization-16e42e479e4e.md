@@ -14,7 +14,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [Transformer · Attention Is All You Need](../../../library/attention.md) | 2017 / [NeurIPS](../../../venues/NeurIPS/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.3](../../papers/attention/README.md) |
+| [Transformer · Attention Is All You Need](../../../articles/attention-1706.03762/README.md) | 2017 / [NeurIPS](../../../venues/NeurIPS/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.3](../../papers/attention/README.md) |
 | [NeRF · NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](../../../library/nerf.md) | 2020 / [ECCV](../../../venues/ECCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [92.4](../../papers/nerf/README.md) |
 | [Video Diffusion · Video Diffusion Models](../../../library/video-diffusion.md) | 2022 / [NeurIPS](../../../venues/NeurIPS/README.md) | [视频与序列生成](../../../paper-map/README.md#track-video-generation) | [89.2](../../papers/video-diffusion/README.md) |
 | [PaLM-E · PaLM-E: An Embodied Multimodal Language Model](../../../library/palm-e.md) | 2023 / [ICML](../../../venues/ICML/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [85.6](../../papers/palm-e/README.md) |

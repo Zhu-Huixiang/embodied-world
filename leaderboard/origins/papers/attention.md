@@ -43,7 +43,7 @@ Ashish Vaswani、Noam Shazeer、Niki Parmar、Jakob Uszkoreit、Llion Jones、Ai
 
 </details>
 
-[论文导读 / 完整解读](../../../library/attention.md) · [七维评分](../../papers/attention/README.md) · [原文](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
+[论文导读 / 完整解读](../../../articles/attention-1706.03762/README.md) · [七维评分](../../papers/attention/README.md) · [原文](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
 
 ## 署名来源
 

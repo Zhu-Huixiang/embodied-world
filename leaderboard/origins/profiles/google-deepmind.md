@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [MuZero · Mastering Atari, Go, chess and shogi by planning with a learned model](../../../library/muzero.md) | 2020 / [Nature](../../../venues/Nature/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [94.6](../../papers/muzero/README.md) |
+| [MuZero · Mastering Atari, Go, chess and shogi by planning with a learned model](../../../articles/muzero-1911.08265/README.md) | 2020 / [Nature](../../../venues/Nature/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [94.6](../../papers/muzero/README.md) |
 | [DreamerV3 · Mastering diverse control tasks through world models](../../../library/dreamerv3.md) | 2025 / [Nature](../../../venues/Nature/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [91.4](../../papers/dreamerv3/README.md) |
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
 | [Bipedal Soccer · Learning agile soccer skills for a bipedal robot with deep reinforcement learning](../../../library/bipedal-soccer.md) | 2024 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [87.6](../../papers/bipedal-soccer/README.md) |

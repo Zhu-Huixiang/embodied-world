@@ -6,6 +6,10 @@ IQL 的 expectile、CQL 的保守项、Cal-QL 的校准目标各有对象。
 
 分类上层：[离线强化学习](offline.md)。
 
+## 在完整解读里看计算与例子
+
+- [MuZero：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络)
+
 ## 哪些论文用到或讨论它
 
 - [TD-MPC](../papers/td-mpc.md) · 机制导读 · [原文](https://proceedings.mlr.press/v162/hansen22a.html)
@@ -15,7 +19,7 @@ IQL 的 expectile、CQL 的保守项、Cal-QL 的校准目标各有对象。
 - [EfficientZero V2](../papers/efficientzero-v2.md) · 机制导读 · [原文](https://proceedings.mlr.press/v235/wang24at.html)
 - [IQL](../papers/iql.md) · 机制导读 · [原文](https://iclr.cc/virtual/2022/poster/5941)
 - [Cal-QL](../papers/cal-ql.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c44a04289beaf0a7d968a94066a1d696-Abstract-Conference.html)
-- [MuZero](../papers/muzero.md) · 机制导读 · [原文](https://www.nature.com/articles/s41586-020-03051-4)
+- [MuZero](../papers/muzero.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-020-03051-4)
 - [CQL](../papers/cql.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html)
 - [DreamTrue](../papers/dreamtrue.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12468v1)
 

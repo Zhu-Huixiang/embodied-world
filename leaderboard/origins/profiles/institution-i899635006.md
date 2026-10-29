@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [DINO · Emerging Properties in Self-Supervised Vision Transformers](../../../library/dino.md) | 2021 / [ICCV](../../../venues/ICCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [94.3](../../papers/dino/README.md) |
+| [DINO · Emerging Properties in Self-Supervised Vision Transformers](../../../articles/dino-2104.14294/README.md) | 2021 / [ICCV](../../../venues/ICCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [94.3](../../papers/dino/README.md) |
 
 ## 署名与来源
 

@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [Latent Diffusion · High-Resolution Image Synthesis with Latent Diffusion Models](../../../library/latent-diffusion.md) | 2022 / [CVPR](../../../venues/CVPR/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [95.8](../../papers/latent-diffusion/README.md) |
+| [Latent Diffusion · High-Resolution Image Synthesis with Latent Diffusion Models](../../../articles/latent-diffusion-2112.10752/README.md) | 2022 / [CVPR](../../../venues/CVPR/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [95.8](../../papers/latent-diffusion/README.md) |
 
 ## 署名与来源
 

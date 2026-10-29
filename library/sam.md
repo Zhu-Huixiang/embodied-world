@@ -24,7 +24,7 @@ ICCV 2023 正式论文；收录提示分割基础，不将原文的图像分割�
 
 具身关联：提示分割把指定目标与像素区域接起来，是语言/视觉操作系统的重要感知接口；模型、训练数据和跨分布分割实验均公开。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/sam-2304.02643/README.md)
 
 [知识星系](../universe/papers/sam.md) · [七维评分与雷达](../leaderboard/papers/sam/README.md) · [ICCV集锦](../venues/ICCV/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 

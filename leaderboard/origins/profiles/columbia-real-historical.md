@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [Diffusion Policy · Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../../../library/diffusion-policy.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [92.6](../../papers/diffusion-policy/README.md) |
+| [Diffusion Policy · Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../../../articles/diffusion-policy-2303.04137/README.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [92.6](../../papers/diffusion-policy/README.md) |
 
 ## 署名与来源
 

@@ -26,7 +26,7 @@
 
 经典保留理由：放宽年限：MuZero 是任务导向潜动力学与模型内树搜索的公认基础路线，EfficientZero 系列直接继承；不是为凑数新增旧论文。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/muzero-1911.08265/README.md)
 
 [知识星系](../universe/papers/muzero.md) · [七维评分与雷达](../leaderboard/papers/muzero/README.md) · [Nature集锦](../venues/Nature/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
 

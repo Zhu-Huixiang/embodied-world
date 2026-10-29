@@ -4,6 +4,8 @@
 
 自注意力在同一序列内读；交叉注意力读取另一组条件。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/vit-2010.11929/README.md#31-b-区注意力不是看见重点的黑箱)
+
 [跨论文技术入口](../../concepts/attention.md)
 
-[本篇星系](../vit.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/vit.md) · [原文依据](https://iclr.cc/virtual/2021/poster/3013)
+[本篇星系](../vit.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/vit-2010.11929/README.md) · [原文依据](https://iclr.cc/virtual/2021/poster/3013)

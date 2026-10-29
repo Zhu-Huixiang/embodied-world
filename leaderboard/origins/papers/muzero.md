@@ -44,7 +44,7 @@ Julian Schrittwieser、Ioannis Antonoglou、Thomas Hubert、Karen Simonyan、Lau
 
 </details>
 
-[论文导读 / 完整解读](../../../library/muzero.md) · [七维评分](../../papers/muzero/README.md) · [原文](https://www.nature.com/articles/s41586-020-03051-4)
+[论文导读 / 完整解读](../../../articles/muzero-1911.08265/README.md) · [七维评分](../../papers/muzero/README.md) · [原文](https://www.nature.com/articles/s41586-020-03051-4)
 
 ## 署名来源
 

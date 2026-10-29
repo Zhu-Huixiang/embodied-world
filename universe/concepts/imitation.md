@@ -6,8 +6,13 @@
 
 继续拆：[行为克隆](bc.md) · [动作先验](motion-prior.md) · [分层技能与计划](skills.md)。
 
+## 在完整解读里看计算与例子
+
+- [Diffusion Policy：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#i-引言左右都能走怎么偏偏走了中间)
+
 ## 哪些论文用到或讨论它
 
+- [Diffusion Policy](../papers/diffusion-policy.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
 - [CLIPort](../papers/cliport.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/shridhar22a.html)
 - [HumanPlus](../papers/humanplus.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/fu25a.html)
 - [FLoRe](../papers/flore.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35862v1)

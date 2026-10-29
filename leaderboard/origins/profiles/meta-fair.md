@@ -17,10 +17,10 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [SAM · Segment Anything](../../../library/sam.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [95.3](../../papers/sam/README.md) |
-| [MAE · Masked Autoencoders Are Scalable Vision Learners](../../../library/mae.md) | 2022 / [CVPR](../../../venues/CVPR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [95.3](../../papers/mae/README.md) |
-| [DINO · Emerging Properties in Self-Supervised Vision Transformers](../../../library/dino.md) | 2021 / [ICCV](../../../venues/ICCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [94.3](../../papers/dino/README.md) |
-| [DiT · Scalable Diffusion Models with Transformers](../../../library/dit.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.2](../../papers/dit/README.md) |
+| [SAM · Segment Anything](../../../articles/sam-2304.02643/README.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [95.3](../../papers/sam/README.md) |
+| [MAE · Masked Autoencoders Are Scalable Vision Learners](../../../articles/mae-2111.06377/README.md) | 2022 / [CVPR](../../../venues/CVPR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [95.3](../../papers/mae/README.md) |
+| [DINO · Emerging Properties in Self-Supervised Vision Transformers](../../../articles/dino-2104.14294/README.md) | 2021 / [ICCV](../../../venues/ICCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [94.3](../../papers/dino/README.md) |
+| [DiT · Scalable Diffusion Models with Transformers](../../../articles/dit-2212.09748/README.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.2](../../papers/dit/README.md) |
 | [SAM 2 · SAM 2: Segment Anything in Images and Videos](../../../library/sam2.md) | 2025 / [ICLR](../../../venues/ICLR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [91.2](../../papers/sam2/README.md) |
 | [RMA · RMA: Rapid Motor Adaptation for Legged Robots](../../../library/rma.md) | 2021 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [91.1](../../papers/rma/README.md) |
 | [DINOv2 · DINOv2: Learning Robust Visual Features without Supervision](../../../library/dinov2.md) | 2024 / [TMLR](../../../venues/TMLR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [90.7](../../papers/dinov2/README.md) |

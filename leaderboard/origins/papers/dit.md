@@ -34,7 +34,7 @@ William Peebles、Saining Xie
 
 </details>
 
-[论文导读 / 完整解读](../../../library/dit.md) · [七维评分](../../papers/dit/README.md) · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html)
+[论文导读 / 完整解读](../../../articles/dit-2212.09748/README.md) · [七维评分](../../papers/dit/README.md) · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html)
 
 ## 署名来源
 

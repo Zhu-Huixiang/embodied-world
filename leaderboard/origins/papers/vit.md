@@ -40,7 +40,7 @@ Alexey Dosovitskiy、Lucas Beyer、Alexander Kolesnikov、Dirk Weissenborn、Xia
 
 </details>
 
-[论文导读 / 完整解读](../../../library/vit.md) · [七维评分](../../papers/vit/README.md) · [原文](https://iclr.cc/virtual/2021/poster/3013)
+[论文导读 / 完整解读](../../../articles/vit-2010.11929/README.md) · [七维评分](../../papers/vit/README.md) · [原文](https://iclr.cc/virtual/2021/poster/3013)
 
 ## 署名来源
 

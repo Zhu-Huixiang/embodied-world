@@ -15,8 +15,8 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [ViT · An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](../../../library/vit.md) | 2021 / [ICLR](../../../venues/ICLR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [95.7](../../papers/vit/README.md) |
-| [Transformer · Attention Is All You Need](../../../library/attention.md) | 2017 / [NeurIPS](../../../venues/NeurIPS/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.3](../../papers/attention/README.md) |
+| [ViT · An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](../../../articles/vit-2010.11929/README.md) | 2021 / [ICLR](../../../venues/ICLR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [95.7](../../papers/vit/README.md) |
+| [Transformer · Attention Is All You Need](../../../articles/attention-1706.03762/README.md) | 2017 / [NeurIPS](../../../venues/NeurIPS/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.3](../../papers/attention/README.md) |
 | [RT-1 · RT-1: Robotics Transformer for Real-World Control at Scale](../../../library/rt1.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [91.2](../../papers/rt1/README.md) |
 | [CQL · Conservative Q-Learning for Offline Reinforcement Learning](../../../library/cql.md) | 2020 / [NeurIPS](../../../venues/NeurIPS/README.md) | [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) | [90.4](../../papers/cql/README.md) |
 | [Decision Transformer · Decision Transformer: Reinforcement Learning via Sequence Modeling](../../../library/decision-transformer.md) | 2021 / [NeurIPS](../../../venues/NeurIPS/README.md) | [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) | [90.2](../../papers/decision-transformer/README.md) |

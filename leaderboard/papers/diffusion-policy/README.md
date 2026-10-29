@@ -2,7 +2,7 @@
 
 **Diffusion Policy** · RSS 2023 · 本版排名 12 · 综合分 **92.6 / 100**
 
-[解读导读](../../../library/diffusion-policy.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+[完整解读](../../../articles/diffusion-policy-2303.04137/README.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
 [知识星系](../../../universe/papers/diffusion-policy.md) · [原文](https://www.roboticsproceedings.org/rss19/p026.html) · [PDF](https://www.roboticsproceedings.org/rss19/p026.pdf) · [阅读卡片](../../../library/diffusion-policy.md)
 

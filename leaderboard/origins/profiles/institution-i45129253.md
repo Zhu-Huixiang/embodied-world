@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [MuZero · Mastering Atari, Go, chess and shogi by planning with a learned model](../../../library/muzero.md) | 2020 / [Nature](../../../venues/Nature/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [94.6](../../papers/muzero/README.md) |
+| [MuZero · Mastering Atari, Go, chess and shogi by planning with a learned model](../../../articles/muzero-1911.08265/README.md) | 2020 / [Nature](../../../venues/Nature/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [94.6](../../papers/muzero/README.md) |
 | [Bipedal Soccer · Learning agile soccer skills for a bipedal robot with deep reinforcement learning](../../../library/bipedal-soccer.md) | 2024 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [87.6](../../papers/bipedal-soccer/README.md) |
 | [Phenaki · Phenaki: Variable Length Video Generation From Open Domain Textual Descriptions](../../../library/phenaki.md) | 2023 / [ICLR](../../../venues/ICLR/README.md) | [视频与序列生成](../../../paper-map/README.md#track-video-generation) | [82.6](../../papers/phenaki/README.md) |
 

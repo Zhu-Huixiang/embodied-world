@@ -52,7 +52,7 @@ Mathilde Caron、Hugo Touvron、Ishan Misra、Hervé Jégou、Julien Mairal、Pi
 
 </details>
 
-[论文导读 / 完整解读](../../../library/dino.md) · [七维评分](../../papers/dino/README.md) · [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)
+[论文导读 / 完整解读](../../../articles/dino-2104.14294/README.md) · [七维评分](../../papers/dino/README.md) · [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)
 
 ## 署名来源
 

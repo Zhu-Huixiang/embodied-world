@@ -121,7 +121,8 @@
       "note": "",
       "project_url": null,
       "checked_at": "2026-10-09",
-      "editorial_status": "候选选题"
+      "editorial_status": "候选选题",
+      "article_slug": "diffusion-policy-2303.04137"
     },
     {
       "id": "act",
@@ -494,7 +495,8 @@
       "note": "",
       "project_url": null,
       "checked_at": "2026-10-09",
-      "editorial_status": "候选选题"
+      "editorial_status": "候选选题",
+      "article_slug": "dit-2212.09748"
     },
     {
       "id": "rt1",
@@ -1655,7 +1657,8 @@
       "classic_exception_reason": "放宽年限：MuZero 是任务导向潜动力学与模型内树搜索的公认基础路线，EfficientZero 系列直接继承；不是为凑数新增旧论文。",
       "embodied_relevance": "学习潜动力学再树搜索的基础路线，EfficientZero 正式论文直接以它为起点；为世界模型的任务充分表示提供高价值讨论。",
       "evidence_summary": "Nature 正式论文、跨棋类和 Atari 的完整实验、公开伪代码；EfficientZero 的直接继承为路线影响提供可核实依据。",
-      "selection_window": "classic_exception"
+      "selection_window": "classic_exception",
+      "article_slug": "muzero-1911.08265"
     },
     {
       "id": "cql",
@@ -2091,7 +2094,8 @@
       "classic_exception_reason": "2017 年经典例外：用户明确举例允许；Transformer 的 Q/K/V、多头注意力和因果建模是现代具身视觉语言动作模型的共同基础。",
       "embodied_relevance": "多头自注意力、位置编码及因果遮罩是后续 VLA/ACT/DiT 的直接计算基础，用户明确点名允许此类经典例外。",
       "evidence_summary": "纯注意力替代循环网络的计算改动清晰，翻译对照和结构消融完整，官方实现公开；具身价值来自下游共享结构。",
-      "selection_window": "classic_exception"
+      "selection_window": "classic_exception",
+      "article_slug": "attention-1706.03762"
     },
     {
       "id": "vit",
@@ -2120,7 +2124,8 @@
       "classic_exception_reason": "ICLR 2021 早于 2021-10-10，作为图像 token 化的经典例外；后续机器人视觉预训练和 VLA 明确采用其结构。",
       "embodied_relevance": "ViT 的图像 patch 序列成为 DINOv2、MAE 及多种 VLA 视觉编码器的共同架构；MVP 原文直接采用 ViT 做实机视觉预训练。",
       "evidence_summary": "架构变化直接，数据规模与 CNN 对照有解释力，权重与微调实现公开；先读能减少后续 VLA 编码器的理解负担。",
-      "selection_window": "classic_exception"
+      "selection_window": "classic_exception",
+      "article_slug": "vit-2010.11929"
     },
     {
       "id": "clip",
@@ -2180,7 +2185,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "无标签自蒸馏及其空间特征是 DINOv2 的直接前身，DINOv2 再进入 OpenVLA；按正式会议时间收录并保留首次公开日期区别。",
       "evidence_summary": "动量教师、裁剪与防坍塌措施能逐项分析，视觉迁移和空间结构有原始实验支撑，官方实现可复用。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "dino-2104.14294"
     },
     {
       "id": "dinov2",
@@ -2238,7 +2244,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "MVP 原文直接用 MAE 预训练视觉表示并在多种实机任务中检验，关联不是泛泛的潜在用途。",
       "evidence_summary": "方法和计算节省能直接从结构理解，视觉迁移实验完整，官方实现公开；机器人实机继承关系有 MVP 原文佐证。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "mae-2111.06377"
     },
     {
       "id": "sam",
@@ -2267,7 +2274,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "提示分割把指定目标与像素区域接起来，是语言/视觉操作系统的重要感知接口；模型、训练数据和跨分布分割实验均公开。",
       "evidence_summary": "任务、模型和数据闭环连得清楚，大规模公开数据与跨域实验充足；读者能看懂分割接口怎样进入机器人感知链。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "sam-2304.02643"
     },
     {
       "id": "sam2",
@@ -2354,7 +2362,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "Splat-MOVER 正式 CoRL 2024 原文直接把可编辑 Gaussian Splatting 用于多阶段机器人操作；原始表示论文贡献和应用结果分开。",
       "evidence_summary": "显式表示与高效渲染共同改变场景构建成本，标准场景对照充分，参考实现公开；CoRL 应用提供直接具身联系。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "gaussian-splatting-2308.04079"
     },
     {
       "id": "ddpm",
@@ -2443,7 +2452,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "压缩表示中去噪与跨注意力条件化是现代潜空间视频/世界生成的常见构件；这篇把表示代价和生成代价拆开，值得作为后续阅读基础。",
       "evidence_summary": "表示压缩与生成训练拆得清楚，跨任务和压缩消融丰富，官方代码及权重可用；能帮助读者分析潜空间生成世界模型。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "latent-diffusion-2112.10752"
     },
     {
       "id": "edm",

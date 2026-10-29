@@ -41,7 +41,7 @@
 | [EfficientZero V2](../library/efficientzero-v2.md) · [ICML 2024](../venues/ICML/README.md) | 树搜索怎样跨过离散动作的限制，在连续控制里仍保持样本效率？ |
 | [DayDreamer](../library/daydreamer.md) · [CoRL 2022](../venues/CoRL/README.md) | 世界模型的想象训练怎样接到真实机器人持续在线交互上？ |
 | [Offline Reinforcement Learning as One Big Sequence Modeling Problem](../library/trajectory-transformer.md) · [NeurIPS 2021](../venues/NeurIPS/README.md) | 状态、动作和奖励一起变成 token 后，beam search 为什么可以用来规划？ |
-| [Mastering Atari, Go, chess and shogi by planning with a learned model](../library/muzero.md) · [Nature 2020](../venues/Nature/README.md) | 用于规划的世界模型，为什么可以只预测奖励、价值和策略，而不重建下一帧？ |
+| [Mastering Atari, Go, chess and shogi by planning with a learned model](../articles/muzero-1911.08265/README.md) · [Nature 2020](../venues/Nature/README.md) | 用于规划的世界模型，为什么可以只预测奖励、价值和策略，而不重建下一帧？ |
 | [LeWorldModel](../library/lewm.md) · [arXiv 2026](../arxiv/README.md#paper-lewm) | 两项损失怎样让像素JEPA不坍缩，又把每帧压成一个可规划的token？ |
 | [Ctrl-World](../library/ctrl-world.md) · [ICLR 2026](../venues/ICLR/README.md) | 怎样让视频生成器按真实动作走，并使想象中的策略排名接近实机？ |
 | [A review of learning-based dynamics models for robotic manipulation](../library/learned-dynamics-review.md) · [Sci. Robot. 2025](../venues/Science-Robotics/README.md) | 世界模型该预测像素、latent、粒子还是物体？换种表示会怎样改写感知与规划的代价？ |
@@ -109,7 +109,7 @@
 
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
-| [Diffusion Policy](../library/diffusion-policy.md) · [RSS 2023](../venues/RSS/README.md) | 为什么要对一段动作分布去噪，再滚动执行？ |
+| [Diffusion Policy](../articles/diffusion-policy-2303.04137/README.md) · [RSS 2023](../venues/RSS/README.md) | 为什么要对一段动作分布去噪，再滚动执行？ |
 | [ACT](../library/act.md) · [RSS 2023](../venues/RSS/README.md) | Action chunking 与时间集成怎样处理示范中的误差累积？ |
 | [DP3](../library/dp3.md) · [RSS 2024](../venues/RSS/README.md) | 简洁点云表示怎样改变操作策略的泛化？ |
 | [Consistency Policy](../library/consistency-policy.md) · [RSS 2024](../venues/RSS/README.md) | 蒸馏怎样减少去噪步骤，保留怎样的动作分布？ |
@@ -201,15 +201,15 @@
 | [R3M](../library/r3m.md) · [CoRL 2022](../venues/CoRL/README.md) | 人类第一视角视频里学来的视觉表征，怎样成为机器人少样本操作的感知模块？ |
 | [VIP](../library/vip.md) · [ICLR 2023](../venues/ICLR/README.md) | 两张图在 latent 空间的距离，为什么可以变成机器人离目标还有多远的奖励？ |
 | [Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](../library/vc1.md) · [NeurIPS 2023](../venues/NeurIPS/README.md) | 有没有一套视觉编码器在所有具身任务上都强？扩大人类视频数据就够了吗？ |
-| [An Image is Worth 16x16 Words](../library/vit.md) · [ICLR 2021](../venues/ICLR/README.md) | 一张图怎样变成 token 序列，机器人策略拿到的视觉特征来自哪一步？ |
+| [An Image is Worth 16x16 Words](../articles/vit-2010.11929/README.md) · [ICLR 2021](../venues/ICLR/README.md) | 一张图怎样变成 token 序列，机器人策略拿到的视觉特征来自哪一步？ |
 | [Learning Transferable Visual Models From Natural Language Supervision](../articles/clip-2103.00020/README.md) · [ICML 2021](../venues/ICML/README.md) | 图像和一句指令怎样对齐，语义相似为什么还不能直接给出抓取位置？ |
-| [Emerging Properties in Self-Supervised Vision Transformers](../library/dino.md) · [ICCV 2021](../venues/ICCV/README.md) | 没有人工标签，教师与学生互相对齐怎么还能长出物体边界？ |
+| [Emerging Properties in Self-Supervised Vision Transformers](../articles/dino-2104.14294/README.md) · [ICCV 2021](../venues/ICCV/README.md) | 没有人工标签，教师与学生互相对齐怎么还能长出物体边界？ |
 | [DINOv2](../library/dinov2.md) · [TMLR 2024](../venues/TMLR/README.md) | 机器人视觉编码器冻结以后，哪些几何和语义信息还能留在 patch 特征里？ |
-| [Masked Autoencoders Are Scalable Vision Learners](../library/mae.md) · [CVPR 2022](../venues/CVPR/README.md) | 遮住四分之三的图像后还原像素，怎样帮助机器人把预训练视觉特征用于控制？ |
-| [Segment Anything](../library/sam.md) · [ICCV 2023](../venues/ICCV/README.md) | 给视觉系统一个点或框，它怎样找到目标轮廓，哪些信息还需要控制策略来补？ |
+| [Masked Autoencoders Are Scalable Vision Learners](../articles/mae-2111.06377/README.md) · [CVPR 2022](../venues/CVPR/README.md) | 遮住四分之三的图像后还原像素，怎样帮助机器人把预训练视觉特征用于控制？ |
+| [Segment Anything](../articles/sam-2304.02643/README.md) · [ICCV 2023](../venues/ICCV/README.md) | 给视觉系统一个点或框，它怎样找到目标轮廓，哪些信息还需要控制策略来补？ |
 | [SAM 2](../library/sam2.md) · [ICLR 2025](../venues/ICLR/README.md) | 目标在机器人视野里移动、遮挡后重现，过去的掩码记忆怎样帮它跟住对象？ |
 | [NeRF](../library/nerf.md) · [ECCV 2020](../venues/ECCV/README.md) | 多张照片怎样变成可以换视角查看的场景，射线上每个采样点算了什么？ |
-| [3D Gaussian Splatting for Real-Time Radiance Field Rendering](../library/gaussian-splatting.md) · [SIGGRAPH / TOG 2023](../venues/SIGGRAPH-TOG/README.md) | 把神经场换成一群可编辑高斯，为什么渲染会快，场景操作又会方便在哪里？ |
+| [3D Gaussian Splatting for Real-Time Radiance Field Rendering](../articles/gaussian-splatting-2308.04079/README.md) · [SIGGRAPH / TOG 2023](../venues/SIGGRAPH-TOG/README.md) | 把神经场换成一群可编辑高斯，为什么渲染会快，场景操作又会方便在哪里？ |
 | [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](../library/i-jepa.md) · [CVPR 2023](../venues/CVPR/README.md) | 世界模型必须把像素画出来吗，预测目标区域的 latent 会保留哪些可用信息？ |
 
 <a id="track-video-generation"></a>
@@ -233,11 +233,11 @@
 
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
-| [DIT](../library/dit.md) · [ICCV 2023](../venues/ICCV/README.md) | Transformer 怎样在潜空间去噪，条件又怎样进入各层？ |
-| [Attention Is All You Need](../library/attention.md) · [NeurIPS 2017](../venues/NeurIPS/README.md) | Q、K、V 到底在计算什么，为什么这套序列计算能连接视觉、语言和动作？ |
+| [DIT](../articles/dit-2212.09748/README.md) · [ICCV 2023](../venues/ICCV/README.md) | Transformer 怎样在潜空间去噪，条件又怎样进入各层？ |
+| [Attention Is All You Need](../articles/attention-1706.03762/README.md) · [NeurIPS 2017](../venues/NeurIPS/README.md) | Q、K、V 到底在计算什么，为什么这套序列计算能连接视觉、语言和动作？ |
 | [Denoising Diffusion Probabilistic Models](../articles/ddpm-2006.11239/README.md) · [NeurIPS 2020](../venues/NeurIPS/README.md) | 加噪声再预测噪声的训练目标，怎样变成一段机器人动作的采样算法？ |
 | [Denoising Diffusion Implicit Models](../library/ddim.md) · [ICLR 2021](../venues/ICLR/README.md) | 去噪训练目标不变，为什么推理时能跳步，延迟与样本质量该怎样交换？ |
-| [High-Resolution Image Synthesis with Latent Diffusion Models](../library/latent-diffusion.md) · [CVPR 2022](../venues/CVPR/README.md) | 为什么视频或图像模型常先压到 latent 空间，压缩省掉什么、又可能丢掉什么？ |
+| [High-Resolution Image Synthesis with Latent Diffusion Models](../articles/latent-diffusion-2112.10752/README.md) · [CVPR 2022](../venues/CVPR/README.md) | 为什么视频或图像模型常先压到 latent 空间，压缩省掉什么、又可能丢掉什么？ |
 | [Elucidating the Design Space of Diffusion-Based Generative Models](../library/edm.md) · [NeurIPS 2022](../venues/NeurIPS/README.md) | 同样是扩散，噪声尺度、网络预处理和数值求解器各改变了哪一层？ |
 | [Flow Matching for Generative Modeling](../library/flow-matching.md) · [ICLR 2023](../venues/ICLR/README.md) | 不模拟整条生成轨迹就能训练速度场，π₀ 里的 Flow Matching 损失怎样读？ |
 | [Flow Straight and Fast](../library/rectified-flow.md) · [ICLR 2023](../venues/ICLR/README.md) | 训练速度场和把轨迹拉直有什么区别，为什么直一点就能少算几步？ |

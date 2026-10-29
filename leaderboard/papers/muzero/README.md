@@ -2,7 +2,7 @@
 
 **MuZero** · Nature 2020 · 本版排名 7 · 综合分 **94.6 / 100**
 
-[解读导读](../../../library/muzero.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Nature集锦](../../../venues/Nature/README.md)
+[完整解读](../../../articles/muzero-1911.08265/README.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Nature集锦](../../../venues/Nature/README.md)
 
 [知识星系](../../../universe/papers/muzero.md) · [原文](https://www.nature.com/articles/s41586-020-03051-4) · [PDF](https://arxiv.org/pdf/1911.08265) · [阅读卡片](../../../library/muzero.md)
 

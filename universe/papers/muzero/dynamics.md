@@ -4,6 +4,8 @@
 
 不能把无动作的视频预测直接当成可干预的动力学。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#32-hgf各自接什么吐什么)
+
 [跨论文技术入口](../../concepts/dynamics.md)
 
-[本篇星系](../muzero.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/muzero.md) · [原文依据](https://www.nature.com/articles/s41586-020-03051-4)
+[本篇星系](../muzero.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md) · [原文依据](https://www.nature.com/articles/s41586-020-03051-4)

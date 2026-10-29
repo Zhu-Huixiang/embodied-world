@@ -1,0 +1,429 @@
+{
+  "slug": "diffusion-policy-2303.04137",
+  "title": "Diffusion Policy：动作也能靠去噪生成？",
+  "topics": [
+    "manipulation",
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+    "arxiv_id": "2303.04137",
+    "version": "arXiv2303.04137v1 (2023-03-07)",
+    "first_publication": "2023-03-07",
+    "pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+    "url": "https://arxiv.org/abs/2303.04137v1",
+    "project_url": "https://diffusion-policy.cs.columbia.edu/",
+    "code_url": "https://github.com/real-stanford/diffusion_policy",
+    "authors": [
+      "Cheng Chi",
+      "Siyuan Feng",
+      "Yilun Du",
+      "Zhenjia Xu",
+      "Eric Cousineau",
+      "Benjamin Burchfiel",
+      "Shuran Song"
+    ],
+    "institutions": [
+      "哥伦比亚大学",
+      "丰田研究院",
+      "麻省理工学院"
+    ],
+    "source_checked_at": "2026-10-30T01:23:38.196880+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "RSS 2023",
+    "url": "https://www.roboticsproceedings.org/rss19/p026.html",
+    "checked_at": "2026-10-30T01:23:38.196880+08:00",
+    "explanation": "Official RSSproceedings and author project opened;DOI10.15607/RSS.2023.XIX.026;selected reading versionv1 explicitly retained."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/dp-method.png",
+      "kind": "drawpaper",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "DiffusionPolicy全篇架构",
+      "reviewed": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/dp-method.tex",
+      "pdf": "figures/drawpaper/dp-method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "source_paper_url": "https://arxiv.org/pdf/2303.04137v1",
+      "provenance": "Native imagegen draft plus retained four illustration crops; exact horizon/noise/training labels typeset in TeX."
+    },
+    {
+      "file": "figures/original/fig3.png",
+      "kind": "original",
+      "caption": "论文 Fig. 3。先看要点：**观察条件固定，动作噪声被反复修，执行完一段再刷新观察。** 左侧图像是条件输入，下面不同噪声程度的轨迹表示动作序列逐渐成形。中间时间轴标出观察窗口、预测窗口与执行部分；右侧 b/c 是两种替代的去噪网络，不是必须串联经过的两站。",
+      "alt": "Fig.3",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 3,
+      "figure_id": "Fig.3",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        49,
+        561,
+        194
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig3-loop.png",
+      "kind": "original",
+      "caption": "论文 Fig. 3 局部。灰块表示已有观察，淡色长条是整个预测范围，深色短段才是真正执行的动作。上方时间轴从 t 走到 t+4，是图中的示意；下一轮得到新的 O，再预测下一段。论文具体任务的 Tₐ 并不都等于 4。",
+      "alt": "Fig.3 loop",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 3,
+      "figure_id": "Fig.3 loop",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        49,
+        339,
+        194
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig3-network.png",
+      "kind": "original",
+      "caption": "论文 Fig. 3 局部。b 左路里，观察与 k 从侧面生成 a、b，施加 a·x+b；竖向卷积堆栈在时间维处理动作。c 右路里，动作嵌入先做带 mask 的注意力，观察嵌入经 cross-attention 输入。蓝色回环和 ×K 表示同一个噪声预测器反复调用，**不是堆了 K 套不同权重网络**。",
+      "alt": "Fig.3 networks",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 3,
+      "figure_id": "Fig.3 networks",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        338,
+        49,
+        561,
+        194
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig4.png",
+      "kind": "original",
+      "caption": "论文 Fig. 4。先看它想回答的事：面对同一个 T 块位置，策略能否产生左右两种可行绕行，并在一次 rollout 里保持路线一致？蓝点是末端，轨迹展示连续 40 步。四列是 Diffusion Policy、LSTM-GMM、BET、IBC；没有统计坐标轴，这是平面路径可视化。看左右两簇是否都有，再看单条路径是否反复横跳。Diffusion Policy 展现两种模式并保持一条路线，BET 的例子则暴露时间一致性问题。<!-- evidence:C15 -->",
+      "alt": "Fig.4",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 4,
+      "figure_id": "Fig.4",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        310,
+        360,
+        562,
+        443
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig6.png",
+      "kind": "original",
+      "caption": "论文 Fig. 6。**执行段太短，连贯性不够；太长，又来不及反应。** 左图横轴是 Tₐ，即 action horizon，依次 1、2、4…128；纵轴是相对该任务最好表现的差值，0 为最好，负值越多下降越大，绝不是原始成功率。蓝色为 Push-T，灰色为 Square。中间区间较好，到长段时 Square 尤其明显下降。<!-- evidence:C17 -->",
+      "alt": "Fig.6",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 5,
+      "figure_id": "Fig.6",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        311,
+        50,
+        562,
+        188
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig7.png",
+      "kind": "original",
+      "caption": "论文 Fig. 7。左图横轴 epoch，纵轴**动作预测 MSE**，不是两种模型各自训练损失的直接比较。蓝色 Diffusion Policy 的动作误差趋于降低，灰色 IBC 反复波动。右图横轴仍为 epoch，纵轴仿真 Push-T rollout 成功率；蓝色较平稳，灰色波动使 checkpoint 难选。它解释了为什么论文不只给最佳 checkpoint，还专门算最后十个的平均。",
+      "alt": "Fig.7",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 6,
+      "figure_id": "Fig.7",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        372,
+        302,
+        496
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/table2.png",
+      "kind": "original",
+      "caption": "论文 Table II。各列为视觉输入的任务与示范类型，PH 是熟练操作者示范，MH 是多操作者示范。每格写成 **最佳 checkpoint／最后十个 checkpoint 平均**。评估覆盖 3 个训练随机种子、每个 50 种环境初始条件；最后十个合起来对应 1500 次评估。数字越大越好，但 Push-T 采用目标覆盖，不能把整个表每格都叫二元成功率。<!-- evidence:C19 -->",
+      "alt": "TableII",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 6,
+      "figure_id": "TableII",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        263,
+        561,
+        331
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/table4.png",
+      "kind": "original",
+      "caption": "论文 Table IV。BlockPush 的 p2 表示两块都推到目标的频率；Kitchen 的 p4 表示至少完成四个交互的频率。两边都叫 p，但任务完成标准不同。BlockPush p2，Transformer 扩散 **0.94**、BET **0.71**；Kitchen p4，CNN 扩散 **0.99**、BET **0.44**。它们检查的是多阶段顺序选择，不只是单步动作抖不抖。<!-- evidence:C22 -->",
+      "alt": "TableIV",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 7,
+      "figure_id": "TableIV",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        49,
+        302,
+        234
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/table5.png",
+      "kind": "original",
+      "caption": "论文 Table V。a 是 UR5 硬件，相机分为前视、腕部和仅用于评估的俯视；b 先推积木到目标再移入结束区；c 是用于测 IoU 的终态。**IoU，交并比**，就是目标区域与积木区域的交集面积除以并集面积。最后一刻还遮着评估相机、或者过早收手，都可能影响结果。<!-- evidence:C23 -->",
+      "alt": "TableV",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 8,
+      "figure_id": "TableV",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        49,
+        302,
+        270
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig8.png",
+      "kind": "original",
+      "caption": "论文 Fig. 8。横向按关键时刻推进，纵向是不同策略；最右列把终态图像平均叠加，越集中表示结束位置越一致。第一行端到端扩散推准后退出；第二行 R3M 扩散有停顿但能恢复；第三行 LSTM-GMM 困在微调阶段；第四行 IBC 提早结束推动。彩线是动作轨迹，勾叉标任务结果，不是注意力热图。",
+      "alt": "Fig.8",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 9,
+      "figure_id": "Fig.8",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        49,
+        561,
+        296
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig9.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9。三列分别测试遮挡视野、推动过程中挪积木、准备退出时再挪积木；每列上下是干扰与后续反应。最后一列最能解释总图 **D**：机器人已经准备收工，看见目标又偏了，重新回去调整。这里展示的是单独干扰回合的行为证据，不把它并入上面那 20 次成功率。",
+      "alt": "Fig.9",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 9,
+      "figure_id": "Fig.9",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        350,
+        302,
+        496
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig10.png",
+      "kind": "original",
+      "caption": "论文 Fig. 10。箭头 ①要求杯口朝下，②要求杯柄朝左；底部小图示目标姿态。动作既可能直接抓放，也可能借推杯柄补旋转。Diffusion Policy 在 **20 次试验中成功 18 次**。对照 LSTM-GMM 使用同一数据的一个子集，20 次均未成功，所以这项对比带着训练数据范围差异，不能当严格等数据的单因素消融。<!-- evidence:C26 -->",
+      "alt": "Fig.10",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 9,
+      "figure_id": "Fig.10",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        319,
+        350,
+        561,
+        526
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/original/fig11.png",
+      "kind": "original",
+      "caption": "论文 Fig. 11。左边按数字看：舀酱→移到面饼中心→倒出→抬起结束。右边是到酱上方→按螺旋摊开→抬起。倒酱用实际酱区与目标圆的 IoU，抹酱用面饼覆盖率，表头是两个指标，别混称一个“覆盖率”。扩散的倒酱 IoU 为 **0.74**，人类为 **0.79**；抹酱覆盖 **0.77**，人类 **0.79**。<!-- evidence:C27 -->",
+      "alt": "Fig.11",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "pdf_page": 10,
+      "figure_id": "Fig.11",
+      "source_pdf_sha256": "9c45cd2ee25931aebb2111d7acdcd55da0bfecd967a04f0f07fcd1eb5b258787",
+      "bbox": [
+        48,
+        49,
+        302,
+        258
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright; only selected figures/tables directly analyzed for necessary scholarly commentary. No full PDF reproduction.",
+      "rights_source": "https://www.roboticsproceedings.org/rss19/p026.html",
+      "extraction": "Whole vector/raster figure region rendered4x from selectedv1 PDF; full figure and caption personally inspected."
+    },
+    {
+      "file": "figures/formulas/01-horizon.png",
+      "kind": "formula",
+      "caption": "观察预测执行窗口",
+      "alt": "01-horizon",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/01-horizon.tex",
+      "pdf": "figures/formulas/01-horizon.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-noise.png",
+      "kind": "formula",
+      "caption": "动作加噪与训练",
+      "alt": "02-noise",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/02-noise.tex",
+      "pdf": "figures/formulas/02-noise.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/03-sample.png",
+      "kind": "formula",
+      "caption": "动作迭代更新",
+      "alt": "03-sample",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/03-sample.tex",
+      "pdf": "figures/formulas/03-sample.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/04-film.png",
+      "kind": "formula",
+      "caption": "FiLM调制",
+      "alt": "04-film",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/04-film.tex",
+      "pdf": "figures/formulas/04-film.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/05-score.png",
+      "kind": "formula",
+      "caption": "能量分布与score",
+      "alt": "05-score",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/05-score.tex",
+      "pdf": "figures/formulas/05-score.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/06-normalize.png",
+      "kind": "formula",
+      "caption": "动作归一化",
+      "alt": "06-normalize",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/06-normalize.tex",
+      "pdf": "figures/formulas/06-normalize.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/07-attention.png",
+      "kind": "formula",
+      "caption": "动作读取观察的注意力",
+      "alt": "07-attention",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2303.04137v1",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/07-attention.tex",
+      "pdf": "figures/formulas/07-attention.pdf",
+      "display_width": 290
+    }
+  ],
+  "cover_info": {
+    "source": "built-in imagegen",
+    "generator": "imagegen",
+    "ai_generated": true,
+    "prompt": "notes/cover-prompt.md",
+    "reviewed": true
+  }
+}

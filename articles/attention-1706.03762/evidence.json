@@ -1,0 +1,223 @@
+{
+  "paper_version": "arXiv 1706.03762v7 (2023-08-02)",
+  "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+  "checked_at": "2026-10-30T00:45:06.967979+08:00",
+  "claims": [
+    {
+      "id": "C01",
+      "type": "qualitative",
+      "claim": "以注意力替换循环/卷积主干，编码器解码器架构，非发明注意力。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 1,
+      "locator": "Abstract; §1–2",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C02",
+      "type": "qualitative",
+      "claim": "8作者署名，原机构；NeurIPS2017；读v7。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 1,
+      "locator": "Title; official proceedings; arXiv header",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C03",
+      "type": "qualitative",
+      "claim": "上下文路径类比徐志胜回梗报道；非模型实验。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 2,
+      "locator": "§2; external creator source",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "additional_sources": [
+        "https://finance.sina.cn/2026-10-26/detail-iniwqhxr2075081.d.html?pos=108&vt=4"
+      ]
+    },
+    {
+      "id": "C04",
+      "type": "qualitative",
+      "claim": "base6+6层、512维、8heads，右移输出、decoder交叉注意力。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 3,
+      "locator": "Fig1; §3.1",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C05",
+      "type": "qualitative",
+      "claim": "QK缩放softmaxV及形状；方差解释；二维例权重.401/.198/.401。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 4,
+      "locator": "Eq1; §3.2.1 and footnote4",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C06",
+      "type": "qualitative",
+      "claim": "多头投影512×64、concat输出512，三种注意力的QKV来源。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 5,
+      "locator": "§3.2.2–3",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C07",
+      "type": "qualitative",
+      "claim": "FFN2048；跨位置共享跨层不同；Post-LN残差后归一化。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 5,
+      "locator": "Eq2; §3.1 p3",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C08",
+      "type": "qualitative",
+      "claim": "嵌入×sqrt512，sine/cos位置；p/i含义；数例为三角函数教学。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 6,
+      "locator": "§3.4–3.5",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C09",
+      "type": "qualitative",
+      "claim": "自注意力O(n²d)、RNN O(nd²)，顺序/路径O1vsOn；1000²×8教学计数。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 6,
+      "locator": "Table1; §4",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C10",
+      "type": "qualitative",
+      "claim": "右移输入与因果mask，训练并行但生成前缀依赖。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 5,
+      "locator": "§3.2.3 decoder masking; Fig1",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C11",
+      "type": "qualitative",
+      "claim": "warmup4000；label smoothing.1；lr数例为直接代入。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 7,
+      "locator": "Eq3; §5.3–5.4",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    },
+    {
+      "id": "C12",
+      "type": "quantitative",
+      "claim": "ENDE4.5M、ENFR36M；base100Ksteps8P10012h，big300K3.5days。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 7,
+      "locator": "§5.1–5.2",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "training time",
+      "conditions": "2017 original hardware and data",
+      "baseline": "base vs big",
+      "unit": "hours / days",
+      "sample_size": "8 P100 GPUs"
+    },
+    {
+      "id": "C13",
+      "type": "quantitative",
+      "claim": "v7英德base27.3big28.4；ConvS2S25.16、ensemble26.36；FLOPs3.3e18/2.3e19。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 8,
+      "locator": "Table2",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "BLEU / training FLOPs",
+      "conditions": "WMT14 EN-DE test Table2 v7",
+      "baseline": "ConvS2S and ensemble",
+      "unit": "BLEU / FLOPs",
+      "sample_size": "WMT14 test"
+    },
+    {
+      "id": "C14",
+      "type": "quantitative",
+      "claim": "dev newstest2013：1head24.9/8head25.8/16head25.8/32head25.4；dk小有损。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 9,
+      "locator": "Table3 rows A/B",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "BLEU",
+      "conditions": "same EN-DE dev and compute variants",
+      "baseline": "8head base",
+      "unit": "BLEU",
+      "sample_size": "newstest2013 dev"
+    },
+    {
+      "id": "C15",
+      "type": "quantitative",
+      "claim": "dropout0BLEU24.6vs25.8；smoothing0PPL4.67vs4.92、BLEU25.3vs25.8。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 9,
+      "locator": "Table3 row D",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "PPL and BLEU",
+      "conditions": "same dev ablations",
+      "baseline": "base dropout.1 smoothing.1",
+      "unit": "PPL / BLEU",
+      "sample_size": "newstest2013 dev"
+    },
+    {
+      "id": "C16",
+      "type": "quantitative",
+      "claim": "sinusoidal25.8/learned25.7。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 9,
+      "locator": "Table3 row E",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "BLEU",
+      "conditions": "same dev positional variants",
+      "baseline": "sinusoidal base",
+      "unit": "BLEU",
+      "sample_size": "newstest2013 dev"
+    },
+    {
+      "id": "C17",
+      "type": "quantitative",
+      "claim": "WSJonly91.3vsDyer91.7；semi-supervised92.7。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 10,
+      "locator": "Table4; §6.3",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00",
+      "metric": "F1",
+      "conditions": "separate supervised/semi settings",
+      "baseline": "Dyer and listed parsers",
+      "unit": "F1",
+      "sample_size": "WSJ23"
+    },
+    {
+      "id": "C18",
+      "type": "qualitative",
+      "claim": "encoder layer5远距离attention，颜色heads，making关系；不是因果解释。",
+      "source_url": "https://arxiv.org/pdf/1706.03762v7",
+      "pdf_page": 13,
+      "locator": "Fig3 and caption",
+      "verified": true,
+      "checked_at": "2026-10-30T00:45:06.967979+08:00"
+    }
+  ],
+  "source_uncertainties": [
+    "v7 Table2/abstract EN-FR41.8 differs §6.1 prose41.0; article bases quantitative central comparison on EN-DE Table2. Proceedings abstract has older values; source version stated."
+  ]
+}

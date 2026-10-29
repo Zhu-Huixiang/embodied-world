@@ -1,0 +1,405 @@
+{
+  "slug": "dit-2212.09748",
+  "title": "DiT：扩散画图，非得长一张 U-Net 的脸吗？",
+  "topics": [
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "Scalable Diffusion Models with Transformers",
+    "arxiv_id": "2212.09748",
+    "version": "arXiv2212.09748v2 (2023-03-02)",
+    "first_publication": "2022-12-19",
+    "pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+    "url": "https://arxiv.org/abs/2212.09748v2",
+    "project_url": "https://www.wpeebles.com/DiT",
+    "code_url": "https://github.com/facebookresearch/DiT",
+    "authors": [
+      "William Peebles",
+      "Saining Xie"
+    ],
+    "institutions": [
+      "加州大学伯克利分校",
+      "纽约大学",
+      "Meta FAIR（实习）"
+    ],
+    "source_checked_at": "2026-10-30T01:04:00.374663+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "ICCV 2023",
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+    "checked_at": "2026-10-30T01:04:00.374663+08:00",
+    "explanation": "Official CVF page opened;pp4195–4205"
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/dit-method.png",
+      "kind": "drawpaper",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "DiT全篇架构",
+      "reviewed": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/dit-method.tex",
+      "pdf": "figures/drawpaper/dit-method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "source_paper_url": "https://arxiv.org/pdf/2212.09748v2",
+      "provenance": "Native imagegen retained; A/C illustration crops retained; B exact computation rebuilt in TeX instead of copying inaccurate draft shortcut arrows."
+    },
+    {
+      "file": "figures/original/fig3.png",
+      "kind": "original",
+      "caption": "论文 Fig. 3。先抓结论：左边是主干，右边比较条件怎么进去；**胜出的改动集中在归一化与残差门，不是让类别 token 拼得更多。** 原图左侧从下往上读：Noised Latent→Patchify→多层 DiT block→Linear and Reshape→Noise/Covariance。右上浅色区列候选 block；timestep 和 class label 经嵌入变成向量，箭头指向各自的条件入口。<!-- evidence:C11 -->",
+      "alt": "Fig. 3",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 3,
+      "figure_id": "Fig. 3",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        50,
+        70,
+        545,
+        282
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/fig3-block.png",
+      "kind": "original",
+      "caption": "论文 Fig. 3 局部。图从下往上走：LayerNorm→Scale/Shift→Multi-Head Self-Attention→Scale→残差相加，然后再走一次 LayerNorm→Scale/Shift→Pointwise Feedforward→Scale→残差相加。右侧条件支路送来调制系数；绕过子层的长线是残差捷径。图里的“Scale”有两种用途，前一个调输入，后一个像音量旋钮控制这条分支说多大声。",
+      "alt": "Fig. 3 adaLN-Zero detail",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 3,
+      "figure_id": "Fig. 3 adaLN-Zero detail",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        180,
+        70,
+        306,
+        282
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/fig4.png",
+      "kind": "original",
+      "caption": "论文 Fig. 4。先看它想说明的事：**patch 越小，token 越多，计算会增加；参数量可以基本不变。** 原图从下往上读：底部是 I×I×C 带噪潜变量，p 标出一个 patch 的边长；中间把各块映射为 T×d token，顶端接入 DiT block。按图中 T=(I/p)² 计算，I=32 时 /8、/4、/2 分别得到 16、64、256 个 token。这里细化的是同一张潜变量的切法，输出图像分辨率没有变化。<!-- evidence:C08 -->",
+      "alt": "Fig. 4",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 4,
+      "figure_id": "Fig. 4",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        308,
+        70,
+        545,
+        257
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/fig5.png",
+      "kind": "original",
+      "caption": "论文 Fig. 5。**adaLN-Zero 在这组比较里学得更好。** 横轴是训练步数，纵轴 FID₅₀K，向下更好；四色线对应四种条件 block。看终点，也看曲线是否持续下降。40 万步时，adaLN-Zero 为 **19.47**，普通 adaLN 为 **25.21**，cross-attention 为 **26.14**，in-context 为 **35.24**。<!-- evidence:C19 -->",
+      "alt": "Fig. 5",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 5,
+      "figure_id": "Fig. 5",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        50,
+        70,
+        286,
+        238
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/fig6.png",
+      "kind": "original",
+      "caption": "论文 Fig. 6。上排分别固定 patch 大小，比较 S/B/L/XL；下排固定模型大小，比较 /8、/4、/2。每个小图横轴训练步数，纵轴 FID₅₀K，颜色由各自图例解释。先读同一格：越大模型通常越低；同一个模型，较小 patch 也通常更低。再跨格比较，才会发现 **“把宽度深度做大”和“把 token 做多”是两条不同的扩展路线。**<!-- evidence:C20 -->",
+      "alt": "Fig. 6",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 6,
+      "figure_id": "Fig. 6",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        50,
+        70,
+        545,
+        265
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/fig8.png",
+      "kind": "original",
+      "caption": "论文 Fig. 8。横轴为单次 Transformer 前向 Gflops，采用对数刻度；纵轴是 40 万训练步后的 FID₅₀K。每个点是一个规模/patch 配置，颜色与标记用于辨认模型配置，灰色虚线展示总体趋势，相关系数为 −0.93。点往右下聚集，说明在这个实验族里计算量和质量高度相关。<!-- evidence:C21 -->",
+      "alt": "Fig. 8",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 8,
+      "figure_id": "Fig. 8",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        50,
+        70,
+        286,
+        252
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/fig9.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9。它把横轴换成累计训练 Gflops，同样是对数刻度；纵轴仍是 FID₅₀K。不同颜色与线型代表模型/patch 配置。此时比较同一横坐标附近，才接近“相似训练预算谁更值”。更大的模型在这些曲线上仍有优势，而且没有明显进入饱和。但这里只覆盖作者测试的配置，不是一张放之四海皆准的算力兑换券。",
+      "alt": "Fig. 9",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 8,
+      "figure_id": "Fig. 9",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        308,
+        70,
+        545,
+        252
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/table2.png",
+      "kind": "original",
+      "caption": "论文 Table 2。表通过模型名后的 G 或 cfg 标出引导设置，列出 FID、sFID、IS、precision、recall。sFID 更关注空间特征分布，仍是越低越好；IS 借分类器衡量类别清晰度和多样性，越高越好。缺格代表该比较项未报告。先看 **256×256 的同任务组**：DiT-XL/2 在训练 700 万步、CFG=1.5 的设置下，FID 为 **2.27**，LDM-4-G 为 **3.60**。同一个 DiT 不做引导时为 **9.62**，所以 2.27 绝不是裸模型一步改主干的成绩。<!-- evidence:C23 -->",
+      "alt": "Table 2",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 9,
+      "figure_id": "Table 2",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        50,
+        70,
+        286,
+        255
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/original/fig10.png",
+      "kind": "original",
+      "caption": "论文 Fig. 10。横轴为**生成一次样本累计的采样 Gflops**，对数刻度；纵轴是 **FID₁₀K**，这次一万张，别和刚才 Table 2 的五万张直接接表。每条线是训练 40 万步的一个模型配置，沿线的点把采样步数从 16 增到 1000。<!-- evidence:C28 -->",
+      "alt": "Fig. 10",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 9,
+      "figure_id": "Fig. 10",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        308,
+        70,
+        545,
+        238
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Full mixed vector/raster region rendered4x after reading original figure."
+    },
+    {
+      "file": "figures/formulas/01-patch.png",
+      "kind": "formula",
+      "caption": "从网格到token",
+      "alt": "01-patch",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/01-patch.tex",
+      "pdf": "figures/formulas/01-patch.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-attention.png",
+      "kind": "formula",
+      "caption": "注意力计算",
+      "alt": "02-attention",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/02-attention.tex",
+      "pdf": "figures/formulas/02-attention.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/03-adaln.png",
+      "kind": "formula",
+      "caption": "adaLNZero逐步计算",
+      "alt": "03-adaln",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/03-adaln.tex",
+      "pdf": "figures/formulas/03-adaln.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/04-noise.png",
+      "kind": "formula",
+      "caption": "潜变量加噪与噪声损失",
+      "alt": "04-noise",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/04-noise.tex",
+      "pdf": "figures/formulas/04-noise.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/05-output.png",
+      "kind": "formula",
+      "caption": "输出解码",
+      "alt": "05-output",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/05-output.tex",
+      "pdf": "figures/formulas/05-output.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/06-cfg.png",
+      "kind": "formula",
+      "caption": "CFG",
+      "alt": "06-cfg",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/06-cfg.tex",
+      "pdf": "figures/formulas/06-cfg.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/07-compute.png",
+      "kind": "formula",
+      "caption": "计算账本",
+      "alt": "07-compute",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/07-compute.tex",
+      "pdf": "figures/formulas/07-compute.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/fig6-p2.png",
+      "kind": "original",
+      "caption": "论文Fig6上排p2局部",
+      "alt": "Fig. 6",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 6,
+      "figure_id": "Fig6 p2 panel",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        365,
+        70,
+        482.5,
+        162
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Crop from4xfull Fig6 render. Original PDF bbox calculated from secondary pixel crop. Shared y-axis outside this local panel; full fig above retains it.",
+      "parent_render_bbox": [
+        50,
+        70,
+        545,
+        265
+      ],
+      "secondary_crop_pixels": [
+        1260,
+        0,
+        1730,
+        368
+      ]
+    },
+    {
+      "file": "figures/original/fig6-xl.png",
+      "kind": "original",
+      "caption": "论文 Fig. 6 的两个局部放大，分别对应固定 /2 和固定 XL。局部沿用全图共享的 FID 纵轴，这里主要看曲线趋势；具体读数回到完整图和下文数值对照。先盯上排最右 /2：同样切法下，看四种模型的纵向差距；再盯下排最右 XL：同样主干下，看三种切法的差距。别一口气盯十二条线，眼睛也需要 batch size。",
+      "alt": "Fig. 6",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.09748v2",
+      "pdf_page": 6,
+      "figure_id": "Fig6 xl panel",
+      "source_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+      "bbox": [
+        423.75,
+        167.5,
+        545,
+        265
+      ],
+      "rights_checked": true,
+      "rights_note": "Authors retain copyright. Limited excerpts directly analyzed for necessary scholarly commentary; no full PDF or unused gallery exported.",
+      "rights_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html",
+      "extraction": "Crop from4xfull Fig6 render. Shared y-axis outside this local panel; full fig above retains it.",
+      "parent_render_bbox": [
+        50,
+        70,
+        545,
+        265
+      ],
+      "secondary_crop_pixels": [
+        1495,
+        390,
+        1980,
+        780
+      ]
+    }
+  ],
+  "cover_info": {
+    "source": "built-in imagegen",
+    "generator": "imagegen",
+    "ai_generated": true,
+    "prompt": "notes/cover-prompt.md",
+    "reviewed": true
+  }
+}

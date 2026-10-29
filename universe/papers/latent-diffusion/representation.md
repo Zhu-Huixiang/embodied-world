@@ -4,6 +4,8 @@
 
 512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/latent-diffusion-2112.10752/README.md#31-感知压缩先把画面装进一个靠谱的小空间)
+
 [跨论文技术入口](../../concepts/representation.md)
 
-[本篇星系](../latent-diffusion.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/latent-diffusion.md) · [原文依据](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)
+[本篇星系](../latent-diffusion.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/latent-diffusion-2112.10752/README.md) · [原文依据](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)

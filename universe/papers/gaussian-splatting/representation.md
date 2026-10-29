@@ -4,8 +4,10 @@
 
 512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/gaussian-splatting-2308.04079/README.md#41-b-区一个高斯不是一颗固定圆球)
+
 继续拆：[空间表示](spatial.md)。
 
 [跨论文技术入口](../../concepts/representation.md)
 
-[本篇星系](../gaussian-splatting.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/gaussian-splatting.md) · [原文依据](https://dl.acm.org/doi/10.1145/3592433)
+[本篇星系](../gaussian-splatting.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/gaussian-splatting-2308.04079/README.md) · [原文依据](https://dl.acm.org/doi/10.1145/3592433)

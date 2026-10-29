@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [3DGS · 3D Gaussian Splatting for Real-Time Radiance Field Rendering](../../../library/gaussian-splatting.md) | 2023 / [SIGGRAPH / TOG](../../../venues/SIGGRAPH-TOG/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [94.3](../../papers/gaussian-splatting/README.md) |
+| [3DGS · 3D Gaussian Splatting for Real-Time Radiance Field Rendering](../../../articles/gaussian-splatting-2308.04079/README.md) | 2023 / [SIGGRAPH / TOG](../../../venues/SIGGRAPH-TOG/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [94.3](../../papers/gaussian-splatting/README.md) |
 
 ## 署名与来源
 

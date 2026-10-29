@@ -24,7 +24,7 @@ CVPR 2022 原始 LDM；后续视频模型与机器人方法使用的具体编码
 
 具身关联：压缩表示中去噪与跨注意力条件化是现代潜空间视频/世界生成的常见构件；这篇把表示代价和生成代价拆开，值得作为后续阅读基础。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/latent-diffusion-2112.10752/README.md)
 
 [知识星系](../universe/papers/latent-diffusion.md) · [七维评分与雷达](../leaderboard/papers/latent-diffusion/README.md) · [CVPR集锦](../venues/CVPR/README.md) · [地图方向](../paper-map/README.md#track-diffusion-transformer) · [首页](../README.md)
 

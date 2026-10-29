@@ -24,7 +24,7 @@ ICCV 2021，会议为 2021-10-10 至 2021-10-17，正式会议日期位于五年
 
 具身关联：无标签自蒸馏及其空间特征是 DINOv2 的直接前身，DINOv2 再进入 OpenVLA；按正式会议时间收录并保留首次公开日期区别。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/dino-2104.14294/README.md)
 
 [知识星系](../universe/papers/dino.md) · [七维评分与雷达](../leaderboard/papers/dino/README.md) · [ICCV集锦](../venues/ICCV/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 

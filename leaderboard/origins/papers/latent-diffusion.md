@@ -38,7 +38,7 @@ Robin Rombach、Andreas Blattmann、Dominik Lorenz、Patrick Esser、Björn Omme
 
 </details>
 
-[论文导读 / 完整解读](../../../library/latent-diffusion.md) · [七维评分](../../papers/latent-diffusion/README.md) · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)
+[论文导读 / 完整解读](../../../articles/latent-diffusion-2112.10752/README.md) · [七维评分](../../papers/latent-diffusion/README.md) · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)
 
 ## 署名来源
 

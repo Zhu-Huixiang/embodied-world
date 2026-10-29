@@ -24,7 +24,7 @@ Splat-MOVER 正式 CoRL 2024 原文直接把可编辑 Gaussian Splatting 用于�
 
 具身关联：Splat-MOVER 正式 CoRL 2024 原文直接把可编辑 Gaussian Splatting 用于多阶段机器人操作；原始表示论文贡献和应用结果分开。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/gaussian-splatting-2308.04079/README.md)
 
 [知识星系](../universe/papers/gaussian-splatting.md) · [七维评分与雷达](../leaderboard/papers/gaussian-splatting/README.md) · [SIGGRAPH / TOG集锦](../venues/SIGGRAPH-TOG/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 

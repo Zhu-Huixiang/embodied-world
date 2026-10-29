@@ -9,13 +9,14 @@
 ## 在完整解读里看计算与例子
 
 - [DDPM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上)
+- [Diffusion Policy：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#a-与-b先把两个时间分清)
 - [Holo-M：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#31-统一动作编码208究竟怎么算出来的)
 
 ## 哪些论文用到或讨论它
 
 - [Holo-M](../papers/holo-m.md) · 已精讲 · [原文](https://arxiv.org/abs/2609.35709v1)
 - [π₀](../papers/pi0.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss21/p010.html)
-- [Diffusion Policy](../papers/diffusion-policy.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
+- [Diffusion Policy](../papers/diffusion-policy.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
 - [ACT / ALOHA](../papers/act.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p016.html)
 - [DP3](../papers/dp3.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p067.html)
 - [Consistency Policy](../papers/consistency-policy.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p071.html)

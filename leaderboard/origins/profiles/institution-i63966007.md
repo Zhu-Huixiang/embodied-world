@@ -14,7 +14,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [Diffusion Policy · Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../../../library/diffusion-policy.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [92.6](../../papers/diffusion-policy/README.md) |
+| [Diffusion Policy · Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../../../articles/diffusion-policy-2303.04137/README.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [92.6](../../papers/diffusion-policy/README.md) |
 | [ExBody · Expressive Whole-Body Control for Humanoid Robots](../../../library/exbody.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [85.9](../../papers/exbody/README.md) |
 | [Diffusion Forcing · Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion](../../../library/diffusion-forcing.md) | 2024 / [NeurIPS](../../../venues/NeurIPS/README.md) | [视频与序列生成](../../../paper-map/README.md#track-video-generation) | [85.5](../../papers/diffusion-forcing/README.md) |
 | [Diffuser · Planning with Diffusion for Flexible Behavior Synthesis](../../../library/diffuser.md) | 2022 / [ICML](../../../venues/ICML/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [85.3](../../papers/diffuser/README.md) |

@@ -6,9 +6,13 @@ DiT 是网络结构，训练目标及采样器仍要分别说明。
 
 分类上层：[扩散去噪](diffusion.md)。
 
+## 在完整解读里看计算与例子
+
+- [DiT：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dit-2212.09748/README.md#3-diffusion-transformers拆开-abc)
+
 ## 哪些论文用到或讨论它
 
-- [DiT](../papers/dit.md) · 机制导读 · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html)
+- [DiT](../papers/dit.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html)
 - [ModAR](../papers/modar.md) · 机制导读 · [原文](https://arxiv.org/abs/2609.17524v1)
 - [GR00T N1](../papers/gr00t-n1.md) · 机制导读 · [原文](https://arxiv.org/abs/2503.14734)
 

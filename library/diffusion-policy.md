@@ -14,7 +14,7 @@
 
 **为什么要对一段动作分布去噪，再滚动执行？**
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/diffusion-policy-2303.04137/README.md)
 
 [知识星系](../universe/papers/diffusion-policy.md) · [七维评分与雷达](../leaderboard/papers/diffusion-policy/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
 

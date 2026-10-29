@@ -15,7 +15,7 @@
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
 | [DDPM · Denoising Diffusion Probabilistic Models](../../../articles/ddpm-2006.11239/README.md) | 2020 / [NeurIPS](../../../venues/NeurIPS/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [95.9](../../papers/ddpm/README.md) |
-| [DiT · Scalable Diffusion Models with Transformers](../../../library/dit.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.2](../../papers/dit/README.md) |
+| [DiT · Scalable Diffusion Models with Transformers](../../../articles/dit-2212.09748/README.md) | 2023 / [ICCV](../../../venues/ICCV/README.md) | [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) | [94.2](../../papers/dit/README.md) |
 | [NeRF · NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](../../../library/nerf.md) | 2020 / [ECCV](../../../venues/ECCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [92.4](../../papers/nerf/README.md) |
 | [ACT / ALOHA · Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../../../library/act.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [91.6](../../papers/act/README.md) |
 | [RMA · RMA: Rapid Motor Adaptation for Legged Robots](../../../library/rma.md) | 2021 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [91.1](../../papers/rma/README.md) |

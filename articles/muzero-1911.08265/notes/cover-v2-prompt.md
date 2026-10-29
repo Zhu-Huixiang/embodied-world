@@ -1,0 +1,1 @@
+Built-in imagegen edit of figures/cover/muzero-cover-v1.png. Preserve the illustration and 2.35:1 canvas; reflow exact navy title to center36%: 不画世界 / 也能规划？ / MuZero. Check centered square crop. Output retained as muzero-cover-v2.png; v1 preserved.

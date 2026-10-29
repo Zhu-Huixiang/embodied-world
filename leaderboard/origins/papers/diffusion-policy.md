@@ -51,7 +51,7 @@ Cheng Chi、Siyuan Feng、Yilun Du、Zhenjia Xu、Eric Cousineau、Benjamin Burc
 - [Benjamin Burchfiel：个人主页 / 学术入口](http://www.benburchfiel.com/)
 - [Shuran Song：个人主页 / 学术入口](https://www.cs.columbia.edu/~shurans/)
 
-[论文导读 / 完整解读](../../../library/diffusion-policy.md) · [七维评分](../../papers/diffusion-policy/README.md) · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
+[论文导读 / 完整解读](../../../articles/diffusion-policy-2303.04137/README.md) · [七维评分](../../papers/diffusion-policy/README.md) · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
 
 ## 署名来源
 
