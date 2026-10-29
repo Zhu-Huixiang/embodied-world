@@ -30,7 +30,7 @@ Nikhila Ravi、Valentin Gabeur、Yuan-Ting Hu、Ronghang Hu、Chaitanya Ryali、
 
 </details>
 
-[论文导读 / 完整解读](../../../library/sam2.md) · [七维评分](../../papers/sam2/README.md) · [原文](https://openreview.net/forum?id=Ha6RTeWMd0)
+[论文导读 / 完整解读](../../../articles/sam2-2408.00714/README.md) · [七维评分](../../papers/sam2/README.md) · [原文](https://openreview.net/forum?id=Ha6RTeWMd0)
 
 ## 署名来源
 

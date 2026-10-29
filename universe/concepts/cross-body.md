@@ -9,6 +9,7 @@
 ## 在完整解读里看计算与例子
 
 - [Holo-M：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#32-vlm-骨干c区到底往模型里塞了什么)
+- [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实)
 
 ## 哪些论文用到或讨论它
 
@@ -16,7 +17,7 @@
 - [OpenVLA](../papers/openvla.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/kim25c.html)
 - [RT-2](../papers/rt2.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/zitkovich23a.html)
 - [π₀.₅](../papers/pi05.md) · 机制导读 · [原文](https://proceedings.mlr.press/v305/black25a.html)
-- [RT-1](../papers/rt1.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
+- [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 - [Open X-Embodiment](../papers/rtx.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/document/10611477)
 - [Octo](../papers/octo.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p090.html)
 - [BridgeData V2](../papers/bridge-v2.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/walke23a.html)

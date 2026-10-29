@@ -14,7 +14,9 @@
 - [DINO：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#42-表示的新性质从找同类到找物体)
 - [3DGS：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/gaussian-splatting-2308.04079/README.md#41-b-区一个高斯不是一颗固定圆球)
 - [MAE：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/mae-2111.06377/README.md#5-迁移实验离开分类考场之后)
+- [NeRF：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#2-相关工作表面体素与连续函数)
 - [SAM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam-2304.02643/README.md#31-a-区大图压成一张可反复查询的特征地图)
+- [SAM 2：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征)
 - [ViT：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/vit-2010.11929/README.md#45-检查内部位置表有没有学出附近)
 
 ## 哪些论文用到或讨论它
@@ -32,8 +34,8 @@
 - [DINO](../papers/dino.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)
 - [MAE](../papers/mae.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html)
 - [SAM](../papers/sam.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
-- [SAM 2](../papers/sam2.md) · 机制导读 · [原文](https://openreview.net/forum?id=Ha6RTeWMd0)
-- [NeRF](../papers/nerf.md) · 机制导读 · [原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24)
+- [SAM 2](../papers/sam2.md) · 已精讲 · [原文](https://openreview.net/forum?id=Ha6RTeWMd0)
+- [NeRF](../papers/nerf.md) · 已精讲 · [原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24)
 - [3DGS](../papers/gaussian-splatting.md) · 已精讲 · [原文](https://dl.acm.org/doi/10.1145/3592433)
 - [Dynamics Review](../papers/learned-dynamics-review.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.adt1497)
 - [Dex-One2Many](../papers/dex-one2many.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12470v1)

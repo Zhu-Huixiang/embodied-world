@@ -2,7 +2,7 @@
 
 **RT-1** · RSS 2023 · 本版排名 16 · 综合分 **91.2 / 100**
 
-[解读导读](../../../library/rt1.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
+[完整解读](../../../articles/rt1-2212.06817/README.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
 
 [知识星系](../../../universe/papers/rt1.md) · [原文](https://www.roboticsproceedings.org/rss19/p025.html) · [PDF](https://roboticsproceedings.org/rss19/p025.pdf) · [阅读卡片](../../../library/rt1.md)
 

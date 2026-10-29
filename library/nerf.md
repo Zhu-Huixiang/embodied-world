@@ -26,7 +26,7 @@ ECCV 2020 原始论文；作者项目注明 ECCV 2020 Oral，原文实验是新�
 
 经典保留理由：2020 年经典例外：连续场、体渲染和可微场景拟合是后来机器人三维特征场与场景重建的重要起点。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/nerf-2003.08934/README.md)
 
 [知识星系](../universe/papers/nerf.md) · [七维评分与雷达](../leaderboard/papers/nerf/README.md) · [ECCV集锦](../venues/ECCV/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 

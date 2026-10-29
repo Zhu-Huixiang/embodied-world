@@ -8,13 +8,17 @@
 
 继续拆：[残差向量量化 RVQ](rvq.md)。
 
+## 在完整解读里看计算与例子
+
+- [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位)
+
 ## 哪些论文用到或讨论它
 
 - [FAST](../papers/fast.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss21/p012.html)
 - [OpenVLA](../papers/openvla.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/kim25c.html)
 - [RT-2](../papers/rt2.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/zitkovich23a.html)
 - [DreamerV2](../papers/dreamerv2.md) · 机制导读 · [原文](https://research.google/pubs/mastering-atari-with-discrete-world-models/)
-- [RT-1](../papers/rt1.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
+- [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 - [VQ-BeT](../papers/vq-bet.md) · 机制导读 · [原文](https://proceedings.mlr.press/v235/lee24y.html)
 - [Trajectory Transformer](../papers/trajectory-transformer.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html)
 - [Phenaki](../papers/phenaki.md) · 机制导读 · [原文](https://openreview.net/forum?id=vOEXS39nOF)

@@ -1,0 +1,3 @@
+2026-10-30 builtinimagegen真实生成；生成 brief 与制作记录如下。草稿保留，科学文字/公式由XeLaTeX独立精排。
+
+Portrait1024x1536,whitewarm,mutedtealorange,no text: five horizontal scenes kitchenmobile robot sees6frames+appleinstruction;9x9visualgrid compressedto8capsules;6groupsof8tokens transformer11sliders;human teleoperationdemonstrations;robotgripapple/newcamera/feedback. Conceptualnotexperimentphoto.

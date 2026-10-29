@@ -38,7 +38,7 @@ Tony Z. Zhao、Vikash Kumar、Sergey Levine、Chelsea Finn
 
 </details>
 
-[论文导读 / 完整解读](../../../library/act.md) · [七维评分](../../papers/act/README.md) · [原文](https://www.roboticsproceedings.org/rss19/p016.html)
+[论文导读 / 完整解读](../../../articles/act-2304.13705/README.md) · [七维评分](../../papers/act/README.md) · [原文](https://www.roboticsproceedings.org/rss19/p016.html)
 
 ## 署名来源
 

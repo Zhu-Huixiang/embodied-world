@@ -9,10 +9,12 @@
 ## 在完整解读里看计算与例子
 
 - [Diffusion Policy：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#vi-realworld-evaluation到了桌上还能不能顺手)
+- [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#4-系统概览数据究竟从哪里来)
 
 ## 哪些论文用到或讨论它
 
 - [Diffusion Policy](../papers/diffusion-policy.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
+- [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 - [Open X-Embodiment](../papers/rtx.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/document/10611477)
 - [robomimic](../papers/robomimic.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/mandlekar22a.html)
 - [DROID](../papers/droid.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p120.html)

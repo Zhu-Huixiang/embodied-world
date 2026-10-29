@@ -37,7 +37,7 @@ Danijar Hafner、Jurgis Pasukonis、Jimmy Ba、Timothy Lillicrap
 
 </details>
 
-[论文导读 / 完整解读](../../../library/dreamerv3.md) · [七维评分](../../papers/dreamerv3/README.md) · [原文](https://www.nature.com/articles/s41586-025-08744-2)
+[论文导读 / 完整解读](../../../articles/dreamerv3-2301.04104/README.md) · [七维评分](../../papers/dreamerv3/README.md) · [原文](https://www.nature.com/articles/s41586-025-08744-2)
 
 ## 署名来源
 

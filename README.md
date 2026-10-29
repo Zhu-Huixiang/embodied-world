@@ -21,32 +21,37 @@
 
 ## 论文解读
 
+- [ACT：机器人别再一步一猜，先把一段动作想明白](articles/act-2304.13705/README.md)
 - [Transformer：句子不排队读了，意思还接得上吗？](articles/attention-1706.03762/README.md)
 - [CLIP：把分类器写成一句话，凭什么管用？](articles/clip-2103.00020/README.md)
 - [DDPM：只学预测噪声，怎么就能画画了？](articles/ddpm-2006.11239/README.md)
 - [Diffusion Policy：动作也能靠去噪生成？](articles/diffusion-policy-2303.04137/README.md)
 - [DINO：没人教它认狗，注意力却把狗圈了出来？](articles/dino-2104.14294/README.md)
 - [DiT：扩散画图，非得长一张 U-Net 的脸吗？](articles/dit-2212.09748/README.md)
+- [DreamerV3：脑内练习，怎么没练成“幻想高手”？](articles/dreamerv3-2301.04104/README.md)
 - [3DGS：不用沿光线慢慢找，撒一把椭球就能画？](articles/gaussian-splatting-2308.04079/README.md)
 - [全身动作写成208个token，机器人就懂了吗？](articles/holo-m-2609.35709/README.md)
 - [LDM：画一张大图，为什么先把战场缩小？](articles/latent-diffusion-2112.10752/README.md)
 - [MAE：把图遮掉四分之三，为什么反而学会了看？](articles/mae-2111.06377/README.md)
 - [MuZero：不画出未来，怎么在脑内做规划？](articles/muzero-1911.08265/README.md)
+- [NeRF：把照片藏进函数里，换个角度还能看见吗？](articles/nerf-2003.08934/README.md)
+- [RT-1：机器人看过十三万次示范，就会举一反三了？](articles/rt1-2212.06817/README.md)
 - [SAM：点一下就能抠图，它真知道你想要什么吗？](articles/sam-2304.02643/README.md)
+- [SAM 2：点一下就一直跟住？视频分割最难的，其实是别失忆](articles/sam2-2408.00714/README.md)
 - [ViT：把图片切碎，怎么就打过了卷积？](articles/vit-2010.11929/README.md)
 
 公众号文章链接在公开发表后加入各篇页面。Holo-M 目前可读 GitHub 全稿，公众号稿仍待质量评阅与后台发表。
 
 ## 已完成解读的方向索引
 
-- [世界模型](directions/world-model.md)（2 篇）
+- [世界模型](directions/world-model.md)（4 篇）
 - [世界动作模型](directions/world-action-model.md)（0 篇）
 - [视频动作模型](directions/video-action.md)（0 篇）
 - [视频生成](directions/video-generation.md)（2 篇）
-- [VLA](directions/vla.md)（3 篇）
-- [强化学习](directions/reinforcement-learning.md)（1 篇）
+- [VLA](directions/vla.md)（5 篇）
+- [强化学习](directions/reinforcement-learning.md)（2 篇）
 - [运动控制与 Locomotion](directions/locomotion.md)（1 篇）
-- [Manipulation](directions/manipulation.md)（3 篇）
+- [Manipulation](directions/manipulation.md)（4 篇）
 - [Diffusion / Transformer](directions/diffusion-transformer.md)（9 篇）
 
 ## 一起读，也一起纠错

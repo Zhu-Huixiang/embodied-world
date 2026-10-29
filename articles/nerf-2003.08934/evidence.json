@@ -1,0 +1,270 @@
+{
+  "paper_version": "arXiv 2003.08934v2 (2020-08-03)",
+  "pdf_sha256": "c7fc70b38f84cb2e42890a69a7c9b9c26ded464b221e0355031004f24fb8e727",
+  "checked_at": "2026-10-30T01:34:20.868527+08:00",
+  "claims": [
+    {
+      "id": "C01",
+      "type": "qualitative",
+      "claim": "连续隐式场与网格/体素对比，NeRF沿射线密度颜色表示；SRN背景。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 1,
+      "locator": "§1–2 pp1–4",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C02",
+      "type": "qualitative",
+      "claim": "作者机构，2020-03-19首次，v2 2020-08-03，ECCV2020。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 1,
+      "locator": "Title and arXiv history; official project",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C03",
+      "type": "qualitative",
+      "claim": "每场景分别优化；训练照片监督，渲染查询坐标方向。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 8,
+      "locator": "§5.3 pp8–9",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C04",
+      "type": "qualitative",
+      "claim": "SDF/occupancy/SRN、网格与体素背景，经典体渲染方法来源。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 3,
+      "locator": "§2 pp3–4",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C05",
+      "type": "qualitative",
+      "claim": "四步射线采样→MLP→合成→照片loss；密度曲线横轴距离。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 5,
+      "locator": "Fig2",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C06",
+      "type": "qualitative",
+      "claim": "d单位三向量两个自由度；σ只依赖位置，c依赖位置方向。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 5,
+      "locator": "§3",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C07",
+      "type": "qualitative",
+      "claim": "船/水面固定点方向依赖；圆盘颜色按视角分布。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 6,
+      "locator": "Fig3",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C08",
+      "type": "qualitative",
+      "claim": "位置60维，8层256，skip concatenate，σ与256feature，方向24→concat280→128→RGB3；激活。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 18,
+      "locator": "Appendix A Fig7",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C09",
+      "type": "qualitative",
+      "claim": "连续体渲染与transmittance定义。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 5,
+      "locator": "Eq1",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C10",
+      "type": "qualitative",
+      "claim": "分层随机采样，δ间距，alpha/T/加权颜色；红蓝算例为教学。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 6,
+      "locator": "Eq2–3",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C11",
+      "type": "qualitative",
+      "claim": "正弦余弦编码，位置L10/方向L4，60/24维；p.25例教学。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 7,
+      "locator": "§5.1 Eq4 pp7–8",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C12",
+      "type": "qualitative",
+      "claim": "GT/Full/NoVD/NoPE顺序，高光与细纹理。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 7,
+      "locator": "Fig4",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C13",
+      "type": "qualitative",
+      "claim": "coarse weights normalized→inverseCDF，fine并集；Nc64/Nf128来自p9，总256queries。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 8,
+      "locator": "§5.2 Eq5",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C14",
+      "type": "qualitative",
+      "claim": "4096 rays；coarse+fine squaredRGB；相机来源COLMAP/knownsynthetic。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 9,
+      "locator": "§5.3 Eq6",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C15",
+      "type": "qualitative",
+      "claim": "forward-facing NDC射线变换、视差轴、无界远景映射。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 19,
+      "locator": "Appendix C pp19–21",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C16",
+      "type": "quantitative",
+      "claim": "8synthetic100train200test800²，8real20–62photos hold1/8。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 9,
+      "locator": "§6.1 pp9–10",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00",
+      "metric": "dataset protocol",
+      "conditions": "original NeRF benchmark",
+      "baseline": "same source views per scene except LLFF pretrained",
+      "unit": "images / scenes",
+      "sample_size": "8+8 scenes"
+    },
+    {
+      "id": "C17",
+      "type": "qualitative",
+      "claim": "三组PSNR/SSIM/LPIPS方向与方法列。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 10,
+      "locator": "Table1",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C18",
+      "type": "quantitative",
+      "claim": "31.01 vs26.05NV差4.96dB，LPIPS.081vs.160。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 10,
+      "locator": "Table1 realistic synthetic",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00",
+      "metric": "PSNR / LPIPS",
+      "conditions": "8 realistic synthetic scenes",
+      "baseline": "Neural Volumes",
+      "unit": "dB / perceptual distance",
+      "sample_size": "8 scenes"
+    },
+    {
+      "id": "C19",
+      "type": "quantitative",
+      "claim": "real PSNR26.50vs24.13，LPIPS.250vs.212LLFF；SRN较低分辨率；LLFF预训练。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 10,
+      "locator": "Table1 real; Appendix B p19",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00",
+      "metric": "PSNR / LPIPS",
+      "conditions": "8 forward facing scenes; baseline resolutions stated",
+      "baseline": "LLFF",
+      "unit": "dB / perceptual distance",
+      "sample_size": "8 scenes"
+    },
+    {
+      "id": "C20",
+      "type": "qualitative",
+      "claim": "Fern/Trex/Orchid；columnsGTNeRFLLFFSRN，细节和遮挡背景。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 12,
+      "locator": "Fig6",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00"
+    },
+    {
+      "id": "C21",
+      "type": "quantitative",
+      "claim": "Full31.01 NoPE28.77 NoVD27.66 NoH30.06；25images27.78/50images29.79。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 14,
+      "locator": "Table2 rows2–6/9",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00",
+      "metric": "PSNR",
+      "conditions": "same8synthetic scenes; corresponding sampling configurations",
+      "baseline": "full100images L10 hierarchical",
+      "unit": "dB",
+      "sample_size": "8 scenes"
+    },
+    {
+      "id": "C22",
+      "type": "quantitative",
+      "claim": "L5 30.59 L10 31.01 L15 30.81。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 14,
+      "locator": "Table2 rows7–9",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00",
+      "metric": "PSNR",
+      "conditions": "same synthetic ablation",
+      "baseline": "L10",
+      "unit": "dB",
+      "sample_size": "8 scenes"
+    },
+    {
+      "id": "C23",
+      "type": "quantitative",
+      "claim": "5MBnetwork vsLLFF>15GB；100–300ksteps1–2daysV100；~30s/frame1.5–2e8queries。",
+      "source_url": "https://arxiv.org/pdf/2003.08934v2",
+      "pdf_page": 13,
+      "locator": "§6.3; §5.3 p9; Appendix A p18",
+      "verified": true,
+      "checked_at": "2026-10-30T01:34:20.868527+08:00",
+      "metric": "storage and compute",
+      "conditions": "original reported hardware and resolution",
+      "baseline": "LLFF storage; NeRF runtime",
+      "unit": "MB / GB / days / seconds",
+      "sample_size": "one scene or frame as indicated"
+    }
+  ],
+  "source_uncertainties": [
+    "NeRF paper main says real image1008x756; appendix baseline comparison1008x752; article avoids using conflicting real resolution."
+  ]
+}

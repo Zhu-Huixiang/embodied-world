@@ -4,8 +4,10 @@
 
 512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#32-mlp-里面到底走了几步)
+
 继续拆：[空间表示](spatial.md)。
 
 [跨论文技术入口](../../concepts/representation.md)
 
-[本篇星系](../nerf.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/nerf.md) · [原文依据](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24)
+[本篇星系](../nerf.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md) · [原文依据](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24)

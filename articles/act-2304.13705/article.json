@@ -1,0 +1,281 @@
+{
+  "slug": "act-2304.13705",
+  "title": "ACT：机器人别再一步一猜，先把一段动作想明白",
+  "topics": [
+    "manipulation"
+  ],
+  "paper": {
+    "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+    "arxiv_id": "2304.13705",
+    "version": "RSS 2023 official proceedings PDF, including Appendices A–F",
+    "first_publication": "2023-04-23",
+    "pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+    "url": "https://www.roboticsproceedings.org/rss19/p016.html",
+    "project_url": "https://tonyzhaozh.github.io/aloha/",
+    "code_url": "https://github.com/tonyzhaozh/act",
+    "authors": [
+      "Tony Z. Zhao",
+      "Vikash Kumar",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "institutions": [
+      "Stanford University",
+      "UC Berkeley",
+      "Meta"
+    ],
+    "source_checked_at": "2026-10-30T01:34:20.868527+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "RSS 2023",
+    "url": "https://www.roboticsproceedings.org/rss19/p016.html",
+    "checked_at": "2026-10-30T01:34:20.868527+08:00",
+    "explanation": "Official project/proceedings page and original PDF checked."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/method.png",
+      "kind": "drawpaper",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "全篇架构",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "source_paper_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "reviewed": true,
+      "tex": "figures/drawpaper/method.tex",
+      "pdf": "figures/drawpaper/method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "file": "figures/original/fig3.png",
+      "kind": "original",
+      "caption": "论文 Fig. 3。从左到右看相机布局、操作把手和机械臂规格。",
+      "alt": "Fig. 3",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 3,
+      "figure_id": "Fig. 3",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        48,
+        54,
+        564,
+        190
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/original/fig5.png",
+      "kind": "original",
+      "caption": "论文 Fig. 5。左边只在训练时出现，右边才是运行时的动作策略。",
+      "alt": "Fig. 5",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 5,
+      "figure_id": "Fig. 5",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        48,
+        53,
+        565,
+        181
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/original/fig6.png",
+      "kind": "original",
+      "caption": "论文 Fig. 6。竖着找同一时间列，才是要拿来平均的动作。",
+      "alt": "Fig. 6",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 5,
+      "figure_id": "Fig. 6",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        48,
+        229,
+        301,
+        360
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/original/table2.png",
+      "kind": "original",
+      "caption": "论文 Table II。仿真每格竖线左边是脚本数据，右边是人类数据；实机列直接读百分比。",
+      "alt": "Table II",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 8,
+      "figure_id": "Table II",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        49,
+        161,
+        564,
+        267
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/original/table3.png",
+      "kind": "original",
+      "caption": "论文 Table III。每组从左往右看进度，重点找成功率在哪一步掉下去。",
+      "alt": "Table III",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 8,
+      "figure_id": "Table III",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        49,
+        309,
+        564,
+        368
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/original/fig9.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9。四块分别测试动作块、时间集成、CVAE和遥操作频率。",
+      "alt": "Fig. 9",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 11,
+      "figure_id": "Fig. 9",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        49,
+        57,
+        563,
+        179
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/formulas/01-chunk.png",
+      "kind": "formula",
+      "caption": "公式 1｜依据原文 §IV-A 展开的动作块表示。Aₜ 是 k×14 的矩阵，每行对应一时刻的双臂目标。",
+      "alt": "01-chunk",
+      "source_url": "https://arxiv.org/abs/2304.13705",
+      "reviewed": true,
+      "generator": "TeX",
+      "tex": "figures/formulas/01-chunk.tex",
+      "pdf": "figures/formulas/01-chunk.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-ensemble.png",
+      "kind": "formula",
+      "caption": "公式 2｜原文 Algorithm 2 与 §IV-A。分子逐关节加权，分母把权重归一化。",
+      "alt": "02-ensemble",
+      "source_url": "https://arxiv.org/abs/2304.13705",
+      "reviewed": true,
+      "generator": "TeX",
+      "tex": "figures/formulas/02-ensemble.tex",
+      "pdf": "figures/formulas/02-ensemble.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/03-cvae.png",
+      "kind": "formula",
+      "caption": "公式 3｜§IV-B/C 的训练目标。β控制潜变量正则强度；本文按实现段使用 L1 重建。",
+      "alt": "03-cvae",
+      "source_url": "https://arxiv.org/abs/2304.13705",
+      "reviewed": true,
+      "generator": "TeX",
+      "tex": "figures/formulas/03-cvae.tex",
+      "pdf": "figures/formulas/03-cvae.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/fig9a.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9(a–b) 局部。先看左半边：横轴是块长，纵轴是四种仿真设置的平均成功率；右半边留给下一小节对照。",
+      "alt": "Fig. 9(a–b)",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 11,
+      "figure_id": "Fig. 9(a–b)",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        49,
+        57,
+        322,
+        180
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/original/fig9c.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9(c) 局部。脚本与人类数据分成两组，颜色区分有无CVAE。",
+      "alt": "Fig. 9(c)",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 11,
+      "figure_id": "Fig. 9(c)",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        323,
+        57,
+        428,
+        180
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    },
+    {
+      "file": "figures/original/fig9d.png",
+      "kind": "original",
+      "caption": "论文 Fig. 9(d) 局部。两项任务分别比较5Hz与50Hz的完成用时。",
+      "alt": "Fig. 9(d)",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.pdf",
+      "pdf_page": 11,
+      "figure_id": "Fig. 9(d)",
+      "source_pdf_sha256": "8ba87afc999609ed38bf254aa974607aa2a838a812c50fc6b44d0d74052d4fb8",
+      "bbox": [
+        429,
+        57,
+        563,
+        180
+      ],
+      "reviewed": true,
+      "rights_checked": true,
+      "rights_note": "Attributed limited excerpts for close scholarly commentary; full paper not redistributed; authors retain rights."
+    }
+  ],
+  "cover_info": {
+    "source": "Built-in imagegen",
+    "generator": "built-in imagegen",
+    "ai_generated": true,
+    "prompt": "figures/cover/imagegen-prompt.md",
+    "caption": "机制概念封面",
+    "reviewed": true,
+    "wide_crop_reviewed": true,
+    "square_crop_reviewed": true,
+    "qa_files": [
+      "qa/opening-375.png",
+      "qa/cover-square-375.png"
+    ]
+  }
+}

@@ -6,10 +6,15 @@ SayCan 用语言适用性与可执行价值挑技能。
 
 分类上层：[示范模仿](imitation.md)。
 
+## 在完整解读里看计算与例子
+
+- [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#64-长程任务把想做什么和做没做成拆开)
+
 ## 哪些论文用到或讨论它
 
 - [π₀.₅](../papers/pi05.md) · 机制导读 · [原文](https://proceedings.mlr.press/v305/black25a.html)
 - [ASE](../papers/ase.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/ASE/)
+- [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 - [SayCan](../papers/saycan.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/ichter23a.html)
 - [PaLM-E](../papers/palm-e.md) · 机制导读 · [原文](https://proceedings.mlr.press/v202/driess23a.html)
 - [Walk These Ways](../papers/walk-these-ways.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/margolis23a.html)

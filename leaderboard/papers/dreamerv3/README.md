@@ -2,7 +2,7 @@
 
 **DreamerV3** · Nature 2025 · 本版排名 15 · 综合分 **91.4 / 100**
 
-[解读导读](../../../library/dreamerv3.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Nature集锦](../../../venues/Nature/README.md)
+[完整解读](../../../articles/dreamerv3-2301.04104/README.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Nature集锦](../../../venues/Nature/README.md)
 
 [知识星系](../../../universe/papers/dreamerv3.md) · [原文](https://www.nature.com/articles/s41586-025-08744-2) · [PDF](https://arxiv.org/pdf/2301.04104) · [阅读卡片](../../../library/dreamerv3.md)
 

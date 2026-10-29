@@ -1,0 +1,733 @@
+{
+  "paper_version": "Nature version of record (2025-04-02)",
+  "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+  "supplement_pdf_sha256": "09e60aea0a5169c2cb65514097b60a83d97600a31c1930aae3fb9d2345afc7bb",
+  "checked_at": "2026-10-30T01:52:58.241454+08:00",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "DreamerV3 想挑战的，就是**换一个领域，就得重新伺候一套超参数**这件事。论文把统一配置的 PPO 和为各领域调过的专门算法放在一起比较。它的主角不是更花哨的搜索树，而是一套能学世界、在脑内练动作，还不容易被不同量纲搞崩的训练方法。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Main,Evaluation",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 1,
+      "pdf_pages": [
+        1,
+        4,
+        5
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C02",
+      "claim": "Mastering diverse control tasks through world models。Danijar Hafner、Jurgis Pasukonis、Jimmy Ba、Timothy Lillicrap；谷歌 DeepMind、多伦多大学。本文沿 **Nature 2025 正式版本**展开，在线发表于 2025 年 4 月 2 日，Nature 640：647–653。Nature 是综合性学术期刊，这篇的看点是跨领域控制能力及支撑它的完整实验。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "front matter",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 1,
+      "pdf_pages": [
+        1
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C03",
+      "claim": "注意这个顺序：脑内排练是在训练策略。执行时，Dreamer 直接从 actor 采样动作，不必每走一步都现场组织一场未来路径海选。接下来正文的四个方法小节，依次就是 B、C 的价值判断、C 的动作学习，以及 D 的数值稳定。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Critic learning;Fig1",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "pdf_pages": [
+        3
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C04",
+      "claim": "这两件事差得远。前者像同一套菜谱写法，换食材也能做；后者像已经做好的一锅万能汤，什么菜都能往里装。DreamerV3 主要验证的是前者。原文把跨领域共享一个世界模型放在结尾的未来方向里。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Main,Conclusion",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 1,
+      "pdf_pages": [
+        1,
+        7
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C05",
+      "claim": "这张图没有数值坐标轴，横向是时间推进。左半边底部的图像和向量都是观察 x；蓝色 enc 是编码器，紫色 dec 是解码器。绿色 h 是循环记忆，黑白格 z 是离散随机表征。摇杆对应动作 a。灰色竖条把同一时刻的 h、z 放在一起。绿色箭头将过去的记忆、状态与动作带到下一步。右边只在最左端保留 enc，之后黑白格上戴了帽子，表示由模型预测；黄色 r 是奖励，橙色 v 是价值，粉色 a 是动作。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig1",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 2,
+      "pdf_pages": [
+        2
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C06",
+      "claim": "下面把符号落到具体对象上。t 是环境时间，x_t 是图像或向量观察，a_t 是动作；h_t 是记住过去的连续向量，z_t 是描述当前状态的离散随机变量；φ 是世界模型参数，q 是看过当前观察后的后验分布，p 是凭记忆预测的先验分布。帽子表示预测，方括号表示拼接。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 2,
+      "pdf_pages": [
+        2
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C07",
+      "claim": "离散 z 怎么反向传播？采样出来是硬选择，常规求导会卡住。论文用 **straight-through 梯度**：前向真采样，反向借用连续概率的梯度。就像出门最终选了一条路，学习时还保留“各条路当时有多大概率被选中”的信息。硬选择负责实际往前算，软概率负责把学习信号传回去。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 2,
+      "pdf_pages": [
+        2
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C08",
+      "claim": "动力学项固定 q，让 p 往它靠；表征项固定 p，让 q 别把状态编码得过分难猜。两者同时存在，却不是同等用力：Nature 版的预测、动力学、表征权重分别是 **1、1、0.1**。预测项还要求状态能重构观察、预测奖励和继续信号，防止表征缩成一张没有内容的白纸。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning losses",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 2,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; World model learning losses",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        2
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C09",
+      "claim": "max 里的 1 是 **free bits** 阈值，单位 nat，约 1.44 bit。KL 低于这个值时，这一项成为常数，不再逼着模型继续压低它。比如 KL=0.4 和 0.8 都落在这条缓冲带里；KL=3 才会继续被该项推着降。它不是“强制 KL 至少等于 1”，而是“足够接近之后，别再为这个指标卷了”。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning free bits",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 2,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; World model learning free bits",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        2
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C10",
+      "claim": "还有一个很小但实用的保险：分类概率混入 **1% 均匀分布**，剩下 99% 来自网络。这样一个选项不会被概率压成绝对的零，KL 也更不容易因为一次极端自信爆掉。对于有 K 个选项的分类变量，每个选项至少得到 0.01/K 的概率。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning unimix",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; World model learning unimix",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        3
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C11",
+      "claim": "输入里给了后续动作，所以这项实验检查的是**知道动作之后能否预想后果**。到了 C 区，动作才由 actor 一步步产生。把两处接起来看，整条训练链才完整。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig3 and caption",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 4,
+      "pdf_pages": [
+        4
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C12",
+      "claim": "方法正文用 T=16 表示想象序列，配置表的 imagination horizon 是 15；实现阅读时需要分清起始状态与后续转移，别把序列长度直接当动作次数。折扣 γ=0.997，λ=0.95。可 Minecraft 的钻石显然不会每十六步就自动送到手上。Dreamer 因此让短轨迹最后接上 critic 的估值，再用 **λ-return** 把眼前奖励和远期估值串起来。λ 是控制不同长度估计混合程度的系数。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Critic learning;Extended Data Table5",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Critic learning;Extended Data Table5",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        3,
+        17
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C13",
+      "claim": "来个只用于算账的例子：取 r=1、c=1、γ=0.9、λ=0.5、v=4，下一步的 λ-return=6，那么当前估计是 1+0.9×(0.5×4+0.5×6)=5.5。若这一步回合结束，c=0，就只剩当前奖励 1。例子里的参数为了好算，和论文配置分开。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Critic learning; teaching example",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "metric": "Explicit arithmetic teaching example",
+      "conditions": "Critic learning; teaching example; numbers in the example are labelled and not experiment observations",
+      "baseline": "not_applicable: worked arithmetic example",
+      "unit": "As defined adjacent to formula",
+      "sample_size": "not_applicable: worked arithmetic example",
+      "pdf_pages": [
+        3
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C14",
+      "claim": "critic 不只吐一个孤零零的实数，而是输出回报分布，后面会讲这种分布如何表示。训练时拿 λ-return 当目标，提高对应回报的预测概率。Nature 版还让 critic 学经验池中的真实轨迹，权重 0.3；想象轨迹的价值损失权重是 1。这样奖励模型暂时猜不准时，真实奖励还能提供一条校正路线。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Critic learning",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Critic learning",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        3
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C15",
+      "claim": "Dreamer 用回报分布的第 95 与第 5 百分位之差估计尺度 S，再以 0.99 做指数平滑。分母至少取 1，只把很大的回报压小，不把很小的信号硬抬起来。这里 Per 表示百分位数，EMA 是指数滑动平均。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Actor learning",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Actor learning",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        3
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C16",
+      "claim": "如果一批回报主要落在 20 到 120，尺度约 100，那么优势 10 归一化后是 0.1。若回报只在 0 到 0.01 摇晃，分母仍是 1，0.01 就不会被拔高成 1。第二种情况，探索项更有机会继续推动尝试。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Actor learning;teaching example",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "metric": "Explicit arithmetic teaching example",
+      "conditions": "Actor learning;teaching example; numbers in the example are labelled and not experiment observations",
+      "baseline": "not_applicable: worked arithmetic example",
+      "unit": "As defined adjacent to formula",
+      "sample_size": "not_applicable: worked arithmetic example",
+      "pdf_pages": [
+        3
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C17",
+      "claim": "策略用 REINFORCE 梯度估计，离散和连续动作都走这条路线。它看“采到的动作后来比预期好多少”，好就提高其概率，差就降低。**这里不是直接对环境里的动作后果做解析求导，再一路穿过世界模型更新 actor。**世界模型提供想象轨迹，策略按采样动作的对数概率来学。这个区别对看过 Dreamer 早期版本的读者尤其重要。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Actor learning REINFORCE",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 3,
+      "pdf_pages": [
+        3
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C18",
+      "claim": "999 被压到约 6.908，−999 被压到约 −6.908；0 仍是 0。模型学习压缩后的目标，读出时再还原。相当于给跨度离谱的数字配了一个更好用的音量旋钮，大信号不会一嗓子把小信号吼没。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Robust predictions symlog",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 4,
+      "metric": "Explicit arithmetic teaching example",
+      "conditions": "Robust predictions symlog; numbers in the example are labelled and not experiment observations",
+      "baseline": "not_applicable: worked arithmetic example",
+      "unit": "As defined adjacent to formula",
+      "sample_size": "not_applicable: worked arithmetic example",
+      "pdf_pages": [
+        4
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C19",
+      "claim": "b_i 是第 i 个桶的位置，p_i 是预测概率，y 是真实连续目标。two-hot 编码只给 y 两边的相邻桶分配权重，其余为零。桶位置来自 −20 到 +20 的等距点再经过 symexp。它们在原值轴上越往外越稀疏。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Robust predictions symexp twohot",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 4,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Robust predictions symexp twohot",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        4,
+        9
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C20",
+      "claim": "比如相邻桶是 10 和 20，目标 12 就写成 0.8 和 0.2。输出读数为概率加权的桶位置，因此可以落在桶与桶之间，**不是强行把所有回报四舍五入到桶中心**。训练用交叉熵，只比较概率分配；损失对网络输出的梯度不再直接随目标数值暴涨。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Distributions;teaching example",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 4,
+      "metric": "Explicit arithmetic teaching example",
+      "conditions": "Distributions;teaching example; numbers in the example are labelled and not experiment observations",
+      "baseline": "not_applicable: worked arithmetic example",
+      "unit": "As defined adjacent to formula",
+      "sample_size": "not_applicable: worked arithmetic example",
+      "pdf_pages": [
+        4,
+        9
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C21",
+      "claim": "先给结论：在论文覆盖的八类领域中，同配置 Dreamer 的总体表现超过同配置 PPO，并在多个领域达到或超过相应专门方法。控制套件包括仿真机器人任务；这里的机器人证据主要在模拟环境里。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Evaluation;Fig4",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 4,
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C22",
+      "claim": "先挑与具身最直接相关的两格：**Proprio Control** 给本体状态向量，**Visual Control** 给图像；都用相同的 20 个连续控制任务，预算 100 万环境步。本体状态下 Dreamer 与 DMPO、TD-MPC2 相近；视觉输入下，它高于图里的 DrQ-v2 和 TD-MPC2。补充 Table 5/6 的平均回报给出了具体读数：本体输入 Dreamer **843**、DMPO **834**、TD-MPC2 **825**；视觉输入 Dreamer **802**、DrQ-v2 **705**、TD-MPC2 **634**。这都是各自 20 项任务的平均回报，不是成功率。这个组合比只报一个平均分更有意思：世界模型在“从高维观察里形成可预测状态”这一关确实有用武之地。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig4;Supplementary Table5/6",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 5,
+      "metric": "Mean episode return across 20 tasks",
+      "conditions": "Proprioceptive and visual Control Suite evaluated separately, 1M environment steps per task",
+      "baseline": "Proprio: DMPO 834, TD-MPC2 825; Visual: DrQ-v2 705, TD-MPC2 634",
+      "unit": "return",
+      "sample_size": "20 tasks per modality; 5 Dreamer seeds per benchmark",
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef",
+      "supplement_pdf_pages": [
+        11,
+        13
+      ],
+      "supplement_pdf_sha256": "09e60aea0a5169c2cb65514097b60a83d97600a31c1930aae3fb9d2345afc7bb"
+    },
+    {
+      "id": "C23",
+      "claim": "另一项值得单独拎出来的是 DMLab：Dreamer 使用 **1 亿步**，超过论文对比的 IMPALA 在 **10 亿步**的汇总成绩。比较涉及 30 项三维任务；Dreamer 的一般基准实验跑 5 个种子。这里展示的是较少交互下达到更高成绩，计算时间还要另算。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Benchmarks DMLab;Methods Seeds",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 5,
+      "metric": "DMLab capped human-normalized aggregate",
+      "conditions": "Dreamer100M steps 71.3; IMPALA1B steps 66.3; Supplementary Table3. R2D2+ omitted because budget label differs from main text.",
+      "baseline": "IMPALA:1B steps",
+      "unit": "normalized score; environment steps",
+      "sample_size": "30 DMLab tasks;5 Dreamer seeds",
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef",
+      "supplement_pdf_pages": [
+        7
+      ],
+      "supplement_pdf_sha256": "09e60aea0a5169c2cb65514097b60a83d97600a31c1930aae3fb9d2345afc7bb"
+    },
+    {
+      "id": "C24",
+      "claim": "Atari100k 则必须把协议看细。名字里的 100k 指动作重复之后的 10 万次决策，原始环境帧预算是 40 万。原文把会提前重置关卡的 EfficientZero 单独讨论，因为提前重置增加数据多样性；Fig.4 这一格选了 TWM、IRIS 作比较。论文认真处理的协议差异，读解读时也别一笔划成“全面第一”。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Atari100k;Methods Protocols",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 5,
+      "metric": "Atari100k interaction budget",
+      "conditions": "26 games; 100k decisions after action repeat =400k raw frames",
+      "baseline": "TWM/IRIS, matching protocols discussed in Methods",
+      "unit": "decisions; raw environment frames",
+      "sample_size": "26 tasks;5 Dreamer seeds",
+      "pdf_pages": [
+        5,
+        8,
+        15
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C25",
+      "claim": "先把它实际面对的游戏说清楚。观察除了 **64×64×3** 的第一人称图像，还有物品计数、已达里程碑、当前装备、生命、饥饿和氧气等信息。动作空间是 **25 个离散动作**，包括移动、视角和抽象合成动作；方块破坏速度也做了加速。每个回合上限 36,000 步，即 20 Hz 下 30 分钟。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Minecraft Observations/actions",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 9,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Methods Minecraft Observations/actions",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        9,
+        10,
+        19
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C26",
+      "claim": "奖励并不是最后挖到钻石才给一次。它沿科技树设置 **12 个里程碑**，每种首次取得给 +1，例如木头、木镐、石镐、铁镐，最后到钻石；还含少量生命变化奖励。难点在于：奖励虽分了台阶，怎么探索、哪些东西得多收几次、工具链怎么接起来，仍需智能体自己学。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Minecraft Rewards",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 9,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Methods Minecraft Rewards",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        9
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C27",
+      "claim": "论文跑了 **10 个 Minecraft 训练种子**，全部在 1 亿环境步内发现过钻石。对比的 PPO、Rainbow、IMPALA 能推进到较晚物品，但这些实验中没有发现钻石。每个 Dreamer agent 的训练使用 1 张 A100，论文给出的 Minecraft 耗时为 9 天；它还使用远端 CPU 运行 64 个环境实例。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Minecraft;Fig5;Methods Seeds/instances;Previous work",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 5,
+      "metric": "Fraction of training runs that ever obtained diamond",
+      "conditions": "Minecraft Diamond categorical25-action MineRL environment;100M steps;1A100/agent for9days and64CPUenvironment instances",
+      "baseline": "PPO/Rainbow/IMPALA do not obtain diamond in these runs",
+      "unit": "training seeds; environment steps; GPU days",
+      "sample_size": "10 Dreamer training seeds",
+      "pdf_pages": [
+        5,
+        6,
+        8
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C28",
+      "claim": "先读左上 a。横轴 Environment steps (%) 把各任务预算归一到百分比；纵轴 Return (%) 也做了归一，图例写的是 **14 个任务平均**。深蓝完整 Dreamer 最高；拿掉 KL 平衡和 free bits 的橙线明显变差，全拆掉的青线更低。紫色移除回报归一化，红色替换 two-hot，浅蓝去掉观察 symlog。不同颜色代表不同训练改动，不是不同随机种子。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig6a;Supplementary Fig10",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 5,
+      "metric": "Normalized return across14tasks",
+      "conditions": "Fig6a one robustness mechanism removed per variant",
+      "baseline": "Full Dreamer and listed ablations",
+      "unit": "normalized return(%)",
+      "sample_size": "14 tasks;5seeds per benchmark exceptBSuite/Minecraft10 per Methods",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C29",
+      "claim": "左下 b 更值得停一会。去掉价值梯度，或去掉奖励与价值梯度，曲线接近完整版本；去掉重构梯度，红线低得多。这里去掉的是这些信号**塑造表征的梯度**，不是把 actor 的奖励目标删除。原文据此认为，世界模型的无监督重构信号在这组实验里承担了主要表征学习作用。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig6b;Supplementary Fig9",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 5,
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C30",
+      "claim": "继续看 Fig.6 右上 c。横轴是环境步数，括号里的 10⁶ 表示以百万步计；纵轴是两个任务各自的 Return。颜色越深，模型越大，从 **1200 万到 4 亿参数**共六档。在 Crafter 与 DMLab goals 这两项实验里，较大模型通常学得更快、成绩更高。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig6c;Scaling properties",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 5,
+      "metric": "Return vs interaction steps at6model sizes",
+      "conditions": "Crafter and DMLab goals,12M–400Mparameters",
+      "baseline": "Smaller model variants of same algorithm",
+      "unit": "return; million environment steps;parameters",
+      "sample_size": "2 scaling environments;5seeds per Methods",
+      "pdf_pages": [
+        5,
+        6,
+        16
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C31",
+      "claim": "所以，“更省交互”并不是“所有资源都更省”。如果机器人每次试错都费时间甚至磨损零件，多花 GPU 算力来复用经验很划算；如果环境模拟快得飞起，另一种取舍也可能合理。论文 Methods 提到，在相应训练比例比较下，PPO 可以跑得更快。你要优化的是实验室真正缺的那种资源。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig6d;Methods PPO",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 6,
+      "pdf_pages": [
+        6,
+        8
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C32",
+      "claim": "Gato 的多任务专家数据训练，与这里“同一算法在各环境里自己继续试错学习”的设定不同。Nature 版的 Previous work 还提到 TD-MPC2：它将学到的动力学与在线规划结合，也采用了 Dreamer 的一些稳健技巧。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Previous work",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 6,
+      "pdf_pages": [
+        6
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C33",
+      "claim": "图像编码器用步幅 2 的卷积，把空间分辨率缩到 6×6 或 4×4 后展平；解码器反过来用转置卷积。向量输入先 symlog，再走三层 MLP；actor 和 critic 也是三层 MLP，奖励和继续预测头是一层 MLP。这里 MLP 就是多层全连接网络。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Networks",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 9,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Methods Networks",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        9
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C34",
+      "claim": "用原文的模型维度 d 表示：MLP 隐藏宽度为 d，循环记忆有 8d 个单元，分成八块；靠近数据的卷积通道数是 d/16，每个离散 latent 的类别数也是 d/16。以默认约 2 亿参数模型为例，d=1024，h_t 有 8192 个记忆单元，每个离散 latent 有 64 个类别。潜变量个数在不同模型规模间保持固定。这里 d 是模型容量旋钮，和前面的环境时间 t 完全两码事。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Model sizes;ExtendedDataTable4",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 8,
+      "metric": "Algorithm or environment configuration",
+      "conditions": "Nature 2025 version; Methods Model sizes;ExtendedDataTable4",
+      "baseline": "not_applicable: configuration definition",
+      "unit": "Dimension/count/coefficient as defined in claim",
+      "sample_size": "not_applicable: configuration definition",
+      "pdf_pages": [
+        8,
+        16
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C35",
+      "claim": "随后用 LaProp：先对梯度做 RMSProp 归一化，再做动量平滑。与 Adam 直接从原始梯度分别估计动量和尺度的次序不同。这个改变在论文实验里用于减少偶发不稳定；其余还配了 RMSNorm 和 SiLU。它们共同服务于训练稳定，而不是悄悄换了研究任务。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Optimizer",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 9,
+      "pdf_pages": [
+        9
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C36",
+      "claim": "经验池是均匀采样，并搭配在线队列。一个 minibatch 先用不重叠的最新轨迹填，再从旧经验均匀补齐。采集时存入潜在状态，训练后把新计算的潜在状态写回，减少回放起点拿着过期记忆的问题。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Experience replay",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 9,
+      "pdf_pages": [
+        9
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C37",
+      "claim": "ratio=32、B=16、L=64、动作重复 4，于是平均每 **128 个原始环境步**对应一次梯度更新。乍一看都是“步”，单位其实换了三次。把这事算清楚，比拿一个 train ratio 数字直接抄进机器人代码靠谱得多。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Experience replay",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "quantitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 9,
+      "metric": "Explicit arithmetic teaching example",
+      "conditions": "Methods Experience replay; numbers in the example are labelled and not experiment observations",
+      "baseline": "not_applicable: worked arithmetic example",
+      "unit": "As defined adjacent to formula",
+      "sample_size": "not_applicable: worked arithmetic example",
+      "pdf_pages": [
+        9
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    },
+    {
+      "id": "C38",
+      "claim": "同样，机器人上“给关节力矩”“给末端目标”“给抓取脚本”也不是同一难度。读到这里再回看开头 A 区：环境给什么观察、允许什么动作，已经决定了世界模型和 actor 实际需要学多复杂的东西。",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Minecraft Other environments",
+      "verified": true,
+      "checked_at": "2026-10-30T01:52:58.241454+08:00",
+      "type": "qualitative",
+      "source_xml_sha256": "4306b6cd261c6c6c2ef630ecc442f53543427191d4a02134a0a0458d34f6efc5",
+      "pdf_page": 10,
+      "pdf_pages": [
+        10
+      ],
+      "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+    }
+  ],
+  "issues": [
+    {
+      "issue": "Fig3 caption specifies5context+45future but plot time labels extend to60.",
+      "resolution": "Article explains action-conditioned open-loop prediction without quoting a conflicting exact prediction count."
+    },
+    {
+      "issue": "DMLab R2D2+ budget differs between main text/ExtendedDataTable1 and SupplementaryTable3.",
+      "resolution": "Article uses only IMPALA1B comparison, which is consistent."
+    },
+    {
+      "issue": "Main critic text usesT16; ExtendedDataTable5 usesH15.",
+      "resolution": "Both are named with distinct sequence/horizon conventions; no unsupported equivalence is asserted."
+    }
+  ],
+  "source_pdf_sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+}

@@ -16,7 +16,7 @@ Nature 2025 正式论文；arXiv 初始公开于 2023，链接为作者预印本
 
 **跨任务尺度变化时，表征、价值和优化怎样保持可用？**
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/dreamerv3-2301.04104/README.md)
 
 [知识星系](../universe/papers/dreamerv3.md) · [七维评分与雷达](../leaderboard/papers/dreamerv3/README.md) · [Nature集锦](../venues/Nature/README.md) · [地图方向](../paper-map/README.md#track-world-model) · [首页](../README.md)
 

@@ -1,0 +1,1 @@
+Native imagegen 2.35:1 ivory teal orange DreamerV3 editorial illustration. Central title two lines 做梦也得/先讲规矩; roboticquadruped and imagined Minecraft sculpture. No author/AI labels. Original exec-c45c7290-dc89-468e-956f-a85a2004043c.png preserved.

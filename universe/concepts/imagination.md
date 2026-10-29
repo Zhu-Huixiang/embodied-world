@@ -6,11 +6,15 @@
 
 分类上层：[世界模型](world.md)。
 
+## 在完整解读里看计算与例子
+
+- [DreamerV3：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石)
+
 ## 哪些论文用到或讨论它
 
 - [Dreamer](../papers/dreamer.md) · 机制导读 · [原文](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/)
 - [DreamerV2](../papers/dreamerv2.md) · 机制导读 · [原文](https://research.google/pubs/mastering-atari-with-discrete-world-models/)
-- [DreamerV3](../papers/dreamerv3.md) · 机制导读 · [原文](https://www.nature.com/articles/s41586-025-08744-2)
+- [DreamerV3](../papers/dreamerv3.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-025-08744-2)
 - [DayDreamer](../papers/daydreamer.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/wu23c.html)
 - [SuperMimic](../papers/supermimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.28480)
 

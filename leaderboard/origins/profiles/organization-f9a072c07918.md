@@ -14,7 +14,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [RT-1 · RT-1: Robotics Transformer for Real-World Control at Scale](../../../library/rt1.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [91.2](../../papers/rt1/README.md) |
+| [RT-1 · RT-1: Robotics Transformer for Real-World Control at Scale](../../../articles/rt1-2212.06817/README.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [91.2](../../papers/rt1/README.md) |
 | [SayCan · Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](../../../library/saycan.md) | 2022 / [CoRL](../../../venues/CoRL/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [87.7](../../papers/saycan/README.md) |
 | [Transporter · Transporter Networks: Rearranging the Visual World for Robotic Manipulation](../../../library/transporter.md) | 2020 / [CoRL](../../../venues/CoRL/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [84.8](../../papers/transporter/README.md) |
 

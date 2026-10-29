@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-120 篇论文是恒星，各自有自己的知识行星与卫星：共 810 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 13 篇有完整解读，304 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+120 篇论文是恒星，各自有自己的知识行星与卫星：共 918 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 18 篇有完整解读，432 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -14,7 +14,7 @@
 
 | 论文 | 亮度 | 技术入口 |
 | --- | --- | --- |
-| [ACT / ALOHA](papers/act.md) | 导读 | [变分自编码器 VAE](concepts/vae.md) · [动作块](concepts/chunk.md) · [行为克隆](concepts/bc.md) |
+| [ACT / ALOHA](papers/act.md) | 已精讲 | [变分自编码器 VAE](concepts/vae.md) · [动作块](concepts/chunk.md) · [行为克隆](concepts/bc.md) · [示范模仿](concepts/imitation.md) · [Transformer](concepts/transformer.md) · [注意力](concepts/attention.md) · [动作表示](concepts/action.md) |
 | [Agile Flight](papers/agile-flight.md) | 导读 | [教师学生蒸馏](concepts/distill.md) · [仿真到实机](concepts/sim2real.md) · [空间表示](concepts/spatial.md) |
 | [AMP](papers/amp.md) | 导读 | [对抗动作模仿](concepts/adversarial.md) · [动作先验](concepts/motion-prior.md) · [强化学习](concepts/rl.md) |
 | [ANYmal Parkour](papers/anymal-parkour.md) | 导读 | [分层技能与计划](concepts/skills.md) · [空间表示](concepts/spatial.md) · [仿真到实机](concepts/sim2real.md) |
@@ -51,7 +51,7 @@
 | [DP3](papers/dp3.md) | 导读 | [点云与三维体素](concepts/point-cloud.md) · [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) |
 | [Dreamer](papers/dreamer.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [策略与价值学习](concepts/actor-critic.md) |
 | [DreamerV2](papers/dreamerv2.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [离散编码与量化](concepts/quantization.md) |
-| [DreamerV3](papers/dreamerv3.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [策略与价值学习](concepts/actor-critic.md) |
+| [DreamerV3](papers/dreamerv3.md) | 已精讲 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [策略与价值学习](concepts/actor-critic.md) · [世界模型](concepts/world.md) · [强化学习](concepts/rl.md) |
 | [DreamTrue](papers/dreamtrue.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [视频时序生成](concepts/video.md) · [价值估计与校准](concepts/value.md) |
 | [DreamWaQ](papers/dreamwaq.md) | 导读 | [特权训练信息](concepts/privileged.md) · [变分自编码器 VAE](concepts/vae.md) · [环境适应](concepts/adaptation.md) |
 | [DreamZero](papers/dreamzero.md) | 导读 | [世界动作联合建模](concepts/wam.md) · [视频时序生成](concepts/video.md) · [动作表示](concepts/action.md) |
@@ -86,7 +86,7 @@
 | [Mobile ALOHA](papers/mobile-aloha.md) | 导读 | [行为克隆](concepts/bc.md) · [动作块](concepts/chunk.md) · [全身控制与执行](concepts/wbc.md) |
 | [ModAR](papers/modar.md) | 导读 | [世界动作联合建模](concepts/wam.md) · [Diffusion Transformer](concepts/dit.md) · [因果序列建模](concepts/causal.md) |
 | [MuZero](papers/muzero.md) | 已精讲 | [动作条件动力学](concepts/dynamics.md) · [树搜索与轨迹搜索](concepts/search.md) · [价值估计与校准](concepts/value.md) · [世界模型](concepts/world.md) · [强化学习](concepts/rl.md) · [表征空间](concepts/representation.md) · [交叉熵](concepts/cross-entropy.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
-| [NeRF](papers/nerf.md) | 导读 | [新视角场景表示](concepts/radiance.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) |
+| [NeRF](papers/nerf.md) | 已精讲 | [新视角场景表示](concepts/radiance.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) |
 | [Octo](papers/octo.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) · [跨本体数据](concepts/cross-body.md) |
 | [OmniH2O](papers/omnih2o.md) | 导读 | [特权训练信息](concepts/privileged.md) · [教师学生蒸馏](concepts/distill.md) · [全身控制与执行](concepts/wbc.md) |
 | [OpenVLA](papers/openvla.md) | 导读 | [离散编码与量化](concepts/quantization.md) · [跨本体数据](concepts/cross-body.md) · [表征空间](concepts/representation.md) |
@@ -103,13 +103,13 @@
 | [RMA](papers/rma.md) | 导读 | [特权训练信息](concepts/privileged.md) · [环境适应](concepts/adaptation.md) · [仿真到实机](concepts/sim2real.md) |
 | [RoboCasa](papers/robocasa.md) | 导读 | [泛化评测与遗忘](concepts/benchmark.md) · [机器人数据与评测](concepts/data.md) · [行为克隆](concepts/bc.md) |
 | [robomimic](papers/robomimic.md) | 导读 | [行为克隆](concepts/bc.md) · [离线强化学习](concepts/offline.md) · [机器人数据与评测](concepts/data.md) |
-| [RT-1](papers/rt1.md) | 导读 | [注意力](concepts/attention.md) · [离散编码与量化](concepts/quantization.md) · [跨本体数据](concepts/cross-body.md) |
+| [RT-1](papers/rt1.md) | 已精讲 | [注意力](concepts/attention.md) · [离散编码与量化](concepts/quantization.md) · [跨本体数据](concepts/cross-body.md) · [表征空间](concepts/representation.md) · [Transformer](concepts/transformer.md) · [动作表示](concepts/action.md) · [交叉熵](concepts/cross-entropy.md) · [示范模仿](concepts/imitation.md) · [行为克隆](concepts/bc.md) · [机器人数据与评测](concepts/data.md) · [仿真到实机](concepts/sim2real.md) · [分层技能与计划](concepts/skills.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [RT-2](papers/rt2.md) | 导读 | [离散编码与量化](concepts/quantization.md) · [跨本体数据](concepts/cross-body.md) · [因果序列建模](concepts/causal.md) |
 | [Open X-Embodiment](papers/rtx.md) | 导读 | [跨本体数据](concepts/cross-body.md) · [机器人数据与评测](concepts/data.md) · [动作表示](concepts/action.md) |
 | [RVT](papers/rvt.md) | 导读 | [空间表示](concepts/spatial.md) · [注意力](concepts/attention.md) · [点云与三维体素](concepts/point-cloud.md) |
 | [RVT-2](papers/rvt2.md) | 导读 | [空间表示](concepts/spatial.md) · [注意力](concepts/attention.md) · [点云与三维体素](concepts/point-cloud.md) |
 | [SAM](papers/sam.md) | 已精讲 | [空间表示](concepts/spatial.md) · [注意力](concepts/attention.md) · [零样本任务接口](concepts/zero-shot.md) · [视觉 patch token](concepts/patches.md) |
-| [SAM 2](papers/sam2.md) | 导读 | [空间表示](concepts/spatial.md) · [注意力](concepts/attention.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
+| [SAM 2](papers/sam2.md) | 已精讲 | [空间表示](concepts/spatial.md) · [注意力](concepts/attention.md) · [闭环滚动与历史偏移](concepts/rollout.md) · [表征空间](concepts/representation.md) · [Transformer](concepts/transformer.md) · [交叉熵](concepts/cross-entropy.md) · [零样本任务接口](concepts/zero-shot.md) · [泛化评测与遗忘](concepts/benchmark.md) · [分布偏移](concepts/shift.md) |
 | [SayCan](papers/saycan.md) | 导读 | [分层技能与计划](concepts/skills.md) · [价值估计与校准](concepts/value.md) · [零样本任务接口](concepts/zero-shot.md) |
 | [Self Forcing](papers/self-forcing.md) | 导读 | [视频时序生成](concepts/video.md) · [因果序列建模](concepts/causal.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [SONIC](papers/sonic.md) | 导读 | [离散编码与量化](concepts/quantization.md) · [全身控制与执行](concepts/wbc.md) · [PPO 与并行模拟](concepts/ppo.md) |

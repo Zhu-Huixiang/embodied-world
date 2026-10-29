@@ -1,0 +1,2 @@
+目标：五区对应文章目录，真实内置生图素材加精确TeX标签。训练与运行路径区分；模块输入输出维度根据所读PDF逐项核验。
+SAM2本文为v2/SAM2.1权重；memoryencoder读原始imagefeature；6近期帧与promptedframes分开；图像/视频FPS分开。

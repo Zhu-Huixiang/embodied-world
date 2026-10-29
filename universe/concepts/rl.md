@@ -8,12 +8,14 @@
 
 ## 在完整解读里看计算与例子
 
+- [DreamerV3：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风)
 - [MuZero：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络)
 
 ## 哪些论文用到或讨论它
 
 - [DeepMimic](../papers/deepmimic.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [AMP](../papers/amp.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/AMP/)
+- [DreamerV3](../papers/dreamerv3.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-025-08744-2)
 - [VIP](../papers/vip.md) · 机制导读 · [原文](https://openreview.net/forum?id=YJ7o2wetJ2)
 - [MuZero](../papers/muzero.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-020-03051-4)
 - [Deep WBC](../papers/deep-whole-body-control.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/fu23a.html)

@@ -16,11 +16,11 @@
 | 10 | 10 | [3D Gaussian Splatting for Real-Time Radiance Field Rendering](../articles/gaussian-splatting-2308.04079/README.md) | [SIGGRAPH / TOG 2023](../venues/SIGGRAPH-TOG/README.md) | 94.3 |
 | 11 | 11 | [Scalable Diffusion Models with Transformers](../articles/dit-2212.09748/README.md) | [ICCV 2023](../venues/ICCV/README.md) | 94.2 |
 | 12 | 12 | [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](../articles/diffusion-policy-2303.04137/README.md) | [RSS 2023](../venues/RSS/README.md) | 92.6 |
-| 13 | 13 | [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](../library/nerf.md) | [ECCV 2020](../venues/ECCV/README.md) | 92.4 |
-| 14 | 14 | [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../library/act.md) | [RSS 2023](../venues/RSS/README.md) | 91.6 |
-| 15 | 15 | [Mastering diverse control tasks through world models](../library/dreamerv3.md) | [Nature 2025](../venues/Nature/README.md) | 91.4 |
-| 16 | 16 | [RT-1: Robotics Transformer for Real-World Control at Scale](../library/rt1.md) | [RSS 2023](../venues/RSS/README.md) | 91.2 |
-| 17 | 17 | [SAM 2: Segment Anything in Images and Videos](../library/sam2.md) | [ICLR 2025](../venues/ICLR/README.md) | 91.2 |
+| 13 | 13 | [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](../articles/nerf-2003.08934/README.md) | [ECCV 2020](../venues/ECCV/README.md) | 92.4 |
+| 14 | 14 | [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../articles/act-2304.13705/README.md) | [RSS 2023](../venues/RSS/README.md) | 91.6 |
+| 15 | 15 | [Mastering diverse control tasks through world models](../articles/dreamerv3-2301.04104/README.md) | [Nature 2025](../venues/Nature/README.md) | 91.4 |
+| 16 | 16 | [RT-1: Robotics Transformer for Real-World Control at Scale](../articles/rt1-2212.06817/README.md) | [RSS 2023](../venues/RSS/README.md) | 91.2 |
+| 17 | 17 | [SAM 2: Segment Anything in Images and Videos](../articles/sam2-2408.00714/README.md) | [ICLR 2025](../venues/ICLR/README.md) | 91.2 |
 | 18 | 18 | [RMA: Rapid Motor Adaptation for Legged Robots](../library/rma.md) | [RSS 2021](../venues/RSS/README.md) | 91.1 |
 | 19 | 19 | [DINOv2: Learning Robust Visual Features without Supervision](../library/dinov2.md) | [TMLR 2024](../venues/TMLR/README.md) | 90.7 |
 | 20 | 20 | [Learning robust perceptive locomotion for quadrupedal robots in the wild](../library/perceptive-loco.md) | [Sci. Robot. 2022](../venues/Science-Robotics/README.md) | 90.7 |

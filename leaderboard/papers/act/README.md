@@ -2,7 +2,7 @@
 
 **ACT / ALOHA** · RSS 2023 · 本版排名 14 · 综合分 **91.6 / 100**
 
-[解读导读](../../../library/act.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+[完整解读](../../../articles/act-2304.13705/README.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
 [知识星系](../../../universe/papers/act.md) · [原文](https://www.roboticsproceedings.org/rss19/p016.html) · [PDF](https://www.roboticsproceedings.org/rss19/p016.pdf) · [阅读卡片](../../../library/act.md)
 

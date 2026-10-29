@@ -10,13 +10,14 @@
 
 ## 在完整解读里看计算与例子
 
+- [DreamerV3：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#world-model-learning一半记忆一半当前发现)
 - [MuZero：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#32-hgf各自接什么吐什么)
 
 ## 哪些论文用到或讨论它
 
 - [Dreamer](../papers/dreamer.md) · 机制导读 · [原文](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/)
 - [DreamerV2](../papers/dreamerv2.md) · 机制导读 · [原文](https://research.google/pubs/mastering-atari-with-discrete-world-models/)
-- [DreamerV3](../papers/dreamerv3.md) · 机制导读 · [原文](https://www.nature.com/articles/s41586-025-08744-2)
+- [DreamerV3](../papers/dreamerv3.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-025-08744-2)
 - [TD-MPC](../papers/td-mpc.md) · 机制导读 · [原文](https://proceedings.mlr.press/v162/hansen22a.html)
 - [TD-MPC2](../papers/td-mpc2.md) · 机制导读 · [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html)
 - [EfficientZero](../papers/efficientzero.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html)

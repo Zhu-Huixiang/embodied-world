@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [ACT / ALOHA · Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../../../library/act.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [91.6](../../papers/act/README.md) |
+| [ACT / ALOHA · Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../../../articles/act-2304.13705/README.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [91.6](../../papers/act/README.md) |
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
 | [Octo · Octo: An Open-Source Generalist Robot Policy](../../../library/octo.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [87.6](../../papers/octo/README.md) |
 | [Open X-Embodiment · Open X-Embodiment: Robotic Learning Datasets and RT-X Models](../../../library/rtx.md) | 2024 / [ICRA](../../../venues/ICRA/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [84.8](../../papers/rtx/README.md) |

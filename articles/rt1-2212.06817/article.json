@@ -1,0 +1,309 @@
+{
+  "slug": "rt1-2212.06817",
+  "title": "RT-1：机器人看过十三万次示范，就会举一反三了？",
+  "topics": [
+    "vla"
+  ],
+  "paper": {
+    "title": "RT-1: Robotics Transformer for Real-World Control at Scale",
+    "arxiv_id": "2212.06817",
+    "version": "arXiv v2, 2023-08-11",
+    "first_publication": "2022-12-13",
+    "pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+    "url": "https://arxiv.org/abs/2212.06817v2",
+    "project_url": "https://robotics-transformer1.github.io/",
+    "code_url": "https://github.com/google-research/robotics_transformer",
+    "authors": [
+      "Anthony Brohan",
+      "Noah Brown",
+      "Justice Carbajal",
+      "Yevgen Chebotar",
+      "et al."
+    ],
+    "institutions": [
+      "Robotics at Google",
+      "Everyday Robots",
+      "Google Research Brain Team"
+    ],
+    "source_checked_at": "2026-10-30T01:39:40+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "RSS 2023",
+    "url": "https://www.roboticsproceedings.org/rss19/p025.html",
+    "checked_at": "2026-10-30T01:39:40+08:00",
+    "explanation": "Official proceedings entry fetched and matched to title and authors; original arxiv version read separately."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/rt1-method.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "RT-1 全篇架构",
+      "reviewed": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/rt1-method.tex",
+      "pdf": "figures/drawpaper/rt1-method.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "provenance": "Real builtinimagegen illustration retained viaTeXviewport; technical labels/formulas typeset exactly; no generatedlabels inside."
+    },
+    {
+      "file": "figures/original/fig2.png",
+      "caption": "论文 Fig. 2：先认场地，再看对象；上排是采集教室与两个厨房，下排是机器人视角和两组物体。",
+      "alt": "RT-1 数据采集场地、机器人与物体",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 5,
+      "figure_id": "fig2",
+      "bbox": [
+        146,
+        79,
+        464,
+        248
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig3.png",
+      "caption": "论文 Fig. 3：沿上到下读，先看语言侧线怎样进入视觉骨干，再看视觉序列怎样收缩到动作出口。",
+      "alt": "RT-1 原文完整架构",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 6,
+      "figure_id": "fig3",
+      "bbox": [
+        188,
+        78,
+        430,
+        476
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/fig3-encoder-detail.png",
+      "caption": "论文 Fig. 3 局部：蓝线是语言调制，主干是视觉计算；两条线在视觉特征阶段已经相遇。",
+      "alt": "RT-1 编码器局部",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 6,
+      "figure_id": "fig3-encoder-detail",
+      "bbox": [
+        188,
+        78,
+        430,
+        322
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": true
+    },
+    {
+      "file": "figures/formulas/01-film.png",
+      "caption": "教学式：语言调制通道的幅度与偏置，空间位置保持不变。",
+      "alt": "FiLM 运算",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/01-film.tex",
+      "pdf": "figures/formulas/01-film.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/02-token.png",
+      "caption": "教学式：Z 是八个压缩 token 组成的 8×512 矩阵；每个 token 汇总整张空间图，而非固定裁出一个小方块。",
+      "alt": "TokenLearner 输入输出",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/02-token.tex",
+      "pdf": "figures/formulas/02-token.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/fig3-action-detail.png",
+      "caption": "论文 Fig. 3 局部：48 个视觉 token 加位置编码，经过八层注意力，走向 11 维动作出口。",
+      "alt": "RT-1 Transformer 与动作局部",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 6,
+      "figure_id": "fig3-action-detail",
+      "bbox": [
+        230,
+        313,
+        430,
+        476
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": true
+    },
+    {
+      "file": "figures/formulas/03-quantize.png",
+      "caption": "教学式：用包含两端的等距中心演示量化；论文确定的是均匀 256 档。",
+      "alt": "动作离散化教学例",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/03-quantize.tex",
+      "pdf": "figures/formulas/03-quantize.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/04-loss.png",
+      "caption": "教学式：把动作 token 的交叉熵按时刻和分量求和；概率依赖图像历史与指令。",
+      "alt": "RT-1 模仿学习损失",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/04-loss.tex",
+      "pdf": "figures/formulas/04-loss.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/formulas/05-rate.png",
+      "caption": "f_control 是控制频率；T_cycle 是一次控制循环的时间，T_network 是一次网络推理耗时。3Hz 对应约 333ms 一个控制循环；15ms 是 Table 13 的网络推理时间，两把秒表计的范围不同。",
+      "alt": "控制频率与网络耗时",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "formula",
+      "generator": "TeX",
+      "ai_generated": false,
+      "tex": "figures/formulas/05-rate.tex",
+      "pdf": "figures/formulas/05-rate.pdf",
+      "display_width": 290
+    },
+    {
+      "file": "figures/original/table2.png",
+      "caption": "论文 Table 2：四列分开看，横轴是测试类型，右侧纵轴是成功率；同色柱对应同一方法。",
+      "alt": "RT-1 主结果",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 10,
+      "figure_id": "table2",
+      "bbox": [
+        105,
+        80,
+        504,
+        185
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table4.png",
+      "caption": "论文 Table 4：右侧纵轴是相对“只用真实数据”的成功率变化；+64 指增加 64 个百分点。",
+      "alt": "混入仿真数据的结果",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 12,
+      "figure_id": "table4",
+      "bbox": [
+        105,
+        82,
+        504,
+        202
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table7.png",
+      "caption": "论文 Table 7：横轴是保留的数据比例，纵轴是成功率；蓝点看已见任务，灰点看泛化。",
+      "alt": "数据量与任务多样性消融",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 14,
+      "figure_id": "table7",
+      "bbox": [
+        166,
+        382,
+        445,
+        630
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": false
+    },
+    {
+      "file": "figures/original/table13.png",
+      "caption": "论文 Table 13：上表读成功率与网络毫秒数，下图读相对 RT-1 的变化；越向下表示退步越多。",
+      "alt": "RT-1 架构消融",
+      "reviewed": true,
+      "source_url": "https://arxiv.org/pdf/2212.06817v2",
+      "kind": "original",
+      "pdf_page": 30,
+      "figure_id": "table13",
+      "bbox": [
+        125,
+        293,
+        487,
+        597
+      ],
+      "source_pdf_sha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+      "rights_checked": true,
+      "rights_source": "https://arxiv.org/abs/2212.06817v2",
+      "rights_note": "arXiv nonexclusive distribution license checked; does not grant broad reuse. Limited necessary figure/table quotations for direct substantive analysis with attribution; full PDF excluded from export.",
+      "extraction": "Full PDF page rasterized4x then cropped; native vector/text context retained.",
+      "supplemental_detail": false
+    }
+  ],
+  "cover_info": {
+    "source": "built-in imagegen",
+    "generator": "imagegen",
+    "ai_generated": true,
+    "prompt": "notes/cover-prompt.md",
+    "reviewed": true
+  }
+}

@@ -6,11 +6,16 @@
 
 分类上层：[环境适应](adaptation.md)。
 
+## 在完整解读里看计算与例子
+
+- [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实)
+
 ## 哪些论文用到或讨论它
 
 - [RMA](../papers/rma.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
 - [Perceptive Locomotion](../papers/perceptive-loco.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
 - [Agile Flight](../papers/agile-flight.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.abg5810)
+- [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 - [Legged Gym](../papers/walk-in-minutes.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/rudin22a.html)
 - [Extreme Parkour](../papers/extreme-parkour.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/document/10610200)
 - [ANYmal Parkour](../papers/anymal-parkour.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.adi7566)

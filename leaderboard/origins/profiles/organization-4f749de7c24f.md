@@ -12,7 +12,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [ACT / ALOHA · Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../../../library/act.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [91.6](../../papers/act/README.md) |
+| [ACT / ALOHA · Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](../../../articles/act-2304.13705/README.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [91.6](../../papers/act/README.md) |
 
 ## 署名与来源
 

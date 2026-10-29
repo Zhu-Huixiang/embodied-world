@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-30T01:30:05+08:00",
+  "checked_at": "2026-10-30T01:59:24+08:00",
   "nodes": [
     {
       "id": "paper:act",
@@ -10,13 +10,17 @@
       "subtitle": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
       "track": "manipulation",
       "track_label": "操作与动作块",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/act.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md",
       "concepts": [
         "vae",
         "chunk",
-        "bc"
+        "bc",
+        "imitation",
+        "transformer",
+        "attention",
+        "action"
       ],
       "scope": "mechanism",
       "source_url": "https://www.roboticsproceedings.org/rss19/p016.html"
@@ -735,13 +739,15 @@
       "subtitle": "Mastering diverse control tasks through world models",
       "track": "world-model",
       "track_label": "世界模型与模型强化学习",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/dreamerv3.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md",
       "concepts": [
         "dynamics",
         "imagination",
-        "actor-critic"
+        "actor-critic",
+        "world",
+        "rl"
       ],
       "scope": "mechanism",
       "source_url": "https://www.nature.com/articles/s41586-025-08744-2"
@@ -1422,9 +1428,9 @@
       "subtitle": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
       "track": "embodied-perception",
       "track_label": "具身感知与场景表示",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/nerf.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md",
       "concepts": [
         "radiance",
         "spatial",
@@ -1744,13 +1750,23 @@
       "subtitle": "RT-1: Robotics Transformer for Real-World Control at Scale",
       "track": "vla",
       "track_label": "视觉语言动作模型 VLA",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/rt1.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md",
       "concepts": [
         "attention",
         "quantization",
-        "cross-body"
+        "cross-body",
+        "representation",
+        "transformer",
+        "action",
+        "cross-entropy",
+        "imitation",
+        "bc",
+        "data",
+        "sim2real",
+        "skills",
+        "rollout"
       ],
       "scope": "mechanism",
       "source_url": "https://www.roboticsproceedings.org/rss19/p025.html"
@@ -1859,13 +1875,19 @@
       "subtitle": "SAM 2: Segment Anything in Images and Videos",
       "track": "embodied-perception",
       "track_label": "具身感知与场景表示",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/sam2.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md",
       "concepts": [
         "spatial",
         "attention",
-        "rollout"
+        "rollout",
+        "representation",
+        "transformer",
+        "cross-entropy",
+        "zero-shot",
+        "benchmark",
+        "shift"
       ],
       "scope": "mechanism",
       "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0"
@@ -2349,6 +2371,7 @@
       "papers": [
         "openvla",
         "ase",
+        "rt1",
         "palm-e",
         "r3m",
         "vip",
@@ -2358,6 +2381,7 @@
         "dino",
         "dinov2",
         "mae",
+        "sam2",
         "nerf",
         "gaussian-splatting",
         "latent-diffusion",
@@ -2386,6 +2410,18 @@
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#33-atari-的观测到底怎样变成隐藏状态"
+        },
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#32-mlp-里面到底走了几步"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-a-区语言先改看法再决定做法"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征"
         },
         {
           "paper": "vit",
@@ -2471,10 +2507,12 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/cross-entropy.md",
       "papers": [
+        "rt1",
         "muzero",
         "attention",
         "clip",
-        "dino"
+        "dino",
+        "sam2"
       ],
       "explainers": [
         {
@@ -2492,6 +2530,14 @@
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#36-损失函数三份作业一起改hgf"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#45-e-区训练时怎样教它别跟丢"
         }
       ]
     },
@@ -2540,7 +2586,8 @@
       "papers": [
         "saycan",
         "clip",
-        "sam"
+        "sam",
+        "sam2"
       ],
       "explainers": [
         {
@@ -2550,6 +2597,10 @@
         {
           "paper": "sam",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam-2304.02643/README.md#61-先看单点再看多点"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#61-先认指标再看交互曲线"
         }
       ]
     },
@@ -2623,6 +2674,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/shift.md",
       "papers": [
         "clip",
+        "sam2",
         "jam",
         "tops"
       ],
@@ -2630,6 +2682,10 @@
         {
           "paper": "clip",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/clip-2103.00020/README.md#34-换场景香蕉一变成素描就不认识了"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#8-结论它给机器人补了哪块感知拼图"
         }
       ]
     },
@@ -2682,8 +2738,16 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/mae-2111.06377/README.md#5-迁移实验离开分类考场之后"
         },
         {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#2-相关工作表面体素与连续函数"
+        },
+        {
           "paper": "sam",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam-2304.02643/README.md#31-a-区大图压成一张可反复查询的特征地图"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征"
         },
         {
           "paper": "vit",
@@ -2729,6 +2793,10 @@
         {
           "paper": "gaussian-splatting",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/gaussian-splatting-2308.04079/README.md#3-总览照片怎样变成可渲染的场景"
+        },
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#31-位置定密度方向管反光"
         }
       ]
     },
@@ -2744,12 +2812,27 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/transformer.md",
       "papers": [
-        "attention"
+        "act",
+        "rt1",
+        "attention",
+        "sam2"
       ],
       "explainers": [
         {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        },
+        {
           "paper": "attention",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/attention-1706.03762/README.md#31-编码器与解码器两列各六层"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#43-c-区点击候选掩码与它现在不在"
         }
       ]
     },
@@ -2767,6 +2850,7 @@
       "papers": [
         "pi0",
         "diffusion-policy",
+        "act",
         "dit",
         "rt1",
         "peract",
@@ -2784,6 +2868,10 @@
         "video-diffusion"
       ],
       "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        },
         {
           "paper": "attention",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/attention-1706.03762/README.md#32-注意力qkv-分工不靠玄学"
@@ -2813,8 +2901,16 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/mae-2111.06377/README.md#32-b-区昂贵的编码器只招待真有内容的客人"
         },
         {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        },
+        {
           "paper": "sam",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam-2304.02643/README.md#33-c-区提示看图图也回头看提示"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#42-b-区记忆里放的不是整段录像"
         },
         {
           "paper": "vit",
@@ -3118,7 +3214,7 @@
       "detail": "ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。",
       "parent": "generation",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/vae.md",
       "papers": [
         "act",
@@ -3126,7 +3222,12 @@
         "lingbot-va",
         "jam"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#43-cvae同一幅画面可以有不同的后续走法"
+        }
+      ]
     },
     {
       "id": "concept:consistency",
@@ -3158,8 +3259,10 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/action.md",
       "papers": [
         "cot-vla",
+        "act",
         "dreamzero",
         "videovla",
+        "rt1",
         "rtx",
         "umi",
         "transporter",
@@ -3176,8 +3279,16 @@
       ],
       "explainers": [
         {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#4-act-方法动作块时间集成与条件生成"
+        },
+        {
           "paper": "ddpm",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#3-问题定义一句指令不等于一整套计划"
         }
       ]
     },
@@ -3208,6 +3319,10 @@
       ],
       "explainers": [
         {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#41-动作块先预测一小段再决定怎样执行"
+        },
+        {
           "paper": "ddpm",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
         },
@@ -3230,7 +3345,7 @@
       "detail": "量化误差与码序列长度要同时观察。",
       "parent": "action",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/quantization.md",
       "papers": [
         "fast",
@@ -3243,7 +3358,12 @@
         "phenaki",
         "sonic"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        }
+      ]
     },
     {
       "id": "concept:dct",
@@ -3356,10 +3476,15 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/world.md",
       "papers": [
+        "dreamerv3",
         "muzero",
         "supermimic"
       ],
       "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#main别把通用算法读成同一个万能大脑"
+        },
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#1-引言会做决定得先会复刻世界吗"
@@ -3399,6 +3524,10 @@
       ],
       "explainers": [
         {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#world-model-learning一半记忆一半当前发现"
+        },
+        {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#32-hgf各自接什么吐什么"
         }
@@ -3433,7 +3562,7 @@
       "detail": "模型误差会影响训练信号，真实反馈仍用于更新世界模型。",
       "parent": "world",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/imagination.md",
       "papers": [
         "dreamer",
@@ -3442,7 +3571,12 @@
         "daydreamer",
         "supermimic"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石"
+        }
+      ]
     },
     {
       "id": "concept:search",
@@ -3521,6 +3655,7 @@
       "papers": [
         "deepmimic",
         "amp",
+        "dreamerv3",
         "vip",
         "muzero",
         "deep-whole-body-control",
@@ -3530,6 +3665,10 @@
         "balanced-data-diet"
       ],
       "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风"
+        },
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络"
@@ -3545,7 +3684,7 @@
       "detail": "在真实或想象轨迹上训练，会面对不同的误差来源。",
       "parent": "rl",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/actor-critic.md",
       "papers": [
         "dreamer",
@@ -3557,7 +3696,12 @@
         "walk-in-the-park",
         "supermimic"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石"
+        }
+      ]
     },
     {
       "id": "concept:offline",
@@ -3642,6 +3786,8 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/imitation.md",
       "papers": [
         "diffusion-policy",
+        "act",
+        "rt1",
         "cliport",
         "humanplus",
         "flore",
@@ -3649,8 +3795,16 @@
       ],
       "explainers": [
         {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        },
+        {
           "paper": "diffusion-policy",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#i-引言左右都能走怎么偏偏走了中间"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作"
         }
       ]
     },
@@ -3663,10 +3817,11 @@
       "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
       "parent": "imitation",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/bc.md",
       "papers": [
         "act",
+        "rt1",
         "robomimic",
         "bridge-v2",
         "droid",
@@ -3680,7 +3835,16 @@
         "iql",
         "td3-bc"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#1-引言多练一些任务能帮其他任务吗"
+        }
+      ]
     },
     {
       "id": "concept:motion-prior",
@@ -3729,11 +3893,12 @@
       "detail": "SayCan 用语言适用性与可执行价值挑技能。",
       "parent": "imitation",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/skills.md",
       "papers": [
         "pi05",
         "ase",
+        "rt1",
         "saycan",
         "palm-e",
         "walk-these-ways",
@@ -3741,7 +3906,12 @@
         "bipedal-soccer",
         "phc"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#64-长程任务把想做什么和做没做成拆开"
+        }
+      ]
     },
     {
       "id": "concept:adaptation",
@@ -3792,12 +3962,13 @@
       "detail": "实机结果必须按机器人与任务条件解释。",
       "parent": "adaptation",
       "depth": 2,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/sim2real.md",
       "papers": [
         "rma",
         "perceptive-loco",
         "agile-flight",
+        "rt1",
         "walk-in-minutes",
         "extreme-parkour",
         "anymal-parkour",
@@ -3807,7 +3978,12 @@
         "flore",
         "diffcontact"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
+        }
+      ]
     },
     {
       "id": "concept:data",
@@ -3822,6 +3998,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/data.md",
       "papers": [
         "diffusion-policy",
+        "rt1",
         "rtx",
         "robomimic",
         "droid",
@@ -3836,6 +4013,10 @@
         {
           "paper": "diffusion-policy",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#vi-realworld-evaluation到了桌上还能不能顺手"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#4-系统概览数据究竟从哪里来"
         }
       ]
     },
@@ -3868,6 +4049,10 @@
         {
           "paper": "holo-m",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#32-vlm-骨干c区到底往模型里塞了什么"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
         }
       ]
     },
@@ -3880,7 +4065,7 @@
       "detail": "一个平均分可能遮住失败的具体任务类型。",
       "parent": "data",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/benchmark.md",
       "papers": [
         "vima",
@@ -3888,10 +4073,16 @@
         "libero",
         "robocasa",
         "vc1",
+        "sam2",
         "jam",
         "tops"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#62-只在第一帧给提示还能传多远"
+        }
+      ]
     },
     {
       "id": "concept:video",
@@ -3934,6 +4125,7 @@
         "diffusion-policy",
         "lingbot-va",
         "self-forcing",
+        "rt1",
         "daydreamer",
         "muzero",
         "walk-in-the-park",
@@ -3949,6 +4141,14 @@
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#34-一次搜索挑路扩一格往回记账"
+        },
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#53-e-区动作算出来要赶得上现场"
+        },
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#44-d-区把这次预测写进下次的条件"
         }
       ]
     },
@@ -3978,10 +4178,15 @@
       "subtitle": "编码器描述潜变量分布，解码器从潜变量重建样本，用重建与分布正则共同训练。",
       "detail": "ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。",
       "parent_node": "paper:act",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/vae.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#43-cvae同一幅画面可以有不同的后续走法"
+        }
+      ]
     },
     {
       "id": "local:act:chunk",
@@ -3992,11 +4197,16 @@
       "title": "动作块",
       "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
       "detail": "块长、执行长度和重新观测频率可以不同。",
-      "parent_node": "paper:act",
-      "lit": false,
+      "parent_node": "local:act:action",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/chunk.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#41-动作块先预测一小段再决定怎样执行"
+        }
+      ]
     },
     {
       "id": "local:act:bc",
@@ -4007,11 +4217,96 @@
       "title": "行为克隆",
       "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
       "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
-      "parent_node": "paper:act",
-      "lit": false,
+      "parent_node": "local:act:imitation",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/bc.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        }
+      ]
+    },
+    {
+      "id": "local:act:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "act",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/imitation.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        }
+      ]
+    },
+    {
+      "id": "local:act:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "act",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/transformer.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        }
+      ]
+    },
+    {
+      "id": "local:act:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "act",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "local:act:transformer",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/attention.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        }
+      ]
+    },
+    {
+      "id": "local:act:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "act",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/action.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#4-act-方法动作块时间集成与条件生成"
+        }
+      ]
     },
     {
       "id": "local:act:method-chain",
@@ -4022,11 +4317,456 @@
       "subtitle": "把一段动作联合预测，条件变分自编码器吸收示范差异，时间集成融合重叠预测减轻误差积累。",
       "detail": "把一段动作联合预测，条件变分自编码器吸收示范差异，时间集成融合重叠预测减轻误差积累。",
       "parent_node": "paper:act",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/method-chain.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#4-act-方法动作块时间集成与条件生成"
+        }
+      ]
+    },
+    {
+      "id": "local:act:compounding-error",
+      "key": "compounding-error",
+      "kind": "local",
+      "paper": "act",
+      "title": "模仿误差累积",
+      "subtitle": "策略偏离示范分布后，小误差容易继续放大。",
+      "detail": "精细接触任务将轻微位姿差异放大成抓取/插入失败。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/compounding-error.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§II",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        }
+      ]
+    },
+    {
+      "id": "local:act:leader-follower",
+      "key": "leader-follower",
+      "kind": "local",
+      "paper": "act",
+      "title": "主从关节遥操作",
+      "subtitle": "主臂目标直接映射到从臂对应关节。",
+      "detail": "避免部分任务空间逆运动学难题，使人能连续采示范。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/leader-follower.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§III",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#31-主从关节映射手带小臂大臂跟着做"
+        }
+      ]
+    },
+    {
+      "id": "local:act:four-cameras",
+      "key": "four-cameras",
+      "kind": "local",
+      "paper": "act",
+      "title": "四视角观察",
+      "subtitle": "顶/前/双腕相机结合整体与夹爪近景。",
+      "detail": "四路480×640图像；真实帧率30fps，与控制频率分开。",
+      "parent_node": "local:act:leader-follower",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/four-cameras.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "Fig3; AppendixB",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#3-aloha先把人的动作采好"
+        }
+      ]
+    },
+    {
+      "id": "local:act:servo-loop",
+      "key": "servo-loop",
+      "kind": "local",
+      "paper": "act",
+      "title": "分层控制频率",
+      "subtitle": "50Hz关节目标由大于1kHz电机位置环追踪。",
+      "detail": "策略预测、目标发送、相机更新和底层控制不是同一频率。",
+      "parent_node": "local:act:leader-follower",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/servo-loop.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§III",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#31-主从关节映射手带小臂大臂跟着做"
+        }
+      ]
+    },
+    {
+      "id": "local:act:target-vs-measured",
+      "key": "target-vs-measured",
+      "kind": "local",
+      "paper": "act",
+      "title": "目标和实测关节",
+      "subtitle": "示范动作记主臂目标，观察记从臂实际位置。",
+      "detail": "两者差异通过位置控制器隐含接触施力意图。",
+      "parent_node": "local:act:leader-follower",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/target-vs-measured.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV pipeline",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#32-训练动作为什么记主臂目标而不是从臂实测"
+        }
+      ]
+    },
+    {
+      "id": "local:act:absolute-joints",
+      "key": "absolute-joints",
+      "kind": "local",
+      "paper": "act",
+      "title": "绝对关节动作",
+      "subtitle": "双臂各六关节加夹爪形成14维绝对目标。",
+      "detail": "每行是一个时刻目标；不用增量关节表示替代原实验。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/absolute-joints.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-C",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#4-act-方法动作块时间集成与条件生成"
+        }
+      ]
+    },
+    {
+      "id": "local:act:horizon",
+      "key": "horizon",
+      "kind": "local",
+      "paper": "act",
+      "title": "块长与有效时域",
+      "subtitle": "一次输出k步，缩短分块预测所需的决策链。",
+      "detail": "k100在50Hz下覆盖2秒，但最终策略每步重算。",
+      "parent_node": "local:act:absolute-joints",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/horizon.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-A",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#41-动作块先预测一小段再决定怎样执行"
+        }
+      ]
+    },
+    {
+      "id": "local:act:same-time-ensemble",
+      "key": "same-time-ensemble",
+      "kind": "local",
+      "paper": "act",
+      "title": "同刻时间集成",
+      "subtitle": "不同起算时刻对当前同一时刻的预测加权平均。",
+      "detail": "不是混合相邻真实时刻的动作，避免额外时移偏差。",
+      "parent_node": "local:act:horizon",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/same-time-ensemble.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "Fig6; Algorithm2",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#42-时间集成合并的是同一时刻的不同预测"
+        }
+      ]
+    },
+    {
+      "id": "local:act:oldest-weight",
+      "key": "oldest-weight",
+      "kind": "local",
+      "paper": "act",
+      "title": "旧预测权重",
+      "subtitle": "指数权重按旧到新排列，最旧预测权重最大。",
+      "detail": "w_i=exp(-mi)；m更小让新观察更快影响最终目标。",
+      "parent_node": "local:act:same-time-ensemble",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/oldest-weight.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-A",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#42-时间集成合并的是同一时刻的不同预测"
+        }
+      ]
+    },
+    {
+      "id": "local:act:style-latent",
+      "key": "style-latent",
+      "kind": "local",
+      "paper": "act",
+      "title": "动作潜变量",
+      "subtitle": "训练编码器把示范差异压入32维高斯潜变量。",
+      "detail": "只读关节和动作块，部署去掉编码器并固定z0。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/style-latent.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-B/C; AppendixC",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#43-cvae同一幅画面可以有不同的后续走法"
+        }
+      ]
+    },
+    {
+      "id": "local:act:reparameterization",
+      "key": "reparameterization",
+      "kind": "local",
+      "paper": "act",
+      "title": "重参数采样",
+      "subtitle": "z=mu+s乘epsilon，把随机噪声与可学习参数分开。",
+      "detail": "epsilon标准高斯；梯度经mu和s回传，s是标准差。",
+      "parent_node": "local:act:style-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/reparameterization.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "AppendixC",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#43-cvae同一幅画面可以有不同的后续走法"
+        }
+      ]
+    },
+    {
+      "id": "local:act:kl-prior",
+      "key": "kl-prior",
+      "kind": "local",
+      "paper": "act",
+      "title": "高斯KL正则",
+      "subtitle": "约束编码分布接近标准高斯先验。",
+      "detail": "beta10平衡重建与信息约束，维度逐项求和。",
+      "parent_node": "local:act:style-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/kl-prior.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-B; TableIV",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#43-cvae同一幅画面可以有不同的后续走法"
+        }
+      ]
+    },
+    {
+      "id": "local:act:l1-reconstruction",
+      "key": "l1-reconstruction",
+      "kind": "local",
+      "paper": "act",
+      "title": "L1动作重建",
+      "subtitle": "按绝对误差拟合目标动作块。",
+      "detail": "实现段明确采用L1；算法框MSE标注冲突在证据记录保留。",
+      "parent_node": "local:act:style-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/l1-reconstruction.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-C; Algorithm1",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#43-cvae同一幅画面可以有不同的后续走法"
+        }
+      ]
+    },
+    {
+      "id": "local:act:visual-tokens",
+      "key": "visual-tokens",
+      "kind": "local",
+      "paper": "act",
+      "title": "视觉token形状",
+      "subtitle": "四路ResNet特征拼成1200×512序列。",
+      "detail": "15×20空间展平为每相机300token，再加关节与z两个token。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/visual-tokens.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-C",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        }
+      ]
+    },
+    {
+      "id": "local:act:observation-fusion",
+      "key": "observation-fusion",
+      "kind": "local",
+      "paper": "act",
+      "title": "观察序列融合",
+      "subtitle": "4层Transformer编码1202个观察token。",
+      "detail": "关节14与z32分别投影512维，图像有二维位置编码。",
+      "parent_node": "local:act:visual-tokens",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/observation-fusion.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "§IV-C; AppendixC",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        }
+      ]
+    },
+    {
+      "id": "local:act:parallel-action-queries",
+      "key": "parallel-action-queries",
+      "kind": "local",
+      "paper": "act",
+      "title": "并行动作查询",
+      "subtitle": "k个位置查询读观察编码，生成k×14动作块。",
+      "detail": "7层解码器交叉注意力，输出并行而非自回归逐步生成。",
+      "parent_node": "local:act:observation-fusion",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/parallel-action-queries.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "Fig12; TableIV",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        }
+      ]
+    },
+    {
+      "id": "local:act:cls-summary",
+      "key": "cls-summary",
+      "kind": "local",
+      "paper": "act",
+      "title": "训练汇总token",
+      "subtitle": "CLS汇总当前关节与整段示范。",
+      "detail": "(k+2)×512经4层编码，CLS输出参数化32维高斯。",
+      "parent_node": "local:act:style-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/cls-summary.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "AppendixC",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#44-transformer四台相机怎样变成10014"
+        }
+      ]
+    },
+    {
+      "id": "local:act:task-protocol",
+      "key": "task-protocol",
+      "kind": "local",
+      "paper": "act",
+      "title": "逐任务评估协议",
+      "subtitle": "实机单种子25次，仿真3种子每个50次。",
+      "detail": "脚本与人类示范分开报告，分阶段成功与最终成功分开读。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/task-protocol.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "TableII",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#51-主表怎么读比较的是哪些设置"
+        }
+      ]
+    },
+    {
+      "id": "local:act:stage-failure",
+      "key": "stage-failure",
+      "kind": "local",
+      "paper": "act",
+      "title": "分阶段失败定位",
+      "subtitle": "观察任务在哪个接触或抓取环节掉成功率。",
+      "detail": "穿带92→40→20，暴露感知和空中抓取精度挑战。",
+      "parent_node": "local:act:task-protocol",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/stage-failure.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "TableIII",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#52-六个任务不是统一的八九成"
+        }
+      ]
+    },
+    {
+      "id": "local:act:chunk-ablation",
+      "key": "chunk-ablation",
+      "kind": "local",
+      "paper": "act",
+      "title": "块长消融",
+      "subtitle": "关闭时间集成并分别训练不同块长。",
+      "detail": "4设置均值k1约1%到k100约44%，过长回落。",
+      "parent_node": "local:act:horizon",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/chunk-ablation.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "Fig9a",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#61-块长一帧一猜不行一口气全做也不香"
+        }
+      ]
+    },
+    {
+      "id": "local:act:human-variation",
+      "key": "human-variation",
+      "kind": "local",
+      "paper": "act",
+      "title": "人类示范变化",
+      "subtitle": "CVAE在随机多样的人类示范中作用更明显。",
+      "detail": "去CVAE人类数据35.3%到2%；脚本数据近似不变。",
+      "parent_node": "local:act:style-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/human-variation.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "Fig9c",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#63-cvae人类示范里的变化才是这道题"
+        }
+      ]
+    },
+    {
+      "id": "local:act:perception-bottleneck",
+      "key": "perception-bottleneck",
+      "kind": "local",
+      "paper": "act",
+      "title": "精细感知瓶颈",
+      "subtitle": "动作序列模型仍依赖关键细节被观察到。",
+      "detail": "糖纸接缝和黑色细带说明看不清的位置会造成连续错误。",
+      "parent_node": "paper:act",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/act/perception-bottleneck.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p016.html",
+      "locator": "AppendixF",
+      "explainers": [
+        {
+          "paper": "act",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#7-结论与局限哪里卡在动作哪里卡在眼睛"
+        }
+      ]
     },
     {
       "id": "local:agile-flight:distill",
@@ -9282,11 +10022,16 @@
       "title": "动作条件动力学",
       "subtitle": "以当前状态和动作预测下一状态或分布，建立“做这个动作会发生什么”的计算接口。",
       "detail": "不能把无动作的视频预测直接当成可干预的动力学。",
-      "parent_node": "paper:dreamerv3",
-      "lit": false,
+      "parent_node": "local:dreamerv3:world",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/dynamics.md",
       "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#world-model-learning一半记忆一半当前发现"
+        }
+      ]
     },
     {
       "id": "local:dreamerv3:imagination",
@@ -9297,11 +10042,16 @@
       "title": "想象轨迹训练",
       "subtitle": "在学到的动力学里滚动状态，用预测奖励和值训练策略，从而增加决策训练数据。",
       "detail": "模型误差会影响训练信号，真实反馈仍用于更新世界模型。",
-      "parent_node": "paper:dreamerv3",
-      "lit": false,
+      "parent_node": "local:dreamerv3:world",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/imagination.md",
       "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石"
+        }
+      ]
     },
     {
       "id": "local:dreamerv3:actor-critic",
@@ -9312,11 +10062,56 @@
       "title": "策略与价值学习",
       "subtitle": "actor 产生动作，critic 估计长期收益；价值估计为策略改进提供方向。",
       "detail": "在真实或想象轨迹上训练，会面对不同的误差来源。",
-      "parent_node": "paper:dreamerv3",
-      "lit": false,
+      "parent_node": "local:dreamerv3:rl",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/actor-critic.md",
       "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:world",
+      "key": "world",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "canonical": "world",
+      "title": "世界模型",
+      "subtitle": "学习状态随动作或时间如何变化，用于预测、计划或训练策略。",
+      "detail": "预测对象可以是像素、latent、奖励或与决策相关的潜状态。",
+      "parent_node": "paper:dreamerv3",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/world.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#main别把通用算法读成同一个万能大脑"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:dreamerv3",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/rl.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风"
+        }
+      ]
     },
     {
       "id": "local:dreamerv3:method-chain",
@@ -9327,11 +10122,316 @@
       "subtitle": "以统一的世界模型、奖励价值尺度处理和优化设计覆盖多类控制任务，减少逐任务调参。",
       "detail": "以统一的世界模型、奖励价值尺度处理和优化设计覆盖多类控制任务，减少逐任务调参。",
       "parent_node": "paper:dreamerv3",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/method-chain.md",
       "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#learning-algorithm方法先从可计算的世界开始"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:rssm",
+      "key": "rssm",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "循环状态空间模型",
+      "subtitle": "连续记忆与离散随机状态结合。",
+      "detail": "后验读取观察，先验预测想象状态。",
+      "parent_node": "paper:dreamerv3",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/rssm.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning;Fig1",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#world-model-learning一半记忆一半当前发现"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:posterior-prior",
+      "key": "posterior-prior",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "后验与先验",
+      "subtitle": "真实数据校正与想象展开使用不同分布。",
+      "detail": "同一模型在不同数据可见性下更新。",
+      "parent_node": "local:dreamerv3:rssm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/posterior-prior.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#world-model-learning一半记忆一半当前发现"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:straight",
+      "key": "straight",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "直通梯度",
+      "subtitle": "前向硬采样，反向使用概率的代理梯度。",
+      "detail": "让离散状态也能端到端训练。",
+      "parent_node": "local:dreamerv3:rssm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/straight.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#world-model-learning一半记忆一半当前发现"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:kl",
+      "key": "kl",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "KL平衡与free bits",
+      "subtitle": "停止梯度分配先验和后验的学习责任。",
+      "detail": "阈值抑制过度压缩，unimix防零概率。",
+      "parent_node": "local:dreamerv3:rssm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/kl.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "World model learning",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#两个-kl别让好预测把有信息挤掉"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:imagined-rollout",
+      "key": "imagined-rollout",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "潜在空间想象",
+      "subtitle": "从真实状态开始用模型滚动抽象轨迹。",
+      "detail": "不需每步渲染图像，部署不树搜索。",
+      "parent_node": "paper:dreamerv3",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/imagined-rollout.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Critic learning",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:lambda",
+      "key": "lambda",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "λ-return自举",
+      "subtitle": "短轨迹奖励与价值估计混合。",
+      "detail": "continue截断终止后的回报。",
+      "parent_node": "local:dreamerv3:imagined-rollout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/lambda.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Critic learning",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:actor",
+      "key": "actor",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "回报归一化策略梯度",
+      "subtitle": "REINFORCE结合百分位回报尺度。",
+      "detail": "max1S不放大小回报噪声，熵维持探索。",
+      "parent_node": "local:dreamerv3:imagined-rollout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/actor.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Actor learning",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:symlog",
+      "key": "symlog",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "带符号对数压缩",
+      "subtitle": "同时压缩大正值和负值。",
+      "detail": "逆变换还原连续预测。",
+      "parent_node": "paper:dreamerv3",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/symlog.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Robust predictions",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#robust-predictions别让一个大数字把全场音量拉爆"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:twohot",
+      "key": "twohot",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "symexp two-hot",
+      "subtitle": "指数间隔桶上连续值的双桶软标签。",
+      "detail": "原值插值并对概率做交叉熵。",
+      "parent_node": "local:dreamerv3:symlog",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/twohot.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Distributions",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#robust-predictions别让一个大数字把全场音量拉爆"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:minecraft",
+      "key": "minecraft",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "Minecraft评测协议",
+      "subtitle": "种子曾成功与回合成功率分母不同。",
+      "detail": "25动作/抽象合成/破坏加速/多模态观察。",
+      "parent_node": "paper:dreamerv3",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/minecraft.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Minecraft;Fig5",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#minecraft每次训练都发现钻石不等于每局都能挖到"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:ablation",
+      "key": "ablation",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "表征学习信号消融",
+      "subtitle": "阻止某类梯度塑造表征。",
+      "detail": "不等于删除actor奖励目标。",
+      "parent_node": "local:dreamerv3:rssm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/ablation.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig6b;SupplementFig9",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#ablations那些小修小补拆了才知道多要命"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:scaling",
+      "key": "scaling",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "模型规模与交互效率",
+      "subtitle": "模型容量与经验复用改变交互效率。",
+      "detail": "计算预算与交互预算分开。",
+      "parent_node": "local:dreamerv3:imagined-rollout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/scaling.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Fig6c/d",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#scaling-properties少交互的代价通常是多计算"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:blockgru",
+      "key": "blockgru",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "分块循环记忆",
+      "subtitle": "循环矩阵分八块。",
+      "detail": "维度d控制多个模块宽度。",
+      "parent_node": "local:dreamerv3:rssm",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/blockgru.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Networks",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#网络大记忆不必把矩阵平方放大"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:laprop",
+      "key": "laprop",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "LaProp与梯度裁剪",
+      "subtitle": "先RMS归一化再动量。",
+      "detail": "裁剪相对参数范数，减少数值波动。",
+      "parent_node": "paper:dreamerv3",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/laprop.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Optimizer",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#优化器梯度也要有合适的刹车"
+        }
+      ]
+    },
+    {
+      "id": "local:dreamerv3:replay",
+      "key": "replay",
+      "kind": "local",
+      "paper": "dreamerv3",
+      "title": "经验复用的单位",
+      "subtitle": "训练时间步/采集决策时间步。",
+      "detail": "换成梯度步还要除batch和actionrepeat。",
+      "parent_node": "local:dreamerv3:imagined-rollout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamerv3/replay.md",
+      "source_url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "locator": "Methods Experience replay",
+      "explainers": [
+        {
+          "paper": "dreamerv3",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#replay32-倍复用不是每走一步更新-32-次"
+        }
+      ]
     },
     {
       "id": "local:dreamtrue:dynamics",
@@ -13673,10 +14773,15 @@
       "subtitle": "从多视图学习场景的颜色、密度或高斯参数，通过渲染产生新的观察视角。",
       "detail": "NeRF 查询场景函数；3D Gaussian Splatting 投影混合高斯。",
       "parent_node": "local:nerf:spatial",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/radiance.md",
       "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#31-位置定密度方向管反光"
+        }
+      ]
     },
     {
       "id": "local:nerf:spatial",
@@ -13688,10 +14793,15 @@
       "subtitle": "保留像素、点、体素或对象相对位置的表示，让预测能接到几何与动作位置。",
       "detail": "全局语义向量识别杯子；抓哪里还需要空间接口。",
       "parent_node": "local:nerf:representation",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/spatial.md",
       "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#2-相关工作表面体素与连续函数"
+        }
+      ]
     },
     {
       "id": "local:nerf:representation",
@@ -13703,10 +14813,15 @@
       "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
       "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
       "parent_node": "paper:nerf",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/representation.md",
       "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#32-mlp-里面到底走了几步"
+        }
+      ]
     },
     {
       "id": "local:nerf:method-chain",
@@ -13717,11 +14832,436 @@
       "subtitle": "给多层感知机输入三维位置与观察方向，输出体密度和视角相关颜色。沿每条相机射线查询多个点，体渲染把颜色与密度累积成像，再由多视角重建误差更新场景网络。位置编码保留高频细节，分层采样减少无效查询；原文比较真实与合成场景的新视角质量。",
       "detail": "给多层感知机输入三维位置与观察方向，输出体密度和视角相关颜色。沿每条相机射线查询多个点，体渲染把颜色与密度累积成像，再由多视角重建误差更新场景网络。位置编码保留高频细节，分层采样减少无效查询；原文比较真实与合成场景的新视角质量。",
       "parent_node": "paper:nerf",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/method-chain.md",
       "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#3-方法起点场景表示一个点为什么有两套答案"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:scene-function",
+      "key": "scene-function",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "场景专属连续函数",
+      "subtitle": "以一个神经网络表示一个静态场景的查询规则。",
+      "detail": "每场景分别拟合，运行输入位置/方向；不是跨场景一次推理。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/scene-function.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§1, §5.3",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#1-引言照片少了三维世界怎么补"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:surface-volume",
+      "key": "surface-volume",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "表面与体积表示",
+      "subtitle": "网格、隐式表面与体积密度选择不同的几何表示。",
+      "detail": "SRN寻找表面后着色，NeRF沿射线合成体密度和颜色。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/surface-volume.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§2",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#2-相关工作表面体素与连续函数"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:density",
+      "key": "density",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "体密度",
+      "subtitle": "非负密度控制光在一小段空间里被截住的比例。",
+      "detail": "只依赖位置，不让相机朝向改变同一点的密度。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/density.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§3",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#31-位置定密度方向管反光"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:view-color",
+      "key": "view-color",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "方向相关颜色",
+      "subtitle": "固定位置的RGB随观察方向而变化。",
+      "detail": "颜色分支接收方向编码，用于拟合反光外观。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/view-color.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§3, Fig3",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#31-位置定密度方向管反光"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:unit-direction",
+      "key": "unit-direction",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "单位方向自由度",
+      "subtitle": "三维单位向量具有两个独立自由度。",
+      "detail": "与三维位置合起来是五自由度查询，不能按存储分量误算六自由度。",
+      "parent_node": "local:nerf:view-color",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/unit-direction.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§3",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#31-位置定密度方向管反光"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:mlp-branch",
+      "key": "mlp-branch",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "密度颜色分支",
+      "subtitle": "八层位置MLP产生密度和特征，再接方向生成RGB。",
+      "detail": "60维位置编码→8×256；特征256+方向24→128→3。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/mlp-branch.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "AppendixA Fig7",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#32-mlp-里面到底走了几步"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:skip-input",
+      "key": "skip-input",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "输入跳接",
+      "subtitle": "在中间层重新拼接坐标编码。",
+      "detail": "拼接保留原始输入线索，图中加号不是逐元素相加。",
+      "parent_node": "local:nerf:mlp-branch",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/skip-input.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Fig7",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#32-mlp-里面到底走了几步"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:camera-ray",
+      "key": "camera-ray",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "像素射线",
+      "subtitle": "相机原点与方向确定r(t)=o+td。",
+      "detail": "内参与外参把二维像素连到三维射线，近远边界限制积分范围。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/camera-ray.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Eq1",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#4-体渲染沿途收颜色还得看前面挡了多少"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:transmittance",
+      "key": "transmittance",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "累积透射",
+      "subtitle": "光线走到某个位置还未被前方遮挡的比例。",
+      "detail": "T是前段密度积分的负指数，远处贡献受前方遮挡影响。",
+      "parent_node": "local:nerf:camera-ray",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/transmittance.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Eq1",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#4-体渲染沿途收颜色还得看前面挡了多少"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:alpha-composite",
+      "key": "alpha-composite",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "前向alpha合成",
+      "subtitle": "每段按T_i alpha_i加权RGB。",
+      "detail": "alpha=1-exp(-sigma delta)，权重并非简单平均。",
+      "parent_node": "local:nerf:transmittance",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/alpha-composite.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Eq3",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#41-连续积分怎样落到离散采样"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:stratified",
+      "key": "stratified",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "分层随机采样",
+      "subtitle": "每个等距区间抽一个点，覆盖射线范围。",
+      "detail": "训练不同随机落点使连续函数不只在固定网格上被查询。",
+      "parent_node": "local:nerf:camera-ray",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/stratified.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Eq2",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#41-连续积分怎样落到离散采样"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:fourier-coordinates",
+      "key": "fourier-coordinates",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "正弦余弦坐标编码",
+      "subtitle": "多频率函数把连续坐标映到更高维输入。",
+      "detail": "位置L10共60维、方向L4共24维；帮助拟合高频变化。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/fourier-coordinates.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Eq4",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#51-位置编码给坐标装一排不同频率的旋钮"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:spectral-bias",
+      "key": "spectral-bias",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "低频拟合偏好",
+      "subtitle": "直接MLP坐标拟合更容易先学缓慢变化。",
+      "detail": "高频特征改善细纹理与几何，和Transformer的序列位置用途不同。",
+      "parent_node": "local:nerf:fourier-coordinates",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/spectral-bias.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§5.1",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#51-位置编码给坐标装一排不同频率的旋钮"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:coarse-fine",
+      "key": "coarse-fine",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "粗细网络采样",
+      "subtitle": "粗网络合成权重指导细网络查询位置。",
+      "detail": "粗64点，新细128点，细网在192点上评估；总256次查询。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/coarse-fine.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§5.2",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#52-分层采样先打草稿再把算力花到画面上"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:inverse-cdf",
+      "key": "inverse-cdf",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "逆CDF采样",
+      "subtitle": "将均匀随机数映到按权重分配的射线位置。",
+      "detail": "概率来自T alpha，优先可见内容，而非只看密度。",
+      "parent_node": "local:nerf:coarse-fine",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/inverse-cdf.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Eq5",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#52-分层采样先打草稿再把算力花到画面上"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:rgb-supervision",
+      "key": "rgb-supervision",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "像素监督与可微渲染",
+      "subtitle": "用粗细预测RGB与观测像素的平方误差训练。",
+      "detail": "梯度经过合成更新密度颜色，粗网也需监督以可靠分配采样。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/rgb-supervision.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Eq6",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#53-训练照片给像素答案不给每个点的标准密度"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:camera-calibration",
+      "key": "camera-calibration",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "相机标定与COLMAP",
+      "subtitle": "相机内外参与边界把照片像素映到可用射线。",
+      "detail": "合成数据已知相机，真实数据用结构恢复估计。",
+      "parent_node": "local:nerf:camera-ray",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/camera-calibration.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§5.3",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#53-训练照片给像素答案不给每个点的标准密度"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:ndc",
+      "key": "ndc",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "归一化设备坐标",
+      "subtitle": "透视变换将前视空间映入有限坐标域。",
+      "detail": "远处压缩、深度与视差联系，服务前视拍摄射线采样。",
+      "parent_node": "local:nerf:camera-calibration",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/ndc.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "AppendixC",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#53-训练照片给像素答案不给每个点的标准密度"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:quality-metrics",
+      "key": "quality-metrics",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "新视角质量指标",
+      "subtitle": "PSNR/SSIM越高好，LPIPS越低好。",
+      "detail": "真实前视数据NeRF PSNR更高，LLFF LPIPS更低，指标有取舍。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/quality-metrics.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Table1",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#61-同样的照片谁把新角度画得更准"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:ablation-components",
+      "key": "ablation-components",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "表示与采样消融",
+      "subtitle": "按固定数据分别移除编码、方向与采样策略。",
+      "detail": "八场景Full31.01dB，NoPE28.77，NoVD27.66，NoH30.06。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/ablation-components.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "Table2",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#62-消融三个零件谁真正出了力"
+        }
+      ]
+    },
+    {
+      "id": "local:nerf:runtime-budget",
+      "key": "runtime-budget",
+      "kind": "local",
+      "paper": "nerf",
+      "title": "存储计算交换",
+      "subtitle": "连续网络减小存储，但沿射线查询成本很大。",
+      "detail": "约5MB参数、V100约30秒每帧；每射线256次查询解释成本。",
+      "parent_node": "paper:nerf",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nerf/runtime-budget.md",
+      "source_url": "https://arxiv.org/abs/2003.08934v2",
+      "locator": "§6.3; AppendixA",
+      "explainers": [
+        {
+          "paper": "nerf",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#63-存得小算得可不轻松"
+        }
+      ]
     },
     {
       "id": "local:octo:diffusion",
@@ -14677,11 +16217,16 @@
       "title": "注意力",
       "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
       "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
-      "parent_node": "paper:rt1",
-      "lit": false,
+      "parent_node": "local:rt1:transformer",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/attention.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        }
+      ]
     },
     {
       "id": "local:rt1:quantization",
@@ -14692,11 +16237,16 @@
       "title": "离散编码与量化",
       "subtitle": "把连续向量或信号映射到有限码。动作、视频潜变量与世界模型状态都可能采用这种表示，码本和训练目标各不相同。",
       "detail": "量化误差与码序列长度要同时观察。",
-      "parent_node": "paper:rt1",
-      "lit": false,
+      "parent_node": "local:rt1:action",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/quantization.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        }
+      ]
     },
     {
       "id": "local:rt1:cross-body",
@@ -14707,11 +16257,216 @@
       "title": "跨本体数据",
       "subtitle": "从多个机器人或人类收集经验，通过动作/观测适配接到共享学习系统。",
       "detail": "共享接口不能消掉本体的物理限制。",
-      "parent_node": "paper:rt1",
-      "lit": false,
+      "parent_node": "local:rt1:data",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/cross-body.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/representation.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-a-区语言先改看法再决定做法"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/transformer.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/action.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#3-问题定义一句指令不等于一整套计划"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:cross-entropy",
+      "key": "cross-entropy",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "cross-entropy",
+      "title": "交叉熵",
+      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
+      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/cross-entropy.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/imitation.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:bc",
+      "key": "bc",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "bc",
+      "title": "行为克隆",
+      "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
+      "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
+      "parent_node": "local:rt1:imitation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/bc.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#1-引言多练一些任务能帮其他任务吗"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/data.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#4-系统概览数据究竟从哪里来"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:sim2real",
+      "key": "sim2real",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "sim2real",
+      "title": "仿真到实机",
+      "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
+      "detail": "实机结果必须按机器人与任务条件解释。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/sim2real.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:skills",
+      "key": "skills",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "skills",
+      "title": "分层技能与计划",
+      "subtitle": "高层选择目标或技能，低层负责具体执行，层次之间有明确接口。",
+      "detail": "SayCan 用语言适用性与可执行价值挑技能。",
+      "parent_node": "local:rt1:imitation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/skills.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#64-长程任务把想做什么和做没做成拆开"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rollout",
+      "key": "rollout",
+      "kind": "local",
+      "paper": "rt1",
+      "canonical": "rollout",
+      "title": "闭环滚动与历史偏移",
+      "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
+      "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rollout.md",
+      "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#53-e-区动作算出来要赶得上现场"
+        }
+      ]
     },
     {
       "id": "local:rt1:method-chain",
@@ -14722,11 +16477,256 @@
       "subtitle": "图像先经语言条件的 EfficientNet 提取特征，再由 TokenLearner 压成少量视觉 token；Transformer 融合短时历史并输出离散动作。动作同时覆盖机械臂、底盘和停止模式，策略以闭环方式反复读取图像。原文分别检验新指令、干扰物、新背景以及跨机器人数据混合的效果。",
       "detail": "图像先经语言条件的 EfficientNet 提取特征，再由 TokenLearner 压成少量视觉 token；Transformer 融合短时历史并输出离散动作。动作同时覆盖机械臂、底盘和停止模式，策略以闭环方式反复读取图像。原文分别检验新指令、干扰物、新背景以及跨机器人数据混合的效果。",
       "parent_node": "paper:rt1",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/method-chain.md",
       "source_url": "https://www.roboticsproceedings.org/rss19/p025.html",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#5-方法从六帧图像走到动作"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-film",
+      "key": "rt1-film",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "语言调制视觉",
+      "subtitle": "512维句子向量控制FiLM通道缩放和平移，零初始化保持视觉预训练起点。",
+      "detail": "512维句子向量控制FiLM通道缩放和平移，零初始化保持视觉预训练起点。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-film.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "§5.1;Fig3",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-a-区语言先改看法再决定做法"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-tokenlearner",
+      "key": "rt1-tokenlearner",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "学习视觉摘要",
+      "subtitle": "81个512维空间特征经八张注意力权重图聚合，六帧共48token。",
+      "detail": "81个512维空间特征经八张注意力权重图聚合，六帧共48token。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-tokenlearner.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "§5.1",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-b-区81-个格子压成八张小抄"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-history",
+      "key": "rt1-history",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "六帧观察历史",
+      "subtitle": "带位置编码的历史经八层Transformer汇总，区别于单帧策略。",
+      "detail": "带位置编码的历史经八层Transformer汇总，区别于单帧策略。",
+      "parent_node": "local:rt1:rt1-tokenlearner",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-history.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "Fig3;Table13",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-action-bins",
+      "key": "rt1-action-bins",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "连续动作分类化",
+      "subtitle": "动作连续分量各自均匀256档；模式为控制部件或结束类别。",
+      "detail": "动作连续分量各自均匀256档；模式为控制部件或结束类别。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-action-bins.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "§5.1Actiontokenization",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-nonar",
+      "key": "rt1-nonar",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "动作非自回归输出",
+      "subtitle": "最终RT1不依次条件生成11个分量；附录单独测试AR变体。",
+      "detail": "最终RT1不依次条件生成11个分量；附录单独测试AR变体。",
+      "parent_node": "local:rt1:rt1-action-bins",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-nonar.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "AppendixD4",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#51-c-区transformer-输出的是动作档位"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-loss",
+      "key": "rt1-loss",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "逐动作模仿监督",
+      "subtitle": "示范动作离散为标签，交叉熵回传视觉与策略链。",
+      "detail": "示范动作离散为标签，交叉熵回传视觉与策略链。",
+      "parent_node": "local:rt1:rt1-action-bins",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-loss.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "§5.1Loss",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-latency",
+      "key": "rt1-latency",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "闭环时延预算",
+      "subtitle": "网络15ms、固定触发280ms与3Hz控制周期分别计量。",
+      "detail": "网络15ms、固定触发280ms与3Hz控制周期分别计量。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-latency.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "AppendixC1;Table13",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#53-e-区动作算出来要赶得上现场"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-gen-tests",
+      "key": "rt1-gen-tests",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "拆分泛化因素",
+      "subtitle": "已见、未见组合、干扰与背景分别评估，不能汇成任意泛化。",
+      "detail": "已见、未见组合、干扰与背景分别评估，不能汇成任意泛化。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-gen-tests.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "Table2",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#61-已见任务与未见指令最硬的一张总表"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-mixedsim",
+      "key": "rt1-mixedsim",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "混合仿真迁移",
+      "subtitle": "仿真新物体数据混入真实数据后，在真实机器人测试迁移。",
+      "detail": "仿真新物体数据混入真实数据后，在真实机器人测试迁移。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-mixedsim.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "Table4",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-mixedbody",
+      "key": "rt1-mixedbody",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "跨机器人数据桥",
+      "subtitle": "Kuka数据混合可提升EDR抓取，Kuka-only为零说明目标本体示范关键。",
+      "detail": "Kuka数据混合可提升EDR抓取，Kuka-only为零说明目标本体示范关键。",
+      "parent_node": "local:rt1:rt1-mixedsim",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-mixedbody.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "Table5",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-saycan",
+      "key": "rt1-saycan",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "高低层分工",
+      "subtitle": "相同规划成功率下，比较不同低层执行器的整任务成功率。",
+      "detail": "相同规划成功率下，比较不同低层执行器的整任务成功率。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-saycan.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "Table6",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#64-长程任务把想做什么和做没做成拆开"
+        }
+      ]
+    },
+    {
+      "id": "local:rt1:rt1-coverage",
+      "key": "rt1-coverage",
+      "kind": "local",
+      "paper": "rt1",
+      "title": "采集覆盖与数量",
+      "subtitle": "保留97%回合但删25%任务同样损伤泛化，采集需看任务覆盖。",
+      "detail": "保留97%回合但删25%任务同样损伤泛化，采集需看任务覆盖。",
+      "parent_node": "paper:rt1",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/rt1-coverage.md",
+      "source_url": "https://arxiv.org/abs/2212.06817v2",
+      "locator": "Table7",
+      "explainers": [
+        {
+          "paper": "rt1",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#65-数据多样性不是把同一道菜炒十三万遍"
+        }
+      ]
     },
     {
       "id": "local:rt2:quantization",
@@ -15472,11 +17472,16 @@
       "title": "空间表示",
       "subtitle": "保留像素、点、体素或对象相对位置的表示，让预测能接到几何与动作位置。",
       "detail": "全局语义向量识别杯子；抓哪里还需要空间接口。",
-      "parent_node": "paper:sam2",
-      "lit": false,
+      "parent_node": "local:sam2:representation",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/spatial.md",
       "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征"
+        }
+      ]
     },
     {
       "id": "local:sam2:attention",
@@ -15487,11 +17492,16 @@
       "title": "注意力",
       "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
       "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
-      "parent_node": "paper:sam2",
-      "lit": false,
+      "parent_node": "local:sam2:transformer",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/attention.md",
       "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#42-b-区记忆里放的不是整段录像"
+        }
+      ]
     },
     {
       "id": "local:sam2:rollout",
@@ -15503,10 +17513,135 @@
       "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
       "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
       "parent_node": "paper:sam2",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/rollout.md",
       "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#44-d-区把这次预测写进下次的条件"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "sam2",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/representation.md",
+      "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "sam2",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/transformer.md",
+      "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#43-c-区点击候选掩码与它现在不在"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:cross-entropy",
+      "key": "cross-entropy",
+      "kind": "local",
+      "paper": "sam2",
+      "canonical": "cross-entropy",
+      "title": "交叉熵",
+      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
+      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/cross-entropy.md",
+      "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#45-e-区训练时怎样教它别跟丢"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:zero-shot",
+      "key": "zero-shot",
+      "kind": "local",
+      "paper": "sam2",
+      "canonical": "zero-shot",
+      "title": "零样本任务接口",
+      "subtitle": "不用目标数据集训练样本拟合分类头，而用任务描述等已有信息直接构造预测接口。",
+      "detail": "CLIP 将类别句子编码为权重，新图与它们比较。",
+      "parent_node": "local:sam2:representation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/zero-shot.md",
+      "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#61-先认指标再看交互曲线"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "sam2",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/benchmark.md",
+      "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#62-只在第一帧给提示还能传多远"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:shift",
+      "key": "shift",
+      "kind": "local",
+      "paper": "sam2",
+      "canonical": "shift",
+      "title": "分布偏移",
+      "subtitle": "测试场景的画风、视角、背景或对象组合发生变化，模型习惯的视觉线索随之改变。",
+      "detail": "CLIP Fig.7 横向匹配常规分数，再看偏移分布的高度。",
+      "parent_node": "local:sam2:representation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/shift.md",
+      "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#8-结论它给机器人补了哪块感知拼图"
+        }
+      ]
     },
     {
       "id": "local:sam2:method-chain",
@@ -15517,11 +17652,336 @@
       "subtitle": "逐帧图像特征通过记忆注意力读取之前的目标提示与掩码信息，再与当前提示一起预测本帧掩码。记忆编码器把当前预测存入记忆，下一帧继续使用；静态图像相当于记忆为空的视频。原文比较交互次数、速度以及图像和视频分割基准。",
       "detail": "逐帧图像特征通过记忆注意力读取之前的目标提示与掩码信息，再与当前提示一起预测本帧掩码。记忆编码器把当前预测存入记忆，下一帧继续使用；静态图像相当于记忆为空的视频。原文比较交互次数、速度以及图像和视频分割基准。",
       "parent_node": "paper:sam2",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/method-chain.md",
       "source_url": "https://openreview.net/forum?id=Ha6RTeWMd0",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#4-方法当前图像怎样读写对象记忆"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-pvs",
+      "key": "sam2-pvs",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "可提示视频分割",
+      "subtitle": "任意帧点框掩码指定对象，后续纠正形成同一对象masklet。",
+      "detail": "任意帧点框掩码指定对象，后续纠正形成同一对象masklet。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-pvs.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "§3;Fig2",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#3-任务一次点击确定的是哪一个对象"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-hiera",
+      "key": "sam2-hiera",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "层次特征与细节旁路",
+      "subtitle": "1024输入FPN成256x64x64，stride4/8直接供decoder细节。",
+      "detail": "1024输入FPN成256x64x64，stride4/8直接供decoder细节。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-hiera.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "AppendixD1",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-bank",
+      "key": "sam2-bank",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "空间记忆与提示队列",
+      "subtitle": "近期6帧FIFO与提示帧分开，空间记忆64通道。",
+      "detail": "近期6帧FIFO与提示帧分开，空间记忆64通道。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-bank.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "§4;AppendixD1",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#42-b-区记忆里放的不是整段录像"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-ptr",
+      "key": "sam2-ptr",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "对象指针",
+      "subtitle": "掩码token得到256维指针，拆成4个64维token供跨注意力。",
+      "detail": "掩码token得到256维指针，拆成4个64维token供跨注意力。",
+      "parent_node": "local:sam2:sam2-bank",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-ptr.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "AppendixD1p17",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#42-b-区记忆里放的不是整段录像"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-read",
+      "key": "sam2-read",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "跨帧记忆读取",
+      "subtitle": "四层selfattn→crossattn→MLP结合当前图与对象历史。",
+      "detail": "四层selfattn→crossattn→MLP结合当前图与对象历史。",
+      "parent_node": "local:sam2:sam2-bank",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-read.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "AppendixD1;Table9",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#42-b-区记忆里放的不是整段录像"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-decoder",
+      "key": "sam2-decoder",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "双向掩码解码",
+      "subtitle": "提示与图像双向注意力，上采样后用每mask权重与像素特征点积。",
+      "detail": "提示与图像双向注意力，上采样后用每mask权重与像素特征点积。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-decoder.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "Fig8",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#43-c-区点击候选掩码与它现在不在"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-ambiguity",
+      "key": "sam2-ambiguity",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "多候选与质量预测",
+      "subtitle": "点击含歧义，输出多个mask，预测IoU最高者传播。",
+      "detail": "点击含歧义，输出多个mask，预测IoU最高者传播。",
+      "parent_node": "local:sam2:sam2-decoder",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-ambiguity.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "§4",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#43-c-区点击候选掩码与它现在不在"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-presence",
+      "key": "sam2-presence",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "对象缺席判断",
+      "subtitle": "遮挡头单独判断对象当前是否存在，空mask可为正确输出。",
+      "detail": "遮挡头单独判断对象当前是否存在，空mask可为正确输出。",
+      "parent_node": "local:sam2:sam2-decoder",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-presence.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "§4;AppendixD2",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#43-c-区点击候选掩码与它现在不在"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-write",
+      "key": "sam2-write",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "对象记忆写入",
+      "subtitle": "未条件图像特征+下采样预测mask卷积融合，写64ch空间记忆。",
+      "detail": "未条件图像特征+下采样预测mask卷积融合，写64ch空间记忆。",
+      "parent_node": "local:sam2:sam2-bank",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-write.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "§4Memoryencoder",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#44-d-区把这次预测写进下次的条件"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-multiobject",
+      "key": "sam2-multiobject",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "多对象计算分工",
+      "subtitle": "仅图像encoder共享，记忆和decoder等逐对象独立。",
+      "detail": "仅图像encoder共享，记忆和decoder等逐对象独立。",
+      "parent_node": "local:sam2:sam2-write",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-multiobject.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "AppendixD1",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#44-d-区把这次预测写进下次的条件"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-loss",
+      "key": "sam2-loss",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "掩码与存在性联合监督",
+      "subtitle": "focal/dice/IoUMAE/objectCE权重20/1/1/1；无目标时仅presence监督。",
+      "detail": "focal/dice/IoUMAE/objectCE权重20/1/1/1；无目标时仅presence监督。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-loss.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "AppendixD2",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#45-e-区训练时怎样教它别跟丢"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-longtrain",
+      "key": "sam2-longtrain",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "十六帧难例微调",
+      "subtitle": "最常编辑top50%难例，冻结图像encoder微调50k步。",
+      "detail": "最常编辑top50%难例，冻结图像encoder微调50k步。",
+      "parent_node": "local:sam2:sam2-loss",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-longtrain.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "AppendixD2.2",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#45-e-区训练时怎样教它别跟丢"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-engine",
+      "key": "sam2-engine",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "人机标注循环",
+      "subtitle": "辅助传播与人工纠正降低标注成本，难例反馈改进数据。",
+      "detail": "辅助传播与人工纠正降低标注成本，难例反馈改进数据。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-engine.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "Table1;AppendixE2",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#51-数据引擎麻烦的帧值得人来处理"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-metric",
+      "key": "sam2-metric",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "区域边界与交互预算",
+      "subtitle": "J为IoU，F为边界分数，J&F均值；3click/frame预算分在线离线。",
+      "detail": "J为IoU，F为边界分数，J&F均值；3click/frame预算分在线离线。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-metric.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "§6;Fig5;AppendixF1",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#61-先认指标再看交互曲线"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-speed",
+      "key": "sam2-speed",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "图像与视频两把秒表",
+      "subtitle": "A100图像batch10与视频batch1分别计量，不能套用吞吐。",
+      "detail": "A100图像batch10与视频batch1分别计量，不能套用吞吐。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-speed.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "Table5;AppendixD3",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#63-图片也变好了顺便把六倍快拆清楚"
+        }
+      ]
+    },
+    {
+      "id": "local:sam2:sam2-memtradeoff",
+      "key": "sam2-memtradeoff",
+      "kind": "local",
+      "paper": "sam2",
+      "title": "记忆容量取舍",
+      "subtitle": "512分辨率消融显示更多记忆不处处改善，64通道省空间。",
+      "detail": "512分辨率消融显示更多记忆不处处改善，64通道省空间。",
+      "parent_node": "paper:sam2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/sam2-memtradeoff.md",
+      "source_url": "https://arxiv.org/abs/2408.00714v2",
+      "locator": "Table9",
+      "explainers": [
+        {
+          "paper": "sam2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#72-记忆多一点就一定好一点"
+        }
+      ]
     },
     {
       "id": "local:saycan:skills",
@@ -17770,7 +20230,7 @@
       "from": "concept:generation",
       "to": "concept:vae",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:diffusion",
@@ -17788,7 +20248,7 @@
       "from": "concept:action",
       "to": "concept:quantization",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:action",
@@ -17800,7 +20260,7 @@
       "from": "concept:quantization",
       "to": "concept:rvq",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:action",
@@ -17830,7 +20290,7 @@
       "from": "concept:world",
       "to": "concept:imagination",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:world",
@@ -17854,7 +20314,7 @@
       "from": "concept:rl",
       "to": "concept:actor-critic",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:rl",
@@ -17878,7 +20338,7 @@
       "from": "concept:imitation",
       "to": "concept:bc",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:imitation",
@@ -17896,7 +20356,7 @@
       "from": "concept:imitation",
       "to": "concept:skills",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:rl",
@@ -17926,7 +20386,7 @@
       "from": "concept:data",
       "to": "concept:benchmark",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:generation",
@@ -17968,43 +20428,223 @@
       "from": "paper:act",
       "to": "local:act:vae",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:act:vae",
       "to": "concept:vae",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:act",
+      "from": "local:act:action",
       "to": "local:act:chunk",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:act:chunk",
       "to": "concept:chunk",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:act",
+      "from": "local:act:imitation",
       "to": "local:act:bc",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:act:bc",
       "to": "concept:bc",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:imitation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:transformer",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:act:transformer",
+      "to": "local:act:attention",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:act",
       "to": "local:act:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:compounding-error",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:leader-follower",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:leader-follower",
+      "to": "local:act:four-cameras",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:leader-follower",
+      "to": "local:act:servo-loop",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:leader-follower",
+      "to": "local:act:target-vs-measured",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:absolute-joints",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:absolute-joints",
+      "to": "local:act:horizon",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:horizon",
+      "to": "local:act:same-time-ensemble",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:same-time-ensemble",
+      "to": "local:act:oldest-weight",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:style-latent",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:style-latent",
+      "to": "local:act:reparameterization",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:style-latent",
+      "to": "local:act:kl-prior",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:style-latent",
+      "to": "local:act:l1-reconstruction",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:visual-tokens",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:visual-tokens",
+      "to": "local:act:observation-fusion",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:observation-fusion",
+      "to": "local:act:parallel-action-queries",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:style-latent",
+      "to": "local:act:cls-summary",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:task-protocol",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:task-protocol",
+      "to": "local:act:stage-failure",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:horizon",
+      "to": "local:act:chunk-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:act:style-latent",
+      "to": "local:act:human-variation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:act",
+      "to": "local:act:perception-bottleneck",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:agile-flight",
@@ -20563,46 +23203,160 @@
       "lit": false
     },
     {
-      "from": "paper:dreamerv3",
+      "from": "local:dreamerv3:world",
       "to": "local:dreamerv3:dynamics",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:dreamerv3:dynamics",
       "to": "concept:dynamics",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:dreamerv3",
+      "from": "local:dreamerv3:world",
       "to": "local:dreamerv3:imagination",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:dreamerv3:imagination",
       "to": "concept:imagination",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:dreamerv3",
+      "from": "local:dreamerv3:rl",
       "to": "local:dreamerv3:actor-critic",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:dreamerv3:actor-critic",
       "to": "concept:actor-critic",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:dreamerv3",
+      "to": "local:dreamerv3:world",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:world",
+      "to": "concept:world",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:dreamerv3",
+      "to": "local:dreamerv3:rl",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:dreamerv3",
       "to": "local:dreamerv3:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:dreamerv3",
+      "to": "local:dreamerv3:rssm",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:rssm",
+      "to": "local:dreamerv3:posterior-prior",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:rssm",
+      "to": "local:dreamerv3:straight",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:rssm",
+      "to": "local:dreamerv3:kl",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dreamerv3",
+      "to": "local:dreamerv3:imagined-rollout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:imagined-rollout",
+      "to": "local:dreamerv3:lambda",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:imagined-rollout",
+      "to": "local:dreamerv3:actor",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dreamerv3",
+      "to": "local:dreamerv3:symlog",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:symlog",
+      "to": "local:dreamerv3:twohot",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dreamerv3",
+      "to": "local:dreamerv3:minecraft",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:rssm",
+      "to": "local:dreamerv3:ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:imagined-rollout",
+      "to": "local:dreamerv3:scaling",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:rssm",
+      "to": "local:dreamerv3:blockgru",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dreamerv3",
+      "to": "local:dreamerv3:laprop",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dreamerv3:imagined-rollout",
+      "to": "local:dreamerv3:replay",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:dreamtrue",
@@ -22876,43 +25630,169 @@
       "from": "local:nerf:spatial",
       "to": "local:nerf:radiance",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:nerf:radiance",
       "to": "concept:radiance",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:nerf:representation",
       "to": "local:nerf:spatial",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:nerf:spatial",
       "to": "concept:spatial",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "paper:nerf",
       "to": "local:nerf:representation",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:nerf:representation",
       "to": "concept:representation",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "paper:nerf",
       "to": "local:nerf:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:scene-function",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:surface-volume",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:density",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:view-color",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:view-color",
+      "to": "local:nerf:unit-direction",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:mlp-branch",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:mlp-branch",
+      "to": "local:nerf:skip-input",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:camera-ray",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:camera-ray",
+      "to": "local:nerf:transmittance",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:transmittance",
+      "to": "local:nerf:alpha-composite",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:camera-ray",
+      "to": "local:nerf:stratified",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:fourier-coordinates",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:fourier-coordinates",
+      "to": "local:nerf:spectral-bias",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:coarse-fine",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:coarse-fine",
+      "to": "local:nerf:inverse-cdf",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:rgb-supervision",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:camera-ray",
+      "to": "local:nerf:camera-calibration",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:nerf:camera-calibration",
+      "to": "local:nerf:ndc",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:quality-metrics",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:ablation-components",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:nerf",
+      "to": "local:nerf:runtime-budget",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:octo",
@@ -23575,46 +26455,238 @@
       "lit": false
     },
     {
-      "from": "paper:rt1",
+      "from": "local:rt1:transformer",
       "to": "local:rt1:attention",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:rt1:attention",
       "to": "concept:attention",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:rt1",
+      "from": "local:rt1:action",
       "to": "local:rt1:quantization",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:rt1:quantization",
       "to": "concept:quantization",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:rt1",
+      "from": "local:rt1:data",
       "to": "local:rt1:cross-body",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:rt1:cross-body",
       "to": "concept:cross-body",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:representation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:transformer",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:cross-entropy",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:cross-entropy",
+      "to": "concept:cross-entropy",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:imitation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:imitation",
+      "to": "local:rt1:bc",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:bc",
+      "to": "concept:bc",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:data",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:sim2real",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:sim2real",
+      "to": "concept:sim2real",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:imitation",
+      "to": "local:rt1:skills",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:skills",
+      "to": "concept:skills",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rollout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:rollout",
+      "to": "concept:rollout",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:rt1",
       "to": "local:rt1:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-film",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-tokenlearner",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:rt1-tokenlearner",
+      "to": "local:rt1:rt1-history",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-action-bins",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:rt1-action-bins",
+      "to": "local:rt1:rt1-nonar",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:rt1-action-bins",
+      "to": "local:rt1:rt1-loss",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-latency",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-gen-tests",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-mixedsim",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rt1:rt1-mixedsim",
+      "to": "local:rt1:rt1-mixedbody",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-saycan",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rt1",
+      "to": "local:rt1:rt1-coverage",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:rt2",
@@ -23959,46 +27031,214 @@
       "lit": true
     },
     {
-      "from": "paper:sam2",
+      "from": "local:sam2:representation",
       "to": "local:sam2:spatial",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:sam2:spatial",
       "to": "concept:spatial",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:sam2",
+      "from": "local:sam2:transformer",
       "to": "local:sam2:attention",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:sam2:attention",
       "to": "concept:attention",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "paper:sam2",
       "to": "local:sam2:rollout",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:sam2:rollout",
       "to": "concept:rollout",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:representation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:transformer",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:cross-entropy",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:cross-entropy",
+      "to": "concept:cross-entropy",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:representation",
+      "to": "local:sam2:zero-shot",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:zero-shot",
+      "to": "concept:zero-shot",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:benchmark",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:representation",
+      "to": "local:sam2:shift",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:shift",
+      "to": "concept:shift",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:sam2",
       "to": "local:sam2:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-pvs",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-hiera",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-bank",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:sam2-bank",
+      "to": "local:sam2:sam2-ptr",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:sam2-bank",
+      "to": "local:sam2:sam2-read",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-decoder",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:sam2-decoder",
+      "to": "local:sam2:sam2-ambiguity",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:sam2-decoder",
+      "to": "local:sam2:sam2-presence",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:sam2-bank",
+      "to": "local:sam2:sam2-write",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:sam2-write",
+      "to": "local:sam2:sam2-multiobject",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-loss",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:sam2:sam2-loss",
+      "to": "local:sam2:sam2-longtrain",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-engine",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-metric",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-speed",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:sam2",
+      "to": "local:sam2:sam2-memtradeoff",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:saycan",
@@ -25308,9 +28548,9 @@
   "stats": {
     "papers": 120,
     "concepts": 59,
-    "local_topics": 810,
-    "lit_papers": 13,
-    "lit_concepts": 35,
-    "lit_local_topics": 304
+    "local_topics": 918,
+    "lit_papers": 18,
+    "lit_concepts": 43,
+    "lit_local_topics": 432
   }
 }

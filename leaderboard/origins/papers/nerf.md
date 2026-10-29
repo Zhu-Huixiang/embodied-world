@@ -36,7 +36,7 @@ Ben Mildenhall、Pratul P. Srinivasan、Matthew Tancik、Jonathan T. Barron、Ra
 
 </details>
 
-[论文导读 / 完整解读](../../../library/nerf.md) · [七维评分](../../papers/nerf/README.md) · [原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24)
+[论文导读 / 完整解读](../../../articles/nerf-2003.08934/README.md) · [七维评分](../../papers/nerf/README.md) · [原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24)
 
 ## 署名来源
 

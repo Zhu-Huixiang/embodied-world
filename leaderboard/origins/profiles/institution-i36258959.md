@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [NeRF · NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](../../../library/nerf.md) | 2020 / [ECCV](../../../venues/ECCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [92.4](../../papers/nerf/README.md) |
+| [NeRF · NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](../../../articles/nerf-2003.08934/README.md) | 2020 / [ECCV](../../../venues/ECCV/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [92.4](../../papers/nerf/README.md) |
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
 | [ExBody · Expressive Whole-Body Control for Humanoid Robots](../../../library/exbody.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [85.9](../../papers/exbody/README.md) |
 | [TD-MPC2 · TD-MPC2: Scalable, Robust World Models for Continuous Control](../../../library/td-mpc2.md) | 2024 / [ICLR](../../../venues/ICLR/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [84.7](../../papers/td-mpc2/README.md) |

@@ -42,7 +42,7 @@ Anthony Brohan、Noah Brown、Justice Carbajal、Yevgen Chebotar、Joseph Dabis�
 
 </details>
 
-[论文导读 / 完整解读](../../../library/rt1.md) · [七维评分](../../papers/rt1/README.md) · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
+[论文导读 / 完整解读](../../../articles/rt1-2212.06817/README.md) · [七维评分](../../papers/rt1/README.md) · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 
 ## 署名来源
 

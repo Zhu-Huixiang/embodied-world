@@ -24,7 +24,7 @@ SAM 2 原文直接讨论机器人时序定位需求，流式记忆把静态提�
 
 具身关联：SAM 2 原文直接讨论机器人时序定位需求，流式记忆把静态提示分割扩展到视频；正式评测含多种视频与图像分布。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/sam2-2408.00714/README.md)
 
 [知识星系](../universe/papers/sam2.md) · [七维评分与雷达](../leaderboard/papers/sam2/README.md) · [ICLR集锦](../venues/ICLR/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 

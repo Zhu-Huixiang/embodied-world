@@ -137,7 +137,8 @@
       "note": "",
       "project_url": null,
       "checked_at": "2026-10-09",
-      "editorial_status": "候选选题"
+      "editorial_status": "候选选题",
+      "article_slug": "act-2304.13705"
     },
     {
       "id": "dp3",
@@ -318,7 +319,8 @@
       "project_url": "https://danijar.com/project/dreamerv3/",
       "checked_at": "2026-10-10",
       "editorial_status": "候选选题",
-      "venue_status": "published"
+      "venue_status": "published",
+      "article_slug": "dreamerv3-2301.04104"
     },
     {
       "id": "td-mpc",
@@ -532,7 +534,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "机器人 Transformer 规模化控制路线的早期核心工作，后续 RT-2、RT-X 与通用机器人策略讨论的直接基础；有大规模真实数据、模型与数据消融。",
       "evidence_summary": "RSS 正式 PDF 与项目页给出 BC-Z、Gato 对照、数据量/数据多样性消融和真实厨房评估，证据丰富；开源模型和数据提供复用入口。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "rt1-2212.06817"
     },
     {
       "id": "saycan",
@@ -2304,7 +2307,8 @@
       "classic_exception_reason": null,
       "embodied_relevance": "SAM 2 原文直接讨论机器人时序定位需求，流式记忆把静态提示分割扩展到视频；正式评测含多种视频与图像分布。",
       "evidence_summary": "流式记忆和对象持续性问题直接，跨数据集与交互成本评估较完整，代码、模型及视频分割数据公开。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "sam2-2408.00714"
     },
     {
       "id": "nerf",
@@ -2333,7 +2337,8 @@
       "classic_exception_reason": "2020 年经典例外：连续场、体渲染和可微场景拟合是后来机器人三维特征场与场景重建的重要起点。",
       "embodied_relevance": "神经辐射场成为后续语义特征场和机器人操作地图的基础；Splat-MOVER 相关工作直接描述 NeRF 型 LERF-TOGO/F3RM 链路。",
       "evidence_summary": "表示、渲染和监督链路具有奠基价值，标准数据集对照明确，作者代码公开；后续机器人场景表示用途有公开机器人论文支撑。",
-      "selection_window": "classic_exception"
+      "selection_window": "classic_exception",
+      "article_slug": "nerf-2003.08934"
     },
     {
       "id": "gaussian-splatting",

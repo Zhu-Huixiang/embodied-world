@@ -24,7 +24,7 @@
 
 具身关联：机器人 Transformer 规模化控制路线的早期核心工作，后续 RT-2、RT-X 与通用机器人策略讨论的直接基础；有大规模真实数据、模型与数据消融。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/rt1-2212.06817/README.md)
 
 [知识星系](../universe/papers/rt1.md) · [七维评分与雷达](../leaderboard/papers/rt1/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-vla) · [首页](../README.md)
 

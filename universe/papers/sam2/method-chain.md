@@ -4,4 +4,6 @@
 
 逐帧图像特征通过记忆注意力读取之前的目标提示与掩码信息，再与当前提示一起预测本帧掩码。记忆编码器把当前预测存入记忆，下一帧继续使用；静态图像相当于记忆为空的视频。原文比较交互次数、速度以及图像和视频分割基准。
 
-[本篇星系](../sam2.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/sam2.md) · [原文依据](https://openreview.net/forum?id=Ha6RTeWMd0)
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#4-方法当前图像怎样读写对象记忆)
+
+[本篇星系](../sam2.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md) · [原文依据](https://openreview.net/forum?id=Ha6RTeWMd0)

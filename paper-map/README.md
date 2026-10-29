@@ -34,7 +34,7 @@
 | --- | --- |
 | [Dream to Control](../library/dreamer.md) · [ICLR 2020](../venues/ICLR/README.md) | RSSM 如何从观测和动作建模未来，actor 又怎样在潜空间学习？ |
 | [Mastering Atari with Discrete World Models](../library/dreamerv2.md) · [ICLR 2021](../venues/ICLR/README.md) | 离散潜变量怎样帮助世界模型预测和想象？ |
-| [Mastering diverse control tasks through world models](../library/dreamerv3.md) · [Nature 2025](../venues/Nature/README.md) | 跨任务尺度变化时，表征、价值和优化怎样保持可用？ |
+| [Mastering diverse control tasks through world models](../articles/dreamerv3-2301.04104/README.md) · [Nature 2025](../venues/Nature/README.md) | 跨任务尺度变化时，表征、价值和优化怎样保持可用？ |
 | [Temporal Difference Learning for Model Predictive Control](../library/td-mpc.md) · [ICML 2022](../venues/ICML/README.md) | 怎样学习足够用于控制的潜动力学，而省去图像重建？ |
 | [TD-MPC2](../library/td-mpc2.md) · [ICLR 2024](../venues/ICLR/README.md) | 多任务潜空间规划怎样处理不同动作空间和奖励尺度？ |
 | [Mastering Atari Games with Limited Data](../library/efficientzero.md) · [NeurIPS 2021](../venues/NeurIPS/README.md) | 只有少量交互时，潜空间树搜索为什么还需要一致性监督、价值前缀和重分析？ |
@@ -90,7 +90,7 @@
 | [OpenVLA](../library/openvla.md) · [CoRL 2024](../venues/CoRL/README.md) | 视觉特征融合、动作分箱和高效适配各自解决哪一层问题？ |
 | [RT-2](../library/rt2.md) · [CoRL 2023](../venues/CoRL/README.md) | 文字和动作一起训练，网络知识怎样影响一次操作？ |
 | [π₀.₅](../library/pi05.md) · [CoRL 2025](../venues/CoRL/README.md) | 跨本体、跨场景数据怎样变成开放环境中的长程操作？ |
-| [RT-1](../library/rt1.md) · [RSS 2023](../venues/RSS/README.md) | 大量真实机器人数据究竟需要什么策略结构才能吃进去，TokenLearner 为何是关键？ |
+| [RT-1](../articles/rt1-2212.06817/README.md) · [RSS 2023](../venues/RSS/README.md) | 大量真实机器人数据究竟需要什么策略结构才能吃进去，TokenLearner 为何是关键？ |
 | [Do As I Can, Not As I Say](../library/saycan.md) · [CoRL 2022](../venues/CoRL/README.md) | 语言模型觉得该做的事，机器人做得到吗？两个概率相乘到底解决什么？ |
 | [PaLM-E](../library/palm-e.md) · [ICML 2023](../venues/ICML/README.md) | 把传感器读数塞进语言模型的 embedding 空间，能带来怎样的机器人推理？ |
 | [Open X-Embodiment](../library/rtx.md) · [ICRA 2024](../venues/ICRA/README.md) | 不同机器人的动作坐标和观测并不一致，怎样把它们混成能产生正迁移的数据？ |
@@ -110,7 +110,7 @@
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
 | [Diffusion Policy](../articles/diffusion-policy-2303.04137/README.md) · [RSS 2023](../venues/RSS/README.md) | 为什么要对一段动作分布去噪，再滚动执行？ |
-| [ACT](../library/act.md) · [RSS 2023](../venues/RSS/README.md) | Action chunking 与时间集成怎样处理示范中的误差累积？ |
+| [ACT](../articles/act-2304.13705/README.md) · [RSS 2023](../venues/RSS/README.md) | Action chunking 与时间集成怎样处理示范中的误差累积？ |
 | [DP3](../library/dp3.md) · [RSS 2024](../venues/RSS/README.md) | 简洁点云表示怎样改变操作策略的泛化？ |
 | [Consistency Policy](../library/consistency-policy.md) · [RSS 2024](../venues/RSS/README.md) | 蒸馏怎样减少去噪步骤，保留怎样的动作分布？ |
 | [CLIPort](../library/cliport.md) · [CoRL 2021](../venues/CoRL/README.md) | CLIP 知道是什么，但不知道手该落在哪里；语义和几何怎样配合？ |
@@ -207,8 +207,8 @@
 | [DINOv2](../library/dinov2.md) · [TMLR 2024](../venues/TMLR/README.md) | 机器人视觉编码器冻结以后，哪些几何和语义信息还能留在 patch 特征里？ |
 | [Masked Autoencoders Are Scalable Vision Learners](../articles/mae-2111.06377/README.md) · [CVPR 2022](../venues/CVPR/README.md) | 遮住四分之三的图像后还原像素，怎样帮助机器人把预训练视觉特征用于控制？ |
 | [Segment Anything](../articles/sam-2304.02643/README.md) · [ICCV 2023](../venues/ICCV/README.md) | 给视觉系统一个点或框，它怎样找到目标轮廓，哪些信息还需要控制策略来补？ |
-| [SAM 2](../library/sam2.md) · [ICLR 2025](../venues/ICLR/README.md) | 目标在机器人视野里移动、遮挡后重现，过去的掩码记忆怎样帮它跟住对象？ |
-| [NeRF](../library/nerf.md) · [ECCV 2020](../venues/ECCV/README.md) | 多张照片怎样变成可以换视角查看的场景，射线上每个采样点算了什么？ |
+| [SAM 2](../articles/sam2-2408.00714/README.md) · [ICLR 2025](../venues/ICLR/README.md) | 目标在机器人视野里移动、遮挡后重现，过去的掩码记忆怎样帮它跟住对象？ |
+| [NeRF](../articles/nerf-2003.08934/README.md) · [ECCV 2020](../venues/ECCV/README.md) | 多张照片怎样变成可以换视角查看的场景，射线上每个采样点算了什么？ |
 | [3D Gaussian Splatting for Real-Time Radiance Field Rendering](../articles/gaussian-splatting-2308.04079/README.md) · [SIGGRAPH / TOG 2023](../venues/SIGGRAPH-TOG/README.md) | 把神经场换成一群可编辑高斯，为什么渲染会快，场景操作又会方便在哪里？ |
 | [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](../library/i-jepa.md) · [CVPR 2023](../venues/CVPR/README.md) | 世界模型必须把像素画出来吗，预测目标区域的 latent 会保留哪些可用信息？ |
 

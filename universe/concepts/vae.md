@@ -6,9 +6,13 @@ ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。
 
 分类上层：[条件生成](generation.md)。
 
+## 在完整解读里看计算与例子
+
+- [ACT / ALOHA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#43-cvae同一幅画面可以有不同的后续走法)
+
 ## 哪些论文用到或讨论它
 
-- [ACT / ALOHA](../papers/act.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss19/p016.html)
+- [ACT / ALOHA](../papers/act.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p016.html)
 - [DreamWaQ](../papers/dreamwaq.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/abstract/document/10161144/)
 - [LingBot-VA](../papers/lingbot-va.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss22/p016.html)
 - [JAM](../papers/jam.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.37219v1)
