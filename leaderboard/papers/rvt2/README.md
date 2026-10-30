@@ -1,6 +1,6 @@
 # RVT-2: Learning Precise Manipulation from Few Demonstrations
 
-**RVT-2** · RSS 2024 · 本版排名 56 · 综合分 **85.0 / 100**
+**RVT-2** · RSS 2024 · 本版排名 57 · 综合分 **85.0 / 100**
 
 [解读导读](../../../library/rvt2.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 

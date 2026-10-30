@@ -1,6 +1,6 @@
 # Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning
 
-**Cosmos Policy** · ICLR 2026 · 本版排名 103 · 综合分 **78.5 / 100**
+**Cosmos Policy** · ICLR 2026 · 本版排名 104 · 综合分 **78.5 / 100**
 
 [解读导读](../../../library/cosmos-policy.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 

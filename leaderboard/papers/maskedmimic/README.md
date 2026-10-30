@@ -1,6 +1,6 @@
 # MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting
 
-**MaskedMimic** · SIGGRAPH / TOG 2024 · 本版排名 67 · 综合分 **84.3 / 100**
+**MaskedMimic** · SIGGRAPH / TOG 2024 · 本版排名 69 · 综合分 **84.3 / 100**
 
 [解读导读](../../../library/maskedmimic.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 

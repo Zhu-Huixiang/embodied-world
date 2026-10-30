@@ -1,6 +1,6 @@
 # HumanPlus: Humanoid Shadowing and Imitation from Humans
 
-**HumanPlus** · CoRL 2024 · 本版排名 99 · 综合分 **80.1 / 100**
+**HumanPlus** · CoRL 2024 · 本版排名 100 · 综合分 **80.1 / 100**
 
 [解读导读](../../../library/humanplus.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 

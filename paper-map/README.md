@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 120 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 122 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -13,10 +13,10 @@
 ## 方向目录
 
 - [世界模型与模型强化学习](#track-world-model) · 15 篇
-- [世界动作模型](#track-world-action-model) · 5 篇
+- [世界动作模型](#track-world-action-model) · 6 篇
 - [视频动作模型与视觉推理](#track-video-action) · 5 篇
 - [视觉语言动作模型 VLA](#track-vla) · 16 篇
-- [操作与动作块](#track-manipulation) · 22 篇
+- [操作与动作块](#track-manipulation) · 23 篇
 - [Locomotion 与运动适应](#track-locomotion) · 19 篇
 - [动作先验与全身技能](#track-motion-priors) · 6 篇
 - [强化学习与离线决策](#track-reinforcement-learning) · 6 篇
@@ -56,10 +56,11 @@
 
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
-| [World Action Models are Zero-shot Policies](../library/dreamzero.md) · [arXiv 2026](../arxiv/README.md#paper-dreamzero) | 视频与动作共同预测，怎样支持未见任务中的控制？ |
+| [World Action Models are Zero-shot Policies](../library/dreamzero.md) · [CoRL 2026](../venues/CoRL/README.md) | 视频与动作共同预测，怎样支持未见任务中的控制？ |
 | [Cosmos Policy](../library/cosmos-policy.md) · [ICLR 2026](../venues/ICLR/README.md) | 视频生成序列怎样容纳动作、未来状态与规划信号？ |
 | [Planning with Diffusion for Flexible Behavior Synthesis](../library/diffuser.md) · [ICML 2022](../venues/ICML/README.md) | 轨迹一起去噪，如何同时承担环境建模、长时序规划与测试时加约束？ |
 | [Modality-Autoregressive World-Action Models](../library/modar.md) · [arXiv 2026](../arxiv/README.md#paper-modar) | 为什么先预测点轨迹、语义与几何，再给动作，可能比视频动作一起去噪更有效？ |
+| [TAPESTRY](../library/tapestry.md) · [CoRL 2026](../venues/CoRL/README.md) | 视频模型学会了怎样的交互规律后，机器人还必须先把未来画出来吗？能否把一个动作直接当成视频patch，只算一步就动手？ |
 | [LeWAM](../library/lewam.md) · [arXiv 2026](../arxiv/README.md#paper-lewam) | 联合表征怎样支持预测、动作生成和闭环规划？ |
 
 <a id="track-video-action"></a>
@@ -127,9 +128,10 @@
 | [MimicGen](../library/mimicgen.md) · [CoRL 2023](../venues/CoRL/README.md) | 把十条示范扩成上千条，什么时候是有用的新数据，什么时候只是机械复制？ |
 | [Behavior Generation with Latent Actions](../library/vq-bet.md) · [ICML 2024](../venues/ICML/README.md) | 动作先压成分层离散码，能否保留多种操作方式，同时省掉扩散反复采样？ |
 | [Transporter Networks](../library/transporter.md) · [CoRL 2020](../venues/CoRL/README.md) | 操作物体不一定要先识别物体？空间特征之间的匹配怎么直接长出动作？ |
-| [EgoScale](../library/egoscale.md) · [arXiv 2026](../arxiv/README.md#paper-egoscale) | 人类视频怎样变成机器人可学的手腕和手指动作，为什么大量预训练之后还要一小段人机对齐数据？ |
+| [EgoScale](../library/egoscale.md) · [CoRL 2026](../venues/CoRL/README.md) | 人类视频怎样变成机器人可学的手腕和手指动作，为什么大量预训练之后还要一小段人机对齐数据？ |
 | [Learning Force-Reactive Humanoid Loco-Manipulation](../library/flore.md) · [arXiv 2026](../arxiv/README.md#paper-flore) | 位置轨迹为什么还不够？力观测、力指令与全身控制各自解决哪一步，关闭一条通道会怎样？ |
 | [TOPS](../library/tops.md) · [arXiv 2026](../arxiv/README.md#paper-tops) | 多任务动作流为什么都要从同一个高斯出发、沿同一条直线走？换出发点和速度安排，能否少算几次网络？ |
+| [Gaussian Distillation of Flow Policies](../library/gar.md) · [arXiv 2026](../arxiv/README.md#paper-gar) | 动作流真的需要反复积分才能做得好，还是冻结内部特征后，用一个高斯读出就能保留大部分控制能力？ |
 | [Dex-One2Many](../library/dex-one2many.md) · [arXiv 2026](../arxiv/README.md#paper-dex-one2many) | 场景图怎样同时提供探索引导与不锁死姿态的泛化？ |
 
 <a id="track-locomotion"></a>
@@ -245,4 +247,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-10-29。
+元数据核对日期：2026-10-30。

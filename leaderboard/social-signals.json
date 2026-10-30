@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-29",
+  "checked_at": "2026-10-30",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -21588,6 +21588,32 @@
       ],
       "adoption_evidence": [],
       "audit_note": "精确ID/API与官方项目补查；自动摘要、索引和review不作独立技术采用。作者/实验室账号总关注不归单篇；未核X浏览量不填0。"
+    },
+    "tapestry": {
+      "checked_at": "2026-10-30T13:58:57+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "url": "https://tapestry-wam.github.io/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.36823v1",
+            "https://arxiv.org/pdf/2610.36823v1",
+            "https://tapestry-wam.github.io/"
+          ],
+          "metrics": [],
+          "availability_note": "原文项目链接及项目标题核身份；当前Code和arXiv按钮href为#，Paper为匿名Dropbox入口。不登记已公开代码或可核阅读量。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "S2限流后OpenAlex匹配计数0；HF单篇404，GitHub精确ID未定位repo，官方项目Code占位；网页结果中的作者/实验室页面和自动摘要目录不计独立技术采用。GitHub/HF/X/项目阅读量未知留null，不推算账号总量。"
+    },
+    "gar": {
+      "checked_at": "2026-10-30T13:55:26+08:00",
+      "resources": [],
+      "adoption_evidence": [],
+      "audit_note": "PDF p10写代码将公开；abs未给代码或项目URL，GitHub完整标题和精确arXiv ID各最多10结果均空。作者主页有其他论文但未定位本篇项目，不将其他项目或作者账号关注移给本篇。HF本篇404；没有可核单篇计数。"
     }
   },
   "excluded_candidates": [

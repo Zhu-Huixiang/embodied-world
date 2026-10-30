@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29",
+  "checked_at": "2026-10-30",
   "papers": [
     {
       "id": "holo-m",
@@ -357,7 +357,7 @@
       "title": "World Action Models are Zero-shot Policies",
       "track": "world-action-model",
       "year": 2026,
-      "venue": null,
+      "venue": "CoRL",
       "source_url": "https://arxiv.org/abs/2602.15922",
       "pdf_url": "https://arxiv.org/pdf/2602.15922",
       "reading_question": "视频与动作共同预测，怎样支持未见任务中的控制？",
@@ -366,7 +366,23 @@
       "project_url": "https://dreamzero0.github.io/",
       "checked_at": "2026-10-10",
       "editorial_status": "候选选题",
-      "venue_status": "preprint"
+      "venue_status": "accepted",
+      "venue_evidence_url": "https://2026.corl.org/program/accepted-papers",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Oral O2",
+        "poster_number": 51,
+        "poster_session": 1,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2602.15922",
+          "https://dreamzero0.github.io/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=Bshs9HDDiu",
+        "checked_at": "2026-10-30T13:54:15+08:00",
+        "basis": "CoRL 2026官方内嵌录用名单精确题目及OpenReview链接；arXiv原研究标题/版本历史与作者官方项目页Paper链接交叉核对。OpenReview论坛跳转浏览器验证页，未读其作者字段；录用依据为会议官方名单。"
+      }
     },
     {
       "id": "cosmos-policy",
@@ -2929,8 +2945,8 @@
       "title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
       "track": "manipulation",
       "year": 2026,
-      "venue_status": "preprint",
-      "venue": null,
+      "venue_status": "accepted",
+      "venue": "CoRL",
       "source_url": "https://arxiv.org/abs/2602.16710",
       "pdf_url": "https://arxiv.org/pdf/2602.16710v1",
       "project_url": "https://research.nvidia.com/labs/gear/egoscale/",
@@ -2968,11 +2984,27 @@
       "checked_at": "2026-10-10",
       "scope": "人类第一视角动作监督、灵巧手操作和跨本体迁移",
       "reading_question": "人类视频怎样变成机器人可学的手腕和手指动作，为什么大量预训练之后还要一小段人机对齐数据？",
-      "note": "独立原研究2602.16710；仅核到预印本。one-shot仍有100条对齐human demos/对象与aligned midtraining，不能写成单条示范裸迁移。G1下肢由独立Homie策略执行，不把上肢VLA当全身端到端控制。",
+      "note": "独立原研究2602.16710；CoRL 2026已录用。one-shot仍有100条对齐human demos/对象与aligned midtraining，不能写成单条示范裸迁移。G1下肢由独立Homie策略执行，不把上肢VLA当全身端到端控制。",
       "selection_reason": "用实机实验把human-video scaling与动作表示/本体对齐连接起来，且被N1.7实际采用；机制和代价足够清楚，适合研究性解读而非发布新闻。",
       "evidence_summary": "20854小时human wrist+retargeted hand-action supervision；flow-based VLA+DiT；aligned human–robot midtraining；22DoFSharpa手，腕部相对SE(3)，低DoF本体adapter。（§2.1–2.5/Fig1–2）；5项高灵巧实机任务，常规100robot demos/task，shirt rolling20；比较scratch、midtrain-only、human-pretrain、human-pretrain+midtrain，分别报告completion score和binary success。两seed；常规每seed10trials，bottle4实例各4trials（原文TaskIII标签与bottle描述有错配，正式精读需核图表/附录）。（§3.1–3.2/Fig3–4）；1k/2k/4k/10k/20k小时pretrain规模；平均task completion由0.30到0.71。human validation 2000episodes×20timesteps，每时刻16sample平均action；L=0.024−0.003ln(D)，R²0.9983是在测量范围内的五档拟合。（§3.3/Fig5/Eq1）",
       "embodied_relevance": "人类第一视角动作监督、灵巧手操作和跨本体迁移；人类视频怎样变成机器人可学的手腕和手指动作，为什么大量预训练之后还要一小段人机对齐数据？",
-      "editorial_status": "原文机制初读；完整解读候选"
+      "editorial_status": "原文机制初读；完整解读候选",
+      "venue_evidence_url": "https://2026.corl.org/program/accepted-papers",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Oral O5",
+        "poster_number": 54,
+        "poster_session": 2,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2602.16710",
+          "https://research.nvidia.com/labs/gear/egoscale/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=WF4X17Al2r",
+        "checked_at": "2026-10-30T13:54:15+08:00",
+        "basis": "CoRL 2026官方内嵌录用名单精确题目及OpenReview链接；arXiv原研究标题/版本历史与作者官方项目页Paper链接交叉核对。OpenReview论坛跳转浏览器验证页，未读其作者字段；录用依据为会议官方名单。"
+      }
     },
     {
       "id": "learned-dynamics-review",
@@ -3343,6 +3375,124 @@
       },
       "mechanism": "先用标准flow matching暖启动，把专家动作块沿逆流拉回噪声空间，按训练任务建立bank，再以低秩协方差高斯混合MPPCA拟合任务源。根据源/动作协方差的高斯最优输运方向识别需要扩张的轴，只在这些方向采用先慢后快插值，其他方向保留线性。固定源和schedule继续训练同一速度网络；语言selector选已知任务源。推理的一步采用依序两次网络求值的schedule-aware两半步方法，即NFE=2，不是一次前向。",
       "selection_origin": "2026-10-29每日有界扫描后，核读主文与相关附录。"
+    },
+    {
+      "id": "tapestry",
+      "short_name": "TAPESTRY",
+      "arxiv_id": "2610.36823",
+      "title": "TAPESTRY: A Single Backbone for Video Generation and Robot Control",
+      "authors": [
+        "Jeremy A. Collins",
+        "Seungjae Lee",
+        "Rachanon Wachakorn",
+        "Krishnan Srinivasan",
+        "Animesh Garg",
+        "Vitor Campagnolo Guizilini",
+        "Paarth Shah"
+      ],
+      "affiliations": [
+        "Georgia Institute of Technology",
+        "University of Maryland",
+        "Toyota Research Institute"
+      ],
+      "track": "world-action-model",
+      "published": "2026-10-27T08:23:30Z",
+      "project_url": "https://tapestry-wam.github.io/",
+      "code_url": null,
+      "scope": "视频预训练骨干直接输出动作块；视频任务泛化LIBERO协议及单平台双臂实机",
+      "reading_question": "视频模型学会了怎样的交互规律后，机器人还必须先把未来画出来吗？能否把一个动作直接当成视频patch，只算一步就动手？",
+      "selection_reason": "把动作接口直接对齐预训练视频patch，同时专门训练去视频的部署路径；用共享接口、训练分支、采样诊断、非标准视频迁移任务和实机消融检查效率与控制质量的取舍。",
+      "evidence_summary": "Table 1采用LIBERO-90有动作标签、其余四suite仅提供视频的协议，每suite100次：TAPESTRY平均按表四舍五入76%，Cosmos Policy和DreamZero各70%；不是标准全监督LIBERO榜。Table 2三实机任务各10次，28/30成功，对比从零训练DiT Diffusion Policy的15/30。Table 3三项OOD各5次，10/15对DreamZero4/15，作者报告p=.07；OOD仍有对应人类视频支持。RTX5090上16动作块84ms、9GB，对优化后5B DreamZero的3.7s，速度差同时涉及模型规模、前向次数与视频token。固定5epoch消融完整模型58%，去LayerNorm33%、独立视频/动作训练36%，不能混用收敛76%。",
+      "embodied_relevance": "直接面向机器人视觉控制，研究把视频预训练中的交互知识转成低延迟动作策略；与需要在线生成未来视频的WAM形成可检验对照。",
+      "first_author": "Jeremy A. Collins",
+      "year": 2026,
+      "venue_status": "accepted",
+      "venue": "CoRL",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36823v1",
+      "first_arxiv_submission": "2026-10-27T08:23:30Z",
+      "first_arxiv_submission_shanghai": "2026-10-27T16:23:30+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-10-30",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "",
+      "venue_evidence_url": "https://2026.corl.org/program/accepted-papers",
+      "venue_verification": {
+        "status": "accepted",
+        "conference_year": 2026,
+        "poster_session": 3,
+        "poster_number": 6,
+        "checked_at": "2026-10-30T13:59:18+08:00",
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/pdf/2610.36823v1"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=AilV1LyfXF",
+        "basis": "会议官方录用表精确题目、PDF首页CoRL 2026行与作者身份交叉核验；OpenReview为验证页，不作为已读取内容。"
+      },
+      "version_id": "2610.36823v1",
+      "updated": "2026-10-27T08:23:30Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.36823v1",
+        "section": "PDF p1 affiliations"
+      },
+      "mechanism": "把每个20维动作经64×20无偏置矩阵和无仿射LayerNorm变为2×2×16伪视频patch，复用CogVideoX-2B的patch嵌入、DiT与输出层；动作读出使用同一矩阵的转置，新增1280个参数。视频、视频加动作联合、动作独立三种扩散目标共同微调骨干；联合模式动作能看视频、视频不能看动作。部署只输入干净当前观测和文字，用零末端SNR的v预测执行一步DDIM，从16个动作token得到动作块，不生成未来视频。其低噪声抖动诊断和一步采样结论依赖所用骨干、噪声日程与参数化。",
+      "selection_origin": "2026-10-30有界检索，主文/实验及相关附录核读后收录。"
+    },
+    {
+      "id": "gar",
+      "short_name": "GAR",
+      "arxiv_id": "2610.40271",
+      "title": "Gaussian Distillation of Flow Policies",
+      "authors": [
+        "Youssef Saied",
+        "Ziyad Sheebaelhamd",
+        "Claire Vernade",
+        "François Fleuret"
+      ],
+      "affiliations": [
+        "University of Geneva",
+        "University of Tübingen",
+        "University of Technology Nuremberg",
+        "Meta FAIR"
+      ],
+      "track": "manipulation",
+      "published": "2026-10-29T15:30:20Z",
+      "project_url": null,
+      "code_url": null,
+      "scope": "预训练flow动作策略的高斯读出蒸馏；RoboCasa365与LIBERO-Long仿真",
+      "reading_question": "动作流真的需要反复积分才能做得好，还是冻结内部特征后，用一个高斯读出就能保留大部分控制能力？",
+      "selection_reason": "直接检验生成动作分布的复杂度与控制收益是否相称，并以同一教师的原多步、原单步、只预测均值、高斯对角/全协方差等对照拆开机制；提供两教师、两仿真基准、误差诊断、成本拆分和不确定度。",
+      "evidence_summary": "Table 2：RoboCasa365 50任务、每任务每策略50次，Xiaomi-Robotics-1由58.24%到对角GAR57.64%，GR00T N1.5由23.08%到21.92%；原始单步为55.76%/19.28%。Table 11：RTX4090上全策略延迟220.25→115.36ms（1.91倍）、68.01→43.30ms（1.57倍）。LIBERO-Long Xiaomi-Robotics-0为483/500→477/500。RoboCasa各读出一份拟合checkpoint；Table 13的成功差95%区间为[-2.84,1.60]/[-3.04,0.68]个百分点，描述该checkpoint/任务集内episode不确定度，不构成等效性检验。全部机器人控制实验为仿真。",
+      "embodied_relevance": "服务机器人动作块低延迟生成与可计算似然，帮助判断VLA/flow策略哪些随机性和网络计算真正影响闭环任务。",
+      "first_author": "Youssef Saied",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40271v1",
+      "first_arxiv_submission": "2026-10-29T15:30:20Z",
+      "first_arxiv_submission_shanghai": "2026-10-29T23:30:20+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-10-30",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "",
+      "version_id": "2610.40271v1",
+      "updated": "2026-10-29T15:30:20Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.40271v1",
+        "section": "PDF p1 affiliations"
+      },
+      "mechanism": "GAR冻结原策略的视觉语言骨干和动作Transformer，把固定噪声在t=0的一次前向特征接给小读出：仿射修正预测连续动作均值，池化后128单元MLP预测方差或Cholesky因子，另一仿射头预测离散命令的伯努利概率。训练目标来自已部署教师反复采样的经验矩与命令频率，均值用最小二乘，协方差用按坐标归一的误差及对数方差项，离散命令用交叉熵。推理直接采样高斯连续动作和独立伯努利命令，不再积分速度场；可写闭式动作似然。论文先检验固定观测下教师平移/旋转分布的高斯近似，再检查控制表现和近似的代价。",
+      "selection_origin": "2026-10-30有界检索，主文/实验及相关附录核读后收录。"
     },
     {
       "arxiv_id": "2610.12470",

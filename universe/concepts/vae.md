@@ -16,6 +16,7 @@ ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。
 - [DreamWaQ](../papers/dreamwaq.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/abstract/document/10161144/)
 - [LingBot-VA](../papers/lingbot-va.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss22/p016.html)
 - [JAM](../papers/jam.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.37219v1)
+- [TAPESTRY](../papers/tapestry.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.36823v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

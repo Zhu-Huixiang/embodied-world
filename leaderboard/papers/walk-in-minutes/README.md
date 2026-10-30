@@ -1,6 +1,6 @@
 # Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning
 
-**Legged Gym** · CoRL 2021 · 本版排名 77 · 综合分 **83.2 / 100**
+**Legged Gym** · CoRL 2021 · 本版排名 79 · 综合分 **83.2 / 100**
 
 [解读导读](../../../library/walk-in-minutes.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 

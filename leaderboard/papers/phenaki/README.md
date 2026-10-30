@@ -1,6 +1,6 @@
 # Phenaki: Variable Length Video Generation From Open Domain Textual Descriptions
 
-**Phenaki** · ICLR 2023 · 本版排名 80 · 综合分 **82.6 / 100**
+**Phenaki** · ICLR 2023 · 本版排名 82 · 综合分 **82.6 / 100**
 
 [解读导读](../../../library/phenaki.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [ICLR集锦](../../../venues/ICLR/README.md)
 

@@ -15,6 +15,7 @@ DiT 是网络结构，训练目标及采样器仍要分别说明。
 - [DiT](../papers/dit.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html)
 - [ModAR](../papers/modar.md) · 机制导读 · [原文](https://arxiv.org/abs/2609.17524v1)
 - [GR00T N1](../papers/gr00t-n1.md) · 机制导读 · [原文](https://arxiv.org/abs/2503.14734)
+- [TAPESTRY](../papers/tapestry.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.36823v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

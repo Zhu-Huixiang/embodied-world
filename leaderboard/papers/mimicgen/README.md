@@ -1,6 +1,6 @@
 # MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations
 
-**MimicGen** · CoRL 2023 · 本版排名 63 · 综合分 **84.5 / 100**
+**MimicGen** · CoRL 2023 · 本版排名 65 · 综合分 **84.5 / 100**
 
 [解读导读](../../../library/mimicgen.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

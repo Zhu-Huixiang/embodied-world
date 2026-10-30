@@ -1,6 +1,6 @@
 # TD-MPC2: Scalable, Robust World Models for Continuous Control
 
-**TD-MPC2** · ICLR 2024 · 本版排名 61 · 综合分 **84.7 / 100**
+**TD-MPC2** · ICLR 2024 · 本版排名 62 · 综合分 **84.7 / 100**
 
 [解读导读](../../../library/td-mpc2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 

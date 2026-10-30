@@ -1,6 +1,6 @@
 # A review of learning-based dynamics models for robotic manipulation
 
-**Dynamics Review** · Sci. Robot. 2025 · 本版排名 95 · 综合分 **80.3 / 100**
+**Dynamics Review** · Sci. Robot. 2025 · 本版排名 97 · 综合分 **80.3 / 100**
 
 [解读导读](../../../library/learned-dynamics-review.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 

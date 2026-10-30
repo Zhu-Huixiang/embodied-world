@@ -2,15 +2,24 @@
 
 找值得追的新工作：先看问题和贡献，再看对照、闭环实验与署名。重点实验室优先进入阅读队列；机构名字不替方法拿分。
 
-最近扫描：**2026-10-09T18:28:55+08:00**（Asia/Shanghai）。2路查询各取最新 60 条，窗口 7 天；该轮合并后 91 篇方向候选。下列为历次保留的 12 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
+最近扫描：**2026-10-30T13:46:20+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 142 篇方向候选。下列为历次保留的 14 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
 
 收录日期按 arXiv 首次提交时间转换到上海日期；更新版本合并旧卡片。首次提交与本文收录时间分别列出。每日上海08:30启动新论文检索与初读筛选；没有合格新增也正常。
+
+## [2026-10-29](2026/10/29.md)
+
+<a id="paper-gar"></a>
+
+- [Gaussian Distillation of Flow Policies](../library/gar.md) — University of Geneva, University of Tübingen, University of Technology Nuremberg
 
 ## [2026-10-27](2026/10/27.md)
 
 <a id="paper-jam"></a>
 
 - [Vision-Language-Action or World-Action? Just Action Models](../library/jam.md) — The University of Tokyo, National Institute of Informatics
+<a id="paper-tapestry"></a>
+
+- [TAPESTRY: A Single Backbone for Video Generation and Robot Control](../library/tapestry.md) — Georgia Institute of Technology, University of Maryland, Toyota Research Institute
 <a id="paper-tops"></a>
 
 - [TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation](../library/tops.md) — MARS Lab, Nanyang Technological University
@@ -54,14 +63,6 @@
 ## 其他已收录预印本
 
 这些工作已在地图和榜单中，保留原文与导读入口。
-
-<a id="paper-dreamzero"></a>
-
-- [World Action Models are Zero-shot Policies](../library/dreamzero.md) · 2026 · [arXiv原文](https://arxiv.org/abs/2602.15922)
-
-<a id="paper-egoscale"></a>
-
-- [EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](../library/egoscale.md) · 2026 · [arXiv原文](https://arxiv.org/abs/2602.16710)
 
 <a id="paper-holo-m"></a>
 

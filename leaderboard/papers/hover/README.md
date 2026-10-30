@@ -1,6 +1,6 @@
 # HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots
 
-**HOVER** · ICRA 2025 · 本版排名 100 · 综合分 **79.6 / 100**
+**HOVER** · ICRA 2025 · 本版排名 101 · 综合分 **79.6 / 100**
 
 [解读导读](../../../library/hover.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
 

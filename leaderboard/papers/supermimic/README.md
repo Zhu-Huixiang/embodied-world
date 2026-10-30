@@ -1,6 +1,6 @@
 # SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model
 
-**SuperMimic** · CoRL 2026 · 本版排名 104 · 综合分 **78.1 / 100**
+**SuperMimic** · CoRL 2026 · 本版排名 105 · 综合分 **78.1 / 100**
 
 [解读导读](../../../library/supermimic.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [CoRL集锦](../../../venues/CoRL/README.md)
 

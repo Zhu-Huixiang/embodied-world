@@ -1,6 +1,6 @@
 # VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
 
-**VIP** · ICLR 2023 · 本版排名 66 · 综合分 **84.4 / 100**
+**VIP** · ICLR 2023 · 本版排名 68 · 综合分 **84.4 / 100**
 
 [解读导读](../../../library/vip.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [ICLR集锦](../../../venues/ICLR/README.md)
 

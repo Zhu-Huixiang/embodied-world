@@ -1,6 +1,6 @@
 # Mastering Atari Games with Limited Data
 
-**EfficientZero** · NeurIPS 2021 · 本版排名 81 · 综合分 **82.5 / 100**
+**EfficientZero** · NeurIPS 2021 · 本版排名 83 · 综合分 **82.5 / 100**
 
 [解读导读](../../../library/efficientzero.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 

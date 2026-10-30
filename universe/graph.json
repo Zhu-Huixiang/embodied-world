@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-30T01:59:24+08:00",
+  "checked_at": "2026-10-30",
   "nodes": [
     {
       "id": "paper:act",
@@ -1004,6 +1004,31 @@
       "source_url": "https://iclr.cc/virtual/2023/poster/11309"
     },
     {
+      "id": "paper:gar",
+      "key": "gar",
+      "kind": "paper",
+      "title": "GAR",
+      "subtitle": "Gaussian Distillation of Flow Policies",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/gar.md",
+      "concepts": [
+        "distill",
+        "flow",
+        "generation",
+        "action",
+        "chunk",
+        "transformer",
+        "imitation",
+        "benchmark",
+        "rollout"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.40271v1"
+    },
+    {
       "id": "paper:gaussian-splatting",
       "key": "gaussian-splatting",
       "kind": "paper",
@@ -1973,6 +1998,30 @@
       "source_url": "https://arxiv.org/abs/2610.28480"
     },
     {
+      "id": "paper:tapestry",
+      "key": "tapestry",
+      "kind": "paper",
+      "title": "TAPESTRY",
+      "subtitle": "TAPESTRY: A Single Backbone for Video Generation and Robot Control",
+      "track": "world-action-model",
+      "track_label": "世界动作模型",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/tapestry.md",
+      "concepts": [
+        "diffusion",
+        "dit",
+        "vae",
+        "action",
+        "chunk",
+        "imitation",
+        "benchmark",
+        "shift"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.36823v1"
+    },
+    {
       "id": "paper:td-mpc",
       "key": "td-mpc",
       "kind": "paper",
@@ -2676,7 +2725,8 @@
         "clip",
         "sam2",
         "jam",
-        "tops"
+        "tops",
+        "tapestry"
       ],
       "explainers": [
         {
@@ -2815,7 +2865,8 @@
         "act",
         "rt1",
         "attention",
-        "sam2"
+        "sam2",
+        "gar"
       ],
       "explainers": [
         {
@@ -3046,6 +3097,7 @@
         "dino",
         "dinov2",
         "hover",
+        "gar",
         "balanced-data-diet"
       ],
       "explainers": [
@@ -3095,7 +3147,8 @@
         "edm",
         "flow-matching",
         "rectified-flow",
-        "consistency-models"
+        "consistency-models",
+        "gar"
       ],
       "explainers": [
         {
@@ -3138,7 +3191,8 @@
         "latent-diffusion",
         "edm",
         "video-diffusion",
-        "flore"
+        "flore",
+        "tapestry"
       ],
       "explainers": [
         {
@@ -3178,7 +3232,8 @@
         "gr00t-n1",
         "egoscale",
         "jam",
-        "tops"
+        "tops",
+        "gar"
       ],
       "explainers": []
     },
@@ -3196,7 +3251,8 @@
       "papers": [
         "dit",
         "modar",
-        "gr00t-n1"
+        "gr00t-n1",
+        "tapestry"
       ],
       "explainers": [
         {
@@ -3220,7 +3276,8 @@
         "act",
         "dreamwaq",
         "lingbot-va",
-        "jam"
+        "jam",
+        "tapestry"
       ],
       "explainers": [
         {
@@ -3274,6 +3331,8 @@
         "flore",
         "jam",
         "tops",
+        "tapestry",
+        "gar",
         "arc",
         "plaw-vla"
       ],
@@ -3315,7 +3374,9 @@
         "ddpm",
         "flore",
         "jam",
-        "tops"
+        "tops",
+        "tapestry",
+        "gar"
       ],
       "explainers": [
         {
@@ -3791,7 +3852,9 @@
         "cliport",
         "humanplus",
         "flore",
-        "tops"
+        "tops",
+        "tapestry",
+        "gar"
       ],
       "explainers": [
         {
@@ -4075,7 +4138,9 @@
         "vc1",
         "sam2",
         "jam",
-        "tops"
+        "tops",
+        "tapestry",
+        "gar"
       ],
       "explainers": [
         {
@@ -4131,7 +4196,8 @@
         "walk-in-the-park",
         "sam2",
         "ctrl-world",
-        "diffcontact"
+        "diffcontact",
+        "gar"
       ],
       "explainers": [
         {
@@ -11424,6 +11490,411 @@
       "explainers": []
     },
     {
+      "id": "local:gar:distill",
+      "key": "distill",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "distill",
+      "title": "教师学生蒸馏",
+      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
+      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/distill.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "local:gar:generation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/flow.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:generation",
+      "key": "generation",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "generation",
+      "title": "条件生成",
+      "subtitle": "从一个条件生成多个可能输出，学习图像、视频或动作的分布而非只给一个均值。",
+      "detail": "条件可以是当前图、语言、目标状态或历史。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/generation.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/action.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:gar:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/chunk.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/transformer.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/imitation.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:rollout",
+      "key": "rollout",
+      "kind": "local",
+      "paper": "gar",
+      "canonical": "rollout",
+      "title": "闭环滚动与历史偏移",
+      "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
+      "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/rollout.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "gar",
+      "title": "本篇方法链路",
+      "subtitle": "GAR冻结原策略的视觉语言骨干和动作Transformer，把固定噪声在t=0的一次前向特征接给小读出：仿射修正预测连续动作均值，池化后128单元MLP预测方差或Cholesky因子，另一仿射头预测离散命令的伯努利概率。训练目标来自已部署教师反复采样的经验矩与命令频率，均值用最小二乘，协方差用按坐标归一的误差及对数方差项，离散命令用交叉熵。推理直接采样高斯连续动作和独立伯努利命令，不再积分速度场；可写闭式动作似然。论文先检验固定观测下教师平移/旋转分布的高斯近似，再检查控制表现和近似的代价。",
+      "detail": "GAR冻结原策略的视觉语言骨干和动作Transformer，把固定噪声在t=0的一次前向特征接给小读出：仿射修正预测连续动作均值，池化后128单元MLP预测方差或Cholesky因子，另一仿射头预测离散命令的伯努利概率。训练目标来自已部署教师反复采样的经验矩与命令频率，均值用最小二乘，协方差用按坐标归一的误差及对数方差项，离散命令用交叉熵。推理直接采样高斯连续动作和独立伯努利命令，不再积分速度场；可写闭式动作似然。论文先检验固定观测下教师平移/旋转分布的高斯近似，再检查控制表现和近似的代价。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.40271v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:objective",
+      "key": "objective",
+      "kind": "local",
+      "paper": "gar",
+      "title": "动作分布的复杂度与控制代价",
+      "subtitle": "检验已训练flow策略是否需要多步生成其条件动作分布。",
+      "detail": "以同一教师的完整采样、原始单步、均值读出和随机高斯读出对照；目标是保留控制能力并减少动作网络调用，而非训练新骨干。",
+      "parent_node": "paper:gar",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/objective.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§1–2; PDF pp1–2",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:gaussian-test",
+      "key": "gaussian-test",
+      "kind": "local",
+      "paper": "gar",
+      "title": "固定观测下的高斯近似",
+      "subtitle": "给定同一观测，分组拟合教师动作样本并与留出样本比较。",
+      "detail": "每教师300个context、每个1024样本分512拟合/512留出；平移与旋转各16×3=48维，单独测相对sliced W1，并用高斯重采样给有限样本基线。",
+      "parent_node": "local:gar:objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/gaussian-test.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§3; Fig.2; Appendix D.1–D.2; PDF pp3,20–22",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:mean-identity",
+      "key": "mean-identity",
+      "kind": "local",
+      "paper": "gar",
+      "title": "零时刻速度场与条件均值",
+      "subtitle": "理想线性flow的零时刻一单位Euler步给出条件均值。",
+      "detail": "令m_t=(1-t)ε+tm，t=0时ε与目标m独立，故ε+v(ε,0|c)=E[m|c]；该均值恒等式本身不要求高斯，有限步教师的经验终点仍需另拟合。",
+      "parent_node": "local:gar:objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/mean-identity.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§4.1; Eq.2–3; Appendix A.1; PDF pp4,13–14",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:variance",
+      "key": "variance",
+      "kind": "local",
+      "paper": "gar",
+      "title": "方差与内部特征",
+      "subtitle": "零时刻速度输出不含方差，GAR从内部特征学习方差。",
+      "detail": "对角高斯模型的中间时刻速度可确定方差；t=0的α=-1，方差消失。接近时间点的内部特征相似为读出提供动机，最终以经验矩预测误差检验，不声称单次t=0速度能精确恢复方差。",
+      "parent_node": "local:gar:mean-identity",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/variance.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§4.1–4.2; Eq.4–5,8–9; Appendix A.2; PDF pp4–5,15",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:frozen-path",
+      "key": "frozen-path",
+      "kind": "local",
+      "paper": "gar",
+      "title": "冻结骨干的一次前向",
+      "subtitle": "图像、指令和机器人状态经冻结教师产生动作读出特征。",
+      "detail": "固定噪声ε*与t=0输入动作Transformer；均值、协方差和命令头共用最终速度投影之前的特征，教师参数保持冻结。",
+      "parent_node": "local:gar:objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/frozen-path.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§4.2; Fig.3; Eq.6–7; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:heads",
+      "key": "heads",
+      "kind": "local",
+      "paper": "gar",
+      "title": "均值与协方差读出",
+      "subtitle": "仿射均值修正与池化MLP分别预测动作矩。",
+      "detail": "均值头修正教师单步输出；协方差头跨动作位置池化、使用128单元GELU隐藏层。对角版本输出正方差，全协方差版本输出正对角Cholesky因子。RoboCasa Xiaomi连续维160，GR00T为144变化维及16固定零维。",
+      "parent_node": "local:gar:frozen-path",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/heads.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§4.2; Appendix C.1–C.2; PDF pp5,17",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:binary",
+      "key": "binary",
+      "kind": "local",
+      "paper": "gar",
+      "title": "离散命令的probit读出",
+      "subtitle": "把夹爪等二元命令表示为伯努利概率。",
+      "detail": "仿射头给潜在高斯均值η，固定方差1；z≥0取1，概率为标准正态CDF Φ(η)。各命令之间及连续/离散动作之间采用条件独立。",
+      "parent_node": "local:gar:frozen-path",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/binary.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§4.2; Eq.10–11; Appendix C.2,Eq.21–22; PDF pp5,17–18",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:teacher-targets",
+      "key": "teacher-targets",
+      "kind": "local",
+      "paper": "gar",
+      "title": "教师采样目标与数据划分",
+      "subtitle": "从已部署教师采样估计经验均值、协方差与命令频率。",
+      "detail": "Human300每任务5示范×4状态，合6000拟合context；600调参与600矩评估context来自各自独立示范。每context384教师样本构建目标；协方差向对角收缩5%并做特征值下限。",
+      "parent_node": "local:gar:heads",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/teacher-targets.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "Appendix C.1–C.2; Eq.23; PDF pp17–18",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:losses",
+      "key": "losses",
+      "kind": "local",
+      "paper": "gar",
+      "title": "三种读出目标与训练",
+      "subtitle": "分别拟合均值、协方差与离散概率，保留坐标尺度。",
+      "detail": "均值最小二乘；协方差以各坐标平均目标方差归一后拟合，并加权重0.1的对数方差比误差；命令头对教师频率做BCE。协方差目标以教师经验均值居中，不用学生均值误差膨胀它。",
+      "parent_node": "local:gar:teacher-targets",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/losses.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§4.2; Appendix C.2; Eq.24–27; PDF pp5,18–19",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:preparation",
+      "key": "preparation",
+      "kind": "local",
+      "paper": "gar",
+      "title": "0.02%状态背后的准备成本",
+      "subtitle": "小拟合状态比例和总教师计算量分别计量。",
+      "detail": "6000/26612851约0.02%；完整7200-context缓存每个512样本，共3686400教师动作块。Xiaomi读出拟合114.8秒另计于教师采样/特征提取；准备记录含2.71小时示范数据下载及3.84 GPU小时，不称两分钟完成全部蒸馏。",
+      "parent_node": "local:gar:teacher-targets",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/preparation.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "Appendix C.1,C.4; PDF pp17,19–20",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:sampling",
+      "key": "sampling",
+      "kind": "local",
+      "paper": "gar",
+      "title": "一步采样与闭式似然",
+      "subtitle": "一次动作网络前向后直接采样动作块，无速度积分。",
+      "detail": "连续动作从N(μ,Σ)抽取，离散命令从独立伯努利抽取；高斯密度乘各伯努利概率是闭式似然，可给其他候选动作打分而不再次调用网络。",
+      "parent_node": "local:gar:heads",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/sampling.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§4.2; Eq.10–11; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:control",
+      "key": "control",
+      "kind": "local",
+      "paper": "gar",
+      "title": "两教师与两仿真基准",
+      "subtitle": "比较任务成功率与原始单步、均值及协方差选择。",
+      "detail": "RoboCasa50任务每策略2500episode；Xiaomi58.24→57.64%、GR00T23.08→21.92%。LIBERO-Long第三个教师checkpoint为483/500→477/500，原单步480/500；全部为仿真。",
+      "parent_node": "local:gar:sampling",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/control.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§5.2; Table 2; Appendix B,F.5; Table 18; PDF pp7,16,31–32",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:latency",
+      "key": "latency",
+      "kind": "local",
+      "paper": "gar",
+      "title": "动作网络次数与全策略延迟",
+      "subtitle": "动作网络5/4次减为1次，视觉语言骨干时间仍保留。",
+      "detail": "RTX4090三session全策略延迟Xiaomi220.25→115.36ms，GR00T68.01→43.30ms；包括预处理、传输、骨干、动作生成与CPU解码，排除通信、排队、模拟器与加载。",
+      "parent_node": "local:gar:sampling",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/latency.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "Appendix F.1; Table 11; PDF p28",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:uncertainty",
+      "key": "uncertainty",
+      "kind": "local",
+      "paper": "gar",
+      "title": "成功率差的不确定度",
+      "subtitle": "区分当前任务/checkpoint内episode变动与跨拟合变动。",
+      "detail": "对角GAR减教师的95%区间Xiaomi[-2.84,1.60]、GR00T[-3.04,0.68]个百分点；主要表每策略只有一份拟合checkpoint，区间含零不证明实际等效。",
+      "parent_node": "local:gar:control",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/uncertainty.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "Appendix F.2; Table 13; Appendix H; PDF pp29,35",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:shape-moment",
+      "key": "shape-moment",
+      "kind": "local",
+      "paper": "gar",
+      "title": "分布形状与矩预测误差",
+      "subtitle": "昂贵在线教师统计把形状近似和矩读出误差拆开。",
+      "detail": "固定起点诊断每步256教师样本，统一二元命令规则；修正GR00T均值时mean-only提升3.58个百分点，而随机GAR提升区间仍跨零。对角/全协方差、固定/条件协方差并非越复杂任务成功率越高。",
+      "parent_node": "local:gar:control",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/shape-moment.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§5.3; Table 3; Appendix F.3–F.4; Tables 15–17; PDF pp8,29–31",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:feedback-diversity",
+      "key": "feedback-diversity",
+      "kind": "local",
+      "paper": "gar",
+      "title": "单峰动作与多路径闭环行为",
+      "subtitle": "状态反馈能让每步单峰策略形成多条完整轨迹。",
+      "detail": "手工二维例展示逻辑可能性；六个RoboCasa固定场景每策略每场景32次。GAR成功13/192、教师12/192，且first-object熵更低；出现不同成功顺序不等于保留教师整体多样性。",
+      "parent_node": "local:gar:sampling",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/feedback-diversity.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "§5.4; Appendix G; Figs.11–12; Table 19; PDF pp9,32–34",
+      "explainers": []
+    },
+    {
+      "id": "local:gar:limits",
+      "key": "limits",
+      "kind": "local",
+      "paper": "gar",
+      "title": "近似模型与迁移边界",
+      "subtitle": "控制表现、完整动作分布和真实机器人泛化分别评价。",
+      "detail": "高斯性测量分离平移与旋转，未包含所有joint依赖；对角模型去掉连续相关，两种读出均去掉离散相关。所有机器人实验为仿真，主要成功区间不含新任务和重复拟合变化。",
+      "parent_node": "local:gar:control",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/limits.md",
+      "source_url": "https://arxiv.org/pdf/2610.40271v1",
+      "locator": "Appendix D,H; PDF pp20–22,35",
+      "explainers": []
+    },
+    {
       "id": "local:gaussian-splatting:radiance",
       "key": "radiance",
       "kind": "local",
@@ -18434,6 +18905,351 @@
       "explainers": []
     },
     {
+      "id": "local:tapestry:diffusion",
+      "key": "diffusion",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "diffusion",
+      "title": "扩散去噪",
+      "subtitle": "训练网络从带噪对象估计噪声或干净目标，生成时从噪声开始迭代恢复样本。",
+      "detail": "扩散采样步骤和机器人环境时间步是两种时间。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/diffusion.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:dit",
+      "key": "dit",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "dit",
+      "title": "Diffusion Transformer",
+      "subtitle": "用 Transformer 实现扩散模型的去噪网络，使 token 之间交换条件与目标信息。",
+      "detail": "DiT 是网络结构，训练目标及采样器仍要分别说明。",
+      "parent_node": "local:tapestry:diffusion",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/dit.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:vae",
+      "key": "vae",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "vae",
+      "title": "变分自编码器 VAE",
+      "subtitle": "编码器描述潜变量分布，解码器从潜变量重建样本，用重建与分布正则共同训练。",
+      "detail": "ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/vae.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/action.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:tapestry:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/chunk.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/imitation.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:shift",
+      "key": "shift",
+      "kind": "local",
+      "paper": "tapestry",
+      "canonical": "shift",
+      "title": "分布偏移",
+      "subtitle": "测试场景的画风、视角、背景或对象组合发生变化，模型习惯的视觉线索随之改变。",
+      "detail": "CLIP Fig.7 横向匹配常规分数，再看偏移分布的高度。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/shift.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "本篇方法链路",
+      "subtitle": "把每个20维动作经64×20无偏置矩阵和无仿射LayerNorm变为2×2×16伪视频patch，复用CogVideoX-2B的patch嵌入、DiT与输出层；动作读出使用同一矩阵的转置，新增1280个参数。视频、视频加动作联合、动作独立三种扩散目标共同微调骨干；联合模式动作能看视频、视频不能看动作。部署只输入干净当前观测和文字，用零末端SNR的v预测执行一步DDIM，从16个动作token得到动作块，不生成未来视频。其低噪声抖动诊断和一步采样结论依赖所用骨干、噪声日程与参数化。",
+      "detail": "把每个20维动作经64×20无偏置矩阵和无仿射LayerNorm变为2×2×16伪视频patch，复用CogVideoX-2B的patch嵌入、DiT与输出层；动作读出使用同一矩阵的转置，新增1280个参数。视频、视频加动作联合、动作独立三种扩散目标共同微调骨干；联合模式动作能看视频、视频不能看动作。部署只输入干净当前观测和文字，用零末端SNR的v预测执行一步DDIM，从16个动作token得到动作块，不生成未来视频。其低噪声抖动诊断和一步采样结论依赖所用骨干、噪声日程与参数化。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.36823v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:interface",
+      "key": "interface",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "把动作当成一个视频patch",
+      "subtitle": "将每个动作先对齐视频VAE的patch输入，再复用预训练tokenizer。",
+      "detail": "20维动作经64×20矩阵、无仿射LayerNorm形成2×2×16伪patch；同一个预训练patchifier把它送入DiT，一个时刻只用一个token。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/interface.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§2.1; Fig.1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:readout",
+      "key": "readout",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "复用视频输出层和转置读出",
+      "subtitle": "动作读出使用预训练unembedding，再通过输入矩阵的转置回到动作空间。",
+      "detail": "动作接口新增参数只有64×20=1280；W、patch嵌入/输出与DiT共同微调，VAE和T5-XXL冻结。转置读出不是保证精确逆变换。",
+      "parent_node": "local:tapestry:interface",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/readout.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§2.1–2.2",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:observation",
+      "key": "observation",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "干净观测和文字前缀",
+      "subtitle": "当前摄像头图像与指令提供不加噪声的条件。",
+      "detail": "当前帧沿时间轴复制后进入冻结3D VAE与patchifier；最多三路摄像头，文字由冻结T5-XXL编码，未来视频与动作另按训练模式加噪。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/observation.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§2; §2.4",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:three-objectives",
+      "key": "three-objectives",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "三种训练目标共用一个骨干",
+      "subtitle": "视频生成、联合生成和动作独立去噪分别承担迁移、耦合和部署匹配。",
+      "detail": "无动作视频只做视频扩散；有动作样本以0.5概率做联合模式，否则同时做视频与动作独立模式。视频/动作损失权重0.1/1。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/three-objectives.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§2.2; Eq.1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:asymmetric-mask",
+      "key": "asymmetric-mask",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "动作看视频，视频不看动作",
+      "subtitle": "联合扩散通过非对称注意力让动作利用视觉上下文。",
+      "detail": "视频与动作使用相同扩散时刻和AdaLN；动作可关注文字、观测、视频，视频不能关注动作，保持视频分支的数据路径。",
+      "parent_node": "local:tapestry:three-objectives",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/asymmetric-mask.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§2.2; Fig.1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:deployment-match",
+      "key": "deployment-match",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "把去视频部署路径也练到",
+      "subtitle": "训练时单独练动作分支，部署才能删除未来视频。",
+      "detail": "固定5epoch仅联合训练的模型在推理生成视频时达到78%，改为动作独立推理会失败；不能训练时依赖视频、部署时直接删掉。",
+      "parent_node": "local:tapestry:three-objectives",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/deployment-match.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§2.2; §4.4; Appendix C; Table 6",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:one-step",
+      "key": "one-step",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "零末端SNR下的一步DDIM",
+      "subtitle": "特定日程和v预测使完全噪声端点的目标变为负的干净动作token。",
+      "detail": "末端alpha_bar=0，xT=epsilon，预测x0=-v_theta(epsilon,T,c)；只一次前向，16动作token输出动作块，不调用未来视频生成和VAE解码。",
+      "parent_node": "local:tapestry:deployment-match",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/one-step.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§2.3; Eq.2; Appendix G.1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:jitter",
+      "key": "jitter",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "多步去噪为何越修越抖",
+      "subtitle": "用二阶有限差分测动作抖动，并用teacher forcing区分输入偏离与模型输出偏差。",
+      "detail": "50个验证动作块在低噪声时刻的预测抖动增大；t=99的均值0.284对GT0.166，单步t=999为0.152。调度器等控制支持作者诊断；视频频谱测的是像素，不是VAE latent。",
+      "parent_node": "local:tapestry:one-step",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/jitter.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§3; Fig.2; Appendix G.3–G.10",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:conditional-mean",
+      "key": "conditional-mean",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "一步条件均值的多模态代价",
+      "subtitle": "一步MSE预测近似条件均值，多解动作可能因此被平均。",
+      "detail": "两个相同羊角包的有限探针8/10成功、每次选择一个目标，但只覆盖这一个对称任务；不能据此推成普遍多峰动作分布的保证。",
+      "parent_node": "local:tapestry:one-step",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/conditional-mean.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "Appendix G.1,G.9",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:libero-video",
+      "key": "libero-video",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "只看目标任务视频的LIBERO协议",
+      "subtitle": "动作监督只来自LIBERO-90，评价任务在训练时仅作为视频出现。",
+      "detail": "四suite各100rollout，TAPESTRY55/95/87/65，平均报告76%；Cosmos和DreamZero平均70。和标准全监督LIBERO成绩分开，优势在不同suite并不一致。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/libero-video.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§4.1; Table 1",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:real-manipulation",
+      "key": "real-manipulation",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "三项双臂实机与组件消融",
+      "subtitle": "用工具箱、烤箱和玉米任务检查完整操作成功。",
+      "detail": "每任务10次，TAPESTRY28/30，DP15/30，去大规模视频20/30、再去视频目标19/30；部分子任务通过不当全任务成功。",
+      "parent_node": "paper:tapestry",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/real-manipulation.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§4.2; Table 2; Appendix B",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:ood",
+      "key": "ood",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "带视频支持的OOD迁移",
+      "subtitle": "分别改变物体位置、动作原语和物体组合。",
+      "detail": "各5次共15次，TAPESTRY10/15、DreamZero4/15；p=.07，样本较少。附录E仍给OOD提供对应人类视频，不能称完全零样本。",
+      "parent_node": "local:tapestry:real-manipulation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/ood.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§4.2; Table 3; Appendix B,E",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:cost",
+      "key": "cost",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "少token、少前向和小骨干的共同成本收益",
+      "subtitle": "延迟需同时看动作块长度、模型规模和前向次数。",
+      "detail": "RTX5090上16动作84ms/9GB；优化DreamZero5B为3.7s且4次前向，TAPESTRY2B为1次。训练32H200，75k预训练+25k微调。",
+      "parent_node": "local:tapestry:one-step",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/cost.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§4.3; Appendix D; Table 7",
+      "explainers": []
+    },
+    {
+      "id": "local:tapestry:ablation-budget",
+      "key": "ablation-budget",
+      "kind": "local",
+      "paper": "tapestry",
+      "title": "固定5epoch的组件比较",
+      "subtitle": "把接口和训练配方在同一有限预算下拆开。",
+      "detail": "完整58、无LN33、独立视频/动作36、纯动作0、从零13、绕过patchifier数值发散；联合训练加视频推理78需要额外视频生成。这里58与收敛主表76属于不同训练预算。",
+      "parent_node": "local:tapestry:three-objectives",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/tapestry/ablation-budget.md",
+      "source_url": "https://arxiv.org/pdf/2610.36823v1",
+      "locator": "§4.4; Appendix C; Table 6",
+      "explainers": []
+    },
+    {
       "id": "local:td-mpc:dynamics",
       "key": "dynamics",
       "kind": "local",
@@ -24013,6 +24829,222 @@
       "lit": false
     },
     {
+      "from": "paper:gar",
+      "to": "local:gar:distill",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:distill",
+      "to": "concept:distill",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:gar:generation",
+      "to": "local:gar:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:generation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:generation",
+      "to": "concept:generation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:gar:action",
+      "to": "local:gar:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:transformer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:rollout",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:rollout",
+      "to": "concept:rollout",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:gar",
+      "to": "local:gar:objective",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:objective",
+      "to": "local:gar:gaussian-test",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:objective",
+      "to": "local:gar:mean-identity",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:mean-identity",
+      "to": "local:gar:variance",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:objective",
+      "to": "local:gar:frozen-path",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:frozen-path",
+      "to": "local:gar:heads",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:frozen-path",
+      "to": "local:gar:binary",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:heads",
+      "to": "local:gar:teacher-targets",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:teacher-targets",
+      "to": "local:gar:losses",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:teacher-targets",
+      "to": "local:gar:preparation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:heads",
+      "to": "local:gar:sampling",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:sampling",
+      "to": "local:gar:control",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:sampling",
+      "to": "local:gar:latency",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:control",
+      "to": "local:gar:uncertainty",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:control",
+      "to": "local:gar:shape-moment",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:sampling",
+      "to": "local:gar:feedback-diversity",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:gar:control",
+      "to": "local:gar:limits",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "local:gaussian-splatting:spatial",
       "to": "local:gaussian-splatting:radiance",
       "kind": "contains",
@@ -27517,6 +28549,192 @@
       "lit": false
     },
     {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:diffusion",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:diffusion",
+      "to": "concept:diffusion",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:diffusion",
+      "to": "local:tapestry:dit",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:dit",
+      "to": "concept:dit",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:vae",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:vae",
+      "to": "concept:vae",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:action",
+      "to": "local:tapestry:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:shift",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:shift",
+      "to": "concept:shift",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:interface",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:interface",
+      "to": "local:tapestry:readout",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:observation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:three-objectives",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:three-objectives",
+      "to": "local:tapestry:asymmetric-mask",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:three-objectives",
+      "to": "local:tapestry:deployment-match",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:deployment-match",
+      "to": "local:tapestry:one-step",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:one-step",
+      "to": "local:tapestry:jitter",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:one-step",
+      "to": "local:tapestry:conditional-mean",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:libero-video",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:tapestry",
+      "to": "local:tapestry:real-manipulation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:real-manipulation",
+      "to": "local:tapestry:ood",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:one-step",
+      "to": "local:tapestry:cost",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:tapestry:three-objectives",
+      "to": "local:tapestry:ablation-budget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:td-mpc",
       "to": "local:td-mpc:dynamics",
       "kind": "contains",
@@ -28546,9 +29764,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 120,
+    "papers": 122,
     "concepts": 59,
-    "local_topics": 918,
+    "local_topics": 968,
     "lit_papers": 18,
     "lit_concepts": 43,
     "lit_local_topics": 432

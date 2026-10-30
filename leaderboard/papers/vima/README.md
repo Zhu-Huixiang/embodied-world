@@ -1,6 +1,6 @@
 # VIMA: Robot Manipulation with Multimodal Prompts
 
-**VIMA** · ICML 2023 · 本版排名 46 · 综合分 **86.0 / 100**
+**VIMA** · ICML 2023 · 本版排名 47 · 综合分 **86.0 / 100**
 
 [解读导读](../../../library/vima.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICML集锦](../../../venues/ICML/README.md)
 

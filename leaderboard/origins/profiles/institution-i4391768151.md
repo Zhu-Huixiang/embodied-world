@@ -1,6 +1,6 @@
 # 丰田研究院
 
-本仓已收录工作主要涉及：操作与动作块、视觉语言动作模型 VLA。
+本仓已收录工作主要涉及：操作与动作块、视觉语言动作模型 VLA、世界动作模型。
 
 **类型**：研究机构。
 
@@ -20,6 +20,7 @@
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
 | [Open X-Embodiment · Open X-Embodiment: Robotic Learning Datasets and RT-X Models](../../../library/rtx.md) | 2024 / [ICRA](../../../venues/ICRA/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [84.8](../../papers/rtx/README.md) |
 | [OpenVLA · OpenVLA: An Open-Source Vision-Language-Action Model](../../../library/openvla.md) | 2024 / [CoRL](../../../venues/CoRL/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [84.5](../../papers/openvla/README.md) |
+| [TAPESTRY · TAPESTRY: A Single Backbone for Video Generation and Robot Control](../../../library/tapestry.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [69.6](../../papers/tapestry/README.md) |
 
 ## 署名与来源
 
@@ -28,6 +29,6 @@
 - [来源1](https://openalex.org/I4391768151)
 - [来源2](https://api.openalex.org/institutions/I4391768151)
 
-资料核验：2026-10-29。
+资料核验：2026-10-30。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

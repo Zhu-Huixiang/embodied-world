@@ -1,6 +1,6 @@
 # Temporal Difference Learning for Model Predictive Control
 
-**TD-MPC** · ICML 2022 · 本版排名 79 · 综合分 **82.7 / 100**
+**TD-MPC** · ICML 2022 · 本版排名 81 · 综合分 **82.7 / 100**
 
 [解读导读](../../../library/td-mpc.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICML集锦](../../../venues/ICML/README.md)
 

@@ -32,7 +32,10 @@ CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版
 
 ## 2026
 
+- [World Action Models are Zero-shot Policies](2026/dreamzero.md)
+- [EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](2026/egoscale.md)
 - [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](2026/supermimic.md)
+- [TAPESTRY: A Single Backbone for Video Generation and Robot Control](2026/tapestry.md)
 
 ## 2025
 

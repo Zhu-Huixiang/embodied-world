@@ -1,6 +1,6 @@
 # Extreme Parkour with Legged Robots
 
-**Extreme Parkour** · ICRA 2024 · 本版排名 62 · 综合分 **84.5 / 100**
+**Extreme Parkour** · ICRA 2024 · 本版排名 64 · 综合分 **84.5 / 100**
 
 [解读导读](../../../library/extreme-parkour.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
 

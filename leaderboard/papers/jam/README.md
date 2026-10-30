@@ -1,6 +1,6 @@
 # Vision-Language-Action or World-Action? Just Action Models
 
-**JAM** · arXiv 2026 · 本版排名 109 · 综合分 **67.0 / 100**
+**JAM** · arXiv 2026 · 本版排名 110 · 综合分 **67.0 / 100**
 
 [解读导读](../../../library/jam.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-jam)
 

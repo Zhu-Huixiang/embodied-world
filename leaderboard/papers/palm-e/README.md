@@ -1,6 +1,6 @@
 # PaLM-E: An Embodied Multimodal Language Model
 
-**PaLM-E** · ICML 2023 · 本版排名 49 · 综合分 **85.6 / 100**
+**PaLM-E** · ICML 2023 · 本版排名 50 · 综合分 **85.6 / 100**
 
 [解读导读](../../../library/palm-e.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICML集锦](../../../venues/ICML/README.md)
 

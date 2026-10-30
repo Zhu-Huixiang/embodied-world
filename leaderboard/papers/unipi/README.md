@@ -1,6 +1,6 @@
 # Learning Universal Policies via Text-Guided Video Generation
 
-**UniPi** · NeurIPS 2023 · 本版排名 85 · 综合分 **82.2 / 100**
+**UniPi** · NeurIPS 2023 · 本版排名 87 · 综合分 **82.2 / 100**
 
 [解读导读](../../../library/unipi.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 

@@ -1,8 +1,8 @@
 # World Action Models are Zero-shot Policies
 
-**DreamZero** · arXiv 2026 · 本版排名 98 · 综合分 **80.1 / 100**
+**DreamZero** · CoRL 2026 · 本版排名 37 · 综合分 **87.6 / 100**
 
-[解读导读](../../../library/dreamzero.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-dreamzero)
+[解读导读](../../../library/dreamzero.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [CoRL集锦](../../../venues/CoRL/README.md)
 
 [知识星系](../../../universe/papers/dreamzero.md) · [原文](https://arxiv.org/abs/2602.15922) · [PDF](https://arxiv.org/pdf/2602.15922) · [阅读卡片](../../../library/dreamzero.md)
 
@@ -27,7 +27,7 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 公开与评审 | 65 | 30% |
+| 公开与评审 | 90.0 | 30% |
 | 创新性 | 93 | 20% |
 | 实验与证据 | 82 | 20% |
 | 学术影响 | 77.0 | 10% |
@@ -35,7 +35,10 @@
 | 复用价值 | 79 | 8% |
 | 阅读价值 | 95 | 7% |
 
-公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；当前阶段为预印本公开。；独立公开技术检验阶段65，取较高阶段。
+刊会依据：[CoRL 2026](../../../venues/CoRL/README.md)，正式出处见[出版/原文记录](https://2026.corl.org/program/accepted-papers)；采用2026-10-10刊会快照。
+
+
+公开与评审依据：v1完整公开且身份、作者、时间可追溯；CoRL 2026官方录用名单含该篇，按CoRL既有90分量表取较高阶段，Oral不加分。；正式刊会按登记量表计分，取较高阶段。；独立公开技术检验阶段65，取较高阶段。
 
 
 编辑深度：选题初读；评分记录：2026-10-10。

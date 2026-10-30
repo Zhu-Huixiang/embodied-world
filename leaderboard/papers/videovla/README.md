@@ -1,6 +1,6 @@
 # VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
 
-**VideoVLA** · NeurIPS 2025 · 本版排名 102 · 综合分 **78.8 / 100**
+**VideoVLA** · NeurIPS 2025 · 本版排名 103 · 综合分 **78.8 / 100**
 
 [解读导读](../../../library/videovla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 

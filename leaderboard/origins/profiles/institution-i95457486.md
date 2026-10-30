@@ -30,6 +30,7 @@
 | [Diffuser · Planning with Diffusion for Flexible Behavior Synthesis](../../../library/diffuser.md) | 2022 / [ICML](../../../venues/ICML/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [85.3](../../papers/diffuser/README.md) |
 | [FAST · FAST: Efficient Action Tokenization for Vision-Language-Action Models](../../../library/fast.md) | 2025 / [RSS](../../../venues/RSS/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [85.2](../../papers/fast/README.md) |
 | [Open X-Embodiment · Open X-Embodiment: Robotic Learning Datasets and RT-X Models](../../../library/rtx.md) | 2024 / [ICRA](../../../venues/ICRA/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [84.8](../../papers/rtx/README.md) |
+| [EgoScale · EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](../../../library/egoscale.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [84.6](../../papers/egoscale/README.md) |
 | [Walk in the Park · Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning](../../../library/walk-in-the-park.md) | 2023 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [84.5](../../papers/walk-in-the-park/README.md) |
 | [OpenVLA · OpenVLA: An Open-Source Vision-Language-Action Model](../../../library/openvla.md) | 2024 / [CoRL](../../../venues/CoRL/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [84.5](../../papers/openvla/README.md) |
 | [VC-1 · Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](../../../library/vc1.md) | 2023 / [NeurIPS](../../../venues/NeurIPS/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [83.9](../../papers/vc1/README.md) |
@@ -41,7 +42,6 @@
 | [Cal-QL · Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning](../../../library/cal-ql.md) | 2023 / [NeurIPS](../../../venues/NeurIPS/README.md) | [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) | [82.1](../../papers/cal-ql/README.md) |
 | [HOVER · HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots](../../../library/hover.md) | 2025 / [ICRA](../../../venues/ICRA/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [79.6](../../papers/hover/README.md) |
 | [SuperMimic · SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](../../../library/supermimic.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) | [78.1](../../papers/supermimic/README.md) |
-| [EgoScale · EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](../../../library/egoscale.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-egoscale) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [75.6](../../papers/egoscale/README.md) |
 
 ## 署名与来源
 
@@ -49,6 +49,6 @@
 
 - [来源1](https://openalex.org/I95457486)
 
-资料核验：2026-10-29。
+资料核验：2026-10-30。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

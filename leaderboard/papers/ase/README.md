@@ -1,6 +1,6 @@
 # ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters
 
-**ASE** · SIGGRAPH / TOG 2022 · 本版排名 52 · 综合分 **85.5 / 100**
+**ASE** · SIGGRAPH / TOG 2022 · 本版排名 53 · 综合分 **85.5 / 100**
 
 [解读导读](../../../library/ase.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [SIGGRAPH / TOG集锦](../../../venues/SIGGRAPH-TOG/README.md)
 

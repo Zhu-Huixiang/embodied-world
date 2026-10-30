@@ -1,6 +1,6 @@
 # Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning
 
-**Walk in the Park** · RSS 2023 · 本版排名 64 · 综合分 **84.5 / 100**
+**Walk in the Park** · RSS 2023 · 本版排名 66 · 综合分 **84.5 / 100**
 
 [解读导读](../../../library/walk-in-the-park.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
 

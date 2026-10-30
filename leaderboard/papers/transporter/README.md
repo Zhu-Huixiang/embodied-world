@@ -1,6 +1,6 @@
 # Transporter Networks: Rearranging the Visual World for Robotic Manipulation
 
-**Transporter** · CoRL 2020 · 本版排名 60 · 综合分 **84.8 / 100**
+**Transporter** · CoRL 2020 · 本版排名 61 · 综合分 **84.8 / 100**
 
 [解读导读](../../../library/transporter.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

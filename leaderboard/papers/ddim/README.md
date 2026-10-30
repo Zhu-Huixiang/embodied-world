@@ -1,6 +1,6 @@
 # Denoising Diffusion Implicit Models
 
-**DDIM** · ICLR 2021 · 本版排名 40 · 综合分 **87.3 / 100**
+**DDIM** · ICLR 2021 · 本版排名 41 · 综合分 **87.3 / 100**
 
 [解读导读](../../../library/ddim.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
 

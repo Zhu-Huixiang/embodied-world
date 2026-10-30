@@ -1,6 +1,6 @@
 # Open X-Embodiment: Robotic Learning Datasets and RT-X Models
 
-**Open X-Embodiment** · ICRA 2024 · 本版排名 58 · 综合分 **84.8 / 100**
+**Open X-Embodiment** · ICRA 2024 · 本版排名 59 · 综合分 **84.8 / 100**
 
 [解读导读](../../../library/rtx.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [ICRA集锦](../../../venues/ICRA/README.md)
 

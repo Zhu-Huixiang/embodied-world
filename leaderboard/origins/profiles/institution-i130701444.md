@@ -1,6 +1,6 @@
 # 佐治亚理工学院
 
-本仓已收录工作主要涉及：具身感知与场景表示、视频动作模型与视觉推理。
+本仓已收录工作主要涉及：具身感知与场景表示、视频动作模型与视觉推理、世界动作模型。
 
 **类型**：大学。
 
@@ -17,6 +17,7 @@
 | --- | --- | --- | --- |
 | [VC-1 · Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](../../../library/vc1.md) | 2023 / [NeurIPS](../../../venues/NeurIPS/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [83.9](../../papers/vc1/README.md) |
 | [UniPi · Learning Universal Policies via Text-Guided Video Generation](../../../library/unipi.md) | 2023 / [NeurIPS](../../../venues/NeurIPS/README.md) | [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) | [82.2](../../papers/unipi/README.md) |
+| [TAPESTRY · TAPESTRY: A Single Backbone for Video Generation and Robot Control](../../../library/tapestry.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [69.6](../../papers/tapestry/README.md) |
 
 ## 署名与来源
 
@@ -25,6 +26,6 @@
 - [来源1](https://openalex.org/I130701444)
 - [来源2](https://api.openalex.org/institutions/I130701444)
 
-资料核验：2026-10-29。
+资料核验：2026-10-30。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

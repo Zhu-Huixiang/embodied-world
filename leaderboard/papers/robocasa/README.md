@@ -1,6 +1,6 @@
 # RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots
 
-**RoboCasa** · RSS 2024 · 本版排名 76 · 综合分 **83.2 / 100**
+**RoboCasa** · RSS 2024 · 本版排名 78 · 综合分 **83.2 / 100**
 
 [解读导读](../../../library/robocasa.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 

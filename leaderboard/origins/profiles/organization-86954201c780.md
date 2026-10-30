@@ -1,6 +1,6 @@
 # 马里兰大学
 
-本仓已收录工作主要涉及：操作与动作块。
+本仓已收录工作主要涉及：操作与动作块、世界动作模型。
 
 **类型**：论文署名机构。
 
@@ -14,7 +14,8 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [EgoScale · EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](../../../library/egoscale.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-egoscale) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [75.6](../../papers/egoscale/README.md) |
+| [EgoScale · EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data](../../../library/egoscale.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [84.6](../../papers/egoscale/README.md) |
+| [TAPESTRY · TAPESTRY: A Single Backbone for Video Generation and Robot Control](../../../library/tapestry.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [69.6](../../papers/tapestry/README.md) |
 | [Dex-One2Many · Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](../../../library/dex-one2many.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-dex-one2many) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [62.2](../../papers/dex-one2many/README.md) |
 
 ## 署名与来源
@@ -27,6 +28,6 @@
 - [来源4](https://arxiv.org/pdf/2602.16710)
 - [来源5](https://research.nvidia.com/labs/gear/publications/)
 
-资料核验：2026-10-29。
+资料核验：2026-10-30。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

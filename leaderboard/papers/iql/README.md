@@ -1,6 +1,6 @@
 # Offline Reinforcement Learning with Implicit Q-Learning
 
-**IQL** · ICLR 2022 · 本版排名 42 · 综合分 **86.8 / 100**
+**IQL** · ICLR 2022 · 本版排名 43 · 综合分 **86.8 / 100**
 
 [解读导读](../../../library/iql.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [ICLR集锦](../../../venues/ICLR/README.md)
 

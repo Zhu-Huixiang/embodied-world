@@ -12,7 +12,7 @@ Self-Supervised Learning from Images with a Joint-Embedding Predictive Architect
 
 ## 论文署名机构
 
-- **Meta 人工智能研究院（FAIR）**
+- **Meta FAIR 研究院**
 - **麦吉尔大学**
 - **魁北克人工智能研究所（Mila）**
 - **纽约大学**

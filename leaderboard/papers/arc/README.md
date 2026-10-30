@@ -1,6 +1,6 @@
 # ARC: A Reasoning Recipe for Robot Foundation Models
 
-**ARC** · arXiv 2026 · 本版排名 118 · 综合分 **62.2 / 100**
+**ARC** · arXiv 2026 · 本版排名 119 · 综合分 **62.2 / 100**
 
 [解读导读](../../../library/arc.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-arc)
 

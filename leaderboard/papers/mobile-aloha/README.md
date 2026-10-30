@@ -1,6 +1,6 @@
 # Mobile ALOHA: Learning Bimanual Mobile Manipulation using Low-Cost Whole-Body Teleoperation
 
-**Mobile ALOHA** · CoRL 2024 · 本版排名 70 · 综合分 **84.1 / 100**
+**Mobile ALOHA** · CoRL 2024 · 本版排名 72 · 综合分 **84.1 / 100**
 
 [解读导读](../../../library/mobile-aloha.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

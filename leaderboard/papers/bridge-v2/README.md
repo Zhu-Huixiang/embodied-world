@@ -1,6 +1,6 @@
 # BridgeData V2: A Dataset for Robot Learning at Scale
 
-**BridgeData V2** · CoRL 2023 · 本版排名 78 · 综合分 **83.1 / 100**
+**BridgeData V2** · CoRL 2023 · 本版排名 80 · 综合分 **83.1 / 100**
 
 [解读导读](../../../library/bridge-v2.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

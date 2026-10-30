@@ -1,6 +1,6 @@
 # V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning
 
-**V-JEPA 2** · arXiv 2025 · 本版排名 88 · 综合分 **81.9 / 100**
+**V-JEPA 2** · arXiv 2025 · 本版排名 90 · 综合分 **81.9 / 100**
 
 [解读导读](../../../library/vjepa2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [arXiv集锦](../../../arxiv/README.md#paper-vjepa2)
 

@@ -1,6 +1,6 @@
 # Isaac Gym: High Performance GPU Based Physics Simulation For Robot Learning
 
-**Isaac Gym** · NeurIPS D&B 2021 · 本版排名 51 · 综合分 **85.5 / 100**
+**Isaac Gym** · NeurIPS D&B 2021 · 本版排名 52 · 综合分 **85.5 / 100**
 
 [解读导读](../../../library/isaac-gym.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS D&B集锦](../../../venues/NeurIPS-Datasets-Benchmarks/README.md)
 

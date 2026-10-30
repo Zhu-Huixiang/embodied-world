@@ -1,6 +1,6 @@
 # Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?
 
-**VC-1** · NeurIPS 2023 · 本版排名 71 · 综合分 **83.9 / 100**
+**VC-1** · NeurIPS 2023 · 本版排名 73 · 综合分 **83.9 / 100**
 
 [解读导读](../../../library/vc1.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 

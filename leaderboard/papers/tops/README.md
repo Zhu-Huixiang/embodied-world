@@ -1,6 +1,6 @@
 # TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation
 
-**TOPS** · arXiv 2026 · 本版排名 111 · 综合分 **65.0 / 100**
+**TOPS** · arXiv 2026 · 本版排名 112 · 综合分 **65.0 / 100**
 
 [解读导读](../../../library/tops.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-tops)
 

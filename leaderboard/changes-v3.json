@@ -1,7 +1,7 @@
 {
   "from_version": 2,
   "to_version": 3,
-  "checked_at": "2026-10-29",
+  "checked_at": "2026-10-30",
   "papers": [
     {
       "id": "clip",
@@ -904,9 +904,34 @@
       }
     },
     {
+      "id": "dreamzero",
+      "old_rank": 105,
+      "new_rank": 37,
+      "old_score": 48.0,
+      "new_score": 87.6,
+      "old_scores": {
+        "innovation": 93,
+        "evidence": 82,
+        "reuse": 79,
+        "reading": 95,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 93,
+        "evidence": 82,
+        "reuse": 79,
+        "reading": 95,
+        "venue": 90.0,
+        "influence": 77.0,
+        "attention": 99.5
+      }
+    },
+    {
       "id": "bipedal-soccer",
       "old_rank": 36,
-      "new_rank": 37,
+      "new_rank": 38,
       "old_score": 88.3,
       "new_score": 87.6,
       "old_scores": {
@@ -931,7 +956,7 @@
     {
       "id": "octo",
       "old_rank": 37,
-      "new_rank": 38,
+      "new_rank": 39,
       "old_score": 88.3,
       "new_score": 87.6,
       "old_scores": {
@@ -956,7 +981,7 @@
     {
       "id": "dreamer",
       "old_rank": 38,
-      "new_rank": 39,
+      "new_rank": 40,
       "old_score": 88.1,
       "new_score": 87.4,
       "old_scores": {
@@ -981,7 +1006,7 @@
     {
       "id": "ddim",
       "old_rank": 39,
-      "new_rank": 40,
+      "new_rank": 41,
       "old_score": 88.1,
       "new_score": 87.3,
       "old_scores": {
@@ -1006,7 +1031,7 @@
     {
       "id": "robomimic",
       "old_rank": 58,
-      "new_rank": 41,
+      "new_rank": 42,
       "old_score": 85.3,
       "new_score": 87.0,
       "old_scores": {
@@ -1031,7 +1056,7 @@
     {
       "id": "iql",
       "old_rank": 40,
-      "new_rank": 42,
+      "new_rank": 43,
       "old_score": 87.7,
       "new_score": 86.8,
       "old_scores": {
@@ -1056,7 +1081,7 @@
     {
       "id": "phc",
       "old_rank": 41,
-      "new_rank": 43,
+      "new_rank": 44,
       "old_score": 87.5,
       "new_score": 86.7,
       "old_scores": {
@@ -1081,7 +1106,7 @@
     {
       "id": "rectified-flow",
       "old_rank": 42,
-      "new_rank": 44,
+      "new_rank": 45,
       "old_score": 87.4,
       "new_score": 86.6,
       "old_scores": {
@@ -1106,7 +1131,7 @@
     {
       "id": "consistency-models",
       "old_rank": 51,
-      "new_rank": 45,
+      "new_rank": 46,
       "old_score": 86.1,
       "new_score": 86.1,
       "old_scores": {
@@ -1131,7 +1156,7 @@
     {
       "id": "vima",
       "old_rank": 52,
-      "new_rank": 46,
+      "new_rank": 47,
       "old_score": 85.8,
       "new_score": 86.0,
       "old_scores": {
@@ -1156,7 +1181,7 @@
     {
       "id": "exbody",
       "old_rank": 44,
-      "new_rank": 47,
+      "new_rank": 48,
       "old_score": 86.7,
       "new_score": 85.9,
       "old_scores": {
@@ -1181,7 +1206,7 @@
     {
       "id": "dp3",
       "old_rank": 45,
-      "new_rank": 48,
+      "new_rank": 49,
       "old_score": 86.5,
       "new_score": 85.9,
       "old_scores": {
@@ -1206,7 +1231,7 @@
     {
       "id": "palm-e",
       "old_rank": 46,
-      "new_rank": 49,
+      "new_rank": 50,
       "old_score": 86.4,
       "new_score": 85.6,
       "old_scores": {
@@ -1231,7 +1256,7 @@
     {
       "id": "diffusion-forcing",
       "old_rank": 47,
-      "new_rank": 50,
+      "new_rank": 51,
       "old_score": 86.3,
       "new_score": 85.5,
       "old_scores": {
@@ -1256,7 +1281,7 @@
     {
       "id": "isaac-gym",
       "old_rank": 48,
-      "new_rank": 51,
+      "new_rank": 52,
       "old_score": 86.3,
       "new_score": 85.5,
       "old_scores": {
@@ -1281,7 +1306,7 @@
     {
       "id": "ase",
       "old_rank": 49,
-      "new_rank": 52,
+      "new_rank": 53,
       "old_score": 86.2,
       "new_score": 85.5,
       "old_scores": {
@@ -1306,7 +1331,7 @@
     {
       "id": "self-forcing",
       "old_rank": 70,
-      "new_rank": 53,
+      "new_rank": 54,
       "old_score": 83.8,
       "new_score": 85.4,
       "old_scores": {
@@ -1331,7 +1356,7 @@
     {
       "id": "diffuser",
       "old_rank": 50,
-      "new_rank": 54,
+      "new_rank": 55,
       "old_score": 86.1,
       "new_score": 85.3,
       "old_scores": {
@@ -1356,7 +1381,7 @@
     {
       "id": "fast",
       "old_rank": 64,
-      "new_rank": 55,
+      "new_rank": 56,
       "old_score": 84.7,
       "new_score": 85.2,
       "old_scores": {
@@ -1381,7 +1406,7 @@
     {
       "id": "rvt2",
       "old_rank": 53,
-      "new_rank": 56,
+      "new_rank": 57,
       "old_score": 85.8,
       "new_score": 85.0,
       "old_scores": {
@@ -1406,7 +1431,7 @@
     {
       "id": "vq-bet",
       "old_rank": 89,
-      "new_rank": 57,
+      "new_rank": 58,
       "old_score": 81.2,
       "new_score": 84.9,
       "old_scores": {
@@ -1431,7 +1456,7 @@
     {
       "id": "rtx",
       "old_rank": 54,
-      "new_rank": 58,
+      "new_rank": 59,
       "old_score": 85.6,
       "new_score": 84.8,
       "old_scores": {
@@ -1456,7 +1481,7 @@
     {
       "id": "td3-bc",
       "old_rank": 55,
-      "new_rank": 59,
+      "new_rank": 60,
       "old_score": 85.6,
       "new_score": 84.8,
       "old_scores": {
@@ -1481,7 +1506,7 @@
     {
       "id": "transporter",
       "old_rank": 56,
-      "new_rank": 60,
+      "new_rank": 61,
       "old_score": 85.4,
       "new_score": 84.8,
       "old_scores": {
@@ -1506,7 +1531,7 @@
     {
       "id": "td-mpc2",
       "old_rank": 72,
-      "new_rank": 61,
+      "new_rank": 62,
       "old_score": 83.3,
       "new_score": 84.7,
       "old_scores": {
@@ -1529,9 +1554,34 @@
       }
     },
     {
+      "id": "egoscale",
+      "old_rank": 106,
+      "new_rank": 63,
+      "old_score": 47.3,
+      "new_score": 84.6,
+      "old_scores": {
+        "innovation": 89,
+        "evidence": 84,
+        "reuse": 78,
+        "reading": 92,
+        "venue": 0,
+        "influence": 0.0,
+        "attention": 0.0
+      },
+      "new_scores": {
+        "innovation": 89,
+        "evidence": 84,
+        "reuse": 78,
+        "reading": 92,
+        "venue": 90.0,
+        "influence": 60.3,
+        "attention": 86.4
+      }
+    },
+    {
       "id": "extreme-parkour",
       "old_rank": 59,
-      "new_rank": 62,
+      "new_rank": 64,
       "old_score": 85.2,
       "new_score": 84.5,
       "old_scores": {
@@ -1556,7 +1606,7 @@
     {
       "id": "mimicgen",
       "old_rank": 86,
-      "new_rank": 63,
+      "new_rank": 65,
       "old_score": 81.3,
       "new_score": 84.5,
       "old_scores": {
@@ -1581,7 +1631,7 @@
     {
       "id": "walk-in-the-park",
       "old_rank": 57,
-      "new_rank": 64,
+      "new_rank": 66,
       "old_score": 85.3,
       "new_score": 84.5,
       "old_scores": {
@@ -1606,7 +1656,7 @@
     {
       "id": "openvla",
       "old_rank": 80,
-      "new_rank": 65,
+      "new_rank": 67,
       "old_score": 82.5,
       "new_score": 84.5,
       "old_scores": {
@@ -1631,7 +1681,7 @@
     {
       "id": "vip",
       "old_rank": 63,
-      "new_rank": 66,
+      "new_rank": 68,
       "old_score": 85.0,
       "new_score": 84.4,
       "old_scores": {
@@ -1656,7 +1706,7 @@
     {
       "id": "maskedmimic",
       "old_rank": 60,
-      "new_rank": 67,
+      "new_rank": 69,
       "old_score": 85.2,
       "new_score": 84.3,
       "old_scores": {
@@ -1681,7 +1731,7 @@
     {
       "id": "cliport",
       "old_rank": 61,
-      "new_rank": 68,
+      "new_rank": 70,
       "old_score": 85.0,
       "new_score": 84.2,
       "old_scores": {
@@ -1706,7 +1756,7 @@
     {
       "id": "rt2",
       "old_rank": 62,
-      "new_rank": 69,
+      "new_rank": 71,
       "old_score": 85.0,
       "new_score": 84.2,
       "old_scores": {
@@ -1731,7 +1781,7 @@
     {
       "id": "mobile-aloha",
       "old_rank": 74,
-      "new_rank": 70,
+      "new_rank": 72,
       "old_score": 83.2,
       "new_score": 84.1,
       "old_scores": {
@@ -1756,7 +1806,7 @@
     {
       "id": "vc1",
       "old_rank": 67,
-      "new_rank": 71,
+      "new_rank": 73,
       "old_score": 84.1,
       "new_score": 83.9,
       "old_scores": {
@@ -1781,7 +1831,7 @@
     {
       "id": "r3m",
       "old_rank": 65,
-      "new_rank": 72,
+      "new_rank": 74,
       "old_score": 84.5,
       "new_score": 83.7,
       "old_scores": {
@@ -1806,7 +1856,7 @@
     {
       "id": "trajectory-transformer",
       "old_rank": 66,
-      "new_rank": 73,
+      "new_rank": 75,
       "old_score": 84.1,
       "new_score": 83.5,
       "old_scores": {
@@ -1831,7 +1881,7 @@
     {
       "id": "sonic",
       "old_rank": 87,
-      "new_rank": 74,
+      "new_rank": 76,
       "old_score": 81.3,
       "new_score": 83.4,
       "old_scores": {
@@ -1856,7 +1906,7 @@
     {
       "id": "peract",
       "old_rank": 68,
-      "new_rank": 75,
+      "new_rank": 77,
       "old_score": 84.0,
       "new_score": 83.3,
       "old_scores": {
@@ -1881,7 +1931,7 @@
     {
       "id": "robocasa",
       "old_rank": 88,
-      "new_rank": 76,
+      "new_rank": 78,
       "old_score": 81.2,
       "new_score": 83.2,
       "old_scores": {
@@ -1906,7 +1956,7 @@
     {
       "id": "walk-in-minutes",
       "old_rank": 69,
-      "new_rank": 77,
+      "new_rank": 79,
       "old_score": 83.9,
       "new_score": 83.2,
       "old_scores": {
@@ -1931,7 +1981,7 @@
     {
       "id": "bridge-v2",
       "old_rank": 92,
-      "new_rank": 78,
+      "new_rank": 80,
       "old_score": 80.5,
       "new_score": 83.1,
       "old_scores": {
@@ -1956,7 +2006,7 @@
     {
       "id": "td-mpc",
       "old_rank": 71,
-      "new_rank": 79,
+      "new_rank": 81,
       "old_score": 83.3,
       "new_score": 82.7,
       "old_scores": {
@@ -1981,7 +2031,7 @@
     {
       "id": "phenaki",
       "old_rank": 73,
-      "new_rank": 80,
+      "new_rank": 82,
       "old_score": 83.2,
       "new_score": 82.6,
       "old_scores": {
@@ -2006,7 +2056,7 @@
     {
       "id": "efficientzero",
       "old_rank": 75,
-      "new_rank": 81,
+      "new_rank": 83,
       "old_score": 83.1,
       "new_score": 82.5,
       "old_scores": {
@@ -2031,7 +2081,7 @@
     {
       "id": "lingbot-va",
       "old_rank": 95,
-      "new_rank": 82,
+      "new_rank": 84,
       "old_score": 79.1,
       "new_score": 82.3,
       "old_scores": {
@@ -2056,7 +2106,7 @@
     {
       "id": "daydreamer",
       "old_rank": 79,
-      "new_rank": 83,
+      "new_rank": 85,
       "old_score": 82.9,
       "new_score": 82.2,
       "old_scores": {
@@ -2081,7 +2131,7 @@
     {
       "id": "dreamwaq",
       "old_rank": 78,
-      "new_rank": 84,
+      "new_rank": 86,
       "old_score": 82.9,
       "new_score": 82.2,
       "old_scores": {
@@ -2106,7 +2156,7 @@
     {
       "id": "unipi",
       "old_rank": 76,
-      "new_rank": 85,
+      "new_rank": 87,
       "old_score": 82.9,
       "new_score": 82.2,
       "old_scores": {
@@ -2131,7 +2181,7 @@
     {
       "id": "cal-ql",
       "old_rank": 77,
-      "new_rank": 86,
+      "new_rank": 88,
       "old_score": 82.9,
       "new_score": 82.1,
       "old_scores": {
@@ -2156,7 +2206,7 @@
     {
       "id": "dreamerv2",
       "old_rank": 81,
-      "new_rank": 87,
+      "new_rank": 89,
       "old_score": 82.4,
       "new_score": 82.0,
       "old_scores": {
@@ -2181,7 +2231,7 @@
     {
       "id": "vjepa2",
       "old_rank": 102,
-      "new_rank": 88,
+      "new_rank": 90,
       "old_score": 54.1,
       "new_score": 81.9,
       "old_scores": {
@@ -2206,7 +2256,7 @@
     {
       "id": "deep-whole-body-control",
       "old_rank": 82,
-      "new_rank": 89,
+      "new_rank": 91,
       "old_score": 82.1,
       "new_score": 81.5,
       "old_scores": {
@@ -2231,7 +2281,7 @@
     {
       "id": "cot-vla",
       "old_rank": 83,
-      "new_rank": 90,
+      "new_rank": 92,
       "old_score": 82.0,
       "new_score": 81.3,
       "old_scores": {
@@ -2256,7 +2306,7 @@
     {
       "id": "lewm",
       "old_rank": 104,
-      "new_rank": 91,
+      "new_rank": 93,
       "old_score": 48.2,
       "new_score": 81.2,
       "old_scores": {
@@ -2281,7 +2331,7 @@
     {
       "id": "walk-these-ways",
       "old_rank": 85,
-      "new_rank": 92,
+      "new_rank": 94,
       "old_score": 81.4,
       "new_score": 80.7,
       "old_scores": {
@@ -2306,7 +2356,7 @@
     {
       "id": "consistency-policy",
       "old_rank": 84,
-      "new_rank": 93,
+      "new_rank": 95,
       "old_score": 81.5,
       "new_score": 80.7,
       "old_scores": {
@@ -2331,7 +2381,7 @@
     {
       "id": "gr00t-n1",
       "old_rank": 103,
-      "new_rank": 94,
+      "new_rank": 96,
       "old_score": 51.9,
       "new_score": 80.4,
       "old_scores": {
@@ -2356,7 +2406,7 @@
     {
       "id": "learned-dynamics-review",
       "old_rank": 90,
-      "new_rank": 95,
+      "new_rank": 97,
       "old_score": 81.0,
       "new_score": 80.3,
       "old_scores": {
@@ -2381,7 +2431,7 @@
     {
       "id": "ctrl-world",
       "old_rank": 98,
-      "new_rank": 96,
+      "new_rank": 98,
       "old_score": 76.9,
       "new_score": 80.3,
       "old_scores": {
@@ -2406,7 +2456,7 @@
     {
       "id": "pi05",
       "old_rank": 97,
-      "new_rank": 97,
+      "new_rank": 99,
       "old_score": 77.2,
       "new_score": 80.3,
       "old_scores": {
@@ -2429,34 +2479,9 @@
       }
     },
     {
-      "id": "dreamzero",
-      "old_rank": 105,
-      "new_rank": 98,
-      "old_score": 48.0,
-      "new_score": 80.1,
-      "old_scores": {
-        "innovation": 93,
-        "evidence": 82,
-        "reuse": 79,
-        "reading": 95,
-        "venue": 0,
-        "influence": 0.0,
-        "attention": 0.0
-      },
-      "new_scores": {
-        "innovation": 93,
-        "evidence": 82,
-        "reuse": 79,
-        "reading": 95,
-        "venue": 65,
-        "influence": 77.0,
-        "attention": 99.5
-      }
-    },
-    {
       "id": "humanplus",
       "old_rank": 91,
-      "new_rank": 99,
+      "new_rank": 100,
       "old_score": 80.5,
       "new_score": 80.1,
       "old_scores": {
@@ -2481,7 +2506,7 @@
     {
       "id": "hover",
       "old_rank": 93,
-      "new_rank": 100,
+      "new_rank": 101,
       "old_score": 80.4,
       "new_score": 79.6,
       "old_scores": {
@@ -2506,7 +2531,7 @@
     {
       "id": "rvt",
       "old_rank": 94,
-      "new_rank": 101,
+      "new_rank": 102,
       "old_score": 80.1,
       "new_score": 79.5,
       "old_scores": {
@@ -2531,7 +2556,7 @@
     {
       "id": "videovla",
       "old_rank": 96,
-      "new_rank": 102,
+      "new_rank": 103,
       "old_score": 78.0,
       "new_score": 78.8,
       "old_scores": {
@@ -2556,7 +2581,7 @@
     {
       "id": "cosmos-policy",
       "old_rank": 100,
-      "new_rank": 103,
+      "new_rank": 104,
       "old_score": 75.8,
       "new_score": 78.5,
       "old_scores": {
@@ -2581,7 +2606,7 @@
     {
       "id": "omnih2o",
       "old_rank": 99,
-      "new_rank": 105,
+      "new_rank": 106,
       "old_score": 76.8,
       "new_score": 76.8,
       "old_scores": {
@@ -2601,31 +2626,6 @@
         "venue": 90.0,
         "influence": 0.0,
         "attention": 0.0
-      }
-    },
-    {
-      "id": "egoscale",
-      "old_rank": 106,
-      "new_rank": 106,
-      "old_score": 47.3,
-      "new_score": 75.6,
-      "old_scores": {
-        "innovation": 89,
-        "evidence": 84,
-        "reuse": 78,
-        "reading": 92,
-        "venue": 0,
-        "influence": 0.0,
-        "attention": 0.0
-      },
-      "new_scores": {
-        "innovation": 89,
-        "evidence": 84,
-        "reuse": 78,
-        "reading": 92,
-        "venue": 60,
-        "influence": 60.3,
-        "attention": 86.4
       }
     },
     {
@@ -2681,7 +2681,7 @@
     {
       "id": "dreamtrue",
       "old_rank": 114,
-      "new_rank": 112,
+      "new_rank": 113,
       "old_score": 43.5,
       "new_score": 64.1,
       "old_scores": {
@@ -2706,7 +2706,7 @@
     {
       "id": "viola",
       "old_rank": 108,
-      "new_rank": 113,
+      "new_rank": 114,
       "old_score": 45.8,
       "new_score": 63.8,
       "old_scores": {
@@ -2731,7 +2731,7 @@
     {
       "id": "lewam",
       "old_rank": 109,
-      "new_rank": 114,
+      "new_rank": 115,
       "old_score": 45.1,
       "new_score": 63.1,
       "old_scores": {
@@ -2756,7 +2756,7 @@
     {
       "id": "holo-m",
       "old_rank": 110,
-      "new_rank": 116,
+      "new_rank": 117,
       "old_score": 44.3,
       "new_score": 62.3,
       "old_scores": {
@@ -2781,7 +2781,7 @@
     {
       "id": "dex-one2many",
       "old_rank": 111,
-      "new_rank": 117,
+      "new_rank": 118,
       "old_score": 44.2,
       "new_score": 62.2,
       "old_scores": {
@@ -2806,7 +2806,7 @@
     {
       "id": "arc",
       "old_rank": 112,
-      "new_rank": 118,
+      "new_rank": 119,
       "old_score": 44.2,
       "new_score": 62.2,
       "old_scores": {
@@ -2831,7 +2831,7 @@
     {
       "id": "balanced-data-diet",
       "old_rank": 113,
-      "new_rank": 119,
+      "new_rank": 120,
       "old_score": 44.1,
       "new_score": 62.1,
       "old_scores": {
@@ -2856,7 +2856,7 @@
     {
       "id": "plaw-vla",
       "old_rank": 115,
-      "new_rank": 120,
+      "new_rank": 121,
       "old_score": 43.1,
       "new_score": 61.7,
       "old_scores": {
@@ -2881,9 +2881,11 @@
   ],
   "new_since_snapshot": [
     "supermimic",
+    "tapestry",
     "jam",
     "diffcontact",
     "tops",
-    "flore"
+    "flore",
+    "gar"
   ]
 }

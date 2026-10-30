@@ -1,6 +1,6 @@
 # World Action Models are Zero-shot Policies
 
-**解读导读** · arXiv 2026 · [世界动作模型](../paper-map/README.md#track-world-action-model)
+**解读导读** · CoRL 2026 · [世界动作模型](../paper-map/README.md#track-world-action-model)
 
 研究范围：机器人学习。
 
@@ -16,6 +16,6 @@
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[知识星系](../universe/papers/dreamzero.md) · [七维评分与雷达](../leaderboard/papers/dreamzero/README.md) · [arXiv集锦](../arxiv/README.md#paper-dreamzero) · [地图方向](../paper-map/README.md#track-world-action-model) · [首页](../README.md)
+[知识星系](../universe/papers/dreamzero.md) · [七维评分与雷达](../leaderboard/papers/dreamzero/README.md) · [CoRL集锦](../venues/CoRL/README.md) · [地图方向](../paper-map/README.md#track-world-action-model) · [首页](../README.md)
 
 元数据核对：2026-10-10。

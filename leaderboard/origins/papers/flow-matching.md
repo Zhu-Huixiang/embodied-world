@@ -12,7 +12,7 @@ Flow Matching for Generative Modeling
 
 ## 论文署名机构
 
-- **Meta 人工智能研究院（FAIR）**
+- **Meta FAIR 研究院**
 - **魏茨曼科学研究所**
 
 ## 继续看这些团队

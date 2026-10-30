@@ -1,6 +1,6 @@
 # Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion
 
-**Deep WBC** · CoRL 2022 · 本版排名 89 · 综合分 **81.5 / 100**
+**Deep WBC** · CoRL 2022 · 本版排名 91 · 综合分 **81.5 / 100**
 
 [解读导读](../../../library/deep-whole-body-control.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 

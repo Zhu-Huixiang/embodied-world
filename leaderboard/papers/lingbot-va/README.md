@@ -1,6 +1,6 @@
 # Causal World Modeling for Robot Control
 
-**LingBot-VA** · RSS 2026 · 本版排名 82 · 综合分 **82.3 / 100**
+**LingBot-VA** · RSS 2026 · 本版排名 84 · 综合分 **82.3 / 100**
 
 [解读导读](../../../library/lingbot-va.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [RSS集锦](../../../venues/RSS/README.md)
 

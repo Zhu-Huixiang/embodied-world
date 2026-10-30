@@ -1,6 +1,6 @@
 # CLIPort: What and Where Pathways for Robotic Manipulation
 
-**CLIPort** · CoRL 2021 · 本版排名 68 · 综合分 **84.2 / 100**
+**CLIPort** · CoRL 2021 · 本版排名 70 · 综合分 **84.2 / 100**
 
 [解读导读](../../../library/cliport.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

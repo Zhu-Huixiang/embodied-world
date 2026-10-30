@@ -1,6 +1,6 @@
 # Diffusion Forcing: Next-token Prediction Meets Full-sequence Diffusion
 
-**Diffusion Forcing** · NeurIPS 2024 · 本版排名 50 · 综合分 **85.5 / 100**
+**Diffusion Forcing** · NeurIPS 2024 · 本版排名 51 · 综合分 **85.5 / 100**
 
 [解读导读](../../../library/diffusion-forcing.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 

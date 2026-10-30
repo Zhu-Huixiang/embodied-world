@@ -1,6 +1,6 @@
 # Ctrl-World: A Controllable Generative World Model for Robot Manipulation
 
-**Ctrl-World** · ICLR 2026 · 本版排名 96 · 综合分 **80.3 / 100**
+**Ctrl-World** · ICLR 2026 · 本版排名 98 · 综合分 **80.3 / 100**
 
 [解读导读](../../../library/ctrl-world.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 

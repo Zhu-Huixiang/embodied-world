@@ -7,7 +7,7 @@
 | 简称 | 刊会全名 | 含金量 / 指标快照 | 篇数 |
 | --- | --- | --- | --- |
 | [RSS](RSS/README.md) | [Robotics: Science and Systems](RSS/README.md) | CCF 2026未收录；机器人核心主会 | 17 |
-| [CoRL](CoRL/README.md) | [Conference on Robot Learning](CoRL/README.md) | CCF 2026未收录；机器人核心主会 | 20 |
+| [CoRL](CoRL/README.md) | [Conference on Robot Learning](CoRL/README.md) | CCF 2026未收录；机器人核心主会 | 23 |
 | [ICRA](ICRA/README.md) | [IEEE International Conference on Robotics and Automation](ICRA/README.md) | CCF B（2026）；机器人核心主会 | 4 |
 | [ICLR](ICLR/README.md) | [International Conference on Learning Representations](ICLR/README.md) | CCF A（2026）；领域主要主会 | 13 |
 | [ICML](ICML/README.md) | [International Conference on Machine Learning](ICML/README.md) | CCF A（2026）；领域主要主会 | 8 |
@@ -27,4 +27,4 @@
 
 [论文地图](../paper-map/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-10-29。
+元数据核对日期：2026-10-30。

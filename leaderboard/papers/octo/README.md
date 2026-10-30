@@ -1,6 +1,6 @@
 # Octo: An Open-Source Generalist Robot Policy
 
-**Octo** · RSS 2024 · 本版排名 38 · 综合分 **87.6 / 100**
+**Octo** · RSS 2024 · 本版排名 39 · 综合分 **87.6 / 100**
 
 [解读导读](../../../library/octo.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [RSS集锦](../../../venues/RSS/README.md)
 

@@ -1,6 +1,6 @@
 # Walk These Ways: Tuning Robot Control for Generalization with Multiplicity of Behavior
 
-**Walk These Ways** · CoRL 2022 · 本版排名 92 · 综合分 **80.7 / 100**
+**Walk These Ways** · CoRL 2022 · 本版排名 94 · 综合分 **80.7 / 100**
 
 [解读导读](../../../library/walk-these-ways.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 

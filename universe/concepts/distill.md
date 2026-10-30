@@ -19,6 +19,7 @@
 - [DINO](../papers/dino.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)
 - [DINOv2](../papers/dinov2.md) · 机制导读 · [原文](https://openreview.net/forum?id=a68SUt6zFt)
 - [HOVER](../papers/hover.md) · 机制导读 · [原文](https://hover-versatile-humanoid.github.io/)
+- [GAR](../papers/gar.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40271v1)
 - [Balanced Data Diet](../papers/balanced-data-diet.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12465v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。

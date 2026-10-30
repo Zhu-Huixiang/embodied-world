@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-10-29",
+  "checked_at": "2026-10-30",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -260,11 +260,29 @@
       "full_text_url": "https://arxiv.org/pdf/2602.15922",
       "sources": [
         "https://arxiv.org/abs/2602.15922",
-        "https://arxiv.org/pdf/2602.15922"
+        "https://arxiv.org/pdf/2602.15922",
+        "https://2026.corl.org/program/accepted-papers",
+        "https://dreamzero0.github.io/"
       ],
       "checked_at": "2026-10-10",
       "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
-      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+      "reason": "v1完整公开且身份、作者、时间可追溯；CoRL 2026官方录用名单含该篇，按CoRL既有90分量表取较高阶段，Oral不加分。",
+      "venue_checked_at": "2026-10-30T13:54:15+08:00",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Oral O2",
+        "poster_number": 51,
+        "poster_session": 1,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2602.15922",
+          "https://dreamzero0.github.io/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=Bshs9HDDiu",
+        "checked_at": "2026-10-30T13:54:15+08:00",
+        "basis": "CoRL 2026官方内嵌录用名单精确题目及OpenReview链接；arXiv原研究标题/版本历史与作者官方项目页Paper链接交叉核对。OpenReview论坛跳转浏览器验证页，未读其作者字段；录用依据为会议官方名单。"
+      }
     },
     "cosmos-policy": {
       "tier": "versioned_full_text",
@@ -1140,11 +1158,29 @@
       "full_text_url": "https://arxiv.org/pdf/2602.16710v1",
       "sources": [
         "https://arxiv.org/abs/2602.16710",
-        "https://arxiv.org/pdf/2602.16710v1"
+        "https://arxiv.org/pdf/2602.16710v1",
+        "https://2026.corl.org/program/accepted-papers",
+        "https://research.nvidia.com/labs/gear/egoscale/"
       ],
       "checked_at": "2026-10-10",
       "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
-      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+      "reason": "v1完整公开且身份、作者、时间可追溯；CoRL 2026官方录用名单含该篇，按CoRL既有90分量表取较高阶段，Oral不加分。",
+      "venue_checked_at": "2026-10-30T13:54:15+08:00",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Oral O5",
+        "poster_number": 54,
+        "poster_session": 2,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2602.16710",
+          "https://research.nvidia.com/labs/gear/egoscale/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=WF4X17Al2r",
+        "checked_at": "2026-10-30T13:54:15+08:00",
+        "basis": "CoRL 2026官方内嵌录用名单精确题目及OpenReview链接；arXiv原研究标题/版本历史与作者官方项目页Paper链接交叉核对。OpenReview论坛跳转浏览器验证页，未读其作者字段；录用依据为会议官方名单。"
+      }
     },
     "learned-dynamics-review": {
       "tier": "versioned_full_text",
@@ -1327,6 +1363,44 @@
       ],
       "verification_basis": "原站v1、版本历史、PDF首页与官方项目核验；仅登记完整公开阶段。",
       "reason": "arXiv v1完整公开，稳定身份、版本与作者可追溯，按公开阶段60计。"
+    },
+    "tapestry": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.36823v1",
+      "checked_at": "2026-10-30T13:58:57+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.36823v1",
+        "https://arxiv.org/pdf/2610.36823v1",
+        "https://tapestry-wam.github.io/",
+        "https://2026.corl.org/program/accepted-papers"
+      ],
+      "verification_basis": "原站v1版本历史、22页PDF标题/署名/正文完整核验；CoRL2026官方内嵌录用名单含完整标题和OpenReview链接。",
+      "reason": "v1完整公开且身份与版本可追溯；CoRL 2026官方录用表与原文首页确认录用，按既有CoRL 90分量表取较高阶段。",
+      "venue_checked_at": "2026-10-30T13:59:18+08:00",
+      "venue_verification": {
+        "status": "accepted",
+        "conference_year": 2026,
+        "poster_session": 3,
+        "poster_number": 6,
+        "checked_at": "2026-10-30T13:59:18+08:00",
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/pdf/2610.36823v1"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=AilV1LyfXF",
+        "basis": "会议官方录用表精确题目、PDF首页CoRL 2026行与作者身份交叉核验；OpenReview为验证页，不作为已读取内容。"
+      }
+    },
+    "gar": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.40271v1",
+      "checked_at": "2026-10-30T13:55:26+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.40271v1",
+        "https://arxiv.org/pdf/2610.40271v1"
+      ],
+      "verification_basis": "原站abs重试200，版本历史v1与35页PDF首页核身份、日期、作者；全文可追溯，未核正式刊会。",
+      "reason": "完整公开稿阶段60。"
     }
   }
 }

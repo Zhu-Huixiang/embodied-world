@@ -1,6 +1,6 @@
 # SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
 
-**SONIC** · Sci. Robot. 2026 · 本版排名 74 · 综合分 **83.4 / 100**
+**SONIC** · Sci. Robot. 2026 · 本版排名 76 · 综合分 **83.4 / 100**
 
 [解读导读](../../../library/sonic.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 

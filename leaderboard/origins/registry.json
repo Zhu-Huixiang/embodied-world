@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-29",
+  "checked_at": "2026-10-30",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3378,6 +3378,80 @@
       "aliases": [
         "MARS Lab, Nanyang Technological University",
         "南洋理工大学 MARS 实验室"
+      ]
+    },
+    "university-geneva": {
+      "id": "university-geneva",
+      "name": "University of Geneva",
+      "display_name": "日内瓦大学",
+      "short_display_name": "日内瓦大学",
+      "kind": "institution",
+      "identity_url": "https://arxiv.org/pdf/2610.40271v1",
+      "focus": "本仓本篇涉及flow动作策略、高斯读出蒸馏与机器人控制；论文署名含Youssef Saied及François Fleuret。",
+      "links": [
+        {
+          "label": "本篇论文与逐作者署名",
+          "url": "https://arxiv.org/pdf/2610.40271v1"
+        },
+        {
+          "label": "第一作者主页与学术入口",
+          "url": "https://youssefsaied.github.io/"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40271v1",
+        "https://youssefsaied.github.io/"
+      ],
+      "checked_at": "2026-10-30T13:55:26+08:00",
+      "aliases": [
+        "University of Geneva",
+        "日内瓦大学"
+      ]
+    },
+    "university-tubingen": {
+      "id": "university-tubingen",
+      "name": "University of Tübingen",
+      "display_name": "图宾根大学",
+      "short_display_name": "图宾根大学",
+      "kind": "institution",
+      "identity_url": "https://arxiv.org/pdf/2610.40271v1",
+      "focus": "本仓本篇涉及机器人生成策略、动作分布近似与控制效率；按论文署名关联Ziyad Sheebaelhamd。",
+      "links": [
+        {
+          "label": "本篇论文与逐作者署名",
+          "url": "https://arxiv.org/pdf/2610.40271v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40271v1"
+      ],
+      "checked_at": "2026-10-30T13:55:26+08:00",
+      "aliases": [
+        "University of Tübingen",
+        "图宾根大学"
+      ]
+    },
+    "university-technology-nuremberg": {
+      "id": "university-technology-nuremberg",
+      "name": "University of Technology Nuremberg",
+      "display_name": "纽伦堡工业大学",
+      "short_display_name": "纽伦堡工业大学",
+      "kind": "institution",
+      "identity_url": "https://arxiv.org/pdf/2610.40271v1",
+      "focus": "本仓本篇涉及机器人策略的概率表示与实验比较；按论文署名关联Claire Vernade。",
+      "links": [
+        {
+          "label": "本篇论文与逐作者署名",
+          "url": "https://arxiv.org/pdf/2610.40271v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40271v1"
+      ],
+      "checked_at": "2026-10-30T13:55:26+08:00",
+      "aliases": [
+        "University of Technology Nuremberg",
+        "纽伦堡工业大学"
       ]
     }
   },
@@ -9115,6 +9189,78 @@
           "claim": "原文首页注明共同通讯Jindou Jia和Jianfei Yang；全体作者署MARS Lab, Nanyang Technological University。"
         }
       ]
+    },
+    "tapestry": {
+      "first_authors": [
+        "Jeremy A. Collins"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Jeremy A. Collins",
+        "Seungjae Lee",
+        "Rachanon Wachakorn",
+        "Krishnan Srinivasan",
+        "Animesh Garg",
+        "Vitor Campagnolo Guizilini",
+        "Paarth Shah"
+      ],
+      "profile_ids": [
+        "institution-i130701444",
+        "organization-86954201c780",
+        "institution-i4391768151"
+      ],
+      "affiliations": [
+        "Georgia Institute of Technology",
+        "University of Maryland",
+        "Toyota Research Institute"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.36823v1",
+        "https://tapestry-wam.github.io/"
+      ],
+      "checked_at": "2026-10-30T13:59:18+08:00",
+      "author_basis": "PDF首页署名顺序及明确角色标记",
+      "affiliation_basis": "PDF首页逐作者机构署名",
+      "primary_author_source": "https://arxiv.org/pdf/2610.36823v1",
+      "authorship_notes": "PDF p1：Jeremy A. Collins署Georgia Tech/TRI，Seungjae Lee署UMD/TRI；†表示在TRI实习期间部分完成，不是共同一作。‡标Vitor Campagnolo Guizilini与Paarth Shah Equal advising，不推作通讯作者；首署名按Jeremy A. Collins登记。",
+      "corresponding_evidence": [],
+      "equal_advisors": [
+        "Vitor Campagnolo Guizilini",
+        "Paarth Shah"
+      ]
+    },
+    "gar": {
+      "first_authors": [
+        "Youssef Saied"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Youssef Saied",
+        "Ziyad Sheebaelhamd",
+        "Claire Vernade",
+        "François Fleuret"
+      ],
+      "profile_ids": [
+        "university-geneva",
+        "university-tubingen",
+        "university-technology-nuremberg",
+        "meta-fair"
+      ],
+      "affiliations": [
+        "University of Geneva",
+        "University of Tübingen",
+        "University of Technology Nuremberg",
+        "Meta FAIR"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40271v1"
+      ],
+      "checked_at": "2026-10-30T13:59:18+08:00",
+      "author_basis": "PDF首页署名顺序及明确角色标记",
+      "affiliation_basis": "PDF首页逐作者机构署名",
+      "primary_author_source": "https://arxiv.org/pdf/2610.40271v1",
+      "authorship_notes": "PDF p1作者栏逐个明确：Saied为日内瓦大学，Sheebaelhamd为图宾根大学，Vernade为纽伦堡工业大学，Fleuret为日内瓦大学及Meta FAIR。仅第一作者列邮箱，未见明确corresponding标记，通讯作者留空，不把邮箱推断为通讯署名。",
+      "corresponding_evidence": []
     }
   },
   "coverage": {
@@ -9179,7 +9325,7 @@
     "Meta AI": "Meta 人工智能研究院（FAIR）",
     "Meta AI Research": "Meta 人工智能研究院（FAIR）",
     "Meta AI Research, FAIR": "Meta 人工智能研究院（FAIR）",
-    "Meta FAIR": "Meta 人工智能研究院（FAIR）",
+    "Meta FAIR": "Meta FAIR 研究院",
     "Microsoft Research Asia": "微软亚洲研究院",
     "Mila": "魁北克人工智能研究所（Mila）",
     "Mila & Université de Montréal": "魁北克人工智能研究所（Mila）与蒙特利尔大学",
@@ -9262,7 +9408,11 @@
     "Department of Mechanical Engineering, KAIST": "韩国科学技术院（KAIST）机械工程系",
     "The University of Tokyo": "东京大学",
     "National Institute of Informatics": "日本国立信息学研究所",
-    "MARS Lab, Nanyang Technological University": "南洋理工大学 MARS 实验室"
+    "MARS Lab, Nanyang Technological University": "南洋理工大学 MARS 实验室",
+    "University of Geneva": "日内瓦大学",
+    "University of Tübingen": "图宾根大学",
+    "University of Technology Nuremberg": "纽伦堡工业大学",
+    "Georgia Institute of Technology": "佐治亚理工学院"
   },
   "display_policy": {
     "people": "original English names",

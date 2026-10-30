@@ -1,6 +1,6 @@
 # OpenVLA: An Open-Source Vision-Language-Action Model
 
-**OpenVLA** · CoRL 2024 · 本版排名 65 · 综合分 **84.5 / 100**
+**OpenVLA** · CoRL 2024 · 本版排名 67 · 综合分 **84.5 / 100**
 
 [解读导读](../../../library/openvla.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
 

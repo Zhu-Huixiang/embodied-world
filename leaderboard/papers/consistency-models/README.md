@@ -1,6 +1,6 @@
 # Consistency Models
 
-**Consistency Models** · ICML 2023 · 本版排名 45 · 综合分 **86.1 / 100**
+**Consistency Models** · ICML 2023 · 本版排名 46 · 综合分 **86.1 / 100**
 
 [解读导读](../../../library/consistency-models.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICML集锦](../../../venues/ICML/README.md)
 

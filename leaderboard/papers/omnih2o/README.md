@@ -1,6 +1,6 @@
 # OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning
 
-**OmniH2O** · CoRL 2024 · 本版排名 105 · 综合分 **76.8 / 100**
+**OmniH2O** · CoRL 2024 · 本版排名 106 · 综合分 **76.8 / 100**
 
 [解读导读](../../../library/omnih2o.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 

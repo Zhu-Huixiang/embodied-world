@@ -1,6 +1,6 @@
 # What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
 
-**robomimic** · CoRL 2021 · 本版排名 41 · 综合分 **87.0 / 100**
+**robomimic** · CoRL 2021 · 本版排名 42 · 综合分 **87.0 / 100**
 
 [解读导读](../../../library/robomimic.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

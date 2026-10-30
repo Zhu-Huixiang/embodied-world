@@ -1,6 +1,6 @@
 # Behavior Generation with Latent Actions
 
-**VQ-BeT** · ICML 2024 · 本版排名 57 · 综合分 **84.9 / 100**
+**VQ-BeT** · ICML 2024 · 本版排名 58 · 综合分 **84.9 / 100**
 
 [解读导读](../../../library/vq-bet.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [ICML集锦](../../../venues/ICML/README.md)
 

@@ -1,6 +1,6 @@
 # Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation
 
-**Consistency Policy** · RSS 2024 · 本版排名 93 · 综合分 **80.7 / 100**
+**Consistency Policy** · RSS 2024 · 本版排名 95 · 综合分 **80.7 / 100**
 
 [解读导读](../../../library/consistency-policy.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 

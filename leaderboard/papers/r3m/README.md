@@ -1,6 +1,6 @@
 # R3M: A Universal Visual Representation for Robot Manipulation
 
-**R3M** · CoRL 2022 · 本版排名 72 · 综合分 **83.7 / 100**
+**R3M** · CoRL 2022 · 本版排名 74 · 综合分 **83.7 / 100**
 
 [解读导读](../../../library/r3m.md) · [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) · [CoRL集锦](../../../venues/CoRL/README.md)
 

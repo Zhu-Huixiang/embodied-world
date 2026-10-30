@@ -1,6 +1,6 @@
 # LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels
 
-**LeWM** · arXiv 2026 · 本版排名 91 · 综合分 **81.2 / 100**
+**LeWM** · arXiv 2026 · 本版排名 93 · 综合分 **81.2 / 100**
 
 [解读导读](../../../library/lewm.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [arXiv集锦](../../../arxiv/README.md#paper-lewm)
 

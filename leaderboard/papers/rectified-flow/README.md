@@ -1,6 +1,6 @@
 # Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow
 
-**Rectified Flow** · ICLR 2023 · 本版排名 44 · 综合分 **86.6 / 100**
+**Rectified Flow** · ICLR 2023 · 本版排名 45 · 综合分 **86.6 / 100**
 
 [解读导读](../../../library/rectified-flow.md) · [Diffusion / Transformer 基础](../../../paper-map/README.md#track-diffusion-transformer) · [ICLR集锦](../../../venues/ICLR/README.md)
 

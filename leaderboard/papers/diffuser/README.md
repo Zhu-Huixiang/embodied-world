@@ -1,6 +1,6 @@
 # Planning with Diffusion for Flexible Behavior Synthesis
 
-**Diffuser** · ICML 2022 · 本版排名 54 · 综合分 **85.3 / 100**
+**Diffuser** · ICML 2022 · 本版排名 55 · 综合分 **85.3 / 100**
 
 [解读导读](../../../library/diffuser.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [ICML集锦](../../../venues/ICML/README.md)
 

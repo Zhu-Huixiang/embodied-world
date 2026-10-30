@@ -26,6 +26,6 @@
 - [来源3](https://api.openalex.org/works/W4392538920)
 - [来源4](https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24y/lee24y.pdf)
 
-资料核验：2026-10-29。
+资料核验：2026-10-30。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

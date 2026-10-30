@@ -25,6 +25,6 @@
 - [来源1](https://openalex.org/I20089843)
 - [来源2](https://api.openalex.org/institutions/I20089843)
 
-资料核验：2026-10-29。
+资料核验：2026-10-30。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

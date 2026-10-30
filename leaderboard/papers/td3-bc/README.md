@@ -1,6 +1,6 @@
 # A Minimalist Approach to Offline Reinforcement Learning
 
-**TD3+BC** · NeurIPS 2021 · 本版排名 59 · 综合分 **84.8 / 100**
+**TD3+BC** · NeurIPS 2021 · 本版排名 60 · 综合分 **84.8 / 100**
 
 [解读导读](../../../library/td3-bc.md) · [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 

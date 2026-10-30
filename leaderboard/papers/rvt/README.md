@@ -1,6 +1,6 @@
 # RVT: Robotic View Transformer for 3D Object Manipulation
 
-**RVT** · CoRL 2023 · 本版排名 101 · 综合分 **79.5 / 100**
+**RVT** · CoRL 2023 · 本版排名 102 · 综合分 **79.5 / 100**
 
 [解读导读](../../../library/rvt.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

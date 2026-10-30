@@ -1,6 +1,6 @@
 # DayDreamer: World Models for Physical Robot Learning
 
-**DayDreamer** · CoRL 2022 · 本版排名 83 · 综合分 **82.2 / 100**
+**DayDreamer** · CoRL 2022 · 本版排名 85 · 综合分 **82.2 / 100**
 
 [解读导读](../../../library/daydreamer.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [CoRL集锦](../../../venues/CoRL/README.md)
 

@@ -1,6 +1,6 @@
 # Expressive Whole-Body Control for Humanoid Robots
 
-**ExBody** · RSS 2024 · 本版排名 47 · 综合分 **85.9 / 100**
+**ExBody** · RSS 2024 · 本版排名 48 · 综合分 **85.9 / 100**
 
 [解读导读](../../../library/exbody.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [RSS集锦](../../../venues/RSS/README.md)
 

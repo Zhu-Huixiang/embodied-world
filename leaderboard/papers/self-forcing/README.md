@@ -1,6 +1,6 @@
 # Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion
 
-**Self Forcing** · NeurIPS 2025 · 本版排名 53 · 综合分 **85.4 / 100**
+**Self Forcing** · NeurIPS 2025 · 本版排名 54 · 综合分 **85.4 / 100**
 
 [解读导读](../../../library/self-forcing.md) · [视频与序列生成](../../../paper-map/README.md#track-video-generation) · [NeurIPS集锦](../../../venues/NeurIPS/README.md)
 

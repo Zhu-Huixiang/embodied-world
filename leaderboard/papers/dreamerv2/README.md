@@ -1,6 +1,6 @@
 # Mastering Atari with Discrete World Models
 
-**DreamerV2** · ICLR 2021 · 本版排名 87 · 综合分 **82.0 / 100**
+**DreamerV2** · ICLR 2021 · 本版排名 89 · 综合分 **82.0 / 100**
 
 [解读导读](../../../library/dreamerv2.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 

@@ -1,6 +1,6 @@
 # Learning Force-Reactive Humanoid Loco-Manipulation
 
-**FLoRe** · arXiv 2026 · 本版排名 115 · 综合分 **63.0 / 100**
+**FLoRe** · arXiv 2026 · 本版排名 116 · 综合分 **63.0 / 100**
 
 [解读导读](../../../library/flore.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-flore)
 

@@ -1,6 +1,6 @@
 # Perpetual Humanoid Control for Real-time Simulated Avatars
 
-**PHC** · ICCV 2023 · 本版排名 43 · 综合分 **86.7 / 100**
+**PHC** · ICCV 2023 · 本版排名 44 · 综合分 **86.7 / 100**
 
 [解读导读](../../../library/phc.md) · [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) · [ICCV集锦](../../../venues/ICCV/README.md)
 

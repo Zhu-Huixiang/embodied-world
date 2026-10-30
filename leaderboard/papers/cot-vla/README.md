@@ -1,6 +1,6 @@
 # CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
 
-**CoT-VLA** · CVPR 2025 · 本版排名 90 · 综合分 **81.3 / 100**
+**CoT-VLA** · CVPR 2025 · 本版排名 92 · 综合分 **81.3 / 100**
 
 [解读导读](../../../library/cot-vla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [CVPR集锦](../../../venues/CVPR/README.md)
 

@@ -1,6 +1,6 @@
 # DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning
 
-**DreamWaQ** · ICRA 2023 · 本版排名 84 · 综合分 **82.2 / 100**
+**DreamWaQ** · ICRA 2023 · 本版排名 86 · 综合分 **82.2 / 100**
 
 [解读导读](../../../library/dreamwaq.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [ICRA集锦](../../../venues/ICRA/README.md)
 

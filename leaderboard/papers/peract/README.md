@@ -1,6 +1,6 @@
 # Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation
 
-**PerAct** · CoRL 2022 · 本版排名 75 · 综合分 **83.3 / 100**
+**PerAct** · CoRL 2022 · 本版排名 77 · 综合分 **83.3 / 100**
 
 [解读导读](../../../library/peract.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [CoRL集锦](../../../venues/CoRL/README.md)
 

@@ -1,6 +1,6 @@
 # Learning agile soccer skills for a bipedal robot with deep reinforcement learning
 
-**Bipedal Soccer** · Sci. Robot. 2024 · 本版排名 37 · 综合分 **87.6 / 100**
+**Bipedal Soccer** · Sci. Robot. 2024 · 本版排名 38 · 综合分 **87.6 / 100**
 
 [解读导读](../../../library/bipedal-soccer.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [Sci. Robot.集锦](../../../venues/Science-Robotics/README.md)
 

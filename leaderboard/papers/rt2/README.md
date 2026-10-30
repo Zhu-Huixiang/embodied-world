@@ -1,6 +1,6 @@
 # RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
 
-**RT-2** · CoRL 2023 · 本版排名 69 · 综合分 **84.2 / 100**
+**RT-2** · CoRL 2023 · 本版排名 71 · 综合分 **84.2 / 100**
 
 [解读导读](../../../library/rt2.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [CoRL集锦](../../../venues/CoRL/README.md)
 

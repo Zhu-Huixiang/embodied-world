@@ -1,6 +1,6 @@
 # GR00T N1: An Open Foundation Model for Generalist Humanoid Robots
 
-**GR00T N1** · arXiv 2025 · 本版排名 94 · 综合分 **80.4 / 100**
+**GR00T N1** · arXiv 2025 · 本版排名 96 · 综合分 **80.4 / 100**
 
 [解读导读](../../../library/gr00t-n1.md) · [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) · [arXiv集锦](../../../arxiv/README.md#paper-gr00t-n1)
 

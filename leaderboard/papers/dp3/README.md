@@ -1,6 +1,6 @@
 # 3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations
 
-**DP3** · RSS 2024 · 本版排名 48 · 综合分 **85.9 / 100**
+**DP3** · RSS 2024 · 本版排名 49 · 综合分 **85.9 / 100**
 
 [解读导读](../../../library/dp3.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 

@@ -1,6 +1,6 @@
 # Dream to Control: Learning Behaviors by Latent Imagination
 
-**Dreamer** · ICLR 2020 · 本版排名 39 · 综合分 **87.4 / 100**
+**Dreamer** · ICLR 2020 · 本版排名 40 · 综合分 **87.4 / 100**
 
 [解读导读](../../../library/dreamer.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [ICLR集锦](../../../venues/ICLR/README.md)
 
