@@ -23,6 +23,6 @@
 - [来源1](https://arxiv.org/html/2610.35862v1)
 - [来源2](https://louis-leee.github.io/FLoRe/)
 
-资料核验：2026-10-30。
+资料核验：2026-10-31。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1401,6 +1401,18 @@
       ],
       "verification_basis": "原站abs重试200，版本历史v1与35页PDF首页核身份、日期、作者；全文可追溯，未核正式刊会。",
       "reason": "完整公开稿阶段60。"
+    },
+    "world2vec": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.40637v1",
+      "checked_at": "2026-10-31T08:42:23.780517+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.40637v1",
+        "https://arxiv.org/pdf/2610.40637v1",
+        "https://worldmodels.science/world2vec/"
+      ],
+      "verification_basis": "完整读取19页v1 PDF正文§1–5、References和A–F附录，目视首页署名与关键图表；abs仍仅v1，项目标Preprint,2026，未标正式刊会。",
+      "reason": "完整可追溯公开稿60；未核正式录用或独立技术检验，不借机构/聚合页加分。"
     }
   }
 }

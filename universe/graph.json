@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "nodes": [
     {
       "id": "paper:act",
@@ -2407,6 +2407,35 @@
       "source_url": "https://proceedings.mlr.press/v205/margolis23a.html"
     },
     {
+      "id": "paper:world2vec",
+      "key": "world2vec",
+      "kind": "paper",
+      "title": "world2vec",
+      "subtitle": "world2vec: Mechanistic world models through latent dynamics learning",
+      "track": "world-model",
+      "track_label": "世界模型与模型强化学习",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/world2vec.md",
+      "concepts": [
+        "world",
+        "dynamics",
+        "representation",
+        "jepa",
+        "contrastive",
+        "transformer",
+        "patches",
+        "rollout",
+        "mpc",
+        "search",
+        "offline",
+        "inverse",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.40637v1"
+    },
+    {
       "id": "concept:representation",
       "key": "representation",
       "kind": "concept",
@@ -2437,6 +2466,7 @@
         "i-jepa",
         "learned-dynamics-review",
         "jam",
+        "world2vec",
         "viola"
       ],
       "explainers": [
@@ -2492,7 +2522,8 @@
       "papers": [
         "cliport",
         "r3m",
-        "clip"
+        "clip",
+        "world2vec"
       ],
       "explainers": [
         {
@@ -2866,7 +2897,8 @@
         "rt1",
         "attention",
         "sam2",
-        "gar"
+        "gar",
+        "world2vec"
       ],
       "explainers": [
         {
@@ -3023,7 +3055,8 @@
         "dino",
         "dinov2",
         "mae",
-        "sam"
+        "sam",
+        "world2vec"
       ],
       "explainers": [
         {
@@ -3123,6 +3156,7 @@
         "lewm",
         "vjepa2",
         "jam",
+        "world2vec",
         "lewam",
         "plaw-vla"
       ],
@@ -3539,7 +3573,8 @@
       "papers": [
         "dreamerv3",
         "muzero",
-        "supermimic"
+        "supermimic",
+        "world2vec"
       ],
       "explainers": [
         {
@@ -3580,6 +3615,7 @@
         "vjepa2",
         "supermimic",
         "diffcontact",
+        "world2vec",
         "dreamtrue",
         "lewam"
       ],
@@ -3610,6 +3646,7 @@
         "td-mpc2",
         "lewm",
         "vjepa2",
+        "world2vec",
         "lewam"
       ],
       "explainers": []
@@ -3655,7 +3692,8 @@
         "efficientzero-v2",
         "trajectory-transformer",
         "diffuser",
-        "muzero"
+        "muzero",
+        "world2vec"
       ],
       "explainers": [
         {
@@ -3677,6 +3715,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/inverse.md",
       "papers": [
         "unipi",
+        "world2vec",
         "lewam"
       ],
       "explainers": []
@@ -3781,7 +3820,8 @@
         "td3-bc",
         "decision-transformer",
         "cal-ql",
-        "cql"
+        "cql",
+        "world2vec"
       ],
       "explainers": []
     },
@@ -4140,7 +4180,8 @@
         "jam",
         "tops",
         "tapestry",
-        "gar"
+        "gar",
+        "world2vec"
       ],
       "explainers": [
         {
@@ -4197,7 +4238,8 @@
         "sam2",
         "ctrl-world",
         "diffcontact",
-        "gar"
+        "gar",
+        "world2vec"
       ],
       "explainers": [
         {
@@ -20913,6 +20955,561 @@
       "source_url": "https://proceedings.mlr.press/v205/margolis23a.html",
       "locator": "existing source-grounded reading card",
       "explainers": []
+    },
+    {
+      "id": "local:world2vec:world",
+      "key": "world",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "world",
+      "title": "世界模型",
+      "subtitle": "学习状态随动作或时间如何变化，用于预测、计划或训练策略。",
+      "detail": "预测对象可以是像素、latent、奖励或与决策相关的潜状态。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/world.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:dynamics",
+      "key": "dynamics",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "dynamics",
+      "title": "动作条件动力学",
+      "subtitle": "以当前状态和动作预测下一状态或分布，建立“做这个动作会发生什么”的计算接口。",
+      "detail": "不能把无动作的视频预测直接当成可干预的动力学。",
+      "parent_node": "local:world2vec:world",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/dynamics.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/representation.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:jepa",
+      "key": "jepa",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "jepa",
+      "title": "表征预测 JEPA",
+      "subtitle": "在表征空间预测目标而不是逐像素重建；防止表征坍缩仍需要相应设计。",
+      "detail": "不同论文的 EMA、stop-gradient 或正则方案不能互相借用。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/jepa.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:contrastive",
+      "key": "contrastive",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "contrastive",
+      "title": "对比学习",
+      "subtitle": "给相关样本较高相似度，让它们在候选竞争中被找回来。图文配对是 CLIP 的监督来源。",
+      "detail": "CLIP 同批 N 对样本组成 N×N 相似度表，对角线是配对答案。",
+      "parent_node": "local:world2vec:representation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/contrastive.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/transformer.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:patches",
+      "key": "patches",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "patches",
+      "title": "视觉 patch token",
+      "subtitle": "把图像切成块，展平并投影成向量，再加入位置信息。",
+      "detail": "CLIP B/32 的 224×224 图像得到 49 个图块，加 CLS 共 50 个视觉位置。",
+      "parent_node": "local:world2vec:transformer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/patches.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:rollout",
+      "key": "rollout",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "rollout",
+      "title": "闭环滚动与历史偏移",
+      "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
+      "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/rollout.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:mpc",
+      "key": "mpc",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "mpc",
+      "title": "模型预测控制 MPC",
+      "subtitle": "在模型里比较未来动作序列，执行开头一段，用新观测重算下一轮。",
+      "detail": "CEM 等搜索器负责提出和筛选序列，模型负责预测。",
+      "parent_node": "local:world2vec:world",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/mpc.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:search",
+      "key": "search",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "search",
+      "title": "树搜索与轨迹搜索",
+      "subtitle": "展开候选动作或轨迹，用预测价值挑选可执行方案。",
+      "detail": "MuZero 在潜状态中做 MCTS；轨迹 Transformer 用 beam search。",
+      "parent_node": "local:world2vec:world",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/search.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:offline",
+      "key": "offline",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "offline",
+      "title": "离线强化学习",
+      "subtitle": "从已有轨迹学习决策，训练时不能自由去环境补齐数据外动作的后果。",
+      "detail": "数据覆盖与值函数外推决定策略是否敢选不可靠动作。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/offline.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:inverse",
+      "key": "inverse",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "inverse",
+      "title": "逆动力学",
+      "subtitle": "从状态变化或相邻画面推回可能的动作，给视频计划连接环境专用执行接口。",
+      "detail": "同样画面变化可能由不同动作产生，要看训练条件。",
+      "parent_node": "local:world2vec:dynamics",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/inverse.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "world2vec",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "本篇方法链路",
+      "subtitle": "world2vec用三帧观测编码潜状态，MLP预测动作条件变化率，以Euler残差积分出多步潜轨迹；把每一步预测对齐真实未来编码，以SIGReg或DCL防止表示塌缩。超参选择用未来检索EQA，另报告跨seed仿射一致性和LRC。执行时编码目标观测，CEM按潜距离选动作并滚动重规划，不训练奖励模型。科学辨识实验另将向量场换成稀疏多项式库，在已知最高阶和仿射坐标不确定性下读出动力学关系。",
+      "detail": "world2vec用三帧观测编码潜状态，MLP预测动作条件变化率，以Euler残差积分出多步潜轨迹；把每一步预测对齐真实未来编码，以SIGReg或DCL防止表示塌缩。超参选择用未来检索EQA，另报告跨seed仿射一致性和LRC。执行时编码目标观测，CEM按潜距离选动作并滚动重规划，不训练奖励模型。科学辨识实验另将向量场换成稀疏多项式库，在已知最高阶和仿射坐标不确定性下读出动力学关系。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:objective",
+      "key": "objective",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "高任务回报与忠实动力学",
+      "subtitle": "把控制成功和模型是否忠实描述状态演化分开检验。",
+      "detail": "目标是同时学习表示、可长期预测的潜动力学和可读机制；回报高不保证潜预测忠实。",
+      "parent_node": "paper:world2vec",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/objective.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§1; Fig.1; PDF pp1–2",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:faithfulness",
+      "key": "faithfulness",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "编码与时间演化可交换",
+      "subtitle": "先编码再预测与先演化再编码应该到同一潜状态。",
+      "detail": "物理状态s经观测g与编码h组成r=h∘g；可逆r是坐标变换条件。Eq.3用积分潜向量场匹配未来编码，不把理论条件写成实际已证明。",
+      "parent_node": "local:world2vec:objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/faithfulness.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§2; Eqs.1–3; PDF pp1–2",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:history",
+      "key": "history",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "三帧历史补充速度信息",
+      "subtitle": "单帧位置不能决定速度，用H=3的短历史编码。",
+      "detail": "每帧64×64 RGB由小ViT编码，再经拼接历史的MLP得到z；潜宽按实验变化，d=32结构的263k参数不代表所有表格行精确参数数。",
+      "parent_node": "local:world2vec:faithfulness",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/history.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§2–3.1; STab.1; PDF pp3–4,16",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:euler",
+      "key": "euler",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "潜向量场与Euler残差",
+      "subtitle": "预测潜状态变化率，再乘时间间隔更新状态。",
+      "detail": "动作在区间内恒定，z_next=z+Δt f(z,a)。相对直接MLP输出下一状态，这是残差式潜动力学接口，不是新发明ODE积分。",
+      "parent_node": "local:world2vec:history",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/euler.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§2; Eqs.4–5; Table4; PDF pp3,7",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:multistep-rollout",
+      "key": "multistep-rollout",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "沿自身预测轨迹训练多步",
+      "subtitle": "从一次编码出发沿记录动作滚动K步，每步对齐真实未来编码。",
+      "detail": "权重默认1/K；沿自身预测轨迹暴露误差累积，K=1/10/20/40消融要带实际秒数与采样频率。",
+      "parent_node": "local:world2vec:euler",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/multistep-rollout.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§2; Eqs.6–8; Table3; Appendix A; PDF pp3,6,14",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:regularization",
+      "key": "regularization",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "用正则阻止表示塌缩",
+      "subtitle": "所有输入编码成同一点能虚假满足预测误差，需要额外分布约束。",
+      "detail": "SIGReg和DCL对应不同嵌入分布先验，不能只靠LRC判断有效状态。",
+      "parent_node": "local:world2vec:multistep-rollout",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/regularization.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§2; Appendix A; PDF pp3,14–15",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:sigreg",
+      "key": "sigreg",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "SIGReg的一维投影分布约束",
+      "subtitle": "将随机投影后的潜表示匹配到标准高斯。",
+      "detail": "图像使用1024随机方向；17个[0,3]积分节点，逐时间位置批次独立计算并平均，避免把同一路径相关样本当独立起点。",
+      "parent_node": "local:world2vec:regularization",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/sigreg.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Appendix A; Eqs.13–14; PDF p14",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:dcl",
+      "key": "dcl",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "起始编码负样本与动态梯度",
+      "subtitle": "以起始编码到负样本的距离形成均匀性项。",
+      "detail": "负样本与起始编码比较而非预测编码；均匀性项只更新编码器，剩余项保持目标有下界并重标预测梯度。",
+      "parent_node": "local:world2vec:regularization",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/dcl.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Appendix A; Eqs.15–16; PDF pp14–15",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:metrics",
+      "key": "metrics",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "一致性、LRC与EQA",
+      "subtitle": "三个指标分别量跨训练表示对应、模型自洽和未来检索准确度。",
+      "detail": "跨seed仿射R²不是物理状态恢复；LRC可被塌缩欺骗，EQA检索检查未来可分性。Table1用variance-weighted LRC，Tables3/4均匀平均各潜维，且Reacher采样处理不同，必须表内比较。",
+      "parent_node": "local:world2vec:multistep-rollout",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/metrics.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§2; Eqs.9–10; Appendix B; PDF pp3,15",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:latent-mpc",
+      "key": "latent-mpc",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "目标编码与CEM规划",
+      "subtitle": "用潜状态到目标的加权距离选择动作序列。",
+      "detail": "CEM采样候选、保留低成本序列并重拟合分布，执行前缀后重规划；没有奖励模型/状态解码器，仍需目标帧。",
+      "parent_node": "local:world2vec:euler",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/latent-mpc.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§2–3.1; Eq.12; Appendix C; PDF pp4–5,16",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:goals",
+      "key": "goals",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "目标帧与Reacher逆运动学",
+      "subtitle": "目标观测是任务输入，reward-free不等于没有目标知识。",
+      "detail": "Pendulum/CartPole目标竖直静止且车居中；Reacher每episode用IK生成两种肘构型目标，分别规划并平均。",
+      "parent_node": "local:world2vec:latent-mpc",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/goals.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§3.1; PDF pp4–5",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:dataset",
+      "key": "dataset",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "随机动作视觉数据与切分",
+      "subtitle": "每环境20万帧，以完整episode分训练验证测试。",
+      "detail": "2000×100帧、1400/300/300episode；Pendulum/CartPole用OU扭矩，Reacher均匀随机。CartPole越界时还向内推，不说采集无任何环境设计。",
+      "parent_node": "local:world2vec:history",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/dataset.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§3.1; Appendix D; STab.3; PDF pp4,17",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:control-evidence",
+      "key": "control-evidence",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "三项仿真控制的收益和失败",
+      "subtitle": "world2vec改善Pendulum/Reacher，视觉CartPole仍失败。",
+      "detail": "Table1 DCL回报826/895/232，DreamerV3为668/792/899，TD-MPC2为911/744/894；最大1000。在线奖励训练、离线随机数据和控制频率不同，不能宣传全面胜出。",
+      "parent_node": "local:world2vec:latent-mpc",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/control-evidence.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Table1; §3.2; Appendix E; PDF pp5–6,18",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:goal-protocol",
+      "key": "goal-protocol",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "LeWM原目标到达协议",
+      "subtitle": "另用LeWM的goal-reaching协议检查主表比较依赖。",
+      "detail": "25Hz DCL在200步目标成功80.2±1.6%，LeWM52.9±3.8%；25步目标86.2±1.1%比81.6±2.4%，对应规划2.55比8.64秒。8.3Hz更快但近目标成功75.8%，不只报最快倍数。",
+      "parent_node": "local:world2vec:control-evidence",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/goal-protocol.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Table2; STab.4; PDF pp6,18",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:ablations",
+      "key": "ablations",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "训练视野与动力学参数化消融",
+      "subtitle": "分别检查多步训练和Euler残差，保留潜维的交互影响。",
+      "detail": "Table3每格重选潜维/正则，并非严格固定所有超参；Table4 K20、d32时DCL离散/连续LRC50.9/94.3，EQA10.6/71.1。低维离散模型也可表现好。",
+      "parent_node": "local:world2vec:multistep-rollout",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/ablations.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Tables3–4; Appendix B; PDF pp6–7,15",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:retiming",
+      "key": "retiming",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "改变积分步长与控制频率",
+      "subtitle": "固定模型通过更小Euler步在更高频率规划。",
+      "detail": "同一Reacher模型10Hz训练，50Hz积分、每两步持一动作而25Hz重规划；903与952是同起点目标的一例episode回报，不当跨任务统计泛化。",
+      "parent_node": "local:world2vec:euler",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/retiming.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Fig.5; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:geometry",
+      "key": "geometry",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "潜空间几何与非线性混合",
+      "subtitle": "用PCA和逐渐加深的观测混合分析表示恢复。",
+      "detail": "Reacher角度环状/开边界为定性PCA展示；非视觉CartPole把位置/角度混合到50维且不含速度后可控，不等于解决像素CartPole。",
+      "parent_node": "local:world2vec:metrics",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/geometry.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Figs.4,6; §3.2; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:sindy",
+      "key": "sindy",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "稀疏多项式潜动力学",
+      "subtitle": "用可读多项式库替代黑箱MLP向量场。",
+      "detail": "无动作dz/dt=Ξθ(z)，Ξ为d×p；包括常数和到已知q∈{2,3}阶的单项式，加1e-5 L1，训练不截断系数。",
+      "parent_node": "local:world2vec:faithfulness",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/sindy.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§4.1; Eq.11; Appendix F; PDF pp4,8,19",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:attractors",
+      "key": "attractors",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "71个受控混合动力系统",
+      "subtitle": "对dysts混沌系统加入过程噪声并做非线性观测混合。",
+      "detail": "每系统1000条×1000步，RK4与系统相关步长，固定四层注入MLP投到50维；按轨迹70/15/15切分，K1、三seed、10k迭代。不是71个机器人任务。",
+      "parent_node": "local:world2vec:sindy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/attractors.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§4.1; Appendix F; PDF pp8–9,19",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:noise-identifiability",
+      "key": "noise-identifiability",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "过程噪声与可辨识性",
+      "subtitle": "过程噪声增加潜状态各方向变化，有助仿射恢复。",
+      "detail": "α从0到1时SINDy中位仿射R²约0.7到0.97；噪声也降低LRC。iDynR²对齐真实状态动力学，与只靠观测的LRC不同。",
+      "parent_node": "local:world2vec:attractors",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/noise-identifiability.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§4.2; Fig.7b; Appendix B,F; PDF pp9–10,15,19",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:validation-boundary",
+      "key": "validation-boundary",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "在验证集选参并报告验证集",
+      "subtitle": "符号实验模型选择与报告集重用限制其泛化结论。",
+      "detail": "Appendix F按validation LRC50选择λ，再报告validation结果；有test划分不等于结果来自held-out test，此问题不自动推翻控制消融。",
+      "parent_node": "local:world2vec:attractors",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/validation-boundary.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "Appendix F Models; PDF p19",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:symbolic-showcase",
+      "key": "symbolic-showcase",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "最佳示例的对齐与系数阈值",
+      "subtitle": "图7c展示筛选后的SprottA方程恢复。",
+      "detail": "先保留验证LRC前十，再选跨seed系数最一致者。展示真坐标方程用真实状态最小二乘仿射对齐并阈值0.1；不是从纯图像盲发现通用物理定律。",
+      "parent_node": "local:world2vec:sindy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/symbolic-showcase.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§4.2; Fig.7c; Appendix F; PDF pp9–10,19",
+      "explainers": []
+    },
+    {
+      "id": "local:world2vec:limits",
+      "key": "limits",
+      "kind": "local",
+      "paper": "world2vec",
+      "title": "复用与外推边界",
+      "subtitle": "区分简化视觉控制、非视觉系统辨识和真实机器人应用。",
+      "detail": "无实机、大规模多环境或复杂接触操作证据；官方repo未放训练/评估实现。优先复查代码、统一控制协议及符号test-set评估。",
+      "parent_node": "local:world2vec:control-evidence",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/world2vec/limits.md",
+      "source_url": "https://arxiv.org/pdf/2610.40637v1",
+      "locator": "§5; Appendix E–F; official README; PDF pp10,18–19",
+      "explainers": []
     }
   ],
   "edges": [
@@ -29759,14 +30356,314 @@
       "to": "local:walk-these-ways:method-chain",
       "kind": "contains",
       "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:world",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:world",
+      "to": "concept:world",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:world",
+      "to": "local:world2vec:dynamics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:dynamics",
+      "to": "concept:dynamics",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:jepa",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:jepa",
+      "to": "concept:jepa",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:representation",
+      "to": "local:world2vec:contrastive",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:contrastive",
+      "to": "concept:contrastive",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:transformer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:transformer",
+      "to": "local:world2vec:patches",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:patches",
+      "to": "concept:patches",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:rollout",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:rollout",
+      "to": "concept:rollout",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:world",
+      "to": "local:world2vec:mpc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:mpc",
+      "to": "concept:mpc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:world",
+      "to": "local:world2vec:search",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:search",
+      "to": "concept:search",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:offline",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:offline",
+      "to": "concept:offline",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:dynamics",
+      "to": "local:world2vec:inverse",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:inverse",
+      "to": "concept:inverse",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:world2vec",
+      "to": "local:world2vec:objective",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:objective",
+      "to": "local:world2vec:faithfulness",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:faithfulness",
+      "to": "local:world2vec:history",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:history",
+      "to": "local:world2vec:euler",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:euler",
+      "to": "local:world2vec:multistep-rollout",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:multistep-rollout",
+      "to": "local:world2vec:regularization",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:regularization",
+      "to": "local:world2vec:sigreg",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:regularization",
+      "to": "local:world2vec:dcl",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:multistep-rollout",
+      "to": "local:world2vec:metrics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:euler",
+      "to": "local:world2vec:latent-mpc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:latent-mpc",
+      "to": "local:world2vec:goals",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:history",
+      "to": "local:world2vec:dataset",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:latent-mpc",
+      "to": "local:world2vec:control-evidence",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:control-evidence",
+      "to": "local:world2vec:goal-protocol",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:multistep-rollout",
+      "to": "local:world2vec:ablations",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:euler",
+      "to": "local:world2vec:retiming",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:metrics",
+      "to": "local:world2vec:geometry",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:faithfulness",
+      "to": "local:world2vec:sindy",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:sindy",
+      "to": "local:world2vec:attractors",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:attractors",
+      "to": "local:world2vec:noise-identifiability",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:attractors",
+      "to": "local:world2vec:validation-boundary",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:sindy",
+      "to": "local:world2vec:symbolic-showcase",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:world2vec:control-evidence",
+      "to": "local:world2vec:limits",
+      "kind": "contains",
+      "lit": false
     }
   ],
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 122,
+    "papers": 123,
     "concepts": 59,
-    "local_topics": 968,
+    "local_topics": 1005,
     "lit_papers": 18,
     "lit_concepts": 43,
     "lit_local_topics": 432

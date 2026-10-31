@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 122 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 123 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -12,7 +12,7 @@
 
 ## 方向目录
 
-- [世界模型与模型强化学习](#track-world-model) · 15 篇
+- [世界模型与模型强化学习](#track-world-model) · 16 篇
 - [世界动作模型](#track-world-action-model) · 6 篇
 - [视频动作模型与视觉推理](#track-video-action) · 5 篇
 - [视觉语言动作模型 VLA](#track-vla) · 16 篇
@@ -46,6 +46,7 @@
 | [Ctrl-World](../library/ctrl-world.md) · [ICLR 2026](../venues/ICLR/README.md) | 怎样让视频生成器按真实动作走，并使想象中的策略排名接近实机？ |
 | [A review of learning-based dynamics models for robotic manipulation](../library/learned-dynamics-review.md) · [Sci. Robot. 2025](../venues/Science-Robotics/README.md) | 世界模型该预测像素、latent、粒子还是物体？换种表示会怎样改写感知与规划的代价？ |
 | [V-JEPA 2](../library/vjepa2.md) · [arXiv 2025](../arxiv/README.md#paper-vjepa2) | 先看无动作标签视频，再给少量机器人交互，潜空间怎样变成 Franka 规划器？ |
+| [world2vec](../library/world2vec.md) · [arXiv 2026](../arxiv/README.md#paper-world2vec) | 世界模型拿高回报，就等于真的学会物理规律了吗？把下一状态预测换成潜速度场，再沿自己的预测轨迹训练，能让控制与动力学忠实度一起提高吗？ |
 | [DreamTrue](../library/dreamtrue.md) · [arXiv 2026](../arxiv/README.md#paper-dreamtrue) | 模型怎样避免把每次接触都预测成成功？ |
 
 <a id="track-world-action-model"></a>
@@ -247,4 +248,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-10-30。
+元数据核对日期：2026-10-31。

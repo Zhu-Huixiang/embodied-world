@@ -24,6 +24,6 @@
 - [来源1](https://www.robbyant.com/about-robby)
 - [来源2](https://technology.robbyant.com/lingbot-va)
 
-资料核验：2026-10-30。
+资料核验：2026-10-31。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

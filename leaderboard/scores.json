@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -56673,6 +56673,423 @@
         "profile": null
       },
       "rank": 122
+    },
+    {
+      "id": "world2vec",
+      "checked_at": "2026-10-31",
+      "short_name": "world2vec",
+      "title": "world2vec: Mechanistic world models through latent dynamics learning",
+      "year": 2026,
+      "navigation": {
+        "track": "world-model",
+        "track_label": "世界模型与模型强化学习",
+        "track_path": "paper-map/README.md#track-world-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-world2vec",
+        "reading_path": "library/world2vec.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/world2vec.md",
+        "card_path": "leaderboard/papers/world2vec/README.md"
+      },
+      "origin": {
+        "label": "Tobias Schmidt / Rodrigo Gonzalez Laiz · 亥姆霍兹慕尼黑中心 / 慕尼黑机器学习中心 · 另1个机构",
+        "author_label": "Tobias Schmidt / Rodrigo Gonzalez Laiz",
+        "institution_label": "亥姆霍兹慕尼黑中心 / 慕尼黑机器学习中心 · 另1个机构",
+        "search": "Tobias Schmidt Rodrigo Gonzalez Laiz Tobias Schmidt Rodrigo Gonzalez Laiz Krisztián Szuppinger Steffen Schneider Steffen Schneider Helmholtz Munich Munich Center for Machine Learning (MCML) 亥姆霍兹慕尼黑中心 慕尼黑机器学习中心 动力学推断实验室 亥姆霍兹慕尼黑中心 慕尼黑机器学习中心 Helmholtz Munich Helmholtz Munich 亥姆霍兹慕尼黑中心 Munich Center for Machine Learning (MCML) MCML Munich Center for Machine Learning (MCML) 慕尼黑机器学习中心 Dynamical Inference Lab Dynamical Inference Lab Schneider Lab 动力学推断实验室",
+        "keys": [
+          "helmholtz-munich",
+          "mcml",
+          "dynamical-inference-lab"
+        ],
+        "profiles": [
+          {
+            "key": "helmholtz-munich",
+            "label": "亥姆霍兹慕尼黑中心",
+            "search": "Helmholtz Munich Helmholtz Munich 亥姆霍兹慕尼黑中心"
+          },
+          {
+            "key": "mcml",
+            "label": "慕尼黑机器学习中心",
+            "search": "Munich Center for Machine Learning (MCML) MCML Munich Center for Machine Learning (MCML) 慕尼黑机器学习中心"
+          },
+          {
+            "key": "dynamical-inference-lab",
+            "label": "动力学推断实验室",
+            "search": "Dynamical Inference Lab Dynamical Inference Lab Schneider Lab 动力学推断实验室"
+          }
+        ],
+        "path": "leaderboard/origins/papers/world2vec.md"
+      },
+      "scores": {
+        "innovation": 74,
+        "evidence": 72,
+        "reuse": 62,
+        "reading": 82,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 57.9,
+      "score_exact": "57.90",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新74：潜变化率、多步自身rollout匹配、防塌缩先验与忠实度指标形成可控/可解释模型接口；ODE积分、残差、多步损失和SINDy各有先例。证据72：两项核心消融、LeWM原协议、混合难度和71系统补充；三项简化仿真、视觉CartPole失败、跨法数据/奖励/频率差异及符号验证集报告使证据未达80档。复用62：公式、训练和规划参数可学习，小模型便于机制研究；官方代码未发布，不因仓库入口加分。阅读82：拆开模型自洽、可辨识性与控制成功，直接连接现有LeWM/TD-MPC2/Dreamer问题。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40637v1"
+          ],
+          "review_depth": "完整阅读19页v1正文/参考文献/附录A–F，目视PDF1/5/6/7/8/9/16/18/19完整页；核控制协议、消融、符号报告集与择优展示。未执行代码复现，不等于公开完整精讲。"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新74：潜变化率、多步自身rollout匹配、防塌缩先验与忠实度指标形成可控/可解释模型接口；ODE积分、残差、多步损失和SINDy各有先例。证据72：两项核心消融、LeWM原协议、混合难度和71系统补充；三项简化仿真、视觉CartPole失败、跨法数据/奖励/频率差异及符号验证集报告使证据未达80档。复用62：公式、训练和规划参数可学习，小模型便于机制研究；官方代码未发布，不因仓库入口加分。阅读82：拆开模型自洽、可辨识性与控制成功，直接连接现有LeWM/TD-MPC2/Dreamer问题。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40637v1"
+          ],
+          "review_depth": "完整阅读19页v1正文/参考文献/附录A–F，目视PDF1/5/6/7/8/9/16/18/19完整页；核控制协议、消融、符号报告集与择优展示。未执行代码复现，不等于公开完整精讲。"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新74：潜变化率、多步自身rollout匹配、防塌缩先验与忠实度指标形成可控/可解释模型接口；ODE积分、残差、多步损失和SINDy各有先例。证据72：两项核心消融、LeWM原协议、混合难度和71系统补充；三项简化仿真、视觉CartPole失败、跨法数据/奖励/频率差异及符号验证集报告使证据未达80档。复用62：公式、训练和规划参数可学习，小模型便于机制研究；官方代码未发布，不因仓库入口加分。阅读82：拆开模型自洽、可辨识性与控制成功，直接连接现有LeWM/TD-MPC2/Dreamer问题。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40637v1"
+          ],
+          "review_depth": "完整阅读19页v1正文/参考文献/附录A–F，目视PDF1/5/6/7/8/9/16/18/19完整页；核控制协议、消融、符号报告集与择优展示。未执行代码复现，不等于公开完整精讲。"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新74：潜变化率、多步自身rollout匹配、防塌缩先验与忠实度指标形成可控/可解释模型接口；ODE积分、残差、多步损失和SINDy各有先例。证据72：两项核心消融、LeWM原协议、混合难度和71系统补充；三项简化仿真、视觉CartPole失败、跨法数据/奖励/频率差异及符号验证集报告使证据未达80档。复用62：公式、训练和规划参数可学习，小模型便于机制研究；官方代码未发布，不因仓库入口加分。阅读82：拆开模型自洽、可辨识性与控制成功，直接连接现有LeWM/TD-MPC2/Dreamer问题。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40637v1"
+          ],
+          "review_depth": "完整阅读19页v1正文/参考文献/附录A–F，目视PDF1/5/6/7/8/9/16/18/19完整页；核控制协议、消融、符号报告集与择优展示。未执行代码复现，不等于公开完整精讲。"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "完整可追溯公开稿60；未核正式录用或独立技术检验，不借机构/聚合页加分。；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40637v1",
+            "https://arxiv.org/pdf/2610.40637v1",
+            "https://worldmodels.science/world2vec/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "引用源未匹配；全文、官方项目及精确ID搜索前5未定位独立技术采用，量表起点0。原始引用null，作者其他工作与摘要聚合不算本篇采用。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40637v1",
+            "https://arxiv.org/pdf/2610.40637v1",
+            "https://worldmodels.science/world2vec/",
+            "https://github.com/dynamical-inference/world2vec",
+            "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40637",
+            "https://api.openalex.org/works?search=world2vec%3A%20Mechanistic%20world%20models%20through%20latent%20dynamics%20learning&per-page=5",
+            "https://huggingface.co/api/papers/2610.40637"
+          ],
+          "checked_at": "2026-10-31T08:42:23.780517+08:00",
+          "audit_scope": "S2精确ID、OpenAlex精确DOI与题目前5、HF单篇、官方专属repo README/目录/计数、项目/实验室、Exa精确ID前5。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "引用源未匹配；全文、官方项目及精确ID搜索前5未定位独立技术采用，量表起点0。原始引用null，作者其他工作与摘要聚合不算本篇采用。",
+              "sources": [
+                "https://arxiv.org/abs/2610.40637v1",
+                "https://arxiv.org/pdf/2610.40637v1",
+                "https://worldmodels.science/world2vec/",
+                "https://github.com/dynamical-inference/world2vec",
+                "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40637",
+                "https://api.openalex.org/works?search=world2vec%3A%20Mechanistic%20world%20models%20through%20latent%20dynamics%20learning&per-page=5",
+                "https://huggingface.co/api/papers/2610.40637"
+              ],
+              "checked_at": "2026-10-31T08:42:23.780517+08:00",
+              "audit_scope": "S2精确ID、OpenAlex精确DOI与题目前5、HF单篇、官方专属repo README/目录/计数、项目/实验室、Exa精确ID前5。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "单篇GitHub实测star/fork/subscriber均0，HF单篇upvote实测0；未核带计数独立讨论，当前关注分0。引用/网页阅读量/X保持null，不借实验室账号流量。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40637v1",
+            "https://arxiv.org/pdf/2610.40637v1",
+            "https://worldmodels.science/world2vec/",
+            "https://github.com/dynamical-inference/world2vec",
+            "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40637",
+            "https://api.openalex.org/works?search=world2vec%3A%20Mechanistic%20world%20models%20through%20latent%20dynamics%20learning&per-page=5",
+            "https://huggingface.co/api/papers/2610.40637"
+          ],
+          "checked_at": "2026-10-31T08:42:23.780517+08:00",
+          "audit_scope": "专属repo创建于2026-10-15，API回读零计数；HF精确论文身份零upvote；没有可归属博客/X计数。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "单篇GitHub实测star/fork/subscriber均0，HF单篇upvote实测0；未核带计数独立讨论，当前关注分0。引用/网页阅读量/X保持null，不借实验室账号流量。",
+              "sources": [
+                "https://arxiv.org/abs/2610.40637v1",
+                "https://arxiv.org/pdf/2610.40637v1",
+                "https://worldmodels.science/world2vec/",
+                "https://github.com/dynamical-inference/world2vec",
+                "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40637",
+                "https://api.openalex.org/works?search=world2vec%3A%20Mechanistic%20world%20models%20through%20latent%20dynamics%20learning&per-page=5",
+                "https://huggingface.co/api/papers/2610.40637"
+              ],
+              "checked_at": "2026-10-31T08:42:23.780517+08:00",
+              "audit_scope": "专属repo创建于2026-10-15，API回读零计数；HF精确论文身份零upvote；没有可归属博客/X计数。"
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "github 的论文专属入口：GitHub Star=0；按10000上限对数压缩。",
+              "sources": [
+                "https://arxiv.org/pdf/2610.40637v1",
+                "https://worldmodels.science/world2vec/",
+                "https://github.com/dynamical-inference/world2vec",
+                "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+                "https://api.github.com/repos/dynamical-inference/world2vec"
+              ],
+              "snapshot": {
+                "url": "https://github.com/dynamical-inference/world2vec",
+                "platform": "github",
+                "metric": "stars",
+                "count": 0,
+                "checked_at": "2026-10-31T08:42:23.780517+08:00",
+                "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-15",
+                "window_end": "2026-10-31",
+                "window_label": "截至2026-10-31的累计快照",
+                "label": "GitHub Star",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "github 的论文专属入口：GitHub Watch订阅=0；按1000上限对数压缩。",
+              "sources": [
+                "https://arxiv.org/pdf/2610.40637v1",
+                "https://worldmodels.science/world2vec/",
+                "https://github.com/dynamical-inference/world2vec",
+                "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+                "https://api.github.com/repos/dynamical-inference/world2vec"
+              ],
+              "snapshot": {
+                "url": "https://github.com/dynamical-inference/world2vec",
+                "platform": "github",
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-10-31T08:42:23.780517+08:00",
+                "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-15",
+                "window_end": "2026-10-31",
+                "window_label": "截至2026-10-31的累计快照",
+                "label": "GitHub Watch订阅",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "huggingface 的论文专属入口：HF论文upvote=0；按1000上限对数压缩。",
+              "sources": [
+                "https://huggingface.co/api/papers/2610.40637",
+                "https://arxiv.org/abs/2610.40637v1",
+                "https://huggingface.co/papers/2610.40637"
+              ],
+              "snapshot": {
+                "url": "https://huggingface.co/papers/2610.40637",
+                "platform": "huggingface",
+                "metric": "upvotes",
+                "count": 0,
+                "checked_at": "2026-10-31T08:42:23.780517+08:00",
+                "sampled_at": "2026-10-31T00:36:27.693743+00:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-29",
+                "window_end": "2026-10-31",
+                "label": "HF论文upvote",
+                "window_label": "截至2026-10-31单篇计数",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "world2vec",
+        "checked_at": "2026-10-31T08:42:23.780517+08:00",
+        "status": "unmatched",
+        "provider": "Semantic Scholar / OpenAlex",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+        "match_note": "S2精确ID429；OpenAlex精确DOI404，完整题目检索最多5条但结果为空；原始引用保持null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40637",
+          "https://api.openalex.org/works?search=world2vec%3A%20Mechanistic%20world%20models%20through%20latent%20dynamics%20learning&per-page=5"
+        ],
+        "edition": "arXiv 2610.40637v1; 10.48550/arXiv.2610.40637"
+      },
+      "social": {
+        "checked_at": "2026-10-31T08:42:23.780517+08:00",
+        "resources": [
+          {
+            "platform": "github",
+            "url": "https://github.com/dynamical-inference/world2vec",
+            "api_url": "https://api.github.com/repos/dynamical-inference/world2vec",
+            "created_at": "2026-10-15T01:59:41Z",
+            "scope": "single_paper",
+            "scope_label": "单篇论文官方仓库入口",
+            "identity_verified": true,
+            "ownership": "official_paper_repository",
+            "identity_basis": {
+              "source_url": "https://worldmodels.science/world2vec/",
+              "summary": "原文/abs链接项目，项目Code指向此repo；README标题作者匹配。"
+            },
+            "scope_reason": "README只对应world2vec，当前只有README与assets，不是多论文实验室仓库。",
+            "sources": [
+              "https://arxiv.org/pdf/2610.40637v1",
+              "https://worldmodels.science/world2vec/",
+              "https://github.com/dynamical-inference/world2vec",
+              "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+              "https://api.github.com/repos/dynamical-inference/world2vec"
+            ],
+            "metrics": [
+              {
+                "metric": "stars",
+                "count": 0,
+                "checked_at": "2026-10-31T08:42:23.780517+08:00",
+                "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-15",
+                "window_end": "2026-10-31",
+                "window_label": "截至2026-10-31的累计快照",
+                "label": "GitHub Star",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-10-31T08:42:23.780517+08:00",
+                "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-15",
+                "window_end": "2026-10-31",
+                "window_label": "截至2026-10-31的累计快照",
+                "label": "GitHub Watch订阅",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "forks",
+                "count": 0,
+                "checked_at": "2026-10-31T08:42:23.780517+08:00",
+                "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-15",
+                "window_end": "2026-10-31",
+                "window_label": "截至2026-10-31的累计快照",
+                "label": "GitHub Fork",
+                "eligible_recent_attention": false,
+                "eligible_academic_impact": false
+              }
+            ],
+            "availability_note": "README写The code will be released here soon，当前README/assets；入口可访问不等于实现公开。"
+          },
+          {
+            "platform": "huggingface",
+            "resource_kind": "paper",
+            "id": "2610.40637",
+            "url": "https://huggingface.co/papers/2610.40637",
+            "api_url": "https://huggingface.co/api/papers/2610.40637",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://huggingface.co/api/papers/2610.40637",
+              "https://arxiv.org/abs/2610.40637v1"
+            ],
+            "identity_basis": "精确ID、标题、四作者匹配。",
+            "created_at": "2026-10-29T00:00:00.000Z",
+            "metrics": [
+              {
+                "metric": "upvotes",
+                "count": 0,
+                "checked_at": "2026-10-31T08:42:23.780517+08:00",
+                "sampled_at": "2026-10-31T00:36:27.693743+00:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-29",
+                "window_end": "2026-10-31",
+                "label": "HF论文upvote",
+                "window_label": "截至2026-10-31单篇计数",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            ],
+            "limitations": [
+              "HF日期字段不替换arXiv精确提交时刻；linkedModels/linkedDatasets空不代表全网无实现。"
+            ]
+          },
+          {
+            "platform": "project",
+            "url": "https://worldmodels.science/world2vec/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2610.40637v1",
+              "https://arxiv.org/pdf/2610.40637v1",
+              "https://worldmodels.science/world2vec/"
+            ],
+            "metrics": [],
+            "availability_note": "官方项目正文/控制回放可读，没有可核阅读计数。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "Exa精确ID前5为目录或摘要聚合，未核独立技术实验。ArXivSignals检索摘要的Code released与官方README冲突，排除其说法及站内评分；S2失败/OpenAlex未匹配如实保留。"
+      },
+      "editorial": {
+        "checked_at": "2026-10-31",
+        "scores": {
+          "innovation": 74,
+          "evidence": 72,
+          "reuse": 62,
+          "reading": 82
+        },
+        "mechanism": "world2vec用三帧观测编码潜状态，MLP预测动作条件变化率，以Euler残差积分出多步潜轨迹；把每一步预测对齐真实未来编码，以SIGReg或DCL防止表示塌缩。超参选择用未来检索EQA，另报告跨seed仿射一致性和LRC。执行时编码目标观测，CEM按潜距离选动作并滚动重规划，不训练奖励模型。科学辨识实验另将向量场换成稀疏多项式库，在已知最高阶和仿射坐标不确定性下读出动力学关系。",
+        "reason": "创新74：潜变化率、多步自身rollout匹配、防塌缩先验与忠实度指标形成可控/可解释模型接口；ODE积分、残差、多步损失和SINDy各有先例。证据72：两项核心消融、LeWM原协议、混合难度和71系统补充；三项简化仿真、视觉CartPole失败、跨法数据/奖励/频率差异及符号验证集报告使证据未达80档。复用62：公式、训练和规划参数可学习，小模型便于机制研究；官方代码未发布，不因仓库入口加分。阅读82：拆开模型自洽、可辨识性与控制成功，直接连接现有LeWM/TD-MPC2/Dreamer问题。",
+        "review_depth": "完整阅读19页v1正文/参考文献/附录A–F，目视PDF1/5/6/7/8/9/16/18/19完整页；核控制协议、消融、符号报告集与择优展示。未执行代码复现，不等于公开完整精讲。"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.40637v1",
+        "checked_at": "2026-10-31",
+        "profile": null
+      },
+      "rank": 123
     }
   ]
 }

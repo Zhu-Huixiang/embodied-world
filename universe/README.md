@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-122 篇论文是恒星，各自有自己的知识行星与卫星：共 968 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 18 篇有完整解读，432 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+123 篇论文是恒星，各自有自己的知识行星与卫星：共 1005 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 18 篇有完整解读，432 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -136,5 +136,6 @@
 | [Legged Gym](papers/walk-in-minutes.md) | 导读 | [PPO 与并行模拟](concepts/ppo.md) · [仿真到实机](concepts/sim2real.md) · [环境适应](concepts/adaptation.md) |
 | [Walk in the Park](papers/walk-in-the-park.md) | 导读 | [策略与价值学习](concepts/actor-critic.md) · [闭环滚动与历史偏移](concepts/rollout.md) · [动作表示](concepts/action.md) |
 | [Walk These Ways](papers/walk-these-ways.md) | 导读 | [分层技能与计划](concepts/skills.md) · [动作表示](concepts/action.md) · [环境适应](concepts/adaptation.md) |
+| [world2vec](papers/world2vec.md) | 导读 | [世界模型](concepts/world.md) · [动作条件动力学](concepts/dynamics.md) · [表征空间](concepts/representation.md) · [表征预测 JEPA](concepts/jepa.md) · [对比学习](concepts/contrastive.md) · [Transformer](concepts/transformer.md) · [视觉 patch token](concepts/patches.md) · [闭环滚动与历史偏移](concepts/rollout.md) · [模型预测控制 MPC](concepts/mpc.md) · [树搜索与轨迹搜索](concepts/search.md) · [离线强化学习](concepts/offline.md) · [逆动力学](concepts/inverse.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 
 [具身榜](../leaderboard/README.md) · [论文地图](../paper-map/README.md) · [首页](../README.md)

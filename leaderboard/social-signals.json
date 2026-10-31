@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -21614,6 +21614,123 @@
       "resources": [],
       "adoption_evidence": [],
       "audit_note": "PDF p10写代码将公开；abs未给代码或项目URL，GitHub完整标题和精确arXiv ID各最多10结果均空。作者主页有其他论文但未定位本篇项目，不将其他项目或作者账号关注移给本篇。HF本篇404；没有可核单篇计数。"
+    },
+    "world2vec": {
+      "checked_at": "2026-10-31T08:42:23.780517+08:00",
+      "resources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/dynamical-inference/world2vec",
+          "api_url": "https://api.github.com/repos/dynamical-inference/world2vec",
+          "created_at": "2026-10-15T01:59:41Z",
+          "scope": "single_paper",
+          "scope_label": "单篇论文官方仓库入口",
+          "identity_verified": true,
+          "ownership": "official_paper_repository",
+          "identity_basis": {
+            "source_url": "https://worldmodels.science/world2vec/",
+            "summary": "原文/abs链接项目，项目Code指向此repo；README标题作者匹配。"
+          },
+          "scope_reason": "README只对应world2vec，当前只有README与assets，不是多论文实验室仓库。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40637v1",
+            "https://worldmodels.science/world2vec/",
+            "https://github.com/dynamical-inference/world2vec",
+            "https://raw.githubusercontent.com/dynamical-inference/world2vec/main/README.md",
+            "https://api.github.com/repos/dynamical-inference/world2vec"
+          ],
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 0,
+              "checked_at": "2026-10-31T08:42:23.780517+08:00",
+              "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-15",
+              "window_end": "2026-10-31",
+              "window_label": "截至2026-10-31的累计快照",
+              "label": "GitHub Star",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "subscribers",
+              "count": 0,
+              "checked_at": "2026-10-31T08:42:23.780517+08:00",
+              "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-15",
+              "window_end": "2026-10-31",
+              "window_label": "截至2026-10-31的累计快照",
+              "label": "GitHub Watch订阅",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "forks",
+              "count": 0,
+              "checked_at": "2026-10-31T08:42:23.780517+08:00",
+              "sampled_at": "2026-10-31T00:36:27.693224+00:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-15",
+              "window_end": "2026-10-31",
+              "window_label": "截至2026-10-31的累计快照",
+              "label": "GitHub Fork",
+              "eligible_recent_attention": false,
+              "eligible_academic_impact": false
+            }
+          ],
+          "availability_note": "README写The code will be released here soon，当前README/assets；入口可访问不等于实现公开。"
+        },
+        {
+          "platform": "huggingface",
+          "resource_kind": "paper",
+          "id": "2610.40637",
+          "url": "https://huggingface.co/papers/2610.40637",
+          "api_url": "https://huggingface.co/api/papers/2610.40637",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://huggingface.co/api/papers/2610.40637",
+            "https://arxiv.org/abs/2610.40637v1"
+          ],
+          "identity_basis": "精确ID、标题、四作者匹配。",
+          "created_at": "2026-10-29T00:00:00.000Z",
+          "metrics": [
+            {
+              "metric": "upvotes",
+              "count": 0,
+              "checked_at": "2026-10-31T08:42:23.780517+08:00",
+              "sampled_at": "2026-10-31T00:36:27.693743+00:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-29",
+              "window_end": "2026-10-31",
+              "label": "HF论文upvote",
+              "window_label": "截至2026-10-31单篇计数",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            }
+          ],
+          "limitations": [
+            "HF日期字段不替换arXiv精确提交时刻；linkedModels/linkedDatasets空不代表全网无实现。"
+          ]
+        },
+        {
+          "platform": "project",
+          "url": "https://worldmodels.science/world2vec/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.40637v1",
+            "https://arxiv.org/pdf/2610.40637v1",
+            "https://worldmodels.science/world2vec/"
+          ],
+          "metrics": [],
+          "availability_note": "官方项目正文/控制回放可读，没有可核阅读计数。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "Exa精确ID前5为目录或摘要聚合，未核独立技术实验。ArXivSignals检索摘要的Code released与官方README冲突，排除其说法及站内评分；S2失败/OpenAlex未匹配如实保留。"
     }
   },
   "excluded_candidates": [

@@ -2,7 +2,7 @@
 
 把本仓涉及的论文排成可继续读的队列。每篇都有机制简析、七维雷达、逐项分数与来源；已有完整解读直接进入正文。
 
-本版 122 篇，更新：2026-10-30；评分方法v3。每篇完成七维评分，按固定权重综合排序；逐项依据在论文页面。
+本版 123 篇，更新：2026-10-31；评分方法v3。每篇完成七维评分，按固定权重综合排序；逐项依据在论文页面。
 
 [评分维度与公式](methodology.md) · [可重算数据](scores.json) · [v2→v3逐篇变化](changes-v3.md) · [补查与收录决定](selection-2026-10-10.md)
 
@@ -134,5 +134,6 @@
 | 120 | [Balanced Data Diet](papers/balanced-data-diet/README.md) | [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../library/balanced-data-diet.md) | [arXiv](../arxiv/README.md#paper-balanced-data-diet) | 2026 | 62.1 | [Locomotion 与运动适应](../paper-map/README.md#track-locomotion) | [**Octi Zhang**](origins/papers/balanced-data-diet.md)<br>[华盛顿大学 / 英伟达](origins/papers/balanced-data-diet.md) |
 | 121 | [PLaW-VLA](papers/plaw-vla/README.md) | [PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../library/plaw-vla.md) | [arXiv](../arxiv/README.md#paper-plaw-vla) | 2026 | 61.7 | [视频动作模型与视觉推理](../paper-map/README.md#track-video-action) | [**Yu Liu / Hetian Guo**](origins/papers/plaw-vla.md)<br>[吉林大学 / 星尘智能 · 另3个机构](origins/papers/plaw-vla.md) |
 | 122 | [GAR](papers/gar/README.md) | [Gaussian Distillation of Flow Policies](../library/gar.md) | [arXiv](../arxiv/README.md#paper-gar) | 2026 | 61.0 | [操作与动作块](../paper-map/README.md#track-manipulation) | [**Youssef Saied**](origins/papers/gar.md)<br>[日内瓦大学 / 图宾根大学 · 另2个机构](origins/papers/gar.md) |
+| 123 | [world2vec](papers/world2vec/README.md) | [world2vec: Mechanistic world models through latent dynamics learning](../library/world2vec.md) | [arXiv](../arxiv/README.md#paper-world2vec) | 2026 | 57.9 | [世界模型与模型强化学习](../paper-map/README.md#track-world-model) | [**Tobias Schmidt / Rodrigo Gonzalez Laiz**](origins/papers/world2vec.md)<br>[亥姆霍兹慕尼黑中心 / 慕尼黑机器学习中心 · 另1个机构](origins/papers/world2vec.md) |
 
 [新作集锦](../arxiv/README.md) · [论文地图](../paper-map/README.md) · [首页](../README.md)

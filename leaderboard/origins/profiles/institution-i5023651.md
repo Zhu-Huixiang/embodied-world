@@ -25,6 +25,6 @@
 - [来源1](https://openalex.org/I5023651)
 - [来源2](https://api.openalex.org/institutions/I5023651)
 
-资料核验：2026-10-30。
+资料核验：2026-10-31。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

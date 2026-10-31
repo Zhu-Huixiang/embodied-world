@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3452,6 +3452,101 @@
       "aliases": [
         "University of Technology Nuremberg",
         "纽伦堡工业大学"
+      ]
+    },
+    "helmholtz-munich": {
+      "id": "helmholtz-munich",
+      "name": "Helmholtz Munich",
+      "display_name": "亥姆霍兹慕尼黑中心",
+      "short_display_name": "亥姆霍兹慕尼黑中心",
+      "kind": "research_organization",
+      "identity_url": "https://arxiv.org/pdf/2610.40637v1",
+      "focus": "本篇共同署名机构；涉及潜表征、动力学学习与科学系统辨识。",
+      "links": [
+        {
+          "label": "机构官网",
+          "url": "https://www.helmholtz-munich.de/"
+        },
+        {
+          "label": "实验室与研究",
+          "url": "https://dynamical-inference.ai/"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40637v1",
+        "https://dynamical-inference.ai/"
+      ],
+      "checked_at": "2026-10-31T08:42:23.780517+08:00",
+      "aliases": [
+        "Helmholtz Munich",
+        "亥姆霍兹慕尼黑中心"
+      ]
+    },
+    "mcml": {
+      "id": "mcml",
+      "name": "Munich Center for Machine Learning (MCML)",
+      "display_name": "慕尼黑机器学习中心",
+      "short_display_name": "慕尼黑机器学习中心",
+      "kind": "research_organization",
+      "identity_url": "https://arxiv.org/pdf/2610.40637v1",
+      "focus": "共同署名机器学习研究中心；实验室官网列为Foundations of Machine Learning/Computational Models关联团队。",
+      "links": [
+        {
+          "label": "研究中心官网",
+          "url": "https://mcml.ai/"
+        },
+        {
+          "label": "实验室与关联说明",
+          "url": "https://dynamical-inference.ai/"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40637v1",
+        "https://dynamical-inference.ai/"
+      ],
+      "checked_at": "2026-10-31T08:42:23.780517+08:00",
+      "aliases": [
+        "MCML",
+        "Munich Center for Machine Learning (MCML)",
+        "慕尼黑机器学习中心"
+      ]
+    },
+    "dynamical-inference-lab": {
+      "id": "dynamical-inference-lab",
+      "name": "Dynamical Inference Lab",
+      "display_name": "动力学推断实验室",
+      "short_display_name": "动力学推断实验室",
+      "kind": "research_team",
+      "identity_url": "https://dynamical-inference.ai/",
+      "focus": "Steffen Schneider带领，研究可辨识/可解释表征与非线性动力学；属亥姆霍兹慕尼黑中心计算生物学研究所。官网列DCL、CEBRA、Equivariance by Contrast等工作。",
+      "links": [
+        {
+          "label": "实验室与工作集锦",
+          "url": "https://dynamical-inference.ai/"
+        },
+        {
+          "label": "论文列表",
+          "url": "https://dynamical-inference.ai/publication/"
+        },
+        {
+          "label": "学术主页（实验室官网所列）",
+          "url": "https://scholar.google.com/citations?user=KR5dj44AAAAJ&hl=en"
+        },
+        {
+          "label": "世界模型项目集",
+          "url": "https://worldmodels.science"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40637v1",
+        "https://worldmodels.science/world2vec/",
+        "https://dynamical-inference.ai/"
+      ],
+      "checked_at": "2026-10-31T08:42:23.780517+08:00",
+      "aliases": [
+        "Dynamical Inference Lab",
+        "Schneider Lab",
+        "动力学推断实验室"
       ]
     }
   },
@@ -9261,6 +9356,50 @@
       "primary_author_source": "https://arxiv.org/pdf/2610.40271v1",
       "authorship_notes": "PDF p1作者栏逐个明确：Saied为日内瓦大学，Sheebaelhamd为图宾根大学，Vernade为纽伦堡工业大学，Fleuret为日内瓦大学及Meta FAIR。仅第一作者列邮箱，未见明确corresponding标记，通讯作者留空，不把邮箱推断为通讯署名。",
       "corresponding_evidence": []
+    },
+    "world2vec": {
+      "first_authors": [
+        "Tobias Schmidt",
+        "Rodrigo Gonzalez Laiz"
+      ],
+      "equal_contribution_authors": [
+        "Tobias Schmidt",
+        "Rodrigo Gonzalez Laiz"
+      ],
+      "corresponding_authors": [
+        "Steffen Schneider"
+      ],
+      "authors": [
+        "Tobias Schmidt",
+        "Rodrigo Gonzalez Laiz",
+        "Krisztián Szuppinger",
+        "Steffen Schneider"
+      ],
+      "profile_ids": [
+        "helmholtz-munich",
+        "mcml",
+        "dynamical-inference-lab"
+      ],
+      "affiliations": [
+        "Helmholtz Munich",
+        "Munich Center for Machine Learning (MCML)"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40637v1",
+        "https://worldmodels.science/world2vec/",
+        "https://dynamical-inference.ai/"
+      ],
+      "checked_at": "2026-10-31T08:43:19+08:00",
+      "author_basis": "PDF p1署名顺序与Equal contribution明确脚注",
+      "affiliation_basis": "PDF首页共用机构署名；实验室关系另核官网",
+      "primary_author_source": "https://arxiv.org/pdf/2610.40637v1",
+      "authorship_notes": "PDF首页星号明确Tobias Schmidt与Rodrigo Gonzalez Laiz共同贡献；Steffen Schneider匕首脚注明确Correspondence to。四作者共享Helmholtz Munich & MCML署名；官网另核实验室属ICB/Helmholtz并关联MCML，不把MCML自动展开成LMU/TUM任职。",
+      "corresponding_evidence": [
+        {
+          "url": "https://arxiv.org/pdf/2610.40637v1",
+          "locator": "PDF p1 dagger footnote: Correspondence to Steffen Schneider"
+        }
+      ]
     }
   },
   "coverage": {
@@ -9412,7 +9551,9 @@
     "University of Geneva": "日内瓦大学",
     "University of Tübingen": "图宾根大学",
     "University of Technology Nuremberg": "纽伦堡工业大学",
-    "Georgia Institute of Technology": "佐治亚理工学院"
+    "Georgia Institute of Technology": "佐治亚理工学院",
+    "Helmholtz Munich": "亥姆霍兹慕尼黑中心",
+    "Munich Center for Machine Learning (MCML)": "慕尼黑机器学习中心"
   },
   "display_policy": {
     "people": "original English names",

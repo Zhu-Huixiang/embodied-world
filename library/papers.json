@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "papers": [
     {
       "id": "holo-m",
@@ -3493,6 +3493,56 @@
       },
       "mechanism": "GAR冻结原策略的视觉语言骨干和动作Transformer，把固定噪声在t=0的一次前向特征接给小读出：仿射修正预测连续动作均值，池化后128单元MLP预测方差或Cholesky因子，另一仿射头预测离散命令的伯努利概率。训练目标来自已部署教师反复采样的经验矩与命令频率，均值用最小二乘，协方差用按坐标归一的误差及对数方差项，离散命令用交叉熵。推理直接采样高斯连续动作和独立伯努利命令，不再积分速度场；可写闭式动作似然。论文先检验固定观测下教师平移/旋转分布的高斯近似，再检查控制表现和近似的代价。",
       "selection_origin": "2026-10-30有界检索，主文/实验及相关附录核读后收录。"
+    },
+    {
+      "id": "world2vec",
+      "short_name": "world2vec",
+      "arxiv_id": "2610.40637",
+      "title": "world2vec: Mechanistic world models through latent dynamics learning",
+      "authors": [
+        "Tobias Schmidt",
+        "Rodrigo Gonzalez Laiz",
+        "Krisztián Szuppinger",
+        "Steffen Schneider"
+      ],
+      "affiliations": [
+        "Helmholtz Munich",
+        "Munich Center for Machine Learning (MCML)"
+      ],
+      "track": "world-model",
+      "published": "2026-10-29T17:58:23Z",
+      "project_url": "https://worldmodels.science/world2vec/",
+      "code_url": "https://github.com/dynamical-inference/world2vec",
+      "code_availability": "announced_not_released",
+      "scope": "无奖励潜动力学、目标观测MPC与可解释系统辨识；三项简化视觉仿真及71个非视觉混沌系统",
+      "reading_question": "世界模型拿高回报，就等于真的学会物理规律了吗？把下一状态预测换成潜速度场，再沿自己的预测轨迹训练，能让控制与动力学忠实度一起提高吗？",
+      "selection_reason": "把任务回报、潜表示自洽和动力学恢复拆开。多步视野/连续残差/潜维消融、LeWM原规划协议和受控混合系统提供机制证据；收录为有边界的机制型预印本，保留控制比较差异及符号实验验证集报告限制。",
+      "evidence_summary": "Table1：DCL在Pendulum/Reacher/CartPole回报826/895/232，DreamerV3为668/792/899，TD-MPC2为911/744/894（最大1000）；视觉CartPole仍失败。在线奖励训练与离线随机数据、25/8.3/5Hz控制频率不同，不能视为同预算全面超越。Table2：LeWM协议下25Hz DCL的200步目标成功80.2±1.6%，LeWM52.9±3.8%；25步目标86.2±1.1%与81.6±2.4%，对应规划2.55与8.64秒/episode。Table4固定K20、d32时DCL离散/连续LRC50.9/94.3、EQA10.6/71.1。Table3每格重选潜维/正则，且Tables3/4与Table1 LRC协议不同。71 attractor实验在validation选参并报告validation；SINDy已知最高多项式阶数，图7c经择优及真实状态仿射对齐，不当held-out泛化或盲发现物理定律。",
+      "embodied_relevance": "面向像素观测的无奖励视觉规划，连接JEPA/LeWM、Neural ODE、系统辨识与MPC；实证限于简化仿真。",
+      "first_arxiv_submission": "2026-10-29T17:58:23Z",
+      "first_arxiv_submission_shanghai": "2026-10-30T01:58:23+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.40637v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40637v1",
+      "first_author": "Tobias Schmidt",
+      "checked_at": "2026-10-31",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "",
+      "version_id": "2610.40637v1",
+      "updated": "2026-10-29T17:58:23Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.40637v1",
+        "section": "PDF p1 affiliations"
+      },
+      "mechanism": "world2vec用三帧观测编码潜状态，MLP预测动作条件变化率，以Euler残差积分出多步潜轨迹；把每一步预测对齐真实未来编码，以SIGReg或DCL防止表示塌缩。超参选择用未来检索EQA，另报告跨seed仿射一致性和LRC。执行时编码目标观测，CEM按潜距离选动作并滚动重规划，不训练奖励模型。科学辨识实验另将向量场换成稀疏多项式库，在已知最高阶和仿射坐标不确定性下读出动力学关系。",
+      "selection_origin": "2026-10-31完成前日候选的原文与相关附录核读、独立限定二审后收录。"
     },
     {
       "arxiv_id": "2610.12470",

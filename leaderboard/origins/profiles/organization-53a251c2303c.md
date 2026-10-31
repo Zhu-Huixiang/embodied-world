@@ -25,6 +25,6 @@
 - [来源3](https://api.openalex.org/works/W4303648971)
 - [来源4](https://proceedings.mlr.press/v202/jiang23b/jiang23b.pdf)
 
-资料核验：2026-10-30。
+资料核验：2026-10-31。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

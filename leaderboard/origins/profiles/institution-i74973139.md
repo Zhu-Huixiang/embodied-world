@@ -35,6 +35,6 @@
 - [来源1](https://openalex.org/I74973139)
 - [来源2](https://api.openalex.org/institutions/I74973139)
 
-资料核验：2026-10-30。
+资料核验：2026-10-31。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

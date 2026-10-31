@@ -1,7 +1,7 @@
 {
   "from_version": 2,
   "to_version": 3,
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "papers": [
     {
       "id": "clip",
@@ -2886,6 +2886,7 @@
     "diffcontact",
     "tops",
     "flore",
-    "gar"
+    "gar",
+    "world2vec"
   ]
 }

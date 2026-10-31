@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30",
+  "checked_at": "2026-10-31",
   "provider": "OpenAlex / Semantic Scholar (per-record)",
   "rule": "每篇一个原研究记录，不相加版本或数据库。正式刊会沿用已核出版身份的OpenAlex；本次14篇预印本按精确arXiv ID优先Semantic Scholar，再用已核OpenAlex，不按较大数挑源。各条留来源、日期、原值和其他快照。未知引文年份不计近期，R可为下界。",
   "papers": [
@@ -4702,6 +4702,23 @@
         "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40271",
         "https://api.openalex.org/works?search=Gaussian%20Distillation%20of%20Flow%20Policies&per-page=5"
       ]
+    },
+    {
+      "paper_id": "world2vec",
+      "checked_at": "2026-10-31T08:42:23.780517+08:00",
+      "status": "unmatched",
+      "provider": "Semantic Scholar / OpenAlex",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": [],
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+      "match_note": "S2精确ID429；OpenAlex精确DOI404，完整题目检索最多5条但结果为空；原始引用保持null。",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40637?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40637",
+        "https://api.openalex.org/works?search=world2vec%3A%20Mechanistic%20world%20models%20through%20latent%20dynamics%20learning&per-page=5"
+      ],
+      "edition": "arXiv 2610.40637v1; 10.48550/arXiv.2610.40637"
     }
   ]
 }

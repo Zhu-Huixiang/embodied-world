@@ -30,6 +30,7 @@
 | [中山大学](profiles/institution-i157773358.md) | 大学 | 1 | 视频动作模型与视觉推理 |
 | [丰田研究院](profiles/institution-i4391768151.md) | 研究机构 | 6 | 操作与动作块、视觉语言动作模型 VLA、世界动作模型 |
 | [亚马逊前沿人工智能与机器人团队](profiles/amazon-far.md) | 企业研究团队 | 1 | 操作与动作块 |
+| [亥姆霍兹慕尼黑中心](profiles/helmholtz-munich.md) | 研究机构 | 1 | 世界模型与模型强化学习 |
 | [伊利诺伊大学厄巴纳-香槟分校](profiles/organization-79eb2923dfd7.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
 | [伦敦大学学院](profiles/institution-i45129253.md) | 大学 | 3 | 世界模型与模型强化学习、Locomotion 与运动适应、视频与序列生成 |
 | [佐治亚理工学院](profiles/institution-i130701444.md) | 大学 | 3 | 具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
@@ -40,6 +41,7 @@
 | [加州大学圣迭戈分校](profiles/institution-i36258959.md) | 大学 | 7 | 世界模型与模型强化学习、Locomotion 与运动适应、操作与动作块、具身感知与场景表示 |
 | [加州大学戴维斯分校](profiles/organization-14ceb33ea08c.md) | 论文署名机构 | 1 | 操作与动作块 |
 | [加州理工学院](profiles/institution-i122411786.md) | 大学 | 1 | 视觉语言动作模型 VLA |
+| [动力学推断实验室](profiles/dynamical-inference-lab.md) | 研究团队 | 1 | 世界模型与模型强化学习 |
 | [北卡罗来纳大学教堂山分校](profiles/institution-i114027177.md) | 研究机构 | 1 | 视频动作模型与视觉推理 |
 | [华盛顿大学](profiles/institution-i201448701.md) | 大学 | 4 | 操作与动作块、Locomotion 与运动适应 |
 | [华盛顿大学机器人与状态估计实验室（RSE）](profiles/uw-rse.md) | 大学实验室 | 2 | 操作与动作块 |
@@ -72,6 +74,7 @@
 | [慕尼黑大学](profiles/organization-5c475a175e30.md) | 论文署名机构 | 1 | Diffusion / Transformer 基础 |
 | [慕尼黑大学 CompVis 实验室](profiles/compvis-lmu.md) | 研究团队 | 1 | Diffusion / Transformer 基础 |
 | [慕尼黑工业大学](profiles/organization-bc6fc762326c.md) | 论文署名机构 | 1 | 视频与序列生成 |
+| [慕尼黑机器学习中心](profiles/mcml.md) | 研究机构 | 1 | 世界模型与模型强化学习 |
 | [斯坦福大学](profiles/institution-i97018004.md) | 大学 | 22 | 操作与动作块、视觉语言动作模型 VLA、具身感知与场景表示、世界模型与模型强化学习、视频动作模型与视觉推理、世界动作模型、强化学习与离线决策、Locomotion 与运动适应、Diffusion / Transformer 基础 |
 | [斯坦福大学 IRIS 实验室](profiles/stanford-iris.md) | 大学实验室 | 5 | 视觉语言动作模型 VLA、操作与动作块 |
 | [斯坦福大学机器人与具身智能实验室（REAL）](profiles/stanford-real.md) | 大学实验室 | 0 |  |
@@ -133,4 +136,4 @@
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-核验日期：2026-10-30。
+核验日期：2026-10-31。
