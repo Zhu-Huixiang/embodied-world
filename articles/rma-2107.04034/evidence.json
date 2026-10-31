@@ -1,0 +1,710 @@
+{
+  "paper_version": "RSS 2021 official proceedings PDF plus author project supplementary PDF (supplement retains anonymous submission header)",
+  "pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+  "supplement_pdf_sha256": "092a93ef299b93f012c2f1c8e39ff040a81b60ec55fadd3e1c9eb34466ebd723",
+  "checked_at": "2026-10-31T10:16:25.907181+08:00",
+  "claims": [
+    {
+      "id": "C01",
+      "type": "qualitative",
+      "claim": "RMA以仿真训练的历史估计网络提供在线条件，基础策略结合随机化和特权训练；部署不收多轮数据再优化。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 1,
+      "locator": "§I, pp1–3",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C02",
+      "type": "qualitative",
+      "claim": "作者Ashish Kumar、Zipeng Fu、Deepak Pathak、Jitendra Malik；UC Berkeley、CMU、Facebook；arXiv首次公开2021-07-08（v1时间17:59:59 UTC）；本文所读为RSS2021正式版及官方补充。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 1,
+      "locator": "Title page; RSS conference heading",
+      "verified": true,
+      "checked_at": "2026-10-31T10:18:27.588910+08:00",
+      "additional_source_urls": [
+        "https://arxiv.org/abs/2107.04034"
+      ],
+      "additional_locator": "arXiv submission history: v1 Thu, 8 Jul 2021 17:59:59 UTC; independently opened by science reviewer on 2026-10-31."
+    },
+    {
+      "id": "C03",
+      "type": "qualitative",
+      "claim": "Phase1联训π与μ，Phase2只训φ，部署冻结网络用两异步进程运行。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 2,
+      "locator": "Fig2; §III; supplement Algorithms1–2",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C04",
+      "type": "qualitative",
+      "claim": "sim-to-real差异来自真实机器人与模型、地形差异、接触/变形等物理模拟差异。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 1,
+      "locator": "§I",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C05",
+      "type": "qualitative",
+      "claim": "控制相关8维表示无需恢复所有真实物理参数；作者把可辨识性和近似辨识作为解释/推测，不作为定理。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 3,
+      "locator": "§I discussion of extrinsics and identifiability; §III-B",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C06",
+      "type": "quantitative",
+      "claim": "A1约12kg，完全仿真训练后部署无实机微调，基于本体感知，无视觉。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§IV-A Hardware Details; §III-C; §VI",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §IV-A Hardware Details; §III-C; §VI",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C07",
+      "type": "qualitative",
+      "claim": "控制路线包含MIT Cheetah3的MPC；需要模型和控制器设计；本文解释其设计负担，不声称控制方法普遍失败。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 3,
+      "locator": "§II conventional control and MPC",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C08",
+      "type": "qualitative",
+      "claim": "域随机化扩大环境变化范围；Robust不提供z条件；性能是否保守由实验比较。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 3,
+      "locator": "§II Sim-to-Real RL, pp3–4; §V Baselines",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C09",
+      "type": "qualitative",
+      "claim": "系统辨识参数或优化潜变量的不同路线，RMA沿当前轨迹估计latent，不在真机在线优化权重。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§II System Identification and Adaptation; references40,55",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C10",
+      "type": "qualitative",
+      "claim": "图中Phase1训练π/μ，Phase2训练φ，部署图分开10Hz与100Hz；绿色回归连接监督latent。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 2,
+      "locator": "Fig2 trainable modules in red",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C11",
+      "type": "quantitative",
+      "claim": "x30=关节位置12+速度12+roll/pitch2+足接触4；a12；e17=质量及位置共3+电机强度12+摩擦1+局部地高1。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A; §IV-A State-Action Space, pp5–6",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §III-A; §IV-A State-Action Space, pp5–6",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C12",
+      "type": "quantitative",
+      "claim": "z=μ(e)为8维，π输入30+12+8=50维，输出12关节目标；50是按原分量求和。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A Eqs(1),(2)",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §III-A Eqs(1),(2)",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C13",
+      "type": "qualitative",
+      "claim": "π与μ经PPO联合训练，目标折扣期望回报；公式图将原轨迹τ改𝒯仅避力矩重名。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A expected return; §IV-B; supplement §II",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C14",
+      "type": "quantitative",
+      "claim": "前向奖励min(vx,.35)乘20；0.35m/s是奖励截断而非物理速度上限。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A RL Rewards item1",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §III-A RL Rewards item1",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C15",
+      "type": "quantitative",
+      "claim": "十个奖励项的定义及系数20,21,.002,.02,.001,.07,.002,1.5,2.0,.8，均原样对应；第9名称与算式冲突按算式解释竖直速度平方。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A RL Rewards items1–10",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §III-A RL Rewards items1–10",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C16",
+      "type": "qualitative",
+      "claim": "做功、冲击、力矩平滑、动作幅度、关节速度、姿态、竖直速度、足滑惩罚；奖励特权量不同于部署状态输入。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A RL Rewards; §IV-A State-Action Space",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C17",
+      "type": "quantitative",
+      "claim": "先弱惩罚，再提高3–10项；额外初值.03；质量/摩擦/电机强度难度增加；地形固定难度分布，不做地形课程。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A Training Curriculum; supplement p1 §II",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §III-A Training Curriculum; supplement p1 §II",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C18",
+      "type": "quantitative",
+      "claim": "k50步=0.5s，φ读最近状态动作，输出8维latent；公式H50×42显式堆叠为教学展开。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§III-B adaptation equation",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §III-B adaptation equation",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C19",
+      "type": "qualitative",
+      "claim": "动作与身体响应时序携带环境影响，φ从原状态动作序列学映射；手工误差账户仅类比不为论文模块。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 3,
+      "locator": "§I action-response intuition; §III-B",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C20",
+      "type": "qualitative",
+      "claim": "以当前φ预测latent驱动π采样，再以μ(e)作监督，仅更新φ；避免训练只看到专家好轨迹。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§III-B on-policy data; supplement Algorithm1",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C21",
+      "type": "quantitative",
+      "claim": "π100Hz，φ10Hz，异步读取最新latent；10ms/100ms按频率倒数计算。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§III-C Asynchronous Deployment; supplement Algorithm2",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §III-C Asynchronous Deployment; supplement Algorithm2",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C22",
+      "type": "qualitative",
+      "claim": "部署滚动历史与更新推断latent，无梯度更新；两子系统参数固定。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§III-C; supplement Algorithm2",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C23",
+      "type": "qualitative",
+      "claim": "作者报告单体历史策略步态及仿真性能差、机载计算仅10Hz；条件变化较慢为双速分离动机。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§III-C alternative single policy",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C24",
+      "type": "quantitative",
+      "claim": "A1 18自由度，其中12 actuated/每腿3；编码器、IMU roll/pitch、足接触组成30维状态。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§IV-A Hardware Details and State-Action Space",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §IV-A Hardware Details and State-Action Space",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C25",
+      "type": "quantitative",
+      "claim": "动作是目标角，τ=Kp(qhat−q)+Kd(qdot_hat−qdot)，qdot_hat0，真机Kp55 Kd.8；示例5.34Nm是教学计算。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§IV-A PD equation",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §IV-A PD equation",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C26",
+      "type": "quantitative",
+      "claim": "RaiSim/fractal，1000步episode，上述高度/姿态阈值；脚下高度离散一位小数再max成标量。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§IV-A Simulation Setup, Environmental Variations, pp5–6",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §IV-A Simulation Setup, Environmental Variations, pp5–6",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C27",
+      "type": "quantitative",
+      "claim": "训练/测试负载0–6/0–7kg，摩擦.05–4.5/.04–6，重采样.004/.01，PD增益/强度随机；COM原单位cm数值异常不自行改。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "Table I",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; Table I",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C28",
+      "type": "quantitative",
+      "claim": "π3层MLP、隐藏128；μ3层MLP、隐藏256/128；z8。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 6,
+      "locator": "§IV-B architectures",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §IV-B architectures",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C29",
+      "type": "quantitative",
+      "claim": "每步42维→2层MLP32→3层时间CNN，通道/核/步幅[32,32,8,4],[32,32,5,1],[32,32,5,1]，展平线性→8。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 6,
+      "locator": "§IV-B Adaptation Module Architecture",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §IV-B Adaptation Module Architecture",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C30",
+      "type": "quantitative",
+      "claim": "基础15000×80000=1.2B步/约24h，φ1000×80000=80M/约3h，一GPU普通desktop，lr5e−4。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 6,
+      "locator": "§IV-B learning details",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §IV-B learning details",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C31",
+      "type": "quantitative",
+      "claim": "PPO clip ratio .8–1.2/value coef.5/γ.998/GAEλ.95；正文只作优化说明。",
+      "source_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+      "pdf_page": 1,
+      "locator": "Supplement §II Additional Training Details",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; Supplement §II Additional Training Details",
+      "baseline": "not_applicable",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C32",
+      "type": "qualitative",
+      "claim": "TTF除最大episode时长；实机距离按任务归一化；仿真Distance以米，成功是完成任务。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 7,
+      "locator": "§V Metrics; Supplement §I",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C33",
+      "type": "quantitative",
+      "claim": "每方法通常5trials，严重失败2次停止并报失败；UnevenFoam图内RMA80/图注100，StepDown15图内100/图注80冲突。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 8,
+      "locator": "§V-A protocol; Fig3 p6 image and caption",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "A1 real robot, indoor §V-A protocol; Fig3 p6 image and caption",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "normally 5 real-world trials per method/task; drastic failures stopped after 2"
+    },
+    {
+      "id": "C34",
+      "type": "quantitative",
+      "claim": "StepUp8 RMA60/A120/w.o0%；StepUp6 RMA100/A180/w.o40%；每方法通常5次，严重失败提前2次停止。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 6,
+      "locator": "Fig3 StepUp8 and StepUp6; §V-A p8",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "step_up_success_rate",
+      "conditions": "A1 real robot, indoor Fig3 StepUp8 and StepUp6; §V-A p8",
+      "baseline": "A1 manufacturer controller and RMA w/o Adaptation",
+      "unit": "percent",
+      "sample_size": "normally 5 real-world trials per method/task; drastic failures stopped after 2"
+    },
+    {
+      "id": "C35",
+      "type": "quantitative",
+      "claim": "底部横轴0/5/8/12kg样本等距画，纵轴success%/TTF/Distance；红RMA绿w.o黑A1；不由像素距离算kg。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 6,
+      "locator": "Fig3 payload curves",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "A1 real robot, indoor Fig3 payload curves",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "normally 5 real-world trials per method/task; drastic failures stopped after 2"
+    },
+    {
+      "id": "C36",
+      "type": "quantitative",
+      "claim": "A1约12kg，RMA可背12kg仍高成功率；w/o常不倒但不前进；不作为普遍额定载重。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 8,
+      "locator": "§V-A payload analysis",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "A1 real robot, indoor §V-A payload analysis",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "normally 5 real-world trials per method/task; drastic failures stopped after 2"
+    },
+    {
+      "id": "C37",
+      "type": "qualitative",
+      "claim": "真实室外照片拼图含岩石/沙地/植被/林间/碎料；无时间轴，不可推连续路线或时长。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 1,
+      "locator": "Fig1",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C38",
+      "type": "quantitative",
+      "claim": "沙泥土等本次全部通过，林间下楼70%，水泥与卵石80%；逐场景完整分母unknown，非全对照benchmark。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 8,
+      "locator": "§V-B Outdoor Experiments; Fig1",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §V-B Outdoor Experiments; Fig1",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown",
+      "unknown_impact": "Total number of trials not supplied for this specific outdoor/oily aggregate; rates are reported descriptively, no inferred denominator or confidence interval."
+    },
+    {
+      "id": "C39",
+      "type": "qualitative",
+      "claim": "A1/Robust/Expert/w.o/SysID/AWR定义；学习baseline相同架构奖励超参数声明；不添加w.o固定latent实现。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 7,
+      "locator": "§V Baselines",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    },
+    {
+      "id": "C40",
+      "type": "quantitative",
+      "claim": "Torque平方力矩范数、Smoothness平方力矩差、GroundImpact平方地反力差；后三项低好；Reward forward+lateral非总奖励。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 8,
+      "locator": "TableII; supplement §I Metrics",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RaiSim, expanded test ranges in Table I, environment resampling probability 0.01 per step",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "3 random initializations × 1000 episodes each = 3000 per method",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C41",
+      "type": "quantitative",
+      "claim": "3seeds×1000episodes；测试prob .01；RMA73.5 Robust62.4 w.o52.1 SysID56.5 AWR41.7 Expert76.2；差11.1/21.4/−2.7百分点为编辑相减。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 8,
+      "locator": "TableII; §V-C",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "task_success_rate",
+      "conditions": "RaiSim, expanded test ranges in Table I, environment resampling probability 0.01 per step",
+      "baseline": "Robust; RMA w/o Adapt; SysID; AWR; privileged Expert",
+      "unit": "percent; derived differences in percentage points",
+      "sample_size": "3 random initializations × 1000 episodes each = 3000 per method"
+    },
+    {
+      "id": "C42",
+      "type": "quantitative",
+      "claim": "距离RMA1.34/Robust1.13/Expert1.35m；GroundImpact RMA4.27>Robust4.20/SysID4.03；不称全指标优胜。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 8,
+      "locator": "TableII",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RaiSim, expanded test ranges in Table I, environment resampling probability 0.01 per step",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "3 random initializations × 1000 episodes each = 3000 per method"
+    },
+    {
+      "id": "C43",
+      "type": "quantitative",
+      "claim": "RMA0额外测试探索样本，仍用在线历史；AWR40k，动态重采样条件下适应慢。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 8,
+      "locator": "TableII Samples; supplement §I Adaptation Samples; §V-C",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RaiSim, expanded test ranges in Table I, environment resampling probability 0.01 per step",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "3 random initializations × 1000 episodes each = 3000 per method",
+      "additional_source_urls": [
+        "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf"
+      ]
+    },
+    {
+      "id": "C44",
+      "type": "quantitative",
+      "claim": "脚包塑料+油塑料面测试，成功90%，图示一次；完整trial分母unknown。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 9,
+      "locator": "§V-D; Fig4 p7",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §V-D; Fig4 p7",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown",
+      "unknown_impact": "Total number of trials not supplied for this specific outdoor/oily aggregate; rates are reported descriptively, no inferred denominator or confidence interval."
+    },
+    {
+      "id": "C45",
+      "type": "quantitative",
+      "claim": "横轴秒线性，RL后左/RR后右/FL前左/FR前右；力矩Nm，median-filtered z1,z5无固定物理单位，颜色与分量未分别标。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 7,
+      "locator": "Fig4 visual inspection; §V-D",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; Fig4 visual inspection; §V-D",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C46",
+      "type": "quantitative",
+      "claim": "约2s打滑→节奏扰动与latent变化→步态大致恢复、力矩略高、latent保留变化；不推每次.1s必恢复。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 9,
+      "locator": "§V-D; Fig4",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; §V-D; Fig4",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C47",
+      "type": "quantitative",
+      "claim": "走动中添加5kg，照片翻转袋上字样像2Kg；接触、knee torque、z2/z7响应；白虚线机身高度。",
+      "source_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+      "pdf_page": 3,
+      "locator": "Supplement Fig2; §III p2",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00",
+      "metric": "implementation_setting_or_reported_measurement",
+      "conditions": "RSS2021 locked version; Supplement Fig2; §III p2",
+      "baseline": "see claim; no cross-setting comparison",
+      "unit": "as stated in claim/source",
+      "sample_size": "unknown"
+    },
+    {
+      "id": "C48",
+      "type": "qualitative",
+      "claim": "较大突然下落、多腿同时被石头阻碍可能失败；作者提出视觉等外部感知作为下一步。",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 9,
+      "locator": "§VI Conclusion",
+      "verified": true,
+      "checked_at": "2026-10-31T10:16:25.907181+08:00"
+    }
+  ],
+  "source_conflicts": [
+    {
+      "locator": "Fig3 p6 image vs caption",
+      "conflict": "Uneven Foam RMA success image80% vs caption100%; StepDown15 image100% vs caption80%.",
+      "resolution": "No silent correction. Article names conflict and uses unambiguous StepUp6/8 quantitative comparisons."
+    },
+    {
+      "locator": "TableI p5",
+      "conflict": "Center of Mass unit cm but training±0.15/testing±0.18; physically suspicious scale.",
+      "resolution": "Preserve original image. Do not convert units or use this row to derive displacement."
+    },
+    {
+      "locator": "§IV-A p5",
+      "conflict": "policy100Hz and simulation step.025s both stated without consistent timing explanation.",
+      "resolution": "No derivation of simulator substeps or wall time; runtime policy rates supported independently by Fig2/Algorithm2."
+    },
+    {
+      "locator": "§III-A reward item9 p4",
+      "conflict": "Label Z Acceleration but mathematical term is negative squared vertical velocity.",
+      "resolution": "Article explains formula as vertical velocity penalty, not acceleration."
+    },
+    {
+      "locator": "Fig2 and supplement Algorithms1–2 history indices",
+      "conflict": "History subscripts vary/contain apparent transcription errors.",
+      "resolution": "Use main §III-B explicit past50 states/actions; deployment image uses recent history cache, no exact unverified alignment."
+    }
+  ],
+  "teaching_examples": [
+    {
+      "location": "§3.1",
+      "values": "forward .2→4; .4→7; lateral .1→−.21",
+      "source": "algebra from published coefficients, not experimental results"
+    },
+    {
+      "location": "§3.2",
+      "values": "first2 latent targets .4/−.2; predictions .1/−.1; loss.10 with other6 equal",
+      "source": "explicit invented numerical example, not latent measurements"
+    },
+    {
+      "location": "§4.1",
+      "values": "55(.5−.4)−.8(.2)=5.34Nm",
+      "source": "single-joint algebra example from published PD law, not measured motor output"
+    }
+  ]
+}

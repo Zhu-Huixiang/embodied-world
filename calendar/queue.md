@@ -21,7 +21,7 @@
 | 15 | 15 | [Mastering diverse control tasks through world models](../articles/dreamerv3-2301.04104/README.md) | [Nature 2025](../venues/Nature/README.md) | 91.4 |
 | 16 | 16 | [RT-1: Robotics Transformer for Real-World Control at Scale](../articles/rt1-2212.06817/README.md) | [RSS 2023](../venues/RSS/README.md) | 91.2 |
 | 17 | 17 | [SAM 2: Segment Anything in Images and Videos](../articles/sam2-2408.00714/README.md) | [ICLR 2025](../venues/ICLR/README.md) | 91.2 |
-| 18 | 18 | [RMA: Rapid Motor Adaptation for Legged Robots](../library/rma.md) | [RSS 2021](../venues/RSS/README.md) | 91.1 |
+| 18 | 18 | [RMA: Rapid Motor Adaptation for Legged Robots](../articles/rma-2107.04034/README.md) | [RSS 2021](../venues/RSS/README.md) | 91.1 |
 | 19 | 19 | [DINOv2: Learning Robust Visual Features without Supervision](../library/dinov2.md) | [TMLR 2024](../venues/TMLR/README.md) | 90.7 |
 | 20 | 20 | [Learning robust perceptive locomotion for quadrupedal robots in the wild](../library/perceptive-loco.md) | [Sci. Robot. 2022](../venues/Science-Robotics/README.md) | 90.7 |
 | 21 | 21 | [Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots](../library/umi.md) | [RSS 2024](../venues/RSS/README.md) | 90.5 |

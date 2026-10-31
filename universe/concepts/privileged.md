@@ -6,9 +6,13 @@
 
 分类上层：[环境适应](adaptation.md)。
 
+## 在完整解读里看计算与例子
+
+- [RMA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态)
+
 ## 哪些论文用到或讨论它
 
-- [RMA](../papers/rma.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
+- [RMA](../papers/rma.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
 - [DreamWaQ](../papers/dreamwaq.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/abstract/document/10161144/)
 - [Extreme Parkour](../papers/extreme-parkour.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/document/10610200)
 - [OmniH2O](../papers/omnih2o.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/he25b.html)

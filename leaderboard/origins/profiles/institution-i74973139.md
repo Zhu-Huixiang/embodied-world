@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [RMA · RMA: Rapid Motor Adaptation for Legged Robots](../../../library/rma.md) | 2021 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [91.1](../../papers/rma/README.md) |
+| [RMA · RMA: Rapid Motor Adaptation for Legged Robots](../../../articles/rma-2107.04034/README.md) | 2021 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [91.1](../../papers/rma/README.md) |
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
 | [ASAP · ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills](../../../library/asap.md) | 2025 / [RSS](../../../venues/RSS/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [88.1](../../papers/asap/README.md) |
 | [Octo · Octo: An Open-Source Generalist Robot Policy](../../../library/octo.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [87.6](../../papers/octo/README.md) |

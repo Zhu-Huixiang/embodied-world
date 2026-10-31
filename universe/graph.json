@@ -1718,13 +1718,17 @@
       "subtitle": "RMA: Rapid Motor Adaptation for Legged Robots",
       "track": "locomotion",
       "track_label": "Locomotion 与运动适应",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/rma.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md",
       "concepts": [
+        "rl",
+        "ppo",
         "privileged",
         "adaptation",
-        "sim2real"
+        "sim2real",
+        "action",
+        "rollout"
       ],
       "scope": "mechanism",
       "source_url": "https://www.roboticsproceedings.org/rss17/p011.html"
@@ -3351,6 +3355,7 @@
       "papers": [
         "cot-vla",
         "act",
+        "rma",
         "dreamzero",
         "videovla",
         "rt1",
@@ -3378,6 +3383,10 @@
         {
           "paper": "ddpm",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        },
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
         },
         {
           "paper": "rt1",
@@ -3753,6 +3762,7 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/rl.md",
       "papers": [
+        "rma",
         "deepmimic",
         "amp",
         "dreamerv3",
@@ -3772,6 +3782,10 @@
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络"
+        },
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
         }
       ]
     },
@@ -3864,15 +3878,21 @@
       "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
       "parent": "rl",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/ppo.md",
       "papers": [
+        "rma",
         "walk-in-minutes",
         "sonic",
         "isaac-gym",
         "diffcontact"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#42-网络与训练预算"
+        }
+      ]
     },
     {
       "id": "concept:imitation",
@@ -4025,7 +4045,7 @@
       "detail": "部署时必须说明环境编码从哪儿估计。",
       "parent": "rl",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/adaptation.md",
       "papers": [
         "rma",
@@ -4035,7 +4055,12 @@
         "walk-these-ways",
         "deep-whole-body-control"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
+        }
+      ]
     },
     {
       "id": "concept:privileged",
@@ -4046,7 +4071,7 @@
       "detail": "训练可见与机器人运行可见的量分别列清楚。",
       "parent": "adaptation",
       "depth": 2,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/privileged.md",
       "papers": [
         "rma",
@@ -4054,7 +4079,12 @@
         "extreme-parkour",
         "omnih2o"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
     },
     {
       "id": "concept:sim2real",
@@ -4082,6 +4112,10 @@
         "diffcontact"
       ],
       "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        },
         {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
@@ -4229,6 +4263,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/rollout.md",
       "papers": [
         "diffusion-policy",
+        "rma",
         "lingbot-va",
         "self-forcing",
         "rt1",
@@ -4249,6 +4284,10 @@
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#34-一次搜索挑路扩一格往回记账"
+        },
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
         },
         {
           "paper": "rt1",
@@ -16542,6 +16581,46 @@
       "explainers": []
     },
     {
+      "id": "local:rma:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "rma",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/rl.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:ppo",
+      "key": "ppo",
+      "kind": "local",
+      "paper": "rma",
+      "canonical": "ppo",
+      "title": "PPO 与并行模拟",
+      "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
+      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "parent_node": "local:rma:rl",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/ppo.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#42-网络与训练预算"
+        }
+      ]
+    },
+    {
       "id": "local:rma:privileged",
       "key": "privileged",
       "kind": "local",
@@ -16551,10 +16630,15 @@
       "subtitle": "训练用额外环境真值或教师信息，部署另用可获取输入估计或模仿。",
       "detail": "训练可见与机器人运行可见的量分别列清楚。",
       "parent_node": "local:rma:adaptation",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/privileged.md",
       "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
     },
     {
       "id": "local:rma:adaptation",
@@ -16565,11 +16649,16 @@
       "title": "环境适应",
       "subtitle": "根据历史观测或环境信息调整策略，使动力学或地形变化仍可处理。",
       "detail": "部署时必须说明环境编码从哪儿估计。",
-      "parent_node": "paper:rma",
-      "lit": false,
+      "parent_node": "local:rma:rl",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/adaptation.md",
       "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
+        }
+      ]
     },
     {
       "id": "local:rma:sim2real",
@@ -16581,10 +16670,55 @@
       "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
       "detail": "实机结果必须按机器人与任务条件解释。",
       "parent_node": "local:rma:adaptation",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/sim2real.md",
       "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "rma",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/action.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:rollout",
+      "key": "rollout",
+      "kind": "local",
+      "paper": "rma",
+      "canonical": "rollout",
+      "title": "闭环滚动与历史偏移",
+      "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
+      "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/rollout.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
+        }
+      ]
     },
     {
       "id": "local:rma:method-chain",
@@ -16595,11 +16729,596 @@
       "subtitle": "训练利用特权环境信息的基础策略，部署用状态动作历史估计环境编码，在线适配腿足控制。",
       "detail": "训练利用特权环境信息的基础策略，部署用状态动作历史估计环境编码，在线适配腿足控制。",
       "parent_node": "paper:rma",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-chain.md",
       "source_url": "https://www.roboticsproceedings.org/rss17/p011.html",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#3-rma-方法把会走和会判断分开"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-adaptation-problem",
+      "key": "method-adaptation-problem",
+      "kind": "local",
+      "paper": "rma",
+      "title": "走动中的动力学变化",
+      "subtitle": "地面、载荷与电机能力改变动作产生的结果，控制器必须在运行中改变反应。",
+      "detail": "RMA把问题设为单次行走中的快速适应；它依靠最近状态与动作的差异获取线索，而不是每遇新地面先收集多轮试验数据。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-adaptation-problem.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§I, pp1–3",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#1-引言环境变了腿还在照旧使劲"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-control-latent",
+      "key": "method-control-latent",
+      "kind": "local",
+      "paper": "rma",
+      "title": "为控制学习的八维条件",
+      "subtitle": "环境编码器把17维特权因素压成8维条件向量，基础策略据此调整动作。",
+      "detail": "这8维由控制任务共同塑造，不是一张必须逐项还原摩擦和质量的参数表；部署适应器预测的是此控制条件。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-control-latent.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-A/B, pp4–5; §IV-B, p6",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-identifiability",
+      "key": "method-identifiability",
+      "kind": "local",
+      "paper": "rma",
+      "title": "不必唯一辨认物理参数",
+      "subtitle": "多个物理因素可能产生相近的可观测运动结果，控制所需的表示不必唯一还原它们。",
+      "detail": "论文将低维非线性环境编码作为一种应对可辨识性问题的思路；是否足够仍由后续控制表现判断，不能给潜变量的某一维强配摩擦单位。",
+      "parent_node": "local:rma:method-control-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-identifiability.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§I, p3; §II, pp3–4",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-privileged-vector",
+      "key": "method-privileged-vector",
+      "kind": "local",
+      "paper": "rma",
+      "title": "仿真中的17维环境因素",
+      "subtitle": "载荷质量及位置合计3维、电机强度12维、摩擦1维和局部地高1维组成训练侧环境向量。",
+      "detail": "这些值由仿真提供给环境编码器；真实部署的策略并不额外读取质量、摩擦或地形真值。",
+      "parent_node": "local:rma:method-control-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-privileged-vector.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§IV-A, pp5–6",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-local-height",
+      "key": "method-local-height",
+      "kind": "local",
+      "paper": "rma",
+      "title": "局部地高压成一个标量",
+      "subtitle": "四足下方地形高度先离散到小数点后一位，再取最大值作为特权输入。",
+      "detail": "论文用这个粗化标量降低基础策略对细而快的地形信息的依赖。它不意味着部署机器人装有测地高的传感器。",
+      "parent_node": "local:rma:method-privileged-vector",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-local-height.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§IV-A Environmental Variations, pp5–6",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-base-controller",
+      "key": "method-base-controller",
+      "kind": "local",
+      "paper": "rma",
+      "title": "状态、旧动作与条件共同决定新动作",
+      "subtitle": "基础策略拼接30维当前状态、12维上次动作和8维环境条件，输出12维目标关节角。",
+      "detail": "状态负责当前身体姿态，历史动作提供上一拍命令，潜变量提供环境条件；合计50维输入由一个隐藏宽度128的三层MLP处理。",
+      "parent_node": "local:rma:method-control-latent",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-base-controller.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-A Eqs(1–2), p4; §IV-B, p6",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-joint-pd",
+      "key": "method-joint-pd",
+      "kind": "local",
+      "paper": "rma",
+      "title": "目标角经PD变成关节力矩",
+      "subtitle": "动作接口是关节位置控制：角度误差提供恢复力矩，角速度误差提供阻尼。",
+      "detail": "实机固定Kp=55、Kd=0.8，目标角速度为0。基础策略输出的是12个期望角，而非直接输出12个力矩。",
+      "parent_node": "local:rma:method-base-controller",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-joint-pd.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§IV-A State-Action Space, p5",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-proprioception",
+      "key": "method-proprioception",
+      "kind": "local",
+      "paper": "rma",
+      "title": "没有视觉的30维状态",
+      "subtitle": "12个关节位置、12个关节速度、躯干roll/pitch与4个二值足接触组成状态。",
+      "detail": "关节编码器、IMU和足部传感器提供这些输入。它能反映已发生的身体与接触变化，却不能提前看到前方障碍。",
+      "parent_node": "local:rma:method-base-controller",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-proprioception.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§IV-A Hardware Details and State-Action Space, p5",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-joint-ppo",
+      "key": "method-joint-ppo",
+      "kind": "local",
+      "paper": "rma",
+      "title": "先共同训练策略与环境编码器",
+      "subtitle": "第一阶段通过PPO联合优化基础策略与环境编码器，使压缩后的条件对行走有用。",
+      "detail": "强化学习优化的是期望折扣回报；编码器不是独立拟合物理标签，环境因素经它进入策略，控制结果反过来塑造表示。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-joint-ppo.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-A, p4; supplement Algorithm1 phase1",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-natural-reward",
+      "key": "method-natural-reward",
+      "kind": "local",
+      "paper": "rma",
+      "title": "向前走之外还要付运动代价",
+      "subtitle": "奖励把前向运动与功、力矩变化、触地冲击、姿态和足滑等惩罚合在一起。",
+      "detail": "前向速度奖励在0.35m/s截断；自然运动约束与不平地形共同推动步态出现，不依赖参考动作轨迹或预设脚端轨迹发生器。",
+      "parent_node": "local:rma:method-joint-ppo",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-natural-reward.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-A Stable Gait and RL Rewards, p4",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-work-smoothness",
+      "key": "method-work-smoothness",
+      "kind": "local",
+      "paper": "rma",
+      "title": "做功与动作平滑是不同约束",
+      "subtitle": "做功项惩罚力矩与关节位移内积的绝对值；平滑项惩罚相邻时刻力矩变化的平方范数。",
+      "detail": "触地冲击另看地面反作用力变化；把这些都叫能耗会抹去它们约束的对象差异。",
+      "parent_node": "local:rma:method-natural-reward",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-work-smoothness.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-A reward terms3–5, p4",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-penalty-curriculum",
+      "key": "method-penalty-curriculum",
+      "kind": "local",
+      "paper": "rma",
+      "title": "先学会动，再加强代价",
+      "subtitle": "训练从小惩罚系数开始，逐渐加强动作代价，避免一开始就因运动处处受罚而不学走路。",
+      "detail": "补充给出第三至第十项惩罚的额外初始乘数0.03。质量、摩擦和电机强度扰动也逐步加强，地形难度没有使用同样课程。",
+      "parent_node": "local:rma:method-natural-reward",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-penalty-curriculum.md",
+      "source_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+      "locator": "§III-A Training Curriculum, p4; supplement §II and Fig1",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-history-adapter",
+      "key": "method-history-adapter",
+      "kind": "local",
+      "paper": "rma",
+      "title": "半秒历史估计当前控制条件",
+      "subtitle": "适应模块使用最近50步状态与动作预测8维潜变量，在100Hz控制下对应约0.5秒历史。",
+      "detail": "历史中动作指令与身体实际响应的配对包含环境线索。适应并不是重新识别一套精确物理模型后再规划。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-history-adapter.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-B, p5",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-latent-supervision",
+      "key": "method-latent-supervision",
+      "kind": "local",
+      "paper": "rma",
+      "title": "用仿真真值编码监督适应器",
+      "subtitle": "第二阶段把环境编码器输出作为目标，以预测潜变量与目标的平方误差训练适应器。",
+      "detail": "环境编码器和基础策略已固定；只更新适应器参数。部署不需要这个真值目标，也不运行该监督学习更新。",
+      "parent_node": "local:rma:method-history-adapter",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-latent-supervision.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-B, p5; supplement Algorithm1 phase2",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-on-policy-history",
+      "key": "method-on-policy-history",
+      "kind": "local",
+      "paper": "rma",
+      "title": "让训练历史包含自己的失误",
+      "subtitle": "训练rollout由适应器预测的条件驱动基础策略，而不是始终喂完美环境条件。",
+      "detail": "随机初始化和不准确预测会把机器人带到非理想状态；在这些轨迹上继续监督适应器，使它学习处理部署时也会遇到的偏离。",
+      "parent_node": "local:rma:method-latent-supervision",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-on-policy-history.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-B on-policy paragraph, p5",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-temporal-cnn",
+      "key": "method-temporal-cnn",
+      "kind": "local",
+      "paper": "rma",
+      "title": "时间卷积提取动作响应模式",
+      "subtitle": "每步42维状态与动作先映射到32维，再由三层一维卷积沿时间提取关联。",
+      "detail": "论文给出的卷积输入/输出通道均为32，核宽与步长依次为8/4、5/1、5/1；展平后线性映射为8维条件。",
+      "parent_node": "local:rma:method-history-adapter",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-temporal-cnn.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§IV-B Adaptation Module Architecture, p6",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#42-网络与训练预算"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-asynchronous-loops",
+      "key": "method-asynchronous-loops",
+      "kind": "local",
+      "paper": "rma",
+      "title": "100Hz动作与10Hz估计分开运行",
+      "subtitle": "基础策略每秒产生100次目标角，适应器每秒约更新10次环境条件，二者异步。",
+      "detail": "每次动作使用最新可用的潜变量，不等待一次新估计。这样把相对慢的环境条件变化与较快的机器人状态变化分开。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-asynchronous-loops.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-C, p5; supplement Algorithm2",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#33-异步部署腿快一点判断慢一点"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-frozen-deployment",
+      "key": "method-frozen-deployment",
+      "kind": "local",
+      "paper": "rma",
+      "title": "在线变化的是条件，不是权重",
+      "subtitle": "实机上适应器持续前向推断，网络参数保持训练完成后的固定值。",
+      "detail": "论文部署算法只有历史读取、潜变量预测和动作计算，没有在线梯度优化；“在线适应”不能解释为边走边训练神经网络。",
+      "parent_node": "local:rma:method-asynchronous-loops",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-frozen-deployment.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-C, p5; supplement Algorithm2",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#33-异步部署腿快一点判断慢一点"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-randomized-simulator",
+      "key": "method-randomized-simulator",
+      "kind": "local",
+      "paper": "rma",
+      "title": "在变化的仿真动力学中练走路",
+      "subtitle": "RaiSim中的A1模型配合分形不平地形和环境参数随机化产生多样行走条件。",
+      "detail": "训练与测试有不同的参数范围，并能在同一episode内重新采样条件；固定一个任务开始时的条件不足以描述这套评测。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-randomized-simulator.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§IV-A, TableI, p5; §V-C, p8",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-fractal-terrain",
+      "key": "method-fractal-terrain",
+      "kind": "local",
+      "paper": "rma",
+      "title": "地形变化帮助学习抬脚与稳步",
+      "subtitle": "训练使用固定难度的分形起伏地形，而非预先录制的步态或脚端轨迹。",
+      "detail": "不平地形提供接触与运动挑战，但训练没有直接包含实测中的所有沙土、植被、台阶和软地面物理。",
+      "parent_node": "local:rma:method-randomized-simulator",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-fractal-terrain.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§III-A, p4; §IV-A Simulation Setup, p5",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-training-budget",
+      "key": "method-training-budget",
+      "kind": "local",
+      "paper": "rma",
+      "title": "部署省适应数据不等于训练便宜",
+      "subtitle": "第一阶段报告12亿仿真步，第二阶段8000万仿真步。",
+      "detail": "论文给出约24小时与3小时的单GPU训练时间。部署表格的0次额外适应样本不能抹去这部分离线成本。",
+      "parent_node": "local:rma:method-randomized-simulator",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-training-budget.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§IV-B, p6; TableII, p8",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#42-网络与训练预算"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-comparator-design",
+      "key": "method-comparator-design",
+      "kind": "local",
+      "paper": "rma",
+      "title": "不同基线回答不同适应问题",
+      "subtitle": "Robust去掉环境条件，SysID预测物理参数，AWR用测试环境采样优化潜变量，Expert直接拿真值条件。",
+      "detail": "无适应消融与Robust不是同一个比较；Expert是仿真可用的参照，不是现实中白得的控制器。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-comparator-design.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§V Baselines, p7; TableII, p8",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#53-仿真把适应模块单独拿出来比"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-dynamic-test",
+      "key": "method-dynamic-test",
+      "kind": "local",
+      "paper": "rma",
+      "title": "在episode内部改条件的仿真测试",
+      "subtitle": "测试按每步0.01概率重新采样环境参数，让适应速度进入比较。",
+      "detail": "TableII按3次随机初始化、每次1000个episode平均：RMA成功率73.5%，Robust62.4%，无适应52.1%，Expert76.2%。",
+      "parent_node": "local:rma:method-comparator-design",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-dynamic-test.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§V-C and TableII, p8",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#53-仿真把适应模块单独拿出来比"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-metric-tradeoffs",
+      "key": "method-metric-tradeoffs",
+      "kind": "local",
+      "paper": "rma",
+      "title": "成功率、站立时长与接触代价分开看",
+      "subtitle": "完成任务、撑住不倒和走了多远衡量不同结果，单个高指标不能替代其他项。",
+      "detail": "TTF是归一化倒地时间；TableII中RMA成功率更高，但ground impact数值并非所有方法中最小，不能称每项都胜。",
+      "parent_node": "local:rma:method-comparator-design",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-metric-tradeoffs.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§V Metrics, p7; TableII, p8; supplement §I",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#53-仿真把适应模块单独拿出来比"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-real-step-tests",
+      "key": "method-real-step-tests",
+      "kind": "local",
+      "paper": "rma",
+      "title": "实机台阶结果的条件与样本",
+      "subtitle": "A1在6cm和8cm上台阶测试里分别报告RMA成功率100%和60%，原厂控制器为80%和20%。",
+      "detail": "室内通常每组5次，严重失败会在2次后停止。高度、任务结束条件与小样本限制共同决定这些数字能说明什么。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-real-step-tests.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "Fig3, p6; §V-A, pp7–8",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#51-室内迈台阶与负载"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-slip-response",
+      "key": "method-slip-response",
+      "kind": "local",
+      "paper": "rma",
+      "title": "打滑后潜变量与步态一起改变",
+      "subtitle": "油面实验展示接触节律、膝关节力矩与潜变量随打滑事件变化的过程。",
+      "detail": "Fig4横轴为秒；四行接触条对应四足，中图为Nm力矩，下图为滤波后的z1、z5。潜变量无摩擦单位，恢复步态后也不必回到原值。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-slip-response.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "Fig4, p7; §V-D, pp8–9",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#54-适应过程打滑以后哪条信号先变"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-payload-response",
+      "key": "method-payload-response",
+      "kind": "local",
+      "paper": "rma",
+      "title": "突然负载带来的另一种适应",
+      "subtitle": "补充实验在行走中加5kg负载，观察下沉、力矩、接触节律与潜变量响应。",
+      "detail": "Supplement Fig2画的是z2、z7；负载持续存在，稳定后的力矩幅值上升。照片翻转造成袋子字样易误读，质量以图注的5kg为准。",
+      "parent_node": "local:rma:method-slip-response",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-payload-response.md",
+      "source_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+      "locator": "supplement §III and Fig2, pp2–3",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#54-适应过程打滑以后哪条信号先变"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-blind-limit",
+      "key": "method-blind-limit",
+      "kind": "local",
+      "paper": "rma",
+      "title": "接触历史无法提前看到障碍",
+      "subtitle": "只有本体感知的控制器要等接触后才获得许多地形线索，大扰动可能来不及补救。",
+      "detail": "论文在下楼突然跌落、石块同时阻碍多腿时仍会失败，并把视觉用于前方预判列为后续方向；当前RMA不是视觉导航系统。",
+      "parent_node": "paper:rma",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-blind-limit.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "§VI, p9",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#6-结论历史能补物理视野还得补"
+        }
+      ]
+    },
+    {
+      "id": "local:rma:method-outdoor-scope",
+      "key": "method-outdoor-scope",
+      "kind": "local",
+      "paper": "rma",
+      "title": "未见地形上的迁移范围",
+      "subtitle": "同一仿真训练策略被部署到沙土、植被、山路楼梯与建筑碎料等实测场景。",
+      "detail": "山路下楼成功率70%、水泥与碎石堆80%是特定测试结果；照片和场景多样性不等于对所有地形可靠。",
+      "parent_node": "local:rma:method-blind-limit",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/method-outdoor-scope.md",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "locator": "Fig1, p1; §V-B, p8",
+      "explainers": [
+        {
+          "paper": "rma",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#52-室外走得过去和看得见路"
+        }
+      ]
     },
     {
       "id": "local:robocasa:benchmark",
@@ -21745,7 +22464,7 @@
       "from": "concept:rl",
       "to": "concept:ppo",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:imitation",
@@ -21775,19 +22494,19 @@
       "from": "concept:rl",
       "to": "concept:adaptation",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:adaptation",
       "to": "concept:privileged",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:adaptation",
       "to": "concept:sim2real",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:data",
@@ -27958,46 +28677,268 @@
       "lit": false
     },
     {
+      "from": "paper:rma",
+      "to": "local:rma:rl",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:rma:rl",
+      "to": "local:rma:ppo",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:ppo",
+      "to": "concept:ppo",
+      "kind": "shared",
+      "lit": true
+    },
+    {
       "from": "local:rma:adaptation",
       "to": "local:rma:privileged",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:rma:privileged",
       "to": "concept:privileged",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:rma",
+      "from": "local:rma:rl",
       "to": "local:rma:adaptation",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:rma:adaptation",
       "to": "concept:adaptation",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:rma:adaptation",
       "to": "local:rma:sim2real",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:rma:sim2real",
       "to": "concept:sim2real",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:rollout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:rollout",
+      "to": "concept:rollout",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:rma",
       "to": "local:rma:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-adaptation-problem",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-control-latent",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-control-latent",
+      "to": "local:rma:method-identifiability",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-control-latent",
+      "to": "local:rma:method-privileged-vector",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-privileged-vector",
+      "to": "local:rma:method-local-height",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-control-latent",
+      "to": "local:rma:method-base-controller",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-base-controller",
+      "to": "local:rma:method-joint-pd",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-base-controller",
+      "to": "local:rma:method-proprioception",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-joint-ppo",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-joint-ppo",
+      "to": "local:rma:method-natural-reward",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-natural-reward",
+      "to": "local:rma:method-work-smoothness",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-natural-reward",
+      "to": "local:rma:method-penalty-curriculum",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-history-adapter",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-history-adapter",
+      "to": "local:rma:method-latent-supervision",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-latent-supervision",
+      "to": "local:rma:method-on-policy-history",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-history-adapter",
+      "to": "local:rma:method-temporal-cnn",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-asynchronous-loops",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-asynchronous-loops",
+      "to": "local:rma:method-frozen-deployment",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-randomized-simulator",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-randomized-simulator",
+      "to": "local:rma:method-fractal-terrain",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-randomized-simulator",
+      "to": "local:rma:method-training-budget",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-comparator-design",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-comparator-design",
+      "to": "local:rma:method-dynamic-test",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-comparator-design",
+      "to": "local:rma:method-metric-tradeoffs",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-real-step-tests",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-slip-response",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-slip-response",
+      "to": "local:rma:method-payload-response",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:rma",
+      "to": "local:rma:method-blind-limit",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:rma:method-blind-limit",
+      "to": "local:rma:method-outdoor-scope",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "local:robocasa:data",
@@ -30663,9 +31604,9 @@
   "stats": {
     "papers": 123,
     "concepts": 59,
-    "local_topics": 1005,
-    "lit_papers": 18,
-    "lit_concepts": 43,
-    "lit_local_topics": 432
+    "local_topics": 1038,
+    "lit_papers": 19,
+    "lit_concepts": 46,
+    "lit_local_topics": 469
   }
 }

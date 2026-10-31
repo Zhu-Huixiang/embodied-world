@@ -35,6 +35,7 @@
 - [MAE：把图遮掉四分之三，为什么反而学会了看？](articles/mae-2111.06377/README.md)
 - [MuZero：不画出未来，怎么在脑内做规划？](articles/muzero-1911.08265/README.md)
 - [NeRF：把照片藏进函数里，换个角度还能看见吗？](articles/nerf-2003.08934/README.md)
+- [RMA：脚下突然打滑，机器狗怎么边走边改？](articles/rma-2107.04034/README.md)
 - [RT-1：机器人看过十三万次示范，就会举一反三了？](articles/rt1-2212.06817/README.md)
 - [SAM：点一下就能抠图，它真知道你想要什么吗？](articles/sam-2304.02643/README.md)
 - [SAM 2：点一下就一直跟住？视频分割最难的，其实是别失忆](articles/sam2-2408.00714/README.md)
@@ -49,8 +50,8 @@
 - [视频动作模型](directions/video-action.md)（0 篇）
 - [视频生成](directions/video-generation.md)（2 篇）
 - [VLA](directions/vla.md)（5 篇）
-- [强化学习](directions/reinforcement-learning.md)（2 篇）
-- [运动控制与 Locomotion](directions/locomotion.md)（1 篇）
+- [强化学习](directions/reinforcement-learning.md)（3 篇）
+- [运动控制与 Locomotion](directions/locomotion.md)（2 篇）
 - [Manipulation](directions/manipulation.md)（4 篇）
 - [Diffusion / Transformer](directions/diffusion-transformer.md)（9 篇）
 

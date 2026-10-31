@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-123 篇论文是恒星，各自有自己的知识行星与卫星：共 1005 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 18 篇有完整解读，432 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+123 篇论文是恒星，各自有自己的知识行星与卫星：共 1038 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 19 篇有完整解读，469 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -101,7 +101,7 @@
 | [PLaW-VLA](papers/plaw-vla.md) | 导读 | [表征预测 JEPA](concepts/jepa.md) · [因果序列建模](concepts/causal.md) · [动作表示](concepts/action.md) |
 | [R3M](papers/r3m.md) | 导读 | [对比学习](concepts/contrastive.md) · [表征空间](concepts/representation.md) · [行为克隆](concepts/bc.md) |
 | [Rectified Flow](papers/rectified-flow.md) | 导读 | [Flow Matching](concepts/flow.md) · [条件生成](concepts/generation.md) |
-| [RMA](papers/rma.md) | 导读 | [特权训练信息](concepts/privileged.md) · [环境适应](concepts/adaptation.md) · [仿真到实机](concepts/sim2real.md) |
+| [RMA](papers/rma.md) | 已精讲 | [强化学习](concepts/rl.md) · [PPO 与并行模拟](concepts/ppo.md) · [特权训练信息](concepts/privileged.md) · [环境适应](concepts/adaptation.md) · [仿真到实机](concepts/sim2real.md) · [动作表示](concepts/action.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [RoboCasa](papers/robocasa.md) | 导读 | [泛化评测与遗忘](concepts/benchmark.md) · [机器人数据与评测](concepts/data.md) · [行为克隆](concepts/bc.md) |
 | [robomimic](papers/robomimic.md) | 导读 | [行为克隆](concepts/bc.md) · [离线强化学习](concepts/offline.md) · [机器人数据与评测](concepts/data.md) |
 | [RT-1](papers/rt1.md) | 已精讲 | [注意力](concepts/attention.md) · [离散编码与量化](concepts/quantization.md) · [跨本体数据](concepts/cross-body.md) · [表征空间](concepts/representation.md) · [Transformer](concepts/transformer.md) · [动作表示](concepts/action.md) · [交叉熵](concepts/cross-entropy.md) · [示范模仿](concepts/imitation.md) · [行为克隆](concepts/bc.md) · [机器人数据与评测](concepts/data.md) · [仿真到实机](concepts/sim2real.md) · [分层技能与计划](concepts/skills.md) · [闭环滚动与历史偏移](concepts/rollout.md) |

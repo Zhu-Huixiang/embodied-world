@@ -36,7 +36,7 @@ Ashish Kumar、Zipeng Fu、Deepak Pathak、Jitendra Malik
 
 </details>
 
-[论文导读 / 完整解读](../../../library/rma.md) · [七维评分](../../papers/rma/README.md) · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
+[论文导读 / 完整解读](../../../articles/rma-2107.04034/README.md) · [七维评分](../../papers/rma/README.md) · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
 
 ## 署名来源
 

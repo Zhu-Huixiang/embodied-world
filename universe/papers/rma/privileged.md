@@ -4,6 +4,8 @@
 
 训练可见与机器人运行可见的量分别列清楚。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态)
+
 [跨论文技术入口](../../concepts/privileged.md)
 
-[本篇星系](../rma.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/rma.md) · [原文依据](https://www.roboticsproceedings.org/rss17/p011.html)
+[本篇星系](../rma.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md) · [原文依据](https://www.roboticsproceedings.org/rss17/p011.html)

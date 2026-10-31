@@ -1,0 +1,502 @@
+{
+  "slug": "rma-2107.04034",
+  "title": "RMA：脚下突然打滑，机器狗怎么边走边改？",
+  "topics": [
+    "locomotion",
+    "reinforcement-learning"
+  ],
+  "paper": {
+    "title": "RMA: Rapid Motor Adaptation for Legged Robots",
+    "arxiv_id": "2107.04034",
+    "version": "RSS 2021 proceedings paper (11 pages), with official project supplementary material (4 pages)",
+    "first_publication": "2021-07-08",
+    "pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+    "url": "https://www.roboticsproceedings.org/rss17/p011.html",
+    "project_url": "https://ashish-kmr.github.io/rma-legged-robots/",
+    "code_url": null,
+    "authors": [
+      "Ashish Kumar",
+      "Zipeng Fu",
+      "Deepak Pathak",
+      "Jitendra Malik"
+    ],
+    "institutions": [
+      "加州大学伯克利分校",
+      "卡内基梅隆大学",
+      "Facebook"
+    ],
+    "supplement_pdf_sha256": "092a93ef299b93f012c2f1c8e39ff040a81b60ec55fadd3e1c9eb34466ebd723",
+    "supplement_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+    "source_checked_at": "2026-10-31T10:18:59.799599+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "RSS 2021",
+    "url": "https://www.roboticsproceedings.org/rss17/p011.html",
+    "checked_at": "2026-10-31T10:18:59.799599+08:00",
+    "explanation": "Official RSS XVII proceedings entry, DOI 10.15607/RSS.2021.XVII.011, title and four authors matched to official paper. Conference dates July 12–16 distinct from arXiv first public July 8."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/rma-architecture.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "RMA全篇架构",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/rma-architecture.tex",
+      "pdf": "figures/drawpaper/rma-architecture.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "reviewed": true,
+      "provenance": "Built-in imagegen draft retained through graphicx viewports; equations, dataflow, labels and policy block typeset in TikZ. Mixed raster/vector PDF."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig1-original.png",
+      "caption": "论文 Fig. 1。先看脚下材料与落脚条件，照片展示的地形差异比机器人姿态更关键。",
+      "alt": "论文 Fig. 1",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Fig. 1",
+      "pdf_page": 1,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        48,
+        132,
+        565,
+        391
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Render complete PDF page at 216 dpi then crop raster; vector text, axes, arrows, lines retained",
+      "rights_checked": true,
+      "rights_note": "Selected original figure/table excerpts retained only for close scholarly commentary with source attribution. Authors retain copyright; no blanket reuse license assumed and no full-paper PDF redistributed.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "read_guide": "这张照片组用来说明部署场景覆盖，不提供统计坐标轴。上排是岩石地面与林间台阶，下方补充植被、松散施工材料、土坡、沙地等环境。白色分隔线划分不同场景；各照片没有编码训练阶段或成功率。照片展示选取时刻，整体成功率与试验条件需要另读正文和证据台账。",
+      "source_notes": [],
+      "pixel_size": [
+        1551,
+        777
+      ],
+      "sha256": "853f123f6c0481f0e612a0435ab35fe8f3dbabe6f8399e2fc8eed3d2930913fb"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-original.png",
+      "caption": "论文 Fig. 2。先找红色可训练模块，再沿下半部读真实机器人反馈怎样回到适应模块。",
+      "alt": "论文 Fig. 2",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Fig. 2",
+      "pdf_page": 2,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        72,
+        52,
+        541,
+        361
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Render complete PDF page at 216 dpi then crop raster; vector text, axes, arrows, lines retained",
+      "rights_checked": true,
+      "rights_note": "Selected original figure/table excerpts retained only for close scholarly commentary with source attribution. Authors retain copyright; no blanket reuse license assumed and no full-paper PDF redistributed.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "read_guide": "先分上部训练A与下部部署B，再沿每条箭头看输入输出。Phase 1中e进入环境编码器μ得到z，再与x和上一步a合并交给π；红框μ和π一起训练。Phase 2中φ从历史估计ẑ，绿色Regress表示回归到μ产生的监督目标，黑框π固定。黑色虚线把动作送入物理仿真、再将状态反馈回来，绿色线不是部署时传感器。部署只保留φ与π，分别10Hz与100Hz，π消费最近的ẑ。图无数值坐标轴。",
+      "source_notes": [
+        "Figure 2 history indices differ internally and from §III-B; body equation k=50 is normative for explanatory math. Do not reproduce its t-51 / t-50 mismatch as a new implementation claim."
+      ],
+      "pixel_size": [
+        1407,
+        927
+      ],
+      "sha256": "6fd771b8293c7d4da8e18626464b188431db0f951d4bbda33c876d0e1dcc2174"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table1-original.png",
+      "caption": "论文 Table I。测试既扩展参数范围，也提高episode内部重新采样的概率。",
+      "alt": "论文 Table I",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Table I",
+      "pdf_page": 5,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        309,
+        52,
+        569,
+        162
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Render complete PDF page at 216 dpi then crop raster; vector text, axes, arrows, lines retained",
+      "rights_checked": true,
+      "rights_note": "Selected original figure/table excerpts retained only for close scholarly commentary with source attribution. Authors retain copyright; no blanket reuse license assumed and no full-paper PDF redistributed.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "read_guide": "行是随机化物理量，第二列训练、第三列测试；中括号是范围端点。摩擦、增益、负载、质心位置、电机强度需分别读单位，电机强度是缩放倍率。最后行是每个控制步重采样概率，不是秒或某个试验的成功率。测试范围更宽且重采样更频繁，用来衡量新条件和中途变化。",
+      "source_notes": [
+        "Retain source Center of Mass (cm) and +/-0.15, +/-0.18 literally; do not silently change units to m. Kp/Kd randomization does not mean they are additional dimensions of the 17-D privileged vector."
+      ],
+      "pixel_size": [
+        780,
+        330
+      ],
+      "sha256": "26636161b777f358ceb1881c044619d9e7f85f77515ab7d958a20a22a8789c54"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig3-original.png",
+      "caption": "论文 Fig. 3。先按每个任务的小表读成功率，再看底部负载增加时三条曲线如何分开。",
+      "alt": "论文 Fig. 3",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Fig. 3",
+      "pdf_page": 6,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        59,
+        54,
+        544,
+        376
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Render complete PDF page at 216 dpi then crop raster; vector text, axes, arrows, lines retained",
+      "rights_checked": true,
+      "rights_note": "Selected original figure/table excerpts retained only for close scholarly commentary with source attribution. Authors retain copyright; no blanket reuse license assumed and no full-paper PDF redistributed.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "read_guide": "上方六个实机场景各配相邻表格；照片白色虚线箭头表示行进方向，方法为RMA、RMA去适应模块、A1厂商控制器。Success为百分比，TTF与Distance在这些实机任务中归一化到0–1；上下台阶只报告成功率。底部三幅折线图横轴都是额外负载kg，纵轴依次是成功率%、归一化TTF、归一化距离；红RMA、绿去适应模块、黑A1。TTF较高但距离低说明没有立即摔倒却走不动。",
+      "source_notes": [
+        "Source inconsistency: the plot table reports Uneven Foam RMA80/A1 20 and Step Down-15 RMA100/A1 60, while the caption states foam100 and stepdown80. Preserve image unchanged; do not interchange these values.",
+        "Nominal real-world count is 5 trials per method; §V-A says drastic failures were stopped after 2 trials and reported as failure."
+      ],
+      "pixel_size": [
+        1455,
+        966
+      ],
+      "sha256": "0e5094d0bbf297043006ceaded5053eadd76f8bbbda879d020a1138387b37092"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig4-original.png",
+      "caption": "论文 Fig. 4。横向对齐同一个时刻，依次看脚接触、膝关节力矩和潜变量；不要把最下方两条线读成摩擦系数。",
+      "alt": "论文 Fig. 4",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Fig. 4",
+      "pdf_page": 7,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        100,
+        52,
+        512,
+        373
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Render complete PDF page at 216 dpi then crop raster; vector text, axes, arrows, lines retained",
+      "rights_checked": true,
+      "rights_note": "Selected original figure/table excerpts retained only for close scholarly commentary with source attribution. Authors retain copyright; no blanket reuse license assumed and no full-paper PDF redistributed.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "read_guide": "横轴为时间秒；上部照片经箭头与虚线对应曲线时刻。第一层四行RL/RR/FL/FR分别为后左/后右/前左/前右脚，彩色横条表示接触地面。中层纵轴是膝力矩Nm，底层是经中值滤波的ẑ第1与第5分量数值，没有物理摩擦单位；原图未给橙/蓝到分量编号的颜色映射。绿色背景区标示默认步态与恢复步态，红色区为适应阶段。约2秒后节律受扰；步态恢复而潜变量继续偏移，表示仍在湿滑地面中采取不同控制。",
+      "source_notes": [
+        "Colors of the two latent curves are not individually assigned to z1 or z5 by the source; describe them jointly.",
+        "Colored adaptation window is a qualitative single-trial illustration, not a latency benchmark or a universal recovery guarantee."
+      ],
+      "pixel_size": [
+        1236,
+        963
+      ],
+      "sha256": "6871403932894c56b4c8a46383608d174554664cb405ce0e76128ecb7ad6fdbb"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table2-original.png",
+      "caption": "论文 Table II。先读成功率与距离，再看Smoothness和Ground Impact；每一列都要认准是越大越好还是越小越好。",
+      "alt": "论文 Table II",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Table II",
+      "pdf_page": 8,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        59,
+        52,
+        553,
+        155
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Render complete PDF page at 216 dpi then crop raster; vector text, axes, arrows, lines retained",
+      "rights_checked": true,
+      "rights_note": "Selected original figure/table excerpts retained only for close scholarly commentary with source attribution. Authors retain copyright; no blanket reuse license assumed and no full-paper PDF redistributed.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "read_guide": "各行是方法，最后Expert可直接读取真实特权潜变量，是参考上界。列依次为成功率%、归一化TTF、forward+lateral reward、距离m、测试适应样本数、关节力矩平方和、力矩变化平方和、足端反力变化平方和。前几项通常越大越好，后3项通常越小越好，但要分别读不能合成无条件胜出。每方法为3个初始化×每个1000仿真回合；测试范围见Table I，每步0.01概率重采样环境。Samples=0指不采集额外测试环境优化数据，不是运行时无历史输入。",
+      "source_notes": [
+        "Supplement §I defines Torque, Smoothness/Jerk, Ground Impact as squared norms; not N m scalar peak torque or conventional jerk m/s^3.",
+        "RMA Ground Impact 4.27 exceeds Robust4.20, SysID4.03 and AWR4.02; do not claim all metrics beat all baselines."
+      ],
+      "pixel_size": [
+        1482,
+        309
+      ],
+      "sha256": "83f2212db24e1a56f0606ceee5d8a40f932055fd207dd7252eb3e17cf53f4480"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/supplement-fig2-original.png",
+      "caption": "补充材料 Fig. 2。负载落下后身体先下沉，接着看接触节奏和力矩如何恢复；照片袋子上的字样受翻转影响，实验负载按图注为5 kg。",
+      "alt": "论文补充 Fig. 2",
+      "source_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+      "figure_id": "Supplement Fig. 2",
+      "pdf_page": 3,
+      "source_pdf_sha256": "092a93ef299b93f012c2f1c8e39ff040a81b60ec55fadd3e1c9eb34466ebd723",
+      "bbox": [
+        53,
+        126,
+        565,
+        526
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Render complete PDF page at 216 dpi then crop raster; vector text, axes, arrows, lines retained",
+      "rights_checked": true,
+      "rights_note": "Selected original figure/table excerpts retained only for close scholarly commentary with source attribution. Authors retain copyright; no blanket reuse license assumed and no full-paper PDF redistributed.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "read_guide": "照片上白色虚线跟踪机身相对位置，红色水平虚线提供地面参照；照片箭头落在曲线时间轴对应时刻。横轴为秒；四行接触条与主文Fig.4相同，膝力矩纵轴Nm，底层改为ẑ的第2和第7分量数值。红底为负载扰动后的适应阶段，绿底表示默认与恢复步态。力矩恢复后幅度更大，潜变量保留新状态，说明不是回到无负载的同一个控制条件。",
+      "source_notes": [
+        "The caption explicitly states 5kg. Photos were horizontally flipped to show left-to-right travel; the sandbag label looks like 2Kg as a result. Do not infer 2kg from the mirrored photo.",
+        "Source does not provide a separate color key assigning the two latent curves to z2 and z7."
+      ],
+      "pixel_size": [
+        1536,
+        1200
+      ],
+      "sha256": "30b991236a2f84dd1567c861437685f250c88370519dd06e55dd5c07fd3819b5"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/01-base-policy.png",
+      "caption": "图中是原文公式（1）和（2）。括号中放输入，等号左边是输出；μ 和 π 都是神经网络。先由环境得到 z，再让 z 改变策略在当前状态下的动作选择。",
+      "alt": "01-base-policy",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "Eq. (1), Eq. (2), §III-A",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/01-base-policy.tex",
+      "pdf": "figures/formulas/01-base-policy.pdf",
+      "display_width": 290,
+      "equation_type": "original_numbered_equations_with_source_dimensions",
+      "source_notes": [
+        "Equations (1) and (2) are original numbering; dimensional annotations from §III-A are added around the equations."
+      ],
+      "additional_source_url": null,
+      "pixel_size": [
+        644,
+        325
+      ],
+      "sha256": "2077f5a92af14f4625d69f43184e5bc4728a78311b611997984dcf2698281566"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/02-adaptation.png",
+      "caption": "图中 Hₜ 是为讲清形状而显式写出的历史矩阵：50行对应50个时刻，每行并列30维状态和12维动作；上标 T 表示转置成行。最后一行的 Lφ 是适应模块损失，即原文未编号的平方误差。每个维度先算预测与目标的差，再平方相加。监督目标仍由仿真中的环境编码器 μ 计算，梯度只更新 φ。",
+      "alt": "02-adaptation",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§III-B",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/02-adaptation.tex",
+      "pdf": "figures/formulas/02-adaptation.pdf",
+      "display_width": 290,
+      "equation_type": "instructional_expansion_of_unnumbered_source_equations",
+      "source_notes": [
+        "H_t explicit matrix stacking and L_phi name are editorial notation; original source states k=50, prediction and squared-error loss without a numbered equation. No 1/8 factor added."
+      ],
+      "additional_source_url": null,
+      "pixel_size": [
+        615,
+        460
+      ],
+      "sha256": "9acafb38deebc786e077e6948ffe5833d0e5717ac6cbab29dbdd1893242ce20b"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/03-deployment.png",
+      "caption": "这里 H_recent 表示刚读到的最近历史缓存，箭头表示用新计算结果写回；async 表示共享的最新估计，它可能在几个基础策略周期内保持不变。但当前身体状态仍每步更新，所以“条件暂时沿用旧值”并不意味着机器人在这100 ms里闭眼放录像。若膝盖角度变了、某只脚接触丢了，快速路径仍会立即读到新的状态。",
+      "alt": "03-deployment",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§III-C; Supplement Algorithm 2 p2",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/03-deployment.tex",
+      "pdf": "figures/formulas/03-deployment.pdf",
+      "display_width": 290,
+      "equation_type": "instructional_restating_of_algorithm",
+      "source_notes": [
+        "Adapted from supplementary Algorithm 2 and main §III-C. H_recent denotes latest available 50-step history and is editorial shorthand, not a new sensor input."
+      ],
+      "additional_source_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+      "pixel_size": [
+        673,
+        180
+      ],
+      "sha256": "859464383f92bd019a05ec9fe1f333271de635a5d37728397867dc097d7aeb00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/04-pd.png",
+      "caption": "这是原文未编号的控制关系。举一个单关节教学例子：目标0.5 rad，当前0.4 rad，角速度0.2 rad/s，则按该式得到55×0.1−0.8×0.2＝5.34 N·m。目标角没有直接“变成姿态”；它先经过反馈控制，再让电机施力，真实身体怎么动还取决于负载和接触。",
+      "alt": "04-pd",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 5,
+      "locator": "§IV-A State-Action Space",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/04-pd.tex",
+      "pdf": "figures/formulas/04-pd.pdf",
+      "display_width": 290,
+      "equation_type": "instructional_expansion_of_unnumbered_source_equation",
+      "source_notes": [
+        "Source PD equation restated with time subscripts and target velocity explicitly set to zero. Kp55 and Kd0.8 are real-deployment fixed gains, not the randomized training range."
+      ],
+      "additional_source_url": null,
+      "pixel_size": [
+        729,
+        328
+      ],
+      "sha256": "91690ab1e09e23f425070980179a98d99f251efc03249773d6f5d2c64a529028"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/05-return-reward.png",
+      "caption": "这是原文未编号的回报公式，图中把原文的轨迹符号 τ 改写成花体 T，以免与后文电机力矩混淆；γ 的数值来自补充材料。求和把一段运动的收益加起来，期望表示对可能出现的轨迹取平均。",
+      "alt": "05-return-reward",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "pdf_page": 4,
+      "locator": "§III-A expected return; Supplement §II p1",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-10-31T10:14:44.577525+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/05-return-reward.tex",
+      "pdf": "figures/formulas/05-return-reward.pdf",
+      "display_width": 290,
+      "equation_type": "instructional_restating_of_unnumbered_source_equation",
+      "source_notes": [
+        "Original uses tau for trajectory; changed here to calligraphic T only to disambiguate from joint torque. Gamma0.998 is verified in Supplement §II p1. This is expected return, not a full PPO clipped surrogate loss."
+      ],
+      "additional_source_url": "https://ashish-kmr.github.io/rma-legged-robots/rma-locomotion-supplementary.pdf",
+      "pixel_size": [
+        838,
+        335
+      ],
+      "sha256": "e6d51d7456fd89d1c5f229ee2b4b2b9ff2dc6bd8f2dc3bc6ee660788c03df6ab"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-training-detail.png",
+      "caption": "论文 Fig. 2 训练局部。上排联合训练 μ 与 π，下排固定两者、训练 φ；完整仿真闭环见前面的全图。",
+      "alt": "论文 Fig. 2 训练局部",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Fig. 2 (training detail)",
+      "pdf_page": 2,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        75,
+        52,
+        432,
+        241
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Complete page raster rendered at 288dpi, then raster crop; no relabelling or compositing",
+      "rights_checked": true,
+      "rights_note": "Selected original excerpts for close scholarly commentary, with source attribution; authors retain copyright; no full paper redistribution.",
+      "reviewed": true,
+      "read_guide": "保留Phase1和Phase2及共享的a_t输出；去掉右侧仿真照片。上层输入环境e和当前状态/前次动作，μ与π训练；下层φ从历史估计ẑ，绿色回归箭头跨两层，π冻结。仍须按正文k=50解释历史，原图异常下标保持原样。 右侧虚线在裁切边界通向仿真器，完整闭环见全图。",
+      "pixel_size": [
+        1428,
+        756
+      ],
+      "sha256": "309e327cdb171cb8d94b12f5fb17f89d33afeaa6bc5dea93afe75b484c134267",
+      "visually_reviewed_at": "2026-10-31T10:22:18.665282+08:00",
+      "visual_review_notes": "Compared against complete source page and inspected full-size crop; all input/output labels or selected table cells intact. Original-source history indexing and shared Success header documented without relabelling."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-deployment-detail.png",
+      "caption": "论文 Fig. 2 部署局部。左侧历史交给 φ，当前状态与上次动作直接交给 π；完整的机器人反馈回路仍见全图。",
+      "alt": "论文 Fig. 2 部署局部",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Fig. 2 (deployment detail)",
+      "pdf_page": 2,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        75,
+        254,
+        434,
+        353
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Complete page raster rendered at 288dpi, then raster crop; no relabelling or compositing",
+      "rights_checked": true,
+      "rights_note": "Selected original excerpts for close scholarly commentary, with source attribution; authors retain copyright; no full paper redistribution.",
+      "reviewed": true,
+      "read_guide": "去掉右侧机器人照片，完整保留左侧历史输入、当前状态/前次动作、ẑ、π及a_t输出标签。上方虚线反馈在照片侧边界截断，实际闭环需结合完整Fig2与正文理解。",
+      "pixel_size": [
+        1436,
+        396
+      ],
+      "sha256": "9cf6fdbdc5b6707169f3edc7e805173c5b65a347d5fcba5354627275cedd348c",
+      "visually_reviewed_at": "2026-10-31T10:22:18.665282+08:00",
+      "visual_review_notes": "Compared against complete source page and inspected full-size crop; all input/output labels or selected table cells intact. Original-source history indexing and shared Success header documented without relabelling."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig3-stepup-detail.png",
+      "caption": "论文 Fig. 3 上台阶局部。两张小表右列都是成功率（%），保留全部方法行；每组试验次数见前文。",
+      "alt": "论文 Fig. 3 上台阶局部",
+      "source_url": "https://www.roboticsproceedings.org/rss17/p011.pdf",
+      "figure_id": "Fig. 3 (Step Up-6 and Step Up-8 detail)",
+      "pdf_page": 6,
+      "source_pdf_sha256": "ff106aa3f3e72828a9bf1811d8405dffa3ecb6687090f94ee3ec3433d38550dc",
+      "bbox": [
+        365,
+        141,
+        544,
+        270
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "Complete page raster rendered at 288dpi, then raster crop; no relabelling or compositing",
+      "rights_checked": true,
+      "rights_note": "Selected original excerpts for close scholarly commentary, with source attribution; authors retain copyright; no full paper redistribution.",
+      "reviewed": true,
+      "read_guide": "完整保留6cm/8cm两张场景照片、行进箭头、三个方法行与全部数值。各小表行序为RMA、RMA w/o Adapt、A1；6cm分别100/40/80%，8cm分别60/0/20%。原图Success表头由整列共用，位于被裁去的15cm下台阶行上方；本图注直接给出列名与单位，不复制或伪造新表头。",
+      "pixel_size": [
+        716,
+        516
+      ],
+      "sha256": "77c6301587c6cd40c62cdfb872875537197aa1a9482320849f3a1182bb190e75",
+      "visually_reviewed_at": "2026-10-31T10:22:18.665282+08:00",
+      "visual_review_notes": "Compared against complete source page and inspected full-size crop; all input/output labels or selected table cells intact. Original-source history indexing and shared Success header documented without relabelling."
+    }
+  ],
+  "cover_info": {
+    "source": "built-in imagegen",
+    "generator": "imagegen",
+    "ai_generated": true,
+    "prompt": "notes/cover-edit-prompt.md",
+    "caption": "脚下一滑，怎样接招",
+    "reviewed": true,
+    "initial_prompt": "notes/cover-prompt.md"
+  }
+}

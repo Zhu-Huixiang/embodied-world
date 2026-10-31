@@ -143,7 +143,7 @@
 
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
-| [RMA](../library/rma.md) · [RSS 2021](../venues/RSS/README.md) | 训练时的环境特权信息，怎样通过历史状态在部署时估计？ |
+| [RMA](../articles/rma-2107.04034/README.md) · [RSS 2021](../venues/RSS/README.md) | 训练时的环境特权信息，怎样通过历史状态在部署时估计？ |
 | [DreamWaQ](../library/dreamwaq.md) · [ICRA 2023](../venues/ICRA/README.md) | 盲行走时，历史本体信息怎样形成环境表征并进入 actor？ |
 | [Learning robust perceptive locomotion for quadrupedal robots in the wild](../library/perceptive-loco.md) · [Sci. Robot. 2022](../venues/Science-Robotics/README.md) | 感知不可靠时，地形信息和本体反馈怎样共同支持行走？ |
 | [Learning high-speed flight in the wild](../library/agile-flight.md) · [Sci. Robot. 2021](../venues/Science-Robotics/README.md) | 高速运动中的视觉规划，怎样跨越仿真与真实环境？ |

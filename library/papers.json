@@ -183,7 +183,9 @@
       "note": "",
       "project_url": null,
       "checked_at": "2026-10-09",
-      "editorial_status": "候选选题"
+      "editorial_status": "候选选题",
+      "article_slug": "rma-2107.04034",
+      "editorial_status_label": "完整解读"
     },
     {
       "id": "dreamwaq",

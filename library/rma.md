@@ -14,7 +14,7 @@
 
 **训练时的环境特权信息，怎样通过历史状态在部署时估计？**
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/rma-2107.04034/README.md)
 
 [知识星系](../universe/papers/rma.md) · [七维评分与雷达](../leaderboard/papers/rma/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-locomotion) · [首页](../README.md)
 
