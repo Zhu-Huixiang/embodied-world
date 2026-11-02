@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-31",
+  "checked_at": "2026-11-02",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -21731,6 +21731,96 @@
       ],
       "adoption_evidence": [],
       "audit_note": "Exa精确ID前5为目录或摘要聚合，未核独立技术实验。ArXivSignals检索摘要的Code released与官方README冲突，排除其说法及站内评分；S2失败/OpenAlex未匹配如实保留。"
+    },
+    "touchbridge": {
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "resources": [
+        {
+          "platform": "huggingface",
+          "resource_kind": "paper",
+          "id": "2610.40349",
+          "url": "https://huggingface.co/papers/2610.40349",
+          "api_url": "https://huggingface.co/api/papers/2610.40349",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "精确arXiv ID、标题、10位作者与原文一致。",
+          "sources": [
+            "https://huggingface.co/api/papers/2610.40349",
+            "https://arxiv.org/abs/2610.40349v1"
+          ],
+          "created_at": "2026-10-29T16:06:36.000Z",
+          "metrics": [
+            {
+              "metric": "upvotes",
+              "count": 0,
+              "checked_at": "2026-11-02T09:22:58.204593+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-29",
+              "window_end": "2026-11-02",
+              "label": "HF论文upvote",
+              "window_label": "截至2026-11-02单篇快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            }
+          ],
+          "limitations": [
+            "linkedModels/Datasets/Spaces为空仅是此索引状态，不证明全网无资源。"
+          ]
+        },
+        {
+          "platform": "project",
+          "url": "https://touchbridge2026.github.io/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.40349v1",
+            "https://arxiv.org/pdf/2610.40349v1",
+            "https://touchbridge2026.github.io/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "官方项目正文与演示可访问，未展示可核阅读计数；版权行说网页模板开放，不证明研究实现已开放。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "原文/官方项目、精确标题与ID有界网页检索及S2/OpenAlex/HF回读；未定位独立技术采用。未知GitHub/X/博客单篇计数仍null，不以作者账号粉丝或聚合目录代替。",
+      "unavailable_metrics": {
+        "github_stars": null,
+        "github_subscribers": null,
+        "github_forks": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      }
+    },
+    "jedi": {
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "resources": [],
+      "adoption_evidence": [],
+      "audit_note": "原文/官方项目、精确标题与ID有界网页检索及S2/OpenAlex/HF回读；未定位独立技术采用。未知GitHub/X/博客单篇计数仍null，不以作者账号粉丝或聚合目录代替。",
+      "unavailable_metrics": {
+        "github_stars": null,
+        "github_subscribers": null,
+        "github_forks": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "unavailable_resources": [
+        {
+          "platform": "huggingface",
+          "url": "https://huggingface.co/papers/2610.40356",
+          "api_url": "https://huggingface.co/api/papers/2610.40356",
+          "scope": "single_paper",
+          "identity_verified": false,
+          "status": "not_found",
+          "http_status": 404,
+          "checked_at": "2026-11-02T09:22:59.630151+08:00",
+          "metrics": [],
+          "raw_upvotes": null,
+          "availability_note": "精确论文API404，不写成0 upvotes。"
+        }
+      ]
     }
   },
   "excluded_candidates": [

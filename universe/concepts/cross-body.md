@@ -24,6 +24,8 @@
 - [DROID](../papers/droid.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p120.html)
 - [GR00T N1](../papers/gr00t-n1.md) · 机制导读 · [原文](https://arxiv.org/abs/2503.14734)
 - [EgoScale](../papers/egoscale.md) · 机制导读 · [原文](https://arxiv.org/abs/2602.16710)
+- [TouchBridge](../papers/touchbridge.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40349v1)
+- [JEDI](../papers/jedi.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40356v1)
 - [VIOLA](../papers/viola.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12435v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。

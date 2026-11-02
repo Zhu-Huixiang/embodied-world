@@ -1,8 +1,8 @@
 # A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control
 
-**Balanced Data Diet** · arXiv 2026 · 本版排名 120 · 综合分 **62.1 / 100**
+**Balanced Data Diet** · CoRL 2026 · 本版排名 108 · 综合分 **71.1 / 100**
 
-[解读导读](../../../library/balanced-data-diet.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [arXiv集锦](../../../arxiv/README.md#paper-balanced-data-diet)
+[解读导读](../../../library/balanced-data-diet.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 
 [知识星系](../../../universe/papers/balanced-data-diet.md) · [原文](https://arxiv.org/abs/2610.12465v1) · [PDF](https://arxiv.org/pdf/2610.12465v1) · [阅读卡片](../../../library/balanced-data-diet.md)
 
@@ -27,7 +27,7 @@ Success Guided Sampling 根据当前成功率把重置分布推向能力边缘�
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 公开与评审 | 60 | 30% |
+| 公开与评审 | 90.0 | 30% |
 | 创新性 | 85 | 20% |
 | 实验与证据 | 77 | 20% |
 | 学术影响 | 0 | 10% |
@@ -35,7 +35,10 @@ Success Guided Sampling 根据当前成功率把重置分布推向能力边缘�
 | 复用价值 | 68 | 8% |
 | 阅读价值 | 89 | 7% |
 
-公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；当前阶段为预印本公开。
+刊会依据：[CoRL 2026](../../../venues/CoRL/README.md)，正式出处见[出版/原文记录](https://2026.corl.org/program/accepted-papers)；采用2026-10-10刊会快照。
+
+
+公开与评审依据：保留已核v1完整公开稿阶段60；补核CoRL 2026官方录用与作者项目身份，按CoRL既有90分量表取较高阶段，Poster不另加分。；正式刊会按登记量表计分，取较高阶段。
 
 
 编辑深度：选题初读；评分记录：2026-10-10。

@@ -1,6 +1,6 @@
 # PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies
 
-**解读导读** · arXiv 2026 · [视频动作模型与视觉推理](../paper-map/README.md#track-video-action)
+**解读导读** · CoRL 2026 · [视频动作模型与视觉推理](../paper-map/README.md#track-video-action)
 
 研究范围：机器人学习。
 
@@ -20,6 +20,6 @@
 
 全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
 
-[知识星系](../universe/papers/plaw-vla.md) · [七维评分与雷达](../leaderboard/papers/plaw-vla/README.md) · [arXiv集锦](../arxiv/README.md#paper-plaw-vla) · [地图方向](../paper-map/README.md#track-video-action) · [首页](../README.md)
+[知识星系](../universe/papers/plaw-vla.md) · [七维评分与雷达](../leaderboard/papers/plaw-vla/README.md) · [CoRL集锦](../venues/CoRL/README.md) · [地图方向](../paper-map/README.md#track-video-action) · [首页](../README.md)
 
 元数据核对：2026-10-09T18:35:28+08:00。

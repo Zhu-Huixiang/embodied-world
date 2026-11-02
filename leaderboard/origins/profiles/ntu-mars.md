@@ -23,6 +23,6 @@
 - [来源1](https://ntumars.github.io/TOPS/)
 - [来源2](https://arxiv.org/pdf/2610.36694v1)
 
-资料核验：2026-10-31。
+资料核验：2026-11-02。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

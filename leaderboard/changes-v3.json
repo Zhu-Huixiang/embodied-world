@@ -1,7 +1,7 @@
 {
   "from_version": 2,
   "to_version": 3,
-  "checked_at": "2026-10-31",
+  "checked_at": "2026-11-02",
   "papers": [
     {
       "id": "clip",
@@ -2654,9 +2654,59 @@
       }
     },
     {
+      "id": "balanced-data-diet",
+      "old_rank": 113,
+      "new_rank": 108,
+      "old_score": 44.1,
+      "new_score": 71.1,
+      "old_scores": {
+        "innovation": 85,
+        "evidence": 77,
+        "reuse": 68,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 85,
+        "evidence": 77,
+        "reuse": 68,
+        "reading": 89,
+        "venue": 90.0,
+        "influence": 0,
+        "attention": 0
+      }
+    },
+    {
+      "id": "plaw-vla",
+      "old_rank": 115,
+      "new_rank": 109,
+      "old_score": 43.1,
+      "new_score": 70.7,
+      "old_scores": {
+        "innovation": 84,
+        "evidence": 75,
+        "reuse": 63,
+        "reading": 89,
+        "venue": 0,
+        "influence": 0,
+        "attention": 0
+      },
+      "new_scores": {
+        "innovation": 84,
+        "evidence": 75,
+        "reuse": 63,
+        "reading": 89,
+        "venue": 90.0,
+        "influence": 0,
+        "attention": 11.9
+      }
+    },
+    {
       "id": "modar",
       "old_rank": 107,
-      "new_rank": 108,
+      "new_rank": 110,
       "old_score": 46.9,
       "new_score": 69.6,
       "old_scores": {
@@ -2681,7 +2731,7 @@
     {
       "id": "dreamtrue",
       "old_rank": 114,
-      "new_rank": 113,
+      "new_rank": 115,
       "old_score": 43.5,
       "new_score": 64.1,
       "old_scores": {
@@ -2706,7 +2756,7 @@
     {
       "id": "viola",
       "old_rank": 108,
-      "new_rank": 114,
+      "new_rank": 116,
       "old_score": 45.8,
       "new_score": 63.8,
       "old_scores": {
@@ -2731,7 +2781,7 @@
     {
       "id": "lewam",
       "old_rank": 109,
-      "new_rank": 115,
+      "new_rank": 117,
       "old_score": 45.1,
       "new_score": 63.1,
       "old_scores": {
@@ -2756,7 +2806,7 @@
     {
       "id": "holo-m",
       "old_rank": 110,
-      "new_rank": 117,
+      "new_rank": 119,
       "old_score": 44.3,
       "new_score": 62.3,
       "old_scores": {
@@ -2781,7 +2831,7 @@
     {
       "id": "dex-one2many",
       "old_rank": 111,
-      "new_rank": 118,
+      "new_rank": 120,
       "old_score": 44.2,
       "new_score": 62.2,
       "old_scores": {
@@ -2806,7 +2856,7 @@
     {
       "id": "arc",
       "old_rank": 112,
-      "new_rank": 119,
+      "new_rank": 121,
       "old_score": 44.2,
       "new_score": 62.2,
       "old_scores": {
@@ -2827,56 +2877,6 @@
         "influence": 0,
         "attention": 0
       }
-    },
-    {
-      "id": "balanced-data-diet",
-      "old_rank": 113,
-      "new_rank": 120,
-      "old_score": 44.1,
-      "new_score": 62.1,
-      "old_scores": {
-        "innovation": 85,
-        "evidence": 77,
-        "reuse": 68,
-        "reading": 89,
-        "venue": 0,
-        "influence": 0,
-        "attention": 0
-      },
-      "new_scores": {
-        "innovation": 85,
-        "evidence": 77,
-        "reuse": 68,
-        "reading": 89,
-        "venue": 60,
-        "influence": 0,
-        "attention": 0
-      }
-    },
-    {
-      "id": "plaw-vla",
-      "old_rank": 115,
-      "new_rank": 121,
-      "old_score": 43.1,
-      "new_score": 61.7,
-      "old_scores": {
-        "innovation": 84,
-        "evidence": 75,
-        "reuse": 63,
-        "reading": 89,
-        "venue": 0,
-        "influence": 0,
-        "attention": 0
-      },
-      "new_scores": {
-        "innovation": 84,
-        "evidence": 75,
-        "reuse": 63,
-        "reading": 89,
-        "venue": 60,
-        "influence": 0,
-        "attention": 11.9
-      }
     }
   ],
   "new_since_snapshot": [
@@ -2887,6 +2887,8 @@
     "tops",
     "flore",
     "gar",
+    "jedi",
+    "touchbridge",
     "world2vec"
   ]
 }

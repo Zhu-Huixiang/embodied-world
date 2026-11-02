@@ -2,7 +2,7 @@
 
 找值得追的新工作：先看问题和贡献，再看对照、闭环实验与署名。重点实验室优先进入阅读队列；机构名字不替方法拿分。
 
-最近扫描：**2026-10-31T08:33:42+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 142 篇方向候选。下列为历次保留的 15 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
+最近扫描：**2026-11-02T09:16:48+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 142 篇方向候选。下列为历次保留的 17 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
 
 收录日期按 arXiv 首次提交时间转换到上海日期；更新版本合并旧卡片。首次提交与本文收录时间分别列出。每日上海08:30启动新论文检索与初读筛选；没有合格新增也正常。
 
@@ -11,6 +11,12 @@
 <a id="paper-world2vec"></a>
 
 - [world2vec: Mechanistic world models through latent dynamics learning](../library/world2vec.md) — Helmholtz Munich, Munich Center for Machine Learning (MCML)
+<a id="paper-jedi"></a>
+
+- [JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning](../library/jedi.md) — New York University Tandon School of Engineering, NYUAD Center for Artificial Intelligence and Robotics (CAIR), Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi
+<a id="paper-touchbridge"></a>
+
+- [TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation](../library/touchbridge.md) — Tsinghua University, Zhejiang University, Nanyang Technological University
 
 ## [2026-10-29](2026/10/29.md)
 

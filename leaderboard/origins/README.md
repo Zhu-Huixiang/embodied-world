@@ -42,10 +42,12 @@
 | [加州大学戴维斯分校](profiles/organization-14ceb33ea08c.md) | 论文署名机构 | 1 | 操作与动作块 |
 | [加州理工学院](profiles/institution-i122411786.md) | 大学 | 1 | 视觉语言动作模型 VLA |
 | [动力学推断实验室](profiles/dynamical-inference-lab.md) | 研究团队 | 1 | 世界模型与模型强化学习 |
+| [北京大学](profiles/peking-university.md) | 大学 | 1 | 操作与动作块 |
 | [北卡罗来纳大学教堂山分校](profiles/institution-i114027177.md) | 研究机构 | 1 | 视频动作模型与视觉推理 |
 | [华盛顿大学](profiles/institution-i201448701.md) | 大学 | 4 | 操作与动作块、Locomotion 与运动适应 |
 | [华盛顿大学机器人与状态估计实验室（RSE）](profiles/uw-rse.md) | 大学实验室 | 2 | 操作与动作块 |
 | [南方科技大学](profiles/institution-i3045169105.md) | 大学 | 1 | 视频动作模型与视觉推理 |
+| [南洋理工大学](profiles/nanyang-technological-university.md) | 大学 | 1 | 操作与动作块 |
 | [南洋理工大学 MARS 实验室](profiles/ntu-mars.md) | 大学实验室 | 1 | 操作与动作块 |
 | [卡内基梅隆大学](profiles/institution-i74973139.md) | 大学 | 12 | Locomotion 与运动适应、操作与动作块、视觉语言动作模型 VLA、动作先验与全身技能、世界动作模型 |
 | [卡内基梅隆大学 LeCAR 实验室](profiles/cmu-lecar.md) | 大学实验室 | 1 | Locomotion 与运动适应 |
@@ -88,16 +90,21 @@
 | [格勒诺布尔阿尔卑斯大学](profiles/institution-i899635006.md) | 大学 | 1 | 具身感知与场景表示 |
 | [法国国家信息与自动化研究所（Inria）](profiles/institution-i1326498283.md) | 研究机构 | 3 | 具身感知与场景表示 |
 | [法国国家科学研究中心（CNRS）](profiles/organization-0db43ae22a55.md) | 论文署名机构 | 1 | 具身感知与场景表示 |
-| [浙江大学](profiles/institution-i76130692.md) | 大学 | 1 | 视频动作模型与视觉推理 |
+| [浙江大学](profiles/institution-i76130692.md) | 大学 | 2 | 视频动作模型与视觉推理、操作与动作块 |
 | [海德堡大学跨学科科学计算研究中心（IWR）](profiles/organization-a119309dd18b.md) | 论文署名机构 | 1 | Diffusion / Transformer 基础 |
-| [清华大学](profiles/institution-i99065089.md) | 大学 | 7 | 世界模型与模型强化学习、视觉语言动作模型 VLA、视频动作模型与视觉推理、操作与动作块 |
+| [清华大学](profiles/institution-i99065089.md) | 大学 | 8 | 世界模型与模型强化学习、视觉语言动作模型 VLA、操作与动作块、视频动作模型与视觉推理 |
 | [清华大学交叉信息研究院](profiles/organization-111ccd579379.md) | 论文署名机构 | 1 | 操作与动作块 |
 | [清华大学具身智能实验室](profiles/tsinghua-embodied-ai.md) | 大学实验室 | 1 | 操作与动作块 |
+| [湖南大学](profiles/hunan-university.md) | 大学 | 1 | 操作与动作块 |
 | [爱丁堡大学](profiles/institution-i98677209.md) | 大学 | 1 | 操作与动作块 |
 | [索尼 AI](profiles/organization-a1423391b9ee.md) | 论文署名机构 | 1 | 操作与动作块 |
 | [索邦大学](profiles/organization-43245336ed8d.md) | 论文署名机构 | 1 | 具身感知与场景表示 |
 | [纽伦堡工业大学](profiles/university-technology-nuremberg.md) | 论文署名机构 | 1 | 操作与动作块 |
-| [纽约大学](profiles/institution-i57206974.md) | 大学 | 5 | 操作与动作块、Diffusion / Transformer 基础、具身感知与场景表示、世界模型与模型强化学习 |
+| [纽约大学](profiles/institution-i57206974.md) | 大学 | 6 | 操作与动作块、Diffusion / Transformer 基础、具身感知与场景表示、世界模型与模型强化学习、视觉语言动作模型 VLA |
+| [纽约大学坦登工程学院](profiles/nyu-tandon.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
+| [纽约大学阿布扎比分校](profiles/nyu-abu-dhabi.md) | 大学 | 1 | 视觉语言动作模型 VLA |
+| [纽约大学阿布扎比分校人工智能与机器人中心](profiles/nyuad-cair.md) | 大学研究中心 | 1 | 视觉语言动作模型 VLA |
+| [纽约大学阿布扎比分校具身智能与机器人实验室](profiles/nyuad-air.md) | 大学实验室 | 1 | 视觉语言动作模型 VLA |
 | [芝加哥大学](profiles/university-of-chicago.md) | 大学 | 1 | 操作与动作块 |
 | [苏黎世大学](profiles/institution-i202697423.md) | 大学 | 1 | Locomotion 与运动适应 |
 | [苏黎世大学机器人与感知团队（RPG）](profiles/uzh-rpg.md) | 大学实验室 | 1 | Locomotion 与运动适应 |
@@ -136,4 +143,4 @@
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-核验日期：2026-10-31。
+核验日期：2026-11-02。

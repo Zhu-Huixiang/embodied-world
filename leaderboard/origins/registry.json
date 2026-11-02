@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-31",
+  "checked_at": "2026-11-02",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3547,6 +3547,167 @@
         "Dynamical Inference Lab",
         "Schneider Lab",
         "动力学推断实验室"
+      ]
+    },
+    "nanyang-technological-university": {
+      "id": "nanyang-technological-university",
+      "name": "Nanyang Technological University",
+      "display_name": "南洋理工大学",
+      "short_display_name": "南洋理工大学",
+      "kind": "university",
+      "identity_url": "https://arxiv.org/pdf/2610.40349v1",
+      "focus": "本篇Yuzheng Chen署名机构；工作涉及触觉与人类示范跨本体灵巧操作。",
+      "links": [
+        {
+          "label": "本篇署名与研究原文",
+          "url": "https://arxiv.org/pdf/2610.40349v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40349v1"
+      ],
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "aliases": [
+        "Nanyang Technological University",
+        "南洋理工大学"
+      ]
+    },
+    "hunan-university": {
+      "id": "hunan-university",
+      "name": "Hunan University",
+      "display_name": "湖南大学",
+      "short_display_name": "湖南大学",
+      "kind": "university",
+      "identity_url": "https://arxiv.org/pdf/2610.40349v1",
+      "focus": "本篇Jinlong Wu署名机构；参与触觉条件的人机示范转换。",
+      "links": [
+        {
+          "label": "本篇署名与研究原文",
+          "url": "https://arxiv.org/pdf/2610.40349v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40349v1"
+      ],
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "aliases": [
+        "Hunan University",
+        "湖南大学"
+      ]
+    },
+    "peking-university": {
+      "id": "peking-university",
+      "name": "Peking University",
+      "display_name": "北京大学",
+      "short_display_name": "北京大学",
+      "kind": "university",
+      "identity_url": "https://arxiv.org/pdf/2610.40349v1",
+      "focus": "本篇Zixuan Hu署名机构；参与接触丰富灵巧操作研究。",
+      "links": [
+        {
+          "label": "本篇署名与研究原文",
+          "url": "https://arxiv.org/pdf/2610.40349v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40349v1"
+      ],
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "aliases": [
+        "Peking University",
+        "北京大学"
+      ]
+    },
+    "nyu-tandon": {
+      "id": "nyu-tandon",
+      "name": "New York University Tandon School of Engineering",
+      "display_name": "纽约大学坦登工程学院",
+      "short_display_name": "纽约大学坦登工程学院",
+      "kind": "institution",
+      "identity_url": "https://arxiv.org/pdf/2610.40356v1",
+      "focus": "Jiazhao Liang本篇署名；涉及示范压缩与上下文模仿学习。",
+      "links": [
+        {
+          "label": "本篇署名与研究原文",
+          "url": "https://arxiv.org/pdf/2610.40356v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40356v1"
+      ],
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "aliases": [
+        "New York University Tandon School of Engineering",
+        "纽约大学坦登工程学院"
+      ]
+    },
+    "nyu-abu-dhabi": {
+      "id": "nyu-abu-dhabi",
+      "name": "New York University Abu Dhabi",
+      "display_name": "纽约大学阿布扎比分校",
+      "short_display_name": "纽约大学阿布扎比分校",
+      "kind": "university",
+      "identity_url": "https://arxiv.org/pdf/2610.40356v1",
+      "focus": "本篇其余四作者署名的大学校区；相关CAIR中心与AIR实验室分别登记。",
+      "links": [
+        {
+          "label": "本篇署名与研究原文",
+          "url": "https://arxiv.org/pdf/2610.40356v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40356v1"
+      ],
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "aliases": [
+        "New York University Abu Dhabi",
+        "纽约大学阿布扎比分校"
+      ]
+    },
+    "nyuad-cair": {
+      "id": "nyuad-cair",
+      "name": "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+      "display_name": "纽约大学阿布扎比分校人工智能与机器人中心",
+      "short_display_name": "纽约大学阿布扎比分校人工智能与机器人中心",
+      "kind": "university_research_center",
+      "identity_url": "https://arxiv.org/pdf/2610.40356v1",
+      "focus": "本篇共同署名研究中心；JEDI涉及预测表示、机器人上下文学习与示范压缩。",
+      "links": [
+        {
+          "label": "本篇署名与研究原文",
+          "url": "https://arxiv.org/pdf/2610.40356v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40356v1"
+      ],
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "aliases": [
+        "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+        "纽约大学阿布扎比分校人工智能与机器人中心"
+      ]
+    },
+    "nyuad-air": {
+      "id": "nyuad-air",
+      "name": "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi",
+      "display_name": "纽约大学阿布扎比分校具身智能与机器人实验室",
+      "short_display_name": "纽约大学阿布扎比分校具身智能与机器人实验室",
+      "kind": "research_lab",
+      "identity_url": "https://arxiv.org/pdf/2610.40356v1",
+      "focus": "本篇共同署名实验室；研究内容据JEDI为示范压缩、模仿学习及视觉动作策略。",
+      "links": [
+        {
+          "label": "本篇署名与研究原文",
+          "url": "https://arxiv.org/pdf/2610.40356v1"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40356v1"
+      ],
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "aliases": [
+        "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi",
+        "纽约大学阿布扎比分校具身智能与机器人实验室"
       ]
     }
   },
@@ -9400,6 +9561,150 @@
           "locator": "PDF p1 dagger footnote: Correspondence to Steffen Schneider"
         }
       ]
+    },
+    "touchbridge": {
+      "first_authors": [
+        "Haozhe Zhang",
+        "Gu Zhang",
+        "Zirui Zou"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Haozhe Zhang",
+        "Gu Zhang",
+        "Zirui Zou",
+        "Yuzheng Chen",
+        "Jinlong Wu",
+        "Zixuan Hu",
+        "Jianke Zhang",
+        "Yucheng Hu",
+        "Zhecheng Yuan",
+        "Huazhe Xu"
+      ],
+      "profile_ids": [
+        "institution-i99065089",
+        "institution-i76130692",
+        "nanyang-technological-university",
+        "hunan-university",
+        "peking-university"
+      ],
+      "affiliations": [
+        "Tsinghua University",
+        "Zhejiang University",
+        "Nanyang Technological University",
+        "Hunan University",
+        "Peking University"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40349v1",
+        "https://touchbridge2026.github.io/"
+      ],
+      "checked_at": "2026-11-02T09:29:12+08:00",
+      "author_basis": "PDF首页星号明确共同贡献；不据末作者推断通讯角色；Gu Zhang匕首标记为Project Lead（项目负责人）",
+      "affiliation_basis": "PDF首页逐作者机构署名",
+      "primary_author_source": "https://arxiv.org/pdf/2610.40349v1",
+      "authorship_notes": "PDF首页星号明确Haozhe Zhang、Gu Zhang、Zirui Zou共同贡献；匕首标Gu Zhang为Project Lead，不等同通讯作者。未指定通讯作者，不据末作者推断。正文署名为五所大学，不把既有Huazhe Xu实验室profile或NTU MARS自动归本篇。",
+      "corresponding_evidence": [],
+      "equal_contribution_authors": [
+        "Haozhe Zhang",
+        "Gu Zhang",
+        "Zirui Zou"
+      ],
+      "project_lead_authors": [
+        "Gu Zhang"
+      ],
+      "author_affiliations": {
+        "Haozhe Zhang": [
+          "Tsinghua University"
+        ],
+        "Gu Zhang": [
+          "Tsinghua University"
+        ],
+        "Zirui Zou": [
+          "Zhejiang University"
+        ],
+        "Yuzheng Chen": [
+          "Nanyang Technological University"
+        ],
+        "Jinlong Wu": [
+          "Hunan University"
+        ],
+        "Zixuan Hu": [
+          "Peking University"
+        ],
+        "Jianke Zhang": [
+          "Tsinghua University"
+        ],
+        "Yucheng Hu": [
+          "Tsinghua University"
+        ],
+        "Zhecheng Yuan": [
+          "Tsinghua University"
+        ],
+        "Huazhe Xu": [
+          "Tsinghua University"
+        ]
+      }
+    },
+    "jedi": {
+      "first_authors": [
+        "Jiazhao Liang",
+        "Zhewen He"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Jiazhao Liang",
+        "Zhewen He",
+        "Shuaihang Yuan",
+        "Hao Huang",
+        "Yi Fang"
+      ],
+      "profile_ids": [
+        "institution-i57206974",
+        "nyu-tandon",
+        "nyu-abu-dhabi",
+        "nyuad-cair",
+        "nyuad-air"
+      ],
+      "affiliations": [
+        "New York University Tandon School of Engineering",
+        "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+        "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2610.40356v1"
+      ],
+      "checked_at": "2026-11-02T09:29:12+08:00",
+      "author_basis": "PDF首页星号明确共同贡献；不据末作者推断通讯角色",
+      "affiliation_basis": "PDF首页逐作者机构署名",
+      "primary_author_source": "https://arxiv.org/pdf/2610.40356v1",
+      "authorship_notes": "PDF p1星号明确Jiazhao Liang、Zhewen He共同贡献，无通讯标注。Jiazhao Liang署纽约大学坦登工程学院；其余四作者署纽约大学阿布扎比分校CAIR中心与AIR实验室，不把末作者直接叫通讯作者。",
+      "corresponding_evidence": [],
+      "equal_contribution_authors": [
+        "Jiazhao Liang",
+        "Zhewen He"
+      ],
+      "author_affiliations": {
+        "Jiazhao Liang": [
+          "New York University Tandon School of Engineering"
+        ],
+        "Zhewen He": [
+          "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+          "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi"
+        ],
+        "Shuaihang Yuan": [
+          "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+          "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi"
+        ],
+        "Hao Huang": [
+          "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+          "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi"
+        ],
+        "Yi Fang": [
+          "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+          "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi"
+        ]
+      }
     }
   },
   "coverage": {
@@ -9553,7 +9858,14 @@
     "University of Technology Nuremberg": "纽伦堡工业大学",
     "Georgia Institute of Technology": "佐治亚理工学院",
     "Helmholtz Munich": "亥姆霍兹慕尼黑中心",
-    "Munich Center for Machine Learning (MCML)": "慕尼黑机器学习中心"
+    "Munich Center for Machine Learning (MCML)": "慕尼黑机器学习中心",
+    "Nanyang Technological University": "南洋理工大学",
+    "Hunan University": "湖南大学",
+    "Peking University": "北京大学",
+    "New York University Tandon School of Engineering": "纽约大学坦登工程学院",
+    "New York University Abu Dhabi": "纽约大学阿布扎比分校",
+    "NYUAD Center for Artificial Intelligence and Robotics (CAIR)": "纽约大学阿布扎比分校人工智能与机器人中心",
+    "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi": "纽约大学阿布扎比分校具身智能与机器人实验室"
   },
   "display_policy": {
     "people": "original English names",

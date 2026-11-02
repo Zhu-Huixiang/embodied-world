@@ -1,6 +1,6 @@
 # 清华大学
 
-本仓已收录工作主要涉及：世界模型与模型强化学习、视觉语言动作模型 VLA、视频动作模型与视觉推理、操作与动作块。
+本仓已收录工作主要涉及：世界模型与模型强化学习、视觉语言动作模型 VLA、操作与动作块、视频动作模型与视觉推理。
 
 **类型**：大学。
 
@@ -22,6 +22,7 @@
 | [LingBot-VA · Causal World Modeling for Robot Control](../../../library/lingbot-va.md) | 2026 / [RSS](../../../venues/RSS/README.md) | [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) | [82.3](../../papers/lingbot-va/README.md) |
 | [Ctrl-World · Ctrl-World: A Controllable Generative World Model for Robot Manipulation](../../../library/ctrl-world.md) | 2026 / [ICLR](../../../venues/ICLR/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [80.3](../../papers/ctrl-world/README.md) |
 | [EfficientZero V2 · EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](../../../library/efficientzero-v2.md) | 2024 / [ICML](../../../venues/ICML/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [75.0](../../papers/efficientzero-v2/README.md) |
+| [TouchBridge · TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation](../../../library/touchbridge.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-touchbridge) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [59.4](../../papers/touchbridge/README.md) |
 
 ## 署名与来源
 
@@ -30,6 +31,6 @@
 - [来源1](https://openalex.org/I99065089)
 - [来源2](https://api.openalex.org/institutions/I99065089)
 
-资料核验：2026-10-31。
+资料核验：2026-11-02。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

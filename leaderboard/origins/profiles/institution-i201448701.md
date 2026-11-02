@@ -18,7 +18,7 @@
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
 | [CLIPort · CLIPort: What and Where Pathways for Robotic Manipulation](../../../library/cliport.md) | 2021 / [CoRL](../../../venues/CoRL/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [84.2](../../papers/cliport/README.md) |
 | [PerAct · Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation](../../../library/peract.md) | 2022 / [CoRL](../../../venues/CoRL/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [83.3](../../papers/peract/README.md) |
-| [Balanced Data Diet · A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../../../library/balanced-data-diet.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-balanced-data-diet) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [62.1](../../papers/balanced-data-diet/README.md) |
+| [Balanced Data Diet · A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../../../library/balanced-data-diet.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [71.1](../../papers/balanced-data-diet/README.md) |
 
 ## 署名与来源
 
@@ -27,6 +27,6 @@
 - [来源1](https://openalex.org/I201448701)
 - [来源2](https://api.openalex.org/institutions/I201448701)
 
-资料核验：2026-10-31。
+资料核验：2026-11-02。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

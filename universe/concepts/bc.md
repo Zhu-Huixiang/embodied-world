@@ -27,6 +27,7 @@
 - [Transporter](../papers/transporter.md) · 机制导读 · [原文](https://proceedings.mlr.press/v155/zeng21a.html)
 - [IQL](../papers/iql.md) · 机制导读 · [原文](https://iclr.cc/virtual/2022/poster/5941)
 - [TD3+BC](../papers/td3-bc.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html)
+- [TouchBridge](../papers/touchbridge.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40349v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-31",
+  "checked_at": "2026-11-02",
   "nodes": [
     {
       "id": "paper:act",
@@ -1207,6 +1207,33 @@
       "source_url": "https://arxiv.org/abs/2610.37219v1"
     },
     {
+      "id": "paper:jedi",
+      "key": "jedi",
+      "kind": "paper",
+      "title": "JEDI",
+      "subtitle": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
+      "track": "vla",
+      "track_label": "视觉语言动作模型 VLA",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/jedi.md",
+      "concepts": [
+        "representation",
+        "jepa",
+        "transformer",
+        "attention",
+        "flow",
+        "action",
+        "chunk",
+        "imitation",
+        "cross-body",
+        "data",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.40356v1"
+    },
+    {
       "id": "paper:latent-diffusion",
       "key": "latent-diffusion",
       "kind": "paper",
@@ -2105,6 +2132,32 @@
       "source_url": "https://arxiv.org/abs/2610.36694v1"
     },
     {
+      "id": "paper:touchbridge",
+      "key": "touchbridge",
+      "kind": "paper",
+      "title": "TouchBridge",
+      "subtitle": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/touchbridge.md",
+      "concepts": [
+        "retarget",
+        "cross-body",
+        "imitation",
+        "bc",
+        "action",
+        "chunk",
+        "spatial",
+        "representation",
+        "data",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.40349v1"
+    },
+    {
       "id": "paper:trajectory-transformer",
       "key": "trajectory-transformer",
       "kind": "paper",
@@ -2471,6 +2524,8 @@
         "learned-dynamics-review",
         "jam",
         "world2vec",
+        "touchbridge",
+        "jedi",
         "viola"
       ],
       "explainers": [
@@ -2803,6 +2858,7 @@
         "nerf",
         "gaussian-splatting",
         "learned-dynamics-review",
+        "touchbridge",
         "dex-one2many"
       ],
       "explainers": [
@@ -2902,7 +2958,8 @@
         "attention",
         "sam2",
         "gar",
-        "world2vec"
+        "world2vec",
+        "jedi"
       ],
       "explainers": [
         {
@@ -2952,7 +3009,8 @@
         "sam2",
         "ddpm",
         "latent-diffusion",
-        "video-diffusion"
+        "video-diffusion",
+        "jedi"
       ],
       "explainers": [
         {
@@ -3161,6 +3219,7 @@
         "vjepa2",
         "jam",
         "world2vec",
+        "jedi",
         "lewam",
         "plaw-vla"
       ],
@@ -3271,7 +3330,8 @@
         "egoscale",
         "jam",
         "tops",
-        "gar"
+        "gar",
+        "jedi"
       ],
       "explainers": []
     },
@@ -3372,6 +3432,8 @@
         "tops",
         "tapestry",
         "gar",
+        "touchbridge",
+        "jedi",
         "arc",
         "plaw-vla"
       ],
@@ -3419,7 +3481,9 @@
         "jam",
         "tops",
         "tapestry",
-        "gar"
+        "gar",
+        "touchbridge",
+        "jedi"
       ],
       "explainers": [
         {
@@ -3532,7 +3596,8 @@
         "exbody",
         "egoscale",
         "supermimic",
-        "flore"
+        "flore",
+        "touchbridge"
       ],
       "explainers": []
     },
@@ -3914,7 +3979,9 @@
         "flore",
         "tops",
         "tapestry",
-        "gar"
+        "gar",
+        "touchbridge",
+        "jedi"
       ],
       "explainers": [
         {
@@ -3956,7 +4023,8 @@
         "mimicgen",
         "transporter",
         "iql",
-        "td3-bc"
+        "td3-bc",
+        "touchbridge"
       ],
       "explainers": [
         {
@@ -4143,6 +4211,8 @@
         "robocasa",
         "mimicgen",
         "flore",
+        "touchbridge",
+        "jedi",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -4180,6 +4250,8 @@
         "droid",
         "gr00t-n1",
         "egoscale",
+        "touchbridge",
+        "jedi",
         "viola"
       ],
       "explainers": [
@@ -4215,7 +4287,9 @@
         "tops",
         "tapestry",
         "gar",
-        "world2vec"
+        "world2vec",
+        "touchbridge",
+        "jedi"
       ],
       "explainers": [
         {
@@ -13376,6 +13450,501 @@
       "explainers": []
     },
     {
+      "id": "local:jedi:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/representation.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jepa",
+      "key": "jepa",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "jepa",
+      "title": "表征预测 JEPA",
+      "subtitle": "在表征空间预测目标而不是逐像素重建；防止表征坍缩仍需要相应设计。",
+      "detail": "不同论文的 EMA、stop-gradient 或正则方案不能互相借用。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jepa.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/transformer.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "local:jedi:transformer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/attention.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/flow.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/action.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:jedi:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/chunk.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/imitation.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:cross-body",
+      "key": "cross-body",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "cross-body",
+      "title": "跨本体数据",
+      "subtitle": "从多个机器人或人类收集经验，通过动作/观测适配接到共享学习系统。",
+      "detail": "共享接口不能消掉本体的物理限制。",
+      "parent_node": "local:jedi:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/cross-body.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/data.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "jedi",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "local:jedi:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "本篇方法链路",
+      "subtitle": "每段示范由4层Perceiver独立压成8个slot并缓存；π0的flow-matching动作专家读取查询观测与这些slot。辅助预测器在冻结V-JEPA2.1空间预测查询回合下一关键帧，对当前观测支路stop-gradient，使预测损失真正训练示范压缩器。错误任务和同任务不同过程的反事实margin约束保留目标/顺序。用示范间交叉预测误差和查询初图相似性选取一致示范，支持阶段性commitment；人类视频扩展经同平台真实posttraining，用手/物体关键点补充对应，不是任意人类视频免训练通用控制。",
+      "detail": "每段示范由4层Perceiver独立压成8个slot并缓存；π0的flow-matching动作专家读取查询观测与这些slot。辅助预测器在冻结V-JEPA2.1空间预测查询回合下一关键帧，对当前观测支路stop-gradient，使预测损失真正训练示范压缩器。错误任务和同任务不同过程的反事实margin约束保留目标/顺序。用示范间交叉预测误差和查询初图相似性选取一致示范，支持阶段性commitment；人类视频扩展经同平台真实posttraining，用手/物体关键点补充对应，不是任意人类视频免训练通用控制。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-compression-question",
+      "key": "jd-compression-question",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "示范压缩要保留什么",
+      "subtitle": "只把长示范压短不保证留下当前执行需要的信息。",
+      "detail": "把压缩目标从动作拟合扩为预测查询回合下一关键状态，分别检验目标与执行过程。",
+      "parent_node": "paper:jedi",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-compression-question.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§1–2; Fig1; PDF pp1–3",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-independent-slots",
+      "key": "jd-independent-slots",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "每条示范独立压成八个slot",
+      "subtitle": "示范独立压缩允许重复查询时复用缓存。",
+      "detail": "8采样帧×双视角SigLIP视觉token和128状态/动作步输入4层联合Perceiver，输出k8固定slot。token带视角、模态及归一时间，slot无示范身份编码。",
+      "parent_node": "local:jedi:jd-compression-question",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-independent-slots.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.2; Appendix B; Table7; PDF pp3–4,13–14",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-query-future",
+      "key": "jd-query-future",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "预测查询回合的下一关键帧",
+      "subtitle": "预测目标属于当前query，不是重建那条示范本身。",
+      "detail": "4层宽512预测器以slots、query观测和proprioception预测冻结V-JEPA2.1 ViT-L的两帧关键帧目标，256patch×1024；目标间隔不作为输入。",
+      "parent_node": "local:jedi:jd-independent-slots",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-query-future.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.3; Eqs1–2; Appendix B; PDF pp4,13–14",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-keyframes",
+      "key": "jd-keyframes",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "事件和速度定义关键阶段",
+      "subtitle": "用任务阶段而非任意固定下一时刻减少无关时间差。",
+      "detail": "夹爪事件、末端速度局部极小和结束步定义关键帧；训练支持与query过程匹配，构造过程标签不是无标签万能推断。",
+      "parent_node": "local:jedi:jd-query-future",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-keyframes.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.3; Appendix C; PDF pp4,14",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-stop-gradient",
+      "key": "jd-stop-gradient",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "阻止观测支路独自消化辅助损失",
+      "subtitle": "将辅助梯度引向压缩器，检查示范slot是否真有用。",
+      "detail": "当前观测对辅助损失stop-gradient；action loss仍训练policy。Table9放开观测梯度N8成功83.9高于默认80.2，此设计偏向因果隔离而非宣称最高成功率。",
+      "parent_node": "local:jedi:jd-query-future",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-stop-gradient.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.3; Table9; Appendix G; PDF pp4,17",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-negatives",
+      "key": "jd-negatives",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "任务与过程反事实负样本",
+      "subtitle": "错误目标和同目标不同次序是两种不同干扰。",
+      "detail": "用margin0.1让真实支持的预测误差低于反事实支持；同任务不同过程负样本检验次序，而非只凭终点分类。",
+      "parent_node": "local:jedi:jd-query-future",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-negatives.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.4; Eq3; Appendix C; PDF pp5,14",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-labels",
+      "key": "jd-labels",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "过程标签与匹配label对照",
+      "subtitle": "检查效果是否只是额外监督标签带来的。",
+      "detail": "过程来自数据构造或任务内关键帧潜特征聚类；Table3 label contrast共享task/process监督但没有预测器，order73.5低于JEDI84.1。",
+      "parent_node": "local:jedi:jd-negatives",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-labels.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "Appendix C,E,G; Tables3,10; PDF pp8,14–17",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-action-expert",
+      "key": "jd-action-expert",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "Flow Matching动作专家",
+      "subtitle": "缓存slot成为动作生成的上下文。",
+      "detail": "基础π0专家LoRA rank32，动作horizon50，10次Euler步；训练N随机1–16、instruction dropout0.5、distractor mixing0.2。",
+      "parent_node": "local:jedi:jd-independent-slots",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-action-expert.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.5; Eq4; Table7; Appendix B; PDF pp5,13",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-context-selection",
+      "key": "jd-context-selection",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "示范间预测一致性筛选",
+      "subtitle": "先问示范们能否互相预测，再看谁更贴近当前初始图。",
+      "detail": "bank构建M(M−1)有向示范对，每对8伪查询；初图相似性重加权预测一致性。要求相关配置在候选池有多数，非从任意垃圾池无条件找真意图。",
+      "parent_node": "local:jedi:jd-query-future",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-context-selection.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.6; Eqs5–6; Appendix B,F; PDF pp5,13–14,16",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-commitment",
+      "key": "jd-commitment",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "阶段完成后保持已选择过程",
+      "subtitle": "将已完成阶段加入条件，减少后续切换路线。",
+      "detail": "不使用query未来；第一阶段不能靠事后commitment修正错误起点。Table2 Mixed55→62按AppendixF为共享终点成功，不能说次序正确率。",
+      "parent_node": "local:jedi:jd-context-selection",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-commitment.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.6; Table2; Appendix B,F; PDF pp5,7,14,16",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-objective-control",
+      "key": "jd-objective-control",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "相同动作骨干下的目标消融",
+      "subtitle": "固定backbone、data、schedule检查预测压缩贡献。",
+      "detail": "N8成功64.2→80.2，CFR34.1→74.9，order52.2→84.1；DD统计最后200训练batch，不当部署泛化分数。",
+      "parent_node": "local:jedi:jd-negatives",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-objective-control.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§4.4–4.5; Table3; Appendix E–G; PDF pp6–8,15–17",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-custom-splits",
+      "key": "jd-custom-splits",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "自定义未见任务划分",
+      "subtitle": "基准名字一样，不代表复用了标准排行榜协议。",
+      "detail": "LIBERO每suite每seed随机6train/4held、3seed、每任务100rollouts；RLBench60train/40held。seed也改变任务划分；基线为本文重实现且模态适配不同。",
+      "parent_node": "local:jedi:jd-action-expert",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-custom-splits.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§4.1; Table1; Appendix D–E; PDF pp6–7,14–16",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-many-shot",
+      "key": "jd-many-shot",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "更多上下文与分布偏移",
+      "subtitle": "压缩控制token成本，额外演示能否有用还依赖内容。",
+      "detail": "Table1 N1到16通常提高；Table8无instruction Goal74.9降到61.2。Fig3一些基线N>2超原设计范围，不以40.8pp标题证明全面优越。",
+      "parent_node": "local:jedi:jd-independent-slots",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-many-shot.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§4.2–4.3; Fig3; Tables1,8; PDF pp6–7,17",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-language",
+      "key": "jd-language",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "语言与演示冲突时如何取舍",
+      "subtitle": "明确语言指定目标，未指定的过程由演示补足。",
+      "detail": "LIBERO-Order opposite-order context时按instruction计成功；Table4 Canonical70.0、Paraphrase71.7、Conflict78.8，各列协议和试次数不同。",
+      "parent_node": "local:jedi:jd-negatives",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-language.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§4.6; Table4; AppendixI; PDF pp8,20",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-cost",
+      "key": "jd-cost",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "缓存控制率与bank建立代价",
+      "subtitle": "运行频率不包含所有预处理成本。",
+      "detail": "一A100 N16缓存13Hz/75ms prefill/11GB；50demo bank15s（图像/目标已缓存）或28s含图像编码，训练视觉与目标缓存约61GB+17GB。实机联网控制约10Hz。",
+      "parent_node": "local:jedi:jd-independent-slots",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-cost.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "Table12; Appendix B,G–H; PDF pp14,17–18",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-human-transfer",
+      "key": "jd-human-transfer",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "经过真实posttraining的人类视频接口",
+      "subtitle": "把人手关键点与机器人夹爪几何映射到共有图像坐标。",
+      "detail": "MediaPipe Hands/CoTracker3离线提人手与物体点，机器人FK投影指端；10任务80机器人+80人类示范，混合50/50、3kstep。不是无需真实机器人训练。",
+      "parent_node": "local:jedi:jd-action-expert",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-human-transfer.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.7; AppendixH; PDF pp6,18–19",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-real-eval",
+      "key": "jd-real-eval",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "真实任务上的上下文适应",
+      "subtitle": "测试时不改权重，向新任务提供示范。",
+      "detail": "另10unseen tasks每task5trial；人类N8 R1 21/25、R2 8/10、R3 10/15。Table5 N1与N8还改变示范数，需matched8表14补强。",
+      "parent_node": "local:jedi:jd-human-transfer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-real-eval.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§4.7; Table5; AppendixH; PDF pp8,18–20",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-real-matched",
+      "key": "jd-real-matched",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "匹配八示范与posttraining控制",
+      "subtitle": "固定示范数、backbone和posttraining安排再比较。",
+      "detail": "4条件各10trial；JEDI子组15/20、8/10、5/10，action-only11/20、5/10、2/10；无predictive9/20、6/10、3/10，无keypoints11/20、5/10、5/10。",
+      "parent_node": "local:jedi:jd-real-eval",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-real-matched.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "Table14; AppendixH; PDF pp19–20",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-limits",
+      "key": "jd-limits",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "单平台、已知动作原语与评价边界",
+      "subtitle": "新任务配置适应和跨机器人新技能是不同问题。",
+      "detail": "双臂低成本平台，厘米容差、开口至少物体宽2倍；测试是训练原语的新组合，不显示任意人类视频、新原语或跨本体泛化。",
+      "parent_node": "local:jedi:jd-real-eval",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-limits.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§1,3.7; AppendixH; PDF pp1,6,18–20",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-vision-tokens",
+      "key": "jd-vision-tokens",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "视觉patch输入与预测目标的维度",
+      "subtitle": "示范图像编码和未来预测目标来自不同编码器，token数和通道宽度分别计算。",
+      "detail": "示范侧SigLIP So400m/14冻结并缓存：8个采样帧×2个视角×每图256个patch token，共4096个视觉token，每个宽1152；另有128步状态/动作的MLP嵌入，不计入这4096个视觉token。查询侧SigLIP在训练时微调。未来关键帧目标来自冻结V-JEPA2.1 ViT-L的两帧clip，输出256个宽1024的patch token；这不是SigLIP通道宽度。",
+      "parent_node": "local:jedi:jd-independent-slots",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-vision-tokens.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.2–3.3; Appendix B Caches; Table7; PDF pp3–4,13–14",
+      "explainers": []
+    },
+    {
+      "id": "local:jedi:jd-task-context",
+      "key": "jd-task-context",
+      "kind": "local",
+      "paper": "jedi",
+      "title": "固定权重下的任务配置适应",
+      "subtitle": "测试时换任务示范来改变策略行为，模型权重保持固定。",
+      "detail": "任务配置τ包含目标、物体集合和场景；支持集C由N条该配置的示范组成，查询回合从新的初始状态执行。测试配置未参与训练，但共享已见运动原语。这里检验的是目标、布局和执行过程的上下文适应，不是未知地形或动力学参数识别；人类视频实机接口仍先经过同平台posttraining。",
+      "parent_node": "local:jedi:jd-compression-question",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/jedi/jd-task-context.md",
+      "source_url": "https://arxiv.org/pdf/2610.40356v1",
+      "locator": "§3.1,3.7; Appendix D,H; PDF pp3,5–6,14–15,18–20",
+      "explainers": []
+    },
+    {
       "id": "local:latent-diffusion:diffusion",
       "key": "diffusion",
       "kind": "local",
@@ -20476,6 +21045,441 @@
       "explainers": []
     },
     {
+      "id": "local:touchbridge:retarget",
+      "key": "retarget",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "retarget",
+      "title": "运动重定向",
+      "subtitle": "把人或另一种机器人的运动转换到目标本体的关节、末端与可达范围。",
+      "detail": "相似姿态不自动满足目标机器人的平衡和动力学。",
+      "parent_node": "local:touchbridge:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/retarget.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:cross-body",
+      "key": "cross-body",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "cross-body",
+      "title": "跨本体数据",
+      "subtitle": "从多个机器人或人类收集经验，通过动作/观测适配接到共享学习系统。",
+      "detail": "共享接口不能消掉本体的物理限制。",
+      "parent_node": "local:touchbridge:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/cross-body.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:touchbridge",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/imitation.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:bc",
+      "key": "bc",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "bc",
+      "title": "行为克隆",
+      "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
+      "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
+      "parent_node": "local:touchbridge:imitation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/bc.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:touchbridge",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/action.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:touchbridge:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/chunk.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:spatial",
+      "key": "spatial",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "spatial",
+      "title": "空间表示",
+      "subtitle": "保留像素、点、体素或对象相对位置的表示，让预测能接到几何与动作位置。",
+      "detail": "全局语义向量识别杯子；抓哪里还需要空间接口。",
+      "parent_node": "local:touchbridge:representation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/spatial.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:touchbridge",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/representation.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:touchbridge",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/data.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "touchbridge",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "local:touchbridge:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "本篇方法链路",
+      "subtitle": "TouchBridge让人类手套和Wuji灵巧手共享指尖触觉布局及腕相机视角。Tac-Retarget联合优化两手基座SE(3)与关节，匹配指尖位姿、触觉加权接触中心及活跃taxel支撑，并沿用TopoRetarget的距离加权Laplacian思想建立触觉激活的双手接触图。接触时减弱位姿跟踪，并用响应相关几何位移补偿顺应性。SAM2/ProPainter移除人手、渲染机器人外观，固定场景AprilTag消除头部相机运动后转换动作，用转换后的视觉/状态动作微调GR00T N1.7。触觉只服务离线重定向，不输入运行策略。",
+      "detail": "TouchBridge让人类手套和Wuji灵巧手共享指尖触觉布局及腕相机视角。Tac-Retarget联合优化两手基座SE(3)与关节，匹配指尖位姿、触觉加权接触中心及活跃taxel支撑，并沿用TopoRetarget的距离加权Laplacian思想建立触觉激活的双手接触图。接触时减弱位姿跟踪，并用响应相关几何位移补偿顺应性。SAM2/ProPainter移除人手、渲染机器人外观，固定场景AprilTag消除头部相机运动后转换动作，用转换后的视觉/状态动作微调GR00T N1.7。触觉只服务离线重定向，不输入运行策略。",
+      "parent_node": "paper:touchbridge",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-problem",
+      "key": "tb-problem",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "位姿对应为什么保不住接触",
+      "subtitle": "人手与机器人指形不同，同样指尖位置仍可能丢接触或穿透。",
+      "detail": "对比纯运动学与物体/仿真重建路线，把触觉接触作为跨本体的共同接口。",
+      "parent_node": "paper:touchbridge",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-problem.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§I–II; Fig1; PDF pp1–3",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-hardware",
+      "key": "tb-hardware",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "人机视觉与指尖触觉共设计",
+      "subtitle": "让两端传感布局相对应，再处理运动形态差异。",
+      "detail": "人侧Manus手套、PaXini触觉、头戴D455及腕相机；机器人Moz1双臂/Wuji Hands采用对应指尖触觉与腕视角。不是普通无装备人类视频。",
+      "parent_node": "local:touchbridge:tb-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-hardware.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§III.A; Fig2; PDF pp3–4",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-calibration",
+      "key": "tb-calibration",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "AprilTag与指尖坐标标定",
+      "subtitle": "通过腕部多面AprilTag把手套指尖位姿变到头戴相机坐标。",
+      "detail": "传感器相对手指的固定变换、腕相对标志的变换都需标定；RGB30Hz、手部130Hz、触觉90Hz经时间对齐。",
+      "parent_node": "local:touchbridge:tb-hardware",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-calibration.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "AppendixA; Fig11; Eqs8–11; TableIII; PDF pp8–9",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-objective",
+      "key": "tb-objective",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "双手基座与关节联合优化",
+      "subtitle": "同时优化两手基座位姿与关节，而非机械跟随人腕。",
+      "detail": "L_pose+λC L_contact+λG L_graph+L_reg；基座、可行性和时间平滑正则约束可执行轨迹。",
+      "parent_node": "local:touchbridge:tb-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-objective.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§III.B.1; Eq1; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-contact",
+      "key": "tb-contact",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "接触中心与活跃taxel支撑",
+      "subtitle": "触觉响应加权位置估计指腹接触patch。",
+      "detail": "共享传感器布局允许在传感器局部坐标计算同一接触中心，再分别用人体观测和机器人FK变到相机坐标；中心和活跃taxel云一起对齐。",
+      "parent_node": "local:touchbridge:tb-objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-contact.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§III.B.3; Eqs3–4; Fig3; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-contact-graph",
+      "key": "tb-contact-graph",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "触觉激活的双手接触图",
+      "subtitle": "保持同手与跨手接触点之间的空间关系。",
+      "detail": "沿用TopoRetarget距离加权Laplacian匹配，再用触觉决定边与权重；人类导出的权重用于机器人图，不是新创所有图匹配。",
+      "parent_node": "local:touchbridge:tb-contact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-contact-graph.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§III.B.4; Eqs5–6; AppendixB.2; PDF pp4–5,9",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-weighting",
+      "key": "tb-weighting",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "接触后放松位姿约束",
+      "subtitle": "接触约束应有调整运动学目标的空间。",
+      "detail": "实现中接触时位姿跟踪权重为非接触0.15倍，触觉patch/cloud/顺应性项在接触激活。",
+      "parent_node": "local:touchbridge:tb-contact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-weighting.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "AppendixB.1–2; Eqs12–13; PDF p9",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-compliance",
+      "key": "tb-compliance",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "响应相关的几何顺应补偿",
+      "subtitle": "用有限内移量鼓励指腹压住接触面。",
+      "detail": "补偿随触觉响应增加，上限0.01m；是几何启发式，不是学习到的力模型或物体动力学。",
+      "parent_node": "local:touchbridge:tb-contact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-compliance.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "AppendixB.3–4; Eqs14–16; TableIV; PDF pp9–10",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-visual",
+      "key": "tb-visual",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "移除人手再渲染机器人外观",
+      "subtitle": "降低人类演示和机器人观测的外观差异。",
+      "detail": "SAM2分割、ProPainter修补后渲染机器人mesh到头戴相机图；腕图保留。机器人mesh与无需物体mesh是两件事。",
+      "parent_node": "local:touchbridge:tb-hardware",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-visual.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§III.C.1; Fig4; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-action-anchor",
+      "key": "tb-action-anchor",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "固定场景坐标中的动作转换",
+      "subtitle": "消除头戴相机运动，否则头动会被误当作机器人动作。",
+      "detail": "另用固定场景AprilTag校正相机运动；手臂以action chunk初始帧表达相对运动，手部为绝对关节目标。",
+      "parent_node": "local:touchbridge:tb-visual",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-action-anchor.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§III.C.2; Eq7; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-policy",
+      "key": "tb-policy",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "触觉用于离线转换而非策略输入",
+      "subtitle": "转换后的数据用于预训练VLA微调。",
+      "detail": "每任务60人类示范，不混该任务机器人示范；GR00T N1.7本身有预训练先验。机器人free限于task-specific finetuning。",
+      "parent_node": "local:touchbridge:tb-action-anchor",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-policy.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV.A.3; Fig10; PDF pp6,8",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-real-eval",
+      "key": "tb-real-eval",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "四任务等量遥操与人类数据对照",
+      "subtitle": "比较相同策略和每任务60示范的两种采集来源。",
+      "detail": "每任务20次实机评估，72.5%对77.5%；5pp差异不是等效检验；误差条为四任务间标准差。",
+      "parent_node": "local:touchbridge:tb-policy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-real-eval.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV.B–C; Fig6b; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-replay",
+      "key": "tb-replay",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "匹配初始场景下的轨迹回放",
+      "subtitle": "先检查转换轨迹本身是否可执行。",
+      "detail": "每任务20条转换演示，匹配初始场景，回放平均87.5%；不能替代策略未见布局/物体泛化。",
+      "parent_node": "local:touchbridge:tb-action-anchor",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-replay.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV.B; Fig6a; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-collection",
+      "key": "tb-collection",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "采集效率与总体成本分开",
+      "subtitle": "单位成功演示计入失败尝试和场景复位。",
+      "detail": "人类11.7s、遥操81.7s，7.0倍为采集阶段；没有计离线重定向、图像合成、训练和硬件准备总体成本。",
+      "parent_node": "local:touchbridge:tb-real-eval",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-collection.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV.C; Fig6c; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-sim-contact",
+      "key": "tb-sim-contact",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "用仿真接触误差诊断重定向",
+      "subtitle": "物体mesh只用于这一评估，不用于转换优化。",
+      "detail": "Grasp Egg Roll20示范在Isaac Sim用重建mesh测对应指尖局部接触中心差异；4.667mm对DexPilot6.354和UniDex7.715。",
+      "parent_node": "local:touchbridge:tb-contact",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-sim-contact.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV.D.1; TableII; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-ablation",
+      "key": "tb-ablation",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "去接触项与去接触图的闭环消融",
+      "subtitle": "用同一人类数据与微调流程检查机制贡献。",
+      "detail": "完整72.5%，去graph48.8%，去alignment43.8%，纯运动学38.8%；DexPilot47.5、UniDex30.0。",
+      "parent_node": "local:touchbridge:tb-real-eval",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV.D.2; Fig9; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-pretrain",
+      "key": "tb-pretrain",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "预训练动作先验的作用",
+      "subtitle": "人类数据不是让策略从零掌握所有动作。",
+      "detail": "GR00T预训练72.5%，从零6.2%；π0.5预训练38.8%、从零3.8%；跨架构差异不能只归某一组件。",
+      "parent_node": "local:touchbridge:tb-policy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-pretrain.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV.E; Fig10; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:touchbridge:tb-limits",
+      "key": "tb-limits",
+      "kind": "local",
+      "paper": "touchbridge",
+      "title": "单平台规模与工程复用边界",
+      "subtitle": "四项接触任务足以支持局部机制，不足以代表通用灵巧操作。",
+      "detail": "只有一套硬件和240示范；未列系统未见物体测试、重复训练seed及完整策略优化配置。复查开放实现、数据和跨硬件迁移。",
+      "parent_node": "local:touchbridge:tb-real-eval",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/touchbridge/tb-limits.md",
+      "source_url": "https://arxiv.org/pdf/2610.40349v1",
+      "locator": "§IV–V; Appendix; PDF pp6–10",
+      "explainers": []
+    },
+    {
       "id": "local:trajectory-transformer:causal",
       "key": "causal",
       "kind": "local",
@@ -27051,6 +28055,270 @@
       "lit": false
     },
     {
+      "from": "paper:jedi",
+      "to": "local:jedi:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:jepa",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jepa",
+      "to": "concept:jepa",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:transformer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:transformer",
+      "to": "local:jedi:attention",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:action",
+      "to": "local:jedi:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:data",
+      "to": "local:jedi:cross-body",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:cross-body",
+      "to": "concept:cross-body",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:data",
+      "to": "local:jedi:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:jedi",
+      "to": "local:jedi:jd-compression-question",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-compression-question",
+      "to": "local:jedi:jd-independent-slots",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-independent-slots",
+      "to": "local:jedi:jd-query-future",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-query-future",
+      "to": "local:jedi:jd-keyframes",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-query-future",
+      "to": "local:jedi:jd-stop-gradient",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-query-future",
+      "to": "local:jedi:jd-negatives",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-negatives",
+      "to": "local:jedi:jd-labels",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-independent-slots",
+      "to": "local:jedi:jd-action-expert",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-query-future",
+      "to": "local:jedi:jd-context-selection",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-context-selection",
+      "to": "local:jedi:jd-commitment",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-negatives",
+      "to": "local:jedi:jd-objective-control",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-action-expert",
+      "to": "local:jedi:jd-custom-splits",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-independent-slots",
+      "to": "local:jedi:jd-many-shot",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-negatives",
+      "to": "local:jedi:jd-language",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-independent-slots",
+      "to": "local:jedi:jd-cost",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-action-expert",
+      "to": "local:jedi:jd-human-transfer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-human-transfer",
+      "to": "local:jedi:jd-real-eval",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-real-eval",
+      "to": "local:jedi:jd-real-matched",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-real-eval",
+      "to": "local:jedi:jd-limits",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-independent-slots",
+      "to": "local:jedi:jd-vision-tokens",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:jedi:jd-compression-question",
+      "to": "local:jedi:jd-task-context",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "local:latent-diffusion:generation",
       "to": "local:latent-diffusion:diffusion",
       "kind": "contains",
@@ -30549,6 +31817,240 @@
       "lit": false
     },
     {
+      "from": "local:touchbridge:action",
+      "to": "local:touchbridge:retarget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:retarget",
+      "to": "concept:retarget",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:data",
+      "to": "local:touchbridge:cross-body",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:cross-body",
+      "to": "concept:cross-body",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:touchbridge",
+      "to": "local:touchbridge:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:imitation",
+      "to": "local:touchbridge:bc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:bc",
+      "to": "concept:bc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:touchbridge",
+      "to": "local:touchbridge:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:action",
+      "to": "local:touchbridge:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:representation",
+      "to": "local:touchbridge:spatial",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:spatial",
+      "to": "concept:spatial",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:touchbridge",
+      "to": "local:touchbridge:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:touchbridge",
+      "to": "local:touchbridge:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:data",
+      "to": "local:touchbridge:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:touchbridge",
+      "to": "local:touchbridge:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:touchbridge",
+      "to": "local:touchbridge:tb-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-problem",
+      "to": "local:touchbridge:tb-hardware",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-hardware",
+      "to": "local:touchbridge:tb-calibration",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-problem",
+      "to": "local:touchbridge:tb-objective",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-objective",
+      "to": "local:touchbridge:tb-contact",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-contact",
+      "to": "local:touchbridge:tb-contact-graph",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-contact",
+      "to": "local:touchbridge:tb-weighting",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-contact",
+      "to": "local:touchbridge:tb-compliance",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-hardware",
+      "to": "local:touchbridge:tb-visual",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-visual",
+      "to": "local:touchbridge:tb-action-anchor",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-action-anchor",
+      "to": "local:touchbridge:tb-policy",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-policy",
+      "to": "local:touchbridge:tb-real-eval",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-action-anchor",
+      "to": "local:touchbridge:tb-replay",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-real-eval",
+      "to": "local:touchbridge:tb-collection",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-contact",
+      "to": "local:touchbridge:tb-sim-contact",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-real-eval",
+      "to": "local:touchbridge:tb-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-policy",
+      "to": "local:touchbridge:tb-pretrain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:touchbridge:tb-real-eval",
+      "to": "local:touchbridge:tb-limits",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:trajectory-transformer",
       "to": "local:trajectory-transformer:causal",
       "kind": "contains",
@@ -31602,9 +33104,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 123,
+    "papers": 125,
     "concepts": 59,
-    "local_topics": 1038,
+    "local_topics": 1100,
     "lit_papers": 19,
     "lit_concepts": 46,
     "lit_local_topics": 469

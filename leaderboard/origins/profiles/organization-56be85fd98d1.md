@@ -14,7 +14,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [PLaW-VLA · PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../../../library/plaw-vla.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-plaw-vla) | [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) | [61.7](../../papers/plaw-vla/README.md) |
+| [PLaW-VLA · PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../../../library/plaw-vla.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) | [70.7](../../papers/plaw-vla/README.md) |
 
 ## 署名与来源
 
@@ -24,6 +24,6 @@
 - [来源2](https://arxiv.org/abs/2610.12285)
 - [来源3](https://arxiv.org/pdf/2610.12285v1)
 
-资料核验：2026-10-31。
+资料核验：2026-11-02。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

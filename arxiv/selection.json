@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-31",
+  "checked_at": "2026-11-02",
   "scan": {
-    "scanned_at": "2026-10-31T08:33:42+08:00",
-    "as_of": "2026-10-31",
+    "scanned_at": "2026-11-02T09:16:48+08:00",
+    "as_of": "2026-11-02",
     "window_days": 7,
     "window_timezone": "Asia/Shanghai",
     "max_results_per_query": 60,
@@ -148,7 +148,7 @@
       "id": "balanced-data-diet",
       "track": "locomotion",
       "year": 2026,
-      "venue": null,
+      "venue": "CoRL",
       "scope": "机器人学习",
       "note": "",
       "project_url": null,
@@ -164,7 +164,25 @@
         "url": "https://arxiv.org/pdf/2610.12465v1",
         "pdf_page": 1
       },
-      "selection_reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。"
+      "selection_reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
+      "venue_status": "accepted",
+      "venue_evidence_url": "https://2026.corl.org/program/accepted-papers",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Poster",
+        "poster_number": 105,
+        "poster_session": 1,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2610.12465",
+          "https://sgs-rl.github.io/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=MQdt80qzTP",
+        "checked_at": "2026-11-02T09:21:56+08:00",
+        "basis": "CoRL 2026官方accepted-papers嵌入名单精确完整题目与OpenReview链接；作者官方项目页完整作者名单与Paper直链精确arXiv ID交叉核原研究身份。OpenReview论坛工具不可达、API2两篇均HTTP403，未将其内容当成功读取；录用证据取会议官方名单。",
+        "project_evidence_note": "项目页正文明确CoRL 2026。"
+      }
     },
     {
       "arxiv_id": "2610.12435",
@@ -324,7 +342,7 @@
       "id": "plaw-vla",
       "track": "video-action",
       "year": 2026,
-      "venue": null,
+      "venue": "CoRL",
       "scope": "机器人学习",
       "note": "",
       "project_url": "https://rainyrobo.github.io/PLaW-VLA",
@@ -343,7 +361,25 @@
         "url": "https://arxiv.org/pdf/2610.12285v1",
         "pdf_page": 1
       },
-      "selection_reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。"
+      "selection_reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
+      "venue_status": "accepted",
+      "venue_evidence_url": "https://2026.corl.org/program/accepted-papers",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Poster",
+        "poster_number": 2,
+        "poster_session": 3,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2610.12285",
+          "https://rainyrobo.github.io/PLaW-VLA/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=GMAZdF34n5",
+        "checked_at": "2026-11-02T09:21:56+08:00",
+        "basis": "CoRL 2026官方accepted-papers嵌入名单精确完整题目与OpenReview链接；作者官方项目页完整作者名单与Paper直链精确arXiv ID交叉核原研究身份。OpenReview论坛工具不可达、API2两篇均HTTP403，未将其内容当成功读取；录用证据取会议官方名单。",
+        "project_evidence_note": "项目页BibTeX明确booktitle={Conference on Robot Learning (CoRL)}、year=2026；顶部无会刊标签，不等于页面无CoRL。"
+      }
     },
     {
       "id": "supermimic",
@@ -776,13 +812,124 @@
       },
       "mechanism": "world2vec用三帧观测编码潜状态，MLP预测动作条件变化率，以Euler残差积分出多步潜轨迹；把每一步预测对齐真实未来编码，以SIGReg或DCL防止表示塌缩。超参选择用未来检索EQA，另报告跨seed仿射一致性和LRC。执行时编码目标观测，CEM按潜距离选动作并滚动重规划，不训练奖励模型。科学辨识实验另将向量场换成稀疏多项式库，在已知最高阶和仿射坐标不确定性下读出动力学关系。",
       "selection_origin": "2026-10-31完成前日候选的原文与相关附录核读、独立限定二审后收录。"
+    },
+    {
+      "id": "touchbridge",
+      "short_name": "TouchBridge",
+      "arxiv_id": "2610.40349",
+      "title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
+      "authors": [
+        "Haozhe Zhang",
+        "Gu Zhang",
+        "Zirui Zou",
+        "Yuzheng Chen",
+        "Jinlong Wu",
+        "Zixuan Hu",
+        "Jianke Zhang",
+        "Yucheng Hu",
+        "Zhecheng Yuan",
+        "Huazhe Xu"
+      ],
+      "affiliations": [
+        "Tsinghua University",
+        "Zhejiang University",
+        "Nanyang Technological University",
+        "Hunan University",
+        "Peking University"
+      ],
+      "track": "manipulation",
+      "published": "2026-10-29T16:06:36Z",
+      "project_url": "https://touchbridge2026.github.io/",
+      "code_url": null,
+      "scope": "触觉辅助离线人类示范重定向与预训练VLA微调；一套双臂灵巧手、四项真实接触任务",
+      "reading_question": "手指位置对上了，为什么接触还是会丢？把指腹真实接触位置和跨手接触关系一起迁移，能否省去每个物体的重建与专门机器人示范？",
+      "selection_reason": "问题明确：纯运动学匹配易丢接触，物体/仿真依赖增加采集成本。触觉接触patch与接触图提供可计算跨本体约束，控制相同示范和微调流程的两项消融支持机制；四实机任务与等量遥操对照支持有边界的预印本收录。",
+      "evidence_summary": "Fig6：四任务各60个人类或遥操示范，每策略每任务20次实机测试。人类转换策略55/70/90/75%，均值72.5%；遥操60/75/90/85%，77.5%，相差5个百分点不等于统计等效。采集均值11.7s对81.7s，7.0倍包含失败和重置，不包含离线转换/训练总体开销。20条转换轨迹/任务在匹配初始场景下回放87.5%，与策略泛化不同。TableII：Grasp Egg Roll的20条人类示范在Isaac Sim和重建物体mesh上评估，接触误差4.667mm，DexPilot6.354、UniDex7.715；去graph6.659、去alignment7.071、kinematic-only7.540。Fig9同60示范/任务：完整72.5%，去graph48.8%，去alignment43.8%，纯运动学38.8%；DexPilot47.5、UniDex30.0。图中误差条是四任务间标准差，不是跨seed置信区间。Fig10表明预训练先验关键，不能说从零不需要机器人数据。",
+      "embodied_relevance": "把可穿戴人类示范、触觉接触约束和VLA操作微调连接起来，直接面向双手接触丰富灵巧操作。",
+      "first_author": "Haozhe Zhang",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.40349v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40349v1",
+      "first_arxiv_submission": "2026-10-29T16:06:36Z",
+      "first_arxiv_submission_shanghai": "2026-10-30T00:06:36+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-11-02",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "",
+      "code_availability": "not_located_in_primary_sources",
+      "version_id": "2610.40349v1",
+      "updated": "2026-10-29T16:06:36Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.40349v1",
+        "section": "PDF p1 affiliations"
+      },
+      "mechanism": "TouchBridge让人类手套和Wuji灵巧手共享指尖触觉布局及腕相机视角。Tac-Retarget联合优化两手基座SE(3)与关节，匹配指尖位姿、触觉加权接触中心及活跃taxel支撑，并沿用TopoRetarget的距离加权Laplacian思想建立触觉激活的双手接触图。接触时减弱位姿跟踪，并用响应相关几何位移补偿顺应性。SAM2/ProPainter移除人手、渲染机器人外观，固定场景AprilTag消除头部相机运动后转换动作，用转换后的视觉/状态动作微调GR00T N1.7。触觉只服务离线重定向，不输入运行策略。",
+      "selection_origin": "2026-11-02原文与相关附录核读、主编辑复核机制与关键定量条件后收录。"
+    },
+    {
+      "id": "jedi",
+      "short_name": "JEDI",
+      "arxiv_id": "2610.40356",
+      "title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
+      "authors": [
+        "Jiazhao Liang",
+        "Zhewen He",
+        "Shuaihang Yuan",
+        "Hao Huang",
+        "Yi Fang"
+      ],
+      "affiliations": [
+        "New York University Tandon School of Engineering",
+        "NYUAD Center for Artificial Intelligence and Robotics (CAIR)",
+        "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi"
+      ],
+      "track": "vla",
+      "published": "2026-10-29T16:11:05Z",
+      "project_url": null,
+      "code_url": null,
+      "scope": "以查询未来预测训练示范压缩器的上下文模仿学习；自定义LIBERO/RLBench未见任务拆分及单平台真实双臂实验",
+      "reading_question": "把一段演示压成几个token，怎么保证保留下来的正好是当前机器人要用的信息？让压缩结果预测当前回合的下一关键帧，能否同时保住目标和执行次序？",
+      "selection_reason": "压缩目标从只拟合动作变为保留查询未来所需的信息，任务/过程反事实与匹配label控制直接检验示范内容是否被使用；有matched objective、多seed仿真、成本与匹配实机控制，足以有边界收录。",
+      "evidence_summary": "Table3同backbone/data/schedule的N8成功率action-only64.2%→JEDI80.2%，CFR34.1→74.9，order match52.2→84.1；label contrast73.5 order match仍低于84.1，支持未来预测的作用。标准实验实际每seed每LIBERO suite随机6任务训练/4任务heldout，共3seed、每任务100rollouts；非标准LIBERO榜。Table9放开观测梯度N8得83.9高于默认80.2，stop-gradient为隔离压缩接口，不能说性能最优。Table2 mixed55→62是共享终点成功率，不是order-match。Table5实机人类N8为21/25、8/10、10/15，N1比较混入上下文数量变化；Table14匹配8条人类示范的40次控制，JEDI各子组15/20、8/10、5/10，对action-only11/20、5/10、2/10。需10任务各8条机器人与8条人类示范的3k步posttraining；测试10新任务仅上下文适应。Table12单A100缓存后N16 13Hz、75ms prefill、11GB；50示范bank还需15s缓存后构建或28s含图像编码。",
+      "embodied_relevance": "连接VLA动作生成、JEPA预测表示、上下文模仿和人类示范，用机器人闭环任务检验压缩是否保留可执行信息。",
+      "first_author": "Jiazhao Liang",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.40356v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40356v1",
+      "first_arxiv_submission": "2026-10-29T16:11:05Z",
+      "first_arxiv_submission_shanghai": "2026-10-30T00:11:05+08:00",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "checked_at": "2026-11-02",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "",
+      "code_availability": "not_located_in_primary_sources",
+      "version_id": "2610.40356v1",
+      "updated": "2026-10-29T16:11:05Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2610.40356v1",
+        "section": "PDF p1 affiliations"
+      },
+      "mechanism": "每段示范由4层Perceiver独立压成8个slot并缓存；π0的flow-matching动作专家读取查询观测与这些slot。辅助预测器在冻结V-JEPA2.1空间预测查询回合下一关键帧，对当前观测支路stop-gradient，使预测损失真正训练示范压缩器。错误任务和同任务不同过程的反事实margin约束保留目标/顺序。用示范间交叉预测误差和查询初图相似性选取一致示范，支持阶段性commitment；人类视频扩展经同平台真实posttraining，用手/物体关键点补充对应，不是任意人类视频免训练通用控制。",
+      "selection_origin": "2026-11-02原文与相关附录核读、主编辑复核机制与关键定量条件后收录。"
     }
   ],
   "screening": {
     "direction_candidates": 142,
-    "selected_this_run": 1,
-    "selected_total": 15,
-    "rule": "三路各60条有界查询均触顶；142篇仅作方向候选。world2vec完成前日缺失阅读与二审后收录；额外官方来源的Cross-Controller Transfer全文核读后因协议缺口暂缓。其他候选不作统一质量结论。"
+    "selected_this_run": 2,
+    "selected_total": 17,
+    "rule": "三路各60条均触顶；142篇与10/31有界切片相同，不代表全网无新增。本次完成TouchBridge/JEDI的原文和实验核读后收录；四足规划候选保留具体比较缺口暂缓。其余候选不作统一质量结论。"
   },
   "supplemental_checks": [
     {
@@ -863,6 +1010,25 @@
         "https://arxiv.org/abs/2610.40637v1",
         "https://arxiv.org/pdf/2610.40637v1",
         "https://worldmodels.science/world2vec/"
+      ]
+    },
+    {
+      "id": "touchbridge",
+      "checked_at": "2026-11-02T09:29:12+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2610.40349v1",
+        "https://arxiv.org/pdf/2610.40349v1",
+        "https://touchbridge2026.github.io/"
+      ]
+    },
+    {
+      "id": "jedi",
+      "checked_at": "2026-11-02T09:29:12+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2610.40356v1",
+        "https://arxiv.org/pdf/2610.40356v1"
       ]
     }
   ]

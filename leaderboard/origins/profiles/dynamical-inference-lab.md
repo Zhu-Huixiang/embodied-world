@@ -27,6 +27,6 @@ Steffen Schneider带领，研究可辨识/可解释表征与非线性动力学�
 - [来源2](https://worldmodels.science/world2vec/)
 - [来源3](https://dynamical-inference.ai/)
 
-资料核验：2026-10-31。
+资料核验：2026-11-02。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

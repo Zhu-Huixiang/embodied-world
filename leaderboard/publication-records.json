@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-10-31",
+  "checked_at": "2026-11-02",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1253,11 +1253,31 @@
       "full_text_url": "https://arxiv.org/pdf/2610.12465v1",
       "sources": [
         "https://arxiv.org/abs/2610.12465v1",
-        "https://arxiv.org/pdf/2610.12465v1"
+        "https://arxiv.org/pdf/2610.12465v1",
+        "https://2026.corl.org/program/accepted-papers",
+        "https://arxiv.org/abs/2610.12465",
+        "https://sgs-rl.github.io/"
       ],
       "checked_at": "2026-10-10",
       "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
-      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+      "reason": "保留已核v1完整公开稿阶段60；补核CoRL 2026官方录用与作者项目身份，按CoRL既有90分量表取较高阶段，Poster不另加分。",
+      "venue_checked_at": "2026-11-02T09:21:56+08:00",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Poster",
+        "poster_number": 105,
+        "poster_session": 1,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2610.12465",
+          "https://sgs-rl.github.io/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=MQdt80qzTP",
+        "checked_at": "2026-11-02T09:21:56+08:00",
+        "basis": "CoRL 2026官方accepted-papers嵌入名单精确完整题目与OpenReview链接；作者官方项目页完整作者名单与Paper直链精确arXiv ID交叉核原研究身份。OpenReview论坛工具不可达、API2两篇均HTTP403，未将其内容当成功读取；录用证据取会议官方名单。",
+        "project_evidence_note": "项目页正文明确CoRL 2026。"
+      }
     },
     "viola": {
       "tier": "versioned_full_text",
@@ -1297,11 +1317,31 @@
       "full_text_url": "https://arxiv.org/pdf/2610.12285v1",
       "sources": [
         "https://arxiv.org/abs/2610.12285v1",
-        "https://arxiv.org/pdf/2610.12285v1"
+        "https://arxiv.org/pdf/2610.12285v1",
+        "https://2026.corl.org/program/accepted-papers",
+        "https://arxiv.org/abs/2610.12285",
+        "https://rainyrobo.github.io/PLaW-VLA/"
       ],
       "checked_at": "2026-10-10",
       "verification_basis": "沿用已核原文与初读记录；14篇预印本另回读arXiv版本历史。",
-      "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。"
+      "reason": "保留已核v1完整公开稿阶段60；补核CoRL 2026官方录用与作者项目身份，按CoRL既有90分量表取较高阶段，Poster不另加分。",
+      "venue_checked_at": "2026-11-02T09:21:56+08:00",
+      "venue_verification": {
+        "status": "accepted",
+        "presentation": "Poster",
+        "poster_number": 2,
+        "poster_session": 3,
+        "conference_year": 2026,
+        "sources": [
+          "https://2026.corl.org/program/accepted-papers",
+          "https://arxiv.org/abs/2610.12285",
+          "https://rainyrobo.github.io/PLaW-VLA/"
+        ],
+        "openreview_url_from_official_list": "https://openreview.net/forum?id=GMAZdF34n5",
+        "checked_at": "2026-11-02T09:21:56+08:00",
+        "basis": "CoRL 2026官方accepted-papers嵌入名单精确完整题目与OpenReview链接；作者官方项目页完整作者名单与Paper直链精确arXiv ID交叉核原研究身份。OpenReview论坛工具不可达、API2两篇均HTTP403，未将其内容当成功读取；录用证据取会议官方名单。",
+        "project_evidence_note": "项目页BibTeX明确booktitle={Conference on Robot Learning (CoRL)}、year=2026；顶部无会刊标签，不等于页面无CoRL。"
+      }
     },
     "supermimic": {
       "tier": "versioned_full_text",
@@ -1413,6 +1453,29 @@
       ],
       "verification_basis": "完整读取19页v1 PDF正文§1–5、References和A–F附录，目视首页署名与关键图表；abs仍仅v1，项目标Preprint,2026，未标正式刊会。",
       "reason": "完整可追溯公开稿60；未核正式录用或独立技术检验，不借机构/聚合页加分。"
+    },
+    "touchbridge": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.40349v1",
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.40349v1",
+        "https://arxiv.org/pdf/2610.40349v1",
+        "https://touchbridge2026.github.io/"
+      ],
+      "verification_basis": "核arXiv v1身份/日期、原文作者/署名与全文方法/实验/相关附录，关键表图完整页目视；本次原文及官方入口未核正式录用/出版记录。",
+      "reason": "完整可追溯公开稿60；未核独立技术检验或正式刊会，不因大学/实验室知名提高"
+    },
+    "jedi": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.40356v1",
+      "checked_at": "2026-11-02T09:28:04.048424+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2610.40356v1",
+        "https://arxiv.org/pdf/2610.40356v1"
+      ],
+      "verification_basis": "核arXiv v1身份/日期、原文作者/署名与全文方法/实验/相关附录，关键表图完整页目视；本次原文及官方入口未核正式录用/出版记录。",
+      "reason": "完整可追溯公开稿60；未核独立技术检验或正式刊会，不因大学/实验室知名提高"
     }
   }
 }

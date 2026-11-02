@@ -1,8 +1,8 @@
 # PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies
 
-**PLaW-VLA** · arXiv 2026 · 本版排名 121 · 综合分 **61.7 / 100**
+**PLaW-VLA** · CoRL 2026 · 本版排名 109 · 综合分 **70.7 / 100**
 
-[解读导读](../../../library/plaw-vla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [arXiv集锦](../../../arxiv/README.md#paper-plaw-vla)
+[解读导读](../../../library/plaw-vla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [CoRL集锦](../../../venues/CoRL/README.md)
 
 [知识星系](../../../universe/papers/plaw-vla.md) · [原文](https://arxiv.org/abs/2610.12285v1) · [PDF](https://arxiv.org/pdf/2610.12285v1) · [阅读卡片](../../../library/plaw-vla.md)
 
@@ -27,7 +27,7 @@
 
 | 维度 | 分数 / 100 | 权重 |
 | --- | --- | --- |
-| 公开与评审 | 60 | 30% |
+| 公开与评审 | 90.0 | 30% |
 | 创新性 | 84 | 20% |
 | 实验与证据 | 75 | 20% |
 | 学术影响 | 0 | 10% |
@@ -35,7 +35,10 @@
 | 复用价值 | 63 | 8% |
 | 阅读价值 | 89 | 7% |
 
-公开与评审依据：完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；当前阶段为预印本公开。
+刊会依据：[CoRL 2026](../../../venues/CoRL/README.md)，正式出处见[出版/原文记录](https://2026.corl.org/program/accepted-papers)；采用2026-10-10刊会快照。
+
+
+公开与评审依据：保留已核v1完整公开稿阶段60；补核CoRL 2026官方录用与作者项目身份，按CoRL既有90分量表取较高阶段，Poster不另加分。；正式刊会按登记量表计分，取较高阶段。
 
 
 编辑深度：选题初读；评分记录：2026-10-10。

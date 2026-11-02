@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31",
+  "checked_at": "2026-11-02",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -51135,6 +51135,940 @@
       "rank": 107
     },
     {
+      "id": "balanced-data-diet",
+      "checked_at": "2026-10-10",
+      "short_name": "Balanced Data Diet",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "year": 2026,
+      "navigation": {
+        "track": "locomotion",
+        "track_label": "Locomotion 与运动适应",
+        "track_path": "paper-map/README.md#track-locomotion",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/balanced-data-diet.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/balanced-data-diet.md",
+        "card_path": "leaderboard/papers/balanced-data-diet/README.md"
+      },
+      "origin": {
+        "label": "Octi Zhang · 华盛顿大学 / 英伟达",
+        "author_label": "Octi Zhang",
+        "institution_label": "华盛顿大学 / 英伟达",
+        "search": "Octi Zhang Octi Zhang Mateo Guaman Castro Patrick Yin Ignacio Dagnino Abhishek Gupta Rosario Scalise Byron Boots University of Washington NVIDIA 华盛顿大学 英伟达 华盛顿大学 英伟达研究院 University of Washington University of Washington 华盛顿大学 NVIDIA Research NVIDIA Research NVIDIA 英伟达研究院 英伟达",
+        "keys": [
+          "institution-i201448701",
+          "nvidia"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i201448701",
+            "label": "华盛顿大学",
+            "search": "University of Washington University of Washington 华盛顿大学"
+          },
+          {
+            "key": "nvidia",
+            "label": "英伟达研究院",
+            "search": "NVIDIA Research NVIDIA Research NVIDIA 英伟达研究院 英伟达"
+          }
+        ],
+        "path": "leaderboard/origins/papers/balanced-data-diet.md"
+      },
+      "scores": {
+        "innovation": 85,
+        "evidence": 77,
+        "reuse": 68,
+        "reading": 89,
+        "venue": 90.0,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 71.1,
+      "score_exact": "71.07",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12465v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12465v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12465v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12465v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": 90.0,
+          "external_review_credit": null,
+          "reason": "保留已核v1完整公开稿阶段60；补核CoRL 2026官方录用与作者项目身份，按CoRL既有90分量表取较高阶段，Poster不另加分。；正式刊会按登记量表计分，取较高阶段。",
+          "sources": [
+            "https://arxiv.org/abs/2610.12465v1",
+            "https://arxiv.org/pdf/2610.12465v1",
+            "https://2026.corl.org/program/accepted-papers",
+            "https://arxiv.org/abs/2610.12465",
+            "https://sgs-rl.github.io/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
+          "sources": [
+            "https://arxiv.org/abs/2610.12465v1",
+            "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
+          ],
+          "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
+              "sources": [
+                "https://arxiv.org/abs/2610.12465v1",
+                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
+              ],
+              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
+            },
+            {
+              "method": "citation_log",
+              "score": 0.0,
+              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
+          "sources": [
+            "https://arxiv.org/abs/2610.12465v1",
+            "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
+          ],
+          "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
+              "sources": [
+                "https://arxiv.org/abs/2610.12465v1",
+                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
+              ],
+              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
+            },
+            {
+              "method": "recent_volume_velocity",
+              "score": 0.0,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-10-10",
+                "first_public_date": "2026-10-08",
+                "date_origin": "metric_publication_date",
+                "date_precision": "day",
+                "effective_months": 3,
+                "citations_per_month": 0.0,
+                "volume_score": 0.0,
+                "velocity_score": 0.0,
+                "recent_count_kind": "complete_citing_years"
+              },
+              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465"
+              ]
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "balanced-data-diet",
+        "checked_at": "2026-10-10",
+        "status": "matched",
+        "provider": "Semantic Scholar",
+        "semantic_scholar_id": "eabed5e5fcc76cab14dc0afc5254a005f710622a",
+        "record_url": "https://www.semanticscholar.org/paper/eabed5e5fcc76cab14dc0afc5254a005f710622a",
+        "matched_title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+        "publication_date": "2026-10-08",
+        "edition": "原研究arXiv ID索引记录（版本合并）",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "recent_citation_count_kind": "complete_citing_years",
+        "recent_year_unknown": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465",
+        "recent_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465"
+        ],
+        "match_evidence": {
+          "arxiv_match": true,
+          "exact_title": true,
+          "first_author_match": true,
+          "year_match": true
+        },
+        "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+        "alternate_snapshots": [
+          {
+            "paper_id": "balanced-data-diet",
+            "checked_at": "2026-10-09T18:35:28+08:00",
+            "status": "unmatched",
+            "citation_count": null,
+            "recent_citation_count": null,
+            "reason": "无与当前版本可确认对应的计量记录"
+          }
+        ],
+        "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
+      },
+      "social": {
+        "resources": [
+          {
+            "platform": "project",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "url": "https://sgs-rl.github.io/",
+            "created_at": null,
+            "sources": [
+              "https://sgs-rl.github.io/",
+              "https://arxiv.org/abs/2610.12465v1"
+            ],
+            "metrics": [
+              {
+                "metric": "views",
+                "count": null,
+                "checked_at": "2026-10-10T15:17:58.390086+08:00",
+                "window_kind": "cumulative",
+                "label": "Views",
+                "source_field": "not publicly exposed",
+                "eligible_recent": true,
+                "window_label": "截至2026-10-10的累计快照"
+              }
+            ],
+            "source_sha256": "4506393247d565789dee02ba0cb25afb053e3205f2f033037504e1858759e311",
+            "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
+            "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter.",
+            "scope_label": "单篇论文入口"
+          }
+        ],
+        "coverage": {
+          "github": {
+            "status": "no_official_repository_verified_in_checked_sources",
+            "source_pages": [
+              {
+                "requested_url": "https://arxiv.org/abs/2610.12465v1",
+                "final_url": "https://arxiv.org/abs/2610.12465v1",
+                "status_code": 200,
+                "checked_at": "2026-10-10T15:16:34.756527+08:00",
+                "sha256": "6e68e5a5e3c808d5b4a80929059e33729dadf03f1ba163858efad72dcd0002cb",
+                "content_type": "text/html; charset=utf-8"
+              }
+            ],
+            "scope_limit": "Checked existing catalog/author/project entries, saved page links and the listed targeted searches/upstream links. Missing verification is not proof that no repository exists."
+          },
+          "huggingface": {
+            "paper_status": 404,
+            "paper_identity_verified": false,
+            "discovery": {
+              "models": {
+                "api_url": "https://huggingface.co/api/models?filter=arxiv%3A2610.12465&limit=100&full=true&sort=downloads&direction=-1",
+                "http_status": 200,
+                "count_returned": 0,
+                "limit": 100,
+                "possibly_truncated": false,
+                "next_link": null,
+                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
+              },
+              "datasets": {
+                "api_url": "https://huggingface.co/api/datasets?filter=arxiv%3A2610.12465&limit=100&full=true&sort=downloads&direction=-1",
+                "http_status": 200,
+                "count_returned": 0,
+                "limit": 100,
+                "possibly_truncated": false,
+                "next_link": null,
+                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
+              }
+            },
+            "reading_count": null,
+            "comments": null,
+            "source": "https://huggingface.co/api/papers/2610.12465"
+          },
+          "web": {
+            "paper_id": "balanced-data-diet",
+            "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+            "paper_url": "https://arxiv.org/abs/2610.12465v1",
+            "arxiv_id": "2610.12465",
+            "resources": [
+              {
+                "paper_id": "balanced-data-diet",
+                "platform": "project",
+                "scope": "single_paper",
+                "identity_verified": true,
+                "url": "https://sgs-rl.github.io/",
+                "created_at": null,
+                "sources": [
+                  "https://sgs-rl.github.io/",
+                  "https://arxiv.org/abs/2610.12465v1"
+                ],
+                "metrics": [
+                  {
+                    "metric": "views",
+                    "count": null,
+                    "checked_at": "2026-10-10T15:17:58.390086+08:00",
+                    "window_kind": "cumulative",
+                    "label": "Views",
+                    "source_field": "not publicly exposed",
+                    "eligible_recent": true
+                  }
+                ],
+                "source_sha256": "4506393247d565789dee02ba0cb25afb053e3205f2f033037504e1858759e311",
+                "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
+                "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter."
+              }
+            ],
+            "external_verification_candidates": [],
+            "coverage": {
+              "primary_identity_verified": true,
+              "official_project_or_blog_found": true,
+              "social_posts_with_exact_metrics": 0,
+              "qualifying_external_groups": []
+            },
+            "unavailable": {
+              "project": null,
+              "social_metrics": "No exact original-post counters verified in this bounded scan; missing is not zero.",
+              "independent_verification": "No qualifying independently authored protocol-plus-result source verified in this bounded scan; does not assert none exists."
+            }
+          }
+        }
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 85,
+          "evidence": 77,
+          "reuse": 68,
+          "reading": 89
+        },
+        "mechanism": "Success Guided Sampling 根据当前成功率把重置分布推向能力边缘，减少超简单或暂时学不会的采样，再蒸馏视觉操作策略转实机。",
+        "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
+      },
+      "venue_record": {
+        "venue": "CoRL",
+        "venue_status": "accepted",
+        "track": null,
+        "publication_evidence_url": "https://2026.corl.org/program/accepted-papers",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "profile": {
+          "abbreviation": "CoRL",
+          "name": "Conference on Robot Learning",
+          "kind": "conference",
+          "scope": "机器人学习，连接机器学习方法、机器人数据、策略与真实系统。",
+          "review": "主会研究论文同行评审；官方作者指南列出贡献、证据、复现与评审要求。",
+          "community": {
+            "score": 90,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人学习的专门会议，对策略、数据与泛化路线有直接参考价值。90是编辑判断，未冒充CCF等级。"
+          },
+          "distinction": "CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版年份可能晚一年。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://www.corl.org/contributions/instruction-for-authors",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://www.corl.org/contributions/instruction-for-authors",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      },
+      "rank": 108
+    },
+    {
+      "id": "plaw-vla",
+      "checked_at": "2026-10-10",
+      "short_name": "PLaW-VLA",
+      "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+      "year": 2026,
+      "navigation": {
+        "track": "video-action",
+        "track_label": "视频动作模型与视觉推理",
+        "track_path": "paper-map/README.md#track-video-action",
+        "venue_label": "CoRL",
+        "venue_key": "CoRL",
+        "venue_path": "venues/CoRL/README.md",
+        "reading_path": "library/plaw-vla.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/plaw-vla.md",
+        "card_path": "leaderboard/papers/plaw-vla/README.md"
+      },
+      "origin": {
+        "label": "Yu Liu / Hetian Guo · 吉林大学 / 星尘智能 · 另3个机构",
+        "author_label": "Yu Liu / Hetian Guo",
+        "institution_label": "吉林大学 / 星尘智能 · 另3个机构",
+        "search": "Yu Liu Hetian Guo Yu Liu Hetian Guo Tianlv Huang Ziyi Cai Wudi Chen Hantang Wang Qiutong Liu Yingzhi Peng Wei Han Peijun Tang Jianan Wang Zipei Fan Zhiyuan Zha Xuan Song Zipei Fan Jilin University Astribot Harbin Institute of Technology, Shenzhen The Hong Kong Polytechnic University University of Tokyo 吉林大学 星尘智能 哈尔滨工业大学（深圳） 香港理工大学 东京大学 吉林大学 星尘智能 哈尔滨工业大学（深圳） 香港理工大学 东京大学 Jilin University Jilin University 吉林大学 Astribot Astribot 星尘智能 Harbin Institute of Technology, Shenzhen Harbin Institute of Technology, Shenzhen 哈尔滨工业大学（深圳） The Hong Kong Polytechnic University The Hong Kong Polytechnic University 香港理工大学 The University of Tokyo The University of Tokyo 东京大学",
+        "keys": [
+          "organization-3c8d9a5bb5be",
+          "organization-1cc2f28748e4",
+          "organization-dbf270476b28",
+          "organization-56be85fd98d1",
+          "institution-i74801974"
+        ],
+        "profiles": [
+          {
+            "key": "organization-3c8d9a5bb5be",
+            "label": "吉林大学",
+            "search": "Jilin University Jilin University 吉林大学"
+          },
+          {
+            "key": "organization-1cc2f28748e4",
+            "label": "星尘智能",
+            "search": "Astribot Astribot 星尘智能"
+          },
+          {
+            "key": "organization-dbf270476b28",
+            "label": "哈尔滨工业大学（深圳）",
+            "search": "Harbin Institute of Technology, Shenzhen Harbin Institute of Technology, Shenzhen 哈尔滨工业大学（深圳）"
+          },
+          {
+            "key": "organization-56be85fd98d1",
+            "label": "香港理工大学",
+            "search": "The Hong Kong Polytechnic University The Hong Kong Polytechnic University 香港理工大学"
+          },
+          {
+            "key": "institution-i74801974",
+            "label": "东京大学",
+            "search": "The University of Tokyo The University of Tokyo 东京大学"
+          }
+        ],
+        "path": "leaderboard/origins/papers/plaw-vla.md"
+      },
+      "scores": {
+        "innovation": 84,
+        "evidence": 75,
+        "reuse": 63,
+        "reading": 89,
+        "venue": 90.0,
+        "influence": 0,
+        "attention": 11.9
+      },
+      "score": 70.7,
+      "score_exact": "70.665",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12285v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12285v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12285v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.12285v1"
+          ],
+          "review_depth": "选题初读"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": 90.0,
+          "external_review_credit": null,
+          "reason": "保留已核v1完整公开稿阶段60；补核CoRL 2026官方录用与作者项目身份，按CoRL既有90分量表取较高阶段，Poster不另加分。；正式刊会按登记量表计分，取较高阶段。",
+          "sources": [
+            "https://arxiv.org/abs/2610.12285v1",
+            "https://arxiv.org/pdf/2610.12285v1",
+            "https://2026.corl.org/program/accepted-papers",
+            "https://arxiv.org/abs/2610.12285",
+            "https://rainyrobo.github.io/PLaW-VLA/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
+          "sources": [
+            "https://arxiv.org/abs/2610.12285v1",
+            "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
+          ],
+          "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
+              "sources": [
+                "https://arxiv.org/abs/2610.12285v1",
+                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
+              ],
+              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
+            },
+            {
+              "method": "citation_log",
+              "score": 0.0,
+              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "dedicated_repository",
+          "score": 11.9,
+          "reason": "近期窗口内创建的专属论文仓库，快照star=2；按10000上限对数压缩。",
+          "sources": [
+            "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+            "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
+          ],
+          "snapshot": {
+            "scope": "single_paper",
+            "identity_verified": true,
+            "repository": "RainyRobo/PLaW-VLA",
+            "created_at": "2026-10-04T16:26:58Z",
+            "stars": 2,
+            "checked_at": "2026-10-10",
+            "sources": [
+              "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+              "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
+            ],
+            "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+          },
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
+              "sources": [
+                "https://arxiv.org/abs/2610.12285v1",
+                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
+              ],
+              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
+            },
+            {
+              "method": "recent_volume_velocity",
+              "score": 0.0,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-10-10",
+                "first_public_date": "2026-10-08",
+                "date_origin": "metric_publication_date",
+                "date_precision": "day",
+                "effective_months": 3,
+                "citations_per_month": 0.0,
+                "volume_score": 0.0,
+                "velocity_score": 0.0,
+                "recent_count_kind": "complete_citing_years"
+              },
+              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285"
+              ]
+            },
+            {
+              "method": "dedicated_repository",
+              "score": 11.9,
+              "reason": "近期窗口内创建的专属论文仓库，快照star=2；按10000上限对数压缩。",
+              "sources": [
+                "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+                "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
+              ],
+              "snapshot": {
+                "scope": "single_paper",
+                "identity_verified": true,
+                "repository": "RainyRobo/PLaW-VLA",
+                "created_at": "2026-10-04T16:26:58Z",
+                "stars": 2,
+                "checked_at": "2026-10-10",
+                "sources": [
+                  "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+                  "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
+                ],
+                "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 11.9,
+              "reason": "github 的论文专属入口：GitHub Star=2；按10000上限对数压缩。",
+              "sources": [
+                "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+                "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
+                "https://rainyrobo.github.io/PLaW-VLA",
+                "https://github.com/RainyRobo/PLaW-VLA"
+              ],
+              "snapshot": {
+                "url": "https://github.com/RainyRobo/PLaW-VLA",
+                "platform": "github",
+                "metric": "stars",
+                "count": 2,
+                "checked_at": "2026-10-10",
+                "sampled_at": "2026-10-10T07:19:32.551Z",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-04",
+                "window_end": "2026-10-10",
+                "window_label": "截至2026-10-10的累计快照",
+                "label": "GitHub Star"
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "github 的论文专属入口：GitHub Watch订阅=0；按1000上限对数压缩。",
+              "sources": [
+                "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+                "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
+                "https://rainyrobo.github.io/PLaW-VLA",
+                "https://github.com/RainyRobo/PLaW-VLA"
+              ],
+              "snapshot": {
+                "url": "https://github.com/RainyRobo/PLaW-VLA",
+                "platform": "github",
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-10-10",
+                "sampled_at": "2026-10-10T07:19:32.551Z",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-04",
+                "window_end": "2026-10-10",
+                "window_label": "截至2026-10-10的累计快照",
+                "label": "GitHub Watch订阅"
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "plaw-vla",
+        "checked_at": "2026-10-10",
+        "status": "matched",
+        "provider": "Semantic Scholar",
+        "semantic_scholar_id": "cf78191c38ce27bbe2993af31890a205c0f14a85",
+        "record_url": "https://www.semanticscholar.org/paper/cf78191c38ce27bbe2993af31890a205c0f14a85",
+        "matched_title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+        "publication_date": "2026-10-08",
+        "edition": "原研究arXiv ID索引记录（版本合并）",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "recent_citation_count_kind": "complete_citing_years",
+        "recent_year_unknown": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285",
+        "recent_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285"
+        ],
+        "match_evidence": {
+          "arxiv_match": true,
+          "exact_title": true,
+          "first_author_match": true,
+          "year_match": true
+        },
+        "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
+        "alternate_snapshots": [
+          {
+            "paper_id": "plaw-vla",
+            "checked_at": "2026-10-09T18:35:28+08:00",
+            "status": "unmatched",
+            "citation_count": null,
+            "recent_citation_count": null,
+            "reason": "无与当前版本可确认对应的计量记录"
+          }
+        ],
+        "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
+      },
+      "social": {
+        "resources": [
+          {
+            "platform": "github",
+            "url": "https://github.com/RainyRobo/PLaW-VLA",
+            "api_url": "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+            "created_at": "2026-10-04T16:26:58Z",
+            "scope": "single_paper",
+            "scope_label": "单篇论文仓库",
+            "identity_verified": true,
+            "ownership": "official_paper_repository",
+            "identity_basis": {
+              "source_url": "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
+              "snippets": [
+                {
+                  "line": 1,
+                  "text": "<h1 align=\"center\">PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies</h1>"
+                },
+                {
+                  "line": 4,
+                  "text": "  <a href=\"https://arxiv.org/abs/2610.12285\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2610.12285-B31B1B?style=flat&logo=arxiv&logoColor=white\"></a>"
+                },
+                {
+                  "line": 302,
+                  "text": "  title     = {PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies},"
+                }
+              ]
+            },
+            "scope_reason": "Reviewed author/project entry and primary README identify the target paper; other methods mentioned as dependencies/baselines alone do not make the repository shared.",
+            "sources": [
+              "https://api.github.com/repos/RainyRobo/PLaW-VLA",
+              "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
+              "https://rainyrobo.github.io/PLaW-VLA"
+            ],
+            "metrics": [
+              {
+                "metric": "stars",
+                "count": 2,
+                "checked_at": "2026-10-10",
+                "sampled_at": "2026-10-10T07:19:32.551Z",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-04",
+                "window_end": "2026-10-10",
+                "window_label": "截至2026-10-10的累计快照",
+                "label": "GitHub Star"
+              },
+              {
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-10-10",
+                "sampled_at": "2026-10-10T07:19:32.551Z",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-04",
+                "window_end": "2026-10-10",
+                "window_label": "截至2026-10-10的累计快照",
+                "label": "GitHub Watch订阅"
+              },
+              {
+                "metric": "forks",
+                "count": 2,
+                "checked_at": "2026-10-10",
+                "sampled_at": "2026-10-10T07:19:32.551Z",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-04",
+                "window_end": "2026-10-10",
+                "window_label": "截至2026-10-10的累计快照",
+                "label": "GitHub Fork"
+              }
+            ]
+          },
+          {
+            "platform": "project",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "url": "https://rainyrobo.github.io/PLaW-VLA/",
+            "created_at": null,
+            "sources": [
+              "https://rainyrobo.github.io/PLaW-VLA/",
+              "https://arxiv.org/abs/2610.12285v1"
+            ],
+            "metrics": [
+              {
+                "metric": "views",
+                "count": null,
+                "checked_at": "2026-10-10T15:17:58.695572+08:00",
+                "window_kind": "cumulative",
+                "label": "Views",
+                "source_field": "not publicly exposed",
+                "eligible_recent": true,
+                "window_label": "截至2026-10-10的累计快照"
+              }
+            ],
+            "source_sha256": "dbfb5e381139ee757c4c1c2b27a49a3b428e91129a9f77ffc23c19501340799c",
+            "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
+            "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter.",
+            "scope_label": "单篇论文入口"
+          }
+        ],
+        "coverage": {
+          "github": {
+            "status": "official_entry_verified",
+            "source_pages": [
+              {
+                "requested_url": "https://rainyrobo.github.io/PLaW-VLA",
+                "final_url": "https://rainyrobo.github.io/PLaW-VLA/",
+                "status_code": 200,
+                "checked_at": "2026-10-10T15:16:35.649473+08:00",
+                "sha256": "dbfb5e381139ee757c4c1c2b27a49a3b428e91129a9f77ffc23c19501340799c",
+                "content_type": "text/html; charset=utf-8"
+              }
+            ],
+            "scope_limit": "Checked existing catalog/author/project entries, saved page links and the listed targeted searches/upstream links. Missing verification is not proof that no repository exists."
+          },
+          "huggingface": {
+            "paper_status": 404,
+            "paper_identity_verified": false,
+            "discovery": {
+              "models": {
+                "api_url": "https://huggingface.co/api/models?filter=arxiv%3A2610.12285&limit=100&full=true&sort=downloads&direction=-1",
+                "http_status": 200,
+                "count_returned": 0,
+                "limit": 100,
+                "possibly_truncated": false,
+                "next_link": null,
+                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
+              },
+              "datasets": {
+                "api_url": "https://huggingface.co/api/datasets?filter=arxiv%3A2610.12285&limit=100&full=true&sort=downloads&direction=-1",
+                "http_status": 200,
+                "count_returned": 0,
+                "limit": 100,
+                "possibly_truncated": false,
+                "next_link": null,
+                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
+              }
+            },
+            "reading_count": null,
+            "comments": null,
+            "source": "https://huggingface.co/api/papers/2610.12285"
+          },
+          "web": {
+            "paper_id": "plaw-vla",
+            "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+            "paper_url": "https://arxiv.org/abs/2610.12285v1",
+            "arxiv_id": "2610.12285",
+            "resources": [
+              {
+                "paper_id": "plaw-vla",
+                "platform": "project",
+                "scope": "single_paper",
+                "identity_verified": true,
+                "url": "https://rainyrobo.github.io/PLaW-VLA/",
+                "created_at": null,
+                "sources": [
+                  "https://rainyrobo.github.io/PLaW-VLA/",
+                  "https://arxiv.org/abs/2610.12285v1"
+                ],
+                "metrics": [
+                  {
+                    "metric": "views",
+                    "count": null,
+                    "checked_at": "2026-10-10T15:17:58.695572+08:00",
+                    "window_kind": "cumulative",
+                    "label": "Views",
+                    "source_field": "not publicly exposed",
+                    "eligible_recent": true
+                  }
+                ],
+                "source_sha256": "dbfb5e381139ee757c4c1c2b27a49a3b428e91129a9f77ffc23c19501340799c",
+                "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
+                "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter."
+              }
+            ],
+            "external_verification_candidates": [],
+            "coverage": {
+              "primary_identity_verified": true,
+              "official_project_or_blog_found": true,
+              "social_posts_with_exact_metrics": 0,
+              "qualifying_external_groups": []
+            },
+            "unavailable": {
+              "project": null,
+              "social_metrics": "No exact original-post counters verified in this bounded scan; missing is not zero.",
+              "independent_verification": "No qualifying independently authored protocol-plus-result source verified in this bounded scan; does not assert none exists."
+            }
+          }
+        }
+      },
+      "editorial": {
+        "scores": {
+          "innovation": 84,
+          "evidence": 75,
+          "reuse": 63,
+          "reading": 89
+        },
+        "mechanism": "预测面向任务的未来潜表示，再用结构化因果注意力让动作生成读取历史、任务和未来状态，减少无关像素重建。",
+        "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
+        "review_depth": "选题初读",
+        "checked_at": "2026-10-10"
+      },
+      "venue_record": {
+        "venue": "CoRL",
+        "venue_status": "accepted",
+        "track": null,
+        "publication_evidence_url": "https://2026.corl.org/program/accepted-papers",
+        "checked_at": "2026-10-09T18:35:28+08:00",
+        "profile": {
+          "abbreviation": "CoRL",
+          "name": "Conference on Robot Learning",
+          "kind": "conference",
+          "scope": "机器人学习，连接机器学习方法、机器人数据、策略与真实系统。",
+          "review": "主会研究论文同行评审；官方作者指南列出贡献、证据、复现与评审要求。",
+          "community": {
+            "score": 90,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器人学习的专门会议，对策略、数据与泛化路线有直接参考价值。90是编辑判断，未冒充CCF等级。"
+          },
+          "distinction": "CoRL 主会与 workshop 分开；会议年份按举办年份，PMLR 卷的出版年份可能晚一年。",
+          "ccf": {
+            "tier": null,
+            "edition": 2026,
+            "status": "not_listed_in_checked_directory",
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://www.corl.org/contributions/instruction-for-authors",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://www.corl.org/contributions/instruction-for-authors",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      },
+      "rank": 109
+    },
+    {
       "id": "modar",
       "checked_at": "2026-10-10",
       "short_name": "ModAR",
@@ -51938,7 +52872,7 @@
         "checked_at": "2026-10-10",
         "profile": null
       },
-      "rank": 108
+      "rank": 110
     },
     {
       "id": "tapestry",
@@ -52234,7 +53168,7 @@
           ]
         }
       },
-      "rank": 109
+      "rank": 111
     },
     {
       "id": "jam",
@@ -52634,7 +53568,7 @@
         "checked_at": "2026-10-29",
         "profile": null
       },
-      "rank": 110
+      "rank": 112
     },
     {
       "id": "diffcontact",
@@ -52836,7 +53770,7 @@
         "checked_at": "2026-10-28",
         "profile": null
       },
-      "rank": 111
+      "rank": 113
     },
     {
       "id": "tops",
@@ -53056,7 +53990,7 @@
         "checked_at": "2026-10-29",
         "profile": null
       },
-      "rank": 112
+      "rank": 114
     },
     {
       "id": "dreamtrue",
@@ -53623,7 +54557,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 113
+      "rank": 115
     },
     {
       "id": "viola",
@@ -53992,7 +54926,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 114
+      "rank": 116
     },
     {
       "id": "lewam",
@@ -54282,7 +55216,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 115
+      "rank": 117
     },
     {
       "id": "flore",
@@ -54502,7 +55436,7 @@
         "checked_at": "2026-10-28",
         "profile": null
       },
-      "rank": 116
+      "rank": 118
     },
     {
       "id": "holo-m",
@@ -54847,7 +55781,7 @@
         "checked_at": "2026-10-09",
         "profile": null
       },
-      "rank": 117
+      "rank": 119
     },
     {
       "id": "dex-one2many",
@@ -55210,7 +56144,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 118
+      "rank": 120
     },
     {
       "id": "arc",
@@ -55579,876 +56513,6 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 119
-    },
-    {
-      "id": "balanced-data-diet",
-      "checked_at": "2026-10-10",
-      "short_name": "Balanced Data Diet",
-      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-      "year": 2026,
-      "navigation": {
-        "track": "locomotion",
-        "track_label": "Locomotion 与运动适应",
-        "track_path": "paper-map/README.md#track-locomotion",
-        "venue_label": "arXiv",
-        "venue_key": "arxiv",
-        "venue_path": "arxiv/README.md#paper-balanced-data-diet",
-        "reading_path": "library/balanced-data-diet.md",
-        "reading_status": "解读导读",
-        "universe_path": "universe/papers/balanced-data-diet.md",
-        "card_path": "leaderboard/papers/balanced-data-diet/README.md"
-      },
-      "origin": {
-        "label": "Octi Zhang · 华盛顿大学 / 英伟达",
-        "author_label": "Octi Zhang",
-        "institution_label": "华盛顿大学 / 英伟达",
-        "search": "Octi Zhang Octi Zhang Mateo Guaman Castro Patrick Yin Ignacio Dagnino Abhishek Gupta Rosario Scalise Byron Boots University of Washington NVIDIA 华盛顿大学 英伟达 华盛顿大学 英伟达研究院 University of Washington University of Washington 华盛顿大学 NVIDIA Research NVIDIA Research NVIDIA 英伟达研究院 英伟达",
-        "keys": [
-          "institution-i201448701",
-          "nvidia"
-        ],
-        "profiles": [
-          {
-            "key": "institution-i201448701",
-            "label": "华盛顿大学",
-            "search": "University of Washington University of Washington 华盛顿大学"
-          },
-          {
-            "key": "nvidia",
-            "label": "英伟达研究院",
-            "search": "NVIDIA Research NVIDIA Research NVIDIA 英伟达研究院 英伟达"
-          }
-        ],
-        "path": "leaderboard/origins/papers/balanced-data-diet.md"
-      },
-      "scores": {
-        "innovation": 85,
-        "evidence": 77,
-        "reuse": 68,
-        "reading": 89,
-        "venue": 60,
-        "influence": 0,
-        "attention": 0
-      },
-      "score": 62.1,
-      "score_exact": "62.07",
-      "score_basis": {
-        "innovation": {
-          "method": "editorial",
-          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12465v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "evidence": {
-          "method": "editorial",
-          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12465v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "reuse": {
-          "method": "editorial",
-          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12465v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "reading": {
-          "method": "editorial",
-          "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12465v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "venue": {
-          "method": "public_review_stage",
-          "public_credit": 60,
-          "peer_review_credit": null,
-          "external_review_credit": null,
-          "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；当前阶段为预印本公开。",
-          "sources": [
-            "https://arxiv.org/abs/2610.12465v1",
-            "https://arxiv.org/pdf/2610.12465v1"
-          ]
-        },
-        "influence": {
-          "method": "evidence_editorial",
-          "score": 0,
-          "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
-          "sources": [
-            "https://arxiv.org/abs/2610.12465v1",
-            "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
-          ],
-          "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。",
-          "selection_rule": "max_verified_signal_no_sum",
-          "signals": [
-            {
-              "method": "evidence_editorial",
-              "score": 0,
-              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
-              "sources": [
-                "https://arxiv.org/abs/2610.12465v1",
-                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
-              ],
-              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
-            },
-            {
-              "method": "citation_log",
-              "score": 0.0,
-              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
-              "sources": [
-                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465"
-              ]
-            }
-          ]
-        },
-        "attention": {
-          "method": "evidence_editorial",
-          "score": 0,
-          "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
-          "sources": [
-            "https://arxiv.org/abs/2610.12465v1",
-            "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
-          ],
-          "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。",
-          "selection_rule": "max_verified_signal_no_sum",
-          "signals": [
-            {
-              "method": "evidence_editorial",
-              "score": 0,
-              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
-              "sources": [
-                "https://arxiv.org/abs/2610.12465v1",
-                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
-              ],
-              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
-            },
-            {
-              "method": "recent_volume_velocity",
-              "score": 0.0,
-              "details": {
-                "window_start": "2025-01-01",
-                "window_end": "2026-10-10",
-                "first_public_date": "2026-10-08",
-                "date_origin": "metric_publication_date",
-                "date_precision": "day",
-                "effective_months": 3,
-                "citations_per_month": 0.0,
-                "volume_score": 0.0,
-                "velocity_score": 0.0,
-                "recent_count_kind": "complete_citing_years"
-              },
-              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
-              "sources": [
-                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465"
-              ]
-            }
-          ]
-        }
-      },
-      "metrics": {
-        "paper_id": "balanced-data-diet",
-        "checked_at": "2026-10-10",
-        "status": "matched",
-        "provider": "Semantic Scholar",
-        "semantic_scholar_id": "eabed5e5fcc76cab14dc0afc5254a005f710622a",
-        "record_url": "https://www.semanticscholar.org/paper/eabed5e5fcc76cab14dc0afc5254a005f710622a",
-        "matched_title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-        "publication_date": "2026-10-08",
-        "edition": "原研究arXiv ID索引记录（版本合并）",
-        "citation_count": 0,
-        "recent_citation_count": 0,
-        "recent_citation_count_kind": "complete_citing_years",
-        "recent_year_unknown": 0,
-        "counts_by_year": [],
-        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465",
-        "recent_sources": [
-          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12465"
-        ],
-        "match_evidence": {
-          "arxiv_match": true,
-          "exact_title": true,
-          "first_author_match": true,
-          "year_match": true
-        },
-        "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
-        "alternate_snapshots": [
-          {
-            "paper_id": "balanced-data-diet",
-            "checked_at": "2026-10-09T18:35:28+08:00",
-            "status": "unmatched",
-            "citation_count": null,
-            "recent_citation_count": null,
-            "reason": "无与当前版本可确认对应的计量记录"
-          }
-        ],
-        "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
-      },
-      "social": {
-        "resources": [
-          {
-            "platform": "project",
-            "scope": "single_paper",
-            "identity_verified": true,
-            "url": "https://sgs-rl.github.io/",
-            "created_at": null,
-            "sources": [
-              "https://sgs-rl.github.io/",
-              "https://arxiv.org/abs/2610.12465v1"
-            ],
-            "metrics": [
-              {
-                "metric": "views",
-                "count": null,
-                "checked_at": "2026-10-10T15:17:58.390086+08:00",
-                "window_kind": "cumulative",
-                "label": "Views",
-                "source_field": "not publicly exposed",
-                "eligible_recent": true,
-                "window_label": "截至2026-10-10的累计快照"
-              }
-            ],
-            "source_sha256": "4506393247d565789dee02ba0cb25afb053e3205f2f033037504e1858759e311",
-            "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
-            "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter.",
-            "scope_label": "单篇论文入口"
-          }
-        ],
-        "coverage": {
-          "github": {
-            "status": "no_official_repository_verified_in_checked_sources",
-            "source_pages": [
-              {
-                "requested_url": "https://arxiv.org/abs/2610.12465v1",
-                "final_url": "https://arxiv.org/abs/2610.12465v1",
-                "status_code": 200,
-                "checked_at": "2026-10-10T15:16:34.756527+08:00",
-                "sha256": "6e68e5a5e3c808d5b4a80929059e33729dadf03f1ba163858efad72dcd0002cb",
-                "content_type": "text/html; charset=utf-8"
-              }
-            ],
-            "scope_limit": "Checked existing catalog/author/project entries, saved page links and the listed targeted searches/upstream links. Missing verification is not proof that no repository exists."
-          },
-          "huggingface": {
-            "paper_status": 404,
-            "paper_identity_verified": false,
-            "discovery": {
-              "models": {
-                "api_url": "https://huggingface.co/api/models?filter=arxiv%3A2610.12465&limit=100&full=true&sort=downloads&direction=-1",
-                "http_status": 200,
-                "count_returned": 0,
-                "limit": 100,
-                "possibly_truncated": false,
-                "next_link": null,
-                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
-              },
-              "datasets": {
-                "api_url": "https://huggingface.co/api/datasets?filter=arxiv%3A2610.12465&limit=100&full=true&sort=downloads&direction=-1",
-                "http_status": 200,
-                "count_returned": 0,
-                "limit": 100,
-                "possibly_truncated": false,
-                "next_link": null,
-                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
-              }
-            },
-            "reading_count": null,
-            "comments": null,
-            "source": "https://huggingface.co/api/papers/2610.12465"
-          },
-          "web": {
-            "paper_id": "balanced-data-diet",
-            "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-            "paper_url": "https://arxiv.org/abs/2610.12465v1",
-            "arxiv_id": "2610.12465",
-            "resources": [
-              {
-                "paper_id": "balanced-data-diet",
-                "platform": "project",
-                "scope": "single_paper",
-                "identity_verified": true,
-                "url": "https://sgs-rl.github.io/",
-                "created_at": null,
-                "sources": [
-                  "https://sgs-rl.github.io/",
-                  "https://arxiv.org/abs/2610.12465v1"
-                ],
-                "metrics": [
-                  {
-                    "metric": "views",
-                    "count": null,
-                    "checked_at": "2026-10-10T15:17:58.390086+08:00",
-                    "window_kind": "cumulative",
-                    "label": "Views",
-                    "source_field": "not publicly exposed",
-                    "eligible_recent": true
-                  }
-                ],
-                "source_sha256": "4506393247d565789dee02ba0cb25afb053e3205f2f033037504e1858759e311",
-                "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
-                "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter."
-              }
-            ],
-            "external_verification_candidates": [],
-            "coverage": {
-              "primary_identity_verified": true,
-              "official_project_or_blog_found": true,
-              "social_posts_with_exact_metrics": 0,
-              "qualifying_external_groups": []
-            },
-            "unavailable": {
-              "project": null,
-              "social_metrics": "No exact original-post counters verified in this bounded scan; missing is not zero.",
-              "independent_verification": "No qualifying independently authored protocol-plus-result source verified in this bounded scan; does not assert none exists."
-            }
-          }
-        }
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 85,
-          "evidence": 77,
-          "reuse": 68,
-          "reading": 89
-        },
-        "mechanism": "Success Guided Sampling 根据当前成功率把重置分布推向能力边缘，减少超简单或暂时学不会的采样，再蒸馏视觉操作策略转实机。",
-        "reason": "华盛顿大学/英伟达署名；跨地形和接触操作的明确探索问题，需核对采样公平性和训练预算。",
-        "review_depth": "选题初读",
-        "checked_at": "2026-10-10"
-      },
-      "venue_record": {
-        "venue": null,
-        "venue_status": "preprint",
-        "track": null,
-        "publication_evidence_url": "https://arxiv.org/abs/2610.12465v1",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "profile": null
-      },
-      "rank": 120
-    },
-    {
-      "id": "plaw-vla",
-      "checked_at": "2026-10-10",
-      "short_name": "PLaW-VLA",
-      "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
-      "year": 2026,
-      "navigation": {
-        "track": "video-action",
-        "track_label": "视频动作模型与视觉推理",
-        "track_path": "paper-map/README.md#track-video-action",
-        "venue_label": "arXiv",
-        "venue_key": "arxiv",
-        "venue_path": "arxiv/README.md#paper-plaw-vla",
-        "reading_path": "library/plaw-vla.md",
-        "reading_status": "解读导读",
-        "universe_path": "universe/papers/plaw-vla.md",
-        "card_path": "leaderboard/papers/plaw-vla/README.md"
-      },
-      "origin": {
-        "label": "Yu Liu / Hetian Guo · 吉林大学 / 星尘智能 · 另3个机构",
-        "author_label": "Yu Liu / Hetian Guo",
-        "institution_label": "吉林大学 / 星尘智能 · 另3个机构",
-        "search": "Yu Liu Hetian Guo Yu Liu Hetian Guo Tianlv Huang Ziyi Cai Wudi Chen Hantang Wang Qiutong Liu Yingzhi Peng Wei Han Peijun Tang Jianan Wang Zipei Fan Zhiyuan Zha Xuan Song Zipei Fan Jilin University Astribot Harbin Institute of Technology, Shenzhen The Hong Kong Polytechnic University University of Tokyo 吉林大学 星尘智能 哈尔滨工业大学（深圳） 香港理工大学 东京大学 吉林大学 星尘智能 哈尔滨工业大学（深圳） 香港理工大学 东京大学 Jilin University Jilin University 吉林大学 Astribot Astribot 星尘智能 Harbin Institute of Technology, Shenzhen Harbin Institute of Technology, Shenzhen 哈尔滨工业大学（深圳） The Hong Kong Polytechnic University The Hong Kong Polytechnic University 香港理工大学 The University of Tokyo The University of Tokyo 东京大学",
-        "keys": [
-          "organization-3c8d9a5bb5be",
-          "organization-1cc2f28748e4",
-          "organization-dbf270476b28",
-          "organization-56be85fd98d1",
-          "institution-i74801974"
-        ],
-        "profiles": [
-          {
-            "key": "organization-3c8d9a5bb5be",
-            "label": "吉林大学",
-            "search": "Jilin University Jilin University 吉林大学"
-          },
-          {
-            "key": "organization-1cc2f28748e4",
-            "label": "星尘智能",
-            "search": "Astribot Astribot 星尘智能"
-          },
-          {
-            "key": "organization-dbf270476b28",
-            "label": "哈尔滨工业大学（深圳）",
-            "search": "Harbin Institute of Technology, Shenzhen Harbin Institute of Technology, Shenzhen 哈尔滨工业大学（深圳）"
-          },
-          {
-            "key": "organization-56be85fd98d1",
-            "label": "香港理工大学",
-            "search": "The Hong Kong Polytechnic University The Hong Kong Polytechnic University 香港理工大学"
-          },
-          {
-            "key": "institution-i74801974",
-            "label": "东京大学",
-            "search": "The University of Tokyo The University of Tokyo 东京大学"
-          }
-        ],
-        "path": "leaderboard/origins/papers/plaw-vla.md"
-      },
-      "scores": {
-        "innovation": 84,
-        "evidence": 75,
-        "reuse": 63,
-        "reading": 89,
-        "venue": 60,
-        "influence": 0,
-        "attention": 11.9
-      },
-      "score": 61.7,
-      "score_exact": "61.665",
-      "score_basis": {
-        "innovation": {
-          "method": "editorial",
-          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12285v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "evidence": {
-          "method": "editorial",
-          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12285v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "reuse": {
-          "method": "editorial",
-          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12285v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "reading": {
-          "method": "editorial",
-          "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
-          "sources": [
-            "https://arxiv.org/pdf/2610.12285v1"
-          ],
-          "review_depth": "选题初读"
-        },
-        "venue": {
-          "method": "public_review_stage",
-          "public_credit": 60,
-          "peer_review_credit": null,
-          "external_review_credit": null,
-          "reason": "完整论文已公开，作者、日期与版本/固定论文身份可追溯，公开材料阶段计60。；当前阶段为预印本公开。",
-          "sources": [
-            "https://arxiv.org/abs/2610.12285v1",
-            "https://arxiv.org/pdf/2610.12285v1"
-          ]
-        },
-        "influence": {
-          "method": "evidence_editorial",
-          "score": 0,
-          "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
-          "sources": [
-            "https://arxiv.org/abs/2610.12285v1",
-            "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
-          ],
-          "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。",
-          "selection_rule": "max_verified_signal_no_sum",
-          "signals": [
-            {
-              "method": "evidence_editorial",
-              "score": 0,
-              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
-              "sources": [
-                "https://arxiv.org/abs/2610.12285v1",
-                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
-              ],
-              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
-            },
-            {
-              "method": "citation_log",
-              "score": 0.0,
-              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
-              "sources": [
-                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285"
-              ]
-            }
-          ]
-        },
-        "attention": {
-          "method": "dedicated_repository",
-          "score": 11.9,
-          "reason": "近期窗口内创建的专属论文仓库，快照star=2；按10000上限对数压缩。",
-          "sources": [
-            "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-            "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
-          ],
-          "snapshot": {
-            "scope": "single_paper",
-            "identity_verified": true,
-            "repository": "RainyRobo/PLaW-VLA",
-            "created_at": "2026-10-04T16:26:58Z",
-            "stars": 2,
-            "checked_at": "2026-10-10",
-            "sources": [
-              "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-              "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
-            ],
-            "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
-          },
-          "selection_rule": "max_verified_signal_no_sum",
-          "signals": [
-            {
-              "method": "evidence_editorial",
-              "score": 0,
-              "reason": "本次已定位的独立采用/讨论证据处于量表起点；引用与专属仓库关注另算，取最高已核信号。",
-              "sources": [
-                "https://arxiv.org/abs/2610.12285v1",
-                "https://github.com/Zhu-Huixiang/embodied-world/blob/main/leaderboard/selection-2026-10-10.md"
-              ],
-              "audit_scope": "本次查询范围的证据下界，不宣称实际影响/关注总量为零。"
-            },
-            {
-              "method": "recent_volume_velocity",
-              "score": 0.0,
-              "details": {
-                "window_start": "2025-01-01",
-                "window_end": "2026-10-10",
-                "first_public_date": "2026-10-08",
-                "date_origin": "metric_publication_date",
-                "date_precision": "day",
-                "effective_months": 3,
-                "citations_per_month": 0.0,
-                "volume_score": 0.0,
-                "velocity_score": 0.0,
-                "recent_count_kind": "complete_citing_years"
-              },
-              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
-              "sources": [
-                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285"
-              ]
-            },
-            {
-              "method": "dedicated_repository",
-              "score": 11.9,
-              "reason": "近期窗口内创建的专属论文仓库，快照star=2；按10000上限对数压缩。",
-              "sources": [
-                "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-                "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
-              ],
-              "snapshot": {
-                "scope": "single_paper",
-                "identity_verified": true,
-                "repository": "RainyRobo/PLaW-VLA",
-                "created_at": "2026-10-04T16:26:58Z",
-                "stars": 2,
-                "checked_at": "2026-10-10",
-                "sources": [
-                  "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-                  "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md"
-                ],
-                "identity_basis": "原文/官方入口和仓库README已核单篇归属，创建时间位于近期窗口。"
-              }
-            },
-            {
-              "method": "platform_attention",
-              "score": 11.9,
-              "reason": "github 的论文专属入口：GitHub Star=2；按10000上限对数压缩。",
-              "sources": [
-                "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-                "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
-                "https://rainyrobo.github.io/PLaW-VLA",
-                "https://github.com/RainyRobo/PLaW-VLA"
-              ],
-              "snapshot": {
-                "url": "https://github.com/RainyRobo/PLaW-VLA",
-                "platform": "github",
-                "metric": "stars",
-                "count": 2,
-                "checked_at": "2026-10-10",
-                "sampled_at": "2026-10-10T07:19:32.551Z",
-                "window_kind": "cumulative",
-                "window_start": "2026-10-04",
-                "window_end": "2026-10-10",
-                "window_label": "截至2026-10-10的累计快照",
-                "label": "GitHub Star"
-              }
-            },
-            {
-              "method": "platform_attention",
-              "score": 0.0,
-              "reason": "github 的论文专属入口：GitHub Watch订阅=0；按1000上限对数压缩。",
-              "sources": [
-                "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-                "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
-                "https://rainyrobo.github.io/PLaW-VLA",
-                "https://github.com/RainyRobo/PLaW-VLA"
-              ],
-              "snapshot": {
-                "url": "https://github.com/RainyRobo/PLaW-VLA",
-                "platform": "github",
-                "metric": "subscribers",
-                "count": 0,
-                "checked_at": "2026-10-10",
-                "sampled_at": "2026-10-10T07:19:32.551Z",
-                "window_kind": "cumulative",
-                "window_start": "2026-10-04",
-                "window_end": "2026-10-10",
-                "window_label": "截至2026-10-10的累计快照",
-                "label": "GitHub Watch订阅"
-              }
-            }
-          ]
-        }
-      },
-      "metrics": {
-        "paper_id": "plaw-vla",
-        "checked_at": "2026-10-10",
-        "status": "matched",
-        "provider": "Semantic Scholar",
-        "semantic_scholar_id": "cf78191c38ce27bbe2993af31890a205c0f14a85",
-        "record_url": "https://www.semanticscholar.org/paper/cf78191c38ce27bbe2993af31890a205c0f14a85",
-        "matched_title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
-        "publication_date": "2026-10-08",
-        "edition": "原研究arXiv ID索引记录（版本合并）",
-        "citation_count": 0,
-        "recent_citation_count": 0,
-        "recent_citation_count_kind": "complete_citing_years",
-        "recent_year_unknown": 0,
-        "counts_by_year": [],
-        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285",
-        "recent_sources": [
-          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.12285"
-        ],
-        "match_evidence": {
-          "arxiv_match": true,
-          "exact_title": true,
-          "first_author_match": true,
-          "year_match": true
-        },
-        "match_note": "原研究arXiv ID、题目、年份及原文作者匹配；引文列表按唯一citingPaper去重，未知年份不计近期。",
-        "alternate_snapshots": [
-          {
-            "paper_id": "plaw-vla",
-            "checked_at": "2026-10-09T18:35:28+08:00",
-            "status": "unmatched",
-            "citation_count": null,
-            "recent_citation_count": null,
-            "reason": "无与当前版本可确认对应的计量记录"
-          }
-        ],
-        "source_selection_rule": "preprint_exact_arxiv_semantic_scholar_then_verified_openalex"
-      },
-      "social": {
-        "resources": [
-          {
-            "platform": "github",
-            "url": "https://github.com/RainyRobo/PLaW-VLA",
-            "api_url": "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-            "created_at": "2026-10-04T16:26:58Z",
-            "scope": "single_paper",
-            "scope_label": "单篇论文仓库",
-            "identity_verified": true,
-            "ownership": "official_paper_repository",
-            "identity_basis": {
-              "source_url": "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
-              "snippets": [
-                {
-                  "line": 1,
-                  "text": "<h1 align=\"center\">PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies</h1>"
-                },
-                {
-                  "line": 4,
-                  "text": "  <a href=\"https://arxiv.org/abs/2610.12285\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2610.12285-B31B1B?style=flat&logo=arxiv&logoColor=white\"></a>"
-                },
-                {
-                  "line": 302,
-                  "text": "  title     = {PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies},"
-                }
-              ]
-            },
-            "scope_reason": "Reviewed author/project entry and primary README identify the target paper; other methods mentioned as dependencies/baselines alone do not make the repository shared.",
-            "sources": [
-              "https://api.github.com/repos/RainyRobo/PLaW-VLA",
-              "https://raw.githubusercontent.com/RainyRobo/PLaW-VLA/main/README.md",
-              "https://rainyrobo.github.io/PLaW-VLA"
-            ],
-            "metrics": [
-              {
-                "metric": "stars",
-                "count": 2,
-                "checked_at": "2026-10-10",
-                "sampled_at": "2026-10-10T07:19:32.551Z",
-                "window_kind": "cumulative",
-                "window_start": "2026-10-04",
-                "window_end": "2026-10-10",
-                "window_label": "截至2026-10-10的累计快照",
-                "label": "GitHub Star"
-              },
-              {
-                "metric": "subscribers",
-                "count": 0,
-                "checked_at": "2026-10-10",
-                "sampled_at": "2026-10-10T07:19:32.551Z",
-                "window_kind": "cumulative",
-                "window_start": "2026-10-04",
-                "window_end": "2026-10-10",
-                "window_label": "截至2026-10-10的累计快照",
-                "label": "GitHub Watch订阅"
-              },
-              {
-                "metric": "forks",
-                "count": 2,
-                "checked_at": "2026-10-10",
-                "sampled_at": "2026-10-10T07:19:32.551Z",
-                "window_kind": "cumulative",
-                "window_start": "2026-10-04",
-                "window_end": "2026-10-10",
-                "window_label": "截至2026-10-10的累计快照",
-                "label": "GitHub Fork"
-              }
-            ]
-          },
-          {
-            "platform": "project",
-            "scope": "single_paper",
-            "identity_verified": true,
-            "url": "https://rainyrobo.github.io/PLaW-VLA/",
-            "created_at": null,
-            "sources": [
-              "https://rainyrobo.github.io/PLaW-VLA/",
-              "https://arxiv.org/abs/2610.12285v1"
-            ],
-            "metrics": [
-              {
-                "metric": "views",
-                "count": null,
-                "checked_at": "2026-10-10T15:17:58.695572+08:00",
-                "window_kind": "cumulative",
-                "label": "Views",
-                "source_field": "not publicly exposed",
-                "eligible_recent": true,
-                "window_label": "截至2026-10-10的累计快照"
-              }
-            ],
-            "source_sha256": "dbfb5e381139ee757c4c1c2b27a49a3b428e91129a9f77ffc23c19501340799c",
-            "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
-            "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter.",
-            "scope_label": "单篇论文入口"
-          }
-        ],
-        "coverage": {
-          "github": {
-            "status": "official_entry_verified",
-            "source_pages": [
-              {
-                "requested_url": "https://rainyrobo.github.io/PLaW-VLA",
-                "final_url": "https://rainyrobo.github.io/PLaW-VLA/",
-                "status_code": 200,
-                "checked_at": "2026-10-10T15:16:35.649473+08:00",
-                "sha256": "dbfb5e381139ee757c4c1c2b27a49a3b428e91129a9f77ffc23c19501340799c",
-                "content_type": "text/html; charset=utf-8"
-              }
-            ],
-            "scope_limit": "Checked existing catalog/author/project entries, saved page links and the listed targeted searches/upstream links. Missing verification is not proof that no repository exists."
-          },
-          "huggingface": {
-            "paper_status": 404,
-            "paper_identity_verified": false,
-            "discovery": {
-              "models": {
-                "api_url": "https://huggingface.co/api/models?filter=arxiv%3A2610.12285&limit=100&full=true&sort=downloads&direction=-1",
-                "http_status": 200,
-                "count_returned": 0,
-                "limit": 100,
-                "possibly_truncated": false,
-                "next_link": null,
-                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
-              },
-              "datasets": {
-                "api_url": "https://huggingface.co/api/datasets?filter=arxiv%3A2610.12285&limit=100&full=true&sort=downloads&direction=-1",
-                "http_status": 200,
-                "count_returned": 0,
-                "limit": 100,
-                "possibly_truncated": false,
-                "next_link": null,
-                "interpretation": "exact arxiv tag proves a citation link only, not paper-specific artifact ownership"
-              }
-            },
-            "reading_count": null,
-            "comments": null,
-            "source": "https://huggingface.co/api/papers/2610.12285"
-          },
-          "web": {
-            "paper_id": "plaw-vla",
-            "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
-            "paper_url": "https://arxiv.org/abs/2610.12285v1",
-            "arxiv_id": "2610.12285",
-            "resources": [
-              {
-                "paper_id": "plaw-vla",
-                "platform": "project",
-                "scope": "single_paper",
-                "identity_verified": true,
-                "url": "https://rainyrobo.github.io/PLaW-VLA/",
-                "created_at": null,
-                "sources": [
-                  "https://rainyrobo.github.io/PLaW-VLA/",
-                  "https://arxiv.org/abs/2610.12285v1"
-                ],
-                "metrics": [
-                  {
-                    "metric": "views",
-                    "count": null,
-                    "checked_at": "2026-10-10T15:17:58.695572+08:00",
-                    "window_kind": "cumulative",
-                    "label": "Views",
-                    "source_field": "not publicly exposed",
-                    "eligible_recent": true
-                  }
-                ],
-                "source_sha256": "dbfb5e381139ee757c4c1c2b27a49a3b428e91129a9f77ffc23c19501340799c",
-                "identity_basis": "Exact research title/project matched to the primary paper or original institution/author publication.",
-                "availability_note": "HTTP 200. No verified public cumulative paper-specific view counter."
-              }
-            ],
-            "external_verification_candidates": [],
-            "coverage": {
-              "primary_identity_verified": true,
-              "official_project_or_blog_found": true,
-              "social_posts_with_exact_metrics": 0,
-              "qualifying_external_groups": []
-            },
-            "unavailable": {
-              "project": null,
-              "social_metrics": "No exact original-post counters verified in this bounded scan; missing is not zero.",
-              "independent_verification": "No qualifying independently authored protocol-plus-result source verified in this bounded scan; does not assert none exists."
-            }
-          }
-        }
-      },
-      "editorial": {
-        "scores": {
-          "innovation": 84,
-          "evidence": 75,
-          "reuse": 63,
-          "reading": 89
-        },
-        "mechanism": "预测面向任务的未来潜表示，再用结构化因果注意力让动作生成读取历史、任务和未来状态，减少无关像素重建。",
-        "reason": "有响应式策略与重建表示对照线索；初读优先看长程任务、未来预测和注意力结构消融。",
-        "review_depth": "选题初读",
-        "checked_at": "2026-10-10"
-      },
-      "venue_record": {
-        "venue": null,
-        "venue_status": "preprint",
-        "track": null,
-        "publication_evidence_url": "https://arxiv.org/abs/2610.12285v1",
-        "checked_at": "2026-10-09T18:35:28+08:00",
-        "profile": null
-      },
       "rank": 121
     },
     {
@@ -56673,6 +56737,629 @@
         "profile": null
       },
       "rank": 122
+    },
+    {
+      "id": "jedi",
+      "checked_at": "2026-11-02",
+      "short_name": "JEDI",
+      "title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
+      "year": 2026,
+      "navigation": {
+        "track": "vla",
+        "track_label": "视觉语言动作模型 VLA",
+        "track_path": "paper-map/README.md#track-vla",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-jedi",
+        "reading_path": "library/jedi.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/jedi.md",
+        "card_path": "leaderboard/papers/jedi/README.md"
+      },
+      "origin": {
+        "label": "Jiazhao Liang / Zhewen He · 纽约大学坦登工程学院 / 纽约大学阿布扎比分校人工智能与机器人中心 · 另1个机构",
+        "author_label": "Jiazhao Liang / Zhewen He",
+        "institution_label": "纽约大学坦登工程学院 / 纽约大学阿布扎比分校人工智能与机器人中心 · 另1个机构",
+        "search": "Jiazhao Liang Zhewen He Jiazhao Liang Zhewen He Shuaihang Yuan Hao Huang Yi Fang New York University Tandon School of Engineering NYUAD Center for Artificial Intelligence and Robotics (CAIR) Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi 纽约大学 纽约大学坦登工程学院 纽约大学阿布扎比分校 纽约大学阿布扎比分校人工智能与机器人中心 纽约大学阿布扎比分校具身智能与机器人实验室 纽约大学坦登工程学院 纽约大学阿布扎比分校人工智能与机器人中心 纽约大学阿布扎比分校具身智能与机器人实验室 New York University New York University 纽约大学 New York University Tandon School of Engineering New York University Tandon School of Engineering 纽约大学坦登工程学院 New York University Abu Dhabi New York University Abu Dhabi 纽约大学阿布扎比分校 NYUAD Center for Artificial Intelligence and Robotics (CAIR) NYUAD Center for Artificial Intelligence and Robotics (CAIR) 纽约大学阿布扎比分校人工智能与机器人中心 Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi 纽约大学阿布扎比分校具身智能与机器人实验室",
+        "keys": [
+          "institution-i57206974",
+          "nyu-tandon",
+          "nyu-abu-dhabi",
+          "nyuad-cair",
+          "nyuad-air"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i57206974",
+            "label": "纽约大学",
+            "search": "New York University New York University 纽约大学"
+          },
+          {
+            "key": "nyu-tandon",
+            "label": "纽约大学坦登工程学院",
+            "search": "New York University Tandon School of Engineering New York University Tandon School of Engineering 纽约大学坦登工程学院"
+          },
+          {
+            "key": "nyu-abu-dhabi",
+            "label": "纽约大学阿布扎比分校",
+            "search": "New York University Abu Dhabi New York University Abu Dhabi 纽约大学阿布扎比分校"
+          },
+          {
+            "key": "nyuad-cair",
+            "label": "纽约大学阿布扎比分校人工智能与机器人中心",
+            "search": "NYUAD Center for Artificial Intelligence and Robotics (CAIR) NYUAD Center for Artificial Intelligence and Robotics (CAIR) 纽约大学阿布扎比分校人工智能与机器人中心"
+          },
+          {
+            "key": "nyuad-air",
+            "label": "纽约大学阿布扎比分校具身智能与机器人实验室",
+            "search": "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi 纽约大学阿布扎比分校具身智能与机器人实验室"
+          }
+        ],
+        "path": "leaderboard/origins/papers/jedi.md"
+      },
+      "scores": {
+        "innovation": 79,
+        "evidence": 80,
+        "reuse": 64,
+        "reading": 87,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 61.0,
+      "score_exact": "61.01",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新79：查询未来预测和任务/过程反事实把示范压缩目标与策略使用场景对齐，缓存及一致性筛选扩展many-shot接口；Perceiver、JEPA与flow专家均有先例。证据80：匹配backbone/data/schedule/label消融、3seed仿真、多种语义与干扰控制、真实40次matched-context控制和成本表；自定义划分、单平台厘米级容差与有限实机试次限制外推。复用64：附录给slots、网络、超参、负样本和协议，缓存代价也可核；未定位作者实现，过程标签构造与真实posttraining仍有工程门槛。阅读87：把示范压缩、预测表征、因果依赖和上下文任务执行串成清楚研究问题，且揭示更多示范并不总更好。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40356v1"
+          ],
+          "review_depth": "读取v1主要正文pp1–9及相关实现/协议/消融附录pp13–20；关键方法pp3–6与全部实验协议已读，参考文献p10/12抽核；未宣称逐条读完参考文献。目视1/7/8/13/18/19/20完整页。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新79：查询未来预测和任务/过程反事实把示范压缩目标与策略使用场景对齐，缓存及一致性筛选扩展many-shot接口；Perceiver、JEPA与flow专家均有先例。证据80：匹配backbone/data/schedule/label消融、3seed仿真、多种语义与干扰控制、真实40次matched-context控制和成本表；自定义划分、单平台厘米级容差与有限实机试次限制外推。复用64：附录给slots、网络、超参、负样本和协议，缓存代价也可核；未定位作者实现，过程标签构造与真实posttraining仍有工程门槛。阅读87：把示范压缩、预测表征、因果依赖和上下文任务执行串成清楚研究问题，且揭示更多示范并不总更好。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40356v1"
+          ],
+          "review_depth": "读取v1主要正文pp1–9及相关实现/协议/消融附录pp13–20；关键方法pp3–6与全部实验协议已读，参考文献p10/12抽核；未宣称逐条读完参考文献。目视1/7/8/13/18/19/20完整页。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新79：查询未来预测和任务/过程反事实把示范压缩目标与策略使用场景对齐，缓存及一致性筛选扩展many-shot接口；Perceiver、JEPA与flow专家均有先例。证据80：匹配backbone/data/schedule/label消融、3seed仿真、多种语义与干扰控制、真实40次matched-context控制和成本表；自定义划分、单平台厘米级容差与有限实机试次限制外推。复用64：附录给slots、网络、超参、负样本和协议，缓存代价也可核；未定位作者实现，过程标签构造与真实posttraining仍有工程门槛。阅读87：把示范压缩、预测表征、因果依赖和上下文任务执行串成清楚研究问题，且揭示更多示范并不总更好。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40356v1"
+          ],
+          "review_depth": "读取v1主要正文pp1–9及相关实现/协议/消融附录pp13–20；关键方法pp3–6与全部实验协议已读，参考文献p10/12抽核；未宣称逐条读完参考文献。目视1/7/8/13/18/19/20完整页。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新79：查询未来预测和任务/过程反事实把示范压缩目标与策略使用场景对齐，缓存及一致性筛选扩展many-shot接口；Perceiver、JEPA与flow专家均有先例。证据80：匹配backbone/data/schedule/label消融、3seed仿真、多种语义与干扰控制、真实40次matched-context控制和成本表；自定义划分、单平台厘米级容差与有限实机试次限制外推。复用64：附录给slots、网络、超参、负样本和协议，缓存代价也可核；未定位作者实现，过程标签构造与真实posttraining仍有工程门槛。阅读87：把示范压缩、预测表征、因果依赖和上下文任务执行串成清楚研究问题，且揭示更多示范并不总更好。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40356v1"
+          ],
+          "review_depth": "读取v1主要正文pp1–9及相关实现/协议/消融附录pp13–20；关键方法pp3–6与全部实验协议已读，参考文献p10/12抽核；未宣称逐条读完参考文献。目视1/7/8/13/18/19/20完整页。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "完整可追溯公开稿60；未核独立技术检验或正式刊会，不因大学/实验室知名提高；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40356v1",
+            "https://arxiv.org/pdf/2610.40356v1"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "已匹配引用来源实测0；本次原文/官方入口与有界网页检索未定位独立研究采用。采用证据量表起点0，不以作者名气、摘要转载或自身对照算独立采用。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40356v1",
+            "https://arxiv.org/pdf/2610.40356v1",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40356",
+            "https://api.openalex.org/works?search=JEDI%3A%20Joint-Embedding%20Demonstration%20Compression%20for%20In-Context%20Imitation%20Learning&per-page=5",
+            "https://huggingface.co/api/papers/2610.40356"
+          ],
+          "checked_at": "2026-11-02T09:28:04.048424+08:00",
+          "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "已匹配引用来源实测0；本次原文/官方入口与有界网页检索未定位独立研究采用。采用证据量表起点0，不以作者名气、摘要转载或自身对照算独立采用。",
+              "sources": [
+                "https://arxiv.org/abs/2610.40356v1",
+                "https://arxiv.org/pdf/2610.40356v1",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40356",
+                "https://api.openalex.org/works?search=JEDI%3A%20Joint-Embedding%20Demonstration%20Compression%20for%20In-Context%20Imitation%20Learning&per-page=5",
+                "https://huggingface.co/api/papers/2610.40356"
+              ],
+              "checked_at": "2026-11-02T09:28:04.048424+08:00",
+              "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。"
+            },
+            {
+              "method": "citation_log",
+              "score": 0.0,
+              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "两匹配引用源当前0，HF精确页404，未核到官方专属仓库/项目或带计数独立讨论。按本次证据量表起点0，未知平台计数保持null，不能说无人关注。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40356v1",
+            "https://arxiv.org/pdf/2610.40356v1",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40356",
+            "https://api.openalex.org/works?search=JEDI%3A%20Joint-Embedding%20Demonstration%20Compression%20for%20In-Context%20Imitation%20Learning&per-page=5",
+            "https://huggingface.co/api/papers/2610.40356"
+          ],
+          "checked_at": "2026-11-02T09:28:04.048424+08:00",
+          "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "两匹配引用源当前0，HF精确页404，未核到官方专属仓库/项目或带计数独立讨论。按本次证据量表起点0，未知平台计数保持null，不能说无人关注。",
+              "sources": [
+                "https://arxiv.org/abs/2610.40356v1",
+                "https://arxiv.org/pdf/2610.40356v1",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40356",
+                "https://api.openalex.org/works?search=JEDI%3A%20Joint-Embedding%20Demonstration%20Compression%20for%20In-Context%20Imitation%20Learning&per-page=5",
+                "https://huggingface.co/api/papers/2610.40356"
+              ],
+              "checked_at": "2026-11-02T09:28:04.048424+08:00",
+              "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。"
+            },
+            {
+              "method": "recent_volume_velocity",
+              "score": 0.0,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-11-02",
+                "first_public_date": "2026-10-29",
+                "date_origin": "first_arxiv_submission",
+                "date_precision": "day",
+                "effective_months": 3,
+                "citations_per_month": 0.0,
+                "volume_score": 0.0,
+                "velocity_score": 0.0,
+                "recent_count_kind": "provider_year_counts"
+              },
+              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url"
+              ]
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "jedi",
+        "checked_at": "2026-11-02T09:22:58.688420+08:00",
+        "status": "matched",
+        "provider": "Semantic Scholar",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+        "match_note": "精确ArXiv ID、完整标题、2026年和五位作者匹配；S2前两作者以Jia-Zhao/Zhe-Wen连字符拼写，原文与OpenAlex为Jiazhao/Zhewen，身份由ArXiv ID和完整共同作者核定。OpenAlex同为0，不相加。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40356?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40356",
+          "https://api.openalex.org/works?search=JEDI%3A%20Joint-Embedding%20Demonstration%20Compression%20for%20In-Context%20Imitation%20Learning&per-page=5"
+        ],
+        "edition": "arXiv 2610.40356v1; 10.48550/arXiv.2610.40356",
+        "matched_id": "534e4f304bd2834cee746983c1604e643306b7c1",
+        "recent_count_basis": "当前匹配来源累计引用实测0，因此窗口引用为0；未把索引延迟解释成长期无人引用。",
+        "matched_title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
+        "record_url": "https://www.semanticscholar.org/paper/534e4f304bd2834cee746983c1604e643306b7c1"
+      },
+      "social": {
+        "checked_at": "2026-11-02T09:28:04.048424+08:00",
+        "resources": [],
+        "adoption_evidence": [],
+        "audit_note": "原文/官方项目、精确标题与ID有界网页检索及S2/OpenAlex/HF回读；未定位独立技术采用。未知GitHub/X/博客单篇计数仍null，不以作者账号粉丝或聚合目录代替。",
+        "unavailable_metrics": {
+          "github_stars": null,
+          "github_subscribers": null,
+          "github_forks": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "unavailable_resources": [
+          {
+            "platform": "huggingface",
+            "url": "https://huggingface.co/papers/2610.40356",
+            "api_url": "https://huggingface.co/api/papers/2610.40356",
+            "scope": "single_paper",
+            "identity_verified": false,
+            "status": "not_found",
+            "http_status": 404,
+            "checked_at": "2026-11-02T09:22:59.630151+08:00",
+            "metrics": [],
+            "raw_upvotes": null,
+            "availability_note": "精确论文API404，不写成0 upvotes。"
+          }
+        ]
+      },
+      "editorial": {
+        "checked_at": "2026-11-02",
+        "scores": {
+          "innovation": 79,
+          "evidence": 80,
+          "reuse": 64,
+          "reading": 87
+        },
+        "mechanism": "每段示范由4层Perceiver独立压成8个slot并缓存；π0的flow-matching动作专家读取查询观测与这些slot。辅助预测器在冻结V-JEPA2.1空间预测查询回合下一关键帧，对当前观测支路stop-gradient，使预测损失真正训练示范压缩器。错误任务和同任务不同过程的反事实margin约束保留目标/顺序。用示范间交叉预测误差和查询初图相似性选取一致示范，支持阶段性commitment；人类视频扩展经同平台真实posttraining，用手/物体关键点补充对应，不是任意人类视频免训练通用控制。",
+        "reason": "创新79：查询未来预测和任务/过程反事实把示范压缩目标与策略使用场景对齐，缓存及一致性筛选扩展many-shot接口；Perceiver、JEPA与flow专家均有先例。证据80：匹配backbone/data/schedule/label消融、3seed仿真、多种语义与干扰控制、真实40次matched-context控制和成本表；自定义划分、单平台厘米级容差与有限实机试次限制外推。复用64：附录给slots、网络、超参、负样本和协议，缓存代价也可核；未定位作者实现，过程标签构造与真实posttraining仍有工程门槛。阅读87：把示范压缩、预测表征、因果依赖和上下文任务执行串成清楚研究问题，且揭示更多示范并不总更好。",
+        "review_depth": "读取v1主要正文pp1–9及相关实现/协议/消融附录pp13–20；关键方法pp3–6与全部实验协议已读，参考文献p10/12抽核；未宣称逐条读完参考文献。目视1/7/8/13/18/19/20完整页。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.40356v1",
+        "checked_at": "2026-11-02",
+        "profile": null
+      },
+      "rank": 123
+    },
+    {
+      "id": "touchbridge",
+      "checked_at": "2026-11-02",
+      "short_name": "TouchBridge",
+      "title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
+      "year": 2026,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-touchbridge",
+        "reading_path": "library/touchbridge.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/touchbridge.md",
+        "card_path": "leaderboard/papers/touchbridge/README.md"
+      },
+      "origin": {
+        "label": "Haozhe Zhang / Gu Zhang 等3位 · 清华大学 / 浙江大学 · 另3个机构",
+        "author_label": "Haozhe Zhang / Gu Zhang 等3位",
+        "institution_label": "清华大学 / 浙江大学 · 另3个机构",
+        "search": "Haozhe Zhang Gu Zhang Zirui Zou Haozhe Zhang Gu Zhang Zirui Zou Yuzheng Chen Jinlong Wu Zixuan Hu Jianke Zhang Yucheng Hu Zhecheng Yuan Huazhe Xu Tsinghua University Zhejiang University Nanyang Technological University Hunan University Peking University 清华大学 浙江大学 南洋理工大学 湖南大学 北京大学 清华大学 浙江大学 南洋理工大学 湖南大学 北京大学 Tsinghua University 清华 Tsinghua Tsinghua University 清华大学 Zhejiang University Zhejiang University 浙江大学 Nanyang Technological University Nanyang Technological University 南洋理工大学 Hunan University Hunan University 湖南大学 Peking University Peking University 北京大学",
+        "keys": [
+          "institution-i99065089",
+          "institution-i76130692",
+          "nanyang-technological-university",
+          "hunan-university",
+          "peking-university"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i99065089",
+            "label": "清华大学",
+            "search": "Tsinghua University 清华 Tsinghua Tsinghua University 清华大学"
+          },
+          {
+            "key": "institution-i76130692",
+            "label": "浙江大学",
+            "search": "Zhejiang University Zhejiang University 浙江大学"
+          },
+          {
+            "key": "nanyang-technological-university",
+            "label": "南洋理工大学",
+            "search": "Nanyang Technological University Nanyang Technological University 南洋理工大学"
+          },
+          {
+            "key": "hunan-university",
+            "label": "湖南大学",
+            "search": "Hunan University Hunan University 湖南大学"
+          },
+          {
+            "key": "peking-university",
+            "label": "北京大学",
+            "search": "Peking University Peking University 北京大学"
+          }
+        ],
+        "path": "leaderboard/origins/papers/touchbridge.md"
+      },
+      "scores": {
+        "innovation": 77,
+        "evidence": 76,
+        "reuse": 62,
+        "reading": 84,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 59.4,
+      "score_exact": "59.44",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新77：触觉patch与跨手接触关系改变纯位姿重定向接口，并结合硬件对应、视觉合成和动作坐标；Laplacian图继承TopoRetarget，不能把各部件都算首创。证据76：等量人类/遥操、两项核心消融、仿真接触误差和四任务实机闭环；仅单平台、每任务20次、无跨seed不确定性/未见物体系统测试，未达跨域80+。复用62：明确优化公式、标定与retarget超参可学习，但同款触觉布局和硬件成本高，未定位公开训练实现及完整微调参数。阅读84：清楚区分位姿像、接触对和策略能执行，连接跨本体示范与触觉接口。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40349v1"
+          ],
+          "review_depth": "通读10页v1正文、附录及参考文献；目视1/4/6/7/8/9/10完整页，核触觉与策略接口、回放/闭环/接触误差协议及图中误差条。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新77：触觉patch与跨手接触关系改变纯位姿重定向接口，并结合硬件对应、视觉合成和动作坐标；Laplacian图继承TopoRetarget，不能把各部件都算首创。证据76：等量人类/遥操、两项核心消融、仿真接触误差和四任务实机闭环；仅单平台、每任务20次、无跨seed不确定性/未见物体系统测试，未达跨域80+。复用62：明确优化公式、标定与retarget超参可学习，但同款触觉布局和硬件成本高，未定位公开训练实现及完整微调参数。阅读84：清楚区分位姿像、接触对和策略能执行，连接跨本体示范与触觉接口。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40349v1"
+          ],
+          "review_depth": "通读10页v1正文、附录及参考文献；目视1/4/6/7/8/9/10完整页，核触觉与策略接口、回放/闭环/接触误差协议及图中误差条。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新77：触觉patch与跨手接触关系改变纯位姿重定向接口，并结合硬件对应、视觉合成和动作坐标；Laplacian图继承TopoRetarget，不能把各部件都算首创。证据76：等量人类/遥操、两项核心消融、仿真接触误差和四任务实机闭环；仅单平台、每任务20次、无跨seed不确定性/未见物体系统测试，未达跨域80+。复用62：明确优化公式、标定与retarget超参可学习，但同款触觉布局和硬件成本高，未定位公开训练实现及完整微调参数。阅读84：清楚区分位姿像、接触对和策略能执行，连接跨本体示范与触觉接口。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40349v1"
+          ],
+          "review_depth": "通读10页v1正文、附录及参考文献；目视1/4/6/7/8/9/10完整页，核触觉与策略接口、回放/闭环/接触误差协议及图中误差条。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新77：触觉patch与跨手接触关系改变纯位姿重定向接口，并结合硬件对应、视觉合成和动作坐标；Laplacian图继承TopoRetarget，不能把各部件都算首创。证据76：等量人类/遥操、两项核心消融、仿真接触误差和四任务实机闭环；仅单平台、每任务20次、无跨seed不确定性/未见物体系统测试，未达跨域80+。复用62：明确优化公式、标定与retarget超参可学习，但同款触觉布局和硬件成本高，未定位公开训练实现及完整微调参数。阅读84：清楚区分位姿像、接触对和策略能执行，连接跨本体示范与触觉接口。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.40349v1"
+          ],
+          "review_depth": "通读10页v1正文、附录及参考文献；目视1/4/6/7/8/9/10完整页，核触觉与策略接口、回放/闭环/接触误差协议及图中误差条。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "完整可追溯公开稿60；未核独立技术检验或正式刊会，不因大学/实验室知名提高；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40349v1",
+            "https://arxiv.org/pdf/2610.40349v1",
+            "https://touchbridge2026.github.io/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "已匹配引用来源实测0；本次原文/官方入口与有界网页检索未定位独立研究采用。采用证据量表起点0，不以作者名气、摘要转载或自身对照算独立采用。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40349v1",
+            "https://arxiv.org/pdf/2610.40349v1",
+            "https://touchbridge2026.github.io/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40349?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349",
+            "https://api.openalex.org/works?search=TouchBridge%3A%20Tactile-Conditioned%20Human-to-Robot%20Transfer%20for%20Dexterous%20Manipulation&per-page=5",
+            "https://huggingface.co/api/papers/2610.40349"
+          ],
+          "checked_at": "2026-11-02T09:28:04.048424+08:00",
+          "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "已匹配引用来源实测0；本次原文/官方入口与有界网页检索未定位独立研究采用。采用证据量表起点0，不以作者名气、摘要转载或自身对照算独立采用。",
+              "sources": [
+                "https://arxiv.org/abs/2610.40349v1",
+                "https://arxiv.org/pdf/2610.40349v1",
+                "https://touchbridge2026.github.io/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40349?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349",
+                "https://api.openalex.org/works?search=TouchBridge%3A%20Tactile-Conditioned%20Human-to-Robot%20Transfer%20for%20Dexterous%20Manipulation&per-page=5",
+                "https://huggingface.co/api/papers/2610.40349"
+              ],
+              "checked_at": "2026-11-02T09:28:04.048424+08:00",
+              "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。"
+            },
+            {
+              "method": "citation_log",
+              "score": 0.0,
+              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+              "sources": [
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "reason": "匹配引用当前0，HF单篇upvote实测0；官方项目未展示阅读量或研究代码仓库，未定位单篇可核X/博客计数。本次证据起点0，未知计数仍null。",
+          "sources": [
+            "https://arxiv.org/abs/2610.40349v1",
+            "https://arxiv.org/pdf/2610.40349v1",
+            "https://touchbridge2026.github.io/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40349?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349",
+            "https://api.openalex.org/works?search=TouchBridge%3A%20Tactile-Conditioned%20Human-to-Robot%20Transfer%20for%20Dexterous%20Manipulation&per-page=5",
+            "https://huggingface.co/api/papers/2610.40349"
+          ],
+          "checked_at": "2026-11-02T09:28:04.048424+08:00",
+          "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "reason": "匹配引用当前0，HF单篇upvote实测0；官方项目未展示阅读量或研究代码仓库，未定位单篇可核X/博客计数。本次证据起点0，未知计数仍null。",
+              "sources": [
+                "https://arxiv.org/abs/2610.40349v1",
+                "https://arxiv.org/pdf/2610.40349v1",
+                "https://touchbridge2026.github.io/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40349?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349",
+                "https://api.openalex.org/works?search=TouchBridge%3A%20Tactile-Conditioned%20Human-to-Robot%20Transfer%20for%20Dexterous%20Manipulation&per-page=5",
+                "https://huggingface.co/api/papers/2610.40349"
+              ],
+              "checked_at": "2026-11-02T09:28:04.048424+08:00",
+              "audit_scope": "精确ID/完整标题、原文、官方项目(如有)、S2/OpenAlex、HF；Exa最多5条官方/代码/刊会入口搜索，未核独立采用；无关同名资源排除。"
+            },
+            {
+              "method": "recent_volume_velocity",
+              "score": 0.0,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-11-02",
+                "first_public_date": "2026-10-29",
+                "date_origin": "first_arxiv_submission",
+                "date_precision": "day",
+                "effective_months": 3,
+                "citations_per_month": 0.0,
+                "volume_score": 0.0,
+                "velocity_score": 0.0,
+                "recent_count_kind": "provider_year_counts"
+              },
+              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
+              "sources": [
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349"
+              ]
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "huggingface 的论文专属入口：HF论文upvote=0；按1000上限对数压缩。",
+              "sources": [
+                "https://huggingface.co/api/papers/2610.40349",
+                "https://arxiv.org/abs/2610.40349v1",
+                "https://huggingface.co/papers/2610.40349"
+              ],
+              "snapshot": {
+                "url": "https://huggingface.co/papers/2610.40349",
+                "platform": "huggingface",
+                "metric": "upvotes",
+                "count": 0,
+                "checked_at": "2026-11-02T09:22:58.204593+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-29",
+                "window_end": "2026-11-02",
+                "label": "HF论文upvote",
+                "window_label": "截至2026-11-02单篇快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "touchbridge",
+        "checked_at": "2026-11-02T09:22:58.204439+08:00",
+        "status": "matched",
+        "provider": "OpenAlex",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349",
+        "match_note": "精确DOI、完整标题、2026年与原文作者逐一匹配。 S2精确ID返回429；按既定选源顺序采用OpenAlex，而非把失败写成零引用。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.40349?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.40349",
+          "https://api.openalex.org/works?search=TouchBridge%3A%20Tactile-Conditioned%20Human-to-Robot%20Transfer%20for%20Dexterous%20Manipulation&per-page=5"
+        ],
+        "edition": "arXiv 2610.40349v1; 10.48550/arXiv.2610.40349",
+        "matched_id": "https://openalex.org/W7224927844",
+        "recent_count_basis": "当前匹配来源累计引用实测0，因此窗口引用为0；未把索引延迟解释成长期无人引用。",
+        "matched_title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
+        "record_url": "https://openalex.org/W7224927844"
+      },
+      "social": {
+        "checked_at": "2026-11-02T09:28:04.048424+08:00",
+        "resources": [
+          {
+            "platform": "huggingface",
+            "resource_kind": "paper",
+            "id": "2610.40349",
+            "url": "https://huggingface.co/papers/2610.40349",
+            "api_url": "https://huggingface.co/api/papers/2610.40349",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "identity_basis": "精确arXiv ID、标题、10位作者与原文一致。",
+            "sources": [
+              "https://huggingface.co/api/papers/2610.40349",
+              "https://arxiv.org/abs/2610.40349v1"
+            ],
+            "created_at": "2026-10-29T16:06:36.000Z",
+            "metrics": [
+              {
+                "metric": "upvotes",
+                "count": 0,
+                "checked_at": "2026-11-02T09:22:58.204593+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-29",
+                "window_end": "2026-11-02",
+                "label": "HF论文upvote",
+                "window_label": "截至2026-11-02单篇快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            ],
+            "limitations": [
+              "linkedModels/Datasets/Spaces为空仅是此索引状态，不证明全网无资源。"
+            ]
+          },
+          {
+            "platform": "project",
+            "url": "https://touchbridge2026.github.io/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2610.40349v1",
+              "https://arxiv.org/pdf/2610.40349v1",
+              "https://touchbridge2026.github.io/"
+            ],
+            "metrics": [],
+            "raw_page_views": null,
+            "availability_note": "官方项目正文与演示可访问，未展示可核阅读计数；版权行说网页模板开放，不证明研究实现已开放。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "原文/官方项目、精确标题与ID有界网页检索及S2/OpenAlex/HF回读；未定位独立技术采用。未知GitHub/X/博客单篇计数仍null，不以作者账号粉丝或聚合目录代替。",
+        "unavailable_metrics": {
+          "github_stars": null,
+          "github_subscribers": null,
+          "github_forks": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        }
+      },
+      "editorial": {
+        "checked_at": "2026-11-02",
+        "scores": {
+          "innovation": 77,
+          "evidence": 76,
+          "reuse": 62,
+          "reading": 84
+        },
+        "mechanism": "TouchBridge让人类手套和Wuji灵巧手共享指尖触觉布局及腕相机视角。Tac-Retarget联合优化两手基座SE(3)与关节，匹配指尖位姿、触觉加权接触中心及活跃taxel支撑，并沿用TopoRetarget的距离加权Laplacian思想建立触觉激活的双手接触图。接触时减弱位姿跟踪，并用响应相关几何位移补偿顺应性。SAM2/ProPainter移除人手、渲染机器人外观，固定场景AprilTag消除头部相机运动后转换动作，用转换后的视觉/状态动作微调GR00T N1.7。触觉只服务离线重定向，不输入运行策略。",
+        "reason": "创新77：触觉patch与跨手接触关系改变纯位姿重定向接口，并结合硬件对应、视觉合成和动作坐标；Laplacian图继承TopoRetarget，不能把各部件都算首创。证据76：等量人类/遥操、两项核心消融、仿真接触误差和四任务实机闭环；仅单平台、每任务20次、无跨seed不确定性/未见物体系统测试，未达跨域80+。复用62：明确优化公式、标定与retarget超参可学习，但同款触觉布局和硬件成本高，未定位公开训练实现及完整微调参数。阅读84：清楚区分位姿像、接触对和策略能执行，连接跨本体示范与触觉接口。",
+        "review_depth": "通读10页v1正文、附录及参考文献；目视1/4/6/7/8/9/10完整页，核触觉与策略接口、回放/闭环/接触误差协议及图中误差条。 本次是有证据初读筛选，不是已写完整公开精讲，也未执行代码复现"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.40349v1",
+        "checked_at": "2026-11-02",
+        "profile": null
+      },
+      "rank": 124
     },
     {
       "id": "world2vec",
@@ -57089,7 +57776,7 @@
         "checked_at": "2026-10-31",
         "profile": null
       },
-      "rank": 123
+      "rank": 125
     }
   ]
 }
