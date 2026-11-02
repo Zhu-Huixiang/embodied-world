@@ -24,7 +24,7 @@ OpenVLA 正式原文明确融合 DINOv2 与 SigLIP 特征，具身用途已由�
 
 具身关联：OpenVLA 正式原文明确融合 DINOv2 与 SigLIP 特征，具身用途已由下游原文核实；数据筛选和冻结特征迁移值得精讲。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/dinov2-2304.07193/README.md)
 
 [知识星系](../universe/papers/dinov2.md) · [七维评分与雷达](../leaderboard/papers/dinov2/README.md) · [TMLR集锦](../venues/TMLR/README.md) · [地图方向](../paper-map/README.md#track-embodied-perception) · [首页](../README.md)
 

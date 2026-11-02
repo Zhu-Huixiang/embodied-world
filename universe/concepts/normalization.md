@@ -9,10 +9,12 @@ CLIP 两路各投影到共享空间后再归一化；B/32 示例是 N×512。
 ## 在完整解读里看计算与例子
 
 - [CLIP：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/clip-2103.00020/README.md#22-训练目标完整写一句话负担有点重)
+- [DINOv2：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#45-koleo-与高分辨率让特征分得开也看得细)
 
 ## 哪些论文用到或讨论它
 
 - [CLIP](../papers/clip.md) · 已精讲 · [原文](https://proceedings.mlr.press/v139/radford21a.html)
+- [DINOv2](../papers/dinov2.md) · 已精讲 · [原文](https://openreview.net/forum?id=a68SUt6zFt)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

@@ -10,9 +10,9 @@ Emerging Properties in Self-Supervised Vision Transformers
 
 ## 技术挂点
 
-- [教师学生蒸馏](../concepts/distill.md)：用教师的预测或动作监督学生，让部署模型复制可用行为。 [本篇的具体讲解](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#34-d-区老师慢一点训练才有个相对稳的目标)
+- [教师学生蒸馏](../concepts/distill.md)：用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。 [本篇的具体讲解](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#34-d-区老师慢一点训练才有个相对稳的目标)
 
-- [交叉熵](../concepts/cross-entropy.md)：正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。 [本篇的具体讲解](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#33-c-区把分数变分布再跨视图对答案)
+- [交叉熵](../concepts/cross-entropy.md)：用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。 [本篇的具体讲解](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#33-c-区把分数变分布再跨视图对答案)
 
 - [表征空间](../concepts/representation.md)：把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。 [本篇的具体讲解](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#32-b-区骨干负责看投影头负责训练对齐)
 

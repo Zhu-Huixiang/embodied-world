@@ -209,7 +209,7 @@
 | [An Image is Worth 16x16 Words](../articles/vit-2010.11929/README.md) · [ICLR 2021](../venues/ICLR/README.md) | 一张图怎样变成 token 序列，机器人策略拿到的视觉特征来自哪一步？ |
 | [Learning Transferable Visual Models From Natural Language Supervision](../articles/clip-2103.00020/README.md) · [ICML 2021](../venues/ICML/README.md) | 图像和一句指令怎样对齐，语义相似为什么还不能直接给出抓取位置？ |
 | [Emerging Properties in Self-Supervised Vision Transformers](../articles/dino-2104.14294/README.md) · [ICCV 2021](../venues/ICCV/README.md) | 没有人工标签，教师与学生互相对齐怎么还能长出物体边界？ |
-| [DINOv2](../library/dinov2.md) · [TMLR 2024](../venues/TMLR/README.md) | 机器人视觉编码器冻结以后，哪些几何和语义信息还能留在 patch 特征里？ |
+| [DINOv2](../articles/dinov2-2304.07193/README.md) · [TMLR 2024](../venues/TMLR/README.md) | 机器人视觉编码器冻结以后，哪些几何和语义信息还能留在 patch 特征里？ |
 | [Masked Autoencoders Are Scalable Vision Learners](../articles/mae-2111.06377/README.md) · [CVPR 2022](../venues/CVPR/README.md) | 遮住四分之三的图像后还原像素，怎样帮助机器人把预训练视觉特征用于控制？ |
 | [Segment Anything](../articles/sam-2304.02643/README.md) · [ICCV 2023](../venues/ICCV/README.md) | 给视觉系统一个点或框，它怎样找到目标轮廓，哪些信息还需要控制策略来补？ |
 | [SAM 2](../articles/sam2-2408.00714/README.md) · [ICLR 2025](../venues/ICLR/README.md) | 目标在机器人视野里移动、遮挡后重现，过去的掩码记忆怎样帮它跟住对象？ |

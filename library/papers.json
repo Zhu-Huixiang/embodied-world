@@ -2236,7 +2236,9 @@
       "classic_exception_reason": null,
       "embodied_relevance": "OpenVLA 正式原文明确融合 DINOv2 与 SigLIP 特征，具身用途已由下游原文核实；数据筛选和冻结特征迁移值得精讲。",
       "evidence_summary": "广泛冻结特征评估、数据与规模设计及开放权重形成很强复用价值；与机器人策略的连接由 OpenVLA 原文确认。",
-      "selection_window": "2021-10-10/2026-10-10"
+      "selection_window": "2021-10-10/2026-10-10",
+      "article_slug": "dinov2-2304.07193",
+      "editorial_status_label": "完整解读"
     },
     {
       "id": "mae",

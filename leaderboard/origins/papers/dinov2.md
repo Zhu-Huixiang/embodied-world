@@ -48,7 +48,7 @@ Maxime Oquab、Timothée Darcet、Théo Moutakanni、Huy Vo、Marc Szafraniec、
 
 </details>
 
-[论文导读 / 完整解读](../../../library/dinov2.md) · [七维评分](../../papers/dinov2/README.md) · [原文](https://openreview.net/forum?id=a68SUt6zFt)
+[论文导读 / 完整解读](../../../articles/dinov2-2304.07193/README.md) · [七维评分](../../papers/dinov2/README.md) · [原文](https://openreview.net/forum?id=a68SUt6zFt)
 
 ## 署名来源
 

@@ -27,6 +27,7 @@
 - [DDPM：只学预测噪声，怎么就能画画了？](articles/ddpm-2006.11239/README.md)
 - [Diffusion Policy：动作也能靠去噪生成？](articles/diffusion-policy-2303.04137/README.md)
 - [DINO：没人教它认狗，注意力却把狗圈了出来？](articles/dino-2104.14294/README.md)
+- [DINOv2：不靠文字，怎样练出一套可复用的视觉特征？](articles/dinov2-2304.07193/README.md)
 - [DiT：扩散画图，非得长一张 U-Net 的脸吗？](articles/dit-2212.09748/README.md)
 - [DreamerV3：脑内练习，怎么没练成“幻想高手”？](articles/dreamerv3-2301.04104/README.md)
 - [3DGS：不用沿光线慢慢找，撒一把椭球就能画？](articles/gaussian-splatting-2308.04079/README.md)
@@ -53,7 +54,7 @@
 - [强化学习](directions/reinforcement-learning.md)（3 篇）
 - [运动控制与 Locomotion](directions/locomotion.md)（2 篇）
 - [Manipulation](directions/manipulation.md)（4 篇）
-- [Diffusion / Transformer](directions/diffusion-transformer.md)（9 篇）
+- [Diffusion / Transformer](directions/diffusion-transformer.md)（10 篇）
 
 ## 一起读，也一起纠错
 

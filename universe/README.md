@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-125 篇论文是恒星，各自有自己的知识行星与卫星：共 1100 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 19 篇有完整解读，469 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+125 篇论文是恒星，各自有自己的知识行星与卫星：共 1150 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 20 篇有完整解读，523 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -46,7 +46,7 @@
 | [Diffusion Forcing](papers/diffusion-forcing.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [因果序列建模](concepts/causal.md) · [视频时序生成](concepts/video.md) |
 | [Diffusion Policy](papers/diffusion-policy.md) | 已精讲 | [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) · [闭环滚动与历史偏移](concepts/rollout.md) · [示范模仿](concepts/imitation.md) · [机器人数据与评测](concepts/data.md) · [注意力](concepts/attention.md) |
 | [DINO](papers/dino.md) | 已精讲 | [教师学生蒸馏](concepts/distill.md) · [交叉熵](concepts/cross-entropy.md) · [表征空间](concepts/representation.md) · [softmax 与温度](concepts/softmax.md) · [注意力](concepts/attention.md) · [视觉 patch token](concepts/patches.md) · [空间表示](concepts/spatial.md) · [线性探测](concepts/linear-probe.md) |
-| [DINOv2](papers/dinov2.md) | 导读 | [教师学生蒸馏](concepts/distill.md) · [视觉 patch token](concepts/patches.md) · [表征空间](concepts/representation.md) |
+| [DINOv2](papers/dinov2.md) | 已精讲 | [教师学生蒸馏](concepts/distill.md) · [视觉 patch token](concepts/patches.md) · [表征空间](concepts/representation.md) · [向量归一化](concepts/normalization.md) · [余弦相似度](concepts/cosine.md) · [交叉熵](concepts/cross-entropy.md) · [softmax 与温度](concepts/softmax.md) · [线性探测](concepts/linear-probe.md) · [分布偏移](concepts/shift.md) · [Transformer](concepts/transformer.md) · [注意力](concepts/attention.md) · [遮蔽预测](concepts/masking.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [DiT](papers/dit.md) | 已精讲 | [Diffusion Transformer](concepts/dit.md) · [视觉 patch token](concepts/patches.md) · [注意力](concepts/attention.md) · [扩散去噪](concepts/diffusion.md) · [条件生成](concepts/generation.md) |
 | [DP3](papers/dp3.md) | 导读 | [点云与三维体素](concepts/point-cloud.md) · [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) |
 | [Dreamer](papers/dreamer.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [策略与价值学习](concepts/actor-critic.md) |

@@ -4,8 +4,10 @@
 
 512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。
 
-继续拆：[教师学生蒸馏](distill.md)。
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#1-引言一套特征能不能少为每个任务重练一次)
+
+继续拆：[教师学生蒸馏](distill.md) · [线性探测](linear-probe.md) · [分布偏移](shift.md) · [遮蔽预测](masking.md)。
 
 [跨论文技术入口](../../concepts/representation.md)
 
-[本篇星系](../dinov2.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/dinov2.md) · [原文依据](https://openreview.net/forum?id=a68SUt6zFt)
+[本篇星系](../dinov2.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md) · [原文依据](https://openreview.net/forum?id=a68SUt6zFt)

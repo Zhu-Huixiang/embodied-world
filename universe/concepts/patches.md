@@ -10,6 +10,7 @@ CLIP B/32 的 224×224 图像得到 49 个图块，加 CLS 共 50 个视觉位�
 
 - [CLIP：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/clip-2103.00020/README.md#23-模型两边各自干活最后才对答案)
 - [DINO：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#52-图块变小参数没涨账单照涨)
+- [DINOv2：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#41-图像怎样变成-token)
 - [DiT：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dit-2212.09748/README.md#32-设计空间patchify-怎么切)
 - [MAE：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/mae-2111.06377/README.md#31-a-区随机藏起来位置仍然留着)
 - [SAM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam-2304.02643/README.md#31-a-区大图压成一张可反复查询的特征地图)
@@ -22,7 +23,7 @@ CLIP B/32 的 224×224 图像得到 49 个图块，加 CLS 共 50 个视觉位�
 - [ViT](../papers/vit.md) · 已精讲 · [原文](https://iclr.cc/virtual/2021/poster/3013)
 - [CLIP](../papers/clip.md) · 已精讲 · [原文](https://proceedings.mlr.press/v139/radford21a.html)
 - [DINO](../papers/dino.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)
-- [DINOv2](../papers/dinov2.md) · 机制导读 · [原文](https://openreview.net/forum?id=a68SUt6zFt)
+- [DINOv2](../papers/dinov2.md) · 已精讲 · [原文](https://openreview.net/forum?id=a68SUt6zFt)
 - [MAE](../papers/mae.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html)
 - [SAM](../papers/sam.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
 - [world2vec](../papers/world2vec.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40637v1)

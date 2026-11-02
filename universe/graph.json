@@ -642,13 +642,23 @@
       "subtitle": "DINOv2: Learning Robust Visual Features without Supervision",
       "track": "embodied-perception",
       "track_label": "具身感知与场景表示",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/dinov2.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md",
       "concepts": [
         "distill",
         "patches",
-        "representation"
+        "representation",
+        "normalization",
+        "cosine",
+        "cross-entropy",
+        "softmax",
+        "linear-probe",
+        "shift",
+        "transformer",
+        "attention",
+        "masking",
+        "benchmark"
       ],
       "scope": "mechanism",
       "source_url": "https://openreview.net/forum?id=a68SUt6zFt"
@@ -2534,6 +2544,10 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#32-b-区骨干负责看投影头负责训练对齐"
         },
         {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#1-引言一套特征能不能少为每个任务重练一次"
+        },
+        {
           "paper": "gaussian-splatting",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/gaussian-splatting-2308.04079/README.md#41-b-区一个高斯不是一颗固定圆球"
         },
@@ -2603,12 +2617,17 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/normalization.md",
       "papers": [
-        "clip"
+        "clip",
+        "dinov2"
       ],
       "explainers": [
         {
           "paper": "clip",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/clip-2103.00020/README.md#22-训练目标完整写一句话负担有点重"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#45-koleo-与高分辨率让特征分得开也看得细"
         }
       ]
     },
@@ -2625,12 +2644,17 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/cosine.md",
       "papers": [
         "clip",
+        "dinov2",
         "jam"
       ],
       "explainers": [
         {
           "paper": "clip",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/clip-2103.00020/README.md#22-训练目标完整写一句话负担有点重"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#3-数据处理样本变多之前先看覆盖有没有变"
         }
       ]
     },
@@ -2639,8 +2663,8 @@
       "key": "cross-entropy",
       "kind": "concept",
       "title": "交叉熵",
-      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
-      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
       "parent": "contrastive",
       "depth": 2,
       "lit": true,
@@ -2651,6 +2675,7 @@
         "attention",
         "clip",
         "dino",
+        "dinov2",
         "sam2"
       ],
       "explainers": [
@@ -2665,6 +2690,10 @@
         {
           "paper": "dino",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#33-c-区把分数变分布再跨视图对答案"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#42-dino不同裁剪对齐整图判断"
         },
         {
           "paper": "muzero",
@@ -2694,7 +2723,8 @@
       "papers": [
         "attention",
         "clip",
-        "dino"
+        "dino",
+        "dinov2"
       ],
       "explainers": [
         {
@@ -2708,6 +2738,10 @@
         {
           "paper": "dino",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#33-c-区把分数变分布再跨视图对答案"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#7-结果冻结特征不等于免训练"
         }
       ]
     },
@@ -2779,6 +2813,7 @@
         "vit",
         "clip",
         "dino",
+        "dinov2",
         "mae"
       ],
       "explainers": [
@@ -2789,6 +2824,10 @@
         {
           "paper": "dino",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#41-最普通的分类读出方式却要分清"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
         },
         {
           "paper": "mae",
@@ -2813,6 +2852,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/shift.md",
       "papers": [
         "clip",
+        "dinov2",
         "sam2",
         "jam",
         "tops",
@@ -2822,6 +2862,10 @@
         {
           "paper": "clip",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/clip-2103.00020/README.md#34-换场景香蕉一变成素描就不认识了"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
         },
         {
           "paper": "sam2",
@@ -2956,6 +3000,7 @@
         "act",
         "rt1",
         "attention",
+        "dinov2",
         "sam2",
         "gar",
         "world2vec",
@@ -2969,6 +3014,10 @@
         {
           "paper": "attention",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/attention-1706.03762/README.md#31-编码器与解码器两列各六层"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#41-图像怎样变成-token"
         },
         {
           "paper": "rt1",
@@ -3004,6 +3053,7 @@
         "attention",
         "vit",
         "dino",
+        "dinov2",
         "mae",
         "sam",
         "sam2",
@@ -3032,6 +3082,10 @@
         {
           "paper": "dino",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#42-表示的新性质从找同类到找物体"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#51-计算工程怎样改变可训练规模"
         },
         {
           "paper": "dit",
@@ -3130,6 +3184,10 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#52-图块变小参数没涨账单照涨"
         },
         {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#41-图像怎样变成-token"
+        },
+        {
           "paper": "dit",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dit-2212.09748/README.md#32-设计空间patchify-怎么切"
         },
@@ -3161,12 +3219,17 @@
       "papers": [
         "vc1",
         "maskedmimic",
+        "dinov2",
         "mae",
         "phenaki",
         "i-jepa",
         "hover"
       ],
       "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#43-ibot遮住局部对齐对应位置"
+        },
         {
           "paper": "mae",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/mae-2111.06377/README.md#31-a-区随机藏起来位置仍然留着"
@@ -3178,8 +3241,8 @@
       "key": "distill",
       "kind": "concept",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent": "representation",
       "depth": 1,
       "lit": true,
@@ -3199,6 +3262,10 @@
         {
           "paper": "dino",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#34-d-区老师慢一点训练才有个相对稳的目标"
+        },
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#52-蒸馏时教师的更新规则变了"
         }
       ]
     },
@@ -4282,6 +4349,7 @@
         "libero",
         "robocasa",
         "vc1",
+        "dinov2",
         "sam2",
         "jam",
         "tops",
@@ -4292,6 +4360,10 @@
         "jedi"
       ],
       "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
+        },
         {
           "paper": "sam2",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#62-只在第一帧给提示还能传多远"
@@ -4996,8 +5068,8 @@
       "paper": "agile-flight",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "paper:agile-flight",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/agile-flight/distill.md",
@@ -5436,8 +5508,8 @@
       "paper": "attention",
       "canonical": "cross-entropy",
       "title": "交叉熵",
-      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
-      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
       "parent_node": "paper:attention",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/attention/cross-entropy.md",
@@ -5881,8 +5953,8 @@
       "paper": "balanced-data-diet",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "paper:balanced-data-diet",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/balanced-data-diet/distill.md",
@@ -6151,8 +6223,8 @@
       "paper": "clip",
       "canonical": "cross-entropy",
       "title": "交叉熵",
-      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
-      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
       "parent_node": "local:clip:contrastive",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/clip/cross-entropy.md",
@@ -9346,8 +9418,8 @@
       "paper": "dino",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "local:dino:representation",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dino/distill.md",
@@ -9366,8 +9438,8 @@
       "paper": "dino",
       "canonical": "cross-entropy",
       "title": "交叉熵",
-      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
-      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
       "parent_node": "paper:dino",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dino/cross-entropy.md",
@@ -9746,13 +9818,18 @@
       "paper": "dinov2",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "local:dinov2:representation",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/distill.md",
       "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#52-蒸馏时教师的更新规则变了"
+        }
+      ]
     },
     {
       "id": "local:dinov2:patches",
@@ -9763,11 +9840,16 @@
       "title": "视觉 patch token",
       "subtitle": "把图像切成块，展平并投影成向量，再加入位置信息。",
       "detail": "CLIP B/32 的 224×224 图像得到 49 个图块，加 CLS 共 50 个视觉位置。",
-      "parent_node": "paper:dinov2",
-      "lit": false,
+      "parent_node": "local:dinov2:transformer",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/patches.md",
       "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#41-图像怎样变成-token"
+        }
+      ]
     },
     {
       "id": "local:dinov2:representation",
@@ -9779,10 +9861,215 @@
       "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
       "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
       "parent_node": "paper:dinov2",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/representation.md",
       "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#1-引言一套特征能不能少为每个任务重练一次"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:normalization",
+      "key": "normalization",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "normalization",
+      "title": "向量归一化",
+      "subtitle": "把向量除以自己的 L2 长度，得到单位向量。点积随后比较方向，减少向量大小的干扰。",
+      "detail": "CLIP 两路各投影到共享空间后再归一化；B/32 示例是 N×512。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/normalization.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#45-koleo-与高分辨率让特征分得开也看得细"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:cosine",
+      "key": "cosine",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "cosine",
+      "title": "余弦相似度",
+      "subtitle": "两个向量点积再除以各自长度。单位向量的点积直接等于余弦相似度。",
+      "detail": "它衡量方向接近，不自动代表物体位置相同或图片身份相同。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/cosine.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#3-数据处理样本变多之前先看覆盖有没有变"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:cross-entropy",
+      "key": "cross-entropy",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "cross-entropy",
+      "title": "交叉熵",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/cross-entropy.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#42-dino不同裁剪对齐整图判断"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:softmax",
+      "key": "softmax",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "softmax",
+      "title": "softmax 与温度",
+      "subtitle": "对候选分数取指数后归一化为总和为 1 的概率。温度控制分差如何影响概率。",
+      "detail": "温度改变概率集中程度；候选集合也会改变概率分母。",
+      "parent_node": "local:dinov2:cross-entropy",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/softmax.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#7-结果冻结特征不等于免训练"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:linear-probe",
+      "key": "linear-probe",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "linear-probe",
+      "title": "线性探测",
+      "subtitle": "冻结编码器，用带标签的下游样本训练线性预测头，以检查特征本身是否容易迁移。",
+      "detail": "要分清读取投影前特征还是归一化图文向量。",
+      "parent_node": "local:dinov2:representation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/linear-probe.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:shift",
+      "key": "shift",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "shift",
+      "title": "分布偏移",
+      "subtitle": "测试场景的画风、视角、背景或对象组合发生变化，模型习惯的视觉线索随之改变。",
+      "detail": "CLIP Fig.7 横向匹配常规分数，再看偏移分布的高度。",
+      "parent_node": "local:dinov2:representation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/shift.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/transformer.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#41-图像怎样变成-token"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "local:dinov2:transformer",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/attention.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#51-计算工程怎样改变可训练规模"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:masking",
+      "key": "masking",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "masking",
+      "title": "遮蔽预测",
+      "subtitle": "隐藏部分输入，训练模型恢复像素、token 或表征。恢复什么决定监督重点。",
+      "detail": "MAE 恢复像素，JEPA 类方法预测表征。",
+      "parent_node": "local:dinov2:representation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/masking.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#43-ibot遮住局部对齐对应位置"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "dinov2",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/benchmark.md",
+      "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
+        }
+      ]
     },
     {
       "id": "local:dinov2:method-chain",
@@ -9793,11 +10080,816 @@
       "subtitle": "在大规模筛选图像上扩展图像级与 patch 级自监督学习，再把大 ViT 教师蒸馏为不同尺寸的编码器。下游可以冻结 backbone，用轻量预测头读取分类、分割或深度相关信息。原文比较多种图像与像素任务；OpenVLA 的视觉输入实际将 DINOv2 特征与 SigLIP 特征拼接后映射给语言模型。",
       "detail": "在大规模筛选图像上扩展图像级与 patch 级自监督学习，再把大 ViT 教师蒸馏为不同尺寸的编码器。下游可以冻结 backbone，用轻量预测头读取分类、分割或深度相关信息。原文比较多种图像与像素任务；OpenVLA 的视觉输入实际将 DINOv2 特征与 SigLIP 特征拼接后映射给语言模型。",
       "parent_node": "paper:dinov2",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/method-chain.md",
       "source_url": "https://openreview.net/forum?id=a68SUt6zFt",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#4-方法判别式自监督怎样兼顾整图与局部"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:frozen-features",
+      "key": "frozen-features",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "冻结视觉骨干的目标",
+      "subtitle": "预训练后的图像编码器保持参数不变，图像级和图块级输出支持不同视觉任务。",
+      "detail": "冻结表示降低每个下游任务改动大骨干的需要；分类、分割和深度头仍从各自任务标签学习。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/frozen-features.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§1 pp1–3; §7 p11",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#1-引言一套特征能不能少为每个任务重练一次"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:caption-detail",
+      "key": "caption-detail",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "配文与像素信息的取舍",
+      "subtitle": "图文对齐用文字提供语义目标，配文可能遗漏空间细节与对象部件。",
+      "detail": "这是DINOv2选择仅图像自监督的动机，不是证明所有语言监督视觉模型都无法保留空间信息。",
+      "parent_node": "local:dinov2:frozen-features",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/caption-detail.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§1–2 pp1–4",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#2-相关工作从猜像素走到对齐特征"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:curated-retrieval",
+      "key": "curated-retrieval",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "靠视觉检索整理训练集",
+      "subtitle": "利用已整理图像域提供查询，从海量图像池检索相关但更多样的图像。",
+      "detail": "视觉检索器是ImageNet22k自监督训练的ViT-H/16。没有类别预测损失与没有数据域先验是不同主张。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/curated-retrieval.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§3 pp4–5; Fig3",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#3-数据处理样本变多之前先看覆盖有没有变"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:deduplication",
+      "key": "deduplication",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "先去重再扩展覆盖",
+      "subtitle": "近重复检测在图像相似度图上保留连通分量代表，并去掉与评测数据过近的图像。",
+      "detail": "附录使用近邻图和连通分量去重；相对参考数据的去重减少直接复制带来的虚高，但不等于排除全部目标域先验。",
+      "parent_node": "local:dinov2:curated-retrieval",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/deduplication.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "Appendix A.3 p29",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#3-数据处理样本变多之前先看覆盖有没有变"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:sample-retrieval",
+      "key": "sample-retrieval",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "大图像域逐样本取近邻",
+      "subtitle": "ImageNet22k和GLDv2每图检索4张近邻，ImageNet1k train每图检索32张。",
+      "detail": "这一配额使后者构成重要来源。最终集还含ImageNet22k等直接加入的图像，不能把全部142M描述为统一每图取4近邻。",
+      "parent_node": "local:dinov2:curated-retrieval",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/sample-retrieval.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "Appendix A.4/Table15 pp29–30",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#3-数据处理样本变多之前先看覆盖有没有变"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:cluster-retrieval",
+      "key": "cluster-retrieval",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "小数据域按簇扩充并封顶",
+      "subtitle": "图像池分为十万簇，从小种子集覆盖的簇抽样，再限制每个数据域的最终数量。",
+      "detail": "图像池分为十万簇，按查询覆盖选簇再采样，为小数据域限制最终取样量，避免某次检索主导整体配比。",
+      "parent_node": "local:dinov2:curated-retrieval",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/cluster-retrieval.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "Appendix A.4 p29",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#3-数据处理样本变多之前先看覆盖有没有变"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:dataset-roles",
+      "key": "dataset-roles",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "预训练、检索种子与评测分开",
+      "subtitle": "一个数据集可以不以原图加入预训练，却仍参与检索和分布选择。",
+      "detail": "Table18标出各角色；SUN RGB-D参与检索，NYUd→SUN深度迁移说的是监督读出头迁移，不能据此宣称整个预训练没见过该域。",
+      "parent_node": "local:dinov2:curated-retrieval",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/dataset-roles.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "Table18 p32; §7.4",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#3-数据处理样本变多之前先看覆盖有没有变"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:patch-cls",
+      "key": "patch-cls",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "一个整图token和一组局部token",
+      "subtitle": "ViT将图像分块编码，CLS用于整图读出，patch token保留位置对应的局部特征。",
+      "detail": "224方形输入和patch14对应256个patch，加CLS共257个token；ViT-g特征宽1536，维度是从论文设置展开的计算。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/patch-cls.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§5 pp6–7; Table17 p31",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#41-图像怎样变成-token"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:dino-image-loss",
+      "key": "dino-image-loss",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "跨裁切匹配整图分布",
+      "subtitle": "DINO头把CLS映成原型概率，student去匹配同图其他裁切的teacher分布。",
+      "detail": "交叉熵的目标是teacher软分布，不是人工类别名；预训练投影头与后续分类头用途不同。",
+      "parent_node": "local:dinov2:patch-cls",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/dino-image-loss.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§4 Image-level objective p5",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#42-dino不同裁剪对齐整图判断"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:ibot-patch-loss",
+      "key": "ibot-patch-loss",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "遮挡图块预测teacher特征",
+      "subtitle": "iBOT在student遮挡位置预测未遮挡teacher对应patch的原型分布。",
+      "detail": "iBOT保留位置对应的监督，让局部表示承担读出任务；预测对象是特征分布，不是RGB像素重建。",
+      "parent_node": "local:dinov2:patch-cls",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/ibot-patch-loss.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§4 Patch-level objective pp5–6",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#43-ibot遮住局部对齐对应位置"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:untied-heads",
+      "key": "untied-heads",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "图像头和图块头分开",
+      "subtitle": "图像CLS目标与patch目标使用独立MLP投影头。",
+      "detail": "头权重分开避免把两种目标的映射硬绑在一起；作者是在规模化设置中观察其效果，不声称这是所有规模的定理。",
+      "parent_node": "local:dinov2:ibot-patch-loss",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/untied-heads.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§4 Untying heads p6; Table1",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#43-ibot遮住局部对齐对应位置"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:ema-teacher",
+      "key": "ema-teacher",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "参数平均产生缓慢teacher",
+      "subtitle": "teacher由student参数的指数滑动平均更新，不用同一交叉熵再直接反传。",
+      "detail": "每步结束更新，动量从0.994余弦升至1。目标变化比即时student缓慢；固定大teacher蒸馏是后续另一阶段。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/ema-teacher.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "Appendix B.1 p31; §4",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#44-ema-与-sinkhorn目标怎样跟着学又不挤成一团"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:sinkhorn",
+      "key": "sinkhorn",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "批内原型分配的归一化",
+      "subtitle": "teacher使用三轮Sinkhorn-Knopp得到目标分布，student端用softmax。",
+      "detail": "它替代teacher的softmax-centering环节；不能把SK与旧EMA-centering画成必须串联的两次处理。",
+      "parent_node": "local:dinov2:ema-teacher",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/sinkhorn.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§4 Sinkhorn-Knopp p6",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#44-ema-与-sinkhorn目标怎样跟着学又不挤成一团"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:koleo",
+      "key": "koleo",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "让同批特征保持展开",
+      "subtitle": "对单位化CLS取最近邻距离的负对数平均，距离越小惩罚越大。",
+      "detail": "正则只在每块GPU内首个global crop的样本之间计算，权重0.1；它没有直接要求人为类别均匀分布。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/koleo.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§4 p6; Appendix B.1 p29",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#45-koleo-与高分辨率让特征分得开也看得细"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:high-res-tail",
+      "key": "high-res-tail",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "末段提高图像分辨率",
+      "subtitle": "主训练后短时使用518方形图像适配细节密集的读出任务。",
+      "detail": "Appendix B.2给10k步；Fig6另以ViT-L/16和416分辨率做成本消融，二者是不同配置。",
+      "parent_node": "local:dinov2:patch-cls",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/high-res-tail.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§4 p6; Appendix B.2 p31; Fig6",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#45-koleo-与高分辨率让特征分得开也看得细"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:packed-attention",
+      "key": "packed-attention",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "打包序列却隔开注意力",
+      "subtitle": "将长短裁切序列合并处理，用块对角mask阻止不同序列相互读取。",
+      "detail": "这种打包改变计算组织，保持每个序列独立前向的结果；它不是让同batch所有图共享内容。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/packed-attention.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§5 Sequence packing pp6–7",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#51-计算工程怎样改变可训练规模"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:stochastic-depth",
+      "key": "stochastic-depth",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "被丢弃分支不再白算",
+      "subtitle": "高随机深度时真正跳过丢弃残差的计算，而非算完再乘零。",
+      "detail": "从头训练drop-rate0.4；实施中随机打乱batch并选取参与该块计算的样本，节省对应计算与内存。",
+      "parent_node": "local:dinov2:packed-attention",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/stochastic-depth.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§5 Efficient stochastic depth p7; Table16",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#51-计算工程怎样改变可训练规模"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:fsdp",
+      "key": "fsdp",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "分片训练状态",
+      "subtitle": "student、teacher与优化器状态在多个GPU间分片，降低单卡驻留负担。",
+      "detail": "骨干权重广播和梯度归约用float16，投影头梯度float32稳定训练；训练成本与最终推理成本分开。",
+      "parent_node": "local:dinov2:packed-attention",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/fsdp.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§5 FSDP p7",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#51-计算工程怎样改变可训练规模"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:fixed-teacher-distill",
+      "key": "fixed-teacher-distill",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "用冻结巨型teacher训练小模型",
+      "subtitle": "小模型训练阶段把ViT-g固定，student学习其分布，最终使用student EMA。",
+      "detail": "移除遮挡和stochastic depth，但iBOT损失仍在两个global crops上使用；不能把小模型蒸馏画成仅CLS监督。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/fixed-teacher-distill.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§5 Model distillation p7",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#52-蒸馏时教师的更新规则变了"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:recipe-ablation",
+      "key": "recipe-ablation",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "配方改善不等于每项指标都涨",
+      "subtitle": "Table1逐项加入稳定性、原型数、正则与调度，分别检查kNN和linear表现。",
+      "detail": "ImageNet22k/ViT-L消融从iBOT72.9/82.3到DINOv2的82.0/84.5；个别组件提高稳定性或kNN，却降低linear。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/recipe-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§6.1/Table1 pp7–8",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#61-训练配方稳定性也会影响最终结果"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:data-ablation",
+      "key": "data-ablation",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "同规模随机数据仍可能差一截",
+      "subtitle": "Table2在相同模型、图像规模和步数下比较整理数据与随机未整理数据。",
+      "detail": "LVD在ImageNetA73.9对59.4，iNat2018为82.3对68.0；ADE20k47.7对48.5则没有同向获益。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/data-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§6.2/Table2 p8",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#62-数据来源相同数量整理确实有用"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:scale-interaction",
+      "key": "scale-interaction",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "模型变大后更需要数据覆盖",
+      "subtitle": "模型规模与数据域多样性一起影响迁移，规模化收益不能只由参数量解释。",
+      "detail": "Fig4比较ImageNet22k与LVD142M在L/H/g模型上的结果；多个非ImageNet任务在大模型时拉开差距。",
+      "parent_node": "local:dinov2:data-ablation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/scale-interaction.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§6.3/Fig4 p9",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#63-模型与数据一起扩大才容易兑现"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:loss-ablation",
+      "key": "loss-ablation",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "分开检验全局展开与局部监督",
+      "subtitle": "KoLeo更明显改善近邻检索，iBOT MIM更明显改善密集分割。",
+      "detail": "Table3 KoLeo Oxford-M55.6→63.9；MIM ADE20k44.2→47.1。各自另一个指标略降，说明目标间存在取舍。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/loss-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§6.4/Table3 p9",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#64-损失项局部任务与检索并不同步"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:distill-evidence",
+      "key": "distill-evidence",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "蒸馏优势看同结构对照",
+      "subtitle": "ViT-L蒸馏相对同结构从头训练在Fig5所列12项结果更好。",
+      "detail": "ImageNet1k84.5→86.3，NYUd RMSE0.345→0.333；这不意味着每项都超过最大teacher。",
+      "parent_node": "local:dinov2:fixed-teacher-distill",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/distill-evidence.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§6.5/Fig5 pp9–10",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#65-蒸馏相同小模型训练来源有差别"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:resolution-evidence",
+      "key": "resolution-evidence",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "用短尾阶段换取高分辨率收益",
+      "subtitle": "Fig6比较全程224、全程416以及224后接短时416的训练。",
+      "detail": "实验是ImageNet1k上的ViT-L/16；全程416约3倍计算，短时10k步适配接近高分辨率效果。",
+      "parent_node": "local:dinov2:high-res-tail",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/resolution-evidence.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§6.6/Fig6 p10",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#66-分辨率最后补一段能省多少训练"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:linear-protocol",
+      "key": "linear-protocol",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "冻结骨干仍要训练读出",
+      "subtitle": "ImageNet线性评估使用标签优化分类头，搜索学习率、层数和patch汇总方式。",
+      "detail": "Appendix B.3会选择学习率、输出层数和是否拼接平均patch特征，再报告验证集最优结果；冻结骨干不等于头部没有调参。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/linear-protocol.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.1 pp11–12; Appendix B.3 p31",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:classifier-comparison",
+      "key": "classifier-comparison",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "整套系统对照与单模块归因分开",
+      "subtitle": "分类表同时改变预训练数据、架构与学习目标，因此比较的是可用视觉特征系统。",
+      "detail": "Table4 DINOv2-g86.5、OpenCLIP-G86.2、iBOT82.3；不能把这份差距全部归给某一个损失项。",
+      "parent_node": "local:dinov2:linear-protocol",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/classifier-comparison.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "Table4 p12",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:robustness-scope",
+      "key": "robustness-scope",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "域偏移收益并不均匀",
+      "subtitle": "同一ImageNet线性头迁移到不同分布时，各模型的优势会改变。",
+      "detail": "DINOv2-g在ImageNetA75.9对OpenCLIP63.8，但R78.8对87.8、Sketch62.5对66.4较低。",
+      "parent_node": "local:dinov2:linear-protocol",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/robustness-scope.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "Table6 p13",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:frame-video",
+      "key": "frame-video",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "把图像特征汇成视频读出",
+      "subtitle": "视频评测取8个均匀帧，UCF/K400平均特征，SSv2拼接特征。",
+      "detail": "冻结图像骨干并训练线性头；这里没有动作条件预测或视频生成，SSv2的iBOT38.7仍高于DINOv2-g38.3。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/frame-video.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.2/Table7 p13",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#72-其他图像与视频分类"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:instance-ranking",
+      "key": "instance-ranking",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "用特征相似度找同一对象",
+      "subtitle": "图像query与数据库特征按余弦排序，评估实例级而非类别级匹配。",
+      "detail": "Oxford-H里DINOv2-L54.0 mAP、g52.3；模型更大不保证所有检索场景更好。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/instance-ranking.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.3/Table9 p14",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#73-实例检索"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:segmentation-readout",
+      "key": "segmentation-readout",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "从局部token读出像素类别",
+      "subtitle": "linear头把patch向量映成类别logit，低分辨率logit图再上采样。",
+      "detail": "+ms另叠最后四层、640分辨率与多尺度测试；ADE20k的49.0 linear和53.0 +ms是不同设置。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/segmentation-readout.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.4/Table10 p15",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#74-分割与深度"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:adapter-readout",
+      "key": "adapter-readout",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "冻结骨干外面仍可接复杂解码器",
+      "subtitle": "ViT-Adapter与Mask2Former可训练而ViT-g保持固定，得到更强分割输出。",
+      "detail": "ADE20k60.2 mIoU来自这个更复杂读出系统；只冻结了66%权重，不能用它替代简单linear的比较。",
+      "parent_node": "local:dinov2:segmentation-readout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/adapter-readout.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.4 p15",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#74-分割与深度"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:depth-readout",
+      "key": "depth-readout",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "有监督深度头把特征转成距离",
+      "subtitle": "linear版本将CLS与patch拼接并上采样，用256个深度bin学习读出；DPT版本使用回归解码器。",
+      "detail": "Table11在冻结骨干上比较相同头类型。NYUd DPT .279对OpenCLIP .414 RMSE，目标仍来自深度标签。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/depth-readout.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.4/Table11 pp15–16",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#74-分割与深度"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:pca-parts",
+      "key": "pca-parts",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "主成分颜色展示部件关联",
+      "subtitle": "先用首主成分阈值去背景，再对相关图的前景patch共同做PCA并将前三分量映成RGB。",
+      "detail": "同组相关部件呈相近颜色是定性现象；颜色不是语义真值，也不是跨任意PCA组通用的类别编码。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/pca-parts.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.5 pp17–18; Figs1/9",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#75-pca-与跨图匹配"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:patch-assignment",
+      "key": "patch-assignment",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "局部匹配需要距离分配与筛选",
+      "subtitle": "patch对应先按特征欧氏距离解分配，再用非极大抑制减少连线。",
+      "detail": "Fig10展示跨风格和对象的部件关联；这项可视化还未给出3D位姿误差或机器人抓取成功率。",
+      "parent_node": "local:dinov2:pca-parts",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/patch-assignment.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§7.5 p18; Fig10 p19",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#75-pca-与跨图匹配"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:fairness-gap",
+      "key": "fairness-gap",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "无标签训练仍可能有地域偏差",
+      "subtitle": "预训练数据的地域与收入分布会影响下游识别，各组均值并未自动相同。",
+      "detail": "DollarStreet Table12 DINOv2非洲74.0欧洲89.7，低收入67.4高收入90.5；表内差距用于具体描述，不套用原文段落的错误差值。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/fairness-gap.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§8.1/Table12 pp18–19",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#8-公平性覆盖面扩大以后差距仍在哪里"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:association-test",
+      "key": "association-test",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "有害标签测试有指定集合和阈值",
+      "subtitle": "619类监督头作用于2955张图像，再按top5与概率0.1筛选并归入四种大类。",
+      "detail": "论文依指定标签集合、阈值与样本观察关联，并记录少数例外；一个协议中的结果不能替代所有人群和下游用途的公平性判断。",
+      "parent_node": "local:dinov2:fairness-gap",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/association-test.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§8.2/Table13 pp19–20",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#8-公平性覆盖面扩大以后差距仍在哪里"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:carbon-account",
+      "key": "carbon-account",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "单次复训与整个研究成本分开",
+      "subtitle": "单次复训按固定电网、功率与PUE假设估算，研究过程还包含大量探索。",
+      "detail": "Table14为22016 GPU小时、约9.7MWh/3.7tCO2e；整个项目另估0.5k–1k吨，均不含硬件制造处置。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/carbon-account.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§9/Table14 pp20–21",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#9-训练代价一次复训和整个项目分开算"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:robotics-boundary",
+      "key": "robotics-boundary",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "视觉表示到机器人行动之间还有接口",
+      "subtitle": "论文提供视觉读出和局部对应证据，未评测动作策略或机器人闭环。",
+      "detail": "具身研究可把表示作为感知输入，再检验视角、遮挡、时序和实时控制条件下的收益；这部分是后续研究问题。",
+      "parent_node": "paper:dinov2",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/robotics-boundary.md",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "locator": "§10 p21; §7; Table18",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#10-讨论从视觉特征走到机器人中间还缺什么"
+        }
+      ]
+    },
+    {
+      "id": "local:dinov2:openvla-interface",
+      "key": "openvla-interface",
+      "kind": "local",
+      "paper": "dinov2",
+      "title": "视觉特征接入动作模型的实际路线",
+      "subtitle": "OpenVLA用DINOv2与SigLIP分别编码图像，沿特征通道拼接后通过两层MLP接入语言模型。",
+      "detail": "最终VLA还用机器人动作数据训练并微调视觉编码器；这条后续系统链路说明视觉起点如何被使用，动作能力不由DINOv2单独产生。",
+      "parent_node": "local:dinov2:robotics-boundary",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dinov2/openvla-interface.md",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf",
+      "locator": "OpenVLA §3.1/Fig2 p4; §3.4 p5; Appendix F.3 p32",
+      "explainers": [
+        {
+          "paper": "dinov2",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#10-讨论从视觉特征走到机器人中间还缺什么"
+        }
+      ]
     },
     {
       "id": "local:dit:dit",
@@ -11216,8 +12308,8 @@
       "paper": "extreme-parkour",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "paper:extreme-parkour",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/extreme-parkour/distill.md",
@@ -11651,8 +12743,8 @@
       "paper": "gar",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "paper:gar",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gar/distill.md",
@@ -12871,8 +13963,8 @@
       "paper": "hover",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "paper:hover",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/hover/distill.md",
@@ -14931,8 +16023,8 @@
       "paper": "maskedmimic",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "paper:maskedmimic",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/maskedmimic/distill.md",
@@ -15276,8 +16368,8 @@
       "paper": "muzero",
       "canonical": "cross-entropy",
       "title": "交叉熵",
-      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
-      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
       "parent_node": "paper:muzero",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/muzero/cross-entropy.md",
@@ -16466,8 +17558,8 @@
       "paper": "omnih2o",
       "canonical": "distill",
       "title": "教师学生蒸馏",
-      "subtitle": "用教师的预测或动作监督学生，让部署模型复制可用行为。",
-      "detail": "教师能用特权输入，学生必须只用运行时实际可得的输入。",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
       "parent_node": "paper:omnih2o",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/omnih2o/distill.md",
@@ -18136,8 +19228,8 @@
       "paper": "rt1",
       "canonical": "cross-entropy",
       "title": "交叉熵",
-      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
-      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
       "parent_node": "paper:rt1",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rt1/cross-entropy.md",
@@ -19371,8 +20463,8 @@
       "paper": "sam2",
       "canonical": "cross-entropy",
       "title": "交叉熵",
-      "subtitle": "正确候选的负对数概率。正确项概率越小，损失越大，梯度会推动正确分数上升。",
-      "detail": "CLIP 对行和列分别计算平均交叉熵，再平均两个方向。",
+      "subtitle": "用目标概率分布加权预测概率的负对数，再求和。目标集中在一个正确类别时，就是该类别的负对数概率。",
+      "detail": "CLIP用配对图文的位置作目标；DINOv2用教师给出的软分布监督学生。目标分布自身有熵，预测对齐后交叉熵也未必为零。",
       "parent_node": "paper:sam2",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sam2/cross-entropy.md",
@@ -26066,43 +27158,403 @@
       "from": "local:dinov2:representation",
       "to": "local:dinov2:distill",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:dinov2:distill",
       "to": "concept:distill",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:dinov2",
+      "from": "local:dinov2:transformer",
       "to": "local:dinov2:patches",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:dinov2:patches",
       "to": "concept:patches",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "paper:dinov2",
       "to": "local:dinov2:representation",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:dinov2:representation",
       "to": "concept:representation",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:normalization",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:normalization",
+      "to": "concept:normalization",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:cosine",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:cosine",
+      "to": "concept:cosine",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:cross-entropy",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:cross-entropy",
+      "to": "concept:cross-entropy",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:cross-entropy",
+      "to": "local:dinov2:softmax",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:softmax",
+      "to": "concept:softmax",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:representation",
+      "to": "local:dinov2:linear-probe",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:linear-probe",
+      "to": "concept:linear-probe",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:representation",
+      "to": "local:dinov2:shift",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:shift",
+      "to": "concept:shift",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:transformer",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:transformer",
+      "to": "local:dinov2:attention",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:representation",
+      "to": "local:dinov2:masking",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:masking",
+      "to": "concept:masking",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:benchmark",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:dinov2",
       "to": "local:dinov2:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:frozen-features",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:frozen-features",
+      "to": "local:dinov2:caption-detail",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:curated-retrieval",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:curated-retrieval",
+      "to": "local:dinov2:deduplication",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:curated-retrieval",
+      "to": "local:dinov2:sample-retrieval",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:curated-retrieval",
+      "to": "local:dinov2:cluster-retrieval",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:curated-retrieval",
+      "to": "local:dinov2:dataset-roles",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:patch-cls",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:patch-cls",
+      "to": "local:dinov2:dino-image-loss",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:patch-cls",
+      "to": "local:dinov2:ibot-patch-loss",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:ibot-patch-loss",
+      "to": "local:dinov2:untied-heads",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:ema-teacher",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:ema-teacher",
+      "to": "local:dinov2:sinkhorn",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:koleo",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:patch-cls",
+      "to": "local:dinov2:high-res-tail",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:packed-attention",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:packed-attention",
+      "to": "local:dinov2:stochastic-depth",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:packed-attention",
+      "to": "local:dinov2:fsdp",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:fixed-teacher-distill",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:recipe-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:data-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:data-ablation",
+      "to": "local:dinov2:scale-interaction",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:loss-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:fixed-teacher-distill",
+      "to": "local:dinov2:distill-evidence",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:high-res-tail",
+      "to": "local:dinov2:resolution-evidence",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:linear-protocol",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:linear-protocol",
+      "to": "local:dinov2:classifier-comparison",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:linear-protocol",
+      "to": "local:dinov2:robustness-scope",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:frame-video",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:instance-ranking",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:segmentation-readout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:segmentation-readout",
+      "to": "local:dinov2:adapter-readout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:depth-readout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:pca-parts",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:pca-parts",
+      "to": "local:dinov2:patch-assignment",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:fairness-gap",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:fairness-gap",
+      "to": "local:dinov2:association-test",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:carbon-account",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:dinov2",
+      "to": "local:dinov2:robotics-boundary",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:dinov2:robotics-boundary",
+      "to": "local:dinov2:openvla-interface",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "local:dit:diffusion",
@@ -33106,9 +34558,9 @@
   "stats": {
     "papers": 125,
     "concepts": 59,
-    "local_topics": 1100,
-    "lit_papers": 19,
+    "local_topics": 1150,
+    "lit_papers": 20,
     "lit_concepts": 46,
-    "lit_local_topics": 469
+    "lit_local_topics": 523
   }
 }

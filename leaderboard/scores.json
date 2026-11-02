@@ -8544,8 +8544,8 @@
         "venue_label": "TMLR",
         "venue_key": "TMLR",
         "venue_path": "venues/TMLR/README.md",
-        "reading_path": "library/dinov2.md",
-        "reading_status": "解读导读",
+        "reading_path": "articles/dinov2-2304.07193/README.md",
+        "reading_status": "完整解读",
         "universe_path": "universe/papers/dinov2.md",
         "card_path": "leaderboard/papers/dinov2/README.md"
       },

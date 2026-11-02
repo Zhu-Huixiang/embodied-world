@@ -9,6 +9,7 @@
 ## 在完整解读里看计算与例子
 
 - [DINO：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#32-b-区骨干负责看投影头负责训练对齐)
+- [DINOv2：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#1-引言一套特征能不能少为每个任务重练一次)
 - [3DGS：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/gaussian-splatting-2308.04079/README.md#41-b-区一个高斯不是一颗固定圆球)
 - [Latent Diffusion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/latent-diffusion-2112.10752/README.md#31-感知压缩先把画面装进一个靠谱的小空间)
 - [MAE：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/mae-2111.06377/README.md#32-b-区昂贵的编码器只招待真有内容的客人)
@@ -30,7 +31,7 @@
 - [MuZero](../papers/muzero.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-020-03051-4)
 - [ViT](../papers/vit.md) · 已精讲 · [原文](https://iclr.cc/virtual/2021/poster/3013)
 - [DINO](../papers/dino.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)
-- [DINOv2](../papers/dinov2.md) · 机制导读 · [原文](https://openreview.net/forum?id=a68SUt6zFt)
+- [DINOv2](../papers/dinov2.md) · 已精讲 · [原文](https://openreview.net/forum?id=a68SUt6zFt)
 - [MAE](../papers/mae.md) · 已精讲 · [原文](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html)
 - [SAM 2](../papers/sam2.md) · 已精讲 · [原文](https://openreview.net/forum?id=Ha6RTeWMd0)
 - [NeRF](../papers/nerf.md) · 已精讲 · [原文](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_24)

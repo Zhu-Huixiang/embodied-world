@@ -10,7 +10,7 @@ HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots
 
 ## 技术挂点
 
-- [教师学生蒸馏](../concepts/distill.md)：用教师的预测或动作监督学生，让部署模型复制可用行为。
+- [教师学生蒸馏](../concepts/distill.md)：用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。
 
 - [遮蔽预测](../concepts/masking.md)：隐藏部分输入，训练模型恢复像素、token 或表征。恢复什么决定监督重点。
 

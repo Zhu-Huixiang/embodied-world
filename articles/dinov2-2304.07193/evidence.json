@@ -1,0 +1,931 @@
+{
+  "paper_version": "arXiv 2304.07193v2 (2024-02-02); author PDF bears Published in TMLR (01/2024)",
+  "pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+  "checked_at": "2026-11-02T11:01:46.398242+08:00",
+  "claims": [
+    {
+      "id": "C01",
+      "type": "qualitative",
+      "claim": "这就是 DINOv2 在挑战的假设：通用视觉特征是否必须依赖文字监督，或者到了具体任务才重新训练编码器？CLIP、OpenCLIP 代表图文引导路线；MAE 擅长为下游微调提供起点；DINO、iBOT 已经能学到有用的冻结特征。DINOv2 接着问，精心整理的数据、整图与局部目标、足够大的模型和稳定训练，能把纯图像自监督推到哪里。这里的分歧是监督方式与使用成本，论文没有在宣布文字路线失效。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 1,
+      "locator": "Abstract; §1 pp1–3; §2 pp3–4; §10 p21; §1 pp1–3; §2; §10",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C01",
+        "C03"
+      ]
+    },
+    {
+      "id": "C02",
+      "type": "qualitative",
+      "claim": "论文信息：*DINOv2: Learning Robust Visual Features without Supervision*。作者为 Maxime Oquab、Timothée Darcet、Théo Moutakanni 等，完整署名见原文；主要机构为 Meta AI Research，另有 Inria 及部分作者的联合署名机构。首次公开于2023年4月14日；本文读2024年2月2日 arXiv v2，首页标注 TMLR 2024年1月正式发表。TMLR 是以机器学习方法与实验为核心的同行评审期刊。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 1,
+      "locator": "Title page, authors/footnotes and TMLR01/2024 header; arXiv abs history",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C02"
+      ],
+      "additional_source_urls": [
+        "https://arxiv.org/abs/2304.07193"
+      ]
+    },
+    {
+      "id": "C03",
+      "type": "qualitative",
+      "claim": "训练沿 A→B→C 走：A区筛选图像；B区用整图和局部目标训练大编码器，学生由梯度更新，教师由学生参数的滑动平均更新；C区固定训练好的大教师，把能力蒸馏给小模型。使用时看 D区：图像进入选定编码器，取整图或局部特征，再交给具体任务的头。论文多数评测固定编码器、训练任务头。第3节拆A，第4节拆B，第5—6节看C与代价，第7节检查D。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 4,
+      "locator": "§3 data curation; §4 objectives and EMA; §5 model distillation; §7 frozen-feature evaluation",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C19",
+        "C26"
+      ]
+    },
+    {
+      "id": "C04",
+      "type": "qualitative",
+      "claim": "DINOv2 想交付一套可复用的转换器。换任务时，尽量保留编码器，只训练轻量的输出层。这会把昂贵的表征学习集中在预训练，把任务适配留给较小的模块。这里的“开箱即用”说的是特征，分类标签、分割类别与深度标定仍要有相应接口。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 1,
+      "locator": "Abstract; §1 pp1–3; §2 pp3–4; §10 p21; §7 intro/7.1; §7.4 pp15–16; Appendix B.3",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C01",
+        "C26"
+      ]
+    },
+    {
+      "id": "C05",
+      "type": "qualitative",
+      "claim": "原文先区分两类自监督。第一类在单张图像内部构造任务，例如遮掉一部分，让模型恢复它。MAE 的重建目标是代表：模型为了补全内容，学到可用于微调的表示。第二类让不同视图的特征相互对齐，DINO 用同一图片的不同裁剪产生监督。iBOT 又把这种教师—学生关系用到被遮住的局部位置。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 3,
+      "locator": "§2 Related work, pp3–4; §4 objectives pp5–6",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C09",
+        "C10"
+      ]
+    },
+    {
+      "id": "C06",
+      "type": "qualitative",
+      "claim": "论文 Fig. 3 回答“已有的干净数据怎样帮我们挑网上的图”。它把整理过的数据当检索参照，从未整理图池里找视觉上接近的内容，扩充成 LVD-142M。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 4,
+      "locator": "Fig3 and §3 Data Processing",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C04",
+        "C07",
+        "C08"
+      ]
+    },
+    {
+      "id": "C07",
+      "type": "qualitative",
+      "claim": "先去重，再寻找相似内容。去重使用拷贝检测特征；检索则使用在 ImageNet-22k 上自监督训练的 ViT-H/16。两者职责不同。检索时比较向量的余弦相似度：内积除以两个向量各自的长度。方向接近，得分就高；这一步衡量视觉特征相近，不判断文字描述是否一致。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 5,
+      "locator": "§3 Image retrieval; Appendix A.2 p29",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C05"
+      ]
+    },
+    {
+      "id": "C08",
+      "type": "quantitative",
+      "claim": "附录A把去重讲得更细：每张图找64个近邻，用相似度阈值连接近重复图，再在每个连通分量里保留一个代表。相对去重还会排除与评测参考划分过于相似的图像。这个处理减少直接拷贝带来的虚高，却不意味着预训练从未接触目标任务的数据分布。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 29,
+      "locator": "Appendix A.3",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C06"
+      ],
+      "caution": "§3 says1.2B while Appendix says1.3B→1.1B→744M; do not present all as one reconciled audited count",
+      "metric": "deduplication_neighbor_count",
+      "conditions": "Appendix A.3 copy-detection features; 64 nearest neighbors before thresholding and connected-component representative selection; relative deduplication uses evaluation reference splits.",
+      "baseline": "not_applicable; preprocessing configuration",
+      "unit": "neighbors per image",
+      "sample_size": "not_applicable; 64 is a search setting, not evaluation sample count"
+    },
+    {
+      "id": "C09",
+      "type": "quantitative",
+      "claim": "再按数据集规模决定怎么取。大数据集按图检索近邻；Table 15 中，ImageNet-22k 和 Google Landmarks v2 每个样本取4个，ImageNet-1k训练集取32个。小数据集用聚类：先把大图池分成10万个簇，选出包含足够查询样本的簇，再采样，并为每个小数据集限制最终取样量。这样做是为了让一个小领域有机会扩充，又不让某次检索把总配比带偏。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 29,
+      "locator": "Appendix A.4 and Table15 p30",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C07"
+      ],
+      "metric": "retrieval_neighbors_and_cluster_count",
+      "conditions": "Table15: ImageNet22k and Google Landmarks v2 use 4 retrieved neighbors per query, ImageNet1k train uses 32; small datasets use 100,000-cluster retrieval with dataset caps.",
+      "baseline": "not_applicable; dataset construction configuration",
+      "unit": "neighbors per query; clusters",
+      "sample_size": "not_applicable; these are retrieval settings, not test-set counts"
+    },
+    {
+      "id": "C10",
+      "type": "quantitative",
+      "claim": "最后得到142,109,386张图像，约1.42亿。里面既有直接纳入的精选图片，也有按样本或簇检索来的图片。Table 15 还列出了 ADE20K、KITTI、NYU Depth V2 等任务训练域作为检索参照。无监督描述的是预训练损失没有用类别标签或文字，数据选择仍带着人工整理过的领域先验。iNaturalist、Places205 等被留在检索之外，适合另看域外表现。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 30,
+      "locator": "Table15 final dataset composition; Table18 p32 selection/exclusions",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C04",
+        "C08",
+        "C31",
+        "C41"
+      ],
+      "metric": "curated_dataset_size",
+      "conditions": "Table15 final LVD-142M composition; Tables15/18 identify selected task domains and exclusions. This paragraph does not report classification or depth performance.",
+      "baseline": "not_applicable; dataset accounting",
+      "unit": "images",
+      "sample_size": "142109386 final pretraining images; count reported by authors, not independently reproduced"
+    },
+    {
+      "id": "C11",
+      "type": "qualitative",
+      "claim": "回到架构图B区。输入彩色图像记作 I，高、宽分别为 H、W，颜色通道为3。ViT 把它切成边长 P 的小块，每块线性映射成 d 维向量，并加入位置信息。N 是图像块数；额外的 CLS token 用来汇总整图信息。经过 Transformer，输出包含一个整图向量 z 和 N 个局部向量 fᵢ。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§5 ViT implementation; Table17 p31; standard token-shape teaching expansion",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C14"
+      ],
+      "teaching_expansion": true
+    },
+    {
+      "id": "C12",
+      "type": "quantitative",
+      "claim": "用论文 ViT-g/14 举例：P=14、d=1536。224×224的输入被切成16×16=256块，连同CLS一共257个 token；98×98的局部裁剪是49块；518×518的高分辨率输入是1369块。这些是从尺寸计算出的形状，不是额外实验结果。大分辨率让模型看见更细的局部，也会增加注意力计算量。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§5 architecture; Table17 p31; §4 resolution and Appendix B.2 p31; deterministic token arithmetic",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C14",
+        "C15"
+      ],
+      "metric": "ViT_g_token_shapes",
+      "conditions": "ViT-g/14 patch size 14, embedding dimension 1536; token counts derived from 224, 98 and 518 pixel square inputs. The 257 count includes CLS; 49 and 1369 count image patches only.",
+      "baseline": "not_applicable; deterministic teaching calculation",
+      "unit": "pixels; feature dimensions; tokens",
+      "sample_size": "not_applicable; architecture/shape calculation",
+      "teaching_expansion": true
+    },
+    {
+      "id": "C13",
+      "type": "quantitative",
+      "claim": "学生和教师看同一张原图的不同裁剪。学生的CLS向量经过 DINO 投影头，得到 K 个分数，再用 softmax 变成概率分布 pₛ；教师以另一裁剪生成目标分布 pₜ。K 对应可学习的原型槽位，不是人工标注的 K 种物体。Table 1列出的训练配方使用128k原型。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 5,
+      "locator": "§4 DINO image-level objective; Table1 p8 prototype128k recipe",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C09",
+        "C11",
+        "C21"
+      ],
+      "caution": "128k specified in Table1 recipe; do not assert identical prototype count for all model releases",
+      "metric": "prototype_count",
+      "conditions": "128k is the prototype count in the Table1 training recipe; p_s and p_t are student/teacher distributions over prototypes, not manual object classes.",
+      "baseline": "not_applicable; training configuration",
+      "unit": "prototype slots",
+      "sample_size": "not_applicable; 128k is a head dimension, not training/test examples"
+    },
+    {
+      "id": "C14",
+      "type": "qualitative",
+      "claim": "iBOT 分支在学生输入中随机遮住部分图像块，教师看未遮挡视图。在对应被遮位置，学生输出局部特征，经自己的 iBOT 头得到分布；教师把该位置可见的局部特征转换为目标。损失只在选中的遮挡位置比较。设 M 为被遮位置集合，i 是其中一个位置，k 仍是原型索引。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 5,
+      "locator": "§4 Patch-level objective pp5–6; unnumbered L_iBOT",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C10"
+      ],
+      "teaching_expansion": true,
+      "teaching_note": "Article equation3 adds1/|M| to explain a mean masked-position loss; original §4 writes a sum. Caption explicitly labels this teaching normalization."
+    },
+    {
+      "id": "C15",
+      "type": "quantitative",
+      "claim": "DINO 与 iBOT 共用视觉骨干，但投影头参数分开。前者需要整图跨视图一致性，后者需要对应位置的细节。原 iBOT 在较小设置里曾发现共享头更好；DINOv2 在扩规模后采用分开的头。这个决定不是“共享一定不好”，后面Table 1里，拆头提高了k-NN，却略降线性探针分数。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 5,
+      "locator": "§4 Untying head weights; §6.1/Table1 p8 final two rows",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C11",
+        "C21"
+      ],
+      "metric": "untied_head_ablation_direction",
+      "conditions": "Table1 ViT-L/ImageNet22k sequential recipe ablation: untying heads changes k-NN 81.7→82.0 and linear 84.7→84.5; compared at this recipe stage, not a universally independent effect.",
+      "baseline": "preceding tied-head row in Table1",
+      "unit": "top-1 percent; direction of change",
+      "sample_size": "unknown; evaluation/repeat counts are not specified in the cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C16",
+      "type": "quantitative",
+      "claim": "教师的目标随学生训练逐渐变化。教师从学生的同一初始状态出发，此后取学生参数的指数滑动平均，简称 EMA。令 θₛ 为学生参数，θₜ 为教师参数，m 是动量，取值接近1。每个训练步结束后，教师保留大部分旧参数，再吸收少量学生的新参数。 把某一个参数单独拿出来：旧教师值为2，学生更新后为3，m=0.994，那么新教师值是2.006。这个数字例子说明教师变化得慢，不是在给教师额外做一次梯度下降。论文把动量从0.994按余弦日程逐渐调到1。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 31,
+      "locator": "Appendix B.1 EMA update; §4",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C12"
+      ],
+      "metric": "EMA_momentum_schedule_and_teaching_example",
+      "conditions": "Appendix B.1 from-scratch teacher EMA momentum follows 0.994→1 cosine schedule. The scalar 2,3→2.006 example is teaching arithmetic, not an observed parameter.",
+      "baseline": "not_applicable; update rule",
+      "unit": "dimensionless momentum; illustrative parameter value",
+      "sample_size": "not_applicable; no measured population",
+      "teaching_expansion": true
+    },
+    {
+      "id": "C17",
+      "type": "quantitative",
+      "claim": "如果师生总是给任何图片同一种答案，跨视图一致也可能很好，但特征已经失去区分力。DINOv2 在教师输出上采用 Sinkhorn–Knopp，进行3次迭代；学生端仍用softmax。它在一批样本与原型之间交替归一化，限制所有样本都挤向少数原型的倾向。可以把它理解为给原型分配加上批次层面的平衡约束，目标来自数据中的相对结构，而不是人工给某个槽位命名。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 5,
+      "locator": "§4 Sinkhorn–Knopp centering",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C11"
+      ],
+      "metric": "Sinkhorn_Knopp_iterations",
+      "conditions": "Teacher centering uses 3 Sinkhorn–Knopp iterations; student uses softmax; batchwise normalization concerns prototype balance.",
+      "baseline": "not_applicable; training configuration",
+      "unit": "normalization iterations",
+      "sample_size": "not_applicable; 3 is iteration count, not sample size"
+    },
+    {
+      "id": "C18",
+      "type": "qualitative",
+      "claim": "整图和局部目标之外，KoLeo 直接约束特征空间的拥挤程度。这里 xᵢ 表示一个样本归一化后的整图特征，与前面的原始图像I不同。一个批次有 n 个特征；dₙ,ᵢ 是 xᵢ 到其他特征中最近一个的欧氏距离，双竖线表示向量长度。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§4 KoLeo regularizer; Appendix B.1 p29",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C13"
+      ],
+      "teaching_expansion": true,
+      "teaching_note": "KoLeo equation matches §4; distance0.1/0.5 examples are arithmetic illustrations. Appendix weight0.1 remains in adjacent caption, not an unrelated empirical sample size."
+    },
+    {
+      "id": "C19",
+      "type": "quantitative",
+      "claim": "最后一项是分辨率适应。训练末尾把全局输入提高到518×518，再训练短阶段，让小物体和细边缘有更多token承载。附录B.2写明高分辨率阶段为1万步、缩短各项日程并降低基础学习率。作者把这项留到末尾，原因是高分辨率从头训练太贵。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§4 Adapting resolution; Appendix B.2 p31",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C15"
+      ],
+      "metric": "high_resolution_training_stage",
+      "conditions": "Final training recipe uses 518×518 input for 10000 iterations, shortened schedules and reduced base learning rate; distinct from Fig6 resolution-ablation recipe.",
+      "baseline": "prior lower-resolution stage of the same model; no matched performance number in this paragraph",
+      "unit": "pixels; optimization iterations",
+      "sample_size": "not_applicable; 10000 is optimization steps"
+    },
+    {
+      "id": "C20",
+      "type": "quantitative",
+      "claim": "架构图B区的主模型是约11亿参数的 ViT-g。它采用1536维特征、24个注意力头，每头64维，便于GPU矩阵运算。作者比较同硬件的 iBOT 实现，报告约2倍速度、约三分之一显存占用；这个结果属于实现组合的对比，不能给每个技巧各记一次完整收益。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§5 pp6–7; Table17 p31; §5 intro",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C14",
+        "C18"
+      ],
+      "metric": "model_dimensions_and_implementation_efficiency",
+      "conditions": "ViT-g approximately 1.1B parameters, d=1536, 24 attention heads of width64. Authors report about 2× speed and one-third memory versus iBOT on same hardware for the combined implementation.",
+      "baseline": "iBOT implementation on same hardware",
+      "unit": "parameters; feature/head dimensions; relative speed; memory fraction",
+      "sample_size": "unknown; timing repetitions and full benchmark configuration not specified in the cited summary",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C21",
+      "type": "qualitative",
+      "claim": "FlashAttention式实现减少注意力中间矩阵的显存负担。Sequence packing则把不同长度的裁剪序列拼成一个长序列一起计算，再用块对角掩码禁止不同序列之间互相注意。224裁剪和98裁剪因此能更高效地一起处理，信息仍各看各的，拼接的是计算批次。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§5 Sequence packing pp6–7",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C16"
+      ]
+    },
+    {
+      "id": "C22",
+      "type": "quantitative",
+      "claim": "随机深度也做了工程调整。训练丢弃残差分支时，直接跳过相应计算，而不是先算出结果再乘零。论文用0.4的丢弃率，省下的计算才会实际发生。FSDP则把学生、教师与AdamW的一阶、二阶状态分摊到多张GPU；这两份优化器状态分别追踪梯度与梯度平方的滑动平均；权重存储与通信采用不同精度，投影头的梯度归约保留更高精度以稳定训练。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 7,
+      "locator": "§5 Efficient stochastic depth and Fully-Sharded Data Parallel",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C17",
+        "C20"
+      ],
+      "metric": "stochastic_depth_drop_rate",
+      "conditions": "Efficient stochastic depth skips dropped residual computation, with drop rate0.4; FSDP and mixed precision description accompanies this configuration but no independent speedup is attributed to them.",
+      "baseline": "not_applicable; implementation description",
+      "unit": "drop probability",
+      "sample_size": "not_applicable; 0.4 is a configuration value"
+    },
+    {
+      "id": "C23",
+      "type": "qualitative",
+      "claim": "预训练大模型时，教师是同尺寸学生的EMA。架构图C区开始做另一件事：固定训练好的 ViT-g，教一个更小的学生。教师此时不再跟着小学生更新；小学生另外保存一份自己的EMA，最终评测使用这份EMA模型。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 7,
+      "locator": "§5 Model distillation",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C19"
+      ]
+    },
+    {
+      "id": "C24",
+      "type": "quantitative",
+      "claim": "Table 1在ImageNet-22k上用ViT-L逐项加入改动，主要优化k-NN表现。k-NN把新图与训练特征的近邻比较后投票；线性探针则训练一个线性分类器，两者读出特征的方式不同。复现起点是74.5%/83.2%，最终为82.0%/84.5%，斜杠前后分别是k-NN和线性探针。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 8,
+      "locator": "Table1; §6.1",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C21"
+      ],
+      "metric": "ImageNet1k_recipe_ablation_top1",
+      "conditions": "Table1 ViT-L on ImageNet22k, sequential recipe additions; k-NN/linear 74.5/83.2→82.0/84.5; untied-head final step81.7/84.7→82.0/84.5. LayerScale and stochastic depth also change stability.",
+      "baseline": "reproduced iBOT base row; preceding row for each added change",
+      "unit": "top-1 percent; percentage-point change",
+      "sample_size": "unknown; evaluation image counts and repetitions not specified in the cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C25",
+      "type": "quantitative",
+      "claim": "这里真正要比的是相同模型、相同训练迭代数下的整理数据与随机数据。两者都取1.42亿张图，实验使用ViT-g/14，训练比最终版本短，尚未做高分辨率适应。LVD-142M在多数列领先，但ADE20K这一列反而略低。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 8,
+      "locator": "Table2; §6.2",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C22"
+      ],
+      "metric": "curated_vs_random_data_ablation",
+      "conditions": "Table2 ViT-g/14 with matched142M pretraining images and iterations; shorter training than final model, no high-resolution stage. Compare each task separately, including ADE20k decrease.",
+      "baseline": "random142M from the uncurated pool",
+      "unit": "classification accuracy percent; retrieval mAP; segmentation mIoU",
+      "sample_size": "142M pretraining images in each arm; evaluation image counts and repetitions unknown",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C26",
+      "type": "quantitative",
+      "claim": "原文Fig. 4把ImageNet-22k约1400万张图与LVD-142M比较。横轴是L、H、g等模型规模，纵轴分别是各任务指标；模型越大，更多样的大数据在多数任务上的优势越明显。这组实验把数据规模与模型规模放在一起比较，优势主要出现在两者配合扩大的设置。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 9,
+      "locator": "§6.3 and Fig4; Table2 p8",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [],
+      "metric": "joint_model_data_scaling",
+      "conditions": "Fig4 compares ImageNet22k about14M with LVD142M across L/H/g models; task-specific trends are not a fixed per-parameter causal gain.",
+      "baseline": "ImageNet22k-pretrained model of the same architecture",
+      "unit": "pretraining images; task-specific downstream metrics",
+      "sample_size": "about14M vs142M pretraining images; downstream test/repeat counts unknown",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C27",
+      "type": "quantitative",
+      "claim": "Table 3把其他条件尽量固定，分别移除KoLeo或遮挡建模。KoLeo对Oxford-M检索帮助大；遮挡目标对ADE20K分割帮助大。两种目标服务的能力不同。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 9,
+      "locator": "Table3(a,b); §6.4",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C23"
+      ],
+      "metric": "KoLeo_and_masked_modeling_ablation",
+      "conditions": "Table3(a,b): shorter-than-final training; KoLeo Oxford-M55.6→63.9 and ADE20k47.2→47.1; masked modeling ADE20k44.2→47.1 and Oxford-M64.3→63.9. Same readout within each comparison.",
+      "baseline": "remove KoLeo; remove masked image modeling, separately",
+      "unit": "mAP; mIoU; point changes",
+      "sample_size": "unknown; evaluation sample and repeat counts not specified in cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C28",
+      "type": "quantitative",
+      "claim": "Fig. 5比较相同ViT-L/14从头训练与从ViT-g蒸馏。蒸馏在图示12项指标上都优于从头训练，部分检索指标还超过教师。教师的参数更多，并不保证每个任务都最高。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 10,
+      "locator": "Fig5; §6.5",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C24"
+      ],
+      "metric": "distillation_across_tasks",
+      "conditions": "Fig5 compares ViT-L/14 scratch versus distillation from a fixed ViT-g; 12 metrics on radar, eight task groups in adjacent table. Use Fig5 values independently of Table9 without inventing the cause of differences.",
+      "baseline": "ViT-L/14 trained from scratch; ViT-g teacher shown separately",
+      "unit": "classification percent; retrieval mAP; depth RMSE",
+      "sample_size": "12 displayed metrics; evaluation example counts and repetitions unknown",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C29",
+      "type": "quantitative",
+      "claim": "高分辨率消融为了控制成本，使用ImageNet-1k上的ViT-L/16，比较全程224、全程416，以及224训练后再用416补1万步。这组实验的416，别与最终配方的518混在一起。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 10,
+      "locator": "Fig6; §6.6",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C25"
+      ],
+      "metric": "resolution_schedule_ablation",
+      "conditions": "Fig6 ViT-L/16 on ImageNet1k compares all224, all416 and224→416 with10000 final high-resolution steps; about3× compute refers to full416 versus224 training. Final production recipe518 is separate.",
+      "baseline": "training at224 throughout; training at416 throughout",
+      "unit": "pixels; optimization steps; relative compute; accuracy percent and mIoU",
+      "sample_size": "unknown; benchmark sample/repeat counts not specified;10000 is steps",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C30",
+      "type": "qualitative",
+      "claim": "架构图D区里，“冻住”的是视觉编码器参数。先记 z 为图像特征，W、b 是任务头权重与偏置，ℓ 是类别分数。若只用一个d维CLS向量，C个类别对应的W形状为C×d；softmax把分数转换成类别概率。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 11,
+      "locator": "§7.1 linear evaluation; Appendix B.3 p31; standard linear classifier teaching expansion",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C26",
+        "C49"
+      ],
+      "teaching_expansion": true,
+      "teaching_note": "Current equation6 uses CLS z, W shape C×d and bias b, consistent with prose. Real evaluation may concatenate CLS layers and pooled patch features; no fixed empirical feature size is asserted."
+    },
+    {
+      "id": "C31",
+      "type": "quantitative",
+      "claim": "Table 4显示DINOv2-g冻结特征的ImageNet-1k线性准确率为86.5%，iBOT-L为82.3%，OpenCLIP-G为86.2%。都是在论文评测代码下训练线性头，但骨干规模、训练数据与监督方式并不相同，所以这是一组可用模型能力比较。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 12,
+      "locator": "Table4",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C27",
+        "C28"
+      ],
+      "metric": "frozen_feature_ImageNet_top1",
+      "conditions": "Table4 frozen backbones with trained linear classifier; ImageNet1k andV2 rows in nearby article table. Models differ in architecture, pretraining data and supervision; this is released-model capability comparison.",
+      "baseline": "iBOT-L/16; OpenCLIP-G/14",
+      "unit": "top-1 percent",
+      "sample_size": "unknown; evaluation and repeat counts not given in cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C32",
+      "type": "quantitative",
+      "claim": "附录B.3说明，线性头会在学习率、输出层数、是否拼接局部均值之间搜索，并报告验证集最高值。因此86.5%包含一个调好的探针协议，不是随机接一层就必然得到的结果。另一方面，微调编码器仍然有用：224分辨率下86.5%提高到88.5%。冻结已经很强，微调还能继续挣到收益。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 12,
+      "locator": "Table5; §7.1; Appendix B.3",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C29",
+        "C49"
+      ],
+      "metric": "linear_probe_protocol_and_finetuning",
+      "conditions": "Appendix B.3 searches learning rate, CLS layers and patch-average concatenation, reports best validation result. Table5 at224 compares frozen linear86.5 with full fine-tuning88.5 for same DINOv2-g.",
+      "baseline": "frozen DINOv2-g linear probe at224",
+      "unit": "top-1 percent",
+      "sample_size": "unknown; evaluation/repeat counts not specified in cited table; hyperparameter search configurations are not sample counts",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C33",
+      "type": "quantitative",
+      "claim": "换到分布变化，DINOv2-g在ImageNet-A为75.9%，OpenCLIP-G为63.8%；但在ImageNet-R，二者为78.8%和87.8%，Sketch为62.5%和66.4%。摄影里的自然困难样本、绘画风格和草图并不是同一种变化。谈鲁棒性时，要说清在哪种变化上更稳。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 13,
+      "locator": "Table6",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C30"
+      ],
+      "metric": "distribution_shift_classification",
+      "conditions": "Table6 uses ImageNet1k-trained linear classifier on frozen backbone at224; compare A75.9/63.8, R78.8/87.8, Sketch62.5/66.4 for DINOv2-g/OpenCLIP-G.",
+      "baseline": "OpenCLIP-G/14",
+      "unit": "top-1 percent",
+      "sample_size": "unknown; per-benchmark sample/repeat counts not in cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C34",
+      "type": "quantitative",
+      "claim": "在iNaturalist2018/2021上，DINOv2-g分别为81.6%和85.7%，高于OpenCLIP-G的73.0%和76.0%；Places205场景分类则是67.5%对69.8%。细粒度动物、植物分类与场景分类呈现不同取舍。12个迁移分类任务平均值为92.1%对91.9%，接近的平均数下，SUN与Cars等具体任务仍有差距。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 13,
+      "locator": "Table7; Table8",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C31",
+        "C34"
+      ],
+      "metric": "image_transfer_classification",
+      "conditions": "Table7 fine-grained/scenes frozen-feature linear evaluation; Table8 separately uses logistic regression on frozen features for12 transfer tasks. Article preserves iNaturalist gains, Places205 deficit and cross-task differences.",
+      "baseline": "OpenCLIP-G/14 under the same task readout",
+      "unit": "accuracy percent; mean over12 tasks for Table8",
+      "sample_size": "12 tasks for the aggregate; per-task image and repetition counts unknown",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C35",
+      "type": "quantitative",
+      "claim": "视频评测没有把图像编码器改成完整时序模型。作者抽取8帧，UCF-101与Kinetics-400把帧特征平均，Something-Something v2则拼接特征保留部分顺序信息，再训练线性头。DINOv2-g在三者分别为91.2%、78.4%、38.3%；最后一项略低于iBOT的38.7%。这套简单读出展示了图像特征的迁移用途，时序关系还有进一步建模空间。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 13,
+      "locator": "§7.2; Table7; Table7",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C32",
+        "C33"
+      ],
+      "caution": "prose claims SSL SOTA generally; Table7 SSv2 exception preserved",
+      "metric": "video_classification_with_image_features",
+      "conditions": "Eight sampled frames; mean features forUCF101/K400 and concatenated features forSSv2; frozen image encoder plus trained linear head. SSv2 DINOv2-g38.3 versus iBOT38.7.",
+      "baseline": "iBOT-L for the statedSSv2 comparison; UCF/K400 values reported without a numerical comparator in this paragraph",
+      "unit": "frames per video; accuracy percent",
+      "sample_size": "unknown number of evaluated videos/repeats;8 is frames per video",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C36",
+      "type": "quantitative",
+      "claim": "分类问“是什么”，实例检索问“是不是同一座建筑、同一件作品”。论文直接按查询图和数据库图的特征余弦相似度排序，用平均精度衡量相关图片是否排在前面。DINOv2-L在Oxford-Hard为54.0 mAP，OpenCLIP-G为19.7；ViT-g为52.3，并没有超过L。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 14,
+      "locator": "Table9; §7.3",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C35"
+      ],
+      "metric": "Oxford_Hard_instance_retrieval",
+      "conditions": "Table9 frozen nonparametric image features ranked by cosine similarity; DINOv2-L54.0, DINOv2-g52.3, OpenCLIP-G19.7 onOxford-Hard.",
+      "baseline": "OpenCLIP-G/14; DINOv2-g for model-size comparison",
+      "unit": "mAP",
+      "sample_size": "unknown; query/database image counts not specified in the cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C37",
+      "type": "quantitative",
+      "claim": "分割看的是局部特征。最简单的设置在每个patch token后面训练线性层，得到低分辨率类别分数图，再上采样到图像大小。mIoU是各类区域交并比的平均值，数值越高，预测区域与标注越重合。 同样固定骨干、训练线性头，在ADE20K上，DINOv2-g为49.0 mIoU，OpenCLIP-G为39.3。+ms设置还会拼接最后四层、提高输入分辨率并做多尺度测试，这时分别为53.0和46.0。不能拿一个模型的+ms与另一个的简单线性设置混比。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 15,
+      "locator": "§7.4 Semantic segmentation; Table10",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C36",
+        "C37"
+      ],
+      "metric": "ADE20k_semantic_segmentation",
+      "conditions": "Table10 frozen backbone plus supervised linear patch head; simple linear and+ms evaluated separately. +ms adds last-four-layer features, higher resolution and multi-scale test augmentation.",
+      "baseline": "OpenCLIP-G under matched simple linear or+ms settings",
+      "unit": "mIoU",
+      "sample_size": "unknown; evaluation sample/repeat counts not specified in the cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C38",
+      "type": "quantitative",
+      "claim": "换更复杂的ViT-Adapter和Mask2Former头，固定DINOv2骨干得到60.2 mIoU；训练的适配器和头仍占整个模型的一部分。更复杂的下游读出确实能继续利用这些特征，代价也从一层矩阵乘法涨了上去。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 15,
+      "locator": "§7.4 Frozen backbone in a SOTA pipeline; Table10 caption",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C38"
+      ],
+      "metric": "ADE20k_adapter_head_result",
+      "conditions": "Frozen DINOv2-g with trained ViT-Adapter andMask2Former gives60.2mIoU. This paragraph does not claim a matched causal improvement over simple49.0linear head.",
+      "baseline": "not_applicable; absolute result with different downstream architecture",
+      "unit": "mIoU",
+      "sample_size": "unknown; evaluation sample/repeat counts not specified for this reported result",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C39",
+      "type": "quantitative",
+      "claim": "深度任务给每个位置预测距离。论文的简易头会把CLS拼到各局部特征上，上采样，再把深度范围划为256个区间训练；另一种设置拼接四个层级的特征；DPT则采用专门的深度解码器。它们都需要有深度标注的下游训练。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 15,
+      "locator": "§7.4 Depth pp15–16",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C39"
+      ],
+      "metric": "depth_readout_configuration",
+      "conditions": "Frozen backbone; lin1 concatenates CLS to patch features then upsamples and trains256 depth-bin classification; lin4 combines four layers; DPT is a separate trained depth decoder.",
+      "baseline": "not_applicable; readout definitions",
+      "unit": "depth bins; feature layers",
+      "sample_size": "not_applicable;256 bins and4 layers are configuration, not image counts"
+    },
+    {
+      "id": "C40",
+      "type": "quantitative",
+      "claim": "RMSE是预测与真实深度之差先平方、平均、再开方，保持深度的单位。表中NYUd与KITTI的场景和距离范围不同，原始RMSE不宜跨数据集排名。只比较NYUd的DPT列，DINOv2-g为0.279，OpenCLIP-G为0.414；从NYUd训练后直接迁移到SUN RGB-D时，分别为0.338和0.408。后者的“零样本迁移”指这个深度头没有用SUN RGB-D深度标签再训练，SUN RGB-D图像域却出现在预训练检索来源中。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 16,
+      "locator": "Table11 DPT rows; Table18 p32 data-curation domain coverage",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C40",
+        "C41"
+      ],
+      "metric": "NYUd_and_transferred_SUN_depth_RMSE",
+      "conditions": "Table11 matched frozen-backboneDPT heads:NYUd0.279/0.414; NYUd-trained head tested onSUN0.338/0.408 forDINOv2-g/OpenCLIP. Table18 confirmsSUN image domain used in retrieval; noSUN depth-label adaptation for transfer head.",
+      "baseline": "OpenCLIP-G/14 with sameDPT readout and train/test domains",
+      "unit": "RMSE; explicit physical unit omitted by source table, so none added",
+      "sample_size": "unknown; test/repeat counts not specified in cited table",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C41",
+      "type": "qualitative",
+      "claim": "数值优势在图里是什么样？Fig. 7采用线性头，DINOv2的部分分割结果更连贯，深度图中的物体边界也更清楚。先看它与Table 11的协议区别：这里不是拿DPT结果来展示线性头能力。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 17,
+      "locator": "Figs7–8; §7.5 pp16–17",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C50"
+      ]
+    },
+    {
+      "id": "C42",
+      "type": "qualitative",
+      "claim": "DINOv2常见的彩色动物图，很容易让人以为模型直接输出了身体部件标签。实际过程先提取patch特征，做主成分分析PCA，把高维数据沿变化最大的方向投影到少数坐标，再把坐标映射到颜色。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 17,
+      "locator": "§7.5 PCA; Figs1/9",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C42"
+      ]
+    },
+    {
+      "id": "C43",
+      "type": "qualitative",
+      "claim": "Fig. 10再进一步：先取前景，再计算两张图中patch特征的欧氏距离，解分配问题，最后用非极大值抑制减少冗余匹配。输出是对应关系，而不是动作。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 18,
+      "locator": "§7.5 Patch matching; Fig10 p19",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C43"
+      ]
+    },
+    {
+      "id": "C44",
+      "type": "quantitative",
+      "claim": "原文没有在平均准确率处收笔。Dollar Street评测包含54个国家、289个家庭的16,073张图，比较94个概念在收入与地区变化下的识别表现。Table 12中，DINOv2的非洲组为74.0%，欧洲组为89.7%，差15.7个百分点；低收入组67.4%，高收入组90.5%，差23.1个百分点。数据量变大之后，覆盖不均仍然留在结果里。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 18,
+      "locator": "§8.1 pp18–19; Table12",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C44"
+      ],
+      "caution": "prose says25.7/31.7 gaps; Table12 directly gives15.7/23.1 percentage-point gaps",
+      "metric": "DollarStreet_group_recognition_gap",
+      "conditions": "§8.1/Table12 uses DollarStreet94concepts across54countries/289households. DINOv2 Africa74.0 vsEurope89.7, lowincome67.4 vshighincome90.5. Gaps15.7/23.1pp are derived directly from table, not inconsistent prose.",
+      "baseline": "within-DINOv2 geographic/income group comparisons; no SEERv2 result asserted in article",
+      "unit": "recognition percent; percentage points",
+      "sample_size": "16073 total images; subgroup sample/repeat counts unknown",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C45",
+      "type": "quantitative",
+      "claim": "另一项评估在Casual Conversations的2955张图像上检查标签关联，分类头基于ImageNet-22k的619类，输出再汇总为几类关联。作者报告大部分分组没有出现所定义的有害类别，同时记录了少数例外。这个实验回答的是特定标签集合、阈值与样本上的行为；它没有穷尽一个视觉模型可能遇到的社会与场景偏差。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 19,
+      "locator": "§8.2; Table13 p20",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C45"
+      ],
+      "metric": "label_association_evaluation_protocol",
+      "conditions": "§8.2/Table13: supervised619-classImageNet22k linear head on frozenViT-g;2955CasualConversations images;top5 predictions with probability≥0.1; definitions and grouped outcomes apply only to this protocol.",
+      "baseline": "not_applicable; reported grouped behavior without numerical model comparator",
+      "unit": "classes; images; prediction probability threshold",
+      "sample_size": "2955 total images; subgroup sizes/repeat counts unknown",
+      "unknown_impact": "Reported values remain source-verifiable, but this record cannot reconstruct sampling uncertainty, confidence intervals or repeat-to-repeat variation. No statistical-significance claim is added."
+    },
+    {
+      "id": "C46",
+      "type": "quantitative",
+      "claim": "Table 14估算复训一个DINOv2-g需要22,016 GPU小时；按单卡400瓦、PUE=1.1及指定电网碳强度，约9.7 MWh、3.7吨二氧化碳当量。PUE衡量数据中心总耗电相对于计算设备耗电的比例。这里是按统一假设计算的潜在排放，不是对原训练机房做现场电表测量。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 20,
+      "locator": "Table14; §9 pp20–21",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C46"
+      ],
+      "caution": "table A100-40GB vs nearby prose A100-80GB; both400W, avoid asserting exact card capacity",
+      "metric": "single_retraining_energy_carbon_estimate",
+      "conditions": "Table14/§9 uses22016GPU-hours×0.4kW×PUE1.1 and0.385kgCO2e/kWh; about9.7MWh/3.7tCO2e. Fixed electricity/grid assumptions, excluding manufacture/disposal; not metered total project emissions.",
+      "baseline": "not_applicable; model-based accounting estimate",
+      "unit": "GPU-hours; watts; MWh; tCO2e; dimensionlessPUE",
+      "sample_size": "one reported reproduction-run accounting scope; not repeated physical power measurements"
+    },
+    {
+      "id": "C47",
+      "type": "quantitative",
+      "claim": "整个研究项目还包括多轮预训练、消融与其他尝试，原文估计约500—1000吨二氧化碳当量；两种范围相差很大。对使用者而言，复用冻结特征或较小蒸馏模型可以减少自己重复预训练的需求；对研究者而言，试验过程的成本仍应单独算进去。",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 21,
+      "locator": "§9 Carbon footprint of whole project",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Current tagged article paragraph checked against locked arXiv v2 source and connected source figure/table; final formula, diagram and caption corrections reviewed. Quantitative fields are scoped to this paragraph and its directly connected display.",
+      "supporting_science_claim_ids": [
+        "C47"
+      ],
+      "metric": "whole_project_carbon_estimate",
+      "conditions": "§9 estimates500–1000tCO2e for exploration plus training under same assumed electricity-grid model; distinct scope from one reproduction run.",
+      "baseline": "not_applicable; scope comparison with single-run estimate, not an experimental baseline",
+      "unit": "tCO2e",
+      "sample_size": "one whole-project estimate; not repeated measurement"
+    },
+    {
+      "id": "C48",
+      "type": "qualitative",
+      "claim": "后来OpenVLA给出了一个可核对的接法：DINOv2与SigLIP分别编码图像，沿特征通道拼接，经两层MLP接入语言模型；模型还用机器人动作数据训练，并微调视觉编码器。因此，DINOv2在这条链路中提供视觉起点，动作能力来自后续完整训练。",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf",
+      "pdf_page": 4,
+      "locator": "OpenVLA §3.1/Fig2 p4; §3.2 p4; §3.4 p5; Appendix F.3 p32",
+      "verified": true,
+      "checked_at": "2026-11-02T11:01:46.398242+08:00",
+      "review_basis": "Targeted original OpenVLA publisher-PDF read of §3.1/Fig2, §3.4 and Appendix F.3; DINOv2/SigLIP channel concatenation, two-layer MLP and final visual-encoder fine-tuning verified. Not a full OpenVLA reading.",
+      "supporting_science_claim_ids": [],
+      "source_paper_version": "CoRL2024 / PMLR270 (2025) official publisher PDF",
+      "source_pdf_sha256": "312adce96455c80da723f85bfe25c9bae7ccfbeb9daf739e05671eb7a303affa",
+      "additional_source_urls": [
+        "https://proceedings.mlr.press/v270/kim25c.html"
+      ]
+    }
+  ],
+  "root_article_snapshot_sha256": "a8dcc8b6c9ba4d763fb3cf4234e7849315fabb5d973c1ff2cb2a831ab60df989",
+  "review_status": "science_pass_current_article_and_math; root_release_checks_separate",
+  "source_notes": {
+    "download_url": "https://arxiv.org/pdf/2304.07193",
+    "canonical_version_url": "https://arxiv.org/pdf/2304.07193v2",
+    "license": "arXiv nonexclusive-distrib/1.0; not automatically CC-BY or model Apache2",
+    "openreview_pdf": "403; no claim of byte equality to proceedings",
+    "quantitative_unknowns": "evaluation sample/repeat counts not all printed; retained unknown rather than guessed"
+  },
+  "field_audit": {
+    "checked_at": "2026-11-02T11:01:46.398242+08:00",
+    "principle": "Paragraph-scoped manual type and quantitative-field audit; no automatic metric/sample-size concatenation from supporting source claims.",
+    "qualitative_ids": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C11",
+      "C14",
+      "C18",
+      "C21",
+      "C23",
+      "C30",
+      "C41",
+      "C42",
+      "C43",
+      "C48"
+    ],
+    "quantitative_claim_count": 31
+  }
+}

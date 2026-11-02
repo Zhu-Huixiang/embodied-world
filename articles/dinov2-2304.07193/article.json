@@ -1,0 +1,758 @@
+{
+  "slug": "dinov2-2304.07193",
+  "title": "DINOv2：不靠文字，怎样练出一套可复用的视觉特征？",
+  "topics": [
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "DINOv2: Learning Robust Visual Features without Supervision",
+    "arxiv_id": "2304.07193",
+    "version": "arXiv 2304.07193v2 (2024-02-02), author version with TMLR 01/2024 publication header",
+    "first_publication": "2023-04-14",
+    "pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+    "url": "https://arxiv.org/abs/2304.07193",
+    "project_url": "https://dinov2.metademolab.com/",
+    "code_url": "https://github.com/facebookresearch/dinov2",
+    "authors": [
+      "Maxime Oquab",
+      "Timothée Darcet",
+      "Théo Moutakanni",
+      "Huy V. Vo",
+      "Marc Szafraniec",
+      "Vasil Khalidov",
+      "Pierre Fernandez",
+      "Daniel Haziza",
+      "Francisco Massa",
+      "Alaaeldin El-Nouby",
+      "Mahmoud Assran",
+      "Nicolas Ballas",
+      "Wojciech Galuba",
+      "Russell Howes",
+      "Po-Yao Huang",
+      "Shang-Wen Li",
+      "Ishan Misra",
+      "Michael Rabbat",
+      "Vasu Sharma",
+      "Gabriel Synnaeve",
+      "Hu Xu",
+      "Hervé Jegou",
+      "Julien Mairal",
+      "Patrick Labatut",
+      "Armand Joulin",
+      "Piotr Bojanowski"
+    ],
+    "institutions": [
+      "Meta AI Research",
+      "Inria",
+      "Université Paris Saclay",
+      "ENS-PSL"
+    ],
+    "source_checked_at": "2026-11-02T10:25:57.368462+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "Transactions on Machine Learning Research (TMLR), January 2024",
+    "url": "https://openreview.net/forum?id=a68SUt6zFt",
+    "checked_at": "2026-11-02T10:25:57.368462+08:00",
+    "explanation": "Selected arXiv v2 PDF title page bears Published in TMLR (01/2024) and OpenReview forum a68SUt6zFt; arXiv history v2 2024-02-02. Direct OpenReview PDF returned403, not claimed byte-identical to proceedings PDF."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/dinov2-architecture.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "DINOv2全篇架构",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/dinov2-architecture.tex",
+      "pdf": "figures/drawpaper/dinov2-architecture.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.txt",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "pixel_size": [
+        1871,
+        5366
+      ],
+      "sha256": "8345b072e4482a2a6fa0aa3429a15839bafffdb4c4d51762920b72c5694fa7f1",
+      "provenance": "Built-in imagegen draft retained unchanged through graphicx viewports across all four regions. Accurate typography, equations and all dataflow rebuilt in TikZ. Mixed raster/vector PDF. Draft illustration arrows are excluded."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig1-pca.png",
+      "caption": "论文 Fig. 1：同一列图像联合计算PCA，用前三个分量着色；颜色相近表示投影坐标接近。",
+      "alt": "论文Fig1局部特征PCA",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 1",
+      "pdf_page": 2,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        70,
+        78,
+        543,
+        278
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "四列分别做跨图patch PCA；RGB为前三主成分，第一主成分阈值滤背景。不是语义标签、置信度或定量评估。",
+      "pixel_size": [
+        1892,
+        800
+      ],
+      "sha256": "1afcf7eb91aced5679bf42dfc1d7dddb3cf81c8061d72142502ba41735fcdb89"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig1-pca-bird-plane.png",
+      "caption": "论文 Fig. 1(a)局部：左边是输入，右边是PCA着色；两翼、主体在跨图比较中呈现相近颜色。",
+      "alt": "论文Fig1a鸟与飞机的PCA局部",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 1a",
+      "pdf_page": 2,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        70,
+        78,
+        186,
+        278
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "完整Fig1(a)列，鸟和飞机四对图；PCA颜色是共同特征方向，不是模型直接输出的类别标签。",
+      "pixel_size": [
+        464,
+        800
+      ],
+      "sha256": "7874e203ad7fb2cf38f86ef799e78eb1f403d0510914b8f731a6dc6a6682620f"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig3-data-pipeline.png",
+      "caption": "论文 Fig. 3：先映射到特征空间，再去重与检索；沿箭头看两种数据怎样汇合。",
+      "alt": "论文Fig.3数据处理流程",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 3",
+      "pdf_page": 4,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        70,
+        80,
+        542,
+        226
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "上灰桶为原池、下橙桶为种子；embedding→dedup红叉→retrieval→扩充图集。无数值轴。",
+      "pixel_size": [
+        1888,
+        584
+      ],
+      "sha256": "10f027644ca3aa4dc1c71330ab0f9f3dda1a906ba9d3e5ef98099de342ad96bf"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table2-data.png",
+      "caption": "论文 Table 2：逐列比较数据来源；不同列是不同任务，不能把数值直接求和。",
+      "alt": "论文Table2数据来源消融",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Table 2",
+      "pdf_page": 8,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        84,
+        342,
+        527,
+        418
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "ViT-g/14、等步数短run、无高分辨率适配；raw和LVD均142M。ADE原池48.5高于筛后47.7。",
+      "pixel_size": [
+        1772,
+        304
+      ],
+      "sha256": "743d64253b500f8325622245518bbb70ab4ea0ad353a28d502db283d5b53a0ae"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table3-koleo.png",
+      "caption": "论文 Table 3(a)：KoLeo开启后，Oxford-M mAP从55.6到63.9；ADE20K mIoU为47.2到47.1。",
+      "alt": "论文Table3a KoLeo消融",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Table 3a",
+      "pdf_page": 9,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        72,
+        202,
+        302,
+        270
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "Table3a：KoLeo使Oxford-M mAP55.6→63.9；ADE mIoU47.2→47.1。",
+      "pixel_size": [
+        920,
+        272
+      ],
+      "sha256": "4239e88e927c44c5e49daf6be5856a32cf8f89f0488b251c4263dddf23337b2a"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table3-mim.png",
+      "caption": "论文 Table 3(b)：遮挡目标开启后，ADE20K mIoU从44.2到47.1；Oxford-M mAP为64.3到63.9。",
+      "alt": "论文Table3b遮挡目标消融",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Table 3b",
+      "pdf_page": 9,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        308,
+        202,
+        539,
+        270
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "Table3b：MIM使ADE mIoU44.2→47.1；Oxford-M mAP64.3→63.9。",
+      "pixel_size": [
+        924,
+        272
+      ],
+      "sha256": "f50e157b76de3a122e0aee4b7ead51a1e15812b4ae4f64e064450cc006ecd1e0"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig5-distillation.png",
+      "caption": "论文 Fig. 5：左侧雷达逐任务比较三个模型，右侧表格汇总八类任务；深度项以误差更低为好。",
+      "alt": "论文Fig5蒸馏比较",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 5",
+      "pdf_page": 10,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        70,
+        81,
+        540,
+        260
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "蓝ViT-L从头训练、橙ViT-L蒸馏、红虚线ViT-g。左12任务不同尺度雷达，右8类汇总；深度误差越低越好。",
+      "pixel_size": [
+        1880,
+        716
+      ],
+      "sha256": "90e0fdeea93690eb40e43904a110c21afa5d9a2d3bb6c99239e12d8db3008acb"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig5a-distillation-radar.png",
+      "caption": "论文 Fig. 5(a)局部：蓝线与橙线使用相同ViT-L结构，先沿同一条轴比较。",
+      "alt": "论文Fig5a蒸馏雷达局部",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 5a",
+      "pdf_page": 10,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        70,
+        81,
+        269,
+        260
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "完整Fig5(a)雷达含图例和轴；不能把面积当统一综合分。ImageNet84.5→86.3；教师86.5。",
+      "pixel_size": [
+        796,
+        716
+      ],
+      "sha256": "7cb855bf8b35dfc0c39ea95ee6017ea4e8f12c726f54dd5257ba9f73942fcd29"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig6-resolution.png",
+      "caption": "论文 Fig. 6：横轴为评测分辨率，左图是ImageNet准确率，右图是ADE20K mIoU；三条曲线表示不同预训练分辨率日程。",
+      "alt": "论文Fig6分辨率适应",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 6",
+      "pdf_page": 10,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        140,
+        348,
+        470,
+        473
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "ViT-L/16/ImageNet1k；横轴评估分辨率，纵轴左accuracy右mIoU。224→416末段10k步；不是最终518配方。",
+      "pixel_size": [
+        1320,
+        500
+      ],
+      "sha256": "a0014f877e99038a735e3ad1b0c66e030cbb69f1a93e2c68687f325ee2aa104a"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig6a-resolution.png",
+      "caption": "论文 Fig. 6左图：横轴是评测分辨率，纵轴是ImageNet-1k分类准确率；同一分辨率下比较三种训练日程。",
+      "alt": "论文Fig6左侧分类分辨率曲线",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 6 left",
+      "pdf_page": 10,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        139,
+        348,
+        306,
+        473
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "Fig6左图：ViT-L/16、ImageNet1k；横轴评估分辨率，纵轴accuracy。橙224、粉416、蓝224→416。原图只在右面板放共享图例；此左局部未另造图例。",
+      "pixel_size": [
+        668,
+        500
+      ],
+      "sha256": "04f24fa25ab74f2757e915a36821bbdf8d48103bf1a925626a704f62a11e5886"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig6b-resolution.png",
+      "caption": "论文 Fig. 6右图：纵轴换成ADE20K mIoU；保留左下方原图例，观察蓝线与粉线的距离。",
+      "alt": "论文Fig6右侧分割分辨率曲线",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 6 right",
+      "pdf_page": 10,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        308,
+        348,
+        470,
+        473
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "Fig6右图：ViT-L/16、ImageNet1k预训练；横轴评估分辨率，纵轴ADE20k mIoU。原共享图例完整保留：橙224、粉416、蓝224→416。",
+      "pixel_size": [
+        648,
+        500
+      ],
+      "sha256": "9941c7ed408033ad2cccc6f16cc0b8b8e1e97ddcb9395c2d6731a1b30f91aed3"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table11-depth.png",
+      "caption": "论文 Table 11：按数据集分组，每组内比较单层、四层和DPT头；RMSE越低越好。",
+      "alt": "论文Table11冻结特征深度评测",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Table 11",
+      "pdf_page": 16,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        71,
+        79,
+        540,
+        242
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "RMSE越低越好，lin1/lin4/DPT同设置比较；NYUd→SUN为迁移。线性深度拼CLS并训练有监督头。",
+      "pixel_size": [
+        1876,
+        652
+      ],
+      "sha256": "1c3cf7f013f7737669163b8d3039b76c092633e04f9391c0ec3129bc2869db4a"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig7-dense-results.png",
+      "caption": "论文 Fig. 7：每组三列依次为原图、OpenCLIP-G和DINOv2-g的线性读出；逐行比较分割与三个深度数据集。",
+      "alt": "论文Fig7分割与深度可视化",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 7",
+      "pdf_page": 17,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        70,
+        78,
+        542,
+        330
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "左右两组每组三列Input/OpenCLIP-G/DINOv2-g，没有真值列；四行ADE/NYUd/SUN/KITTI；深度伪彩无统一米数色标。",
+      "pixel_size": [
+        1888,
+        1008
+      ],
+      "sha256": "7a9399b9d120c7d6939ee7d0f4d6e5f6cccd522ce1edb56f620aa2a874b06bcb"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig7-dense-results-left.png",
+      "caption": "论文 Fig. 7左侧局部：保留原图和两模型结果的三列顺序，放大查看城堡、客厅与道路。",
+      "alt": "论文Fig7左侧局部放大",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 7 left examples",
+      "pdf_page": 17,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        70,
+        78,
+        312,
+        330
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "Fig7左侧完整四行三列，保留数据集名与方法标签；没有真值列。",
+      "pixel_size": [
+        968,
+        1008
+      ],
+      "sha256": "555b812228216ae293c496ee19ff7f14f11f8eda243d1ddddcf63d140884191c"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig10-patch-matching.png",
+      "caption": "论文 Fig. 10：连线展示经过匹配与筛选的局部对应；关注跨姿态、照片与画作之间的关联。",
+      "alt": "论文Fig10跨图局部匹配",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 10",
+      "pdf_page": 19,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        120,
+        81,
+        492,
+        381
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "先筛前景，patch欧氏距离指派再NMS；四组连线区分匹配对，不是注意力或置信度。",
+      "pixel_size": [
+        1488,
+        1200
+      ],
+      "sha256": "f42a9981017e47e98e452198c28be87528ed543f34e927f052377e5fd5ebef31"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig10-bird-plane.png",
+      "caption": "论文 Fig. 10鸟与飞机组：沿每根彩线看它连接了两幅图的哪个部位。",
+      "alt": "论文Fig10鸟与飞机局部匹配",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "figure_id": "Fig. 10 Birds / Airplanes",
+      "pdf_page": 19,
+      "source_pdf_sha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+      "bbox": [
+        322,
+        81,
+        492,
+        228
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72pt/in",
+      "crop_method": "render complete PDF page at 288 dpi then crop; no recoloring or label change",
+      "rights_checked": true,
+      "rights_note": "arXiv record links nonexclusive-distrib/1.0, not CC BY. These selected excerpts are limited to necessary scholarly commentary with attribution. No full PDF redistribution and no blanket reuse permission inferred from code license. OpenReview API license check returned403 ChallengeRequired.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "read_guide": "Fig10右上完整Birds/Airplanes两对示例含组名；匹配线来自指派算法，不是机器人控制证据。",
+      "pixel_size": [
+        680,
+        588
+      ],
+      "sha256": "4994f1acf8f4d23bf9b52008df8a6ceb3d3ad25d0c28ca22e635eb6eb7eddff9"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/01-visual-tokens.png",
+      "caption": "式（1），教学展开：图像块数量与视觉特征形状。Fθ 表示参数为 θ 的视觉编码器；下标 i 表示第i个图像块，d 是每个 token 的通道数。",
+      "alt": "式1图像与特征形状",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 7,
+      "locator": "§4/§5, pp5–7; Appendix B Table17 p31",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/01-visual-tokens.tex",
+      "pdf": "figures/formulas/01-visual-tokens.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_shape_expansion",
+      "source_notes": [
+        "Article numbering is local teaching numbering; no original paper equation number is claimed.",
+        "Numeric teaching examples are not reported experimental results."
+      ],
+      "pixel_size": [
+        712,
+        336
+      ],
+      "sha256": "e8da48ec48a1115b8464f94f2f4aa694da240c0985da2a834ba6fb4c4e085764"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/02-image-distillation.png",
+      "caption": "式（2），对应原文§4的 DINO 交叉熵，展开原型索引 k；log 为自然对数。pₜ提供目标，pₛ是被优化的学生预测。",
+      "alt": "式2整图自蒸馏损失",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 5,
+      "locator": "§4 p5, unnumbered DINO display",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/02-image-distillation.tex",
+      "pdf": "figures/formulas/02-image-distillation.pdf",
+      "display_width": 290,
+      "equation_type": "unnumbered_paper_loss_with_teaching_example",
+      "source_notes": [
+        "Article numbering is local teaching numbering; no original paper equation number is claimed.",
+        "Numeric teaching examples are not reported experimental results."
+      ],
+      "pixel_size": [
+        694,
+        305
+      ],
+      "sha256": "ce62c1631d74627fca51e8a0a80c82d6fe11c094f0e86bb0e118bce27c7471c7"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/03-masked-patch.png",
+      "caption": "式（3），教学展开：在原文§4的 iBOT 交叉熵上按遮挡位置数 |M| 取平均，用于说明不同遮挡数量的归一化。",
+      "alt": "式3局部遮挡目标",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§4 p6, unnumbered iBOT display; mean normalization added for teaching",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/03-masked-patch.tex",
+      "pdf": "figures/formulas/03-masked-patch.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_mean_normalized_variant_of_unnumbered_paper_loss",
+      "source_notes": [
+        "Article numbering is local teaching numbering; no original paper equation number is claimed.",
+        "Numeric teaching examples are not reported experimental results.",
+        "Average over masked positions is added explicitly for teaching; original paper display is a sum."
+      ],
+      "pixel_size": [
+        701,
+        183
+      ],
+      "sha256": "56a21bc00aa051ecf966d6865e4a5533e62505f691d341163aea280bbd15aabe"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/04-teacher-update.png",
+      "caption": "式（4），教学展开：EMA教师更新。教师目标停止梯度回传；学生通过损失更新，教师通过参数平均更新。",
+      "alt": "式4教师参数更新",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 31,
+      "locator": "Appendix B.1 p31 EMA update",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/04-teacher-update.tex",
+      "pdf": "figures/formulas/04-teacher-update.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_EMA_expansion_with_scalar_example",
+      "source_notes": [
+        "Article numbering is local teaching numbering; no original paper equation number is claimed.",
+        "Numeric teaching examples are not reported experimental results."
+      ],
+      "pixel_size": [
+        698,
+        224
+      ],
+      "sha256": "0fb86eed00a152cdcecec51b64d82d6ad9ff469de6c9a4af7ed5cf2439189887"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/05-koleo.png",
+      "caption": "式（5），原文§4的 KoLeo 正则：先找最近邻距离，再取负对数并平均。附录B.1把它用于每张卡上第一全局裁剪的CLS特征，权重0.1。",
+      "alt": "式5KoLeo最近邻距离正则",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 6,
+      "locator": "§4 p6 KoLeo; Appendix B.1 p29",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/05-koleo.tex",
+      "pdf": "figures/formulas/05-koleo.pdf",
+      "display_width": 290,
+      "equation_type": "unnumbered_paper_loss_with_teaching_example",
+      "source_notes": [
+        "Article numbering is local teaching numbering; no original paper equation number is claimed.",
+        "Numeric teaching examples are not reported experimental results."
+      ],
+      "pixel_size": [
+        695,
+        322
+      ],
+      "sha256": "9d442b59a69e25fce695ba2870919ea02fb0921ceeb0c2b91be01b7079023105"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/formulas/06-frozen-head.png",
+      "caption": "式（6），教学展开：固定视觉编码器，训练线性任务头。实际ImageNet探针还会选择拼接最后一层或四层CLS、是否加入平均池化的局部特征，所以输入维数取决于所选配置。",
+      "alt": "式6冻结编码器与可训练头",
+      "source_url": "https://arxiv.org/pdf/2304.07193v2",
+      "pdf_page": 11,
+      "locator": "§7.1 p11; Appendix B.3 p31 linear probing",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "generator": "TeX",
+      "tex": "figures/formulas/06-frozen-head.tex",
+      "pdf": "figures/formulas/06-frozen-head.pdf",
+      "display_width": 290,
+      "equation_type": "standard_linear_classifier_teaching_expansion",
+      "source_notes": [
+        "Article numbering is local teaching numbering; no original paper equation number is claimed.",
+        "Numeric teaching examples are not reported experimental results."
+      ],
+      "pixel_size": [
+        598,
+        232
+      ],
+      "sha256": "88f4b872e6426ca88d5884dc6080ccb2e2c918b235e22297984da0fa65c8f244"
+    },
+    {
+      "file": "figures/drawpaper/dinov2-pretraining-detail.png",
+      "caption": "B区详图：沿输入、两种交叉熵和参数更新依次读；教师的目标不走梯度回传。",
+      "alt": "预训练双目标与更新路线详图",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper_detail",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/dinov2-pretraining-detail.tex",
+      "pdf": "figures/drawpaper/dinov2-pretraining-detail.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.txt",
+      "regions": [
+        "B"
+      ],
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "pixel_size": [
+        1106,
+        3912
+      ],
+      "sha256": "eea1e48ff50f859c80e3199eca496023c83f77e93dd7fc2685d7917d3a6c263a",
+      "display_design": {
+        "pdf_width_points": 368.5,
+        "minimum_font_points": 13,
+        "expected_image_width_css_px": 335,
+        "minimum_nominal_font_css_px": 11.818
+      },
+      "provenance": "Mobile vertical re-layout of existing scientific specification and unchanged imagegen source illustrations; no new generation. Exact TikZ typesetting, independent compilable source and PDF. The whole-article DrawPaper retains the single production attribution.",
+      "parent_figure": "figures/drawpaper/dinov2-architecture.png"
+    },
+    {
+      "file": "figures/drawpaper/dinov2-readout-detail.png",
+      "caption": "D区详图：先区分全局和局部输出，再看分类、检索、分割与深度各自怎样读取特征。",
+      "alt": "冻结特征与任务读出详图",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper_detail",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/dinov2-readout-detail.tex",
+      "pdf": "figures/drawpaper/dinov2-readout-detail.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.txt",
+      "regions": [
+        "D"
+      ],
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-02T11:11:00.375261+08:00",
+      "pixel_size": [
+        1106,
+        3887
+      ],
+      "sha256": "9d831cf43a28238ee83583d746762de09a7221191e0338dd2e696a7fe9b29c65",
+      "display_design": {
+        "pdf_width_points": 368.5,
+        "minimum_font_points": 13,
+        "expected_image_width_css_px": 335,
+        "minimum_nominal_font_css_px": 11.818
+      },
+      "provenance": "Mobile vertical re-layout of existing scientific specification and unchanged imagegen source illustrations; no new generation. Exact TikZ typesetting, independent compilable source and PDF. The whole-article DrawPaper retains the single production attribution.",
+      "parent_figure": "figures/drawpaper/dinov2-architecture.png"
+    }
+  ],
+  "cover_info": {
+    "ai_generated": true,
+    "generator": "built-in imagegen",
+    "prompt": "cover/imagegen-prompt.txt",
+    "source": "cover/cover.png",
+    "title": "不靠文字，怎样学会看图",
+    "visual_review": "Both source and square variant personally viewed; exact title verified. Square is a separately generated rearrangement, not a center crop of landscape. Landscape2.35 crop review delegated to layout QA.",
+    "sha256": "f8fe8b60b8d5711836e9a36967a3ae8981d87e05c2d54ce9777e025e4d905693",
+    "reviewed": true,
+    "crop_review": "2.35:1 center 12% crop and separately generated square variant visually checked in local375px previews; square kept in local asset provenance."
+  }
+}

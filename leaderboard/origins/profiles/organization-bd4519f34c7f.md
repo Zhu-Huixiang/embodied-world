@@ -14,7 +14,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [DINOv2 · DINOv2: Learning Robust Visual Features without Supervision](../../../library/dinov2.md) | 2024 / [TMLR](../../../venues/TMLR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [90.7](../../papers/dinov2/README.md) |
+| [DINOv2 · DINOv2: Learning Robust Visual Features without Supervision](../../../articles/dinov2-2304.07193/README.md) | 2024 / [TMLR](../../../venues/TMLR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [90.7](../../papers/dinov2/README.md) |
 
 ## 署名与来源
 
