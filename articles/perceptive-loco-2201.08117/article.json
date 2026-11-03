@@ -1,0 +1,742 @@
+{
+  "slug": "perceptive-loco-2201.08117",
+  "title": "机器狗看错路，为什么还能走？",
+  "topics": [
+    "locomotion",
+    "reinforcement-learning"
+  ],
+  "paper": {
+    "title": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
+    "arxiv_id": "2201.08117",
+    "version": "Author project version, compiled 2022-01-20, 22 pages including supplementary S1–S9; arXiv2201.08117v1 identity",
+    "first_publication": "2022-01-20",
+    "pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+    "url": "https://arxiv.org/abs/2201.08117",
+    "project_url": "https://leggedrobotics.github.io/rl-perceptiveloco/",
+    "code_url": null,
+    "authors": [
+      "Takahiro Miki",
+      "Joonho Lee",
+      "Jemin Hwangbo",
+      "Lorenz Wellhausen",
+      "Vladlen Koltun",
+      "Marco Hutter"
+    ],
+    "institutions": [
+      "Robotic Systems Lab, ETH Zurich",
+      "Robotics and Artificial Intelligence Lab, KAIST",
+      "Intelligent Systems Lab, Intel"
+    ],
+    "source_checked_at": "2026-11-03T11:40:02+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "Science Robotics 2022, 7(62), eabk2822",
+    "url": "https://doi.org/10.1126/scirobotics.abk2822",
+    "checked_at": "2026-11-03T11:40:02+08:00",
+    "explanation": "Official author project and arXiv identify Science Robotics 2022 / DOI10.1126/scirobotics.abk2822; Crossref journal metadata confirms7(62). arXiv journal-ref Jan19 differs from Crossref Jan26, so no exact journal publication day asserted. Selected January20 author PDF with supplements is not represented as publisher-identical bytes."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "alt": "感知运动控制全篇架构",
+      "file": "figures/drawpaper/perceptive-loco-architecture.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1565,
+        2433
+      ],
+      "sha256": "2a316c44b7a9513021dbc53d2238b40cb21053351856736462323cc3c89ec3d6",
+      "kind": "drawpaper",
+      "panel_caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/perceptive-loco-architecture.tex",
+      "pdf": "figures/drawpaper/perceptive-loco-architecture.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "source_locator": "Author PDF pp. 11–14; S3/S5/S6 pp. 17–18",
+      "provenance": "Mixed raster/vector: retained built-in imagegen draft supplies unmodified illustration viewports; scientific labels, formulas and causal arrows independently typeset and verified.",
+      "dependencies": [
+        "figures/drawpaper/perceptive-loco-imagegen-draft.png",
+        "figures/drawpaper/source-notes.md"
+      ]
+    },
+    {
+      "alt": "论文Fig3外感知挑战",
+      "file": "figures/original/fig3-perception.png",
+      "caption": "论文 Fig. 3。A里的红点是策略实际读取的高度样本；B–G分别看传感器、地图表示和位姿误差怎样改变这些样本。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1838,
+        1488
+      ],
+      "sha256": "845d5c740219fd7f0845b3e1086eaf17e3ecc5423480be6f67c9fe19e7d0c6e3",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Fig. 3",
+      "pdf_page": 6,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        40,
+        155,
+        565,
+        580
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 3。A里的红点是策略实际读取的高度样本；B–G分别看传感器、地图表示和位姿误差怎样改变这些样本。",
+      "upload_file": "figures/original/fig3-perception-upload.jpg"
+    },
+    {
+      "alt": "论文实机比较图",
+      "file": "figures/original/fig4-comparison.png",
+      "caption": "论文 Fig. 4（原文正文指称，作者稿第7页比较图）。A/B看跨台阶，C/D看障碍路线，G/H看前进、侧移与转向；不要把“有人帮忙走完”的时间直接折算成速度提升。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1852,
+        1838
+      ],
+      "sha256": "b60c4685c414b9bbfb0d88786a8ef7b521383e1a7714d7a87717c59e7e14470e",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Uncaptioned comparison; body calls Fig. 4",
+      "pdf_page": 7,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        45,
+        123,
+        574,
+        648
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 4（原文正文指称，作者稿第7页比较图）。A/B看跨台阶，C/D看障碍路线，G/H看前进、侧移与转向；不要把“有人帮忙走完”的时间直接折算成速度提升。",
+      "upload_file": "figures/original/fig4-comparison-upload.jpg"
+    },
+    {
+      "alt": "实机台阶成功率局部",
+      "file": "figures/original/fig4-comparison-step-detail.png",
+      "caption": "论文 Fig. 4B 局部。保留全部坐标和图例，单独看高度增加时两条成功率曲线在哪里下降。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        802,
+        407
+      ],
+      "sha256": "12fd6dd1fa9ef1dfe42c67e57d543eb8bddd24d524cfd9f9d198d0bce54bcd60",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "comparison B",
+      "pdf_page": 7,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        341,
+        123,
+        570,
+        239
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 4B 局部。保留全部坐标和图例，单独看高度增加时两条成功率曲线在哪里下降。",
+      "upload_file": "figures/original/fig4-comparison-step-detail-upload.jpg"
+    },
+    {
+      "alt": "实机速度对照局部",
+      "file": "figures/original/fig4-comparison-speed-detail.png",
+      "caption": "论文 Fig. 4H 局部。为手机阅读将原图三列依次竖排，自上而下看前进、侧移和转向；保留原轴与图例，平地和20 cm台阶是两种条件。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        620,
+        1056
+      ],
+      "sha256": "83c2bf713f646c0cfecf42bae920fe797b46cba92db30d561fef07a5bacf15fd",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "comparison H",
+      "pdf_page": 7,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        45,
+        550,
+        573,
+        647
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 4H 局部。为手机阅读将原图三列依次竖排，自上而下看前进、侧移和转向；保留原轴与图例，平地和20 cm台阶是两种条件。",
+      "upload_file": "figures/original/fig4-comparison-speed-detail-upload.jpg",
+      "assembly": "Original H panels restacked vertically, no redraw or changed values; original third-panel legend applies to all three.",
+      "source_panels_pdf_points": [
+        [
+          45,
+          550,
+          219,
+          647
+        ],
+        [
+          220,
+          550,
+          397,
+          647
+        ],
+        [
+          398,
+          550,
+          573,
+          647
+        ]
+      ]
+    },
+    {
+      "alt": "论文FigS1地形覆盖",
+      "file": "figures/original/figs1-simulation.png",
+      "caption": "论文 Fig. S1。A的横轴是网格高度幅度、纵轴是网格宽度；B的横轴是台阶高度、纵轴是踏面深度，均为线性坐标、单位米。左侧蓝图是本体基线，中间红图是本文方法，两者各用0–100%的色标，颜色越深成功率越高。右侧A–F场景对应图中标注的参数点。读图时固定一组几何条件，再比较两张图；整片颜色分布表达的是成功范围，不能压成一个总成功率。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1838,
+        991
+      ],
+      "sha256": "e20626735454e7e2b720624e88432b9700e1e852991375af7f7448369a41fbc1",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Fig. S1",
+      "pdf_page": 22,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        40,
+        49,
+        565,
+        332
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. S1。A的横轴是网格高度幅度、纵轴是网格宽度；B的横轴是台阶高度、纵轴是踏面深度，均为线性坐标、单位米。左侧蓝图是本体基线，中间红图是本文方法，两者各用0–100%的色标，颜色越深成功率越高。右侧A–F场景对应图中标注的参数点。读图时固定一组几何条件，再比较两张图；整片颜色分布表达的是成功范围，不能压成一个总成功率。",
+      "upload_file": "figures/original/figs1-simulation-upload.jpg"
+    },
+    {
+      "alt": "论文Fig4信念状态可视化",
+      "file": "figures/original/fig4-belief.png",
+      "caption": "论文 Fig. 4（作者稿第9页图注）。红点是输入的高度样本，蓝点是从内部表征解码出的地形估计；看接触前后两种颜色怎样分开。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1785,
+        1810
+      ],
+      "sha256": "bb6716460d930a9f9b51e91245cb8c2bec6272cc049834822da1f153a8a8c545",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Fig. 4",
+      "pdf_page": 9,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        54,
+        87,
+        564,
+        604
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 4（作者稿第9页图注）。红点是输入的高度样本，蓝点是从内部表征解码出的地形估计；看接触前后两种颜色怎样分开。",
+      "upload_file": "figures/original/fig4-belief-upload.jpg"
+    },
+    {
+      "alt": "论文Fig5训练部署",
+      "file": "figures/original/fig5-training.png",
+      "caption": "论文 Fig. 5。上排奖励训练教师，中排行为损失与重建损失训练学生，下排只保留学生与实机反馈；循着箭头辨认哪些真值在部署时已经拿掉。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1443,
+        2034
+      ],
+      "sha256": "fc69e7a46327073235c071e8fe004644875024b0f3a7d609b6bc933bbfe1b1bb",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Fig. 5",
+      "pdf_page": 10,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        97,
+        44,
+        509,
+        625
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 5。上排奖励训练教师，中排行为损失与重建损失训练学生，下排只保留学生与实机反馈；循着箭头辨认哪些真值在部署时已经拿掉。",
+      "upload_file": "figures/original/fig5-training-upload.jpg"
+    },
+    {
+      "alt": "观察编码公式",
+      "file": "figures/equations/eq01-observation.png",
+      "caption": "公式（1）按原文观察定义与附录维度展开。每只脚52维高度先分别过编码器，得到24维，再拼成96维外感知特征；50维特权量压成24维。加上133维本体观测，教师主网络的输入为253维。<!-- evidence:C34 -->",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        620,
+        374
+      ],
+      "sha256": "02d1647027b822ccb46967e67d4e6cbed8d85cef33774e78c1eb50556794301a",
+      "kind": "formula",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "pdf_page": 11,
+      "locator": "pp. 11–12; S5/Table S3 and S6 pp. 17–18",
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "generator": "TeX",
+      "tex": "figures/equations/eq01-observation.tex",
+      "pdf": "figures/equations/eq01-observation.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "教师391维与学生341维为Table S3分量求和；特征维度及主网络结构据S6。o上标p表示本体，s上标p表示特权。"
+      ],
+      "exact_latex": "\\begin{aligned}o_t^{\\mathrm{teacher}}&=[o_t^p,o_t^e,s_t^p]\\in\\mathbb R^{391}\\\\o_t^{\\mathrm{student}}&=[o_t^p,\\widetilde o_t^e]\\in\\mathbb R^{341}\\\\l_t^e&=g_e(o_t^e)\\in\\mathbb R^{96}\\\\l_t^{\\mathrm{priv}}&=g_p(s_t^p)\\in\\mathbb R^{24}\\\\a_t^T&=\\pi_T([o_t^p,l_t^e,l_t^{\\mathrm{priv}}])\\in\\mathbb R^{16}\\end{aligned}"
+    },
+    {
+      "alt": "动作到关节目标公式",
+      "file": "figures/equations/eq02-action.png",
+      "caption": "公式（2）对应补充材料 S5，ψₗ仅用于缩短排版。先在相位上加入策略修正，求脚尖位置，再做IK，最后加关节角残差。教学举例：某关节的IK结果为0.6 rad，残差为−0.1 rad，最终目标便是0.5 rad。这个加法才是策略输出如何落到电机关节目标的接口。<!-- evidence:C37 -->",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        515,
+        296
+      ],
+      "sha256": "44de3083d37df27dcccd3587ccc8c053545230b952671772af700fd6208c4bc1",
+      "kind": "formula",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "pdf_page": 17,
+      "locator": "S5, pp. 17–18; phase correction, foot trajectory, IK and joint residual",
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "generator": "TeX",
+      "tex": "figures/equations/eq02-action.tex",
+      "pdf": "figures/equations/eq02-action.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "S5动作参数化的等价教学展开；ψₗ是原相位加基准增量及策略修正的短记号。4维相位修正与12维关节残差最终生成12维关节目标。"
+      ],
+      "exact_latex": "\\begin{aligned}\\Delta\\boldsymbol\\phi&\\in\\mathbb R^4,\\quad\\Delta\\mathbf q\\in\\mathbb R^{12}\\\\a_t&=[\\Delta\\boldsymbol\\phi,\\Delta\\mathbf q]\\in\\mathbb R^{16}\\\\\\psi_l&=\\phi_l+\\Delta\\phi_l+\\Delta\\phi_0\\\\q_{i\\in l}^{\\mathrm{target}}&=\\operatorname{IK}\\!\\left[p(\\psi_l)\\right]+\\Delta q_{i\\in l}\\end{aligned}"
+    },
+    {
+      "alt": "基准抬脚轨迹公式",
+      "file": "figures/equations/eq03-swing.png",
+      "caption": "公式（3）等价改写S5的上抬段。0.2的单位是米，是这条基准轨迹的抬升尺度。教学取φₗ=π/4，得到u=0.5，括号里的三次多项式为0.5，于是脚尖在基准高度上升0.1 m。随后用对称样条下降，相位π到2π期间保持基准足位。策略的相位与关节残差叠加在这条基础运动上，所以0.2 m不是整套控制器最终能跨越的障碍上限。<!-- evidence:C38 -->",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        635,
+        298
+      ],
+      "sha256": "d201c5229a5311fcb1744845a17fca6c6e515e4338c7b6079c8a2bd84693031e",
+      "kind": "formula",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "pdf_page": 18,
+      "locator": "S5 p. 18; rising branch of cubic foot-height spline",
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "generator": "TeX",
+      "tex": "figures/equations/eq03-swing.tex",
+      "pdf": "figures/equations/eq03-swing.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "S5上抬段的等价改写；原局部样条变量改记u。0.2的单位为米；φₗ=π/4得到0.1 m抬升是教学计算。"
+      ],
+      "exact_latex": "\\begin{aligned}u&=\\frac{2\\phi_l}{\\pi},\\quad 0\\leq\\phi_l\\leq\\frac{\\pi}{2}\\\\p_l(\\phi_l)&=\\begin{bmatrix}x_l^n\\\\y_l^n\\\\z_l^n+0.2(-2u^3+3u^2)\\end{bmatrix}\\end{aligned}"
+    },
+    {
+      "alt": "动作执行链局部解读",
+      "file": "figures/drawpaper/perceptive-loco-action-mobile.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1098,
+        1616
+      ],
+      "sha256": "5dc8bedcc8c8cee1c9e7c5ee36c7aa8e2a16e25d4a83c48afb527e57f3ee8489",
+      "kind": "drawpaper",
+      "panel_caption": "D/F区放大：策略输出相位修正与关节残差，经足端轨迹和逆运动学得到关节目标，再由身体反馈接回下一步。",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/perceptive-loco-action-mobile.tex",
+      "pdf": "figures/drawpaper/perceptive-loco-action-mobile.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "D",
+        "F"
+      ],
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "source_locator": "Author PDF pp. 11–14; S3/S5/S6 pp. 17–18",
+      "provenance": "Mixed raster/vector: retained built-in imagegen draft supplies unmodified illustration viewports; scientific labels, formulas and causal arrows independently typeset and verified.",
+      "dependencies": [
+        "figures/drawpaper/perceptive-loco-imagegen-draft.png",
+        "figures/drawpaper/source-notes.md"
+      ]
+    },
+    {
+      "alt": "命令奖励公式",
+      "file": "figures/equations/eq07-reward.png",
+      "caption": "公式（4），对应原文 Eq. (1)。用单位前进命令 v_des=(1,0)做教学例子：实际速度v=(0.6,0)时，指数为−0.16，奖励约0.852；v=(1.2,0)满足上面的条件，得到1。这个例子展示原式的投影计算与饱和行为；改变命令长度时，也应把新的v_des代回同一个原式。<!-- evidence:C39 -->",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        793,
+        240
+      ],
+      "sha256": "2ec01637d6f16627dd1c340b6344ecb9c443d7e3e80508737d52dd222af90837",
+      "kind": "formula",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "pdf_page": 12,
+      "locator": "Eq. (1) p. 12; S7 p. 19 for separate zero-command branch",
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "generator": "TeX",
+      "tex": "figures/equations/eq07-reward.tex",
+      "pdf": "figures/equations/eq07-reward.pdf",
+      "display_width": 290,
+      "equation_type": "source_equation_with_defined_aliases",
+      "source_notes": [
+        "原文Eq. (1)的逐项等价表达，d=v_des·v，m=||v_des||，在本文编号为公式（4）。S7的零命令分支另在正文说明；本图保留非零命令的原式。"
+      ],
+      "exact_latex": "\\begin{aligned}d&=v_{\\mathrm{des}}\\cdot v,\\quad m=\\lVert v_{\\mathrm{des}}\\rVert\\\\r_{\\mathrm{command}}&=\\begin{cases}1,&d>m,\\\\\\exp[-(d-m)^2],&\\text{otherwise}.\\end{cases}\\end{aligned}"
+    },
+    {
+      "alt": "学生双损失公式",
+      "file": "figures/equations/eq05-loss.png",
+      "caption": "公式（5）依据正文学生训练说明和S3。总损失为行为损失加0.5倍重建损失。重建目标是208维原始高度与50维特权量，共258维。120维信念状态供动作网络使用；重建支路根据循环隐藏表征与带噪外感知生成预测，再与真实环境量比较。<!-- evidence:C42 -->",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        505,
+        235
+      ],
+      "sha256": "635ee37f68e29f24daf70a38cca43728b1bebf0509cff14e4a5711b4a1447f12",
+      "kind": "formula",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "pdf_page": 12,
+      "locator": "Student training p. 12; S3 p. 17; Fig. 6D p. 13",
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "generator": "TeX",
+      "tex": "figures/equations/eq05-loss.tex",
+      "pdf": "figures/equations/eq05-loss.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "依据正文及S3的文字定义作教学算式；重建208维高度与50维特权量。解码器由循环隐藏信息及带噪原始高度产生预测，损失式不把它误写为仅依赖bₜ。跨样本归约与缩放未作额外假定。"
+      ],
+      "exact_latex": "\\begin{aligned}\\mathcal L_{\\mathrm{bc}}&=\\lVert a_t^S-a_t^T\\rVert_2^2\\\\\\mathcal L_{\\mathrm{re}}&=\\left\\lVert[\\widehat o_t^e,\\widehat s_t^p]-[o_t^e,s_t^p]\\right\\rVert_2^2\\\\\\mathcal L&=\\mathcal L_{\\mathrm{bc}}+0.5\\mathcal L_{\\mathrm{re}}\\end{aligned}"
+    },
+    {
+      "alt": "信念编码与重建解码局部",
+      "file": "figures/original/fig6-belief-detail.png",
+      "caption": "论文 Fig. 6C/D 局部。左侧编码器形成供控制用的信念；右侧蓝色支路从隐藏状态预测特权量与外感知，紫色原始外感知另经门控加入高度重建。右侧重建支路用于训练与分析。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1845,
+        434
+      ],
+      "sha256": "2b5b433562fbbfb1fa631304700ad94b2dde50e094b199830ac5b1ea6aabbf95",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Fig. 6 C-D",
+      "pdf_page": 13,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        46,
+        388,
+        573,
+        512
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 6C/D 局部。左侧编码器形成供控制用的信念；右侧蓝色支路从隐藏状态预测特权量与外感知，紫色原始外感知另经门控加入高度重建。右侧重建支路用于训练与分析。",
+      "upload_file": "figures/original/fig6-belief-detail-upload.jpg"
+    },
+    {
+      "alt": "学生训练双监督局部解读",
+      "file": "figures/drawpaper/perceptive-loco-training-mobile.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1098,
+        1803
+      ],
+      "sha256": "b898027b6544960ce361d25e4b3cd8a77234ea5f1a20f257e5316a5db290ce2e",
+      "kind": "drawpaper",
+      "panel_caption": "B/E区放大：动作模仿与环境重建是并行的监督目标，两项损失共同更新学生。",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/perceptive-loco-training-mobile.tex",
+      "pdf": "figures/drawpaper/perceptive-loco-training-mobile.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "B",
+        "E"
+      ],
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "source_locator": "Author PDF pp. 11–14; S3/S5/S6 pp. 17–18",
+      "provenance": "Mixed raster/vector: retained built-in imagegen draft supplies unmodified illustration viewports; scientific labels, formulas and causal arrows independently typeset and verified.",
+      "dependencies": [
+        "figures/drawpaper/perceptive-loco-imagegen-draft.png",
+        "figures/drawpaper/source-notes.md"
+      ]
+    },
+    {
+      "alt": "论文Fig6噪声和门控",
+      "file": "figures/original/fig6-gate.png",
+      "caption": "论文 Fig. 6。A/B看地图怎样被弄坏，C看门控控制的那条外感知直连，D看重建监督；C里的回环保留时间信息，门并不替代回环。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1842,
+        1177
+      ],
+      "sha256": "0cda9cc76c5488881af1236bfa3b80a6f799eaec651bf87c4be5e53f440931be",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Fig. 6",
+      "pdf_page": 13,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        47,
+        175,
+        573,
+        511
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. 6。A/B看地图怎样被弄坏，C看门控控制的那条外感知直连，D看重建监督；C里的回环保留时间信息，门并不替代回环。",
+      "upload_file": "figures/original/fig6-gate-upload.jpg"
+    },
+    {
+      "alt": "高度采样噪声公式",
+      "file": "figures/equations/eq06-noise.png",
+      "caption": "公式（6）按S8改记带噪高度为h̃。前两行先把“去哪里取样”挪歪，第三行再把“取回来的高度”改掉。教学想一个高0.10 m的点，如果该时刻共有0.04 m向上的高度偏差，输入就是0.14 m；若横向位置同时移到台阶边缘另一侧，误差还可能来自真实地形本身的突变。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        593,
+        293
+      ],
+      "sha256": "e0e9ae7d5a408ffdc29725c0e353e2c60dbaa242436d62f0f34f809094f05327",
+      "kind": "formula",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "pdf_page": 19,
+      "locator": "S8 p. 19; point, foot and episode noise equations",
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "generator": "TeX",
+      "tex": "figures/equations/eq06-noise.tex",
+      "pdf": "figures/equations/eq06-noise.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "S8等价改记带噪高度为h̃，保留点级、脚级和episode级噪声；高度式换行不改变加法。未复制原文维数与列举不一致的噪声参数向量。"
+      ],
+      "exact_latex": "\\begin{aligned}x_p&=r_p\\cos\\theta_p+\\epsilon_{px}+\\epsilon_{fx}+w_x\\\\y_p&=r_p\\sin\\theta_p+\\epsilon_{py}+\\epsilon_{fy}+w_y\\\\\\widetilde h_p&=h(x_p,y_p)+\\epsilon_{pz}+\\epsilon_{fz}\\\\&\\quad+w_z+\\epsilon_{\\mathrm{outlier}}\\end{aligned}"
+    },
+    {
+      "alt": "循环门控公式",
+      "file": "figures/equations/eq04-gate.png",
+      "caption": "公式（7）把正文信念编码式与S6的补零说明合起来。g_b生成120维循环表征，门控筛过的96维外感知直连补零后加上去，得到120维bₜ。它与本体观测一起进入学生主网络，产生16维动作。这里的attention是逐维sigmoid门控，不是Transformer的查询、键、值注意力。<!-- evidence:C48 -->",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        675,
+        355
+      ],
+      "sha256": "ffef9fc8c13fe880cae96be3b7266b1d355541d114994622d56021d2e151f0df",
+      "kind": "formula",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "pdf_page": 14,
+      "locator": "Belief encoder equations p. 14; S6 p. 18 zero-padding and dimensions",
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "generator": "TeX",
+      "tex": "figures/equations/eq04-gate.tex",
+      "pdf": "figures/equations/eq04-gate.pdf",
+      "display_width": 290,
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "正文门控式与S6补零说明合并；96维直连补24个零后与120维循环分支相加。门控仅缩放直连，外感知仍进入GRU。"
+      ],
+      "exact_latex": "\\begin{aligned}l_t^e&=g_e(\\widetilde o_t^e)\\in\\mathbb R^{96}\\\\(b'_t,h_{t+1})&=\\operatorname{GRU}(o_t^p,l_t^e,h_t)\\\\\\alpha_t&=\\sigma(g_a(b'_t))\\in(0,1)^{96}\\\\b_t&=g_b(b'_t)+\\operatorname{pad}_{120}(l_t^e\\odot\\alpha_t)\\\\a_t^S&=\\pi_S([o_t^p,b_t])\\in\\mathbb R^{16}\\end{aligned}"
+    },
+    {
+      "alt": "循环门控局部解读",
+      "file": "figures/drawpaper/perceptive-loco-gate-mobile.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1098,
+        1752
+      ],
+      "sha256": "d38ff281d02693767d76052d33b0cb3b9558d1b5cd378d9aae7d938fff416362",
+      "kind": "drawpaper",
+      "panel_caption": "C区放大：顺着96维特征、GRU、门控直连和120维信念往下读；最下方再把信念与本体观测拼给动作网络。",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/perceptive-loco-gate-mobile.tex",
+      "pdf": "figures/drawpaper/perceptive-loco-gate-mobile.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "C"
+      ],
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "source_locator": "Author PDF pp. 11–14; S3/S5/S6 pp. 17–18",
+      "provenance": "Mixed raster/vector: retained built-in imagegen draft supplies unmodified illustration viewports; scientific labels, formulas and causal arrows independently typeset and verified.",
+      "dependencies": [
+        "figures/drawpaper/perceptive-loco-imagegen-draft.png",
+        "figures/drawpaper/source-notes.md"
+      ]
+    },
+    {
+      "alt": "论文FigS2门控消融",
+      "file": "figures/original/figs2-ablation.png",
+      "caption": "论文 Fig. S2。A看训练损失与奖励，B看不同噪声下的跨台阶成功率；开头损失升高时先看课程是否正在加难度。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1842,
+        949
+      ],
+      "sha256": "a4c79170bac134b0d6f4c75a6a79869e02a2af8609634ff3eb328df85c710444",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Fig. S2",
+      "pdf_page": 22,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        39,
+        385,
+        565,
+        656
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Fig. S2。A看训练损失与奖励，B看不同噪声下的跨台阶成功率；开头损失升高时先看课程是否正在加难度。",
+      "upload_file": "figures/original/figs2-ablation-upload.jpg",
+      "source_artifact_note": "The source itself renders the first large-noise success-axis top tick as 00 (leading 1 clipped). This source artifact is retained, not redrawn."
+    },
+    {
+      "alt": "论文TableS4动作误差原表",
+      "file": "figures/original/table-s4-original.png",
+      "caption": "论文 Table S4。行是地形，列是小噪声/大噪声下的有门与无门GRU；数值为均值±标准差，越低越好。先找 Large step 行的小噪声两列，再横向看大噪声条件。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1033,
+        697
+      ],
+      "sha256": "c019240cea059ecbb2b8aea8aef8f71e15b729e148314703bc1849fdeea2c4fd",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Table S4",
+      "pdf_page": 21,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        161,
+        143,
+        456,
+        342
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Table S4。行是地形，列是小噪声/大噪声下的有门与无门GRU；数值为均值±标准差，越低越好。先找 Large step 行的小噪声两列，再横向看大噪声条件。",
+      "upload_file": "figures/original/table-s4-original-upload.jpg"
+    },
+    {
+      "alt": "论文TableS5高度重建误差原表",
+      "file": "figures/original/table-s5-original.png",
+      "caption": "论文 Table S5。列分组与上表相同，指标换成高度重建误差。原表以科学记数法列值，正文窄表将所选一行展开为小数，保留相同精度。",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+      "pixel_size": [
+        1390,
+        690
+      ],
+      "sha256": "5051b95fbf9a17a087b08356beaadc00de4907632b48f13d4dedc3c54c389974",
+      "kind": "original",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "figure_id": "Table S5",
+      "pdf_page": 21,
+      "source_pdf_sha256": "7e1c08c712ba96c2ada559285191a37fb37b9e3faf297670315a13d80ac75f55",
+      "bbox": [
+        110,
+        493,
+        507,
+        690
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Render the complete PDF page at 252 dpi, then crop; preserve original text, colors and values.",
+      "rights_checked": true,
+      "rights_note": "Copyright Miki et al./original rights holders; arXiv nonexclusive distribution, no CC reuse license established. Limited figures quoted for scholarly commentary, original credited.",
+      "read_guide": "论文 Table S5。列分组与上表相同，指标换成高度重建误差。原表以科学记数法列值，正文窄表将所选一行展开为小数，保留相同精度。",
+      "upload_file": "figures/original/table-s5-original-upload.jpg"
+    }
+  ],
+  "cover_info": {
+    "ai_generated": true,
+    "generator": "built-in imagegen",
+    "prompt": "figures/cover/imagegen-prompt.txt",
+    "source": "Built-in imagegen conceptual editorial illustration; no experiment photograph, metrics or institutional marks.",
+    "title": "机器狗，该信眼睛吗？",
+    "caption": "机器狗该信眼睛吗：感知地形与足端接触的概念封面",
+    "reviewed": true,
+    "visually_reviewed_at": "2026-11-03T12:16:23+08:00",
+    "sha256": "ecbd7d951f139a772372bf678c9e2ba9cb253ae5bf972ad5f6cf8bcc0e1a53ef",
+    "pixel_size": [
+      1921,
+      819
+    ],
+    "crop_review": "Landscape approximately 2.35:1 and a separately recomposed square variant visually checked: headline and complete quadruped retained.",
+    "square_variant_sha256": "d9bb2e77b7261bbf7f090cd1670bbf6d147d45b19ab8caaf948a1b3c84da9abe",
+    "square_pixel_size": [
+      1254,
+      1254
+    ]
+  }
+}

@@ -147,7 +147,7 @@
 | --- | --- |
 | [RMA](../articles/rma-2107.04034/README.md) · [RSS 2021](../venues/RSS/README.md) | 训练时的环境特权信息，怎样通过历史状态在部署时估计？ |
 | [DreamWaQ](../library/dreamwaq.md) · [ICRA 2023](../venues/ICRA/README.md) | 盲行走时，历史本体信息怎样形成环境表征并进入 actor？ |
-| [Learning robust perceptive locomotion for quadrupedal robots in the wild](../library/perceptive-loco.md) · [Sci. Robot. 2022](../venues/Science-Robotics/README.md) | 感知不可靠时，地形信息和本体反馈怎样共同支持行走？ |
+| [Learning robust perceptive locomotion for quadrupedal robots in the wild](../articles/perceptive-loco-2201.08117/README.md) · [Sci. Robot. 2022](../venues/Science-Robotics/README.md) | 感知不可靠时，地形信息和本体反馈怎样共同支持行走？ |
 | [Learning high-speed flight in the wild](../library/agile-flight.md) · [Sci. Robot. 2021](../venues/Science-Robotics/README.md) | 高速运动中的视觉规划，怎样跨越仿真与真实环境？ |
 | [Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning](../library/walk-in-minutes.md) · [CoRL 2021](../venues/CoRL/README.md) | 把几千只机器人放到同一块 GPU，训练速度与课程怎么一起改变？ |
 | [Walk These Ways](../library/walk-these-ways.md) · [CoRL 2022](../venues/CoRL/README.md) | 遇到新地面不重训，能否直接调一组步态参数让同一个策略换种走法？ |

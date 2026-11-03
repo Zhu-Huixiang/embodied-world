@@ -46,7 +46,7 @@ Takahiro Miki、Joonho Lee、Jemin Hwangbo、Lorenz Wellhausen、Vladlen Koltun�
 
 </details>
 
-[论文导读 / 完整解读](../../../library/perceptive-loco.md) · [七维评分](../../papers/perceptive-loco/README.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
+[论文导读 / 完整解读](../../../articles/perceptive-loco-2201.08117/README.md) · [七维评分](../../papers/perceptive-loco/README.md) · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
 
 ## 署名来源
 

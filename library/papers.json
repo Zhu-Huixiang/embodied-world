@@ -215,7 +215,9 @@
       "note": "",
       "project_url": "https://leggedrobotics.github.io/rl-perceptiveloco/",
       "checked_at": "2026-10-09",
-      "editorial_status": "候选选题"
+      "editorial_status": "候选选题",
+      "article_slug": "perceptive-loco-2201.08117",
+      "editorial_status_label": "完整解读"
     },
     {
       "id": "agile-flight",

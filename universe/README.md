@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-125 篇论文是恒星，各自有自己的知识行星与卫星：共 1150 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 20 篇有完整解读，523 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+125 篇论文是恒星，各自有自己的知识行星与卫星：共 1208 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 21 篇有完整解读，585 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -94,7 +94,7 @@
 | [OpenVLA](papers/openvla.md) | 导读 | [离散编码与量化](concepts/quantization.md) · [跨本体数据](concepts/cross-body.md) · [表征空间](concepts/representation.md) |
 | [PaLM-E](papers/palm-e.md) | 导读 | [表征空间](concepts/representation.md) · [因果序列建模](concepts/causal.md) · [分层技能与计划](concepts/skills.md) |
 | [PerAct](papers/peract.md) | 导读 | [点云与三维体素](concepts/point-cloud.md) · [注意力](concepts/attention.md) · [空间表示](concepts/spatial.md) |
-| [Perceptive Locomotion](papers/perceptive-loco.md) | 导读 | [空间表示](concepts/spatial.md) · [环境适应](concepts/adaptation.md) · [仿真到实机](concepts/sim2real.md) |
+| [Perceptive Locomotion](papers/perceptive-loco.md) | 已精讲 | [空间表示](concepts/spatial.md) · [环境适应](concepts/adaptation.md) · [仿真到实机](concepts/sim2real.md) · [特权训练信息](concepts/privileged.md) · [强化学习](concepts/rl.md) · [PPO 与并行模拟](concepts/ppo.md) · [教师学生蒸馏](concepts/distill.md) · [示范模仿](concepts/imitation.md) · [行为克隆](concepts/bc.md) · [动作表示](concepts/action.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [PHC](papers/phc.md) | 导读 | [动作先验](concepts/motion-prior.md) · [分层技能与计划](concepts/skills.md) · [全身控制与执行](concepts/wbc.md) |
 | [Phenaki](papers/phenaki.md) | 导读 | [视频时序生成](concepts/video.md) · [离散编码与量化](concepts/quantization.md) · [遮蔽预测](concepts/masking.md) |
 | [π₀](papers/pi0.md) | 导读 | [Flow Matching](concepts/flow.md) · [动作块](concepts/chunk.md) · [注意力](concepts/attention.md) |

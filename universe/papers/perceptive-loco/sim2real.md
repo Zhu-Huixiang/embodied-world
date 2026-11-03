@@ -4,6 +4,8 @@
 
 实机结果必须按机器人与任务条件解释。
 
+[在完整解读里看计算与例子](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#49-部署20-hz-地图接上-50-hz-控制)
+
 [跨论文技术入口](../../concepts/sim2real.md)
 
-[本篇星系](../perceptive-loco.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/perceptive-loco.md) · [原文依据](https://www.science.org/doi/10.1126/scirobotics.abk2822)
+[本篇星系](../perceptive-loco.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md) · [原文依据](https://www.science.org/doi/10.1126/scirobotics.abk2822)

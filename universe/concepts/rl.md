@@ -10,11 +10,13 @@
 
 - [DreamerV3：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风)
 - [MuZero：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络)
+- [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案)
 - [RMA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态)
 
 ## 哪些论文用到或讨论它
 
 - [RMA](../papers/rma.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
+- [Perceptive Locomotion](../papers/perceptive-loco.md) · 已精讲 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
 - [DeepMimic](../papers/deepmimic.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [AMP](../papers/amp.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/AMP/)
 - [DreamerV3](../papers/dreamerv3.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-025-08744-2)

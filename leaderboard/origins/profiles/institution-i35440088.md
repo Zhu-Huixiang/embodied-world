@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [Perceptive Locomotion · Learning robust perceptive locomotion for quadrupedal robots in the wild](../../../library/perceptive-loco.md) | 2022 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [90.7](../../papers/perceptive-loco/README.md) |
+| [Perceptive Locomotion · Learning robust perceptive locomotion for quadrupedal robots in the wild](../../../articles/perceptive-loco-2201.08117/README.md) | 2022 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [90.7](../../papers/perceptive-loco/README.md) |
 | [ANYmal Parkour · ANYmal parkour: Learning agile navigation for quadrupedal robots](../../../library/anymal-parkour.md) | 2024 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [88.4](../../papers/anymal-parkour/README.md) |
 | [Legged Gym · Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning](../../../library/walk-in-minutes.md) | 2021 / [CoRL](../../../venues/CoRL/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [83.2](../../papers/walk-in-minutes/README.md) |
 | [VIOLA · VioLA: Learning Generalist Humanoid Control Policies from Human Data](../../../library/viola.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-viola) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [63.8](../../papers/viola/README.md) |

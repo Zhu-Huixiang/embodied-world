@@ -14,7 +14,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [Perceptive Locomotion · Learning robust perceptive locomotion for quadrupedal robots in the wild](../../../library/perceptive-loco.md) | 2022 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [90.7](../../papers/perceptive-loco/README.md) |
+| [Perceptive Locomotion · Learning robust perceptive locomotion for quadrupedal robots in the wild](../../../articles/perceptive-loco-2201.08117/README.md) | 2022 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [90.7](../../papers/perceptive-loco/README.md) |
 | [Agile Flight · Learning high-speed flight in the wild](../../../library/agile-flight.md) | 2021 / [Sci. Robot.](../../../venues/Science-Robotics/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [88.4](../../papers/agile-flight/README.md) |
 
 ## 署名与来源

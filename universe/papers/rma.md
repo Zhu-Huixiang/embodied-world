@@ -64,4 +64,8 @@ RMA: Rapid Motor Adaptation for Legged Robots
 - [接触历史无法提前看到障碍](rma/method-blind-limit.md) · 已讲解
 - [未见地形上的迁移范围](rma/method-outdoor-scope.md) · 已讲解
 
+## 论文间的联系
+
+- [Perceptive Locomotion](perceptive-loco.md) → [RMA](rma.md)：引言将RMA列为已迁移到物理机器人的强化学习腿足方法之一；此关系表示原文引用，方法采用仍须另有证据。 [原文定位](https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf)（§1, p3, reference[39]; bibliography p15）。
+
 [宇宙目录](../README.md) · [论文地图](../../paper-map/README.md) · [具身榜](../../leaderboard/README.md)

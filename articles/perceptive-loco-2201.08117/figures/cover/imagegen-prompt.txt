@@ -1,0 +1,11 @@
+Use case: illustration-story
+Asset type: Chinese research paper explainer cover, landscape 2.35:1.
+Primary request: Create a sophisticated editorial illustration about a four-legged robot deciding whether to trust terrain vision or foot contact, inspired by perceptive quadruped locomotion research. This is a conceptual scientific illustration, not a photograph of an experiment.
+Scene and subject: A compact four-legged industrial quadruped on a stylized rocky walking surface. In front of the robot, a transparent teal grid of estimated terrain floats just above a patch of soft snow; one foot touches the actual solid surface below, with a small amber contact glow. The contrast should clearly read as 'eyes see one surface, the foot feels another'. Exactly four legs, plausible joints, no humanoid limbs, no vehicle wheels. A light mist interrupts the far edge of the terrain grid.
+Style: premium hand-painted 3D editorial illustration, tactile paper and soft stone texture, precise but warm, refined scientific magazine art. Warm ivory background, deep ink navy quadruped, teal perception grid, small burnt-orange contact accents.
+Composition: 2.35:1 wide cover. Large clean Chinese headline on left half, robot and terrain on right half; ample crop-safe central spacing. No small text, no logos, no brand name, no labels, no equations, no chart, no watermark. Headline typography is elegant and very legible in deep navy, exactly two lines: “机器狗” and “该信眼睛吗？”
+Constraints: Do not depict a named location, a real experiment, a real robot brand, success metrics, or a human. Do not print AI or generation labels. Keep all major subject elements intact and visible.
+
+
+Square recomposition edit (built-in imagegen, 2026-11-03):
+Recompose this exact editorial research illustration into a square 1:1 cover. Preserve the navy four-legged robot identity, four legs, warm ivory paper texture, teal terrain grid, snow and amber contact point; preserve the exact Chinese headline “机器狗” on one line and “该信眼睛吗？” on another. Put large legible text in the upper quarter and the complete robot and terrain in the lower two-thirds. Keep the entire robot and all important text inside the square with comfortable margins. Do not add any text, new object, logos, data, or watermark. This is a conceptual illustration, not a real experiment photo.

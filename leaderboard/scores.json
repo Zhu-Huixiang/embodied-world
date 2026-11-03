@@ -9122,8 +9122,8 @@
         "venue_label": "Sci. Robot.",
         "venue_key": "Science-Robotics",
         "venue_path": "venues/Science-Robotics/README.md",
-        "reading_path": "library/perceptive-loco.md",
-        "reading_status": "解读导读",
+        "reading_path": "articles/perceptive-loco-2201.08117/README.md",
+        "reading_status": "完整解读",
         "universe_path": "universe/papers/perceptive-loco.md",
         "card_path": "leaderboard/papers/perceptive-loco/README.md"
       },

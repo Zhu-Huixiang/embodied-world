@@ -10,13 +10,14 @@
 
 ## 在完整解读里看计算与例子
 
+- [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#48-信念编码器门控与记忆分别做什么)
 - [RMA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件)
 
 ## 哪些论文用到或讨论它
 
 - [RMA](../papers/rma.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
 - [DreamWaQ](../papers/dreamwaq.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/abstract/document/10161144/)
-- [Perceptive Locomotion](../papers/perceptive-loco.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
+- [Perceptive Locomotion](../papers/perceptive-loco.md) · 已精讲 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
 - [Legged Gym](../papers/walk-in-minutes.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/rudin22a.html)
 - [Walk These Ways](../papers/walk-these-ways.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/margolis23a.html)
 - [Deep WBC](../papers/deep-whole-body-control.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/fu23a.html)

@@ -10,9 +10,11 @@
 
 - [DINO：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dino-2104.14294/README.md#34-d-区老师慢一点训练才有个相对稳的目标)
 - [DINOv2：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#52-蒸馏时教师的更新规则变了)
+- [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境)
 
 ## 哪些论文用到或讨论它
 
+- [Perceptive Locomotion](../papers/perceptive-loco.md) · 已精讲 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
 - [Agile Flight](../papers/agile-flight.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.abg5810)
 - [Extreme Parkour](../papers/extreme-parkour.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/document/10610200)
 - [OmniH2O](../papers/omnih2o.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/he25b.html)

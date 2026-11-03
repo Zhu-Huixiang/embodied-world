@@ -1604,13 +1604,21 @@
       "subtitle": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
       "track": "locomotion",
       "track_label": "Locomotion 与运动适应",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/perceptive-loco.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md",
       "concepts": [
         "spatial",
         "adaptation",
-        "sim2real"
+        "sim2real",
+        "privileged",
+        "rl",
+        "ppo",
+        "distill",
+        "imitation",
+        "bc",
+        "action",
+        "rollout"
       ],
       "scope": "mechanism",
       "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822"
@@ -2927,6 +2935,10 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/nerf-2003.08934/README.md#2-相关工作表面体素与连续函数"
         },
         {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        },
+        {
           "paper": "sam",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam-2304.02643/README.md#31-a-区大图压成一张可反复查询的特征地图"
         },
@@ -3248,6 +3260,7 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/distill.md",
       "papers": [
+        "perceptive-loco",
         "agile-flight",
         "extreme-parkour",
         "omnih2o",
@@ -3266,6 +3279,10 @@
         {
           "paper": "dinov2",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#52-蒸馏时教师的更新规则变了"
+        },
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
         }
       ]
     },
@@ -3483,6 +3500,7 @@
         "cot-vla",
         "act",
         "rma",
+        "perceptive-loco",
         "dreamzero",
         "videovla",
         "rt1",
@@ -3512,6 +3530,10 @@
         {
           "paper": "ddpm",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        },
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
         },
         {
           "paper": "rma",
@@ -3895,6 +3917,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/rl.md",
       "papers": [
         "rma",
+        "perceptive-loco",
         "deepmimic",
         "amp",
         "dreamerv3",
@@ -3914,6 +3937,10 @@
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络"
+        },
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
         },
         {
           "paper": "rma",
@@ -4007,19 +4034,24 @@
       "kind": "concept",
       "title": "PPO 与并行模拟",
       "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
-      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
       "parent": "rl",
       "depth": 1,
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/ppo.md",
       "papers": [
         "rma",
+        "perceptive-loco",
         "walk-in-minutes",
         "sonic",
         "isaac-gym",
         "diffcontact"
       ],
       "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
+        },
         {
           "paper": "rma",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#42-网络与训练预算"
@@ -4040,6 +4072,7 @@
       "papers": [
         "diffusion-policy",
         "act",
+        "perceptive-loco",
         "rt1",
         "cliport",
         "humanplus",
@@ -4060,6 +4093,10 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#i-引言左右都能走怎么偏偏走了中间"
         },
         {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        },
+        {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作"
         }
@@ -4078,6 +4115,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/bc.md",
       "papers": [
         "act",
+        "perceptive-loco",
         "rt1",
         "robomimic",
         "bridge-v2",
@@ -4097,6 +4135,10 @@
         {
           "paper": "act",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        },
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
         },
         {
           "paper": "rt1",
@@ -4192,6 +4234,10 @@
       ],
       "explainers": [
         {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#48-信念编码器门控与记忆分别做什么"
+        },
+        {
           "paper": "rma",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#32-适应模块从半秒经历估计控制条件"
         }
@@ -4211,10 +4257,15 @@
       "papers": [
         "rma",
         "dreamwaq",
+        "perceptive-loco",
         "extreme-parkour",
         "omnih2o"
       ],
       "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
+        },
         {
           "paper": "rma",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#31-基础策略特权信息怎样教出一套步态"
@@ -4247,6 +4298,10 @@
         "diffcontact"
       ],
       "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#49-部署20-hz-地图接上-50-hz-控制"
+        },
         {
           "paper": "rma",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口"
@@ -4410,6 +4465,7 @@
       "papers": [
         "diffusion-policy",
         "rma",
+        "perceptive-loco",
         "lingbot-va",
         "self-forcing",
         "rt1",
@@ -4430,6 +4486,10 @@
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#34-一次搜索挑路扩一格往回记账"
+        },
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
         },
         {
           "paper": "rma",
@@ -8579,7 +8639,7 @@
       "canonical": "ppo",
       "title": "PPO 与并行模拟",
       "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
-      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
       "parent_node": "local:diffcontact:rl",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/ppo.md",
@@ -14204,7 +14264,7 @@
       "canonical": "ppo",
       "title": "PPO 与并行模拟",
       "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
-      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
       "parent_node": "local:isaac-gym:rl",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/isaac-gym/ppo.md",
@@ -17786,10 +17846,15 @@
       "subtitle": "保留像素、点、体素或对象相对位置的表示，让预测能接到几何与动作位置。",
       "detail": "全局语义向量识别杯子；抓哪里还需要空间接口。",
       "parent_node": "paper:perceptive-loco",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/spatial.md",
       "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
     },
     {
       "id": "local:perceptive-loco:adaptation",
@@ -17800,11 +17865,16 @@
       "title": "环境适应",
       "subtitle": "根据历史观测或环境信息调整策略，使动力学或地形变化仍可处理。",
       "detail": "部署时必须说明环境编码从哪儿估计。",
-      "parent_node": "paper:perceptive-loco",
-      "lit": false,
+      "parent_node": "local:perceptive-loco:rl",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/adaptation.md",
       "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#48-信念编码器门控与记忆分别做什么"
+        }
+      ]
     },
     {
       "id": "local:perceptive-loco:sim2real",
@@ -17816,10 +17886,175 @@
       "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
       "detail": "实机结果必须按机器人与任务条件解释。",
       "parent_node": "local:perceptive-loco:adaptation",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/sim2real.md",
       "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#49-部署20-hz-地图接上-50-hz-控制"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:privileged",
+      "key": "privileged",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "privileged",
+      "title": "特权训练信息",
+      "subtitle": "训练用额外环境真值或教师信息，部署另用可获取输入估计或模仿。",
+      "detail": "训练可见与机器人运行可见的量分别列清楚。",
+      "parent_node": "local:perceptive-loco:adaptation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/privileged.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/rl.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:ppo",
+      "key": "ppo",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "ppo",
+      "title": "PPO 与并行模拟",
+      "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
+      "parent_node": "local:perceptive-loco:rl",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/ppo.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:distill",
+      "key": "distill",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "distill",
+      "title": "教师学生蒸馏",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/distill.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/imitation.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:bc",
+      "key": "bc",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "bc",
+      "title": "行为克隆",
+      "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
+      "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
+      "parent_node": "local:perceptive-loco:imitation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/bc.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/action.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:rollout",
+      "key": "rollout",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "canonical": "rollout",
+      "title": "闭环滚动与历史偏移",
+      "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
+      "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/rollout.md",
+      "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
     },
     {
       "id": "local:perceptive-loco:method-chain",
@@ -17830,11 +18065,1016 @@
       "subtitle": "让地形感知与本体反馈共同支持腿足策略，在复杂户外地形中考察感知失效和控制鲁棒性。",
       "detail": "让地形感知与本体反馈共同支持腿足策略，在复杂户外地形中考察感知失效和控制鲁棒性。",
       "parent_node": "paper:perceptive-loco",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-chain.md",
       "source_url": "https://www.science.org/doi/10.1126/scirobotics.abk2822",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#4-材料与方法把两种感知接进同一个控制器"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-map-assumption",
+      "key": "method-map-assumption",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "可靠地图是一个会失效的前提",
+      "subtitle": "依赖预先选落脚点的控制器通常假定地形图足够准确，而户外感知可能漏测或把软物体当实地。",
+      "detail": "论文把冲突放在提前看地形的速度收益与错误地图造成的控制风险之间；纯本体策略提供鲁棒反应，却要等接触后才能获得许多障碍线索。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-map-assumption.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§1, pp1,3",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#1-引言地图一旦骗人规划还靠得住吗"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-hike",
+      "key": "experiment-hike",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "一次2.2公里的户外路线验证",
+      "subtitle": "ANYmal在Etzel路线完成2.2公里、120米爬升，报告用时78分钟。",
+      "detail": "最大坡度38%是坡高与水平距离的比值；登顶31分钟对应路牌35分钟，全程比较对象是规划器的76分钟。途中有修鞋和换电，范围是这次路线展示。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-hike.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "Fig2, p4; §2 A hike in the Alps, p5",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#21-野外行走与登山"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-field-scope",
+      "key": "experiment-field-scope",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "多季节部署与零跌倒的范围",
+      "subtitle": "作者报告在山地、林地、地下和城市等部署中没有跌倒。",
+      "detail": "多样场景显示同一控制器处理了不同地形与感知干扰；这些部署观察没有给出完整试次分母，不能直接变成任意户外任务的成功率。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-field-scope.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "Fig1, p2; §2 Fast and robust locomotion, pp3,5",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#21-野外行走与登山"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-map-failure",
+      "key": "method-map-failure",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "高度图错误有不同来源",
+      "subtitle": "深度测量、地图表示、机器人定位和遮挡都会使高度样本不完整或失真。",
+      "detail": "控制器要处理的不只是独立小噪声：反光可产生假坑，雪地可能无点，树枝被投到地面高度场，脚滑又会让配准地图整体漂移。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-map-failure.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "Fig3, p6; §2 Exteroceptive challenges, p5",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#22-外感知会怎样出错"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-map-geometry",
+      "key": "method-map-geometry",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "2.5D地图只给每个平面位置一个高度",
+      "subtitle": "高度图把三维环境压到平面位置与高度，便于不同深度传感器共用控制接口。",
+      "detail": "悬垂树枝、低矮天花板以及植被不能只靠这个高度值正确区分；几何看起来高不等于那里能支撑足端。",
+      "parent_node": "local:perceptive-loco:method-map-failure",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-map-geometry.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2 Exteroceptive challenges, p5; Fig3D–E, p6",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#22-外感知会怎样出错"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-pose-map-coupling",
+      "key": "method-pose-map-coupling",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "脚滑会反过来弄坏地图",
+      "subtitle": "腿式里程计通常假定支撑脚稳定，打滑会破坏位姿估计，再影响点云配准。",
+      "detail": "因此接触与感知故障可能相互关联：低摩擦不只改变执行结果，还使下一时刻的地形输入失真。",
+      "parent_node": "local:perceptive-loco:method-map-failure",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-pose-map-coupling.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2 Exteroceptive challenges, p5; Fig3F, p6",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#22-外感知会怎样出错"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-step-protocol",
+      "key": "experiment-step-protocol",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "实机台阶成功率的十次试验",
+      "subtitle": "主文以12至36.5厘米木台阶测试，每个高度10次，5秒内越过算成功。",
+      "detail": "对照是Lee等2020年的纯本体控制器。新策略能预先抬腿并前倾身体；到30.5厘米仍能通过，不等于该高度十次全成，绕开台阶也算失败。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-step-protocol.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2 Evaluating contribution, p5; p7 panel B, referred to as Fig4",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#23-加上眼睛多走快了多少"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-speed",
+      "key": "experiment-speed",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "线速度与转向速度分别比较",
+      "subtitle": "该实机实验报告新策略平地前向和侧向约1.2米每秒，对照约0.6；转向约3弧度每秒，对照约0.6。",
+      "detail": "图中另有20厘米障碍条件。对照接收方向命令并尽可能快走，这不是只改一个门控模块的同策略消融，也不是整条登山路线的平均速度。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-speed.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2, pp5,8; p7 G–H, referred to as Fig4",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#23-加上眼睛多走快了多少"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-path-help",
+      "key": "experiment-path-help",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "受辅助的障碍路线不作速度倍数",
+      "subtitle": "预定障碍路径由pure pursuit跟踪；新控制器33秒完成，对照用时75秒且有人抬推帮助。",
+      "detail": "这组演示显示了卡住和动作连续性的差别，但帮助改变了执行条件，不能把33与75直接算成公平的路线效率提升。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-path-help.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2, p5; p7 C–F, referred to as Fig4",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#23-加上眼睛多走快了多少"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-foam",
+      "key": "experiment-foam",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "软泡沫触地后向下修正内部地形",
+      "subtitle": "泡沫外观像实心台阶，接触时下陷，循环表征的解码高度随之下降。",
+      "detail": "红点是输入高度，蓝点是内省解码出的估计。离地后估计仍保留，显示历史信息进入表征，而不是每一帧完全重置。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-foam.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2 Evaluating robustness, p8; printed Fig4A, p9",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#24-接触之后内部地形怎样改写"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-transparent",
+      "key": "experiment-transparent",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "透明台阶接触后向上修正",
+      "subtitle": "透明亚克力可能没有被深度传感器正确测到，机器人接触障碍后改写地形估计。",
+      "detail": "这与软泡沫的修正方向相反：一个把虚高障碍降下来，一个把漏掉的实体台阶补上；都依赖接触后的本体线索。",
+      "parent_node": "local:perceptive-loco:experiment-foam",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-transparent.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2 Evaluating robustness, p8; printed Fig4B, p9",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#24-接触之后内部地形怎样改写"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-blind",
+      "key": "experiment-blind",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "遮挡传感器后退回接触反应",
+      "subtitle": "完全遮挡传感器时，缺地图位置以随机值填入，机器人依靠本体反馈继续过阶。",
+      "detail": "它先撞到台阶立面才调整，上下阶动作不如有感知时平滑；鲁棒退化保住了行走，并没有保留提前看见地形的能力。",
+      "parent_node": "local:perceptive-loco:experiment-foam",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-blind.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2 Evaluating robustness, p8; printed Fig4C–D, p9",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#24-接触之后内部地形怎样改写"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-friction-decoding",
+      "key": "experiment-friction-decoding",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "摩擦曲线是内省解码结果",
+      "subtitle": "滑面实验同时显示步态调整、地图漂移与从内部表征解码的摩擦系数变化。",
+      "detail": "图中的摩擦曲线不是额外摩擦传感器的读数；辅助解码器让人检查表征携带的线索，执行动作仍由学生控制器产生。",
+      "parent_node": "local:perceptive-loco:experiment-foam",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-friction-decoding.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§2 Evaluating robustness, p8; printed Fig4E, p9",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#24-接触之后内部地形怎样改写"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:limit-uncertainty",
+      "key": "limit-uncertainty",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "信念状态没有显式风险分布",
+      "subtitle": "当前策略隐式使用不确定性来估地形，论文将显式不确定性估计列为后续工作。",
+      "detail": "窄崖或踏脚石后方被遮挡时，策略可能按连续地面去走而踏空；从噪声中恢复步态与主动确认前方有无支撑是两个问题。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/limit-uncertainty.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§3 Possible extensions, p8",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#3-讨论看不清悬崖与看不清台阶不同"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:limit-sensor-abstraction",
+      "key": "limit-sensor-abstraction",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "高度图换来传感器兼容也丢掉外观",
+      "subtitle": "高度图让LiDAR和深度相机共用同一策略，同时丢掉部分材料、纹理和遮挡信息。",
+      "detail": "经典位姿估计和地图构建没有随策略一起训练；直接处理原始感知、理解遮挡以及异常脱困动作仍是进一步研究方向。",
+      "parent_node": "local:perceptive-loco:limit-uncertainty",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/limit-sensor-abstraction.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§3 Possible extensions, p8",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#3-讨论看不清悬崖与看不清台阶不同"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-pomdp",
+      "key": "method-pomdp",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "用历史补足当下看不全的状态",
+      "subtitle": "学生面对部分可观测问题：外力、摩擦和真实地形不能从当前带噪观测直接读出。",
+      "detail": "循环编码器把当前感知与历史压成控制所用的belief向量；它是学习到的表征，不是显式列举所有真实状态概率的贝叶斯表。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-pomdp.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Problem formulation, p11; Belief encoder, p14",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#41-总览与问题定义"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-three-stages",
+      "key": "method-three-stages",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "特权教师、带噪学生、实机部署",
+      "subtitle": "先在仿真中用完整信息训练教师，再监督只有可获取输入的学生，最后将学生移到实机。",
+      "detail": "第一阶段用奖励学习动作，第二阶段模仿动作并重建环境；运行阶段只做前向推断，不再读取训练真值或做在线梯度更新。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-three-stages.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "printed Fig5, p10; §4 Overview, pp8,11",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#41-总览与问题定义"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-simulation",
+      "key": "method-simulation",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "仿真动力学与学习到的执行器模型",
+      "subtitle": "训练在RaiSim中并行模拟ANYmal-C，结合执行器模型减少仿真与现实的差别。",
+      "detail": "环境还包含参数化起伏、离散台阶、方块与不同楼梯；这是在仿真中产生控制训练数据，不是从真实登山视频模仿。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-simulation.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Training environment, p11; S3–S4, p17",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#42-仿真环境地形与课程"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-stair-geometry",
+      "key": "method-stair-geometry",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "用箱体楼梯堵住仿真几何捷径",
+      "subtitle": "高度图生成的阶沿不完全垂直，策略可能利用这点学出难以迁移的动作。",
+      "detail": "作者改用箱体形成标准、开放、带边和随机楼梯；这里修正的是仿真接触几何，随机化参数本身不能替代真实的垂直阶沿。",
+      "parent_node": "local:perceptive-loco:method-simulation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-stair-geometry.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Terrain, p11; S4, p17",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#42-仿真环境地形与课程"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-randomization",
+      "key": "method-randomization",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "随机化身体与接触条件",
+      "subtitle": "每个episode改变质量、初始关节与躯干状态，并施加外力、外力矩或低摩擦。",
+      "detail": "这些扰动让控制器练习动力学变化；学生的高度样本噪声是另一条感知随机化，二者作用对象不同。",
+      "parent_node": "local:perceptive-loco:method-simulation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-randomization.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Domain randomization, p11",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#42-仿真环境地形与课程"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-termination",
+      "key": "method-termination",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "不良状态触发训练终止",
+      "subtitle": "躯干碰地、姿态倾斜过大或超出关节力矩限制会结束episode。",
+      "detail": "终止规则和奖励共同塑造可执行行为，论文没有把任何速度收益设成无代价的唯一目标。",
+      "parent_node": "local:perceptive-loco:method-simulation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-termination.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Termination, p11",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#42-仿真环境地形与课程"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-curriculum",
+      "key": "method-curriculum",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "地形课程与代价课程分开推进",
+      "subtitle": "粒子滤波让地形保持有挑战且可完成，另一课程逐步增强扰动与部分惩罚项。",
+      "detail": "课程因子按c下一轮=c当前轮的d次方趋向1；附录给d为0.98。学生又有自己的噪声课程，不能将三者混成一个固定随机化强度。",
+      "parent_node": "local:perceptive-loco:method-simulation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-curriculum.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Curriculum, p12; S3, p17",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#42-仿真环境地形与课程"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-privileged-teacher",
+      "key": "method-privileged-teacher",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "教师先用仿真真值学控制",
+      "subtitle": "教师读取本体观测、无噪地高和接触、摩擦、扰动等特权状态，以PPO学习跟随速度命令。",
+      "detail": "命令包含机体坐标系下的前向、侧向与yaw速度。真值帮助先获得动作参考，部署学生要从可感知输入补足这些信息。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-privileged-teacher.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Teacher policy training, p11; TableS3, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-teacher-latents",
+      "key": "method-teacher-latents",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "两路压缩后再接动作网络",
+      "subtitle": "每脚52个高度样本压成24维，四脚拼为96维；50维特权状态另压成24维。",
+      "detail": "这120维环境特征与133维本体观测拼接成253维输入，进入隐藏宽度256、160、128的动作MLP；原始391维与压缩后253维不能混称。",
+      "parent_node": "local:perceptive-loco:method-privileged-teacher",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-teacher-latents.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Policy architecture, pp11–12; S6, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-training-budget",
+      "key": "method-training-budget",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "每轮并行采样不等于总训练时长",
+      "subtitle": "教师每轮1000环境各250步，控制频率50Hz，合计每轮250000个仿真步。",
+      "detail": "附录给PPO裁剪比0.2、折扣0.996、学习率5e-4。这些是每轮配置，不能据此补出论文没有报告的总训练步数或墙钟时间。",
+      "parent_node": "local:perceptive-loco:method-privileged-teacher",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-training-budget.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S3; TableS1, p17",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-observation-shapes",
+      "key": "method-observation-shapes",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "391维教师输入与341维学生输入",
+      "subtitle": "TableS3列出本体133维、地高208维和特权50维；学生去掉特权并对地高加噪。",
+      "detail": "本体包括命令、姿态、身体速度、当前关节、历史关节与目标以及CPG相位。历史是输入的一部分，不能把策略称为只看当前帧。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-observation-shapes.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Observation and Action, p11; S5 and TableS3, pp17–18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-height-rings",
+      "key": "method-height-rings",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "每脚五圈共52个高度样本",
+      "subtitle": "五个半径为0.08、0.16、0.26、0.36、0.48米，对应6、8、10、12、16个采样点。",
+      "detail": "四脚合计208个高度值，围绕各足取样；策略读的是这些局部地形扫描，不是把整个地图每个像素直接输入动作网络。",
+      "parent_node": "local:perceptive-loco:method-observation-shapes",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-height-rings.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S5, p17; TableS3, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-privileged-input",
+      "key": "method-privileged-input",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "接触与扰动真值只在训练侧可见",
+      "subtitle": "50维特权信息由接触状态、力、法向、摩擦、腿部碰撞、外力和外力矩、airtime构成。",
+      "detail": "教师读取这些值，学生重建任务也用它们作目标；实机并没有为此增加一套可直接报告全部物理真值的传感器。",
+      "parent_node": "local:perceptive-loco:method-observation-shapes",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-privileged-input.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Observation and Action, p11; TableS3, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-action-cpg",
+      "key": "method-action-cpg",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "16维动作经CPG与IK变成目标角",
+      "subtitle": "策略输出四维相位偏移和十二维关节残差，名义足轨迹经解析逆运动学后再加残差。",
+      "detail": "相位调节落在摆动还是支撑周期，关节残差调整具体姿态。最终十二关节目标与网络的十六维动作是两个接口。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-action-cpg.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Observation and Action, p11; S5, pp17–18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-nominal-trajectory",
+      "key": "method-nominal-trajectory",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "名义摆腿轨迹是可修正的脚端基准",
+      "subtitle": "CPG在上摆、下摆和支撑三段形成周期脚轨迹，上下摆用三次Hermite曲线连接。",
+      "detail": "名义上抬幅度0.2米；网络仍可通过相位与关节残差改变实际动作，因此不能把这个基准说成任何障碍下实际足高的固定上限。",
+      "parent_node": "local:perceptive-loco:method-action-cpg",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-nominal-trajectory.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S5, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-reward-tradeoffs",
+      "key": "method-reward-tradeoffs",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "速度之外还惩罚滑动、碰撞与激烈动作",
+      "subtitle": "教师奖励同时考虑目标方向运动、姿态、力矩、关节运动、平滑、足滑和腿部碰撞。",
+      "detail": "关节残差不代表随意动作；控制通过这些代价学习在推进、稳定和执行约束之间取舍。具体奖励符号按原文与教学展开分别说明。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-reward-tradeoffs.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Rewards, p12; S7, pp18–19",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#45-奖励走得快还要少滑少撞"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-clearance-cost",
+      "key": "method-clearance-cost",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "足端离地过高也会受罚",
+      "subtitle": "摆动脚高于周围采样地形0.2米以上时，足端净空项给负奖励以抑制不必要的高抬脚。",
+      "detail": "它和避免碰到阶沿的需求一起决定步态；提前看见障碍有机会只在需要时抬高，而不是所有地方都高抬腿。",
+      "parent_node": "local:perceptive-loco:method-reward-tradeoffs",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-clearance-cost.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S7 Foot Clearance Reward, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#45-奖励走得快还要少滑少撞"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-student-rollout",
+      "key": "method-student-rollout",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "在学生自己访问的状态上向教师学",
+      "subtitle": "学生带噪运行产生轨迹，教师在同一仿真状态和命令下提供参考动作。",
+      "detail": "若只训练理想教师轨迹，学生小错误带来的后续状态可能缺乏监督；这里通过学生rollout覆盖自己的偏离。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-student-rollout.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Student policy training, p12",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-two-losses",
+      "key": "method-two-losses",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "动作模仿与环境重建共同监督",
+      "subtitle": "学生最小化动作平方差Lbc，并以0.5权重加入无噪高度和特权状态的重建误差Lre。",
+      "detail": "主文说belief要捕获教师特征所含的控制信息，但明确训练损失只有这两类；没有据此增加一个独立的教师潜变量均方误差。",
+      "parent_node": "local:perceptive-loco:method-student-rollout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-two-losses.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Student policy training, p12; S3, p17",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-student-initialization",
+      "key": "method-student-initialization",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "沿用教师主网络来初始化学生",
+      "subtitle": "教师与学生的动作MLP结构相同，可用训练好的教师权重初始化以加速学习。",
+      "detail": "学生多了循环信念编码器与感知噪声训练；初始化是训练起点，不应解读为整套学生动作网络在第二阶段始终冻结。",
+      "parent_node": "local:perceptive-loco:method-student-rollout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-student-initialization.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Student policy training, p12",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-noise-scopes",
+      "key": "method-noise-scopes",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "把噪声加在位置、高度和不同时间范围",
+      "subtitle": "高度样本的平面位置与高度都被扰动，噪声按采样点、足和episode施加。",
+      "detail": "独立点噪声模拟散点不稳，每脚整体偏移模拟定位漂移或软地面，episode内固定偏移模拟持续误差；另有偶发离群点。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-noise-scopes.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Height sample randomization, p12; printed Fig6A, p13; S8, p19",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#47-高度噪声故意把地图弄坏"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-noise-mixture",
+      "key": "method-noise-mixture",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "三种地图质量按60比30比10采样",
+      "subtitle": "学生经历名义小噪声、大偏移和大噪声三种条件，采样概率分别为60%、30%、10%。",
+      "detail": "它们分别覆盖普通测量误差、地图偏置和几乎无信息输入。论文正文与附录对重采样时机表述不同，不能把它包装成已完整确定的部署故障模型。",
+      "parent_node": "local:perceptive-loco:method-noise-scopes",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-noise-mixture.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Height sample randomization, p12; printed Fig6B, p13; S8, p19",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#47-高度噪声故意把地图弄坏"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-noise-curriculum",
+      "key": "method-noise-curriculum",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "学生先学简单地形再加大感知破坏",
+      "subtitle": "学生前十轮使用平地，之后开启地形课程；噪声课程在20至100轮逐步增加到全强度。",
+      "detail": "感知破坏一开始就太大，会让模仿和重建难以学起。附录训练曲线早期误差上升要结合课程变化读，不能直接判成训练失控。",
+      "parent_node": "local:perceptive-loco:method-noise-scopes",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-noise-curriculum.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S3, p17; FigS2A, p22",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-truncated-gradient",
+      "key": "method-truncated-gradient",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "截断梯度长度不是记忆保质期",
+      "subtitle": "学生每轮300个环境各收400步，循环单元以10步做截断反向传播。",
+      "detail": "50Hz下10步对应0.2秒，这约束单次梯度传播的时间跨度；它没有证明前向运行中的隐藏状态只能保留0.2秒信息。",
+      "parent_node": "local:perceptive-loco:method-student-rollout",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-truncated-gradient.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S3 and TableS2, p17",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-recurrent-belief",
+      "key": "method-recurrent-belief",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "两层GRU积累接触与感知历史",
+      "subtitle": "信念编码器用两层各50隐藏单元的GRU整合本体、带噪外感特征和上一步隐状态。",
+      "detail": "得到的循环表征可以在足离地后保留刚才的接触线索；隐藏状态随运行更新，神经网络权重仍保持已训练值。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-recurrent-belief.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Belief state encoder, p14; S6, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#48-信念编码器门控与记忆分别做什么"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-gated-skip",
+      "key": "method-gated-skip",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "门控调节外感特征的捷径",
+      "subtitle": "96维sigmoid门值逐元素乘外感特征，经零填充后加入120维循环分支输出。",
+      "detail": "这不是拿两个完整控制器做硬切换；GRU本身仍接收外感，门控改变的是直接进入最终belief的外感skip强度。",
+      "parent_node": "local:perceptive-loco:method-recurrent-belief",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-gated-skip.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "printed Fig6C, p13; Belief encoder equations, p14; S6, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#48-信念编码器门控与记忆分别做什么"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-zero-padding",
+      "key": "method-zero-padding",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "96维外感必须补到120维才能相加",
+      "subtitle": "外感特征和门值都是96维，循环分支产生120维belief候选。",
+      "detail": "S6明确对门控后的外感结果做零填充再相加；这24个补零维度不等于运行时直接得到了24维特权真值。",
+      "parent_node": "local:perceptive-loco:method-gated-skip",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-zero-padding.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S6, p18",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#48-信念编码器门控与记忆分别做什么"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-auxiliary-decoder",
+      "key": "method-auxiliary-decoder",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "辅助解码器让内部表征有可检查目标",
+      "subtitle": "训练中从循环表征及带噪高度分支重建环境真值，并用于查看内部地形与摩擦估计。",
+      "detail": "原图decoder接隐藏状态和带噪原始高度；它不在实机动作必经链上。重建结果有助于内省，不能当作额外真实传感器。",
+      "parent_node": "local:perceptive-loco:method-recurrent-belief",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-auxiliary-decoder.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "printed Fig6D, p13; §4 Belief encoder, p14",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#48-信念编码器门控与记忆分别做什么"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-deployment-loops",
+      "key": "method-deployment-loops",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "20Hz地图与50Hz动作异步衔接",
+      "subtitle": "GPU地图管线以20Hz整合点云，策略以50Hz从最新地图采样并生成动作。",
+      "detail": "每次策略调用不必等待一张新地图；空白采样处填随机值。执行仍持续接回本体观测与GRU记忆，形成闭环。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-deployment-loops.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "printed Fig5 deployment, p10; §4 Deployment, p14",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#49-部署20-hz-地图接上-50-hz-控制"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:method-sensor-variants",
+      "key": "method-sensor-variants",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "同一高度接口连接两种传感配置",
+      "subtitle": "论文分别部署两台Bpearl激光雷达或四台D435深度相机，同一学生策略无需再训练。",
+      "detail": "可迁移的是经过高度图抽象的输入接口；这不等于模型直接理解任意新相机的原始图像。",
+      "parent_node": "local:perceptive-loco:method-deployment-loops",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/method-sensor-variants.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§4 Deployment, p14; §3 Possible extensions, p8",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#49-部署20-hz-地图接上-50-hz-控制"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-simulation-grid",
+      "key": "experiment-simulation-grid",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "地形参数网格上的仿真成功范围",
+      "subtitle": "补充评测在网格台阶和楼梯参数平面比较成功率，命令0.7米每秒、测试10秒。",
+      "detail": "走过4米且不失败才算成功；FigS1给41×41参数组合和300次试验说明。仿真尝试数不能并入主文实机台阶试验的样本池。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-simulation-grid.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S2–S4, p17; FigS1, p22",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#23-加上眼睛多走快了多少"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-gate-ablation",
+      "key": "experiment-gate-ablation",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "用四种编码器分开检验记忆与门控",
+      "subtitle": "消融比较GRU或MLP、带门或不带门，查看模仿、重建、奖励与过阶。",
+      "detail": "它比纯本体控制器对比更接近门控贡献问题；训练曲线也受到逐步加大噪声和地形课程影响。",
+      "parent_node": "paper:perceptive-loco",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-gate-ablation.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S9, pp19–20; FigS2, p22",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#410-附录消融门控到底帮在哪里"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-action-error",
+      "key": "experiment-action-error",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "门控动作误差优势要逐条件读",
+      "subtitle": "小噪声large step的动作差为0.719对0.855；大噪声grid steps为2.218对2.212。",
+      "detail": "这些是经验均值，表还给标准差；大噪声举例中门控并未更低。动作差混合相位和关节残差，不应赋予单一米或弧度单位，也不等于成功率。",
+      "parent_node": "local:perceptive-loco:experiment-gate-ablation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-action-error.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S9, pp19–20; TableS4, p21",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#410-附录消融门控到底帮在哪里"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-reconstruction-error",
+      "key": "experiment-reconstruction-error",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "重建更准与行走成功分开验证",
+      "subtitle": "小噪声large step高度重建误差1.37e-3对2.03e-3，大噪声两者均为1.95e-3。",
+      "detail": "应逐条件看差距，不能宣称每格严格获胜。重建误差检查内部信息，独立的台阶成功率实验检查执行结果。",
+      "parent_node": "local:perceptive-loco:experiment-gate-ablation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-reconstruction-error.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "TableS5, p21; FigS2B, p22",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#410-附录消融门控到底帮在哪里"
+        }
+      ]
+    },
+    {
+      "id": "local:perceptive-loco:experiment-step-ablation",
+      "key": "experiment-step-ablation",
+      "kind": "local",
+      "paper": "perceptive-loco",
+      "title": "每高度100次的仿真过阶消融",
+      "subtitle": "S9让机器人以0.8米每秒命令接近台阶，前后腿都越过才算成功，每高度100次。",
+      "detail": "小噪声与大噪声分别比较四种编码器；这是仿真消融，不能与主文每高度10次的实机台阶数据合为一个样本池。",
+      "parent_node": "local:perceptive-loco:experiment-gate-ablation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/perceptive-loco/experiment-step-ablation.md",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "S9, p20; FigS2B, p22",
+      "explainers": [
+        {
+          "paper": "perceptive-loco",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#410-附录消融门控到底帮在哪里"
+        }
+      ]
     },
     {
       "id": "local:phc:motion-prior",
@@ -18269,7 +19509,7 @@
       "canonical": "ppo",
       "title": "PPO 与并行模拟",
       "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
-      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
       "parent_node": "local:rma:rl",
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/rma/ppo.md",
@@ -21034,7 +22274,7 @@
       "canonical": "ppo",
       "title": "PPO 与并行模拟",
       "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
-      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
       "parent_node": "paper:sonic",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/sonic/ppo.md",
@@ -23599,7 +24839,7 @@
       "canonical": "ppo",
       "title": "PPO 与并行模拟",
       "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
-      "detail": "GPU 同驻留减少数据来回搬运，但不改变奖励设计的责任。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
       "parent_node": "paper:walk-in-minutes",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/walk-in-minutes/ppo.md",
@@ -24651,6 +25891,15 @@
       "explanation": "SAM的图像骨干与双向解码器使用Transformer注意力模块；本文在3.1–3.3拆解两路交互。",
       "source_url": "https://arxiv.org/abs/2304.02643v1",
       "locator": "§3; Appendix A"
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "paper:rma",
+      "kind": "cites",
+      "lit": true,
+      "explanation": "引言将RMA列为已迁移到物理机器人的强化学习腿足方法之一；此关系表示原文引用，方法采用仍须另有证据。",
+      "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
+      "locator": "§1, p3, reference[39]; bibliography p15"
     },
     {
       "from": "paper:act",
@@ -31076,43 +32325,439 @@
       "from": "paper:perceptive-loco",
       "to": "local:perceptive-loco:spatial",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:perceptive-loco:spatial",
       "to": "concept:spatial",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:perceptive-loco",
+      "from": "local:perceptive-loco:rl",
       "to": "local:perceptive-loco:adaptation",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:perceptive-loco:adaptation",
       "to": "concept:adaptation",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:perceptive-loco:adaptation",
       "to": "local:perceptive-loco:sim2real",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:perceptive-loco:sim2real",
       "to": "concept:sim2real",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:adaptation",
+      "to": "local:perceptive-loco:privileged",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:privileged",
+      "to": "concept:privileged",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:rl",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:rl",
+      "to": "local:perceptive-loco:ppo",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:ppo",
+      "to": "concept:ppo",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:distill",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:distill",
+      "to": "concept:distill",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:imitation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:imitation",
+      "to": "local:perceptive-loco:bc",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:bc",
+      "to": "concept:bc",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:rollout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:rollout",
+      "to": "concept:rollout",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:perceptive-loco",
       "to": "local:perceptive-loco:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-map-assumption",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-hike",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-field-scope",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-map-failure",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-map-failure",
+      "to": "local:perceptive-loco:method-map-geometry",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-map-failure",
+      "to": "local:perceptive-loco:method-pose-map-coupling",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-step-protocol",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-speed",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-path-help",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-foam",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:experiment-foam",
+      "to": "local:perceptive-loco:experiment-transparent",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:experiment-foam",
+      "to": "local:perceptive-loco:experiment-blind",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:experiment-foam",
+      "to": "local:perceptive-loco:experiment-friction-decoding",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:limit-uncertainty",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:limit-uncertainty",
+      "to": "local:perceptive-loco:limit-sensor-abstraction",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-pomdp",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-three-stages",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-simulation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-simulation",
+      "to": "local:perceptive-loco:method-stair-geometry",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-simulation",
+      "to": "local:perceptive-loco:method-randomization",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-simulation",
+      "to": "local:perceptive-loco:method-termination",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-simulation",
+      "to": "local:perceptive-loco:method-curriculum",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-privileged-teacher",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-privileged-teacher",
+      "to": "local:perceptive-loco:method-teacher-latents",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-privileged-teacher",
+      "to": "local:perceptive-loco:method-training-budget",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-observation-shapes",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-observation-shapes",
+      "to": "local:perceptive-loco:method-height-rings",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-observation-shapes",
+      "to": "local:perceptive-loco:method-privileged-input",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-action-cpg",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-action-cpg",
+      "to": "local:perceptive-loco:method-nominal-trajectory",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-reward-tradeoffs",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-reward-tradeoffs",
+      "to": "local:perceptive-loco:method-clearance-cost",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-student-rollout",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-student-rollout",
+      "to": "local:perceptive-loco:method-two-losses",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-student-rollout",
+      "to": "local:perceptive-loco:method-student-initialization",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-noise-scopes",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-noise-scopes",
+      "to": "local:perceptive-loco:method-noise-mixture",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-noise-scopes",
+      "to": "local:perceptive-loco:method-noise-curriculum",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-student-rollout",
+      "to": "local:perceptive-loco:method-truncated-gradient",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-recurrent-belief",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-recurrent-belief",
+      "to": "local:perceptive-loco:method-gated-skip",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-gated-skip",
+      "to": "local:perceptive-loco:method-zero-padding",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-recurrent-belief",
+      "to": "local:perceptive-loco:method-auxiliary-decoder",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:method-deployment-loops",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:method-deployment-loops",
+      "to": "local:perceptive-loco:method-sensor-variants",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-simulation-grid",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:perceptive-loco",
+      "to": "local:perceptive-loco:experiment-gate-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:experiment-gate-ablation",
+      "to": "local:perceptive-loco:experiment-action-error",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:experiment-gate-ablation",
+      "to": "local:perceptive-loco:experiment-reconstruction-error",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:perceptive-loco:experiment-gate-ablation",
+      "to": "local:perceptive-loco:experiment-step-ablation",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:phc",
@@ -34558,9 +36203,9 @@
   "stats": {
     "papers": 125,
     "concepts": 59,
-    "local_topics": 1150,
-    "lit_papers": 20,
+    "local_topics": 1208,
+    "lit_papers": 21,
     "lit_concepts": 46,
-    "lit_local_topics": 523
+    "lit_local_topics": 585
   }
 }
