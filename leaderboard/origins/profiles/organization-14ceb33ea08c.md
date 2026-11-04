@@ -1,6 +1,6 @@
 # 加州大学戴维斯分校
 
-本仓已收录工作主要涉及：操作与动作块。
+本仓已收录工作主要涉及：操作与动作块、动作先验与全身技能。
 
 **类型**：论文署名机构。
 
@@ -15,6 +15,7 @@
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
 | [DROID · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../../../library/droid.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [90.1](../../papers/droid/README.md) |
+| [∇Mimic · ∇Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation](../../../library/nablamimic.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-nablamimic) | [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) | [67.3](../../papers/nablamimic/README.md) |
 
 ## 署名与来源
 
@@ -33,6 +34,6 @@
 - [来源11](https://www.roboticsproceedings.org/rss20/p050.pdf)
 - [来源12](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf)
 
-资料核验：2026-11-02。
+资料核验时间未记录。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

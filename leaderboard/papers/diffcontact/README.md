@@ -1,10 +1,10 @@
-# Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization
+# DiffContact: Differentiable Contact Dynamics for Policy Learning and Contact-Implicit Trajectory Optimization
 
-**DiffContact** · arXiv 2026 · 本版排名 113 · 综合分 **65.8 / 100**
+**DiffContact** · arXiv 2026 · 本版排名 115 · 综合分 **65.8 / 100**
 
 [解读导读](../../../library/diffcontact.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [arXiv集锦](../../../arxiv/README.md#paper-diffcontact)
 
-[知识星系](../../../universe/papers/diffcontact.md) · [原文](https://arxiv.org/abs/2610.35852v1) · [PDF](https://arxiv.org/pdf/2610.35852v1) · [阅读卡片](../../../library/diffcontact.md)
+[知识星系](../../../universe/papers/diffcontact.md) · [原文](https://arxiv.org/abs/2610.35852v2) · [PDF](https://arxiv.org/pdf/2610.35852v2) · [阅读卡片](../../../library/diffcontact.md)
 
 论文出处：[**Gijeong Kim**](../../origins/papers/diffcontact.md)<br>[韩国科学技术院（KAIST）](../../origins/papers/diffcontact.md)
 

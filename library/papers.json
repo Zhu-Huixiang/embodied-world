@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-04",
   "papers": [
     {
       "id": "holo-m",
@@ -3241,7 +3241,7 @@
       "id": "diffcontact",
       "short_name": "DiffContact",
       "arxiv_id": "2610.35852",
-      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "title": "DiffContact: Differentiable Contact Dynamics for Policy Learning and Contact-Implicit Trajectory Optimization",
       "authors": [
         "Gijeong Kim",
         "Seungbin Oh",
@@ -3263,18 +3263,18 @@
       "year": 2026,
       "venue_status": "preprint",
       "venue": null,
-      "source_url": "https://arxiv.org/abs/2610.35852v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.35852v1",
+      "source_url": "https://arxiv.org/abs/2610.35852v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.35852v2",
       "code_url": null,
       "first_arxiv_submission": "2026-10-26T17:57:14Z",
       "first_arxiv_submission_shanghai": "2026-10-27T01:57:14+08:00",
-      "reading_version": "arXiv v1",
-      "latest_arxiv_version_observed": "v1",
-      "checked_at": "2026-10-28",
+      "reading_version": "arXiv v2; v1→v2编辑差异逐页核对",
+      "latest_arxiv_version_observed": "v2",
+      "checked_at": "2026-11-04",
       "editorial_status": "source_verified",
       "editorial_status_label": "机制与实验初读，全文待制作",
-      "version_id": "2610.35852v1",
-      "updated": "2026-10-26T17:57:14Z",
+      "version_id": "2610.35852v2",
+      "updated": "2026-11-02T16:42:25Z",
       "screening_status": "selected",
       "affiliations_verified": true,
       "affiliation_source": {
@@ -3282,7 +3282,21 @@
         "section": "front matter / affiliations"
       },
       "mechanism": "前向继续用硬接触模拟器生成轨迹，只在反向替换接触冲量的敏感度。方法对含de Saxcé修正的库仑摩擦二阶锥互补条件做完整锥中心路径松弛，从硬接触解出发用Newton迭代找到反向求导的评估点，组装状态/动作转移Jacobian，再供BPTT更新策略或DDP/iLQR优化轨迹。法向与切向一起松弛，梯度才有机会指向离地、粘住和滑动这些邻近模式；松弛参数趋零时回到固定接触模式的精确敏感度。",
-      "selection_origin": "2026-10-28每日有界扫描后，读取arXiv v1完整HTML并核相关附录。"
+      "selection_origin": "2026-10-28每日有界扫描后，读取arXiv v1完整HTML并核相关附录。",
+      "version_history": [
+        {
+          "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+          "source_url": "https://arxiv.org/abs/2610.35852v1",
+          "pdf_url": "https://arxiv.org/pdf/2610.35852v1",
+          "version_id": "2610.35852v1",
+          "reading_version": "arXiv v1",
+          "latest_arxiv_version_observed": "v1",
+          "updated": "2026-10-26T17:57:14Z",
+          "checked_at": "2026-10-28"
+        }
+      ],
+      "version_change_note": "v2仅命名、引言/结论措辞与分页变化；方法、公式、图表、实验及分数保持。投稿T-RO不等于录用，操作任务仍为未来工作。",
+      "first_curated_at": "2026-10-28"
     },
     {
       "id": "jam",
@@ -3660,6 +3674,117 @@
       },
       "mechanism": "每段示范由4层Perceiver独立压成8个slot并缓存；π0的flow-matching动作专家读取查询观测与这些slot。辅助预测器在冻结V-JEPA2.1空间预测查询回合下一关键帧，对当前观测支路stop-gradient，使预测损失真正训练示范压缩器。错误任务和同任务不同过程的反事实margin约束保留目标/顺序。用示范间交叉预测误差和查询初图相似性选取一致示范，支持阶段性commitment；人类视频扩展经同平台真实posttraining，用手/物体关键点补充对应，不是任意人类视频免训练通用控制。",
       "selection_origin": "2026-11-02原文与相关附录核读、主编辑复核机制与关键定量条件后收录。"
+    },
+    {
+      "id": "nablamimic",
+      "short_name": "∇Mimic",
+      "arxiv_id": "2610.41654",
+      "title": "∇Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+      "authors": [
+        "Weyl Lu",
+        "Yubei Chen"
+      ],
+      "affiliations": [
+        "UC Davis"
+      ],
+      "track": "motion-priors",
+      "published": "2026-10-30T12:27:45Z",
+      "project_url": "https://sailab.ai/nablamimic/",
+      "code_url": "https://github.com/OamIcs/NablaMimic",
+      "scope": "Unitree G1平地、LAFAN1全部40动作的仿真跟踪；v1无实机与未见动作泛化评测",
+      "reading_question": "世界模型的收益有多少来自导数本身？把精确仿真梯度中的少数极端样本截住，再把更新改成定弧度动作目标，能否稳定而廉价地训练全身跟踪？",
+      "selection_reason": "明确区分一阶学习失稳和仿真求导成本；裁剪/目标回归消融、同轨迹梯度尾部诊断、有限差分校验及同算法换引擎共同支持实质贡献。PODS、裁剪和回放有明确继承，不把组件集成当全部原创。",
+      "evidence_summary": "arXiv v1 Table4：3seed/RTX PRO6000在.5/1/2/3h回报.824±.008/.854±.005/.872±.001/.875±.001，均值曲线.34h过.82。去裁剪残差3/3diverged；去多步回归残差.822对.866。Table3同GPU/4096world一步含梯度1.78ms对Warp adjoint PR20.5ms。换引擎同算法4000update .43h对2.03h；Nabla3seed、Warp1seed。SuperMimic .82/1.2h为其H100报告值，非匹配官方重跑；PPO两配置为单seed。评测全40训练库clip、确定性、跌倒余段归零、MuJoCoWarp、计时排除编译和评测。",
+      "embodied_relevance": "直接连接运动数据、全身控制、接触仿真求导与一阶强化学习，是理解SuperMimic世界模型梯度作用的具体对照。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41654v1",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Weyl Lu",
+      "first_arxiv_submission": "2026-10-30T12:27:45Z",
+      "first_arxiv_submission_shanghai": "2026-10-30T20:27:45+08:00",
+      "checked_at": "2026-11-04",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "本条机制与数字锁定 arXiv v1。官方项目当前另有无编号更新稿，训练配方与结果已有变化，待逐项核验后合并；不把项目稿当作 arXiv v2。",
+      "code_availability": "official training and engine README inspected; code not executed or reproduced",
+      "pdf_sha256": "85d4b2b17ea38560b95eb84bd789b957210c8bf546724d3f833432512c659fa7",
+      "engine_code_url": "https://github.com/OamIcs/NablaEngine",
+      "version_id": "2610.41654v1",
+      "updated": "2026-10-30T12:27:45Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/abs/2610.41654v1",
+        "section": "PDF首页两作者共同UC Davis机构行"
+      },
+      "mechanism": "在4096个64步窗口中沿MuJoCo接触动力学求导，逐反向时间步对每个样本的动作cotangent按批中位范数裁剪，再以固定弧度RMS步长构造目标动作、做8次小批回归。G1专用NablaEngine用每world一个warp及整控制步adjoint megakernel降低求导成本。保留TDλ critic、参考姿态残差和回放起点；训练导数在近自接触、近平行胶囊及饱和actuator处采用特定规则，并非处处无偏的精确梯度。",
+      "selection_origin": "2026-11-04 原文与相关附录核读后收录；CR-DAgger为同研究正式扩展出版线索，不冒充近七日首发。"
+    },
+    {
+      "id": "cr-dagger",
+      "short_name": "CR-DAgger",
+      "arxiv_id": "2506.16685",
+      "title": "Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections",
+      "authors": [
+        "Xiaomeng Xu",
+        "Yifan Hou",
+        "Chendong Xin",
+        "Zeyi Liu",
+        "Shuran Song"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "track": "manipulation",
+      "published": "2025-06-20T01:57:47Z",
+      "project_url": "https://compliant-residual-dagger.github.io/",
+      "code_url": "https://github.com/yifan-hou/cr-dagger",
+      "scope": "单套UR平台四项真实接触丰富操作；冻结基础策略、动觉在线纠正与力感知残差学习",
+      "reading_question": "为什么人把机器人推回正确方向，训练出的策略反而会变差？纠正的采集方式、控制延迟和残差学习分别解决什么？",
+      "selection_reason": "问题明确、接口可计算，四真实任务与同数据更新基线和关键消融支持机制。按同一研究身份首次入库；2026-11-02为此次发现的IJRR在线出版元数据事件，研究首发与扩展内容均非本周首次公开。",
+      "evidence_summary": "作者扩展稿Fig9：四项实机任务分别20/32/20/20回合。翻书CR100%对原基策略40%，takeover版CR55%、on-policy无力残差35%；皮带96.8%对无力/带力基策略15.6%/43.8%、重训34.4%、微调0%、KL微调3.1%、无力残差28.1%；齿轮90%对5%/40%、重训50%、微调35%、KL25%、无力残差5%；布线100%对70%/25%、微调85%、KL95%、无力残差40%。Fig12翻书同50纠正数据一次训练100%，20+3×10分批最终0%；Fig13皮带1/2/3批90.6/96.8/87.5%，额外数据非单调。Fig12采样uniform70/dense-around75/dense-after100。AppendixA.4概率MLP100%、FlowTransformer90%各10回合，不能与主表32回合当等样本比较。未报告跨训练seed置信区间。",
+      "embodied_relevance": "直接连接人类在线干预、接触力反馈、模仿策略修正与机器人闭环控制。",
+      "year": 2025,
+      "venue_status": "published",
+      "venue": "NeurIPS",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "pdf_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "reading_version": "IJRR 2026 author-hosted extended manuscript; 14 pages; sha256 67a631af6e73e8ec5217baf8f4b97f6d8a76521ac7de9f3cf973798581e01953",
+      "latest_arxiv_version_observed": "v5",
+      "first_author": "Xiaomeng Xu",
+      "first_arxiv_submission": "2025-06-20T01:57:47Z",
+      "first_arxiv_submission_shanghai": "2025-06-20T09:57:47+08:00",
+      "checked_at": "2026-11-04",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "研究首发于2025-06-20，NeurIPS2025主会原版为四作者、两任务。本次阅读官方项目提供的IJRR2026作者扩展稿（14页，加入Chendong Xin及齿轮插入/布线实验），期刊DOI为10.1177/02783649261498061；在线出版2026-11-02据出版社Crossref登记。原版与扩展版合为一篇研究，公开与评审沿已核NeurIPS阶段，不把期刊出版冒充本周新研究。",
+      "code_availability": "official_dedicated_repository",
+      "reading_version_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "reading_version_sha256": "67a631af6e73e8ec5217baf8f4b97f6d8a76521ac7de9f3cf973798581e01953",
+      "reading_pdf_equals_arxiv_v5_or_publisher_vor": null,
+      "reading_pdf_equivalence_note": "未做作者扩展PDF与arXiv v5/出版社VOR字节或逐页等价比较；全文证据定位只针对此锁定作者稿。",
+      "score_axis_reasons": {
+        "innovation": "80：顺应纠正接口让人能在原策略运行中给位置与力增量，配套冻结基策略的力感知残差学习；扩展版具体处理追踪滞后导致的意图误读。DAgger、残差学习、导纳控制各有前作，贡献是重要接口及组合机制，不另称全新方法家族。",
+        "evidence": "78：四项真实接触任务，多种同数据更新基线，接管/on-policy与力模态、采样/批次、残差头的对照，补充轨迹和阶段成功诊断。仍为单平台20–32回合规模，多训练seed与不确定性缺失，不到跨域系统验证。",
+        "reuse": "74：专属MIT代码含actor/learner、基策略与残差训练说明、控制配置及依赖来源；算法与接口能迁移，但力传感、动觉采集和C++硬件/导纳栈增加工程门槛，未本地复现或核全套预训练权重。",
+        "reading": "86：把纠正数据分布、保留既有策略能力、接触力与控制跟踪误差连在一起，提供从模仿学习走向真实接触部署的清楚桥梁；适合作为DAgger/残差控制专题，而非所有具身任务前置。"
+      },
+      "venue_track": "Main Conference",
+      "venue_evidence_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "version_id": "2506.16685v5",
+      "updated": "2025-12-25T22:20:11Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://compliant-residual-dagger.github.io/",
+        "section": "官方项目Stanford University与出版方Crossref五位Stanford EE登记相互支持；作者扩展PDF首页未单列机构。"
+      },
+      "mechanism": "CR-DAgger保留低频扩散基策略，通过顺应式动觉接口在策略继续运行时采集人的位置增量和接触力纠正。扩展稿用参考速度跟踪和硬件时延对齐避免微小纠正标签被控制滞后淹没。冻结视觉编码器，力历史经时间卷积，与状态共同输入轻量残差头；残差推理循环约50Hz，每次预测5个间隔0.02s的15维动作（9维位姿表示与6维目标力/力矩），由500Hz导纳控制器执行基准动作加局部修正。无干预段学零残差，并对纠正附近数据重采样，避免用少量新数据直接改坏完整基策略。",
+      "selection_origin": "2026-11-04 原文与相关附录核读后收录；CR-DAgger为同研究正式扩展出版线索，不冒充近七日首发。"
     },
     {
       "arxiv_id": "2610.12470",

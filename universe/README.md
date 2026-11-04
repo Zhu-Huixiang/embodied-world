@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-125 篇论文是恒星，各自有自己的知识行星与卫星：共 1208 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 21 篇有完整解读，585 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+127 篇论文是恒星，各自有自己的知识行星与卫星：共 1271 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 21 篇有完整解读，585 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -33,6 +33,7 @@
 | [Cosmos Policy](papers/cosmos-policy.md) | 导读 | [世界动作联合建模](concepts/wam.md) · [视频时序生成](concepts/video.md) · [扩散去噪](concepts/diffusion.md) |
 | [CoT-VLA](papers/cot-vla.md) | 导读 | [视频时序生成](concepts/video.md) · [动作表示](concepts/action.md) · [因果序列建模](concepts/causal.md) |
 | [CQL](papers/cql.md) | 导读 | [离线强化学习](concepts/offline.md) · [价值估计与校准](concepts/value.md) · [策略与价值学习](concepts/actor-critic.md) |
+| [CR-DAgger](papers/cr-dagger.md) | 导读 | [示范模仿](concepts/imitation.md) · [行为克隆](concepts/bc.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) · [扩散去噪](concepts/diffusion.md) · [表征空间](concepts/representation.md) · [机器人数据与评测](concepts/data.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [Ctrl-World](papers/ctrl-world.md) | 导读 | [视频时序生成](concepts/video.md) · [动作条件动力学](concepts/dynamics.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [DayDreamer](papers/daydreamer.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [DDIM](papers/ddim.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [条件生成](concepts/generation.md) |
@@ -88,6 +89,7 @@
 | [Mobile ALOHA](papers/mobile-aloha.md) | 导读 | [行为克隆](concepts/bc.md) · [动作块](concepts/chunk.md) · [全身控制与执行](concepts/wbc.md) |
 | [ModAR](papers/modar.md) | 导读 | [世界动作联合建模](concepts/wam.md) · [Diffusion Transformer](concepts/dit.md) · [因果序列建模](concepts/causal.md) |
 | [MuZero](papers/muzero.md) | 已精讲 | [动作条件动力学](concepts/dynamics.md) · [树搜索与轨迹搜索](concepts/search.md) · [价值估计与校准](concepts/value.md) · [世界模型](concepts/world.md) · [强化学习](concepts/rl.md) · [表征空间](concepts/representation.md) · [交叉熵](concepts/cross-entropy.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
+| [∇Mimic](papers/nablamimic.md) | 导读 | [动作表示](concepts/action.md) · [全身控制与执行](concepts/wbc.md) · [动作条件动力学](concepts/dynamics.md) · [强化学习](concepts/rl.md) · [策略与价值学习](concepts/actor-critic.md) · [PPO 与并行模拟](concepts/ppo.md) · [机器人数据与评测](concepts/data.md) |
 | [NeRF](papers/nerf.md) | 已精讲 | [新视角场景表示](concepts/radiance.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) |
 | [Octo](papers/octo.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) · [跨本体数据](concepts/cross-body.md) |
 | [OmniH2O](papers/omnih2o.md) | 导读 | [特权训练信息](concepts/privileged.md) · [教师学生蒸馏](concepts/distill.md) · [全身控制与执行](concepts/wbc.md) |

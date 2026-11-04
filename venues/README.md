@@ -11,7 +11,7 @@
 | [ICRA](ICRA/README.md) | [IEEE International Conference on Robotics and Automation](ICRA/README.md) | CCF B（2026）；机器人核心主会 | 4 |
 | [ICLR](ICLR/README.md) | [International Conference on Learning Representations](ICLR/README.md) | CCF A（2026）；领域主要主会 | 13 |
 | [ICML](ICML/README.md) | [International Conference on Machine Learning](ICML/README.md) | CCF A（2026）；领域主要主会 | 8 |
-| [NeurIPS](NeurIPS/README.md) | [Conference on Neural Information Processing Systems](NeurIPS/README.md) | CCF A（2026）；领域主要主会 | 16 |
+| [NeurIPS](NeurIPS/README.md) | [Conference on Neural Information Processing Systems](NeurIPS/README.md) | CCF A（2026）；领域主要主会 | 17 |
 | [CVPR](CVPR/README.md) | [IEEE/CVF Conference on Computer Vision and Pattern Recognition](CVPR/README.md) | CCF A（2026）；领域主要主会 | 4 |
 | [ICCV](ICCV/README.md) | [IEEE/CVF International Conference on Computer Vision](ICCV/README.md) | CCF A（2026）；领域主要主会 | 4 |
 | [Nature](Nature/README.md) | [Nature](Nature/README.md) | 编辑对领域定位的判断；JIF 56.1（2025）；JCR Q1* | 2 |
@@ -27,4 +27,4 @@
 
 [论文地图](../paper-map/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-11-02。
+元数据核对日期：2026-11-04。

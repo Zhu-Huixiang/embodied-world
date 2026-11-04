@@ -36,6 +36,7 @@
 | [Ctrl-World · Ctrl-World: A Controllable Generative World Model for Robot Manipulation](../../../library/ctrl-world.md) | 2026 / [ICLR](../../../venues/ICLR/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [80.3](../../papers/ctrl-world/README.md) |
 | [HumanPlus · HumanPlus: Humanoid Shadowing and Imitation from Humans](../../../library/humanplus.md) | 2024 / [CoRL](../../../venues/CoRL/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [80.1](../../papers/humanplus/README.md) |
 | [Cosmos Policy · Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning](../../../library/cosmos-policy.md) | 2026 / [ICLR](../../../venues/ICLR/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [78.5](../../papers/cosmos-policy/README.md) |
+| [CR-DAgger · Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections](../../../library/cr-dagger.md) | 2025 / [NeurIPS](../../../venues/NeurIPS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [77.1](../../papers/cr-dagger/README.md) |
 | [ARC · ARC: A Reasoning Recipe for Robot Foundation Models](../../../library/arc.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-arc) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [62.2](../../papers/arc/README.md) |
 
 ## 署名与来源
@@ -45,6 +46,6 @@
 - [来源1](https://openalex.org/I97018004)
 - [来源2](https://api.openalex.org/institutions/I97018004)
 
-资料核验：2026-11-02。
+资料核验：2026-10-10。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

@@ -1,6 +1,6 @@
 # TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation
 
-**TouchBridge** · arXiv 2026 · 本版排名 124 · 综合分 **59.4 / 100**
+**TouchBridge** · arXiv 2026 · 本版排名 126 · 综合分 **59.4 / 100**
 
 [解读导读](../../../library/touchbridge.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-touchbridge)
 

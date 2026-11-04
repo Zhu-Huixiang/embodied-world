@@ -6,4 +6,4 @@ PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新�
 
 [跨论文技术入口](../../concepts/ppo.md)
 
-[本篇星系](../diffcontact.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/diffcontact.md) · [原文依据](https://arxiv.org/abs/2610.35852v1)
+[本篇星系](../diffcontact.md) · [论文解读/导读](https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/diffcontact.md) · [原文依据](https://arxiv.org/abs/2610.35852v2)

@@ -38,6 +38,8 @@
 - [GAR](../papers/gar.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40271v1)
 - [TouchBridge](../papers/touchbridge.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40349v1)
 - [JEDI](../papers/jedi.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40356v1)
+- [∇Mimic](../papers/nablamimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.41654v1)
+- [CR-DAgger](../papers/cr-dagger.md) · 机制导读 · [原文](https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html)
 - [ARC](../papers/arc.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12386v1)
 - [PLaW-VLA](../papers/plaw-vla.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12285v1)
 

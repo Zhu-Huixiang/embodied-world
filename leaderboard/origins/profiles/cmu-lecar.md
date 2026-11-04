@@ -26,6 +26,6 @@
 - [来源1](https://lecar-lab.github.io/)
 - [来源2](https://lecar-lab.github.io/publications.html)
 
-资料核验：2026-11-02。
+资料核验：2026-10-10T16:05:27.589506+08:00。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

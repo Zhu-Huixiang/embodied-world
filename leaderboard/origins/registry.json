@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-04",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -9705,6 +9705,120 @@
           "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi"
         ]
       }
+    },
+    "nablamimic": {
+      "first_authors": [
+        "Weyl Lu"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Weyl Lu",
+        "Yubei Chen"
+      ],
+      "profile_ids": [
+        "organization-14ceb33ea08c"
+      ],
+      "affiliations": [
+        "UC Davis"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.41654v1",
+        "https://arxiv.org/pdf/2610.41654v1",
+        "https://sailab.ai/nablamimic/"
+      ],
+      "checked_at": "2026-11-04T08:39:43.561680+08:00",
+      "author_basis": "PDF首页署名顺序；星号对应项目/代码脚注，不是通讯或共同贡献标签",
+      "affiliation_basis": "PDF首页两作者共同UC Davis机构行",
+      "primary_author_source": "https://arxiv.org/pdf/2610.41654v1",
+      "authorship_notes": "首页UC Davis署名，星号仅项目/代码脚注；未显式共同贡献或通讯作者标签，不据顺序推断。",
+      "corresponding_evidence": [],
+      "author_affiliations": {
+        "Weyl Lu": [
+          "UC Davis"
+        ],
+        "Yubei Chen": [
+          "UC Davis"
+        ]
+      }
+    },
+    "cr-dagger": {
+      "first_authors": [
+        "Xiaomeng Xu"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Xiaomeng Xu",
+        "Yifan Hou",
+        "Chendong Xin",
+        "Zeyi Liu",
+        "Shuran Song"
+      ],
+      "profile_ids": [
+        "institution-i97018004"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "sources": [
+        "https://compliant-residual-dagger.github.io/",
+        "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+        "https://api.crossref.org/works/10.1177/02783649261498061",
+        "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html"
+      ],
+      "checked_at": "2026-11-04T08:43:15.058176+08:00",
+      "author_basis": "本页列作者扩展稿五位作者；前两位带星号但未见释义，首署名为Xiaomeng Xu。NeurIPS原版四位作者为Xiaomeng Xu、Yifan Hou、Zeyi Liu、Shuran Song，扩展稿新增Chendong Xin",
+      "affiliation_basis": "官方项目Stanford University与出版方Crossref五位Stanford EE登记相互支持；作者扩展PDF首页未单列机构。",
+      "primary_author_source": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "authorship_notes": "所读作者扩展稿与官方项目为五作者，前两位带星号，但所核PDF/项目未见星号释义，故保留符号不据此确认共同贡献；原NeurIPS正式页四作者不含Chendong Xin。项目署名Stanford University，SAGE登记于Crossref的五位机构均Stanford EE；不采用OpenAlex把Shuran Song误配为Columbia，也不把Chendong当前Georgia Tech个人经历改写成本篇署名。未查到明确通讯作者，不由末位或Contact推断。",
+      "equal_contribution_authors": [],
+      "author_affiliations": {
+        "Xiaomeng Xu": [
+          "Stanford University"
+        ],
+        "Yifan Hou": [
+          "Stanford University"
+        ],
+        "Chendong Xin": [
+          "Stanford University"
+        ],
+        "Zeyi Liu": [
+          "Stanford University"
+        ],
+        "Shuran Song": [
+          "Stanford University"
+        ]
+      },
+      "author_links": [
+        {
+          "label": "Xiaomeng Xu：作者主页",
+          "url": "https://xxm19.github.io/",
+          "identity_source": "https://compliant-residual-dagger.github.io/"
+        },
+        {
+          "label": "Yifan Hou：作者主页",
+          "url": "https://yifan-hou.github.io/",
+          "identity_source": "https://compliant-residual-dagger.github.io/"
+        },
+        {
+          "label": "Chendong Xin：作者主页",
+          "url": "https://star-xcd.github.io/",
+          "identity_source": "https://compliant-residual-dagger.github.io/"
+        },
+        {
+          "label": "Zeyi Liu：作者主页",
+          "url": "https://lzylucy.github.io/",
+          "identity_source": "https://compliant-residual-dagger.github.io/"
+        },
+        {
+          "label": "Shuran Song：作者主页",
+          "url": "https://shurans.github.io/",
+          "identity_source": "https://compliant-residual-dagger.github.io/"
+        }
+      ],
+      "star_marked_authors": [
+        "Xiaomeng Xu",
+        "Yifan Hou"
+      ]
     }
   },
   "coverage": {

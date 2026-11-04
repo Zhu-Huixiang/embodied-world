@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-04",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -50380,6 +50380,390 @@
       "rank": 105
     },
     {
+      "id": "cr-dagger",
+      "checked_at": "2026-11-04",
+      "short_name": "CR-DAgger",
+      "title": "Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections",
+      "year": 2025,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "NeurIPS",
+        "venue_key": "NeurIPS",
+        "venue_path": "venues/NeurIPS/README.md",
+        "reading_path": "library/cr-dagger.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/cr-dagger.md",
+        "card_path": "leaderboard/papers/cr-dagger/README.md"
+      },
+      "origin": {
+        "label": "Xiaomeng Xu · 斯坦福大学",
+        "author_label": "Xiaomeng Xu",
+        "institution_label": "斯坦福大学",
+        "search": "Xiaomeng Xu Xiaomeng Xu Yifan Hou Chendong Xin Zeyi Liu Shuran Song Stanford University 斯坦福大学 斯坦福大学 Stanford University 斯坦福 Stanford Stanford University 斯坦福大学",
+        "keys": [
+          "institution-i97018004"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i97018004",
+            "label": "斯坦福大学",
+            "search": "Stanford University 斯坦福 Stanford Stanford University 斯坦福大学"
+          }
+        ],
+        "path": "leaderboard/origins/papers/cr-dagger.md"
+      },
+      "scores": {
+        "innovation": 80,
+        "evidence": 78,
+        "reuse": 74,
+        "reading": 86,
+        "venue": 95.0,
+        "influence": 26.0,
+        "attention": 49.9
+      },
+      "score": 77.1,
+      "score_exact": "77.135",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "80：顺应纠正接口让人能在原策略运行中给位置与力增量，配套冻结基策略的力感知残差学习；扩展版具体处理追踪滞后导致的意图误读。DAgger、残差学习、导纳控制各有前作，贡献是重要接口及组合机制，不另称全新方法家族。 78：四项真实接触任务，多种同数据更新基线，接管/on-policy与力模态、采样/批次、残差头的对照，补充轨迹和阶段成功诊断。仍为单平台20–32回合规模，多训练seed与不确定性缺失，不到跨域系统验证。 74：专属MIT代码含actor/learner、基策略与残差训练说明、控制配置及依赖来源；算法与接口能迁移，但力传感、动觉采集和C++硬件/导纳栈增加工程门槛，未本地复现或核全套预训练权重。 86：把纠正数据分布、保留既有策略能力、接触力与控制跟踪误差连在一起，提供从模仿学习走向真实接触部署的清楚桥梁；适合作为DAgger/残差控制专题，而非所有具身任务前置。",
+          "sources": [
+            "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf"
+          ],
+          "review_depth": "通读作者扩展PDF14页含A.1–A.6与参考文献；目视完整9/10/14页核Fig9、12、13、14坐标与数字。此为机制与实验初读筛选，尚未制作完整精讲、未复现代码。"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "80：顺应纠正接口让人能在原策略运行中给位置与力增量，配套冻结基策略的力感知残差学习；扩展版具体处理追踪滞后导致的意图误读。DAgger、残差学习、导纳控制各有前作，贡献是重要接口及组合机制，不另称全新方法家族。 78：四项真实接触任务，多种同数据更新基线，接管/on-policy与力模态、采样/批次、残差头的对照，补充轨迹和阶段成功诊断。仍为单平台20–32回合规模，多训练seed与不确定性缺失，不到跨域系统验证。 74：专属MIT代码含actor/learner、基策略与残差训练说明、控制配置及依赖来源；算法与接口能迁移，但力传感、动觉采集和C++硬件/导纳栈增加工程门槛，未本地复现或核全套预训练权重。 86：把纠正数据分布、保留既有策略能力、接触力与控制跟踪误差连在一起，提供从模仿学习走向真实接触部署的清楚桥梁；适合作为DAgger/残差控制专题，而非所有具身任务前置。",
+          "sources": [
+            "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf"
+          ],
+          "review_depth": "通读作者扩展PDF14页含A.1–A.6与参考文献；目视完整9/10/14页核Fig9、12、13、14坐标与数字。此为机制与实验初读筛选，尚未制作完整精讲、未复现代码。"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "80：顺应纠正接口让人能在原策略运行中给位置与力增量，配套冻结基策略的力感知残差学习；扩展版具体处理追踪滞后导致的意图误读。DAgger、残差学习、导纳控制各有前作，贡献是重要接口及组合机制，不另称全新方法家族。 78：四项真实接触任务，多种同数据更新基线，接管/on-policy与力模态、采样/批次、残差头的对照，补充轨迹和阶段成功诊断。仍为单平台20–32回合规模，多训练seed与不确定性缺失，不到跨域系统验证。 74：专属MIT代码含actor/learner、基策略与残差训练说明、控制配置及依赖来源；算法与接口能迁移，但力传感、动觉采集和C++硬件/导纳栈增加工程门槛，未本地复现或核全套预训练权重。 86：把纠正数据分布、保留既有策略能力、接触力与控制跟踪误差连在一起，提供从模仿学习走向真实接触部署的清楚桥梁；适合作为DAgger/残差控制专题，而非所有具身任务前置。",
+          "sources": [
+            "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf"
+          ],
+          "review_depth": "通读作者扩展PDF14页含A.1–A.6与参考文献；目视完整9/10/14页核Fig9、12、13、14坐标与数字。此为机制与实验初读筛选，尚未制作完整精讲、未复现代码。"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "80：顺应纠正接口让人能在原策略运行中给位置与力增量，配套冻结基策略的力感知残差学习；扩展版具体处理追踪滞后导致的意图误读。DAgger、残差学习、导纳控制各有前作，贡献是重要接口及组合机制，不另称全新方法家族。 78：四项真实接触任务，多种同数据更新基线，接管/on-policy与力模态、采样/批次、残差头的对照，补充轨迹和阶段成功诊断。仍为单平台20–32回合规模，多训练seed与不确定性缺失，不到跨域系统验证。 74：专属MIT代码含actor/learner、基策略与残差训练说明、控制配置及依赖来源；算法与接口能迁移，但力传感、动觉采集和C++硬件/导纳栈增加工程门槛，未本地复现或核全套预训练权重。 86：把纠正数据分布、保留既有策略能力、接触力与控制跟踪误差连在一起，提供从模仿学习走向真实接触部署的清楚桥梁；适合作为DAgger/残差控制专题，而非所有具身任务前置。",
+          "sources": [
+            "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf"
+          ],
+          "review_depth": "通读作者扩展PDF14页含A.1–A.6与参考文献；目视完整9/10/14页核Fig9、12、13、14坐标与数字。此为机制与实验初读筛选，尚未制作完整精讲、未复现代码。"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": 95.0,
+          "external_review_credit": null,
+          "reason": "完整可追溯作者稿满足公开阶段60；同研究原版正式NeurIPS主会按既有profile95计公开与评审最高阶段，不臆造IJRR等级或JIF。；正式刊会按登记量表计分，取较高阶段。",
+          "sources": [
+            "https://arxiv.org/abs/2506.16685",
+            "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+            "https://compliant-residual-dagger.github.io/",
+            "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+            "https://journals.sagepub.com/doi/10.1177/02783649261498061",
+            "https://api.crossref.org/works/10.1177/02783649261498061",
+            "https://star-xcd.github.io/"
+          ]
+        },
+        "influence": {
+          "method": "citation_log",
+          "score": 26.0,
+          "reason": "身份匹配的累计引用C=7，对数压缩上限3000。",
+          "sources": [
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2506.16685"
+          ],
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "citation_log",
+              "score": 26.0,
+              "reason": "身份匹配的累计引用C=7，对数压缩上限3000。",
+              "sources": [
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2506.16685"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "platform_attention",
+          "score": 49.9,
+          "reason": "github 的论文专属入口：GitHub Star=98；按10000上限对数压缩。",
+          "sources": [
+            "https://compliant-residual-dagger.github.io/",
+            "https://github.com/yifan-hou/cr-dagger"
+          ],
+          "snapshot": {
+            "url": "https://github.com/yifan-hou/cr-dagger",
+            "platform": "github",
+            "metric": "stars",
+            "count": 98,
+            "checked_at": "2026-11-04T08:37:29.820012+08:00",
+            "window_kind": "cumulative",
+            "window_start": "2025-12-01",
+            "window_end": "2026-11-04",
+            "label": "GitHub Star",
+            "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+            "eligible_recent_attention": true,
+            "eligible_academic_impact": false
+          },
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "recent_volume_velocity",
+              "score": 21.2,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-11-04",
+                "first_public_date": "2025-06-20",
+                "date_origin": "first_arxiv_submission",
+                "date_precision": "day",
+                "effective_months": 16.4928,
+                "citations_per_month": 0.4244,
+                "volume_score": 33.4,
+                "velocity_score": 9.0,
+                "recent_count_kind": "provider_year_counts"
+              },
+              "reason": "近期已定位引用R=7；数量与每月引用速度各占一半，有效观察期16.4928个月。",
+              "sources": [
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2506.16685"
+              ]
+            },
+            {
+              "method": "platform_attention",
+              "score": 49.9,
+              "reason": "github 的论文专属入口：GitHub Star=98；按10000上限对数压缩。",
+              "sources": [
+                "https://compliant-residual-dagger.github.io/",
+                "https://github.com/yifan-hou/cr-dagger"
+              ],
+              "snapshot": {
+                "url": "https://github.com/yifan-hou/cr-dagger",
+                "platform": "github",
+                "metric": "stars",
+                "count": 98,
+                "checked_at": "2026-11-04T08:37:29.820012+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2025-12-01",
+                "window_end": "2026-11-04",
+                "label": "GitHub Star",
+                "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 10.0,
+              "reason": "github 的论文专属入口：GitHub订阅关注=1；按1000上限对数压缩。",
+              "sources": [
+                "https://compliant-residual-dagger.github.io/",
+                "https://github.com/yifan-hou/cr-dagger"
+              ],
+              "snapshot": {
+                "url": "https://github.com/yifan-hou/cr-dagger",
+                "platform": "github",
+                "metric": "subscribers",
+                "count": 1,
+                "checked_at": "2026-11-04T08:37:29.820012+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2025-12-01",
+                "window_end": "2026-11-04",
+                "label": "GitHub订阅关注",
+                "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "cr-dagger",
+        "checked_at": "2026-11-04T08:37:28.460727+08:00",
+        "status": "matched",
+        "provider": "OpenAlex",
+        "citation_count": 7,
+        "recent_citation_count": 7,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 7
+          }
+        ],
+        "api_url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2506.16685",
+        "match_note": "精确arXiv DOI返回W4415202784，主DOI为官方NeurIPS2025原版10.52202/085713-4660；完整标题、年份、四位原作者及arXiv locations一致。该同研究原版记录累计7，未与新IJRR Crossref的1相加。OpenAlex错误机构和默认2025-01-01日期不作机构/首发来源。S2精确ID429后按既定顺序选OpenAlex，不择更高计数。",
+        "edition": "NeurIPS 2025 original research record linked to arXiv:2506.16685; journal extension citations not summed",
+        "matched_id": "https://openalex.org/W4415202784",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2506.16685?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2506.16685"
+        ],
+        "recent_count_basis": "匹配记录counts_by_year显示全部7次在2026，属于2025-01-01至2026-11-04窗口。",
+        "publication_date": "2025-06-20",
+        "publication_date_precision": "day",
+        "publication_date_source": "https://arxiv.org/abs/2506.16685",
+        "matched_title": "Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections",
+        "record_url": "https://openalex.org/W4415202784",
+        "openalex_id": "https://openalex.org/W4415202784"
+      },
+      "social": {
+        "checked_at": "2026-11-04T08:44:51.347291+08:00",
+        "resources": [
+          {
+            "platform": "github",
+            "resource_kind": "repository",
+            "id": "yifan-hou/cr-dagger",
+            "url": "https://github.com/yifan-hou/cr-dagger",
+            "api_url": "https://api.github.com/repos/yifan-hou/cr-dagger",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "identity_basis": "作者项目Code链接指向该仓库；README明确Official implementation及完整论文题目/五位扩展版作者。",
+            "sources": [
+              "https://compliant-residual-dagger.github.io/",
+              "https://github.com/yifan-hou/cr-dagger"
+            ],
+            "created_at": "2025-12-01T00:33:31Z",
+            "metrics": [
+              {
+                "metric": "stars",
+                "count": 98,
+                "checked_at": "2026-11-04T08:37:29.820012+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2025-12-01",
+                "window_end": "2026-11-04",
+                "label": "GitHub Star",
+                "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "subscribers",
+                "count": 1,
+                "checked_at": "2026-11-04T08:37:29.820012+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2025-12-01",
+                "window_end": "2026-11-04",
+                "label": "GitHub订阅关注",
+                "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "forks",
+                "count": 4,
+                "checked_at": "2026-11-04T08:37:29.820012+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2025-12-01",
+                "window_end": "2026-11-04",
+                "label": "GitHub Fork",
+                "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+                "eligible_recent_attention": false,
+                "eligible_academic_impact": false
+              }
+            ],
+            "limitations": [
+              "共享force_control/hardware_interfaces/cpplibrary为依赖，其star不归本篇。",
+              "Exa抓取文本附带91星等旧缓存，与实时API98不一致，计量只采用本次GitHub API。",
+              "只核公开实现与文档，不称运行复现通过。"
+            ]
+          },
+          {
+            "platform": "project",
+            "resource_kind": "website",
+            "url": "https://compliant-residual-dagger.github.io/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2506.16685",
+              "https://compliant-residual-dagger.github.io/"
+            ],
+            "metrics": [],
+            "raw_page_views": null,
+            "availability_note": "官方项目可读但无阅读计数。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "专属官方代码已核；未对每个引用者做独立采用审核，影响用匹配引用公式。HF精确论文API404，X/博客未核，计数null。",
+        "unavailable_metrics": {
+          "hf_upvotes": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "failed_sources": [
+          {
+            "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2506.16685?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+            "checked_at": "2026-11-04T08:37:28.460430+08:00",
+            "error": "<HTTPError 429: ''>"
+          },
+          {
+            "url": "https://huggingface.co/api/papers/2506.16685",
+            "checked_at": "2026-11-04T08:37:28.460838+08:00",
+            "error": "<HTTPError 404: 'Not Found'>"
+          }
+        ]
+      },
+      "editorial": {
+        "checked_at": "2026-11-04",
+        "scores": {
+          "innovation": 80,
+          "evidence": 78,
+          "reuse": 74,
+          "reading": 86
+        },
+        "mechanism": "CR-DAgger保留低频扩散基策略，通过顺应式动觉接口在策略继续运行时采集人的位置增量和接触力纠正。扩展稿用参考速度跟踪和硬件时延对齐避免微小纠正标签被控制滞后淹没。冻结视觉编码器，力历史经时间卷积，与状态共同输入轻量残差头；残差推理循环约50Hz，每次预测5个间隔0.02s的15维动作（9维位姿表示与6维目标力/力矩），由500Hz导纳控制器执行基准动作加局部修正。无干预段学零残差，并对纠正附近数据重采样，避免用少量新数据直接改坏完整基策略。",
+        "reason": "80：顺应纠正接口让人能在原策略运行中给位置与力增量，配套冻结基策略的力感知残差学习；扩展版具体处理追踪滞后导致的意图误读。DAgger、残差学习、导纳控制各有前作，贡献是重要接口及组合机制，不另称全新方法家族。 78：四项真实接触任务，多种同数据更新基线，接管/on-policy与力模态、采样/批次、残差头的对照，补充轨迹和阶段成功诊断。仍为单平台20–32回合规模，多训练seed与不确定性缺失，不到跨域系统验证。 74：专属MIT代码含actor/learner、基策略与残差训练说明、控制配置及依赖来源；算法与接口能迁移，但力传感、动觉采集和C++硬件/导纳栈增加工程门槛，未本地复现或核全套预训练权重。 86：把纠正数据分布、保留既有策略能力、接触力与控制跟踪误差连在一起，提供从模仿学习走向真实接触部署的清楚桥梁；适合作为DAgger/残差控制专题，而非所有具身任务前置。",
+        "review_depth": "通读作者扩展PDF14页含A.1–A.6与参考文献；目视完整9/10/14页核Fig9、12、13、14坐标与数字。此为机制与实验初读筛选，尚未制作完整精讲、未复现代码。"
+      },
+      "venue_record": {
+        "venue": "NeurIPS",
+        "venue_status": "published",
+        "track": "Main Conference",
+        "publication_evidence_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+        "checked_at": "2026-11-04",
+        "profile": {
+          "abbreviation": "NeurIPS",
+          "name": "Conference on Neural Information Processing Systems",
+          "kind": "conference",
+          "scope": "机器学习与计算神经科学交叉；包括生成、序列建模、学习与决策。",
+          "review": "主会研究论文同行评审；正式主会论文集是本目录的归档依据。",
+          "community": {
+            "score": 95,
+            "label": "编辑对领域定位的判断",
+            "reason": "机器学习主要主会；序列生成结果和真实机器人证据需要分别读。"
+          },
+          "distinction": "主会与 workshop 各自归档；oral、poster 是展示形式，不能另当一个刊会等级。",
+          "ccf": {
+            "tier": "A",
+            "edition": 2026,
+            "page": 57,
+            "source_id": "ccf"
+          },
+          "jif": null,
+          "jcr": null,
+          "cas": null,
+          "official_url": "https://neurips.cc/",
+          "sources": [
+            {
+              "title": "官方会议入口 / 征稿与评审说明",
+              "url": "https://neurips.cc/",
+              "evidence_type": "primary"
+            }
+          ]
+        }
+      },
+      "rank": 106
+    },
+    {
       "id": "omnih2o",
       "checked_at": "2026-10-10",
       "short_name": "OmniH2O",
@@ -50731,7 +51115,7 @@
           ]
         }
       },
-      "rank": 106
+      "rank": 107
     },
     {
       "id": "efficientzero-v2",
@@ -51132,7 +51516,7 @@
           ]
         }
       },
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "balanced-data-diet",
@@ -51515,7 +51899,7 @@
           ]
         }
       },
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "plaw-vla",
@@ -52066,7 +52450,7 @@
           ]
         }
       },
-      "rank": 109
+      "rank": 110
     },
     {
       "id": "modar",
@@ -52872,7 +53256,7 @@
         "checked_at": "2026-10-10",
         "profile": null
       },
-      "rank": 110
+      "rank": 111
     },
     {
       "id": "tapestry",
@@ -53168,7 +53552,385 @@
           ]
         }
       },
-      "rank": 111
+      "rank": 112
+    },
+    {
+      "id": "nablamimic",
+      "checked_at": "2026-11-04",
+      "short_name": "∇Mimic",
+      "title": "∇Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+      "year": 2026,
+      "navigation": {
+        "track": "motion-priors",
+        "track_label": "动作先验与全身技能",
+        "track_path": "paper-map/README.md#track-motion-priors",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-nablamimic",
+        "reading_path": "library/nablamimic.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/nablamimic.md",
+        "card_path": "leaderboard/papers/nablamimic/README.md"
+      },
+      "origin": {
+        "label": "Weyl Lu · 加州大学戴维斯分校",
+        "author_label": "Weyl Lu",
+        "institution_label": "加州大学戴维斯分校",
+        "search": "Weyl Lu Weyl Lu Yubei Chen UC Davis 加州大学戴维斯分校 加州大学戴维斯分校 UC Davis UC Davis 加州大学戴维斯分校",
+        "keys": [
+          "organization-14ceb33ea08c"
+        ],
+        "profiles": [
+          {
+            "key": "organization-14ceb33ea08c",
+            "label": "加州大学戴维斯分校",
+            "search": "UC Davis UC Davis 加州大学戴维斯分校"
+          }
+        ],
+        "path": "leaderboard/origins/papers/nablamimic.md"
+      },
+      "scores": {
+        "innovation": 86,
+        "evidence": 84,
+        "reuse": 80,
+        "reading": 93,
+        "venue": 60,
+        "influence": 0,
+        "attention": 48.2
+      },
+      "score": 67.3,
+      "score_exact": "67.32",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新86：逐样本反传裁剪、定弧度多步动作回归和G1融合解析adjoint针对可识别失败；PODS、median clipping、replay均有继承。证据84：三seed核心消融、导数数值校验和算法/引擎拆分充分；仅一机器人/平地/40训练动作，无实机，PPO/Warp部分单seed，跨GPU引用SuperMimic限制比较。复用80：作者训练/引擎Apache2公开并有环境、基线、评测说明；G1专用CUDA和默认约50GB显存有门槛，数据另受非商业许可。阅读93：澄清世界模型、解析梯度、接触非光滑性及样本效率与wallclock差别。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.41654v1"
+          ],
+          "review_depth": "arXiv v1主文§§1–9与附录A–H逐节机制/实验初读；26页全文文本已读、关键图表目视，非完整精讲或复现"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新86：逐样本反传裁剪、定弧度多步动作回归和G1融合解析adjoint针对可识别失败；PODS、median clipping、replay均有继承。证据84：三seed核心消融、导数数值校验和算法/引擎拆分充分；仅一机器人/平地/40训练动作，无实机，PPO/Warp部分单seed，跨GPU引用SuperMimic限制比较。复用80：作者训练/引擎Apache2公开并有环境、基线、评测说明；G1专用CUDA和默认约50GB显存有门槛，数据另受非商业许可。阅读93：澄清世界模型、解析梯度、接触非光滑性及样本效率与wallclock差别。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.41654v1"
+          ],
+          "review_depth": "arXiv v1主文§§1–9与附录A–H逐节机制/实验初读；26页全文文本已读、关键图表目视，非完整精讲或复现"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新86：逐样本反传裁剪、定弧度多步动作回归和G1融合解析adjoint针对可识别失败；PODS、median clipping、replay均有继承。证据84：三seed核心消融、导数数值校验和算法/引擎拆分充分；仅一机器人/平地/40训练动作，无实机，PPO/Warp部分单seed，跨GPU引用SuperMimic限制比较。复用80：作者训练/引擎Apache2公开并有环境、基线、评测说明；G1专用CUDA和默认约50GB显存有门槛，数据另受非商业许可。阅读93：澄清世界模型、解析梯度、接触非光滑性及样本效率与wallclock差别。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.41654v1"
+          ],
+          "review_depth": "arXiv v1主文§§1–9与附录A–H逐节机制/实验初读；26页全文文本已读、关键图表目视，非完整精讲或复现"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新86：逐样本反传裁剪、定弧度多步动作回归和G1融合解析adjoint针对可识别失败；PODS、median clipping、replay均有继承。证据84：三seed核心消融、导数数值校验和算法/引擎拆分充分；仅一机器人/平地/40训练动作，无实机，PPO/Warp部分单seed，跨GPU引用SuperMimic限制比较。复用80：作者训练/引擎Apache2公开并有环境、基线、评测说明；G1专用CUDA和默认约50GB显存有门槛，数据另受非商业许可。阅读93：澄清世界模型、解析梯度、接触非光滑性及样本效率与wallclock差别。",
+          "sources": [
+            "https://arxiv.org/pdf/2610.41654v1"
+          ],
+          "review_depth": "arXiv v1主文§§1–9与附录A–H逐节机制/实验初读；26页全文文本已读、关键图表目视，非完整精讲或复现"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "公开可追溯arXiv v1已读，不推断录用或把自动review升为同行评审。；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2610.41654v1",
+            "https://arxiv.org/pdf/2610.41654v1"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2610.41654v1",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654"
+          ],
+          "reason": "匹配OpenAlex C=0；本次有界检索未核到独立技术采用，处于采用量表起点，非实际影响总量为零。",
+          "checked_at": "2026-11-04T08:39:43.561680+08:00",
+          "audit_scope": "有界精确ID/标题检索、原文及官方入口、S2/OpenAlex/HF/GitHub；不宣称全网影响为零。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2610.41654v1",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654"
+              ],
+              "reason": "匹配OpenAlex C=0；本次有界检索未核到独立技术采用，处于采用量表起点，非实际影响总量为零。",
+              "checked_at": "2026-11-04T08:39:43.561680+08:00",
+              "audit_scope": "有界精确ID/标题检索、原文及官方入口、S2/OpenAlex/HF/GitHub；不宣称全网影响为零。"
+            },
+            {
+              "method": "citation_log",
+              "score": 0.0,
+              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+              "sources": [
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "platform_attention",
+          "score": 48.2,
+          "reason": "github 的论文专属入口：GitHub star=84；按10000上限对数压缩。",
+          "sources": [
+            "https://api.github.com/repos/OamIcs/NablaMimic",
+            "https://api.github.com/repos/OamIcs/NablaMimic/contents/README.md?ref=main",
+            "https://arxiv.org/pdf/2610.41654v1",
+            "https://github.com/OamIcs/NablaMimic"
+          ],
+          "snapshot": {
+            "url": "https://github.com/OamIcs/NablaMimic",
+            "platform": "github",
+            "metric": "stars",
+            "count": 84,
+            "checked_at": "2026-11-04T08:34:08+08:00",
+            "window_kind": "cumulative",
+            "window_start": "2026-10-30",
+            "window_end": "2026-11-04",
+            "label": "GitHub star",
+            "window_label": "2026-11-04论文专属官方仓库实读快照",
+            "eligible_recent_attention": true,
+            "eligible_academic_impact": false
+          },
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2610.41654v1",
+                "https://api.github.com/repos/OamIcs/NablaMimic"
+              ],
+              "reason": "无额外合格独立讨论计数；近期关注由专属官方仓库84star按现量表取得48.2。",
+              "checked_at": "2026-11-04T08:39:43.561680+08:00",
+              "audit_scope": "有界精确ID/标题检索、原文及官方入口、S2/OpenAlex/HF/GitHub；不宣称全网影响为零。"
+            },
+            {
+              "method": "recent_volume_velocity",
+              "score": 0.0,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-11-04",
+                "first_public_date": "2026-10-30",
+                "date_origin": "first_arxiv_submission",
+                "date_precision": "day",
+                "effective_months": 3,
+                "citations_per_month": 0.0,
+                "volume_score": 0.0,
+                "velocity_score": 0.0,
+                "recent_count_kind": "provider_year_counts"
+              },
+              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
+              "sources": [
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654"
+              ]
+            },
+            {
+              "method": "platform_attention",
+              "score": 48.2,
+              "reason": "github 的论文专属入口：GitHub star=84；按10000上限对数压缩。",
+              "sources": [
+                "https://api.github.com/repos/OamIcs/NablaMimic",
+                "https://api.github.com/repos/OamIcs/NablaMimic/contents/README.md?ref=main",
+                "https://arxiv.org/pdf/2610.41654v1",
+                "https://github.com/OamIcs/NablaMimic"
+              ],
+              "snapshot": {
+                "url": "https://github.com/OamIcs/NablaMimic",
+                "platform": "github",
+                "metric": "stars",
+                "count": 84,
+                "checked_at": "2026-11-04T08:34:08+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-30",
+                "window_end": "2026-11-04",
+                "label": "GitHub star",
+                "window_label": "2026-11-04论文专属官方仓库实读快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "github 的论文专属入口：GitHub订阅关注=0；按1000上限对数压缩。",
+              "sources": [
+                "https://api.github.com/repos/OamIcs/NablaMimic",
+                "https://api.github.com/repos/OamIcs/NablaMimic/contents/README.md?ref=main",
+                "https://arxiv.org/pdf/2610.41654v1",
+                "https://github.com/OamIcs/NablaMimic"
+              ],
+              "snapshot": {
+                "url": "https://github.com/OamIcs/NablaMimic",
+                "platform": "github",
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-11-04T08:34:08+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-30",
+                "window_end": "2026-11-04",
+                "label": "GitHub订阅关注",
+                "window_label": "2026-11-04论文专属官方仓库实读快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "nablamimic",
+        "checked_at": "2026-11-04T08:33:46+08:00",
+        "status": "matched",
+        "provider": "OpenAlex",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654",
+        "match_note": "精确DOI、完整标题、2026年、Weyl Lu/Yubei Chen与原文逐项匹配。S2精确ID429，采用OpenAlex的实际返回；失败本身未填零。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.41654?fields=title,authors,year,citationCount,externalIds,url",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654"
+        ],
+        "edition": "arXiv2610.41654v1; DOI10.48550/arXiv.2610.41654",
+        "matched_id": "https://openalex.org/W7225087060",
+        "recent_count_basis": "匹配来源累计引用实测0，窗口引用因此为0，不说明索引外影响或未来引用。",
+        "matched_title": "$\\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+        "record_url": "https://openalex.org/W7225087060",
+        "openalex_id": "https://openalex.org/W7225087060"
+      },
+      "social": {
+        "checked_at": "2026-11-04T08:39:43.561680+08:00",
+        "resources": [
+          {
+            "platform": "github",
+            "resource_kind": "official_training_repository",
+            "id": "OamIcs/NablaMimic",
+            "url": "https://github.com/OamIcs/NablaMimic",
+            "api_url": "https://api.github.com/repos/OamIcs/NablaMimic",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "identity_basis": "PDF first-page authors footnote links this exclusive official training repo; README exact title/authors/arXivID; created inside recent window.",
+            "sources": [
+              "https://api.github.com/repos/OamIcs/NablaMimic",
+              "https://api.github.com/repos/OamIcs/NablaMimic/contents/README.md?ref=main",
+              "https://arxiv.org/pdf/2610.41654v1"
+            ],
+            "created_at": "2026-10-30T12:14:24Z",
+            "metrics": [
+              {
+                "metric": "stars",
+                "count": 84,
+                "checked_at": "2026-11-04T08:34:08+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-30",
+                "window_end": "2026-11-04",
+                "label": "GitHub star",
+                "window_label": "2026-11-04论文专属官方仓库实读快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-11-04T08:34:08+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-30",
+                "window_end": "2026-11-04",
+                "label": "GitHub订阅关注",
+                "window_label": "2026-11-04论文专属官方仓库实读快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "forks",
+                "count": 4,
+                "checked_at": "2026-11-04T08:34:08+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-30",
+                "window_end": "2026-11-04",
+                "label": "GitHub fork",
+                "window_label": "2026-11-04论文专属官方仓库实读快照",
+                "eligible_recent_attention": false,
+                "eligible_academic_impact": false
+              }
+            ],
+            "limitations": [
+              "star/订阅/fork不是论文采用或实际复现。",
+              "NablaEngine引擎仓库36star/5fork/0订阅单独保存为软件上下文，不累加到单篇关注。",
+              "当前README数据配方已超出arXivv1；仓库归属可核，但README新结果不回填旧版实验。"
+            ]
+          },
+          {
+            "platform": "project",
+            "url": "https://sailab.ai/nablamimic/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2610.41654v1",
+              "https://arxiv.org/pdf/2610.41654v1",
+              "https://sailab.ai/nablamimic/"
+            ],
+            "metrics": [],
+            "raw_page_views": null,
+            "availability_note": "官方项目可打开；原oamics URL为meta refresh，已追到sailab.ai。未取得可核浏览计数。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "精确ID/标题/作者检索、arXiv/项目全文、官方仓库及OpenAlex/S2/HF实际请求；Pith自动评议排除，不算独立技术复现。官方仓库实际计数可计近期关注，不冒充引用。",
+        "unavailable_metrics": {
+          "huggingface_upvotes": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "failed_sources": [
+          {
+            "url": "https://huggingface.co/api/papers/2610.41654",
+            "checked_at": "2026-11-04T08:33:46+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "请求失败或无该入口，不能据此写成实测0"
+          },
+          {
+            "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.41654?fields=title,authors,year,citationCount,externalIds,url",
+            "checked_at": "2026-11-04T08:33:46+08:00",
+            "http_status": 429,
+            "metric_count": null,
+            "reason": "请求失败或无该入口，不能据此写成实测0"
+          }
+        ]
+      },
+      "editorial": {
+        "checked_at": "2026-11-04",
+        "scores": {
+          "innovation": 86,
+          "evidence": 84,
+          "reuse": 80,
+          "reading": 93
+        },
+        "mechanism": "在4096个64步窗口中沿MuJoCo接触动力学求导，逐反向时间步对每个样本的动作cotangent按批中位范数裁剪，再以固定弧度RMS步长构造目标动作、做8次小批回归。G1专用NablaEngine用每world一个warp及整控制步adjoint megakernel降低求导成本。保留TDλ critic、参考姿态残差和回放起点；训练导数在近自接触、近平行胶囊及饱和actuator处采用特定规则，并非处处无偏的精确梯度。",
+        "reason": "创新86：逐样本反传裁剪、定弧度多步动作回归和G1融合解析adjoint针对可识别失败；PODS、median clipping、replay均有继承。证据84：三seed核心消融、导数数值校验和算法/引擎拆分充分；仅一机器人/平地/40训练动作，无实机，PPO/Warp部分单seed，跨GPU引用SuperMimic限制比较。复用80：作者训练/引擎Apache2公开并有环境、基线、评测说明；G1专用CUDA和默认约50GB显存有门槛，数据另受非商业许可。阅读93：澄清世界模型、解析梯度、接触非光滑性及样本效率与wallclock差别。",
+        "review_depth": "arXiv v1主文§§1–9与附录A–H逐节机制/实验初读；26页全文文本已读、关键图表目视，非完整精讲或复现"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2610.41654v1",
+        "checked_at": "2026-11-04",
+        "profile": null
+      },
+      "rank": 113
     },
     {
       "id": "jam",
@@ -53568,13 +54330,13 @@
         "checked_at": "2026-10-29",
         "profile": null
       },
-      "rank": 112
+      "rank": 114
     },
     {
       "id": "diffcontact",
       "checked_at": "2026-10-28",
       "short_name": "DiffContact",
-      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "title": "DiffContact: Differentiable Contact Dynamics for Policy Learning and Contact-Implicit Trajectory Optimization",
       "year": 2026,
       "navigation": {
         "track": "locomotion",
@@ -53621,7 +54383,7 @@
           "method": "editorial",
           "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
           "sources": [
-            "https://arxiv.org/pdf/2610.35852v1"
+            "https://arxiv.org/pdf/2610.35852v2"
           ],
           "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
         },
@@ -53629,7 +54391,7 @@
           "method": "editorial",
           "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
           "sources": [
-            "https://arxiv.org/pdf/2610.35852v1"
+            "https://arxiv.org/pdf/2610.35852v2"
           ],
           "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
         },
@@ -53637,7 +54399,7 @@
           "method": "editorial",
           "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
           "sources": [
-            "https://arxiv.org/pdf/2610.35852v1"
+            "https://arxiv.org/pdf/2610.35852v2"
           ],
           "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
         },
@@ -53645,7 +54407,7 @@
           "method": "editorial",
           "reason": "创新90：把硬接触前向与完整摩擦锥松弛反向解耦，明确补上仅法向松弛欠缺的切向跨模式信息。证据88：三种梯度同前向比较、10种子学习评估、PPO样本/耗时对照、Newton残差和锥可行性审计，外加45kg四足无微调实机。训练目标/估计器与PPO并不相同，CITO主要仿真，点足平地模型也限制外推。复用70：推导、算法与附录超参较全，仍需解析刚体导数和接触求解工程。阅读94：适合解释为什么“模拟器能求导”不自动等于“接触梯度能把策略带对”。影响与关注另计。",
           "sources": [
-            "https://arxiv.org/pdf/2610.35852v1"
+            "https://arxiv.org/pdf/2610.35852v2"
           ],
           "review_depth": "arXiv v1方法/全部实验与相关附录初读，非完整精讲"
         },
@@ -53657,7 +54419,8 @@
           "reason": "arXiv v1完整公开，稳定论文身份、作者和时间可追溯，按完整公开阶段60计；当前阶段为预印本公开。",
           "sources": [
             "https://arxiv.org/abs/2610.35852v1",
-            "https://arxiv.org/html/2610.35852v1"
+            "https://arxiv.org/html/2610.35852v1",
+            "https://arxiv.org/abs/2610.35852v2"
           ]
         },
         "influence": {
@@ -53766,11 +54529,11 @@
         "venue": null,
         "venue_status": "preprint",
         "track": null,
-        "publication_evidence_url": "https://arxiv.org/abs/2610.35852v1",
-        "checked_at": "2026-10-28",
+        "publication_evidence_url": "https://arxiv.org/abs/2610.35852v2",
+        "checked_at": "2026-11-04",
         "profile": null
       },
-      "rank": 113
+      "rank": 115
     },
     {
       "id": "tops",
@@ -53990,7 +54753,7 @@
         "checked_at": "2026-10-29",
         "profile": null
       },
-      "rank": 114
+      "rank": 116
     },
     {
       "id": "dreamtrue",
@@ -54557,7 +55320,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 115
+      "rank": 117
     },
     {
       "id": "viola",
@@ -54926,7 +55689,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 116
+      "rank": 118
     },
     {
       "id": "lewam",
@@ -55216,7 +55979,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 117
+      "rank": 119
     },
     {
       "id": "flore",
@@ -55436,7 +56199,7 @@
         "checked_at": "2026-10-28",
         "profile": null
       },
-      "rank": 118
+      "rank": 120
     },
     {
       "id": "holo-m",
@@ -55781,7 +56544,7 @@
         "checked_at": "2026-10-09",
         "profile": null
       },
-      "rank": 119
+      "rank": 121
     },
     {
       "id": "dex-one2many",
@@ -56144,7 +56907,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 120
+      "rank": 122
     },
     {
       "id": "arc",
@@ -56513,7 +57276,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 121
+      "rank": 123
     },
     {
       "id": "gar",
@@ -56736,7 +57499,7 @@
         "checked_at": "2026-10-30",
         "profile": null
       },
-      "rank": 122
+      "rank": 124
     },
     {
       "id": "jedi",
@@ -57017,7 +57780,7 @@
         "checked_at": "2026-11-02",
         "profile": null
       },
-      "rank": 123
+      "rank": 125
     },
     {
       "id": "touchbridge",
@@ -57359,7 +58122,7 @@
         "checked_at": "2026-11-02",
         "profile": null
       },
-      "rank": 124
+      "rank": 126
     },
     {
       "id": "world2vec",
@@ -57776,7 +58539,7 @@
         "checked_at": "2026-10-31",
         "profile": null
       },
-      "rank": 125
+      "rank": 127
     }
   ]
 }

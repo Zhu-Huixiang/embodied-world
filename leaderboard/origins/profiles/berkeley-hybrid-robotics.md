@@ -24,6 +24,6 @@
 - [来源1](https://hybrid-robotics.berkeley.edu/)
 - [来源2](https://hybrid-robotics.berkeley.edu/publications/CoRL2026_SuperMimic.pdf)
 
-资料核验：2026-11-02。
+资料核验：2026-10-27T14:35:45+08:00。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

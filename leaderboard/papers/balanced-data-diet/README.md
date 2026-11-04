@@ -1,6 +1,6 @@
 # A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control
 
-**Balanced Data Diet** · CoRL 2026 · 本版排名 108 · 综合分 **71.1 / 100**
+**Balanced Data Diet** · CoRL 2026 · 本版排名 109 · 综合分 **71.1 / 100**
 
 [解读导读](../../../library/balanced-data-diet.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [CoRL集锦](../../../venues/CoRL/README.md)
 

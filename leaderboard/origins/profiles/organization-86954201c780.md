@@ -28,6 +28,6 @@
 - [来源4](https://arxiv.org/pdf/2602.16710)
 - [来源5](https://research.nvidia.com/labs/gear/publications/)
 
-资料核验：2026-11-02。
+资料核验时间未记录。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

@@ -1,6 +1,6 @@
 # world2vec: Mechanistic world models through latent dynamics learning
 
-**world2vec** · arXiv 2026 · 本版排名 125 · 综合分 **57.9 / 100**
+**world2vec** · arXiv 2026 · 本版排名 127 · 综合分 **57.9 / 100**
 
 [解读导读](../../../library/world2vec.md) · [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) · [arXiv集锦](../../../arxiv/README.md#paper-world2vec)
 

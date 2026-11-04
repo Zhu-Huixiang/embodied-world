@@ -26,6 +26,6 @@
 - [来源3](https://cair.cs.columbia.edu/)
 - [来源4](https://real.stanford.edu/)
 
-资料核验：2026-11-02。
+资料核验：2026-10-10T16:00:00+08:00。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

@@ -47,6 +47,6 @@
 
 - [来源1](https://research.nvidia.com/labs/gear/)
 
-资料核验：2026-11-02。
+资料核验时间未记录。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

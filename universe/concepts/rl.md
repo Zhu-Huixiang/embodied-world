@@ -24,7 +24,8 @@
 - [MuZero](../papers/muzero.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-020-03051-4)
 - [Deep WBC](../papers/deep-whole-body-control.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/fu23a.html)
 - [Isaac Gym](../papers/isaac-gym.md) · 机制导读 · [原文](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html)
-- [DiffContact](../papers/diffcontact.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35852v1)
+- [DiffContact](../papers/diffcontact.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35852v2)
+- [∇Mimic](../papers/nablamimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.41654v1)
 - [Dex-One2Many](../papers/dex-one2many.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12470v1)
 - [Balanced Data Diet](../papers/balanced-data-diet.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12465v1)
 

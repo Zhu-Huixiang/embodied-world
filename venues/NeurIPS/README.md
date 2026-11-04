@@ -34,6 +34,7 @@
 
 - [VideoVLA: Video Generators Can Be Generalizable Robot Manipulators](2025/videovla.md)
 - [Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion](2025/self-forcing.md)
+- [Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections](2025/cr-dagger.md)
 
 ## 2024
 

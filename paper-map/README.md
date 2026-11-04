@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 125 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 127 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -16,9 +16,9 @@
 - [世界动作模型](#track-world-action-model) · 6 篇
 - [视频动作模型与视觉推理](#track-video-action) · 5 篇
 - [视觉语言动作模型 VLA](#track-vla) · 17 篇
-- [操作与动作块](#track-manipulation) · 24 篇
+- [操作与动作块](#track-manipulation) · 25 篇
 - [Locomotion 与运动适应](#track-locomotion) · 19 篇
-- [动作先验与全身技能](#track-motion-priors) · 6 篇
+- [动作先验与全身技能](#track-motion-priors) · 7 篇
 - [强化学习与离线决策](#track-reinforcement-learning) · 6 篇
 - [具身感知与场景表示](#track-embodied-perception) · 13 篇
 - [视频与序列生成](#track-video-generation) · 4 篇
@@ -135,6 +135,7 @@
 | [TOPS](../library/tops.md) · [arXiv 2026](../arxiv/README.md#paper-tops) | 多任务动作流为什么都要从同一个高斯出发、沿同一条直线走？换出发点和速度安排，能否少算几次网络？ |
 | [Gaussian Distillation of Flow Policies](../library/gar.md) · [arXiv 2026](../arxiv/README.md#paper-gar) | 动作流真的需要反复积分才能做得好，还是冻结内部特征后，用一个高斯读出就能保留大部分控制能力？ |
 | [TouchBridge](../library/touchbridge.md) · [arXiv 2026](../arxiv/README.md#paper-touchbridge) | 手指位置对上了，为什么接触还是会丢？把指腹真实接触位置和跨手接触关系一起迁移，能否省去每个物体的重建与专门机器人示范？ |
+| [Compliant Residual DAgger](../library/cr-dagger.md) · [NeurIPS 2025](../venues/NeurIPS/README.md) | 为什么人把机器人推回正确方向，训练出的策略反而会变差？纠正的采集方式、控制延迟和残差学习分别解决什么？ |
 | [Dex-One2Many](../library/dex-one2many.md) · [arXiv 2026](../arxiv/README.md#paper-dex-one2many) | 场景图怎样同时提供探索引导与不锁死姿态的泛化？ |
 
 <a id="track-locomotion"></a>
@@ -162,7 +163,7 @@
 | [Demonstrating A Walk in the Park](../library/walk-in-the-park.md) · [RSS 2023](../venues/RSS/README.md) | 没有世界模型和动作模板，如何把实机采样与梯度更新快到足够实用？ |
 | [SONIC](../library/sonic.md) · [Sci. Robot. 2026](../venues/Science-Robotics/README.md) | 动作跟踪为什么能吃进大规模人类动作数据，64维共享运动 token 又怎样让同一控制器接遥操作和全身 VLA？ |
 | [HOVER](../library/hover.md) · [ICRA 2025](../venues/ICRA/README.md) | 一个全身策略怎样接住关节、身体位置、根速度等不同格式的指令？ |
-| [Differentiable Contact Dynamics for Legged Locomotion](../library/diffcontact.md) · [arXiv 2026](../arxiv/README.md#paper-diffcontact) | 脚从粘地到滑动，精确梯度为何可能指不出路？保留硬接触前向、只松弛反向梯度，能换来什么又付出什么？ |
+| [DiffContact](../library/diffcontact.md) · [arXiv 2026](../arxiv/README.md#paper-diffcontact) | 脚从粘地到滑动，精确梯度为何可能指不出路？保留硬接触前向、只松弛反向梯度，能换来什么又付出什么？ |
 | [A Balanced Data Diet](../library/balanced-data-diet.md) · [CoRL 2026](../venues/CoRL/README.md) | 并行环境堆到很大以后，为什么探索还会卡住？ |
 
 <a id="track-motion-priors"></a>
@@ -179,6 +180,7 @@
 | [MaskedMimic](../library/maskedmimic.md) · [SIGGRAPH / TOG 2024](../venues/SIGGRAPH-TOG/README.md) | 把动作目标遮掉一部分，怎样训练出接受位置、文字和环境条件的统一控制器？ |
 | [Perpetual Humanoid Control for Real-time Simulated Avatars](../library/phc.md) · [ICCV 2023](../venues/ICCV/README.md) | 动作库越来越大，跟踪控制器怎样扩容、处理噪声并在摔倒后接着跑？ |
 | [SuperMimic](../library/supermimic.md) · [CoRL 2026](../venues/CoRL/README.md) | 接触动力学不光滑，为什么8步拟合的世界模型仍能给32步想象策略提供好用梯度？训练动作全覆盖又与新动作泛化差在哪里？ |
+| [∇Mimic](../library/nablamimic.md) · [arXiv 2026](../arxiv/README.md#paper-nablamimic) | 世界模型的收益有多少来自导数本身？把精确仿真梯度中的少数极端样本截住，再把更新改成定弧度动作目标，能否稳定而廉价地训练全身跟踪？ |
 
 <a id="track-reinforcement-learning"></a>
 
@@ -250,4 +252,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-11-02。
+元数据核对日期：2026-11-04。

@@ -26,6 +26,6 @@
 - [来源2](https://rail.eecs.berkeley.edu/)
 - [来源3](https://ai.berkeley.edu/research/)
 
-资料核验：2026-11-02。
+资料核验：2026-10-10T16:05:27.589506+08:00。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

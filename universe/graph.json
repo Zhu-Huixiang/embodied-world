@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-04",
   "nodes": [
     {
       "id": "paper:act",
@@ -377,6 +377,30 @@
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html"
     },
     {
+      "id": "paper:cr-dagger",
+      "key": "cr-dagger",
+      "kind": "paper",
+      "title": "CR-DAgger",
+      "subtitle": "Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/cr-dagger.md",
+      "concepts": [
+        "imitation",
+        "bc",
+        "action",
+        "chunk",
+        "diffusion",
+        "representation",
+        "data",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html"
+    },
+    {
       "id": "paper:ctrl-world",
       "key": "ctrl-world",
       "kind": "paper",
@@ -534,7 +558,7 @@
       "key": "diffcontact",
       "kind": "paper",
       "title": "DiffContact",
-      "subtitle": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "subtitle": "DiffContact: Differentiable Contact Dynamics for Policy Learning and Contact-Implicit Trajectory Optimization",
       "track": "locomotion",
       "track_label": "Locomotion 与运动适应",
       "lit": false,
@@ -548,7 +572,7 @@
         "sim2real"
       ],
       "scope": "mechanism",
-      "source_url": "https://arxiv.org/abs/2610.35852v1"
+      "source_url": "https://arxiv.org/abs/2610.35852v2"
     },
     {
       "id": "paper:diffuser",
@@ -1481,6 +1505,29 @@
       ],
       "scope": "mechanism",
       "source_url": "https://www.nature.com/articles/s41586-020-03051-4"
+    },
+    {
+      "id": "paper:nablamimic",
+      "key": "nablamimic",
+      "kind": "paper",
+      "title": "∇Mimic",
+      "subtitle": "∇Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+      "track": "motion-priors",
+      "track_label": "动作先验与全身技能",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/nablamimic.md",
+      "concepts": [
+        "action",
+        "wbc",
+        "dynamics",
+        "rl",
+        "actor-critic",
+        "ppo",
+        "data"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2610.41654v1"
     },
     {
       "id": "paper:nerf",
@@ -2544,6 +2591,7 @@
         "world2vec",
         "touchbridge",
         "jedi",
+        "cr-dagger",
         "viola"
       ],
       "explainers": [
@@ -3373,7 +3421,8 @@
         "edm",
         "video-diffusion",
         "flore",
-        "tapestry"
+        "tapestry",
+        "cr-dagger"
       ],
       "explainers": [
         {
@@ -3519,6 +3568,8 @@
         "gar",
         "touchbridge",
         "jedi",
+        "nablamimic",
+        "cr-dagger",
         "arc",
         "plaw-vla"
       ],
@@ -3572,7 +3623,8 @@
         "tapestry",
         "gar",
         "touchbridge",
-        "jedi"
+        "jedi",
+        "cr-dagger"
       ],
       "explainers": [
         {
@@ -3713,7 +3765,8 @@
         "sonic",
         "hover",
         "supermimic",
-        "flore"
+        "flore",
+        "nablamimic"
       ],
       "explainers": [
         {
@@ -3779,6 +3832,7 @@
         "supermimic",
         "diffcontact",
         "world2vec",
+        "nablamimic",
         "dreamtrue",
         "lewam"
       ],
@@ -3926,6 +3980,7 @@
         "deep-whole-body-control",
         "isaac-gym",
         "diffcontact",
+        "nablamimic",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -3967,7 +4022,8 @@
         "cql",
         "bipedal-soccer",
         "walk-in-the-park",
-        "supermimic"
+        "supermimic",
+        "nablamimic"
       ],
       "explainers": [
         {
@@ -4045,7 +4101,8 @@
         "walk-in-minutes",
         "sonic",
         "isaac-gym",
-        "diffcontact"
+        "diffcontact",
+        "nablamimic"
       ],
       "explainers": [
         {
@@ -4081,7 +4138,8 @@
         "tapestry",
         "gar",
         "touchbridge",
-        "jedi"
+        "jedi",
+        "cr-dagger"
       ],
       "explainers": [
         {
@@ -4129,7 +4187,8 @@
         "transporter",
         "iql",
         "td3-bc",
-        "touchbridge"
+        "touchbridge",
+        "cr-dagger"
       ],
       "explainers": [
         {
@@ -4335,6 +4394,8 @@
         "flore",
         "touchbridge",
         "jedi",
+        "nablamimic",
+        "cr-dagger",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -4412,7 +4473,8 @@
         "gar",
         "world2vec",
         "touchbridge",
-        "jedi"
+        "jedi",
+        "cr-dagger"
       ],
       "explainers": [
         {
@@ -7442,6 +7504,486 @@
       "explainers": []
     },
     {
+      "id": "local:cr-dagger:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:cr-dagger",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/imitation.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:bc",
+      "key": "bc",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "bc",
+      "title": "行为克隆",
+      "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
+      "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
+      "parent_node": "local:cr-dagger:imitation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/bc.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:cr-dagger",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/action.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:cr-dagger:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/chunk.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:diffusion",
+      "key": "diffusion",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "diffusion",
+      "title": "扩散去噪",
+      "subtitle": "训练网络从带噪对象估计噪声或干净目标，生成时从噪声开始迭代恢复样本。",
+      "detail": "扩散采样步骤和机器人环境时间步是两种时间。",
+      "parent_node": "paper:cr-dagger",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/diffusion.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:cr-dagger",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/representation.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:cr-dagger",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/data.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "local:cr-dagger:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/benchmark.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "本篇方法链路",
+      "subtitle": "CR-DAgger保留低频扩散基策略，通过顺应式动觉接口在策略继续运行时采集人的位置增量和接触力纠正。扩展稿用参考速度跟踪和硬件时延对齐避免微小纠正标签被控制滞后淹没。冻结视觉编码器，力历史经时间卷积，与状态共同输入轻量残差头；残差推理循环约50Hz，每次预测5个间隔0.02s的15维动作（9维位姿表示与6维目标力/力矩），由500Hz导纳控制器执行基准动作加局部修正。无干预段学零残差，并对纠正附近数据重采样，避免用少量新数据直接改坏完整基策略。",
+      "detail": "CR-DAgger保留低频扩散基策略，通过顺应式动觉接口在策略继续运行时采集人的位置增量和接触力纠正。扩展稿用参考速度跟踪和硬件时延对齐避免微小纠正标签被控制滞后淹没。冻结视觉编码器，力历史经时间卷积，与状态共同输入轻量残差头；残差推理循环约50Hz，每次预测5个间隔0.02s的15维动作（9维位姿表示与6维目标力/力矩），由500Hz导纳控制器执行基准动作加局部修正。无干预段学零残差，并对纠正附近数据重采样，避免用少量新数据直接改坏完整基策略。",
+      "parent_node": "paper:cr-dagger",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/method-chain.md",
+      "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-problem",
+      "key": "cr-problem",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "接触纠错为何难以喂回策略",
+      "subtitle": "机器人犯错时采到的纠正动作，可能偏离策略原来的状态分布。",
+      "detail": "接管会打断当前行为并改变接触力；重新训练昂贵，直接微调可能破坏原有能力。需要同时改采集接口和学习接口。",
+      "parent_node": "paper:cr-dagger",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-problem.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§1–2; PDF pp1–3",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-interface",
+      "key": "cr-interface",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "边运行边推一把的顺应接口",
+      "subtitle": "人施力改变运行中的末端动作，不暂停基策略。",
+      "detail": "用末端力传感器和按钮标记人类纠正时段，记录位置偏移与期望接触力；不是用视频猜测人类意图。",
+      "parent_node": "local:cr-dagger:cr-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-interface.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.1; Fig2; PDF pp3–4",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-controller",
+      "key": "cr-controller",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "质量弹簧阻尼式导纳控制",
+      "subtitle": "把测得的外力转换为可执行的末端运动。",
+      "detail": "M、K、D分别是虚拟质量、刚度、阻尼；低刚度允许人推动，高速控制器仍连续跟随基准轨迹。",
+      "parent_node": "local:cr-dagger:cr-interface",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-controller.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.1; Eq1; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-tracking",
+      "key": "cr-tracking",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "把参考速度放回阻尼项",
+      "subtitle": "追踪运动轨迹时，不能把所有阻尼都用于压住机器人速度。",
+      "detail": "扩展稿使用D(qdot_ref−qdot)替代−D qdot，以减少运动参考下的跟踪落后。该改变服务微小纠正标签的方向准确性。",
+      "parent_node": "local:cr-dagger:cr-controller",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-tracking.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.1; Eq2; Fig3; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-latency",
+      "key": "cr-latency",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "给纠正标签补偿硬件延迟",
+      "subtitle": "用实际姿态减去延迟对齐的参考姿态，避免把控制误差当纠正。",
+      "detail": "q_delta[t]=q[t]−q_ref[t−Delta t]；Delta t依具体硬件标定。大于纠正量的跟踪落后会翻转标签符号。",
+      "parent_node": "local:cr-dagger:cr-tracking",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-latency.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.1; Eq3; Fig3; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-onpolicy",
+      "key": "cr-onpolicy",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "On-Policy Delta与接管的区别",
+      "subtitle": "在原策略持续运行的附近给增量，比完全接管更接近部署分布。",
+      "detail": "论文比较轨迹分布与纠正开始/结束附近的速度；作用是缩小行为变化而非理论保证所有状态仍同分布。",
+      "parent_node": "local:cr-dagger:cr-interface",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-onpolicy.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.1; Fig2; §4.4; Figs10–11; PDF pp3–4,8–9",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-base",
+      "key": "cr-base",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "冻结低频扩散基策略",
+      "subtitle": "保留学好的大幅运动，让新数据只学局部改正。",
+      "detail": "基策略推理循环约1Hz，每次预测32个未来末端目标，动作间隔0.1s、预测跨度3.2s；循环频率与预测时域分别记录，基础策略保持冻结。",
+      "parent_node": "local:cr-dagger:cr-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-base.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2; Fig4; AppendixA.1; PDF pp5,13",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-residual",
+      "key": "cr-residual",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "约50Hz推理的力感知残差策略",
+      "subtitle": "残差补充快而小的接触修正。",
+      "detail": "输入冻结的视觉表征、状态和力历史；推理循环约50Hz，每次预测5个0.02s动作、覆盖0.1s。预测时域0.1s不等于推理循环10Hz；导纳执行循环另为500Hz。",
+      "parent_node": "local:cr-dagger:cr-base",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-residual.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2; Fig4; AppendixA.1; PDF pp5,13",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-force-encoder",
+      "key": "cr-force-encoder",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "时间卷积读取接触力历史",
+      "subtitle": "短时力变化补足视觉难看到的接触状态。",
+      "detail": "复用基策略图像编码器；力时间序列经过Temporal Conv，结合本体状态送入轻量动作头。",
+      "parent_node": "local:cr-dagger:cr-residual",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-force-encoder.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2; Fig4; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-action",
+      "key": "cr-action",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "15维动作与目标力/力矩",
+      "subtitle": "动作同时说明往哪里改、想施加多少力。",
+      "detail": "每步9维SE(3)位姿表示加6维wrench（3维力与3维力矩）；位姿增量和目标力/力矩分别进入顺应执行，不只预测位置残差。",
+      "parent_node": "local:cr-dagger:cr-residual",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-action.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2; Fig4; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-execution",
+      "key": "cr-execution",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "500Hz控制闭环接住两种动作",
+      "subtitle": "学习策略给参考，导纳控制器处理高频力反馈。",
+      "detail": "基策略参考与预测增量按时间对齐后相加，位置和目标wrench送入500Hz导纳控制器；base约1Hz、residual约50Hz是独立推理循环，不是三个相同的执行速率。",
+      "parent_node": "local:cr-dagger:cr-action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-execution.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2; Fig4; AppendixA.1; PDF pp5,13",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-label",
+      "key": "cr-label",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "无干预时也教残差归零",
+      "subtitle": "纠正之外的轨迹告诉残差何时不应插手。",
+      "detail": "无纠正段标签为零；个别整段需要调整的轨迹例外标记。保留原能力靠冻结基础策略加正确的零残差监督。",
+      "parent_node": "local:cr-dagger:cr-interface",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-label.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2; AppendixA.3; PDF pp5,13–14",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-sampling",
+      "key": "cr-sampling",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "多采纠正后的接触片段",
+      "subtitle": "纠正附近的少数关键时刻需要足够训练权重。",
+      "detail": "对纠正开始后的数据加密采样；同任务比较uniform70%、dense-around75%、dense-after100%。不能把该单任务消融当所有任务固定收益。",
+      "parent_node": "local:cr-dagger:cr-label",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-sampling.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2; §4.5; Fig12; PDF pp5,10",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-batches",
+      "key": "cr-batches",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "少量多轮更新未必更好",
+      "subtitle": "相同数据量与训练轮数下，分批到达改变学习难度。",
+      "detail": "翻书20条warmup再3×10条纠正最终0%，一次50条最终100%；皮带1/2/3批90.6/96.8/87.5%，并非越追加越好。",
+      "parent_node": "local:cr-dagger:cr-sampling",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-batches.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§4.5; Figs12–13; PDF p10",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-book",
+      "key": "cr-book",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "翻书：看纠正方式与力是否都需要",
+      "subtitle": "四个已见/未见书籍场景共20次实机回合。",
+      "detail": "基策略40%，无力残差on-policy35%，CR takeover55%，CR on-policy100%；两种接口因素共同影响结果。",
+      "parent_node": "local:cr-dagger:cr-execution",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-book.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§4.1–4.4; Fig9 (Book Flipping); PDF pp6–9",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-belt",
+      "key": "cr-belt",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "皮带装配：同任务比较力与更新方式",
+      "subtitle": "四个板位和四个抓取位置构成32次评估。",
+      "detail": "CR96.8%，无力基策略15.6%，带力基策略43.8%，重训34.4%，微调0%，KL微调3.1%，无力残差28.1%。保留论文印刷96.8，不由31/32自行改写。",
+      "parent_node": "local:cr-dagger:cr-execution",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-belt.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§4.1–4.4; Fig9 (Belt Assembly); PDF pp6–9",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-gear",
+      "key": "cr-gear",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "齿轮插入：亚毫米接触纠正",
+      "subtitle": "扩展版新增的20次实机评估，五个底座位置且板抬高3cm。",
+      "detail": "CR90%，无力/带力基策略5%/40%，重训50%，微调35%，KL25%，无力残差5%。",
+      "parent_node": "local:cr-dagger:cr-execution",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-gear.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§4.1–4.4; Fig9 (Gear Insertion); PDF pp6–9",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-cable",
+      "key": "cr-cable",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "布线：线材和夹具的物理变化",
+      "subtitle": "五种线材乘四个固定端位置共20次实机评估。",
+      "detail": "CR100%，无力基策略70%、带力25%、微调85%、KL95%、无力残差40%；输入力本身并不保证更好。",
+      "parent_node": "local:cr-dagger:cr-execution",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-cable.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§4.1–4.4; Fig9 (Cable Routing); PDF pp6–9",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-stage",
+      "key": "cr-stage",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "阶段成功率定位失败点",
+      "subtitle": "总成功率之外逐段看插入、旋转、立起。",
+      "detail": "翻书无力残差依次80/70/35%，CR三个阶段均100%；帮助定位接触转换，不把三个阶段当独立试验数相加。",
+      "parent_node": "local:cr-dagger:cr-book",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-stage.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "AppendixA.2; Fig14; PDF pp13–14",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-architecture",
+      "key": "cr-architecture",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "残差头结构不是唯一解释",
+      "subtitle": "换概率MLP或Flow Transformer仍可工作。",
+      "detail": "AppendixA.4同数据下概率MLP100%、Flow Transformer90%，各10次；主结果确定性MLP96.8%是32次，不可作同样精度的架构胜负。",
+      "parent_node": "local:cr-dagger:cr-residual",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-architecture.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "AppendixA.4; PDF p14",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-cost",
+      "key": "cr-cost",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "人类纠正与硬件成本",
+      "subtitle": "少量纠正仍建立在已训练基础策略和专门传感控制栈上。",
+      "detail": "每任务50–100纠正回合；原始示范翻书150/皮带405/布线200/齿轮150。轻量残差约2MB，不意味着完整系统或采集成本很小。",
+      "parent_node": "local:cr-dagger:cr-interface",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-cost.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§3.2–4.1; AppendixA.3; PDF pp5–6,13–14",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-scope",
+      "key": "cr-scope",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "四项真实任务的证据边界",
+      "subtitle": "单套机器人上的精细接触改进，不是跨本体通用策略。",
+      "detail": "样本量20/32/20/20；未报告多训练seed置信区间。额外数据不单调改善，基础策略过差时纠正难以支撑学习。",
+      "parent_node": "local:cr-dagger:cr-execution",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-scope.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§4–5; PDF pp6–11",
+      "explainers": []
+    },
+    {
+      "id": "local:cr-dagger:cr-edition",
+      "key": "cr-edition",
+      "kind": "local",
+      "paper": "cr-dagger",
+      "title": "原会议稿与期刊扩展稿同一研究",
+      "subtitle": "稳定arXiv身份合并，扩展实验单独登记。",
+      "detail": "NeurIPS2025为四作者两任务；所读IJRR作者扩展稿为五作者四任务，补跟踪/延迟处理与结构消融；首发仍2025-06-20。",
+      "parent_node": "local:cr-dagger:cr-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cr-dagger/cr-edition.md",
+      "source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "locator": "§1; PDF p2; official NeurIPS page; project Paper section",
+      "explainers": []
+    },
+    {
       "id": "local:ctrl-world:video",
       "key": "video",
       "kind": "local",
@@ -8598,7 +9140,7 @@
       "parent_node": "paper:diffcontact",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/dynamics.md",
-      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "source_url": "https://arxiv.org/abs/2610.35852v2",
       "explainers": []
     },
     {
@@ -8613,7 +9155,7 @@
       "parent_node": "paper:diffcontact",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/rl.md",
-      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "source_url": "https://arxiv.org/abs/2610.35852v2",
       "explainers": []
     },
     {
@@ -8628,7 +9170,7 @@
       "parent_node": "paper:diffcontact",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/rollout.md",
-      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "source_url": "https://arxiv.org/abs/2610.35852v2",
       "explainers": []
     },
     {
@@ -8643,7 +9185,7 @@
       "parent_node": "local:diffcontact:rl",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/ppo.md",
-      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "source_url": "https://arxiv.org/abs/2610.35852v2",
       "explainers": []
     },
     {
@@ -8658,7 +9200,7 @@
       "parent_node": "paper:diffcontact",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/sim2real.md",
-      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "source_url": "https://arxiv.org/abs/2610.35852v2",
       "explainers": []
     },
     {
@@ -8672,7 +9214,7 @@
       "parent_node": "paper:diffcontact",
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/diffcontact/method-chain.md",
-      "source_url": "https://arxiv.org/abs/2610.35852v1",
+      "source_url": "https://arxiv.org/abs/2610.35852v2",
       "locator": "existing source-grounded reading card",
       "explainers": []
     },
@@ -17035,6 +17577,471 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#5-结论带回机器人时先借思路别照搬按钮"
         }
       ]
+    },
+    {
+      "id": "local:nablamimic:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "nablamimic",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:nablamimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/action.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:wbc",
+      "key": "wbc",
+      "kind": "local",
+      "paper": "nablamimic",
+      "canonical": "wbc",
+      "title": "全身控制与执行",
+      "subtitle": "将运动目标、机器人状态和约束转成关节目标或力矩，协调腿、手臂与底盘。",
+      "detail": "生成了目标之后，还要沿实际控制接口看反馈。",
+      "parent_node": "local:nablamimic:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/wbc.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:dynamics",
+      "key": "dynamics",
+      "kind": "local",
+      "paper": "nablamimic",
+      "canonical": "dynamics",
+      "title": "动作条件动力学",
+      "subtitle": "以当前状态和动作预测下一状态或分布，建立“做这个动作会发生什么”的计算接口。",
+      "detail": "不能把无动作的视频预测直接当成可干预的动力学。",
+      "parent_node": "paper:nablamimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/dynamics.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "nablamimic",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:nablamimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/rl.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:actor-critic",
+      "key": "actor-critic",
+      "kind": "local",
+      "paper": "nablamimic",
+      "canonical": "actor-critic",
+      "title": "策略与价值学习",
+      "subtitle": "actor 产生动作，critic 估计长期收益；价值估计为策略改进提供方向。",
+      "detail": "在真实或想象轨迹上训练，会面对不同的误差来源。",
+      "parent_node": "local:nablamimic:rl",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/actor-critic.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:ppo",
+      "key": "ppo",
+      "kind": "local",
+      "paper": "nablamimic",
+      "canonical": "ppo",
+      "title": "PPO 与并行模拟",
+      "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
+      "parent_node": "local:nablamimic:rl",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/ppo.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "nablamimic",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:nablamimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/data.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "本篇方法链路",
+      "subtitle": "在4096个64步窗口中沿MuJoCo接触动力学求导，逐反向时间步对每个样本的动作cotangent按批中位范数裁剪，再以固定弧度RMS步长构造目标动作、做8次小批回归。G1专用NablaEngine用每world一个warp及整控制步adjoint megakernel降低求导成本。保留TDλ critic、参考姿态残差和回放起点；训练导数在近自接触、近平行胶囊及饱和actuator处采用特定规则，并非处处无偏的精确梯度。",
+      "detail": "在4096个64步窗口中沿MuJoCo接触动力学求导，逐反向时间步对每个样本的动作cotangent按批中位范数裁剪，再以固定弧度RMS步长构造目标动作、做8次小批回归。G1专用NablaEngine用每world一个warp及整控制步adjoint megakernel降低求导成本。保留TDλ critic、参考姿态残差和回放起点；训练导数在近自接触、近平行胶囊及饱和actuator处采用特定规则，并非处处无偏的精确梯度。",
+      "parent_node": "paper:nablamimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2610.41654v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-problem",
+      "key": "nm-problem",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "接触动力学为何让一阶策略学习爆炸",
+      "subtitle": "把跟踪奖励沿动力学求导本可省样本，但接触切换使少数样本导数极大。",
+      "detail": "论文将问题分成梯度尾部失控与求导成本，而非宣布所有世界模型都无用。",
+      "parent_node": "paper:nablamimic",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-problem.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§§1–4; Figs1–3; PDF pp1–7",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-task",
+      "key": "nm-task",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "G1全身动作跟踪",
+      "subtitle": "一套策略跟踪LAFAN1的40条动作。",
+      "detail": "29关节、50Hz控制、每步4个5ms物理子步；264705帧/2.45小时动作，评估仍为这40条训练库动作。",
+      "parent_node": "local:nablamimic:nm-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-task.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§3; §7.1; AppendixA; PDF pp3–4,10–11,17–19",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-actor",
+      "key": "nm-actor",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "参考动作编码与本体历史解码",
+      "subtitle": "把未来参考压成低维命令，再结合机器人当前状态产生关节残差。",
+      "detail": "10×68参考特征经MLP到32维tanh latent；10×93本体历史和6维相对躯干姿态进入解码器；输出29维。",
+      "parent_node": "local:nablamimic:nm-task",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-actor.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "AppendixA; PDF pp17–19",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-objective",
+      "key": "nm-objective",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "短窗回报与价值自举",
+      "subtitle": "有限时间反传可控制开销，窗外收益交给critic。",
+      "detail": "4096个H=64的窗口；稠密跟踪奖励加γ^H末端价值，γ=.99；TDλ=.95。",
+      "parent_node": "local:nablamimic:nm-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-objective.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§3; Eq1; Algorithm1; AppendixD; PDF pp4,8,23–24",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-tail",
+      "key": "nm-tail",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "同轨迹精确与模型梯度比较",
+      "subtitle": "同一策略/起点/目标比较两种反传方向，观察差异在何处出现。",
+      "detail": "两个检查点的秩相关.94–.95、余弦中位数.90–.91；最大0.1%模型梯度范数为精确梯度的.35–.43。所用为第三方SuperMimic复现，非官方。",
+      "parent_node": "local:nablamimic:nm-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-tail.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§4; AppendixE–F; Figs2–3; PDF pp4–7,24",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-clipping",
+      "key": "nm-clipping",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "反传内逐样本中位数裁剪",
+      "subtitle": "在单个巨梯度污染批平均前缩小它。",
+      "detail": "每个反向时间步对动作cotangent按κ×批中位范数裁剪，κ=3；结束再裁窗口动作梯度。保持方向但引入偏差。",
+      "parent_node": "local:nablamimic:nm-objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-clipping.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5.1; Eq4; Algorithm1; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-target",
+      "key": "nm-target",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "定弧度动作目标",
+      "subtitle": "用梯度方向指定改动作的方向，用物理量指定步幅。",
+      "detail": "y_t=a_t+δg_t/RMS(g)，δ初值.03rad并随学习率衰减；继承PODS回归思想，非所有目标回归均为本篇原创。",
+      "parent_node": "local:nablamimic:nm-clipping",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-target.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5.2; Eq5; PDF pp8–9",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-regress",
+      "key": "nm-regress",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "一段求导窗口复用八次回归",
+      "subtitle": "昂贵导数算一次，策略用多个小批次靠近同一目标。",
+      "detail": "每窗口8次16384样本Adam回归，独立优化器lr6e-4。去多步回归后绝对动作.806对.855，残差.822对.866。",
+      "parent_node": "local:nablamimic:nm-target",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-regress.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5.2; Table2; Tables10,13–14; PDF pp9,24,26",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-bound",
+      "key": "nm-bound",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "动作目标界与实际策略更新",
+      "subtitle": "裁剪和批RMS共同限制每个目标偏移。",
+      "detail": "每样本每关节RMS目标偏移≤sqrt(2)κδ≈.1273rad；界作用于监督目标，神经策略优化不自动获得严格信赖域保证。",
+      "parent_node": "local:nablamimic:nm-target",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-bound.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5.3; Eq6; PDF p9",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-horizon",
+      "key": "nm-horizon",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "梯度链长度与critic依赖",
+      "subtitle": "长窗减少对末端价值的依赖，也累积更多接触尾部。",
+      "detail": "H32降低收益；残差H32四seed中一条塌陷，三条存活均值不可写成全部稳定。作者的critic偏差解释未直接测量。",
+      "parent_node": "local:nablamimic:nm-objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-horizon.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5.4; Fig3; Table14; PDF pp7,9,26",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-residual",
+      "key": "nm-residual",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "参考姿态加关节残差",
+      "subtitle": "初始策略先跟参考，学习修正而非从零生成姿态。",
+      "detail": "残差版.34h到.82，绝对动作.50h；动作率惩罚施加在最终指令setpoint，保持奖励定义一致。",
+      "parent_node": "local:nablamimic:nm-actor",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-residual.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5.5; Table4; PDF pp9–11",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-replay",
+      "key": "nm-replay",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "回放起点与当前策略采样",
+      "subtitle": "独立collector以噪声当前策略采样FIFO状态，按回报分箱reset。",
+      "detail": "继承SHAC/SuperMimic等数据链路；去replay改连续窗口还提高.018–.019，不能宣称replay是本篇必需创新。",
+      "parent_node": "local:nablamimic:nm-objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-replay.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5; Algorithm1; Table2; AppendixA,D; PDF pp7–9,17–19,23–24",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-fall",
+      "key": "nm-fall",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "终止屏蔽与训练跌倒惩罚",
+      "subtitle": "在达到硬终止前给可微风险信号。",
+      "detail": "v1保留survival mask并对高度/倾斜加平滑训练惩罚，评测不加此项；整套移除变化<.01。当前项目稿已改窗口终止处理，须与v1分开。",
+      "parent_node": "local:nablamimic:nm-objective",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-fall.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§5; Eq3; AppendixG; PDF pp7–8,24",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-engine",
+      "key": "nm-engine",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "单机器人融合求导引擎",
+      "subtitle": "把物理仿真与反向传播从大量通用kernel调度变为专用计算。",
+      "detail": "Unitree G1特化、31刚体、502接触对、平地/球/胶囊；每world一个warp，正向每子步2kernel，整控制步反向1megakernel。",
+      "parent_node": "local:nablamimic:nm-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-engine.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§6; AppendixB; PDF pp10,19–21",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-adjoint",
+      "key": "nm-adjoint",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "接触解最优条件的隐式求导",
+      "subtitle": "通过约束解的条件求导，避免回放所有Newton迭代。",
+      "detail": "离散接触集、active set和clamp决策固定；Newton10步与implicitfast。它是当前离散步局部导数，不是穿越所有接触切换的全局光滑梯度。",
+      "parent_node": "local:nablamimic:nm-engine",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-adjoint.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§6; AppendixB; PDF pp10,19–21",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-guards",
+      "key": "nm-guards",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "精确模式与训练导数规则",
+      "subtitle": "在几何奇点附近冻结个别导数避免无界增长。",
+      "detail": "自接触核心距离<1mm冻结法向导数，近平行胶囊约2°内固定线段参数；力饱和仍保留actuator damping项。远离这些事件训练梯度与精确梯度逐bit相等。",
+      "parent_node": "local:nablamimic:nm-adjoint",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-guards.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§6; AppendixB; PDF pp10,19–21",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-accuracy",
+      "key": "nm-accuracy",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "有限差分校验导数",
+      "subtitle": "用高精度MuJoCo作参考验证实现，而非用学习成功代替数值正确。",
+      "detail": "16384 held-out状态，梯度每组至多256；float64中心差分步长1e-6。Table7位置/速度/动作VJP相对误差中位数3.6e-5/1.0e-5/1.9e-6，G5/G6是G0子集。",
+      "parent_node": "local:nablamimic:nm-adjoint",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-accuracy.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "AppendixC; Tables7–9; PDF pp21–23",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-speed",
+      "key": "nm-speed",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "一步物理连同梯度的计时",
+      "subtitle": "同GPU同world数测完整step+tape+adjoint。",
+      "detail": "4096world/RTX PRO6000：1.78ms对MuJoCo Warp开放adjoint PR的20.5ms；11.5倍是完整带梯度步骤，非单独backward速度。",
+      "parent_node": "local:nablamimic:nm-engine",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-speed.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§6; Table3; Table6; PDF pp10,21",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-isolation",
+      "key": "nm-isolation",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "同算法更换仿真器",
+      "subtitle": "把算法收敛与引擎吞吐分开比较。",
+      "detail": "绝对动作算法及导数guard相同；NablaEngine3seed、Warp1seed每update曲线重合；4000update .43h对2.03h。",
+      "parent_node": "local:nablamimic:nm-speed",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-isolation.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§7.3; Fig5; Table15; PDF pp11–12,26",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-eval",
+      "key": "nm-eval",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "整片段归一化回报评测",
+      "subtitle": "每条动作从第一帧确定性执行一次，跌倒后的剩余回报归零。",
+      "detail": "40条等权平均、无观测噪声/随机化；评测在MuJoCo Warp。同训练库覆盖检验不同于未见动作泛化与实机迁移。",
+      "parent_node": "local:nablamimic:nm-task",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-eval.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§7.1; AppendixG; PDF pp10–11,24",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-results",
+      "key": "nm-results",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "v1三seed训练效率",
+      "subtitle": ".82阈值与完整学习曲线一起看。",
+      "detail": "残差版3seed：.824±.008/.854±.005/.872±.001/.875±.001分别对应.5/1/2/3h；均值曲线首次过.82为.34h。训练计时不含编译和评测。",
+      "parent_node": "local:nablamimic:nm-eval",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-results.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§7.2; Table4; Tables11–12; PDF pp11,25",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-baselines",
+      "key": "nm-baselines",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "官方报告、第三方复现与本地基线分层",
+      "subtitle": "相同名称不保证是相同实现或同硬件协议。",
+      "detail": "SuperMimic 1.2h/H100为转引原文，非匹配官方重跑；PPO两配置单seed6h .695/.692；SHAC guard修改版3h .816±.005。第三方复现用于梯度诊断。",
+      "parent_node": "local:nablamimic:nm-results",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-baselines.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§7.1–2; AppendixE,H; PDF pp11,24–26",
+      "explainers": []
+    },
+    {
+      "id": "local:nablamimic:nm-limit",
+      "key": "nm-limit",
+      "kind": "local",
+      "paper": "nablamimic",
+      "title": "专用引擎与仿真适用范围",
+      "subtitle": "速度收益伴随机器人专用实现和接触模型限制。",
+      "detail": "v1仅G1平地/LAFAN1，无实机或更大库结果；稀疏奖励未验证、裁剪偏差未量化、PPO和Warp部分单seed。",
+      "parent_node": "local:nablamimic:nm-engine",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/nablamimic/nm-limit.md",
+      "source_url": "https://arxiv.org/pdf/2610.41654v1",
+      "locator": "§8; PDF pp11–12",
+      "explainers": []
     },
     {
       "id": "local:nerf:radiance",
@@ -27294,6 +28301,246 @@
       "lit": false
     },
     {
+      "from": "paper:cr-dagger",
+      "to": "local:cr-dagger:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:imitation",
+      "to": "local:cr-dagger:bc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:bc",
+      "to": "concept:bc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:cr-dagger",
+      "to": "local:cr-dagger:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:action",
+      "to": "local:cr-dagger:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:cr-dagger",
+      "to": "local:cr-dagger:diffusion",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:diffusion",
+      "to": "concept:diffusion",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:cr-dagger",
+      "to": "local:cr-dagger:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:cr-dagger",
+      "to": "local:cr-dagger:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:data",
+      "to": "local:cr-dagger:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:cr-dagger",
+      "to": "local:cr-dagger:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:cr-dagger",
+      "to": "local:cr-dagger:cr-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-problem",
+      "to": "local:cr-dagger:cr-interface",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-interface",
+      "to": "local:cr-dagger:cr-controller",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-controller",
+      "to": "local:cr-dagger:cr-tracking",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-tracking",
+      "to": "local:cr-dagger:cr-latency",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-interface",
+      "to": "local:cr-dagger:cr-onpolicy",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-problem",
+      "to": "local:cr-dagger:cr-base",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-base",
+      "to": "local:cr-dagger:cr-residual",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-residual",
+      "to": "local:cr-dagger:cr-force-encoder",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-residual",
+      "to": "local:cr-dagger:cr-action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-action",
+      "to": "local:cr-dagger:cr-execution",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-interface",
+      "to": "local:cr-dagger:cr-label",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-label",
+      "to": "local:cr-dagger:cr-sampling",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-sampling",
+      "to": "local:cr-dagger:cr-batches",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-execution",
+      "to": "local:cr-dagger:cr-book",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-execution",
+      "to": "local:cr-dagger:cr-belt",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-execution",
+      "to": "local:cr-dagger:cr-gear",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-execution",
+      "to": "local:cr-dagger:cr-cable",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-book",
+      "to": "local:cr-dagger:cr-stage",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-residual",
+      "to": "local:cr-dagger:cr-architecture",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-interface",
+      "to": "local:cr-dagger:cr-cost",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-execution",
+      "to": "local:cr-dagger:cr-scope",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:cr-dagger:cr-problem",
+      "to": "local:cr-dagger:cr-edition",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:ctrl-world",
       "to": "local:ctrl-world:video",
       "kind": "contains",
@@ -31944,6 +33191,234 @@
       "lit": true
     },
     {
+      "from": "paper:nablamimic",
+      "to": "local:nablamimic:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:action",
+      "to": "local:nablamimic:wbc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:wbc",
+      "to": "concept:wbc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:nablamimic",
+      "to": "local:nablamimic:dynamics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:dynamics",
+      "to": "concept:dynamics",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:nablamimic",
+      "to": "local:nablamimic:rl",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:rl",
+      "to": "local:nablamimic:actor-critic",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:actor-critic",
+      "to": "concept:actor-critic",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:rl",
+      "to": "local:nablamimic:ppo",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:ppo",
+      "to": "concept:ppo",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:nablamimic",
+      "to": "local:nablamimic:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:nablamimic",
+      "to": "local:nablamimic:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:nablamimic",
+      "to": "local:nablamimic:nm-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-problem",
+      "to": "local:nablamimic:nm-task",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-task",
+      "to": "local:nablamimic:nm-actor",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-problem",
+      "to": "local:nablamimic:nm-objective",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-problem",
+      "to": "local:nablamimic:nm-tail",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-objective",
+      "to": "local:nablamimic:nm-clipping",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-clipping",
+      "to": "local:nablamimic:nm-target",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-target",
+      "to": "local:nablamimic:nm-regress",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-target",
+      "to": "local:nablamimic:nm-bound",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-objective",
+      "to": "local:nablamimic:nm-horizon",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-actor",
+      "to": "local:nablamimic:nm-residual",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-objective",
+      "to": "local:nablamimic:nm-replay",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-objective",
+      "to": "local:nablamimic:nm-fall",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-problem",
+      "to": "local:nablamimic:nm-engine",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-engine",
+      "to": "local:nablamimic:nm-adjoint",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-adjoint",
+      "to": "local:nablamimic:nm-guards",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-adjoint",
+      "to": "local:nablamimic:nm-accuracy",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-engine",
+      "to": "local:nablamimic:nm-speed",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-speed",
+      "to": "local:nablamimic:nm-isolation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-task",
+      "to": "local:nablamimic:nm-eval",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-eval",
+      "to": "local:nablamimic:nm-results",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-results",
+      "to": "local:nablamimic:nm-baselines",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:nablamimic:nm-engine",
+      "to": "local:nablamimic:nm-limit",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "local:nerf:spatial",
       "to": "local:nerf:radiance",
       "kind": "contains",
@@ -36201,9 +37676,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 125,
+    "papers": 127,
     "concepts": 59,
-    "local_topics": 1208,
+    "local_topics": 1271,
     "lit_papers": 21,
     "lit_concepts": 46,
     "lit_local_topics": 585

@@ -24,6 +24,6 @@
 - [来源1](https://arxiv.org/pdf/2610.40271v1)
 - [来源2](https://youssefsaied.github.io/)
 
-资料核验：2026-11-02。
+资料核验：2026-10-30T13:55:26+08:00。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

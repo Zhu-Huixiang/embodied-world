@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-04",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -21819,6 +21819,205 @@
           "metrics": [],
           "raw_upvotes": null,
           "availability_note": "精确论文API404，不写成0 upvotes。"
+        }
+      ]
+    },
+    "nablamimic": {
+      "checked_at": "2026-11-04T08:39:43.561680+08:00",
+      "resources": [
+        {
+          "platform": "github",
+          "resource_kind": "official_training_repository",
+          "id": "OamIcs/NablaMimic",
+          "url": "https://github.com/OamIcs/NablaMimic",
+          "api_url": "https://api.github.com/repos/OamIcs/NablaMimic",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "PDF first-page authors footnote links this exclusive official training repo; README exact title/authors/arXivID; created inside recent window.",
+          "sources": [
+            "https://api.github.com/repos/OamIcs/NablaMimic",
+            "https://api.github.com/repos/OamIcs/NablaMimic/contents/README.md?ref=main",
+            "https://arxiv.org/pdf/2610.41654v1"
+          ],
+          "created_at": "2026-10-30T12:14:24Z",
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 84,
+              "checked_at": "2026-11-04T08:34:08+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-30",
+              "window_end": "2026-11-04",
+              "label": "GitHub star",
+              "window_label": "2026-11-04论文专属官方仓库实读快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "subscribers",
+              "count": 0,
+              "checked_at": "2026-11-04T08:34:08+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-30",
+              "window_end": "2026-11-04",
+              "label": "GitHub订阅关注",
+              "window_label": "2026-11-04论文专属官方仓库实读快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "forks",
+              "count": 4,
+              "checked_at": "2026-11-04T08:34:08+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-30",
+              "window_end": "2026-11-04",
+              "label": "GitHub fork",
+              "window_label": "2026-11-04论文专属官方仓库实读快照",
+              "eligible_recent_attention": false,
+              "eligible_academic_impact": false
+            }
+          ],
+          "limitations": [
+            "star/订阅/fork不是论文采用或实际复现。",
+            "NablaEngine引擎仓库36star/5fork/0订阅单独保存为软件上下文，不累加到单篇关注。",
+            "当前README数据配方已超出arXivv1；仓库归属可核，但README新结果不回填旧版实验。"
+          ]
+        },
+        {
+          "platform": "project",
+          "url": "https://sailab.ai/nablamimic/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2610.41654v1",
+            "https://arxiv.org/pdf/2610.41654v1",
+            "https://sailab.ai/nablamimic/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "官方项目可打开；原oamics URL为meta refresh，已追到sailab.ai。未取得可核浏览计数。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确ID/标题/作者检索、arXiv/项目全文、官方仓库及OpenAlex/S2/HF实际请求；Pith自动评议排除，不算独立技术复现。官方仓库实际计数可计近期关注，不冒充引用。",
+      "unavailable_metrics": {
+        "huggingface_upvotes": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://huggingface.co/api/papers/2610.41654",
+          "checked_at": "2026-11-04T08:33:46+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "请求失败或无该入口，不能据此写成实测0"
+        },
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.41654?fields=title,authors,year,citationCount,externalIds,url",
+          "checked_at": "2026-11-04T08:33:46+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "请求失败或无该入口，不能据此写成实测0"
+        }
+      ]
+    },
+    "cr-dagger": {
+      "checked_at": "2026-11-04T08:44:51.347291+08:00",
+      "resources": [
+        {
+          "platform": "github",
+          "resource_kind": "repository",
+          "id": "yifan-hou/cr-dagger",
+          "url": "https://github.com/yifan-hou/cr-dagger",
+          "api_url": "https://api.github.com/repos/yifan-hou/cr-dagger",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "作者项目Code链接指向该仓库；README明确Official implementation及完整论文题目/五位扩展版作者。",
+          "sources": [
+            "https://compliant-residual-dagger.github.io/",
+            "https://github.com/yifan-hou/cr-dagger"
+          ],
+          "created_at": "2025-12-01T00:33:31Z",
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 98,
+              "checked_at": "2026-11-04T08:37:29.820012+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2025-12-01",
+              "window_end": "2026-11-04",
+              "label": "GitHub Star",
+              "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "subscribers",
+              "count": 1,
+              "checked_at": "2026-11-04T08:37:29.820012+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2025-12-01",
+              "window_end": "2026-11-04",
+              "label": "GitHub订阅关注",
+              "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "forks",
+              "count": 4,
+              "checked_at": "2026-11-04T08:37:29.820012+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2025-12-01",
+              "window_end": "2026-11-04",
+              "label": "GitHub Fork",
+              "window_label": "创建于近期窗口内的单篇官方仓库累计快照",
+              "eligible_recent_attention": false,
+              "eligible_academic_impact": false
+            }
+          ],
+          "limitations": [
+            "共享force_control/hardware_interfaces/cpplibrary为依赖，其star不归本篇。",
+            "Exa抓取文本附带91星等旧缓存，与实时API98不一致，计量只采用本次GitHub API。",
+            "只核公开实现与文档，不称运行复现通过。"
+          ]
+        },
+        {
+          "platform": "project",
+          "resource_kind": "website",
+          "url": "https://compliant-residual-dagger.github.io/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2506.16685",
+            "https://compliant-residual-dagger.github.io/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "官方项目可读但无阅读计数。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "专属官方代码已核；未对每个引用者做独立采用审核，影响用匹配引用公式。HF精确论文API404，X/博客未核，计数null。",
+      "unavailable_metrics": {
+        "hf_upvotes": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2506.16685?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+          "checked_at": "2026-11-04T08:37:28.460430+08:00",
+          "error": "<HTTPError 429: ''>"
+        },
+        {
+          "url": "https://huggingface.co/api/papers/2506.16685",
+          "checked_at": "2026-11-04T08:37:28.460838+08:00",
+          "error": "<HTTPError 404: 'Not Found'>"
         }
       ]
     }

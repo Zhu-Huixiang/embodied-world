@@ -1,6 +1,6 @@
 # PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies
 
-**PLaW-VLA** · CoRL 2026 · 本版排名 109 · 综合分 **70.7 / 100**
+**PLaW-VLA** · CoRL 2026 · 本版排名 110 · 综合分 **70.7 / 100**
 
 [解读导读](../../../library/plaw-vla.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [CoRL集锦](../../../venues/CoRL/README.md)
 

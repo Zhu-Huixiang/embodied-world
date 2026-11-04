@@ -2,12 +2,15 @@
 
 找值得追的新工作：先看问题和贡献，再看对照、闭环实验与署名。重点实验室优先进入阅读队列；机构名字不替方法拿分。
 
-最近扫描：**2026-11-02T09:16:48+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 142 篇方向候选。下列为历次保留的 17 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
+最近扫描：**2026-11-04T08:31:51+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 144 篇方向候选。下列为历次保留的 19 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
 
 收录日期按 arXiv 首次提交时间转换到上海日期；更新版本合并旧卡片。首次提交与本文收录时间分别列出。每日上海08:30启动新论文检索与初读筛选；没有合格新增也正常。
 
 ## [2026-10-30](2026/10/30.md)
 
+<a id="paper-nablamimic"></a>
+
+- [∇Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation](../library/nablamimic.md) — UC Davis
 <a id="paper-world2vec"></a>
 
 - [world2vec: Mechanistic world models through latent dynamics learning](../library/world2vec.md) — Helmholtz Munich, Munich Center for Machine Learning (MCML)
@@ -40,7 +43,7 @@
 - [Learning Force-Reactive Humanoid Loco-Manipulation](../library/flore.md) — Amazon FAR (Frontier AI & Robotics), New York University, Carnegie Mellon University
 <a id="paper-diffcontact"></a>
 
-- [Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization](../library/diffcontact.md) — Department of Mechanical Engineering, KAIST
+- [DiffContact: Differentiable Contact Dynamics for Policy Learning and Contact-Implicit Trajectory Optimization](../library/diffcontact.md) — Department of Mechanical Engineering, KAIST
 
 ## [2026-10-21](2026/10/21.md)
 
@@ -71,6 +74,12 @@
 <a id="paper-plaw-vla"></a>
 
 - [PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../library/plaw-vla.md) — Jilin University, Astribot, Harbin Institute of Technology, Shenzhen
+
+## [2025-06-20](2025/06/20.md)
+
+<a id="paper-cr-dagger"></a>
+
+- [Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections](../library/cr-dagger.md) — Stanford University
 
 ## 其他已收录预印本
 

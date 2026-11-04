@@ -1,6 +1,6 @@
 # TAPESTRY: A Single Backbone for Video Generation and Robot Control
 
-**TAPESTRY** · CoRL 2026 · 本版排名 111 · 综合分 **69.6 / 100**
+**TAPESTRY** · CoRL 2026 · 本版排名 112 · 综合分 **69.6 / 100**
 
 [解读导读](../../../library/tapestry.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [CoRL集锦](../../../venues/CoRL/README.md)
 

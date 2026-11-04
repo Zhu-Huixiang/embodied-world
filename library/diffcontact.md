@@ -1,10 +1,10 @@
-# Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization
+# DiffContact: Differentiable Contact Dynamics for Policy Learning and Contact-Implicit Trajectory Optimization
 
 **解读导读** · arXiv 2026 · [Locomotion 与运动适应](../paper-map/README.md#track-locomotion)
 
 研究范围：解析接触梯度、BPTT足式策略学习与接触隐式轨迹优化；45kg四足点足接触模型及实机策略。
 
-[原文入口](https://arxiv.org/abs/2610.35852v1) · [原文 PDF](https://arxiv.org/pdf/2610.35852v1) · [作者项目 / 代码入口](https://diffcontact.github.io) · [作者与团队](../leaderboard/origins/papers/diffcontact.md)
+[原文入口](https://arxiv.org/abs/2610.35852v2) · [原文 PDF](https://arxiv.org/pdf/2610.35852v2) · [作者项目 / 代码入口](https://diffcontact.github.io) · [作者与团队](../leaderboard/origins/papers/diffcontact.md)
 
 ## 先看它做了什么
 
@@ -26,4 +26,4 @@
 
 [知识星系](../universe/papers/diffcontact.md) · [七维评分与雷达](../leaderboard/papers/diffcontact/README.md) · [arXiv集锦](../arxiv/README.md#paper-diffcontact) · [地图方向](../paper-map/README.md#track-locomotion) · [首页](../README.md)
 
-元数据核对：2026-10-28。
+元数据核对：2026-11-04。

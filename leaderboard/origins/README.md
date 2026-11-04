@@ -39,7 +39,7 @@
 | [加州大学伯克利分校机器人与人工智能实验室（RAIL）](profiles/berkeley-rail.md) | 大学实验室 | 5 | 视觉语言动作模型 VLA、操作与动作块 |
 | [加州大学伯克利分校混合机器人实验室](profiles/berkeley-hybrid-robotics.md) | 大学实验室 | 1 | 动作先验与全身技能 |
 | [加州大学圣迭戈分校](profiles/institution-i36258959.md) | 大学 | 7 | 世界模型与模型强化学习、Locomotion 与运动适应、操作与动作块、具身感知与场景表示 |
-| [加州大学戴维斯分校](profiles/organization-14ceb33ea08c.md) | 论文署名机构 | 1 | 操作与动作块 |
+| [加州大学戴维斯分校](profiles/organization-14ceb33ea08c.md) | 论文署名机构 | 2 | 操作与动作块、动作先验与全身技能 |
 | [加州理工学院](profiles/institution-i122411786.md) | 大学 | 1 | 视觉语言动作模型 VLA |
 | [动力学推断实验室](profiles/dynamical-inference-lab.md) | 研究团队 | 1 | 世界模型与模型强化学习 |
 | [北京大学](profiles/peking-university.md) | 大学 | 1 | 操作与动作块 |
@@ -77,7 +77,7 @@
 | [慕尼黑大学 CompVis 实验室](profiles/compvis-lmu.md) | 研究团队 | 1 | Diffusion / Transformer 基础 |
 | [慕尼黑工业大学](profiles/organization-bc6fc762326c.md) | 论文署名机构 | 1 | 视频与序列生成 |
 | [慕尼黑机器学习中心](profiles/mcml.md) | 研究机构 | 1 | 世界模型与模型强化学习 |
-| [斯坦福大学](profiles/institution-i97018004.md) | 大学 | 22 | 操作与动作块、视觉语言动作模型 VLA、具身感知与场景表示、世界模型与模型强化学习、视频动作模型与视觉推理、世界动作模型、强化学习与离线决策、Locomotion 与运动适应、Diffusion / Transformer 基础 |
+| [斯坦福大学](profiles/institution-i97018004.md) | 大学 | 23 | 操作与动作块、视觉语言动作模型 VLA、具身感知与场景表示、世界模型与模型强化学习、视频动作模型与视觉推理、世界动作模型、强化学习与离线决策、Locomotion 与运动适应、Diffusion / Transformer 基础 |
 | [斯坦福大学 IRIS 实验室](profiles/stanford-iris.md) | 大学实验室 | 5 | 视觉语言动作模型 VLA、操作与动作块 |
 | [斯坦福大学机器人与具身智能实验室（REAL）](profiles/stanford-real.md) | 大学实验室 | 0 |  |
 | [新加坡科技研究局前沿人工智能研究中心（CFAR）](profiles/organization-1479c8d4fb3b.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
@@ -143,4 +143,4 @@
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-核验日期：2026-11-02。
+目录更新：2026-11-04。

@@ -28,6 +28,6 @@
 - [来源1](https://irislab.stanford.edu/)
 - [来源2](https://irislab.stanford.edu/publications.html)
 
-资料核验：2026-11-02。
+资料核验：2026-10-10T16:00:00+08:00。
 
 [作者与团队目录](../README.md) · [具身榜](../../README.md)

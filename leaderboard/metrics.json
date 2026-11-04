@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-04",
   "provider": "OpenAlex / Semantic Scholar (per-record)",
   "rule": "每篇一个原研究记录，不相加版本或数据库。正式刊会沿用已核出版身份的OpenAlex；本次14篇预印本按精确arXiv ID优先Semantic Scholar，再用已核OpenAlex，不按较大数挑源。各条留来源、日期、原值和其他快照。未知引文年份不计近期，R可为下界。",
   "papers": [
@@ -4761,6 +4761,56 @@
       "recent_count_basis": "当前匹配来源累计引用实测0，因此窗口引用为0；未把索引延迟解释成长期无人引用。",
       "matched_title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
       "record_url": "https://www.semanticscholar.org/paper/534e4f304bd2834cee746983c1604e643306b7c1"
+    },
+    {
+      "paper_id": "nablamimic",
+      "checked_at": "2026-11-04T08:33:46+08:00",
+      "status": "matched",
+      "provider": "OpenAlex",
+      "citation_count": 0,
+      "recent_citation_count": 0,
+      "counts_by_year": [],
+      "api_url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654",
+      "match_note": "精确DOI、完整标题、2026年、Weyl Lu/Yubei Chen与原文逐项匹配。S2精确ID429，采用OpenAlex的实际返回；失败本身未填零。",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2610.41654?fields=title,authors,year,citationCount,externalIds,url",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2610.41654"
+      ],
+      "edition": "arXiv2610.41654v1; DOI10.48550/arXiv.2610.41654",
+      "matched_id": "https://openalex.org/W7225087060",
+      "recent_count_basis": "匹配来源累计引用实测0，窗口引用因此为0，不说明索引外影响或未来引用。",
+      "matched_title": "$\\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+      "record_url": "https://openalex.org/W7225087060",
+      "openalex_id": "https://openalex.org/W7225087060"
+    },
+    {
+      "paper_id": "cr-dagger",
+      "checked_at": "2026-11-04T08:37:28.460727+08:00",
+      "status": "matched",
+      "provider": "OpenAlex",
+      "citation_count": 7,
+      "recent_citation_count": 7,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 7
+        }
+      ],
+      "api_url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2506.16685",
+      "match_note": "精确arXiv DOI返回W4415202784，主DOI为官方NeurIPS2025原版10.52202/085713-4660；完整标题、年份、四位原作者及arXiv locations一致。该同研究原版记录累计7，未与新IJRR Crossref的1相加。OpenAlex错误机构和默认2025-01-01日期不作机构/首发来源。S2精确ID429后按既定顺序选OpenAlex，不择更高计数。",
+      "edition": "NeurIPS 2025 original research record linked to arXiv:2506.16685; journal extension citations not summed",
+      "matched_id": "https://openalex.org/W4415202784",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2506.16685?fields=title,authors,year,publicationDate,venue,citationCount,influentialCitationCount,externalIds,url",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2506.16685"
+      ],
+      "recent_count_basis": "匹配记录counts_by_year显示全部7次在2026，属于2025-01-01至2026-11-04窗口。",
+      "publication_date": "2025-06-20",
+      "publication_date_precision": "day",
+      "publication_date_source": "https://arxiv.org/abs/2506.16685",
+      "matched_title": "Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections",
+      "record_url": "https://openalex.org/W4415202784",
+      "openalex_id": "https://openalex.org/W4415202784"
     }
   ]
 }

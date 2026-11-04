@@ -1,6 +1,6 @@
 # DiffContact：作者与研究出处
 
-Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization
+DiffContact: Differentiable Contact Dynamics for Policy Learning and Contact-Implicit Trajectory Optimization
 
 ## 作者
 
@@ -30,7 +30,7 @@ Gijeong Kim、Seungbin Oh、Dongyun Kang、Hae-Won Park
 
 </details>
 
-[论文导读 / 完整解读](../../../library/diffcontact.md) · [七维评分](../../papers/diffcontact/README.md) · [原文](https://arxiv.org/abs/2610.35852v1)
+[论文导读 / 完整解读](../../../library/diffcontact.md) · [七维评分](../../papers/diffcontact/README.md) · [原文](https://arxiv.org/abs/2610.35852v2)
 
 ## 署名来源
 

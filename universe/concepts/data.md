@@ -24,6 +24,8 @@
 - [FLoRe](../papers/flore.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35862v1)
 - [TouchBridge](../papers/touchbridge.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40349v1)
 - [JEDI](../papers/jedi.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40356v1)
+- [∇Mimic](../papers/nablamimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.41654v1)
+- [CR-DAgger](../papers/cr-dagger.md) · 机制导读 · [原文](https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html)
 - [Dex-One2Many](../papers/dex-one2many.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12470v1)
 - [Balanced Data Diet](../papers/balanced-data-diet.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12465v1)
 

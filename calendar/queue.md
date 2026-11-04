@@ -106,10 +106,11 @@
 | 100 | 103 | [VideoVLA: Video Generators Can Be Generalizable Robot Manipulators](../library/videovla.md) | [NeurIPS 2025](../venues/NeurIPS/README.md) | 78.8 |
 | 101 | 104 | [Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning](../library/cosmos-policy.md) | [ICLR 2026](../venues/ICLR/README.md) | 78.5 |
 | 102 | 105 | [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](../library/supermimic.md) | [CoRL 2026](../venues/CoRL/README.md) | 78.1 |
-| 103 | 106 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](../library/omnih2o.md) | [CoRL 2024](../venues/CoRL/README.md) | 76.8 |
-| 104 | 107 | [EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](../library/efficientzero-v2.md) | [ICML 2024](../venues/ICML/README.md) | 75.0 |
-| 105 | 108 | [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../library/balanced-data-diet.md) | [CoRL 2026](../venues/CoRL/README.md) | 71.1 |
-| 106 | 109 | [PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../library/plaw-vla.md) | [CoRL 2026](../venues/CoRL/README.md) | 70.7 |
-| 107 | 111 | [TAPESTRY: A Single Backbone for Video Generation and Robot Control](../library/tapestry.md) | [CoRL 2026](../venues/CoRL/README.md) | 69.6 |
+| 103 | 106 | [Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections](../library/cr-dagger.md) | [NeurIPS 2025](../venues/NeurIPS/README.md) | 77.1 |
+| 104 | 107 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](../library/omnih2o.md) | [CoRL 2024](../venues/CoRL/README.md) | 76.8 |
+| 105 | 108 | [EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data](../library/efficientzero-v2.md) | [ICML 2024](../venues/ICML/README.md) | 75.0 |
+| 106 | 109 | [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../library/balanced-data-diet.md) | [CoRL 2026](../venues/CoRL/README.md) | 71.1 |
+| 107 | 110 | [PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies](../library/plaw-vla.md) | [CoRL 2026](../venues/CoRL/README.md) | 70.7 |
+| 108 | 112 | [TAPESTRY: A Single Backbone for Video Generation and Robot Control](../library/tapestry.md) | [CoRL 2026](../venues/CoRL/README.md) | 69.6 |
 
 [未来七日](README.md) · [评分方法](../leaderboard/methodology.md)

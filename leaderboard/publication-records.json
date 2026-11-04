@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-11-02",
+  "checked_at": "2026-11-04",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1476,6 +1476,116 @@
       ],
       "verification_basis": "核arXiv v1身份/日期、原文作者/署名与全文方法/实验/相关附录，关键表图完整页目视；本次原文及官方入口未核正式录用/出版记录。",
       "reason": "完整可追溯公开稿60；未核独立技术检验或正式刊会，不因大学/实验室知名提高"
+    },
+    "nablamimic": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2610.41654v1",
+      "sources": [
+        "https://arxiv.org/abs/2610.41654v1",
+        "https://arxiv.org/pdf/2610.41654v1"
+      ],
+      "reason": "公开可追溯arXiv v1已读，不推断录用或把自动review升为同行评审。",
+      "checked_at": "2026-11-04T08:39:43.561680+08:00",
+      "verification_basis": "arXiv2610.41654v1/26页身份、作者机构、提交日期与方法/实验/附录A–H已核；PDF关键图表完整页目视。未核正式录用或出版；当前29页项目稿另存不混入v1。"
+    },
+    "cr-dagger": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+      "checked_at": "2026-11-04T08:43:15.058176+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2506.16685",
+        "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+        "https://compliant-residual-dagger.github.io/",
+        "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+        "https://journals.sagepub.com/doi/10.1177/02783649261498061",
+        "https://api.crossref.org/works/10.1177/02783649261498061",
+        "https://star-xcd.github.io/"
+      ],
+      "verification_basis": "官方NeurIPS2025主会页确认两任务原版及四位作者。项目Paper区明确同研究IJRR2026扩展版和DOI；通读其14页作者扩展PDF及A.1–A.6，SHA锁定。SAGE正文HTTP403/web inaccessible/Exa timeout，本次未读出版社VOR；2026-11-02精确日期来自出版方向Crossref登记的published-online，不冒充出版社页面亲核。",
+      "reason": "完整可追溯作者稿满足公开阶段60；同研究原版正式NeurIPS主会按既有profile95计公开与评审最高阶段，不臆造IJRR等级或JIF。",
+      "reading_version": "IJRR 2026 author-hosted extended manuscript; 14 pages; sha256 67a631af6e73e8ec5217baf8f4b97f6d8a76521ac7de9f3cf973798581e01953",
+      "reading_pdf_sha256": "67a631af6e73e8ec5217baf8f4b97f6d8a76521ac7de9f3cf973798581e01953",
+      "research_identity": "arXiv:2506.16685",
+      "original_conference": {
+        "venue": "NeurIPS",
+        "year": 2025,
+        "track": "Main Conference",
+        "doi": "10.52202/085713-4660",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html",
+        "authors": [
+          "Xiaomeng Xu",
+          "Yifan Hou",
+          "Zeyi Liu",
+          "Shuran Song"
+        ],
+        "tasks": [
+          "book flipping",
+          "belt assembly"
+        ],
+        "status": "published",
+        "source_level": "official_proceedings_page",
+        "checked_at": "2026-11-04T08:43:15.058176+08:00"
+      },
+      "journal_extension": {
+        "venue": "The International Journal of Robotics Research",
+        "abbreviation": "IJRR",
+        "year": 2026,
+        "doi": "10.1177/02783649261498061",
+        "url": "https://journals.sagepub.com/doi/10.1177/02783649261498061",
+        "authors": [
+          "Xiaomeng Xu",
+          "Yifan Hou",
+          "Chendong Xin",
+          "Zeyi Liu",
+          "Shuran Song"
+        ],
+        "status": "published_online_metadata_verified",
+        "published_online": "2026-11-02",
+        "publication_date_source": "https://api.crossref.org/works/10.1177/02783649261498061",
+        "publisher_page_read": false,
+        "project_explicitly_identifies_extension": true,
+        "acceptance_author_reported": "2026-09-24",
+        "acceptance_source": "https://star-xcd.github.io/",
+        "scope_change": "加入齿轮插入/布线任务、意图误读与参考速度/延迟处理、额外残差架构实验。扩展内容至少已在2025-12 arXiv v5摘要出现，本周是出版登记。",
+        "source_levels": [
+          "author_project",
+          "publisher_deposited_crossref_metadata",
+          "author_homepage"
+        ],
+        "reading_source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+        "checked_at": "2026-11-04T08:43:15.058176+08:00"
+      },
+      "additional_publications": [
+        {
+          "venue": "The International Journal of Robotics Research",
+          "abbreviation": "IJRR",
+          "year": 2026,
+          "doi": "10.1177/02783649261498061",
+          "url": "https://journals.sagepub.com/doi/10.1177/02783649261498061",
+          "authors": [
+            "Xiaomeng Xu",
+            "Yifan Hou",
+            "Chendong Xin",
+            "Zeyi Liu",
+            "Shuran Song"
+          ],
+          "status": "published_online_metadata_verified",
+          "published_online": "2026-11-02",
+          "publication_date_source": "https://api.crossref.org/works/10.1177/02783649261498061",
+          "publisher_page_read": false,
+          "project_explicitly_identifies_extension": true,
+          "acceptance_author_reported": "2026-09-24",
+          "acceptance_source": "https://star-xcd.github.io/",
+          "scope_change": "加入齿轮插入/布线任务、意图误读与参考速度/延迟处理、额外残差架构实验。扩展内容至少已在2025-12 arXiv v5摘要出现，本周是出版登记。",
+          "source_levels": [
+            "author_project",
+            "publisher_deposited_crossref_metadata",
+            "author_homepage"
+          ],
+          "reading_source_url": "https://compliant-residual-dagger.github.io/files/CR_DAgger_extended.pdf",
+          "checked_at": "2026-11-04T08:43:15.058176+08:00"
+        }
+      ]
     }
   }
 }
