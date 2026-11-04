@@ -13,6 +13,7 @@
 - [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标)
 - [RMA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口)
 - [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#3-问题定义一句指令不等于一整套计划)
+- [UMI：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作)
 
 ## 哪些论文用到或讨论它
 
@@ -24,7 +25,7 @@
 - [VideoVLA](../papers/videovla.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html)
 - [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 - [Open X-Embodiment](../papers/rtx.md) · 机制导读 · [原文](https://ieeexplore.ieee.org/document/10611477)
-- [UMI](../papers/umi.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
+- [UMI](../papers/umi.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
 - [Transporter](../papers/transporter.md) · 机制导读 · [原文](https://proceedings.mlr.press/v155/zeng21a.html)
 - [Decision Transformer](../papers/decision-transformer.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html)
 - [Diffuser](../papers/diffuser.md) · 机制导读 · [原文](https://proceedings.mlr.press/v162/janner22a.html)

@@ -1,0 +1,7 @@
+% UMI teaching equation. Source and scope recorded in manifest/equation-specs.json.
+\documentclass[border=7pt]{standalone}
+\usepackage{amsmath,amssymb,xcolor}
+\definecolor{ink}{HTML}{203340}
+\begin{document}\color{ink}
+$\displaystyle \begin{aligned}T_t&=\begin{bmatrix}R_t&p_t\\0&1\end{bmatrix}\in\mathrm{SE}(3)\\ \Delta T_{0t}&=T_0^{-1}T_t\\ \Delta R_{0t}&=R_0^{\mathsf T}R_t\\ \Delta p_{0t}&=R_0^{\mathsf T}(p_t-p_0)\\ \widehat T_t&=T_0\widehat{\Delta T}_{0t}\end{aligned}$
+\end{document}

@@ -37,7 +37,7 @@ Cheng Chi、Zhenjia Xu、Chuer Pan、Eric Cousineau、Benjamin Burchfiel、Siyua
 
 </details>
 
-[论文导读 / 完整解读](../../../library/umi.md) · [七维评分](../../papers/umi/README.md) · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
+[论文导读 / 完整解读](../../../articles/umi-2402.10329/README.md) · [七维评分](../../papers/umi/README.md) · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
 
 ## 署名来源
 

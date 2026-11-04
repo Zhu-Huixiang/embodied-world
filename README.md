@@ -41,6 +41,7 @@
 - [RT-1：机器人看过十三万次示范，就会举一反三了？](articles/rt1-2212.06817/README.md)
 - [SAM：点一下就能抠图，它真知道你想要什么吗？](articles/sam-2304.02643/README.md)
 - [SAM 2：点一下就一直跟住？视频分割最难的，其实是别失忆](articles/sam2-2408.00714/README.md)
+- [UMI：没带机器人，怎样教会机器人？](articles/umi-2402.10329/README.md)
 - [ViT：把图片切碎，怎么就打过了卷积？](articles/vit-2010.11929/README.md)
 
 公众号文章链接在公开发表后加入各篇页面。Holo-M 目前可读 GitHub 全稿，公众号稿仍待质量评阅与后台发表。
@@ -54,8 +55,8 @@
 - [VLA](directions/vla.md)（5 篇）
 - [强化学习](directions/reinforcement-learning.md)（4 篇）
 - [运动控制与 Locomotion](directions/locomotion.md)（3 篇）
-- [Manipulation](directions/manipulation.md)（4 篇）
-- [Diffusion / Transformer](directions/diffusion-transformer.md)（10 篇）
+- [Manipulation](directions/manipulation.md)（5 篇）
+- [Diffusion / Transformer](directions/diffusion-transformer.md)（11 篇）
 
 ## 一起读，也一起纠错
 

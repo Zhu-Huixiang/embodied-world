@@ -1,0 +1,805 @@
+{
+  "slug": "umi-2402.10329",
+  "title": "UMI：没带机器人，怎样教会机器人？",
+  "topics": [
+    "manipulation",
+    "diffusion-transformer"
+  ],
+  "paper": {
+    "title": "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots",
+    "arxiv_id": "2402.10329",
+    "version": "RSS 2024 official proceedings PDF (14 pages), supplemented by author-project appendix A–F (18-page unnumbered PDF)",
+    "first_publication": "2024-02-15",
+    "pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+    "url": "https://www.roboticsproceedings.org/rss20/p045.html",
+    "project_url": "https://umi-gripper.github.io/",
+    "code_url": "https://github.com/real-stanford/universal_manipulation_interface",
+    "authors": [
+      "Cheng Chi",
+      "Zhenjia Xu",
+      "Chuer Pan",
+      "Eric Cousineau",
+      "Benjamin Burchfiel",
+      "Siyuan Feng",
+      "Russ Tedrake",
+      "Shuran Song"
+    ],
+    "institutions": [
+      "Stanford University",
+      "Columbia University",
+      "Toyota Research Institute"
+    ],
+    "source_checked_at": "2026-11-04T10:23:44.393934+08:00",
+    "supplement_pdf_sha256": "9cc1ec6278d694a3d667abd22e8fa277ba7bca2971e163b85df38ad41f1e8027",
+    "supplement_url": "https://umi-gripper.github.io/umi.pdf"
+  },
+  "venue": {
+    "status": "published",
+    "name": "RSS 2024",
+    "url": "https://www.roboticsproceedings.org/rss20/p045.html",
+    "checked_at": "2026-11-04T10:23:44.393934+08:00",
+    "explanation": "Official RSS proceedings opened; DOI10.15607/RSS.2024.XX.045, publication July15 2024. Formal proceedings bytes locked independently from author-project supplement. arXiv first Feb15, latest v3 March6; no claim RSS PDF equals v3 bytes."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "kind": "drawpaper",
+      "file": "figures/drawpaper/umi-architecture.png",
+      "alt": "UMI全篇架构与采集训练部署两条路线",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "tex": "figures/drawpaper/umi-architecture.tex",
+      "pdf": "figures/drawpaper/umi-architecture.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "regions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "source_locator": "RSS §§III-A/B; author appendix A,D,E,F; standard Diffusion Policy noise-prediction teaching expansion",
+      "provenance": "Retained built-in imagegen illustration regions, independent exact TeX labels and scientifically corrected external arrows.",
+      "dependencies": [
+        "figures/drawpaper/umi-imagegen-draft.png",
+        "figures/drawpaper/source-notes.md"
+      ],
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "sha256": "e8540bd45292feb3151181f6cfbebf81826e24ef7dcefcbb18aa585cac78893c",
+      "pixel_size": [
+        3300,
+        11939
+      ]
+    },
+    {
+      "kind": "concept",
+      "file": "figures/drawpaper/umi-timing-mobile.png",
+      "alt": "UMI观测对齐和执行提前量细图",
+      "caption": "D区展开。先把图像与本体历史对齐，再剔除过期目标；臂和夹爪按各自延迟提前接收指令，在同一目标时刻配合。",
+      "generator": "TeX",
+      "ai_generated": false,
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "source_locator": "§III-B PD1; Fig5; appendix A1–A4",
+      "tex": "figures/drawpaper/umi-timing-mobile.tex",
+      "pdf": "figures/drawpaper/umi-timing-mobile.pdf",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "sha256": "1c09b2fce297c399eb5e5aa9f471131f18bd13d98d605c91057b9200d9537ecc",
+      "pixel_size": [
+        3300,
+        6697
+      ]
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-interface.png",
+      "figure_id": "Fig. 2",
+      "alt": "UMI示范接口",
+      "caption": "论文 Fig. 2。左边是手持夹爪，中间是155度鱼眼观测，右边是机器人端同构相机/夹爪。",
+      "read_guide": "左边是手持夹爪，中间是155度鱼眼观测，右边是机器人端同构相机/夹爪。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 2,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        47,
+        50,
+        565,
+        208
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "dd5e993f4ec67a567eca5f68a23b3a8b41f38902477191e1c4ee272df6a70e2f",
+      "pixel_size": [
+        2072,
+        632
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig3-fisheye.png",
+      "figure_id": "Fig. 3",
+      "alt": "鱼眼与透视校正",
+      "caption": "论文 Fig. 3。左边原始鱼眼保留中心信息；右边校正透视图拉伸外围，红蓝框标出压缩和拉伸区域。",
+      "read_guide": "左边原始鱼眼保留中心信息；右边校正透视图拉伸外围，红蓝框标出压缩和拉伸区域。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 3,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        310,
+        49,
+        565,
+        168
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "25a455508d8195e205883535d08c41688c7124573ec83ae24a35f546616e3db4",
+      "pixel_size": [
+        1020,
+        476
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig4-mirrors.png",
+      "figure_id": "Fig. 4",
+      "alt": "双侧镜隐式立体",
+      "caption": "论文 Fig. 4。a看主相机和两个虚拟相机，b看被主视角遮住的番茄酱，c看镜区数字反射后的方向。",
+      "read_guide": "a看主相机和两个虚拟相机，b看被主视角遮住的番茄酱，c看镜区数字反射后的方向。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 4,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        310,
+        50,
+        565,
+        241
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "011746dc89d009deb80d166ebe35bb5277a563d2013524c573e28cea7f2c834c",
+      "pixel_size": [
+        1020,
+        764
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig5-policy.png",
+      "figure_id": "Fig. 5",
+      "alt": "策略接口与时延",
+      "caption": "论文 Fig. 5。左侧把各观测对到同一个采集时刻，中间输出相对末端轨迹和夹爪宽度，右侧把命令提前到各硬件执行时延之前。",
+      "read_guide": "左侧把各观测对到同一个采集时刻，中间输出相对末端轨迹和夹爪宽度，右侧把命令提前到各硬件执行时延之前。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 5,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        47,
+        50,
+        565,
+        214
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "0cb8cce7c0ee22320e3f0ab4cc7b9c406c6e2c2516927dd550080d6c99147a05",
+      "pixel_size": [
+        2072,
+        656
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig5-observation.png",
+      "figure_id": "Fig. 5a",
+      "alt": "观测时延局部",
+      "caption": "论文 Fig. 5a。横向是时间；按选定图像的真实拍摄时刻，插值夹爪宽度和机械臂观测。10/30/125Hz是此示意图的不同流频率。",
+      "read_guide": "论文 Fig. 5a。横向是时间；按选定图像的真实拍摄时刻，插值夹爪宽度和机械臂观测。10/30/125Hz是此示意图的不同流频率。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 5,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        49,
+        50,
+        274,
+        214
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "f46623a1b1285b6124d62e5356a09c2caeefb48308b5768141212adb84353569",
+      "pixel_size": [
+        900,
+        656
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig5-execution.png",
+      "figure_id": "Fig. 5c",
+      "alt": "执行时延局部",
+      "caption": "论文 Fig. 5c。横轴是时间。下方是带期望时间的Desired Poses，中间Action Commands提前下发，上方Actual Poses显示执行响应；机械臂100ms、夹爪120ms是此示意例的两种时延。",
+      "read_guide": "横轴是时间。下方是带期望时间的Desired Poses，中间Action Commands提前下发，上方Actual Poses显示执行响应；机械臂100ms、夹爪120ms是此示意例的两种时延。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 5,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        408,
+        50,
+        563,
+        214
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "67d9c4da3867d3214bf4d2f7c3c1093f07fb48dd6e6dc5d15a90dc71b6fb3754",
+      "pixel_size": [
+        620,
+        656
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig6-relative.png",
+      "figure_id": "Fig. 6",
+      "alt": "相对动作与增量动作",
+      "caption": "论文 Fig. 6。横轴时间，纵轴位姿示意；相对轨迹在每次推理起点用同一参考，delta逐步依赖前一步，absolute依赖世界坐标。",
+      "read_guide": "横轴时间，纵轴位姿示意；相对轨迹在每次推理起点用同一参考，delta逐步依赖前一步，absolute依赖世界坐标。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 6,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        310,
+        48,
+        565,
+        195
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "98cdaaaea5c7d21acee6b54d05eb5e5fd29b0012e8e3e7f5899150bec0efe4e2",
+      "pixel_size": [
+        1020,
+        588
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig7-tasks.png",
+      "figure_id": "Fig. 7",
+      "alt": "四任务执行序列",
+      "caption": "论文 Fig. 7。从上到下是摆杯、抛掷、双臂叠衣和洗碗。各行从左到右按时间推进，照片是作者实机执行。",
+      "read_guide": "从上到下是摆杯、抛掷、双臂叠衣和洗碗。各行从左到右按时间推进，照片是作者实机执行。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 7,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        47,
+        50,
+        565,
+        382
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "fe6ecfa997c1391b3596acc31032fb3667e9ff67d07671723f98d5860488cf28",
+      "pixel_size": [
+        2072,
+        1328
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig8-results.png",
+      "figure_id": "Fig. 8",
+      "alt": "窄域实验全图",
+      "caption": "论文 Fig. 8。左列是叠加的初始状态，中列为典型失败，右列为成功率；红箭头标失败方向，绿箭头标期望行为。",
+      "read_guide": "左列是叠加的初始状态，中列为典型失败，右列为成功率；红箭头标失败方向，绿箭头标期望行为。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 8,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        47,
+        50,
+        565,
+        420
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "06d524783804b039e43f461597bd7a8c67fbfd57c8499476a2dfb1d07259c121",
+      "pixel_size": [
+        2072,
+        1480
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig8-cup-detail.png",
+      "figure_id": "Fig. 8c top",
+      "alt": "摆杯消融局部",
+      "caption": "论文 Fig. 8c top。纵轴成功率0到1；横轴依次为绝对动作、无鱼眼、delta动作、未交换处理镜面、无镜面、UMI Franka和UMI UR5。",
+      "read_guide": "纵轴成功率0到1；横轴依次为绝对动作、无鱼眼、delta动作、未交换处理镜面、无镜面、UMI Franka和UMI UR5。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 8,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        410,
+        65,
+        563,
+        158
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "c79d94cd32e876f6b6c06739cb370f4378f15f53269b9b27f2efee50b3672157",
+      "pixel_size": [
+        612,
+        372
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig8-toss-detail.png",
+      "figure_id": "Fig. 8b/c tossing row",
+      "alt": "抛掷时延对照局部",
+      "caption": "论文 Fig. 8b/c tossing row。为手机阅读将原图三块竖排：上为肘关节速度，中为成功率，下为按列分成两段的各物体数据（重复原行标签）。绿色时延对齐、红色未对齐；表按物体统计。",
+      "read_guide": "为手机阅读将原图三块竖排：上为肘关节速度，中为成功率，下为按列分成两段的各物体数据（重复原行标签）。绿色时延对齐、红色未对齐；表按物体统计。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 8,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": null,
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 576 dpi, cropped to listed panels, uniformly resized preserving aspect ratio, then stacked vertically.",
+      "sha256": "df320b1194b0cd55fa7694d06a17c9f1f718b5d746f06b8c17405cfd77ec8dd9",
+      "pixel_size": [
+        1224,
+        4814
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "assembly": "Original source panels stacked vertically and uniformly resized preserving aspect ratio. Source tables split into two column groups with original row labels repeated; no relabeling, data transcription or redrawing.",
+      "source_panels_pdf_points": [
+        [
+          263,
+          153,
+          338,
+          234
+        ],
+        [
+          338,
+          153,
+          406,
+          244
+        ],
+        [
+          410,
+          159,
+          563,
+          226
+        ]
+      ],
+      "table_split_local_pixels_at_576dpi": {
+        "header_bottom": 88,
+        "row_label_right": 205,
+        "column_split": 648,
+        "table_right": 1198,
+        "repeated_row_labels": true
+      },
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig8-bimanual-detail.png",
+      "figure_id": "Fig. 8c folding row",
+      "alt": "双臂叠衣消融局部",
+      "caption": "论文 Fig. 8c folding row。为手机阅读将柱图和表格竖排：上看去除双夹爪相对位姿与完整UMI的总成功率，下表按列分两段看各子步骤，重复原行标签。",
+      "read_guide": "为手机阅读将柱图和表格竖排：上看去除双夹爪相对位姿与完整UMI的总成功率，下表按列分两段看各子步骤，重复原行标签。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 8,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": null,
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 576 dpi, cropped to listed panels, uniformly resized preserving aspect ratio, then stacked vertically.",
+      "sha256": "c56d8c2df6584434c0b937bd8db30c6516380112e6e03a76efe8686022c396e1",
+      "pixel_size": [
+        1224,
+        3182
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "assembly": "Original source panels stacked vertically and uniformly resized preserving aspect ratio. Source tables split into two column groups with original row labels repeated; no relabeling, data transcription or redrawing.",
+      "source_panels_pdf_points": [
+        [
+          338,
+          243,
+          406,
+          331
+        ],
+        [
+          410,
+          248,
+          563,
+          309
+        ]
+      ],
+      "table_split_local_pixels_at_576dpi": {
+        "header_bottom": 98,
+        "row_label_right": 211,
+        "column_split": 707,
+        "table_right": 1199,
+        "repeated_row_labels": true
+      },
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig8-dish-detail.png",
+      "figure_id": "Fig. 8c washing row",
+      "alt": "洗碗视觉骨干对照局部",
+      "caption": "论文 Fig. 8c washing row。为手机阅读将柱图和表格竖排：灰色ResNet、蓝色ViT；下表按列分两段列子步骤和全任务，重复原行标签，样本数按正文分别说明。",
+      "read_guide": "为手机阅读将柱图和表格竖排：灰色ResNet、蓝色ViT；下表按列分两段列子步骤和全任务，重复原行标签，样本数按正文分别说明。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 8,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": null,
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 576 dpi, cropped to listed panels, uniformly resized preserving aspect ratio, then stacked vertically.",
+      "sha256": "4bbde9e89c9773d937b809a9a1b9daedaaca85836a5ac29ebad8bc94958dac26",
+      "pixel_size": [
+        1224,
+        3272
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "assembly": "Original source panels stacked vertically and uniformly resized preserving aspect ratio. Source tables split into two column groups with original row labels repeated; no relabeling, data transcription or redrawing.",
+      "source_panels_pdf_points": [
+        [
+          338,
+          334,
+          406,
+          420
+        ],
+        [
+          410,
+          340,
+          563,
+          405
+        ]
+      ],
+      "table_split_local_pixels_at_576dpi": {
+        "header_bottom": 92,
+        "row_label_right": 211,
+        "column_split": 708,
+        "table_right": 1199,
+        "repeated_row_labels": true
+      },
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig9-generalization.png",
+      "figure_id": "Fig. 9",
+      "alt": "野外泛化实验",
+      "caption": "论文 Fig. 9。左为喷泉和咖啡桌的执行画面，右上是窄域数据训练的失败，右下按环境与杯子是否见过分组。",
+      "read_guide": "左为喷泉和咖啡桌的执行画面，右上是窄域数据训练的失败，右下按环境与杯子是否见过分组。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 9,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        47,
+        49,
+        565,
+        231
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "755278762e55ef220e33bf0b6e703e88e7fb39543931a2a0088716cc8444580f",
+      "pixel_size": [
+        2072,
+        728
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig9-table-detail.png",
+      "figure_id": "Fig. 9c",
+      "alt": "野外泛化数据局部",
+      "caption": "论文 Fig. 9c。两个未见环境分开列分子分母，训练杯与未见杯分开；合计43/60对应71.7%。",
+      "read_guide": "两个未见环境分开列分子分母，训练杯与未见杯分开；合计43/60对应71.7%。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 9,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        332,
+        144,
+        563,
+        230
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "f104abb69316d86ccec11aa337c8fdf98e54f06b27c2d3fd453ae496a7463591",
+      "pixel_size": [
+        924,
+        344
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig11-throughput-detail.png",
+      "figure_id": "Fig. 11d",
+      "alt": "采集吞吐局部",
+      "caption": "论文 Fig. 11d。上摆杯、下抛掷，横轴依次UMI、裸手和SpaceMouse遥操作。原图纵轴CPH与柱顶数字尺度不一致，因此只按正文比较吞吐比例，保留原图而不重标数值。",
+      "read_guide": "上摆杯、下抛掷，横轴依次UMI、裸手和SpaceMouse遥操作。原图纵轴CPH与柱顶数字尺度不一致，因此只按正文比较吞吐比例，保留原图而不重标数值。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 11,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        443,
+        51,
+        563,
+        231
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "b4f158caf2da6b5f4c2540db08e48ab24b25ea5bc913c658077f0064af0bf1ed",
+      "pixel_size": [
+        480,
+        720
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "source_artifact_note": "Source axis is CPH but printed bar-top counts are a factor of four below plotted height. Do not silently interpret bar-top counts as per-hour throughput; paper text supports ratios under a 15-minute protocol.",
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig12-tracking.png",
+      "figure_id": "Fig. 12",
+      "alt": "SLAM追踪误差",
+      "caption": "论文 Fig. 12。左为动捕对照设置，右表区分每夹爪绝对轨迹误差ATE与双夹爪相对误差RPE；两类误差都分别报告平移mm与旋转degree。",
+      "read_guide": "论文 Fig. 12。左为动捕对照设置，右表区分每夹爪绝对轨迹误差ATE与双夹爪相对误差RPE；两类误差都分别报告平移mm与旋转degree。",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 11,
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "bbox": [
+        47,
+        269,
+        302,
+        354
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Entire PDF page rendered at 288 dpi then cropped; source labels, axes, legends and values retained.",
+      "sha256": "0647b2cb7f24b2267fd0db9b679beefb3d4ed442e584bcfbf7a44edf93c97f45",
+      "pixel_size": [
+        1020,
+        340
+      ],
+      "rights_checked": true,
+      "rights_note": "Original copyright Cheng Chi et al./respective rights holders. RSS proceedings source does not establish a CC license; selected excerpts are retained for necessary scholarly commentary, not republication of the complete paper or full figure collection.",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq01-relative.png",
+      "tex": "figures/equations/eq01-relative.tex",
+      "pdf": "figures/equations/eq01-relative.pdf",
+      "alt": "相对末端轨迹与恢复公式",
+      "caption": "教学式（1）。同一动作块里的所有目标都相对该轮观测的末端起点，执行时也乘回同一个参考位姿。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 6,
+      "locator": "RSS main §III-B PD2.1–2.2, p.6; Fig.6",
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "将原文SE(3)相对轨迹定义写开；0表示当前推理动作块的参考时刻，不是世界原点。R为3×3，p为3×1；T是4×4。每次重规划以新的参考时刻重算。"
+      ],
+      "exact_latex": "\\begin{aligned}T_t&=\\begin{bmatrix}R_t&p_t\\\\0&1\\end{bmatrix}\\in\\mathrm{SE}(3)\\\\ \\Delta T_{0t}&=T_0^{-1}T_t\\\\ \\Delta R_{0t}&=R_0^{\\mathsf T}R_t\\\\ \\Delta p_{0t}&=R_0^{\\mathsf T}(p_t-p_0)\\\\ \\widehat T_t&=T_0\\widehat{\\Delta T}_{0t}\\end{aligned}",
+      "pixel_size": [
+        512,
+        420
+      ],
+      "sha256": "80714683993752ef2b0114d54cbf84ea649dc2fa53cc55a85c81240878ec7d2c",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq02-bimanual.png",
+      "tex": "figures/equations/eq02-bimanual.tex",
+      "pdf": "figures/equations/eq02-bimanual.pdf",
+      "alt": "双夹爪相对位姿公式",
+      "caption": "教学式（2）。两只夹爪若共同换一个世界参考S，相对位姿不变；它保留的是两只夹爪之间的位置和朝向。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 6,
+      "locator": "RSS main §III-B PD2.3, p.6",
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "从已核共同场景坐标推导左右夹爪相对姿态及共同坐标变换消去；T_L/T_R从左右夹爪局部坐标映到共同参考，T_L←R从右局部映到左局部。全为4×4。"
+      ],
+      "exact_latex": "\\begin{aligned}T_{L\\leftarrow R}&=T_L^{-1}T_R\\\\ \\widetilde T_L&=ST_L,\\qquad\\widetilde T_R=ST_R\\\\ \\widetilde T_L^{-1}\\widetilde T_R&=(ST_L)^{-1}(ST_R)\\\\ &=T_L^{-1}S^{-1}ST_R\\\\ &=T_L^{-1}T_R\\end{aligned}",
+      "pixel_size": [
+        580,
+        375
+      ],
+      "sha256": "241678fae025ce82f9a9fbc83e7e59ac7646d71a5c8515640b7e6c0b8401f2ee",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq03-synchronize.png",
+      "tex": "figures/equations/eq03-synchronize.tex",
+      "pdf": "figures/equations/eq03-synchronize.pdf",
+      "alt": "观测时间对齐的夹爪宽度插值",
+      "caption": "教学式（3）。先找出包围图像采集时刻的两个夹爪宽度样本，再按时间距离加权；使用的是同一物理时刻的观测。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "pdf_page": 6,
+      "locator": "RSS main §III-B PD1.1, p.6; Fig.5a",
+      "source_pdf_sha256": "7b964be9c247bea4e7afc2bd2fe4c60658fa0f2a1f048e453e5fcef73e6cdef0",
+      "equation_type": "teaching_expansion",
+      "source_notes": [
+        "仅用标量夹爪宽度w示范原文按图像capture timestamp插值过程；不声称对旋转矩阵逐元素插值。t_i<t_j为包围该图像时间的两个已接收样本时间。"
+      ],
+      "exact_latex": "\\begin{aligned}t_i&\\leq t_{\\mathrm{obs}}\\leq t_j\\\\ \\lambda&=\\frac{t_{\\mathrm{obs}}-t_i}{t_j-t_i}\\\\ w(t_{\\mathrm{obs}})&=(1-\\lambda)w_i+\\lambda w_j\\\\ 0&\\leq\\lambda\\leq1\\end{aligned}",
+      "pixel_size": [
+        514,
+        334
+      ],
+      "sha256": "27df66fb25acb557d0a27459a06fc52bdc83bf394de9b5d8163f8085b1d3090b",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq04-latency.png",
+      "tex": "figures/equations/eq04-latency.tex",
+      "pdf": "figures/equations/eq04-latency.pdf",
+      "alt": "时延标定与可执行时间",
+      "caption": "公式组（4）。前三行是附录的时延标定式；后三行将主文的丢弃过期动作和提前发命令写开。每种硬件分别代入自己的执行时延。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "pdf_page": 15,
+      "locator": "Author project appendix A1–A4, p.15; RSS main §III-B PD1.2 p.6",
+      "source_pdf_sha256": "9cc1ec6278d694a3d667abd22e8fa277ba7bca2971e163b85df38ad41f1e8027",
+      "equation_type": "source_equations_and_teaching_expansion",
+      "source_notes": [
+        "前三行为附录无编号原式，后3行为主文PD1.2时序定义的教学展开，按机械臂或夹爪分别使用其执行时延。l_obs第二行只用于硬件提供全局发送时间戳的情况；UR5/WSG50按原文估计半个ping RTT。"
+      ],
+      "exact_latex": "\\begin{aligned}\\ell_{\\mathrm{cam}}&=t_{\\mathrm{recv}}-t_{\\mathrm{display}}-\\ell_{\\mathrm{display}}\\\\ \\ell_{\\mathrm{obs}}&=t_{\\mathrm{recv}}-t_{\\mathrm{robot}}\\\\ \\ell_{\\mathrm{act}}&=\\ell_{\\mathrm{e2e}}-\\ell_{\\mathrm{obs}}\\\\ t_{\\mathrm{act}}&=t_{\\mathrm{output}}+\\ell_{\\mathrm{act}}\\\\ t_{\\mathrm{desired}}&>t_{\\mathrm{act}}\\\\ t_{\\mathrm{send}}&=t_{\\mathrm{desired}}-\\ell_{\\mathrm{act}}\\end{aligned}",
+      "pixel_size": [
+        626,
+        403
+      ],
+      "sha256": "79eefd41436058fbde5851906088b9a049cd0815c47e93623996b0a8128f86f9",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq05-diffusion.png",
+      "tex": "figures/equations/eq05-diffusion.tex",
+      "pdf": "figures/equations/eq05-diffusion.pdf",
+      "alt": "条件动作去噪的标准教学目标",
+      "caption": "教学式（5）。给归一化动作块加噪声，再在观测O的条件下预测噪声；H是时间步数，d是每步动作编码维数。这是标准去噪目标的展开，不是UMI新增的编号公式。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "pdf_page": 17,
+      "locator": "Author project appendix E, p.17 and Table A1 p.16; cited Diffusion Policy [9]; teaching form, not an equation printed in UMI",
+      "source_pdf_sha256": "9cc1ec6278d694a3d667abd22e8fa277ba7bca2971e163b85df38ad41f1e8027",
+      "equation_type": "standard_algorithm_teaching_expansion",
+      "source_notes": [
+        "标准epsilon预测Diffusion Policy教学展开，描述条件去噪学习；A0为归一化动作块，H为动作块长度，d为每步数值编码维度，未强行等同物理6DoF+宽度的参数数。当前官方代码commit d095ba9590df789df5189eea5ee7e431689038a6可核epsilon/MSE目标，但还含input_pertub=0.1附加扰动，且当前config与论文horizon不同；此基础教学明确省略该附加扰动，不冒充2024原实验逐行复现。"
+      ],
+      "exact_latex": "\\begin{aligned}A^0,\\epsilon&\\in\\mathbb R^{H\\times d},\\quad\\epsilon\\sim\\mathcal N(0,I)\\\\ \\overline\\alpha_k&=\\prod_{j=1}^{k}(1-\\beta_j)\\\\ A^k&=\\sqrt{\\overline\\alpha_k}\\,A^0+\\sqrt{1-\\overline\\alpha_k}\\,\\epsilon\\\\ c&=\\operatorname{Encoder}(O)\\\\ \\mathcal L&=\\mathbb E_{A^0,O,k,\\epsilon}\\!\\left[\\frac{\\|\\epsilon-\\epsilon_\\theta(A^k,k,c)\\|_F^2}{Hd}\\right]\\end{aligned}",
+      "pixel_size": [
+        716,
+        492
+      ],
+      "sha256": "6728d91fc4a42fe986faf4778909b6e8d3597145d40afde918580efbe7215926",
+      "reviewed": true,
+      "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+      "visual_review_scope": "Complete rendered asset, labels/axes/legend/numbers and source mapping; asset-only review, not article review."
+    }
+  ],
+  "cover_info": {
+    "ai_generated": true,
+    "generator": "built-in imagegen",
+    "prompt": "figures/cover/prompt.md",
+    "source": "Built-in imagegen conceptual editorial illustration; not an experiment photograph.",
+    "title": "拿起夹爪教机器人",
+    "caption": "手持夹爪与机器人匹配接口的概念封面",
+    "reviewed": true,
+    "visually_reviewed_at": "2026-11-04T10:42:47+08:00",
+    "sha256": "c59dcf62826d8b739d758b7915983dfb67dbae935aeadfba07a21c11f8a632c3",
+    "pixel_size": [
+      1923,
+      818
+    ],
+    "crop_review": "Wide approximately2.35:1 personally inspected. Center-square crop loses title/grippers, so a separate built-in imagegen 1:1 recomposition is retained locally and visually checked.",
+    "square_variant_sha256": "95acbfec5a1f0ad6deda6e01791f7ac84db796ec6b9f262910c2251eab0871ee",
+    "square_pixel_size": [
+      1254,
+      1254
+    ]
+  }
+}

@@ -50,4 +50,8 @@ Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 - [DDIM少步采样](diffusion-policy/ddim.md) · 已讲解
 - [交并比与终态评估](diffusion-policy/iou.md) · 已讲解
 
+## 论文间的联系
+
+- [UMI](umi.md) → [Diffusion Policy](diffusion-policy.md)：UMI所有任务使用Diffusion Policy生成条件动作轨迹，并在附录列出视觉编码器、频率、速度和增强调整。 [原文定位](https://umi-gripper.github.io/umi.pdf)（§III-B p5; App.E pp16–17; bibliography reference[9]）。
+
 [宇宙目录](../README.md) · [论文地图](../../paper-map/README.md) · [具身榜](../../leaderboard/README.md)

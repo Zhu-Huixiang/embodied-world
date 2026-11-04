@@ -2268,13 +2268,19 @@
       "subtitle": "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots",
       "track": "manipulation",
       "track_label": "操作与动作块",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/umi.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md",
       "concepts": [
-        "retarget",
+        "spatial",
+        "generation",
+        "diffusion",
         "action",
-        "bc"
+        "chunk",
+        "imitation",
+        "bc",
+        "data",
+        "cross-body"
       ],
       "scope": "mechanism",
       "source_url": "https://www.roboticsproceedings.org/rss20/p045.html"
@@ -2947,6 +2953,7 @@
         "peract",
         "rvt",
         "rvt2",
+        "umi",
         "transporter",
         "anymal-parkour",
         "vit",
@@ -2993,6 +3000,10 @@
         {
           "paper": "sam2",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#43-pd21相对目标为什么不等于逐步增量"
         },
         {
           "paper": "vit",
@@ -3370,6 +3381,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/generation.md",
       "papers": [
         "dit",
+        "umi",
         "ddpm",
         "ddim",
         "latent-diffusion",
@@ -3391,6 +3403,10 @@
         {
           "paper": "latent-diffusion",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/latent-diffusion-2112.10752/README.md#6-结论回收三个问题再接上具身智能"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
         }
       ]
     },
@@ -3414,6 +3430,7 @@
         "dit",
         "octo",
         "unipi",
+        "umi",
         "diffuser",
         "ddpm",
         "ddim",
@@ -3440,6 +3457,10 @@
         {
           "paper": "latent-diffusion",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/latent-diffusion-2112.10752/README.md#32-潜空间扩散随机抽一道题学会整条去噪链"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
         }
       ]
     },
@@ -3593,6 +3614,10 @@
         {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#3-问题定义一句指令不等于一整套计划"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
         }
       ]
     },
@@ -3616,6 +3641,7 @@
         "consistency-policy",
         "octo",
         "mobile-aloha",
+        "umi",
         "ddpm",
         "flore",
         "jam",
@@ -3642,6 +3668,10 @@
         {
           "paper": "holo-m",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#31-统一动作编码208究竟怎么算出来的"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
         }
       ]
     },
@@ -3730,7 +3760,6 @@
       "lit": false,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/retarget.md",
       "papers": [
-        "umi",
         "mimicgen",
         "humanplus",
         "asap",
@@ -4132,6 +4161,7 @@
         "perceptive-loco",
         "rt1",
         "cliport",
+        "umi",
         "humanplus",
         "flore",
         "tops",
@@ -4157,6 +4187,10 @@
         {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
         }
       ]
     },
@@ -4202,6 +4236,10 @@
         {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#1-引言多练一些任务能帮其他任务吗"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
         }
       ]
     },
@@ -4390,6 +4428,7 @@
         "droid",
         "libero",
         "robocasa",
+        "umi",
         "mimicgen",
         "flore",
         "touchbridge",
@@ -4407,6 +4446,10 @@
         {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#4-系统概览数据究竟从哪里来"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#7-野外泛化把杯子带出训练桌"
         }
       ]
     },
@@ -4431,6 +4474,7 @@
         "octo",
         "bridge-v2",
         "droid",
+        "umi",
         "gr00t-n1",
         "egoscale",
         "touchbridge",
@@ -4445,6 +4489,10 @@
         {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实"
+        },
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#61-摆杯视野坐标和跨机械臂"
         }
       ]
     },
@@ -24939,19 +24987,64 @@
       "explainers": []
     },
     {
-      "id": "local:umi:retarget",
-      "key": "retarget",
+      "id": "local:umi:spatial",
+      "key": "spatial",
       "kind": "local",
       "paper": "umi",
-      "canonical": "retarget",
-      "title": "运动重定向",
-      "subtitle": "把人或另一种机器人的运动转换到目标本体的关节、末端与可达范围。",
-      "detail": "相似姿态不自动满足目标机器人的平衡和动力学。",
-      "parent_node": "local:umi:action",
-      "lit": false,
-      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/retarget.md",
+      "canonical": "spatial",
+      "title": "空间表示",
+      "subtitle": "保留像素、点、体素或对象相对位置的表示，让预测能接到几何与动作位置。",
+      "detail": "全局语义向量识别杯子；抓哪里还需要空间接口。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/spatial.md",
       "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#43-pd21相对目标为什么不等于逐步增量"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:generation",
+      "key": "generation",
+      "kind": "local",
+      "paper": "umi",
+      "canonical": "generation",
+      "title": "条件生成",
+      "subtitle": "从一个条件生成多个可能输出，学习图像、视频或动作的分布而非只给一个均值。",
+      "detail": "条件可以是当前图、语言、目标状态或历史。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/generation.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:diffusion",
+      "key": "diffusion",
+      "kind": "local",
+      "paper": "umi",
+      "canonical": "diffusion",
+      "title": "扩散去噪",
+      "subtitle": "训练网络从带噪对象估计噪声或干净目标，生成时从噪声开始迭代恢复样本。",
+      "detail": "扩散采样步骤和机器人环境时间步是两种时间。",
+      "parent_node": "local:umi:generation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/diffusion.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
     },
     {
       "id": "local:umi:action",
@@ -24963,10 +25056,55 @@
       "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
       "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
       "parent_node": "paper:umi",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/action.md",
       "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "umi",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:umi:action",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/chunk.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "umi",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/imitation.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
     },
     {
       "id": "local:umi:bc",
@@ -24977,11 +25115,56 @@
       "title": "行为克隆",
       "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
       "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
-      "parent_node": "paper:umi",
-      "lit": false,
+      "parent_node": "local:umi:imitation",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/bc.md",
       "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "umi",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/data.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#7-野外泛化把杯子带出训练桌"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:cross-body",
+      "key": "cross-body",
+      "kind": "local",
+      "paper": "umi",
+      "canonical": "cross-body",
+      "title": "跨本体数据",
+      "subtitle": "从多个机器人或人类收集经验，通过动作/观测适配接到共享学习系统。",
+      "detail": "共享接口不能消掉本体的物理限制。",
+      "parent_node": "local:umi:data",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/cross-body.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#61-摆杯视野坐标和跨机械臂"
+        }
+      ]
     },
     {
       "id": "local:umi:method-chain",
@@ -24997,6 +25180,966 @@
       "source_url": "https://www.roboticsproceedings.org/rss20/p045.html",
       "locator": "existing source-grounded reading card",
       "explainers": []
+    },
+    {
+      "id": "local:umi:method-interface-gap",
+      "key": "method-interface-gap",
+      "kind": "local",
+      "paper": "umi",
+      "title": "示范数据与可部署数据之间的缺口",
+      "subtitle": "手持工具能采多样动作，但视觉、运动追踪、动作表示和执行时间失配仍可阻止迁移。",
+      "detail": "UMI的贡献在接口组合：它沿用Diffusion Policy，不把更大的网络当作所有失配的通用补丁。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-interface-gap.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§I, pp1–2",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#1-引言没有机器人示范还剩下什么"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-three-data-routes",
+      "key": "method-three-data-routes",
+      "kind": "local",
+      "paper": "umi",
+      "title": "遥操作、被动视频与手持工具",
+      "subtitle": "三条数据路线分别面对场景扩展、动作缺失与迁移精度的问题。",
+      "detail": "手持夹爪限制人的操作方式，使其更像目标机器人末端；普通互联网视频并不因此直接变成UMI训练数据。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-three-data-routes.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§II-A/B/C, pp2–3",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#2-相关工作三条采集路线各缺一块"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-wrist-interface",
+      "key": "method-wrist-interface",
+      "kind": "local",
+      "paper": "umi",
+      "title": "让采集与执行看到相近画面",
+      "subtitle": "相机相对同款软手指的安装位置在手持端和机器人端保持一致。",
+      "detail": "减少观测中的本体差别，同时避免为每个场景布置外部相机；部署仍需机械集成与延迟校准。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-wrist-interface.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD1, p4",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#31-hd1相机跟着夹爪走"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-fisheye",
+      "key": "method-fisheye",
+      "kind": "local",
+      "paper": "umi",
+      "title": "155度鱼眼保留上下文",
+      "subtitle": "策略直接读取原鱼眼图，中央区域保留分辨率，周边压缩以容纳更多场景。",
+      "detail": "把大视角强行转成针孔图会拉伸边缘、压缩中央目标；视觉编码器并非只接一张去畸变窄视图。",
+      "parent_node": "local:umi:method-wrist-interface",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-fisheye.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD2, p4; Fig3, p3",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#32-hd2与hd3鱼眼看周边镜子补视差"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-mirror-stereo",
+      "key": "method-mirror-stereo",
+      "kind": "local",
+      "paper": "umi",
+      "title": "侧镜在单张图内提供隐式立体",
+      "subtitle": "两块镜面等价于不同光心的虚拟相机，为接触和遮挡提供额外视角。",
+      "detail": "策略使用RGB中的镜区线索，没有新增显式深度图或双目深度监督模块。",
+      "parent_node": "local:umi:method-wrist-interface",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-mirror-stereo.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD3, p4; Fig4",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#32-hd2与hd3鱼眼看周边镜子补视差"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-mirror-swap",
+      "key": "method-mirror-swap",
+      "kind": "local",
+      "paper": "umi",
+      "title": "翻转镜区并交换左右",
+      "subtitle": "镜中物体运动方向与直视图相反，预处理对镜区数字反射并交换左右内容。",
+      "detail": "杯子任务不处理镜区17/20、无镜18/20、完整20/20；这说明物理镜面与输入处理需要一起看。",
+      "parent_node": "local:umi:method-mirror-stereo",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-mirror-swap.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD3, p4; §V-A, p8",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#32-hd2与hd3鱼眼看周边镜子补视差"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-visual-inertial",
+      "key": "method-visual-inertial",
+      "kind": "local",
+      "paper": "umi",
+      "title": "视觉与惯性共同恢复轨迹",
+      "subtitle": "GoPro的RGB和内置加速度计、陀螺仪进入visual-inertial SLAM，恢复有公制尺度的相机运动。",
+      "detail": "IMU能短时支撑视觉模糊或纹理不足时的追踪，不能据此宣称任意长时失明也可靠。SLAM用于离线数据处理。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-visual-inertial.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD4, pp4–5",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#33-hd4视频怎样长出以米为单位的轨迹"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-map-initialization",
+      "key": "method-map-initialization",
+      "kind": "local",
+      "paper": "umi",
+      "title": "共享地图是初始化而非冻结地图",
+      "subtitle": "每场景先建图，后续示范重定位到已有地图后继续正常SLAM建图和优化。",
+      "detail": "只锁定地图的localization模式难以应付操作改变物体位置；作者修改的是重定位后的系统行为。",
+      "parent_node": "local:umi:method-visual-inertial",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-map-initialization.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.D, p17",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#33-hd4视频怎样长出以米为单位的轨迹"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-marker-initialization",
+      "key": "method-marker-initialization",
+      "kind": "local",
+      "paper": "umi",
+      "title": "标记辅助建图不进入示范画面",
+      "subtitle": "已知尺寸标记可降低远景、重复图案造成的SLAM初始化歧义。",
+      "detail": "该标记可在建图阶段使用并在正式演示前撤掉；不要把它写成策略运行必须看见的目标标签。",
+      "parent_node": "local:umi:method-map-initialization",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-marker-initialization.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.B, p15; App.D, p17",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#33-hd4视频怎样长出以米为单位的轨迹"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-width",
+      "key": "method-width",
+      "kind": "local",
+      "paper": "umi",
+      "title": "连续夹爪宽度决定松手与接触",
+      "subtitle": "通过视觉标记恢复连续宽度，比仅开关两个状态保留更多操作细节。",
+      "detail": "抛掷需要在合适时间松手；软指压缩又使宽度间接影响抓力，但没有力传感器测量作为策略输入。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-width.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD5, p5",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#34-hd5夹爪宽度要连续接触靠软指"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-compliance",
+      "key": "method-compliance",
+      "kind": "local",
+      "paper": "umi",
+      "title": "软指在末端提供被动顺应",
+      "subtitle": "95A TPU肋状软指在指尖保持结构，同时顺应物体和接触几何。",
+      "detail": "它帮助拧水龙头或从桌面铲起薄衣物；被动形变与主动力矩反馈是不同机制。",
+      "parent_node": "local:umi:method-width",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-compliance.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.F1, p17; FigA3, p18",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#34-hd5夹爪宽度要连续接触靠软指"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-kinematic-filter",
+      "key": "method-kinematic-filter",
+      "kind": "local",
+      "paper": "umi",
+      "title": "采集通用仍需检查目标机器人可达性",
+      "subtitle": "按下游机器人的底座与运动学过滤不可达演示。",
+      "detail": "相对坐标能减少全局标定依赖，却不能让不同臂长、关节限位或速度上限消失。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-kinematic-filter.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD6, p5; §VIII, p11",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#35-hd6人的动作机器人不一定够得着"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-observation-time",
+      "key": "method-observation-time",
+      "kind": "local",
+      "paper": "umi",
+      "title": "按拍摄时刻重新对齐历史",
+      "subtitle": "视觉流通常最迟到达，机器人端按图像真实拍摄时间插值机械臂和夹爪本体观测。",
+      "detail": "这会让各流描述同一过去时刻；它没有降低相机实际传输时间。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-observation-time.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "PD1.1, pp5–6; Fig5",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#41-pd11把各路观测拨到同一个时刻"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-camera-latency",
+      "key": "method-camera-latency",
+      "kind": "local",
+      "paper": "umi",
+      "title": "滚动二维码测相机端到端延迟",
+      "subtitle": "接收时间减二维码显示时间，再减显示刷新延迟，得到相机链路延迟。",
+      "detail": "二维码编码的是全局时间；若不扣除显示器延迟，会把屏幕刷新也算进相机传输。",
+      "parent_node": "local:umi:method-observation-time",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-camera-latency.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.A1, p15; FigA1",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#42-pd12动作算出来还得来得及执行"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-proprio-latency",
+      "key": "method-proprio-latency",
+      "kind": "local",
+      "paper": "umi",
+      "title": "本体延迟区分精确时间与近似测法",
+      "subtitle": "有发送时间的Franka使用接收减发送；缺硬件时间的UR5和夹爪用一半ping往返时间近似。",
+      "detail": "不同设备的测法精度不同，不能把近似单向时延说成每帧精确测量。",
+      "parent_node": "local:umi:method-observation-time",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-proprio-latency.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.A2, p15",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#42-pd12动作算出来还得来得及执行"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-execution-latency",
+      "key": "method-execution-latency",
+      "kind": "local",
+      "paper": "umi",
+      "title": "执行延迟从命令与回读对齐估计",
+      "subtitle": "先对齐期望和实际运动信号得到端到端延迟，再减掉观测延迟。",
+      "detail": "夹爪以正弦宽度命令测量，机器人用遥操作轨迹。臂和夹爪的执行延迟要分别保存。",
+      "parent_node": "local:umi:method-observation-time",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-execution-latency.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.A3/A4, p15",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#42-pd12动作算出来还得来得及执行"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-expired-prefix",
+      "key": "method-expired-prefix",
+      "kind": "local",
+      "paper": "umi",
+      "title": "删除已错过执行时刻的动作前缀",
+      "subtitle": "动作预测从最后图像拍摄时刻开始，观测、推理与执行延迟会消耗一段时间。",
+      "detail": "按硬件检查目标时间，只执行尚未过期部分；不是让机器人补跑所有过去时刻的命令。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-expired-prefix.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "PD1.2, p6; Fig5",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#42-pd12动作算出来还得来得及执行"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-command-ahead",
+      "key": "method-command-ahead",
+      "kind": "local",
+      "paper": "umi",
+      "title": "臂与夹爪提前不同时间发令",
+      "subtitle": "对于相同的期望到达时间，各执行器按自己的执行延迟提前收到命令。",
+      "detail": "抛掷需要臂速度和松手同时吻合；只让网络早点输出不自动解决两个硬件的时间差。",
+      "parent_node": "local:umi:method-expired-prefix",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-command-ahead.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "PD1.2, p6; Fig5",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#42-pd12动作算出来还得来得及执行"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-relative-action",
+      "key": "method-relative-action",
+      "kind": "local",
+      "paper": "umi",
+      "title": "整段未来轨迹共享当前参考帧",
+      "subtitle": "同一次预测内每个未来SE(3)目标都相对当前末端，而不是相对上一步。",
+      "detail": "当前参考位姿的逆乘未来目标得到相对变换；执行时再左乘本轮固定参考位姿恢复机器人目标。4×4是齐次变换形状，不是网络动作维数。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-relative-action.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "PD2.1, p6; Fig6",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#43-pd21相对目标为什么不等于逐步增量"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-relative-history",
+      "key": "method-relative-history",
+      "kind": "local",
+      "paper": "umi",
+      "title": "本体历史也使用相对位姿",
+      "subtitle": "历史末端位姿相对当前末端表达，两个观察时刻提供局部速度信息。",
+      "detail": "这种历史与腕部图像配合减少底座坐标依赖；具体神经网络旋转编码没有从论文补造。",
+      "parent_node": "local:umi:method-relative-action",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-relative-history.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "PD2.2, p6",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#44-pd22与pd23记住刚才也知道另一只手在哪"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-intergripper",
+      "key": "method-intergripper",
+      "kind": "local",
+      "paper": "umi",
+      "title": "双手需要知道彼此在哪里",
+      "subtitle": "两夹爪在同一场景地图中定位，能计算彼此相对位姿并提供给集中策略。",
+      "detail": "相机重叠很少时，这个几何输入仍能支撑两手协调；不用假定两只手始终互相可见。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-intergripper.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "PD2.3, p6",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#44-pd22与pd23记住刚才也知道另一只手在哪"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-diffusion-policy",
+      "key": "method-diffusion-policy",
+      "kind": "local",
+      "paper": "umi",
+      "title": "用条件去噪学习示范动作序列",
+      "subtitle": "UMI使用Diffusion Policy把同步图像与本体历史映射为未来末端和连续夹爪轨迹分布。",
+      "detail": "动作先按噪声等级混合，再由观察条件与带噪动作预测噪声；部署时从噪声逐轮恢复动作块。该损失是标准Diffusion Policy教学展开。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-diffusion-policy.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "§I, p2; §III-B, p5; App.E, p17",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-observation-shapes",
+      "key": "method-observation-shapes",
+      "kind": "local",
+      "paper": "umi",
+      "title": "视图数量与历史长度分别计数",
+      "subtitle": "TableA1单臂一幅、双臂两幅224×224图像；通常图像历史两步、本体两步，野外杯图像仅一步。",
+      "detail": "相机视图数与时间历史不是同一个维度；RGB通道的数学展开可明确为教学表示。",
+      "parent_node": "local:umi:method-diffusion-policy",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-observation-shapes.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "TableA1, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-horizons",
+      "key": "method-horizons",
+      "kind": "local",
+      "paper": "umi",
+      "title": "动作horizon与去噪步数不同",
+      "subtitle": "Table A1列动作执行 horizon T_a=6；训练噪声时间步数50，推理采用16步DDIM去噪。",
+      "detail": "6表示每轮执行窗口，不能据此补造完整动作预测窗口；50与16属于生成器内部噪声时间，不是机器人控制时刻。",
+      "parent_node": "local:umi:method-diffusion-policy",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-horizons.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "TableA1 caption, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-backbones",
+      "key": "method-backbones",
+      "kind": "local",
+      "paper": "umi",
+      "title": "不同任务采用不同视觉编码器",
+      "subtitle": "杯子和洗碗微调CLIP ViT-B，野外杯用ViT-L，抛掷与折衣用ResNet34。",
+      "detail": "CLIP视觉微调学习率为动作扩散模型的十分之一；不能把所有UMI结果说成同一预训练骨干得到。",
+      "parent_node": "local:umi:method-diffusion-policy",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-backbones.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "TableA1, p16; App.E1, p17",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-frequency-speed",
+      "key": "method-frequency-speed",
+      "kind": "local",
+      "paper": "umi",
+      "title": "动态任务保原速，准静态任务放慢",
+      "subtitle": "抛掷采用20Hz并按演示原速执行，其余任务为10Hz并以0.5倍演示速度执行。",
+      "detail": "调的是期望目标的时间间隔，环境采样频率与网络实际推理调用频率也要分开。",
+      "parent_node": "local:umi:method-diffusion-policy",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-frequency-speed.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "TableA1 p16; App.E2/E3 p17",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:method-augmentation",
+      "key": "method-augmentation",
+      "kind": "local",
+      "paper": "umi",
+      "title": "训练视觉扰动覆盖颜色与小位姿变化",
+      "subtitle": "图像增强包括0.95裁切、±5度旋转以及颜色抖动。",
+      "detail": "这些增强加在采集数据之上，不等同于采集到了更多真实地点或更多机器人身体。",
+      "parent_node": "local:umi:method-diffusion-policy",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/method-augmentation.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.E4, p17",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:protocol-initial-states",
+      "key": "protocol-initial-states",
+      "kind": "local",
+      "paper": "umi",
+      "title": "各方法面对人工匹配初态",
+      "subtitle": "窄域实验共享一组手选初态，用第三视角参考图对齐，并先验证机器人可达。",
+      "detail": "测试物体位置来自与训练相近的窄域分布；这部分成功率与野外新场景评估分开。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/protocol-initial-states.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "§IV/V, pp6–7; App.C1, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#5-评估设置每一项成功都得先讲判据"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:protocol-supervision",
+      "key": "protocol-supervision",
+      "kind": "local",
+      "paper": "umi",
+      "title": "实机评测由人持续监督",
+      "subtitle": "安全风险、机器人故障、超时和任务成功都可能终止回合。",
+      "detail": "不同方法在相同任务口径下比较成功率；这些有人监督的回合不等于无人监管持续运行。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/protocol-supervision.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.C2, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#5-评估设置每一项成功都得先讲判据"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-cup",
+      "key": "experiment-cup",
+      "kind": "local",
+      "paper": "umi",
+      "title": "摆杯成功同时约束位置与杯柄方向",
+      "subtitle": "305条示范、2名示范者训练，UR5在20个初态全部成功。",
+      "detail": "杯必须竖直落碟且柄向左±15度；任务成功同时要求位置、朝向和最终接触状态。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-cup.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "§V-A, p7; App.C3, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#61-摆杯视野坐标和跨机械臂"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-cross-arm",
+      "key": "experiment-cross-arm",
+      "kind": "local",
+      "paper": "umi",
+      "title": "同一checkpoint移到另一机械臂",
+      "subtitle": "Franka FR2沿用同一杯子策略，18/20成功，另外2次遇关节限位。",
+      "detail": "观测与动作接口支持迁移，但末端安装、底座位置和机械可达范围仍参与结果。",
+      "parent_node": "local:umi:experiment-cup",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-cross-arm.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§V-A Cross-robot generalization, p7",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#61-摆杯视野坐标和跨机械臂"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-fisheye",
+      "key": "experiment-fisheye",
+      "kind": "local",
+      "paper": "umi",
+      "title": "视野消融通过后处理裁切完成",
+      "subtitle": "把训练图纠正裁成69度视角后，杯子任务11/20，而完整鱼眼20/20。",
+      "detail": "对照并没有真的换装RealSense相机，不能把差异归因于另一硬件的所有成像特性。",
+      "parent_node": "local:umi:experiment-cup",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-fisheye.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§V-A No Fisheye lens, p7",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#61-摆杯视野坐标和跨机械臂"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-action-space",
+      "key": "experiment-action-space",
+      "kind": "local",
+      "paper": "umi",
+      "title": "绝对动作需要额外全局标定",
+      "subtitle": "杯子相对动作20/20，delta16/20，绝对动作5/20。",
+      "detail": "绝对动作偏置可能来自SLAM与机器人坐标标定误差，原实验没有证明任何条件下绝对表示都较差。",
+      "parent_node": "local:umi:experiment-cup",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-action-space.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§V-A, pp7–8; Fig8",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#61-摆杯视野坐标和跨机械臂"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-tossing",
+      "key": "experiment-tossing",
+      "kind": "local",
+      "paper": "umi",
+      "title": "同策略时延补偿改变抛掷成功",
+      "subtitle": "抛掷策略在开启匹配时105/120个物体成功，关闭后69/120。",
+      "detail": "两者使用相同checkpoint；动态任务需同时满足动作速度与夹爪释放时间。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-tossing.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§V-B, pp8–9; Fig8",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#62-抛掷关掉时延匹配多丢了36件"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:protocol-toss-success",
+      "key": "protocol-toss-success",
+      "kind": "local",
+      "paper": "umi",
+      "title": "扔进桶的计数口径",
+      "subtitle": "抛掷按物体计，触到桶底后弹出也算成功，弹回桌面后再次投入仍可计成功。",
+      "detail": "因此87.5%不是120条完整多物体回合全部一次到位的比例。",
+      "parent_node": "local:umi:experiment-tossing",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/protocol-toss-success.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.C3, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#62-抛掷关掉时延匹配多丢了36件"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-bimanual",
+      "key": "experiment-bimanual",
+      "kind": "local",
+      "paper": "umi",
+      "title": "双手相对位姿支持同步抓折",
+      "subtitle": "250条示范训练的双臂集中策略折衣14/20，去掉臂间相对位姿后6/20。",
+      "detail": "消融在训练和测试都去掉该输入；失败常是两臂抓衣角时未能同步。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-bimanual.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§V-C, p9; Fig8",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#63-双手叠衣各管各的还不够"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:protocol-fold-success",
+      "key": "protocol-fold-success",
+      "kind": "local",
+      "paper": "umi",
+      "title": "折衣采用投影形状判定",
+      "subtitle": "成功要求两袖折进，折后近似方形，面积约为衣身四分之一。",
+      "detail": "人工判定允许不完全平整，因此数字表达的是该任务口径下的完成率。",
+      "parent_node": "local:umi:experiment-bimanual",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/protocol-fold-success.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.C3, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#63-双手叠衣各管各的还不够"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-washing",
+      "key": "experiment-washing",
+      "kind": "local",
+      "paper": "umi",
+      "title": "洗碗恢复动作包含在示范中",
+      "subtitle": "258条示范包含额外加酱后恢复清洗，CLIP ViT-B方案14/20成功。",
+      "detail": "这是长程反馈行为学习的证据，但不是测试时从未见过的纠错能力凭空出现。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-washing.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§V-D, pp9–10",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#64-洗碗视觉预训练与恢复示范"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-washing-backbone",
+      "key": "experiment-washing-backbone",
+      "kind": "local",
+      "paper": "umi",
+      "title": "视觉比较同时改变预训练与结构",
+      "subtitle": "洗碗ResNet34从头训练正文报告0/10，CLIP ViT-B微调为14/20。",
+      "detail": "两个分母不同，骨干架构与预训练也同时变化；不能只给Transformer结构单独计功。",
+      "parent_node": "local:umi:experiment-washing",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-washing-backbone.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§V-D, pp9–10; Fig8",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#64-洗碗视觉预训练与恢复示范"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:protocol-cleanliness",
+      "key": "protocol-cleanliness",
+      "kind": "local",
+      "paper": "umi",
+      "title": "干净盘子的操作性定义",
+      "subtitle": "盘子回架且残留酱点小于5毫米被视为成功。",
+      "detail": "海绵从槽边滑落不改变任务成功；原文七步骤描述与最终评估口径不是每步都必须完美。",
+      "parent_node": "local:umi:experiment-washing",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/protocol-cleanliness.md",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "App.C3, p16",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#64-洗碗视觉预训练与恢复示范"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-wild-data",
+      "key": "experiment-wild-data",
+      "kind": "local",
+      "paper": "umi",
+      "title": "把杯子示范搬到三十个地点",
+      "subtitle": "野外杯训练1400条示范，3人共12人时，覆盖30个地点并使用ViT-L视觉骨干。",
+      "detail": "野外采集同时增加数据量和场景多样性；主文记载使用15种训练杯，本文按所读RSS主文叙述。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-wild-data.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§VI, p10",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#7-野外泛化把杯子带出训练桌"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-wild-eval",
+      "key": "experiment-wild-eval",
+      "kind": "local",
+      "paper": "umi",
+      "title": "两个未见环境的六十次评估",
+      "subtitle": "咖啡桌22/35、喷泉21/25，合计43/60即71.7%。",
+      "detail": "其中训练过的杯在新场景28/40，新杯15/20；两类泛化条件分开看才知道物体与场景分别变了什么。",
+      "parent_node": "local:umi:experiment-wild-data",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-wild-eval.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§VI, p10; Fig9, p9",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#7-野外泛化把杯子带出训练桌"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-wild-baseline",
+      "key": "experiment-wild-baseline",
+      "kind": "local",
+      "paper": "umi",
+      "title": "同骨干仍需要足够丰富的数据",
+      "subtitle": "窄域305条示范训练的同ViT骨干在两新环境各0/10。",
+      "detail": "与1400条野外示范相比，样本量和场景覆盖同时变化，尚不能隔离出只增加地点数的收益。",
+      "parent_node": "local:umi:experiment-wild-data",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-wild-baseline.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§VI No in-the-wild data, p10; Fig9",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#7-野外泛化把杯子带出训练桌"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-throughput",
+      "key": "experiment-throughput",
+      "kind": "local",
+      "paper": "umi",
+      "title": "采集吞吐把重置与故障一起计时",
+      "subtitle": "同操作者每方法15分钟，杯子UMI比SpaceMouse快超过3倍，速度约为徒手48%。",
+      "detail": "抛掷达到徒手64%，SpaceMouse时段内无成功示范；图11绝对数量的柱顶与轴存在歧义，采用正文比例。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-throughput.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§VII, pp10–11; Fig11",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#81-十五分钟里真正留下多少示范"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:experiment-tracking",
+      "key": "experiment-tracking",
+      "kind": "local",
+      "paper": "umi",
+      "title": "轨迹均值精度由MoCap对照测量",
+      "subtitle": "7个单手和7个双手任务中，单夹爪ATE为6.1毫米和3.5度，夹爪间RPE为10.1毫米和0.8度。",
+      "detail": "这是不同指标的平均误差，不是所有样本低于一厘米，也不是策略执行成功率。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/experiment-tracking.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§VII Accuracy, p11; Fig12",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#82-六毫米的平均误差意味着什么"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:limit-texture",
+      "key": "limit-texture",
+      "kind": "local",
+      "paper": "umi",
+      "title": "低纹理仍会削弱离线动作恢复",
+      "subtitle": "视觉惯性追踪仍继承视觉SLAM对环境纹理的需求。",
+      "detail": "纹理不足、模糊与遮挡会削弱动作标签质量；采集能进入新场景，还需要可靠恢复轨迹。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/limit-texture.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§VIII, p11",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#9-局限采集自由之后的约束"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:limit-ergonomics",
+      "key": "limit-ergonomics",
+      "kind": "local",
+      "paper": "umi",
+      "title": "夹爪重量与自由度限制采集效率",
+      "subtitle": "手持器比徒手笨重且自由度少，所以即便快过SpaceMouse仍慢于裸手示范。",
+      "detail": "平行夹爪限制人的接触方式，却也让采集动作更接近机器人末端；采集自由与可迁移性存在取舍。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/limit-ergonomics.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "§VIII, p11",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#9-局限采集自由之后的约束"
+        }
+      ]
+    },
+    {
+      "id": "local:umi:limit-interface-generality",
+      "key": "limit-interface-generality",
+      "kind": "local",
+      "paper": "umi",
+      "title": "接口通用不消除身体约束",
+      "subtitle": "复用相对末端表示与相机视角帮助跨臂迁移，但运动学、安装与动力学仍约束可执行动作。",
+      "detail": "把数据带到更多场景与让任意身体执行任意动作是两件事，论文通过过滤和匹配接口解决前者的一部分。",
+      "parent_node": "paper:umi",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/umi/limit-interface-generality.md",
+      "source_url": "https://www.roboticsproceedings.org/rss20/p045.pdf",
+      "locator": "HD6, p5; §VIII/IX, p11",
+      "explainers": [
+        {
+          "paper": "umi",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#9-局限采集自由之后的约束"
+        }
+      ]
     },
     {
       "id": "local:unipi:video",
@@ -26907,6 +28050,24 @@
       "explanation": "引言将RMA列为已迁移到物理机器人的强化学习腿足方法之一；此关系表示原文引用，方法采用仍须另有证据。",
       "source_url": "https://leggedrobotics.github.io/rl-perceptiveloco/assets/pdf/wild_anymal.pdf",
       "locator": "§1, p3, reference[39]; bibliography p15"
+    },
+    {
+      "from": "paper:umi",
+      "to": "paper:diffusion-policy",
+      "kind": "uses",
+      "lit": true,
+      "explanation": "UMI所有任务使用Diffusion Policy生成条件动作轨迹，并在附录列出视觉编码器、频率、速度和增强调整。",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "§III-B p5; App.E pp16–17; bibliography reference[9]"
+    },
+    {
+      "from": "paper:umi",
+      "to": "paper:clip",
+      "kind": "uses",
+      "lit": true,
+      "explanation": "UMI的杯子和洗碗策略微调CLIP预训练ViT视觉编码器；抛掷与折衣使用ResNet，不能将全部任务混称CLIP策略。",
+      "source_url": "https://umi-gripper.github.io/umi.pdf",
+      "locator": "TableA1 p16; App.E1 p17; RSS §V-D p9 and reference[29] p13"
     },
     {
       "from": "paper:act",
@@ -36707,46 +37868,406 @@
       "lit": false
     },
     {
-      "from": "local:umi:action",
-      "to": "local:umi:retarget",
+      "from": "paper:umi",
+      "to": "local:umi:spatial",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "local:umi:retarget",
-      "to": "concept:retarget",
+      "from": "local:umi:spatial",
+      "to": "concept:spatial",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:generation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:generation",
+      "to": "concept:generation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:umi:generation",
+      "to": "local:umi:diffusion",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:diffusion",
+      "to": "concept:diffusion",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:umi",
       "to": "local:umi:action",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:umi:action",
       "to": "concept:action",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "local:umi:action",
+      "to": "local:umi:chunk",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:umi",
+      "to": "local:umi:imitation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:umi:imitation",
       "to": "local:umi:bc",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:umi:bc",
       "to": "concept:bc",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:data",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:umi:data",
+      "to": "local:umi:cross-body",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:cross-body",
+      "to": "concept:cross-body",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:umi",
       "to": "local:umi:method-chain",
       "kind": "contains",
       "lit": false
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-interface-gap",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-three-data-routes",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-wrist-interface",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-wrist-interface",
+      "to": "local:umi:method-fisheye",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-wrist-interface",
+      "to": "local:umi:method-mirror-stereo",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-mirror-stereo",
+      "to": "local:umi:method-mirror-swap",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-visual-inertial",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-visual-inertial",
+      "to": "local:umi:method-map-initialization",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-map-initialization",
+      "to": "local:umi:method-marker-initialization",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-width",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-width",
+      "to": "local:umi:method-compliance",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-kinematic-filter",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-observation-time",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-observation-time",
+      "to": "local:umi:method-camera-latency",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-observation-time",
+      "to": "local:umi:method-proprio-latency",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-observation-time",
+      "to": "local:umi:method-execution-latency",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-expired-prefix",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-expired-prefix",
+      "to": "local:umi:method-command-ahead",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-relative-action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-relative-action",
+      "to": "local:umi:method-relative-history",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-intergripper",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:method-diffusion-policy",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-diffusion-policy",
+      "to": "local:umi:method-observation-shapes",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-diffusion-policy",
+      "to": "local:umi:method-horizons",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-diffusion-policy",
+      "to": "local:umi:method-backbones",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-diffusion-policy",
+      "to": "local:umi:method-frequency-speed",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:method-diffusion-policy",
+      "to": "local:umi:method-augmentation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:protocol-initial-states",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:protocol-supervision",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:experiment-cup",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-cup",
+      "to": "local:umi:experiment-cross-arm",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-cup",
+      "to": "local:umi:experiment-fisheye",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-cup",
+      "to": "local:umi:experiment-action-space",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:experiment-tossing",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-tossing",
+      "to": "local:umi:protocol-toss-success",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:experiment-bimanual",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-bimanual",
+      "to": "local:umi:protocol-fold-success",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:experiment-washing",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-washing",
+      "to": "local:umi:experiment-washing-backbone",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-washing",
+      "to": "local:umi:protocol-cleanliness",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:experiment-wild-data",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-wild-data",
+      "to": "local:umi:experiment-wild-eval",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:umi:experiment-wild-data",
+      "to": "local:umi:experiment-wild-baseline",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:experiment-throughput",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:experiment-tracking",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:limit-texture",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:limit-ergonomics",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:umi",
+      "to": "local:umi:limit-interface-generality",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:unipi",
@@ -37678,9 +39199,9 @@
   "stats": {
     "papers": 127,
     "concepts": 59,
-    "local_topics": 1271,
-    "lit_papers": 21,
+    "local_topics": 1325,
+    "lit_papers": 22,
     "lit_concepts": 46,
-    "lit_local_topics": 585
+    "lit_local_topics": 642
   }
 }

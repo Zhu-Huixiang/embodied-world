@@ -18,6 +18,7 @@
 - [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标)
 - [SAM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam-2304.02643/README.md#31-a-区大图压成一张可反复查询的特征地图)
 - [SAM 2：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/sam2-2408.00714/README.md#41-a-区一张图先变成多尺度特征)
+- [UMI：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#43-pd21相对目标为什么不等于逐步增量)
 - [ViT：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/vit-2010.11929/README.md#45-检查内部位置表有没有学出附近)
 
 ## 哪些论文用到或讨论它
@@ -28,6 +29,7 @@
 - [PerAct](../papers/peract.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/shridhar23a.html)
 - [RVT](../papers/rvt.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/goyal23a.html)
 - [RVT-2](../papers/rvt2.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p055.html)
+- [UMI](../papers/umi.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
 - [Transporter](../papers/transporter.md) · 机制导读 · [原文](https://proceedings.mlr.press/v155/zeng21a.html)
 - [ANYmal Parkour](../papers/anymal-parkour.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.adi7566)
 - [ViT](../papers/vit.md) · 已精讲 · [原文](https://iclr.cc/virtual/2021/poster/3013)

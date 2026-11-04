@@ -10,6 +10,7 @@
 
 - [Holo-M：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#32-vlm-骨干c区到底往模型里塞了什么)
 - [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#63-仿真数据能不能搬到现实)
+- [UMI：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#61-摆杯视野坐标和跨机械臂)
 
 ## 哪些论文用到或讨论它
 
@@ -22,6 +23,7 @@
 - [Octo](../papers/octo.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p090.html)
 - [BridgeData V2](../papers/bridge-v2.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/walke23a.html)
 - [DROID](../papers/droid.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p120.html)
+- [UMI](../papers/umi.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
 - [GR00T N1](../papers/gr00t-n1.md) · 机制导读 · [原文](https://arxiv.org/abs/2503.14734)
 - [EgoScale](../papers/egoscale.md) · 机制导读 · [原文](https://arxiv.org/abs/2602.16710)
 - [TouchBridge](../papers/touchbridge.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40349v1)

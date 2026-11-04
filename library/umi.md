@@ -24,7 +24,7 @@ RSS 2024。项目标注 Best Systems Paper finalist，仅写 finalist，不写�
 
 具身关联：低成本场外采集与可部署机器人策略接口的代表系统，关键设计都有明确动态/双臂实验落点。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/umi-2402.10329/README.md)
 
 [知识星系](../universe/papers/umi.md) · [七维评分与雷达](../leaderboard/papers/umi/README.md) · [RSS集锦](../venues/RSS/README.md) · [地图方向](../paper-map/README.md#track-manipulation) · [首页](../README.md)
 

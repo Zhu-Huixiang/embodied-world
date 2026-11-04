@@ -1,0 +1,7 @@
+% UMI teaching equation. Source and scope recorded in manifest/equation-specs.json.
+\documentclass[border=7pt]{standalone}
+\usepackage{amsmath,amssymb,xcolor}
+\definecolor{ink}{HTML}{203340}
+\begin{document}\color{ink}
+$\displaystyle \begin{aligned}\ell_{\mathrm{cam}}&=t_{\mathrm{recv}}-t_{\mathrm{display}}-\ell_{\mathrm{display}}\\ \ell_{\mathrm{obs}}&=t_{\mathrm{recv}}-t_{\mathrm{robot}}\\ \ell_{\mathrm{act}}&=\ell_{\mathrm{e2e}}-\ell_{\mathrm{obs}}\\ t_{\mathrm{act}}&=t_{\mathrm{output}}+\ell_{\mathrm{act}}\\ t_{\mathrm{desired}}&>t_{\mathrm{act}}\\ t_{\mathrm{send}}&=t_{\mathrm{desired}}-\ell_{\mathrm{act}}\end{aligned}$
+\end{document}

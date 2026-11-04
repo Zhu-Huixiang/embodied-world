@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-127 篇论文是恒星，各自有自己的知识行星与卫星：共 1271 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 21 篇有完整解读，585 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+127 篇论文是恒星，各自有自己的知识行星与卫星：共 1325 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 22 篇有完整解读，642 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -126,7 +126,7 @@
 | [TouchBridge](papers/touchbridge.md) | 导读 | [运动重定向](concepts/retarget.md) · [跨本体数据](concepts/cross-body.md) · [示范模仿](concepts/imitation.md) · [行为克隆](concepts/bc.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) · [机器人数据与评测](concepts/data.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [Trajectory Transformer](papers/trajectory-transformer.md) | 导读 | [因果序列建模](concepts/causal.md) · [离散编码与量化](concepts/quantization.md) · [树搜索与轨迹搜索](concepts/search.md) |
 | [Transporter](papers/transporter.md) | 导读 | [空间表示](concepts/spatial.md) · [行为克隆](concepts/bc.md) · [动作表示](concepts/action.md) |
-| [UMI](papers/umi.md) | 导读 | [运动重定向](concepts/retarget.md) · [动作表示](concepts/action.md) · [行为克隆](concepts/bc.md) |
+| [UMI](papers/umi.md) | 已精讲 | [空间表示](concepts/spatial.md) · [条件生成](concepts/generation.md) · [扩散去噪](concepts/diffusion.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) · [示范模仿](concepts/imitation.md) · [行为克隆](concepts/bc.md) · [机器人数据与评测](concepts/data.md) · [跨本体数据](concepts/cross-body.md) |
 | [UniPi](papers/unipi.md) | 导读 | [视频时序生成](concepts/video.md) · [逆动力学](concepts/inverse.md) · [扩散去噪](concepts/diffusion.md) |
 | [VC-1](papers/vc1.md) | 导读 | [遮蔽预测](concepts/masking.md) · [视觉 patch token](concepts/patches.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [Video Diffusion](papers/video-diffusion.md) | 导读 | [视频时序生成](concepts/video.md) · [扩散去噪](concepts/diffusion.md) · [注意力](concepts/attention.md) |

@@ -2,7 +2,7 @@
 
 **UMI** · RSS 2024 · 本版排名 21 · 综合分 **90.5 / 100**
 
-[解读导读](../../../library/umi.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
+[完整解读](../../../articles/umi-2402.10329/README.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [RSS集锦](../../../venues/RSS/README.md)
 
 [知识星系](../../../universe/papers/umi.md) · [原文](https://www.roboticsproceedings.org/rss20/p045.html) · [PDF](https://www.roboticsproceedings.org/rss20/p045.pdf) · [阅读卡片](../../../library/umi.md)
 

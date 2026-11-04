@@ -83,4 +83,6 @@ Learning Transferable Visual Models From Natural Language Supervision
 
 - [CLIPort](cliport.md) → [CLIP](clip.md)：CLIPort 冻结 CLIP 提供语义特征，融合保留空间结构的分支。 [原文定位](https://proceedings.mlr.press/v164/shridhar22a.html)（CLIPort §4.2 semantic stream; CLIP article §8, evidence C21）。
 
+- [UMI](umi.md) → [CLIP](clip.md)：UMI的杯子和洗碗策略微调CLIP预训练ViT视觉编码器；抛掷与折衣使用ResNet，不能将全部任务混称CLIP策略。 [原文定位](https://umi-gripper.github.io/umi.pdf)（TableA1 p16; App.E1 p17; RSS §V-D p9 and reference[29] p13）。
+
 [宇宙目录](../README.md) · [论文地图](../../paper-map/README.md) · [具身榜](../../leaderboard/README.md)

@@ -1,0 +1,63 @@
+% !TEX program = xelatex
+% UMI RSS 2024 PD1 pp.5-6 and Fig.5, project appendix A1-A4.
+% Timeline positions are explanatory (not measured numbers, not proportional scale).
+\documentclass[tikz,border=0bp]{standalone}
+\usepackage{lmodern}
+\usepackage{fontspec,xeCJK,amsmath,amssymb,graphicx}
+\setsansfont{Arial}
+\setCJKmainfont[Path=/System/Library/Fonts/,BoldFont={STHeiti Medium.ttc}]{STHeiti Light.ttc}
+\setCJKsansfont[Path=/System/Library/Fonts/,BoldFont={STHeiti Medium.ttc}]{STHeiti Light.ttc}
+\renewcommand{\familydefault}{\sfdefault}
+\usetikzlibrary{arrows.meta,calc}
+\definecolor{ink}{HTML}{173646}\definecolor{teal}{HTML}{167D81}\definecolor{amber}{HTML}{AD7425}\definecolor{navy}{HTML}{314976}\definecolor{pale}{HTML}{F2F8F7}\definecolor{warm}{HTML}{FFF7E9}
+\tikzset{txt/.style={text=ink,font=\fontsize{14}{18}\selectfont,align=center,inner sep=0},hd/.style={txt,font=\bfseries\fontsize{17}{21}\selectfont},sm/.style={txt,font=\fontsize{13.5}{17}\selectfont},a/.style={-{Stealth[length=5bp,width=4bp]},line width=1.3bp,draw=teal,rounded corners=3bp},axis/.style={-{Stealth[length=4bp,width=3bp]},line width=.9bp,draw=ink},box/.style={rounded corners=8bp,line width=.9bp}}
+\newcommand{\txt}[4]{\node[txt,text width=#3bp]at(#1,#2){#4};}
+\newcommand{\smalltxt}[4]{\node[sm,text width=#3bp]at(#1,#2){#4};}
+\newcommand{\head}[4]{\node[hd,text width=#3bp]at(#1,#2){#4};}
+\begin{document}
+\begin{tikzpicture}[x=1bp,y=-1bp]
+\path[use as bounding box](0,0)rectangle(340,690);\fill[white](0,0)rectangle(340,690);
+\head{170}{19}{330}{D 时延：观测对齐，目标同时到达}
+\draw[box,draw=teal!50,fill=pale](10,44)rectangle(330,239);
+\head{170}{66}{300}{1. 先把历史对齐到拍摄时刻}
+\smalltxt{110}{96}{100}{拍摄 $t_{\mathrm{obs}}$}
+\smalltxt{267}{96}{105}{图像到达}
+\draw[axis](34,121)--(314,121);
+\fill[teal](110,121)circle(3bp);\fill[teal](267,121)circle(3bp);
+\draw[teal,dashed](110,104)--(110,192);
+\draw[a](119,112)--(258,112);
+\smalltxt{189}{142}{150}{相机传输延迟}
+\draw[axis](34,171)--(314,171);
+\foreach \x in{56,92,128,164,200,236,272}{\fill[ink!55](\x,171)circle(2.2bp);}
+\fill[teal](110,171)circle(3.8bp);
+\smalltxt{170}{195}{300}{臂 / 夹爪历史反馈插值到 $t_{\mathrm{obs}}$}
+\smalltxt{170}{222}{300}{图像与本体 → 同时刻的条件 $c$}
+\draw[a](170,239)--(170,255);
+\draw[box,draw=amber!50,fill=warm](10,259)rectangle(330,396);
+\head{170}{281}{300}{2. 预测从 $t_{\mathrm{obs}}$ 起的未来}
+\draw[axis](35,325)--(312,325);
+\foreach \x in{49,82,115,148}{\fill[amber](\x,325)circle(3bp);\draw[amber,line width=1.2bp](\x-4,319)--(\x+4,331);}
+\foreach \x in{181,214,247,280}{\fill[teal](\x,325)circle(3bp);}
+\smalltxt{96}{307}{122}{来不及到达}
+\smalltxt{235}{307}{115}{可执行目标}
+\smalltxt{170}{352}{302}{按各硬件时延分别丢弃过期目标}
+\smalltxt{170}{380}{300}{推理耗时也计入“来不来得及”}
+\draw[a](170,396)--(170,412);
+\draw[box,draw=navy!50,fill=pale](10,416)rectangle(330,672);
+\head{170}{438}{300}{3. 臂与夹爪分别提前发送}
+\smalltxt{283}{470}{80}{共同到达 $t^*$}
+\draw[navy,dashed,line width=1bp](283,486)--(283,591);
+\smalltxt{49}{509}{60}{机械臂}
+\draw[axis](85,526)--(316,526);
+\fill[teal](180,526)circle(3bp);\fill[navy](283,526)circle(3bp);
+\draw[a](184,517)--(279,517);
+\smalltxt{180}{490}{126}{发送 $t^*-\ell_{\mathrm{arm}}$}
+\smalltxt{49}{575}{60}{夹爪}
+\draw[axis](85,592)--(316,592);
+\fill[teal](135,592)circle(3bp);\fill[navy](283,592)circle(3bp);
+\draw[a](139,583)--(279,583);
+\smalltxt{141}{556}{130}{发送 $t^*-\ell_{\mathrm{grip}}$}
+\smalltxt{170}{622}{300}{$\ell_h$：硬件 $h$ 的实测执行延迟}
+\smalltxt{170}{650}{302}{更慢的硬件更早收到指令}
+\end{tikzpicture}
+\end{document}

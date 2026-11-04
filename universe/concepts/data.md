@@ -10,6 +10,7 @@
 
 - [Diffusion Policy：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#vi-realworld-evaluation到了桌上还能不能顺手)
 - [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#4-系统概览数据究竟从哪里来)
+- [UMI：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#7-野外泛化把杯子带出训练桌)
 
 ## 哪些论文用到或讨论它
 
@@ -20,6 +21,7 @@
 - [DROID](../papers/droid.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p120.html)
 - [LIBERO](../papers/libero.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract.html)
 - [RoboCasa](../papers/robocasa.md) · 机制导读 · [原文](https://roboticsproceedings.org/rss20/p050.html)
+- [UMI](../papers/umi.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
 - [MimicGen](../papers/mimicgen.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/mandlekar23a.html)
 - [FLoRe](../papers/flore.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35862v1)
 - [TouchBridge](../papers/touchbridge.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40349v1)

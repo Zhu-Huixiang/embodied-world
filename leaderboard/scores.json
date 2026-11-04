@@ -9447,8 +9447,8 @@
         "venue_label": "RSS",
         "venue_key": "RSS",
         "venue_path": "venues/RSS/README.md",
-        "reading_path": "library/umi.md",
-        "reading_status": "解读导读",
+        "reading_path": "articles/umi-2402.10329/README.md",
+        "reading_status": "完整解读",
         "universe_path": "universe/papers/umi.md",
         "card_path": "leaderboard/papers/umi/README.md"
       },

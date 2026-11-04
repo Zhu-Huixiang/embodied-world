@@ -126,7 +126,7 @@
 | [LIBERO](../library/libero.md) · [NeurIPS 2023](../venues/NeurIPS/README.md) | 一个机器人顺序学新任务时，究竟迁移的是物体概念、动作技能，还是两者的组合？ |
 | [RoboCasa](../library/robocasa.md) · [RSS 2024](../venues/RSS/README.md) | 真实数据太贵，家居仿真的场景、任务与示范各要扩到什么程度才有用？ |
 | [Mobile ALOHA](../library/mobile-aloha.md) · [CoRL 2024](../venues/CoRL/README.md) | 桌面双臂经验为什么能帮会移动的机器人做饭、开柜子和坐电梯？ |
-| [Universal Manipulation Interface](../library/umi.md) · [RSS 2024](../venues/RSS/README.md) | 拿手持夹爪采示范，怎样跨过人类手速、机器人延迟和坐标系之间的鸿沟？ |
+| [Universal Manipulation Interface](../articles/umi-2402.10329/README.md) · [RSS 2024](../venues/RSS/README.md) | 拿手持夹爪采示范，怎样跨过人类手速、机器人延迟和坐标系之间的鸿沟？ |
 | [MimicGen](../library/mimicgen.md) · [CoRL 2023](../venues/CoRL/README.md) | 把十条示范扩成上千条，什么时候是有用的新数据，什么时候只是机械复制？ |
 | [Behavior Generation with Latent Actions](../library/vq-bet.md) · [ICML 2024](../venues/ICML/README.md) | 动作先压成分层离散码，能否保留多种操作方式，同时省掉扩散反复采样？ |
 | [Transporter Networks](../library/transporter.md) · [CoRL 2020](../venues/CoRL/README.md) | 操作物体不一定要先识别物体？空间特征之间的匹配怎么直接长出动作？ |

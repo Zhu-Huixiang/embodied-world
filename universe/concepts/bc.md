@@ -11,6 +11,7 @@
 - [ACT / ALOHA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏)
 - [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境)
 - [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#1-引言多练一些任务能帮其他任务吗)
+- [UMI：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/umi-2402.10329/README.md#45-接上diffusion-policy观察怎样变成一段动作)
 
 ## 哪些论文用到或讨论它
 
@@ -24,7 +25,7 @@
 - [RoboCasa](../papers/robocasa.md) · 机制导读 · [原文](https://roboticsproceedings.org/rss20/p050.html)
 - [Mobile ALOHA](../papers/mobile-aloha.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/fu25b.html)
 - [R3M](../papers/r3m.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/nair23a.html)
-- [UMI](../papers/umi.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
+- [UMI](../papers/umi.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
 - [MimicGen](../papers/mimicgen.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/mandlekar23a.html)
 - [Transporter](../papers/transporter.md) · 机制导读 · [原文](https://proceedings.mlr.press/v155/zeng21a.html)
 - [IQL](../papers/iql.md) · 机制导读 · [原文](https://iclr.cc/virtual/2022/poster/5941)

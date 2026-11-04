@@ -8,7 +8,6 @@
 
 ## 哪些论文用到或讨论它
 
-- [UMI](../papers/umi.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)
 - [MimicGen](../papers/mimicgen.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/mandlekar23a.html)
 - [HumanPlus](../papers/humanplus.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/fu25a.html)
 - [ASAP](../papers/asap.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss21/p066.html)
