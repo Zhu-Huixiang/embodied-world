@@ -365,13 +365,18 @@
       "subtitle": "Conservative Q-Learning for Offline Reinforcement Learning",
       "track": "reinforcement-learning",
       "track_label": "强化学习与离线决策",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/cql.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md",
       "concepts": [
         "offline",
         "value",
-        "actor-critic"
+        "actor-critic",
+        "softmax",
+        "rl",
+        "data",
+        "benchmark",
+        "bc"
       ],
       "scope": "mechanism",
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html"
@@ -2837,6 +2842,7 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/softmax.md",
       "papers": [
+        "cql",
         "attention",
         "clip",
         "dino",
@@ -2850,6 +2856,10 @@
         {
           "paper": "clip",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/clip-2103.00020/README.md#22-训练目标完整写一句话负担有点重"
+        },
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
         },
         {
           "paper": "dino",
@@ -4071,6 +4081,7 @@
         "dreamerv3",
         "vip",
         "muzero",
+        "cql",
         "deep-whole-body-control",
         "isaac-gym",
         "diffcontact",
@@ -4079,6 +4090,10 @@
         "balanced-data-diet"
       ],
       "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#2-预备知识高估如何钻进-bellman-目标"
+        },
         {
           "paper": "dreamerv3",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风"
@@ -4121,6 +4136,10 @@
       ],
       "explainers": [
         {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#41-图-d-怎样接住修正后的-q"
+        },
+        {
           "paper": "dreamerv3",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石"
         }
@@ -4135,7 +4154,7 @@
       "detail": "数据覆盖与值函数外推决定策略是否敢选不可靠动作。",
       "parent": "rl",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/offline.md",
       "papers": [
         "robomimic",
@@ -4146,7 +4165,12 @@
         "cql",
         "world2vec"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#1-引言封存的数据开放的动作想象"
+        }
+      ]
     },
     {
       "id": "concept:value",
@@ -4172,6 +4196,10 @@
         "dreamtrue"
       ],
       "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        },
         {
           "paper": "muzero",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络"
@@ -4286,6 +4314,7 @@
         "transporter",
         "iql",
         "td3-bc",
+        "cql",
         "touchbridge",
         "cr-dagger"
       ],
@@ -4293,6 +4322,10 @@
         {
           "paper": "act",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        },
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#5-相关工作限制策略还是修正评分"
         },
         {
           "paper": "perceptive-loco",
@@ -4495,6 +4528,7 @@
         "robocasa",
         "umi",
         "mimicgen",
+        "cql",
         "flore",
         "touchbridge",
         "jedi",
@@ -4506,6 +4540,10 @@
         "balanced-data-diet"
       ],
       "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#61-gym收益很大但不是逐行第一"
+        },
         {
           "paper": "diffusion-policy",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#vi-realworld-evaluation到了桌上还能不能顺手"
@@ -4582,6 +4620,7 @@
         "libero",
         "robocasa",
         "vc1",
+        "cql",
         "dinov2",
         "sam2",
         "jam",
@@ -4595,6 +4634,10 @@
         "dreamfree"
       ],
       "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#61-gym收益很大但不是逐行第一"
+        },
         {
           "paper": "dinov2",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dinov2-2304.07193/README.md#71-imagenet-与分布变化"
@@ -7572,11 +7615,16 @@
       "title": "离线强化学习",
       "subtitle": "从已有轨迹学习决策，训练时不能自由去环境补齐数据外动作的后果。",
       "detail": "数据覆盖与值函数外推决定策略是否敢选不可靠动作。",
-      "parent_node": "paper:cql",
-      "lit": false,
+      "parent_node": "local:cql:rl",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/offline.md",
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#1-引言封存的数据开放的动作想象"
+        }
+      ]
     },
     {
       "id": "local:cql:value",
@@ -7588,10 +7636,15 @@
       "subtitle": "估计未来累积收益，再用保守、分位或参考价值等约束减少误导。",
       "detail": "IQL 的 expectile、CQL 的保守项、Cal-QL 的校准目标各有对象。",
       "parent_node": "local:cql:offline",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/value.md",
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        }
+      ]
     },
     {
       "id": "local:cql:actor-critic",
@@ -7602,11 +7655,116 @@
       "title": "策略与价值学习",
       "subtitle": "actor 产生动作，critic 估计长期收益；价值估计为策略改进提供方向。",
       "detail": "在真实或想象轨迹上训练，会面对不同的误差来源。",
-      "parent_node": "paper:cql",
-      "lit": false,
+      "parent_node": "local:cql:rl",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/actor-critic.md",
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#41-图-d-怎样接住修正后的-q"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:softmax",
+      "key": "softmax",
+      "kind": "local",
+      "paper": "cql",
+      "canonical": "softmax",
+      "title": "softmax 与温度",
+      "subtitle": "对候选分数取指数后归一化为总和为 1 的概率。温度控制分差如何影响概率。",
+      "detail": "温度改变概率集中程度；候选集合也会改变概率分母。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/softmax.md",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "cql",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/rl.md",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#2-预备知识高估如何钻进-bellman-目标"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "cql",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/data.md",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#61-gym收益很大但不是逐行第一"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "cql",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "local:cql:data",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/benchmark.md",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#61-gym收益很大但不是逐行第一"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:bc",
+      "key": "bc",
+      "kind": "local",
+      "paper": "cql",
+      "canonical": "bc",
+      "title": "行为克隆",
+      "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
+      "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/bc.md",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#5-相关工作限制策略还是修正评分"
+        }
+      ]
     },
     {
       "id": "local:cql:method-chain",
@@ -7622,6 +7780,746 @@
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
       "locator": "existing source-grounded reading card",
       "explainers": []
+    },
+    {
+      "id": "local:cql:offline-fixed-data",
+      "key": "offline-fixed-data",
+      "kind": "local",
+      "paper": "cql",
+      "title": "固定数据里的策略改进",
+      "subtitle": "只用历史状态动作奖励转移训练策略，学习过程中不追加环境交互。",
+      "detail": "离线仍能进行许多梯度更新和候选动作查询，但不能把这些查询当成新试验。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/offline-fixed-data.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§1 pp1–2; §2 p2",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#1-引言封存的数据开放的动作想象"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:bootstrap-ood-loop",
+      "key": "bootstrap-ood-loop",
+      "kind": "local",
+      "paper": "cql",
+      "title": "虚高估值的自举反馈",
+      "subtitle": "Q在数据动作上回归，却在目标策略动作上自举，策略又追逐高Q。",
+      "detail": "两次分布不同形成错误的放大回路；在线交互可纠错，离线固定数据失去这条反馈。",
+      "parent_node": "local:cql:offline-fixed-data",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/bootstrap-ood-loop.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§2 p2",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#2-预备知识高估如何钻进-bellman-目标"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:state-action-shift",
+      "key": "state-action-shift",
+      "kind": "local",
+      "paper": "cql",
+      "title": "训练动作偏移与执行状态偏移",
+      "subtitle": "训练目标查询数据所见状态中的候选动作，运行时仍可能进入偏移状态。",
+      "detail": "CQL惩罚不能自动覆盖所有未见状态，也不提供环境探索。",
+      "parent_node": "local:cql:offline-fixed-data",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/state-action-shift.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§2 last paragraph p2",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#2-预备知识高估如何钻进-bellman-目标"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:bellman-target",
+      "key": "bellman-target",
+      "kind": "local",
+      "paper": "cql",
+      "title": "奖励与旧Q组成回归目标",
+      "subtitle": "Bellman备份把即时奖励与折扣后继策略价值组合成critic的训练目标。",
+      "detail": "目标动作来自当前策略，目标值来自旧Q；它不是来自新增环境执行。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/bellman-target.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§2 p2; Alg1 p6",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#2-预备知识高估如何钻进-bellman-目标"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:policy-evaluation-improvement",
+      "key": "policy-evaluation-improvement",
+      "kind": "local",
+      "paper": "cql",
+      "title": "策略评估与策略改进交替",
+      "subtitle": "critic估计策略回报，actor提高高价值动作的概率。",
+      "detail": "保守校准进入critic目标，随后通过actor的Q目标影响选择。",
+      "parent_node": "local:cql:bellman-target",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/policy-evaluation-improvement.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§2 p2; §4 Alg1 p6",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#41-图-d-怎样接住修正后的-q"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:eq1-pessimism",
+      "key": "eq1-pessimism",
+      "kind": "local",
+      "paper": "cql",
+      "title": "Eq1：候选动作整体受压",
+      "subtitle": "在Bellman误差上增加候选分布下Q期望的最小化。",
+      "detail": "候选分布也可能包含数据里的好动作；全部下压易损失价值尺度，因此下一步加入数据支撑项。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/eq1-pessimism.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Eq1/Theorem3.1 p3; App.C Eq9 printed17",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:eq2-data-support",
+      "key": "eq2-data-support",
+      "kind": "local",
+      "paper": "cql",
+      "title": "Eq2：数据动作托住价值",
+      "subtitle": "减去数据动作Q均值，使数据支持强的动作相对得到上调。",
+      "detail": "这项由批次中已有动作直接计算，不需单独行为估计器。",
+      "parent_node": "local:cql:eq1-pessimism",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/eq2-data-support.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Eq2 p3; §4 p6",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:density-ratio-update",
+      "key": "density-ratio-update",
+      "kind": "local",
+      "paper": "cql",
+      "title": "比例修正的表格推导",
+      "subtitle": "理想表格下修正是负α乘以候选概率与行为概率之比减一。",
+      "detail": "比例低于一的动作可被上调，解释为什么期望下界不等于逐动作下界。",
+      "parent_node": "local:cql:eq2-data-support",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/density-ratio-update.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.C Eq11 printed18",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:expected-lower-bound",
+      "key": "expected-lower-bound",
+      "kind": "local",
+      "paper": "cql",
+      "title": "策略期望下界",
+      "subtitle": "CQL的较紧形式对目标策略加权Q的均值保守，而非对每一个动作都低估。",
+      "detail": "μ取目标策略时得到非负分布偏离项；有采样误差还需足够惩罚余量。",
+      "parent_node": "local:cql:eq2-data-support",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/expected-lower-bound.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Theorem3.2 p4",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:cql-divergence",
+      "key": "cql-divergence",
+      "kind": "local",
+      "paper": "cql",
+      "title": "CQL分布差是非负平方和",
+      "subtitle": "策略与行为的密度比加权可化成概率差平方除以行为概率之和。",
+      "detail": "行为支持非零时为非负，目标与行为一致时为零；没有数据支持不能直接套除法。",
+      "parent_node": "local:cql:expected-lower-bound",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/cql-divergence.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.C proof after Eq12 printed18",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:adversarial-proposal",
+      "key": "adversarial-proposal",
+      "kind": "local",
+      "paper": "cql",
+      "title": "让高Q动作成为惩罚候选",
+      "subtitle": "Eq3在候选分布上最大化Q并用正则限制提案。",
+      "detail": "候选分布暴露当前价值函数的乐观部分，外层critic再压低它。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/adversarial-proposal.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Eq3 p4",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:logsumexp",
+      "key": "logsumexp",
+      "kind": "local",
+      "paper": "cql",
+      "title": "CQL(H)的软最大值",
+      "subtitle": "logsumexp平滑聚合所有动作价值，高Q动作在其梯度里占较大权重。",
+      "detail": "减去数据Q之后，动作梯度是softmax概率与数据动作频率之差。",
+      "parent_node": "local:cql:adversarial-proposal",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/logsumexp.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Eq4 p4; App.A printed14",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:regularizer-gradient",
+      "key": "regularizer-gradient",
+      "kind": "local",
+      "paper": "cql",
+      "title": "一升一降来自概率之差",
+      "subtitle": "在固定状态的独立Q标量教学中，正则偏导是softmax(Q)减数据动作概率。",
+      "detail": "这只分解正则局部作用；真实神经网络还受Bellman项与共享参数影响。",
+      "parent_node": "local:cql:logsumexp",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/regularizer-gradient.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Eq4 p4; direct derivative",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:cql-rho",
+      "key": "cql-rho",
+      "kind": "local",
+      "paper": "cql",
+      "title": "前一策略先验的ρ变体",
+      "subtitle": "用前一策略为候选先验，再按价值重加权。",
+      "detail": "高维动作中可缓解重要性权重方差，Adroit与AntMaze的变体比较显示效果依任务而变。",
+      "parent_node": "local:cql:adversarial-proposal",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/cql-rho.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§3.2 pp4–5; Table2 p8; App.A Eq5",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:slow-policy",
+      "key": "slow-policy",
+      "kind": "local",
+      "paper": "cql",
+      "title": "慢策略更新保留保守余量",
+      "subtitle": "理论要求新策略接近由当前Q导出的softmax策略。",
+      "detail": "策略差异造成的潜在高估需要被保守余量覆盖，学习率不是可随意放大的无关参数。",
+      "parent_node": "local:cql:expected-lower-bound",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/slow-policy.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Theorem3.3 p5",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:gap-expansion",
+      "key": "gap-expansion",
+      "kind": "local",
+      "paper": "cql",
+      "title": "扩大数据与候选的估值差",
+      "subtitle": "CQL在条件成立时扩大行为动作分布与候选分布下的期望Q差。",
+      "detail": "它是分布期望关系，不能解释成给所有未见动作逐个判坏。",
+      "parent_node": "local:cql:eq2-data-support",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/gap-expansion.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Theorem3.4 p5; App.B",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:penalized-empirical-mdp",
+      "key": "penalized-empirical-mdp",
+      "kind": "local",
+      "paper": "cql",
+      "title": "经验MDP中的隐式策略惩罚",
+      "subtitle": "Eq2定点策略优化对应经验回报减访问状态下分布偏离惩罚。",
+      "detail": "实现没有另加行为策略模型，分析却显示了对远离数据策略的代价。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/penalized-empirical-mdp.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Theorem3.5 p6; App.D.4 Eq24",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#33-安全改进相对行为策略的回报保证"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:safe-improvement",
+      "key": "safe-improvement",
+      "kind": "local",
+      "paper": "cql",
+      "title": "安全改进是回报比较",
+      "subtitle": "在论文理论与采样条件下，策略在真实MDP中的回报至少为行为回报减去统计误差界。",
+      "detail": "此处safe是相对回报损失控制，不是力矩、碰撞、跌倒等物理硬约束。",
+      "parent_node": "local:cql:penalized-empirical-mdp",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/safe-improvement.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Theorem3.6 p6; App.D.4 Eq25",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#33-安全改进相对行为策略的回报保证"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:finite-data",
+      "key": "finite-data",
+      "kind": "local",
+      "paper": "cql",
+      "title": "有限样本改变下界余量",
+      "subtitle": "有限数据产生的采样误差，需要由足够的保守余量抵消。",
+      "detail": "安全改进式中的ζ保留了有限采样与经验改进的影响；并非每次训练都严格超过行为策略。",
+      "parent_node": "local:cql:safe-improvement",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/finite-data.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Theorems3.1–3.2 pp3–4; Theorem3.6 p6",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#33-安全改进相对行为策略的回报保证"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:continuous-proposals",
+      "key": "continuous-proposals",
+      "kind": "local",
+      "paper": "cql",
+      "title": "连续动作的二路采样",
+      "subtitle": "每个数据状态从uniform和当前策略各采十个动作。",
+      "detail": "候选仅输入critic估值，不调用环境，不产生新奖励或新后继状态。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/continuous-proposals.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.F printed29",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#42-连续动作无穷多个怎么求和"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:importance-correction",
+      "key": "importance-correction",
+      "kind": "local",
+      "paper": "cql",
+      "title": "对候选密度作重要性校正",
+      "subtitle": "用各自采样密度修正指数Q，近似连续动作积分。",
+      "detail": "批次候选可组织成B×20×d_a，经critic得到B×20个分数，再沿动作轴归约；采样仍是有限近似。",
+      "parent_node": "local:cql:continuous-proposals",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/importance-correction.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.F logsumexp derivation printed29",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#42-连续动作无穷多个怎么求和"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:lagrange-budget",
+      "key": "lagrange-budget",
+      "kind": "local",
+      "paper": "cql",
+      "title": "用预算调节保守强度",
+      "subtitle": "CQL-Lagrange对α做对偶上升，用τ限定候选Q与数据Q之差。",
+      "detail": "差值超预算则惩罚加强；τ过小可能过度低估，过大可能留下虚高。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/lagrange-budget.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.F Eq28 and hyperparameters printed29–30",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#43-α-太大也会把可学的东西压没"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:actor-critic-qr-dqn",
+      "key": "actor-critic-qr-dqn",
+      "kind": "local",
+      "paper": "cql",
+      "title": "同一正则接不同RL骨干",
+      "subtitle": "连续控制接SAC actor-critic，离散图像任务接QR-DQN。",
+      "detail": "critic保守估值、actor改进与部署动作生成是不同环节。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/actor-critic-qr-dqn.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§4 Alg1 p6; App.F",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#41-图-d-怎样接住修正后的-q"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:no-behavior-estimator",
+      "key": "no-behavior-estimator",
+      "kind": "local",
+      "paper": "cql",
+      "title": "数据动作直接提供参照",
+      "subtitle": "经验数据批次即可给出正则中的数据Q期望。",
+      "detail": "与需要单独拟合复杂行为分布的若干策略约束方法形成对比。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/no-behavior-estimator.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§5 p7; §4 p6",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#5-相关工作限制策略还是修正评分"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:policy-constraint-comparison",
+      "key": "policy-constraint-comparison",
+      "kind": "local",
+      "paper": "cql",
+      "title": "约束策略与校准Q的路线差别",
+      "subtitle": "BEAR/BRAC等以策略距离约束应对动作偏移，CQL直接正则价值。",
+      "detail": "两者都关心分布支持，但价值函数耦合仍可能令显式约束策略受虚高Q影响。",
+      "parent_node": "local:cql:no-behavior-estimator",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/policy-constraint-comparison.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§5 p7; App.E",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#5-相关工作限制策略还是修正评分"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:gym-mixtures",
+      "key": "gym-mixtures",
+      "kind": "local",
+      "paper": "cql",
+      "title": "多来源Gym数据的收益与败例",
+      "subtitle": "混合政策数据上的强收益并不意味着每个数据分布都优于所有基线。",
+      "detail": "hopper-medium改善明显，walker2d-medium等保留BRAC-v更优结果。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/gym-mixtures.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Table1 p8",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#61-gym收益很大但不是逐行第一"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:antmaze-stitching",
+      "key": "antmaze-stitching",
+      "kind": "local",
+      "paper": "cql",
+      "title": "从次优片段组合到达路径",
+      "subtitle": "AntMaze需要从离线轨迹中组成更有用的目标到达行为。",
+      "detail": "CQL(H)在medium/large非零表现突出，ρ在相同设置明显较弱。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/antmaze-stitching.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Table2 and AntMaze paragraph p8",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#62-antmazeadroitkitchen离线组合与高维动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:adroit-high-dimensional",
+      "key": "adroit-high-dimensional",
+      "kind": "local",
+      "paper": "cql",
+      "title": "高维手部数据与行为克隆",
+      "subtitle": "24自由度仿真手的人类演示让动作维度和数据组成共同增加难度。",
+      "detail": "pen-human的ρ较强，但pen-cloned中BC领先；不把human数据称为实体部署。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/adroit-high-dimensional.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§6 p7; Table2 p8",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#62-antmazeadroitkitchen离线组合与高维动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:kitchen-old-dataset",
+      "key": "kitchen-old-dataset",
+      "kind": "local",
+      "paper": "cql",
+      "title": "厨房结果锁定旧数据版",
+      "subtitle": "正式NeurIPS表的Kitchen是旧D4RL数据与归一化得分。",
+      "detail": "与后续代码和arXiv更新区分，得分使用归一化参考尺度，不冒充整任务完成率。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/kitchen-old-dataset.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Table2 footnote0; Kitchen paragraph p8",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#62-antmazeadroitkitchen离线组合与高维动作"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:atari-two-protocols",
+      "key": "atari-two-protocols",
+      "kind": "local",
+      "paper": "cql",
+      "title": "Atari的两种数据截取",
+      "subtitle": "训练最初20%样本与全replay抽取1%或10%是不同数据协议。",
+      "detail": "Fig1对应前者，Table3对应后者；不同协议不能仅按百分数大小排序。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/atari-two-protocols.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Fig1 and Table3 prose p9",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#63-atari只给早期经验后期训练还会不会崩"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:value-calibration-test",
+      "key": "value-calibration-test",
+      "kind": "local",
+      "paper": "cql",
+      "title": "用预测减真实回报检验保守性",
+      "subtitle": "Table4比较估计策略价值与真实折扣价值的差。",
+      "detail": "CQL(H)负但较靠近零，Eq1更负；这是估值校准，不是任务成功率。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/value-calibration-test.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "Table4 p9",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#64-分数真的更可信了还是只会谦虚"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:gap-diagnostic",
+      "key": "gap-diagnostic",
+      "kind": "local",
+      "paper": "cql",
+      "title": "随机最大Q减数据Q的诊断量",
+      "subtitle": "同状态候选随机采样最大估值减数据动作估值，跟踪随梯度步的变化。",
+      "detail": "它只诊断模型估值，不等于已知全部动作真价值。",
+      "parent_node": "local:cql:gap-expansion",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/gap-diagnostic.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.B Eq8, Fig2 printed15–16",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#64-分数真的更可信了还是只会谦虚"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:data-term-ablation",
+      "key": "data-term-ablation",
+      "kind": "local",
+      "paper": "cql",
+      "title": "删除数据支撑项的消融",
+      "subtitle": "附录对照完整CQL(H)与去数据Q上调项的形式。",
+      "detail": "hopper-medium与mixed损失明显，medium-expert差距很小；保留任务条件。",
+      "parent_node": "local:cql:eq2-data-support",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/data-term-ablation.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.G Table6 printed31",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#65-去掉数据补偿会发生什么"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:variant-ablation",
+      "key": "variant-ablation",
+      "kind": "local",
+      "paper": "cql",
+      "title": "H与ρ随动作分布改变表现",
+      "subtitle": "低维Gym附录表H更好，高维Adroit中ρ在部分任务得分更高。",
+      "detail": "变体收益随任务和数据组成而变；附录原始回报与主表归一化分数不直接混比。",
+      "parent_node": "local:cql:cql-rho",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/variant-ablation.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "locator": "App.G Table5 printed30; Table2 p8",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#65-去掉数据补偿会发生什么"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:network-theory-limit",
+      "key": "network-theory-limit",
+      "kind": "local",
+      "paper": "cql",
+      "title": "NTK局部理论与一般深网络的距离",
+      "subtitle": "函数逼近扩展依赖局部神经切线核条件，而非任意深网训练阶段的无条件下界。",
+      "detail": "作者仍把一般深层网络严格分析列为未来问题，不能将结构检查当数学保证。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/network-theory-limit.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§7 p9; App.D.1 printed20–23",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:offline-early-stop",
+      "key": "offline-early-stop",
+      "kind": "local",
+      "paper": "cql",
+      "title": "离线训练何时停仍有难题",
+      "subtitle": "缺少监督学习式的可靠验证误差，过度更新仍可能伤害策略。",
+      "detail": "CQL减少一类虚高反馈，不消除所有数据偏差、状态分布偏移或过拟合。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/offline-early-stop.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§7 p9; App.F printed30",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#7-讨论三个问题的答案还有哪些代价"
+        }
+      ]
+    },
+    {
+      "id": "local:cql:simulation-transfer-limit",
+      "key": "simulation-transfer-limit",
+      "kind": "local",
+      "paper": "cql",
+      "title": "仿真离线价值学习与实体部署",
+      "subtitle": "论文主实验为D4RL/MuJoCo与Atari，未给实体机器人闭环结果。",
+      "detail": "人类演示提供离线学习数据，和实体机器人闭环部署结果是两种证据。",
+      "parent_node": "paper:cql",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/cql/simulation-transfer-limit.md",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "locator": "§6 pp7–9; §7 p9",
+      "explainers": [
+        {
+          "paper": "cql",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#63-atari只给早期经验后期训练还会不会崩"
+        }
+      ]
     },
     {
       "id": "local:cr-dagger:imitation",
@@ -29165,13 +30063,13 @@
       "from": "concept:rl",
       "to": "concept:offline",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:offline",
       "to": "concept:value",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:rl",
@@ -30647,46 +31545,328 @@
       "lit": false
     },
     {
-      "from": "paper:cql",
+      "from": "local:cql:rl",
       "to": "local:cql:offline",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:cql:offline",
       "to": "concept:offline",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:cql:offline",
       "to": "local:cql:value",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:cql:value",
       "to": "concept:value",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:cql",
+      "from": "local:cql:rl",
       "to": "local:cql:actor-critic",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:cql:actor-critic",
       "to": "concept:actor-critic",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:softmax",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:softmax",
+      "to": "concept:softmax",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:rl",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:data",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:cql:data",
+      "to": "local:cql:benchmark",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:bc",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:bc",
+      "to": "concept:bc",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:cql",
       "to": "local:cql:method-chain",
       "kind": "contains",
       "lit": false
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:offline-fixed-data",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:offline-fixed-data",
+      "to": "local:cql:bootstrap-ood-loop",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:offline-fixed-data",
+      "to": "local:cql:state-action-shift",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:bellman-target",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:bellman-target",
+      "to": "local:cql:policy-evaluation-improvement",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:eq1-pessimism",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:eq1-pessimism",
+      "to": "local:cql:eq2-data-support",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:eq2-data-support",
+      "to": "local:cql:density-ratio-update",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:eq2-data-support",
+      "to": "local:cql:expected-lower-bound",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:expected-lower-bound",
+      "to": "local:cql:cql-divergence",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:adversarial-proposal",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:adversarial-proposal",
+      "to": "local:cql:logsumexp",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:logsumexp",
+      "to": "local:cql:regularizer-gradient",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:adversarial-proposal",
+      "to": "local:cql:cql-rho",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:expected-lower-bound",
+      "to": "local:cql:slow-policy",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:eq2-data-support",
+      "to": "local:cql:gap-expansion",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:penalized-empirical-mdp",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:penalized-empirical-mdp",
+      "to": "local:cql:safe-improvement",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:safe-improvement",
+      "to": "local:cql:finite-data",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:continuous-proposals",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:continuous-proposals",
+      "to": "local:cql:importance-correction",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:lagrange-budget",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:actor-critic-qr-dqn",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:no-behavior-estimator",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:no-behavior-estimator",
+      "to": "local:cql:policy-constraint-comparison",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:gym-mixtures",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:antmaze-stitching",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:adroit-high-dimensional",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:kitchen-old-dataset",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:atari-two-protocols",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:value-calibration-test",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:gap-expansion",
+      "to": "local:cql:gap-diagnostic",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:eq2-data-support",
+      "to": "local:cql:data-term-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:cql:cql-rho",
+      "to": "local:cql:variant-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:network-theory-limit",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:offline-early-stop",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:cql",
+      "to": "local:cql:simulation-transfer-limit",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:cr-dagger",
@@ -41008,9 +42188,9 @@
   "stats": {
     "papers": 129,
     "concepts": 59,
-    "local_topics": 1402,
-    "lit_papers": 22,
-    "lit_concepts": 46,
-    "lit_local_topics": 642
+    "local_topics": 1444,
+    "lit_papers": 23,
+    "lit_concepts": 47,
+    "lit_local_topics": 687
   }
 }

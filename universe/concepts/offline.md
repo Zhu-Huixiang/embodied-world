@@ -8,6 +8,10 @@
 
 继续拆：[价值估计与校准](value.md)。
 
+## 在完整解读里看计算与例子
+
+- [CQL：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#1-引言封存的数据开放的动作想象)
+
 ## 哪些论文用到或讨论它
 
 - [robomimic](../papers/robomimic.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/mandlekar22a.html)
@@ -15,7 +19,7 @@
 - [TD3+BC](../papers/td3-bc.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html)
 - [Decision Transformer](../papers/decision-transformer.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html)
 - [Cal-QL](../papers/cal-ql.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c44a04289beaf0a7d968a94066a1d696-Abstract-Conference.html)
-- [CQL](../papers/cql.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html)
+- [CQL](../papers/cql.md) · 已精讲 · [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html)
 - [world2vec](../papers/world2vec.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40637v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。

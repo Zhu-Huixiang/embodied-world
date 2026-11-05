@@ -1,0 +1,7 @@
+% CQL: source and teaching scope in internal equation-specs.json
+\documentclass[border=7pt]{standalone}
+\usepackage{amsmath,amssymb,xcolor}
+\definecolor{ink}{HTML}{203340}
+\begin{document}\color{ink}
+$\displaystyle \begin{aligned} \mathcal C_\mu(Q)&=\mathbb E_{s\sim\mathcal D}\!\big[\mathbb E_{a\sim\mu(\cdot\mid s)}Q(s,a)\\ &\qquad-\mathbb E_{a\sim\widehat\pi_\beta(\cdot\mid s)}Q(s,a)\big]\\ \widehat Q^{k+1}&\leftarrow\arg\min_Q\,[\mathcal L_B(Q)+\alpha\mathcal C_\mu(Q)]\end{aligned}$
+\end{document}

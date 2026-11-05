@@ -26,7 +26,7 @@ CQL 在 Bellman 误差外增加正则：压低策略或广泛采样动作的 Q �
 
 经典保留理由：放宽年限：CQL 是后续多条机器人离线学习路线持续使用的保守价值学习基础与对照，适合先解释分布偏移，再读新策略。
 
-全文精讲沿[编辑队列](../calendar/queue.md)推进；这里先保留方法主线与阅读问题。
+[完整解读](../articles/cql-2006.04779/README.md)
 
 [知识星系](../universe/papers/cql.md) · [七维评分与雷达](../leaderboard/papers/cql/README.md) · [NeurIPS集锦](../venues/NeurIPS/README.md) · [地图方向](../paper-map/README.md#track-reinforcement-learning) · [首页](../README.md)
 

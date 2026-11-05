@@ -24,6 +24,7 @@
 - [ACT：机器人别再一步一猜，先把一段动作想明白](articles/act-2304.13705/README.md)
 - [Transformer：句子不排队读了，意思还接得上吗？](articles/attention-1706.03762/README.md)
 - [CLIP：把分类器写成一句话，凭什么管用？](articles/clip-2103.00020/README.md)
+- [CQL：没试过的动作，凭什么拿高分？](articles/cql-2006.04779/README.md)
 - [DDPM：只学预测噪声，怎么就能画画了？](articles/ddpm-2006.11239/README.md)
 - [Diffusion Policy：动作也能靠去噪生成？](articles/diffusion-policy-2303.04137/README.md)
 - [DINO：没人教它认狗，注意力却把狗圈了出来？](articles/dino-2104.14294/README.md)
@@ -53,7 +54,7 @@
 - [视频动作模型](directions/video-action.md)（0 篇）
 - [视频生成](directions/video-generation.md)（2 篇）
 - [VLA](directions/vla.md)（5 篇）
-- [强化学习](directions/reinforcement-learning.md)（4 篇）
+- [强化学习](directions/reinforcement-learning.md)（5 篇）
 - [运动控制与 Locomotion](directions/locomotion.md)（3 篇）
 - [Manipulation](directions/manipulation.md)（5 篇）
 - [Diffusion / Transformer](directions/diffusion-transformer.md)（11 篇）

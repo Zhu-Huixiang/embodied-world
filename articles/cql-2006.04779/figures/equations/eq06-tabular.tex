@@ -1,0 +1,7 @@
+% CQL: source and teaching scope in internal equation-specs.json
+\documentclass[border=7pt]{standalone}
+\usepackage{amsmath,amssymb,xcolor}
+\definecolor{ink}{HTML}{203340}
+\begin{document}\color{ink}
+$\displaystyle \begin{gathered}\begin{aligned}\widehat Q^{k+1}(s,a)&=\widehat{\mathcal B}^{\pi}\widehat Q^k(s,a)\\ &\quad-\alpha\!\left(\frac{\mu(a\mid s)}{\widehat\pi_\beta(a\mid s)}-1\right)\end{aligned}\\ D_\pi(s)=\mathbb E_{a\sim\pi}\!\left[\frac{\pi(a\mid s)}{\widehat\pi_\beta(a\mid s)}-1\right]\\ D_\pi(s)=\sum_a\frac{(\pi(a\mid s)-\widehat\pi_\beta(a\mid s))^2}{\widehat\pi_\beta(a\mid s)}\geq0\end{gathered}$
+\end{document}

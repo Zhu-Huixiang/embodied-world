@@ -33,7 +33,7 @@ Aviral Kumar、Aurick Zhou、George Tucker、Sergey Levine
 
 </details>
 
-[论文导读 / 完整解读](../../../library/cql.md) · [七维评分](../../papers/cql/README.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html)
+[论文导读 / 完整解读](../../../articles/cql-2006.04779/README.md) · [七维评分](../../papers/cql/README.md) · [原文](https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html)
 
 ## 署名来源
 

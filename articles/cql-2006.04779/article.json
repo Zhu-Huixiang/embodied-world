@@ -1,0 +1,768 @@
+{
+  "slug": "cql-2006.04779",
+  "title": "CQL：没试过的动作，凭什么拿高分？",
+  "topics": [
+    "reinforcement-learning"
+  ],
+  "paper": {
+    "title": "Conservative Q-Learning for Offline Reinforcement Learning",
+    "arxiv_id": "2006.04779",
+    "version": "NeurIPS 2020 official proceedings PDF + official Supplemental PDF",
+    "first_publication": "2020-06-08",
+    "pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+    "project_url": null,
+    "code_url": "https://github.com/aviralkumar2907/CQL",
+    "authors": [
+      "Aviral Kumar",
+      "Aurick Zhou",
+      "George Tucker",
+      "Sergey Levine"
+    ],
+    "institutions": [
+      "UC Berkeley",
+      "Google Research, Brain Team"
+    ],
+    "source_checked_at": "2026-11-05T11:48:49+08:00",
+    "supplement_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+    "supplement_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf"
+  },
+  "venue": {
+    "status": "published",
+    "name": "NeurIPS 2020",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+    "checked_at": "2026-11-05T11:48:49+08:00",
+    "explanation": "Opened official proceedings and supplement; reading source locked to proceedings bytes, not assumed arXiv v3. arXiv v1 2020-06-08 independently read; current official code data/parameters may differ from paper."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "file": "figures/drawpaper/cql-overview.png",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "alt": "CQL全篇架构：固定数据、Bellman拟合、保守校准与策略运行",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:45:50+08:00",
+      "source_url": "https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper",
+      "kind": "drawpaper",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "tex": "figures/drawpaper/cql-overview.tex",
+      "pdf": "figures/drawpaper/cql-overview.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "draft": "figures/drawpaper/cql-imagegen-draft.png",
+      "source_notes": "figures/drawpaper/source-notes.md",
+      "figure_spec": "figures/drawpaper/figure-spec.md",
+      "source_paper_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "regions": [
+        "A fixed dataset",
+        "B Bellman loss",
+        "C conservative critic regularizer",
+        "D policy training and runtime loop"
+      ],
+      "provenance": "Built-in imagegen draft retained unchanged; six actual illustration regions composed with independent exact TeX labels, formulas and TikZ arrows. Full source provenance and science mapping included.",
+      "pixel_size": [
+        1020,
+        3900
+      ],
+      "sha256": "57c8b273eb000eafcb70f8ec8c9705944d7b115aac10a5b422458fac61ceb367",
+      "visual_review": "Full 340px-width rendering inspected. Training-return arrow terminates at current critic, candidate-sampling label inside canvas, runtime loop separate, no missing symbols or cropped labels. Local draft arrows/frames removed by actual clipping.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig1-atari.png",
+      "figure_id": "Fig. 1",
+      "alt": "四个Atari游戏的离线训练曲线",
+      "caption": "论文 Fig. 1。四幅是 Pong、Breakout、Qbert、Seaquest；橙色 QR-DQN、蓝色 REM、红色 CQL。横轴为训练迭代刻度，纵轴为各游戏回报；数据取在线 DQN 记录的前 20%。",
+      "read_guide": "四幅是 Pong、Breakout、Qbert、Seaquest；橙色 QR-DQN、蓝色 REM、红色 CQL。横轴为训练迭代刻度，纵轴为各游戏回报；数据取在线 DQN 记录的前 20%。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "bbox": [
+        112,
+        60,
+        508,
+        133
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "c177a2a6c54680a802206ca17818c96a947bc3e4972b92da4eb4f10df1294b58",
+      "pixel_size": [
+        1584,
+        292
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "四个面板从左到右是Pong、Breakout、Qbert、Seaquest。横轴Training Iterations为原图0–100刻度，不擅自换算总环境步数；纵轴Return各游戏范围不同。QR-DQN橙、REM蓝、CQL红；阴影按原图保留，图注未定义误差带统计口径。数据为在线DQN采样顺序的前20%。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig1-pong-detail.png",
+      "figure_id": "Fig. 1 / Pong",
+      "alt": "Pong局部曲线",
+      "caption": "论文 Fig. 1，Pong 局部。横轴训练迭代，纵轴回报；红色 CQL 后期保持高位，橙色 QR-DQN 明显回落。",
+      "read_guide": "横轴训练迭代，纵轴回报；红色 CQL 后期保持高位，橙色 QR-DQN 明显回落。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "bbox": [
+        115,
+        60,
+        211,
+        133
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "14dace79dda3a63fad58e4d3063b36ff5e213c2cfcdf3a4fcb536283a1a32d91",
+      "pixel_size": [
+        384,
+        292
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "读三条曲线相对稳定性；横轴Training Iterations，纵轴Return。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig1-seaquest-detail.png",
+      "figure_id": "Fig. 1 / Seaquest",
+      "alt": "Seaquest局部曲线",
+      "caption": "论文 Fig. 1，Seaquest 局部。蓝色 REM 后段回报最高；红色 CQL 有回落，橙色 QR-DQN 则跌近零。",
+      "read_guide": "蓝色 REM 后段回报最高；红色 CQL 有回落，橙色 QR-DQN 则跌近零。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "bbox": [
+        394,
+        60,
+        507,
+        133
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "9f778a4a5e683d8039fb6922cdbf107cddebcc176b7d01723902ec5cb9e870dc",
+      "pixel_size": [
+        452,
+        292
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "REM后段回报最高，CQL有回落但没有QR-DQN那样跌近零；不能把整组描述成CQL四项全胜。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table1-gym.png",
+      "figure_id": "Table 1",
+      "alt": "D4RL Gym完整结果表",
+      "caption": "论文 Table 1。行区分任务与数据组成，列比较六种方法；数值为 4 个种子平均的归一化回报，可超过 100。",
+      "read_guide": "行区分任务与数据组成，列比较六种方法；数值为 4 个种子平均的归一化回报，可超过 100。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 8,
+      "printed_page": 8,
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "bbox": [
+        144,
+        70,
+        466,
+        228
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "728bd02112dce798988f02f4df9ebcdfa994d8c91d38fd5db8ac45d7277c418a",
+      "pixel_size": [
+        1288,
+        632
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "行是任务和数据组成，列是SAC、BC、BEAR、BRAC-p、BRAC-v和CQL(H)。指标为normalized return，4个随机种子平均，100不是成功率上限。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table2-domains.png",
+      "figure_id": "Table 2",
+      "alt": "AntMaze、Adroit与旧版Kitchen结果",
+      "caption": "论文 Table 2。AntMaze、Adroit 与旧版 Kitchen 的归一化得分，均取 4 个种子平均；最后两列是 CQL(H) 与 CQL(ρ)。",
+      "read_guide": "AntMaze、Adroit 与旧版 Kitchen 的归一化得分，均取 4 个种子平均；最后两列是 CQL(H) 与 CQL(ρ)。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 8,
+      "printed_page": 8,
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "bbox": [
+        112,
+        306,
+        503,
+        454
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "3f4eb0a2878020c76cc4f526549ee07a5cf297aa824070b5d9d21d4ef7892d13",
+      "pixel_size": [
+        1564,
+        592
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "最后两列分别为CQL(H)与CQL(rho)；4个种子平均归一化得分。Kitchen使用论文脚注明示的旧版D4RL数据。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table3-atari.png",
+      "figure_id": "Table 3",
+      "alt": "Atari少量数据结果",
+      "caption": "论文 Table 3。上五行使用 1% 回放数据，下五行使用 10%；三列比较 QR-DQN、REM 与 CQL(H) 的回报。",
+      "read_guide": "上五行使用 1% 回放数据，下五行使用 10%；三列比较 QR-DQN、REM 与 CQL(H) 的回报。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "bbox": [
+        333,
+        244,
+        509,
+        340
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "54f80e5ddf4a717733920fb81f7a084d9d7f7ab4c14a873e7ab6b4e18feabf8d",
+      "pixel_size": [
+        704,
+        384
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "上五行1%数据、下五行10%，列QR-DQN、REM和CQL(H)，为回报而非成功率。表注误写setting(1)，正文将此条件定义为setting(2)。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table4-value.png",
+      "figure_id": "Table 4",
+      "alt": "价值估计偏差对照",
+      "caption": "论文 Table 4。预测策略价值减去实际折扣回报，负数表示低估；CQL(H) 的扣减比 Eq. 1 变体温和。",
+      "read_guide": "预测策略价值减去实际折扣回报，负数表示低估；CQL(H) 的扣减比 Eq. 1 变体温和。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "bbox": [
+        106,
+        491,
+        511,
+        526
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "d9703d536e261439781b1df0c1c2bd202bcf6ccc7c77f84d3825eddb0e5c080d",
+      "pixel_size": [
+        1620,
+        140
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "数值是预测策略价值减实际折扣回报，负数是低估。CQL(H)接近零但仍为负，Eq1往往更低；不能把表值当成任务成功率或策略回报。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-gap.png",
+      "figure_id": "Fig. 2",
+      "alt": "估值间隙与策略回报",
+      "caption": "论文 Fig. 2。前两幅为 hopper-expert，后两幅为 hopper-medium；每对先画估值间隙，再画平均回报。BEAR 蓝色、CQL 橙色；横轴是百万梯度步，第一幅到 0.4M，其余到约 0.8M。",
+      "read_guide": "前两幅为 hopper-expert，后两幅为 hopper-medium；每对先画估值间隙，再画平均回报。BEAR 蓝色、CQL 橙色；横轴是百万梯度步，第一幅到 0.4M，其余到约 0.8M。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 3,
+      "printed_page": 16,
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "bbox": [
+        110,
+        74,
+        505,
+        180
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "f589d53463b455e711fe5080188cc021c25f58988387b75e83bd340c7fde91a0",
+      "pixel_size": [
+        1580,
+        424
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "四图前两幅hopper-expert，后两幅hopper-medium；每对左图为随机候选最大Q减数据动作Q的估值间隙，右图为Average Return。BEAR蓝，CQL橙。横轴梯度步数k，M表示百万。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-expert-gap-detail.png",
+      "figure_id": "Fig. 2a / left",
+      "alt": "expert数据上的估值间隙",
+      "caption": "论文 Fig. 2(a)，左图。横轴 0–0.4M 梯度步，纵轴为随机候选最大 Q 减数据动作 Q；蓝色 BEAR 的间隙转为较大正值，橙色 CQL 保持负值。",
+      "read_guide": "横轴 0–0.4M 梯度步，纵轴为随机候选最大 Q 减数据动作 Q；蓝色 BEAR 的间隙转为较大正值，橙色 CQL 保持负值。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 3,
+      "printed_page": 16,
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "bbox": [
+        110,
+        74,
+        202,
+        160
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "d0af68b2d919eb8dea1e5539008ee12ca17fbabc4a88d037f882dd4227a68dfb",
+      "pixel_size": [
+        368,
+        344
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "BEAR蓝线间隙升至正值，CQL橙线保持负值；横轴0–0.4M梯度步，纵轴估计间隙。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-expert-return-detail.png",
+      "figure_id": "Fig. 2a / right",
+      "alt": "expert数据上的回报",
+      "caption": "论文 Fig. 2(a)，右图。横轴到约 0.8M 梯度步，纵轴为平均回报；蓝色 BEAR 后期崩落，橙色 CQL 保持高位。",
+      "read_guide": "横轴到约 0.8M 梯度步，纵轴为平均回报；蓝色 BEAR 后期崩落，橙色 CQL 保持高位。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 3,
+      "printed_page": 16,
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "bbox": [
+        205,
+        74,
+        300,
+        160
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "830d6499cf8206decfe0a68d0931cbc1f3b1956b901c17d1bccffacb12a284e1",
+      "pixel_size": [
+        380,
+        344
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "BEAR蓝线在后期回报崩落，CQL橙线保持高位；横轴0–0.8M梯度步，纵轴Average Return。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table5-variants.png",
+      "figure_id": "Table 5",
+      "alt": "两个CQL变体的消融",
+      "caption": "论文 Table 5。CQL(H) 与 CQL(ρ) 在三项 MuJoCo 任务上的原始平均回报，和 Table 1 的归一化分数采用不同尺度。",
+      "read_guide": "CQL(H) 与 CQL(ρ) 在三项 MuJoCo 任务上的原始平均回报，和 Table 1 的归一化分数采用不同尺度。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 17,
+      "printed_page": 30,
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "bbox": [
+        195,
+        660,
+        417,
+        707
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "23103151f4130e7ec7fad6cc8cdcb34af22717269f396cb0aaa22462efb3a81e",
+      "pixel_size": [
+        888,
+        188
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "三项MuJoCo任务的平均回报，CQL(H)与CQL(rho)比较；这里是原始回报，不与Table1归一化分数混用。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table6-data-term.png",
+      "figure_id": "Table 6",
+      "alt": "数据动作抬升项消融",
+      "caption": "论文 Table 6。完整 CQL(H) 与移除数据动作 Q 抬升项的变体比较；三项原始平均回报展示“只压不抬”的代价。",
+      "read_guide": "完整 CQL(H) 与移除数据动作 Q 抬升项的变体比较；三项原始平均回报展示“只压不抬”的代价。",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 18,
+      "printed_page": 31,
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "bbox": [
+        168,
+        128,
+        443,
+        173
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Full page rasterized at 288 dpi, then crop; original labels and values retained. Original English caption transcribed in internal index.",
+      "sha256": "1f704989f23c7f4d568267dec5b0ac09bca7e217a395ace57cb738f9db9486f1",
+      "pixel_size": [
+        1100,
+        180
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine / respective rights holders. Official NeurIPS 2020 source; no open-image licence inferred. Selected visual excerpts support necessary scholarly commentary; original paper and appendix are excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "CQL(H)与去掉数据动作Q最大化项的Eq1式变体比较，指标平均回报；这组对照回答只压不抬的代价。",
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Full original source page and final crop inspected: axes, legends, data rows, last columns, and crop bounds preserved. Table 2/4 final boundary revisions rechecked.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq01-bellman.png",
+      "tex": "figures/equations/eq01-bellman.tex",
+      "pdf": "figures/equations/eq01-bellman.pdf",
+      "alt": "Bellman目标与误差",
+      "caption": "基础式。把论文的策略评估目标记作 yᵏ，把平方误差记作 L_B；后文的保守项加在同一个误差之外。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 2,
+      "printed_page": 2,
+      "locator": "§2 empirical Bellman policy-evaluation update; §3.1 Eq1 factor 1/2",
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "equation_type": "source_equation_rearranged_with_teaching_notation",
+      "source_notes": [
+        "y^k denotes the sampled-transition Bellman target for a fixed target-policy pi. This is the paper policy-evaluation operator, without an added SAC entropy term; L_B is a local shorthand introduced for the article. r comes from the stored transition, not from a learned reward model. All Q,y,r values scalar, gamma discount."
+      ],
+      "exact_latex": "\\begin{aligned} y^k(s,a)&=r(s,a)+\\gamma\\,\\mathbb E_{a^\\prime\\sim\\pi(\\cdot\\mid s^\\prime)}[\\widehat Q^k(s^\\prime,a^\\prime)]\\\\ \\mathcal L_B(Q)&=\\frac12\\,\\mathbb E_{(s,a,r,s^\\prime)\\sim\\mathcal D}\\\\ &\\quad\\big[(Q(s,a)-y^k(s,a))^2\\big]\\end{aligned}",
+      "pixel_size": [
+        779,
+        272
+      ],
+      "sha256": "30b16dd2e83557188b71c6267a2c3c72c08751414ee65ac37f423c2060acf562",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq02-pessimistic.png",
+      "tex": "figures/equations/eq02-pessimistic.tex",
+      "pdf": "figures/equations/eq02-pessimistic.pdf",
+      "alt": "CQL原公式1的逐项保守评估",
+      "caption": "论文式（1），用 L_B 缩写。额外压低 μ 抽到的动作价值，代价是数据里的好动作也可能被压得过低。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "locator": "§3.1 Eq1",
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "equation_type": "source_equation_rearranged",
+      "source_notes": [
+        "Exact Eq1 regrouped with L_B from eq01. mu uses the dataset state marginal and a chosen conditional action distribution; is not an OOD-state sampler. Support/count and sufficiently large alpha assumptions belong in prose."
+      ],
+      "exact_latex": "\\begin{aligned} \\widehat Q^{k+1}&\\leftarrow\\arg\\min_Q\\,\\big[\\mathcal L_B(Q)\\\\ &\\qquad+\\alpha\\,\\mathbb E_{s\\sim\\mathcal D,\\,a\\sim\\mu(\\cdot\\mid s)}[Q(s,a)]\\big]\\\\ \\alpha&\\geq0\\end{aligned}",
+      "pixel_size": [
+        697,
+        254
+      ],
+      "sha256": "fc6d9e7816090d73beaaf8ed8e3bbd8a358639a4ab8f2484037bf018c4e61471",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq03-tight-bound.png",
+      "tex": "figures/equations/eq03-tight-bound.tex",
+      "pdf": "figures/equations/eq03-tight-bound.pdf",
+      "alt": "CQL原公式2的数据动作补偿",
+      "caption": "论文式（2），等价拆开。第一项向下压，第二项在最小化时相对托住数据动作；L_B 继续约束它们符合已记录的回报。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 3,
+      "printed_page": 3,
+      "locator": "§3.1 Eq2",
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "equation_type": "source_equation_rearranged",
+      "source_notes": [
+        "C_mu is article shorthand. Data expectation exactly equivalent to empirical sampled (s,a) pairs. Minus sign means minimizing the loss raises data-action Q relative to mu-action Q; Bellman term remains. It does not guarantee every individual Q is below its true value."
+      ],
+      "exact_latex": "\\begin{aligned} \\mathcal C_\\mu(Q)&=\\mathbb E_{s\\sim\\mathcal D}\\!\\big[\\mathbb E_{a\\sim\\mu(\\cdot\\mid s)}Q(s,a)\\\\ &\\qquad-\\mathbb E_{a\\sim\\widehat\\pi_\\beta(\\cdot\\mid s)}Q(s,a)\\big]\\\\ \\widehat Q^{k+1}&\\leftarrow\\arg\\min_Q\\,[\\mathcal L_B(Q)+\\alpha\\mathcal C_\\mu(Q)]\\end{aligned}",
+      "pixel_size": [
+        678,
+        260
+      ],
+      "sha256": "1994bb272007c5ad90db517a5be7755233a2b4cbb820804eb78c51525e87a28a",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq04-cql-h.png",
+      "tex": "figures/equations/eq04-cql-h.tex",
+      "pdf": "figures/equations/eq04-cql-h.pdf",
+      "alt": "CQLH的log-sum-exp目标",
+      "caption": "论文式（4），等价拆开。log-sum-exp 是平滑最大值；高估动作对它的贡献更大。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 4,
+      "printed_page": 4,
+      "locator": "§3.2 Eq4",
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "equation_type": "source_equation_rearranged",
+      "source_notes": [
+        "Exact discrete-action Eq4 regrouped into Z_Q and C_H. In policy learning L_B target uses current pi_k as paper Eq4. For continuous actions this sum becomes an action integral estimated in eq09; entropy/KL weighting ambiguity in Eq3 is not silently propagated."
+      ],
+      "exact_latex": "\\begin{aligned} Z_Q(s)&=\\sum_{a\\in\\mathcal A}\\exp Q(s,a)\\\\ \\mathcal C_H(Q)&=\\mathbb E_{s\\sim\\mathcal D}\\!\\big[\\log Z_Q(s)\\\\ &\\qquad-\\mathbb E_{a\\sim\\widehat\\pi_\\beta(\\cdot\\mid s)}Q(s,a)\\big]\\\\ \\widehat Q^{k+1}&\\leftarrow\\arg\\min_Q\\,[\\mathcal L_B(Q)+\\alpha\\mathcal C_H(Q)]\\end{aligned}",
+      "pixel_size": [
+        695,
+        371
+      ],
+      "sha256": "db5221044234f2c4eace2b22dd31a3368d182e93034381fc394f130dd9d684f5",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq05-gradient.png",
+      "tex": "figures/equations/eq05-gradient.tex",
+      "pdf": "figures/equations/eq05-gradient.pdf",
+      "alt": "保守项为何更用力压低虚高动作",
+      "caption": "教学推导。只看一个状态的保守项：softmax 权重大于数据频率时，梯度下降会压低该动作的 Q；反过来则相对抬高。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 4,
+      "printed_page": 4,
+      "locator": "Derivative of §3.2 Eq4 (editorial teaching derivation)",
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "equation_type": "teaching_derivation",
+      "source_notes": [
+        "Partial derivative treats each per-state Q output as independent coordinate; actual parameter gradient sums these derivatives times network Jacobian and includes Bellman loss. No claim that neural-network Q components evolve independently. For data-free action beta=0 with positive sigma, gradient descent lowers Q."
+      ],
+      "exact_latex": "\\begin{aligned} \\sigma_Q(a\\mid s)&=\\frac{e^{Q(s,a)}}{\\sum_b e^{Q(s,b)}}\\\\ c_H(s)&=\\log\\sum_b e^{Q(s,b)}\\\\ &\\quad-\\sum_b\\widehat\\pi_\\beta(b\\mid s)Q(s,b)\\\\ \\frac{\\partial c_H(s)}{\\partial Q(s,a)}&=\\sigma_Q(a\\mid s)-\\widehat\\pi_\\beta(a\\mid s)\\end{aligned}",
+      "pixel_size": [
+        623,
+        488
+      ],
+      "sha256": "a381526c30b8b6f24510e3c71de188bb2e144d60b6aca0db62445eb04843a93d",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq06-tabular.png",
+      "tex": "figures/equations/eq06-tabular.tex",
+      "pdf": "figures/equations/eq06-tabular.pdf",
+      "alt": "表格更新与策略期望下界",
+      "caption": "参照附录式（11）的经验表格教学改写。数据外倾向越强，扣减越大；令 μ=π 后，按目标策略平均的扣减非负，这是期望下界的关键。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 5,
+      "printed_page": 18,
+      "locator": "Appendix C proof of Theorem 3.2, Eq11 and f(pi) nonnegativity argument (printed p18)",
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "equation_type": "source_equation_and_teaching_identity",
+      "source_notes": [
+        "Top is a teaching empirical-tabular rewrite of the first-order optimum of Eq2; the cited appendix Eq11 uses the exact Bellman operator. Empirical behavior probability must be positive; empirical Bellman uses pi and alpha must cover sampling error. D_pi(s) is an editorial nonnegative action-distribution deviation, distinct from the discounted state occupancy d_Mhat^pi in eq07. Bottom identity uses normalized pi and beta; mu=pi for lower-bound proof. This is not an exact parameter update formula for general neural networks or a guarantee for unsupported zero-count actions."
+      ],
+      "exact_latex": "\\begin{gathered}\\begin{aligned}\\widehat Q^{k+1}(s,a)&=\\widehat{\\mathcal B}^{\\pi}\\widehat Q^k(s,a)\\\\ &\\quad-\\alpha\\!\\left(\\frac{\\mu(a\\mid s)}{\\widehat\\pi_\\beta(a\\mid s)}-1\\right)\\end{aligned}\\\\ D_\\pi(s)=\\mathbb E_{a\\sim\\pi}\\!\\left[\\frac{\\pi(a\\mid s)}{\\widehat\\pi_\\beta(a\\mid s)}-1\\right]\\\\ D_\\pi(s)=\\sum_a\\frac{(\\pi(a\\mid s)-\\widehat\\pi_\\beta(a\\mid s))^2}{\\widehat\\pi_\\beta(a\\mid s)}\\geq0\\end{gathered}",
+      "pixel_size": [
+        734,
+        460
+      ],
+      "sha256": "f977bbffad9d20a00af35565bc3bfb361741f72c532fa7c66a264138a6911118",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq07-safe-policy.png",
+      "tex": "figures/equations/eq07-safe-policy.tex",
+      "pdf": "figures/equations/eq07-safe-policy.pdf",
+      "alt": "CQL隐含的策略偏移惩罚与安全改进",
+      "caption": "定理 3.5–3.6 的核心式。价值端的保守项隐含一个策略偏移惩罚；真实环境里的保证还要扣除误差项 ζ。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+      "pdf_page": 6,
+      "printed_page": 6,
+      "locator": "§3.3 Theorems 3.5 and 3.6",
+      "source_pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+      "equation_type": "source_theorem_rearranged",
+      "source_notes": [
+        "Uses empirical MDP Mhat, real MDP M, discounted state distribution d_Mhat^pi. zeta is paper finite-sampling/empirical-improvement error expression, not set to zero. High-probability bound requires theorem assumptions and alpha; safe means return relative to behavior, not collision/hardware safety."
+      ],
+      "exact_latex": "\\begin{gathered}D_{\\mathrm{CQL}}(\\pi,\\widehat\\pi_\\beta)(s)\\\\ =\\sum_a\\pi(a\\mid s)\\!\\left(\\frac{\\pi(a\\mid s)}{\\widehat\\pi_\\beta(a\\mid s)}-1\\right)\\\\ \\pi^*\\in\\arg\\max_\\pi\\Big[J(\\pi,\\widehat M)\\\\ -\\frac{\\alpha}{1-\\gamma}\\mathbb E_{s\\sim d_{\\widehat M}^{\\pi}}D_{\\mathrm{CQL}}(\\pi,\\widehat\\pi_\\beta)(s)\\Big]\\\\ J(\\pi^*,M)\\geq J(\\widehat\\pi_\\beta,M)-\\zeta\\end{gathered}",
+      "pixel_size": [
+        591,
+        478
+      ],
+      "sha256": "b78beb14eb5b8dd512ed5f5b3ae61d03d55d52505939bee5d8c2279844f0b690",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq08-lagrange.png",
+      "tex": "figures/equations/eq08-lagrange.tex",
+      "pdf": "figures/equations/eq08-lagrange.pdf",
+      "alt": "CQLLagrange自适应保守系数",
+      "caption": "附录式（28）。C_H 超过预算 τ，α 增大；低于预算，α 减小。第二行是投影梯度上升的教学写法。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 16,
+      "printed_page": 29,
+      "locator": "Appendix F Eq28 (printed p29); projected dual ascent is teaching expansion",
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "equation_type": "source_equation_and_teaching_update",
+      "source_notes": [
+        "First line is Eq28 with article shorthand C_H/L_B. Second line projected-gradient-ascent explanation, not a claim of exact code optimizer/parameterization. [x]_+=max(0,x), eta_alpha positive; C_H over dataset states."
+      ],
+      "exact_latex": "\\begin{aligned} \\min_Q\\max_{\\alpha\\geq0}\\quad&\\mathcal L_B(Q)+\\alpha(\\mathcal C_H(Q)-\\tau)\\\\ \\alpha_{t+1}&=\\big[\\alpha_t+\\eta_\\alpha(\\mathcal C_H(Q)-\\tau)\\big]_+\\end{aligned}",
+      "pixel_size": [
+        702,
+        194
+      ],
+      "sha256": "3a955a3fd399de74475b5a3385a14b2f24bfab2ae5044e0f62a2b9cc2f1ff485",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq09-continuous.png",
+      "tex": "figures/equations/eq09-continuous.tex",
+      "pdf": "figures/equations/eq09-continuous.pdf",
+      "alt": "连续动作的20个样本重要性估计",
+      "caption": "附录 F 的连续动作计算，改用积分记号并拆开权重。每个状态均匀采 10 个动作、当前策略再采 10 个，除以各自采样密度后估计 log 积分。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 16,
+      "printed_page": 29,
+      "locator": "Appendix F Computing log-sum-exp, unnumbered importance-sampling formula (printed p29)",
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "equation_type": "source_equation_rearranged_for_continuous_actions",
+      "source_notes": [
+        "Original appendix writes a sum even for continuous case; this explicitly uses integral for continuous action measure, u uniform probability density on bounded action space. Ten uniform and ten current-policy samples, density denominator retained. Logged estimator is finite-sample approximation; not an unbiased log estimate."
+      ],
+      "exact_latex": "\\begin{aligned} a_i^u&\\sim u(\\cdot),\\qquad a_i^\\pi\\sim\\pi(\\cdot\\mid s)\\\\ w_i^u&=\\frac{\\exp Q(s,a_i^u)}{u(a_i^u)}\\\\ w_i^\\pi&=\\frac{\\exp Q(s,a_i^\\pi)}{\\pi(a_i^\\pi\\mid s)}\\\\ \\log\\!\\int_{\\mathcal A}e^{Q(s,a)}\\,da&\\approx\\log\\!\\left[\\frac1{2N}\\sum_{i=1}^N(w_i^u+w_i^\\pi)\\right]\\\\ N&=10\\end{aligned}",
+      "pixel_size": [
+        787,
+        530
+      ],
+      "sha256": "9e91afedefe7bda0b8560c198e3a445117dd5bb4a2ae5ef99c5632a73b49abe4",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq10-gap.png",
+      "tex": "figures/equations/eq10-gap.tex",
+      "pdf": "figures/equations/eq10-gap.pdf",
+      "alt": "随机候选与数据动作估值间隙",
+      "caption": "附录式（8）。先在均匀抽到的候选动作里找最高估值，再减去数据动作的估值；正值说明随机候选更受 Q 偏爱。",
+      "generator": "TeX",
+      "display_width": 290,
+      "source_url": "https://papers.nips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+      "pdf_page": 2,
+      "printed_page": 15,
+      "locator": "Appendix B Eq8 (printed p15); Fig2 following page",
+      "source_pdf_sha256": "44037fe4ea1e0e70c86a3dfa7e8633b8f4af12f6f6b863d1c379a2c4e9f668f0",
+      "equation_type": "source_equation_rearranged",
+      "source_notes": [
+        "m_k(s) is an editorial shorthand for maximum over the sampled candidate actions. Random candidate max minus observed-action Q, not reversed. Monte Carlo estimate of max in continuous action space, not exact global max. N here is candidate count in diagnostic Eq8; do not equate it to the N=10 of the unrelated Appendix F importance estimator."
+      ],
+      "exact_latex": "\\begin{aligned} a_1^\\prime,\\ldots,a_N^\\prime&\\sim\\operatorname{Unif}(\\mathcal A)\\\\ m_k(s)&=\\max_{1\\leq i\\leq N}\\widehat Q^k(s,a_i^\\prime)\\\\ \\widehat\\Delta_k&=\\mathbb E_{(s,a)\\sim\\mathcal D}\\!\\left[m_k(s)-\\widehat Q^k(s,a)\\right]\\end{aligned}",
+      "pixel_size": [
+        764,
+        281
+      ],
+      "sha256": "64492d0e3c723daddb49c668fcd55ee09788dc52c49a49c104db9e25212e8352",
+      "reviewed": true,
+      "reviewed_at": "2026-11-05T11:44:00+08:00",
+      "visual_review": "Final 290 px rendering inspected; symbols, signs, superscripts, subscripts, fractions and margins readable; no overfull box or missing glyph in TeX log.",
+      "root_visually_reviewed_at": "2026-11-05T11:48:49+08:00"
+    }
+  ],
+  "cover_info": {
+    "ai_generated": true,
+    "generator": "built-in imagegen",
+    "prompt": "figures/cover/prompt.md",
+    "title": "没试过的动作凭什么高分",
+    "caption": "旧数据与候选动作估值校准的概念插画",
+    "reviewed": true,
+    "visually_reviewed_at": "2026-11-05T11:48:49+08:00",
+    "sha256": "212381f3e6212d1f05f2ed3312c5a27b2a0c9bba31ce9604ce7bf8b0e702981f",
+    "pixel_size": [
+      1921,
+      819
+    ],
+    "crop_review": "Wide2.35:1 clear; direct square center crop cuts title. Separate built-in imagegen square recomposition retained and personally inspected.",
+    "square_variant_sha256": "0cbfe0239f22ac0da36f8ab2dc7c8fd4ea0f7a5ca20b1fb6710db1a1e5e4246e",
+    "square_prompt": "figures/cover/square-prompt.md",
+    "square_pixel_size": [
+      1254,
+      1254
+    ],
+    "source": "Built-in imagegen; generation prompts and original output recorded in figures/cover/prompt.md, square-prompt.md and tmp/cql-review/cover-original-toolcall.txt."
+  }
+}

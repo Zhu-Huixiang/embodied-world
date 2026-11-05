@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-129 篇论文是恒星，各自有自己的知识行星与卫星：共 1402 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 22 篇有完整解读，642 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+129 篇论文是恒星，各自有自己的知识行星与卫星：共 1444 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 23 篇有完整解读，687 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -32,7 +32,7 @@
 | [Consistency Policy](papers/consistency-policy.md) | 导读 | [一致性生成](concepts/consistency.md) · [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) |
 | [Cosmos Policy](papers/cosmos-policy.md) | 导读 | [世界动作联合建模](concepts/wam.md) · [视频时序生成](concepts/video.md) · [扩散去噪](concepts/diffusion.md) |
 | [CoT-VLA](papers/cot-vla.md) | 导读 | [视频时序生成](concepts/video.md) · [动作表示](concepts/action.md) · [因果序列建模](concepts/causal.md) |
-| [CQL](papers/cql.md) | 导读 | [离线强化学习](concepts/offline.md) · [价值估计与校准](concepts/value.md) · [策略与价值学习](concepts/actor-critic.md) |
+| [CQL](papers/cql.md) | 已精讲 | [离线强化学习](concepts/offline.md) · [价值估计与校准](concepts/value.md) · [策略与价值学习](concepts/actor-critic.md) · [softmax 与温度](concepts/softmax.md) · [强化学习](concepts/rl.md) · [机器人数据与评测](concepts/data.md) · [泛化评测与遗忘](concepts/benchmark.md) · [行为克隆](concepts/bc.md) |
 | [CR-DAgger](papers/cr-dagger.md) | 导读 | [示范模仿](concepts/imitation.md) · [行为克隆](concepts/bc.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) · [扩散去噪](concepts/diffusion.md) · [表征空间](concepts/representation.md) · [机器人数据与评测](concepts/data.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [Ctrl-World](papers/ctrl-world.md) | 导读 | [视频时序生成](concepts/video.md) · [动作条件动力学](concepts/dynamics.md) · [闭环滚动与历史偏移](concepts/rollout.md) |
 | [DayDreamer](papers/daydreamer.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [闭环滚动与历史偏移](concepts/rollout.md) |

@@ -196,7 +196,7 @@
 | [A Minimalist Approach to Offline Reinforcement Learning](../library/td3-bc.md) · [NeurIPS 2021](../venues/NeurIPS/README.md) | 只在 TD3 策略损失里加一个模仿项，为什么能成为可靠的离线 RL 基线？ |
 | [Decision Transformer](../library/decision-transformer.md) · [NeurIPS 2021](../venues/NeurIPS/README.md) | 把目标回报放进 token 序列，就能把离线控制改写成条件生成吗？ |
 | [Cal-QL](../library/cal-ql.md) · [NeurIPS 2023](../venues/NeurIPS/README.md) | 离线训练把 Q 压得太低，为什么一上真环境反而会先忘掉已有技能？ |
-| [Conservative Q-Learning for Offline Reinforcement Learning](../library/cql.md) · [NeurIPS 2020](../venues/NeurIPS/README.md) | 离线数据没有覆盖的动作，怎样避免被 Q 函数凭空吹成好动作？ |
+| [Conservative Q-Learning for Offline Reinforcement Learning](../articles/cql-2006.04779/README.md) · [NeurIPS 2020](../venues/NeurIPS/README.md) | 离线数据没有覆盖的动作，怎样避免被 Q 函数凭空吹成好动作？ |
 | [Isaac Gym](../library/isaac-gym.md) · [NeurIPS D&B 2021](../venues/NeurIPS-Datasets-Benchmarks/README.md) | GPU 仿真、奖励和策略更新怎样连成一条流水线，改变机器人 RL 的试错速度？ |
 
 <a id="track-embodied-perception"></a>

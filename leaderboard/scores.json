@@ -9854,8 +9854,8 @@
         "venue_label": "NeurIPS",
         "venue_key": "NeurIPS",
         "venue_path": "venues/NeurIPS/README.md",
-        "reading_path": "library/cql.md",
-        "reading_status": "解读导读",
+        "reading_path": "articles/cql-2006.04779/README.md",
+        "reading_status": "完整解读",
         "universe_path": "universe/papers/cql.md",
         "card_path": "leaderboard/papers/cql/README.md"
       },

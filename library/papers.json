@@ -1713,7 +1713,9 @@
       "classic_exception_reason": "放宽年限：CQL 是后续多条机器人离线学习路线持续使用的保守价值学习基础与对照，适合先解释分布偏移，再读新策略。",
       "embodied_relevance": "保守离线 RL 基础方法，TD3+BC、IQL、DT、Trajectory Transformer 和 Cal-QL 的正式论文均与该路线交叉比较，Cal-QL 直接构建于它。",
       "evidence_summary": "理论与跨域实验支持核心机制，多个后续正式论文作为基线或直接扩展，复用与路线价值充分。",
-      "selection_window": "classic_exception"
+      "selection_window": "classic_exception",
+      "article_slug": "cql-2006.04779",
+      "editorial_status_label": "完整解读"
     },
     {
       "id": "walk-in-minutes",
