@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04",
+  "checked_at": "2026-11-05",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -54756,6 +54756,394 @@
       "rank": 116
     },
     {
+      "id": "dreamfree",
+      "checked_at": "2026-11-05",
+      "short_name": "DreamFree",
+      "title": "Future Representation Distillation for Imagination-Free World Action Models",
+      "year": 2026,
+      "navigation": {
+        "track": "world-action-model",
+        "track_label": "世界动作模型",
+        "track_path": "paper-map/README.md#track-world-action-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-dreamfree",
+        "reading_path": "library/dreamfree.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamfree.md",
+        "card_path": "leaderboard/papers/dreamfree/README.md"
+      },
+      "origin": {
+        "label": "Jaehyeong Jo / Sangwon Jang · 韩国科学技术院（KAIST）",
+        "author_label": "Jaehyeong Jo / Sangwon Jang",
+        "institution_label": "韩国科学技术院（KAIST）",
+        "search": "Jaehyeong Jo Sangwon Jang Jaehyeong Jo Sangwon Jang Sihyun Yu Seonghyeon Ye Yekyung Nah Hojung Jung Kimin Lee Sung Ju Hwang KAIST 韩国科学技术院（KAIST） 韩国科学技术院（KAIST） Korea Advanced Institute of Science and Technology Korea Advanced Institute of Science and Technology 韩国科学技术院（KAIST）",
+        "keys": [
+          "institution-i157485424"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i157485424",
+            "label": "韩国科学技术院（KAIST）",
+            "search": "Korea Advanced Institute of Science and Technology Korea Advanced Institute of Science and Technology 韩国科学技术院（KAIST）"
+          }
+        ],
+        "path": "leaderboard/origins/papers/dreamfree.md"
+      },
+      "scores": {
+        "innovation": 86,
+        "evidence": 82,
+        "reuse": 66,
+        "reading": 91,
+        "venue": 60,
+        "influence": 0,
+        "attention": 17.5
+      },
+      "score": 64.1,
+      "score_exact": "64.125",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新86：把未来信息显式蒸馏到当前表示，改变视频先验进入控制的接口；继承REPA/Fast-WAM/Perceiver与梯度隔离思想。证据82：两仿真基准、目标消融、冻结表征探针及带明确50次分母的实机对照，另有视频迁移；训练seed不确定性未给、部分基线沿报道、DROID预训练和部署条件不同、YAM仅定性，不能据8个百分点断言稳健统计优势。复用66：23页稿有公式、算法和超参，但DROID约16 H200一周且仓库main尚无实现；保留可学机制，未视作成熟工具。阅读91：连接视频表征、WAM、蒸馏、流匹配动作与执行时钟，能澄清视频预测是否必需。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.04527v1"
+          ],
+          "review_depth": "23页v1正文§1–5、相关附录A–E及引用来源逐节初读；原图表关键完整页1/5/7/8/9/10/11/16/17/21/22目视。非完整精讲，未执行复现"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新86：把未来信息显式蒸馏到当前表示，改变视频先验进入控制的接口；继承REPA/Fast-WAM/Perceiver与梯度隔离思想。证据82：两仿真基准、目标消融、冻结表征探针及带明确50次分母的实机对照，另有视频迁移；训练seed不确定性未给、部分基线沿报道、DROID预训练和部署条件不同、YAM仅定性，不能据8个百分点断言稳健统计优势。复用66：23页稿有公式、算法和超参，但DROID约16 H200一周且仓库main尚无实现；保留可学机制，未视作成熟工具。阅读91：连接视频表征、WAM、蒸馏、流匹配动作与执行时钟，能澄清视频预测是否必需。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.04527v1"
+          ],
+          "review_depth": "23页v1正文§1–5、相关附录A–E及引用来源逐节初读；原图表关键完整页1/5/7/8/9/10/11/16/17/21/22目视。非完整精讲，未执行复现"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新86：把未来信息显式蒸馏到当前表示，改变视频先验进入控制的接口；继承REPA/Fast-WAM/Perceiver与梯度隔离思想。证据82：两仿真基准、目标消融、冻结表征探针及带明确50次分母的实机对照，另有视频迁移；训练seed不确定性未给、部分基线沿报道、DROID预训练和部署条件不同、YAM仅定性，不能据8个百分点断言稳健统计优势。复用66：23页稿有公式、算法和超参，但DROID约16 H200一周且仓库main尚无实现；保留可学机制，未视作成熟工具。阅读91：连接视频表征、WAM、蒸馏、流匹配动作与执行时钟，能澄清视频预测是否必需。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.04527v1"
+          ],
+          "review_depth": "23页v1正文§1–5、相关附录A–E及引用来源逐节初读；原图表关键完整页1/5/7/8/9/10/11/16/17/21/22目视。非完整精讲，未执行复现"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新86：把未来信息显式蒸馏到当前表示，改变视频先验进入控制的接口；继承REPA/Fast-WAM/Perceiver与梯度隔离思想。证据82：两仿真基准、目标消融、冻结表征探针及带明确50次分母的实机对照，另有视频迁移；训练seed不确定性未给、部分基线沿报道、DROID预训练和部署条件不同、YAM仅定性，不能据8个百分点断言稳健统计优势。复用66：23页稿有公式、算法和超参，但DROID约16 H200一周且仓库main尚无实现；保留可学机制，未视作成熟工具。阅读91：连接视频表征、WAM、蒸馏、流匹配动作与执行时钟，能澄清视频预测是否必需。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.04527v1"
+          ],
+          "review_depth": "23页v1正文§1–5、相关附录A–E及引用来源逐节初读；原图表关键完整页1/5/7/8/9/10/11/16/17/21/22目视。非完整精讲，未执行复现"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "arXiv v1完整稿与附录可追溯，作者官方页称Technical report；未核正式录用/出版，不猜目标刊会；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2611.04527v1",
+            "https://arxiv.org/pdf/2611.04527v1",
+            "https://harryjo97.github.io/dreamfree/",
+            "https://sihyun.me/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.04527v1",
+            "https://arxiv.org/pdf/2611.04527v1",
+            "https://harryjo97.github.io/dreamfree/",
+            "https://api.github.com/repos/harryjo97/dreamfree"
+          ],
+          "checked_at": "2026-11-05T09:15:32+08:00",
+          "audit_scope": "原文、官方项目/仓库、作者页、OpenAlex精确DOI与题名、S2精确ID、HF精确ID、6条题名/刊会/采用搜索。",
+          "reason": "本次有界查找未定位独立技术采用；引用计数不可得保持null，采用量表暂用起点0，不宣称实际影响为零。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.04527v1",
+                "https://arxiv.org/pdf/2611.04527v1",
+                "https://harryjo97.github.io/dreamfree/",
+                "https://api.github.com/repos/harryjo97/dreamfree"
+              ],
+              "checked_at": "2026-11-05T09:15:32+08:00",
+              "audit_scope": "原文、官方项目/仓库、作者页、OpenAlex精确DOI与题名、S2精确ID、HF精确ID、6条题名/刊会/采用搜索。",
+              "reason": "本次有界查找未定位独立技术采用；引用计数不可得保持null，采用量表暂用起点0，不宣称实际影响为零。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "platform_attention",
+          "score": 17.5,
+          "reason": "github 的论文专属入口：GitHub star=4；按10000上限对数压缩。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.04527v1",
+            "https://harryjo97.github.io/dreamfree/",
+            "https://api.github.com/repos/harryjo97/dreamfree",
+            "https://github.com/harryjo97/dreamfree"
+          ],
+          "snapshot": {
+            "url": "https://github.com/harryjo97/dreamfree",
+            "platform": "github",
+            "metric": "stars",
+            "count": 4,
+            "checked_at": "2026-11-05T09:10:30+08:00",
+            "window_kind": "cumulative",
+            "window_start": "2026-10-26",
+            "window_end": "2026-11-05",
+            "label": "GitHub star",
+            "window_label": "2026-11-05单篇官方仓库实读",
+            "eligible_recent_attention": true,
+            "eligible_academic_impact": false,
+            "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+          },
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.04527v1",
+                "https://arxiv.org/pdf/2611.04527v1",
+                "https://harryjo97.github.io/dreamfree/",
+                "https://api.github.com/repos/harryjo97/dreamfree"
+              ],
+              "checked_at": "2026-11-05T09:15:32+08:00",
+              "audit_scope": "原文、官方项目/仓库、作者页、OpenAlex精确DOI与题名、S2精确ID、HF精确ID、6条题名/刊会/采用搜索。",
+              "reason": "无额外可核独立讨论计数；官方论文专属仓库4star按现量表17.5，1订阅10.0，取最大。摘要转载不计独立采用。"
+            },
+            {
+              "method": "platform_attention",
+              "score": 17.5,
+              "reason": "github 的论文专属入口：GitHub star=4；按10000上限对数压缩。",
+              "sources": [
+                "https://arxiv.org/pdf/2611.04527v1",
+                "https://harryjo97.github.io/dreamfree/",
+                "https://api.github.com/repos/harryjo97/dreamfree",
+                "https://github.com/harryjo97/dreamfree"
+              ],
+              "snapshot": {
+                "url": "https://github.com/harryjo97/dreamfree",
+                "platform": "github",
+                "metric": "stars",
+                "count": 4,
+                "checked_at": "2026-11-05T09:10:30+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-26",
+                "window_end": "2026-11-05",
+                "label": "GitHub star",
+                "window_label": "2026-11-05单篇官方仓库实读",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false,
+                "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 10.0,
+              "reason": "github 的论文专属入口：GitHub订阅关注=1；按1000上限对数压缩。",
+              "sources": [
+                "https://arxiv.org/pdf/2611.04527v1",
+                "https://harryjo97.github.io/dreamfree/",
+                "https://api.github.com/repos/harryjo97/dreamfree",
+                "https://github.com/harryjo97/dreamfree"
+              ],
+              "snapshot": {
+                "url": "https://github.com/harryjo97/dreamfree",
+                "platform": "github",
+                "metric": "subscribers",
+                "count": 1,
+                "checked_at": "2026-11-05T09:10:30+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-26",
+                "window_end": "2026-11-05",
+                "label": "GitHub订阅关注",
+                "window_label": "2026-11-05单篇官方仓库实读",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false,
+                "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "dreamfree",
+        "checked_at": "2026-11-05T09:15:32+08:00",
+        "status": "unmatched",
+        "provider": null,
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": [],
+        "api_url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.04527",
+        "match_note": "OpenAlex标题搜索429、精确arXiv DOI404；Semantic Scholar精确ARXIV ID429。无可采用计数，保留null。",
+        "attempted_sources": [
+          "https://api.openalex.org/works?search=Future%20Representation%20Distillation%20for%20Imagination-Free%20World%20Action%20Models&per-page=5",
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.04527?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationVenue",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.04527"
+        ],
+        "edition": "arXiv2611.04527v1",
+        "matched_id": null,
+        "recent_count_basis": "引用未取得，不填零。"
+      },
+      "social": {
+        "checked_at": "2026-11-05T09:15:32+08:00",
+        "resources": [
+          {
+            "platform": "github",
+            "resource_kind": "official_paper_repository",
+            "id": "harryjo97/dreamfree",
+            "url": "https://github.com/harryjo97/dreamfree",
+            "api_url": "https://api.github.com/repos/harryjo97/dreamfree",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "identity_basis": "PDF p1与官方项目直接链接该独有DreamFree仓库；仓库homepage返回同项目。main为空README，归属与代码可用性分开。",
+            "sources": [
+              "https://arxiv.org/pdf/2611.04527v1",
+              "https://harryjo97.github.io/dreamfree/",
+              "https://api.github.com/repos/harryjo97/dreamfree"
+            ],
+            "created_at": "2026-10-26T03:40:19Z",
+            "metrics": [
+              {
+                "metric": "stars",
+                "count": 4,
+                "checked_at": "2026-11-05T09:10:30+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-26",
+                "window_end": "2026-11-05",
+                "label": "GitHub star",
+                "window_label": "2026-11-05单篇官方仓库实读",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false,
+                "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+              },
+              {
+                "metric": "subscribers",
+                "count": 1,
+                "checked_at": "2026-11-05T09:10:30+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-26",
+                "window_end": "2026-11-05",
+                "label": "GitHub订阅关注",
+                "window_label": "2026-11-05单篇官方仓库实读",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false,
+                "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+              },
+              {
+                "metric": "forks",
+                "count": 0,
+                "checked_at": "2026-11-05T09:10:30+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-10-26",
+                "window_end": "2026-11-05",
+                "label": "GitHub fork",
+                "window_label": "2026-11-05单篇官方仓库实读",
+                "eligible_recent_attention": false,
+                "eligible_academic_impact": false,
+                "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+              }
+            ],
+            "limitations": [
+              "仓库main完整树仅1字节README，4star/1订阅只算关注，不证明复现或代码公开。",
+              "匿名API403失败与插件成功两份回执都保留。"
+            ],
+            "snapshot_captured_at": "2026-11-05T09:10:30+08:00"
+          },
+          {
+            "platform": "project",
+            "url": "https://harryjo97.github.io/dreamfree/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/pdf/2611.04527v1",
+              "https://harryjo97.github.io/dreamfree/"
+            ],
+            "metrics": [],
+            "raw_page_views": null
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "精确论文身份核对；6条检索仅作者项目/作者页/摘要聚合/媒体转述，无独立技术结果。",
+        "unavailable_metrics": {
+          "huggingface_upvotes": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "failed_sources": [
+          {
+            "url": "https://api.github.com/repos/harryjo97/dreamfree",
+            "checked_at": "2026-11-05T09:09:05+08:00",
+            "http_status": 403,
+            "metric_count": null,
+            "reason": "HTTPStatusError: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/harryjo97/dreamfree'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+          },
+          {
+            "url": "https://api.openalex.org/works?search=Future%20Representation%20Distillation%20for%20Imagination-Free%20World%20Action%20Models&per-page=5",
+            "checked_at": "2026-11-05T09:09:06+08:00",
+            "http_status": 429,
+            "metric_count": null,
+            "reason": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=Future%20Representation%20Distillation%20for%20Imagination-Free%20World%20Action%20Models&per-page=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+          },
+          {
+            "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.04527?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationVenue",
+            "checked_at": "2026-11-05T09:09:06+08:00",
+            "http_status": 429,
+            "metric_count": null,
+            "reason": "HTTPStatusError: Client error '429 ' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.04527?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationVenue'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+          },
+          {
+            "url": "https://huggingface.co/api/papers/2611.04527",
+            "checked_at": "2026-11-05T09:09:07+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "HTTPStatusError: Client error '404 Not Found' for url 'https://huggingface.co/api/papers/2611.04527'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+          },
+          {
+            "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.04527",
+            "checked_at": "2026-11-05T09:11:04+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "Client error '404 Not Found' for url 'https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.04527'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+          }
+        ],
+        "snapshot_captured_at": "2026-11-05T09:10:30+08:00",
+        "snapshot_request_time_window": {
+          "earliest": "2026-11-05T09:09:07+08:00",
+          "latest": "2026-11-05T09:10:30+08:00",
+          "exact_request_time_recorded": false
+        },
+        "checked_at_semantics": "payload内容复核时间；各计量checked_at为响应保存时间，非新网络请求。"
+      },
+      "editorial": {
+        "checked_at": "2026-11-05",
+        "scores": {
+          "innovation": 86,
+          "evidence": 82,
+          "reuse": 66,
+          "reading": 91
+        },
+        "mechanism": "先对机器人视频适配Wan，再冻结教师；学生用注意力mask让当前token只读当前观测和指令，投影成未来布局，与看过带噪真实未来的教师token做余弦蒸馏，同时保留视频流匹配正则。第二阶段冻结视觉编码器，用64个query读出预测特征，约1B动作DiT条件于指令、本体和DROID动作历史学流匹配。运行只单次视觉编码，动作仍去噪10或16步，输出32动作并执行指定前缀。",
+        "reason": "创新86：把未来信息显式蒸馏到当前表示，改变视频先验进入控制的接口；继承REPA/Fast-WAM/Perceiver与梯度隔离思想。证据82：两仿真基准、目标消融、冻结表征探针及带明确50次分母的实机对照，另有视频迁移；训练seed不确定性未给、部分基线沿报道、DROID预训练和部署条件不同、YAM仅定性，不能据8个百分点断言稳健统计优势。复用66：23页稿有公式、算法和超参，但DROID约16 H200一周且仓库main尚无实现；保留可学机制，未视作成熟工具。阅读91：连接视频表征、WAM、蒸馏、流匹配动作与执行时钟，能澄清视频预测是否必需。",
+        "review_depth": "23页v1正文§1–5、相关附录A–E及引用来源逐节初读；原图表关键完整页1/5/7/8/9/10/11/16/17/21/22目视。非完整精讲，未执行复现"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2611.04527v1",
+        "checked_at": "2026-11-05",
+        "profile": null
+      },
+      "rank": 117
+    },
+    {
       "id": "dreamtrue",
       "checked_at": "2026-10-10",
       "short_name": "DreamTrue",
@@ -55320,7 +55708,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "id": "viola",
@@ -55689,7 +56077,348 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 118
+      "rank": 119
+    },
+    {
+      "id": "dreamx",
+      "checked_at": "2026-11-05",
+      "short_name": "DreamX",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "year": 2026,
+      "navigation": {
+        "track": "video-action",
+        "track_label": "视频动作模型与视觉推理",
+        "track_path": "paper-map/README.md#track-video-action",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-dreamx",
+        "reading_path": "library/dreamx.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/dreamx.md",
+        "card_path": "leaderboard/papers/dreamx/README.md"
+      },
+      "origin": {
+        "label": "Jisoo Kim / Chaehyun Kim · 韩国科学技术院（KAIST） / 英伟达",
+        "author_label": "Jisoo Kim / Chaehyun Kim",
+        "institution_label": "韩国科学技术院（KAIST） / 英伟达",
+        "search": "Jisoo Kim Chaehyun Kim Jisoo Kim Chaehyun Kim Junsu Kim Jiho Park Seongchan Kim Eunbeen Hong Soowon Son Fu-En Yang Seungryong Kim KAIST NVIDIA 韩国科学技术院（KAIST） 英伟达 韩国科学技术院（KAIST） 英伟达研究院 Korea Advanced Institute of Science and Technology Korea Advanced Institute of Science and Technology 韩国科学技术院（KAIST） NVIDIA Research NVIDIA Research NVIDIA 英伟达研究院 英伟达",
+        "keys": [
+          "institution-i157485424",
+          "nvidia"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i157485424",
+            "label": "韩国科学技术院（KAIST）",
+            "search": "Korea Advanced Institute of Science and Technology Korea Advanced Institute of Science and Technology 韩国科学技术院（KAIST）"
+          },
+          {
+            "key": "nvidia",
+            "label": "英伟达研究院",
+            "search": "NVIDIA Research NVIDIA Research NVIDIA 英伟达研究院 英伟达"
+          }
+        ],
+        "path": "leaderboard/origins/papers/dreamx.md"
+      },
+      "scores": {
+        "innovation": 82,
+        "evidence": 76,
+        "reuse": 62,
+        "reading": 86,
+        "venue": 60,
+        "influence": 0,
+        "attention": 57.2
+      },
+      "score": 63.4,
+      "score_exact": "63.44",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "创新82：把视频生成骨干内部时空特征作为latent动作编码器，并用同源生成先验与紧凑瓶颈连接表示、跨本体迁移及动作策略，改变重要动作接口。LoRA、query pooling、VAE与flow目标均有继承；未做骨干/预算完全匹配的原创组件归因。 证据76：公共probe覆盖多数据集，H&R1008clip生成迁移、三配置实机及动作监督/latent条件/扰动分析相互支撑。实机仅每配置10次，开放环动作迁移定性，基线预训练不同，CALVIN split/回合/seed与测时硬件缺失，未达到跨域闭环系统验证。 复用62：完整原文/附录、公开数据配方与LoRA/瓶颈训练设置可学；项目Code soon，未取得可运行专属代码或权重，2B骨干和2H200训练带来工程门槛。不能按已开源成熟工具评分。 阅读86：把视频表征、动作latent、生成迁移与控制效率串起，适合辨析何时需要生成未来视频；96.7%子目标与实际推闭成功的区别也提供明确评测训练。不是所有控制任务共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.05377v1"
+          ],
+          "review_depth": "25页主文与附录A–D文本已读；PDF完整页1/4/5/6/7/8/9/15/16/17/18/19/24/25目视核机制、身份、表格与定性图。初读筛选非完整精讲或代码复现"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "创新82：把视频生成骨干内部时空特征作为latent动作编码器，并用同源生成先验与紧凑瓶颈连接表示、跨本体迁移及动作策略，改变重要动作接口。LoRA、query pooling、VAE与flow目标均有继承；未做骨干/预算完全匹配的原创组件归因。 证据76：公共probe覆盖多数据集，H&R1008clip生成迁移、三配置实机及动作监督/latent条件/扰动分析相互支撑。实机仅每配置10次，开放环动作迁移定性，基线预训练不同，CALVIN split/回合/seed与测时硬件缺失，未达到跨域闭环系统验证。 复用62：完整原文/附录、公开数据配方与LoRA/瓶颈训练设置可学；项目Code soon，未取得可运行专属代码或权重，2B骨干和2H200训练带来工程门槛。不能按已开源成熟工具评分。 阅读86：把视频表征、动作latent、生成迁移与控制效率串起，适合辨析何时需要生成未来视频；96.7%子目标与实际推闭成功的区别也提供明确评测训练。不是所有控制任务共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.05377v1"
+          ],
+          "review_depth": "25页主文与附录A–D文本已读；PDF完整页1/4/5/6/7/8/9/15/16/17/18/19/24/25目视核机制、身份、表格与定性图。初读筛选非完整精讲或代码复现"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "创新82：把视频生成骨干内部时空特征作为latent动作编码器，并用同源生成先验与紧凑瓶颈连接表示、跨本体迁移及动作策略，改变重要动作接口。LoRA、query pooling、VAE与flow目标均有继承；未做骨干/预算完全匹配的原创组件归因。 证据76：公共probe覆盖多数据集，H&R1008clip生成迁移、三配置实机及动作监督/latent条件/扰动分析相互支撑。实机仅每配置10次，开放环动作迁移定性，基线预训练不同，CALVIN split/回合/seed与测时硬件缺失，未达到跨域闭环系统验证。 复用62：完整原文/附录、公开数据配方与LoRA/瓶颈训练设置可学；项目Code soon，未取得可运行专属代码或权重，2B骨干和2H200训练带来工程门槛。不能按已开源成熟工具评分。 阅读86：把视频表征、动作latent、生成迁移与控制效率串起，适合辨析何时需要生成未来视频；96.7%子目标与实际推闭成功的区别也提供明确评测训练。不是所有控制任务共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.05377v1"
+          ],
+          "review_depth": "25页主文与附录A–D文本已读；PDF完整页1/4/5/6/7/8/9/15/16/17/18/19/24/25目视核机制、身份、表格与定性图。初读筛选非完整精讲或代码复现"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "创新82：把视频生成骨干内部时空特征作为latent动作编码器，并用同源生成先验与紧凑瓶颈连接表示、跨本体迁移及动作策略，改变重要动作接口。LoRA、query pooling、VAE与flow目标均有继承；未做骨干/预算完全匹配的原创组件归因。 证据76：公共probe覆盖多数据集，H&R1008clip生成迁移、三配置实机及动作监督/latent条件/扰动分析相互支撑。实机仅每配置10次，开放环动作迁移定性，基线预训练不同，CALVIN split/回合/seed与测时硬件缺失，未达到跨域闭环系统验证。 复用62：完整原文/附录、公开数据配方与LoRA/瓶颈训练设置可学；项目Code soon，未取得可运行专属代码或权重，2B骨干和2H200训练带来工程门槛。不能按已开源成熟工具评分。 阅读86：把视频表征、动作latent、生成迁移与控制效率串起，适合辨析何时需要生成未来视频；96.7%子目标与实际推闭成功的区别也提供明确评测训练。不是所有控制任务共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.05377v1"
+          ],
+          "review_depth": "25页主文与附录A–D文本已读；PDF完整页1/4/5/6/7/8/9/15/16/17/18/19/24/25目视核机制、身份、表格与定性图。初读筛选非完整精讲或代码复现"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "可追溯完整公开稿满足60；未核独立技术复现或正式录用，不由机构和项目传播提升公开评审阶段；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2611.05377v1",
+            "https://arxiv.org/pdf/2611.05377v1",
+            "https://cvlab-kaist.github.io/DreamX/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.05377v1",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05377?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+            "https://huggingface.co/api/papers/2611.05377",
+            "https://cvlab-kaist.github.io/DreamX/"
+          ],
+          "checked_at": "2026-11-05T09:15:06+08:00",
+          "reason": "S2匹配引用0；本次未核到独立技术采用，按证据量表起点0，非实际学术影响总量为0。",
+          "audit_scope": "精确标题/ID有界检索、arXiv原文/官方项目、S2/OpenAlex/HF当前请求；不宣称全网信号穷尽。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.05377v1",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05377?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+                "https://huggingface.co/api/papers/2611.05377",
+                "https://cvlab-kaist.github.io/DreamX/"
+              ],
+              "checked_at": "2026-11-05T09:15:06+08:00",
+              "reason": "S2匹配引用0；本次未核到独立技术采用，按证据量表起点0，非实际学术影响总量为0。",
+              "audit_scope": "精确标题/ID有界检索、arXiv原文/官方项目、S2/OpenAlex/HF当前请求；不宣称全网信号穷尽。"
+            },
+            {
+              "method": "citation_log",
+              "score": 0.0,
+              "reason": "身份匹配的累计引用C=0，对数压缩上限3000。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05377?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue"
+              ]
+            }
+          ]
+        },
+        "attention": {
+          "method": "platform_attention",
+          "score": 57.2,
+          "reason": "huggingface 的论文专属入口：HF论文赞=51；按1000上限对数压缩。",
+          "sources": [
+            "https://huggingface.co/api/papers/2611.05377",
+            "https://arxiv.org/abs/2611.05377v1",
+            "https://cvlab-kaist.github.io/DreamX/",
+            "https://huggingface.co/papers/2611.05377"
+          ],
+          "snapshot": {
+            "url": "https://huggingface.co/papers/2611.05377",
+            "platform": "huggingface",
+            "metric": "upvotes",
+            "count": 51,
+            "checked_at": "2026-11-05T09:10:54+08:00",
+            "window_kind": "cumulative",
+            "window_start": "2026-11-04",
+            "window_end": "2026-11-05",
+            "label": "HF论文赞",
+            "window_label": "近期窗口内新论文页的累计upvote快照",
+            "eligible_recent_attention": true,
+            "eligible_academic_impact": false
+          },
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.05377v1",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05377?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+                "https://huggingface.co/api/papers/2611.05377",
+                "https://cvlab-kaist.github.io/DreamX/"
+              ],
+              "checked_at": "2026-11-05T09:15:06+08:00",
+              "reason": "无额外合格独立讨论证据；近期关注由HF单篇论文51upvote按既有压缩量表计算，不叠加。",
+              "audit_scope": "精确标题/ID有界检索、arXiv原文/官方项目、S2/OpenAlex/HF当前请求；不宣称全网信号穷尽。"
+            },
+            {
+              "method": "recent_volume_velocity",
+              "score": 0.0,
+              "details": {
+                "window_start": "2025-01-01",
+                "window_end": "2026-11-05",
+                "first_public_date": "2026-11-03",
+                "date_origin": "first_arxiv_submission",
+                "date_precision": "day",
+                "effective_months": 3,
+                "citations_per_month": 0.0,
+                "volume_score": 0.0,
+                "velocity_score": 0.0,
+                "recent_count_kind": "provider_year_counts"
+              },
+              "reason": "近期已定位引用R=0；数量与每月引用速度各占一半，有效观察期3个月。",
+              "sources": [
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05377?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue"
+              ]
+            },
+            {
+              "method": "platform_attention",
+              "score": 57.2,
+              "reason": "huggingface 的论文专属入口：HF论文赞=51；按1000上限对数压缩。",
+              "sources": [
+                "https://huggingface.co/api/papers/2611.05377",
+                "https://arxiv.org/abs/2611.05377v1",
+                "https://cvlab-kaist.github.io/DreamX/",
+                "https://huggingface.co/papers/2611.05377"
+              ],
+              "snapshot": {
+                "url": "https://huggingface.co/papers/2611.05377",
+                "platform": "huggingface",
+                "metric": "upvotes",
+                "count": 51,
+                "checked_at": "2026-11-05T09:10:54+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-11-04",
+                "window_end": "2026-11-05",
+                "label": "HF论文赞",
+                "window_label": "近期窗口内新论文页的累计upvote快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "dreamx",
+        "checked_at": "2026-11-05T09:10:54+08:00",
+        "status": "matched",
+        "provider": "Semantic Scholar",
+        "citation_count": 0,
+        "recent_citation_count": 0,
+        "counts_by_year": [],
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05377?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+        "match_note": "精确ARXIV:2611.05377返回同ID、完整标题、2026年与九位同序作者，C=0为实测。OpenAlex精确DOI404不填0，不择较高源、不叠加版本。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05377?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.05377"
+        ],
+        "edition": "arXiv:2611.05377v1",
+        "matched_id": "c281e190866d4335e24eb8c2cf8da2c0733a272d",
+        "record_url": "https://www.semanticscholar.org/paper/c281e190866d4335e24eb8c2cf8da2c0733a272d",
+        "recent_count_basis": "匹配来源累计C=0，窗口内引用因此也0；不称索引外影响为0。",
+        "publication_date": "2026-11-03",
+        "publication_date_precision": "day",
+        "publication_date_source": "https://arxiv.org/abs/2611.05377v1",
+        "source_count_zero_is_observed": true,
+        "matched_title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner"
+      },
+      "social": {
+        "checked_at": "2026-11-05T09:15:06+08:00",
+        "resources": [
+          {
+            "platform": "huggingface",
+            "resource_kind": "paper",
+            "id": "2611.05377",
+            "url": "https://huggingface.co/papers/2611.05377",
+            "api_url": "https://huggingface.co/api/papers/2611.05377",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "identity_basis": "API精确ID/标题/九作者/官方项目URL均相符；11/4提交到Daily，不采用搜索缓存Published on Nov2作为论文首发。",
+            "sources": [
+              "https://huggingface.co/api/papers/2611.05377",
+              "https://arxiv.org/abs/2611.05377v1",
+              "https://cvlab-kaist.github.io/DreamX/"
+            ],
+            "created_at": "2026-11-04T00:00:00.000Z",
+            "metrics": [
+              {
+                "metric": "upvotes",
+                "count": 51,
+                "checked_at": "2026-11-05T09:10:54+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-11-04",
+                "window_end": "2026-11-05",
+                "label": "HF论文赞",
+                "window_label": "近期窗口内新论文页的累计upvote快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            ],
+            "limitations": [
+              "原始论文发布时间取arXiv精确UTC，HF展示日期不覆盖原始记录。",
+              "upvote仅为论文页传播，不是独立采用、实验复现或作者粉丝数。",
+              "linkedModels/datasets为空不推断全网没有模型。"
+            ]
+          },
+          {
+            "platform": "project",
+            "resource_kind": "website",
+            "url": "https://cvlab-kaist.github.io/DreamX/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2611.05377v1",
+              "https://arxiv.org/pdf/2611.05377v1",
+              "https://cvlab-kaist.github.io/DreamX/"
+            ],
+            "metrics": [],
+            "raw_page_views": null,
+            "availability_note": "官方项目可读且代码按钮标soon，无可核阅读量。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "精确ID和标题检索未定位独立技术采用；alphaXiv概览不作为独立复现实验。HF51赞仅计关注。官方代码尚未定位，不借KAIST/NVIDIA组织总star。",
+        "unavailable_metrics": {
+          "github_stars": null,
+          "github_subscribers": null,
+          "hf_downloads": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "failed_sources": [
+          {
+            "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.05377",
+            "checked_at": "2026-11-05T09:10:54+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "OpenAlex精确DOI未匹配；引用实际采用成功且身份匹配的S2 C=0。"
+          }
+        ]
+      },
+      "editorial": {
+        "checked_at": "2026-11-05",
+        "scores": {
+          "innovation": 82,
+          "evidence": 76,
+          "reuse": 62,
+          "reading": 86
+        },
+        "mechanism": "DreamX用Cosmos-Predict2.5 2B的时空特征直接读出动作latent：每个VAE潜帧分配4个可学习query，最长32个2048维token。编码与解码分别用rank16 LoRA，骨干冻结；解码器从首帧和query重建未来，有机器人标签时另加动作流匹配损失，视频流与动作流不互相注意。预训练混合约2.19k小时人/机器人视频。一个变分瓶颈再把每token压到32维；下游策略由当前画面和文字预测这些code，动作DiT读取latent特征和本体状态，不在控制时生成未来视频。源视频迁移则冻结编码器/解码器，换目标首帧生成视频，或换目标初始状态解码开放环动作。",
+        "reason": "创新82：把视频生成骨干内部时空特征作为latent动作编码器，并用同源生成先验与紧凑瓶颈连接表示、跨本体迁移及动作策略，改变重要动作接口。LoRA、query pooling、VAE与flow目标均有继承；未做骨干/预算完全匹配的原创组件归因。 证据76：公共probe覆盖多数据集，H&R1008clip生成迁移、三配置实机及动作监督/latent条件/扰动分析相互支撑。实机仅每配置10次，开放环动作迁移定性，基线预训练不同，CALVIN split/回合/seed与测时硬件缺失，未达到跨域闭环系统验证。 复用62：完整原文/附录、公开数据配方与LoRA/瓶颈训练设置可学；项目Code soon，未取得可运行专属代码或权重，2B骨干和2H200训练带来工程门槛。不能按已开源成熟工具评分。 阅读86：把视频表征、动作latent、生成迁移与控制效率串起，适合辨析何时需要生成未来视频；96.7%子目标与实际推闭成功的区别也提供明确评测训练。不是所有控制任务共同前置。",
+        "review_depth": "25页主文与附录A–D文本已读；PDF完整页1/4/5/6/7/8/9/15/16/17/18/19/24/25目视核机制、身份、表格与定性图。初读筛选非完整精讲或代码复现"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2611.05377v1",
+        "checked_at": "2026-11-05",
+        "profile": null
+      },
+      "rank": 120
     },
     {
       "id": "lewam",
@@ -55979,7 +56708,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 119
+      "rank": 121
     },
     {
       "id": "flore",
@@ -56199,7 +56928,7 @@
         "checked_at": "2026-10-28",
         "profile": null
       },
-      "rank": 120
+      "rank": 122
     },
     {
       "id": "holo-m",
@@ -56544,7 +57273,7 @@
         "checked_at": "2026-10-09",
         "profile": null
       },
-      "rank": 121
+      "rank": 123
     },
     {
       "id": "dex-one2many",
@@ -56907,7 +57636,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 122
+      "rank": 124
     },
     {
       "id": "arc",
@@ -57276,7 +58005,7 @@
         "checked_at": "2026-10-09T18:35:28+08:00",
         "profile": null
       },
-      "rank": 123
+      "rank": 125
     },
     {
       "id": "gar",
@@ -57499,7 +58228,7 @@
         "checked_at": "2026-10-30",
         "profile": null
       },
-      "rank": 124
+      "rank": 126
     },
     {
       "id": "jedi",
@@ -57780,7 +58509,7 @@
         "checked_at": "2026-11-02",
         "profile": null
       },
-      "rank": 125
+      "rank": 127
     },
     {
       "id": "touchbridge",
@@ -58122,7 +58851,7 @@
         "checked_at": "2026-11-02",
         "profile": null
       },
-      "rank": 126
+      "rank": 128
     },
     {
       "id": "world2vec",
@@ -58539,7 +59268,7 @@
         "checked_at": "2026-10-31",
         "profile": null
       },
-      "rank": 127
+      "rank": 129
     }
   ]
 }

@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 127 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 129 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -13,8 +13,8 @@
 ## 方向目录
 
 - [世界模型与模型强化学习](#track-world-model) · 16 篇
-- [世界动作模型](#track-world-action-model) · 6 篇
-- [视频动作模型与视觉推理](#track-video-action) · 5 篇
+- [世界动作模型](#track-world-action-model) · 7 篇
+- [视频动作模型与视觉推理](#track-video-action) · 6 篇
 - [视觉语言动作模型 VLA](#track-vla) · 17 篇
 - [操作与动作块](#track-manipulation) · 25 篇
 - [Locomotion 与运动适应](#track-locomotion) · 19 篇
@@ -62,6 +62,7 @@
 | [Planning with Diffusion for Flexible Behavior Synthesis](../library/diffuser.md) · [ICML 2022](../venues/ICML/README.md) | 轨迹一起去噪，如何同时承担环境建模、长时序规划与测试时加约束？ |
 | [Modality-Autoregressive World-Action Models](../library/modar.md) · [arXiv 2026](../arxiv/README.md#paper-modar) | 为什么先预测点轨迹、语义与几何，再给动作，可能比视频动作一起去噪更有效？ |
 | [TAPESTRY](../library/tapestry.md) · [CoRL 2026](../venues/CoRL/README.md) | 视频模型学会了怎样的交互规律后，机器人还必须先把未来画出来吗？能否把一个动作直接当成视频patch，只算一步就动手？ |
+| [Future Representation Distillation for Imagination-Free World Action Models](../library/dreamfree.md) · [arXiv 2026](../arxiv/README.md#paper-dreamfree) | 视频模型知道一些将来会发生什么，控制器是否必须先把未来逐帧画出来，还是能把预测知识压进当前帧表征？ |
 | [LeWAM](../library/lewam.md) · [arXiv 2026](../arxiv/README.md#paper-lewam) | 联合表征怎样支持预测、动作生成和闭环规划？ |
 
 <a id="track-video-action"></a>
@@ -76,6 +77,7 @@
 | [Causal World Modeling for Robot Control](../library/lingbot-va.md) · [RSS 2026](../venues/RSS/README.md) | 视频预测具体给动作带来什么，真实反馈怎样写回KV历史，又怎样少去噪而保住控制质量？ |
 | [VideoVLA](../library/videovla.md) · [NeurIPS 2025](../venues/NeurIPS/README.md) | 视频生成先验怎样与动作预测一起用于操作泛化？ |
 | [Learning Universal Policies via Text-Guided Video Generation](../library/unipi.md) · [NeurIPS 2023](../venues/NeurIPS/README.md) | 先生成机器人会怎么做的视频，再倒推出动作，这条路线解决了什么又把难题搬到了哪里？ |
+| [DreamX](../library/dreamx.md) · [arXiv 2026](../arxiv/README.md#paper-dreamx) | 视频重建好为什么未必学会可迁移动作？把动作从视频骨干内部读出，能否把外观留给生成先验，并让控制时少生成一段视频？ |
 | [PLaW-VLA](../library/plaw-vla.md) · [CoRL 2026](../venues/CoRL/README.md) | 怎样证明预测的未来表征真的帮助长程动作？ |
 
 <a id="track-vla"></a>
@@ -252,4 +254,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-11-04。
+元数据核对日期：2026-11-05。

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-04",
+  "checked_at": "2026-11-05",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -22020,6 +22020,211 @@
           "error": "<HTTPError 404: 'Not Found'>"
         }
       ]
+    },
+    "dreamx": {
+      "checked_at": "2026-11-05T09:15:06+08:00",
+      "resources": [
+        {
+          "platform": "huggingface",
+          "resource_kind": "paper",
+          "id": "2611.05377",
+          "url": "https://huggingface.co/papers/2611.05377",
+          "api_url": "https://huggingface.co/api/papers/2611.05377",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "API精确ID/标题/九作者/官方项目URL均相符；11/4提交到Daily，不采用搜索缓存Published on Nov2作为论文首发。",
+          "sources": [
+            "https://huggingface.co/api/papers/2611.05377",
+            "https://arxiv.org/abs/2611.05377v1",
+            "https://cvlab-kaist.github.io/DreamX/"
+          ],
+          "created_at": "2026-11-04T00:00:00.000Z",
+          "metrics": [
+            {
+              "metric": "upvotes",
+              "count": 51,
+              "checked_at": "2026-11-05T09:10:54+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-11-04",
+              "window_end": "2026-11-05",
+              "label": "HF论文赞",
+              "window_label": "近期窗口内新论文页的累计upvote快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            }
+          ],
+          "limitations": [
+            "原始论文发布时间取arXiv精确UTC，HF展示日期不覆盖原始记录。",
+            "upvote仅为论文页传播，不是独立采用、实验复现或作者粉丝数。",
+            "linkedModels/datasets为空不推断全网没有模型。"
+          ]
+        },
+        {
+          "platform": "project",
+          "resource_kind": "website",
+          "url": "https://cvlab-kaist.github.io/DreamX/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2611.05377v1",
+            "https://arxiv.org/pdf/2611.05377v1",
+            "https://cvlab-kaist.github.io/DreamX/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "官方项目可读且代码按钮标soon，无可核阅读量。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确ID和标题检索未定位独立技术采用；alphaXiv概览不作为独立复现实验。HF51赞仅计关注。官方代码尚未定位，不借KAIST/NVIDIA组织总star。",
+      "unavailable_metrics": {
+        "github_stars": null,
+        "github_subscribers": null,
+        "hf_downloads": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.05377",
+          "checked_at": "2026-11-05T09:10:54+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "OpenAlex精确DOI未匹配；引用实际采用成功且身份匹配的S2 C=0。"
+        }
+      ]
+    },
+    "dreamfree": {
+      "checked_at": "2026-11-05T09:15:32+08:00",
+      "resources": [
+        {
+          "platform": "github",
+          "resource_kind": "official_paper_repository",
+          "id": "harryjo97/dreamfree",
+          "url": "https://github.com/harryjo97/dreamfree",
+          "api_url": "https://api.github.com/repos/harryjo97/dreamfree",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "PDF p1与官方项目直接链接该独有DreamFree仓库；仓库homepage返回同项目。main为空README，归属与代码可用性分开。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.04527v1",
+            "https://harryjo97.github.io/dreamfree/",
+            "https://api.github.com/repos/harryjo97/dreamfree"
+          ],
+          "created_at": "2026-10-26T03:40:19Z",
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 4,
+              "checked_at": "2026-11-05T09:10:30+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-26",
+              "window_end": "2026-11-05",
+              "label": "GitHub star",
+              "window_label": "2026-11-05单篇官方仓库实读",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false,
+              "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+            },
+            {
+              "metric": "subscribers",
+              "count": 1,
+              "checked_at": "2026-11-05T09:10:30+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-26",
+              "window_end": "2026-11-05",
+              "label": "GitHub订阅关注",
+              "window_label": "2026-11-05单篇官方仓库实读",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false,
+              "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+            },
+            {
+              "metric": "forks",
+              "count": 0,
+              "checked_at": "2026-11-05T09:10:30+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-10-26",
+              "window_end": "2026-11-05",
+              "label": "GitHub fork",
+              "window_label": "2026-11-05单篇官方仓库实读",
+              "eligible_recent_attention": false,
+              "eligible_academic_impact": false,
+              "timestamp_semantics": "本地保存已返回的插件响应；精确请求秒数未单独记录，可靠请求区间09:09:07至本时刻。"
+            }
+          ],
+          "limitations": [
+            "仓库main完整树仅1字节README，4star/1订阅只算关注，不证明复现或代码公开。",
+            "匿名API403失败与插件成功两份回执都保留。"
+          ],
+          "snapshot_captured_at": "2026-11-05T09:10:30+08:00"
+        },
+        {
+          "platform": "project",
+          "url": "https://harryjo97.github.io/dreamfree/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/pdf/2611.04527v1",
+            "https://harryjo97.github.io/dreamfree/"
+          ],
+          "metrics": [],
+          "raw_page_views": null
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确论文身份核对；6条检索仅作者项目/作者页/摘要聚合/媒体转述，无独立技术结果。",
+      "unavailable_metrics": {
+        "huggingface_upvotes": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.github.com/repos/harryjo97/dreamfree",
+          "checked_at": "2026-11-05T09:09:05+08:00",
+          "http_status": 403,
+          "metric_count": null,
+          "reason": "HTTPStatusError: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/harryjo97/dreamfree'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        },
+        {
+          "url": "https://api.openalex.org/works?search=Future%20Representation%20Distillation%20for%20Imagination-Free%20World%20Action%20Models&per-page=5",
+          "checked_at": "2026-11-05T09:09:06+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=Future%20Representation%20Distillation%20for%20Imagination-Free%20World%20Action%20Models&per-page=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        },
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.04527?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationVenue",
+          "checked_at": "2026-11-05T09:09:06+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "HTTPStatusError: Client error '429 ' for url 'https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.04527?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationVenue'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        },
+        {
+          "url": "https://huggingface.co/api/papers/2611.04527",
+          "checked_at": "2026-11-05T09:09:07+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "HTTPStatusError: Client error '404 Not Found' for url 'https://huggingface.co/api/papers/2611.04527'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.04527",
+          "checked_at": "2026-11-05T09:11:04+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "Client error '404 Not Found' for url 'https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.04527'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        }
+      ],
+      "snapshot_captured_at": "2026-11-05T09:10:30+08:00",
+      "snapshot_request_time_window": {
+        "earliest": "2026-11-05T09:09:07+08:00",
+        "latest": "2026-11-05T09:10:30+08:00",
+        "exact_request_time_recorded": false
+      },
+      "checked_at_semantics": "payload内容复核时间；各计量checked_at为响应保存时间，非新网络请求。"
     }
   },
   "excluded_candidates": [

@@ -20,6 +20,8 @@
 - [Video Diffusion](../papers/video-diffusion.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2022/hash/39235c56aef13fb05a6adc95eb9d8d66-Abstract-Conference.html)
 - [Phenaki](../papers/phenaki.md) · 机制导读 · [原文](https://openreview.net/forum?id=vOEXS39nOF)
 - [Ctrl-World](../papers/ctrl-world.md) · 机制导读 · [原文](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html)
+- [DreamX](../papers/dreamx.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05377v1)
+- [DreamFree](../papers/dreamfree.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.04527v1)
 - [DreamTrue](../papers/dreamtrue.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12468v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。

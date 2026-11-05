@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-11-04",
+  "checked_at": "2026-11-05",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1586,6 +1586,43 @@
           "checked_at": "2026-11-04T08:43:15.058176+08:00"
         }
       ]
+    },
+    "dreamx": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.05377v1",
+      "checked_at": "2026-11-05T09:15:06+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2611.05377v1",
+        "https://arxiv.org/pdf/2611.05377v1",
+        "https://cvlab-kaist.github.io/DreamX/"
+      ],
+      "verification_basis": "arXiv精确ID/版本/提交时间、25页全文及A–D附录已读核，PDF完整关键页目视。arXiv和作者项目只登记预印本，精确标题有界搜索及当日官方入口未见正式记录；不把未命中称为全球无录用。",
+      "reason": "可追溯完整公开稿满足60；未核独立技术复现或正式录用，不由机构和项目传播提升公开评审阶段",
+      "research_identity": "arXiv:2611.05377",
+      "reading_version": "arXiv v1; 25 pages",
+      "reading_pdf_sha256": "f9b8e34b2f3d965bdbf30134f763073ad1a82714e930734893dc383790c6b332",
+      "official_venue_checked_urls": [
+        "https://2026.corl.org/program/accepted-papers",
+        "https://2026.ieee-iros.org/program/paper-index/",
+        "https://www.roboticsproceedings.org/rss22/",
+        "https://openaccess.thecvf.com/",
+        "https://openreview.net/",
+        "https://2026.ieee-icra.org/"
+      ],
+      "official_venue_check_scope": "当日已保存的CoRL 2026嵌入索引687篇、IROS 2026论文索引1929条、RSS 22索引，以及CVF/OpenReview/ICRA 2026门户作精确标题与ID查找，未命中；门户层检查不代表站内所有会议已逐篇查完。"
+    },
+    "dreamfree": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.04527v1",
+      "sources": [
+        "https://arxiv.org/abs/2611.04527v1",
+        "https://arxiv.org/pdf/2611.04527v1",
+        "https://harryjo97.github.io/dreamfree/",
+        "https://sihyun.me/"
+      ],
+      "reason": "arXiv v1完整稿与附录可追溯，作者官方页称Technical report；未核正式录用/出版，不猜目标刊会",
+      "checked_at": "2026-11-05T09:15:32+08:00",
+      "verification_basis": "23页v1的标题、八作者KAIST、首发2026-11-03与方法/实验/附录已核；搜索6条仅官方/转载，无正式刊会记录。"
     }
   }
 }

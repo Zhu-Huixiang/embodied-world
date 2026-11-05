@@ -111,7 +111,7 @@
 | [苏黎世联邦理工学院](profiles/institution-i35440088.md) | 大学 | 4 | Locomotion 与运动适应、视觉语言动作模型 VLA |
 | [苏黎世联邦理工学院机器人系统实验室（RSL）](profiles/eth-rsl.md) | 大学实验室 | 1 | Locomotion 与运动适应 |
 | [英伟达 GEAR 研究团队](profiles/nvidia-gear.md) | 研究团队 | 6 | Locomotion 与运动适应、世界动作模型、视觉语言动作模型 VLA、操作与动作块 |
-| [英伟达研究院](profiles/nvidia.md) | 研究机构 | 25 | 操作与动作块、Locomotion 与运动适应、视觉语言动作模型 VLA、世界动作模型、动作先验与全身技能、视频动作模型与视觉推理、Diffusion / Transformer 基础、强化学习与离线决策 |
+| [英伟达研究院](profiles/nvidia.md) | 研究机构 | 26 | 操作与动作块、Locomotion 与运动适应、视觉语言动作模型 VLA、世界动作模型、视频动作模型与视觉推理、动作先验与全身技能、Diffusion / Transformer 基础、强化学习与离线决策 |
 | [英特尔智能系统实验室](profiles/organization-cccbeaadc92f.md) | 论文署名机构 | 2 | Locomotion 与运动适应 |
 | [蒙特利尔大学](profiles/institution-i70931966.md) | 大学 | 1 | 操作与动作块 |
 | [蒙特利尔理工学院](profiles/organization-bcfbc314f1ca.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
@@ -127,7 +127,7 @@
 | [阿尔伯塔大学](profiles/organization-ae229ad3284d.md) | 论文署名机构 | 1 | 视频动作模型与视觉推理 |
 | [阿里巴巴高德](profiles/organization-3447d292443b.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
 | [韩国科学技术院机器人与人工智能实验室（RAI）](profiles/organization-b73486098693.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
-| [韩国科学技术院（KAIST）](profiles/institution-i157485424.md) | 大学 | 5 | Locomotion 与运动适应、操作与动作块 |
+| [韩国科学技术院（KAIST）](profiles/institution-i157485424.md) | 大学 | 7 | Locomotion 与运动适应、操作与动作块、视频动作模型与视觉推理、世界动作模型 |
 | [首尔大学](profiles/organization-7bc89900498b.md) | 论文署名机构 | 2 | 操作与动作块 |
 | [香港大学](profiles/institution-i889458895.md) | 大学 | 1 | 视频动作模型与视觉推理 |
 | [香港理工大学](profiles/organization-56be85fd98d1.md) | 论文署名机构 | 1 | 视频动作模型与视觉推理 |
@@ -143,4 +143,4 @@
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-目录更新：2026-11-04。
+目录更新：2026-11-05。

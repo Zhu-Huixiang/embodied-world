@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-11-04",
+  "checked_at": "2026-11-05",
   "nodes": [
     {
       "id": "paper:act",
@@ -787,6 +787,33 @@
       "source_url": "https://www.nature.com/articles/s41586-025-08744-2"
     },
     {
+      "id": "paper:dreamfree",
+      "key": "dreamfree",
+      "kind": "paper",
+      "title": "DreamFree",
+      "subtitle": "Future Representation Distillation for Imagination-Free World Action Models",
+      "track": "world-action-model",
+      "track_label": "世界动作模型",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/dreamfree.md",
+      "concepts": [
+        "representation",
+        "distill",
+        "video",
+        "flow",
+        "dit",
+        "vae",
+        "attention",
+        "chunk",
+        "data",
+        "cross-body",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.04527v1"
+    },
+    {
       "id": "paper:dreamtrue",
       "key": "dreamtrue",
       "kind": "paper",
@@ -823,6 +850,31 @@
       ],
       "scope": "mechanism",
       "source_url": "https://ieeexplore.ieee.org/abstract/document/10161144/"
+    },
+    {
+      "id": "paper:dreamx",
+      "key": "dreamx",
+      "kind": "paper",
+      "title": "DreamX",
+      "subtitle": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "track": "video-action",
+      "track_label": "视频动作模型与视觉推理",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/dreamx.md",
+      "concepts": [
+        "representation",
+        "attention",
+        "flow",
+        "dit",
+        "vae",
+        "action",
+        "data",
+        "cross-body",
+        "video"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.05377v1"
     },
     {
       "id": "paper:dreamzero",
@@ -2598,6 +2650,8 @@
         "touchbridge",
         "jedi",
         "cr-dagger",
+        "dreamx",
+        "dreamfree",
         "viola"
       ],
       "explainers": [
@@ -3131,7 +3185,9 @@
         "ddpm",
         "latent-diffusion",
         "video-diffusion",
-        "jedi"
+        "jedi",
+        "dreamx",
+        "dreamfree"
       ],
       "explainers": [
         {
@@ -3328,6 +3384,7 @@
         "dinov2",
         "hover",
         "gar",
+        "dreamfree",
         "balanced-data-diet"
       ],
       "explainers": [
@@ -3485,7 +3542,9 @@
         "jam",
         "tops",
         "gar",
-        "jedi"
+        "jedi",
+        "dreamx",
+        "dreamfree"
       ],
       "explainers": []
     },
@@ -3504,7 +3563,9 @@
         "dit",
         "modar",
         "gr00t-n1",
-        "tapestry"
+        "tapestry",
+        "dreamx",
+        "dreamfree"
       ],
       "explainers": [
         {
@@ -3529,7 +3590,9 @@
         "dreamwaq",
         "lingbot-va",
         "jam",
-        "tapestry"
+        "tapestry",
+        "dreamx",
+        "dreamfree"
       ],
       "explainers": [
         {
@@ -3591,6 +3654,7 @@
         "jedi",
         "nablamimic",
         "cr-dagger",
+        "dreamx",
         "arc",
         "plaw-vla"
       ],
@@ -3650,7 +3714,8 @@
         "gar",
         "touchbridge",
         "jedi",
-        "cr-dagger"
+        "cr-dagger",
+        "dreamfree"
       ],
       "explainers": [
         {
@@ -4435,6 +4500,8 @@
         "jedi",
         "nablamimic",
         "cr-dagger",
+        "dreamx",
+        "dreamfree",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -4479,6 +4546,8 @@
         "egoscale",
         "touchbridge",
         "jedi",
+        "dreamx",
+        "dreamfree",
         "viola"
       ],
       "explainers": [
@@ -4522,7 +4591,8 @@
         "world2vec",
         "touchbridge",
         "jedi",
-        "cr-dagger"
+        "cr-dagger",
+        "dreamfree"
       ],
       "explainers": [
         {
@@ -4557,6 +4627,8 @@
         "video-diffusion",
         "phenaki",
         "ctrl-world",
+        "dreamx",
+        "dreamfree",
         "dreamtrue"
       ],
       "explainers": []
@@ -12397,6 +12469,606 @@
       ]
     },
     {
+      "id": "local:dreamfree:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/representation.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:distill",
+      "key": "distill",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "distill",
+      "title": "教师学生蒸馏",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
+      "parent_node": "local:dreamfree:representation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/distill.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:video",
+      "key": "video",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "video",
+      "title": "视频时序生成",
+      "subtitle": "同时表达画面内容与时间变化，用历史与条件产生连续帧。",
+      "detail": "历史来自真值还是模型自己的输出，会影响滚动误差。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/video.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/flow.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:dit",
+      "key": "dit",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "dit",
+      "title": "Diffusion Transformer",
+      "subtitle": "用 Transformer 实现扩散模型的去噪网络，使 token 之间交换条件与目标信息。",
+      "detail": "DiT 是网络结构，训练目标及采样器仍要分别说明。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/dit.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:vae",
+      "key": "vae",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "vae",
+      "title": "变分自编码器 VAE",
+      "subtitle": "编码器描述潜变量分布，解码器从潜变量重建样本，用重建与分布正则共同训练。",
+      "detail": "ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/vae.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/attention.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/chunk.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/data.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:cross-body",
+      "key": "cross-body",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "cross-body",
+      "title": "跨本体数据",
+      "subtitle": "从多个机器人或人类收集经验，通过动作/观测适配接到共享学习系统。",
+      "detail": "共享接口不能消掉本体的物理限制。",
+      "parent_node": "local:dreamfree:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/cross-body.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "dreamfree",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "local:dreamfree:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "本篇方法链路",
+      "subtitle": "先对机器人视频适配Wan，再冻结教师；学生用注意力mask让当前token只读当前观测和指令，投影成未来布局，与看过带噪真实未来的教师token做余弦蒸馏，同时保留视频流匹配正则。第二阶段冻结视觉编码器，用64个query读出预测特征，约1B动作DiT条件于指令、本体和DROID动作历史学流匹配。运行只单次视觉编码，动作仍去噪10或16步，输出32动作并执行指定前缀。",
+      "detail": "先对机器人视频适配Wan，再冻结教师；学生用注意力mask让当前token只读当前观测和指令，投影成未来布局，与看过带噪真实未来的教师token做余弦蒸馏，同时保留视频流匹配正则。第二阶段冻结视觉编码器，用64个query读出预测特征，约1B动作DiT条件于指令、本体和DROID动作历史学流匹配。运行只单次视觉编码，动作仍去噪10或16步，输出32动作并执行指定前缀。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-problem",
+      "key": "df-problem",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "生成未来视频是否是控制必需",
+      "subtitle": "从视频生成先验到动作，关键是保留有用的预测信息。",
+      "detail": "DreamFree检验可否把冻结视频模型对未来的表征蒸馏到当前帧，省去部署时视频迭代去噪；不是取消动作去噪。",
+      "parent_node": "paper:dreamfree",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "§§1–3; PDF pp3–6",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-adapt",
+      "key": "df-adapt",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "机器人视频域适配",
+      "subtitle": "先让视频骨干适应机器人视频和多相机拼图。",
+      "detail": "适配检查点同时初始化教师与学生；适配时没有额外外部视频数据。VAE和文本编码器冻结。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-adapt.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Appendix A.1; PDF p16",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-mask",
+      "key": "df-mask",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "当前帧可见性约束",
+      "subtitle": "训练时输入未来帧，不让当前帧表征偷看未来。",
+      "detail": "当前token在视频自注意力中只看当前；每个未来latent帧只看当前与自身，未来token禁用文本交叉注意力，帧内空间注意力保留。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-mask.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "§3.1; Fig2; Appendix A.2; PDF pp5,16",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-teacher",
+      "key": "df-teacher",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "冻结的未来表征教师",
+      "subtitle": "教师从当前与未来视频得到监督目标。",
+      "detail": "教师保持双向视频注意力和各帧文本交叉注意力；用固定噪声水平扰动真实视频后取隐藏层未来token，训练中不更新。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-teacher.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "§3.1; Eq1; Appendix A.1/A.6; PDF pp5,16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-noise",
+      "key": "df-noise",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "教师固定噪声水平",
+      "subtitle": "噪声水平控制教师目标所含的可见视频信息。",
+      "detail": "蒸馏教师t_d在仿真为0.7、DROID为0.8；不同于生成正则随机采样的时间步。5B教师首帧保持干净，A14B教师保留噪声首帧及独立干净图像条件。",
+      "parent_node": "local:dreamfree:df-teacher",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-noise.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Appendix A.6/B.2; PDF pp17–18",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-projector",
+      "key": "df-projector",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "从当前token扩展未来token",
+      "subtitle": "对齐头把当前表示变成教师时空布局。",
+      "detail": "复制N个当前token到F个时间位置，加可学习帧嵌入；两层decoder做自注意力、向当前token交叉注意力和1024→4096→1024 MLP。",
+      "parent_node": "local:dreamfree:df-teacher",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-projector.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Appendix A.2; PDF p16",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-distill",
+      "key": "df-distill",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "未来token余弦蒸馏",
+      "subtitle": "只在未来位置比较教师与学生对齐输出。",
+      "detail": "双方去掉当前位置，非仿射LayerNorm后取平均余弦距离；实现1-sim与正文-sim只差常数。教师和projector部署时都丢弃。",
+      "parent_node": "local:dreamfree:df-projector",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-distill.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Eq1; Appendix A.2/A.6; PDF pp5,16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-gen",
+      "key": "df-gen",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "生成流匹配正则",
+      "subtitle": "保留视频模型原有的生成训练目标。",
+      "detail": "学生当前帧干净、未来帧加噪，预测epsilon-x的速度；生成loss与蒸馏loss相加，不把视频生成留到运行时。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-gen.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Eqs2–3; Algorithm1; PDF pp6,17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-stage2",
+      "key": "df-stage2",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "冻结编码器再学动作",
+      "subtitle": "动作学习读取预测表示，不反传改教师。",
+      "detail": "附录A.3与算法1明确第二阶段冻结视觉编码器，训练readout、条件层与动作模块；主文允许联合微调的泛述不替代本篇实际配置。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-stage2.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "§3.2; Appendix A.3; Algorithm1; PDF pp6,16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-readout",
+      "key": "df-readout",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "64个可学习动作查询",
+      "subtitle": "把可变数量视觉token压成固定动作条件。",
+      "detail": "两块self/cross-attention更新64个query，输出1024维视觉context，与投影后的指令token拼接供动作DiT交叉注意力；不经过蒸馏projector。",
+      "parent_node": "local:dreamfree:df-stage2",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-readout.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Appendix A.3; PDF p16",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-action",
+      "key": "df-action",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "1B动作DiT流匹配",
+      "subtitle": "在动作空间迭代求解速度场。",
+      "detail": "约1B解码器由30个DiT块构成，条件为视觉readout、指令和本体状态；使用32步动作chunk，LIBERO/RoboCasa10个Euler步，DROID16步，无CFG。",
+      "parent_node": "local:dreamfree:df-stage2",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-action.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "§3.2; Eq4; Appendix A.5/B.2; PDF pp6,17–18",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-history",
+      "key": "df-history",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "DROID八步动作历史",
+      "subtitle": "历史动作抑制闭环中的意外重新张夹爪。",
+      "detail": "输入顺序为当前状态、过去8动作、加噪未来动作；历史缺项mask，训练时状态与整段历史分别以0.2概率drop；只有DROID启用。",
+      "parent_node": "local:dreamfree:df-action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-history.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Appendix A.4–A.6; PDF pp16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-execution",
+      "key": "df-execution",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "32步预测与执行窗口",
+      "subtitle": "预测长度、去噪步数和执行长度是三种不同的时钟。",
+      "detail": "每chunk预测32动作，LIBERO执行10、RoboCasa32、DROID24后再规划。91ms是chunk计算延迟，不能直接当完整观察—执行闭环周期。",
+      "parent_node": "local:dreamfree:df-action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-execution.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Algorithm2; Appendix B.2/C.2; PDF pp17–19",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-probes",
+      "key": "df-probes",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "冻结特征的动作与未来探针",
+      "subtitle": "分别检验动作可读性与未来表征内容。",
+      "detail": "动作探针是轻量注意力网络，未来探针是空间共享线性VAE latent读出；每种表示单独训练probe、冻结骨干。图3报告归一化MSE，未来真实帧教师仅作参考。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-probes.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "§4.2; Fig3; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-libero",
+      "key": "df-libero",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "LIBERO四套任务",
+      "subtitle": "在熟悉任务中衡量动作策略成功率。",
+      "detail": "40任务共2000次评测，平均98.6%；LingBot-VA98.5、Fast-WAM97.6为引用结果。Long子集本篇96.6低于LingBot-VA98.5，不能写逐项领先。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-libero.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Tables1/7; Appendix C.1/D.1; PDF pp8,18,21",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-robocasa",
+      "key": "df-robocasa",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "RoboCasa厨房任务",
+      "subtitle": "检验有限机器人示范下的多任务操作。",
+      "detail": "24任务各50条训练示范、各50评测试次；14B71.7对自行训练Fast-WAM14B44.7，5B58.5对44.4；其余基线如CosmosPolicy67.1沿原报告。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-robocasa.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Table2; Appendix B.1/C.1; PDF pp8,18–19",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-ablation",
+      "key": "df-ablation",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "蒸馏与生成目标消融",
+      "subtitle": "分开看两个表征训练目标提供的收益。",
+      "detail": "RoboCasa71.7，去生成55.6，去蒸馏47.2；LIBERO98.6/98.0/94.6。结果支持两者互补；未给跨训练seed区间。",
+      "parent_node": "local:dreamfree:df-robocasa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Table3; §4.3; PDF p9",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-scaling",
+      "key": "df-scaling",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "骨干规模与额外视频",
+      "subtitle": "更多视觉先验能否转成更好的控制。",
+      "detail": "5B→14B为58.5→71.7；加入RoboCasa365原子任务视频后68.8→74.4，动作标签仍为CosmosPolicy示范。训练批量、轮数随规模和数据设置不同。",
+      "parent_node": "local:dreamfree:df-robocasa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-scaling.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Table2; Appendix B.2/C.1; PDF pp8,18–19",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-droid",
+      "key": "df-droid",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "DROID五十次实机比较",
+      "subtitle": "在已有任务类型的新物体或新布置上直接部署。",
+      "detail": "10任务各5次/方法：64%即32/50，对DreamZero56%即28/50、pi0.5 16%即8/50。按各公开checkpoint/部署设置；并非等量预训练受控比较。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-droid.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Fig4; §4.4; Appendix C.2; PDF pp9,19–20",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-progress",
+      "key": "df-progress",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "成功率与进度分分开",
+      "subtitle": "完成整项任务与完成部分步骤分别计分。",
+      "detail": "平均进度83/71.8/33.5%，按Table5逐任务rubric；例如放螺栓每个1/3，最后三枚均在碗中才成功。",
+      "parent_node": "local:dreamfree:df-droid",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-progress.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Fig4; Table5; PDF pp9,20",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-yam",
+      "key": "df-yam",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "双臂YAM定性执行",
+      "subtitle": "观察另一机器人上的协调操作例子。",
+      "detail": "另训ABC-130k约100小时子集，展示拧笔帽、折叠、放盘等成功片段；本篇未给这组量化成功率或匹配baseline。",
+      "parent_node": "local:dreamfree:df-droid",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-yam.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Fig6; §4.4; Appendix B.2; PDF pp10,18",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-latency",
+      "key": "df-latency",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "H200单chunk计算成本",
+      "subtitle": "分清模型推理延迟和机器人执行时间。",
+      "detail": "暖机后单H200含客户端预处理、服务端策略、后处理，排除通信和执行：91ms对DreamZero1632ms、pi0.5 81ms；各自部署配置且含编译、CUDAgraph、缓存优化。",
+      "parent_node": "local:dreamfree:df-droid",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-latency.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Fig7; Appendix C.2; PDF pp10,19–20",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-completion",
+      "key": "df-completion",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "积木任务完成时间估计",
+      "subtitle": "把执行时间也纳入任务效率观察。",
+      "detail": "每方法每积木数量3次，时长由标称机器人执行时间加总策略计算估计，排除通信与setup；不是独立墙钟全链路统计。",
+      "parent_node": "local:dreamfree:df-latency",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-completion.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Fig7right; Appendix C.2; PDF pp10,20",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-transfer",
+      "key": "df-transfer",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "视频可教任务组合",
+      "subtitle": "新任务没有动作标签，但底层仍用带标签原子任务训练。",
+      "detail": "RoboCasa三复合任务各20次；相同原子动作标签下加入视频且带蒸馏平均0→21.7%，同视频去蒸馏仍0；是仿真且要求已有可执行技能。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-transfer.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "§4.5; Fig8left; Appendix C.3; PDF pp11,20–21",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-cross",
+      "key": "df-cross",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "跨本体视频任务迁移",
+      "subtitle": "换机器人视频教任务流程，不直接移植动作空间。",
+      "detail": "RoboTwin仿真：双Franka三任务各50视频训练encoder，动作模块只用ALOHA-AgileX原子任务标签；目标机器人各20次，平均6.7→30%。",
+      "parent_node": "local:dreamfree:df-transfer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-cross.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Fig8middle; Appendix C.3; PDF pp11,20–21",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-adaptation",
+      "key": "df-adaptation",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "十段视频后适配",
+      "subtitle": "冻结动作模块，仅调视觉编码器增加新任务。",
+      "detail": "两个RoboTwin任务各10视频，单H200约10分钟；多视角与单头视角训练用不同迭代数，评测均用三相机。不能称单相机部署或等预算视角因果比较。",
+      "parent_node": "local:dreamfree:df-transfer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-adaptation.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Fig8right; Appendix C.3; PDF pp11–12,21",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-failures",
+      "key": "df-failures",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "原子动作缺口仍会阻断迁移",
+      "subtitle": "视频流程知识不能自动补齐不会做的运动技能。",
+      "detail": "基础策略不会开柜，视频微调仍无法将物体放柜内；DROID按泵5次均接触但只1次完成。作者把接触动作与技能覆盖作为后续问题。",
+      "parent_node": "local:dreamfree:df-transfer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-failures.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Appendix D.3/E.2; PDF pp21–23",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamfree:df-compute",
+      "key": "df-compute",
+      "kind": "local",
+      "paper": "dreamfree",
+      "title": "训练成本与代码状态",
+      "subtitle": "高效推理不等于低成本训练或已可复现。",
+      "detail": "DROID两训练阶段约16块H200一周，另有视频适配。2026-11-05所读官方仓库main只含1字节README；附录提供机制和超参，未核到公开训练实现。",
+      "parent_node": "local:dreamfree:df-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamfree/df-compute.md",
+      "source_url": "https://arxiv.org/pdf/2611.04527v1",
+      "locator": "Appendix B.2; PDF p18; official repository tree snapshot 2026-11-05",
+      "explainers": []
+    },
+    {
       "id": "local:dreamtrue:dynamics",
       "key": "dynamics",
       "kind": "local",
@@ -12514,6 +13186,561 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamwaq/method-chain.md",
       "source_url": "https://ieeexplore.ieee.org/abstract/document/10161144/",
       "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/representation.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/attention.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/flow.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dit",
+      "key": "dit",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "dit",
+      "title": "Diffusion Transformer",
+      "subtitle": "用 Transformer 实现扩散模型的去噪网络，使 token 之间交换条件与目标信息。",
+      "detail": "DiT 是网络结构，训练目标及采样器仍要分别说明。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dit.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:vae",
+      "key": "vae",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "vae",
+      "title": "变分自编码器 VAE",
+      "subtitle": "编码器描述潜变量分布，解码器从潜变量重建样本，用重建与分布正则共同训练。",
+      "detail": "ACT 中潜变量表达示范差异；不要把任何 latent 都叫 VAE。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/vae.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/action.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/data.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:cross-body",
+      "key": "cross-body",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "cross-body",
+      "title": "跨本体数据",
+      "subtitle": "从多个机器人或人类收集经验，通过动作/观测适配接到共享学习系统。",
+      "detail": "共享接口不能消掉本体的物理限制。",
+      "parent_node": "local:dreamx:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/cross-body.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:video",
+      "key": "video",
+      "kind": "local",
+      "paper": "dreamx",
+      "canonical": "video",
+      "title": "视频时序生成",
+      "subtitle": "同时表达画面内容与时间变化，用历史与条件产生连续帧。",
+      "detail": "历史来自真值还是模型自己的输出，会影响滚动误差。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/video.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "本篇方法链路",
+      "subtitle": "DreamX用Cosmos-Predict2.5 2B的时空特征直接读出动作latent：每个VAE潜帧分配4个可学习query，最长32个2048维token。编码与解码分别用rank16 LoRA，骨干冻结；解码器从首帧和query重建未来，有机器人标签时另加动作流匹配损失，视频流与动作流不互相注意。预训练混合约2.19k小时人/机器人视频。一个变分瓶颈再把每token压到32维；下游策略由当前画面和文字预测这些code，动作DiT读取latent特征和本体状态，不在控制时生成未来视频。源视频迁移则冻结编码器/解码器，换目标首帧生成视频，或换目标初始状态解码开放环动作。",
+      "detail": "DreamX用Cosmos-Predict2.5 2B的时空特征直接读出动作latent：每个VAE潜帧分配4个可学习query，最长32个2048维token。编码与解码分别用rank16 LoRA，骨干冻结；解码器从首帧和query重建未来，有机器人标签时另加动作流匹配损失，视频流与动作流不互相注意。预训练混合约2.19k小时人/机器人视频。一个变分瓶颈再把每token压到32维；下游策略由当前画面和文字预测这些code，动作DiT读取latent特征和本体状态，不在控制时生成未来视频。源视频迁移则冻结编码器/解码器，换目标首帧生成视频，或换目标初始状态解码开放环动作。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-problem",
+      "key": "dx-problem",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "从视频重建到可迁移动作",
+      "subtitle": "画面重建得像，不等于动作表示能跨人和机器人使用。",
+      "detail": "局部视觉转移可能把视角、外观与运动缠在一起；DreamX直接从预训练视频模型内部读运动，并让初始帧和生成先验承担外观重建。",
+      "parent_node": "paper:dreamx",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§1–2; PDF pp2–3",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-backbone",
+      "key": "dx-backbone",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "同一视频先验的编码与解码角色",
+      "subtitle": "Cosmos-Predict2.5 2B同时提供时空特征和生成先验。",
+      "detail": "编码器读取完整观察片段；解码器从首帧与latent重建未来。两者用独立rank16 LoRA，预训练骨干权重冻结。",
+      "parent_node": "local:dreamx:dx-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-backbone.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.1–3.2; AppendixA.2; PDF pp3–4,14",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-video-latents",
+      "key": "dx-video-latents",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "5到29帧怎样变成潜视频",
+      "subtitle": "因果视频自编码器将输入压成2到8个潜帧，首个潜帧只含初始图像。",
+      "detail": "480×640视频以4帧为增量选5–29帧；随后patchify并进入视频Transformer。输入视频、VAE潜帧和latent-action token是三种不同粒度。",
+      "parent_node": "local:dreamx:dx-backbone",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-video-latents.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.1,4 implementation; AppendixA.2; PDF pp3,6,14",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-queries",
+      "key": "dx-queries",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "每个潜帧只读出四个查询",
+      "subtitle": "四个可学习query汇总一个潜帧的时空表征。",
+      "detail": "1200到4是每潜帧token数压缩300倍；最长8组共32个query，每个仍有2048维，并非总计算量降低300倍。",
+      "parent_node": "local:dreamx:dx-video-latents",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-queries.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.2; Fig2; AppendixA.2–A.3; PDF pp4,14–15",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-encoder-mask",
+      "key": "dx-encoder-mask",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "直接历史读取不等于全网因果",
+      "subtitle": "第g组query直接读取V0到Vg，但query之间的注意力不受限。",
+      "detail": "原文称query-to-video frame-causal；由于query之间可互读，不应把它扩大成完整编码器绝不接触未来信息的保证。编码对象本身是已观测源视频。",
+      "parent_node": "local:dreamx:dx-queries",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-encoder-mask.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.2; Fig2b; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-language",
+      "key": "dx-language",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "编码用文字，重建用latent",
+      "subtitle": "编码器保留视频骨干的文字交叉注意力，解码器以动作latent替代文字条件。",
+      "detail": "Q=E(q;V,l)把视频和指令变成latent；解码器从V0与Q重建未来，使额外条件倾向保留解释运动的信息。",
+      "parent_node": "local:dreamx:dx-queries",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-language.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.2; Eq2–3; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-decoder-mask",
+      "key": "dx-decoder-mask",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "视频与动作共用条件而不互读",
+      "subtitle": "解码时视频流和动作流都读取query前缀，但彼此不注意。",
+      "detail": "query作为条件不读取其他token；Vt读Q0:t，Am读Q0:m。出现两种输出不等于它们通过直接注意力相互反馈。",
+      "parent_node": "local:dreamx:dx-backbone",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-decoder-mask.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.2; Fig2b; Eq3; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-loss",
+      "key": "dx-loss",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "有动作标签才加入动作损失",
+      "subtitle": "视频重建总是提供监督；机器人动作标签可加一条辅助流匹配损失。",
+      "detail": "x_tau=(1−tau)x+tau*epsilon，速度目标epsilon−x；有标签时视频/动作权重相同，无标签人类片段lambda=0。",
+      "parent_node": "local:dreamx:dx-decoder-mask",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-loss.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.1–3.2; Eqs1,4; AppendixA.2; PDF pp3,5,14",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-data",
+      "key": "dx-data",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "2190小时不是全为人类视频",
+      "subtitle": "六数据集同时含机器人示范与人类视频。",
+      "detail": "Bridge47.9h、DROID350.5h、AgiBot818.2h、MolmoAct2 502.3h、EgoDex410.1h、EgoVerse59.0h；人类469.1h约21.4%，数字按原图列示。",
+      "parent_node": "local:dreamx:dx-loss",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-data.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "AppendixA.1; Fig9; PDF pp14–15",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-video-transfer",
+      "key": "dx-video-transfer",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "同一latent换一个起始画面",
+      "subtitle": "源视频的Q与目标首帧组合，生成目标外观下的运动。",
+      "detail": "冻结编码器/解码器；没有成对人–机器人训练数据。生成视频的相似度是视觉迁移证据，须与机器人实际执行分开。",
+      "parent_node": "local:dreamx:dx-language",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-video-transfer.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.3; Eq5; Figs4–5; PDF pp5,7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-action-transfer",
+      "key": "dx-action-transfer",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "从人类动作到开放环机器轨迹",
+      "subtitle": "把源视频Q与目标机器人初始本体状态结合，解码可执行动作。",
+      "detail": "所展示书写、单手推物、双手推物采用开放环执行，不读运行视觉反馈；论文给定性例子，未给这些动作迁移的重复成功率。",
+      "parent_node": "local:dreamx:dx-video-transfer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-action-transfer.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.3; AppendixB.2,D.2; Figs6,16; PDF pp8–9,16,24",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-bottleneck",
+      "key": "dx-bottleneck",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "32乘2048再压成32乘32",
+      "subtitle": "token少了，通道仍大；单独变分瓶颈进一步压通道。",
+      "detail": "单自注意力编码器输出32维高斯code，六层Transformer解码2048维特征；重建+0.01KL，5万步，训练后取posterior mean。",
+      "parent_node": "local:dreamx:dx-queries",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-bottleneck.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.4; AppendixA.3; Eqs8–9; PDF pp5,14–15",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-policy",
+      "key": "dx-policy",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "控制时预测code而非生成未来视频",
+      "subtitle": "当前画面和指令预测compact latent，单独Action DiT输出低层动作。",
+      "detail": "动作token可读取latent特征，反向读取关闭；人类视频监督latent，机器人示范另监督动作。视频迁移解码器与下游策略不要混为一次推理。",
+      "parent_node": "local:dreamx:dx-bottleneck",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-policy.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§3.4; Fig3b; Eqs6–7; PDF pp5–6",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-policy-training",
+      "key": "dx-policy-training",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "预训练与任务微调两笔成本",
+      "subtitle": "latent生成器用约三分之一原预训练数据学习10万步，再加入动作头做任务学习。",
+      "detail": "生成器rank128 LoRA、2张H200、batch60；Action DiT在任务阶段才引入。抽屉实验两方法各3万步，但初始化和预训练数据不同。",
+      "parent_node": "local:dreamx:dx-policy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-policy-training.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "AppendixA.4,B.3; PDF pp15–16",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-lary-protocol",
+      "key": "dx-lary-protocol",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "公共probe测表示，不是闭环成功率",
+      "subtitle": "冻结所有表示，用相同attentive probe完成动作回归和分类。",
+      "detail": "每token投影768维后池化；视频方法用元数据恢复中间帧并保留各自支持的时窗。相同probe并不代表预训练数据、backbone或上下文完全相同。",
+      "parent_node": "local:dreamx:dx-queries",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-lary-protocol.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.1; AppendixB.4; Table1; PDF pp6,17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-lary-results",
+      "key": "dx-lary-results",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "表征误差与语义分类同时改善",
+      "subtitle": "LARYBench平均归一化动作MSE 0.17对DiLA 0.38；分类69.67%对62.25%。",
+      "detail": "回归覆盖CALVIN/VLABench/RoboCOIN/AgiBot，分类覆盖机器人原子、人类组合、机器人组合；32维瓶颈后0.22/67.15，原表未列多seed误差条。",
+      "parent_node": "local:dreamx:dx-lary-protocol",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-lary-results.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.1; Table1; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-hr-protocol",
+      "key": "dx-hr-protocol",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "1008段视频如何做零样本迁移评估",
+      "subtitle": "H&R共21任务，每任务48clip，使用人类源片段和对应机器人的首帧。",
+      "detail": "不以配对数据训练；输出统一取前20帧并去掉条件帧，19帧用于FVD/LPIPS/PSNR/SSIM。指标衡量生成视频，不是1008次真机试验。",
+      "parent_node": "local:dreamx:dx-video-transfer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-hr-protocol.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "AppendixB.5; PDF p17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-hr-results",
+      "key": "dx-hr-results",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "视频迁移保运动也保目标外观",
+      "subtitle": "FVD57.44对AdaWorld170.19、VideoWorld2 241.92。",
+      "detail": "LPIPS0.179对0.344/0.299，PSNR26.52对22.95/22.53，SSIM0.917对0.846/0.881；都采用论文相同H&R评估，baseline使用原生生成时长再截共同窗口。",
+      "parent_node": "local:dreamx:dx-hr-protocol",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-hr-results.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.2; Table2; Fig5; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-real-setup",
+      "key": "dx-real-setup",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "双臂YAM的14维绝对动作",
+      "subtitle": "每臂六关节角加一个夹爪命令，合为14维。",
+      "detail": "固定俯视RealSense D405 RGB相机；45条轨迹训练抽屉策略，上层、下层、双层三个配置各10次，两层按上后下顺序。",
+      "parent_node": "local:dreamx:dx-policy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-real-setup.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "AppendixB.1,B.3; Figs10–11; PDF p16",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-real-metric",
+      "key": "dx-real-metric",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "96.7%是两个子目标的平均",
+      "subtitle": "到达抽屉与推闭抽屉分别计分，再按三配置等权平均。",
+      "detail": "DreamX reach为100/100/100，push为80/100/100；故子目标平均96.7%，推闭计数由10次/配置换算为28/30=93.3%。Mimic-Video reach80/100/100，push20/0/0；其子目标50%，推闭2/30。",
+      "parent_node": "local:dreamx:dx-real-setup",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-real-metric.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.4; Tables3,5; AppendixB.3,C.1; PDF pp8–9,16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-latency",
+      "key": "dx-latency",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "小latent减少生成对象，但仍有推理成本",
+      "subtitle": "论文Table3每次调用1474ms对Mimic-Video28226ms。",
+      "detail": "原文给19.1倍比值，未定位两者测时硬件、采样步数和动作块执行配置；H200是训练硬件，不能移作推理测时条件。",
+      "parent_node": "local:dreamx:dx-policy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-latency.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.4; Table3; AppendixA.4,B.3; PDF pp8–9,15–16",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-human-only",
+      "key": "dx-human-only",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "上抽屉人类监督仍有其他机器人数据",
+      "subtitle": "仅把上层单开配置替换为人类视频，其余两个配置仍含机器人示范。",
+      "detail": "Table6三配置reach/push均100%；不是所有任务从零仅靠人类视频，尤其双层配置本来包含关闭上层抽屉。",
+      "parent_node": "local:dreamx:dx-real-metric",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-human-only.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "AppendixC.1; Table6; PDF p17",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-action-ablation",
+      "key": "dx-action-ablation",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "动作标签对表征的贡献很小且非单向",
+      "subtitle": "相同MolmoAct2/EgoVerse/EgoDex子集上比较RGB-only与RGB+action。",
+      "detail": "回归0.24到0.23略改善，分类65.3到64.8略降；这是受限数据消融，不与完整数据主表0.17直接构成同预算消融。",
+      "parent_node": "local:dreamx:dx-loss",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-action-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.5; Table4; PDF p9",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-policy-ablation",
+      "key": "dx-policy-ablation",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "latent条件是否真被动作头用到",
+      "subtitle": "关闭动作头读取latent特征的注意力，比较CALVIN连续任务。",
+      "detail": "平均完成长度2.378到2.643，各≥1到≥5任务成功率均提高；原文未列该表具体split、回合数、训练seed，不能补默认1000回合。",
+      "parent_node": "local:dreamx:dx-policy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-policy-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "AppendixC.2; Table7; PDF p18",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-perturbation",
+      "key": "dx-perturbation",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "扰动latent首先改变运动",
+      "subtitle": "8个挑选高运动clip、每clip两decoder seed，固定初始帧、噪声和采样设置。",
+      "detail": "alpha0.1/0.3/1与零query控制；零query平均相对运动比0.456。静态区域RGB变化更小，是选定片段上的敏感性分析，不保证所有latent完全无外观。",
+      "parent_node": "local:dreamx:dx-queries",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-perturbation.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.6; AppendixC.3; Tables8,Fig7,13; PDF pp9,18–19",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-centroids",
+      "key": "dx-centroids",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "方向簇是聚合均值而非逐样本解耦",
+      "subtitle": "2362个RoboCOIN片段，10机器人×6方向构成60个方向条件中心。",
+      "detail": "Fig12先去机器人均值再做t-SNE；每点18–40clip平均，不是单片段天然聚成跨本体同一簇。",
+      "parent_node": "local:dreamx:dx-perturbation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-centroids.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "AppendixC.3; Fig12; PDF p18",
+      "explainers": []
+    },
+    {
+      "id": "local:dreamx:dx-scope",
+      "key": "dx-scope",
+      "kind": "local",
+      "paper": "dreamx",
+      "title": "表示迁移、生成迁移与闭环策略三层证据",
+      "subtitle": "核心贡献是从视频先验读动作接口，实机策略目前是窄域可行性验证。",
+      "detail": "表征probe与H&R生成给多方面证据；开放环动作转移仅例子，抽屉每配置10次且基线预训练不同，仍待多任务闭环与匹配预算验证。",
+      "parent_node": "local:dreamx:dx-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/dreamx/dx-scope.md",
+      "source_url": "https://arxiv.org/pdf/2611.05377v1",
+      "locator": "§4.1–4.6; AppendixB–C; PDF pp6–10,16–19",
       "explainers": []
     },
     {
@@ -31604,6 +32831,312 @@
       "lit": true
     },
     {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:representation",
+      "to": "local:dreamfree:distill",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:distill",
+      "to": "concept:distill",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:video",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:video",
+      "to": "concept:video",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:dit",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:dit",
+      "to": "concept:dit",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:vae",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:vae",
+      "to": "concept:vae",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:attention",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:data",
+      "to": "local:dreamfree:cross-body",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:cross-body",
+      "to": "concept:cross-body",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:data",
+      "to": "local:dreamfree:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamfree",
+      "to": "local:dreamfree:df-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-adapt",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-mask",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-teacher",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-teacher",
+      "to": "local:dreamfree:df-noise",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-teacher",
+      "to": "local:dreamfree:df-projector",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-projector",
+      "to": "local:dreamfree:df-distill",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-gen",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-stage2",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-stage2",
+      "to": "local:dreamfree:df-readout",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-stage2",
+      "to": "local:dreamfree:df-action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-action",
+      "to": "local:dreamfree:df-history",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-action",
+      "to": "local:dreamfree:df-execution",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-probes",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-libero",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-robocasa",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-robocasa",
+      "to": "local:dreamfree:df-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-robocasa",
+      "to": "local:dreamfree:df-scaling",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-droid",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-droid",
+      "to": "local:dreamfree:df-progress",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-droid",
+      "to": "local:dreamfree:df-yam",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-droid",
+      "to": "local:dreamfree:df-latency",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-latency",
+      "to": "local:dreamfree:df-completion",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-transfer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-transfer",
+      "to": "local:dreamfree:df-cross",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-transfer",
+      "to": "local:dreamfree:df-adaptation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-transfer",
+      "to": "local:dreamfree:df-failures",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamfree:df-problem",
+      "to": "local:dreamfree:df-compute",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:dreamtrue",
       "to": "local:dreamtrue:dynamics",
       "kind": "contains",
@@ -31684,6 +33217,282 @@
     {
       "from": "paper:dreamwaq",
       "to": "local:dreamwaq:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:attention",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:dit",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dit",
+      "to": "concept:dit",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:vae",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:vae",
+      "to": "concept:vae",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:data",
+      "to": "local:dreamx:cross-body",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:cross-body",
+      "to": "concept:cross-body",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:video",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:video",
+      "to": "concept:video",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:dreamx",
+      "to": "local:dreamx:dx-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-problem",
+      "to": "local:dreamx:dx-backbone",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-backbone",
+      "to": "local:dreamx:dx-video-latents",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-video-latents",
+      "to": "local:dreamx:dx-queries",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-queries",
+      "to": "local:dreamx:dx-encoder-mask",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-queries",
+      "to": "local:dreamx:dx-language",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-backbone",
+      "to": "local:dreamx:dx-decoder-mask",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-decoder-mask",
+      "to": "local:dreamx:dx-loss",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-loss",
+      "to": "local:dreamx:dx-data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-language",
+      "to": "local:dreamx:dx-video-transfer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-video-transfer",
+      "to": "local:dreamx:dx-action-transfer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-queries",
+      "to": "local:dreamx:dx-bottleneck",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-bottleneck",
+      "to": "local:dreamx:dx-policy",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-policy",
+      "to": "local:dreamx:dx-policy-training",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-queries",
+      "to": "local:dreamx:dx-lary-protocol",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-lary-protocol",
+      "to": "local:dreamx:dx-lary-results",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-video-transfer",
+      "to": "local:dreamx:dx-hr-protocol",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-hr-protocol",
+      "to": "local:dreamx:dx-hr-results",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-policy",
+      "to": "local:dreamx:dx-real-setup",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-real-setup",
+      "to": "local:dreamx:dx-real-metric",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-policy",
+      "to": "local:dreamx:dx-latency",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-real-metric",
+      "to": "local:dreamx:dx-human-only",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-loss",
+      "to": "local:dreamx:dx-action-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-policy",
+      "to": "local:dreamx:dx-policy-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-queries",
+      "to": "local:dreamx:dx-perturbation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-perturbation",
+      "to": "local:dreamx:dx-centroids",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:dreamx:dx-problem",
+      "to": "local:dreamx:dx-scope",
       "kind": "contains",
       "lit": false
     },
@@ -39197,9 +41006,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 127,
+    "papers": 129,
     "concepts": 59,
-    "local_topics": 1325,
+    "local_topics": 1402,
     "lit_papers": 22,
     "lit_concepts": 46,
     "lit_local_topics": 642

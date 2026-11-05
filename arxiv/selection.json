@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-04",
+  "checked_at": "2026-11-05",
   "scan": {
-    "scanned_at": "2026-11-04T08:31:51+08:00",
-    "as_of": "2026-11-04",
+    "scanned_at": "2026-11-05T09:07:16+08:00",
+    "as_of": "2026-11-05",
     "window_days": 7,
     "window_timezone": "Asia/Shanghai",
     "max_results_per_query": 60,
@@ -27,7 +27,7 @@
       {
         "query": "(cat:cs.CV OR cat:cs.LG) AND (all:\"world model\" OR all:\"video generation\" OR all:\"diffusion transformer\" OR all:\"flow matching\")",
         "status": "ok",
-        "matched": 54,
+        "matched": 55,
         "returned": 60,
         "limit_reached": true,
         "coverage": "bounded_latest_results"
@@ -1048,13 +1048,131 @@
       },
       "mechanism": "CR-DAgger保留低频扩散基策略，通过顺应式动觉接口在策略继续运行时采集人的位置增量和接触力纠正。扩展稿用参考速度跟踪和硬件时延对齐避免微小纠正标签被控制滞后淹没。冻结视觉编码器，力历史经时间卷积，与状态共同输入轻量残差头；残差推理循环约50Hz，每次预测5个间隔0.02s的15维动作（9维位姿表示与6维目标力/力矩），由500Hz导纳控制器执行基准动作加局部修正。无干预段学零残差，并对纠正附近数据重采样，避免用少量新数据直接改坏完整基策略。",
       "selection_origin": "2026-11-04 原文与相关附录核读后收录；CR-DAgger为同研究正式扩展出版线索，不冒充近七日首发。"
+    },
+    {
+      "id": "dreamx",
+      "short_name": "DreamX",
+      "arxiv_id": "2611.05377",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "authors": [
+        "Jisoo Kim",
+        "Chaehyun Kim",
+        "Junsu Kim",
+        "Jiho Park",
+        "Seongchan Kim",
+        "Eunbeen Hong",
+        "Soowon Son",
+        "Fu-En Yang",
+        "Seungryong Kim"
+      ],
+      "affiliations": [
+        "KAIST",
+        "NVIDIA"
+      ],
+      "track": "video-action",
+      "published": "2026-11-03T18:59:56Z",
+      "project_url": "https://cvlab-kaist.github.io/DreamX/",
+      "code_url": null,
+      "scope": "跨人/机器人动作表征与生成视频迁移；闭环实机证据为双臂YAM抽屉三配置各10回合，开放环动作转移仅定性",
+      "reading_question": "视频重建好为什么未必学会可迁移动作？把动作从视频骨干内部读出，能否把外观留给生成先验，并让控制时少生成一段视频？",
+      "selection_reason": "问题明确，latent动作接口、生成监督与压缩/策略机制可定位；多数据集probe、1008clip视频迁移、实机子目标与机制消融支持表征贡献。按预印本初读收录，不把Universal题目当跨任务闭环通用能力已证实。",
+      "evidence_summary": "Table1公共attentive probe：LARYBench平均归一化动作MSE 0.17对DiLA0.38，分类69.67%对62.25%，32维code后为0.22/67.15；各模型原生时窗与预训练不同。Table2 H&R 21任务×48clip=1008clip，统一19个生成帧：FVD57.44对AdaWorld170.19/VideoWorld2 241.92，LPIPS0.179对0.344/0.299；属于生成视频评估。Table3/5抽屉实机3配置各10次：96.7%是reach/push子目标平均；push80/100/100%对应推闭28/30，Mimic-Video push20/0/0%对应2/30。两方法微调均3万步但预训练不同。Table4同子集RGB-only/RGB+action回归0.24/0.23、分类65.3/64.8。Table7去掉latent条件使CALVIN平均长度2.643降到2.378，但split/回合/seed未列。开放环人到机迁移仅定性；1474对28226ms的测时硬件/采样协议未明，不能拿H200训练卡补作推理硬件。",
+      "embodied_relevance": "把人类视频的运动信息接到机器人动作表征和策略学习，比较生成像素与生成compact latent的控制接口代价。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.05377v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05377v1",
+      "reading_version": "arXiv v1; 25 pages",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Jisoo Kim",
+      "first_arxiv_submission": "2026-11-03T18:59:56Z",
+      "first_arxiv_submission_shanghai": "2026-11-04T02:59:56+08:00",
+      "checked_at": "2026-11-05",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "版本锁定arXiv v1。96.7%为到达/推闭两个子目标等权平均；各配置10次下推闭28/30。开放环动作转移和生成视频迁移与闭环策略证据分开。",
+      "code_availability": "project explicitly says Code soon; no official repository or weights verified",
+      "reading_version_url": "https://arxiv.org/pdf/2611.05377v1",
+      "reading_version_sha256": "f9b8e34b2f3d965bdbf30134f763073ad1a82714e930734893dc383790c6b332",
+      "pdf_sha256": "f9b8e34b2f3d965bdbf30134f763073ad1a82714e930734893dc383790c6b332",
+      "score_axis_reasons": {
+        "innovation": "82：把视频生成骨干内部时空特征作为latent动作编码器，并用同源生成先验与紧凑瓶颈连接表示、跨本体迁移及动作策略，改变重要动作接口。LoRA、query pooling、VAE与flow目标均有继承；未做骨干/预算完全匹配的原创组件归因。",
+        "evidence": "76：公共probe覆盖多数据集，H&R1008clip生成迁移、三配置实机及动作监督/latent条件/扰动分析相互支撑。实机仅每配置10次，开放环动作迁移定性，基线预训练不同，CALVIN split/回合/seed与测时硬件缺失，未达到跨域闭环系统验证。",
+        "reuse": "62：完整原文/附录、公开数据配方与LoRA/瓶颈训练设置可学；项目Code soon，未取得可运行专属代码或权重，2B骨干和2H200训练带来工程门槛。不能按已开源成熟工具评分。",
+        "reading": "86：把视频表征、动作latent、生成迁移与控制效率串起，适合辨析何时需要生成未来视频；96.7%子目标与实际推闭成功的区别也提供明确评测训练。不是所有控制任务共同前置。"
+      },
+      "version_id": "2611.05377v1",
+      "updated": "2026-11-03T18:59:56Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2611.05377v1",
+        "section": "PDF首页1=KAIST，2=NVIDIA；Fu-En Yang为2，其余为1。"
+      },
+      "mechanism": "DreamX用Cosmos-Predict2.5 2B的时空特征直接读出动作latent：每个VAE潜帧分配4个可学习query，最长32个2048维token。编码与解码分别用rank16 LoRA，骨干冻结；解码器从首帧和query重建未来，有机器人标签时另加动作流匹配损失，视频流与动作流不互相注意。预训练混合约2.19k小时人/机器人视频。一个变分瓶颈再把每token压到32维；下游策略由当前画面和文字预测这些code，动作DiT读取latent特征和本体状态，不在控制时生成未来视频。源视频迁移则冻结编码器/解码器，换目标首帧生成视频，或换目标初始状态解码开放环动作。",
+      "selection_origin": "2026-11-05 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
+    },
+    {
+      "id": "dreamfree",
+      "short_name": "DreamFree",
+      "arxiv_id": "2611.04527",
+      "title": "Future Representation Distillation for Imagination-Free World Action Models",
+      "authors": [
+        "Jaehyeong Jo",
+        "Sangwon Jang",
+        "Sihyun Yu",
+        "Seonghyeon Ye",
+        "Yekyung Nah",
+        "Hojung Jung",
+        "Kimin Lee",
+        "Sung Ju Hwang"
+      ],
+      "affiliations": [
+        "KAIST"
+      ],
+      "track": "world-action-model",
+      "published": "2026-11-03T08:55:03Z",
+      "project_url": "https://harryjo97.github.io/dreamfree/",
+      "code_url": "https://github.com/harryjo97/dreamfree",
+      "scope": "LIBERO、RoboCasa和RoboTwin仿真；DROID10任务×5次/方法实机，YAM双臂另训后仅定性。任务内新物体/布置不混作未见任务泛化",
+      "reading_question": "视频模型知道一些将来会发生什么，控制器是否必须先把未来逐帧画出来，还是能把预测知识压进当前帧表征？",
+      "selection_reason": "目标不是泛泛加一个世界模型，而是解决视频去噪开销与动作所需预测信息不匹配；显式蒸馏的消融、特征探针、规模/视频数据与实机证据共同支持有实质贡献的初读收录。",
+      "evidence_summary": "RoboCasa24任务各50评测试次：14B71.7%，自训Fast-WAM14B44.7%；去蒸馏47.2、去生成55.6。其他基线如CosmosPolicy67.1为引用结果。DROID10×5实机：64%对DreamZero56%与pi0.5 16%，按各公开checkpoint设置；YAM只定性。单H200暖机后91ms/chunk对1632ms，排除通信/执行，不把倒数11Hz当24动作执行后的完整闭环频率。RoboTwin跨本体视频迁移三任务各20次平均6.7→30%，仍需原子任务动作标签。",
+      "embodied_relevance": "直接连接预训练视频模型与视觉闭环操作；区分视频生成、预测表示、动作去噪与执行窗口。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.04527v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04527v1",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Jaehyeong Jo",
+      "first_arxiv_submission": "2026-11-03T08:55:03Z",
+      "first_arxiv_submission_shanghai": "2026-11-03T16:55:03+08:00",
+      "checked_at": "2026-11-05",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "",
+      "code_availability": "Official linked repository main tree observed contains only a 1-byte README.md; no training/inference implementation verified. Do not label code released.",
+      "pdf_sha256": "00d8a9d5893e69c44832b8c9ae22aec9b91ffdcc910885bc8d2f2741aef12418",
+      "version_id": "2611.04527v1",
+      "updated": "2026-11-03T08:55:03Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/abs/2611.04527v1",
+        "section": "原文p1共同KAIST署名，不据个人网页增设实验室。"
+      },
+      "mechanism": "先对机器人视频适配Wan，再冻结教师；学生用注意力mask让当前token只读当前观测和指令，投影成未来布局，与看过带噪真实未来的教师token做余弦蒸馏，同时保留视频流匹配正则。第二阶段冻结视觉编码器，用64个query读出预测特征，约1B动作DiT条件于指令、本体和DROID动作历史学流匹配。运行只单次视觉编码，动作仍去噪10或16步，输出32动作并执行指定前缀。",
+      "selection_origin": "2026-11-05 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
     }
   ],
   "screening": {
-    "direction_candidates": 144,
+    "direction_candidates": 134,
     "selected_this_run": 2,
-    "selected_total": 19,
-    "rule": "三路各60条均触顶，144去重候选；另核正式刊会与实验室入口。∇Mimic为窗口内新稿，CR-DAgger为2025首发研究的IJRR扩展出版线索。DiffContact编辑性v2合并，暂缓候选留具体缺口；未全文核验者不作质量结论。"
+    "selected_total": 21,
+    "rule": "三路各60条均触顶，134去重候选；另查80条最新更新和104既有身份、实验室与官方入口。DreamX和DreamFree经原文及附录核验；AIRoA-0具体证据缺口留候选；未读不判质量。"
   },
   "supplemental_checks": [
     {
@@ -1186,6 +1304,26 @@
       "sources": [
         "https://arxiv.org/pdf/2610.35852v1",
         "https://arxiv.org/pdf/2610.35852v2"
+      ]
+    },
+    {
+      "id": "dreamx",
+      "checked_at": "2026-11-05T09:21:22+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2611.05377v1",
+        "https://arxiv.org/pdf/2611.05377v1",
+        "https://cvlab-kaist.github.io/DreamX/"
+      ]
+    },
+    {
+      "id": "dreamfree",
+      "checked_at": "2026-11-05T09:21:22+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2611.04527v1",
+        "https://arxiv.org/pdf/2611.04527v1",
+        "https://harryjo97.github.io/dreamfree/"
       ]
     }
   ]

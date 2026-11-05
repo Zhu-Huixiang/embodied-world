@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-127 篇论文是恒星，各自有自己的知识行星与卫星：共 1325 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 22 篇有完整解读，642 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+129 篇论文是恒星，各自有自己的知识行星与卫星：共 1402 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 22 篇有完整解读，642 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -53,8 +53,10 @@
 | [Dreamer](papers/dreamer.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [策略与价值学习](concepts/actor-critic.md) |
 | [DreamerV2](papers/dreamerv2.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [离散编码与量化](concepts/quantization.md) |
 | [DreamerV3](papers/dreamerv3.md) | 已精讲 | [动作条件动力学](concepts/dynamics.md) · [想象轨迹训练](concepts/imagination.md) · [策略与价值学习](concepts/actor-critic.md) · [世界模型](concepts/world.md) · [强化学习](concepts/rl.md) |
+| [DreamFree](papers/dreamfree.md) | 导读 | [表征空间](concepts/representation.md) · [教师学生蒸馏](concepts/distill.md) · [视频时序生成](concepts/video.md) · [Flow Matching](concepts/flow.md) · [Diffusion Transformer](concepts/dit.md) · [变分自编码器 VAE](concepts/vae.md) · [注意力](concepts/attention.md) · [动作块](concepts/chunk.md) · [机器人数据与评测](concepts/data.md) · [跨本体数据](concepts/cross-body.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [DreamTrue](papers/dreamtrue.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [视频时序生成](concepts/video.md) · [价值估计与校准](concepts/value.md) |
 | [DreamWaQ](papers/dreamwaq.md) | 导读 | [特权训练信息](concepts/privileged.md) · [变分自编码器 VAE](concepts/vae.md) · [环境适应](concepts/adaptation.md) |
+| [DreamX](papers/dreamx.md) | 导读 | [表征空间](concepts/representation.md) · [注意力](concepts/attention.md) · [Flow Matching](concepts/flow.md) · [Diffusion Transformer](concepts/dit.md) · [变分自编码器 VAE](concepts/vae.md) · [动作表示](concepts/action.md) · [机器人数据与评测](concepts/data.md) · [跨本体数据](concepts/cross-body.md) · [视频时序生成](concepts/video.md) |
 | [DreamZero](papers/dreamzero.md) | 导读 | [世界动作联合建模](concepts/wam.md) · [视频时序生成](concepts/video.md) · [动作表示](concepts/action.md) |
 | [DROID](papers/droid.md) | 导读 | [机器人数据与评测](concepts/data.md) · [跨本体数据](concepts/cross-body.md) · [行为克隆](concepts/bc.md) |
 | [EDM](papers/edm.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [去噪网络预条件化](concepts/preconditioning.md) · [条件生成](concepts/generation.md) |

@@ -1,6 +1,6 @@
 # 英伟达研究院
 
-本仓已收录工作主要涉及：操作与动作块、Locomotion 与运动适应、视觉语言动作模型 VLA、世界动作模型、动作先验与全身技能、视频动作模型与视觉推理、Diffusion / Transformer 基础、强化学习与离线决策。
+本仓已收录工作主要涉及：操作与动作块、Locomotion 与运动适应、视觉语言动作模型 VLA、世界动作模型、视频动作模型与视觉推理、动作先验与全身技能、Diffusion / Transformer 基础、强化学习与离线决策。
 
 **类型**：研究机构。
 
@@ -38,6 +38,7 @@
 | [RVT · RVT: Robotic View Transformer for 3D Object Manipulation](../../../library/rvt.md) | 2023 / [CoRL](../../../venues/CoRL/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [79.5](../../papers/rvt/README.md) |
 | [Cosmos Policy · Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning](../../../library/cosmos-policy.md) | 2026 / [ICLR](../../../venues/ICLR/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [78.5](../../papers/cosmos-policy/README.md) |
 | [Balanced Data Diet · A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](../../../library/balanced-data-diet.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [71.1](../../papers/balanced-data-diet/README.md) |
+| [DreamX · DreamX: Video Diffusion Model is a Universal Latent Action Learner](../../../library/dreamx.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-dreamx) | [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) | [63.4](../../papers/dreamx/README.md) |
 | [LeWAM · LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC](../../../library/lewam.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-lewam) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [63.1](../../papers/lewam/README.md) |
 | [ARC · ARC: A Reasoning Recipe for Robot Foundation Models](../../../library/arc.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-arc) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [62.2](../../papers/arc/README.md) |
 

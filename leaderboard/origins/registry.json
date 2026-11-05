@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-04",
+  "checked_at": "2026-11-05",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -9819,6 +9819,188 @@
         "Xiaomeng Xu",
         "Yifan Hou"
       ]
+    },
+    "dreamx": {
+      "first_authors": [
+        "Jisoo Kim",
+        "Chaehyun Kim"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Jisoo Kim",
+        "Chaehyun Kim",
+        "Junsu Kim",
+        "Jiho Park",
+        "Seongchan Kim",
+        "Eunbeen Hong",
+        "Soowon Son",
+        "Fu-En Yang",
+        "Seungryong Kim"
+      ],
+      "profile_ids": [
+        "institution-i157485424",
+        "nvidia"
+      ],
+      "affiliations": [
+        "KAIST",
+        "NVIDIA"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2611.05377v1",
+        "https://cvlab-kaist.github.io/DreamX/",
+        "https://arxiv.org/abs/2611.05377v1"
+      ],
+      "checked_at": "2026-11-05T09:15:06+08:00",
+      "author_basis": "PDF首页九作者；项目星号明确Equal contribution",
+      "affiliation_basis": "PDF首页1=KAIST，2=NVIDIA；Fu-En Yang为2，其余为1。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.05377v1",
+      "authorship_notes": "PDF首页Jisoo Kim/Chaehyun Kim带星号，官方项目明确Equal contribution。Fu-En Yang署名NVIDIA，其余作者KAIST；不由项目组织或作者声望扩写到GEAR或推断通讯作者。",
+      "equal_contribution_authors": [
+        "Jisoo Kim",
+        "Chaehyun Kim"
+      ],
+      "author_affiliations": {
+        "Jisoo Kim": [
+          "KAIST"
+        ],
+        "Chaehyun Kim": [
+          "KAIST"
+        ],
+        "Junsu Kim": [
+          "KAIST"
+        ],
+        "Jiho Park": [
+          "KAIST"
+        ],
+        "Seongchan Kim": [
+          "KAIST"
+        ],
+        "Eunbeen Hong": [
+          "KAIST"
+        ],
+        "Soowon Son": [
+          "KAIST"
+        ],
+        "Fu-En Yang": [
+          "NVIDIA"
+        ],
+        "Seungryong Kim": [
+          "KAIST"
+        ]
+      },
+      "author_links": [
+        {
+          "label": "Jisoo Kim：作者主页",
+          "url": "https://jiiiisoo.github.io/",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Chaehyun Kim：作者主页",
+          "url": "https://kchyun.github.io/",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Junsu Kim：作者主页",
+          "url": "https://jjunos0926.github.io/",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Jiho Park：作者主页",
+          "url": "https://jihopark00.github.io/",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Seongchan Kim：作者主页",
+          "url": "https://scholar.google.com/citations?user=2DpCfdcAAAAJ&hl=ko",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Eunbeen Hong：作者主页",
+          "url": "https://eunbeen-hong.github.io/",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Soowon Son：作者主页",
+          "url": "https://soow0n.github.io/",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Fu-En Yang：作者主页",
+          "url": "https://fuenyang1127.github.io/",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        },
+        {
+          "label": "Seungryong Kim：作者主页",
+          "url": "https://cvlab.kaist.ac.kr/members/faculty",
+          "identity_source": "https://cvlab-kaist.github.io/DreamX/"
+        }
+      ]
+    },
+    "dreamfree": {
+      "first_authors": [
+        "Jaehyeong Jo",
+        "Sangwon Jang"
+      ],
+      "corresponding_authors": [],
+      "equal_advising_authors": [
+        "Kimin Lee",
+        "Sung Ju Hwang"
+      ],
+      "authors": [
+        "Jaehyeong Jo",
+        "Sangwon Jang",
+        "Sihyun Yu",
+        "Seonghyeon Ye",
+        "Yekyung Nah",
+        "Hojung Jung",
+        "Kimin Lee",
+        "Sung Ju Hwang"
+      ],
+      "profile_ids": [
+        "institution-i157485424"
+      ],
+      "affiliations": [
+        "KAIST"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.04527v1",
+        "https://arxiv.org/pdf/2611.04527v1",
+        "https://harryjo97.github.io/dreamfree/",
+        "https://github.com/harryjo97/dreamfree",
+        "https://sihyun.me/"
+      ],
+      "checked_at": "2026-11-05T09:15:32+08:00",
+      "author_basis": "原文p1署名和equal contribution脚注；equal advising单独保存",
+      "affiliation_basis": "原文p1共同KAIST署名，不据个人网页增设实验室。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.04527v1",
+      "authorship_notes": "首页八作者均署KAIST；Jaehyeong Jo/Sangwon Jang星号明确共同贡献；Kimin Lee/Sung Ju Hwang剑号为equal advising，不冒充通讯作者。",
+      "corresponding_evidence": [],
+      "author_affiliations": {
+        "Jaehyeong Jo": [
+          "KAIST"
+        ],
+        "Sangwon Jang": [
+          "KAIST"
+        ],
+        "Sihyun Yu": [
+          "KAIST"
+        ],
+        "Seonghyeon Ye": [
+          "KAIST"
+        ],
+        "Yekyung Nah": [
+          "KAIST"
+        ],
+        "Hojung Jung": [
+          "KAIST"
+        ],
+        "Kimin Lee": [
+          "KAIST"
+        ],
+        "Sung Ju Hwang": [
+          "KAIST"
+        ]
+      }
     }
   },
   "coverage": {
