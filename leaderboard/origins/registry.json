@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-05",
+  "checked_at": "2026-11-06",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3708,6 +3708,35 @@
       "aliases": [
         "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi",
         "纽约大学阿布扎比分校具身智能与机器人实验室"
+      ]
+    },
+    "apple": {
+      "id": "apple",
+      "name": "Apple",
+      "kind": "research_organization",
+      "identity_url": "https://apple-aiml-research.github.io/ml-halo/",
+      "official_url": "https://apple-aiml-research.github.io/ml-halo/",
+      "focus": "本篇作者署名核实为Apple；此项目研究用合成视觉—语言—运动数据学习感知人形全身控制。",
+      "links": [
+        {
+          "label": "HALO官方项目",
+          "url": "https://apple-aiml-research.github.io/ml-halo/"
+        },
+        {
+          "label": "HALO官方代码",
+          "url": "https://github.com/apple-aiml-research/ml-halo"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2611.06908v1",
+        "https://apple-aiml-research.github.io/ml-halo/"
+      ],
+      "checked_at": "2026-11-06T08:40:51+08:00",
+      "display_name": "苹果",
+      "short_display_name": "苹果",
+      "aliases": [
+        "Apple",
+        "苹果"
       ]
     }
   },
@@ -10001,6 +10030,167 @@
           "KAIST"
         ]
       }
+    },
+    "halo": {
+      "first_authors": [
+        "Siyuan Hu"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Siyuan Hu",
+        "Abulikemu Abuduweili",
+        "Yue Meng",
+        "Shipeng Liu",
+        "Quentin Leboutet",
+        "Chen Chen",
+        "Matthias Müller",
+        "Vladlen Koltun"
+      ],
+      "profile_ids": [
+        "apple"
+      ],
+      "affiliations": [
+        "Apple"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2611.06908v1",
+        "https://apple-aiml-research.github.io/ml-halo/",
+        "https://arxiv.org/abs/2611.06908v1"
+      ],
+      "checked_at": "2026-11-06T08:40:51+08:00",
+      "author_basis": "原文首页八作者同序",
+      "affiliation_basis": "原文首页所有作者统一署名Apple。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.06908v1",
+      "authorship_notes": "原文首页八作者统一署名Apple；未见共同一作或通讯作者标记，不补推测。项目身份写Apple，不扩写为未经核实的内部实验室。",
+      "equal_contribution_authors": [],
+      "author_affiliations": {
+        "Siyuan Hu": [
+          "Apple"
+        ],
+        "Abulikemu Abuduweili": [
+          "Apple"
+        ],
+        "Yue Meng": [
+          "Apple"
+        ],
+        "Shipeng Liu": [
+          "Apple"
+        ],
+        "Quentin Leboutet": [
+          "Apple"
+        ],
+        "Chen Chen": [
+          "Apple"
+        ],
+        "Matthias Müller": [
+          "Apple"
+        ],
+        "Vladlen Koltun": [
+          "Apple"
+        ]
+      },
+      "author_links": []
+    },
+    "curobov2-fast": {
+      "first_authors": [
+        "Balakumar Sundaralingam"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Balakumar Sundaralingam",
+        "Adithyavairavan Murali",
+        "Stan Birchfield"
+      ],
+      "profile_ids": [
+        "nvidia"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.06913v1",
+        "https://arxiv.org/pdf/2611.06913v1",
+        "https://research.nvidia.com/labs/lpr/curobov2-fast/",
+        "https://github.com/NVlabs/curobo",
+        "https://nvlabs.github.io/curobo/latest/technical_reports.html"
+      ],
+      "checked_at": "2026-11-06T08:36:58+08:00",
+      "author_basis": "PDF p1三作者顺序与官方项目一致",
+      "affiliation_basis": "PDF首页未标机构；三作者/本项目在NVIDIA Learning and Perception Research官方研究站确认，不额外猜个人职务。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.06913v1",
+      "authorship_notes": "未标共同一作或通讯脚注，不据排列外推。",
+      "corresponding_evidence": [],
+      "author_affiliations": {
+        "Balakumar Sundaralingam": [
+          "NVIDIA"
+        ],
+        "Adithyavairavan Murali": [
+          "NVIDIA"
+        ],
+        "Stan Birchfield": [
+          "NVIDIA"
+        ]
+      }
+    },
+    "ctrl-f": {
+      "first_authors": [
+        "Mengjie Zhao",
+        "Yuxin Chen"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Mengjie Zhao",
+        "Yuxin Chen",
+        "Yiyang Shao",
+        "Chuye Hong",
+        "Jiakang Chen",
+        "Koushil Sreenath",
+        "Masayoshi Tomizuka"
+      ],
+      "profile_ids": [
+        "institution-i95457486"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.05507v1",
+        "https://arxiv.org/pdf/2611.05507v1",
+        "https://forcectrl.github.io/"
+      ],
+      "checked_at": "2026-11-06T08:37:19.120480+08:00",
+      "author_basis": "PDF首页与作者项目同序七作者，前二人星号明确共同贡献",
+      "affiliation_basis": "PDF首页University of California, Berkeley，官方项目相同。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.05507v1",
+      "authorship_notes": "PDF首页与官方项目一致：七作者均署University of California, Berkeley；Mengjie Zhao/Yuxin Chen星号表示共同贡献。没有把实验室或导师姓名扩写为机构，没有推定通讯作者。",
+      "equal_contribution_authors": [
+        "Mengjie Zhao",
+        "Yuxin Chen"
+      ],
+      "author_affiliations": {
+        "Mengjie Zhao": [
+          "University of California, Berkeley"
+        ],
+        "Yuxin Chen": [
+          "University of California, Berkeley"
+        ],
+        "Yiyang Shao": [
+          "University of California, Berkeley"
+        ],
+        "Chuye Hong": [
+          "University of California, Berkeley"
+        ],
+        "Jiakang Chen": [
+          "University of California, Berkeley"
+        ],
+        "Koushil Sreenath": [
+          "University of California, Berkeley"
+        ],
+        "Masayoshi Tomizuka": [
+          "University of California, Berkeley"
+        ]
+      },
+      "author_links": []
     }
   },
   "coverage": {
@@ -10161,7 +10351,8 @@
     "New York University Tandon School of Engineering": "纽约大学坦登工程学院",
     "New York University Abu Dhabi": "纽约大学阿布扎比分校",
     "NYUAD Center for Artificial Intelligence and Robotics (CAIR)": "纽约大学阿布扎比分校人工智能与机器人中心",
-    "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi": "纽约大学阿布扎比分校具身智能与机器人实验室"
+    "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi": "纽约大学阿布扎比分校具身智能与机器人实验室",
+    "Apple": "苹果"
   },
   "display_policy": {
     "people": "original English names",

@@ -1,6 +1,6 @@
 # Future Representation Distillation for Imagination-Free World Action Models
 
-**DreamFree** · arXiv 2026 · 本版排名 117 · 综合分 **64.1 / 100**
+**DreamFree** · arXiv 2026 · 本版排名 118 · 综合分 **64.1 / 100**
 
 [解读导读](../../../library/dreamfree.md) · [世界动作模型](../../../paper-map/README.md#track-world-action-model) · [arXiv集锦](../../../arxiv/README.md#paper-dreamfree)
 

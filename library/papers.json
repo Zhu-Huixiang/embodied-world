@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05",
+  "checked_at": "2026-11-06",
   "papers": [
     {
       "id": "holo-m",
@@ -3887,7 +3887,7 @@
       "source_url": "https://arxiv.org/abs/2611.04527v1",
       "pdf_url": "https://arxiv.org/pdf/2611.04527v1",
       "reading_version": "arXiv v1",
-      "latest_arxiv_version_observed": "v1",
+      "latest_arxiv_version_observed": "v2",
       "first_author": "Jaehyeong Jo",
       "first_arxiv_submission": "2026-11-03T08:55:03Z",
       "first_arxiv_submission_shanghai": "2026-11-03T16:55:03+08:00",
@@ -3897,8 +3897,8 @@
       "note": "",
       "code_availability": "Official linked repository main tree observed contains only a 1-byte README.md; no training/inference implementation verified. Do not label code released.",
       "pdf_sha256": "00d8a9d5893e69c44832b8c9ae22aec9b91ffdcc910885bc8d2f2741aef12418",
-      "version_id": "2611.04527v1",
-      "updated": "2026-11-03T08:55:03Z",
+      "version_id": "2611.04527v2",
+      "updated": "2026-11-04T11:04:43Z",
       "screening_status": "selected",
       "affiliations_verified": true,
       "affiliation_source": {
@@ -3906,7 +3906,194 @@
         "section": "原文p1共同KAIST署名，不据个人网页增设实验室。"
       },
       "mechanism": "先对机器人视频适配Wan，再冻结教师；学生用注意力mask让当前token只读当前观测和指令，投影成未来布局，与看过带噪真实未来的教师token做余弦蒸馏，同时保留视频流匹配正则。第二阶段冻结视觉编码器，用64个query读出预测特征，约1B动作DiT条件于指令、本体和DROID动作历史学流匹配。运行只单次视觉编码，动作仍去噪10或16步，输出32动作并执行指定前缀。",
-      "selection_origin": "2026-11-05 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
+      "selection_origin": "2026-11-05 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。",
+      "arxiv_latest_version_observed_at": "2026-11-06T08:32:32+08:00",
+      "latest_arxiv_updated": "2026-11-04T11:04:43Z",
+      "version_change_note": "v2仅标题大小写及版次/日期变化；本次按v1继续阅读，原评分与计量日期不变。",
+      "latest_version_source_url": "https://arxiv.org/abs/2611.04527v2",
+      "version_history": [
+        {
+          "version": "v2",
+          "updated": "2026-11-04T11:04:43Z",
+          "checked_at": "2026-11-06T08:32:32+08:00",
+          "change_kind": "minor_editorial",
+          "note": "标题大小写和arXiv版次/日期变化；23页中第2–23页渲染像素相同。所读v1与原评分/计量日期保持。",
+          "source_url": "https://arxiv.org/abs/2611.04527v2"
+        }
+      ],
+      "version_checked_at": "2026-11-06T08:32:32+08:00"
+    },
+    {
+      "id": "halo",
+      "short_name": "HALO",
+      "arxiv_id": "2611.06908",
+      "title": "Perceptive Humanoid Motion from Simulation",
+      "authors": [
+        "Siyuan Hu",
+        "Abulikemu Abuduweili",
+        "Yue Meng",
+        "Shipeng Liu",
+        "Quentin Leboutet",
+        "Chen Chen",
+        "Matthias Müller",
+        "Vladlen Koltun"
+      ],
+      "affiliations": [
+        "Apple"
+      ],
+      "track": "motion-priors",
+      "published": "2026-11-04T18:55:33Z",
+      "project_url": "https://apple-aiml-research.github.io/ml-halo/",
+      "code_url": "https://github.com/apple-aiml-research/ml-halo",
+      "scope": "视觉语言条件的人形全身控制；六个预定义技能的仿真到真实迁移，以及三条有限组合任务",
+      "reading_question": "机器人会做动作，为何到了陌生客厅还是不会坐？把大规模仿真监督、语义运动生成和深度跟踪分层，能否同时补上看懂目标与处理身体接触两道缺口？",
+      "selection_reason": "问题具体，数据合成、异步流匹配与三阶段感知跟踪的接口可逐项核对；360次实机单任务、30次实机组合任务及四组仿真消融支持有限技能sim-to-real贡献。按预印本初读收录，任务库与人工运动种子保留为适用范围。",
+      "evidence_summary": "TableII六技能100仿真环境×10次=每技能1000次、6实机环境×10次=每技能60次；共6000/360次。实机GO-TO/SIT/DOOR/CROUCH/CRAWL/PUSH为92/85/93/100/90/88%，均值91%。三链另做1500仿真与30实机：实机100/60/50%，均值70%，只在1环境。TableIII均为SIT保留仿真100×10：房间1000/100/10/1得到84/81/64/43%；训练RTC/推理RTC/无RTC为84/66/24%；flow84对regression19，深度84对无深度74。回归替换也失去RTC，差值不是纯流匹配因果收益；TableI跨论文能力比较并非同协议数值baseline。无实机消融、seed或置信区间。",
+      "embodied_relevance": "把语言和陌生环境视觉接到人形身体的运动学参考与近身接触控制，直接讨论全身技能数据、感知跟踪和sim-to-real代价。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06908v1",
+      "reading_version": "arXiv v1; 20 pages",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Siyuan Hu",
+      "first_arxiv_submission": "2026-11-04T18:55:33Z",
+      "first_arxiv_submission_shanghai": "2026-11-05T02:55:33+08:00",
+      "checked_at": "2026-11-06",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "所读版本为v1。单任务与组合任务分别统计；合成回合无需逐条遥操作，运动先验仍包含人类视频、mocap、真实G1终点日志和手工关键帧。",
+      "code_availability": "官方专属仓库含数据生成、训练和部署代码；README明确不提供tracker权重；未执行复现。Apple自定义许可，第三方组件另有许可。",
+      "reading_version_url": "https://arxiv.org/pdf/2611.06908v1",
+      "reading_version_sha256": "a69ab2fcdaaf407b2ccc01a99ec6575e1bcdba525423c475e5f14c86449e4d33",
+      "pdf_sha256": "a69ab2fcdaaf407b2ccc01a99ec6575e1bcdba525423c475e5f14c86449e4d33",
+      "score_axis_reasons": {
+        "innovation": "82：把程序化场景、受约束运动先验和第一视角渲染组成规模化全身监督，再以语义运动生成器、感知跟踪器、技能编排器贯通语言到29关节控制。贡献在数据与系统接口整合及异步连续执行，流匹配、RTC条件、PPO、DAgger等组件有清楚继承，不把组合写成全新算法。",
+        "evidence": "82：六技能覆盖6000次仿真与360次实机，另有1500次仿真和30次实机组合任务；房间数、RTC、生成头、深度四组SIT仿真消融支持关键接口。实机只有6个单任务环境、组合任务仅1环境，未列多seed/误差条；回归比较同时失去RTC，跨论文Table I非匹配数值基线。",
+        "reuse": "72：专属仓库已含数据生成、生成器、跟踪器、编排与部署真实代码及文档，原文细节较全。未执行复现；README明确不随仓库提供tracker权重，训练使用大规模GPU和改装G1双机系统，Apple自定义许可及第三方依赖须分别遵守。",
+        "reading": "86：把语义感知、几何接触、动作块连续性和sim-to-real分层，适合学习视觉全身控制为何不能只靠动作模仿；任务库、参考连续与物理安全边界也有清楚反例。并非所有机器人任务的共同前置。"
+      },
+      "version_id": "2611.06908v1",
+      "updated": "2026-11-04T18:55:33Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2611.06908v1",
+        "section": "原文首页所有作者统一署名Apple。"
+      },
+      "mechanism": "HALO先用INFINIGEN房间、KIMODO约束运动、场景摆放和第一视角渲染合成162698回合/296.3小时的视觉—指令—全身轨迹。冻结Qwen3.5-2B编码224×224RGB与文字，8层DiT以流匹配生成150×36的五秒骨盆相对计划；首15帧保持干净，学习接续135帧，并以15步Euler、约3Hz异步更新。低层先训练三类特权PPO专家，再按技能路由BC/DAgger蒸馏为深度学生，最后多critic PPO微调。共享跟踪器融合48×84深度、30步本体历史和计划，以50Hz输出29关节目标。上层VLM从自由语言选择有限技能并检查完成/重试，默认两台机载计算机协作。",
+      "selection_origin": "2026-11-06 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
+    },
+    {
+      "id": "curobov2-fast",
+      "short_name": "cuRoboV2-Fast",
+      "arxiv_id": "2611.06913",
+      "title": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning",
+      "authors": [
+        "Balakumar Sundaralingam",
+        "Adithyavairavan Murali",
+        "Stan Birchfield"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "track": "manipulation",
+      "published": "2026-11-04T18:58:20Z",
+      "project_url": "https://research.nvidia.com/labs/lpr/curobov2-fast/",
+      "code_url": "https://github.com/NVlabs/curobo",
+      "scope": "Panda离线规划、Panda/G1计算内核、YAM模拟与实机抓放；实机时间基于已完成周期",
+      "reading_question": "当规划只占抓取周期的1%，怎样同时缩短求解时间与受力矩限制的真实运动？",
+      "selection_reason": "分离少迭代、低迭代成本和固定路径时间优化三种收益，有匹配种子收敛消融、负载基准与实机耗时链路；是可追溯独立研究，非仅软件版号。",
+      "evidence_summary": "Fig12在3kg/RTX5090下4.43ms对cuRoboV2 65.13ms，Fast每负载2590查询重复两次；运动质量以1599全共有有效查询比较。Fig11的93共有有效查询，TimeOpt相对均匀精修后再缩短运动15.7%。YAM/RTX6000Ada完成周期5.93对9.07秒，约50对15次完成周期；不是总抓取成功率。",
+      "embodied_relevance": "直接连接碰撞自由几何、负载动力学、GPU优化与真实机械臂执行；速度与成功率及约束口径可分开学。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.06913v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06913v1",
+      "reading_version": "arXiv v1",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Balakumar Sundaralingam",
+      "first_arxiv_submission": "2026-11-04T18:58:20Z",
+      "first_arxiv_submission_shanghai": "2026-11-05T02:58:20+08:00",
+      "checked_at": "2026-11-06",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "",
+      "code_availability": "官方共享cuRobo仓库README指向本篇，已实读TimeOpt实现及完整tree；Apache2.0。未安装或执行复现。",
+      "pdf_sha256": "f30e2bec71cc6477a5f895066bf7e561961eb871910553797aa46ee9f536784c",
+      "version_id": "2611.06913v1",
+      "updated": "2026-11-04T18:58:20Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/abs/2611.06913v1",
+        "section": "PDF首页未标机构；三作者/本项目在NVIDIA Learning and Perception Research官方研究站确认，不额外猜个人职务。"
+      },
+      "mechanism": "用三次B样条降低轨迹优化变量耦合；直线种子不足时GPU双向RRT补路线。随后TimeOpt固定几何、以路径速度平方样条非均匀分配时间，局部支持产生带状Newton系统，预测校正复用Cholesky。运动学、碰撞与RNEA直接梯度共同减少每次迭代成本，负载惯量可运行时更新。",
+      "selection_origin": "2026-11-06 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
+    },
+    {
+      "id": "ctrl-f",
+      "short_name": "Ctrl-F",
+      "arxiv_id": "2611.05507",
+      "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
+      "authors": [
+        "Mengjie Zhao",
+        "Yuxin Chen",
+        "Yiyang Shao",
+        "Chuye Hong",
+        "Jiakang Chen",
+        "Koushil Sreenath",
+        "Masayoshi Tomizuka"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "track": "locomotion",
+      "published": "2026-11-03T19:04:27Z",
+      "project_url": "https://forcectrl.github.io/",
+      "code_url": null,
+      "scope": "Unitree G1手/脚/复合三家族的显式力接口；仿真九任务、十二动作片段，三个家族分别训练；实机20kg为推/踢时加入物体的配重，不是举起重量",
+      "reading_question": "跟得像的动作为什么会抓不住重物？把每个接触部位的力独立发成指令，能否在保持全身跟踪时随负载变化调整施力？",
+      "selection_reason": "完整原文和源包可追溯；同权重力指令反转/关闭与冻结高层对照，使接口响应和在线适应两个贡献可分辨。按预印本初读收录，定量仅按论文实际条件，未把无分母演示推广为通用可靠性。",
+      "evidence_summary": "Fig5各任务家族内部保持同外力轨迹与同策略，比较正确/关闭/反转三指令；SONIC另作模型对照：满训练量程completion约75%，关闭/反转/SONIC均≤30%；腕60N、踝30N。Table3五个手任务报告物体位置误差和completion：抬箱完整方法4.59cm/100%，BC26.03cm/6%，关指令19.45cm/0%；推箱完整84%，拖箱BC和完整均100%而BC误差更小。仿真未列trial与seed，Fig6的completion定义另有图注/正文差异，故不混合其数值。硬件10/20/30N命令连续秤读8.8/16.7/24.5N；箱内加2kg负载，抬箱9/10。20kg仅推踢附加配重；锁轮拖车14kg可行、20kg失败。8→14kg拖车的冻结高层对照支持反馈适应，其他硬件项目未报重复试次。",
+      "embodied_relevance": "把全身运动模仿的姿态接口接到对物体实际施力和负载适应，直接面向人形移动操作与接触控制。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05507v1",
+      "reading_version": "arXiv v1; 15 pages; no appendix in PDF or source archive",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Mengjie Zhao",
+      "first_arxiv_submission": "2026-11-03T19:04:27Z",
+      "first_arxiv_submission_shanghai": "2026-11-04T03:04:27+08:00",
+      "checked_at": "2026-11-06",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "所读v1共15页，PDF与源包没有附录。20kg是推踢时添加的配重；9/10来自箱内加2kg负载的抬箱测试。新动作需要重新训练。",
+      "code_availability": "官方项目可读，提供MuJoCo浏览器策略demo；只链接mjlab共享基础设施，未定位论文专属训练代码、完整配置或许可证。没有运行demo或复现策略。",
+      "reading_version_url": "https://arxiv.org/pdf/2611.05507v1",
+      "reading_version_sha256": "d03809db8ecc1ca5072a027bc2d3cde77c98dbb7cf5a0064d37369c877b04da2",
+      "pdf_sha256": "d03809db8ecc1ca5072a027bc2d3cde77c98dbb7cf5a0064d37369c877b04da2",
+      "score_axis_reasons": {
+        "innovation": "80：把每个指定接触刚体的三维力做成全身运动跟踪的显式接口，并用无物体反向外力训练连接低层与物体反馈高层，改变重要控制接口。解析力分配、PPO、DAgger/DAPG均继承已有思路，未宣称首次力控制。",
+        "evidence": "68：同权重正确/关掉/反向力指令、BC消融、负载扫描和冻结高层的实机对照支持核心机制；九任务及三家族有多方面可读证据。仿真分母/seed未列，RL-only仅定性，硬件仅2kg抬箱明报9/10，多数任务为演示；completion图注口径有冲突，未达到80分的充分多方面统计验证。",
+        "reuse": "58：完整版本原文、解析接口和作者浏览器策略演示可参考，但无专属训练仓库链接或完整网络/损失/超参配方，三家族分别训练且新动作需重训；不把mjlab共享仓库当该论文官方代码，也未将浏览器展示当复现。",
+        "reading": "84：连接运动模仿、接触力、解析物体动力学教师和在线反馈，适合区分抗扰能力与主动施力，也能训练对质量倍率、测力精度和成功率分母的理解。不是所有机器人方法共同前置。"
+      },
+      "version_id": "2611.05507v1",
+      "updated": "2026-11-03T19:04:27Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/abs/2611.05507v1",
+        "section": "PDF首页University of California, Berkeley，官方项目相同。"
+      },
+      "mechanism": "低层运动–力跟踪器读取参考动作、本体状态与每接触刚体三维力，输出全身关节位置目标。无物体训练时按可施力mask采样f并施加−f，沿原运动跟踪目标学习；力幅度从零递增。冻结低层后，高层读取机器人/物体参考、物体接触点、物体实测状态和本体状态输出f。解析教师用PD位姿速度反馈、Newton–Euler及重力/摩擦补偿求六维W*，再按Gf≈W*和可行力集合分配。教师使用训练时真实质量；高层用在策略访问状态上的模仿目标和PPO联合训练，模仿权重衰减。部署不输入质量或测得接触力，仍依赖AprilTag物体姿态。",
+      "selection_origin": "2026-11-06 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
     },
     {
       "arxiv_id": "2610.12470",

@@ -42,6 +42,8 @@
 - [∇Mimic](../papers/nablamimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.41654v1)
 - [CR-DAgger](../papers/cr-dagger.md) · 机制导读 · [原文](https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html)
 - [DreamX](../papers/dreamx.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05377v1)
+- [cuRoboV2-Fast](../papers/curobov2-fast.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06913v1)
+- [Ctrl-F](../papers/ctrl-f.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05507v1)
 - [ARC](../papers/arc.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12386v1)
 - [PLaW-VLA](../papers/plaw-vla.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12285v1)
 

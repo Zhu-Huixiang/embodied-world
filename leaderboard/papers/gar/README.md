@@ -1,6 +1,6 @@
 # Gaussian Distillation of Flow Policies
 
-**GAR** · arXiv 2026 · 本版排名 126 · 综合分 **61.0 / 100**
+**GAR** · arXiv 2026 · 本版排名 128 · 综合分 **61.0 / 100**
 
 [解读导读](../../../library/gar.md) · [操作与动作块](../../../paper-map/README.md#track-manipulation) · [arXiv集锦](../../../arxiv/README.md#paper-gar)
 

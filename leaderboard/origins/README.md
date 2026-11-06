@@ -34,7 +34,7 @@
 | [伊利诺伊大学厄巴纳-香槟分校](profiles/organization-79eb2923dfd7.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
 | [伦敦大学学院](profiles/institution-i45129253.md) | 大学 | 3 | 世界模型与模型强化学习、Locomotion 与运动适应、视频与序列生成 |
 | [佐治亚理工学院](profiles/institution-i130701444.md) | 大学 | 3 | 具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
-| [加州大学伯克利分校](profiles/institution-i95457486.md) | 研究机构 | 28 | 视觉语言动作模型 VLA、操作与动作块、动作先验与全身技能、强化学习与离线决策、Locomotion 与运动适应、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
+| [加州大学伯克利分校](profiles/institution-i95457486.md) | 研究机构 | 29 | 视觉语言动作模型 VLA、操作与动作块、Locomotion 与运动适应、动作先验与全身技能、强化学习与离线决策、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
 | [加州大学伯克利分校人工智能研究实验室（BAIR）](profiles/berkeley-bair.md) | 研究团队 | 1 | Locomotion 与运动适应 |
 | [加州大学伯克利分校机器人与人工智能实验室（RAIL）](profiles/berkeley-rail.md) | 大学实验室 | 5 | 视觉语言动作模型 VLA、操作与动作块 |
 | [加州大学伯克利分校混合机器人实验室](profiles/berkeley-hybrid-robotics.md) | 大学实验室 | 1 | 动作先验与全身技能 |
@@ -111,8 +111,9 @@
 | [苏黎世联邦理工学院](profiles/institution-i35440088.md) | 大学 | 4 | Locomotion 与运动适应、视觉语言动作模型 VLA |
 | [苏黎世联邦理工学院机器人系统实验室（RSL）](profiles/eth-rsl.md) | 大学实验室 | 1 | Locomotion 与运动适应 |
 | [英伟达 GEAR 研究团队](profiles/nvidia-gear.md) | 研究团队 | 6 | Locomotion 与运动适应、世界动作模型、视觉语言动作模型 VLA、操作与动作块 |
-| [英伟达研究院](profiles/nvidia.md) | 研究机构 | 26 | 操作与动作块、Locomotion 与运动适应、视觉语言动作模型 VLA、世界动作模型、视频动作模型与视觉推理、动作先验与全身技能、Diffusion / Transformer 基础、强化学习与离线决策 |
+| [英伟达研究院](profiles/nvidia.md) | 研究机构 | 27 | 操作与动作块、Locomotion 与运动适应、视觉语言动作模型 VLA、世界动作模型、视频动作模型与视觉推理、动作先验与全身技能、Diffusion / Transformer 基础、强化学习与离线决策 |
 | [英特尔智能系统实验室](profiles/organization-cccbeaadc92f.md) | 论文署名机构 | 2 | Locomotion 与运动适应 |
+| [苹果](profiles/apple.md) | 研究机构 | 1 | 动作先验与全身技能 |
 | [蒙特利尔大学](profiles/institution-i70931966.md) | 大学 | 1 | 操作与动作块 |
 | [蒙特利尔理工学院](profiles/organization-bcfbc314f1ca.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
 | [蔚蓝海岸大学](profiles/institution-i201841394.md) | 大学 | 1 | 具身感知与场景表示 |
@@ -143,4 +144,4 @@
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-目录更新：2026-11-05。
+目录更新：2026-11-06。

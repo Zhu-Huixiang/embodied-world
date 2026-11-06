@@ -20,6 +20,8 @@ PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新�
 - [Isaac Gym](../papers/isaac-gym.md) · 机制导读 · [原文](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html)
 - [DiffContact](../papers/diffcontact.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35852v2)
 - [∇Mimic](../papers/nablamimic.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.41654v1)
+- [HALO](../papers/halo.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06908v1)
+- [Ctrl-F](../papers/ctrl-f.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05507v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

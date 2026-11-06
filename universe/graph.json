@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-11-05",
+  "checked_at": "2026-11-06",
   "nodes": [
     {
       "id": "paper:act",
@@ -406,6 +406,34 @@
       "source_url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html"
     },
     {
+      "id": "paper:ctrl-f",
+      "key": "ctrl-f",
+      "kind": "paper",
+      "title": "Ctrl-F",
+      "subtitle": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
+      "track": "locomotion",
+      "track_label": "Locomotion 与运动适应",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/ctrl-f.md",
+      "concepts": [
+        "action",
+        "wbc",
+        "imitation",
+        "motion-prior",
+        "skills",
+        "rl",
+        "ppo",
+        "bc",
+        "privileged",
+        "adaptation",
+        "sim2real",
+        "data"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.05507v1"
+    },
+    {
       "id": "paper:ctrl-world",
       "key": "ctrl-world",
       "kind": "paper",
@@ -423,6 +451,24 @@
       ],
       "scope": "mechanism",
       "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html"
+    },
+    {
+      "id": "paper:curobov2-fast",
+      "key": "curobov2-fast",
+      "kind": "paper",
+      "title": "cuRoboV2-Fast",
+      "subtitle": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/curobov2-fast.md",
+      "concepts": [
+        "action",
+        "spatial"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.06913v1"
     },
     {
       "id": "paper:daydreamer",
@@ -1156,6 +1202,34 @@
       ],
       "scope": "mechanism",
       "source_url": "https://arxiv.org/abs/2503.14734"
+    },
+    {
+      "id": "paper:halo",
+      "key": "halo",
+      "kind": "paper",
+      "title": "HALO",
+      "subtitle": "Perceptive Humanoid Motion from Simulation",
+      "track": "motion-priors",
+      "track_label": "动作先验与全身技能",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/halo.md",
+      "concepts": [
+        "flow",
+        "dit",
+        "chunk",
+        "wbc",
+        "ppo",
+        "distill",
+        "privileged",
+        "sim2real",
+        "data",
+        "motion-prior",
+        "retarget",
+        "skills"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.06908v1"
     },
     {
       "id": "paper:holo-m",
@@ -3030,6 +3104,7 @@
         "gaussian-splatting",
         "learned-dynamics-review",
         "touchbridge",
+        "curobov2-fast",
         "dex-one2many"
       ],
       "explainers": [
@@ -3395,6 +3470,7 @@
         "hover",
         "gar",
         "dreamfree",
+        "halo",
         "balanced-data-diet"
       ],
       "explainers": [
@@ -3554,7 +3630,8 @@
         "gar",
         "jedi",
         "dreamx",
-        "dreamfree"
+        "dreamfree",
+        "halo"
       ],
       "explainers": []
     },
@@ -3575,7 +3652,8 @@
         "gr00t-n1",
         "tapestry",
         "dreamx",
-        "dreamfree"
+        "dreamfree",
+        "halo"
       ],
       "explainers": [
         {
@@ -3665,6 +3743,8 @@
         "nablamimic",
         "cr-dagger",
         "dreamx",
+        "curobov2-fast",
+        "ctrl-f",
         "arc",
         "plaw-vla"
       ],
@@ -3725,7 +3805,8 @@
         "touchbridge",
         "jedi",
         "cr-dagger",
-        "dreamfree"
+        "dreamfree",
+        "halo"
       ],
       "explainers": [
         {
@@ -3842,7 +3923,8 @@
         "egoscale",
         "supermimic",
         "flore",
-        "touchbridge"
+        "touchbridge",
+        "halo"
       ],
       "explainers": []
     },
@@ -3870,7 +3952,9 @@
         "hover",
         "supermimic",
         "flore",
-        "nablamimic"
+        "nablamimic",
+        "halo",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4086,6 +4170,7 @@
         "isaac-gym",
         "diffcontact",
         "nablamimic",
+        "ctrl-f",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -4224,7 +4309,9 @@
         "sonic",
         "isaac-gym",
         "diffcontact",
-        "nablamimic"
+        "nablamimic",
+        "halo",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4262,7 +4349,8 @@
         "gar",
         "touchbridge",
         "jedi",
-        "cr-dagger"
+        "cr-dagger",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4316,7 +4404,8 @@
         "td3-bc",
         "cql",
         "touchbridge",
-        "cr-dagger"
+        "cr-dagger",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4358,6 +4447,8 @@
         "maskedmimic",
         "phc",
         "exbody",
+        "halo",
+        "ctrl-f",
         "viola"
       ],
       "explainers": []
@@ -4399,7 +4490,9 @@
         "walk-these-ways",
         "anymal-parkour",
         "bipedal-soccer",
-        "phc"
+        "phc",
+        "halo",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4425,7 +4518,8 @@
         "perceptive-loco",
         "walk-in-minutes",
         "walk-these-ways",
-        "deep-whole-body-control"
+        "deep-whole-body-control",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4454,7 +4548,9 @@
         "dreamwaq",
         "perceptive-loco",
         "extreme-parkour",
-        "omnih2o"
+        "omnih2o",
+        "halo",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4490,7 +4586,9 @@
         "asap",
         "supermimic",
         "flore",
-        "diffcontact"
+        "diffcontact",
+        "halo",
+        "ctrl-f"
       ],
       "explainers": [
         {
@@ -4536,6 +4634,8 @@
         "cr-dagger",
         "dreamx",
         "dreamfree",
+        "halo",
+        "ctrl-f",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -9002,6 +9102,576 @@
       "explainers": []
     },
     {
+      "id": "local:ctrl-f:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:ctrl-f",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/action.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:wbc",
+      "key": "wbc",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "wbc",
+      "title": "全身控制与执行",
+      "subtitle": "将运动目标、机器人状态和约束转成关节目标或力矩，协调腿、手臂与底盘。",
+      "detail": "生成了目标之后，还要沿实际控制接口看反馈。",
+      "parent_node": "local:ctrl-f:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/wbc.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:ctrl-f",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/imitation.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:motion-prior",
+      "key": "motion-prior",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "motion-prior",
+      "title": "动作先验",
+      "subtitle": "从运动数据学习自然动作规律，再把它接进物理控制或技能选择。",
+      "detail": "AMP 的判别奖励与 DeepMimic 的逐帧跟踪有不同约束。",
+      "parent_node": "local:ctrl-f:imitation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/motion-prior.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:skills",
+      "key": "skills",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "skills",
+      "title": "分层技能与计划",
+      "subtitle": "高层选择目标或技能，低层负责具体执行，层次之间有明确接口。",
+      "detail": "SayCan 用语言适用性与可执行价值挑技能。",
+      "parent_node": "local:ctrl-f:imitation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/skills.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:ctrl-f",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/rl.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:ppo",
+      "key": "ppo",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "ppo",
+      "title": "PPO 与并行模拟",
+      "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
+      "parent_node": "local:ctrl-f:rl",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/ppo.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:bc",
+      "key": "bc",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "bc",
+      "title": "行为克隆",
+      "subtitle": "直接监督观测到动作的映射，不必在每次更新中根据奖励搜索。",
+      "detail": "动作块、时序记忆和数据多样性会改变学习难度。",
+      "parent_node": "local:ctrl-f:imitation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/bc.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:privileged",
+      "key": "privileged",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "privileged",
+      "title": "特权训练信息",
+      "subtitle": "训练用额外环境真值或教师信息，部署另用可获取输入估计或模仿。",
+      "detail": "训练可见与机器人运行可见的量分别列清楚。",
+      "parent_node": "local:ctrl-f:adaptation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/privileged.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:adaptation",
+      "key": "adaptation",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "adaptation",
+      "title": "环境适应",
+      "subtitle": "根据历史观测或环境信息调整策略，使动力学或地形变化仍可处理。",
+      "detail": "部署时必须说明环境编码从哪儿估计。",
+      "parent_node": "local:ctrl-f:rl",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/adaptation.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:sim2real",
+      "key": "sim2real",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "sim2real",
+      "title": "仿真到实机",
+      "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
+      "detail": "实机结果必须按机器人与任务条件解释。",
+      "parent_node": "local:ctrl-f:adaptation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/sim2real.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:ctrl-f",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/data.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "本篇方法链路",
+      "subtitle": "低层运动–力跟踪器读取参考动作、本体状态与每接触刚体三维力，输出全身关节位置目标。无物体训练时按可施力mask采样f并施加−f，沿原运动跟踪目标学习；力幅度从零递增。冻结低层后，高层读取机器人/物体参考、物体接触点、物体实测状态和本体状态输出f。解析教师用PD位姿速度反馈、Newton–Euler及重力/摩擦补偿求六维W*，再按Gf≈W*和可行力集合分配。教师使用训练时真实质量；高层用在策略访问状态上的模仿目标和PPO联合训练，模仿权重衰减。部署不输入质量或测得接触力，仍依赖AprilTag物体姿态。",
+      "detail": "低层运动–力跟踪器读取参考动作、本体状态与每接触刚体三维力，输出全身关节位置目标。无物体训练时按可施力mask采样f并施加−f，沿原运动跟踪目标学习；力幅度从零递增。冻结低层后，高层读取机器人/物体参考、物体接触点、物体实测状态和本体状态输出f。解析教师用PD位姿速度反馈、Newton–Euler及重力/摩擦补偿求六维W*，再按Gf≈W*和可行力集合分配。教师使用训练时真实质量；高层用在策略访问状态上的模仿目标和PPO联合训练，模仿权重衰减。部署不输入质量或测得接触力，仍依赖AprilTag物体姿态。",
+      "parent_node": "paper:ctrl-f",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.05507v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-problem",
+      "key": "cf-problem",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "动作像，不等于接触力够",
+      "subtitle": "同一段参考动作碰到不同负载，需要不同的施力。",
+      "detail": "论文把全身运动跟踪与物体受力分开：手到指定位置并不保证夹住箱子，接触标签也不指定力的方向和大小。",
+      "parent_node": "paper:ctrl-f",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§1; PDF pp1–3",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-related",
+      "key": "cf-related",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "几何接触、抗扰与主动施力",
+      "subtitle": "接触几何描述何时何地，抗扰训练描述如何顶住，力指令描述希望向外施加什么。",
+      "detail": "§2比较SONIC等跟踪器、HDMI/SceneBot/LessMimic、FALCON/CHIP与UniFP。它们是设计背景；论文未逐个给等预算实验，不能把文献讨论写成实测胜出。",
+      "parent_node": "local:ctrl-f:cf-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-related.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§2; PDF pp3–4",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-hierarchy",
+      "key": "cf-hierarchy",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "一层跟动作，一层发力指令",
+      "subtitle": "低层输出全身关节位置目标，高层为每个指定接触刚体输出三维力。",
+      "detail": "低层输入机器人参考运动、力指令与本体状态；高层还读取物体参考运动、接触点和测得物体状态。先训低层再冻结，高层通过物体偏差调整指令。",
+      "parent_node": "local:ctrl-f:cf-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-hierarchy.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3; Fig2; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-inverse",
+      "key": "cf-inverse",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "没有物体，怎样学会施力",
+      "subtitle": "训练时施加指令力的反向外力，让机器人维持参考姿态。",
+      "detail": "随机采样f并对指定刚体施加−f；保持运动跟踪奖励。学到的力条件响应在物体接触中使用，不要求低层输入物体模型或成对交互示范。稳态力平衡是训练直觉，不是所有动态接触的精确力跟踪保证。",
+      "parent_node": "local:ctrl-f:cf-hierarchy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-inverse.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3.1; Figs2–3; PDF pp4–5",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-mask",
+      "key": "cf-mask",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "负载掩码限定能施力的身体",
+      "subtitle": "掩码描述力通道的物理可用性，不是物体接触语义标签。",
+      "detail": "支撑脚被屏蔽，手通常可用；由动作数据做简单处理。它决定哪些刚体何时采样指令，不能写成对所有任意部位自动识别接触。",
+      "parent_node": "local:ctrl-f:cf-inverse",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-mask.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3.1; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-curriculum",
+      "key": "cf-curriculum",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "先跟稳，再逐步增加指令力",
+      "subtitle": "力幅度从零逐渐扩展到每个刚体的指定范围。",
+      "detail": "Fig5低层评估中满量程腕部60 N、踝部30 N，负载和指令一起缩放；这些是该实验的已训练范围，不是实机最大可施力。",
+      "parent_node": "local:ctrl-f:cf-inverse",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-curriculum.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3.1,4.2; Fig5a; PDF pp5,8–9",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-force-planner",
+      "key": "cf-force-planner",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "从物体误差决定该多用多少力",
+      "subtitle": "同一参考动作不能告诉控制器物体究竟多重。",
+      "detail": "高层以本体和物体状态闭环调整指令，部署不输入物体真实质量，也不读取接触力传感器；AprilTag仍提供物体姿态观测。",
+      "parent_node": "local:ctrl-f:cf-hierarchy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-force-planner.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3.2,4.6; PDF pp5–6,11–13",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-analytical",
+      "key": "cf-analytical",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "用物体动力学构造教师力",
+      "subtitle": "解析教师先计算六维目标力矩，再分配给接触通道。",
+      "detail": "位姿/速度误差经PD反馈和Newton–Euler动力学得到W*；悬空物体补偿重力，地面物体补偿Coulomb摩擦。教师使用训练时真实质量与特权状态。",
+      "parent_node": "local:ctrl-f:cf-force-planner",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-analytical.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3.2; Eq1; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-allocation",
+      "key": "cf-allocation",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "抓取矩阵连接接触力和物体力矩",
+      "subtitle": "每个接触点三维力叠成f，抓取矩阵G把它映射到六维物体wrench。",
+      "detail": "目标是Gf≈W*且f属于可传力集合F，任务由(G,F,load)定义；正文称各分配可闭式批量求解，但没有逐通道闭式公式。n个接触时f为3n、G为6×3n，是由定义推得的维度。",
+      "parent_node": "local:ctrl-f:cf-analytical",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-allocation.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3.2; Eq1; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-annealed",
+      "key": "cf-annealed",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "在自己走到的状态学教师，再用奖励修正",
+      "subtitle": "PPO训练同时加入逐渐减弱的教师模仿损失。",
+      "detail": "解析教师在当前策略访问状态上给目标，类似DAgger；模仿权重按DAPG思路衰减。奖励评估物体参考跟踪，低层冻结。论文未列完整损失权重、网络宽度和训练预算。",
+      "parent_node": "local:ctrl-f:cf-force-planner",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-annealed.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§3.2; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-families",
+      "key": "cf-families",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "九种任务对应三套策略对",
+      "subtitle": "手部、脚部、复合任务各有自己的低层与高层策略。",
+      "detail": "同一家族共享策略，不是九任务共用唯一模型。低层评估覆盖十二片段，交互任务有九种；已训练动作与新动作泛化要分开。",
+      "parent_node": "local:ctrl-f:cf-hierarchy",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-families.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.1; Fig4; Table2; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-objects",
+      "key": "cf-objects",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "把物体质量和接触摩擦一起看",
+      "subtitle": "论文以物体质量区间中点为额定值；Table1明确列评测时的质量采样范围。",
+      "detail": "Table1：抬箱1.8–6.0 kg/手掌摩擦0.60，系绳箱3.6–7.0 kg，踢箱3–6 kg/0.25，推箱4.6–13 kg/0.38，拖箱7–8.8 kg/0.57。相同质量倍率不代表相同绝对重量。 Fig6另称trained-band，两处文字不合并推定训练配置。",
+      "parent_node": "local:ctrl-f:cf-families",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-objects.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.1; Table1; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-metrics",
+      "key": "cf-metrics",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "姿态误差、存活和物体成功分开读",
+      "subtitle": "局部误差把根位置对齐，全局误差保留漂移，物体误差量化目标物体的位置差。",
+      "detail": "§4.1把completion定义为无终止完成整段的回合比例，Fig6图注却写over all active steps；Fig6右侧push按活过4秒计。正文未给仿真试次与seed，读图时保留口径差异。",
+      "parent_node": "local:ctrl-f:cf-families",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-metrics.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.1; Figs5–6; PDF pp7–9",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-zero-load",
+      "key": "cf-zero-load",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "零力条件下仍可跟踪动作",
+      "subtitle": "无外载、零指令时，十二片段汇总completion为100%，SONIC为80.2%。",
+      "detail": "Table2局部全身误差3.10对3.75 cm，但本方法训练过这些片段，SONIC初见且机器人配置不同；作者也只用它支持加入接口后仍能跟踪，不作全面优于SONIC的证明。",
+      "parent_node": "local:ctrl-f:cf-inverse",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-zero-load.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.2a; Table2; PDF p8",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-command-test",
+      "key": "cf-command-test",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "只改指令，外力轨迹保持一致",
+      "subtitle": "同一低层策略分别接收正确、关掉、反向的力指令。",
+      "detail": "每片段同一外力轨迹重放，覆盖十二片段；满量程正确指令completion约75%，其余三设置含SONIC均不超过30%。反向更差，支持策略确实利用方向和幅值，而非仅做无条件抗扰。",
+      "parent_node": "local:ctrl-f:cf-inverse",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-command-test.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.2b; Fig5a; PDF pp8–9",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-mass-sweep",
+      "key": "cf-mass-sweep",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "增加质量暴露力盲跟踪的边界",
+      "subtitle": "质量扫描把负载变重时的动作维持能力与物体跟踪误差放在一起比较。",
+      "detail": "Fig6按额定质量倍率比较本方法、关闭力指令和SONIC，另列每任务success；图中显示力条件与力盲设置的不同变化趋势。§4.1把completion定义为完成片段的回合比例，Fig6图注却写over all active steps，且未列trial/seed；这两个分母不能自行合并。需作者澄清聚合口径、终止与成功条件后，再解释跨质量百分数及与Table3的差别。",
+      "parent_node": "local:ctrl-f:cf-force-planner",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-mass-sweep.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.3; Fig6; PDF p9",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-adapt-gain",
+      "key": "cf-adapt-gain",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "负载增加后，指令力按什么方向改变",
+      "subtitle": "高层不测质量，却能由物体与机器人偏差调整力。",
+      "detail": "系绳指令增益4.7–9.2 N/kg、实际物体受力9.4–10.6；推拖2–4 N/kg接近摩擦量级；抬箱增重18.2、减重12.9 N/kg，其中85–90%增量用于向内夹紧。阴影是滑窗最小最大，不是跨seed置信区间。",
+      "parent_node": "local:ctrl-f:cf-force-planner",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-adapt-gain.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.4; Fig5b; PDF pp8,10",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-fixed-mass",
+      "key": "cf-fixed-mass",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "在线适应不依赖训练回合中必有质量突变",
+      "subtitle": "训练时每回合质量固定的变体也能适应运行中负载变化。",
+      "detail": "作者将原因归于物体状态反馈能感知漂移；这是文本报告，未提供该变体完整数值表与试次，不扩大为一切未见动力学泛化。",
+      "parent_node": "local:ctrl-f:cf-adapt-gain",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-fixed-mass.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.4; PDF p10",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-bc-rl",
+      "key": "cf-bc-rl",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "模仿力指令，可能仍没把力传给物体",
+      "subtitle": "BC只匹配解析教师的命令，RL还根据物体是否真的运动来修正。",
+      "detail": "Table3抬箱无指令/BC/完整方法分别19.45/26.03/4.59 cm、0/6/100% completion；推箱完整方法84%。拖箱BC和完整方法都100%，误差5.33对6.95 cm，完整方法不是每格都更好。",
+      "parent_node": "local:ctrl-f:cf-annealed",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-bc-rl.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.5a; Table3; PDF p10",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-rl-only",
+      "key": "cf-rl-only",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "去掉教师的证据是定性观察",
+      "subtitle": "RL-only在不同运行会一直发力或一直不发力，作者未把它作为受控数值比较。",
+      "detail": "这支持教师作为搜索先验的动机，但不能写成固定幅度的性能提升；仿真种子数、不同失败比例和统计误差没有给出。",
+      "parent_node": "local:ctrl-f:cf-annealed",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-rl-only.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.5b; PDF pp10–11",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-real-force",
+      "key": "cf-real-force",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "命令30 N，秤读24.5 N",
+      "subtitle": "单次连续实机试验依次命令10/20/30 N，秤读8.8/16.7/24.5 N。",
+      "detail": "12–18%偏差混合手掌/绳索顺应性和测量方向误差；消费级吊秤显示力随命令变化的量级，不是高精度传感器标定或多次统计。",
+      "parent_node": "local:ctrl-f:cf-command-test",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-real-force.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.6; Fig8; PDF p11",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-real-load",
+      "key": "cf-real-load",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "20 kg说的是推和踢的附加配重",
+      "subtitle": "官网明确loads是加到物体上的重量，20 kg对应推箱和踢箱。",
+      "detail": "拖车轮锁死在地毯滑动，能拖8/14 kg加载但20 kg失败；扫箱1 kg；复合动作携1 kg箱并踢加载8 kg车。不能写成举起20 kg或全任务都承受20 kg。",
+      "parent_node": "local:ctrl-f:cf-mass-sweep",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-real-load.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.6; Fig7; PDF pp11–12; official project Hardware",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-real-raise",
+      "key": "cf-real-raise",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "抬箱九次成功的分母在哪里",
+      "subtitle": "2 kg加载的箱子抬起9次，共10次试验。",
+      "detail": "SONIC空箱可借箱沿抬起，2 kg时手滑过；完整方法向内施力产生摩擦夹持。其他推/踢/拖演示未提供等量试次，9/10不能代表全部硬件任务成功率。",
+      "parent_node": "local:ctrl-f:cf-real-load",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-real-raise.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.6; PDF p12; official project Raise a box",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-real-adapt",
+      "key": "cf-real-adapt",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "冻结指令能单独测上层的作用",
+      "subtitle": "拖车从8加到14 kg时，保持初始指令会减速，在线规划器保持步速。",
+      "detail": "2秒后冻结高层最近输出中位数，保持相同低层和初始指令；SONIC另用更轻的0到8 kg条件。前臂1到2 kg持物比较高层与零指令，报告为定性而非等试次成功率。",
+      "parent_node": "local:ctrl-f:cf-adapt-gain",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-real-adapt.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§4.6; Fig9; PDF pp12–13",
+      "explainers": []
+    },
+    {
+      "id": "local:ctrl-f:cf-limits",
+      "key": "cf-limits",
+      "kind": "local",
+      "paper": "ctrl-f",
+      "title": "力接口可用，动作与感知范围仍有限",
+      "subtitle": "部署依赖AprilTag物体姿态；新参考动作仍需要重新训练。",
+      "detail": "九类任务的共享范围是三个家族内；没有跨新动作、新物体类别或无标记感知的系统评测。值得学习的是力接口和分层闭环，不是已实现通用搬运。",
+      "parent_node": "local:ctrl-f:cf-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-f/cf-limits.md",
+      "source_url": "https://arxiv.org/pdf/2611.05507v1",
+      "locator": "§5–6; PDF p13",
+      "explainers": []
+    },
+    {
       "id": "local:ctrl-world:video",
       "key": "video",
       "kind": "local",
@@ -9059,6 +9729,441 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/ctrl-world/method-chain.md",
       "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html",
       "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:curobov2-fast",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/action.md",
+      "source_url": "https://arxiv.org/abs/2611.06913v1",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:spatial",
+      "key": "spatial",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "canonical": "spatial",
+      "title": "空间表示",
+      "subtitle": "保留像素、点、体素或对象相对位置的表示，让预测能接到几何与动作位置。",
+      "detail": "全局语义向量识别杯子；抓哪里还需要空间接口。",
+      "parent_node": "paper:curobov2-fast",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/spatial.md",
+      "source_url": "https://arxiv.org/abs/2611.06913v1",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "本篇方法链路",
+      "subtitle": "用三次B样条降低轨迹优化变量耦合；直线种子不足时GPU双向RRT补路线。随后TimeOpt固定几何、以路径速度平方样条非均匀分配时间，局部支持产生带状Newton系统，预测校正复用Cholesky。运动学、碰撞与RNEA直接梯度共同减少每次迭代成本，负载惯量可运行时更新。",
+      "detail": "用三次B样条降低轨迹优化变量耦合；直线种子不足时GPU双向RRT补路线。随后TimeOpt固定几何、以路径速度平方样条非均匀分配时间，局部支持产生带状Newton系统，预测校正复用Cholesky。运动学、碰撞与RNEA直接梯度共同减少每次迭代成本，负载惯量可运行时更新。",
+      "parent_node": "paper:curobov2-fast",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.06913v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-problem",
+      "key": "fast-problem",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "路径短不等于执行快",
+      "subtitle": "规划耗时和机器人实际运动耗时是两项不同目标。",
+      "detail": "负载改变动力学约束；较短关节路径可能必须走得更慢。论文同时减少优化开销和轨迹执行时间。",
+      "parent_node": "paper:curobov2-fast",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§I; PDF p1",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-lineage",
+      "key": "fast-lineage",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "与早期cuRobo分开核身份",
+      "subtitle": "Fast是独立arXiv研究身份，复用cuRobo代码库。",
+      "detail": "论文对比cuRoboV2并引入TimeOpt、RRT和计算优化；早期库的采用和总star不能归给这篇新研究。",
+      "parent_node": "local:curobov2-fast:fast-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-lineage.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§II; PDF pp2–3; official technical_reports",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-pipeline",
+      "key": "fast-pipeline",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "先直线、必要时RRT再精修",
+      "subtitle": "先尝试直线初值，失败时以几何路线初始化优化。",
+      "detail": "IK、可选GPU RRT、B样条几何优化、TimeOpt与最终检查组成规划链；不是每次调用都运行RRT。",
+      "parent_node": "local:curobov2-fast:fast-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-pipeline.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III; PDF p3; Fig17",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-rrt",
+      "key": "fast-rrt",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "有界双向并行RRT",
+      "subtitle": "从起点和终点轮流扩树，批量检查候选连接。",
+      "detail": "最近点查找按节点和关节分配工作；采样边的有效前缀可入树，parallel scan分配存储；搜索有节点和轮数上限。",
+      "parent_node": "local:curobov2-fast:fast-pipeline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-rrt.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-A; Fig2; PDF pp2–3",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-route-validation",
+      "key": "fast-route-validation",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "粗路线不等于可执行轨迹",
+      "subtitle": "路线检查和最终执行检查承担不同角色。",
+      "detail": "路线基准按每关节最多0.03rad间隔粗采样，成功初值还要优化与验证。VAMP初始化更快，不能把Fast写成所有路线规划最快。",
+      "parent_node": "local:curobov2-fast:fast-rrt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-route-validation.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-A; Fig10; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-position-spline",
+      "key": "fast-position-spline",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "三次B样条位置控制点",
+      "subtitle": "K×d个自由控制点描述d关节的连续轨迹。",
+      "detail": "每个轨迹样本只依赖四个相邻控制点，一次求位置、速度、加速度与jerk；增加检查采样密度不增加优化变量数。",
+      "parent_node": "local:curobov2-fast:fast-pipeline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-position-spline.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-B; Eq1; Fig3; PDF p3",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-gradient-gather",
+      "key": "fast-gradient-gather",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "按控制点收集梯度",
+      "subtitle": "每个控制点只收集其局部支持范围内的样本梯度。",
+      "detail": "warp归约避免重叠样本原子累加，也不显式建样本×控制点中间张量；这是计算实现收益。",
+      "parent_node": "local:curobov2-fast:fast-position-spline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-gradient-gather.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-B; Eq2; PDF p3",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-timeopt",
+      "key": "fast-timeopt",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "固定路径上的非均匀时间分配",
+      "subtitle": "TimeOpt保持q(s)几何不变，只优化沿路径的速度。",
+      "detail": "另一个三次B样条表示路径速度平方x(s)，时间为对1/sqrt(x)积分；位置控制点与时间控制点不能混同。",
+      "parent_node": "local:curobov2-fast:fast-position-spline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-timeopt.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-C; Eqs3–5; Fig4; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-sampled-constraints",
+      "key": "fast-sampled-constraints",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "速度加速度jerk与力矩约束",
+      "subtitle": "TimeOpt在离散路径样本、时间结点及内部路径结点两侧施加约束。",
+      "detail": "目标是局部可行的短时程；没有连续碰撞或全局时间最优保证，最终仍做采样约束与端点核查。",
+      "parent_node": "local:curobov2-fast:fast-timeopt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-sampled-constraints.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-C; Eq4; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-affine-torque",
+      "key": "fast-affine-torque",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "固定路径力矩仿射化",
+      "subtitle": "路径固定后，力矩可写成速度平方及其路径导数的仿射式。",
+      "detail": "三次逆动力学求g、A+g、D+g，随后改时间无需反复完整动力学；这沿用TOPPRA等已有路径约化思想。",
+      "parent_node": "local:curobov2-fast:fast-timeopt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-affine-torque.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-C; Eq6; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-banded",
+      "key": "fast-banded",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "局部支持带来的带状Newton系统",
+      "subtitle": "每个约束样本关联四个时间控制点。",
+      "detail": "primal–dual预测与校正复用一次Cholesky分解，回溯保留可行步，并保存最短可行迭代；不是凸全局最优证明。",
+      "parent_node": "local:curobov2-fast:fast-timeopt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-banded.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-C; Fig5; PDF pp4–5",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-kinematics",
+      "key": "fast-kinematics",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "共享连杆wrench与Jacobian列",
+      "subtitle": "先计算连杆位姿，反向时复用每连杆汇总梯度。",
+      "detail": "每执行器收集后代连杆wrench并投影到运动方向，减少重复祖先遍历；IK需要显式Jacobian，轨迹优化直接用loss梯度。",
+      "parent_node": "local:curobov2-fast:fast-pipeline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-kinematics.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-D; Fig6; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-collision",
+      "key": "fast-collision",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "包围盒剪枝与半段距离复用",
+      "subtitle": "先用廉价边界剔除不相交连杆或远处障碍。",
+      "detail": "自碰撞按连杆AABB剪枝，世界碰撞共用相邻half-sweep端点距离并合并梯度；仍受选定采样分辨率约束。",
+      "parent_node": "local:curobov2-fast:fast-pipeline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-collision.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-D; Fig7; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-rnea",
+      "key": "fast-rnea",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "RNEA物理逆动力学",
+      "subtitle": "给定关节位置、速度和加速度，计算所需关节力矩。",
+      "detail": "此处逆动力学是刚体Newton–Euler递推，不是从相邻视频推断动作的学习模型；直接反传loss梯度避免完整导数矩阵。",
+      "parent_node": "local:curobov2-fast:fast-pipeline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-rnea.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-E; Eq7; Fig8; PDF pp5–6",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-payload",
+      "key": "fast-payload",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "运行时更新负载惯量",
+      "subtitle": "负载质量、质心和惯量作为运行数据更新。",
+      "detail": "只要约化机器人拓扑不变，沿用链调度而无需重编译；拓扑和维数特化仍存在。",
+      "parent_node": "local:curobov2-fast:fast-rnea",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-payload.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-E; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-grasp",
+      "key": "fast-grasp",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "抓取与转移分两次规划",
+      "subtitle": "IK先从候选抓取姿态中选择，再生成连接运动。",
+      "detail": "第一调用规划pregrasp、直线approach和lift；第二调用规划transfer。IK可行不能保证路径可达，接触许可按阶段配置。",
+      "parent_node": "local:curobov2-fast:fast-pipeline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-grasp.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§III-F; Fig9; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-convergence",
+      "key": "fast-convergence",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "同IK种子的收敛消融",
+      "subtitle": "100个cage_panda问题使用同四个IK种子、单次尝试。",
+      "detail": "关闭动力学和粒子优化时25初始迭代成功93%对V1的64%；部署使用50+25共75迭代，不能把25迭代结果当完整部署配置。",
+      "parent_node": "local:curobov2-fast:fast-position-spline",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-convergence.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-B; Fig11; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-timing-ablation",
+      "key": "fast-timing-ablation",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "TimeOpt额外收益",
+      "subtitle": "在93个各设置共有有效问题上分离时步精修和TimeOpt。",
+      "detail": "两轮25步均匀精修缩短5.5%；加TimeOpt总缩短20.3%，相对精修后再缩短15.7%，不把两百分数直接相加。",
+      "parent_node": "local:curobov2-fast:fast-timeopt",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-timing-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-B; Fig11; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-payload-benchmark",
+      "key": "fast-payload-benchmark",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "三档负载全链规划评测",
+      "subtitle": "Panda测试100g、3kg与5kg负载。",
+      "detail": "每负载2590查询，Fast重复两遍；运动时长与路径长度用所有方法/负载/Fast重复共同有效的1599查询。3kg RTX5090规划4.43ms对V2 65.13ms。",
+      "parent_node": "local:curobov2-fast:fast-payload",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-payload-benchmark.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-C; Fig12; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-embedded",
+      "key": "fast-embedded",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "Jetson时间口径",
+      "subtitle": "同类3kg规划在嵌入式GPU上另报时间。",
+      "detail": "AGX Orin为25.99ms对V2 602.27ms；VAMP+TOPPRA可更快且其时间不含IK，准确性和工作量须并列看。",
+      "parent_node": "local:curobov2-fast:fast-payload-benchmark",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-embedded.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-C; Fig12; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-kernel-benchmark",
+      "key": "fast-kernel-benchmark",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "模块时延不等于完整规划",
+      "subtitle": "Panda7DoF/G1 29DoF、batch1与1024分别比较内核中位时间。",
+      "detail": "主规划基准仍是Panda；不能从G1计算速度推出人形任务成功。优化迭代可重叠内核，分项时间不直接求和当wall-clock。",
+      "parent_node": "local:curobov2-fast:fast-kinematics",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-kernel-benchmark.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§§IV-D–E; Figs13–14; PDF pp8–10",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-simulation",
+      "key": "fast-simulation",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "五物体模拟抓放",
+      "subtitle": "单一杂乱布局中的五个方块用于整链模拟。",
+      "detail": "三法均完成五块；Fast每块规划26.05ms，规划运动3.33s；循环定义为规划加计划运动，不含真实抓取系统全部成本。",
+      "parent_node": "local:curobov2-fast:fast-grasp",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-simulation.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-F; Figs15–16; PDF pp10–11",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-real-system",
+      "key": "fast-real-system",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "YAM实机感知与抓取集成",
+      "subtitle": "单RTX6000Ada运行SceneFields、GraspGenX和规划器。",
+      "detail": "物面TSDF5mm，碰撞ESDF20mm；grasp motion planning约23ms，完整周期规划均值约0.06s，口径不同。",
+      "parent_node": "local:curobov2-fast:fast-grasp",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-real-system.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-G; Fig17; PDF p11",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-completed-cycle",
+      "key": "fast-completed-cycle",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "已完成周期时间与成功率分开",
+      "subtitle": "实机主结果统计已完成物体转移周期。",
+      "detail": "约50次Fast对15次V2：运动3.75对6.78秒，周期5.93对9.07秒；Fig19另对53个完成序列拆账，包含周期内失败规划和重试，不据此补总抓取成功率。",
+      "parent_node": "local:curobov2-fast:fast-real-system",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-completed-cycle.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-G; Figs18–19; PDF pp11–12",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-execution-limits",
+      "key": "fast-execution-limits",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "规划约束与执行反馈差别",
+      "subtitle": "规划可行速度不自动保证执行速度从不超限。",
+      "detail": "原文记录执行速度可能超限，两方法记录力矩均在限内；Fast99.6%运动时间力矩利用率低于90%。",
+      "parent_node": "local:curobov2-fast:fast-real-system",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-execution-limits.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§IV-G; Fig18; PDF pp11–12",
+      "explainers": []
+    },
+    {
+      "id": "local:curobov2-fast:fast-limit",
+      "key": "fast-limit",
+      "kind": "local",
+      "paper": "curobov2-fast",
+      "title": "接触成功成为剩余瓶颈",
+      "subtitle": "规划只占本部署完成周期约1%。",
+      "detail": "进一步缩规划时延对周期收益有限，剩余代价在运动、夹爪、感知等待和接触可靠性；不把快速规划扩成通用接触智能。",
+      "parent_node": "local:curobov2-fast:fast-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/curobov2-fast/fast-limit.md",
+      "source_url": "https://arxiv.org/pdf/2611.06913v1",
+      "locator": "§V; Fig19; PDF p12",
       "explainers": []
     },
     {
@@ -16429,6 +17534,576 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/gr00t-n1/method-chain.md",
       "source_url": "https://arxiv.org/abs/2503.14734",
       "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/flow.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:dit",
+      "key": "dit",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "dit",
+      "title": "Diffusion Transformer",
+      "subtitle": "用 Transformer 实现扩散模型的去噪网络，使 token 之间交换条件与目标信息。",
+      "detail": "DiT 是网络结构，训练目标及采样器仍要分别说明。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/dit.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/chunk.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:wbc",
+      "key": "wbc",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "wbc",
+      "title": "全身控制与执行",
+      "subtitle": "将运动目标、机器人状态和约束转成关节目标或力矩，协调腿、手臂与底盘。",
+      "detail": "生成了目标之后，还要沿实际控制接口看反馈。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/wbc.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:ppo",
+      "key": "ppo",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "ppo",
+      "title": "PPO 与并行模拟",
+      "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/ppo.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:distill",
+      "key": "distill",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "distill",
+      "title": "教师学生蒸馏",
+      "subtitle": "用教师的预测分布、特征或动作监督学生，把已有模型的可用信息迁移到学生。",
+      "detail": "教师可以固定，也可以随学生参数做滑动平均；有些机器人方法让教师使用特权信息。实际输入、更新规则和迁移目标须按各篇论文区分。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/distill.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:privileged",
+      "key": "privileged",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "privileged",
+      "title": "特权训练信息",
+      "subtitle": "训练用额外环境真值或教师信息，部署另用可获取输入估计或模仿。",
+      "detail": "训练可见与机器人运行可见的量分别列清楚。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/privileged.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:sim2real",
+      "key": "sim2real",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "sim2real",
+      "title": "仿真到实机",
+      "subtitle": "处理仿真动力学、感知和真实系统间的差异，通过随机化、辨识、残差或适配来迁移。",
+      "detail": "实机结果必须按机器人与任务条件解释。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/sim2real.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/data.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:motion-prior",
+      "key": "motion-prior",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "motion-prior",
+      "title": "动作先验",
+      "subtitle": "从运动数据学习自然动作规律，再把它接进物理控制或技能选择。",
+      "detail": "AMP 的判别奖励与 DeepMimic 的逐帧跟踪有不同约束。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/motion-prior.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:retarget",
+      "key": "retarget",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "retarget",
+      "title": "运动重定向",
+      "subtitle": "把人或另一种机器人的运动转换到目标本体的关节、末端与可达范围。",
+      "detail": "相似姿态不自动满足目标机器人的平衡和动力学。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/retarget.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:skills",
+      "key": "skills",
+      "kind": "local",
+      "paper": "halo",
+      "canonical": "skills",
+      "title": "分层技能与计划",
+      "subtitle": "高层选择目标或技能，低层负责具体执行，层次之间有明确接口。",
+      "detail": "SayCan 用语言适用性与可执行价值挑技能。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/skills.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "halo",
+      "title": "本篇方法链路",
+      "subtitle": "HALO先用INFINIGEN房间、KIMODO约束运动、场景摆放和第一视角渲染合成162698回合/296.3小时的视觉—指令—全身轨迹。冻结Qwen3.5-2B编码224×224RGB与文字，8层DiT以流匹配生成150×36的五秒骨盆相对计划；首15帧保持干净，学习接续135帧，并以15步Euler、约3Hz异步更新。低层先训练三类特权PPO专家，再按技能路由BC/DAgger蒸馏为深度学生，最后多critic PPO微调。共享跟踪器融合48×84深度、30步本体历史和计划，以50Hz输出29关节目标。上层VLM从自由语言选择有限技能并检查完成/重试，默认两台机载计算机协作。",
+      "detail": "HALO先用INFINIGEN房间、KIMODO约束运动、场景摆放和第一视角渲染合成162698回合/296.3小时的视觉—指令—全身轨迹。冻结Qwen3.5-2B编码224×224RGB与文字，8层DiT以流匹配生成150×36的五秒骨盆相对计划；首15帧保持干净，学习接续135帧，并以15步Euler、约3Hz异步更新。低层先训练三类特权PPO专家，再按技能路由BC/DAgger蒸馏为深度学生，最后多critic PPO微调。共享跟踪器融合48×84深度、30步本体历史和计划，以50Hz输出29关节目标。上层VLM从自由语言选择有限技能并检查完成/重试，默认两台机载计算机协作。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.06908v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-problem",
+      "key": "halo-problem",
+      "kind": "local",
+      "paper": "halo",
+      "title": "语义感知与物理接触是两层问题",
+      "subtitle": "看见椅子并选中它，与把身体稳稳放上去，需要不同尺度的监督。",
+      "detail": "引言将视觉—语言—全身轨迹配对数据不足设为瓶颈；HALO用仿真扩展数据，再把语义规划与感知跟踪拆开。",
+      "parent_node": "paper:halo",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§I–II; PDF pp1–4",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-data",
+      "key": "halo-data",
+      "kind": "local",
+      "paper": "halo",
+      "title": "程序化房间怎样长出全身监督",
+      "subtitle": "场景生成、受约束运动合成、轨迹摆放和第一视角渲染组成数据管线。",
+      "detail": "INFINIGEN生成室内场景，KIMODO按文字、路点与关键帧合成运动；摆放与渲染得到图像、指令和全身轨迹配对。",
+      "parent_node": "local:halo:halo-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-data.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§III-A; Fig3; AppendixA; PDF pp4–5,10–12",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-seeds",
+      "key": "halo-seeds",
+      "kind": "local",
+      "paper": "halo",
+      "title": "省掉逐回合遥操作，仍要设计运动种子",
+      "subtitle": "合成过程从人写任务约束与少量现成运动资源出发。",
+      "detail": "SIT终点来自真实G1关节日志，DOOR姿态手编，CROUCH/CRAWL由人类手机视频经GVHMR、GMR及手工关键帧处理，PUSH拼接生成行走与人类mocap推物；跟踪器还用重定向LAFAN1。",
+      "parent_node": "local:halo:halo-data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-seeds.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixA.1; §III-C; PDF pp6,10–11",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-staging",
+      "key": "halo-staging",
+      "kind": "local",
+      "paper": "halo",
+      "title": "先摆得下，再渲染看见什么",
+      "subtitle": "轨迹和目标物体要共同放进程序化房间，避免已知静态碰撞。",
+      "detail": "10cm占据栅格、800候选单元乘24朝向、逐3帧骨盆检查与0.35m障碍余量筛位置；DOOR另使用两室/多室场景并移除路径家具。这是离线摆放检查，不是物理稳定保证。",
+      "parent_node": "local:halo:halo-data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-staging.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixA.2; PDF pp11–12",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-corpus",
+      "key": "halo-corpus",
+      "kind": "local",
+      "paper": "halo",
+      "title": "296.3小时包含六个有限技能",
+      "subtitle": "162698回合共296.3小时，训练指令为十条固定表达。",
+      "detail": "生成1200间房，1178完成，其中1000训练、178保留；DOOR另有966个两室/多室场景。运行时自由语言经编排器映射到既有技能，数据量不等于开放技能空间。",
+      "parent_node": "local:halo:halo-data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-corpus.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixA; TableIV; PDF pp10–12",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-filter",
+      "key": "halo-filter",
+      "kind": "local",
+      "paper": "halo",
+      "title": "保留下来的轨迹并非全过硬检查",
+      "subtitle": "SIT生成与筛选采用多级运动检查和失败重试，但仍保留每次最佳链。",
+      "detail": "SIT有33项检查、23项硬检查；50000条生成候选77%过硬检查，最终25349条从全部50000条均匀采样。不能把图注的collision-free摆放扩写成全库每项运动都合格。",
+      "parent_node": "local:halo:halo-data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-filter.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixA.1; PDF pp10–11",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-generator",
+      "key": "halo-generator",
+      "kind": "local",
+      "paper": "halo",
+      "title": "冻结语义编码器，学习运动解码器",
+      "subtitle": "RGB和语言先变为条件特征，再由DiT生成骨盆相对运动。",
+      "detail": "Qwen3.5-2B冻结，224×224RGB的64个图像token及文字hidden states从2048维分别投到512维；8层、宽512、8头DiT与投影共训练49.3M参数。",
+      "parent_node": "local:halo:halo-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-generator.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§III-B; AppendixB; TableV; PDF pp4–5,12",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-plan",
+      "key": "halo-plan",
+      "kind": "local",
+      "paper": "halo",
+      "title": "五秒运动写成150乘36",
+      "subtitle": "每帧包含29关节角、3维骨盆位移和4维骨盆四元数。",
+      "detail": "150帧对应30Hz下5秒；位移和朝向相对于当前骨盆坐标，关节角和位移按维标准化，四元数保持原值。生成的是运动学参考，关节电机命令由跟踪器另算。",
+      "parent_node": "local:halo:halo-generator",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-plan.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§III-B; AppendixB; PDF pp4–5,12",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-flow",
+      "key": "halo-flow",
+      "kind": "local",
+      "paper": "halo",
+      "title": "从高斯噪声推向运动参考",
+      "subtitle": "流匹配训练预测噪声到干净计划的速度。",
+      "detail": "令x1为标准化运动、x0为高斯噪声，s取Beta(1.5,1)，xs=sx1+(1−s)x0，速度目标x1−x0。逐帧DiT输出36维速度；推理以15步Euler积分。",
+      "parent_node": "local:halo:halo-plan",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-flow.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixB; Eqs1–2; TableV; PDF p12",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-prefix",
+      "key": "halo-prefix",
+      "kind": "local",
+      "paper": "halo",
+      "title": "把已承诺的半秒作为干净前缀",
+      "subtitle": "首15帧始终干净，网络只学习后135帧如何接续。",
+      "detail": "前缀逐帧流时间设1，损失只在未来135帧并按36×135归一；推理每一步覆盖回原前缀，3Hz异步更新计划。参考接缝连续，不等于执行必然稳定或安全。",
+      "parent_node": "local:halo:halo-flow",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-prefix.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§III-B; AppendixB; Eqs1–2; PDF pp5,12",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-tracker",
+      "key": "halo-tracker",
+      "kind": "local",
+      "paper": "halo",
+      "title": "50Hz跟踪器处理身体与接触",
+      "subtitle": "跟踪器将运动参考、本体历史和局部深度转成29个目标关节角。",
+      "detail": "48×84深度由2D CNN编码；30步本体历史与后30帧计划经1D CNN，再与当前状态和5帧前瞻拼到SimBa残差网络。输出由低层PD控制跟踪。",
+      "parent_node": "local:halo:halo-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-tracker.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§III-C; AppendixC; Fig6; TableVI; PDF pp6,12–13",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-experts",
+      "key": "halo-experts",
+      "kind": "local",
+      "paper": "halo",
+      "title": "先按接触类型训练三类专家",
+      "subtitle": "移动/穿障、推物、坐下分别训练PPO专家，避免奖励尺度与接触差异互相拖累。",
+      "detail": "移动族含GO-TO、DOOR、CROUCH、CRAWL及重定向运动；专家使用特权状态、17×11局部高度图、10帧参考与30步历史，按失败率增加难转接采样。",
+      "parent_node": "local:halo:halo-tracker",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-experts.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixC phase1; TableVI; PDF p13",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-distill",
+      "key": "halo-distill",
+      "kind": "local",
+      "paper": "halo",
+      "title": "把正确专家路由给当前技能",
+      "subtitle": "共享学生模仿当前技能专家的动作均值，部署只用机器人自身传感器。",
+      "detail": "20%回合由teacher驱动、80%由student驱动并查询teacher；平方误差监督按环境所属技能路由，不平均互相冲突的专家动作。",
+      "parent_node": "local:halo:halo-experts",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-distill.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixC phase2; Eq3; PDF p13",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-multicritic",
+      "key": "halo-multicritic",
+      "kind": "local",
+      "paper": "halo",
+      "title": "共享演员，分开评价不同技能",
+      "subtitle": "蒸馏后以多critic PPO继续优化共享学生。",
+      "detail": "每个技能族保留独立critic并分别标准化优势，训练使用16384环境、4张H100；共享actor再加入扰动和15–40ms延迟随机化。",
+      "parent_node": "local:halo:halo-distill",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-multicritic.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixC phase3; TableVI; PDF pp13–15",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-depth",
+      "key": "halo-depth",
+      "kind": "local",
+      "paper": "halo",
+      "title": "机器人自己的遮挡也要进入深度",
+      "subtitle": "从双目红外估计局部深度，把地面和物体接触信息送入跟踪器。",
+      "detail": "LiteAnyStereo处理真实IR；深度截在0.2–2.5m，log(1+d)并降到48×84。仿真包含身体自遮挡；不是用高层RGB语义特征代替近身几何。",
+      "parent_node": "local:halo:halo-tracker",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-depth.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-B; AppendixC; Fig6; PDF pp7,13–15",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-contact",
+      "key": "halo-contact",
+      "kind": "local",
+      "paper": "halo",
+      "title": "跟上动作还要真的推动物体",
+      "subtitle": "奖励同时照顾身体跟踪、接触与物体变化。",
+      "detail": "PUSH物体奖励用手部邻近条件门控，避免只做相似姿态而没有正确接触；部署使用系统辨识后的动力学和电机增益，限制膝关节过大负向制动功率。",
+      "parent_node": "local:halo:halo-tracker",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-contact.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "AppendixC,G.1; PDF pp14–15,18–19",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-orchestrator",
+      "key": "halo-orchestrator",
+      "kind": "local",
+      "paper": "halo",
+      "title": "把自由请求分给有限技能",
+      "subtitle": "编排器看第一视角并把任务拆成最多八个子任务，判断完成、重试或改计划。",
+      "detail": "默认机载Qwen3.6-35B-A3B量化运行，约0.5Hz；支持的身体技能仍固定，stand/hold为生成参考原语。另提供可选云端接口，不表示默认依赖云服务。",
+      "parent_node": "local:halo:halo-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-orchestrator.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§III-D; AppendixD; TableX; PDF pp6,15–17",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-onboard",
+      "key": "halo-onboard",
+      "kind": "local",
+      "paper": "halo",
+      "title": "两台机载计算机分开语义与实时控制",
+      "subtitle": "Mac mini承担编排和运动生成，G1原装Jetson Orin NX执行感知跟踪。",
+      "detail": "M4 Pro 64GB与Orin通过ZeroMQ异步联动；生成器约3Hz、跟踪器50Hz。TableIX生成器单独152ms、共服155ms，编排器单独0.72s、共服1.46s；这些是模型推理延迟，不是每次控制周期。",
+      "parent_node": "local:halo:halo-tracker",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-onboard.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-B; AppendixE; TableIX; PDF pp7,16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-evaluation",
+      "key": "halo-evaluation",
+      "kind": "local",
+      "paper": "halo",
+      "title": "把单技能与完整任务链分开统计",
+      "subtitle": "评测覆盖六种身体技能与三种技能组合，各有不同环境数。",
+      "detail": "单技能100仿真环境×10次×6技能=6000次，6实机环境×10×6=360次；组合任务50仿真环境×10×3=1500次，1实机环境×10×3=30次。",
+      "parent_node": "local:halo:halo-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-evaluation.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-A,C–D; AppendixF; TableII; PDF pp6–7,17",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-atomic-results",
+      "key": "halo-atomic-results",
+      "kind": "local",
+      "paper": "halo",
+      "title": "实机91%是六技能平均",
+      "subtitle": "GO-TO、SIT、DOOR、CROUCH、CRAWL、PUSH的实机成功率依次为92、85、93、100、90、88%。",
+      "detail": "对应仿真为98、84、91、95、84、93%，表中两者均值均91%。表内百分比有取整，不从均值91%反推精确成功计数；未给多seed误差条。",
+      "parent_node": "local:halo:halo-evaluation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-atomic-results.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-C; TableII; PDF p7",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-chain-results",
+      "key": "halo-chain-results",
+      "kind": "local",
+      "paper": "halo",
+      "title": "长链任务还会丢目标",
+      "subtitle": "实机DOOR→GO-TO为100%，CROUCH→SIT为60%，CROUCH→GO-TO→PUSH为50%。",
+      "detail": "三链均值70%，每链仅同一实机环境10次；仿真依次71、73、64%，均值69%。失败包含低姿态后目标离开视野或错认沙发，不能把单任务91%用作长链表现。",
+      "parent_node": "local:halo:halo-evaluation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-chain-results.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-D; TableII; AppendixG.2; PDF pp7–8,19–20",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-room-ablation",
+      "key": "halo-room-ablation",
+      "kind": "local",
+      "paper": "halo",
+      "title": "房间多样性支持陌生布局",
+      "subtitle": "固定SIT协议，只改变训练场景数，观察未见环境成功率。",
+      "detail": "100个保留仿真环境各10次，1000/100/10/1训练房间得到84/81/64/43%。这组说明场景多样性价值，不把1000房间与1房间差异归为实机增益。",
+      "parent_node": "local:halo:halo-evaluation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-room-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-E; TableIII; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-rtc-ablation",
+      "key": "halo-rtc-ablation",
+      "kind": "local",
+      "paper": "halo",
+      "title": "异步前缀接续影响是否能坐下",
+      "subtitle": "相同SIT仿真协议比较训练时RTC、推理时RTC和无RTC。",
+      "detail": "成功率84/66/24%；训练时接续比推理补缝高18个百分点。实验同时观察执行连续性，不将复制前缀等同于安全性证明。",
+      "parent_node": "local:halo:halo-prefix",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-rtc-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-E; TableIII; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-decoder-ablation",
+      "key": "halo-decoder-ablation",
+      "kind": "local",
+      "paper": "halo",
+      "title": "流模型与回归的差异含RTC兼容性",
+      "subtitle": "SIT仿真流匹配84%，回归19%，但回归设置不能使用相同RTC条件。",
+      "detail": "作者讨论回归过拟合和接续不稳；65个百分点差值是完整替换效果，不能只归因多模态分布建模。相同表中去深度84降到74%。",
+      "parent_node": "local:halo:halo-flow",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-decoder-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§IV-E; TableIII; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:halo:halo-limits",
+      "key": "halo-limits",
+      "kind": "local",
+      "paper": "halo",
+      "title": "技能库、视野与跟踪误差仍限定能力",
+      "subtitle": "系统展示陌生环境的有限技能迁移，尚依赖人设计技能、运动种子和任务分解。",
+      "detail": "跟踪器不理解高层意图，短视野会丢下一目标；附录的冻结/微调编码器比较未系统量化。后续要看更多接触类型、更多真实环境和匹配训练预算，而非把演示外推为通用自主机器人。",
+      "parent_node": "local:halo:halo-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/halo/halo-limits.md",
+      "source_url": "https://arxiv.org/pdf/2611.06908v1",
+      "locator": "§V; AppendixG; PDF pp8,17–20",
       "explainers": []
     },
     {
@@ -32109,6 +33784,306 @@
       "lit": false
     },
     {
+      "from": "paper:ctrl-f",
+      "to": "local:ctrl-f:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:action",
+      "to": "local:ctrl-f:wbc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:wbc",
+      "to": "concept:wbc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:ctrl-f",
+      "to": "local:ctrl-f:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:imitation",
+      "to": "local:ctrl-f:motion-prior",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:motion-prior",
+      "to": "concept:motion-prior",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:imitation",
+      "to": "local:ctrl-f:skills",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:skills",
+      "to": "concept:skills",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:ctrl-f",
+      "to": "local:ctrl-f:rl",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:rl",
+      "to": "local:ctrl-f:ppo",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:ppo",
+      "to": "concept:ppo",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:imitation",
+      "to": "local:ctrl-f:bc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:bc",
+      "to": "concept:bc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:adaptation",
+      "to": "local:ctrl-f:privileged",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:privileged",
+      "to": "concept:privileged",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:rl",
+      "to": "local:ctrl-f:adaptation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:adaptation",
+      "to": "concept:adaptation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:adaptation",
+      "to": "local:ctrl-f:sim2real",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:sim2real",
+      "to": "concept:sim2real",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:ctrl-f",
+      "to": "local:ctrl-f:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:ctrl-f",
+      "to": "local:ctrl-f:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:ctrl-f",
+      "to": "local:ctrl-f:cf-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-problem",
+      "to": "local:ctrl-f:cf-related",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-problem",
+      "to": "local:ctrl-f:cf-hierarchy",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-hierarchy",
+      "to": "local:ctrl-f:cf-inverse",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-inverse",
+      "to": "local:ctrl-f:cf-mask",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-inverse",
+      "to": "local:ctrl-f:cf-curriculum",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-hierarchy",
+      "to": "local:ctrl-f:cf-force-planner",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-force-planner",
+      "to": "local:ctrl-f:cf-analytical",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-analytical",
+      "to": "local:ctrl-f:cf-allocation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-force-planner",
+      "to": "local:ctrl-f:cf-annealed",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-hierarchy",
+      "to": "local:ctrl-f:cf-families",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-families",
+      "to": "local:ctrl-f:cf-objects",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-families",
+      "to": "local:ctrl-f:cf-metrics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-inverse",
+      "to": "local:ctrl-f:cf-zero-load",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-inverse",
+      "to": "local:ctrl-f:cf-command-test",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-force-planner",
+      "to": "local:ctrl-f:cf-mass-sweep",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-force-planner",
+      "to": "local:ctrl-f:cf-adapt-gain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-adapt-gain",
+      "to": "local:ctrl-f:cf-fixed-mass",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-annealed",
+      "to": "local:ctrl-f:cf-bc-rl",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-annealed",
+      "to": "local:ctrl-f:cf-rl-only",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-command-test",
+      "to": "local:ctrl-f:cf-real-force",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-mass-sweep",
+      "to": "local:ctrl-f:cf-real-load",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-real-load",
+      "to": "local:ctrl-f:cf-real-raise",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-adapt-gain",
+      "to": "local:ctrl-f:cf-real-adapt",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:ctrl-f:cf-problem",
+      "to": "local:ctrl-f:cf-limits",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "paper:ctrl-world",
       "to": "local:ctrl-world:video",
       "kind": "contains",
@@ -32147,6 +34122,192 @@
     {
       "from": "paper:ctrl-world",
       "to": "local:ctrl-world:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:curobov2-fast",
+      "to": "local:curobov2-fast:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:curobov2-fast",
+      "to": "local:curobov2-fast:spatial",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:spatial",
+      "to": "concept:spatial",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:curobov2-fast",
+      "to": "local:curobov2-fast:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:curobov2-fast",
+      "to": "local:curobov2-fast:fast-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-problem",
+      "to": "local:curobov2-fast:fast-lineage",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-problem",
+      "to": "local:curobov2-fast:fast-pipeline",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-pipeline",
+      "to": "local:curobov2-fast:fast-rrt",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-rrt",
+      "to": "local:curobov2-fast:fast-route-validation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-pipeline",
+      "to": "local:curobov2-fast:fast-position-spline",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-position-spline",
+      "to": "local:curobov2-fast:fast-gradient-gather",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-position-spline",
+      "to": "local:curobov2-fast:fast-timeopt",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-timeopt",
+      "to": "local:curobov2-fast:fast-sampled-constraints",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-timeopt",
+      "to": "local:curobov2-fast:fast-affine-torque",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-timeopt",
+      "to": "local:curobov2-fast:fast-banded",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-pipeline",
+      "to": "local:curobov2-fast:fast-kinematics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-pipeline",
+      "to": "local:curobov2-fast:fast-collision",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-pipeline",
+      "to": "local:curobov2-fast:fast-rnea",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-rnea",
+      "to": "local:curobov2-fast:fast-payload",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-pipeline",
+      "to": "local:curobov2-fast:fast-grasp",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-position-spline",
+      "to": "local:curobov2-fast:fast-convergence",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-timeopt",
+      "to": "local:curobov2-fast:fast-timing-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-payload",
+      "to": "local:curobov2-fast:fast-payload-benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-payload-benchmark",
+      "to": "local:curobov2-fast:fast-embedded",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-kinematics",
+      "to": "local:curobov2-fast:fast-kernel-benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-grasp",
+      "to": "local:curobov2-fast:fast-simulation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-grasp",
+      "to": "local:curobov2-fast:fast-real-system",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-real-system",
+      "to": "local:curobov2-fast:fast-completed-cycle",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-real-system",
+      "to": "local:curobov2-fast:fast-execution-limits",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:curobov2-fast:fast-problem",
+      "to": "local:curobov2-fast:fast-limit",
       "kind": "contains",
       "lit": false
     },
@@ -35657,6 +37818,306 @@
     {
       "from": "paper:gr00t-n1",
       "to": "local:gr00t-n1:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:dit",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:dit",
+      "to": "concept:dit",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:wbc",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:wbc",
+      "to": "concept:wbc",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:ppo",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:ppo",
+      "to": "concept:ppo",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:distill",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:distill",
+      "to": "concept:distill",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:privileged",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:privileged",
+      "to": "concept:privileged",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:sim2real",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:sim2real",
+      "to": "concept:sim2real",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:motion-prior",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:motion-prior",
+      "to": "concept:motion-prior",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:retarget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:retarget",
+      "to": "concept:retarget",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:skills",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:skills",
+      "to": "concept:skills",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:halo",
+      "to": "local:halo:halo-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-problem",
+      "to": "local:halo:halo-data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-data",
+      "to": "local:halo:halo-seeds",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-data",
+      "to": "local:halo:halo-staging",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-data",
+      "to": "local:halo:halo-corpus",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-data",
+      "to": "local:halo:halo-filter",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-problem",
+      "to": "local:halo:halo-generator",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-generator",
+      "to": "local:halo:halo-plan",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-plan",
+      "to": "local:halo:halo-flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-flow",
+      "to": "local:halo:halo-prefix",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-problem",
+      "to": "local:halo:halo-tracker",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-tracker",
+      "to": "local:halo:halo-experts",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-experts",
+      "to": "local:halo:halo-distill",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-distill",
+      "to": "local:halo:halo-multicritic",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-tracker",
+      "to": "local:halo:halo-depth",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-tracker",
+      "to": "local:halo:halo-contact",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-problem",
+      "to": "local:halo:halo-orchestrator",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-tracker",
+      "to": "local:halo:halo-onboard",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-problem",
+      "to": "local:halo:halo-evaluation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-evaluation",
+      "to": "local:halo:halo-atomic-results",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-evaluation",
+      "to": "local:halo:halo-chain-results",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-evaluation",
+      "to": "local:halo:halo-room-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-prefix",
+      "to": "local:halo:halo-rtc-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-flow",
+      "to": "local:halo:halo-decoder-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:halo:halo-problem",
+      "to": "local:halo:halo-limits",
       "kind": "contains",
       "lit": false
     },
@@ -42186,9 +44647,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 129,
+    "papers": 132,
     "concepts": 59,
-    "local_topics": 1444,
+    "local_topics": 1549,
     "lit_papers": 23,
     "lit_concepts": 47,
     "lit_local_topics": 687

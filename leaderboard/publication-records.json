@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-11-05",
+  "checked_at": "2026-11-06",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1623,6 +1623,75 @@
       "reason": "arXiv v1完整稿与附录可追溯，作者官方页称Technical report；未核正式录用/出版，不猜目标刊会",
       "checked_at": "2026-11-05T09:15:32+08:00",
       "verification_basis": "23页v1的标题、八作者KAIST、首发2026-11-03与方法/实验/附录已核；搜索6条仅官方/转载，无正式刊会记录。"
+    },
+    "halo": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.06908v1",
+      "checked_at": "2026-11-06T08:40:51+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2611.06908v1",
+        "https://arxiv.org/pdf/2611.06908v1",
+        "https://apple-aiml-research.github.io/ml-halo/"
+      ],
+      "verification_basis": "精确arXiv ID、v1提交时间和20页原文/A–G附录已核，12个完整页面目视；作者入口与精确标题有界检索未定位正式刊会记录。同日官方保存索引的精确题目/ID检查未命中；有界检查不证明全网无录用。",
+      "reason": "版本化完整原文可追溯，公开阶段60；未核正式录用或独立技术检验，不由机构、演示或代码发布自动升级评审阶段。",
+      "research_identity": "arXiv:2611.06908",
+      "reading_version": "arXiv v1; 20 pages",
+      "reading_pdf_sha256": "a69ab2fcdaaf407b2ccc01a99ec6575e1bcdba525423c475e5f14c86449e4d33",
+      "official_venue_checked_urls": [
+        "https://2026.corl.org/program/accepted-papers",
+        "https://www.roboticsproceedings.org/rss22/",
+        "https://2026.ieee-icra.org/",
+        "https://2026.ieee-iros.org/program/paper-index/",
+        "https://openreview.net/",
+        "https://openaccess.thecvf.com/menu",
+        "https://www.nature.com/subjects/robotics",
+        "https://www.nature.com/subjects/machine-learning",
+        "https://www.science.org/journal/scirobotics",
+        "https://www.ieee-ras.org/publications/t-ro",
+        "https://journals.sagepub.com/home/ijr",
+        "https://ieeexplore.ieee.org/"
+      ],
+      "official_venue_check_scope": "今日已保存CoRL 687条完整嵌入名单、RSS完整HTML、CVF菜单、ICRA/OpenReview门户、IROS连接工具截断段及期刊入口按精确完整题名/ID零命中，新增请求0；IROS直读403且连接回包上限35000字符，门户检查并非全站穷尽。回执：research/discovery/2026-11-06/venues/halo-official-existing-index-check.json。"
+    },
+    "curobov2-fast": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.06913v1",
+      "sources": [
+        "https://arxiv.org/abs/2611.06913v1",
+        "https://arxiv.org/pdf/2611.06913v1",
+        "https://research.nvidia.com/labs/lpr/curobov2-fast/",
+        "https://github.com/NVlabs/curobo",
+        "https://nvlabs.github.io/curobo/latest/technical_reports.html"
+      ],
+      "reason": "13页arXiv v1完整可追溯；官方Technical Reports页明确单列本研究，与2023 ICRA cuRobo和早期V2分开。",
+      "checked_at": "2026-11-06T08:36:58+08:00",
+      "verification_basis": "正文§I–V/参考已读，关键图/公式完整页目视；未核本篇正式刊会。"
+    },
+    "ctrl-f": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.05507v1",
+      "checked_at": "2026-11-06T08:37:19.120480+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2611.05507v1",
+        "https://arxiv.org/pdf/2611.05507v1",
+        "https://forcectrl.github.io/",
+        "https://arxiv.org/src/2611.05507v1"
+      ],
+      "verification_basis": "精确arXiv v1提交记录、15页正文/参考文献、完整源包已查；PDF关键图表目视，无附录。官方项目互证作者与硬件负载定义。官方已下载入口精确匹配与有界搜索未核正式会刊，只登记preprint。",
+      "reason": "完整可追溯公开稿按既有量表60，不由作者机构或视频提升评审阶段。",
+      "research_identity": "arXiv:2611.05507",
+      "reading_version": "arXiv v1; 15 pages; no appendix in PDF or source archive",
+      "reading_pdf_sha256": "d03809db8ecc1ca5072a027bc2d3cde77c98dbb7cf5a0064d37369c877b04da2",
+      "official_venue_checked_urls": [
+        "https://2026.corl.org/program/accepted-papers",
+        "https://www.roboticsproceedings.org/rss22/",
+        "https://openaccess.thecvf.com/menu",
+        "https://openreview.net/",
+        "https://2026.ieee-icra.org/",
+        "https://2026.ieee-iros.org/program/paper-index/"
+      ],
+      "official_venue_check_scope": "CoRL687条嵌入名单未命中；其余为已取官方门户/索引有界检查；IROS直接403且连接工具截断，OpenReview仅门户。不是全球无录用结论。"
     }
   }
 }

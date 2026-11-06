@@ -24,6 +24,7 @@
 - [HOVER](../papers/hover.md) · 机制导读 · [原文](https://hover-versatile-humanoid.github.io/)
 - [GAR](../papers/gar.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40271v1)
 - [DreamFree](../papers/dreamfree.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.04527v1)
+- [HALO](../papers/halo.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06908v1)
 - [Balanced Data Diet](../papers/balanced-data-diet.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12465v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。

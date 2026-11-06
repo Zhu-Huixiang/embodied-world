@@ -2,12 +2,24 @@
 
 找值得追的新工作：先看问题和贡献，再看对照、闭环实验与署名。重点实验室优先进入阅读队列；机构名字不替方法拿分。
 
-最近扫描：**2026-11-05T09:07:16+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 134 篇方向候选。下列为历次保留的 21 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
+最近扫描：**2026-11-06T08:29:12+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 143 篇方向候选。下列为历次保留的 24 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
 
 收录日期按 arXiv 首次提交时间转换到上海日期；更新版本合并旧卡片。首次提交与本文收录时间分别列出。每日上海08:30启动新论文检索与初读筛选；没有合格新增也正常。
 
+## [2026-11-05](2026/11/05.md)
+
+<a id="paper-curobov2-fast"></a>
+
+- [cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning](../library/curobov2-fast.md) — NVIDIA
+<a id="paper-halo"></a>
+
+- [Perceptive Humanoid Motion from Simulation](../library/halo.md) — Apple
+
 ## [2026-11-04](2026/11/04.md)
 
+<a id="paper-ctrl-f"></a>
+
+- [Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation](../library/ctrl-f.md) — University of California, Berkeley
 <a id="paper-dreamx"></a>
 
 - [DreamX: Video Diffusion Model is a Universal Latent Action Learner](../library/dreamx.md) — KAIST, NVIDIA

@@ -1,6 +1,6 @@
 # DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
-**DreamX** · arXiv 2026 · 本版排名 120 · 综合分 **63.4 / 100**
+**DreamX** · arXiv 2026 · 本版排名 121 · 综合分 **63.4 / 100**
 
 [解读导读](../../../library/dreamx.md) · [视频动作模型与视觉推理](../../../paper-map/README.md#track-video-action) · [arXiv集锦](../../../arxiv/README.md#paper-dreamx)
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-05",
+  "checked_at": "2026-11-06",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -22225,6 +22225,255 @@
         "exact_request_time_recorded": false
       },
       "checked_at_semantics": "payload内容复核时间；各计量checked_at为响应保存时间，非新网络请求。"
+    },
+    "halo": {
+      "checked_at": "2026-11-06T08:33:06+08:00",
+      "resources": [
+        {
+          "platform": "github",
+          "resource_kind": "repository",
+          "id": "apple-aiml-research/ml-halo",
+          "url": "https://github.com/apple-aiml-research/ml-halo",
+          "api_url": "https://api.github.com/repos/apple-aiml-research/ml-halo",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "原文链接官方项目；项目内LINKS对象给出本仓库；仓库README同题目与精确arXiv2611.06908。仓库为HALO数据生成/训练/部署，不是组织共享总star。",
+          "sources": [
+            "https://arxiv.org/abs/2611.06908v1",
+            "https://apple-aiml-research.github.io/ml-halo/",
+            "https://github.com/apple-aiml-research/ml-halo",
+            "https://api.github.com/repos/apple-aiml-research/ml-halo"
+          ],
+          "created_at": "2026-11-05T01:47:00Z",
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 60,
+              "checked_at": "2026-11-06T08:33:06+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-11-05",
+              "window_end": "2026-11-06",
+              "label": "专属GitHub仓库star",
+              "window_label": "近期窗口内新建论文专属仓库累计star快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "subscribers",
+              "count": 0,
+              "checked_at": "2026-11-06T08:33:06+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-11-05",
+              "window_end": "2026-11-06",
+              "label": "GitHub订阅者",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            }
+          ],
+          "forks": 5,
+          "limitations": [
+            "fork/star/订阅是关注快照，不代表独立复现或实际部署。",
+            "未使用组织账号粉丝数；未运行代码。",
+            "README未提供tracker权重，Apple自定义许可与第三方依赖许可分别核查。"
+          ]
+        },
+        {
+          "platform": "project",
+          "resource_kind": "website",
+          "url": "https://apple-aiml-research.github.io/ml-halo/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2611.06908v1",
+            "https://arxiv.org/pdf/2611.06908v1",
+            "https://apple-aiml-research.github.io/ml-halo/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "作者官方项目可读；静态按钮有Soon文案，但JS链接与实仓库已核，不能据静态文案宣称代码未公开。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确标题/ID有界搜索未核独立技术采用；聚合报道及自动摘要不充当外部技术检验。以专属仓库60star参与近期关注，各来源不相加。",
+      "unavailable_metrics": {
+        "citation_count": null,
+        "recent_citation_count": null,
+        "hf_upvotes": null,
+        "hf_downloads": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.06908?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+          "checked_at": "2026-11-06T08:33:06+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "精确arXiv ID请求限流；累计和近期引用保持null。"
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.06908",
+          "checked_at": "2026-11-06T08:33:06+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "精确DOI未匹配；不能写成引用0。"
+        },
+        {
+          "url": "https://huggingface.co/api/papers/2611.06908",
+          "checked_at": "2026-11-06T08:33:06+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "精确论文API未匹配；upvote/download保持null，不推断全网没有相关资产。"
+        }
+      ]
+    },
+    "curobov2-fast": {
+      "checked_at": "2026-11-06T08:40:33+08:00",
+      "adoption_evidence": [],
+      "audit_note": "有界搜索5结果未定位独立技术验证，不把摘要转载当采用。",
+      "unavailable_metrics": {
+        "huggingface_upvotes": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "source": "semantic_scholar",
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.06913?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationVenue",
+          "checked_at": "2026-11-06T08:33:24+08:00",
+          "status": 429,
+          "ok": false
+        },
+        {
+          "source": "openalex",
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.06913",
+          "checked_at": "2026-11-06T08:33:25+08:00",
+          "status": 404,
+          "ok": false
+        },
+        {
+          "source": "huggingface",
+          "url": "https://huggingface.co/api/papers/2611.06913",
+          "checked_at": "2026-11-06T08:33:27+08:00",
+          "status": 404,
+          "ok": false
+        }
+      ],
+      "resources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/NVlabs/curobo",
+          "scope": "shared_multi_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://research.nvidia.com/labs/lpr/curobov2-fast/",
+            "https://github.com/NVlabs/curobo",
+            "https://nvlabs.github.io/curobo/latest/technical_reports.html"
+          ],
+          "created_at": "2023-10-13T19:18:21Z",
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 1958,
+              "window_kind": "cumulative",
+              "eligible_recent_attention": false,
+              "eligible_academic_impact": false,
+              "checked_at": "2026-11-06T08:40:33+08:00"
+            },
+            {
+              "metric": "subscribers",
+              "count": 20,
+              "window_kind": "cumulative",
+              "eligible_recent_attention": false,
+              "eligible_academic_impact": false,
+              "checked_at": "2026-11-06T08:40:33+08:00"
+            },
+            {
+              "metric": "forks",
+              "count": 383,
+              "window_kind": "cumulative",
+              "eligible_recent_attention": false,
+              "eligible_academic_impact": false,
+              "checked_at": "2026-11-06T08:40:33+08:00"
+            }
+          ],
+          "notes": [
+            "共享V1/V2/Fast仓库，全部计数仅背景不计本篇关注或采用。"
+          ],
+          "snapshot_captured_at": "2026-11-06T08:40:33+08:00",
+          "snapshot_time_note": "真实连接插件重读：请求08:40:32、响应08:40:33上海时间；旧回执保留。",
+          "resource_kind": "repository",
+          "checked_at": "2026-11-06T08:40:33+08:00"
+        },
+        {
+          "platform": "project",
+          "url": "https://research.nvidia.com/labs/lpr/curobov2-fast/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/pdf/2611.06913v1",
+            "https://research.nvidia.com/labs/lpr/curobov2-fast/"
+          ],
+          "metrics": [],
+          "raw_page_views": null
+        }
+      ]
+    },
+    "ctrl-f": {
+      "checked_at": "2026-11-06T08:37:19.120480+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "resource_kind": "website",
+          "url": "https://forcectrl.github.io/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2611.05507v1",
+            "https://arxiv.org/pdf/2611.05507v1",
+            "https://forcectrl.github.io/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "作者官网可读并提供浏览器策略演示；未运行演示；没有可核浏览量或论文专属代码仓库。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "awesome清单和自动日报为收录链接，不作独立技术采用或实验复现；mjlab是共享模拟基础设施，不归其star给Ctrl-F。",
+      "unavailable_metrics": {
+        "github_stars": null,
+        "github_subscribers": null,
+        "hf_downloads": null,
+        "hf_upvotes": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.05507?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+          "checked_at": "2026-11-06T08:34:26.806392+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "rate limited"
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.05507",
+          "checked_at": "2026-11-06T08:34:39.765343+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "exact DOI not found"
+        },
+        {
+          "url": "https://huggingface.co/api/papers/2611.05507",
+          "checked_at": "2026-11-06T08:34:26.806717+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "exact paper not found"
+        }
+      ]
     }
   },
   "excluded_candidates": [

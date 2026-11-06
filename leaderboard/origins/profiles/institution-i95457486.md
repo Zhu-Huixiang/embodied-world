@@ -1,6 +1,6 @@
 # 加州大学伯克利分校
 
-本仓已收录工作主要涉及：视觉语言动作模型 VLA、操作与动作块、动作先验与全身技能、强化学习与离线决策、Locomotion 与运动适应、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型。
+本仓已收录工作主要涉及：视觉语言动作模型 VLA、操作与动作块、Locomotion 与运动适应、动作先验与全身技能、强化学习与离线决策、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型。
 
 **类型**：研究机构。
 
@@ -42,6 +42,7 @@
 | [Cal-QL · Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning](../../../library/cal-ql.md) | 2023 / [NeurIPS](../../../venues/NeurIPS/README.md) | [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) | [82.1](../../papers/cal-ql/README.md) |
 | [HOVER · HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots](../../../library/hover.md) | 2025 / [ICRA](../../../venues/ICRA/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [79.6](../../papers/hover/README.md) |
 | [SuperMimic · SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](../../../library/supermimic.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) | [78.1](../../papers/supermimic/README.md) |
+| [Ctrl-F · Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation](../../../library/ctrl-f.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-ctrl-f) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [58.1](../../papers/ctrl-f/README.md) |
 
 ## 署名与来源
 
