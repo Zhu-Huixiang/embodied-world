@@ -33,7 +33,7 @@ Xue Bin Peng、Pieter Abbeel、Sergey Levine、Michiel van de Panne
 
 </details>
 
-[论文导读 / 完整解读](../../../library/deepmimic.md) · [七维评分](../../papers/deepmimic/README.md) · [原文](https://xbpeng.github.io/projects/DeepMimic/)
+[论文导读 / 完整解读](../../../articles/deepmimic-1804.02717/README.md) · [七维评分](../../papers/deepmimic/README.md) · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 
 ## 署名来源
 

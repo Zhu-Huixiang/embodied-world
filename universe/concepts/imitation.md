@@ -9,6 +9,7 @@
 ## 在完整解读里看计算与例子
 
 - [ACT / ALOHA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏)
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励)
 - [Diffusion Policy：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/diffusion-policy-2303.04137/README.md#i-引言左右都能走怎么偏偏走了中间)
 - [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#46-学生训练模仿动作也重建环境)
 - [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#52-d-区监督的答案就是人类当时选的动作)
@@ -19,6 +20,7 @@
 - [Diffusion Policy](../papers/diffusion-policy.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p026.html)
 - [ACT / ALOHA](../papers/act.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p016.html)
 - [Perceptive Locomotion](../papers/perceptive-loco.md) · 已精讲 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)
 - [CLIPort](../papers/cliport.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/shridhar22a.html)
 - [UMI](../papers/umi.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss20/p045.html)

@@ -181,7 +181,7 @@
 
 | 论文 / 出处 | 带着什么问题读 |
 | --- | --- |
-| [DeepMimic](../library/deepmimic.md) · [SIGGRAPH / TOG 2018](../venues/SIGGRAPH-TOG/README.md) | 模仿奖励与任务奖励怎样把动作片段变成可恢复的控制技能？ |
+| [DeepMimic](../articles/deepmimic-1804.02717/README.md) · [SIGGRAPH / TOG 2018](../venues/SIGGRAPH-TOG/README.md) | 模仿奖励与任务奖励怎样把动作片段变成可恢复的控制技能？ |
 | [AMP](../library/amp.md) · [SIGGRAPH / TOG 2021](../venues/SIGGRAPH-TOG/README.md) | 判别器学到的动作先验，怎样替代逐帧跟踪奖励？ |
 | [ASE](../library/ase.md) · [SIGGRAPH / TOG 2022](../venues/SIGGRAPH-TOG/README.md) | 连续技能潜变量怎样组织可重复使用的动作？ |
 | [MaskedMimic](../library/maskedmimic.md) · [SIGGRAPH / TOG 2024](../venues/SIGGRAPH-TOG/README.md) | 把动作目标遮掉一部分，怎样训练出接受位置、文字和环境条件的统一控制器？ |

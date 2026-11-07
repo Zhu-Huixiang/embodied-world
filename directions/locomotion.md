@@ -1,5 +1,6 @@
 # 运动控制与 Locomotion
 
+- [DeepMimic：照着动作学，为什么还会摔？](../articles/deepmimic-1804.02717/README.md)
 - [全身动作写成208个token，机器人就懂了吗？](../articles/holo-m-2609.35709/README.md)
 - [机器狗看错路，为什么还能走？](../articles/perceptive-loco-2201.08117/README.md)
 - [RMA：脚下突然打滑，机器狗怎么边走边改？](../articles/rma-2107.04034/README.md)

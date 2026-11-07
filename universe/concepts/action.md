@@ -10,6 +10,7 @@
 
 - [ACT / ALOHA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#4-act-方法动作块时间集成与条件生成)
 - [DDPM：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上)
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#51-状态与动作)
 - [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#44-观察与动作从-391-个数到-12-个关节目标)
 - [RMA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#41-环境与动作接口)
 - [RT-1：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#3-问题定义一句指令不等于一整套计划)
@@ -21,6 +22,7 @@
 - [ACT / ALOHA](../papers/act.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p016.html)
 - [RMA](../papers/rma.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
 - [Perceptive Locomotion](../papers/perceptive-loco.md) · 已精讲 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [DreamZero](../papers/dreamzero.md) · 机制导读 · [原文](https://arxiv.org/abs/2602.15922)
 - [VideoVLA](../papers/videovla.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html)
 - [RT-1](../papers/rt1.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss19/p025.html)

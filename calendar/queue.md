@@ -26,7 +26,7 @@
 | 20 | 20 | [Learning robust perceptive locomotion for quadrupedal robots in the wild](../articles/perceptive-loco-2201.08117/README.md) | [Sci. Robot. 2022](../venues/Science-Robotics/README.md) | 90.7 |
 | 21 | 21 | [Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots](../articles/umi-2402.10329/README.md) | [RSS 2024](../venues/RSS/README.md) | 90.5 |
 | 22 | 22 | [Conservative Q-Learning for Offline Reinforcement Learning](../articles/cql-2006.04779/README.md) | [NeurIPS 2020](../venues/NeurIPS/README.md) | 90.4 |
-| 23 | 23 | [DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](../library/deepmimic.md) | [SIGGRAPH / TOG 2018](../venues/SIGGRAPH-TOG/README.md) | 90.2 |
+| 23 | 23 | [DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](../articles/deepmimic-1804.02717/README.md) | [SIGGRAPH / TOG 2018](../venues/SIGGRAPH-TOG/README.md) | 90.2 |
 | 24 | 24 | [Decision Transformer: Reinforcement Learning via Sequence Modeling](../library/decision-transformer.md) | [NeurIPS 2021](../venues/NeurIPS/README.md) | 90.2 |
 | 25 | 25 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](../library/droid.md) | [RSS 2024](../venues/RSS/README.md) | 90.1 |
 | 26 | 26 | [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](../library/i-jepa.md) | [CVPR 2023](../venues/CVPR/README.md) | 90.0 |

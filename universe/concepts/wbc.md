@@ -8,12 +8,13 @@
 
 ## 在完整解读里看计算与例子
 
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#3-方法总览从参考姿态到物理动作)
 - [Holo-M：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#34-四阶段训练e区让缺标签的数据也能上桌)
 
 ## 哪些论文用到或讨论它
 
 - [Holo-M](../papers/holo-m.md) · 已精讲 · [原文](https://arxiv.org/abs/2609.35709v1)
-- [DeepMimic](../papers/deepmimic.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [Mobile ALOHA](../papers/mobile-aloha.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/fu25b.html)
 - [HumanPlus](../papers/humanplus.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/fu25a.html)
 - [OmniH2O](../papers/omnih2o.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/he25b.html)

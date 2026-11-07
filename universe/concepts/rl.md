@@ -9,6 +9,7 @@
 ## 在完整解读里看计算与例子
 
 - [CQL：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#2-预备知识高估如何钻进-bellman-目标)
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作)
 - [DreamerV3：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风)
 - [MuZero：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络)
 - [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案)
@@ -18,7 +19,7 @@
 
 - [RMA](../papers/rma.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
 - [Perceptive Locomotion](../papers/perceptive-loco.md) · 已精讲 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
-- [DeepMimic](../papers/deepmimic.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [AMP](../papers/amp.md) · 机制导读 · [原文](https://xbpeng.github.io/projects/AMP/)
 - [DreamerV3](../papers/dreamerv3.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-025-08744-2)
 - [VIP](../papers/vip.md) · 机制导读 · [原文](https://openreview.net/forum?id=YJ7o2wetJ2)

@@ -1,0 +1,8 @@
+% DeepMimic, author-hosted TOG 2018 PDF. §5.1–5.2, Table1; unnumbered in original; article display numbers are editorial.
+% Humanoid no-heightmap/no-extra-goal dimensional path; goal is optional and concatenated when used; state includes phase; fixed diagonal Sigma, Gaussian mean36.
+\documentclass[border=8pt,12pt]{standalone}
+\usepackage{amsmath,amssymb,xcolor}
+\definecolor{ink}{HTML}{203340}
+\begin{document}\color{ink}
+$\displaystyle \begin{aligned}\mathbf s&\in\mathbb R^{197}\quad(\phi\text{ included})\\ \mathbf s&\xrightarrow{\mathrm{FC+ReLU}}\mathbb R^{1024}\\ &\xrightarrow{\mathrm{FC+ReLU}}\mathbb R^{512}\\ &\xrightarrow{\mathrm{linear}}\boldsymbol\mu_\theta\in\mathbb R^{36}\\ \pi_\theta(\mathbf a\mid\mathbf s,\mathbf g)&=\mathcal N(\boldsymbol\mu_\theta(\mathbf s,\mathbf g),\Sigma)\end{aligned}$
+\end{document}

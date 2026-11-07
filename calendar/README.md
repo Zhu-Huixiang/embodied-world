@@ -4,7 +4,7 @@
 
 | 拟定日期（上海） | 论文 / 榜单名次 | 本篇要讲清什么 | 实际进度 |
 | --- | --- | --- | --- |
-| 2026-11-07 | [DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills · #23](../library/deepmimic.md) | 模仿奖励与任务奖励怎样把动作片段变成可恢复的控制技能？ | 机制初读，全文待制作 |
+| 2026-11-07 | [DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills · #23](../articles/deepmimic-1804.02717/README.md) | 模仿奖励与任务奖励怎样把动作片段变成可恢复的控制技能？ | 完整解读已审校 |
 | 2026-11-08 | [Decision Transformer: Reinforcement Learning via Sequence Modeling · #24](../library/decision-transformer.md) | 把目标回报放进 token 序列，就能把离线控制改写成条件生成吗？ | 机制初读，全文待制作 |
 | 2026-11-09 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset · #25](../library/droid.md) | 机器人长期困在少数桌面场景里，分布式真实数据能把泛化边界推远多少？ | 机制初读，全文待制作 |
 | 2026-11-10 | [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture · #26](../library/i-jepa.md) | 世界模型必须把像素画出来吗，预测目标区域的 latent 会保留哪些可用信息？ | 机制初读，全文待制作 |

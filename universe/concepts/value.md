@@ -9,10 +9,12 @@ IQL 的 expectile、CQL 的保守项、Cal-QL 的校准目标各有对象。
 ## 在完整解读里看计算与例子
 
 - [CQL：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界)
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作)
 - [MuZero：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/muzero-1911.08265/README.md#35-搜索完了谁来教网络)
 
 ## 哪些论文用到或讨论它
 
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [TD-MPC](../papers/td-mpc.md) · 机制导读 · [原文](https://proceedings.mlr.press/v162/hansen22a.html)
 - [TD-MPC2](../papers/td-mpc2.md) · 机制导读 · [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/cf73d57b6dcda32b293df7c2d5341f49-Abstract-Conference.html)
 - [SayCan](../papers/saycan.md) · 机制导读 · [原文](https://proceedings.mlr.press/v205/ichter23a.html)

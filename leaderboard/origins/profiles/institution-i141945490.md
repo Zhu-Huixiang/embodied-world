@@ -15,7 +15,7 @@
 
 | 论文 | 年份 / 出处 | 方向 | 综合分 |
 | --- | --- | --- | --- |
-| [DeepMimic · DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](../../../library/deepmimic.md) | 2018 / [SIGGRAPH / TOG](../../../venues/SIGGRAPH-TOG/README.md) | [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) | [90.2](../../papers/deepmimic/README.md) |
+| [DeepMimic · DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](../../../articles/deepmimic-1804.02717/README.md) | 2018 / [SIGGRAPH / TOG](../../../venues/SIGGRAPH-TOG/README.md) | [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) | [90.2](../../papers/deepmimic/README.md) |
 
 ## 署名与来源
 

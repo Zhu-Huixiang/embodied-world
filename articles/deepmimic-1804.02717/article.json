@@ -1,0 +1,785 @@
+{
+  "slug": "deepmimic-1804.02717",
+  "title": "DeepMimic：照着动作学，为什么还会摔？",
+  "topics": [
+    "locomotion",
+    "reinforcement-learning"
+  ],
+  "paper": {
+    "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
+    "arxiv_id": "1804.02717",
+    "version": "Author-hosted ACM TOG/SIGGRAPH 2018 final PDF, 18 pages including embedded supplementary A-D and Figs12-14",
+    "first_publication": "2018-04-08",
+    "pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+    "url": "https://doi.org/10.1145/3197517.3201311",
+    "project_url": "https://xbpeng.github.io/projects/DeepMimic/index.html",
+    "code_url": "https://github.com/xbpeng/DeepMimic",
+    "authors": [
+      "Xue Bin Peng",
+      "Pieter Abbeel",
+      "Sergey Levine",
+      "Michiel van de Panne"
+    ],
+    "institutions": [
+      "UC Berkeley",
+      "University of British Columbia"
+    ],
+    "source_checked_at": "2026-11-07T10:20:42+08:00"
+  },
+  "venue": {
+    "status": "published",
+    "name": "ACM Transactions on Graphics 37(4), Article143 / SIGGRAPH 2018",
+    "url": "https://doi.org/10.1145/3197517.3201311",
+    "checked_at": "2026-11-07T10:20:42+08:00",
+    "explanation": "Official author project, paper self-citation and Crossref checked. Reading locked to 18-page author-hosted final PDF including supplements; not asserted byte-identical to arXiv v3."
+  },
+  "wechat_url": null,
+  "figures": [
+    {
+      "kind": "drawpaper",
+      "file": "figures/drawpaper/deepmimic-overview.png",
+      "tex": "figures/drawpaper/deepmimic-overview.tex",
+      "pdf": "figures/drawpaper/deepmimic-overview.pdf",
+      "prompt": "figures/drawpaper/imagegen-prompt.md",
+      "alt": "DeepMimic全篇架构：参考、策略、PD物理闭环、训练与三种技能组织",
+      "caption": "本图由 [DrawPaper skill](https://github.com/Zhu-Huixiang/ReadPaper/tree/main/drawpaper) 指挥 Codex，使用内置生图制作。",
+      "generator": "DrawPaper",
+      "ai_generated": true,
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "source_location": "§§3–7 and embedded Appendix A–D",
+      "source_notes": "figures/drawpaper/source-notes.md",
+      "reviewed": true,
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00",
+      "sha256": "fcf15a6be136004420d1d149a4766e45207c903da6bb9be6c3b7f22a731bb3bb",
+      "pixel_size": [
+        1020,
+        5220
+      ],
+      "reviewed_at": "2026-11-07T10:21:43+08:00",
+      "draft": "figures/drawpaper/deepmimic-imagegen-draft.png",
+      "figure_spec": "figures/drawpaper/figure-spec.md",
+      "source_paper_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "regions": [
+        "A reference initialization and reward standard",
+        "B state/phase/optional goal to policy and target orientations",
+        "C stable PD and simulated state feedback",
+        "D imitation/task rewards and policy/value updates",
+        "E three parallel skill organizations"
+      ],
+      "provenance": "Built-in imagegen draft retained unchanged;11 actual illustration crops composed with exact editable TeX labels and equations plus TikZ arrows. All causal and mathematical content independently checked.",
+      "visual_review": "Latest full340px-width render inspected after final A initialization wording and B input-scope changes. State feedback returns to B, training route reaches trajectory batch, source reference does not directly enter policy, labels/crops not clipped. All five regions checked against source and science collaborator reviewed."
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq01-policy.png",
+      "tex": "figures/equations/eq01-policy.tex",
+      "pdf": "figures/equations/eq01-policy.pdf",
+      "alt": "Humanoid策略网络与高斯动作分布",
+      "caption": "本文教学式（3）。无额外目标时的Humanoid维度；使用目标时将g拼入输入。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 4,
+      "source_location": "§5.1–5.2, Table1",
+      "source_notes": "Humanoid no-heightmap/no-extra-goal dimensional path; goal is optional and concatenated when used; state includes phase; fixed diagonal Sigma, Gaussian mean36.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        726,
+        453
+      ],
+      "display_width": 290,
+      "sha256": "d9a6a7d8a23ab4214f57c410c204730b7cd90345781eeabe9d01672b28bd2123",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq02-reward.png",
+      "tex": "figures/equations/eq02-reward.tex",
+      "pdf": "figures/equations/eq02-reward.pdf",
+      "alt": "任务与模仿奖励的两层加权",
+      "caption": "本文教学式（4）。四项模仿权重与带任务实验的外层权重。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 5,
+      "source_location": "§5.3; §10 p10",
+      "source_notes": "Imitation weights fixed; .7/.3 for goal tasks; pure imitation not claimed as .7-scaled task setting.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        793,
+        342
+      ],
+      "display_width": 290,
+      "sha256": "bccf2edf99b2275197ede8d3a8abb2833211257eb794e03d88723fd2dc851ca8",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq03a-imitation-errors.png",
+      "tex": "figures/equations/eq03a-imitation-errors.tex",
+      "pdf": "figures/equations/eq03a-imitation-errors.pdf",
+      "alt": "姿态及角速度模仿奖励",
+      "caption": "本文教学式（5a）。四元数差取相对旋转角，角速度则直接比较。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 5,
+      "source_location": "§5.3",
+      "source_notes": "Quaternion difference norm is scalar rotation angle (rad), angular velocities local. No Euclidean quaternion-component difference.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        704,
+        380
+      ],
+      "display_width": 290,
+      "sha256": "3d4152fca65189ca2b980a6935514b8cdc561ad14634b7de6a39b739ebe932a4",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq03b-imitation-errors.png",
+      "tex": "figures/equations/eq03b-imitation-errors.tex",
+      "pdf": "figures/equations/eq03b-imitation-errors.pdf",
+      "alt": "手脚末端与质心位置奖励",
+      "caption": "本文教学式（5b）。世界坐标位置差按米计；末端项对左右手脚求和。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 5,
+      "source_location": "§5.3",
+      "source_notes": "End effectors and COM world positions (m); e over two hands/two feet for humanoid.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        691,
+        282
+      ],
+      "display_width": 290,
+      "sha256": "a27cd596ce0c313e92a71b64c56c102d1debc92b1167082d44554d8fe29f2be3",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq04-ppo.png",
+      "tex": "figures/equations/eq04-ppo.tex",
+      "pdf": "figures/equations/eq04-ppo.pdf",
+      "alt": "PPO裁剪代理目标",
+      "caption": "本文教学式（2）。按附录C重排；裁剪与未裁剪项取较小者，再最大化批平均。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 15,
+      "source_location": "Appendix C–D pp15–16",
+      "source_notes": "Clipped surrogate; hats denote estimated advantages. Min of clipped/unclipped; not all out-of-range ratios have zero gradient.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        780,
+        709
+      ],
+      "display_width": 290,
+      "sha256": "80c137320def551e8ebf1f47eec642f8788a7ae97a5e07efe908f884be810117",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq05-gae.png",
+      "tex": "figures/equations/eq05-gae.tex",
+      "pdf": "figures/equations/eq05-gae.pdf",
+      "alt": "TD残差、估计优势与价值训练目标",
+      "caption": "本文教学式（1）。附录A的λ回报用TD残差展开；终止归零，截断保留bootstrap。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 15,
+      "source_location": "Appendix A, D",
+      "source_notes": "Teaching TD-residual expansion equivalent to lambda-return advantage with coherent horizon/bootstrap; terminal value zero, truncation bootstrap kept. K is remaining included steps.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        713,
+        434
+      ],
+      "display_width": 290,
+      "sha256": "80f06d4ba349499da59a6322f7ad73dc52366bee406a6346161fe78e2b4d59e8",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq06-multiclip.png",
+      "tex": "figures/equations/eq06-multiclip.tex",
+      "pdf": "figures/equations/eq06-multiclip.pdf",
+      "alt": "多参考最大值与技能选择器",
+      "caption": "本文教学式（6）。上行取最大模仿分，下行按one-hot选择参考，两种方案分别使用。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 7,
+      "source_location": "§7 pp6–7",
+      "source_notes": "Parallel alternatives, not sequential computation. Selector onehot and selected reward, no additional task reward.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        733,
+        224
+      ],
+      "display_width": 290,
+      "sha256": "5b350fe90228c4ffbe1cc1a498fce13d2a08ff1db06cbdab0b1fe714ec0ca4e1",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq07-composite.png",
+      "tex": "figures/equations/eq07-composite.tex",
+      "pdf": "figures/equations/eq07-composite.pdf",
+      "alt": "按归一价值抽取独立技能策略",
+      "caption": "本文教学式（7）。先抽技能再选动作，混合的是动作分布。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 7,
+      "source_location": "§7; §10.2 p11",
+      "source_notes": "Bar explicitly represents normalized value used in experiments; sampling at cycle start, no consecutive repeats, not action mean blending.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        687,
+        433
+      ],
+      "display_width": 290,
+      "sha256": "b2ac1037c7bab0bcc91cfc3c52b3ec8d7e25ab80de2101fa5384a6d7b20e7225",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq08-heading.png",
+      "tex": "figures/equations/eq08-heading.tex",
+      "pdf": "figures/equations/eq08-heading.pdf",
+      "alt": "目标朝向的单边速度奖励",
+      "caption": "本文教学式（8）。u是沿目标方向的速度投影，只惩罚速度不足。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 7,
+      "source_location": "§9 target heading pp7–8",
+      "source_notes": "u is pedagogic shorthand for velocity along horizontal target unit direction; overspeed is unpenalized by this term.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        724,
+        268
+      ],
+      "display_width": 290,
+      "sha256": "04c31eb5dcf9aa8ba70f572b2fa8e275efd4513b4f59db084c892635d6bc2e39",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "formula",
+      "file": "figures/equations/eq09-strike.png",
+      "tex": "figures/equations/eq09-strike.tex",
+      "pdf": "figures/equations/eq09-strike.pdf",
+      "alt": "击打距离奖励与命中记忆",
+      "caption": "本文教学式（9）。一个周期内命中后保持满分，下周期重新设置目标与标志。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 8,
+      "source_location": "§9 strike and throw",
+      "source_notes": "d is pedagogic distance shorthand; link center within0.2m marks hit, h remembers previous hit; throw uses ball target distance and fixed release time.",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "reviewed": true,
+      "pixel_size": [
+        701,
+        355
+      ],
+      "display_width": 290,
+      "sha256": "adaa16fcf6aa3fc86f818a21d18dfb5fd8219f76f7a77b4e057c487698060e7b",
+      "generator": "TeX",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-network.png",
+      "figure_id": "Fig. 2",
+      "alt": "视觉运动网络",
+      "caption": "论文 Fig. 2。高度图经卷积与64维特征后，与本体状态和目标拼接；普通任务只用后端MLP。",
+      "read_guide": "高度图经卷积与64维特征后，与本体状态和目标拼接；普通任务只用后端MLP。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 4,
+      "printed_page": "143:4",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        315,
+        525,
+        564,
+        617
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "895f8f7eeaae6944c8f8b9197153b9729b293a49f24475c2fb06e3eb1fd8f337",
+      "pixel_size": [
+        996,
+        368
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "高度图经卷积与64维特征后，与本体状态和目标拼接；普通任务只用后端MLP。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig3-characters.png",
+      "figure_id": "Fig. 3",
+      "alt": "四种仿真角色",
+      "caption": "论文 Fig. 3。从左到右是Humanoid、Atlas、T-Rex、Dragon；图中的Atlas同样为仿真模型。",
+      "read_guide": "从左到右是Humanoid、Atlas、T-Rex、Dragon；图中的Atlas同样为仿真模型。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 6,
+      "printed_page": "143:6",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        50,
+        78,
+        564,
+        219
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "b858baa07b8d94ded01fa34aa270fbfdc76aca7e2584cb0272f53c47f13455f5",
+      "pixel_size": [
+        2056,
+        564
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "从左到右是Humanoid、Atlas、T-Rex、Dragon；图中的Atlas同样为仿真模型。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig4-terrain.png",
+      "figure_id": "Fig. 4",
+      "alt": "四类地形",
+      "caption": "论文 Fig. 4。自上而下是混合障碍、密集沟槽、曲折平衡木和楼梯；蓝线是质心轨迹。",
+      "read_guide": "自上而下是混合障碍、密集沟槽、曲折平衡木和楼梯；蓝线是质心轨迹。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 7,
+      "printed_page": "143:7",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        317,
+        82,
+        562,
+        306
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "638025cbb6fdb4f62d075287eb8235d44db4eef1850adcf803a70deaedc0ddab",
+      "pixel_size": [
+        980,
+        896
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "自上而下是混合障碍、密集沟槽、曲折平衡木和楼梯；蓝线是质心轨迹。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig5-skills.png",
+      "figure_id": "Fig. 5",
+      "alt": "Humanoid技能序列",
+      "caption": "论文 Fig. 5。从上到下是走、跑、侧手翻、舞蹈A、后空翻、前空翻和滚动。",
+      "read_guide": "从上到下是走、跑、侧手翻、舞蹈A、后空翻、前空翻和滚动。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 8,
+      "printed_page": "143:8",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        317,
+        83,
+        562,
+        438
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "59db3ae5968ed05f475407dba8573ea3a1ed66308d4fc3471d2b720a435b299a",
+      "pixel_size": [
+        980,
+        1420
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "从上到下是走、跑、侧手翻、舞蹈A、后空翻、前空翻和滚动。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig8-task-only.png",
+      "figure_id": "Fig. 8",
+      "alt": "只奖励碰靶时的跑近策略",
+      "caption": "论文 Fig. 8。无模仿参考时，策略直接带球跑向目标，任务得分和投掷风格分离。",
+      "read_guide": "无模仿参考时，策略直接带球跑向目标，任务得分和投掷风格分离。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 11,
+      "printed_page": "143:11",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        50,
+        78,
+        296,
+        125
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "397853017646a06456f1f233b57fb1cae3de940917682401e3ec6595bc1a4839",
+      "pixel_size": [
+        984,
+        188
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "无模仿参考时，策略直接带球跑向目标，任务得分和投掷风格分离。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig9-multiclip.png",
+      "figure_id": "Fig. 9",
+      "alt": "多片段奖励中的最佳匹配片段",
+      "caption": "论文 Fig. 9。横轴Locomotion Step；左轴蓝线是clip ID，右轴橙线是目标朝向rad，0为前行，1–4为转弯。",
+      "read_guide": "横轴Locomotion Step；左轴蓝线是clip ID，右轴橙线是目标朝向rad，0为前行，1–4为转弯。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 11,
+      "printed_page": "143:11",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        317,
+        78,
+        563,
+        168
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "467b8057c44af4ce4cbf071294fb9b01252087d73fc3d37e4d8d9968040101b7",
+      "pixel_size": [
+        984,
+        360
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "横轴Locomotion Step；左轴蓝线是clip ID，右轴橙线是目标朝向rad，0为前行，1–4为转弯。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig10-retarget.png",
+      "figure_id": "Fig. 10",
+      "alt": "落地动作的环境重定向",
+      "caption": "论文 Fig. 10。左为平地参考，右为用该参考重新训练的2米台阶落地。",
+      "read_guide": "左为平地参考，右为用该参考重新训练的2米台阶落地。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 12,
+      "printed_page": "143:12",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        50,
+        82,
+        294,
+        195
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "f85942ca1a78747da5e208c179c69415708dbb94c9081347100e2966fa37f0af",
+      "pixel_size": [
+        976,
+        452
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "左为平地参考，右为用该参考重新训练的2米台阶落地。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig11-ablation.png",
+      "figure_id": "Fig. 11",
+      "alt": "RSI与ET训练消融",
+      "caption": "论文 Fig. 11。四图依次为后空翻、侧空翻、旋踢、行走；蓝RSI+ET、橙ET、绿RSI，横轴Samples线性且标1e7，纵轴Return。",
+      "read_guide": "四图依次为后空翻、侧空翻、旋踢、行走；蓝RSI+ET、橙ET、绿RSI，横轴Samples线性且标1e7，纵轴Return。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 12,
+      "printed_page": "143:12",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        317,
+        82,
+        564,
+        260
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "7f87b37b9f431440768962fa51d3d237ffacba17a69d021dba213a80e2ecb185",
+      "pixel_size": [
+        988,
+        712
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "四图依次为后空翻、侧空翻、旋踢、行走；蓝RSI+ET、橙ET、绿RSI，横轴Samples线性且标1e7，纵轴Return。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig11-backflip-detail.png",
+      "figure_id": "Fig. 11（后空翻局部）",
+      "alt": "后空翻消融细图",
+      "caption": "论文 Fig. 11（后空翻局部）。保留原图图例与完整坐标；蓝RSI+ET、橙仅ET、绿仅RSI。",
+      "read_guide": "保留原图图例与完整坐标；蓝RSI+ET、橙仅ET、绿仅RSI。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 12,
+      "printed_page": "143:12",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        317,
+        82,
+        441,
+        171
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "ab56797ad91d3d092ca757eb99012b089fe8e0a198b7eda81f4921ca33383153",
+      "pixel_size": [
+        496,
+        356
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "保留原图图例与完整坐标；蓝RSI+ET、橙仅ET、绿仅RSI。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig11-walk-detail.png",
+      "figure_id": "Fig. 11（行走局部）",
+      "alt": "行走消融细图",
+      "caption": "论文 Fig. 11（行走局部）。蓝RSI+ET、橙仅ET、绿仅RSI；图例沿用同一完整Fig.11，行走最终差异很小。",
+      "read_guide": "蓝RSI+ET、橙仅ET、绿仅RSI；图例沿用同一完整Fig.11，行走最终差异很小。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 12,
+      "printed_page": "143:12",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        443,
+        171,
+        564,
+        260
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "e83d37299f1d6a880e02cc08a35dda0aa24c7ed8b73867752698e83202023d72",
+      "pixel_size": [
+        484,
+        356
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "蓝RSI+ET、橙仅ET、绿仅RSI；图例沿用同一完整Fig.11，行走最终差异很小。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table4-objectives.png",
+      "figure_id": "Table 4",
+      "alt": "模仿与任务奖励消融",
+      "caption": "论文 Table 4。每个策略评估100次：两种奖励、仅模仿、仅任务三列不可混同动作质量。",
+      "read_guide": "每个策略评估100次：两种奖励、仅模仿、仅任务三列不可混同动作质量。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 11,
+      "printed_page": "143:11",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        60,
+        214,
+        286,
+        252
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "9eaf74790314e97f27769f86ac99e14df0e93bf0411b842a2adeb361738dbc47",
+      "pixel_size": [
+        904,
+        152
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "每个策略评估100次：两种奖励、仅模仿、仅任务三列不可混同动作质量。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table5-ablation.png",
+      "figure_id": "Table 5",
+      "alt": "RSI和ET的最终回报",
+      "caption": "论文 Table 5。本表测试关闭ET、固定初态；后空翻0.791/0.730/0.379，行走近似。",
+      "read_guide": "本表测试关闭ET、固定初态；后空翻0.791/0.730/0.379，行走近似。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 12,
+      "printed_page": "143:12",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        365,
+        315,
+        513,
+        375
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "cb2da34715aad7a3b12e2f5714c33b61b74e379647056663784a906b898d4965",
+      "pixel_size": [
+        592,
+        240
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "本表测试关闭ET、固定初态；后空翻0.791/0.730/0.379，行走近似。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/table6-pushes.png",
+      "figure_id": "Table 6",
+      "alt": "可承受推力",
+      "caption": "论文 Table 6。每次在周期中段对骨盆推0.2秒，每10N递增；前向和侧向分别报告。",
+      "read_guide": "每次在周期中段对骨盆推0.2秒，每10N递增；前向和侧向分别报告。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 13,
+      "printed_page": "143:13",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        354,
+        102,
+        525,
+        173
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "55650ab51b75fc14275b01b1995a25f780fe2807383cca1931820abb4f685894",
+      "pixel_size": [
+        684,
+        284
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "每次在周期中段对骨盆推0.2秒，每10N递增；前向和侧向分别报告。",
+      "extracted_at": "2026-11-07T10:18:46+08:00",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-cnn-detail.png",
+      "figure_id": "Fig. 2（卷积前端局部）",
+      "alt": "Fig2高度图卷积编码局部",
+      "caption": "论文 Fig. 2，卷积前端局部。H依次经过8×8、4×4、4×4卷积核，再得到64维特征；该特征沿右下连接送入后端，完整连接见下一张局部图。",
+      "read_guide": "论文 Fig. 2，卷积前端局部。H依次经过8×8、4×4、4×4卷积核，再得到64维特征；该特征沿右下连接送入后端，完整连接见下一张局部图。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 4,
+      "printed_page": "143:4",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        315,
+        525,
+        462,
+        562
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "d1520145a33e045b77335c31fb376b753633a9a08750529e246b5de0b1bc5f9a",
+      "pixel_size": [
+        588,
+        148
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "论文 Fig. 2，卷积前端局部。H依次经过8×8、4×4、4×4卷积核，再得到64维特征；该特征沿右下连接送入后端，完整连接见下一张局部图。",
+      "extracted_at": "2026-11-07T10:24:13+08:00",
+      "reviewed_at": "2026-11-07T10:24:21+08:00",
+      "visual_review": "Full final crop and335px mobile rendering personally inspected: CNN H/8x8/4x4/4x4/64 labels complete; companion detail retains full64-to1024 diagonal arrow and1024/512/mean path. Crop-edge continuation explicitly described in captions; full original Fig2 retained as context.",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    },
+    {
+      "kind": "original",
+      "file": "figures/original/fig2-fusion-detail.png",
+      "figure_id": "Fig. 2（融合与MLP局部）",
+      "alt": "Fig2特征融合与MLP局部",
+      "caption": "论文 Fig. 2，融合与MLP局部。64维地形特征沿斜箭头与左侧s/g输入汇合，随后经过1024、512单元层，线性输出高斯动作均值；左侧长箭头的源头见完整图。",
+      "read_guide": "论文 Fig. 2，融合与MLP局部。64维地形特征沿斜箭头与左侧s/g输入汇合，随后经过1024、512单元层，线性输出高斯动作均值；左侧长箭头的源头见完整图。",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "pdf_page": 4,
+      "printed_page": "143:4",
+      "source_pdf_sha256": "c57cdd325b4bb921d95a5feb2742bdf016d48412ed969ea5f4ee2fe05e22db30",
+      "bbox": [
+        445,
+        525,
+        564,
+        615
+      ],
+      "crop_coordinate_system": "PDF points, top-left origin, 72 pt/in",
+      "crop_method": "Whole-page layers rendered with PyMuPDF at 288 dpi and clipped at exact bounding box; no redrawing or relabeling. Original captions kept in paper text and asset index.",
+      "sha256": "854735c3cfa0e55b3d71a80b57a2d840c316f250b23fd0c19ce1136c97e9d280",
+      "pixel_size": [
+        476,
+        360
+      ],
+      "rights_checked": true,
+      "rights_note": "Copyright original authors / respective rightsholders; ACM TOG 2018 author-hosted manuscript, no open image license inferred. Selected figure/table excerpts for necessary scholarly commentary; full PDF excluded from public bundle.",
+      "reviewed": true,
+      "internal_read_notes": "论文 Fig. 2，融合与MLP局部。64维地形特征沿斜箭头与左侧s/g输入汇合，随后经过1024、512单元层，线性输出高斯动作均值；左侧长箭头的源头见完整图。",
+      "extracted_at": "2026-11-07T10:24:13+08:00",
+      "reviewed_at": "2026-11-07T10:24:21+08:00",
+      "visual_review": "Full final crop and335px mobile rendering personally inspected: CNN H/8x8/4x4/4x4/64 labels complete; companion detail retains full64-to1024 diagonal arrow and1024/512/mean path. Crop-edge continuation explicitly described in captions; full original Fig2 retained as context.",
+      "root_visually_reviewed_at": "2026-11-07T10:25:53+08:00"
+    }
+  ],
+  "cover_info": {
+    "ai_generated": true,
+    "generator": "built-in imagegen",
+    "source": "Built-in imagegen. Wide artifact exec-ee43f3f4-b5e1-4dd1-9d27-322b69228ed5.png; square artifact exec-e70c8108-aaa8-44bf-a605-8c7377574d6b.png. Exact prompts retained.",
+    "prompt": "figures/cover/prompt.md",
+    "title": "照着做，还得站得稳",
+    "caption": "参考动作与模拟角色稳定落地的概念插画",
+    "reviewed": true,
+    "visually_reviewed_at": "2026-11-07T10:21:43+08:00",
+    "sha256": "73bed6929436d8872a271c0c618aa5db646e3571cc330ee8cf5e7be1620c1368",
+    "pixel_size": [
+      1920,
+      819
+    ],
+    "crop_review": "Wide2.35:1 composition inspected. Direct square crop would cut title; separately recomposed square image from built-in imagegen also inspected with full title retained.",
+    "square_variant_sha256": "ca47f1a75b4e96d22b54c205db32cbf20a63cbca2be3203a54741261112cff8d",
+    "square_prompt": "figures/cover/square-prompt.md",
+    "square_variant": "figures/cover/cover-square.png",
+    "square_pixel_size": [
+      1254,
+      1254
+    ]
+  }
+}

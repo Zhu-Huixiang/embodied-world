@@ -9,10 +9,12 @@ actor 产生动作，critic 估计长期收益；价值估计为策略改进提�
 ## 在完整解读里看计算与例子
 
 - [CQL：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#41-图-d-怎样接住修正后的-q)
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作)
 - [DreamerV3：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#critic-learning只想十六步怎么惦记更远的钻石)
 
 ## 哪些论文用到或讨论它
 
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [Dreamer](../papers/dreamer.md) · 机制导读 · [原文](https://research.google/pubs/dream-to-control-learning-behaviors-by-latent-imagination/)
 - [DreamerV3](../papers/dreamerv3.md) · 已精讲 · [原文](https://www.nature.com/articles/s41586-025-08744-2)
 - [TD3+BC](../papers/td3-bc.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html)

@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-135 篇论文是恒星，各自有自己的知识行星与卫星：共 1644 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 23 篇有完整解读，687 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+135 篇论文是恒星，各自有自己的知识行星与卫星：共 1702 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 24 篇有完整解读，749 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -42,7 +42,7 @@
 | [DDPM](papers/ddpm.md) | 已精讲 | [扩散去噪](concepts/diffusion.md) · [条件生成](concepts/generation.md) · [注意力](concepts/attention.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) |
 | [Decision Transformer](papers/decision-transformer.md) | 导读 | [因果序列建模](concepts/causal.md) · [动作表示](concepts/action.md) · [离线强化学习](concepts/offline.md) |
 | [Deep WBC](papers/deep-whole-body-control.md) | 导读 | [全身控制与执行](concepts/wbc.md) · [环境适应](concepts/adaptation.md) · [强化学习](concepts/rl.md) |
-| [DeepMimic](papers/deepmimic.md) | 导读 | [动作先验](concepts/motion-prior.md) · [强化学习](concepts/rl.md) · [全身控制与执行](concepts/wbc.md) |
+| [DeepMimic](papers/deepmimic.md) | 已精讲 | [动作先验](concepts/motion-prior.md) · [强化学习](concepts/rl.md) · [全身控制与执行](concepts/wbc.md) · [动作表示](concepts/action.md) · [示范模仿](concepts/imitation.md) · [策略与价值学习](concepts/actor-critic.md) · [价值估计与校准](concepts/value.md) · [PPO 与并行模拟](concepts/ppo.md) · [softmax 与温度](concepts/softmax.md) · [分层技能与计划](concepts/skills.md) · [运动重定向](concepts/retarget.md) |
 | [Dex-One2Many](papers/dex-one2many.md) | 导读 | [空间表示](concepts/spatial.md) · [强化学习](concepts/rl.md) · [机器人数据与评测](concepts/data.md) |
 | [DiffContact](papers/diffcontact.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [强化学习](concepts/rl.md) · [闭环滚动与历史偏移](concepts/rollout.md) · [PPO 与并行模拟](concepts/ppo.md) · [仿真到实机](concepts/sim2real.md) |
 | [Diffuser](papers/diffuser.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [树搜索与轨迹搜索](concepts/search.md) · [动作表示](concepts/action.md) |

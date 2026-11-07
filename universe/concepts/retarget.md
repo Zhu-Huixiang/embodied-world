@@ -6,8 +6,13 @@
 
 分类上层：[动作表示](action.md)。
 
+## 在完整解读里看计算与例子
+
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#103-动作重定向)
+
 ## 哪些论文用到或讨论它
 
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [MimicGen](../papers/mimicgen.md) · 机制导读 · [原文](https://proceedings.mlr.press/v229/mandlekar23a.html)
 - [HumanPlus](../papers/humanplus.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/fu25a.html)
 - [ASAP](../papers/asap.md) · 机制导读 · [原文](https://www.roboticsproceedings.org/rss21/p066.html)

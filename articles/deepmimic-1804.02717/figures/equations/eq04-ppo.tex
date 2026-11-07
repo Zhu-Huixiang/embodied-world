@@ -1,0 +1,17 @@
+% DeepMimic, author-hosted TOG 2018 PDF. Appendix C–D pp15–16; unnumbered in original; article display numbers are editorial.
+% Clipped surrogate; hats denote estimated advantages. Min of clipped/unclipped; not all out-of-range ratios have zero gradient.
+\documentclass[border=8pt,12pt]{standalone}
+\usepackage{amsmath,amssymb,xcolor}
+\definecolor{ink}{HTML}{203340}
+\begin{document}\color{ink}
+$\displaystyle \begin{gathered}
+w_t(\theta)=\frac{\pi_\theta(a_t\mid s_t)}{\pi_{\theta_{\rm old}}(a_t\mid s_t)}\\[4pt]
+L^{\rm CLIP}(\theta)=\mathbb E_t\Bigg[\\[-2pt]
+\min\left\{\begin{aligned}
+&w_t(\theta)\hat A_t,\\[2pt]
+&\operatorname{clip}(w_t(\theta),1-\epsilon,1+\epsilon)\hat A_t
+\end{aligned}\right\}\Bigg]\\[5pt]
+\max_\theta\;L^{\rm CLIP}(\theta)\\[3pt]
+\epsilon=0.2
+\end{gathered}$
+\end{document}

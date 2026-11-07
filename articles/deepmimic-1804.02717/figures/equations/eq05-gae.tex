@@ -1,0 +1,8 @@
+% DeepMimic, author-hosted TOG 2018 PDF. Appendix A, D; unnumbered in original; article display numbers are editorial.
+% Teaching TD-residual expansion equivalent to lambda-return advantage with coherent horizon/bootstrap; terminal value zero, truncation bootstrap kept. K is remaining included steps.
+\documentclass[border=8pt,12pt]{standalone}
+\usepackage{amsmath,amssymb,xcolor}
+\definecolor{ink}{HTML}{203340}
+\begin{document}\color{ink}
+$\displaystyle \begin{aligned}\delta_t&=r_t+\gamma V_\psi(s_{t+1})-V_\psi(s_t)\\ \hat A_t&=\sum_{l=0}^{K-1}(\gamma\lambda)^l\delta_{t+l}\\ R_t(\lambda)&=V_\psi(s_t)+\hat A_t\\ \gamma&=0.95,\qquad\lambda=0.95\end{aligned}$
+\end{document}

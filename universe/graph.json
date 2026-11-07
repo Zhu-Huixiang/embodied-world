@@ -574,13 +574,21 @@
       "subtitle": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
       "track": "motion-priors",
       "track_label": "动作先验与全身技能",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic.md",
-      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/deepmimic.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md",
       "concepts": [
         "motion-prior",
         "rl",
-        "wbc"
+        "wbc",
+        "action",
+        "imitation",
+        "actor-critic",
+        "value",
+        "ppo",
+        "softmax",
+        "skills",
+        "retarget"
       ],
       "scope": "mechanism",
       "source_url": "https://xbpeng.github.io/projects/DeepMimic/"
@@ -2997,6 +3005,7 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/softmax.md",
       "papers": [
+        "deepmimic",
         "cql",
         "attention",
         "clip",
@@ -3015,6 +3024,10 @@
         {
           "paper": "cql",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#32-离线策略学习用-log-sum-exp-找到虚高动作"
+        },
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
         },
         {
           "paper": "dino",
@@ -3815,6 +3828,7 @@
         "act",
         "rma",
         "perceptive-loco",
+        "deepmimic",
         "dreamzero",
         "videovla",
         "rt1",
@@ -3850,6 +3864,10 @@
         {
           "paper": "ddpm",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/ddpm-2006.11239/README.md#6-三个问题再落到机器人动作上"
+        },
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#51-状态与动作"
         },
         {
           "paper": "perceptive-loco",
@@ -4010,9 +4028,10 @@
       "detail": "相似姿态不自动满足目标机器人的平衡和动力学。",
       "parent": "action",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/retarget.md",
       "papers": [
+        "deepmimic",
         "mimicgen",
         "humanplus",
         "asap",
@@ -4023,7 +4042,12 @@
         "touchbridge",
         "halo"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#103-动作重定向"
+        }
+      ]
     },
     {
       "id": "concept:wbc",
@@ -4054,6 +4078,10 @@
         "ctrl-f"
       ],
       "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#3-方法总览从参考姿态到物理动作"
+        },
         {
           "paper": "holo-m",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/holo-m-2609.35709/README.md#34-四阶段训练e区让缺标签的数据也能上桌"
@@ -4282,6 +4310,10 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#2-预备知识高估如何钻进-bellman-目标"
         },
         {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        },
+        {
           "paper": "dreamerv3",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/dreamerv3-2301.04104/README.md#actor-learning奖励换了单位探索别跟着抽风"
         },
@@ -4311,6 +4343,7 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/actor-critic.md",
       "papers": [
+        "deepmimic",
         "dreamer",
         "dreamerv3",
         "td3-bc",
@@ -4325,6 +4358,10 @@
         {
           "paper": "cql",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#41-图-d-怎样接住修正后的-q"
+        },
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
         },
         {
           "paper": "dreamerv3",
@@ -4371,6 +4408,7 @@
       "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/value.md",
       "papers": [
+        "deepmimic",
         "td-mpc",
         "td-mpc2",
         "saycan",
@@ -4386,6 +4424,10 @@
         {
           "paper": "cql",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/cql-2006.04779/README.md#31-保守策略评估从逐项下压到期望下界"
+        },
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
         },
         {
           "paper": "muzero",
@@ -4407,6 +4449,7 @@
       "papers": [
         "rma",
         "perceptive-loco",
+        "deepmimic",
         "walk-in-minutes",
         "sonic",
         "isaac-gym",
@@ -4416,6 +4459,10 @@
         "ctrl-f"
       ],
       "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        },
         {
           "paper": "perceptive-loco",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案"
@@ -4441,6 +4488,7 @@
         "diffusion-policy",
         "act",
         "perceptive-loco",
+        "deepmimic",
         "rt1",
         "cliport",
         "umi",
@@ -4461,6 +4509,10 @@
         {
           "paper": "act",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/act-2304.13705/README.md#2-相关工作模仿为什么越做越偏"
+        },
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
         },
         {
           "paper": "diffusion-policy",
@@ -4544,7 +4596,7 @@
       "detail": "AMP 的判别奖励与 DeepMimic 的逐帧跟踪有不同约束。",
       "parent": "imitation",
       "depth": 1,
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/motion-prior.md",
       "papers": [
         "deepmimic",
@@ -4556,7 +4608,12 @@
         "ctrl-f",
         "viola"
       ],
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
     },
     {
       "id": "concept:adversarial",
@@ -4588,6 +4645,7 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/concepts/skills.md",
       "papers": [
         "pi05",
+        "deepmimic",
         "ase",
         "rt1",
         "saycan",
@@ -4600,6 +4658,10 @@
         "ctrl-f"
       ],
       "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
+        },
         {
           "paper": "rt1",
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rt1-2212.06817/README.md#64-长程任务把想做什么和做没做成拆开"
@@ -11252,11 +11314,16 @@
       "title": "动作先验",
       "subtitle": "从运动数据学习自然动作规律，再把它接进物理控制或技能选择。",
       "detail": "AMP 的判别奖励与 DeepMimic 的逐帧跟踪有不同约束。",
-      "parent_node": "paper:deepmimic",
-      "lit": false,
+      "parent_node": "local:deepmimic:imitation",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/motion-prior.md",
       "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
     },
     {
       "id": "local:deepmimic:rl",
@@ -11268,10 +11335,15 @@
       "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
       "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
       "parent_node": "paper:deepmimic",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/rl.md",
       "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
     },
     {
       "id": "local:deepmimic:wbc",
@@ -11282,11 +11354,176 @@
       "title": "全身控制与执行",
       "subtitle": "将运动目标、机器人状态和约束转成关节目标或力矩，协调腿、手臂与底盘。",
       "detail": "生成了目标之后，还要沿实际控制接口看反馈。",
-      "parent_node": "paper:deepmimic",
-      "lit": false,
+      "parent_node": "local:deepmimic:action",
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/wbc.md",
       "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#3-方法总览从参考姿态到物理动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/action.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#51-状态与动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/imitation.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:actor-critic",
+      "key": "actor-critic",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "actor-critic",
+      "title": "策略与价值学习",
+      "subtitle": "actor 产生动作，critic 估计长期收益；价值估计为策略改进提供方向。",
+      "detail": "在真实或想象轨迹上训练，会面对不同的误差来源。",
+      "parent_node": "local:deepmimic:rl",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/actor-critic.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:value",
+      "key": "value",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "value",
+      "title": "价值估计与校准",
+      "subtitle": "估计未来累积收益，再用保守、分位或参考价值等约束减少误导。",
+      "detail": "IQL 的 expectile、CQL 的保守项、Cal-QL 的校准目标各有对象。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/value.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:ppo",
+      "key": "ppo",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "ppo",
+      "title": "PPO 与并行模拟",
+      "subtitle": "用受约束的策略更新与大量模拟轨迹训练控制；并行度改变每轮数据和训练开销。",
+      "detail": "PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新策略；并行环境提供多条轨迹，硬件与模拟器决定采样开销。",
+      "parent_node": "local:deepmimic:rl",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/ppo.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:softmax",
+      "key": "softmax",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "softmax",
+      "title": "softmax 与温度",
+      "subtitle": "对候选分数取指数后归一化为总和为 1 的概率。温度控制分差如何影响概率。",
+      "detail": "温度改变概率集中程度；候选集合也会改变概率分母。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/softmax.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:skills",
+      "key": "skills",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "skills",
+      "title": "分层技能与计划",
+      "subtitle": "高层选择目标或技能，低层负责具体执行，层次之间有明确接口。",
+      "detail": "SayCan 用语言适用性与可执行价值挑技能。",
+      "parent_node": "local:deepmimic:imitation",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/skills.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:retarget",
+      "key": "retarget",
+      "kind": "local",
+      "paper": "deepmimic",
+      "canonical": "retarget",
+      "title": "运动重定向",
+      "subtitle": "把人或另一种机器人的运动转换到目标本体的关节、末端与可达范围。",
+      "detail": "相似姿态不自动满足目标机器人的平衡和动力学。",
+      "parent_node": "local:deepmimic:action",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/retarget.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#103-动作重定向"
+        }
+      ]
     },
     {
       "id": "local:deepmimic:method-chain",
@@ -11297,11 +11534,1016 @@
       "subtitle": "任务奖励与参考动作跟踪奖励共同训练物理角色策略，使动作技能能在动态扰动后恢复。",
       "detail": "任务奖励与参考动作跟踪奖励共同训练物理角色策略，使动作技能能在动态扰动后恢复。",
       "parent_node": "paper:deepmimic",
-      "lit": false,
+      "lit": true,
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/method-chain.md",
       "source_url": "https://xbpeng.github.io/projects/DeepMimic/",
       "locator": "existing source-grounded reading card",
-      "explainers": []
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#3-方法总览从参考姿态到物理动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:goal-and-style",
+      "key": "goal-and-style",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "动作风格与任务目标",
+      "subtitle": "参考动作约束动作样貌，任务奖励约束要完成的事情。",
+      "detail": "只看任务命中率可能奖励持球跑向目标；只看参考相似度又不足以命中随机目标。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/goal-and-style.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§1 pp1–2; §10.1 Table4 p11",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#1-引言像人还是能动"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:kinematic-vs-physical",
+      "key": "kinematic-vs-physical",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "运动学参考与物理控制",
+      "subtitle": "参考姿态是期望运动，策略动作经PD和仿真才能得到实际运动。",
+      "detail": "传统跟踪系统和纯任务RL各有边界，本篇把参考放进RL奖励与初态分布。",
+      "parent_node": "local:deepmimic:goal-and-style",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/kinematic-vs-physical.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§2 pp2–3",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#2-相关工作参考动作应该放在哪里"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:pd-control-loop",
+      "key": "pd-control-loop",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "目标朝向到力矩闭环",
+      "subtitle": "策略给关节目标朝向，stable PD给力矩，Bullet推进身体状态反馈给策略。",
+      "detail": "动作参数不是直接力矩；标准PD直觉式须和实际stable PD实现分开。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/pd-control-loop.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§3 p3; §5.1 p4; §10 p10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#3-方法总览从参考姿态到物理动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:reference-two-channels",
+      "key": "reference-two-channels",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "参考数据的两条训练通道",
+      "subtitle": "同一参考运动既提供模仿奖励的目标，也提供回合初始化状态。",
+      "detail": "运行阶段不把角色每步重置到参考，也不把参考角度直接当策略动作。",
+      "parent_node": "local:deepmimic:pd-control-loop",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/reference-two-channels.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§3 p3; §6.1 pp5–6",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#3-方法总览从参考姿态到物理动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:discounted-return",
+      "key": "discounted-return",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "折扣回报与优势",
+      "subtitle": "策略优化未来折扣奖励，value估计状态的平均未来回报。",
+      "detail": "优势衡量该动作所获回报高于还是低于状态预估，为概率更新提供方向。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/discounted-return.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§4 pp3–4",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:lambda-return",
+      "key": "lambda-return",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "多步与λ回报",
+      "subtitle": "已观察奖励加后继value组成n步目标，再以λ加权不同n。",
+      "detail": "TDλ训练critic；有限轨迹结尾的终止条件决定是否自举。",
+      "parent_node": "local:deepmimic:discounted-return",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/lambda-return.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "AppendixA p15",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:gae-advantage",
+      "key": "gae-advantage",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "GAE把回报变为相对优势",
+      "subtitle": "用λ-return减当前value，得到动作相对该状态平均表现的优势。",
+      "detail": "它同时依赖实际奖励和critic，区别于直接模仿参考动作标签。",
+      "parent_node": "local:deepmimic:lambda-return",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/gae-advantage.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§4 p4; AppendixA p15",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:root-local-state",
+      "key": "root-local-state",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "root局部身体特征",
+      "subtitle": "位置、四元数旋转、线速度与角速度按角色root坐标组织。",
+      "detail": "骨盆为root，x沿朝向；Humanoid197维是论文总状态特征，不能擅自另加phase。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/root-local-state.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.1 p4; Table1 p6",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#51-状态与动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:phase-clock",
+      "key": "phase-clock",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "相位时钟",
+      "subtitle": "phase在0到1间指示参考运动进度，循环结束归零。",
+      "detail": "phase线性推进可简化对应，但限制受扰后动作节奏的自由调整。",
+      "parent_node": "local:deepmimic:root-local-state",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/phase-clock.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.1 p4; §11 p13",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#51-状态与动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:joint-target-action",
+      "key": "joint-target-action",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "轴角与单轴目标动作",
+      "subtitle": "球关节使用axis-angle目标，铰链使用标量目标角。",
+      "detail": "Humanoid36动作参数与34自由度分别是表示和物理约束的维数。",
+      "parent_node": "local:deepmimic:pd-control-loop",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/joint-target-action.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.1 p4; Table1 p6",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#51-状态与动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:policy-physics-rates",
+      "key": "policy-physics-rates",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "策略和物理的两级时钟",
+      "subtitle": "策略30Hz更新目标，仿真1.2kHz推进动力学。",
+      "detail": "频率比为40物理步每策略调用；不是实机控制频率或推理延迟测量。",
+      "parent_node": "local:deepmimic:pd-control-loop",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/policy-physics-rates.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.1 p4; §10 p10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#3-方法总览从参考姿态到物理动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:gaussian-actor",
+      "key": "gaussian-actor",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "固定协方差高斯策略",
+      "subtitle": "MLP输出状态相关动作均值，固定对角协方差提供采样分布。",
+      "detail": "两隐藏层1024/512且用ReLU，最后线性输出；探索噪声作用于动作。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/gaussian-actor.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.2 p4",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#52-网络"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:scalar-critic",
+      "key": "scalar-critic",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "标量value网络",
+      "subtitle": "类似MLP把状态和goal映射到一个预期回报标量。",
+      "detail": "critic辅助训练并可用于composite技能选择，不直接输出PD目标。",
+      "parent_node": "local:deepmimic:gaussian-actor",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/scalar-critic.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.2 p4; §7 pp6–7",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#52-网络"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:heightmap-cnn",
+      "key": "heightmap-cnn",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "高度图特征支路",
+      "subtitle": "高度图经过卷积与64单元全连接后，拼接身体状态和goal。",
+      "detail": "Fig2卷积为16个8×8、32个4×4、32个4×4；1D地形任务不强套成RGB图像。",
+      "parent_node": "local:deepmimic:gaussian-actor",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/heightmap-cnn.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.2 Fig2 p4; §9 p10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#52-网络"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:imitation-four-terms",
+      "key": "imitation-four-terms",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "四项模仿奖励",
+      "subtitle": "姿态、角速度、手脚末端、质心分别比较参考并指数压缩。",
+      "detail": "权重.65/.1/.15/.1；各误差单位不同，指数尺度决定敏感性。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/imitation-four-terms.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.3 p5",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:quaternion-pose-error",
+      "key": "quaternion-pose-error",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "四元数相对转角",
+      "subtitle": "姿态项使用参考与当前四元数差所对应的旋转角弧度。",
+      "detail": "不是四元数四个分量的普通L2；先求各关节角误差平方和再指数化。",
+      "parent_node": "local:deepmimic:imitation-four-terms",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/quaternion-pose-error.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.3 pose reward p5",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:finite-difference-velocity",
+      "key": "finite-difference-velocity",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "参考角速度的差分",
+      "subtitle": "参考运动只给姿态，目标角速度从相邻姿态有限差分获得。",
+      "detail": "角速度误差补充单帧姿态，使评分同时关心运动速度。",
+      "parent_node": "local:deepmimic:imitation-four-terms",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/finite-difference-velocity.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.3 velocity reward p5",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:end-effector-world-error",
+      "key": "end-effector-world-error",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "手脚世界位置误差",
+      "subtitle": "左右手脚的世界3D位置以米比较参考，平方误差和乘40取负指数。",
+      "detail": "只有一个末端偏差.1米时该项约.6703是教学代入，不是实测成功率。",
+      "parent_node": "local:deepmimic:imitation-four-terms",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/end-effector-world-error.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.3 end-effector reward p5",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:center-of-mass-error",
+      "key": "center-of-mass-error",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "质心位置误差",
+      "subtitle": "当前与参考质心位置平方差乘10取负指数。",
+      "detail": "它对全身位置提供额外约束，与局部关节角评分互补。",
+      "parent_node": "local:deepmimic:imitation-four-terms",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/center-of-mass-error.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.3 COM reward p5",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:task-imitation-mixture",
+      "key": "task-imitation-mixture",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "模仿和任务的加权",
+      "subtitle": "带任务实验以.7模仿奖励加.3任务奖励。",
+      "detail": "纯模仿设置只跟踪参考；不同设置不能用同一成功定义混写。",
+      "parent_node": "local:deepmimic:imitation-four-terms",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/task-imitation-mixture.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§5.3 p5; §10 p10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#53-奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:rollout-update-loop",
+      "key": "rollout-update-loop",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "从交互batch到网络更新",
+      "subtitle": "actor采动作收集转移，critic拟合λ-return，actor用优势更新。",
+      "detail": "每batch4096、minibatch256；这是在线模拟采样而非固定离线示范学习。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/rollout-update-loop.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§6 p5; AppendixD Algorithm1 p16",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#6-训练"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:ppo-clipped-surrogate",
+      "key": "ppo-clipped-surrogate",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "PPO的有方向裁剪",
+      "subtitle": "新旧动作概率比与优势相乘，并和裁剪项取min。",
+      "detail": "正优势封顶过度增大概率的收益，负优势封顶过度减小概率的收益；越界并非总梯度都零。",
+      "parent_node": "local:deepmimic:rollout-update-loop",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/ppo-clipped-surrogate.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "AppendixB/C pp15–16",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:training-hyperparameters",
+      "key": "training-hyperparameters",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "统一超参及本体步长",
+      "subtitle": "折扣与λ均.95、clip.2，SGD momentum.9。",
+      "detail": "actor人形/Atlas5e−5，龙/恐龙2e−5；critic1e−2；硬件成本按2018CPU实现理解。",
+      "parent_node": "local:deepmimic:rollout-update-loop",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/training-hyperparameters.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "AppendixD p16",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#6-训练"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:reference-state-initialization",
+      "key": "reference-state-initialization",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "参考状态初始化RSI",
+      "subtitle": "每回合从参考运动均匀抽状态开始。",
+      "detail": "训练初期便能练动作后半段，减轻“没落地价值就不愿起跳”的探索障碍。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/reference-state-initialization.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§6.1 pp5–6",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#61-参考状态初始化"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:landing-before-takeoff",
+      "key": "landing-before-takeoff",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "后半段价值反哺前半段",
+      "subtitle": "先接触即将落地等参考状态，使策略能学到完整动态运动中后段的高价值。",
+      "detail": "RSI是状态分布设计，不是运行时复位或直接复制专家动作。",
+      "parent_node": "local:deepmimic:reference-state-initialization",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/landing-before-takeoff.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§6.1 backflip example pp5–6",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#61-参考状态初始化"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:early-termination",
+      "key": "early-termination",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "失败接触提前终止ET",
+      "subtitle": "指定link如头或躯干发生失败接触时结束回合，剩余奖励零。",
+      "detail": "接触规则按技能定义；翻滚、起身与手撑地不意味着所有接触都非法。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/early-termination.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§6.2 p6",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#62-提前终止"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:fallen-state-bias",
+      "key": "fallen-state-bias",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "减少倒地无效样本",
+      "subtitle": "ET除惩罚失败，还降低训练样本中长时间倒地挣扎的比重。",
+      "detail": "作者将其类比采样不平衡；是训练分布作用，不需要编造新损失项。",
+      "parent_node": "local:deepmimic:early-termination",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/fallen-state-bias.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§6.2 p6",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#62-提前终止"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:max-reference-reward",
+      "key": "max-reference-reward",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "对多参考取max",
+      "subtitle": "逐参考算模仿奖励并取最大值，以单策略学习相近运动。",
+      "detail": "不平均姿态；异质动作可能只学某子集，未保证每clip均覆盖。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/max-reference-reward.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§7 pp6–7; §10.2 p11",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:onehot-skill-selector",
+      "key": "onehot-skill-selector",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "onehot显式点选技能",
+      "subtitle": "goal的非零项指定参考clip，单策略只按该参考模仿奖励训练。",
+      "detail": "每cycle随机切换训练过渡；各clip通过复制首尾帧等长。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/onehot-skill-selector.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§7 p7; §10.2 p11",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:value-composite-policy",
+      "key": "value-composite-policy",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "价值引导的组合策略",
+      "subtitle": "独立单技能策略与value组成库，通过价值softmax采一个策略。",
+      "detail": "无需额外过渡训练，选择类别后执行该策略；不是动作均值线性混合。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/value-composite-policy.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§7 p7",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:cycle-level-selection",
+      "key": "cycle-level-selection",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "按周期选择与归一价值",
+      "subtitle": "实验8技能value先归一[-1,1]，温度.3，每cycle选一次并整段执行。",
+      "detail": "禁止连续重复同技能是明确运行规则；并非每30Hz重选。",
+      "parent_node": "local:deepmimic:value-composite-policy",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/cycle-level-selection.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.2 pp11–12",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#7-多技能三种不同的组织方式"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:articulated-characters",
+      "key": "articulated-characters",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "四种仿真刚体角色",
+      "subtitle": "Humanoid、Atlas、T-Rex与Dragon均以关节刚体模拟。",
+      "detail": "人工设置每本体PD gains，跨任务保持相同；结果不当成实机。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/articulated-characters.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§8 pp6–7; Table1",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#8-角色同一套框架不同的身体"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:axis-angle-dof",
+      "key": "axis-angle-dof",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "状态维数与自由度区分",
+      "subtitle": "Humanoid状态197、动作36、自由度34；Dragon418/94/79。",
+      "detail": "动作旋转表示的参数数量与物理自由度定义不同，不能把动作数叫电机数。",
+      "parent_node": "local:deepmimic:articulated-characters",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/axis-angle-dof.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "Table1 p6; §8 p7",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#8-角色同一套框架不同的身体"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:heading-one-sided-reward",
+      "key": "heading-one-sided-reward",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "方向速度的单侧奖励",
+      "subtitle": "仅惩罚投影到目标方向的速度低于目标值。",
+      "detail": "超速时此项仍为1；goal是水平2D单位方向，不含一个任意新速度指令。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/heading-one-sided-reward.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§9 Target Heading pp7–8",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#9-任务目标究竟怎么进奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:strike-memory-bit",
+      "key": "strike-memory-bit",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "命中目标的显式记忆",
+      "subtitle": "goal含目标3D位置与是否命中过的h，命中后奖励保持1。",
+      "detail": "中心距阈值.2m、每cycle重置；前馈网络因此保留任务状态。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/strike-memory-bit.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§9 Strike p8",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#9-任务目标究竟怎么进奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:fixed-release-throw",
+      "key": "fixed-release-throw",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "固定时点释放的投掷",
+      "subtitle": "球初始以球关节连手，指定时点解除；球位置、旋转、线速度与角速度进入状态。",
+      "detail": "释放时刻未由策略动作学习，不把演示扩展成完整手指抓握与投放控制。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/fixed-release-throw.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§9 Throw p8",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#9-任务目标究竟怎么进奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:terrain-progressive-training",
+      "key": "terrain-progressive-training",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "先平地再复杂地形训练",
+      "subtitle": "先训练无视觉模仿策略，再增加高度图和卷积，在不规则环境继续训练。",
+      "detail": "高度图是地形几何输入，没有RGB相机或真实感知误差评估。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/terrain-progressive-training.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§9 Terrain Traversal p10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#9-任务目标究竟怎么进奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:heightfield-scope",
+      "key": "heightfield-scope",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "一维与二维地形范围",
+      "subtitle": "mixed/dense用100点覆盖10m的一维高度场，beam用32×32覆盖3.5×3.5m。",
+      "detail": "不同任务使用不同地形接口，stairs高度图维数不由相邻设置推测。",
+      "parent_node": "local:deepmimic:terrain-progressive-training",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/heightfield-scope.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§9 Terrain Traversal p10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#9-任务目标究竟怎么进奖励"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:normalized-return-protocol",
+      "key": "normalized-return-protocol",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "归一回报不等于成功率",
+      "subtitle": "Table2把平均回报按理论最小最大值归一，32回合评估。",
+      "detail": "循环20s、非循环clip长度；一般评估启用RSI/ET，理论最大值也可能无法实际达到。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/normalized-return-protocol.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "Table2 p8; §10 p10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#10-结果先分清怎样计分"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:few-seconds-many-samples",
+      "key": "few-seconds-many-samples",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "短参考与大量交互并存",
+      "subtitle": "每技能约.5–5秒参考数据仍需数千万或数亿仿真交互训练。",
+      "detail": "参考长度不是总数据或计算预算；典型人形6000万samples/8核约两天。",
+      "parent_node": "local:deepmimic:normalized-return-protocol",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/few-seconds-many-samples.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10 p10; AppendixD p16",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#10-结果先分清怎样计分"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:task-objective-ablation",
+      "key": "task-objective-ablation",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "模仿与任务的删项实验",
+      "subtitle": "每策略100trial，击打99/19/55%，投球75/5/93%。",
+      "detail": "列为模仿+任务/仅模仿/仅任务；投球仅任务高命中伴随持球跑向目标。",
+      "parent_node": "local:deepmimic:goal-and-style",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/task-objective-ablation.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "Table4/Fig8 p11",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#101-任务表现"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:walking-clip-switch",
+      "key": "walking-clip-switch",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "转向时更匹配转弯clip",
+      "subtitle": "五条行走/转向参考的max奖策略，在目标方向变动时更常匹配转向。",
+      "detail": "Fig9蓝为clip索引、橙为目标方向rad；最匹配参考不是显式离散决策输出。",
+      "parent_node": "local:deepmimic:max-reference-reward",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/walking-clip-switch.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "Fig9 and §10.2 p11",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#102-多技能整合"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:atlas-retraining-boundary",
+      "key": "atlas-retraining-boundary",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "Atlas复制参考后重训",
+      "subtitle": "复制人形local rotations到简化Atlas模型，再训练该本体控制策略。",
+      "detail": "run直接策略迁移.013对重训.846，backflip.014对.630；不是零样本实机迁移。",
+      "parent_node": "local:deepmimic:articulated-characters",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/atlas-retraining-boundary.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.3 pp12–13",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#103-动作重定向"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:environment-physics-retraining",
+      "key": "environment-physics-retraining",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "新环境和重力下重训",
+      "subtitle": "平地落地参考用于2m台落地训练，月球重力下重训踢腿与侧手翻。",
+      "detail": "保留新条件训练这一范围，不能写成原策略即时适应任意动力学。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/environment-physics-retraining.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.3 pp12–13; Fig10",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#103-动作重定向"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:ablation-evaluation-shift",
+      "key": "ablation-evaluation-shift",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "消融另用固定起点评估",
+      "subtitle": "Table5/Fig11统一固定初态、关闭ET评估，区别于主结果协议。",
+      "detail": "Backflip.791/.730/.379等不能与Table2数字直接相减。",
+      "parent_node": "local:deepmimic:normalized-return-protocol",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/ablation-evaluation-shift.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.4 p13; Table5/Fig11 p12",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#104-消融"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:reward-behavior-mismatch",
+      "key": "reward-behavior-mismatch",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "接近回报隐藏不同动作",
+      "subtitle": "去RSI的backflip只做小后跳，未完成整圈空翻，但回报仍接近完整法。",
+      "detail": "walk/spinkick的ET-only分也并非低于full；组件作用依技能与动作核查判断。",
+      "parent_node": "local:deepmimic:ablation-evaluation-shift",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/reward-behavior-mismatch.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.4 p13; Table5 p12",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#104-消融"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:seed-coverage",
+      "key": "seed-coverage",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "单seed与三seed范围",
+      "subtitle": "大多数技能统计只有一个训练run，Fig12的backflip/run明确3seed。",
+      "detail": "32评估回合不等于32训练seed，曲线均值不能伪造全表置信区间。",
+      "parent_node": "local:deepmimic:ablation-evaluation-shift",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/seed-coverage.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.4 p13; Fig12 p17",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#104-消融"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:phase-specific-push-test",
+      "key": "phase-specific-push-test",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "固定相位的推力测试",
+      "subtitle": "cycle中点向骨盆推.2秒，10N递增直到跌倒，分别测试前向与侧向。",
+      "detail": "run720/300N、spinkick690/600N为该协议阈值，不是任意时刻抗扰成功率。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/phase-specific-push-test.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.5/Table6 p13",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#105-抗扰动"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:noise-robustness-hypothesis",
+      "key": "noise-robustness-hypothesis",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "探索噪声的鲁棒性解释",
+      "subtitle": "训练没有额外外力，作者猜测随机策略探索噪声带来部分抗扰能力。",
+      "detail": "这是一项作者解释，没有专门噪声删项实验可把因果贡献定量分离。",
+      "parent_node": "local:deepmimic:phase-specific-push-test",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/noise-robustness-hypothesis.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§10.5 final paragraph p13",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#105-抗扰动"
+        }
+      ]
+    },
+    {
+      "id": "local:deepmimic:timing-library-cost-limits",
+      "key": "timing-library-cost-limits",
+      "kind": "local",
+      "paper": "deepmimic",
+      "title": "时序、规模与成本局限",
+      "subtitle": "线性phase、小clip库、人工PD及reward、逐技能昂贵训练是原文列出的边界。",
+      "detail": "真实机器人部署列未来工作；改进方向应保留这些具体接口和实验缺口。",
+      "parent_node": "paper:deepmimic",
+      "lit": true,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/deepmimic/timing-library-cost-limits.md",
+      "source_url": "https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf",
+      "locator": "§11 p13",
+      "explainers": [
+        {
+          "paper": "deepmimic",
+          "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#11-讨论时钟奖励和训练成本"
+        }
+      ]
     },
     {
       "id": "local:dex-one2many:spatial",
@@ -33221,7 +34463,7 @@
       "from": "concept:action",
       "to": "concept:retarget",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:action",
@@ -33299,7 +34541,7 @@
       "from": "concept:imitation",
       "to": "concept:motion-prior",
       "kind": "hierarchy",
-      "lit": false
+      "lit": true
     },
     {
       "from": "concept:motion-prior",
@@ -36257,46 +37499,442 @@
       "lit": false
     },
     {
-      "from": "paper:deepmimic",
+      "from": "local:deepmimic:imitation",
       "to": "local:deepmimic:motion-prior",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:deepmimic:motion-prior",
       "to": "concept:motion-prior",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
       "from": "paper:deepmimic",
       "to": "local:deepmimic:rl",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:deepmimic:rl",
       "to": "concept:rl",
       "kind": "shared",
-      "lit": false
+      "lit": true
     },
     {
-      "from": "paper:deepmimic",
+      "from": "local:deepmimic:action",
       "to": "local:deepmimic:wbc",
       "kind": "contains",
-      "lit": false
+      "lit": true
     },
     {
       "from": "local:deepmimic:wbc",
       "to": "concept:wbc",
       "kind": "shared",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:imitation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:rl",
+      "to": "local:deepmimic:actor-critic",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:actor-critic",
+      "to": "concept:actor-critic",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:value",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:value",
+      "to": "concept:value",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:rl",
+      "to": "local:deepmimic:ppo",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:ppo",
+      "to": "concept:ppo",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:softmax",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:softmax",
+      "to": "concept:softmax",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:imitation",
+      "to": "local:deepmimic:skills",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:skills",
+      "to": "concept:skills",
+      "kind": "shared",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:action",
+      "to": "local:deepmimic:retarget",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:retarget",
+      "to": "concept:retarget",
+      "kind": "shared",
+      "lit": true
     },
     {
       "from": "paper:deepmimic",
       "to": "local:deepmimic:method-chain",
       "kind": "contains",
-      "lit": false
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:goal-and-style",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:goal-and-style",
+      "to": "local:deepmimic:kinematic-vs-physical",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:pd-control-loop",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:pd-control-loop",
+      "to": "local:deepmimic:reference-two-channels",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:discounted-return",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:discounted-return",
+      "to": "local:deepmimic:lambda-return",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:lambda-return",
+      "to": "local:deepmimic:gae-advantage",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:root-local-state",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:root-local-state",
+      "to": "local:deepmimic:phase-clock",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:pd-control-loop",
+      "to": "local:deepmimic:joint-target-action",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:pd-control-loop",
+      "to": "local:deepmimic:policy-physics-rates",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:gaussian-actor",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:gaussian-actor",
+      "to": "local:deepmimic:scalar-critic",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:gaussian-actor",
+      "to": "local:deepmimic:heightmap-cnn",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:imitation-four-terms",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:imitation-four-terms",
+      "to": "local:deepmimic:quaternion-pose-error",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:imitation-four-terms",
+      "to": "local:deepmimic:finite-difference-velocity",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:imitation-four-terms",
+      "to": "local:deepmimic:end-effector-world-error",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:imitation-four-terms",
+      "to": "local:deepmimic:center-of-mass-error",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:imitation-four-terms",
+      "to": "local:deepmimic:task-imitation-mixture",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:rollout-update-loop",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:rollout-update-loop",
+      "to": "local:deepmimic:ppo-clipped-surrogate",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:rollout-update-loop",
+      "to": "local:deepmimic:training-hyperparameters",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:reference-state-initialization",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:reference-state-initialization",
+      "to": "local:deepmimic:landing-before-takeoff",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:early-termination",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:early-termination",
+      "to": "local:deepmimic:fallen-state-bias",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:max-reference-reward",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:onehot-skill-selector",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:value-composite-policy",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:value-composite-policy",
+      "to": "local:deepmimic:cycle-level-selection",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:articulated-characters",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:articulated-characters",
+      "to": "local:deepmimic:axis-angle-dof",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:heading-one-sided-reward",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:strike-memory-bit",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:fixed-release-throw",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:terrain-progressive-training",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:terrain-progressive-training",
+      "to": "local:deepmimic:heightfield-scope",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:normalized-return-protocol",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:normalized-return-protocol",
+      "to": "local:deepmimic:few-seconds-many-samples",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:goal-and-style",
+      "to": "local:deepmimic:task-objective-ablation",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:max-reference-reward",
+      "to": "local:deepmimic:walking-clip-switch",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:articulated-characters",
+      "to": "local:deepmimic:atlas-retraining-boundary",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:environment-physics-retraining",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:normalized-return-protocol",
+      "to": "local:deepmimic:ablation-evaluation-shift",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:ablation-evaluation-shift",
+      "to": "local:deepmimic:reward-behavior-mismatch",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:ablation-evaluation-shift",
+      "to": "local:deepmimic:seed-coverage",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:phase-specific-push-test",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "local:deepmimic:phase-specific-push-test",
+      "to": "local:deepmimic:noise-robustness-hypothesis",
+      "kind": "contains",
+      "lit": true
+    },
+    {
+      "from": "paper:deepmimic",
+      "to": "local:deepmimic:timing-library-cost-limits",
+      "kind": "contains",
+      "lit": true
     },
     {
       "from": "paper:dex-one2many",
@@ -46948,9 +48586,9 @@
   "stats": {
     "papers": 135,
     "concepts": 59,
-    "local_topics": 1644,
-    "lit_papers": 23,
-    "lit_concepts": 47,
-    "lit_local_topics": 687
+    "local_topics": 1702,
+    "lit_papers": 24,
+    "lit_concepts": 49,
+    "lit_local_topics": 749
   }
 }

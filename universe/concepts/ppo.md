@@ -8,6 +8,7 @@ PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新�
 
 ## 在完整解读里看计算与例子
 
+- [DeepMimic：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/deepmimic-1804.02717/README.md#4-背景奖励怎样改掉下一次动作)
 - [Perceptive Locomotion：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/perceptive-loco-2201.08117/README.md#43-教师策略它先拿到哪些答案)
 - [RMA：对应章节](https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/rma-2107.04034/README.md#42-网络与训练预算)
 
@@ -15,6 +16,7 @@ PPO用旧策略采集的轨迹估计动作优势，再通过裁剪目标更新�
 
 - [RMA](../papers/rma.md) · 已精讲 · [原文](https://www.roboticsproceedings.org/rss17/p011.html)
 - [Perceptive Locomotion](../papers/perceptive-loco.md) · 已精讲 · [原文](https://www.science.org/doi/10.1126/scirobotics.abk2822)
+- [DeepMimic](../papers/deepmimic.md) · 已精讲 · [原文](https://xbpeng.github.io/projects/DeepMimic/)
 - [Legged Gym](../papers/walk-in-minutes.md) · 机制导读 · [原文](https://proceedings.mlr.press/v164/rudin22a.html)
 - [SONIC](../papers/sonic.md) · 机制导读 · [原文](https://www.science.org/doi/10.1126/scirobotics.aed4592)
 - [Isaac Gym](../papers/isaac-gym.md) · 机制导读 · [原文](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/28dd2c7955ce926456240b2ff0100bde-Abstract-round2.html)
