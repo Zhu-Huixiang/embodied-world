@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "nodes": [
     {
       "id": "paper:act",
@@ -1399,6 +1399,35 @@
       "source_url": "https://arxiv.org/abs/2610.40356v1"
     },
     {
+      "id": "paper:la-jepa",
+      "key": "la-jepa",
+      "kind": "paper",
+      "title": "La-JEPA",
+      "subtitle": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "track": "world-action-model",
+      "track_label": "世界动作模型",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/la-jepa.md",
+      "concepts": [
+        "representation",
+        "jepa",
+        "world",
+        "wam",
+        "attention",
+        "causal",
+        "flow",
+        "dit",
+        "chunk",
+        "imitation",
+        "shift",
+        "data",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.08156v1"
+    },
+    {
       "id": "paper:latent-diffusion",
       "key": "latent-diffusion",
       "kind": "paper",
@@ -1417,6 +1446,32 @@
       ],
       "scope": "mechanism",
       "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html"
+    },
+    {
+      "id": "paper:latent-rl-prior",
+      "key": "latent-rl-prior",
+      "kind": "paper",
+      "title": "Latent RL Prior",
+      "subtitle": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/latent-rl-prior.md",
+      "concepts": [
+        "flow",
+        "attention",
+        "transformer",
+        "chunk",
+        "privileged",
+        "rl",
+        "imitation",
+        "adaptation",
+        "linear-probe",
+        "data"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.08458v1"
     },
     {
       "id": "paper:learned-dynamics-review",
@@ -1716,6 +1771,31 @@
       ],
       "scope": "mechanism",
       "source_url": "https://proceedings.mlr.press/v270/he25b.html"
+    },
+    {
+      "id": "paper:oopsierecover",
+      "key": "oopsierecover",
+      "kind": "paper",
+      "title": "OopsieRecover",
+      "subtitle": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "track": "manipulation",
+      "track_label": "操作与动作块",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover.md",
+      "reading_url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/library/oopsierecover.md",
+      "concepts": [
+        "imitation",
+        "spatial",
+        "point-cloud",
+        "action",
+        "chunk",
+        "dynamics",
+        "rollout",
+        "search",
+        "benchmark"
+      ],
+      "scope": "mechanism",
+      "source_url": "https://arxiv.org/abs/2611.08462v1"
     },
     {
       "id": "paper:openvla",
@@ -2731,6 +2811,7 @@
         "cr-dagger",
         "dreamx",
         "dreamfree",
+        "la-jepa",
         "viola"
       ],
       "explainers": [
@@ -3014,7 +3095,8 @@
         "clip",
         "dino",
         "dinov2",
-        "mae"
+        "mae",
+        "latent-rl-prior"
       ],
       "explainers": [
         {
@@ -3056,7 +3138,8 @@
         "sam2",
         "jam",
         "tops",
-        "tapestry"
+        "tapestry",
+        "la-jepa"
       ],
       "explainers": [
         {
@@ -3105,6 +3188,7 @@
         "learned-dynamics-review",
         "touchbridge",
         "curobov2-fast",
+        "oopsierecover",
         "dex-one2many"
       ],
       "explainers": [
@@ -3165,7 +3249,8 @@
         "dp3",
         "peract",
         "rvt",
-        "rvt2"
+        "rvt2",
+        "oopsierecover"
       ],
       "explainers": []
     },
@@ -3214,7 +3299,8 @@
         "sam2",
         "gar",
         "world2vec",
-        "jedi"
+        "jedi",
+        "latent-rl-prior"
       ],
       "explainers": [
         {
@@ -3272,7 +3358,9 @@
         "video-diffusion",
         "jedi",
         "dreamx",
-        "dreamfree"
+        "dreamfree",
+        "la-jepa",
+        "latent-rl-prior"
       ],
       "explainers": [
         {
@@ -3354,6 +3442,7 @@
         "trajectory-transformer",
         "attention",
         "modar",
+        "la-jepa",
         "arc",
         "plaw-vla"
       ],
@@ -3506,6 +3595,7 @@
         "jam",
         "world2vec",
         "jedi",
+        "la-jepa",
         "lewam",
         "plaw-vla"
       ],
@@ -3631,7 +3721,9 @@
         "jedi",
         "dreamx",
         "dreamfree",
-        "halo"
+        "halo",
+        "la-jepa",
+        "latent-rl-prior"
       ],
       "explainers": []
     },
@@ -3653,7 +3745,8 @@
         "tapestry",
         "dreamx",
         "dreamfree",
-        "halo"
+        "halo",
+        "la-jepa"
       ],
       "explainers": [
         {
@@ -3745,6 +3838,7 @@
         "dreamx",
         "curobov2-fast",
         "ctrl-f",
+        "oopsierecover",
         "arc",
         "plaw-vla"
       ],
@@ -3806,7 +3900,10 @@
         "jedi",
         "cr-dagger",
         "dreamfree",
-        "halo"
+        "halo",
+        "la-jepa",
+        "latent-rl-prior",
+        "oopsierecover"
       ],
       "explainers": [
         {
@@ -3978,7 +4075,8 @@
         "dreamerv3",
         "muzero",
         "supermimic",
-        "world2vec"
+        "world2vec",
+        "la-jepa"
       ],
       "explainers": [
         {
@@ -4021,6 +4119,7 @@
         "diffcontact",
         "world2vec",
         "nablamimic",
+        "oopsierecover",
         "dreamtrue",
         "lewam"
       ],
@@ -4098,7 +4197,8 @@
         "trajectory-transformer",
         "diffuser",
         "muzero",
-        "world2vec"
+        "world2vec",
+        "oopsierecover"
       ],
       "explainers": [
         {
@@ -4142,6 +4242,7 @@
         "lingbot-va",
         "videovla",
         "modar",
+        "la-jepa",
         "arc"
       ],
       "explainers": []
@@ -4171,6 +4272,7 @@
         "diffcontact",
         "nablamimic",
         "ctrl-f",
+        "latent-rl-prior",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -4350,7 +4452,10 @@
         "touchbridge",
         "jedi",
         "cr-dagger",
-        "ctrl-f"
+        "ctrl-f",
+        "la-jepa",
+        "latent-rl-prior",
+        "oopsierecover"
       ],
       "explainers": [
         {
@@ -4519,7 +4624,8 @@
         "walk-in-minutes",
         "walk-these-ways",
         "deep-whole-body-control",
-        "ctrl-f"
+        "ctrl-f",
+        "latent-rl-prior"
       ],
       "explainers": [
         {
@@ -4550,7 +4656,8 @@
         "extreme-parkour",
         "omnih2o",
         "halo",
-        "ctrl-f"
+        "ctrl-f",
+        "latent-rl-prior"
       ],
       "explainers": [
         {
@@ -4636,6 +4743,8 @@
         "dreamfree",
         "halo",
         "ctrl-f",
+        "la-jepa",
+        "latent-rl-prior",
         "dex-one2many",
         "balanced-data-diet"
       ],
@@ -4731,7 +4840,9 @@
         "touchbridge",
         "jedi",
         "cr-dagger",
-        "dreamfree"
+        "dreamfree",
+        "la-jepa",
+        "oopsierecover"
       ],
       "explainers": [
         {
@@ -4801,7 +4912,8 @@
         "ctrl-world",
         "diffcontact",
         "gar",
-        "world2vec"
+        "world2vec",
+        "oopsierecover"
       ],
       "explainers": [
         {
@@ -19487,6 +19599,546 @@
       "explainers": []
     },
     {
+      "id": "local:la-jepa:representation",
+      "key": "representation",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "representation",
+      "title": "表征空间",
+      "subtitle": "把图像、文字或状态编码成可计算的向量。它像坐标纸：距离与方向是否有用，取决于训练目标。",
+      "detail": "512 维向量有 512 个实数，单个坐标通常没有预先指定的物理含义。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/representation.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:jepa",
+      "key": "jepa",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "jepa",
+      "title": "表征预测 JEPA",
+      "subtitle": "在表征空间预测目标而不是逐像素重建；防止表征坍缩仍需要相应设计。",
+      "detail": "不同论文的 EMA、stop-gradient 或正则方案不能互相借用。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/jepa.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:world",
+      "key": "world",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "world",
+      "title": "世界模型",
+      "subtitle": "学习状态随动作或时间如何变化，用于预测、计划或训练策略。",
+      "detail": "预测对象可以是像素、latent、奖励或与决策相关的潜状态。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/world.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:wam",
+      "key": "wam",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "wam",
+      "title": "世界动作联合建模",
+      "subtitle": "把未来状态或视频与动作放进联合条件生成过程，让视觉动态和行动相互约束。",
+      "detail": "不同方法的生成次序和回写真实观测方式决定闭环用途。",
+      "parent_node": "local:la-jepa:world",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/wam.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/attention.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:causal",
+      "key": "causal",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "causal",
+      "title": "因果序列建模",
+      "subtitle": "通过遮罩只让位置读取允许的历史，避免训练时看到运行时不存在的未来。",
+      "detail": "自回归按顺序产生后续 token；视频和动作的因果粒度需要分别定义。",
+      "parent_node": "local:la-jepa:attention",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/causal.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/flow.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:dit",
+      "key": "dit",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "dit",
+      "title": "Diffusion Transformer",
+      "subtitle": "用 Transformer 实现扩散模型的去噪网络，使 token 之间交换条件与目标信息。",
+      "detail": "DiT 是网络结构，训练目标及采样器仍要分别说明。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/dit.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/chunk.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/imitation.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:shift",
+      "key": "shift",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "shift",
+      "title": "分布偏移",
+      "subtitle": "测试场景的画风、视角、背景或对象组合发生变化，模型习惯的视觉线索随之改变。",
+      "detail": "CLIP Fig.7 横向匹配常规分数，再看偏移分布的高度。",
+      "parent_node": "local:la-jepa:representation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/shift.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/data.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "la-jepa",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "local:la-jepa:data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "本篇方法链路",
+      "subtitle": "La-JEPA以预训练V-JEPA 2.1 ViT-L编码当前两帧和32帧范围内的未来16帧，FLAN-T5-large编码语言，本体投影为条件token。在该表征空间从头训练World DiT和Action DiT，分别对未来特征与32步动作块做独立时间的流匹配。观测只读观测、未来读观测和未来、动作只读观测和动作；未来损失通过共享World参数影响观测表示。部署删除未来token，固定World时间0并缓存观测K/V，仅对动作做10步Euler积分，LIBERO执行10步、RoboTwin执行24步后重规划。最终观测编码器用LoRA和增强，未来目标保持原冻结编码器的干净特征；无需像素解码。",
+      "detail": "La-JEPA以预训练V-JEPA 2.1 ViT-L编码当前两帧和32帧范围内的未来16帧，FLAN-T5-large编码语言，本体投影为条件token。在该表征空间从头训练World DiT和Action DiT，分别对未来特征与32步动作块做独立时间的流匹配。观测只读观测、未来读观测和未来、动作只读观测和动作；未来损失通过共享World参数影响观测表示。部署删除未来token，固定World时间0并缓存观测K/V，仅对动作做10步Euler积分，LIBERO执行10步、RoboTwin执行24步后重规划。最终观测编码器用LoRA和增强，未来目标保持原冻结编码器的干净特征；无需像素解码。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-problem",
+      "key": "la-jepa-problem",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "机器人策略一定要继承大生成骨干吗",
+      "subtitle": "感知预训练的价值与生成骨干的体量可以分开选择。",
+      "detail": "论文把问题落在仅使用目标示范的操控：保留预训练视觉/语言编码器，从头训练面向控制的World/Action DiT，而不是把视频生成器整个搬来。",
+      "parent_node": "paper:la-jepa",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§1–2; PDF pp1–3",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-input",
+      "key": "la-jepa-input",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "多相机、本体与指令各走哪条路",
+      "subtitle": "视觉进入World DiT，文字和本体成为两路DiT的条件。",
+      "detail": "V-JEPA 2.1 ViT-L逐相机编码；FLAN-T5-large冻结编码文字，本体经学习投影为token；两DiT通过交叉注意力读条件，另有独立注意力投影和前馈层。",
+      "parent_node": "local:la-jepa:la-jepa-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-input.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§3.1; Fig2; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-tube",
+      "key": "la-jepa-tube",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "当前两帧与未来十六帧分开编码",
+      "subtitle": "当前观测不能从未来视频编码中偷看答案。",
+      "detail": "当前(t−1,t)两帧给一个空间网格；未来t+2至t+32间隔2采16帧，由两帧tubelet得到8个时间网格。未来帧可联合注意，但当前片段独立编码；tube-motion是最终方案。",
+      "parent_node": "local:la-jepa:la-jepa-input",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-tube.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§3.1,4.1; Fig2; AppendixB; PDF pp4,6–7,19–20",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-spatial",
+      "key": "la-jepa-spatial",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "平均与拼接都减少token，但保留信息不同",
+      "subtitle": "2×2平均压缩存储；patch grouping把邻域特征拼进更宽token。",
+      "detail": "LIBERO保留均值池化，RoboTwin采用patch grouping。两者token减少，拼接不丢原特征值却保留全尺寸特征存储；文中相关比较还涉及数据split与投影，不能当完全单因素因果收益。",
+      "parent_node": "local:la-jepa:la-jepa-tube",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-spatial.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§4.1; AppendixA.1,B; PDF pp7,17–20",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-mask",
+      "key": "la-jepa-mask",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "动作看观测，不直接看未来token",
+      "subtitle": "三类token的可见关系决定训练与部署能否分开。",
+      "detail": "观测只读观测；未来读观测和未来；动作读观测和动作。动作查询读取World DiT观测K/V，未来损失通过共享World参数塑造观测表征，并非推理时把预测视频喂给动作。",
+      "parent_node": "local:la-jepa:la-jepa-input",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-mask.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§3.1; Fig2; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-flow",
+      "key": "la-jepa-flow",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "两个独立流时间，两个速度目标",
+      "subtitle": "未来特征与动作都从高斯噪声插值到干净目标。",
+      "detail": "分别采τf和τa∈U(0,1)，zτf=(1−τf)εf+τfzfut，Aτa=(1−τa)εa+τaA；速度目标为zfut−εf和A−εa，两项MSE各权重1并按各自元素平均。",
+      "parent_node": "local:la-jepa:la-jepa-mask",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-flow.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§3.2; Eqs1–2; Table9; PDF pp4–5,19",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-inference",
+      "key": "la-jepa-inference",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "部署删未来，再缓存观测键值",
+      "subtitle": "预测监督留在参数里，运行时只积分动作。",
+      "detail": "移除future tokens，World时间固定0，观测各层K/V只计算一次；动作从噪声按Euler积分，默认10步。每次生成32动作，LIBERO执行10步、RoboTwin执行24步后观察并重规划。",
+      "parent_node": "local:la-jepa:la-jepa-flow",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-inference.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§3.2; AppendixB,C; PDF pp5,19–20,24",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-size",
+      "key": "la-jepa-size",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "0.10B可训练不等于0.10B部署",
+      "subtitle": "冻结编码器仍要随策略运行，应计入部署参数。",
+      "detail": "S/B/L的宽度为384/768/1024、层数12/12/24、头数6/12/16；World与Action各采用相同宽深。LIBERO可训练0.10/0.34/1.14B，部署0.74/0.98/1.78B；RoboTwin口径略大。",
+      "parent_node": "local:la-jepa:la-jepa-inference",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-size.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "Tables1–2,9,16; AppendixC.2; PDF pp6,19,26",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-future-ablation",
+      "key": "la-jepa-future-ablation",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "未来监督的收益要在同一管线内看",
+      "subtitle": "去掉future损失与计算，保留action路径作为对照。",
+      "detail": "LIBERO-Plus原始管线三seed均值76.47%对action-only74.35%，每seed配对McNemar p<0.01；这组不能与修订管线主表88.0%直接比。RoboTwin单次训练为80.16/39.02对73.14/35.34（clean/randomized），每条件5000回合，checkpoint不同。",
+      "parent_node": "local:la-jepa:la-jepa-flow",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-future-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§4.1; AppendixA.1; Tables6–7; PDF pp5,16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-feature-space",
+      "key": "la-jepa-feature-space",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "JEPA与VAE比的是表征系统",
+      "subtitle": "像素保真与操控鲁棒性不一定需要同一种潜空间。",
+      "detail": "冻结静态特征、95%数据、150k步的比较中，RoboTwin JEPA相对Wan2.2 VAE提高15.9/16.0个百分点（clean/randomized）；投影维度和归一化仍按表示各设。补充设置中VAE在clean有63.90对61.12的优势，不能写JEPA处处更优。",
+      "parent_node": "local:la-jepa:la-jepa-future-ablation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-feature-space.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§4.1; AppendixA.1; Table6; PDF pp6,16–17",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-robustness",
+      "key": "la-jepa-robustness",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "防止策略只抄本体或依赖一个相机",
+      "subtitle": "丢条件、视觉增强与观测编码器LoRA共同构成最终配方。",
+      "detail": "文字、本体、相机dropout各0.1；LIBERO任一相机可丢，RoboTwin只丢腕相机，至少留一视角。只增强观测；LoRA适配观测编码器，未来监督始终用冻结编码器的干净存储特征。",
+      "parent_node": "local:la-jepa:la-jepa-input",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-robustness.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§4.2; Tables9–10; AppendixB; PDF pp7,19–20",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-targets",
+      "key": "la-jepa-targets",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "适配观测并不要求目标也随之漂移",
+      "subtitle": "未来编码开销更大，目标是否适配需单独检验。",
+      "detail": "未来16帧是当前2帧的8倍编码token，最终观测在线编码、未来读预存特征。L模型用EMA适配未来目标81.65%对冻结目标82.26%（原管线、不同选中步数），未给出提升证据，故保留冻结目标。",
+      "parent_node": "local:la-jepa:la-jepa-robustness",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-targets.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "AppendixB,E.1; PDF pp19–20,27",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-data",
+      "key": "la-jepa-data",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "数据回放成功和关节连续性先过关",
+      "subtitle": "训练过滤与评测模拟器选择会改变结果。",
+      "detail": "LIBERO用MuJoCo3.3.2，回放2000演示保留1777；对齐本体时刻并按1st/99th百分位缩放。RoboTwin2500clean演示排除62条跨±π关节不连续路径，保留2438条。",
+      "parent_node": "local:la-jepa:la-jepa-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-data.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "AppendixB; Tables11–12; PDF pp20–22",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-libero",
+      "key": "la-jepa-libero",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "同一指令协议下比较小模型",
+      "subtitle": "LIBERO-Plus按10030变体逐episode加权，校正与原发布文本分开。",
+      "detail": "修正文本时S/B/L为86.3/87.3/88.0%，NowWAM86.2%、Fast-WAM70.8%；原发布文本为80.0/82.5/84.1%，NowWAM仍86.2%。La-JEPA为三训练seed，部分基线因一变体无法初始化仅10029回合。",
+      "parent_node": "local:la-jepa:la-jepa-data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-libero.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§5.1–5.2; Tables1,14; PDF pp6,8–9,23",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-instruction",
+      "key": "la-jepa-instruction",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "视觉扰动标签不该混进动作指令",
+      "subtitle": "论文报告原评估器把扰动名称追加到非语言任务文字中。",
+      "detail": "8493个非语言变体恢复训练原指令，1537个刻意语言变化保留。重测统一MuJoCo3.3.2、seed0、首初始状态、10settling和各suite220/280/300/520步；NowWAM原较长预算结果不混用。错误原因目前是作者审计，未独立执行其空库中的评测代码。",
+      "parent_node": "local:la-jepa:la-jepa-libero",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-instruction.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§5.2; AppendixB; Tables13–14; PDF pp9,20–23",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-robotwin",
+      "key": "la-jepa-robotwin",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "clean学到的技能在随机场景剩多少",
+      "subtitle": "50任务，每条件5000回合，每种模型三训练seed。",
+      "detail": "S/B/L的clean为85.5/86.2/86.0%，randomized为33.9/35.4/32.1%；B平均60.8%。Fast-WAM77.8/1.9来自官方榜，Faster-WAM68.6/2.2为作者clean重训，RobotManip-scratch71.6/22.6来自报告。并非所有baseline同一重训协议。",
+      "parent_node": "local:la-jepa:la-jepa-data",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-robotwin.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§5.1; Tables2,12; AppendixB; PDF pp6,8,20–22",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-latent-comparison",
+      "key": "la-jepa-latent-comparison",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "20任务与50任务不能无条件互换",
+      "subtitle": "与JEPA-WAM比较时使用其20任务子集，但训练任务覆盖不同。",
+      "detail": "La-JEPA在50任务训练、JEPA-WAM只在20任务训练；子集各条件2000回合。图1/4中JEPA-WAM的50任务65.5/25.0%是按其他模型线性回归的估算，结果表未列；不能写成真实评测。",
+      "parent_node": "local:la-jepa:la-jepa-robotwin",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-latent-comparison.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§5.3; Table3; AppendixB; PDF pp8–9,20–23",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-latency",
+      "key": "la-jepa-latency",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "一次策略调用快，不等于机器人控制频率",
+      "subtitle": "延迟覆盖文本编码、输入传输和动作回传，但不含机器人通信与模拟。",
+      "detail": "batch1、20次warmup后100次中位数、同一未给具体型号的consumer GPU；10步优化S17.78ms/B25.16ms/L59.72ms，Fast-WAM88.09ms/Faster-WAM50.96ms。输入分辨率、帧数与精度随原生实现不同，π0.5动作horizon另为10。",
+      "parent_node": "local:la-jepa:la-jepa-inference",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-latency.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§5.4; Table15; AppendixC.1; PDF pp9,24",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-compile",
+      "key": "la-jepa-compile",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "CUDA图可逐位一致，编译版本另做闭环核对",
+      "subtitle": "减少启动开销与重编计算图不是同一执行变更。",
+      "detail": "原kernel CUDA graphs经36次replay/模型可逐位重现；编译后有小幅动作差。2000回合原管线闭环比较未发现显著差异，但不等于数学等价；模拟主结果eager、实机使用compiled。",
+      "parent_node": "local:la-jepa:la-jepa-latency",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-compile.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "AppendixC.1; PDF p24",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-real",
+      "key": "la-jepa-real",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "四项桌面任务检验接触与长链",
+      "subtitle": "一台Franka Panda，腕D405与外部D435，400条10Hz遥操作示范。",
+      "detail": "四任务各100训练示范，每任务20次测试（LingBot-VA餐具仅10次）；La-JEPA B用LoRA但无图像增强。果子19/20、放方块20/20、Push T15/20、餐具最终Position16/20，总70/80；π0.5为69/80，样本不足以据1次成功差宣称显著超越。",
+      "parent_node": "local:la-jepa:la-jepa-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-real.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§5.5; Fig5; Table5; AppendixD; PDF pp9–10,25–27",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-dish",
+      "key": "la-jepa-dish",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "摆上盘子不是整条餐具任务完成",
+      "subtitle": "完整成功需要盘子、两餐具和正确身份位置全部满足。",
+      "detail": "La-JEPA餐具分阶段为20/18/17/16成功，最后Position要求勺子灰盘、叉子粉盘及前序全成功。LingBot-VA餐具只10次，所以不与其他策略强凑80次分母；完成时间表只统计成功试次。",
+      "parent_node": "local:la-jepa:la-jepa-real",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-dish.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "Table5,17; AppendixD; PDF pp10,27",
+      "explainers": []
+    },
+    {
+      "id": "local:la-jepa:la-jepa-limits",
+      "key": "la-jepa-limits",
+      "kind": "local",
+      "paper": "la-jepa",
+      "title": "大模型未单调更好，广泛预训练仍待验证",
+      "subtitle": "当前证据限定于目标示范训练与单实机设置。",
+      "detail": "RoboTwin B高于L，作者提出action专家过拟合等解释但未隔离容量、调参和数据效应；最强机器人预训练方法在随机场景仍领先。四任务与π0.5均值相当不说明跨平台通用能力相当。",
+      "parent_node": "local:la-jepa:la-jepa-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/la-jepa/la-jepa-limits.md",
+      "source_url": "https://arxiv.org/pdf/2611.08156v1",
+      "locator": "§6–7; PDF pp10–11",
+      "explainers": []
+    },
+    {
       "id": "local:latent-diffusion:diffusion",
       "key": "diffusion",
       "kind": "local",
@@ -19820,6 +20472,501 @@
           "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/articles/latent-diffusion-2112.10752/README.md#5-限制与社会影响省下的计算换来了什么约束"
         }
       ]
+    },
+    {
+      "id": "local:latent-rl-prior:flow",
+      "key": "flow",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "flow",
+      "title": "Flow Matching",
+      "subtitle": "给噪声到数据指定概率路径，回归沿路径的速度场；生成时数值积分这个场。",
+      "detail": "动作专家可以把动作块当生成对象。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/flow.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:attention",
+      "key": "attention",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "attention",
+      "title": "注意力",
+      "subtitle": "按查询与键的匹配权重汇总值向量，使当前位置读取相关位置的信息。",
+      "detail": "自注意力在同一序列内读；交叉注意力读取另一组条件。",
+      "parent_node": "local:latent-rl-prior:transformer",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/attention.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:transformer",
+      "key": "transformer",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "transformer",
+      "title": "Transformer",
+      "subtitle": "用注意力交换 token 信息，再逐位置加工。token 可以来自字词、图像块、状态或动作。",
+      "detail": "不同遮罩决定哪些位置能读到哪些信息。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/transformer.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/chunk.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:privileged",
+      "key": "privileged",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "privileged",
+      "title": "特权训练信息",
+      "subtitle": "训练用额外环境真值或教师信息，部署另用可获取输入估计或模仿。",
+      "detail": "训练可见与机器人运行可见的量分别列清楚。",
+      "parent_node": "local:latent-rl-prior:adaptation",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/privileged.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:rl",
+      "key": "rl",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "rl",
+      "title": "强化学习",
+      "subtitle": "通过奖励和值评估改进策略，研究动作如何改变长期回报。",
+      "detail": "状态、动作、奖励、回报与价值不要混成一个数。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/rl.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/imitation.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:adaptation",
+      "key": "adaptation",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "adaptation",
+      "title": "环境适应",
+      "subtitle": "根据历史观测或环境信息调整策略，使动力学或地形变化仍可处理。",
+      "detail": "部署时必须说明环境编码从哪儿估计。",
+      "parent_node": "local:latent-rl-prior:rl",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/adaptation.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:linear-probe",
+      "key": "linear-probe",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "linear-probe",
+      "title": "线性探测",
+      "subtitle": "冻结编码器，用带标签的下游样本训练线性预测头，以检查特征本身是否容易迁移。",
+      "detail": "要分清读取投影前特征还是归一化图文向量。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/linear-probe.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:data",
+      "key": "data",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "canonical": "data",
+      "title": "机器人数据与评测",
+      "subtitle": "统一观测、动作、任务与评测条件，判断数据多样性如何影响泛化。",
+      "detail": "轨迹数、任务覆盖和不同本体不是可互换指标。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/data.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "本篇方法链路",
+      "subtitle": "先微调SimToolReal teacher并收集100000条成功程序化姿态对齐轨迹，将特权历史经state tokenizer/Q-Former压为任务context；flow-matching动作transformer通过cross-attention读context，通过AdaLN读本体历史与flow time。视觉阶段冻结decoder，只以动作flow loss训练DINOv2-Small与视觉Q-Former，直接生成latent而不需要特权/latent标签；双臂的两组queries共同自注意力协调后，分别结合各臂本体进入共享单臂decoder。",
+      "detail": "先微调SimToolReal teacher并收集100000条成功程序化姿态对齐轨迹，将特权历史经state tokenizer/Q-Former压为任务context；flow-matching动作transformer通过cross-attention读context，通过AdaLN读本体历史与flow time。视觉阶段冻结decoder，只以动作flow loss训练DINOv2-Small与视觉Q-Former，直接生成latent而不需要特权/latent标签；双臂的两组queries共同自注意力协调后，分别结合各臂本体进入共享单臂decoder。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-problem",
+      "key": "lrp-problem",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "会控制之后，视觉该接在哪里？",
+      "subtitle": "特权状态训练出的控制能力，需要从图像建立可部署的条件入口。",
+      "detail": "本文保留动作生成与本体处理，仅替换任务条件来源，检验少量下游视觉示范能否接入已有RL先验。",
+      "parent_node": "paper:latent-rl-prior",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§1–2; PDF pp1–3",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-two-datasets",
+      "key": "lrp-two-datasets",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "两份数据不要求轨迹配对",
+      "subtitle": "预训练数据含特权状态、本体和动作；视觉适配数据含图像、本体和动作。",
+      "detail": "D_RL={(P_t,R_t,A_t)}，D_vis={(I_t,R_t,A_t)}；后者无特权标签、无预训练latent目标，不需与前者逐条配对。",
+      "parent_node": "local:latent-rl-prior:lrp-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-two-datasets.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.1; PDF p3",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-history-chunk",
+      "key": "lrp-history-chunk",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "历史观测到未来动作块",
+      "subtitle": "H步本体/图像历史条件化K步动作，任务信息压成M个d维context token。",
+      "detail": "Z_t∈R^{M×d}供动作decoder交叉注意力；R_t走AdaLN条件。H、K、M、d数值及动作维度未在该12页稿给出，不擅套其他模型配置。",
+      "parent_node": "local:latent-rl-prior:lrp-two-datasets",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-history-chunk.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.1–3.2; PDF pp3–4",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-teacher",
+      "key": "lrp-teacher",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "先收集十万条成功RL轨迹",
+      "subtitle": "SimToolReal已发布teacher经程序化姿态对齐微调后生成预训练数据。",
+      "detail": "物体形状、尺寸、密度随机化，收集100,000成功rollouts；不是teacher总交互数，也不是无需已有teacher训练成本。",
+      "parent_node": "local:latent-rl-prior:lrp-two-datasets",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-teacher.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.2,4.1; Table1; PDF pp4–6",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-priv-context",
+      "key": "lrp-priv-context",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "特权历史先变为任务context",
+      "subtitle": "state tokenizer和state Q-Former将物体/目标历史映射为Z_priv。",
+      "detail": "Z_priv=Q_ψ(T_η(P_t))；动作token交叉注意力读context，本体历史与flow time通过每层AdaLN送入。",
+      "parent_node": "local:latent-rl-prior:lrp-teacher",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-priv-context.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.2; Fig1a; PDF pp3–4",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-flow",
+      "key": "lrp-flow",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "动作先验学的是条件速度场",
+      "subtitle": "干净动作A0与高斯噪声A1线性插值，网络拟合A1−A0。",
+      "detail": "Aτ=(1−τ)A0+τA1，τ均匀于[0,1]；训练MSE为||vθ(Aτ,τ,Z,R)−(A1−A0)||²。A0是数据、A1是噪声，生成方向应从τ=1回到0；本文未列推理步数。",
+      "parent_node": "local:latent-rl-prior:lrp-priv-context",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-flow.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.2 Eq1; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-freeze",
+      "key": "lrp-freeze",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "冻结decoder并保留本体条件路径",
+      "subtitle": "视觉适配不更新预训练动作decoder，以动作监督训练条件入口。",
+      "detail": "DINOv2-Small ViT-S/14编码多摄像头历史，视觉Q-Former产生context；梯度经冻结decoder回到视觉路径，冻结参数不等于切断梯度。",
+      "parent_node": "local:latent-rl-prior:lrp-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-freeze.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.3,4.1; Fig1b; PDF pp3–5",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-latent",
+      "key": "lrp-latent",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "直接预测latent，不先猜物理状态",
+      "subtitle": "latent transfer把图像特征直接变为动作decoder可消费的context。",
+      "detail": "Z_latent=Q_ϕ(E_vis(I_t))，替换原state tokenizer和state Q-Former；只需动作流匹配loss。context无需可解释成物体位姿。",
+      "parent_node": "local:latent-rl-prior:lrp-freeze",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-latent.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.3 Eq2; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-explicit",
+      "key": "lrp-explicit",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "显式桥接也只有动作监督",
+      "subtitle": "explicit transfer先预测具有特权状态形状的历史，再走冻结state encoder。",
+      "detail": "P_hat=B_ρ(E_vis(I_t))，Z_explicit=Q_ψ(T_η(P_hat))；T_η、Q_ψ、vθ全部冻结，只训练图像编码器和桥。该对照未使用真实特权标签监督预测状态。",
+      "parent_node": "local:latent-rl-prior:lrp-freeze",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-explicit.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.3 Eq2; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-bimanual",
+      "key": "lrp-bimanual",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "两组queries协调，同一decoder分别出动作",
+      "subtitle": "左右臂各M个query先共同经视觉Q-Former自注意力交互。",
+      "detail": "左右Z再分别和各臂本体历史送入同权重冻结单臂decoder；协调发生于context，不是把双臂状态拼进一个新decoder。",
+      "parent_node": "local:latent-rl-prior:lrp-latent",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-bimanual.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§3.3; Fig1b; PDF pp3–5",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-tasks",
+      "key": "lrp-tasks",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "三任务均为同本体仿真",
+      "subtitle": "MuJoCo Warp中KUKA iiwa配SHARPA手，分别测试刷子对齐、抬门和双臂装配。",
+      "detail": "刷子未见于预训练但属于同类姿态对齐；抬门与双臂为新任务。双臂仍用同一arm–hand系统，不构成跨机器人形态迁移。",
+      "parent_node": "local:latent-rl-prior:lrp-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-tasks.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.1; Fig2; §5; PDF pp5,9",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-criterion",
+      "key": "lrp-criterion",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "对齐成功不是十步连续达标",
+      "subtitle": "四个物体与目标对应关键点的最大距离决定姿态对齐是否满足阈值。",
+      "detail": "d_max=max_j||k_obj_j−k_goal_j||；累计10个policy step达标即可，可不连续；严格0.015m、宽松0.05m两套结果分开。",
+      "parent_node": "local:latent-rl-prior:lrp-tasks",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-criterion.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.1; Fig3; PDF pp5–6",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-demonstrations",
+      "key": "lrp-demonstrations",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "少量示范仍来自另训的RL策略",
+      "subtitle": "每个下游任务单独训练SAPG策略采集视觉示范。",
+      "detail": "全数据分别4,000刷子、500抬门、5,000双臂；单臂相机前/侧/手内，双臂前/左手内/右手内。官网视频说明为采集示范重放，非已适配策略闭环评测。",
+      "parent_node": "local:latent-rl-prior:lrp-tasks",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-demonstrations.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.1; Table1; PDF pp5–6; official project Setup",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-protocol",
+      "key": "lrp-protocol",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "比较的是示范预算，不是相同训练预算",
+      "subtitle": "本法100,000优化步，π0.5与GR00T N1.7全参数微调30,000步。",
+      "detail": "每5,000步存checkpoint，最后5个各测256个保留环境seed rollout；每run取五者最高，通常3训练seed均值±标准差。不是5checkpoint平均，也不是训练算力匹配。",
+      "parent_node": "local:latent-rl-prior:lrp-tasks",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-protocol.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.1; Fig4; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-data-efficiency",
+      "key": "lrp-data-efficiency",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "50条抬门、1000条双臂的比较条件",
+      "subtitle": "少示范适配先验在两个新任务上超过各VLA的全数据微调结果。",
+      "detail": "Fig4/§4.2：抬门50对500、双臂1000对5000；需同时保留十万预训练成功rollouts和100k对30k训练步差异。不给曲线补造未印出的精确成功率。",
+      "parent_node": "local:latent-rl-prior:lrp-protocol",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-data-efficiency.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.2; Fig4; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-precision",
+      "key": "lrp-precision",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "精度阈值会改变优势大小",
+      "subtitle": "刷子对齐严格1.5cm标准下优势更持续，宽松5cm标准下数据多时趋近。",
+      "detail": "在4,000示范、宽松阈值下与π0.5数值可比；不能把低数据优势概括成所有预算/精度都大幅领先。",
+      "parent_node": "local:latent-rl-prior:lrp-data-efficiency",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-precision.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.2; Fig4a; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-scratch",
+      "key": "lrp-scratch",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "固定视觉特征后仍有先验收益",
+      "subtitle": "与同视觉策略结构、同训练设置的scratch动作decoder比较。",
+      "detail": "Fig5的冻结image encoder latent分支仍优于scratch各预算/阈值；支持预训练控制先验的作用，但不是总训练数据量匹配实验。",
+      "parent_node": "local:latent-rl-prior:lrp-latent",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-scratch.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.2–4.3; Fig5; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-interface-ablation",
+      "key": "lrp-interface-ablation",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "latent接口比显式形状桥更稳",
+      "subtitle": "两者都只有动作loss，latent接口在刷子对齐上更高、更稳定。",
+      "detail": "Fig5/6：explicit使用5seed，latent/scratch3seed；Fig6宽松5cm、image encoder冻结，展示个体虚线和均值±SD。只支持本文所测接口，不否定所有显式状态学习。",
+      "parent_node": "local:latent-rl-prior:lrp-explicit",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-interface-ablation.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.3; Fig5–6; PDF p7",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-adaptation-rate",
+      "key": "lrp-adaptation-rate",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "视觉小步更新，动作先验保持冻结",
+      "subtitle": "分别扫描image encoder与action decoder学习率，Q-Former始终训练。",
+      "detail": "Fig7a固定decoder、小视觉学习率有利严格对齐，大更新尤其低数据退化；Fig7b固定image encoder，decoder解冻在所测范围无益。两扫描条件不可误合成同一次全参数实验。",
+      "parent_node": "local:latent-rl-prior:lrp-freeze",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-adaptation-rate.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.4; Fig7; PDF pp7–8",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-mass",
+      "key": "lrp-mass",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "训练时不见的新质量检验",
+      "subtitle": "视觉示范单质量，预训练有密度随机化，部署测试更重物体且不再训练。",
+      "detail": "抬门在5kg时本法32.6%对π0.5 12.9%，分别50/500示范；刷子则1000/2000示范、宽松5cm。实验支持保留鲁棒性，不单独证明数据效率的因果来源。",
+      "parent_node": "local:latent-rl-prior:lrp-tasks",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-mass.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.5; Fig8; PDF p8",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-force-probe",
+      "key": "lrp-force-probe",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "能线性读出力，不等于显式力控制",
+      "subtitle": "单独force-annotated probe数据上，冻结策略并拟合decoder各层的ridge线性探针。",
+      "detail": "四类目标为总抓握法向力、逐指法向、逐指切向、逐指笛卡尔力；L1–L8，单位N/RMSE，3policy seed平均，同IID probe test episodes；较低RMSE说明表征可读性，未施加因果干预。",
+      "parent_node": "local:latent-rl-prior:lrp-tasks",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-force-probe.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§4.5; Fig9; PDF p9",
+      "explainers": []
+    },
+    {
+      "id": "local:latent-rl-prior:lrp-boundaries",
+      "key": "lrp-boundaries",
+      "kind": "local",
+      "paper": "latent-rl-prior",
+      "title": "冻结先验也会冻结能力边界",
+      "subtitle": "结论限定为下游视觉示范效率和同机器人形态的仿真迁移。",
+      "detail": "新增控制行为可能超出teacher支持；未验证实机，不宣称总数据/compute更少。质量鲁棒性和力probe是相符证据而非已隔离因果机制。",
+      "parent_node": "local:latent-rl-prior:lrp-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/latent-rl-prior/lrp-boundaries.md",
+      "source_url": "https://arxiv.org/pdf/2611.08458v1",
+      "locator": "§5–6; PDF p9",
+      "explainers": []
     },
     {
       "id": "local:learned-dynamics-review:dynamics",
@@ -22509,6 +23656,396 @@
       "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/omnih2o/method-chain.md",
       "source_url": "https://proceedings.mlr.press/v270/he25b.html",
       "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:imitation",
+      "key": "imitation",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "imitation",
+      "title": "示范模仿",
+      "subtitle": "从专家、人类或教师策略的行为学习动作，研究数据、表示和执行误差。",
+      "detail": "行为克隆预测数据动作，闭环状态偏移仍要单独处理。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/imitation.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:spatial",
+      "key": "spatial",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "spatial",
+      "title": "空间表示",
+      "subtitle": "保留像素、点、体素或对象相对位置的表示，让预测能接到几何与动作位置。",
+      "detail": "全局语义向量识别杯子；抓哪里还需要空间接口。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/spatial.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:point-cloud",
+      "key": "point-cloud",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "point-cloud",
+      "title": "点云与三维体素",
+      "subtitle": "点云用三维点记录几何，网络从点的位置与特征构造空间表示。",
+      "detail": "点云和体素是不同表示；PerAct 会把观测转成体素，DP3 则编码点云。",
+      "parent_node": "local:oopsierecover:spatial",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/point-cloud.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:action",
+      "key": "action",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "action",
+      "title": "动作表示",
+      "subtitle": "把位置、姿态、关节或运动轨迹变成模型可预测的对象；表示决定后续解码和控制接口。",
+      "detail": "动作单位、参考系与时间频率比“统一 token”四个字更具体。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/action.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:chunk",
+      "key": "chunk",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "chunk",
+      "title": "动作块",
+      "subtitle": "一次预测多个未来控制时刻的动作，再执行部分并用新观测更新。",
+      "detail": "块长、执行长度和重新观测频率可以不同。",
+      "parent_node": "local:oopsierecover:action",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/chunk.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:dynamics",
+      "key": "dynamics",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "dynamics",
+      "title": "动作条件动力学",
+      "subtitle": "以当前状态和动作预测下一状态或分布，建立“做这个动作会发生什么”的计算接口。",
+      "detail": "不能把无动作的视频预测直接当成可干预的动力学。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/dynamics.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:rollout",
+      "key": "rollout",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "rollout",
+      "title": "闭环滚动与历史偏移",
+      "subtitle": "重复预测、执行或生成，把新观测或模型历史接回后续计算。",
+      "detail": "Teacher forcing 与运行时自有历史之间的差异需单独检查。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/rollout.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:search",
+      "key": "search",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "search",
+      "title": "树搜索与轨迹搜索",
+      "subtitle": "展开候选动作或轨迹，用预测价值挑选可执行方案。",
+      "detail": "MuZero 在潜状态中做 MCTS；轨迹 Transformer 用 beam search。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/search.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:benchmark",
+      "key": "benchmark",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "canonical": "benchmark",
+      "title": "泛化评测与遗忘",
+      "subtitle": "拆开任务、物体、场景或学习顺序，检查迁移能力和旧技能保留。",
+      "detail": "一个平均分可能遮住失败的具体任务类型。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/benchmark.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:method-chain",
+      "key": "method-chain",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "本篇方法链路",
+      "subtitle": "人接管时提供纠正轨迹、语言和纠正类别。VLM选语义实体种子，分割与深度把区域变成3D点集，质心时间轨迹用于生成gate×(纠正代价+λ任务代价)。触发阈值从同类记录中gate=1的干预前分数取最小；用人类/后续基策略窗口的较低成本及触发检查做经验一致性核验，失败促使程序细化，但预算耗尽仍保留最后程序。部署重新定位实体，从冻结π0.5采样动作块并可加cardinal actions，预测点集后按折扣成本筛最优；仿真用模拟器物理，实机用grasp-based近似。",
+      "detail": "人接管时提供纠正轨迹、语言和纠正类别。VLM选语义实体种子，分割与深度把区域变成3D点集，质心时间轨迹用于生成gate×(纠正代价+λ任务代价)。触发阈值从同类记录中gate=1的干预前分数取最小；用人类/后续基策略窗口的较低成本及触发检查做经验一致性核验，失败促使程序细化，但预算耗尽仍保留最后程序。部署重新定位实体，从冻结π0.5采样动作块并可加cardinal actions，预测点集后按折扣成本筛最优；仿真用模拟器物理，实机用grasp-based近似。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/method-chain.md",
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "locator": "existing source-grounded reading card",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-problem",
+      "key": "oopsierecover-problem",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "纠正动作与纠正意图不是同一份知识",
+      "subtitle": "同一条绕开咖啡机的手柄轨迹，换个摆放位置就未必合用。",
+      "detail": "论文从少量干预中推断局部几何意图，保留冻结VLA作为动作来源；迁移的是语义对象间的条件，而非原坐标动作。",
+      "parent_node": "paper:oopsierecover",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-problem.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§I–II; PDF pp1–3",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-interventions",
+      "key": "oopsierecover-interventions",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "先把谁接管、何时接管记清楚",
+      "subtitle": "输入包含失败前窗口、人类纠正窗口、文字说明与人给的纠正类别。",
+      "detail": "同类别的多次纠正合并为Dc；若人交回控制，还记录之后K步基策略窗口，用作轨迹一致性比较。这里的窗口K与候选动作数量K应按上下文分开。",
+      "parent_node": "local:oopsierecover:oopsierecover-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-interventions.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-A; Eq1; PDF p3",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-grounding",
+      "key": "oopsierecover-grounding",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "从语言对象落到三维点集",
+      "subtitle": "VLM为相关实体给出图像中的二维种子点，并判断实体用区域还是单点。",
+      "detail": "区域种子交给分割模型，区域像素经深度投影为3D点集；单点直接提升。每帧跟踪语义区域并重新采点，避免逐点跟踪漂移。",
+      "parent_node": "local:oopsierecover:oopsierecover-interventions",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-grounding.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-B,C1–2; Fig2; PDF pp3–4",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-centroids",
+      "key": "oopsierecover-centroids",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "让模型看实体怎么动，而非整段点云",
+      "subtitle": "程序生成使用各语义点集的质心时间轨迹。",
+      "detail": "VLM同时接收任务、纠正语言、实体标签与干预前/人类纠正的质心轨迹，输出可执行代价程序；执行时几何关系仍可依赖完整点集形状。",
+      "parent_node": "local:oopsierecover:oopsierecover-grounding",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-centroids.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-C2; PDF p4",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-cost",
+      "key": "oopsierecover-cost",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "何时介入与怎样改动作分开",
+      "subtitle": "每条程序含gate、纠正代价和任务推进代价。",
+      "detail": "Eq2将gate乘以纠正代价加lambda倍任务代价；触发分数只用gate乘纠正代价，任务项帮助动作推进却不参加纠正核验。",
+      "parent_node": "local:oopsierecover:oopsierecover-grounding",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-cost.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-B,C3; Eqs2–3; PDF pp3–5",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-calibration",
+      "key": "oopsierecover-calibration",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "用人接管前的状态定阈值",
+      "subtitle": "触发尺度从真实干预记录校准，而非由VLM随意报阈值。",
+      "detail": "所读v1 Eq4在每次干预前且gate=1的状态中取最低gate score，再跨同类记录取最小值；部署分数大于阈值才触发。",
+      "parent_node": "local:oopsierecover:oopsierecover-cost",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-calibration.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-C3; Eqs3–4; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-verification",
+      "key": "oopsierecover-verification",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "回放检查只检查已有纠正方向",
+      "subtitle": "失败前平均分要高于人类纠正及可用的后续基策略片段，同时至少有一次越阈值。",
+      "detail": "Eq5–6对每条同类记录做ranking和trigger检查并以AND合并，失败证据让VLM改逻辑或参数；这检验观测轨迹一致性，不证明任意环境安全。",
+      "parent_node": "local:oopsierecover:oopsierecover-calibration",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-verification.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-C4; Eqs5–6; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-budget",
+      "key": "oopsierecover-budget",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "修到预算上限也可能留下未通过程序",
+      "subtitle": "最大预算B耗尽后，算法保留最后一轮参数与逻辑。",
+      "detail": "因此“带验证”不等于“只部署验证通过的程序”。应继续观察未通过比例、校准覆盖与新场景误触发，论文未给这些分项量化。",
+      "parent_node": "local:oopsierecover:oopsierecover-verification",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-budget.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-C4 Refinement; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-transfer",
+      "key": "oopsierecover-transfer",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "换场景先重新找同一类实体",
+      "subtitle": "VLM利用带种子点的参考图，在新图中重新定位相关对象和区域。",
+      "detail": "重建点集后沿原代价逻辑计算gate score；不直接把旧场景世界坐标或演示轨迹原样搬过去。",
+      "parent_node": "local:oopsierecover:oopsierecover-grounding",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-transfer.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-D; PDF p5",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-steering",
+      "key": "oopsierecover-steering",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "冻结策略提候选，纠正规则做筛选",
+      "subtitle": "从VLA采样K个长度H的动作块，预测它们会怎样移动点集。",
+      "detail": "Eq7–8沿预测轨迹累积折扣代价并选最小者；可补cardinal actions增加候选多样性，多条规则同时触发时加权成本。候选中没有有效动作时无法保证恢复。",
+      "parent_node": "local:oopsierecover:oopsierecover-cost",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-steering.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-D; Eqs7–8; PDF pp5–6",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-dynamics",
+      "key": "oopsierecover-dynamics",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "仿真预测器和实机预测器要分开看",
+      "subtitle": "仿真直接用模拟器物理，实机使用基于抓取关系的动力学近似。",
+      "detail": "原文方法概述提到learned dynamics，但实验实现以p6说明为准；本篇未证明通用视觉世界模型能准确预测接触与形变。",
+      "parent_node": "local:oopsierecover:oopsierecover-steering",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-dynamics.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§III-D; PDF p6",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-sim",
+      "key": "oopsierecover-sim",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "同纠正数据比较能否换摆放位置",
+      "subtitle": "RoboCasa三任务分L0同状态、L1换物体位姿、L2换场景和位姿。",
+      "detail": "每任务5–8次纠正；HG-DAgger*/OLAF用同数据，VLS仅任务文字。Fig4按三任务汇总，论文称每方法50回合；L1/L2统计组高于对照，L0与HG-DAgger*共享组。",
+      "parent_node": "local:oopsierecover:oopsierecover-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-sim.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§IV-Q1; Fig3–4; PDF pp6–7",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-real",
+      "key": "oopsierecover-real",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "实机提高的是完成阶段比例",
+      "subtitle": "DROID三任务每任务3–6次纠正，对照冻结π0.5与HG-DAgger*。",
+      "detail": "官网明确每方法、任务、level各20rollouts。作者报告平均task progress由基策略π0.5的35.1%到61.0%；不是整任务成功率。L0/L2与基策略显著分开，L1仍共享显著性组；逐任务阶段定义未列。",
+      "parent_node": "local:oopsierecover:oopsierecover-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-real.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§I,IV-Q1; Fig4; PDF pp2,6–7; official project real caption",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-scaling",
+      "key": "oopsierecover-scaling",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "纠正数量曲线仍待统一数值",
+      "subtitle": "CoffeeMug在25个保留L1场景比较逐轮累计纠正。",
+      "detail": "两方法每轮获得的纠正数量不同，应按横轴次数对照。Fig5的文本、图线与官网数据存在峰值冲突，这里只保留曲线比较的机制问题，不采纳有歧义的精确峰值。",
+      "parent_node": "local:oopsierecover:oopsierecover-sim",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-scaling.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§IV-Q2; Fig5; PDF p7; official project",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-detection",
+      "key": "oopsierecover-detection",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "单故障跨场景测试限定了什么",
+      "subtitle": "单次避免蒸汽手柄碰撞的纠正，在10个新场景检测与避碰。",
+      "detail": "人把机器人朝手柄驱动，10/10触发并在100环境步内避免该故障。这个受控测试支持局部规则迁移，不涵盖其他故障或完整任务成功。",
+      "parent_node": "local:oopsierecover:oopsierecover-sim",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-detection.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§IV-Q3; PDF p7",
+      "explainers": []
+    },
+    {
+      "id": "local:oopsierecover:oopsierecover-limits",
+      "key": "oopsierecover-limits",
+      "kind": "local",
+      "paper": "oopsierecover",
+      "title": "感知、预测和候选动作都能卡住恢复",
+      "subtitle": "方法只表达可见点集的空间关系，没有显式力或隐藏物理属性。",
+      "detail": "语义定位、跟踪、动力学或候选动作不足都可能失效；尚无组件消融和完整运行配置，先把系统效果与单模块因果区分开。",
+      "parent_node": "local:oopsierecover:oopsierecover-problem",
+      "lit": false,
+      "url": "https://github.com/Zhu-Huixiang/embodied-world/blob/main/universe/papers/oopsierecover/oopsierecover-limits.md",
+      "source_url": "https://arxiv.org/pdf/2611.08462v1",
+      "locator": "§V–VI; PDF pp7–8",
       "explainers": []
     },
     {
@@ -38878,6 +40415,300 @@
       "lit": false
     },
     {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:representation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:representation",
+      "to": "concept:representation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:jepa",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:jepa",
+      "to": "concept:jepa",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:world",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:world",
+      "to": "concept:world",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:world",
+      "to": "local:la-jepa:wam",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:wam",
+      "to": "concept:wam",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:attention",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:attention",
+      "to": "local:la-jepa:causal",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:causal",
+      "to": "concept:causal",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:dit",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:dit",
+      "to": "concept:dit",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:representation",
+      "to": "local:la-jepa:shift",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:shift",
+      "to": "concept:shift",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:data",
+      "to": "local:la-jepa:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:la-jepa",
+      "to": "local:la-jepa:la-jepa-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-problem",
+      "to": "local:la-jepa:la-jepa-input",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-input",
+      "to": "local:la-jepa:la-jepa-tube",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-tube",
+      "to": "local:la-jepa:la-jepa-spatial",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-input",
+      "to": "local:la-jepa:la-jepa-mask",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-mask",
+      "to": "local:la-jepa:la-jepa-flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-flow",
+      "to": "local:la-jepa:la-jepa-inference",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-inference",
+      "to": "local:la-jepa:la-jepa-size",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-flow",
+      "to": "local:la-jepa:la-jepa-future-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-future-ablation",
+      "to": "local:la-jepa:la-jepa-feature-space",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-input",
+      "to": "local:la-jepa:la-jepa-robustness",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-robustness",
+      "to": "local:la-jepa:la-jepa-targets",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-problem",
+      "to": "local:la-jepa:la-jepa-data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-data",
+      "to": "local:la-jepa:la-jepa-libero",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-libero",
+      "to": "local:la-jepa:la-jepa-instruction",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-data",
+      "to": "local:la-jepa:la-jepa-robotwin",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-robotwin",
+      "to": "local:la-jepa:la-jepa-latent-comparison",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-inference",
+      "to": "local:la-jepa:la-jepa-latency",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-latency",
+      "to": "local:la-jepa:la-jepa-compile",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-problem",
+      "to": "local:la-jepa:la-jepa-real",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-real",
+      "to": "local:la-jepa:la-jepa-dish",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:la-jepa:la-jepa-problem",
+      "to": "local:la-jepa:la-jepa-limits",
+      "kind": "contains",
+      "lit": false
+    },
+    {
       "from": "local:latent-diffusion:generation",
       "to": "local:latent-diffusion:diffusion",
       "kind": "contains",
@@ -39002,6 +40833,264 @@
       "to": "local:latent-diffusion:robotics",
       "kind": "contains",
       "lit": true
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:flow",
+      "to": "concept:flow",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:transformer",
+      "to": "local:latent-rl-prior:attention",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:attention",
+      "to": "concept:attention",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:transformer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:transformer",
+      "to": "concept:transformer",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:adaptation",
+      "to": "local:latent-rl-prior:privileged",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:privileged",
+      "to": "concept:privileged",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:rl",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:rl",
+      "to": "concept:rl",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:rl",
+      "to": "local:latent-rl-prior:adaptation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:adaptation",
+      "to": "concept:adaptation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:linear-probe",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:linear-probe",
+      "to": "concept:linear-probe",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:data",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:data",
+      "to": "concept:data",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:latent-rl-prior",
+      "to": "local:latent-rl-prior:lrp-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-problem",
+      "to": "local:latent-rl-prior:lrp-two-datasets",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-two-datasets",
+      "to": "local:latent-rl-prior:lrp-history-chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-two-datasets",
+      "to": "local:latent-rl-prior:lrp-teacher",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-teacher",
+      "to": "local:latent-rl-prior:lrp-priv-context",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-priv-context",
+      "to": "local:latent-rl-prior:lrp-flow",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-problem",
+      "to": "local:latent-rl-prior:lrp-freeze",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-freeze",
+      "to": "local:latent-rl-prior:lrp-latent",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-freeze",
+      "to": "local:latent-rl-prior:lrp-explicit",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-latent",
+      "to": "local:latent-rl-prior:lrp-bimanual",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-problem",
+      "to": "local:latent-rl-prior:lrp-tasks",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-tasks",
+      "to": "local:latent-rl-prior:lrp-criterion",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-tasks",
+      "to": "local:latent-rl-prior:lrp-demonstrations",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-tasks",
+      "to": "local:latent-rl-prior:lrp-protocol",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-protocol",
+      "to": "local:latent-rl-prior:lrp-data-efficiency",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-data-efficiency",
+      "to": "local:latent-rl-prior:lrp-precision",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-latent",
+      "to": "local:latent-rl-prior:lrp-scratch",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-explicit",
+      "to": "local:latent-rl-prior:lrp-interface-ablation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-freeze",
+      "to": "local:latent-rl-prior:lrp-adaptation-rate",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-tasks",
+      "to": "local:latent-rl-prior:lrp-mass",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-tasks",
+      "to": "local:latent-rl-prior:lrp-force-probe",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:latent-rl-prior:lrp-problem",
+      "to": "local:latent-rl-prior:lrp-boundaries",
+      "kind": "contains",
+      "lit": false
     },
     {
       "from": "paper:learned-dynamics-review",
@@ -40278,6 +42367,216 @@
     {
       "from": "paper:omnih2o",
       "to": "local:omnih2o:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:imitation",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:imitation",
+      "to": "concept:imitation",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:spatial",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:spatial",
+      "to": "concept:spatial",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:spatial",
+      "to": "local:oopsierecover:point-cloud",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:point-cloud",
+      "to": "concept:point-cloud",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:action",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:action",
+      "to": "concept:action",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:action",
+      "to": "local:oopsierecover:chunk",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:chunk",
+      "to": "concept:chunk",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:dynamics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:dynamics",
+      "to": "concept:dynamics",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:rollout",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:rollout",
+      "to": "concept:rollout",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:search",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:search",
+      "to": "concept:search",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:benchmark",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:benchmark",
+      "to": "concept:benchmark",
+      "kind": "shared",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:method-chain",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "paper:oopsierecover",
+      "to": "local:oopsierecover:oopsierecover-problem",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-problem",
+      "to": "local:oopsierecover:oopsierecover-interventions",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-interventions",
+      "to": "local:oopsierecover:oopsierecover-grounding",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-grounding",
+      "to": "local:oopsierecover:oopsierecover-centroids",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-grounding",
+      "to": "local:oopsierecover:oopsierecover-cost",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-cost",
+      "to": "local:oopsierecover:oopsierecover-calibration",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-calibration",
+      "to": "local:oopsierecover:oopsierecover-verification",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-verification",
+      "to": "local:oopsierecover:oopsierecover-budget",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-grounding",
+      "to": "local:oopsierecover:oopsierecover-transfer",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-cost",
+      "to": "local:oopsierecover:oopsierecover-steering",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-steering",
+      "to": "local:oopsierecover:oopsierecover-dynamics",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-problem",
+      "to": "local:oopsierecover:oopsierecover-sim",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-problem",
+      "to": "local:oopsierecover:oopsierecover-real",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-sim",
+      "to": "local:oopsierecover:oopsierecover-scaling",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-sim",
+      "to": "local:oopsierecover:oopsierecover-detection",
+      "kind": "contains",
+      "lit": false
+    },
+    {
+      "from": "local:oopsierecover:oopsierecover-problem",
+      "to": "local:oopsierecover:oopsierecover-limits",
       "kind": "contains",
       "lit": false
     },
@@ -44647,9 +46946,9 @@
   "hierarchy": "editorial navigation: broader topic → mechanism → component; not a proof of causal prerequisite",
   "coverage": "每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。",
   "stats": {
-    "papers": 132,
+    "papers": 135,
     "concepts": 59,
-    "local_topics": 1549,
+    "local_topics": 1644,
     "lit_papers": 23,
     "lit_concepts": 47,
     "lit_local_topics": 687

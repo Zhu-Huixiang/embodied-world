@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "window_start": "2025-01-01",
   "coverage": {
     "status": "completed_bounded_review",
@@ -22472,6 +22472,220 @@
           "http_status": 404,
           "metric_count": null,
           "reason": "exact paper not found"
+        }
+      ]
+    },
+    "la-jepa": {
+      "checked_at": "2026-11-07T08:48:58.269000+08:00",
+      "resources": [
+        {
+          "platform": "github",
+          "resource_kind": "repository",
+          "id": "mt-clemente/lajepa",
+          "url": "https://github.com/mt-clemente/lajepa",
+          "api_url": "https://api.github.com/repos/mt-clemente/lajepa",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "原文首页明确代码URL，指向精确专属仓库；仓库为空，不以无README为由编造内容。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08156v1",
+            "https://api.github.com/repos/mt-clemente/lajepa",
+            "https://api.github.com/repos/mt-clemente/lajepa/contents"
+          ],
+          "created_at": "2026-11-05T00:41:37Z",
+          "metrics": [
+            {
+              "metric": "stars",
+              "count": 0,
+              "checked_at": "2026-11-07T08:48:58.269000+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-11-05",
+              "window_end": "2026-11-07",
+              "label": "专属GitHub仓库star",
+              "window_label": "近期窗口内新建论文专属仓库累计快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            },
+            {
+              "metric": "subscribers",
+              "count": 0,
+              "checked_at": "2026-11-07T08:48:58.269000+08:00",
+              "window_kind": "cumulative",
+              "window_start": "2026-11-05",
+              "window_end": "2026-11-07",
+              "label": "GitHub订阅者",
+              "window_label": "近期窗口内新建论文专属仓库累计快照",
+              "eligible_recent_attention": true,
+              "eligible_academic_impact": false
+            }
+          ],
+          "forks": 0,
+          "availability_note": "size=0，contents404明确This repository is empty；当前代码、权重、许可均未取得。",
+          "limitations": [
+            "0是本次源观测值，不是缺失代填。",
+            "空库创建行为不算采用或传播；不采用作者账户粉丝数。",
+            "未执行复现，论文代码可用表述与实际空库有差异。"
+          ]
+        },
+        {
+          "platform": "author",
+          "resource_kind": "website",
+          "url": "https://georgexue.com/",
+          "scope": "multiple_papers",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/pdf/2611.08156v1",
+            "https://georgexue.com/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "二作主页支持论文身份与ICLR2027 under review投稿说法；无逐篇传播计数。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确题目/ID搜索只见原文、作者页与自动聚合/摘要；没有核到独立技术采用，不用转载页面数填影响。",
+      "unavailable_metrics": {
+        "citation_count": null,
+        "recent_citation_count": null,
+        "hf_upvotes": null,
+        "hf_downloads": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+          "checked_at": "2026-11-07T08:48:43.397735+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "精确ID限流；引用保持null。"
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156",
+          "checked_at": "2026-11-07T08:48:43.398023+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "精确身份未匹配；计数保持null，不推断全网没有相关资产。"
+        },
+        {
+          "url": "https://huggingface.co/api/papers/2611.08156",
+          "checked_at": "2026-11-07T08:48:43.398114+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "精确身份未匹配；计数保持null，不推断全网没有相关资产。"
+        }
+      ]
+    },
+    "latent-rl-prior": {
+      "checked_at": "2026-11-07T08:49:47+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "resource_kind": "website",
+          "url": "https://yixiaowang7.github.io/latent-rl-prior-page/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "sources": [
+            "https://arxiv.org/abs/2611.08458v1",
+            "https://arxiv.org/pdf/2611.08458v1",
+            "https://yixiaowang7.github.io/latent-rl-prior-page/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "官方项目明确Code/Datasets coming soon且无真实代码/数据链接；视频标为采集示范重放，不用作闭环评测证据。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "不把聚合摘要视为独立技术采用；不把SimToolReal依赖仓库或网页仓库总star分摊为本研究信号。",
+      "unavailable_metrics": {
+        "citation_count": null,
+        "recent_citation_count": null,
+        "github_stars": null,
+        "github_subscribers": null,
+        "hf_upvotes": null,
+        "hf_downloads": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+          "checked_at": "2026-11-07T08:46:08.311997+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "未匹配或限流；不填0。"
+        },
+        {
+          "url": "https://huggingface.co/api/papers/2611.08458",
+          "checked_at": "2026-11-07T08:46:08.345226+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "未匹配或限流；不填0。"
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458",
+          "checked_at": "2026-11-07T08:46:51.583518+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "未匹配或限流；不填0。"
+        }
+      ]
+    },
+    "oopsierecover": {
+      "checked_at": "2026-11-07T08:52:42+08:00",
+      "resources": [
+        {
+          "platform": "project",
+          "resource_kind": "website",
+          "url": "https://robin-lab.cs.utexas.edu/oopsierecover/",
+          "scope": "single_paper",
+          "identity_verified": true,
+          "identity_basis": "v1 arXiv摘要明确链接此官方项目；项目题目七作者一致。",
+          "sources": [
+            "https://arxiv.org/abs/2611.08462v1",
+            "https://arxiv.org/pdf/2611.08462v1",
+            "https://robin-lab.cs.utexas.edu/oopsierecover/"
+          ],
+          "metrics": [],
+          "raw_page_views": null,
+          "availability_note": "含方法介绍和演示视频链接；链接清单未含专属代码，未核当前公开阅读量。本轮未逐帧观看视频。"
+        }
+      ],
+      "adoption_evidence": [],
+      "audit_note": "精确搜索仅作者研究及自动摘要/聚合条目，未核独立技术采用或合格关注计数。聚合站代码标签与自动分数不用作证据。",
+      "unavailable_metrics": {
+        "citation_count": null,
+        "recent_citation_count": null,
+        "github_stars": null,
+        "hf_upvotes": null,
+        "hf_downloads": null,
+        "x_views": null,
+        "x_likes": null,
+        "blog_views": null
+      },
+      "failed_sources": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+          "checked_at": "2026-11-07T08:50:55+08:00",
+          "http_status": 429,
+          "metric_count": null,
+          "reason": "精确ID限流，引用保持null。"
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462",
+          "checked_at": "2026-11-07T08:50:55+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "精确身份未匹配；null不转0。"
+        },
+        {
+          "url": "https://huggingface.co/api/papers/2611.08462",
+          "checked_at": "2026-11-07T08:50:55+08:00",
+          "http_status": 404,
+          "metric_count": null,
+          "reason": "精确身份未匹配；null不转0。"
         }
       ]
     }

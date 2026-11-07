@@ -1,6 +1,6 @@
 # 具身智能论文地图
 
-从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 132 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
+从研究问题找论文：动作怎样表示、数据怎样监督、策略怎样闭环执行。正式系列按[具身榜](../leaderboard/README.md)顺序精讲；这里按问题组织阅读支路。含 135 篇已核验论文，另有[arXiv新作](../arxiv/README.md)。
 
 **三条起步路线**
 
@@ -13,10 +13,10 @@
 ## 方向目录
 
 - [世界模型与模型强化学习](#track-world-model) · 16 篇
-- [世界动作模型](#track-world-action-model) · 7 篇
+- [世界动作模型](#track-world-action-model) · 8 篇
 - [视频动作模型与视觉推理](#track-video-action) · 6 篇
 - [视觉语言动作模型 VLA](#track-vla) · 17 篇
-- [操作与动作块](#track-manipulation) · 26 篇
+- [操作与动作块](#track-manipulation) · 28 篇
 - [Locomotion 与运动适应](#track-locomotion) · 20 篇
 - [动作先验与全身技能](#track-motion-priors) · 8 篇
 - [强化学习与离线决策](#track-reinforcement-learning) · 6 篇
@@ -63,6 +63,7 @@
 | [Modality-Autoregressive World-Action Models](../library/modar.md) · [arXiv 2026](../arxiv/README.md#paper-modar) | 为什么先预测点轨迹、语义与几何，再给动作，可能比视频动作一起去噪更有效？ |
 | [TAPESTRY](../library/tapestry.md) · [CoRL 2026](../venues/CoRL/README.md) | 视频模型学会了怎样的交互规律后，机器人还必须先把未来画出来吗？能否把一个动作直接当成视频patch，只算一步就动手？ |
 | [Future Representation Distillation for Imagination-Free World Action Models](../library/dreamfree.md) · [arXiv 2026](../arxiv/README.md#paper-dreamfree) | 视频模型知道一些将来会发生什么，控制器是否必须先把未来逐帧画出来，还是能把预测知识压进当前帧表征？ |
+| [La-JEPA](../library/la-jepa.md) · [arXiv 2026](../arxiv/README.md#paper-la-jepa) | 要借用预训练视觉知识，就得把大视频生成器整套搬上机器人吗？如果只保留JEPA表征并训练小型动作模型，未来预测在部署被删除后还剩下什么价值？ |
 | [LeWAM](../library/lewam.md) · [arXiv 2026](../arxiv/README.md#paper-lewam) | 联合表征怎样支持预测、动作生成和闭环规划？ |
 
 <a id="track-video-action"></a>
@@ -139,6 +140,8 @@
 | [TouchBridge](../library/touchbridge.md) · [arXiv 2026](../arxiv/README.md#paper-touchbridge) | 手指位置对上了，为什么接触还是会丢？把指腹真实接触位置和跨手接触关系一起迁移，能否省去每个物体的重建与专门机器人示范？ |
 | [Compliant Residual DAgger](../library/cr-dagger.md) · [NeurIPS 2025](../venues/NeurIPS/README.md) | 为什么人把机器人推回正确方向，训练出的策略反而会变差？纠正的采集方式、控制延迟和残差学习分别解决什么？ |
 | [cuRoboV2-Fast](../library/curobov2-fast.md) · [arXiv 2026](../arxiv/README.md#paper-curobov2-fast) | 当规划只占抓取周期的1%，怎样同时缩短求解时间与受力矩限制的真实运动？ |
+| [Latent RL Priors for Data-Efficient Dexterous Manipulation](../library/latent-rl-prior.md) · [arXiv 2026](../arxiv/README.md#paper-latent-rl-prior) | 特权RL已经学会灵巧控制，少量视觉示范该学动作本身，还是只学怎样把图像接进冻结控制先验？ |
+| [OopsieRecover](../library/oopsierecover.md) · [arXiv 2026](../arxiv/README.md#paper-oopsierecover) | 纠正机器人一次，它记住的是那条手的轨迹，还是“别碰到咖啡机”这条规则？把几何意图单独存起来，能否在换场景后继续帮冻结VLA选动作？ |
 | [Dex-One2Many](../library/dex-one2many.md) · [arXiv 2026](../arxiv/README.md#paper-dex-one2many) | 场景图怎样同时提供探索引导与不锁死姿态的泛化？ |
 
 <a id="track-locomotion"></a>
@@ -257,4 +260,4 @@
 
 [知识点宇宙](../universe/README.md) · [高影响论文收录清单与筛选依据](curated-2026-10-10.md) · [全部论文元数据](../library/papers.json) · [顶会顶刊](../venues/README.md) · [未来一周](../calendar/README.md) · [首页](../README.md)
 
-元数据核对日期：2026-11-06。
+元数据核对日期：2026-11-07。

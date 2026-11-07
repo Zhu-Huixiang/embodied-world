@@ -20,6 +20,7 @@
 - [OmniH2O](../papers/omnih2o.md) · 机制导读 · [原文](https://proceedings.mlr.press/v270/he25b.html)
 - [HALO](../papers/halo.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06908v1)
 - [Ctrl-F](../papers/ctrl-f.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05507v1)
+- [Latent RL Prior](../papers/latent-rl-prior.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08458v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

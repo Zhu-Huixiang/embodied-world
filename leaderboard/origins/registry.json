@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "profiles": {
     "institution-i4401726824": {
       "id": "institution-i4401726824",
@@ -3737,6 +3737,61 @@
       "aliases": [
         "Apple",
         "苹果"
+      ]
+    },
+    "huawei": {
+      "id": "huawei",
+      "name": "Huawei Technologies Ltd.",
+      "kind": "research_organization",
+      "identity_url": "https://arxiv.org/pdf/2611.08156v1",
+      "official_url": null,
+      "focus": "本篇署名机构为Huawei Technologies Ltd.；论文研究JEPA表征中紧凑世界动作模型。未从本篇反推未经核实的内部实验室。",
+      "links": [
+        {
+          "label": "La-JEPA原文机构署名",
+          "url": "https://arxiv.org/pdf/2611.08156v1"
+        },
+        {
+          "label": "La-JEPA官方代码入口（当前空库）",
+          "url": "https://github.com/mt-clemente/lajepa"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2611.08156v1",
+        "https://georgexue.com/"
+      ],
+      "checked_at": "2026-11-07T08:53:34.665877+08:00",
+      "display_name": "华为",
+      "short_display_name": "华为",
+      "aliases": [
+        "Huawei Technologies Ltd.",
+        "Huawei",
+        "华为"
+      ]
+    },
+    "amazon": {
+      "id": "amazon",
+      "name": "Amazon",
+      "kind": "research_organization",
+      "identity_url": "https://yixiaowang7.github.io/latent-rl-prior-page/",
+      "official_url": "https://yixiaowang7.github.io/latent-rl-prior-page/",
+      "focus": "本篇作者原稿署名Amazon；该项目研究仿真RL先验接入视觉灵巧操作。未将论文归入未核内部实验室。",
+      "links": [
+        {
+          "label": "Latent RL Prior官方项目",
+          "url": "https://yixiaowang7.github.io/latent-rl-prior-page/"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2611.08458v1",
+        "https://yixiaowang7.github.io/latent-rl-prior-page/"
+      ],
+      "checked_at": "2026-11-07T08:49:47+08:00",
+      "display_name": "亚马逊",
+      "short_display_name": "亚马逊",
+      "aliases": [
+        "Amazon",
+        "亚马逊"
       ]
     }
   },
@@ -10191,6 +10246,206 @@
         ]
       },
       "author_links": []
+    },
+    "la-jepa": {
+      "first_authors": [
+        "Mateo Clémente"
+      ],
+      "corresponding_authors": [
+        "Mateo Clémente"
+      ],
+      "authors": [
+        "Mateo Clémente",
+        "George Z. Xue",
+        "Amin Abyaneh",
+        "Liheng Ma",
+        "Rui Heng Yang",
+        "Tongtong Cao",
+        "Zhanguang Zhang",
+        "Yingxue Zhang"
+      ],
+      "profile_ids": [
+        "huawei",
+        "institution-i185261750",
+        "institution-i5023651",
+        "institution-i4210164802"
+      ],
+      "affiliations": [
+        "Huawei Technologies Ltd.",
+        "University of Toronto",
+        "McGill University",
+        "Mila – Quebec Artificial Intelligence Institute"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2611.08156v1",
+        "https://arxiv.org/abs/2611.08156v1",
+        "https://georgexue.com/"
+      ],
+      "checked_at": "2026-11-07T08:53:34.665877+08:00",
+      "author_basis": "原文首页八作者同序；通讯与实习脚注逐项目视",
+      "affiliation_basis": "按原文机构上标，保留实习关系脚注而非改写上标。Toronto/McGill/Mila映射已有profile，不新增重复机构。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.08156v1",
+      "authorship_notes": "原文首页八作者同序；†仅Mateo Clémente为通讯作者。George Z. Xue与Amin Abyaneh的*标记解释为As interns for Huawei，不是共同一作；其正式上标机构仍分别是Toronto与McGill。二作官网支持本人在Huawei实习，但不扩写其他作者当前任职或实验室。",
+      "equal_contribution_authors": [],
+      "author_affiliations": {
+        "Mateo Clémente": [
+          "Huawei Technologies Ltd."
+        ],
+        "George Z. Xue": [
+          "University of Toronto"
+        ],
+        "Amin Abyaneh": [
+          "McGill University"
+        ],
+        "Liheng Ma": [
+          "Mila – Quebec Artificial Intelligence Institute"
+        ],
+        "Rui Heng Yang": [
+          "Huawei Technologies Ltd."
+        ],
+        "Tongtong Cao": [
+          "Huawei Technologies Ltd."
+        ],
+        "Zhanguang Zhang": [
+          "Huawei Technologies Ltd."
+        ],
+        "Yingxue Zhang": [
+          "Huawei Technologies Ltd."
+        ]
+      },
+      "author_links": [
+        {
+          "author": "George Z. Xue",
+          "url": "https://georgexue.com/",
+          "identity_basis": "主页明确本人George Xue、La-JEPA项目与论文图；保留原文George Z. Xue原署名。",
+          "label": "George Z. Xue · 作者主页"
+        }
+      ],
+      "corresponding_evidence": [
+        {
+          "url": "https://arxiv.org/pdf/2611.08156v1",
+          "kind": "primary_or_official",
+          "locator": "PDF page 1 author block and dagger footnote",
+          "claim": "Mateo Clémente is marked with a dagger; the footnote explicitly says Corresponding author. Stars on Xue and Abyaneh identify Huawei interns.",
+          "checked_at": "2026-11-07T08:59:39+08:00"
+        }
+      ]
+    },
+    "latent-rl-prior": {
+      "first_authors": [
+        "Yixiao Wang"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Yixiao Wang",
+        "Peiyi Chen",
+        "Mustafa Mukadam",
+        "Shreekant Gayaka",
+        "Masayoshi Tomizuka",
+        "Son Tran"
+      ],
+      "profile_ids": [
+        "institution-i95457486",
+        "amazon"
+      ],
+      "affiliations": [
+        "University of California, Berkeley",
+        "Amazon"
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2611.08458v1",
+        "https://yixiaowang7.github.io/latent-rl-prior-page/",
+        "https://arxiv.org/abs/2611.08458v1"
+      ],
+      "checked_at": "2026-11-07T08:49:47+08:00",
+      "author_basis": "原文首页六作者原顺序与官方项目一致",
+      "affiliation_basis": "原文p1上标1为UC Berkeley、2为Amazon；实习星号不改变上标机构。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.08458v1",
+      "authorship_notes": "原文p1按作者原顺序；Yixiao Wang星号只说明在Amazon实习期间完成，不能改成共同一作/通讯，也不改其原稿UC Berkeley署名。其余无共同贡献或通讯标记；仅核大学/公司，不归入未经该稿确认的BAIR/RAIL或Amazon FAR实验室。",
+      "equal_contribution_authors": [],
+      "author_affiliations": {
+        "Yixiao Wang": [
+          "University of California, Berkeley"
+        ],
+        "Peiyi Chen": [
+          "Amazon"
+        ],
+        "Mustafa Mukadam": [
+          "Amazon"
+        ],
+        "Shreekant Gayaka": [
+          "Amazon"
+        ],
+        "Masayoshi Tomizuka": [
+          "University of California, Berkeley"
+        ],
+        "Son Tran": [
+          "Amazon"
+        ]
+      },
+      "author_links": []
+    },
+    "oopsierecover": {
+      "first_authors": [
+        "Arpit Bahety",
+        "Skand Peri"
+      ],
+      "corresponding_authors": [],
+      "authors": [
+        "Arpit Bahety",
+        "Skand Peri",
+        "Sriniket Ambatipudi",
+        "Chen Xu",
+        "Haruki Nishimura",
+        "Masha Itkina",
+        "Roberto Martín-Martín"
+      ],
+      "profile_ids": [
+        "institution-i86519309",
+        "institution-i4391768151"
+      ],
+      "affiliations": [
+        "The University of Texas at Austin",
+        "Toyota Research Institute"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.08462v1",
+        "https://arxiv.org/pdf/2611.08462v1",
+        "https://robin-lab.cs.utexas.edu/oopsierecover/"
+      ],
+      "checked_at": "2026-11-07T08:52:42+08:00",
+      "author_basis": "v1首页七作者同序，前两位共同贡献（Equal contribution）",
+      "affiliation_basis": "v1首页1=UT Austin、2=Toyota Research Institute；官方项目展开大学全称。",
+      "primary_author_source": "https://arxiv.org/pdf/2611.08462v1",
+      "authorship_notes": "v1首页与官方项目七作者同序；Arpit Bahety/Skand Peri星号为共同贡献。前三位与Roberto Martín-Martín属UT Austin，Chen Xu/Haruki Nishimura/Masha Itkina属TRI；不推定通讯作者。RobIn与既有RPL不同，本次复用大学和TRI机构profile。",
+      "equal_contribution_authors": [
+        "Arpit Bahety",
+        "Skand Peri"
+      ],
+      "author_affiliations": {
+        "Arpit Bahety": [
+          "The University of Texas at Austin"
+        ],
+        "Skand Peri": [
+          "The University of Texas at Austin"
+        ],
+        "Sriniket Ambatipudi": [
+          "The University of Texas at Austin"
+        ],
+        "Chen Xu": [
+          "Toyota Research Institute"
+        ],
+        "Haruki Nishimura": [
+          "Toyota Research Institute"
+        ],
+        "Masha Itkina": [
+          "Toyota Research Institute"
+        ],
+        "Roberto Martín-Martín": [
+          "The University of Texas at Austin"
+        ]
+      },
+      "author_links": []
     }
   },
   "coverage": {
@@ -10352,7 +10607,11 @@
     "New York University Abu Dhabi": "纽约大学阿布扎比分校",
     "NYUAD Center for Artificial Intelligence and Robotics (CAIR)": "纽约大学阿布扎比分校人工智能与机器人中心",
     "Embodied AI and Robotics (AIR) Lab, New York University Abu Dhabi": "纽约大学阿布扎比分校具身智能与机器人实验室",
-    "Apple": "苹果"
+    "Apple": "苹果",
+    "Huawei Technologies Ltd.": "华为",
+    "Mila – Quebec Artificial Intelligence Institute": "魁北克人工智能研究所（Mila）",
+    "Amazon": "亚马逊",
+    "The University of Texas at Austin": "得克萨斯大学奥斯汀分校"
   },
   "display_policy": {
     "people": "original English names",

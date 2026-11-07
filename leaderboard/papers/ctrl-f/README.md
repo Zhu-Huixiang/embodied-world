@@ -1,6 +1,6 @@
 # Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation
 
-**Ctrl-F** · arXiv 2026 · 本版排名 131 · 综合分 **58.1 / 100**
+**Ctrl-F** · arXiv 2026 · 本版排名 133 · 综合分 **58.1 / 100**
 
 [解读导读](../../../library/ctrl-f.md) · [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) · [arXiv集锦](../../../arxiv/README.md#paper-ctrl-f)
 

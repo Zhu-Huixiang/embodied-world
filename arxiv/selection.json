@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "scan": {
-    "scanned_at": "2026-11-06T08:29:12+08:00",
-    "as_of": "2026-11-06",
+    "scanned_at": "2026-11-07T08:42:43+08:00",
+    "as_of": "2026-11-07",
     "window_days": 7,
     "window_timezone": "Asia/Shanghai",
     "max_results_per_query": 60,
@@ -11,7 +11,7 @@
       {
         "query": "cat:cs.RO",
         "status": "ok",
-        "matched": 48,
+        "matched": 45,
         "returned": 60,
         "limit_reached": true,
         "coverage": "bounded_latest_results"
@@ -19,7 +19,7 @@
       {
         "query": "(cat:cs.CV OR cat:cs.AI OR cat:cs.LG) AND (all:robot OR all:\"world action model\" OR all:locomotion OR all:\"embodied intelligence\")",
         "status": "ok",
-        "matched": 60,
+        "matched": 59,
         "returned": 60,
         "limit_reached": true,
         "coverage": "bounded_latest_results"
@@ -1353,13 +1353,201 @@
       },
       "mechanism": "低层运动–力跟踪器读取参考动作、本体状态与每接触刚体三维力，输出全身关节位置目标。无物体训练时按可施力mask采样f并施加−f，沿原运动跟踪目标学习；力幅度从零递增。冻结低层后，高层读取机器人/物体参考、物体接触点、物体实测状态和本体状态输出f。解析教师用PD位姿速度反馈、Newton–Euler及重力/摩擦补偿求六维W*，再按Gf≈W*和可行力集合分配。教师使用训练时真实质量；高层用在策略访问状态上的模仿目标和PPO联合训练，模仿权重衰减。部署不输入质量或测得接触力，仍依赖AprilTag物体姿态。",
       "selection_origin": "2026-11-06 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
+    },
+    {
+      "id": "la-jepa",
+      "short_name": "La-JEPA",
+      "arxiv_id": "2611.08156",
+      "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "authors": [
+        "Mateo Clémente",
+        "George Z. Xue",
+        "Amin Abyaneh",
+        "Liheng Ma",
+        "Rui Heng Yang",
+        "Tongtong Cao",
+        "Zhanguang Zhang",
+        "Yingxue Zhang"
+      ],
+      "affiliations": [
+        "Huawei Technologies Ltd.",
+        "University of Toronto",
+        "McGill University",
+        "Mila – Quebec Artificial Intelligence Institute"
+      ],
+      "track": "world-action-model",
+      "published": "2026-11-05T15:16:38Z",
+      "project_url": null,
+      "code_url": "https://github.com/mt-clemente/lajepa",
+      "scope": "目标示范训练的紧凑世界动作模型；LIBERO/Plus、50任务RoboTwin 2.0与单台Franka的四种桌面操作",
+      "reading_question": "要借用预训练视觉知识，就得把大视频生成器整套搬上机器人吗？如果只保留JEPA表征并训练小型动作模型，未来预测在部署被删除后还剩下什么价值？",
+      "selection_reason": "从控制架构与感知预训练的耦合提出具体问题，注意力路径和联合目标可核；多seed模拟、未来监督/表征/鲁棒性设计研究与有限实机证据足以支持预印本收录。代码空库、校正文本协议和跨论文比较边界公开保留。",
+      "evidence_summary": "RoboTwin 50任务clean训练、各条件各seed 5000回合、3训练seed：S/B/L的clean为85.5/86.2/86.0%，randomized为33.9/35.4/32.1%，B平均60.8%；Fast-WAM77.8/1.9来自官方榜。LIBERO-Plus修正文本10030变体（部分基线10029）下S/B/L86.3/87.3/88.0%，NowWAM86.2；原文本S/B/L80.0/82.5/84.1%，须分开。原始管线三seed未来监督76.47%对action-only74.35%，不能与主表跨管线比较。单Franka四任务各20次：La-JEPA70/80对π0.5 69/80，近似而非显著超越。10步优化S17.78ms/B25.16ms对Fast-WAM88.09ms是单次policy-call，不是控制周期，GPU型号未列。",
+      "embodied_relevance": "直接讨论视觉世界表征如何帮助示范学习动作，以及推理时不预测未来能否保留控制收益；包含闭环模拟、跨扰动和有限真实接触操作。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.08156v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08156v1",
+      "reading_version": "arXiv v1; 30 pages",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Mateo Clémente",
+      "first_arxiv_submission": "2026-11-05T15:16:38Z",
+      "first_arxiv_submission_shanghai": "2026-11-05T23:16:38+08:00",
+      "checked_at": "2026-11-07",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "所读v1。无机器人预训练仍使用预训练视觉与语言编码器；主结果按三训练seed报告，原发布指令与校正指令分别比较。专属代码入口当前为空库。",
+      "code_availability": "原文指向本篇专属仓库，但2026-11-07实际GitHub元数据size=0，contents返回404 This repository is empty；尚无可读取实现、权重或许可。不能把论文的代码可用承诺写成当前已公开代码。",
+      "reading_version_url": "https://arxiv.org/pdf/2611.08156v1",
+      "reading_version_sha256": "2f5fd34aed57385c89b2f4c9b38cf435e70481c67e694623596f7edb8a5f978d",
+      "pdf_sha256": "2f5fd34aed57385c89b2f4c9b38cf435e70481c67e694623596f7edb8a5f978d",
+      "score_axis_reasons": {
+        "innovation": "80：把策略骨干与感知预训练解耦，在V-JEPA 2.1表征中从头训练小型World/Action DiT，以联合未来监督提升动作学习，再在部署删去未来分支。改变了继承大生成骨干的接口选择；注意力隔离和训练预测/部署动作分离明确继承Fast-WAM/Faster-WAM，不能把全部架构当新发明。",
+        "evidence": "84：两套模拟基准主结果各三训练seed，RoboTwin每条件每seed 5000回合；多组设计消融、匹配指令的基线重测与四任务实机（除LingBot-VA餐具仅10次外，每任务20次）支持贡献。多数消融单seed且与主结果管线不同，跨论文RoboTwin基线训练/取值来源混合，实机单平台且小样本；延迟未提供具体GPU型号。",
+        "reuse": "60：30页原文与A–E附录给出架构、训练、数据过滤、注意力掩码、推理缓存和评测协议，机制可学。论文称代码可用，实际专属仓库此刻为空，未取得实现、权重或许可，尚不能开箱复现；保留空库实际状态并待后续复查。",
+        "reading": "86：把JEPA表征、流匹配、训练时世界监督、部署计算和评测文本混杂连在一起，是理解WAM何时需要预测未来的重要桥梁。小策略与冻结大编码器的参数口径、校正前后排名提供可教的比较边界；不是所有具身路线的共同前置。"
+      },
+      "version_id": "2611.08156v1",
+      "updated": "2026-11-05T15:16:38Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2611.08156v1",
+        "section": "按原文机构上标，保留实习关系脚注而非改写上标。Toronto/McGill/Mila映射已有profile，不新增重复机构。"
+      },
+      "mechanism": "La-JEPA以预训练V-JEPA 2.1 ViT-L编码当前两帧和32帧范围内的未来16帧，FLAN-T5-large编码语言，本体投影为条件token。在该表征空间从头训练World DiT和Action DiT，分别对未来特征与32步动作块做独立时间的流匹配。观测只读观测、未来读观测和未来、动作只读观测和动作；未来损失通过共享World参数影响观测表示。部署删除未来token，固定World时间0并缓存观测K/V，仅对动作做10步Euler积分，LIBERO执行10步、RoboTwin执行24步后重规划。最终观测编码器用LoRA和增强，未来目标保持原冻结编码器的干净特征；无需像素解码。",
+      "selection_origin": "2026-11-07 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
+    },
+    {
+      "id": "latent-rl-prior",
+      "short_name": "Latent RL Prior",
+      "arxiv_id": "2611.08458",
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "authors": [
+        "Yixiao Wang",
+        "Peiyi Chen",
+        "Mustafa Mukadam",
+        "Shreekant Gayaka",
+        "Masayoshi Tomizuka",
+        "Son Tran"
+      ],
+      "affiliations": [
+        "University of California, Berkeley",
+        "Amazon"
+      ],
+      "track": "manipulation",
+      "published": "2026-11-05T18:50:06Z",
+      "project_url": "https://yixiaowang7.github.io/latent-rl-prior-page/",
+      "code_url": null,
+      "scope": "同一KUKA iiwa+SHARPA手在MuJoCo Warp中的三项任务；全部视觉示范和评测都为仿真，双臂共享单臂控制器不等于跨形态迁移",
+      "reading_question": "特权RL已经学会灵巧控制，少量视觉示范该学动作本身，还是只学怎样把图像接进冻结控制先验？",
+      "selection_reason": "问题明确，动作条件与本体路径的拆分及action-only latent接口构成实质迁移设计；同结构scratch、显式桥接、模块学习率、多预算和质量/力probe支持限定于仿真的贡献。预算不等、checkpoint选择和缺实现细节已保留，不以名校/演示替代实验。",
+      "evidence_summary": "全数据刷子4000、抬门500、双臂5000；本法抬门50和双臂1000示范超过π0.5/GR00T N1.7全数据基线。主实验本法100k优化步、VLA30k，每run末5checkpoint各256 rollout后取最高，通常3seed均值±SD。5kg抬门32.6%对π0.5 12.9%，分别50/500示范。Fig5同结构scratch和Fig5–7接口/冻结消融支持先验复用；force ridge probe8层仅是表征读出，不证明因果。全部仿真。",
+      "embodied_relevance": "直接连接特权RL控制经验、视觉模仿与动作生成，并分清视觉接入、已有控制支持及双臂协同责任。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.08458v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08458v1",
+      "reading_version": "arXiv v1; 12 pages; no appendices in the selected PDF",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Yixiao Wang",
+      "first_arxiv_submission": "2026-11-05T18:50:06Z",
+      "first_arxiv_submission_shanghai": "2026-11-06T02:50:06+08:00",
+      "checked_at": "2026-11-07",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "所读v1。实验全部在MuJoCo Warp中完成；下游示范减少依赖十万条成功RL预训练轨迹。主对照的优化步数和最优checkpoint选择条件一并保留。",
+      "code_availability": "官方项目及论文reproducibility statement均写计划公开代码与数据；当前项目没有真实代码/数据链接，未把依赖SimToolReal仓库或项目网页仓库计为本篇实现。",
+      "reading_version_url": "https://arxiv.org/pdf/2611.08458v1",
+      "reading_version_sha256": "ef3f3aba6a5e4c1d5ddba761a8b4e7210bd450eb26731c8ee79f95c9bba99407",
+      "pdf_sha256": "ef3f3aba6a5e4c1d5ddba761a8b4e7210bd450eb26731c8ee79f95c9bba99407",
+      "score_axis_reasons": {
+        "innovation": "80：改变特权RL控制器接入视觉的接口：将RL成功rollout蒸馏为解耦本体条件的动作decoder，冻结后只以动作loss学习视觉latent，无需成对特权状态或latent标签；联合Q-Former queries把单臂先验扩为双臂。Flow Matching、Q-Former、DINOv2和策略蒸馏均继承已有组件，创新落在迁移接口与受控实证。",
+        "evidence": "76：三种MuJoCo Warp任务、同结构scratch对照、latent/explicit接口、视觉和decoder学习率消融、质量变化与力探针提供多方面支撑；主实验3seed/每checkpoint256rollouts。仅同一KUKA+SHARPA形态仿真，100k对30k优化步不同，报告末5checkpoint最大值，未提供完整网络/优化超参与probe数据规模；力可读性未隔离因果机制。",
+        "reuse": "60：输入/损失/冻结接口可学，复用已公开SimToolReal teacher与DINOv2，但本篇代码和数据仍coming soon，依赖100,000成功预训练rollouts且M/d/H/K、动作维度和完整优化配置未在12页稿列出；目前偏方法配方，尚非开箱即用工具。",
+        "reading": "88：连接特权RL、视觉模仿、动作生成和双臂协调，能讲清为什么有控制先验仍要选对视觉接入方式，以及下游少示范不等于总数据/算力少；泛化结论局限于同本体三项仿真任务。"
+      },
+      "version_id": "2611.08458v1",
+      "updated": "2026-11-05T18:50:06Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/pdf/2611.08458v1",
+        "section": "原文p1上标1为UC Berkeley、2为Amazon；实习星号不改变上标机构。"
+      },
+      "mechanism": "先微调SimToolReal teacher并收集100000条成功程序化姿态对齐轨迹，将特权历史经state tokenizer/Q-Former压为任务context；flow-matching动作transformer通过cross-attention读context，通过AdaLN读本体历史与flow time。视觉阶段冻结decoder，只以动作flow loss训练DINOv2-Small与视觉Q-Former，直接生成latent而不需要特权/latent标签；双臂的两组queries共同自注意力协调后，分别结合各臂本体进入共享单臂decoder。",
+      "selection_origin": "2026-11-07 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
+    },
+    {
+      "id": "oopsierecover",
+      "short_name": "OopsieRecover",
+      "arxiv_id": "2611.08462",
+      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "authors": [
+        "Arpit Bahety",
+        "Skand Peri",
+        "Sriniket Ambatipudi",
+        "Chen Xu",
+        "Haruki Nishimura",
+        "Masha Itkina",
+        "Roberto Martín-Martín"
+      ],
+      "affiliations": [
+        "The University of Texas at Austin",
+        "Toyota Research Institute"
+      ],
+      "track": "manipulation",
+      "published": "2026-11-05T18:53:16Z",
+      "project_url": "https://robin-lab.cs.utexas.edu/oopsierecover/",
+      "code_url": null,
+      "scope": "冻结π0.5的局部语义纠正；RoboCasa三仿真任务和DROID三实机任务的位姿/场景变化。实机指标为完成阶段比例，非完整任务成功率",
+      "reading_question": "纠正机器人一次，它记住的是那条手的轨迹，还是“别碰到咖啡机”这条规则？把几何意图单独存起来，能否在换场景后继续帮冻结VLA选动作？",
+      "selection_reason": "完整v1机制、同干预数据对照、三任务仿真迁移与实机progress支持有限系统贡献。按预印本原文导读收录；保留无组件消融、阶段评分细则和运行配置缺失，不用有争议峰值抬高结论。",
+      "evidence_summary": "Fig4三仿真任务每任务5–8次纠正，对照同数据HG-DAgger*/OLAF及仅任务文字VLS；按三任务汇总且论文称每方法50episodes，L1/L2为独立最佳统计组、L0与HG共享组。DROID三任务每任务3–6纠正，官网明确20rollouts/方法/任务/level；作者报告task progress均值从基策略π0.5的35.1%升至61.0%，L0/L2与基策略分开而L1不分开，未给逐任务stage表。Q3单次纠正在10个陌生场景均触发并避免蒸汽手柄碰撞100步。无组件消融，Fig5峰值/比较次数文本存在冲突，不采用其精确峰值；也不把局部避碰称通用安全。",
+      "embodied_relevance": "直接处理机器人部署中的人类纠正、语义几何接地、动作候选预测与实机反馈，连接模仿学习和测试时策略修正。",
+      "year": 2026,
+      "venue_status": "preprint",
+      "venue": null,
+      "source_url": "https://arxiv.org/abs/2611.08462v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08462v1",
+      "reading_version": "arXiv v1; 9 pages; no appendix in selected PDF",
+      "latest_arxiv_version_observed": "v1",
+      "first_author": "Arpit Bahety",
+      "first_arxiv_submission": "2026-11-05T18:53:16Z",
+      "first_arxiv_submission_shanghai": "2026-11-06T02:53:16+08:00",
+      "checked_at": "2026-11-07",
+      "editorial_status": "source_verified",
+      "editorial_status_label": "机制与实验初读，全文待制作",
+      "note": "所读9页arXiv v1与官方8页PDF有差异。实机结果按完成阶段比例报告；正文与图线不一致的Fig5精确峰值留待更正。",
+      "code_availability": "官方项目有方法、实验与视频；当前页面链接及两条精确搜索未定位论文专属实现、配置或权重。没有运行复现，不采用聚合站“code released”标签。",
+      "reading_version_url": "https://arxiv.org/pdf/2611.08462v1",
+      "reading_version_sha256": "940d68450966b7193087301814b80a7ca222d7d5d8286290bfd212699ac7fe5c",
+      "pdf_sha256": "940d68450966b7193087301814b80a7ca222d7d5d8286290bfd212699ac7fe5c",
+      "score_axis_reasons": {
+        "innovation": "78：将少量轨迹干预与人类纠正语义转成局部激活的几何代价，复用冻结VLA候选并跨场景重新定位实体，形成清楚的纠正接口。VLM代价生成、关键点/点集、重排序和人类干预各有前作，贡献在局部纠正规则的推断、校准与运行连接。",
+        "evidence": "64：三仿真任务、同纠正数据HG-DAgger*/OLAF和文字VLS对照、L1/L2变化以及三实机任务支持有限系统效果；实机20回合/方法/任务/level与统计分组可核。无组件消融，实机阶段评分细则、部分超参及运行延迟未展开，Fig5峰值与版本图表有冲突，故不采用精确峰值或强因果结论。",
+        "reuse": "50：9页版本化原文、公式和官方项目视频可追溯，能理解接口与校准逻辑。未定位专属实现/权重/配置，K/H/B、VLM配置及grasp-based动力学细则缺失；仿真还直接使用模拟器预测，不认作可直接部署的完整开源栈。",
+        "reading": "84：可清楚对照“把纠正当状态—动作样本”和“把纠正当局部规则”，贯通语义定位、点集几何、成本校准、候选动作与测试时反馈，也适合区分经验一致性检查与安全保证。"
+      },
+      "version_id": "2611.08462v1",
+      "updated": "2026-11-05T18:53:16Z",
+      "screening_status": "selected",
+      "affiliations_verified": true,
+      "affiliation_source": {
+        "url": "https://arxiv.org/abs/2611.08462v1",
+        "section": "v1首页1=UT Austin、2=Toyota Research Institute；官方项目展开大学全称。"
+      },
+      "mechanism": "人接管时提供纠正轨迹、语言和纠正类别。VLM选语义实体种子，分割与深度把区域变成3D点集，质心时间轨迹用于生成gate×(纠正代价+λ任务代价)。触发阈值从同类记录中gate=1的干预前分数取最小；用人类/后续基策略窗口的较低成本及触发检查做经验一致性核验，失败促使程序细化，但预算耗尽仍保留最后程序。部署重新定位实体，从冻结π0.5采样动作块并可加cardinal actions，预测点集后按折扣成本筛最优；仿真用模拟器物理，实机用grasp-based近似。",
+      "selection_origin": "2026-11-07 原文与相关附录核读后收录；仅原文与相关附录核验导读，非完整精讲。"
     }
   ],
   "screening": {
-    "direction_candidates": 143,
+    "direction_candidates": 134,
     "selected_this_run": 3,
-    "selected_total": 24,
-    "rule": "三路各60条均触顶，143去重候选；另查80条最新更新、106既有身份及有界实验室/刊会入口。HALO、cuRoboV2-Fast、Ctrl-F原文及相关附录初读收录；Motion-Guided/ReWorld证据缺口暂缓，未读不判质量。"
+    "selected_total": 27,
+    "rule": "三路各60条均触顶，134去重候选；另查80条最新更新、109既有身份及有界实验室/刊会入口。La-JEPA、Latent RL Prior、OopsieRecover原文及相关附录核读收录；MAC-v2方法/对照配置缺口暂缓，未读不判质量。"
   },
   "supplemental_checks": [
     {
@@ -1541,6 +1729,35 @@
         "https://arxiv.org/abs/2611.05507v1",
         "https://arxiv.org/pdf/2611.05507v1",
         "https://forcectrl.github.io/"
+      ]
+    },
+    {
+      "id": "la-jepa",
+      "checked_at": "2026-11-07T08:55:34+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2611.08156v1",
+        "https://arxiv.org/pdf/2611.08156v1"
+      ]
+    },
+    {
+      "id": "latent-rl-prior",
+      "checked_at": "2026-11-07T08:55:34+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2611.08458v1",
+        "https://arxiv.org/pdf/2611.08458v1",
+        "https://yixiaowang7.github.io/latent-rl-prior-page/"
+      ]
+    },
+    {
+      "id": "oopsierecover",
+      "checked_at": "2026-11-07T08:55:34+08:00",
+      "kind": "daily_primary_source_screen",
+      "sources": [
+        "https://arxiv.org/abs/2611.08462v1",
+        "https://arxiv.org/pdf/2611.08462v1",
+        "https://robin-lab.cs.utexas.edu/oopsierecover/"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "provider": "OpenAlex / Semantic Scholar (per-record)",
   "rule": "每篇一个原研究记录，不相加版本或数据库。正式刊会沿用已核出版身份的OpenAlex；本次14篇预印本按精确arXiv ID优先Semantic Scholar，再用已核OpenAlex，不按较大数挑源。各条留来源、日期、原值和其他快照。未知引文年份不计近期，R可为下界。",
   "papers": [
@@ -4913,6 +4913,68 @@
       "publication_date": "2026-11-03",
       "publication_date_precision": "day",
       "publication_date_source": "https://arxiv.org/abs/2611.05507v1",
+      "source_count_zero_is_observed": false
+    },
+    {
+      "paper_id": "la-jepa",
+      "checked_at": "2026-11-07T08:48:43.397735+08:00",
+      "status": "unavailable",
+      "provider": "Semantic Scholar / OpenAlex attempted",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": null,
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+      "match_note": "S2精确arXiv请求429，OpenAlex精确DOI404；未获得身份匹配引文记录，累计/近期引用均保留null。",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156"
+      ],
+      "edition": "arXiv:2611.08156v1",
+      "publication_date": "2026-11-05",
+      "publication_date_precision": "day",
+      "publication_date_source": "https://arxiv.org/abs/2611.08156v1",
+      "source_count_zero_is_observed": false
+    },
+    {
+      "paper_id": "latent-rl-prior",
+      "checked_at": "2026-11-07T08:49:47+08:00",
+      "status": "unavailable",
+      "provider": "Semantic Scholar / OpenAlex attempted",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": null,
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+      "match_note": "S2精确arXiv429；OpenAlex精确DOI404，标题搜索前5返回均非本研究，不采用其他作品引用；原始计量保持null。",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+        "https://huggingface.co/api/papers/2611.08458",
+        "https://api.openalex.org/works?filter=locations.source.id:s4306400194&search=Latent%20RL%20Priors%20for%20Data-Efficient%20Dexterous%20Manipulation&per-page=5",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458"
+      ],
+      "edition": "arXiv:2611.08458v1",
+      "publication_date": "2026-11-05",
+      "publication_date_precision": "day",
+      "publication_date_source": "https://arxiv.org/abs/2611.08458v1",
+      "source_count_zero_is_observed": false
+    },
+    {
+      "paper_id": "oopsierecover",
+      "checked_at": "2026-11-07T08:50:55+08:00",
+      "status": "unavailable",
+      "provider": "Semantic Scholar / OpenAlex attempted",
+      "citation_count": null,
+      "recent_citation_count": null,
+      "counts_by_year": null,
+      "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+      "match_note": "S2精确arXiv429；OpenAlex精确DOI404。无身份匹配计量，引用保持null。",
+      "attempted_sources": [
+        "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+        "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462"
+      ],
+      "edition": "arXiv:2611.08462v1",
+      "publication_date": "2026-11-05",
+      "publication_date_precision": "day",
+      "publication_date_source": "https://arxiv.org/abs/2611.08462v1",
       "source_count_zero_is_observed": false
     }
   ]

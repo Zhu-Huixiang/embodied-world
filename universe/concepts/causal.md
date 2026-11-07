@@ -25,6 +25,7 @@
 - [Trajectory Transformer](../papers/trajectory-transformer.md) · 机制导读 · [原文](https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html)
 - [Transformer](../papers/attention.md) · 已精讲 · [原文](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
 - [ModAR](../papers/modar.md) · 机制导读 · [原文](https://arxiv.org/abs/2609.17524v1)
+- [La-JEPA](../papers/la-jepa.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08156v1)
 - [ARC](../papers/arc.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12386v1)
 - [PLaW-VLA](../papers/plaw-vla.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12285v1)
 

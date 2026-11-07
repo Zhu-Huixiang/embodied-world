@@ -34,6 +34,8 @@
 - [DreamFree](../papers/dreamfree.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.04527v1)
 - [HALO](../papers/halo.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06908v1)
 - [Ctrl-F](../papers/ctrl-f.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05507v1)
+- [La-JEPA](../papers/la-jepa.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08156v1)
+- [Latent RL Prior](../papers/latent-rl-prior.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08458v1)
 - [Dex-One2Many](../papers/dex-one2many.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12470v1)
 - [Balanced Data Diet](../papers/balanced-data-diet.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12465v1)
 

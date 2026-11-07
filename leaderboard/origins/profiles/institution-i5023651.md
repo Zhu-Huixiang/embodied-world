@@ -1,6 +1,6 @@
 # 麦吉尔大学
 
-本仓已收录工作主要涉及：强化学习与离线决策、具身感知与场景表示。
+本仓已收录工作主要涉及：强化学习与离线决策、具身感知与场景表示、世界动作模型。
 
 **类型**：大学。
 
@@ -17,6 +17,7 @@
 | --- | --- | --- | --- |
 | [I-JEPA · Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](../../../library/i-jepa.md) | 2023 / [CVPR](../../../venues/CVPR/README.md) | [具身感知与场景表示](../../../paper-map/README.md#track-embodied-perception) | [90.0](../../papers/i-jepa/README.md) |
 | [TD3+BC · A Minimalist Approach to Offline Reinforcement Learning](../../../library/td3-bc.md) | 2021 / [NeurIPS](../../../venues/NeurIPS/README.md) | [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) | [84.8](../../papers/td3-bc/README.md) |
+| [La-JEPA · La-JEPA: Compact Robot Policies with Latent World Modeling](../../../library/la-jepa.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-la-jepa) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [61.6](../../papers/la-jepa/README.md) |
 
 ## 署名与来源
 

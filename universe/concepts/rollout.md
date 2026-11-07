@@ -31,6 +31,7 @@ Teacher forcing 与运行时自有历史之间的差异需单独检查。
 - [DiffContact](../papers/diffcontact.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.35852v2)
 - [GAR](../papers/gar.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40271v1)
 - [world2vec](../papers/world2vec.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.40637v1)
+- [OopsieRecover](../papers/oopsierecover.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08462v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

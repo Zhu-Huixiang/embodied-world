@@ -28,13 +28,14 @@
 | [东京大学](profiles/institution-i74801974.md) | 大学 | 2 | 视频动作模型与视觉推理、视觉语言动作模型 VLA |
 | [中国科学院自动化研究所模式识别国家重点实验室（NLPR）](profiles/organization-287b925331ab.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
 | [中山大学](profiles/institution-i157773358.md) | 大学 | 1 | 视频动作模型与视觉推理 |
-| [丰田研究院](profiles/institution-i4391768151.md) | 研究机构 | 6 | 操作与动作块、视觉语言动作模型 VLA、世界动作模型 |
+| [丰田研究院](profiles/institution-i4391768151.md) | 研究机构 | 7 | 操作与动作块、视觉语言动作模型 VLA、世界动作模型 |
+| [亚马逊](profiles/amazon.md) | 研究机构 | 1 | 操作与动作块 |
 | [亚马逊前沿人工智能与机器人团队](profiles/amazon-far.md) | 企业研究团队 | 1 | 操作与动作块 |
 | [亥姆霍兹慕尼黑中心](profiles/helmholtz-munich.md) | 研究机构 | 1 | 世界模型与模型强化学习 |
 | [伊利诺伊大学厄巴纳-香槟分校](profiles/organization-79eb2923dfd7.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
 | [伦敦大学学院](profiles/institution-i45129253.md) | 大学 | 3 | 世界模型与模型强化学习、Locomotion 与运动适应、视频与序列生成 |
 | [佐治亚理工学院](profiles/institution-i130701444.md) | 大学 | 3 | 具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
-| [加州大学伯克利分校](profiles/institution-i95457486.md) | 研究机构 | 29 | 视觉语言动作模型 VLA、操作与动作块、Locomotion 与运动适应、动作先验与全身技能、强化学习与离线决策、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
+| [加州大学伯克利分校](profiles/institution-i95457486.md) | 研究机构 | 30 | 操作与动作块、视觉语言动作模型 VLA、Locomotion 与运动适应、动作先验与全身技能、强化学习与离线决策、世界模型与模型强化学习、Diffusion / Transformer 基础、具身感知与场景表示、视频动作模型与视觉推理、世界动作模型 |
 | [加州大学伯克利分校人工智能研究实验室（BAIR）](profiles/berkeley-bair.md) | 研究团队 | 1 | Locomotion 与运动适应 |
 | [加州大学伯克利分校机器人与人工智能实验室（RAIL）](profiles/berkeley-rail.md) | 大学实验室 | 5 | 视觉语言动作模型 VLA、操作与动作块 |
 | [加州大学伯克利分校混合机器人实验室](profiles/berkeley-hybrid-robotics.md) | 大学实验室 | 1 | 动作先验与全身技能 |
@@ -44,6 +45,7 @@
 | [动力学推断实验室](profiles/dynamical-inference-lab.md) | 研究团队 | 1 | 世界模型与模型强化学习 |
 | [北京大学](profiles/peking-university.md) | 大学 | 1 | 操作与动作块 |
 | [北卡罗来纳大学教堂山分校](profiles/institution-i114027177.md) | 研究机构 | 1 | 视频动作模型与视觉推理 |
+| [华为](profiles/huawei.md) | 研究机构 | 1 | 世界动作模型 |
 | [华盛顿大学](profiles/institution-i201448701.md) | 大学 | 4 | 操作与动作块、Locomotion 与运动适应 |
 | [华盛顿大学机器人与状态估计实验室（RSE）](profiles/uw-rse.md) | 大学实验室 | 2 | 操作与动作块 |
 | [南方科技大学](profiles/institution-i3045169105.md) | 大学 | 1 | 视频动作模型与视觉推理 |
@@ -60,7 +62,7 @@
 | [地平线 GAIL 研究团队](profiles/horizon-gail.md) | 研究团队 | 1 | 视觉语言动作模型 VLA |
 | [地平线机器人](profiles/institution-i4401726824.md) | 研究机构 | 1 | 视觉语言动作模型 VLA |
 | [复旦大学](profiles/institution-i24943067.md) | 大学 | 1 | 视频动作模型与视觉推理 |
-| [多伦多大学](profiles/institution-i185261750.md) | 大学 | 5 | 世界模型与模型强化学习、动作先验与全身技能、Diffusion / Transformer 基础 |
+| [多伦多大学](profiles/institution-i185261750.md) | 大学 | 6 | 世界模型与模型强化学习、动作先验与全身技能、Diffusion / Transformer 基础、世界动作模型 |
 | [宾夕法尼亚大学](profiles/institution-i79576946.md) | 大学 | 3 | 具身感知与场景表示、操作与动作块 |
 | [密歇根大学](profiles/organization-79621155f9fe.md) | 论文署名机构 | 1 | 视频与序列生成 |
 | [巴伊兰大学](profiles/organization-9d736e5b8263.md) | 论文署名机构 | 1 | 动作先验与全身技能 |
@@ -69,7 +71,7 @@
 | [布朗大学](profiles/organization-758dffc272f5.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
 | [延世大学](profiles/organization-a49c368d010d.md) | 论文署名机构 | 1 | 操作与动作块 |
 | [得克萨斯农工大学](profiles/organization-c16524fc0e5c.md) | 论文署名机构 | 1 | 世界模型与模型强化学习 |
-| [得克萨斯大学奥斯汀分校](profiles/institution-i86519309.md) | 大学 | 10 | 操作与动作块、视觉语言动作模型 VLA、视频与序列生成、Diffusion / Transformer 基础、Locomotion 与运动适应 |
+| [得克萨斯大学奥斯汀分校](profiles/institution-i86519309.md) | 大学 | 11 | 操作与动作块、视觉语言动作模型 VLA、视频与序列生成、Diffusion / Transformer 基础、Locomotion 与运动适应 |
 | [得克萨斯大学奥斯汀分校机器人感知与学习实验室（RPL）](profiles/ut-austin-rpl.md) | 大学实验室 | 4 | 操作与动作块 |
 | [微软亚洲研究院](profiles/institution-i4210113369.md) | 研究机构 | 1 | 视频动作模型与视觉推理 |
 | [悉尼大学](profiles/organization-c2e86c609cce.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
@@ -136,12 +138,12 @@
 | [马克斯·普朗克信息学研究所](profiles/institution-i4210109712.md) | 研究机构 | 1 | 具身感知与场景表示 |
 | [马克斯·普朗克智能系统研究所](profiles/organization-595d930f30ef.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
 | [马里兰大学](profiles/organization-86954201c780.md) | 论文署名机构 | 3 | 操作与动作块、世界动作模型 |
-| [魁北克人工智能研究所（Mila）](profiles/institution-i4210164802.md) | 研究机构 | 4 | 世界模型与模型强化学习、强化学习与离线决策、具身感知与场景表示 |
+| [魁北克人工智能研究所（Mila）](profiles/institution-i4210164802.md) | 研究机构 | 5 | 世界模型与模型强化学习、强化学习与离线决策、具身感知与场景表示、世界动作模型 |
 | [魏茨曼科学研究所](profiles/organization-9bf9b55ec0a7.md) | 论文署名机构 | 1 | Diffusion / Transformer 基础 |
 | [麦卡莱斯特学院](profiles/organization-53a251c2303c.md) | 论文署名机构 | 1 | 视觉语言动作模型 VLA |
-| [麦吉尔大学](profiles/institution-i5023651.md) | 大学 | 2 | 强化学习与离线决策、具身感知与场景表示 |
+| [麦吉尔大学](profiles/institution-i5023651.md) | 大学 | 3 | 强化学习与离线决策、具身感知与场景表示、世界动作模型 |
 | [麻省理工学院](profiles/institution-i63966007.md) | 研究机构 | 8 | 视频动作模型与视觉推理、Locomotion 与运动适应、视觉语言动作模型 VLA、操作与动作块、视频与序列生成、世界动作模型 |
 | [麻省理工学院 Improbable AI 实验室](profiles/organization-097f98bc9e89.md) | 论文署名机构 | 1 | Locomotion 与运动适应 |
 | [麻省理工学院计算机科学与人工智能实验室（CSAIL）](profiles/mit-csail.md) | 大学研究中心 | 1 | 视频与序列生成 |
 
-目录更新：2026-11-06。
+目录更新：2026-11-07。

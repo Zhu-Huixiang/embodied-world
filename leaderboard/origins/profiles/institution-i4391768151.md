@@ -21,6 +21,7 @@
 | [Open X-Embodiment · Open X-Embodiment: Robotic Learning Datasets and RT-X Models](../../../library/rtx.md) | 2024 / [ICRA](../../../venues/ICRA/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [84.8](../../papers/rtx/README.md) |
 | [OpenVLA · OpenVLA: An Open-Source Vision-Language-Action Model](../../../library/openvla.md) | 2024 / [CoRL](../../../venues/CoRL/README.md) | [视觉语言动作模型 VLA](../../../paper-map/README.md#track-vla) | [84.5](../../papers/openvla/README.md) |
 | [TAPESTRY · TAPESTRY: A Single Backbone for Video Generation and Robot Control](../../../library/tapestry.md) | 2026 / [CoRL](../../../venues/CoRL/README.md) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [69.6](../../papers/tapestry/README.md) |
+| [OopsieRecover · OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions](../../../library/oopsierecover.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-oopsierecover) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [56.3](../../papers/oopsierecover/README.md) |
 
 ## 署名与来源
 

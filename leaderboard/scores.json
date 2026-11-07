@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "methodology_version": 3,
   "venue_profiles": "../venues/profiles.json",
   "dimensions": [
@@ -58655,6 +58655,384 @@
       "rank": 127
     },
     {
+      "id": "la-jepa",
+      "checked_at": "2026-11-07",
+      "short_name": "La-JEPA",
+      "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "year": 2026,
+      "navigation": {
+        "track": "world-action-model",
+        "track_label": "世界动作模型",
+        "track_path": "paper-map/README.md#track-world-action-model",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-la-jepa",
+        "reading_path": "library/la-jepa.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/la-jepa.md",
+        "card_path": "leaderboard/papers/la-jepa/README.md"
+      },
+      "origin": {
+        "label": "Mateo Clémente · 华为 / 多伦多大学 · 另2个机构",
+        "author_label": "Mateo Clémente",
+        "institution_label": "华为 / 多伦多大学 · 另2个机构",
+        "search": "Mateo Clémente Mateo Clémente George Z. Xue Amin Abyaneh Liheng Ma Rui Heng Yang Tongtong Cao Zhanguang Zhang Yingxue Zhang Mateo Clémente Huawei Technologies Ltd. University of Toronto McGill University Mila – Quebec Artificial Intelligence Institute 华为 多伦多大学 麦吉尔大学 魁北克人工智能研究所（Mila） 华为 多伦多大学 麦吉尔大学 魁北克人工智能研究所（Mila） Huawei Technologies Ltd. Huawei Technologies Ltd. Huawei 华为 University of Toronto University of Toronto 多伦多大学 McGill University McGill University 麦吉尔大学 Mila - Quebec Artificial Intelligence Institute Mila - Quebec Artificial Intelligence Institute 魁北克人工智能研究所（Mila）",
+        "keys": [
+          "huawei",
+          "institution-i185261750",
+          "institution-i5023651",
+          "institution-i4210164802"
+        ],
+        "profiles": [
+          {
+            "key": "huawei",
+            "label": "华为",
+            "search": "Huawei Technologies Ltd. Huawei Technologies Ltd. Huawei 华为"
+          },
+          {
+            "key": "institution-i185261750",
+            "label": "多伦多大学",
+            "search": "University of Toronto University of Toronto 多伦多大学"
+          },
+          {
+            "key": "institution-i5023651",
+            "label": "麦吉尔大学",
+            "search": "McGill University McGill University 麦吉尔大学"
+          },
+          {
+            "key": "institution-i4210164802",
+            "label": "魁北克人工智能研究所（Mila）",
+            "search": "Mila - Quebec Artificial Intelligence Institute Mila - Quebec Artificial Intelligence Institute 魁北克人工智能研究所（Mila）"
+          }
+        ],
+        "path": "leaderboard/origins/papers/la-jepa.md"
+      },
+      "scores": {
+        "innovation": 80,
+        "evidence": 84,
+        "reuse": 60,
+        "reading": 86,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 61.6,
+      "score_exact": "61.62",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "80：把策略骨干与感知预训练解耦，在V-JEPA 2.1表征中从头训练小型World/Action DiT，以联合未来监督提升动作学习，再在部署删去未来分支。改变了继承大生成骨干的接口选择；注意力隔离和训练预测/部署动作分离明确继承Fast-WAM/Faster-WAM，不能把全部架构当新发明。 84：两套模拟基准主结果各三训练seed，RoboTwin每条件每seed 5000回合；多组设计消融、匹配指令的基线重测与四任务实机（除LingBot-VA餐具仅10次外，每任务20次）支持贡献。多数消融单seed且与主结果管线不同，跨论文RoboTwin基线训练/取值来源混合，实机单平台且小样本；延迟未提供具体GPU型号。 60：30页原文与A–E附录给出架构、训练、数据过滤、注意力掩码、推理缓存和评测协议，机制可学。论文称代码可用，实际专属仓库此刻为空，未取得实现、权重或许可，尚不能开箱复现；保留空库实际状态并待后续复查。 86：把JEPA表征、流匹配、训练时世界监督、部署计算和评测文本混杂连在一起，是理解WAM何时需要预测未来的重要桥梁。小策略与冻结大编码器的参数口径、校正前后排名提供可教的比较边界；不是所有具身路线的共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08156v1"
+          ],
+          "review_depth": "30页主文、参考文献与附录A–E全部文本已读；完整PDF页1/4/6/10/16/17/19/23/24/27已亲自目视核身份、架构、原图与表格。此为原文筛选与机制登记，不是完成中文精讲或代码复现"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "80：把策略骨干与感知预训练解耦，在V-JEPA 2.1表征中从头训练小型World/Action DiT，以联合未来监督提升动作学习，再在部署删去未来分支。改变了继承大生成骨干的接口选择；注意力隔离和训练预测/部署动作分离明确继承Fast-WAM/Faster-WAM，不能把全部架构当新发明。 84：两套模拟基准主结果各三训练seed，RoboTwin每条件每seed 5000回合；多组设计消融、匹配指令的基线重测与四任务实机（除LingBot-VA餐具仅10次外，每任务20次）支持贡献。多数消融单seed且与主结果管线不同，跨论文RoboTwin基线训练/取值来源混合，实机单平台且小样本；延迟未提供具体GPU型号。 60：30页原文与A–E附录给出架构、训练、数据过滤、注意力掩码、推理缓存和评测协议，机制可学。论文称代码可用，实际专属仓库此刻为空，未取得实现、权重或许可，尚不能开箱复现；保留空库实际状态并待后续复查。 86：把JEPA表征、流匹配、训练时世界监督、部署计算和评测文本混杂连在一起，是理解WAM何时需要预测未来的重要桥梁。小策略与冻结大编码器的参数口径、校正前后排名提供可教的比较边界；不是所有具身路线的共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08156v1"
+          ],
+          "review_depth": "30页主文、参考文献与附录A–E全部文本已读；完整PDF页1/4/6/10/16/17/19/23/24/27已亲自目视核身份、架构、原图与表格。此为原文筛选与机制登记，不是完成中文精讲或代码复现"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "80：把策略骨干与感知预训练解耦，在V-JEPA 2.1表征中从头训练小型World/Action DiT，以联合未来监督提升动作学习，再在部署删去未来分支。改变了继承大生成骨干的接口选择；注意力隔离和训练预测/部署动作分离明确继承Fast-WAM/Faster-WAM，不能把全部架构当新发明。 84：两套模拟基准主结果各三训练seed，RoboTwin每条件每seed 5000回合；多组设计消融、匹配指令的基线重测与四任务实机（除LingBot-VA餐具仅10次外，每任务20次）支持贡献。多数消融单seed且与主结果管线不同，跨论文RoboTwin基线训练/取值来源混合，实机单平台且小样本；延迟未提供具体GPU型号。 60：30页原文与A–E附录给出架构、训练、数据过滤、注意力掩码、推理缓存和评测协议，机制可学。论文称代码可用，实际专属仓库此刻为空，未取得实现、权重或许可，尚不能开箱复现；保留空库实际状态并待后续复查。 86：把JEPA表征、流匹配、训练时世界监督、部署计算和评测文本混杂连在一起，是理解WAM何时需要预测未来的重要桥梁。小策略与冻结大编码器的参数口径、校正前后排名提供可教的比较边界；不是所有具身路线的共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08156v1"
+          ],
+          "review_depth": "30页主文、参考文献与附录A–E全部文本已读；完整PDF页1/4/6/10/16/17/19/23/24/27已亲自目视核身份、架构、原图与表格。此为原文筛选与机制登记，不是完成中文精讲或代码复现"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "80：把策略骨干与感知预训练解耦，在V-JEPA 2.1表征中从头训练小型World/Action DiT，以联合未来监督提升动作学习，再在部署删去未来分支。改变了继承大生成骨干的接口选择；注意力隔离和训练预测/部署动作分离明确继承Fast-WAM/Faster-WAM，不能把全部架构当新发明。 84：两套模拟基准主结果各三训练seed，RoboTwin每条件每seed 5000回合；多组设计消融、匹配指令的基线重测与四任务实机（除LingBot-VA餐具仅10次外，每任务20次）支持贡献。多数消融单seed且与主结果管线不同，跨论文RoboTwin基线训练/取值来源混合，实机单平台且小样本；延迟未提供具体GPU型号。 60：30页原文与A–E附录给出架构、训练、数据过滤、注意力掩码、推理缓存和评测协议，机制可学。论文称代码可用，实际专属仓库此刻为空，未取得实现、权重或许可，尚不能开箱复现；保留空库实际状态并待后续复查。 86：把JEPA表征、流匹配、训练时世界监督、部署计算和评测文本混杂连在一起，是理解WAM何时需要预测未来的重要桥梁。小策略与冻结大编码器的参数口径、校正前后排名提供可教的比较边界；不是所有具身路线的共同前置。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08156v1"
+          ],
+          "review_depth": "30页主文、参考文献与附录A–E全部文本已读；完整PDF页1/4/6/10/16/17/19/23/24/27已亲自目视核身份、架构、原图与表格。此为原文筛选与机制登记，不是完成中文精讲或代码复现"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "版本化完整原文可追溯，公开阶段60。投稿中不增加评审分；没有已核独立复现或正式录用记录；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2611.08156v1",
+            "https://arxiv.org/pdf/2611.08156v1",
+            "https://georgexue.com/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.08156v1",
+            "https://arxiv.org/pdf/2611.08156v1",
+            "https://georgexue.com/",
+            "https://github.com/mt-clemente/lajepa",
+            "https://api.github.com/repos/mt-clemente/lajepa",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156",
+            "https://huggingface.co/api/papers/2611.08156"
+          ],
+          "checked_at": "2026-11-07T08:53:34.665877+08:00",
+          "reason": "引用未匹配且未核独立技术采用，按有来源证据量表起点0；原始引用保留null，0不表示实际影响总量。",
+          "audit_scope": "全文、精确题目/ID两查询、作者公开主页、精确S2/OpenAlex/HF请求、专属仓库元数据/contents；有界范围不穷尽全网。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.08156v1",
+                "https://arxiv.org/pdf/2611.08156v1",
+                "https://georgexue.com/",
+                "https://github.com/mt-clemente/lajepa",
+                "https://api.github.com/repos/mt-clemente/lajepa",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156",
+                "https://huggingface.co/api/papers/2611.08156"
+              ],
+              "checked_at": "2026-11-07T08:53:34.665877+08:00",
+              "reason": "引用未匹配且未核独立技术采用，按有来源证据量表起点0；原始引用保留null，0不表示实际影响总量。",
+              "audit_scope": "全文、精确题目/ID两查询、作者公开主页、精确S2/OpenAlex/HF请求、专属仓库元数据/contents；有界范围不穷尽全网。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.08156v1",
+            "https://arxiv.org/pdf/2611.08156v1",
+            "https://georgexue.com/",
+            "https://github.com/mt-clemente/lajepa",
+            "https://api.github.com/repos/mt-clemente/lajepa",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156",
+            "https://huggingface.co/api/papers/2611.08156"
+          ],
+          "checked_at": "2026-11-07T08:53:34.665877+08:00",
+          "reason": "未核独立讨论或逐篇计数；专属新仓库实测star和订阅均0，最终依现有公式取最高信号，证据起点0。",
+          "audit_scope": "全文、精确题目/ID两查询、作者公开主页、精确S2/OpenAlex/HF请求、专属仓库元数据/contents；有界范围不穷尽全网。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.08156v1",
+                "https://arxiv.org/pdf/2611.08156v1",
+                "https://georgexue.com/",
+                "https://github.com/mt-clemente/lajepa",
+                "https://api.github.com/repos/mt-clemente/lajepa",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156",
+                "https://huggingface.co/api/papers/2611.08156"
+              ],
+              "checked_at": "2026-11-07T08:53:34.665877+08:00",
+              "reason": "未核独立讨论或逐篇计数；专属新仓库实测star和订阅均0，最终依现有公式取最高信号，证据起点0。",
+              "audit_scope": "全文、精确题目/ID两查询、作者公开主页、精确S2/OpenAlex/HF请求、专属仓库元数据/contents；有界范围不穷尽全网。"
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "github 的论文专属入口：专属GitHub仓库star=0；按10000上限对数压缩。",
+              "sources": [
+                "https://arxiv.org/pdf/2611.08156v1",
+                "https://api.github.com/repos/mt-clemente/lajepa",
+                "https://api.github.com/repos/mt-clemente/lajepa/contents",
+                "https://github.com/mt-clemente/lajepa"
+              ],
+              "snapshot": {
+                "url": "https://github.com/mt-clemente/lajepa",
+                "platform": "github",
+                "metric": "stars",
+                "count": 0,
+                "checked_at": "2026-11-07T08:48:58.269000+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-11-05",
+                "window_end": "2026-11-07",
+                "label": "专属GitHub仓库star",
+                "window_label": "近期窗口内新建论文专属仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            },
+            {
+              "method": "platform_attention",
+              "score": 0.0,
+              "reason": "github 的论文专属入口：GitHub订阅者=0；按1000上限对数压缩。",
+              "sources": [
+                "https://arxiv.org/pdf/2611.08156v1",
+                "https://api.github.com/repos/mt-clemente/lajepa",
+                "https://api.github.com/repos/mt-clemente/lajepa/contents",
+                "https://github.com/mt-clemente/lajepa"
+              ],
+              "snapshot": {
+                "url": "https://github.com/mt-clemente/lajepa",
+                "platform": "github",
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-11-07T08:48:58.269000+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-11-05",
+                "window_end": "2026-11-07",
+                "label": "GitHub订阅者",
+                "window_label": "近期窗口内新建论文专属仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "la-jepa",
+        "checked_at": "2026-11-07T08:48:43.397735+08:00",
+        "status": "unavailable",
+        "provider": "Semantic Scholar / OpenAlex attempted",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": null,
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+        "match_note": "S2精确arXiv请求429，OpenAlex精确DOI404；未获得身份匹配引文记录，累计/近期引用均保留null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156"
+        ],
+        "edition": "arXiv:2611.08156v1",
+        "publication_date": "2026-11-05",
+        "publication_date_precision": "day",
+        "publication_date_source": "https://arxiv.org/abs/2611.08156v1",
+        "source_count_zero_is_observed": false
+      },
+      "social": {
+        "checked_at": "2026-11-07T08:48:58.269000+08:00",
+        "resources": [
+          {
+            "platform": "github",
+            "resource_kind": "repository",
+            "id": "mt-clemente/lajepa",
+            "url": "https://github.com/mt-clemente/lajepa",
+            "api_url": "https://api.github.com/repos/mt-clemente/lajepa",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "identity_basis": "原文首页明确代码URL，指向精确专属仓库；仓库为空，不以无README为由编造内容。",
+            "sources": [
+              "https://arxiv.org/pdf/2611.08156v1",
+              "https://api.github.com/repos/mt-clemente/lajepa",
+              "https://api.github.com/repos/mt-clemente/lajepa/contents"
+            ],
+            "created_at": "2026-11-05T00:41:37Z",
+            "metrics": [
+              {
+                "metric": "stars",
+                "count": 0,
+                "checked_at": "2026-11-07T08:48:58.269000+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-11-05",
+                "window_end": "2026-11-07",
+                "label": "专属GitHub仓库star",
+                "window_label": "近期窗口内新建论文专属仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              },
+              {
+                "metric": "subscribers",
+                "count": 0,
+                "checked_at": "2026-11-07T08:48:58.269000+08:00",
+                "window_kind": "cumulative",
+                "window_start": "2026-11-05",
+                "window_end": "2026-11-07",
+                "label": "GitHub订阅者",
+                "window_label": "近期窗口内新建论文专属仓库累计快照",
+                "eligible_recent_attention": true,
+                "eligible_academic_impact": false
+              }
+            ],
+            "forks": 0,
+            "availability_note": "size=0，contents404明确This repository is empty；当前代码、权重、许可均未取得。",
+            "limitations": [
+              "0是本次源观测值，不是缺失代填。",
+              "空库创建行为不算采用或传播；不采用作者账户粉丝数。",
+              "未执行复现，论文代码可用表述与实际空库有差异。"
+            ]
+          },
+          {
+            "platform": "author",
+            "resource_kind": "website",
+            "url": "https://georgexue.com/",
+            "scope": "multiple_papers",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/pdf/2611.08156v1",
+              "https://georgexue.com/"
+            ],
+            "metrics": [],
+            "raw_page_views": null,
+            "availability_note": "二作主页支持论文身份与ICLR2027 under review投稿说法；无逐篇传播计数。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "精确题目/ID搜索只见原文、作者页与自动聚合/摘要；没有核到独立技术采用，不用转载页面数填影响。",
+        "unavailable_metrics": {
+          "citation_count": null,
+          "recent_citation_count": null,
+          "hf_upvotes": null,
+          "hf_downloads": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "failed_sources": [
+          {
+            "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08156?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+            "checked_at": "2026-11-07T08:48:43.397735+08:00",
+            "http_status": 429,
+            "metric_count": null,
+            "reason": "精确ID限流；引用保持null。"
+          },
+          {
+            "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08156",
+            "checked_at": "2026-11-07T08:48:43.398023+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "精确身份未匹配；计数保持null，不推断全网没有相关资产。"
+          },
+          {
+            "url": "https://huggingface.co/api/papers/2611.08156",
+            "checked_at": "2026-11-07T08:48:43.398114+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "精确身份未匹配；计数保持null，不推断全网没有相关资产。"
+          }
+        ]
+      },
+      "editorial": {
+        "checked_at": "2026-11-07",
+        "scores": {
+          "innovation": 80,
+          "evidence": 84,
+          "reuse": 60,
+          "reading": 86
+        },
+        "mechanism": "La-JEPA以预训练V-JEPA 2.1 ViT-L编码当前两帧和32帧范围内的未来16帧，FLAN-T5-large编码语言，本体投影为条件token。在该表征空间从头训练World DiT和Action DiT，分别对未来特征与32步动作块做独立时间的流匹配。观测只读观测、未来读观测和未来、动作只读观测和动作；未来损失通过共享World参数影响观测表示。部署删除未来token，固定World时间0并缓存观测K/V，仅对动作做10步Euler积分，LIBERO执行10步、RoboTwin执行24步后重规划。最终观测编码器用LoRA和增强，未来目标保持原冻结编码器的干净特征；无需像素解码。",
+        "reason": "80：把策略骨干与感知预训练解耦，在V-JEPA 2.1表征中从头训练小型World/Action DiT，以联合未来监督提升动作学习，再在部署删去未来分支。改变了继承大生成骨干的接口选择；注意力隔离和训练预测/部署动作分离明确继承Fast-WAM/Faster-WAM，不能把全部架构当新发明。 84：两套模拟基准主结果各三训练seed，RoboTwin每条件每seed 5000回合；多组设计消融、匹配指令的基线重测与四任务实机（除LingBot-VA餐具仅10次外，每任务20次）支持贡献。多数消融单seed且与主结果管线不同，跨论文RoboTwin基线训练/取值来源混合，实机单平台且小样本；延迟未提供具体GPU型号。 60：30页原文与A–E附录给出架构、训练、数据过滤、注意力掩码、推理缓存和评测协议，机制可学。论文称代码可用，实际专属仓库此刻为空，未取得实现、权重或许可，尚不能开箱复现；保留空库实际状态并待后续复查。 86：把JEPA表征、流匹配、训练时世界监督、部署计算和评测文本混杂连在一起，是理解WAM何时需要预测未来的重要桥梁。小策略与冻结大编码器的参数口径、校正前后排名提供可教的比较边界；不是所有具身路线的共同前置。",
+        "review_depth": "30页主文、参考文献与附录A–E全部文本已读；完整PDF页1/4/6/10/16/17/19/23/24/27已亲自目视核身份、架构、原图与表格。此为原文筛选与机制登记，不是完成中文精讲或代码复现"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2611.08156v1",
+        "checked_at": "2026-11-07",
+        "profile": null
+      },
+      "rank": 128
+    },
+    {
       "id": "gar",
       "checked_at": "2026-10-30",
       "short_name": "GAR",
@@ -58875,7 +59253,7 @@
         "checked_at": "2026-10-30",
         "profile": null
       },
-      "rank": 128
+      "rank": 129
     },
     {
       "id": "jedi",
@@ -59156,7 +59534,275 @@
         "checked_at": "2026-11-02",
         "profile": null
       },
-      "rank": 129
+      "rank": 130
+    },
+    {
+      "id": "latent-rl-prior",
+      "checked_at": "2026-11-07",
+      "short_name": "Latent RL Prior",
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "year": 2026,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-latent-rl-prior",
+        "reading_path": "library/latent-rl-prior.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/latent-rl-prior.md",
+        "card_path": "leaderboard/papers/latent-rl-prior/README.md"
+      },
+      "origin": {
+        "label": "Yixiao Wang · 加州大学伯克利分校 / 亚马逊",
+        "author_label": "Yixiao Wang",
+        "institution_label": "加州大学伯克利分校 / 亚马逊",
+        "search": "Yixiao Wang Yixiao Wang Peiyi Chen Mustafa Mukadam Shreekant Gayaka Masayoshi Tomizuka Son Tran University of California, Berkeley Amazon 加州大学伯克利分校 亚马逊 加州大学伯克利分校 亚马逊 University of California, Berkeley 伯克利 加州大学伯克利分校 UC Berkeley University of California, Berkeley Amazon Amazon 亚马逊",
+        "keys": [
+          "institution-i95457486",
+          "amazon"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i95457486",
+            "label": "加州大学伯克利分校",
+            "search": "University of California, Berkeley 伯克利 加州大学伯克利分校 UC Berkeley University of California, Berkeley"
+          },
+          {
+            "key": "amazon",
+            "label": "亚马逊",
+            "search": "Amazon Amazon 亚马逊"
+          }
+        ],
+        "path": "leaderboard/origins/papers/latent-rl-prior.md"
+      },
+      "scores": {
+        "innovation": 80,
+        "evidence": 76,
+        "reuse": 60,
+        "reading": 88,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 60.2,
+      "score_exact": "60.16",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "80：改变特权RL控制器接入视觉的接口：将RL成功rollout蒸馏为解耦本体条件的动作decoder，冻结后只以动作loss学习视觉latent，无需成对特权状态或latent标签；联合Q-Former queries把单臂先验扩为双臂。Flow Matching、Q-Former、DINOv2和策略蒸馏均继承已有组件，创新落在迁移接口与受控实证。 76：三种MuJoCo Warp任务、同结构scratch对照、latent/explicit接口、视觉和decoder学习率消融、质量变化与力探针提供多方面支撑；主实验3seed/每checkpoint256rollouts。仅同一KUKA+SHARPA形态仿真，100k对30k优化步不同，报告末5checkpoint最大值，未提供完整网络/优化超参与probe数据规模；力可读性未隔离因果机制。 60：输入/损失/冻结接口可学，复用已公开SimToolReal teacher与DINOv2，但本篇代码和数据仍coming soon，依赖100,000成功预训练rollouts且M/d/H/K、动作维度和完整优化配置未在12页稿列出；目前偏方法配方，尚非开箱即用工具。 88：连接特权RL、视觉模仿、动作生成和双臂协调，能讲清为什么有控制先验仍要选对视觉接入方式，以及下游少示范不等于总数据/算力少；泛化结论局限于同本体三项仿真任务。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08458v1"
+          ],
+          "review_depth": "12页主稿全部文字读核，含§1–6、三声明、完整参考；无附录。目视完整页1/3/5/6/7/8/9涵盖身份、Fig1–9和Table1；官方项目全文HTML读核。未看视频、未执行代码、未复现"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "80：改变特权RL控制器接入视觉的接口：将RL成功rollout蒸馏为解耦本体条件的动作decoder，冻结后只以动作loss学习视觉latent，无需成对特权状态或latent标签；联合Q-Former queries把单臂先验扩为双臂。Flow Matching、Q-Former、DINOv2和策略蒸馏均继承已有组件，创新落在迁移接口与受控实证。 76：三种MuJoCo Warp任务、同结构scratch对照、latent/explicit接口、视觉和decoder学习率消融、质量变化与力探针提供多方面支撑；主实验3seed/每checkpoint256rollouts。仅同一KUKA+SHARPA形态仿真，100k对30k优化步不同，报告末5checkpoint最大值，未提供完整网络/优化超参与probe数据规模；力可读性未隔离因果机制。 60：输入/损失/冻结接口可学，复用已公开SimToolReal teacher与DINOv2，但本篇代码和数据仍coming soon，依赖100,000成功预训练rollouts且M/d/H/K、动作维度和完整优化配置未在12页稿列出；目前偏方法配方，尚非开箱即用工具。 88：连接特权RL、视觉模仿、动作生成和双臂协调，能讲清为什么有控制先验仍要选对视觉接入方式，以及下游少示范不等于总数据/算力少；泛化结论局限于同本体三项仿真任务。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08458v1"
+          ],
+          "review_depth": "12页主稿全部文字读核，含§1–6、三声明、完整参考；无附录。目视完整页1/3/5/6/7/8/9涵盖身份、Fig1–9和Table1；官方项目全文HTML读核。未看视频、未执行代码、未复现"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "80：改变特权RL控制器接入视觉的接口：将RL成功rollout蒸馏为解耦本体条件的动作decoder，冻结后只以动作loss学习视觉latent，无需成对特权状态或latent标签；联合Q-Former queries把单臂先验扩为双臂。Flow Matching、Q-Former、DINOv2和策略蒸馏均继承已有组件，创新落在迁移接口与受控实证。 76：三种MuJoCo Warp任务、同结构scratch对照、latent/explicit接口、视觉和decoder学习率消融、质量变化与力探针提供多方面支撑；主实验3seed/每checkpoint256rollouts。仅同一KUKA+SHARPA形态仿真，100k对30k优化步不同，报告末5checkpoint最大值，未提供完整网络/优化超参与probe数据规模；力可读性未隔离因果机制。 60：输入/损失/冻结接口可学，复用已公开SimToolReal teacher与DINOv2，但本篇代码和数据仍coming soon，依赖100,000成功预训练rollouts且M/d/H/K、动作维度和完整优化配置未在12页稿列出；目前偏方法配方，尚非开箱即用工具。 88：连接特权RL、视觉模仿、动作生成和双臂协调，能讲清为什么有控制先验仍要选对视觉接入方式，以及下游少示范不等于总数据/算力少；泛化结论局限于同本体三项仿真任务。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08458v1"
+          ],
+          "review_depth": "12页主稿全部文字读核，含§1–6、三声明、完整参考；无附录。目视完整页1/3/5/6/7/8/9涵盖身份、Fig1–9和Table1；官方项目全文HTML读核。未看视频、未执行代码、未复现"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "80：改变特权RL控制器接入视觉的接口：将RL成功rollout蒸馏为解耦本体条件的动作decoder，冻结后只以动作loss学习视觉latent，无需成对特权状态或latent标签；联合Q-Former queries把单臂先验扩为双臂。Flow Matching、Q-Former、DINOv2和策略蒸馏均继承已有组件，创新落在迁移接口与受控实证。 76：三种MuJoCo Warp任务、同结构scratch对照、latent/explicit接口、视觉和decoder学习率消融、质量变化与力探针提供多方面支撑；主实验3seed/每checkpoint256rollouts。仅同一KUKA+SHARPA形态仿真，100k对30k优化步不同，报告末5checkpoint最大值，未提供完整网络/优化超参与probe数据规模；力可读性未隔离因果机制。 60：输入/损失/冻结接口可学，复用已公开SimToolReal teacher与DINOv2，但本篇代码和数据仍coming soon，依赖100,000成功预训练rollouts且M/d/H/K、动作维度和完整优化配置未在12页稿列出；目前偏方法配方，尚非开箱即用工具。 88：连接特权RL、视觉模仿、动作生成和双臂协调，能讲清为什么有控制先验仍要选对视觉接入方式，以及下游少示范不等于总数据/算力少；泛化结论局限于同本体三项仿真任务。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08458v1"
+          ],
+          "review_depth": "12页主稿全部文字读核，含§1–6、三声明、完整参考；无附录。目视完整页1/3/5/6/7/8/9涵盖身份、Fig1–9和Table1；官方项目全文HTML读核。未看视频、未执行代码、未复现"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "可追溯完整预印本公开阶段60，无已核正式会刊或独立技术检验；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2611.08458v1",
+            "https://arxiv.org/pdf/2611.08458v1",
+            "https://yixiaowang7.github.io/latent-rl-prior-page/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.08458v1",
+            "https://arxiv.org/pdf/2611.08458v1",
+            "https://yixiaowang7.github.io/latent-rl-prior-page/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+            "https://huggingface.co/api/papers/2611.08458",
+            "https://api.openalex.org/works?filter=locations.source.id:s4306400194&search=Latent%20RL%20Priors%20for%20Data-Efficient%20Dexterous%20Manipulation&per-page=5",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458"
+          ],
+          "checked_at": "2026-11-07T08:49:47+08:00",
+          "reason": "引用未取得身份匹配记录，未核独立技术采用；按有来源量表起点0，原始引用null不是实测0。",
+          "audit_scope": "精确题目两条有界Web搜索、原文/官方项目、S2/HF精确身份与OpenAlex精确DOI/标题前5结果；不称穷尽。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.08458v1",
+                "https://arxiv.org/pdf/2611.08458v1",
+                "https://yixiaowang7.github.io/latent-rl-prior-page/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+                "https://huggingface.co/api/papers/2611.08458",
+                "https://api.openalex.org/works?filter=locations.source.id:s4306400194&search=Latent%20RL%20Priors%20for%20Data-Efficient%20Dexterous%20Manipulation&per-page=5",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458"
+              ],
+              "checked_at": "2026-11-07T08:49:47+08:00",
+              "reason": "引用未取得身份匹配记录，未核独立技术采用；按有来源量表起点0，原始引用null不是实测0。",
+              "audit_scope": "精确题目两条有界Web搜索、原文/官方项目、S2/HF精确身份与OpenAlex精确DOI/标题前5结果；不称穷尽。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.08458v1",
+            "https://arxiv.org/pdf/2611.08458v1",
+            "https://yixiaowang7.github.io/latent-rl-prior-page/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+            "https://huggingface.co/api/papers/2611.08458",
+            "https://api.openalex.org/works?filter=locations.source.id:s4306400194&search=Latent%20RL%20Priors%20for%20Data-Efficient%20Dexterous%20Manipulation&per-page=5",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458"
+          ],
+          "checked_at": "2026-11-07T08:49:47+08:00",
+          "reason": "未取得本篇合格引用/专属仓库/HF/X/阅读量信号；0为已核范围证据起点，账号/教师共享仓库数量不归本篇。",
+          "audit_scope": "精确题目两条有界Web搜索、原文/官方项目、S2/HF精确身份与OpenAlex精确DOI/标题前5结果；不称穷尽。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.08458v1",
+                "https://arxiv.org/pdf/2611.08458v1",
+                "https://yixiaowang7.github.io/latent-rl-prior-page/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+                "https://huggingface.co/api/papers/2611.08458",
+                "https://api.openalex.org/works?filter=locations.source.id:s4306400194&search=Latent%20RL%20Priors%20for%20Data-Efficient%20Dexterous%20Manipulation&per-page=5",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458"
+              ],
+              "checked_at": "2026-11-07T08:49:47+08:00",
+              "reason": "未取得本篇合格引用/专属仓库/HF/X/阅读量信号；0为已核范围证据起点，账号/教师共享仓库数量不归本篇。",
+              "audit_scope": "精确题目两条有界Web搜索、原文/官方项目、S2/HF精确身份与OpenAlex精确DOI/标题前5结果；不称穷尽。"
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "latent-rl-prior",
+        "checked_at": "2026-11-07T08:49:47+08:00",
+        "status": "unavailable",
+        "provider": "Semantic Scholar / OpenAlex attempted",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": null,
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+        "match_note": "S2精确arXiv429；OpenAlex精确DOI404，标题搜索前5返回均非本研究，不采用其他作品引用；原始计量保持null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+          "https://huggingface.co/api/papers/2611.08458",
+          "https://api.openalex.org/works?filter=locations.source.id:s4306400194&search=Latent%20RL%20Priors%20for%20Data-Efficient%20Dexterous%20Manipulation&per-page=5",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458"
+        ],
+        "edition": "arXiv:2611.08458v1",
+        "publication_date": "2026-11-05",
+        "publication_date_precision": "day",
+        "publication_date_source": "https://arxiv.org/abs/2611.08458v1",
+        "source_count_zero_is_observed": false
+      },
+      "social": {
+        "checked_at": "2026-11-07T08:49:47+08:00",
+        "resources": [
+          {
+            "platform": "project",
+            "resource_kind": "website",
+            "url": "https://yixiaowang7.github.io/latent-rl-prior-page/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "sources": [
+              "https://arxiv.org/abs/2611.08458v1",
+              "https://arxiv.org/pdf/2611.08458v1",
+              "https://yixiaowang7.github.io/latent-rl-prior-page/"
+            ],
+            "metrics": [],
+            "raw_page_views": null,
+            "availability_note": "官方项目明确Code/Datasets coming soon且无真实代码/数据链接；视频标为采集示范重放，不用作闭环评测证据。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "不把聚合摘要视为独立技术采用；不把SimToolReal依赖仓库或网页仓库总star分摊为本研究信号。",
+        "unavailable_metrics": {
+          "citation_count": null,
+          "recent_citation_count": null,
+          "github_stars": null,
+          "github_subscribers": null,
+          "hf_upvotes": null,
+          "hf_downloads": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "failed_sources": [
+          {
+            "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08458?fields=title,authors,year,citationCount,influentialCitationCount,externalIds,publicationTypes,publicationDate,url",
+            "checked_at": "2026-11-07T08:46:08.311997+08:00",
+            "http_status": 429,
+            "metric_count": null,
+            "reason": "未匹配或限流；不填0。"
+          },
+          {
+            "url": "https://huggingface.co/api/papers/2611.08458",
+            "checked_at": "2026-11-07T08:46:08.345226+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "未匹配或限流；不填0。"
+          },
+          {
+            "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08458",
+            "checked_at": "2026-11-07T08:46:51.583518+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "未匹配或限流；不填0。"
+          }
+        ]
+      },
+      "editorial": {
+        "checked_at": "2026-11-07",
+        "scores": {
+          "innovation": 80,
+          "evidence": 76,
+          "reuse": 60,
+          "reading": 88
+        },
+        "mechanism": "先微调SimToolReal teacher并收集100000条成功程序化姿态对齐轨迹，将特权历史经state tokenizer/Q-Former压为任务context；flow-matching动作transformer通过cross-attention读context，通过AdaLN读本体历史与flow time。视觉阶段冻结decoder，只以动作flow loss训练DINOv2-Small与视觉Q-Former，直接生成latent而不需要特权/latent标签；双臂的两组queries共同自注意力协调后，分别结合各臂本体进入共享单臂decoder。",
+        "reason": "80：改变特权RL控制器接入视觉的接口：将RL成功rollout蒸馏为解耦本体条件的动作decoder，冻结后只以动作loss学习视觉latent，无需成对特权状态或latent标签；联合Q-Former queries把单臂先验扩为双臂。Flow Matching、Q-Former、DINOv2和策略蒸馏均继承已有组件，创新落在迁移接口与受控实证。 76：三种MuJoCo Warp任务、同结构scratch对照、latent/explicit接口、视觉和decoder学习率消融、质量变化与力探针提供多方面支撑；主实验3seed/每checkpoint256rollouts。仅同一KUKA+SHARPA形态仿真，100k对30k优化步不同，报告末5checkpoint最大值，未提供完整网络/优化超参与probe数据规模；力可读性未隔离因果机制。 60：输入/损失/冻结接口可学，复用已公开SimToolReal teacher与DINOv2，但本篇代码和数据仍coming soon，依赖100,000成功预训练rollouts且M/d/H/K、动作维度和完整优化配置未在12页稿列出；目前偏方法配方，尚非开箱即用工具。 88：连接特权RL、视觉模仿、动作生成和双臂协调，能讲清为什么有控制先验仍要选对视觉接入方式，以及下游少示范不等于总数据/算力少；泛化结论局限于同本体三项仿真任务。",
+        "review_depth": "12页主稿全部文字读核，含§1–6、三声明、完整参考；无附录。目视完整页1/3/5/6/7/8/9涵盖身份、Fig1–9和Table1；官方项目全文HTML读核。未看视频、未执行代码、未复现"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2611.08458v1",
+        "checked_at": "2026-11-07",
+        "profile": null
+      },
+      "rank": 131
     },
     {
       "id": "touchbridge",
@@ -59498,7 +60144,7 @@
         "checked_at": "2026-11-02",
         "profile": null
       },
-      "rank": 130
+      "rank": 132
     },
     {
       "id": "ctrl-f",
@@ -59755,7 +60401,7 @@
         "checked_at": "2026-11-06",
         "profile": null
       },
-      "rank": 131
+      "rank": 133
     },
     {
       "id": "world2vec",
@@ -60172,7 +60818,269 @@
         "checked_at": "2026-10-31",
         "profile": null
       },
-      "rank": 132
+      "rank": 134
+    },
+    {
+      "id": "oopsierecover",
+      "checked_at": "2026-11-07",
+      "short_name": "OopsieRecover",
+      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "year": 2026,
+      "navigation": {
+        "track": "manipulation",
+        "track_label": "操作与动作块",
+        "track_path": "paper-map/README.md#track-manipulation",
+        "venue_label": "arXiv",
+        "venue_key": "arxiv",
+        "venue_path": "arxiv/README.md#paper-oopsierecover",
+        "reading_path": "library/oopsierecover.md",
+        "reading_status": "解读导读",
+        "universe_path": "universe/papers/oopsierecover.md",
+        "card_path": "leaderboard/papers/oopsierecover/README.md"
+      },
+      "origin": {
+        "label": "Arpit Bahety / Skand Peri · 得克萨斯大学奥斯汀分校 / 丰田研究院",
+        "author_label": "Arpit Bahety / Skand Peri",
+        "institution_label": "得克萨斯大学奥斯汀分校 / 丰田研究院",
+        "search": "Arpit Bahety Skand Peri Arpit Bahety Skand Peri Sriniket Ambatipudi Chen Xu Haruki Nishimura Masha Itkina Roberto Martín-Martín The University of Texas at Austin Toyota Research Institute 得克萨斯大学奥斯汀分校 丰田研究院 得克萨斯大学奥斯汀分校 丰田研究院 The University of Texas at Austin The University of Texas at Austin 得克萨斯大学奥斯汀分校 Toyota Research Institute Toyota Research Institute 丰田研究院",
+        "keys": [
+          "institution-i86519309",
+          "institution-i4391768151"
+        ],
+        "profiles": [
+          {
+            "key": "institution-i86519309",
+            "label": "得克萨斯大学奥斯汀分校",
+            "search": "The University of Texas at Austin The University of Texas at Austin 得克萨斯大学奥斯汀分校"
+          },
+          {
+            "key": "institution-i4391768151",
+            "label": "丰田研究院",
+            "search": "Toyota Research Institute Toyota Research Institute 丰田研究院"
+          }
+        ],
+        "path": "leaderboard/origins/papers/oopsierecover.md"
+      },
+      "scores": {
+        "innovation": 78,
+        "evidence": 64,
+        "reuse": 50,
+        "reading": 84,
+        "venue": 60,
+        "influence": 0,
+        "attention": 0
+      },
+      "score": 56.3,
+      "score_exact": "56.28",
+      "score_basis": {
+        "innovation": {
+          "method": "editorial",
+          "reason": "78：将少量轨迹干预与人类纠正语义转成局部激活的几何代价，复用冻结VLA候选并跨场景重新定位实体，形成清楚的纠正接口。VLM代价生成、关键点/点集、重排序和人类干预各有前作，贡献在局部纠正规则的推断、校准与运行连接。 64：三仿真任务、同纠正数据HG-DAgger*/OLAF和文字VLS对照、L1/L2变化以及三实机任务支持有限系统效果；实机20回合/方法/任务/level与统计分组可核。无组件消融，实机阶段评分细则、部分超参及运行延迟未展开，Fig5峰值与版本图表有冲突，故不采用精确峰值或强因果结论。 50：9页版本化原文、公式和官方项目视频可追溯，能理解接口与校准逻辑。未定位专属实现/权重/配置，K/H/B、VLM配置及grasp-based动力学细则缺失；仿真还直接使用模拟器预测，不认作可直接部署的完整开源栈。 84：可清楚对照“把纠正当状态—动作样本”和“把纠正当局部规则”，贯通语义定位、点集几何、成本校准、候选动作与测试时反馈，也适合区分经验一致性检查与安全保证。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08462v1"
+          ],
+          "review_depth": "完整9页v1文字已读；页面1/4/5/6/7亲自目视核身份、机制与图。官方8页PDF经全文词级差异和关键图视觉对照；未下载视频逐帧核验或运行代码。没有附录，项目未链接补充技术材料"
+        },
+        "evidence": {
+          "method": "editorial",
+          "reason": "78：将少量轨迹干预与人类纠正语义转成局部激活的几何代价，复用冻结VLA候选并跨场景重新定位实体，形成清楚的纠正接口。VLM代价生成、关键点/点集、重排序和人类干预各有前作，贡献在局部纠正规则的推断、校准与运行连接。 64：三仿真任务、同纠正数据HG-DAgger*/OLAF和文字VLS对照、L1/L2变化以及三实机任务支持有限系统效果；实机20回合/方法/任务/level与统计分组可核。无组件消融，实机阶段评分细则、部分超参及运行延迟未展开，Fig5峰值与版本图表有冲突，故不采用精确峰值或强因果结论。 50：9页版本化原文、公式和官方项目视频可追溯，能理解接口与校准逻辑。未定位专属实现/权重/配置，K/H/B、VLM配置及grasp-based动力学细则缺失；仿真还直接使用模拟器预测，不认作可直接部署的完整开源栈。 84：可清楚对照“把纠正当状态—动作样本”和“把纠正当局部规则”，贯通语义定位、点集几何、成本校准、候选动作与测试时反馈，也适合区分经验一致性检查与安全保证。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08462v1"
+          ],
+          "review_depth": "完整9页v1文字已读；页面1/4/5/6/7亲自目视核身份、机制与图。官方8页PDF经全文词级差异和关键图视觉对照；未下载视频逐帧核验或运行代码。没有附录，项目未链接补充技术材料"
+        },
+        "reuse": {
+          "method": "editorial",
+          "reason": "78：将少量轨迹干预与人类纠正语义转成局部激活的几何代价，复用冻结VLA候选并跨场景重新定位实体，形成清楚的纠正接口。VLM代价生成、关键点/点集、重排序和人类干预各有前作，贡献在局部纠正规则的推断、校准与运行连接。 64：三仿真任务、同纠正数据HG-DAgger*/OLAF和文字VLS对照、L1/L2变化以及三实机任务支持有限系统效果；实机20回合/方法/任务/level与统计分组可核。无组件消融，实机阶段评分细则、部分超参及运行延迟未展开，Fig5峰值与版本图表有冲突，故不采用精确峰值或强因果结论。 50：9页版本化原文、公式和官方项目视频可追溯，能理解接口与校准逻辑。未定位专属实现/权重/配置，K/H/B、VLM配置及grasp-based动力学细则缺失；仿真还直接使用模拟器预测，不认作可直接部署的完整开源栈。 84：可清楚对照“把纠正当状态—动作样本”和“把纠正当局部规则”，贯通语义定位、点集几何、成本校准、候选动作与测试时反馈，也适合区分经验一致性检查与安全保证。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08462v1"
+          ],
+          "review_depth": "完整9页v1文字已读；页面1/4/5/6/7亲自目视核身份、机制与图。官方8页PDF经全文词级差异和关键图视觉对照；未下载视频逐帧核验或运行代码。没有附录，项目未链接补充技术材料"
+        },
+        "reading": {
+          "method": "editorial",
+          "reason": "78：将少量轨迹干预与人类纠正语义转成局部激活的几何代价，复用冻结VLA候选并跨场景重新定位实体，形成清楚的纠正接口。VLM代价生成、关键点/点集、重排序和人类干预各有前作，贡献在局部纠正规则的推断、校准与运行连接。 64：三仿真任务、同纠正数据HG-DAgger*/OLAF和文字VLS对照、L1/L2变化以及三实机任务支持有限系统效果；实机20回合/方法/任务/level与统计分组可核。无组件消融，实机阶段评分细则、部分超参及运行延迟未展开，Fig5峰值与版本图表有冲突，故不采用精确峰值或强因果结论。 50：9页版本化原文、公式和官方项目视频可追溯，能理解接口与校准逻辑。未定位专属实现/权重/配置，K/H/B、VLM配置及grasp-based动力学细则缺失；仿真还直接使用模拟器预测，不认作可直接部署的完整开源栈。 84：可清楚对照“把纠正当状态—动作样本”和“把纠正当局部规则”，贯通语义定位、点集几何、成本校准、候选动作与测试时反馈，也适合区分经验一致性检查与安全保证。",
+          "sources": [
+            "https://arxiv.org/pdf/2611.08462v1"
+          ],
+          "review_depth": "完整9页v1文字已读；页面1/4/5/6/7亲自目视核身份、机制与图。官方8页PDF经全文词级差异和关键图视觉对照；未下载视频逐帧核验或运行代码。没有附录，项目未链接补充技术材料"
+        },
+        "venue": {
+          "method": "public_review_stage",
+          "public_credit": 60,
+          "peer_review_credit": null,
+          "external_review_credit": null,
+          "reason": "版本化完整原文可追溯，公开阶段60；没有已核正式录用证据；当前阶段为预印本公开。",
+          "sources": [
+            "https://arxiv.org/abs/2611.08462v1",
+            "https://arxiv.org/pdf/2611.08462v1",
+            "https://robin-lab.cs.utexas.edu/oopsierecover/"
+          ]
+        },
+        "influence": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.08462v1",
+            "https://arxiv.org/pdf/2611.08462v1",
+            "https://robin-lab.cs.utexas.edu/oopsierecover/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462",
+            "https://huggingface.co/api/papers/2611.08462"
+          ],
+          "checked_at": "2026-11-07T08:52:42+08:00",
+          "reason": "没有身份匹配引文计数，亦未核独立技术采用，按有来源证据量表起点0评分；原始指标null，不把0称实际影响总量。",
+          "audit_scope": "9页v1、官方项目与8页项目PDF版本核对；2条精确题名/ID/代码/刊会搜索；S2/OpenAlex/HF精确身份请求；已保存12个官方入口响应有界匹配。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.08462v1",
+                "https://arxiv.org/pdf/2611.08462v1",
+                "https://robin-lab.cs.utexas.edu/oopsierecover/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462",
+                "https://huggingface.co/api/papers/2611.08462"
+              ],
+              "checked_at": "2026-11-07T08:52:42+08:00",
+              "reason": "没有身份匹配引文计数，亦未核独立技术采用，按有来源证据量表起点0评分；原始指标null，不把0称实际影响总量。",
+              "audit_scope": "9页v1、官方项目与8页项目PDF版本核对；2条精确题名/ID/代码/刊会搜索；S2/OpenAlex/HF精确身份请求；已保存12个官方入口响应有界匹配。"
+            }
+          ]
+        },
+        "attention": {
+          "method": "evidence_editorial",
+          "score": 0,
+          "sources": [
+            "https://arxiv.org/abs/2611.08462v1",
+            "https://arxiv.org/pdf/2611.08462v1",
+            "https://robin-lab.cs.utexas.edu/oopsierecover/",
+            "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+            "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462",
+            "https://huggingface.co/api/papers/2611.08462"
+          ],
+          "checked_at": "2026-11-07T08:52:42+08:00",
+          "reason": "无论文专属仓库/HF/X/阅读量等可核计数，也未核独立讨论证据，按证据量表起点0；不挪用UT Austin/TRI组织热度或聚合站自动分数。",
+          "audit_scope": "9页v1、官方项目与8页项目PDF版本核对；2条精确题名/ID/代码/刊会搜索；S2/OpenAlex/HF精确身份请求；已保存12个官方入口响应有界匹配。",
+          "selection_rule": "max_verified_signal_no_sum",
+          "signals": [
+            {
+              "method": "evidence_editorial",
+              "score": 0,
+              "sources": [
+                "https://arxiv.org/abs/2611.08462v1",
+                "https://arxiv.org/pdf/2611.08462v1",
+                "https://robin-lab.cs.utexas.edu/oopsierecover/",
+                "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+                "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462",
+                "https://huggingface.co/api/papers/2611.08462"
+              ],
+              "checked_at": "2026-11-07T08:52:42+08:00",
+              "reason": "无论文专属仓库/HF/X/阅读量等可核计数，也未核独立讨论证据，按证据量表起点0；不挪用UT Austin/TRI组织热度或聚合站自动分数。",
+              "audit_scope": "9页v1、官方项目与8页项目PDF版本核对；2条精确题名/ID/代码/刊会搜索；S2/OpenAlex/HF精确身份请求；已保存12个官方入口响应有界匹配。"
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "paper_id": "oopsierecover",
+        "checked_at": "2026-11-07T08:50:55+08:00",
+        "status": "unavailable",
+        "provider": "Semantic Scholar / OpenAlex attempted",
+        "citation_count": null,
+        "recent_citation_count": null,
+        "counts_by_year": null,
+        "api_url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+        "match_note": "S2精确arXiv429；OpenAlex精确DOI404。无身份匹配计量，引用保持null。",
+        "attempted_sources": [
+          "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+          "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462"
+        ],
+        "edition": "arXiv:2611.08462v1",
+        "publication_date": "2026-11-05",
+        "publication_date_precision": "day",
+        "publication_date_source": "https://arxiv.org/abs/2611.08462v1",
+        "source_count_zero_is_observed": false
+      },
+      "social": {
+        "checked_at": "2026-11-07T08:52:42+08:00",
+        "resources": [
+          {
+            "platform": "project",
+            "resource_kind": "website",
+            "url": "https://robin-lab.cs.utexas.edu/oopsierecover/",
+            "scope": "single_paper",
+            "identity_verified": true,
+            "identity_basis": "v1 arXiv摘要明确链接此官方项目；项目题目七作者一致。",
+            "sources": [
+              "https://arxiv.org/abs/2611.08462v1",
+              "https://arxiv.org/pdf/2611.08462v1",
+              "https://robin-lab.cs.utexas.edu/oopsierecover/"
+            ],
+            "metrics": [],
+            "raw_page_views": null,
+            "availability_note": "含方法介绍和演示视频链接；链接清单未含专属代码，未核当前公开阅读量。本轮未逐帧观看视频。"
+          }
+        ],
+        "adoption_evidence": [],
+        "audit_note": "精确搜索仅作者研究及自动摘要/聚合条目，未核独立技术采用或合格关注计数。聚合站代码标签与自动分数不用作证据。",
+        "unavailable_metrics": {
+          "citation_count": null,
+          "recent_citation_count": null,
+          "github_stars": null,
+          "hf_upvotes": null,
+          "hf_downloads": null,
+          "x_views": null,
+          "x_likes": null,
+          "blog_views": null
+        },
+        "failed_sources": [
+          {
+            "url": "https://api.semanticscholar.org/graph/v1/paper/ARXIV:2611.08462?fields=title,year,authors,externalIds,citationCount,influentialCitationCount,publicationDate,venue",
+            "checked_at": "2026-11-07T08:50:55+08:00",
+            "http_status": 429,
+            "metric_count": null,
+            "reason": "精确ID限流，引用保持null。"
+          },
+          {
+            "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.2611.08462",
+            "checked_at": "2026-11-07T08:50:55+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "精确身份未匹配；null不转0。"
+          },
+          {
+            "url": "https://huggingface.co/api/papers/2611.08462",
+            "checked_at": "2026-11-07T08:50:55+08:00",
+            "http_status": 404,
+            "metric_count": null,
+            "reason": "精确身份未匹配；null不转0。"
+          }
+        ]
+      },
+      "editorial": {
+        "checked_at": "2026-11-07",
+        "scores": {
+          "innovation": 78,
+          "evidence": 64,
+          "reuse": 50,
+          "reading": 84
+        },
+        "mechanism": "人接管时提供纠正轨迹、语言和纠正类别。VLM选语义实体种子，分割与深度把区域变成3D点集，质心时间轨迹用于生成gate×(纠正代价+λ任务代价)。触发阈值从同类记录中gate=1的干预前分数取最小；用人类/后续基策略窗口的较低成本及触发检查做经验一致性核验，失败促使程序细化，但预算耗尽仍保留最后程序。部署重新定位实体，从冻结π0.5采样动作块并可加cardinal actions，预测点集后按折扣成本筛最优；仿真用模拟器物理，实机用grasp-based近似。",
+        "reason": "78：将少量轨迹干预与人类纠正语义转成局部激活的几何代价，复用冻结VLA候选并跨场景重新定位实体，形成清楚的纠正接口。VLM代价生成、关键点/点集、重排序和人类干预各有前作，贡献在局部纠正规则的推断、校准与运行连接。 64：三仿真任务、同纠正数据HG-DAgger*/OLAF和文字VLS对照、L1/L2变化以及三实机任务支持有限系统效果；实机20回合/方法/任务/level与统计分组可核。无组件消融，实机阶段评分细则、部分超参及运行延迟未展开，Fig5峰值与版本图表有冲突，故不采用精确峰值或强因果结论。 50：9页版本化原文、公式和官方项目视频可追溯，能理解接口与校准逻辑。未定位专属实现/权重/配置，K/H/B、VLM配置及grasp-based动力学细则缺失；仿真还直接使用模拟器预测，不认作可直接部署的完整开源栈。 84：可清楚对照“把纠正当状态—动作样本”和“把纠正当局部规则”，贯通语义定位、点集几何、成本校准、候选动作与测试时反馈，也适合区分经验一致性检查与安全保证。",
+        "review_depth": "完整9页v1文字已读；页面1/4/5/6/7亲自目视核身份、机制与图。官方8页PDF经全文词级差异和关键图视觉对照；未下载视频逐帧核验或运行代码。没有附录，项目未链接补充技术材料"
+      },
+      "venue_record": {
+        "venue": null,
+        "venue_status": "preprint",
+        "track": null,
+        "publication_evidence_url": "https://arxiv.org/abs/2611.08462v1",
+        "checked_at": "2026-11-07",
+        "profile": null
+      },
+      "rank": 135
     }
   ]
 }

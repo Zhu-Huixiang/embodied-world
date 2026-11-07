@@ -1,6 +1,6 @@
 {
   "methodology_version": 3,
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "papers": {
     "holo-m": {
       "tier": "versioned_full_text",
@@ -1692,6 +1692,102 @@
         "https://2026.ieee-iros.org/program/paper-index/"
       ],
       "official_venue_check_scope": "CoRL687条嵌入名单未命中；其余为已取官方门户/索引有界检查；IROS直接403且连接工具截断，OpenReview仅门户。不是全球无录用结论。"
+    },
+    "la-jepa": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.08156v1",
+      "checked_at": "2026-11-07T08:53:34.665877+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2611.08156v1",
+        "https://arxiv.org/pdf/2611.08156v1",
+        "https://georgexue.com/"
+      ],
+      "verification_basis": "精确arXiv ID、v1提交时间和30页主文/A–E附录已核，10个完整页面目视。PDF标Preprint，arXiv无journal-ref；二作公开主页明确写ICLR 2027 Under review，不能作已录用。精确题目/ID有界搜索仅定位原文、作者与聚合页。",
+      "reason": "版本化完整原文可追溯，公开阶段60。投稿中不增加评审分；没有已核独立复现或正式录用记录",
+      "research_identity": "arXiv:2611.08156",
+      "reading_version": "arXiv v1; 30 pages",
+      "reading_pdf_sha256": "2f5fd34aed57385c89b2f4c9b38cf435e70481c67e694623596f7edb8a5f978d",
+      "submission_claim": {
+        "venue": "ICLR 2027",
+        "status": "under_review",
+        "source": "https://georgexue.com/",
+        "checked_at": "2026-11-07T08:49:10.629926+08:00"
+      },
+      "official_venue_checked_urls": [
+        "https://2026.corl.org/program/accepted-papers",
+        "https://www.roboticsproceedings.org/rss22/",
+        "https://2026.ieee-icra.org/",
+        "https://2026.ieee-iros.org/program/paper-index/",
+        "https://openreview.net/",
+        "https://openaccess.thecvf.com/menu",
+        "https://www.nature.com/subjects/robotics?order=date_desc",
+        "https://www.nature.com/subjects/machine-learning?order=date_desc",
+        "https://www.science.org/journal/scirobotics",
+        "https://www.ieee-ras.org/publications/t-ro",
+        "https://journals.sagepub.com/home/ijr",
+        "https://ieeexplore.ieee.org/"
+      ],
+      "official_venue_check_scope": "2026-11-07已保存12个官方入口响应：CoRL完整嵌入687条唯一forum名单、RSS22完整HTML、CVF会议菜单完整HTML；ICRA主页及regular sessions/OpenReview/TRO仅门户，IROS替代响应约132条且35000字符截断，Nature机器人/机器学习和IJRR目录有新条目但替代源存在旧缓存，Science403/Xplore418。仅在上述实际保存8文件做精确完整题名/简称/arXiv ID不区分大小写匹配，均零命中；不代表全站穷尽或未录用。"
+    },
+    "latent-rl-prior": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.08458v1",
+      "checked_at": "2026-11-07T08:49:47+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2611.08458v1",
+        "https://arxiv.org/pdf/2611.08458v1",
+        "https://yixiaowang7.github.io/latent-rl-prior-page/"
+      ],
+      "verification_basis": "12页版本化原稿全部文本及7张完整页目视；arXiv明确v1/作者/提交时刻。官方项目Preprint，精确题目在OpenReview/PMLR/RSS/ACM/IEEE域检索未返回本篇正式记录。未逐站穷尽，不猜投稿目标。",
+      "reason": "可追溯完整预印本公开阶段60，无已核正式会刊或独立技术检验",
+      "research_identity": "arXiv:2611.08458",
+      "reading_version": "arXiv v1; 12 pages; no appendices in the selected PDF",
+      "reading_pdf_sha256": "ef3f3aba6a5e4c1d5ddba761a8b4e7210bd450eb26731c8ee79f95c9bba99407",
+      "official_venue_checked_urls": [
+        "https://2026.corl.org/program/accepted-papers",
+        "https://www.roboticsproceedings.org/rss22/",
+        "https://2026.ieee-icra.org/",
+        "https://2026.ieee-iros.org/program/paper-index/",
+        "https://openreview.net/",
+        "https://openaccess.thecvf.com/menu",
+        "https://www.nature.com/subjects/robotics?order=date_desc",
+        "https://www.nature.com/subjects/machine-learning?order=date_desc",
+        "https://www.science.org/journal/scirobotics",
+        "https://www.ieee-ras.org/publications/t-ro",
+        "https://journals.sagepub.com/home/ijr",
+        "https://ieeexplore.ieee.org/"
+      ],
+      "official_venue_check_scope": "2026-11-07已保存12个官方入口响应：CoRL完整嵌入687条唯一forum名单、RSS22完整HTML、CVF会议菜单完整HTML；ICRA主页及regular sessions/OpenReview/TRO仅门户，IROS替代响应约132条且35000字符截断，Nature机器人/机器学习和IJRR目录有新条目但替代源存在旧缓存，Science403/Xplore418。仅在上述实际保存8文件做精确完整题名/简称/arXiv ID不区分大小写匹配，均零命中；不代表全站穷尽或未录用。"
+    },
+    "oopsierecover": {
+      "tier": "versioned_full_text",
+      "full_text_url": "https://arxiv.org/pdf/2611.08462v1",
+      "checked_at": "2026-11-07T08:52:42+08:00",
+      "sources": [
+        "https://arxiv.org/abs/2611.08462v1",
+        "https://arxiv.org/pdf/2611.08462v1",
+        "https://robin-lab.cs.utexas.edu/oopsierecover/"
+      ],
+      "verification_basis": "9页v1主文、参考文献与Fig1–5已核；无附录。原文作者项目及精确搜索未定位正式录用。当前已保存官方索引精确题名/ID零命中，范围见oopsierecover-existing-index-match.json；不声称穷尽所有会刊。",
+      "reason": "版本化完整原文可追溯，公开阶段60；没有已核正式录用证据",
+      "research_identity": "arXiv:2611.08462",
+      "reading_version": "arXiv v1; 9 pages; no appendix in selected PDF",
+      "reading_pdf_sha256": "940d68450966b7193087301814b80a7ca222d7d5d8286290bfd212699ac7fe5c",
+      "official_venue_checked_urls": [
+        "https://2026.corl.org/program/accepted-papers",
+        "https://www.roboticsproceedings.org/rss22/",
+        "https://2026.ieee-icra.org/",
+        "https://2026.ieee-iros.org/program/paper-index/",
+        "https://openreview.net/",
+        "https://openaccess.thecvf.com/menu",
+        "https://www.nature.com/subjects/robotics?order=date_desc",
+        "https://www.nature.com/subjects/machine-learning?order=date_desc",
+        "https://www.science.org/journal/scirobotics",
+        "https://www.ieee-ras.org/publications/t-ro",
+        "https://journals.sagepub.com/home/ijr",
+        "https://ieeexplore.ieee.org/"
+      ],
+      "official_venue_check_scope": "CoRL 687条嵌入名单与RSS/CVF完整入口HTML；其他门户/截断/失败见official-report.json。已保存响应匹配零命中，不是全站穷尽。"
     }
   }
 }

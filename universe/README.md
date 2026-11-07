@@ -2,7 +2,7 @@
 
 [打开交互宇宙](https://zhu-huixiang.github.io/embodied-world/universe/) · [离线单文件](index.html) · [图谱数据](graph.json)
 
-132 篇论文是恒星，各自有自己的知识行星与卫星：共 1549 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 23 篇有完整解读，687 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
+135 篇论文是恒星，各自有自己的知识行星与卫星：共 1644 个本篇挂点，另外 59 个共享技术入口把星系连接起来。亮起的 23 篇有完整解读，687 个本篇挂点有具体章节讲解。暗星也能点击，进入机制导读和原文。
 
 每篇保留初读已核概念和完整机制；已精讲论文逐章节补本篇知识点，未精讲星系随原文核验扩展，不声称初读覆盖全部附录。
 
@@ -82,7 +82,9 @@
 | [Isaac Gym](papers/isaac-gym.md) | 导读 | [PPO 与并行模拟](concepts/ppo.md) · [强化学习](concepts/rl.md) |
 | [JAM](papers/jam.md) | 导读 | [表征空间](concepts/representation.md) · [表征预测 JEPA](concepts/jepa.md) · [余弦相似度](concepts/cosine.md) · [Flow Matching](concepts/flow.md) · [动作块](concepts/chunk.md) · [变分自编码器 VAE](concepts/vae.md) · [动作表示](concepts/action.md) · [分布偏移](concepts/shift.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [JEDI](papers/jedi.md) | 导读 | [表征空间](concepts/representation.md) · [表征预测 JEPA](concepts/jepa.md) · [Transformer](concepts/transformer.md) · [注意力](concepts/attention.md) · [Flow Matching](concepts/flow.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) · [示范模仿](concepts/imitation.md) · [跨本体数据](concepts/cross-body.md) · [机器人数据与评测](concepts/data.md) · [泛化评测与遗忘](concepts/benchmark.md) |
+| [La-JEPA](papers/la-jepa.md) | 导读 | [表征空间](concepts/representation.md) · [表征预测 JEPA](concepts/jepa.md) · [世界模型](concepts/world.md) · [世界动作联合建模](concepts/wam.md) · [注意力](concepts/attention.md) · [因果序列建模](concepts/causal.md) · [Flow Matching](concepts/flow.md) · [Diffusion Transformer](concepts/dit.md) · [动作块](concepts/chunk.md) · [示范模仿](concepts/imitation.md) · [分布偏移](concepts/shift.md) · [机器人数据与评测](concepts/data.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [Latent Diffusion](papers/latent-diffusion.md) | 已精讲 | [扩散去噪](concepts/diffusion.md) · [注意力](concepts/attention.md) · [表征空间](concepts/representation.md) · [条件生成](concepts/generation.md) |
+| [Latent RL Prior](papers/latent-rl-prior.md) | 导读 | [Flow Matching](concepts/flow.md) · [注意力](concepts/attention.md) · [Transformer](concepts/transformer.md) · [动作块](concepts/chunk.md) · [特权训练信息](concepts/privileged.md) · [强化学习](concepts/rl.md) · [示范模仿](concepts/imitation.md) · [环境适应](concepts/adaptation.md) · [线性探测](concepts/linear-probe.md) · [机器人数据与评测](concepts/data.md) |
 | [Dynamics Review](papers/learned-dynamics-review.md) | 导读 | [动作条件动力学](concepts/dynamics.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) |
 | [LeWAM](papers/lewam.md) | 导读 | [表征预测 JEPA](concepts/jepa.md) · [动作条件动力学](concepts/dynamics.md) · [逆动力学](concepts/inverse.md) · [模型预测控制 MPC](concepts/mpc.md) |
 | [LeWM](papers/lewm.md) | 导读 | [表征预测 JEPA](concepts/jepa.md) · [动作条件动力学](concepts/dynamics.md) · [模型预测控制 MPC](concepts/mpc.md) |
@@ -98,6 +100,7 @@
 | [NeRF](papers/nerf.md) | 已精讲 | [新视角场景表示](concepts/radiance.md) · [空间表示](concepts/spatial.md) · [表征空间](concepts/representation.md) |
 | [Octo](papers/octo.md) | 导读 | [扩散去噪](concepts/diffusion.md) · [动作块](concepts/chunk.md) · [跨本体数据](concepts/cross-body.md) |
 | [OmniH2O](papers/omnih2o.md) | 导读 | [特权训练信息](concepts/privileged.md) · [教师学生蒸馏](concepts/distill.md) · [全身控制与执行](concepts/wbc.md) |
+| [OopsieRecover](papers/oopsierecover.md) | 导读 | [示范模仿](concepts/imitation.md) · [空间表示](concepts/spatial.md) · [点云与三维体素](concepts/point-cloud.md) · [动作表示](concepts/action.md) · [动作块](concepts/chunk.md) · [动作条件动力学](concepts/dynamics.md) · [闭环滚动与历史偏移](concepts/rollout.md) · [树搜索与轨迹搜索](concepts/search.md) · [泛化评测与遗忘](concepts/benchmark.md) |
 | [OpenVLA](papers/openvla.md) | 导读 | [离散编码与量化](concepts/quantization.md) · [跨本体数据](concepts/cross-body.md) · [表征空间](concepts/representation.md) |
 | [PaLM-E](papers/palm-e.md) | 导读 | [表征空间](concepts/representation.md) · [因果序列建模](concepts/causal.md) · [分层技能与计划](concepts/skills.md) |
 | [PerAct](papers/peract.md) | 导读 | [点云与三维体素](concepts/point-cloud.md) · [注意力](concepts/attention.md) · [空间表示](concepts/spatial.md) |

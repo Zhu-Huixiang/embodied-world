@@ -19,6 +19,7 @@ DiT 是网络结构，训练目标及采样器仍要分别说明。
 - [DreamX](../papers/dreamx.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05377v1)
 - [DreamFree](../papers/dreamfree.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.04527v1)
 - [HALO](../papers/halo.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06908v1)
+- [La-JEPA](../papers/la-jepa.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08156v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 

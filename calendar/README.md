@@ -4,13 +4,13 @@
 
 | 拟定日期（上海） | 论文 / 榜单名次 | 本篇要讲清什么 | 实际进度 |
 | --- | --- | --- | --- |
-| 2026-11-06 | [DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills · #23](../library/deepmimic.md) | 模仿奖励与任务奖励怎样把动作片段变成可恢复的控制技能？ | 机制初读，全文待制作 |
-| 2026-11-07 | [Decision Transformer: Reinforcement Learning via Sequence Modeling · #24](../library/decision-transformer.md) | 把目标回报放进 token 序列，就能把离线控制改写成条件生成吗？ | 机制初读，全文待制作 |
-| 2026-11-08 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset · #25](../library/droid.md) | 机器人长期困在少数桌面场景里，分布式真实数据能把泛化边界推远多少？ | 机制初读，全文待制作 |
-| 2026-11-09 | [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture · #26](../library/i-jepa.md) | 世界模型必须把像素画出来吗，预测目标区域的 latent 会保留哪些可用信息？ | 机制初读，全文待制作 |
-| 2026-11-10 | [Elucidating the Design Space of Diffusion-Based Generative Models · #27](../library/edm.md) | 同样是扩散，噪声尺度、网络预处理和数值求解器各改变了哪一层？ | 机制初读，全文待制作 |
-| 2026-11-11 | [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning · #28](../library/libero.md) | 一个机器人顺序学新任务时，究竟迁移的是物体概念、动作技能，还是两者的组合？ | 机制初读，全文待制作 |
-| 2026-11-12 | [Video Diffusion Models · #29](../library/video-diffusion.md) | 逐帧画图为什么会抖，空间与时间注意力怎样让一段未来视频连起来？ | 机制初读，全文待制作 |
+| 2026-11-07 | [DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills · #23](../library/deepmimic.md) | 模仿奖励与任务奖励怎样把动作片段变成可恢复的控制技能？ | 机制初读，全文待制作 |
+| 2026-11-08 | [Decision Transformer: Reinforcement Learning via Sequence Modeling · #24](../library/decision-transformer.md) | 把目标回报放进 token 序列，就能把离线控制改写成条件生成吗？ | 机制初读，全文待制作 |
+| 2026-11-09 | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset · #25](../library/droid.md) | 机器人长期困在少数桌面场景里，分布式真实数据能把泛化边界推远多少？ | 机制初读，全文待制作 |
+| 2026-11-10 | [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture · #26](../library/i-jepa.md) | 世界模型必须把像素画出来吗，预测目标区域的 latent 会保留哪些可用信息？ | 机制初读，全文待制作 |
+| 2026-11-11 | [Elucidating the Design Space of Diffusion-Based Generative Models · #27](../library/edm.md) | 同样是扩散，噪声尺度、网络预处理和数值求解器各改变了哪一层？ | 机制初读，全文待制作 |
+| 2026-11-12 | [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning · #28](../library/libero.md) | 一个机器人顺序学新任务时，究竟迁移的是物体概念、动作技能，还是两者的组合？ | 机制初读，全文待制作 |
+| 2026-11-13 | [Video Diffusion Models · #29](../library/video-diffusion.md) | 逐帧画图为什么会抖，空间与时间注意力怎样让一段未来视频连起来？ | 机制初读，全文待制作 |
 
 [完整精讲队列](queue.md) · [具身榜](../leaderboard/README.md) · [论文地图](../paper-map/README.md) · [首页](../README.md)
 

@@ -44,6 +44,7 @@
 - [DreamX](../papers/dreamx.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05377v1)
 - [cuRoboV2-Fast](../papers/curobov2-fast.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06913v1)
 - [Ctrl-F](../papers/ctrl-f.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.05507v1)
+- [OopsieRecover](../papers/oopsierecover.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08462v1)
 - [ARC](../papers/arc.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12386v1)
 - [PLaW-VLA](../papers/plaw-vla.md) · 机制导读 · [原文](https://arxiv.org/abs/2610.12285v1)
 

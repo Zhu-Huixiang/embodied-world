@@ -1,6 +1,6 @@
 # 多伦多大学
 
-本仓已收录工作主要涉及：世界模型与模型强化学习、动作先验与全身技能、Diffusion / Transformer 基础。
+本仓已收录工作主要涉及：世界模型与模型强化学习、动作先验与全身技能、Diffusion / Transformer 基础、世界动作模型。
 
 **类型**：大学。
 
@@ -20,6 +20,7 @@
 | [Dreamer · Dream to Control: Learning Behaviors by Latent Imagination](../../../library/dreamer.md) | 2020 / [ICLR](../../../venues/ICLR/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [87.4](../../papers/dreamer/README.md) |
 | [ASE · ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters](../../../library/ase.md) | 2022 / [SIGGRAPH / TOG](../../../venues/SIGGRAPH-TOG/README.md) | [动作先验与全身技能](../../../paper-map/README.md#track-motion-priors) | [85.5](../../papers/ase/README.md) |
 | [DreamerV2 · Mastering Atari with Discrete World Models](../../../library/dreamerv2.md) | 2021 / [ICLR](../../../venues/ICLR/README.md) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [82.0](../../papers/dreamerv2/README.md) |
+| [La-JEPA · La-JEPA: Compact Robot Policies with Latent World Modeling](../../../library/la-jepa.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-la-jepa) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [61.6](../../papers/la-jepa/README.md) |
 
 ## 署名与来源
 

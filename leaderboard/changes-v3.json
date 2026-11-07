@@ -1,7 +1,7 @@
 {
   "from_version": 2,
   "to_version": 3,
-  "checked_at": "2026-11-06",
+  "checked_at": "2026-11-07",
   "papers": [
     {
       "id": "clip",
@@ -2892,10 +2892,13 @@
     "dreamx",
     "curobov2-fast",
     "flore",
+    "la-jepa",
     "gar",
     "jedi",
+    "latent-rl-prior",
     "touchbridge",
     "ctrl-f",
-    "world2vec"
+    "world2vec",
+    "oopsierecover"
   ]
 }

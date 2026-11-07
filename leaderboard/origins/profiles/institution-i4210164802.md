@@ -1,6 +1,6 @@
 # 魁北克人工智能研究所（Mila）
 
-本仓已收录工作主要涉及：世界模型与模型强化学习、强化学习与离线决策、具身感知与场景表示。
+本仓已收录工作主要涉及：世界模型与模型强化学习、强化学习与离线决策、具身感知与场景表示、世界动作模型。
 
 **类型**：研究机构。
 
@@ -19,6 +19,7 @@
 | [TD3+BC · A Minimalist Approach to Offline Reinforcement Learning](../../../library/td3-bc.md) | 2021 / [NeurIPS](../../../venues/NeurIPS/README.md) | [强化学习与离线决策](../../../paper-map/README.md#track-reinforcement-learning) | [84.8](../../papers/td3-bc/README.md) |
 | [V-JEPA 2 · V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](../../../library/vjepa2.md) | 2025 / [arXiv](../../../arxiv/README.md#paper-vjepa2) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [81.9](../../papers/vjepa2/README.md) |
 | [LeWM · LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](../../../library/lewm.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-lewm) | [世界模型与模型强化学习](../../../paper-map/README.md#track-world-model) | [81.2](../../papers/lewm/README.md) |
+| [La-JEPA · La-JEPA: Compact Robot Policies with Latent World Modeling](../../../library/la-jepa.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-la-jepa) | [世界动作模型](../../../paper-map/README.md#track-world-action-model) | [61.6](../../papers/la-jepa/README.md) |
 
 ## 署名与来源
 

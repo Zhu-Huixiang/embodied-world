@@ -25,6 +25,7 @@
 | [MimicGen · MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations](../../../library/mimicgen.md) | 2023 / [CoRL](../../../venues/CoRL/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [84.5](../../papers/mimicgen/README.md) |
 | [RoboCasa · RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots](../../../library/robocasa.md) | 2024 / [RSS](../../../venues/RSS/README.md) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [83.2](../../papers/robocasa/README.md) |
 | [HOVER · HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots](../../../library/hover.md) | 2025 / [ICRA](../../../venues/ICRA/README.md) | [Locomotion 与运动适应](../../../paper-map/README.md#track-locomotion) | [79.6](../../papers/hover/README.md) |
+| [OopsieRecover · OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions](../../../library/oopsierecover.md) | 2026 / [arXiv](../../../arxiv/README.md#paper-oopsierecover) | [操作与动作块](../../../paper-map/README.md#track-manipulation) | [56.3](../../papers/oopsierecover/README.md) |
 
 ## 署名与来源
 

@@ -2,12 +2,24 @@
 
 找值得追的新工作：先看问题和贡献，再看对照、闭环实验与署名。重点实验室优先进入阅读队列；机构名字不替方法拿分。
 
-最近扫描：**2026-11-06T08:29:12+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 143 篇方向候选。下列为历次保留的 24 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
+最近扫描：**2026-11-07T08:42:43+08:00**（Asia/Shanghai）。3路查询各取最新 60 条，窗口 7 天；该轮合并后 134 篇方向候选。下列为历次保留的 27 篇精选，另含有来源记录的定向补查。抓取上限和失败源限制覆盖范围。
 
 收录日期按 arXiv 首次提交时间转换到上海日期；更新版本合并旧卡片。首次提交与本文收录时间分别列出。每日上海08:30启动新论文检索与初读筛选；没有合格新增也正常。
 
+## [2026-11-06](2026/11/06.md)
+
+<a id="paper-oopsierecover"></a>
+
+- [OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions](../library/oopsierecover.md) — The University of Texas at Austin, Toyota Research Institute
+<a id="paper-latent-rl-prior"></a>
+
+- [Latent RL Priors for Data-Efficient Dexterous Manipulation](../library/latent-rl-prior.md) — University of California, Berkeley, Amazon
+
 ## [2026-11-05](2026/11/05.md)
 
+<a id="paper-la-jepa"></a>
+
+- [La-JEPA: Compact Robot Policies with Latent World Modeling](../library/la-jepa.md) — Huawei Technologies Ltd., University of Toronto, McGill University
 <a id="paper-curobov2-fast"></a>
 
 - [cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning](../library/curobov2-fast.md) — NVIDIA

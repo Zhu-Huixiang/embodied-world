@@ -36,6 +36,9 @@
 - [CR-DAgger](../papers/cr-dagger.md) · 机制导读 · [原文](https://proceedings.nips.cc/paper_files/paper/2025/hash/cbf883a744952d4a40591271a58ab9d0-Abstract-Conference.html)
 - [DreamFree](../papers/dreamfree.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.04527v1)
 - [HALO](../papers/halo.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.06908v1)
+- [La-JEPA](../papers/la-jepa.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08156v1)
+- [Latent RL Prior](../papers/latent-rl-prior.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08458v1)
+- [OopsieRecover](../papers/oopsierecover.md) · 机制导读 · [原文](https://arxiv.org/abs/2611.08462v1)
 
 每篇的用法需要放回它自己的输入、损失与任务条件理解。这里按已有机制台账建立技术导航，完整讲解以亮起的章节为入口。
 
